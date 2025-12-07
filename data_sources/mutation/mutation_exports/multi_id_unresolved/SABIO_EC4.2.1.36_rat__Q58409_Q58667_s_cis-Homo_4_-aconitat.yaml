@@ -1,0 +1,135 @@
+name: SABIO-RK Entry 35966
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 35966
+created: '2025-10-28T14:57:39.067044'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_2_1_36_Q58409_Q58667_p35966
+  name: homoaconitate hydratase
+  sequence: null
+  ecnumber: 4.2.1.36
+  organism: rat
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q58409; Q58667
+complexes: null
+small_molecules:
+- id: substrate_cis-Homo_4_-aconitate
+  name: cis-Homo(4)-aconitate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Homo_4_-isocitrate
+  name: Homo(4)-isocitrate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_11853_EC4_2_1_36_rat_Q58409_Q58667_cis-Homo_4_-aconitate
+  name: Reaction catalyzed by homoaconitate hydratase on cis-Homo(4)-aconitate
+  equation: H2O + cis-Homo(4)-aconitate = Homo(4)-isocitrate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_cis-Homo_4_-aconitate
+  products:
+  - species_id: product_Homo_4_-isocitrate
+  modifiers:
+  - species_id: protein_4_2_1_36_Q58409_Q58667_p35966
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:41979;
+    CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352;
+    CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C00001'
+measurements:
+- id: measurement_4_2_1_36_rat_Q58409_Q58667_cis-Homo_4_-aconitate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 60.0
+  temperature_unit: °C
+parameters:
+- id: 4_2_1_36_rat_Q58409_Q58667_cis-Homo_4_-aconitate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 9.66667e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_cis-Homo_4_-aconitate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18765671'
+buffer:
+  buffer: 50 mM TAPS-KOH, 50 mM KCl, 5 mM MgCl2, 20 mM beta-Mercaptoethanol, 1 mM
+    NAD+, 30 ¦Ìg/ml Homoisocitrate dehydrogenase
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 35966
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/18765671/
+  pubmed_id: '18765671'
+  doi: null

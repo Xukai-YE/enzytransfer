@@ -1,0 +1,181 @@
+name: SABIO-RK Entry 24684
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 24684
+created: '2025-10-28T14:25:17.931085'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_5_2_6_P00809_p24684
+  name: beta-lactamase
+  ecnumber: 3.5.2.6
+  organism: Bacillus cereus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: E166D
+  uniprotid: P00809
+  wildtype_sequence: MILKNKRMLKIGICVGILGLSITSLEAFTGESLQVEAKEKTGQVKHKNQATHKEFSQLEKKFDARLGVYAIDTGTNQTISYRPNERFAFASTYKALAAGVLLQQNSIDSLNEVITYTKEDLVDYSPVTEKHVDTGMKLGEIAEAAVRSSDNTAGNILFNKIGGPKGYEKALRHMGDRITMSNRFETELNEAIPGDIRDTSTAKAIATNLKAFTVGNALPAEKRKILTEWMKGNATGDKLIRAGIPTDWVVGDKSGAGSYGTRNDIAVVWPPNSAPIIVLISSKDEKEAIYNDQLIAEATKVIVKGS
+  mutant_sequence: MILKNKRMLKIGICVGILGLSITSLEAFTGESLQVEAKEKTGQVKHKNQATHKEFSQLEKKFDARLGVYAIDTGTNQTISYRPNERFAFASTYKALAAGVLLQQNSIDSLNEVITYTKEDLVDYSPVTEKHVDTGMKLGEIAEAAVRSSDNTAGNILFNKIGGPKGYDKALRHMGDRITMSNRFETELNEAIPGDIRDTSTAKAIATNLKAFTVGNALPAEKRKILTEWMKGNATGDKLIRAGIPTDWVVGDKSGAGSYGTRNDIAVVWPPNSAPIIVLISSKDEKEAIYNDQLIAEATKVIVKGS
+  position_offset: 2
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Cephalosporin_C
+  name: Cephalosporin C
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Deacetylcephalosporin_C
+  name: Deacetylcephalosporin C
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Acetate
+  name: Acetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2905_EC3_5_2_6_Bacillus_cereus_P00809_Cephalosporin_C
+  name: Reaction catalyzed by beta-lactamase on Cephalosporin C
+  equation: H2O + Cephalosporin C = Acetate + Deacetylcephalosporin C
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Cephalosporin_C
+  products:
+  - species_id: product_Deacetylcephalosporin_C
+  - species_id: product_Acetate
+  modifiers:
+  - species_id: protein_3_5_2_6_P00809_p24684
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 22596;22597;22598;22599
+  KEGGid: R03062
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:40480; CHEBI:44819; CHEBI:41981; CHEBI:3539;
+    CHEBI:13704; CHEBI:15366; CHEBI:42857; CHEBI:41979; CHEBI:23564; CHEBI:40486;
+    CHEBI:22169; CHEBI:13953; CHEBI:2387; CHEBI:14100; CHEBI:42043; CHEBI:30089; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:18065; CHEBI:15377; CHEBI:58366; CHEBI:13352;
+    CHEBI:23065; CHEBI:57511; CHEBI:22165; CHEBI:15776; CHEBI:43228; CHEBI:44292;
+    CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:4336; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C03112; KEGG:C00033; KEGG:C00001; KEGG:C00916'
+measurements:
+- id: measurement_3_5_2_6_Bacillus_cereus_P00809_Cephalosporin_C
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 20.0
+  temperature_unit: °C
+parameters:
+- id: 3_5_2_6_Bacillus_cereus_P00809_Cephalosporin_C_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.011
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cephalosporin_C
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1980064'
+- id: 3_5_2_6_Bacillus_cereus_P00809_Cephalosporin_C_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00038
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cephalosporin_C
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1980064'
+- id: 3_5_2_6_Bacillus_cereus_P00809_Cephalosporin_C_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 28.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cephalosporin_C
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1980064'
+buffer:
+  buffer: 0.1 M sodium phosphate, 0.5 M NaCl, 0.01 mM EDTA
+  buffer_concentration: 0.1 M
+references:
+- title: Reference for SABIO-RK entry 24684
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/1980064/
+  pubmed_id: '1980064'
+  doi: null

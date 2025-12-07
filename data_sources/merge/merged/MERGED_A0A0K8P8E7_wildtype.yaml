@@ -1,0 +1,229 @@
+version: '2.0'
+created: '2025-11-20T13:40:52.914546'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_1_1_102_A0A0K8P8E7_p71331
+  name: mono(ethylene terephthalate) hydrolase
+  ecnumber: 3.1.1.102
+  organism: Ideonella sakaiensis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: A0A0K8P8E7
+  wildtype_sequence: MQTTVTTMLLASVALAACAGGGSTPLPLPQQQPPQQEPPPPPVPLASRAACEALKDGNGDMVWPNAATVVEVAAWRDAAPATASAAALPEHCEVSGAIAKRTGIDGYPYEIKFRLRMPAEWNGRFFMEGGSGTNGSLSAATGSIGGGQIASALSRNFATIATDGGHDNAVNDNPDALGTVAFGLDPQARLDMGYNSYDQVTQAGKAAVARFYGRAADKSYFIGCSEGGREGMMLSQRFPSHYDGIVAGAPGYQLPKAGISGAWTTQSLAPAAVGLDAQGVPLINKSFSDADLHLLSQAILGTCDALDGLADGIVDNYRACQAAFDPATAANPANGQALQCVGAKTADCLSPVQVTAIKRAMAGPVNSAGTPLYNRWAWDAGMSGLSGTTYNQGWRSWWLGSFNSSANNAQRVSGFSARSWLVDFATPPEPMPMTQVAARMMKFDFDIDPLKIWATSGQFTQSSMDWHGATSTDLAAFRDRGGKMILYHGMSDAAFSALDTADYYERLGAAMPGAAGFARLFLVPGMNHCSGGPGTDRFDMLTPLVAWVERGEAPDQISAWSGTPGYFGVAARTRPLCPYPQIARYKGSGDINTEANFACAAPP
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Bis_2-hydroxyethyl_terephthalate
+  name: Bis(2-hydroxyethyl) terephthalate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Glycol
+  name: Glycol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Mono_2-hydroxyethyl_terephthalate
+  name: Mono(2-hydroxyethyl) terephthalate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Mono_2-hydroxyethyl_terephthalate
+  name: Mono(2-hydroxyethyl) terephthalate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Terephthalate
+  name: Terephthalate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_15857_EC3_1_1_102_Ideonella_sakaiensis_A0A0K8P8E7_Bis_2-hydroxyethyl_terephthalate
+  name: Reaction catalyzed by mono(ethylene terephthalate) hydrolase on Bis(2-hydroxyethyl)
+    terephthalate
+  equation: H2O + Bis(2-hydroxyethyl) terephthalate = Glycol + Mono(2-hydroxyethyl)
+    terephthalate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Bis_2-hydroxyethyl_terephthalate
+  products:
+  - species_id: product_Glycol
+  - species_id: product_Mono_2-hydroxyethyl_terephthalate
+  modifiers:
+  - species_id: protein_3_1_1_102_A0A0K8P8E7_p71331
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:131704; CHEBI:42857;
+    CHEBI:41979; CHEBI:42043; CHEBI:21317; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:13352; CHEBI:30742; CHEBI:42277; CHEBI:43228; CHEBI:44292;
+    CHEBI:5473; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C21450; KEGG:C00001; KEGG:C01380; KEGG:C15588'
+- id: sabiork_15856_EC3_1_1_102_Ideonella_sakaiensis_A0A0K8P8E7_Mono_2-hydroxyethyl_terephthalate
+  name: Reaction catalyzed by mono(ethylene terephthalate) hydrolase on Mono(2-hydroxyethyl)
+    terephthalate
+  equation: H2O + Mono(2-hydroxyethyl) terephthalate = Glycol + Terephthalate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Mono_2-hydroxyethyl_terephthalate
+  products:
+  - species_id: product_Glycol
+  - species_id: product_Terephthalate
+  modifiers:
+  - species_id: protein_3_1_1_102_A0A0K8P8E7_p71330
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R11541
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:26870; CHEBI:131704;
+    CHEBI:42857; CHEBI:15702; CHEBI:41979; CHEBI:15211; CHEBI:42043; CHEBI:21317;
+    CHEBI:26868; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:30043; CHEBI:15377;
+    CHEBI:13352; CHEBI:30742; CHEBI:42277; CHEBI:43228; CHEBI:44292; CHEBI:5473; CHEBI:33806;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:9452; CHEBI:30801; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C21450; KEGG:C01380; KEGG:C00001; KEGG:C15588; KEGG:C06337'
+measurements:
+- id: measurement_3_1_1_102_Ideonella_sakaiensis_A0A0K8P8E7_Bis_2-hydroxyethyl_terephthalate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_3_1_1_102_Ideonella_sakaiensis_A0A0K8P8E7_Mono_2-hydroxyethyl_terephthalate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_1_1_102_Ideonella_sakaiensis_A0A0K8P8E7_Bis_2-hydroxyethyl_terephthalate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.1
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Bis_2-hydroxyethyl_terephthalate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26965627'
+- id: 3_1_1_102_Ideonella_sakaiensis_A0A0K8P8E7_Mono_2-hydroxyethyl_terephthalate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.3e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Mono_2-hydroxyethyl_terephthalate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26965627'
+- id: 3_1_1_102_Ideonella_sakaiensis_A0A0K8P8E7_Mono_2-hydroxyethyl_terephthalate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 31.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Mono_2-hydroxyethyl_terephthalate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26965627'
+buffer:
+  buffer: 40 mM Na2HPO4-HCl, 80 mM NaCl, 20% (v/v) DMSO
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 71331
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/26965627/
+  pubmed_id: '26965627'
+  doi: null
+name: Merged entry for A0A0K8P8E7 wildtype
+description: 'Merged from 2 files: SABIO_EC3.1.1.102_Ideonella_sakaiensis__A0A0K8P8E7_s_Bis_2-hydroxyethyl_.yaml,
+  SABIO_EC3.1.1.102_Ideonella_sakaiensis__A0A0K8P8E7_s_Mono_2-hydroxyethyl_.yaml'

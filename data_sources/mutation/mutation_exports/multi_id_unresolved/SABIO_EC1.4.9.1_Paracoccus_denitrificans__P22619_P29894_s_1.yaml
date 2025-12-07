@@ -1,0 +1,194 @@
+name: SABIO-RK Entry 9358
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 9358
+created: '2025-10-28T13:55:36.445455'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_4_9_1_P22619_P29894_p9358
+  name: methylamine dehydrogenase (amicyanin)
+  sequence: null
+  ecnumber: 1.4.9.1
+  organism: Paracoccus denitrificans
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P22619; P29894
+complexes: null
+small_molecules:
+- id: substrate_1
+  name: '1'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_7-Diaminoheptane
+  name: 7-Diaminoheptane
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Acceptor
+  name: Acceptor
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Reduced_acceptor
+  name: Reduced acceptor
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_7-Aminoheptanal
+  name: 7-Aminoheptanal
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NH3
+  name: NH3
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7957_EC1_4_9_1_Paracoccus_denitrificans_P22619_P29894_1
+  name: Reaction catalyzed by methylamine dehydrogenase (amicyanin) on 1
+  equation: Acceptor + H2O + 1,7-Diaminoheptane = 7-Aminoheptanal + NH3 + Reduced
+    acceptor
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_1
+  - species_id: substrate_7-Diaminoheptane
+  - species_id: substrate_Acceptor
+  products:
+  - species_id: product_Reduced_acceptor
+  - species_id: product_7-Aminoheptanal
+  - species_id: product_NH3
+  modifiers:
+  - species_id: protein_1_4_9_1_P22619_P29894_p9358
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:8785; CHEBI:29375; CHEBI:44284; CHEBI:44819; CHEBI:16134;
+    CHEBI:41981; CHEBI:13193; CHEBI:13405; CHEBI:7434; CHEBI:42857; CHEBI:41979; CHEBI:13407;
+    CHEBI:15018; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:22534;
+    CHEBI:135980; CHEBI:15377; CHEBI:7435; CHEBI:49783; CHEBI:22533; CHEBI:13352;
+    CHEBI:44404; CHEBI:13233; CHEBI:13771; CHEBI:43228; CHEBI:44269; CHEBI:44292;
+    CHEBI:13406; CHEBI:15339; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:28938;
+    CHEBI:29373; CHEBI:44701; CHEBI:17499
+
+    KEGG IDs: KEGG:C00030; KEGG:C00014; KEGG:C00001; KEGG:C01342; KEGG:C16722; KEGG:C00028'
+measurements:
+- id: measurement_1_4_9_1_Paracoccus_denitrificans_P22619_P29894_1
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 1_4_9_1_Paracoccus_denitrificans_P22619_P29894_1_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00038
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10985763'
+- id: 1_4_9_1_Paracoccus_denitrificans_P22619_P29894_1_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 27.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10985763'
+buffer:
+  buffer: 10 mM potassium phosphate
+  buffer_concentration: 10 mM
+references:
+- title: Reference for SABIO-RK entry 9358
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10985763/
+  pubmed_id: '10985763'
+  doi: null

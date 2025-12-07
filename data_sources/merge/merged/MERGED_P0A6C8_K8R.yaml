@@ -1,0 +1,240 @@
+version: '2.0'
+created: '2025-11-20T13:40:42.349742'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_2_8_P0A6C8_p12301
+  name: acetylglutamate kinase
+  ecnumber: 2.7.2.8
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: K8R
+  uniprotid: P0A6C8
+  wildtype_sequence: MMNPLIIKLGGVLLDSEEALERLFSALVNYRESHQRPLVIVHGGGCVVDELMKGLNLPVKKKNGLRVTPADQIDIITGALAGTANKTLLAWAKKHQIAAVGLFLGDGDSVKVTQLDEELGHVGLAQPGSPKLINSLLENGYLPVVSSIGVTDEGQLMNVNADQAATALAATLGADLILLSDVSGILDGKGQRIAEMTAAKAEQLIEQGIITDGMIVKVNAALDAARTLGRPVDIASWRHAEQLPALFNGMPMGTRILA
+  mutant_sequence: MMNPLIIRLGGVLLDSEEALERLFSALVNYRESHQRPLVIVHGGGCVVDELMKGLNLPVKKKNGLRVTPADQIDIITGALAGTANKTLLAWAKKHQIAAVGLFLGDGDSVKVTQLDEELGHVGLAQPGSPKLINSLLENGYLPVVSSIGVTDEGQLMNVNADQAATALAATLGADLILLSDVSGILDGKGQRIAEMTAAKAEQLIEQGIITDGMIVKVNAALDAARTLGRPVDIASWRHAEQLPALFNGMPMGTRILA
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_N-Acetyl-L-glutamate
+  name: N-Acetyl-L-glutamate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N-Acetyl-L-glutamyl_5-phosphate
+  name: N-Acetyl-L-glutamyl 5-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2545_EC2_7_2_8_Escherichia_coli_P0A6C8_ATP
+  name: Reaction catalyzed by acetylglutamate kinase on ATP
+  equation: ATP + N-Acetyl-L-glutamate = ADP + N-Acetyl-L-glutamyl 5-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_N-Acetyl-L-glutamate
+  products:
+  - species_id: product_ADP
+  - species_id: product_N-Acetyl-L-glutamyl_5-phosphate
+  modifiers:
+  - species_id: protein_2_7_2_8_P0A6C8_p12301
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 14629;14630;14631;14632
+  KEGGid: R02649
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:7151; CHEBI:40553; CHEBI:16878; CHEBI:13236; CHEBI:10841; CHEBI:12575; CHEBI:12441;
+    CHEBI:2359; CHEBI:87518; CHEBI:21552; CHEBI:40938; CHEBI:64040; CHEBI:17533; CHEBI:12576;
+    CHEBI:456216; CHEBI:44335; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:21550;
+    CHEBI:87274; CHEBI:57936; CHEBI:21549; CHEBI:44337; CHEBI:7150; CHEBI:13222; CHEBI:22244
+
+    KEGG IDs: KEGG:C00002; KEGG:C04133; KEGG:C00008; KEGG:C00624'
+- id: sabiork_2545_EC2_7_2_8_Escherichia_coli_P0A6C8_N-Acetyl-L-glutamate
+  name: Reaction catalyzed by acetylglutamate kinase on N-Acetyl-L-glutamate
+  equation: ATP + N-Acetyl-L-glutamate = ADP + N-Acetyl-L-glutamyl 5-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N-Acetyl-L-glutamate
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_ADP
+  - species_id: product_N-Acetyl-L-glutamyl_5-phosphate
+  modifiers:
+  - species_id: protein_2_7_2_8_P0A6C8_p12295
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 14629;14630;14631;14632
+  KEGGid: R02649
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:7151; CHEBI:40553; CHEBI:16878; CHEBI:13236; CHEBI:10841; CHEBI:12575; CHEBI:12441;
+    CHEBI:2359; CHEBI:87518; CHEBI:21552; CHEBI:40938; CHEBI:64040; CHEBI:17533; CHEBI:12576;
+    CHEBI:456216; CHEBI:44335; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:21550;
+    CHEBI:87274; CHEBI:57936; CHEBI:21549; CHEBI:44337; CHEBI:7150; CHEBI:13222; CHEBI:22244
+
+    KEGG IDs: KEGG:C00002; KEGG:C04133; KEGG:C00008; KEGG:C00624'
+measurements:
+- id: measurement_2_7_2_8_Escherichia_coli_P0A6C8_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_7_2_8_Escherichia_coli_P0A6C8_N-Acetyl-L-glutamate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_2_8_Escherichia_coli_P0A6C8_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0033
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14623187'
+- id: 2_7_2_8_Escherichia_coli_P0A6C8_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 2.66672e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14623187'
+- id: 2_7_2_8_Escherichia_coli_P0A6C8_N-Acetyl-L-glutamate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0023
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Acetyl-L-glutamate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14623187'
+- id: 2_7_2_8_Escherichia_coli_P0A6C8_N-Acetyl-L-glutamate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 1.98337e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Acetyl-L-glutamate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14623187'
+buffer:
+  buffer: 20 mM sodium phosphate, 10 mM beta-mercaptoethanol, 0.3 mM NADH, 1.5 mM
+    phosphoenolpyruvate, 50 mM KCl, 0.02 mg/ml pyruvate kinase, 0.01 mg/ml lactate
+    dehydrogenase, 10 mM MgCl; 20 mM sodium phosphate, 10 mM beta-mercaptoethanol,
+    0.3 mM NADH, 1.5 mM phosphoenolpyruvate, 50 mM KCl, 0.02 mg/ml pyruvate kinase,
+    0.01 mg/ml lactate dehydrogenase, 20 mM MgCl2
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 12301
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/14623187/
+  pubmed_id: '14623187'
+  doi: null
+name: Merged entry for P0A6C8 K8R
+description: 'Merged from 2 files: SABIO_EC2.7.2.8_Escherichia_coli__P0A6C8_K8R_s_ATP.yaml,
+  SABIO_EC2.7.2.8_Escherichia_coli__P0A6C8_K8R_s_N-Acetyl-L-glutamate.yaml'

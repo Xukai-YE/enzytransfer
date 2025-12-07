@@ -1,0 +1,188 @@
+name: SABIO-RK Entry 53193
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 53193
+created: '2025-10-28T16:03:11.619102'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_5_1_47_P32260_Q42588_p53193
+  name: cysteine synthase
+  sequence: null
+  ecnumber: 2.5.1.47
+  organism: Spinacia oleracea
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P32260; Q42588
+complexes: null
+small_molecules:
+- id: substrate_Sulfide
+  name: Sulfide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_O-Acetyl-L-serine
+  name: O-Acetyl-L-serine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Cysteine
+  name: L-Cysteine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Acetate
+  name: Acetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_9651_EC2_5_1_47_Spinacia_oleracea_P32260_Q42588_Sulfide
+  name: Reaction catalyzed by cysteine synthase on Sulfide
+  equation: Sulfide + O-Acetyl-L-serine = Acetate + L-Cysteine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Sulfide
+  - species_id: substrate_O-Acetyl-L-serine
+  products:
+  - species_id: product_L-Cysteine
+  - species_id: product_Acetate
+  modifiers:
+  - species_id: protein_2_5_1_47_P32260_Q42588_p53193
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00897
+  notes: 'ChEBI IDs: CHEBI:40480; CHEBI:7668; CHEBI:12685; CHEBI:17981; CHEBI:12724;
+    CHEBI:41781; CHEBI:13095; CHEBI:13704; CHEBI:32442; CHEBI:15366; CHEBI:21938;
+    CHEBI:21261; CHEBI:40486; CHEBI:22169; CHEBI:2387; CHEBI:41700; CHEBI:41811; CHEBI:12710;
+    CHEBI:58340; CHEBI:30089; CHEBI:32443; CHEBI:41768; CHEBI:29950; CHEBI:15138;
+    CHEBI:22165; CHEBI:16385; CHEBI:6207; CHEBI:35235; CHEBI:44568; CHEBI:32445; CHEBI:17561;
+    CHEBI:41227
+
+    KEGG IDs: KEGG:C00033; KEGG:C00297; KEGG:C00979; KEGG:C00097; KEGG:C00283'
+measurements:
+- id: measurement_2_5_1_47_Spinacia_oleracea_P32260_Q42588_Sulfide
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 2_5_1_47_Spinacia_oleracea_P32260_Q42588_Sulfide_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1700.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Sulfide
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9692924'
+- id: 2_5_1_47_Spinacia_oleracea_P32260_Q42588_Sulfide_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 7.1
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Sulfide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9692924'
+- id: 2_5_1_47_Spinacia_oleracea_P32260_Q42588_Sulfide_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00428
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Sulfide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9692924'
+buffer:
+  buffer: 50 mM Hepes/HCl, 1 mM dithiothreitol
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 53193
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9692924/
+  pubmed_id: '9692924'
+  doi: null

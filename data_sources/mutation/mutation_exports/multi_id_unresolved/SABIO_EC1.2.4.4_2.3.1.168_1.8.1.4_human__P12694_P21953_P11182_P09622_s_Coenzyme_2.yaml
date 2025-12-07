@@ -1,0 +1,251 @@
+name: SABIO-RK Entry 64563
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 64563
+created: '2025-10-28T16:49:55.694502'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_2_4_4; 2_3_1_168; 1_8_1_4_P12694_P21953_P11182_P09622_p64563
+  name: dihydrolipoyllysine-residue (2-methylpropanoyl)transferase
+  sequence: null
+  ecnumber: 1.2.4.4; 2.3.1.168; 1.8.1.4
+  organism: human
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P12694; P21953; P11182; P09622
+complexes: null
+small_molecules:
+- id: substrate_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_3-Methyl-2-oxopentanoate
+  name: 3-Methyl-2-oxopentanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Methylbutanoyl-CoA
+  name: 2-Methylbutanoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Thiamine_diphosphate
+  name: Thiamine diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_3001_EC1_2_4_4; 2_3_1_168; 1_8_1_4_human_P12694_P21953_P11182_P09622_Coenzyme_A
+  name: Reaction catalyzed by dihydrolipoyllysine-residue (2-methylpropanoyl)transferase
+    on Coenzyme A
+  equation: NAD+ + Coenzyme A + 3-Methyl-2-oxopentanoate = NADH + CO2 + 2-Methylbutanoyl-CoA
+    + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Coenzyme_A
+  - species_id: substrate_3-Methyl-2-oxopentanoate
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_CO2
+  - species_id: product_2-Methylbutanoyl-CoA
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_2_4_4; 2_3_1_168; 1_8_1_4_P12694_P21953_P11182_P09622_p64563
+    role: BIOCATALYST
+  - species_id: activator_Thiamine_diphosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 30907;30908;30909;30910
+  KEGGid: R03171
+  notes: 'ChEBI IDs: CHEBI:15614; CHEBI:15346; CHEBI:23355; CHEBI:139538; CHEBI:41631;
+    CHEBI:35932; CHEBI:15229; CHEBI:401; CHEBI:44281; CHEBI:1585; CHEBI:13393; CHEBI:10888;
+    CHEBI:29234; CHEBI:19693; CHEBI:15846; CHEBI:3283; CHEBI:13357; CHEBI:21902; CHEBI:13295;
+    CHEBI:13396; CHEBI:21901; CHEBI:41597; CHEBI:15477; CHEBI:88166; CHEBI:24636;
+    CHEBI:44214; CHEBI:213; CHEBI:29233; CHEBI:13394; CHEBI:5584; CHEBI:23011; CHEBI:9532;
+    CHEBI:57287; CHEBI:57945; CHEBI:28654; CHEBI:35146; CHEBI:13285; CHEBI:16908;
+    CHEBI:13294; CHEBI:18568; CHEBI:13282; CHEBI:80225; CHEBI:11616; CHEBI:44216;
+    CHEBI:57540; CHEBI:49939; CHEBI:18567; CHEBI:7423; CHEBI:13283; CHEBI:90222; CHEBI:45930;
+    CHEBI:13389; CHEBI:18755; CHEBI:15378; CHEBI:13284; CHEBI:13395; CHEBI:1201; CHEBI:45931;
+    CHEBI:3771; CHEBI:16526; CHEBI:58937; CHEBI:741566; CHEBI:48829; CHEBI:44215;
+    CHEBI:10744; CHEBI:11049; CHEBI:20116; CHEBI:7422; CHEBI:13298; CHEBI:57336
+
+    KEGG IDs: KEGG:C00068; KEGG:C00004; KEGG:C01033; KEGG:C00010; KEGG:C00080; KEGG:C00011;
+    KEGG:C00003; KEGG:C15980; KEGG:C03465; KEGG:C00671'
+measurements:
+- id: measurement_1_2_4_4; 2_3_1_168; 1_8_1_4_human_P12694_P21953_P11182_P09622_Coenzyme_A
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 1_2_4_4; 2_3_1_168; 1_8_1_4_human_P12694_P21953_P11182_P09622_Coenzyme_A_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.62e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Coenzyme_A
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '3593587'
+- id: 1_2_4_4; 2_3_1_168; 1_8_1_4_human_P12694_P21953_P11182_P09622_Coenzyme_A_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Coenzyme_A
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '3593587'
+- id: 1_2_4_4; 2_3_1_168; 1_8_1_4_human_P12694_P21953_P11182_P09622_Coenzyme_A_Km_3
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.525
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Coenzyme_A
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '3593587'
+- id: 1_2_4_4; 2_3_1_168; 1_8_1_4_human_P12694_P21953_P11182_P09622_Coenzyme_A_Km_4
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.7e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Coenzyme_A
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '3593587'
+- id: 1_2_4_4; 2_3_1_168; 1_8_1_4_human_P12694_P21953_P11182_P09622_Coenzyme_A_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 8.5e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Coenzyme_A
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '3593587'
+buffer:
+  buffer: 30 mM potassium phosphate, 5 mM DTT, 0.2 mM MgCl2, 100 ¦Ìg/ml BSA, 20-30
+    ¦Ìg/ml human liver lipoamide oxidoreductase
+  buffer_concentration: 30 mM
+references:
+- title: Reference for SABIO-RK entry 64563
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/3593587/
+  pubmed_id: '3593587'
+  doi: null

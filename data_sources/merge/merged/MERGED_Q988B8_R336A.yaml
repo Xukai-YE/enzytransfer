@@ -1,0 +1,254 @@
+version: '2.0'
+created: '2025-11-20T13:40:23.823666'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_6_1_30_Q988B8_p57899
+  name: pyridoxamine---pyruvate transaminase
+  ecnumber: 2.6.1.30
+  organism: rat
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: R336A
+  uniprotid: Q988B8
+  wildtype_sequence: MMRYPEHADPVITLTAGPVNAYPEVLRGLGRTVLYDYDPAFQLLYEKVVDKAQKAMRLSNKPVILHGEPVLGLEAAAASLISPDDVVLNLASGVYGKGFGYWAKRYSPHLLEIEVPYNEAIDPQAVADMLKAHPEITVVSVCHHDTPSGTINPIDAIGALVSAHGAYLIVDAVSSFGGMKTHPEDCKADIYVTGPNKCLGAPPGLTMMGVSERAWAKMKANPLAPRASMLSIVDWENAWSRDKPFPFTPSVSEINGLDVALDLYLNEGPEAVWARHALTAKAMRAGVTAMGLSVWAASDSIASPTTTAVRTPDGVDEKALRQAARARYGVVFSSGRGETLGKLTRIGHMGPTAQPIYAIAALTALGGAMNAAGRKLAIGKGIEAALAVIDADA
+  mutant_sequence: MMRYPEHADPVITLTAGPVNAYPEVLRGLGRTVLYDYDPAFQLLYEKVVDKAQKAMRLSNKPVILHGEPVLGLEAAAASLISPDDVVLNLASGVYGKGFGYWAKRYSPHLLEIEVPYNEAIDPQAVADMLKAHPEITVVSVCHHDTPSGTINPIDAIGALVSAHGAYLIVDAVSSFGGMKTHPEDCKADIYVTGPNKCLGAPPGLTMMGVSERAWAKMKANPLAPRASMLSIVDWENAWSRDKPFPFTPSVSEINGLDVALDLYLNEGPEAVWARHALTAKAMRAGVTAMGLSVWAASDSIASPTTTAVRTPDGVDEKALRQAARARYGVVFSSGAGETLGKLTRIGHMGPTAQPIYAIAALTALGGAMNAAGRKLAIGKGIEAALAVIDADA
+complexes: null
+small_molecules:
+- id: substrate_Pyridoxamine
+  name: Pyridoxamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Pyruvate
+  name: Pyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Pyridoxal
+  name: Pyridoxal
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Alanine
+  name: L-Alanine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1824_EC2_6_1_30_rat_Q988B8_Pyridoxamine
+  name: Reaction catalyzed by pyridoxamine---pyruvate transaminase on Pyridoxamine
+  equation: Pyruvate + Pyridoxamine = L-Alanine + Pyridoxal
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Pyridoxamine
+  - species_id: substrate_Pyruvate
+  products:
+  - species_id: product_Pyridoxal
+  - species_id: product_L-Alanine
+  modifiers:
+  - species_id: protein_2_6_1_30_Q988B8_p57899
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 12841;12842;12843;12844
+  KEGGid: R01712
+  notes: 'ChEBI IDs: CHEBI:17310; CHEBI:46217; CHEBI:32432; CHEBI:14987; CHEBI:8667;
+    CHEBI:26423; CHEBI:13069; CHEBI:14976; CHEBI:14978; CHEBI:76050; CHEBI:57761;
+    CHEBI:45228; CHEBI:15361; CHEBI:32431; CHEBI:26466; CHEBI:16977; CHEBI:26462;
+    CHEBI:21216; CHEBI:40734; CHEBI:131533; CHEBI:8685; CHEBI:45112; CHEBI:6171; CHEBI:16410;
+    CHEBI:32816; CHEBI:46308; CHEBI:57972; CHEBI:131530; CHEBI:8669; CHEBI:45253;
+    CHEBI:26426; CHEBI:40735
+
+    KEGG IDs: KEGG:C00041; KEGG:C00022; KEGG:C00534; KEGG:C00250'
+- id: sabiork_1824_EC2_6_1_30_rat_Q988B8_Pyruvate
+  name: Reaction catalyzed by pyridoxamine---pyruvate transaminase on Pyruvate
+  equation: Pyruvate + Pyridoxamine = L-Alanine + Pyridoxal
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Pyruvate
+  - species_id: substrate_Pyridoxamine
+  products:
+  - species_id: product_Pyridoxal
+  - species_id: product_L-Alanine
+  modifiers:
+  - species_id: protein_2_6_1_30_Q988B8_p57900
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 12841;12842;12843;12844
+  KEGGid: R01712
+  notes: 'ChEBI IDs: CHEBI:17310; CHEBI:46217; CHEBI:32432; CHEBI:14987; CHEBI:8667;
+    CHEBI:26423; CHEBI:13069; CHEBI:14976; CHEBI:14978; CHEBI:76050; CHEBI:57761;
+    CHEBI:45228; CHEBI:15361; CHEBI:32431; CHEBI:26466; CHEBI:16977; CHEBI:26462;
+    CHEBI:21216; CHEBI:40734; CHEBI:131533; CHEBI:8685; CHEBI:45112; CHEBI:6171; CHEBI:16410;
+    CHEBI:32816; CHEBI:46308; CHEBI:57972; CHEBI:131530; CHEBI:8669; CHEBI:45253;
+    CHEBI:26426; CHEBI:40735
+
+    KEGG IDs: KEGG:C00041; KEGG:C00022; KEGG:C00534; KEGG:C00250'
+measurements:
+- id: measurement_2_6_1_30_rat_Q988B8_Pyridoxamine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_2_6_1_30_rat_Q988B8_Pyruvate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_6_1_30_rat_Q988B8_Pyridoxamine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 4000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Pyridoxamine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 9.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17989071'
+- id: 2_6_1_30_rat_Q988B8_Pyridoxamine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0069
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Pyridoxamine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17989071'
+- id: 2_6_1_30_rat_Q988B8_Pyruvate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0001
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Pyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17989071'
+- id: 2_6_1_30_rat_Q988B8_Pyruvate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 28.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Pyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17989071'
+- id: 2_6_1_30_rat_Q988B8_Pyruvate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 270000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Pyruvate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 9.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17989071'
+buffer:
+  buffer: 0.1 M borate-KOH
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 57899
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/17989071/
+  pubmed_id: '17989071'
+  doi: null
+name: Merged entry for Q988B8 R336A
+description: 'Merged from 2 files: SABIO_EC2.6.1.30_rat__Q988B8_R336A_s_Pyridoxamine.yaml,
+  SABIO_EC2.6.1.30_rat__Q988B8_R336A_s_Pyruvate.yaml'

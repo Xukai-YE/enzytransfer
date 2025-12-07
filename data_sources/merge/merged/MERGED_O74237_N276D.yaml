@@ -1,0 +1,320 @@
+version: '2.0'
+created: '2025-11-20T13:39:17.649411'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_21_O74237_p9013
+  name: aldehyde reductase
+  ecnumber: 1.1.1.21
+  organism: Candida tenuis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: N276D
+  uniprotid: O74237
+  wildtype_sequence: MSASIPDIKLSSGHLMPSIGFGCWKLANATAGEQVYQAIKAGYRLFDGAEDYGNEKEVGDGVKRAIDEGLVKREEIFLTSKLWNNYHDPKNVETALNKTLADLKVDYVDLFLIHFPIAFKFVPIEEKYPPGFYCGDGNNFVYEDVPILETWKALEKLVAAGKIKSIGVSNFPGALLLDLLRGATIKPAVLQVEHHPYLQQPKLIEFAQKAGVTITAYSSFGPQSFVEMNQGRALNTPTLFAHDTIKAIAAKYNKTPAEVLLRWAAQRGIAVIPKSNLPERLVQNRSFNTFDLTKEDFEEIAKLDIGLRFNDPWDWDNIPIFV
+  mutant_sequence: MSASIPDIKLSSGHLMPSIGFGCWKLANATAGEQVYQAIKAGYRLFDGAEDYGNEKEVGDGVKRAIDEGLVKREEIFLTSKLWNNYHDPKNVETALNKTLADLKVDYVDLFLIHFPIAFKFVPIEEKYPPGFYCGDGNNFVYEDVPILETWKALEKLVAAGKIKSIGVSNFPGALLLDLLRGATIKPAVLQVEHHPYLQQPKLIEFAQKAGVTITAYSSFGPQSFVEMNQGRALNTPTLFAHDTIKAIAAKYNKTPAEVLLRWAAQRGIAVIPKSDLPERLVQNRSFNTFDLTKEDFEEIAKLDIGLRFNDPWDWDNIPIFV
+complexes: null
+small_molecules:
+- id: substrate_D-Xylose
+  name: D-Xylose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Xylitol
+  name: Xylitol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1616_EC1_1_1_21_Candida_tenuis_O74237_D-Xylose
+  name: Reaction catalyzed by aldehyde reductase on D-Xylose
+  equation: NADP+ + Xylitol = D-Xylose + H+ + NADPH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Xylose
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_Xylitol
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_1_1_21_O74237_p9013
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01431
+  notes: 'ChEBI IDs: CHEBI:57574; CHEBI:13397; CHEBI:13398; CHEBI:17151; CHEBI:46522;
+    CHEBI:7424; CHEBI:44405; CHEBI:21903; CHEBI:10078; CHEBI:7425; CHEBI:29234; CHEBI:60939;
+    CHEBI:13357; CHEBI:25523; CHEBI:24636; CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:27339;
+    CHEBI:15328; CHEBI:16474; CHEBI:44286; CHEBI:13033; CHEBI:253147; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:18009; CHEBI:4265; CHEBI:58349; CHEBI:13400; CHEBI:57783;
+    CHEBI:10744; CHEBI:15936; CHEBI:21118
+
+    KEGG IDs: KEGG:C00379; KEGG:C00181; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C11037'
+- id: sabiork_6501_EC1_1_1_21_Candida_tenuis_O74237_D-Xylose
+  name: Reaction catalyzed by aldehyde reductase on D-Xylose
+  equation: D-Xylose + H+ + NADH = Xylitol + NAD+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Xylose
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_Xylitol
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_1_1_21_O74237_p9014
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R09477
+  notes: 'ChEBI IDs: CHEBI:57574; CHEBI:17151; CHEBI:46522; CHEBI:44281; CHEBI:10078;
+    CHEBI:13393; CHEBI:29234; CHEBI:60939; CHEBI:15846; CHEBI:13357; CHEBI:21902;
+    CHEBI:13396; CHEBI:21901; CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:5584; CHEBI:13394;
+    CHEBI:27339; CHEBI:57945; CHEBI:44216; CHEBI:15328; CHEBI:13033; CHEBI:57540;
+    CHEBI:7423; CHEBI:253147; CHEBI:13389; CHEBI:15378; CHEBI:13395; CHEBI:4265; CHEBI:10744;
+    CHEBI:44215; CHEBI:15936; CHEBI:21118; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00379; KEGG:C00181; KEGG:C00080; KEGG:C00003; KEGG:C00004'
+measurements:
+- id: measurement_1_1_1_21_Candida_tenuis_O74237_D-Xylose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_1_1_21_Candida_tenuis_O74237_D-Xylose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1_21_Candida_tenuis_O74237_D-Xylose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 10000000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Xylose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15320875'
+- id: 1_1_1_21_Candida_tenuis_O74237_D-Xylose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.17
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Xylose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15320875'
+- id: 1_1_1_21_Candida_tenuis_O74237_D-Xylose_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.7e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Xylose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15320875'
+- id: 1_1_1_21_Candida_tenuis_O74237_D-Xylose_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 37.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Xylose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15320875'
+- id: 1_1_1_21_Candida_tenuis_O74237_D-Xylose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.099
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Xylose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15320875'
+- id: 1_1_1_21_Candida_tenuis_O74237_D-Xylose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2000000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Xylose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15320875'
+- id: 1_1_1_21_Candida_tenuis_O74237_D-Xylose_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.6e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Xylose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15320875'
+- id: 1_1_1_21_Candida_tenuis_O74237_D-Xylose_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 14.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Xylose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15320875'
+buffer:
+  buffer: 50 mM potassium phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 9013
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15320875/
+  pubmed_id: '15320875'
+  doi: null
+name: Merged entry for O74237 N276D
+description: 'Merged from 2 files: SABIO_EC1.1.1.21_Candida_tenuis__O74237_N276D_s_D-Xylose.yaml,
+  SABIO_EC1.1.1.21_Candida_tenuis__O74237_N276D_s_D-Xylose_2.yaml'

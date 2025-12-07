@@ -1,0 +1,248 @@
+version: '2.0'
+created: '2025-11-20T13:40:03.736976'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_3_1_224_O64988_p58814
+  name: acetyl-CoA-benzylalcohol acetyltransferase
+  ecnumber: 2.3.1.224
+  organism: Clarkia breweri
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: O64988
+  wildtype_sequence: MNVTMHSKKLLKPSIPTPNHLQKLNLSLLDQIQIPFYVGLIFHYETLSDNSDITLSKLESSLSETLTLYYHVAGRYNGTDCVIECNDQGIGYVETAFDVELHQFLLGEESNNLDLLVGLSGFLSETETPPLAAIQLNMFKCGGLVIGAQFNHIIGDMFTMSTFMNSWAKACRVGIKEVAHPTFGLAPLMPSAKVLNIPPPPSFEGVKFVSKRFVFNENAITRLRKEATEEDGDGDDDQKKKRPSRVDLVTAFLSKSLIEMDCAKKEQTKSRPSLMVHMMNLRKRTKLALENDVSGNFFIVVNAESKITVAPKITDLTESLGSACGEIISEVAKVDDAEVVSSMVLNSVREFYYEWGKGEKNVFLYTSWCRFPLYEVDFGWGIPSLVDTTAVPFGLIVLMDEAPAGDGIAVRACLSEHDMIQFQQHHQLLSYVS
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Acetyl-CoA
+  name: Acetyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Benzyl_alcohol
+  name: Benzyl alcohol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Benzyl_acetate
+  name: Benzyl acetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_14358_EC2_3_1_224_Clarkia_breweri_O64988_Acetyl-CoA
+  name: Reaction catalyzed by acetyl-CoA-benzylalcohol acetyltransferase on Acetyl-CoA
+  equation: Acetyl-CoA + Benzyl alcohol = Coenzyme A + Benzyl acetate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Acetyl-CoA
+  - species_id: substrate_Benzyl_alcohol
+  products:
+  - species_id: product_Benzyl_acetate
+  - species_id: product_Coenzyme_A
+  modifiers:
+  - species_id: protein_2_3_1_224_O64988_p58814
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 36147;36148;36149;36150
+  KEGGid: R10473
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:15346; CHEBI:23355; CHEBI:57288; CHEBI:41631;
+    CHEBI:13712; CHEBI:3053; CHEBI:13295; CHEBI:41597; CHEBI:52051; CHEBI:13888; CHEBI:57287;
+    CHEBI:22742; CHEBI:13294; CHEBI:40470; CHEBI:13298; CHEBI:25399; CHEBI:2408; CHEBI:3771;
+    CHEBI:741566; CHEBI:17987; CHEBI:15351
+
+    KEGG IDs: KEGG:C00556; KEGG:C03485; KEGG:C00010; KEGG:C15513; KEGG:C00024'
+- id: sabiork_14358_EC2_3_1_224_Clarkia_breweri_O64988_Benzyl_alcohol
+  name: Reaction catalyzed by acetyl-CoA-benzylalcohol acetyltransferase on Benzyl
+    alcohol
+  equation: Acetyl-CoA + Benzyl alcohol = Coenzyme A + Benzyl acetate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Benzyl_alcohol
+  - species_id: substrate_Acetyl-CoA
+  products:
+  - species_id: product_Coenzyme_A
+  - species_id: product_Benzyl_acetate
+  modifiers:
+  - species_id: protein_2_3_1_224_O64988_p58819
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 36147;36148;36149;36150
+  KEGGid: R10473
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:15346; CHEBI:23355; CHEBI:17987; CHEBI:57288;
+    CHEBI:41631; CHEBI:13712; CHEBI:3053; CHEBI:13295; CHEBI:41597; CHEBI:52051; CHEBI:13888;
+    CHEBI:57287; CHEBI:22742; CHEBI:13294; CHEBI:40470; CHEBI:25399; CHEBI:2408; CHEBI:3771;
+    CHEBI:741566; CHEBI:13298; CHEBI:15351
+
+    KEGG IDs: KEGG:C00556; KEGG:C03485; KEGG:C00010; KEGG:C15513; KEGG:C00024'
+- id: sabiork_14358_EC2_3_1_224_Clarkia_breweri_O64988_Acetyl-CoA
+  name: Reaction catalyzed by acetyl-CoA-benzylalcohol acetyltransferase on Acetyl-CoA
+  equation: Acetyl-CoA + Benzyl alcohol = Coenzyme A + Benzyl acetate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Acetyl-CoA
+  - species_id: substrate_Benzyl_alcohol
+  products:
+  - species_id: product_Benzyl_acetate
+  - species_id: product_Coenzyme_A
+  modifiers:
+  - species_id: protein_2_3_1_224_O64988_p58820
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 36147;36148;36149;36150
+  KEGGid: R10473
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:15346; CHEBI:23355; CHEBI:57288; CHEBI:41631;
+    CHEBI:13712; CHEBI:3053; CHEBI:13295; CHEBI:41597; CHEBI:52051; CHEBI:13888; CHEBI:57287;
+    CHEBI:22742; CHEBI:13294; CHEBI:40470; CHEBI:13298; CHEBI:25399; CHEBI:2408; CHEBI:3771;
+    CHEBI:741566; CHEBI:17987; CHEBI:15351
+
+    KEGG IDs: KEGG:C00556; KEGG:C03485; KEGG:C00010; KEGG:C15513; KEGG:C00024'
+measurements:
+- id: measurement_2_3_1_224_Clarkia_breweri_O64988_Acetyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_2_3_1_224_Clarkia_breweri_O64988_Benzyl_alcohol
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_2_3_1_224_Clarkia_breweri_O64988_Acetyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_3_1_224_Clarkia_breweri_O64988_Acetyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00024
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10588064'
+- id: 2_3_1_224_Clarkia_breweri_O64988_Benzyl_alcohol_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00014
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Benzyl_alcohol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10588064'
+- id: 2_3_1_224_Clarkia_breweri_O64988_Acetyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.4e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10588064'
+buffer:
+  buffer: 50 mM Tris-HCl, 5 mM MgCl2 , 5 mM KCl, 2 mM beta-mercaptoethanol
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 58814
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10588064/
+  pubmed_id: '10588064'
+  doi: null
+name: Merged entry for O64988 wildtype
+description: 'Merged from 3 files: SABIO_EC2.3.1.224_Clarkia_breweri__O64988_s_Acetyl-CoA.yaml,
+  SABIO_EC2.3.1.224_Clarkia_breweri__O64988_s_Benzyl.yaml, SABIO_EC2.3.1.224_Clarkia_breweri__O64988_s_Acetyl-CoA_2.yaml'

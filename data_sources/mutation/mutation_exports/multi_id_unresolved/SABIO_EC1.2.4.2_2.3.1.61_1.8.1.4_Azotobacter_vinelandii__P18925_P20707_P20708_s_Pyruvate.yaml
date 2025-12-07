@@ -1,0 +1,164 @@
+name: SABIO-RK Entry 11899
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 11899
+created: '2025-10-28T13:59:53.581939'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_2_4_2; 2_3_1_61; 1_8_1_4_P18925_P20707_P20708_p11899
+  name: dihydrolipoyllysine-residue (2-methylpropanoyl)transferase
+  sequence: null
+  ecnumber: 1.2.4.2; 2.3.1.61; 1.8.1.4
+  organism: Azotobacter vinelandii
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P18925; P20707; P20708
+complexes: null
+small_molecules:
+- id: substrate_Pyruvate
+  name: Pyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Acetyl-CoA
+  name: Acetyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_523_EC1_2_4_2; 2_3_1_61; 1_8_1_4_Azotobacter_vinelandii_P18925_P20707_P20708_Pyruvate
+  name: Reaction catalyzed by dihydrolipoyllysine-residue (2-methylpropanoyl)transferase
+    on Pyruvate
+  equation: NAD+ + Pyruvate + Coenzyme A = CO2 + Acetyl-CoA + H+ + NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Pyruvate
+  - species_id: substrate_Coenzyme_A
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_NADH
+  - species_id: product_CO2
+  - species_id: product_Acetyl-CoA
+  modifiers:
+  - species_id: protein_1_2_4_2; 2_3_1_61; 1_8_1_4_P18925_P20707_P20708_p11899
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 28042;28043;28044;28045
+  KEGGid: R00209
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:15346; CHEBI:23355; CHEBI:14987; CHEBI:139538;
+    CHEBI:41631; CHEBI:57288; CHEBI:44281; CHEBI:13712; CHEBI:13393; CHEBI:15846;
+    CHEBI:3283; CHEBI:21902; CHEBI:15361; CHEBI:13295; CHEBI:13396; CHEBI:21901; CHEBI:41597;
+    CHEBI:44214; CHEBI:13394; CHEBI:23011; CHEBI:57287; CHEBI:26466; CHEBI:57945;
+    CHEBI:44216; CHEBI:13285; CHEBI:13294; CHEBI:13282; CHEBI:26462; CHEBI:40470;
+    CHEBI:57540; CHEBI:7423; CHEBI:13283; CHEBI:8685; CHEBI:13389; CHEBI:2408; CHEBI:13395;
+    CHEBI:13284; CHEBI:15351; CHEBI:32816; CHEBI:3771; CHEBI:16526; CHEBI:741566;
+    CHEBI:48829; CHEBI:44215; CHEBI:45253; CHEBI:7422; CHEBI:13298; CHEBI:16908
+
+    KEGG IDs: KEGG:C00010; KEGG:C00022; KEGG:C00011; KEGG:C00003; KEGG:C00004; KEGG:C00024'
+measurements:
+- id: measurement_1_2_4_2; 2_3_1_61; 1_8_1_4_Azotobacter_vinelandii_P18925_P20707_P20708_Pyruvate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 0.1 M potassium phosphate, 1 mM MgCl2, 1 mM thiamin diphosphate, 0.1 mM
+    dithiothreitol
+  buffer_concentration: 0.1 M
+references:
+- title: Reference for SABIO-RK entry 11899
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10848975/
+  pubmed_id: '10848975'
+  doi: null

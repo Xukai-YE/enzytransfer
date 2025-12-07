@@ -1,0 +1,190 @@
+name: SABIO-RK Entry 37953
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 37953
+created: '2025-10-28T15:05:09.730951'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_261_Q9YER2_p37953
+  name: sn-glycerol-1-phosphate dehydrogenase
+  ecnumber: 1.1.1.261
+  organism: Aeropyrum pernix
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: D144A
+  uniprotid: Q9YER2
+  wildtype_sequence: MYTSFHRIDLPRTIVVGGGVLDKAGGYVSGVAQRGSYVLVVSGPTVSSKYFERLRASLEAEGLTVGLKIIRDATVETAEEVAREALESRIEVVAGLGGGKSIDVAKYASKRAGSVFVSIPTVASHDGITSPFSSLKGFDKPISRPAKAPEAIIIDVDVIAEAPRRYNIAGFGDLIGKYTAVLDWRLAHKLRLEYYGEYAASLALLSAKHVSQYAEEIALGTREGYRVLLEALVSSGVSMCIAGSTRPASGSEHLFAHALHIVARNKPLHGEAVGVGTIMMAYLHGKNWRRIRGLLKTVGAPTNAKELGVEDDEVVEALTIAARIRPERYTILGEKGLTREAAEALARKTGVI
+  mutant_sequence: MYTSFHRIDLPRTIVVGGGVLDKAGGYVSGVAQRGSYVLVVSGPTVSSKYFERLRASLEAEGLTVGLKIIRDATVETAEEVAREALESRIEVVAGLGGGKSIDVAKYASKRAGSVFVSIPTVASHDGITSPFSSLKGFAKPISRPAKAPEAIIIDVDVIAEAPRRYNIAGFGDLIGKYTAVLDWRLAHKLRLEYYGEYAASLALLSAKHVSQYAEEIALGTREGYRVLLEALVSSGVSMCIAGSTRPASGSEHLFAHALHIVARNKPLHGEAVGVGTIMMAYLHGKNWRRIRGLLKTVGAPTNAKELGVEDDEVVEALTIAARIRPERYTILGEKGLTREAAEALARKTGVI
+  position_offset: -5
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Glycerone_phosphate
+  name: Glycerone phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_sn-Glycerol_1-phosphate
+  name: sn-Glycerol 1-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_5276_EC1_1_1_261_Aeropyrum_pernix_Q9YER2_Glycerone_phosphate
+  name: Reaction catalyzed by sn-glycerol-1-phosphate dehydrogenase on Glycerone phosphate
+  equation: NADP+ + sn-Glycerol 1-phosphate = Glycerone phosphate + NADPH + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Glycerone_phosphate
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_sn-Glycerol_1-phosphate
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_1_1_261_Q9YER2_p37953
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 21416;21417;21418;21419
+  KEGGid: R05680
+  notes: 'ChEBI IDs: CHEBI:26702; CHEBI:13397; CHEBI:13398; CHEBI:7424; CHEBI:44405;
+    CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357; CHEBI:25523; CHEBI:24636; CHEBI:26703;
+    CHEBI:5450; CHEBI:29233; CHEBI:16221; CHEBI:5584; CHEBI:13399; CHEBI:16474; CHEBI:44286;
+    CHEBI:21904; CHEBI:44409; CHEBI:39668; CHEBI:15378; CHEBI:12844; CHEBI:18009;
+    CHEBI:57685; CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:10744; CHEBI:16108
+
+    KEGG IDs: KEGG:C00005; KEGG:C00111; KEGG:C00080; KEGG:C00006; KEGG:C11037; KEGG:C00623'
+measurements:
+- id: measurement_1_1_1_261_Aeropyrum_pernix_Q9YER2_Glycerone_phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 65.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1_261_Aeropyrum_pernix_Q9YER2_Glycerone_phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000218
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glycerone_phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15876564'
+- id: 1_1_1_261_Aeropyrum_pernix_Q9YER2_Glycerone_phosphate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 3.506667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glycerone_phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15876564'
+- id: 1_1_1_261_Aeropyrum_pernix_Q9YER2_Glycerone_phosphate_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.9e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glycerone_phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15876564'
+buffer:
+  buffer: 50 mM Tris-HCl, 70 mM KCl
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 37953
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15876564/
+  pubmed_id: '15876564'
+  doi: null

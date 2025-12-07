@@ -1,0 +1,180 @@
+name: SABIO-RK Entry 71975
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 71975
+created: '2025-10-28T17:26:17.512314'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_7__Q5VT66_p71975
+  name: molybdenum cofactor sulfurtransferase
+  ecnumber: 1.7.
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: A165T
+  uniprotid: Q5VT66
+  wildtype_sequence: MGAAGSSALARFVLLAQSRPGWLGVAALGLTAVALGAVAWRRAWPTRRRRLLQQVGTVAQLWIYPVKSCKGVPVSEAECTAMGLRSGNLRDRFWLVINQEGNMVTARQEPRLVLISLTCDGDTLTLSAAYTKDLLLPIKTPTTNAVHKCRVHGLEIEGRDCGEATAQWITSFLKSQPYRLVHFEPHMRPRRPHQIADLFRPKDQIAYSDTSPFLILSEASLADLNSRLEKKVKATNFRPNIVISGCDVYAEDSWDELLIGDVELKRVMACSRCILTTVDPDTGVMSRKEPLETLKSYRQCDPSERKLYGKSPLFGQYFVLENPGTIKVGDPVYLLGQ
+  mutant_sequence: MGAAGSSALARFVLLAQSRPGWLGVAALGLTAVALGAVAWRRAWPTRRRRLLQQVGTVAQLWIYPVKSCKGVPVSEAECTAMGLRSGNLRDRFWLVINQEGNMVTARQEPRLVLISLTCDGDTLTLSAAYTKDLLLPIKTPTTNAVHKCRVHGLEIEGRDCGETTAQWITSFLKSQPYRLVHFEPHMRPRRPHQIADLFRPKDQIAYSDTSPFLILSEASLADLNSRLEKKVKATNFRPNIVISGCDVYAEDSWDELLIGDVELKRVMACSRCILTTVDPDTGVMSRKEPLETLKSYRQCDPSERKLYGKSPLFGQYFVLENPGTIKVGDPVYLLGQ
+  position_offset: -1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Benzamidoxime
+  name: Benzamidoxime
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Benzamidine
+  name: Benzamidine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Molybdenum
+  name: Molybdenum
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_15837_EC1_7__Homo_sapiens_Q5VT66_NADH
+  name: Reaction catalyzed by molybdenum cofactor sulfurtransferase on NADH
+  equation: NADH + H+ + Benzamidoxime = NAD+ + H2O + Benzamidine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  - species_id: substrate_Benzamidoxime
+  products:
+  - species_id: product_NAD_
+  - species_id: product_Benzamidine
+  modifiers:
+  - species_id: protein_1_7__Q5VT66_p71975
+    role: BIOCATALYST
+  - species_id: activator_Molybdenum
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:44281; CHEBI:42857;
+    CHEBI:41979; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:13357; CHEBI:21902;
+    CHEBI:13396; CHEBI:21901; CHEBI:83354; CHEBI:42043; CHEBI:24636; CHEBI:44214;
+    CHEBI:29233; CHEBI:33811; CHEBI:5584; CHEBI:33813; CHEBI:27313; CHEBI:13394; CHEBI:15377;
+    CHEBI:13352; CHEBI:57945; CHEBI:44216; CHEBI:41033; CHEBI:57540; CHEBI:43228;
+    CHEBI:7423; CHEBI:44292; CHEBI:33806; CHEBI:13389; CHEBI:10743; CHEBI:29374; CHEBI:5585;
+    CHEBI:13395; CHEBI:15378; CHEBI:28685; CHEBI:10744; CHEBI:44215; CHEBI:29373;
+    CHEBI:44701; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00150; KEGG:C00080; KEGG:C00001; KEGG:C00003; KEGG:C01784; KEGG:C00004'
+measurements:
+- id: measurement_1_7__Homo_sapiens_Q5VT66_NADH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 1_7__Homo_sapiens_Q5VT66_NADH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 6.833333e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '24423752'
+- id: 1_7__Homo_sapiens_Q5VT66_NADH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0004
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '24423752'
+buffer:
+  buffer: 20 mM 4-morpholineethanesulfonic acid, cytochrome b5 type B containing 6
+    pmol heme, NADH cytochrome b5 reductase containing 6 pmol FAD
+  buffer_concentration: 20 mM
+references:
+- title: Reference for SABIO-RK entry 71975
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/24423752/
+  pubmed_id: '24423752'
+  doi: null

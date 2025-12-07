@@ -1,0 +1,234 @@
+version: '2.0'
+created: '2025-11-20T13:42:00.755823'
+modified: null
+creators:
+- given_name: SKiD
+  family_name: Database
+  mail: skid@database.org
+vessels: null
+proteins:
+- id: protein_Q8ZH62
+  name: Yersinia pestis
+  ecnumber: 1.1.1.267
+  organism: Yersinia pestis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: null
+  uniprotid: Q8ZH62
+  wildtype_sequence: MKQLTILGSTGSIGNSTLSVVRANPELFKVTALVAGRNVREMAQQCLEFSPRYAAMSDEHSAKSLRLLLAEQGSDTEVYSGETAACELAALDDVDQVMAAIVGIAGLPSTLAAIRAGKQVLLANKESLITCGKLFMDEVKRSRAQLLPIDSEHNAIFQSLPERIQRQLGYSSLNENGVSRIILTGSGGPFRETPLSQFSDVTPDQACAHPNWSMGRKISVDSATMMNKGLEYIEARWLFNASAEQIEVVLHPQSVIHSMVRYHDGSILAQMGTPDMRTPIAHAMAYPMRVSSGVAPLDFCKVGALTFTTPDYQRYPCLKLAIDACNAGQAATTALNAANEISVMAFLDSKIRFTDIEVINRTVVEGLLLSEPTSVEEVLVIDRKARDVAAQVIAKLNN
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_1-deoxy-D-xylulose_5-phosphate
+  name: 1-deoxy-D-xylulose 5-phosphate
+  canonical_smiles: P(=O)(O)(O)OC[C@H]([C@@H](C(C)=O)O)O
+  inchi: InChI=1S/C5H11O7P/c1-3(6)5(8)4(7)2-12-13(9,10)11/h4-5,7-8H,2H2,1H3,(H2,9,10,11)/t4-,5-/m1/s1
+  inchikey: AJPADPZSRRUGHI-RFZPGFLSSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/443201
+- id: product
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)(O)O)O)O)O
+  inchi: InChI=1S/C21H30N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1,3-4,7-8,10-11,13-16,20-21,29-31H,2,5-6H2,(H2,23,32)(H,36,37)(H,38,39)(H2,22,24,25)(H2,33,34,35)
+  inchikey: ACFIXJIJDZMPPO-UHFFFAOYSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/5884
+reactions:
+- id: reaction_Q8ZH62_1-deoxy-D-xylulose_5-phosphate
+  name: Reaction catalyzed by enzyme on 1-deoxy-D-xylulose 5-phosphate
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_1-deoxy-D-xylulose_5-phosphate
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_Q8ZH62
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_Q8ZH62_NADPH
+  name: Reaction catalyzed by enzyme on NADPH
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_Q8ZH62
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+measurements:
+- id: measurement_0
+  name: Experimental conditions (pH=7.8, T=37.0°C)
+  species_data: null
+  ph_opt: 7.8
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=7.8, T=37.0°C)
+  species_data: null
+  ph_opt: 7.8
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: Q8ZH62_1-deoxy-D-xylulose_5-phosphate_kcat_261
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.7
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_1-deoxy-D-xylulose_5-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: 'Source: kcat'
+  pubmed_id: '25171339'
+- id: Q8ZH62_1-deoxy-D-xylulose_5-phosphate_Km_11325
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.222
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_1-deoxy-D-xylulose_5-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '25171339'
+- id: Q8ZH62_NADPH_kcat_260
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.0
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: 'Source: kcat'
+  pubmed_id: '25171339'
+- id: Q8ZH62_NADPH_Km_11326
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.0127
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '25171339'
+buffer:
+  buffer: null
+  buffer_concentration: null
+references:
+- title: R.D.
+  authors: Haymond, A., Johny, C., Dowdy, T., Schweibenz, B., Villarroel, K., Young,
+    R., Mantooth, C.J., Patel, T., Bases, J., San Jose, G., Jackson, E.R., Dowd, C.S.,
+    Couch
+  year: '2014'
+  journal: Kinetic characterization and allosteric inhibition of the Yersinia pestis
+    1-deoxy-D-xylulose 5-phosphate reductoisomerase (MEP synthase)
+  uri: null
+  pubmed_id: '25171339'
+  doi: null
+  id: '83'
+  pages: e106243
+  volume: '9'
+  citation: 'Haymond, A.,Johny, C.,Dowdy, T.,Schweibenz, B.,Villarroel, K.,Young,
+    R.,Mantooth, C.J.,Patel, T.,Bases, J.,San Jose, G.,Jackson, E.R.,Dowd, C.S.,Couch,
+    R.D., Kinetic characterization and allosteric inhibition of the Yersinia pestis
+    1-deoxy-D-xylulose 5-phosphate reductoisomerase (MEP synthase), PLoS ONE, 2014,
+    e106243, 9, PMID: 25171339'
+name: Merged entry for Q8ZH62 wildtype
+description: 'Merged from 2 files: SKID_EC1.1.1.267_Yersinia_Q8ZH62_1-deoxy-D-xylul.yaml,
+  SKID_EC1.1.1.267_Yersinia_Q8ZH62_NADPH.yaml'

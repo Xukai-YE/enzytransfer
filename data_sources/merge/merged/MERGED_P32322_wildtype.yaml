@@ -1,0 +1,314 @@
+version: '2.0'
+created: '2025-11-20T13:39:51.427752'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_5_1_2_P32322_p26902
+  name: pyrroline-5-carboxylate reductase
+  ecnumber: 1.5.1.2
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P32322
+  wildtype_sequence: MSVGFIGAGQLAFALAKGFTAAGVLAAHKIMASSPDMDLATVSALRKMGVKLTPHNKETVQHSDVLFLAVKPHIIPFILDEIGADIEDRHIVVSCAAGVTISSIEKKLSAFRPAPRVIRCMTNTPVVVREGATVYATGTHAQVEDGRLMEQLLSSVGFCTEVEEDLIDAVTGLSGSGPAYAFTALDALADGGVKMGLPRRLAVRLGAQALLGAAKMLLHSEQHPGQLKDNVSSPGGATIHALHVLESGGFRSLLINAVEASCIRTRELQSMADQEQVSPAAIKKTILDKVKLDSPAGTALSPSGHTKLLPRSLAPAGKD
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Thioproline
+  name: Thioproline
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_1-Thiopyrroline-5-carboxylate
+  name: 1-Thiopyrroline-5-carboxylate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_10870_EC1_5_1_2_Homo_sapiens_P32322_Thioproline
+  name: Reaction catalyzed by pyrroline-5-carboxylate reductase on Thioproline
+  equation: Thioproline + NAD+ = 1-Thiopyrroline-5-carboxylate + NADH + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Thioproline
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_NADH
+  - species_id: product_1-Thiopyrroline-5-carboxylate
+  modifiers:
+  - species_id: protein_1_5_1_2_P32322_p26902
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:45171; CHEBI:44281; CHEBI:13393; CHEBI:64564; CHEBI:29234;
+    CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636;
+    CHEBI:44214; CHEBI:29233; CHEBI:13394; CHEBI:5584; CHEBI:57945; CHEBI:44216; CHEBI:57540;
+    CHEBI:7423; CHEBI:13389; CHEBI:13395; CHEBI:15378; CHEBI:44215; CHEBI:10744; CHEBI:7422;
+    CHEBI:16908
+
+    KEGG IDs: KEGG:C00003; KEGG:C00004; KEGG:C00080'
+- id: sabiork_10982_EC1_5_1_2_Homo_sapiens_P32322_NADP_
+  name: Reaction catalyzed by pyrroline-5-carboxylate reductase on NADP+
+  equation: NADP+ + Thioproline = 1-Thiopyrroline-5-carboxylate + NADPH + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADP_
+  - species_id: substrate_Thioproline
+  products:
+  - species_id: product_1-Thiopyrroline-5-carboxylate
+  - species_id: product_NADPH
+  modifiers:
+  - species_id: protein_1_5_1_2_P32322_p26901
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:45171; CHEBI:13397; CHEBI:13398; CHEBI:7424; CHEBI:21903;
+    CHEBI:44405; CHEBI:64564; CHEBI:29234; CHEBI:7425; CHEBI:25523; CHEBI:13357; CHEBI:24636;
+    CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:16474; CHEBI:44286; CHEBI:21904; CHEBI:44409;
+    CHEBI:15378; CHEBI:18009; CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00005; KEGG:C00006; KEGG:C11037; KEGG:C00080'
+- id: sabiork_10982_EC1_5_1_2_Homo_sapiens_P32322_Thioproline
+  name: Reaction catalyzed by pyrroline-5-carboxylate reductase on Thioproline
+  equation: NADP+ + Thioproline = 1-Thiopyrroline-5-carboxylate + NADPH + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Thioproline
+  - species_id: substrate_NADP_
+  products:
+  - species_id: product_NADPH
+  - species_id: product_1-Thiopyrroline-5-carboxylate
+  modifiers:
+  - species_id: protein_1_5_1_2_P32322_p26903
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:45171; CHEBI:13397; CHEBI:13398; CHEBI:7424; CHEBI:21903;
+    CHEBI:44405; CHEBI:64564; CHEBI:7425; CHEBI:29234; CHEBI:25523; CHEBI:13357; CHEBI:24636;
+    CHEBI:29233; CHEBI:13399; CHEBI:5584; CHEBI:16474; CHEBI:44286; CHEBI:21904; CHEBI:44409;
+    CHEBI:15378; CHEBI:18009; CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00005; KEGG:C00006; KEGG:C11037; KEGG:C00080'
+measurements:
+- id: measurement_1_5_1_2_Homo_sapiens_P32322_Thioproline
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_5_1_2_Homo_sapiens_P32322_NADP_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_5_1_2_Homo_sapiens_P32322_Thioproline
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_5_1_2_Homo_sapiens_P32322_Thioproline_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 55.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Thioproline
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16730026'
+- id: 1_5_1_2_Homo_sapiens_P32322_Thioproline_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000151
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Thioproline
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16730026'
+- id: 1_5_1_2_Homo_sapiens_P32322_NADP__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00126
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16730026'
+- id: 1_5_1_2_Homo_sapiens_P32322_NADP__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 55.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16730026'
+- id: 1_5_1_2_Homo_sapiens_P32322_Thioproline_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 55.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Thioproline
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16730026'
+- id: 1_5_1_2_Homo_sapiens_P32322_Thioproline_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00306
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Thioproline
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16730026'
+buffer:
+  buffer: 300 mM Tris-HCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 26902
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16730026/
+  pubmed_id: '16730026'
+  doi: null
+name: Merged entry for P32322 wildtype
+description: 'Merged from 3 files: SABIO_EC1.5.1.2_Homo_sapiens__P32322_s_Thioproline.yaml,
+  SABIO_EC1.5.1.2_Homo_sapiens__P32322_s_NADP_.yaml, SABIO_EC1.5.1.2_Homo_sapiens__P32322_s_Thioproline_2.yaml'

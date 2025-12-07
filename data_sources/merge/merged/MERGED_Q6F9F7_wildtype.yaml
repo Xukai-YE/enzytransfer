@@ -1,0 +1,258 @@
+version: '2.0'
+created: '2025-11-20T13:39:12.535360'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_unknown_Q6F9F7_p75616
+  name: protein#75616
+  ecnumber: null
+  organism: Acinetobacter baylyi
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q6F9F7
+  wildtype_sequence: MQQFQLYINGKFEDGAAQFDSINPATGEIWAKMPEARTDQVNRAVDAAEQAFYDSSWSGLTASQRGKLLYKLADLVEKSAPRLAALETTDTGKIIRETSSQIAYVAEYYRYYAGLADKIEGSFIPVDKPDMQAWLVREPVGVVAAIVPWNSQLFLSAVKVGPALAAGCTVVLKASEEAPAPLLEFAKLIDEAGFPAGVVNVITGFGPECGAVLSAHPKVAHIAFTGGPETAKHIVRNSAENLAKVSLELGGKSPFIVFADTDINSALNAQIAAIFAATGQSCVAGSRLLIEESIKDEFLQRLAERVQSIKMGLPDDMQTEYGPLCTLKQREKIQQVVQRSVEQGAKLITGGQVCDGAGYYYPPTILDCSGVSDAQSIHTELFGPVLSVDTFSTEAEAIQKANSTPYGLASGVFTSNLTRAHRMTRAIRSGIVWLNTYRVVSPLAPFGGYGLSGHGREGGLSAALEYTTTKTVWLRMSDQPIDDPFVMR
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate__Z_-2-_N-Methylformamido_methylene_-5-hydroxybutanolactone
+  name: (Z)-2-((N-Methylformamido)methylene)-5-hydroxybutanolactone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product__E_-2-_N-Methylformamido_methylene_succinate
+  name: (E)-2-((N-Methylformamido)methylene)succinate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_16453_ECunknown_Acinetobacter_baylyi_Q6F9F7_NAD_
+  name: Reaction catalyzed by enzyme on NAD+
+  equation: NAD+ + H2O + (Z)-2-((N-Methylformamido)methylene)-5-hydroxybutanolactone
+    = NADH + H+ + (E)-2-((N-Methylformamido)methylene)succinate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate__Z_-2-_N-Methylformamido_methylene_-5-hydroxybutanolactone
+  products:
+  - species_id: product_NADH
+  - species_id: product__E_-2-_N-Methylformamido_methylene_succinate
+  modifiers:
+  - species_id: protein_unknown_Q6F9F7_p75616
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:44281; CHEBI:42857;
+    CHEBI:13393; CHEBI:41979; CHEBI:29234; CHEBI:15846; CHEBI:13357; CHEBI:21902;
+    CHEBI:13396; CHEBI:21901; CHEBI:42043; CHEBI:24636; CHEBI:44214; CHEBI:29233;
+    CHEBI:33811; CHEBI:13394; CHEBI:33813; CHEBI:27313; CHEBI:5584; CHEBI:15377; CHEBI:141414;
+    CHEBI:13352; CHEBI:57945; CHEBI:44216; CHEBI:57540; CHEBI:43228; CHEBI:7423; CHEBI:141413;
+    CHEBI:44292; CHEBI:13389; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:13395;
+    CHEBI:15378; CHEBI:44215; CHEBI:10744; CHEBI:29373; CHEBI:44701; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00003; KEGG:C00001; KEGG:C00004; KEGG:C00080'
+- id: sabiork_16453_ECunknown_Acinetobacter_baylyi_Q6F9F7__Z_-2-_N-Methylformamido_methylene_-5-hydroxybutanolactone
+  name: Reaction catalyzed by enzyme on (Z)-2-((N-Methylformamido)methylene)-5-hydroxybutanolactone
+  equation: NAD+ + H2O + (Z)-2-((N-Methylformamido)methylene)-5-hydroxybutanolactone
+    = NADH + H+ + (E)-2-((N-Methylformamido)methylene)succinate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate__Z_-2-_N-Methylformamido_methylene_-5-hydroxybutanolactone
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product__E_-2-_N-Methylformamido_methylene_succinate
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_unknown_Q6F9F7_p75617
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:44281; CHEBI:42857;
+    CHEBI:13393; CHEBI:41979; CHEBI:29234; CHEBI:15846; CHEBI:13357; CHEBI:21902;
+    CHEBI:13396; CHEBI:21901; CHEBI:42043; CHEBI:24636; CHEBI:44214; CHEBI:29233;
+    CHEBI:33811; CHEBI:13394; CHEBI:33813; CHEBI:27313; CHEBI:5584; CHEBI:15377; CHEBI:141414;
+    CHEBI:13352; CHEBI:57945; CHEBI:44216; CHEBI:57540; CHEBI:43228; CHEBI:7423; CHEBI:141413;
+    CHEBI:44292; CHEBI:13389; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:13395;
+    CHEBI:15378; CHEBI:44215; CHEBI:10744; CHEBI:29373; CHEBI:44701; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00003; KEGG:C00001; KEGG:C00004; KEGG:C00080'
+measurements:
+- id: measurement_unknown_Acinetobacter_baylyi_Q6F9F7_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_unknown_Acinetobacter_baylyi_Q6F9F7__Z_-2-_N-Methylformamido_methylene_-5-hydroxybutanolactone
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: unknown_Acinetobacter_baylyi_Q6F9F7_NAD__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2.5
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29686076'
+- id: unknown_Acinetobacter_baylyi_Q6F9F7_NAD__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 2800.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29686076'
+- id: unknown_Acinetobacter_baylyi_Q6F9F7_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0009
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29686076'
+- id: unknown_Acinetobacter_baylyi_Q6F9F7__Z_-2-_N-Methylformamido_methylene_-5-hydroxybutanolactone_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 18000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__Z_-2-_N-Methylformamido_methylene_-5-hydroxybutanolactone
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29686076'
+- id: unknown_Acinetobacter_baylyi_Q6F9F7__Z_-2-_N-Methylformamido_methylene_-5-hydroxybutanolactone_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00014
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__Z_-2-_N-Methylformamido_methylene_-5-hydroxybutanolactone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29686076'
+buffer:
+  buffer: 50 mM Tris-HCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 75616
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/29686076/
+  pubmed_id: '29686076'
+  doi: null
+name: Merged entry for Q6F9F7 wildtype
+description: 'Merged from 2 files: SABIO_Acinetobacter_baylyi__Q6F9F7_s_NAD_.yaml,
+  SABIO_Acinetobacter_baylyi__Q6F9F7_s__Z_-2-_N-Methylform.yaml'

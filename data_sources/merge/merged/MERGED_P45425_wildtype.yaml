@@ -1,0 +1,883 @@
+version: '2.0'
+created: '2025-11-20T13:40:35.885230'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_60_P45425_p37731
+  name: glucokinase
+  ecnumber: 2.7.1.60
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P45425
+  wildtype_sequence: MTTLAIDIGGTKLAAALIGADGQIRDRRELPTPASQTPEALRDALSALVSPLQAHAQRVAIASTGIIRDGSLLALNPHNLGGLLHFPLVKTLEQLTNLPTIAINDAQAAAWAEFQALDGDITDMVFITVSTGVGGGVVSGCKLLTGPGGLAGHIGHTLADPHGPVCGCGRTGCVEAIASGRGIAAAAQGELAGADAKTIFTRAGQGDEQAQQLIHRSARTLARLIADIKATTDCQCVVVGGSVGLAEGYLALVETYLAQEPAAFHVDLLAAHYRHDAGLLGAALLAQGEKL
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Glucose
+  name: D-Glucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Glucose_6-phosphate
+  name: D-Glucose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_N-Acetyl-D-mannosamine
+  name: N-Acetyl-D-mannosamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N-Acetyl-D-mannosamine_6-phosphate
+  name: N-Acetyl-D-mannosamine 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Mannose
+  name: D-Mannose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Mannose_6-phosphate
+  name: D-Mannose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_1
+  name: '1'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_5-Anhydro-D-glucitol
+  name: 5-Anhydro-D-glucitol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_1
+  name: '1'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_5-Anhydro-D-glucitol_6-phosphate
+  name: 5-Anhydro-D-glucitol 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_793_EC2_7_1_60_Escherichia_coli_P45425_ATP
+  name: Reaction catalyzed by glucokinase on ATP
+  equation: D-Glucose + ATP = ADP + D-Glucose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_D-Glucose
+  products:
+  - species_id: product_ADP
+  - species_id: product_D-Glucose_6-phosphate
+  modifiers:
+  - species_id: protein_2_7_1_60_P45425_p37731
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17825;17826;17827;17828;36495;36496;36497;36498
+  KEGGid: R00299
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:40553; CHEBI:42748; CHEBI:42802; CHEBI:13236; CHEBI:10242; CHEBI:58225;
+    CHEBI:4167; CHEBI:12318; CHEBI:17634; CHEBI:10841; CHEBI:4170; CHEBI:12321; CHEBI:2359;
+    CHEBI:17665; CHEBI:87518; CHEBI:40938; CHEBI:22386; CHEBI:15954; CHEBI:10245;
+    CHEBI:456216; CHEBI:14314; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:22389;
+    CHEBI:13222; CHEBI:22244; CHEBI:40557; CHEBI:17925; CHEBI:88300
+
+    KEGG IDs: KEGG:C00267; KEGG:C00668; KEGG:C00092; KEGG:C00002; KEGG:C00008; KEGG:C00031'
+- id: sabiork_2597_EC2_7_1_60_Escherichia_coli_P45425_ATP
+  name: Reaction catalyzed by glucokinase on ATP
+  equation: ATP + N-Acetyl-D-mannosamine = ADP + N-Acetyl-D-mannosamine 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_N-Acetyl-D-mannosamine
+  products:
+  - species_id: product_N-Acetyl-D-mannosamine_6-phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_60_P45425_p37734
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 25253;25254;25255;25256
+  KEGGid: R02705
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:40553; CHEBI:7142; CHEBI:13236; CHEBI:58557; CHEBI:10841; CHEBI:2359; CHEBI:28273;
+    CHEBI:87518; CHEBI:40938; CHEBI:456216; CHEBI:22249; CHEBI:21539; CHEBI:2342;
+    CHEBI:15422; CHEBI:17122; CHEBI:13222; CHEBI:22244
+
+    KEGG IDs: KEGG:C00002; KEGG:C00008; KEGG:C00645; KEGG:C04257'
+- id: sabiork_2597_EC2_7_1_60_Escherichia_coli_P45425_ATP
+  name: Reaction catalyzed by glucokinase on ATP
+  equation: ATP + N-Acetyl-D-mannosamine = ADP + N-Acetyl-D-mannosamine 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_N-Acetyl-D-mannosamine
+  products:
+  - species_id: product_N-Acetyl-D-mannosamine_6-phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_60_P45425_p40779
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 25253;25254;25255;25256
+  KEGGid: R02705
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:40553; CHEBI:7142; CHEBI:13236; CHEBI:58557; CHEBI:10841; CHEBI:2359; CHEBI:28273;
+    CHEBI:87518; CHEBI:40938; CHEBI:456216; CHEBI:22249; CHEBI:21539; CHEBI:2342;
+    CHEBI:15422; CHEBI:17122; CHEBI:13222; CHEBI:22244
+
+    KEGG IDs: KEGG:C00002; KEGG:C00008; KEGG:C00645; KEGG:C04257'
+- id: sabiork_793_EC2_7_1_60_Escherichia_coli_P45425_ATP
+  name: Reaction catalyzed by glucokinase on ATP
+  equation: D-Glucose + ATP = ADP + D-Glucose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_D-Glucose
+  products:
+  - species_id: product_ADP
+  - species_id: product_D-Glucose_6-phosphate
+  modifiers:
+  - species_id: protein_2_7_1_60_P45425_p40780
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17825;17826;17827;17828;36495;36496;36497;36498
+  KEGGid: R00299
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:40553; CHEBI:42748; CHEBI:42802; CHEBI:13236; CHEBI:10242; CHEBI:58225;
+    CHEBI:4167; CHEBI:12318; CHEBI:17634; CHEBI:10841; CHEBI:4170; CHEBI:12321; CHEBI:2359;
+    CHEBI:17665; CHEBI:87518; CHEBI:40938; CHEBI:22386; CHEBI:15954; CHEBI:10245;
+    CHEBI:456216; CHEBI:14314; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:22389;
+    CHEBI:13222; CHEBI:22244; CHEBI:40557; CHEBI:17925; CHEBI:88300
+
+    KEGG IDs: KEGG:C00267; KEGG:C00668; KEGG:C00092; KEGG:C00002; KEGG:C00008; KEGG:C00031'
+- id: sabiork_793_EC2_7_1_60_Escherichia_coli_P45425_ATP
+  name: Reaction catalyzed by glucokinase on ATP
+  equation: D-Glucose + ATP = ADP + D-Glucose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_D-Glucose
+  products:
+  - species_id: product_ADP
+  - species_id: product_D-Glucose_6-phosphate
+  modifiers:
+  - species_id: protein_2_7_1_60_P45425_p40787
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17825;17826;17827;17828;36495;36496;36497;36498
+  KEGGid: R00299
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:40553; CHEBI:42748; CHEBI:42802; CHEBI:13236; CHEBI:10242; CHEBI:58225;
+    CHEBI:4167; CHEBI:12318; CHEBI:17634; CHEBI:10841; CHEBI:4170; CHEBI:12321; CHEBI:2359;
+    CHEBI:17665; CHEBI:87518; CHEBI:40938; CHEBI:22386; CHEBI:15954; CHEBI:10245;
+    CHEBI:456216; CHEBI:14314; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:22389;
+    CHEBI:13222; CHEBI:22244; CHEBI:40557; CHEBI:17925; CHEBI:88300
+
+    KEGG IDs: KEGG:C00267; KEGG:C00668; KEGG:C00092; KEGG:C00002; KEGG:C00008; KEGG:C00031'
+- id: sabiork_575_EC2_7_1_60_Escherichia_coli_P45425_ATP
+  name: Reaction catalyzed by hexokinase on ATP
+  equation: D-Mannose + ATP = ADP + D-Mannose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_D-Mannose
+  products:
+  - species_id: product_D-Mannose_6-phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_60_P45425_p40805
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01326
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:40553; CHEBI:10260; CHEBI:28729; CHEBI:13236; CHEBI:10841; CHEBI:2359; CHEBI:22403;
+    CHEBI:87518; CHEBI:40938; CHEBI:17369; CHEBI:37684; CHEBI:456216; CHEBI:60332;
+    CHEBI:4208; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:12328; CHEBI:43894; CHEBI:48066;
+    CHEBI:16024; CHEBI:43896; CHEBI:43805; CHEBI:13222; CHEBI:22244
+
+    KEGG IDs: KEGG:C00936; KEGG:C00002; KEGG:C00159; KEGG:C00008; KEGG:C00275'
+- id: sabiork_9555_EC2_7_1_60_Escherichia_coli_P45425_ATP
+  name: Reaction catalyzed by hexokinase on ATP
+  equation: 1,5-Anhydro-D-glucitol + ATP = 1,5-Anhydro-D-glucitol 6-phosphate + ADP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: product_1
+  - species_id: substrate_5-Anhydro-D-glucitol
+  products:
+  - species_id: product_1
+  - species_id: product_5-Anhydro-D-glucitol_6-phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_60_P45425_p40811
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:40553; CHEBI:550; CHEBI:13236; CHEBI:11176; CHEBI:10841; CHEBI:2359; CHEBI:18943;
+    CHEBI:87518; CHEBI:40938; CHEBI:456216; CHEBI:22249; CHEBI:2342; CHEBI:16070;
+    CHEBI:15422; CHEBI:40816; CHEBI:13222; CHEBI:22244
+
+    KEGG IDs: KEGG:C07326; KEGG:C00002; KEGG:C00008'
+- id: sabiork_793_EC2_7_1_60_Escherichia_coli_P45425_D-Glucose
+  name: Reaction catalyzed by glucokinase on D-Glucose
+  equation: D-Glucose + ATP = ADP + D-Glucose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Glucose
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_D-Glucose_6-phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_60_P45425_p37732
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17825;17826;17827;17828;36495;36496;36497;36498
+  KEGGid: R00299
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:42748; CHEBI:40553; CHEBI:42802; CHEBI:10242; CHEBI:13236; CHEBI:58225;
+    CHEBI:4167; CHEBI:12318; CHEBI:17634; CHEBI:10841; CHEBI:4170; CHEBI:12321; CHEBI:2359;
+    CHEBI:17665; CHEBI:87518; CHEBI:40938; CHEBI:22386; CHEBI:15954; CHEBI:10245;
+    CHEBI:14314; CHEBI:456216; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:22389;
+    CHEBI:13222; CHEBI:22244; CHEBI:40557; CHEBI:17925; CHEBI:88300
+
+    KEGG IDs: KEGG:C00267; KEGG:C00668; KEGG:C00092; KEGG:C00002; KEGG:C00008; KEGG:C00031'
+- id: sabiork_2597_EC2_7_1_60_Escherichia_coli_P45425_N-Acetyl-D-mannosamine
+  name: Reaction catalyzed by glucokinase on N-Acetyl-D-mannosamine
+  equation: ATP + N-Acetyl-D-mannosamine = ADP + N-Acetyl-D-mannosamine 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N-Acetyl-D-mannosamine
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_N-Acetyl-D-mannosamine_6-phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_60_P45425_p40782
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 25253;25254;25255;25256
+  KEGGid: R02705
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:40553; CHEBI:7142; CHEBI:13236; CHEBI:58557; CHEBI:10841; CHEBI:2359; CHEBI:28273;
+    CHEBI:87518; CHEBI:40938; CHEBI:456216; CHEBI:22249; CHEBI:21539; CHEBI:2342;
+    CHEBI:15422; CHEBI:17122; CHEBI:13222; CHEBI:22244
+
+    KEGG IDs: KEGG:C00002; KEGG:C00008; KEGG:C00645; KEGG:C04257'
+- id: sabiork_2597_EC2_7_1_60_Escherichia_coli_P45425_N-Acetyl-D-mannosamine
+  name: Reaction catalyzed by glucokinase on N-Acetyl-D-mannosamine
+  equation: ATP + N-Acetyl-D-mannosamine = ADP + N-Acetyl-D-mannosamine 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N-Acetyl-D-mannosamine
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_ADP
+  - species_id: product_N-Acetyl-D-mannosamine_6-phosphate
+  modifiers:
+  - species_id: protein_2_7_1_60_P45425_p37733
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 25253;25254;25255;25256
+  KEGGid: R02705
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:40553; CHEBI:7142; CHEBI:13236; CHEBI:58557; CHEBI:10841; CHEBI:2359; CHEBI:28273;
+    CHEBI:87518; CHEBI:40938; CHEBI:456216; CHEBI:22249; CHEBI:2342; CHEBI:21539;
+    CHEBI:15422; CHEBI:17122; CHEBI:13222; CHEBI:22244
+
+    KEGG IDs: KEGG:C00002; KEGG:C00008; KEGG:C00645; KEGG:C04257'
+measurements:
+- id: measurement_2_7_1_60_Escherichia_coli_P45425_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_7_1_60_Escherichia_coli_P45425_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_7_1_60_Escherichia_coli_P45425_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_7_1_60_Escherichia_coli_P45425_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_7_1_60_Escherichia_coli_P45425_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_7_1_60_Escherichia_coli_P45425_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_7_1_60_Escherichia_coli_P45425_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_7_1_60_Escherichia_coli_P45425_D-Glucose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_7_1_60_Escherichia_coli_P45425_N-Acetyl-D-mannosamine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_7_1_60_Escherichia_coli_P45425_N-Acetyl-D-mannosamine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_1_60_Escherichia_coli_P45425_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 9.1
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15157072'
+- id: 2_7_1_60_Escherichia_coli_P45425_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.018
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15157072'
+- id: 2_7_1_60_Escherichia_coli_P45425_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 510.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15157072'
+- id: 2_7_1_60_Escherichia_coli_P45425_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00051
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15157072'
+- id: 2_7_1_60_Escherichia_coli_P45425_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 83.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15157072'
+- id: 2_7_1_60_Escherichia_coli_P45425_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00036
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17979299'
+- id: 2_7_1_60_Escherichia_coli_P45425_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 150000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17979299'
+- id: 2_7_1_60_Escherichia_coli_P45425_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 56.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17979299'
+- id: 2_7_1_60_Escherichia_coli_P45425_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.02
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17979299'
+- id: 2_7_1_60_Escherichia_coli_P45425_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1100.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17979299'
+- id: 2_7_1_60_Escherichia_coli_P45425_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 22.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17979299'
+- id: 2_7_1_60_Escherichia_coli_P45425_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0012
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17979299'
+- id: 2_7_1_60_Escherichia_coli_P45425_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 22.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17979299'
+- id: 2_7_1_60_Escherichia_coli_P45425_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.084
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17979299'
+- id: 2_7_1_60_Escherichia_coli_P45425_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 25.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17979299'
+- id: 2_7_1_60_Escherichia_coli_P45425_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 300.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17979299'
+- id: 2_7_1_60_Escherichia_coli_P45425_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1.7
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17979299'
+- id: 2_7_1_60_Escherichia_coli_P45425_D-Glucose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0029
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15157072'
+- id: 2_7_1_60_Escherichia_coli_P45425_D-Glucose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 9.1
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15157072'
+- id: 2_7_1_60_Escherichia_coli_P45425_N-Acetyl-D-mannosamine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00026
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Acetyl-D-mannosamine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17979299'
+- id: 2_7_1_60_Escherichia_coli_P45425_N-Acetyl-D-mannosamine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 56.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Acetyl-D-mannosamine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17979299'
+- id: 2_7_1_60_Escherichia_coli_P45425_N-Acetyl-D-mannosamine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00031
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Acetyl-D-mannosamine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15157072'
+- id: 2_7_1_60_Escherichia_coli_P45425_N-Acetyl-D-mannosamine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 270000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Acetyl-D-mannosamine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15157072'
+- id: 2_7_1_60_Escherichia_coli_P45425_N-Acetyl-D-mannosamine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 83.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Acetyl-D-mannosamine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15157072'
+buffer:
+  buffer: 0.2 M Tris, 0.5 mM NADH, 1 mM DTT, 5 mM phosphoenolpyruvate, 6-26 mM MgCl2,
+    5 mM KCl, 15 units Pyruvate kinase, 25 units Lactate dehydrogenase; 0.3-0.5 M
+    Tris-HCl; 0.2 M Tris, 0.5 mM NADP+, 1 mM DTT, 8.5 mM MgCl2, 7.5 units Glucose
+    6-phosphate dehydrogenase
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 37731
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15157072/
+  pubmed_id: '15157072'
+  doi: null
+- title: Reference for SABIO-RK entry 40779
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/17979299/
+  pubmed_id: '17979299'
+  doi: null
+name: Merged entry for P45425 wildtype
+description: 'Merged from 10 files: SABIO_EC2.7.1.60_Escherichia_coli__P45425_s_ATP.yaml,
+  SABIO_EC2.7.1.60_Escherichia_coli__P45425_s_ATP_2.yaml, SABIO_EC2.7.1.60_Escherichia_coli__P45425_s_ATP_3.yaml,
+  SABIO_EC2.7.1.60_Escherichia_coli__P45425_s_ATP_4.yaml, SABIO_EC2.7.1.60_Escherichia_coli__P45425_s_ATP_5.yaml,
+  SABIO_EC2.7.1.60_Escherichia_coli__P45425_s_ATP_6.yaml, SABIO_EC2.7.1.60_Escherichia_coli__P45425_s_ATP_7.yaml,
+  SABIO_EC2.7.1.60_Escherichia_coli__P45425_s_D-Glucose.yaml, SABIO_EC2.7.1.60_Escherichia_coli__P45425_s_N-Acetyl-D-mannosami_2.yaml,
+  SABIO_EC2.7.1.60_Escherichia_coli__P45425_s_N-Acetyl-D-mannosami.yaml'

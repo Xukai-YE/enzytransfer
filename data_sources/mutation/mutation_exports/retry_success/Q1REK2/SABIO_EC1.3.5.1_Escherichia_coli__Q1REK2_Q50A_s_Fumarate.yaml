@@ -1,0 +1,190 @@
+name: SABIO-RK Entry 8866
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 8866
+created: '2025-10-28T13:54:46.036514'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_3_5_1_Q1REK2_p8866
+  name: succinate dehydrogenase (ubiquinone)
+  ecnumber: 1.3.5.1
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: Q50A
+  uniprotid: Q1REK2
+  wildtype_sequence: MGCVMKLPVREFDAVVIGAGGAGMRAALQISQSGQTCALLSKVFPTRSHTVSAQGGITVALGNTHEDNWEWHMYDTVKGSDYIGDQDAIEYMCKTGPEAILELEHMGLPFSRLDDGRIYQRPFGGQSKNFGGEQAARTAAAADRTGHALLHTLYQQNLKNHTTIFSEWYALDLVKNQDGAVVGCTALCIETGEVVYFKARATVLATGGAGRIYQSTTNAHINTGDGVGMAIRAGVPVQDMEMWQFHPTGIAGAGVLVTEGCRGEGGYLLNKHGERFMERYAPNAKDLAGRDVVARSIMIEIREGRGCDGPWGPHAKLKLDHLGKEVLESRLPGILELSRTFAHVDPVKEPIPVIPTCHYMMGGIPTKVTGQALTVNEKGEDVVVPGLFAVGEIACVSVHGANRLGGNSLLDLVVFGRAAGLHLQESIAEQGALRDASESDVEASLDRLNRWNNNRNGEDPVAIRKALQECMQHNFSVFREGDAMAKGLEQLKVIRERLKNARLDDTSSEFNTQRVECLELDNLMETAYATAVSANFRTESRGAHSRFDFPDRDDENWLCHSLYLPESESMTRRSVNMEPKLRPAFPPKIRTY
+  mutant_sequence: MGCVMKLPVREFDAVVIGAGGAGMRAALQISQSGQTCALLSKVFPTRSHTVSAAGGITVALGNTHEDNWEWHMYDTVKGSDYIGDQDAIEYMCKTGPEAILELEHMGLPFSRLDDGRIYQRPFGGQSKNFGGEQAARTAAAADRTGHALLHTLYQQNLKNHTTIFSEWYALDLVKNQDGAVVGCTALCIETGEVVYFKARATVLATGGAGRIYQSTTNAHINTGDGVGMAIRAGVPVQDMEMWQFHPTGIAGAGVLVTEGCRGEGGYLLNKHGERFMERYAPNAKDLAGRDVVARSIMIEIREGRGCDGPWGPHAKLKLDHLGKEVLESRLPGILELSRTFAHVDPVKEPIPVIPTCHYMMGGIPTKVTGQALTVNEKGEDVVVPGLFAVGEIACVSVHGANRLGGNSLLDLVVFGRAAGLHLQESIAEQGALRDASESDVEASLDRLNRWNNNRNGEDPVAIRKALQECMQHNFSVFREGDAMAKGLEQLKVIRERLKNARLDDTSSEFNTQRVECLELDNLMETAYATAVSANFRTESRGAHSRFDFPDRDDENWLCHSLYLPESESMTRRSVNMEPKLRPAFPPKIRTY
+  position_offset: 4
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Fumarate
+  name: Fumarate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Ubiquinol
+  name: Ubiquinol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Ubiquinone
+  name: Ubiquinone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Succinate
+  name: Succinate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_258_EC1_3_5_1_Escherichia_coli_Q1REK2_Fumarate
+  name: Reaction catalyzed by succinate dehydrogenase (ubiquinone) on Fumarate
+  equation: Ubiquinone + Succinate = Ubiquinol + Fumarate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Fumarate
+  - species_id: substrate_Ubiquinol
+  products:
+  - species_id: product_Ubiquinone
+  - species_id: product_Succinate
+  modifiers:
+  - species_id: protein_1_3_5_1_Q1REK2_p8866
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 13713;13714;13715;13716
+  KEGGid: R02164
+  notes: 'ChEBI IDs: CHEBI:26807; CHEBI:17976; CHEBI:42743; CHEBI:42511; CHEBI:15125;
+    CHEBI:16389; CHEBI:26803; CHEBI:24124; CHEBI:22943; CHEBI:29806; CHEBI:45639;
+    CHEBI:9304; CHEBI:132287; CHEBI:90372; CHEBI:24122; CHEBI:30031; CHEBI:18012;
+    CHEBI:14284; CHEBI:22941; CHEBI:30779; CHEBI:15741; CHEBI:5190; CHEBI:46372; CHEBI:37154
+
+    KEGG IDs: KEGG:C00122; KEGG:C00399; KEGG:C00042; KEGG:C00390'
+measurements:
+- id: measurement_1_3_5_1_Escherichia_coli_Q1REK2_Fumarate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 1_3_5_1_Escherichia_coli_Q1REK2_Fumarate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 10000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Fumarate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16484232'
+- id: 1_3_5_1_Escherichia_coli_Q1REK2_Fumarate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.9
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Fumarate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16484232'
+- id: 1_3_5_1_Escherichia_coli_Q1REK2_Fumarate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 9.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Fumarate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16484232'
+buffer:
+  buffer: 30 mM bis-Tris-propane, 0.1 mM EDTA, 0.006 % Thesit, 3 mM potassium cyanide,
+    0.2 mM benzylviologen/methylviologen
+  buffer_concentration: 30 mM
+references:
+- title: Reference for SABIO-RK entry 8866
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16484232/
+  pubmed_id: '16484232'
+  doi: null

@@ -1,0 +1,414 @@
+version: '2.0'
+created: '2025-11-20T13:39:54.141312'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_6_2_6_O81413_p55592
+  name: leghemoglobin reductase
+  ecnumber: 1.6.2.6
+  organism: Glycine max
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: O81413
+  wildtype_sequence: MAMANLARRKGYAVVLSSRSSLCLTRWRGFASGSDENDVVVIGGGPGGYVAAIKAAQLGLKTTCIEKRGTLGGTCLNVGCIPSKALLHSSHMYHEAKHAFANHGVKFSSVEVDLPAMMAQKDKAVSNLTKGIEGLFKKNKVNYVKGYGKLVSPSEVSVDTTEGGNTVVKGKHIIIATGSDVKSLPGITIDEKKVVSSTGALALTEIPKRLIVIGAGYIGLEMGSVWGRLGSEITVVEFASEIVPTMDAEVRKQFQRSLEKQGMKFKLKTKVVGVDTSGDGVKLTLEPAAGGDQTTLEADVVLVSAGRTPFTAELGLDKIGVETDKIGRILVNERFATNVSGVYAIGDVIPGPMLAHKAEEDGVACVEYIAGKVGHVDYDKVPGVVYTMPEVASVGKTEEQVKELGVEYRVGKFPFLANSRAKAIDNAEGLVKILAEKETDKILGVHIMAPNAGELIHEAAIALQYDASSEDIARVCHAHPTMSEAVKEAAMATYDKPIHI
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Ferrileghemoglobin
+  name: Ferrileghemoglobin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Ferroleghemoglobin
+  name: Ferroleghemoglobin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Lipoamide
+  name: Lipoamide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Dihydrolipoamide
+  name: Dihydrolipoamide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_682_EC1_6_2_6_Glycine_max_O81413_Ferrileghemoglobin
+  name: Reaction catalyzed by leghemoglobin reductase on Ferrileghemoglobin
+  equation: Ferrileghemoglobin + H+ + NADH = Ferroleghemoglobin + NAD+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Ferrileghemoglobin
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_Ferroleghemoglobin
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_6_2_6_O81413_p55592
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:13357;
+    CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636; CHEBI:44214; CHEBI:29233;
+    CHEBI:5584; CHEBI:13394; CHEBI:57945; CHEBI:44216; CHEBI:17373; CHEBI:57540; CHEBI:7423;
+    CHEBI:17423; CHEBI:13389; CHEBI:15378; CHEBI:13395; CHEBI:10744; CHEBI:44215;
+    CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C02685; KEGG:C02683; KEGG:C00003; KEGG:C00004'
+- id: sabiork_60_EC1_6_2_6_Glycine_max_O81413_Lipoamide
+  name: Reaction catalyzed by dihydrolipoyl dehydrogenase on Lipoamide
+  equation: Dihydrolipoamide + NAD+ = NADH + Lipoamide + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Lipoamide
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_Dihydrolipoamide
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_6_2_6_O81413_p55590
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 33059;33060;33061;33062
+  KEGGid: R01698
+  notes: 'ChEBI IDs: CHEBI:25055; CHEBI:44281; CHEBI:83094; CHEBI:43711; CHEBI:13393;
+    CHEBI:29234; CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901;
+    CHEBI:14153; CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:57945;
+    CHEBI:44216; CHEBI:4568; CHEBI:14518; CHEBI:57540; CHEBI:7423; CHEBI:17460; CHEBI:13389;
+    CHEBI:23749; CHEBI:13395; CHEBI:15378; CHEBI:17694; CHEBI:10744; CHEBI:44215;
+    CHEBI:7422; CHEBI:6491; CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C00248; KEGG:C00579; KEGG:C00003; KEGG:C00004'
+- id: sabiork_60_EC1_6_2_6_Glycine_max_O81413_NADH
+  name: Reaction catalyzed by dihydrolipoyl dehydrogenase on NADH
+  equation: Dihydrolipoamide + NAD+ = NADH + Lipoamide + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  - species_id: substrate_Lipoamide
+  products:
+  - species_id: product_NAD_
+  - species_id: product_Dihydrolipoamide
+  modifiers:
+  - species_id: protein_1_6_2_6_O81413_p55591
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 33059;33060;33061;33062
+  KEGGid: R01698
+  notes: 'ChEBI IDs: CHEBI:25055; CHEBI:44281; CHEBI:83094; CHEBI:43711; CHEBI:13393;
+    CHEBI:29234; CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901;
+    CHEBI:14153; CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:57945;
+    CHEBI:44216; CHEBI:4568; CHEBI:14518; CHEBI:57540; CHEBI:7423; CHEBI:17460; CHEBI:13389;
+    CHEBI:23749; CHEBI:13395; CHEBI:15378; CHEBI:17694; CHEBI:10744; CHEBI:44215;
+    CHEBI:7422; CHEBI:6491; CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C00248; KEGG:C00579; KEGG:C00003; KEGG:C00004'
+measurements:
+- id: measurement_1_6_2_6_Glycine_max_O81413_Ferrileghemoglobin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_1_6_2_6_Glycine_max_O81413_Lipoamide
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_1_6_2_6_Glycine_max_O81413_NADH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 1_6_2_6_Glycine_max_O81413_Ferrileghemoglobin_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.03066728
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Ferrileghemoglobin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11788775'
+- id: 1_6_2_6_Glycine_max_O81413_Ferrileghemoglobin_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.6
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Ferrileghemoglobin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11788775'
+- id: 1_6_2_6_Glycine_max_O81413_Ferrileghemoglobin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.9e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Ferrileghemoglobin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11788775'
+- id: 1_6_2_6_Glycine_max_O81413_Ferrileghemoglobin_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 55000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Ferrileghemoglobin
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 6.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11788775'
+- id: 1_6_2_6_Glycine_max_O81413_Lipoamide_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.003381
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Lipoamide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11788775'
+- id: 1_6_2_6_Glycine_max_O81413_Lipoamide_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.007783489
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Lipoamide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11788775'
+- id: 1_6_2_6_Glycine_max_O81413_Lipoamide_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 392.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Lipoamide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11788775'
+- id: 1_6_2_6_Glycine_max_O81413_Lipoamide_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 116000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Lipoamide
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 6.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11788775'
+- id: 1_6_2_6_Glycine_max_O81413_NADH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 2.716721
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11788775'
+- id: 1_6_2_6_Glycine_max_O81413_NADH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.8e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11788775'
+- id: 1_6_2_6_Glycine_max_O81413_NADH_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 2362000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 6.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11788775'
+- id: 1_6_2_6_Glycine_max_O81413_NADH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 137.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11788775'
+buffer:
+  buffer: 50 mM Potassium phosphate, 2 mM EDTA
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 55592
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11788775/
+  pubmed_id: '11788775'
+  doi: null
+name: Merged entry for O81413 wildtype
+description: 'Merged from 3 files: SABIO_EC1.6.2.6_Glycine_max__O81413_s_Ferrileghemoglobin.yaml,
+  SABIO_EC1.6.2.6_Glycine_max__O81413_s_Lipoamide.yaml, SABIO_EC1.6.2.6_Glycine_max__O81413_s_NADH.yaml'

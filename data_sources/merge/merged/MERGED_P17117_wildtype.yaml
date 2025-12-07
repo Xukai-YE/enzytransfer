@@ -1,0 +1,300 @@
+version: '2.0'
+created: '2025-11-20T13:39:39.281618'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_16_1__P17117_p75947
+  name: With NAD(+) or NADP(+) as acceptor
+  ecnumber: 1.16.1.
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P17117
+  wildtype_sequence: MTPTIELICGHRSIRHFTDEPISEAQREAIINSARATSSSSFLQCSSIIRITDKALREELVTLTGGQKHVAQAAEFWVFCADFNRHLQICPDAQLGLAEQLLLGVVDTAMMAQNALIAAESLGLGGVYIGGLRNNIEAVTKLLKLPQHVLPLFGLCLGWPADNPDLKPRLPASILVHENSYQPLDKGALAQYDEQLAEYYLTRGSNNRRDTWSDHIRRTIIKESRPFILDYLHKQGWATR
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Cr_VI_
+  name: Cr(VI)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Cr_III_
+  name: Cr(III)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Riboflavin-5-phosphate
+  name: Riboflavin-5-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Nitrofurazone
+  name: Nitrofurazone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Reduced_nitrofurazone
+  name: Reduced nitrofurazone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_12234_EC1_16_1__Escherichia_coli_P17117_Cr_VI_
+  name: Reaction catalyzed by With NAD(+) or NADP(+) as acceptor on Cr(VI)
+  equation: Cr(VI) + H+ + NADH = Cr(III) + NAD+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Cr_VI_
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_Cr_III_
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_16_1__P17117_p75947
+    role: BIOCATALYST
+  - species_id: activator_Riboflavin-5-phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:17621; CHEBI:33007; CHEBI:49543; CHEBI:44281; CHEBI:13393;
+    CHEBI:29234; CHEBI:15846; CHEBI:4960; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901;
+    CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:21127; CHEBI:5584; CHEBI:13394; CHEBI:57945;
+    CHEBI:44216; CHEBI:42587; CHEBI:13317; CHEBI:49544; CHEBI:57540; CHEBI:7423; CHEBI:24041;
+    CHEBI:13389; CHEBI:15378; CHEBI:13395; CHEBI:23236; CHEBI:10744; CHEBI:44215;
+    CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00003; KEGG:C00061; KEGG:C00004; KEGG:C00080'
+- id: sabiork_16115_EC1_7_1__Escherichia_coli_P17117_Nitrofurazone
+  name: Reaction catalyzed by FMN reductase (NADPH) on Nitrofurazone
+  equation: H+ + NADPH + Nitrofurazone = NADP+ + Reduced nitrofurazone
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Nitrofurazone
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_NADP_
+  - species_id: product_Reduced_nitrofurazone
+  modifiers:
+  - species_id: protein_1_7_1__P17117_p76179
+    role: BIOCATALYST
+  - species_id: activator_Riboflavin-5-phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:17621; CHEBI:13397; CHEBI:13398; CHEBI:7424; CHEBI:44405;
+    CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:4960; CHEBI:13357; CHEBI:25523; CHEBI:24636;
+    CHEBI:29233; CHEBI:21127; CHEBI:5584; CHEBI:13399; CHEBI:42587; CHEBI:16474; CHEBI:44286;
+    CHEBI:13317; CHEBI:24041; CHEBI:21904; CHEBI:44409; CHEBI:15378; CHEBI:18009;
+    CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C08042; KEGG:C00005; KEGG:C00080; KEGG:C00061; KEGG:C00006; KEGG:C11037'
+measurements:
+- id: measurement_1_16_1__Escherichia_coli_P17117_Cr_VI_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_7_1__Escherichia_coli_P17117_Nitrofurazone
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 23.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_16_1__Escherichia_coli_P17117_Cr_VI__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.005366667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cr_VI_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12902220'
+- id: 1_16_1__Escherichia_coli_P17117_Cr_VI__Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.18e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cr_VI_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12902220'
+- id: 1_16_1__Escherichia_coli_P17117_Cr_VI__Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 6.333333e-08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cr_VI_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12902220'
+- id: 1_7_1__Escherichia_coli_P17117_Nitrofurazone_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.5e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Nitrofurazone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8755878'
+- id: 1_7_1__Escherichia_coli_P17117_Nitrofurazone_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.1e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Nitrofurazone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8755878'
+buffer:
+  buffer: 50 mM Tris-HCl; 10 mM Tris-HCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 75947
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12902220/
+  pubmed_id: '12902220'
+  doi: null
+- title: Reference for SABIO-RK entry 76179
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/8755878/
+  pubmed_id: '8755878'
+  doi: null
+name: Merged entry for P17117 wildtype
+description: 'Merged from 2 files: SABIO_EC1.16.1._Escherichia_coli__P17117_s_Cr_VI_.yaml,
+  SABIO_EC1.7.1._Escherichia_coli__P17117_s_Nitrofurazone.yaml'

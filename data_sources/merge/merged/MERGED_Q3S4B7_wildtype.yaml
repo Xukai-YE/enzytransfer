@@ -1,0 +1,315 @@
+version: '2.0'
+created: '2025-11-20T13:39:32.299141'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_14_13_24_Q3S4B7_p40877
+  name: 3-hydroxybenzoate 6-monooxygenase
+  ecnumber: 1.14.13.24
+  organism: Polaromonas naphthalenivorans
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q3S4B7
+  wildtype_sequence: MSDNPADLPVLVAGGGIGGLAAALALVRRGFSVKVLEQAPEIGEIGAGIQLGPNAFHAFDALGIGEKARGRAVYTDEMVMHDAIDGSLVGRIPTGEAFRQRFGNPYAVIHRVDVHLSLLEGAQETGKVEFLTSTRALRIEQDEGSVTVYDQHGNAHKGIALIGADGVKSVVREQFVGDAARVTGHVVYRAVVDKKDFPESLQWNAASIWVGPNCHLVHYPLRGGEQYNVVVTFHSRQPEQWGVTEGSKEEVQSYFQGICPQARQLIDLPKTWKRWATADREPIGQWSFGRVTLLGDAAHPTTQYMAQGACMAMEDGVTLGEALRVNNNDFPKAFELYQRSRVARTARIVLSSREMGRIYHAQGVERLVRNDLWKGRTPERFYDAMEWLYGWNVGNCLAKD
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_3-Hydroxybenzoate
+  name: 3-Hydroxybenzoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2
+  name: '2'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_5-Dihydroxybenzoate
+  name: 5-Dihydroxybenzoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2495_EC1_14_13_24_Polaromonas_naphthalenivorans_Q3S4B7_NADH
+  name: Reaction catalyzed by 3-hydroxybenzoate 6-monooxygenase on NADH
+  equation: NADH + O2 + 3-Hydroxybenzoate + H+ = NAD+ + H2O + 2,5-Dihydroxybenzoate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  - species_id: substrate_O2
+  - species_id: substrate_3-Hydroxybenzoate
+  products:
+  - species_id: product_NAD_
+  - species_id: product_2
+  - species_id: product_5-Dihydroxybenzoate
+  modifiers:
+  - species_id: protein_1_14_13_24_Q3S4B7_p40877
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 22692;22693;22694;22695
+  KEGGid: R02589
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:16193; CHEBI:29375; CHEBI:44819; CHEBI:41981;
+    CHEBI:58044; CHEBI:26689; CHEBI:44281; CHEBI:42857; CHEBI:41979; CHEBI:13393;
+    CHEBI:1538; CHEBI:29234; CHEBI:15846; CHEBI:13357; CHEBI:20063; CHEBI:21902; CHEBI:13396;
+    CHEBI:23833; CHEBI:21901; CHEBI:13416; CHEBI:30764; CHEBI:42043; CHEBI:24636;
+    CHEBI:44214; CHEBI:19381; CHEBI:29233; CHEBI:33811; CHEBI:5584; CHEBI:33813; CHEBI:27313;
+    CHEBI:13394; CHEBI:15377; CHEBI:39892; CHEBI:13352; CHEBI:57945; CHEBI:44216;
+    CHEBI:15379; CHEBI:11451; CHEBI:57540; CHEBI:43228; CHEBI:7423; CHEBI:44292; CHEBI:30491;
+    CHEBI:33806; CHEBI:13389; CHEBI:25366; CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:13395;
+    CHEBI:15378; CHEBI:10743; CHEBI:29793; CHEBI:17189; CHEBI:7860; CHEBI:10745; CHEBI:936;
+    CHEBI:20064; CHEBI:10744; CHEBI:44215; CHEBI:11828; CHEBI:19382; CHEBI:29373;
+    CHEBI:44701; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00587; KEGG:C00080; KEGG:C00628; KEGG:C00001; KEGG:C00704; KEGG:C00003;
+    KEGG:C00007; KEGG:C00004'
+- id: sabiork_12394_EC1_14_13_24_Polaromonas_naphthalenivorans_Q3S4B7_3-Hydroxybenzoate
+  name: Reaction catalyzed by 3-hydroxybenzoate 6-monooxygenase on 3-Hydroxybenzoate
+  equation: 3-Hydroxybenzoate + O2 + NADPH + H+ = 2,5-Dihydroxybenzoate + NADP+ +
+    H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3-Hydroxybenzoate
+  - species_id: substrate_O2
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_2
+  - species_id: product_5-Dihydroxybenzoate
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_14_13_24_Q3S4B7_p40878
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:16193; CHEBI:29375; CHEBI:44819; CHEBI:41981;
+    CHEBI:13397; CHEBI:13398; CHEBI:58044; CHEBI:7424; CHEBI:26689; CHEBI:44405; CHEBI:21903;
+    CHEBI:42857; CHEBI:41979; CHEBI:7425; CHEBI:1538; CHEBI:29234; CHEBI:13357; CHEBI:25523;
+    CHEBI:20063; CHEBI:23833; CHEBI:30764; CHEBI:13416; CHEBI:42043; CHEBI:24636;
+    CHEBI:44701; CHEBI:29233; CHEBI:33811; CHEBI:5584; CHEBI:13399; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:39892; CHEBI:13352; CHEBI:15379; CHEBI:16474; CHEBI:44286;
+    CHEBI:11451; CHEBI:43228; CHEBI:44292; CHEBI:30491; CHEBI:21904; CHEBI:33806;
+    CHEBI:25366; CHEBI:44742; CHEBI:44409; CHEBI:5585; CHEBI:15378; CHEBI:17189; CHEBI:29374;
+    CHEBI:29793; CHEBI:10743; CHEBI:18009; CHEBI:7860; CHEBI:10745; CHEBI:936; CHEBI:20064;
+    CHEBI:57783; CHEBI:13400; CHEBI:58349; CHEBI:10744; CHEBI:19382; CHEBI:11828;
+    CHEBI:29373; CHEBI:19381
+
+    KEGG IDs: KEGG:C00005; KEGG:C00587; KEGG:C00080; KEGG:C00628; KEGG:C00006; KEGG:C00001;
+    KEGG:C00704; KEGG:C00007; KEGG:C11037'
+- id: sabiork_2495_EC1_14_13_24_Polaromonas_naphthalenivorans_Q3S4B7_O2
+  name: Reaction catalyzed by 3-hydroxybenzoate 6-monooxygenase on O2
+  equation: NADH + O2 + 3-Hydroxybenzoate + H+ = NAD+ + H2O + 2,5-Dihydroxybenzoate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_3-Hydroxybenzoate
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_2
+  - species_id: product_5-Dihydroxybenzoate
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_14_13_24_Q3S4B7_p40876
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 22692;22693;22694;22695
+  KEGGid: R02589
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:16193; CHEBI:29375; CHEBI:44819; CHEBI:41981;
+    CHEBI:58044; CHEBI:26689; CHEBI:44281; CHEBI:42857; CHEBI:41979; CHEBI:13393;
+    CHEBI:29234; CHEBI:1538; CHEBI:15846; CHEBI:13357; CHEBI:20063; CHEBI:21902; CHEBI:13396;
+    CHEBI:23833; CHEBI:21901; CHEBI:13416; CHEBI:30764; CHEBI:42043; CHEBI:24636;
+    CHEBI:44214; CHEBI:19381; CHEBI:29233; CHEBI:33811; CHEBI:5584; CHEBI:33813; CHEBI:27313;
+    CHEBI:13394; CHEBI:15377; CHEBI:39892; CHEBI:13352; CHEBI:57945; CHEBI:44216;
+    CHEBI:15379; CHEBI:11451; CHEBI:57540; CHEBI:43228; CHEBI:7423; CHEBI:44292; CHEBI:30491;
+    CHEBI:33806; CHEBI:13389; CHEBI:25366; CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:15378;
+    CHEBI:13395; CHEBI:10743; CHEBI:29793; CHEBI:17189; CHEBI:7860; CHEBI:10745; CHEBI:936;
+    CHEBI:20064; CHEBI:10744; CHEBI:19382; CHEBI:11828; CHEBI:44215; CHEBI:29373;
+    CHEBI:44701; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00587; KEGG:C00080; KEGG:C00628; KEGG:C00001; KEGG:C00704; KEGG:C00003;
+    KEGG:C00007; KEGG:C00004'
+measurements:
+- id: measurement_1_14_13_24_Polaromonas_naphthalenivorans_Q3S4B7_NADH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_14_13_24_Polaromonas_naphthalenivorans_Q3S4B7_3-Hydroxybenzoate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_14_13_24_Polaromonas_naphthalenivorans_Q3S4B7_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_14_13_24_Polaromonas_naphthalenivorans_Q3S4B7_NADH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000493
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17586666'
+- id: 1_14_13_24_Polaromonas_naphthalenivorans_Q3S4B7_3-Hydroxybenzoate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00086
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Hydroxybenzoate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17586666'
+- id: 1_14_13_24_Polaromonas_naphthalenivorans_Q3S4B7_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.49e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17586666'
+buffer:
+  buffer: 100 mM potassium phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 40877
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/17586666/
+  pubmed_id: '17586666'
+  doi: null
+name: Merged entry for Q3S4B7 wildtype
+description: 'Merged from 3 files: SABIO_EC1.14.13.24_Polaromonas_naphthalenivorans__Q3S4B7_s_NADH.yaml,
+  SABIO_EC1.14.13.24_Polaromonas_naphthalenivorans__Q3S4B7_s_3-Hydroxybenzoate.yaml,
+  SABIO_EC1.14.13.24_Polaromonas_naphthalenivorans__Q3S4B7_s_O2.yaml'

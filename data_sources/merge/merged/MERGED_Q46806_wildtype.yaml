@@ -1,0 +1,307 @@
+version: '2.0'
+created: '2025-11-20T13:41:19.237068'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_5_2__Q46806_p48830
+  name: dihydropyrimidinase
+  ecnumber: 3.5.2.
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q46806
+  wildtype_sequence: MRVLIKNGTVVNADGQAKQDLLIESGIVRQLGNNISPQLPYEEIDATGCYVFPGGVDVHTHFNIDVGIARSCDDFFTGTRAAACGGTTTIIDHMGFGPNGCRLRHQLEVYRGYAAHKAVIDYSFHGVIQHINHAILDEIPMIVEEGLSSFKLYLTYQYKLNDDEVLQALRRLHESGALTTVHPENDAAIASKRAEFIAAGLTAPRYHALSRPLECEAEAIARMINLAQIAGNAPLYIVHLSNGLGLDYLRLARANHQPVWVETCPQYLLLDERSYDTEDGMKFILSPPLRNVREQDKLWCGISDGAIDVVATDHCTFSMAQRLQISKGDFSRCPNGLPGVENRMQLLFSSGVMTGRITPERFVELTSAMPARLFGLWPQKGLLAPGSDGDVVIIDPRQSQQIQHRHLHDNADYSPWEGFTCQGAIVRTLSRGETIFCDGTFTGKAGRGRFLRRKPFVPPVL
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Hydantoin
+  name: Hydantoin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Hydantoic_acid
+  name: Hydantoic acid
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Hydroxyphenylhydantoin
+  name: Hydroxyphenylhydantoin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N-Carbamoyl-D-hydroxyphenylglycine
+  name: N-Carbamoyl-D-hydroxyphenylglycine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Phenylhydantoin
+  name: Phenylhydantoin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N-Carbamoyl-D-phenylglycine
+  name: N-Carbamoyl-D-phenylglycine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_13327_EC3_5_2__Escherichia_coli_Q46806_Hydantoin
+  name: Reaction catalyzed by dihydropyrimidinase on Hydantoin
+  equation: H2O + Hydantoin = Hydantoic acid
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Hydantoin
+  products:
+  - species_id: product_Hydantoic_acid
+  modifiers:
+  - species_id: protein_3_5_2__Q46806_p48830
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:133351; CHEBI:5773;
+    CHEBI:42857; CHEBI:41979; CHEBI:24625; CHEBI:42043; CHEBI:33811; CHEBI:33813;
+    CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:43228; CHEBI:44292; CHEBI:33806;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:27612; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00001; KEGG:C05146'
+- id: sabiork_13334_EC3_5_2__Escherichia_coli_Q46806_Hydroxyphenylhydantoin
+  name: Reaction catalyzed by In cyclic amides on Hydroxyphenylhydantoin
+  equation: H2O + Hydroxyphenylhydantoin = N-Carbamoyl-D-hydroxyphenylglycine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Hydroxyphenylhydantoin
+  products:
+  - species_id: product_N-Carbamoyl-D-hydroxyphenylglycine
+  modifiers:
+  - species_id: protein_3_5_2__Q46806_p48828
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:41979;
+    CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352;
+    CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C00001'
+- id: sabiork_13335_EC3_5_2__Escherichia_coli_Q46806_Phenylhydantoin
+  name: Reaction catalyzed by In cyclic amides on Phenylhydantoin
+  equation: H2O + Phenylhydantoin = N-Carbamoyl-D-phenylglycine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Phenylhydantoin
+  products:
+  - species_id: product_N-Carbamoyl-D-phenylglycine
+  modifiers:
+  - species_id: protein_3_5_2__Q46806_p48829
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:140758; CHEBI:42857;
+    CHEBI:41979; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377;
+    CHEBI:13352; CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:141249; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00001'
+measurements:
+- id: measurement_3_5_2__Escherichia_coli_Q46806_Hydantoin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 40.0
+  temperature_unit: °C
+- id: measurement_3_5_2__Escherichia_coli_Q46806_Hydroxyphenylhydantoin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 40.0
+  temperature_unit: °C
+- id: measurement_3_5_2__Escherichia_coli_Q46806_Phenylhydantoin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 40.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_5_2__Escherichia_coli_Q46806_Hydantoin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.138
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Hydantoin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 40.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11092864'
+- id: 3_5_2__Escherichia_coli_Q46806_Hydantoin_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.5e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Hydantoin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 40.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11092864'
+- id: 3_5_2__Escherichia_coli_Q46806_Hydroxyphenylhydantoin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0328
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Hydroxyphenylhydantoin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 40.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11092864'
+- id: 3_5_2__Escherichia_coli_Q46806_Hydroxyphenylhydantoin_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.00021
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Hydroxyphenylhydantoin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 40.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11092864'
+- id: 3_5_2__Escherichia_coli_Q46806_Phenylhydantoin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0078
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Phenylhydantoin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 40.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11092864'
+- id: 3_5_2__Escherichia_coli_Q46806_Phenylhydantoin_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 5.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Phenylhydantoin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 40.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11092864'
+buffer:
+  buffer: 100 mM Tris-HCl, 0.5 mM Dithiothreitol
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 48830
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11092864/
+  pubmed_id: '11092864'
+  doi: null
+name: Merged entry for Q46806 wildtype
+description: 'Merged from 3 files: SABIO_EC3.5.2._Escherichia_coli__Q46806_s_Hydantoin.yaml,
+  SABIO_EC3.5.2._Escherichia_coli__Q46806_s_Hydroxyphenylhydanto.yaml, SABIO_EC3.5.2._Escherichia_coli__Q46806_s_Phenylhydantoin.yaml'

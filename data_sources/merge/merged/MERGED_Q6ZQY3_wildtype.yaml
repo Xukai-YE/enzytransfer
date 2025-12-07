@@ -1,0 +1,313 @@
+version: '2.0'
+created: '2025-11-20T13:41:25.639474'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_1_1_11_Q6ZQY3_p68556
+  name: aspartate 1-decarboxylase
+  ecnumber: 4.1.1.11
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q6ZQY3
+  wildtype_sequence: MSSDSDRQCPVDGDIDQQEMIPSKKNAVLVDGVVLNGPTTDAKAGEKFVEEACRLIMEEVVLKATDVNEKVCEWRPPEQLKQLLDLEMRDSGEPPHKLLELCRDVIHYSVKTNHPRFFNQLYAGLDYYSLVARFMTEALNPSVYTYEVSPVFLLVEEAVLKKMIEFIGWKEGDGIFNPGGSVSNMYAMNLARYKYCPDIKEKGLSGSPRLILFTSAECHYSMKKAASFLGIGTENVCFVETDGRGKMIPEELEKQVWQARKEGAAPFLVCATSGTTVLGAFDPLDEIADICERHSLWLHVDASWGGSALMSRKHRKLLHGIHRADSVAWNPHKMLMAGIQCCALLVKDKSDLLKKCYSAKASYLFQQDKFYDVSYDTGDKSIQCSRRPDAFKFWMTWKALGTLGLEERVNRALALSRYLVDEIKKREGFKLLMEPEYANICFWYIPPSLREMEEGPEFWAKLNLVAPAIKERMMKKGSLMLGYQPHRGKVNFFRQVVISPQVSREDMDFLLDEIDLLGKDM
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_L-Aspartate
+  name: L-Aspartate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_beta-Alanine
+  name: beta-Alanine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Pyridoxal_phosphate
+  name: Pyridoxal phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_3-Sulfino-L-alanine
+  name: 3-Sulfino-L-alanine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Hypotaurine
+  name: Hypotaurine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_921_EC4_1_1_11_Homo_sapiens_Q6ZQY3_L-Aspartate
+  name: Reaction catalyzed by aspartate 1-decarboxylase on L-Aspartate
+  equation: L-Aspartate = CO2 + beta-Alanine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Aspartate
+  products:
+  - species_id: product_beta-Alanine
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_4_1_1_11_Q6ZQY3_p68556
+    role: BIOCATALYST
+  - species_id: activator_Pyridoxal_phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 19497;19498;19499;19500
+  KEGGid: R00489
+  notes: 'ChEBI IDs: CHEBI:10343; CHEBI:29991; CHEBI:21247; CHEBI:21244; CHEBI:6193;
+    CHEBI:22821; CHEBI:12389; CHEBI:139538; CHEBI:358848; CHEBI:29993; CHEBI:17053;
+    CHEBI:3283; CHEBI:40900; CHEBI:26424; CHEBI:8668; CHEBI:13085; CHEBI:40942; CHEBI:18405;
+    CHEBI:40913; CHEBI:29958; CHEBI:23011; CHEBI:597326; CHEBI:13285; CHEBI:13282;
+    CHEBI:40853; CHEBI:234571; CHEBI:13283; CHEBI:45145; CHEBI:63070; CHEBI:16958;
+    CHEBI:13284; CHEBI:41050; CHEBI:16526; CHEBI:14977; CHEBI:48829; CHEBI:57966
+
+    KEGG IDs: KEGG:C00018; KEGG:C00011; KEGG:C00099; KEGG:C00049'
+- id: sabiork_2399_EC4_1_1_29_Homo_sapiens_Q6ZQY3_3-Sulfino-L-alanine
+  name: Reaction catalyzed by sulfinoalanine decarboxylase on 3-Sulfino-L-alanine
+  equation: 3-Sulfino-L-alanine = CO2 + Hypotaurine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3-Sulfino-L-alanine
+  products:
+  - species_id: product_CO2
+  - species_id: product_Hypotaurine
+  modifiers:
+  - species_id: protein_4_1_1_29_Q6ZQY3_p68557
+    role: BIOCATALYST
+  - species_id: activator_Pyridoxal_phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02466
+  notes: 'ChEBI IDs: CHEBI:21271; CHEBI:61085; CHEBI:11889; CHEBI:139538; CHEBI:358848;
+    CHEBI:3283; CHEBI:16668; CHEBI:5839; CHEBI:26424; CHEBI:8668; CHEBI:224037; CHEBI:140741;
+    CHEBI:1664; CHEBI:18405; CHEBI:41618; CHEBI:23011; CHEBI:597326; CHEBI:14429;
+    CHEBI:13285; CHEBI:13282; CHEBI:57853; CHEBI:11888; CHEBI:234571; CHEBI:13283;
+    CHEBI:45145; CHEBI:13284; CHEBI:16526; CHEBI:16345; CHEBI:14977; CHEBI:48829;
+    CHEBI:24760; CHEBI:8973
+
+    KEGG IDs: KEGG:C00606; KEGG:C00011; KEGG:C00519; KEGG:C00018'
+measurements:
+- id: measurement_4_1_1_11_Homo_sapiens_Q6ZQY3_L-Aspartate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_4_1_1_29_Homo_sapiens_Q6ZQY3_3-Sulfino-L-alanine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 4_1_1_11_Homo_sapiens_Q6ZQY3_L-Aspartate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.6e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Aspartate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23038267'
+- id: 4_1_1_11_Homo_sapiens_Q6ZQY3_L-Aspartate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 480.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Aspartate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23038267'
+- id: 4_1_1_11_Homo_sapiens_Q6ZQY3_L-Aspartate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.3
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Aspartate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23038267'
+- id: 4_1_1_11_Homo_sapiens_Q6ZQY3_L-Aspartate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00272
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Aspartate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23038267'
+- id: 4_1_1_29_Homo_sapiens_Q6ZQY3_3-Sulfino-L-alanine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 3.85e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Sulfino-L-alanine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23038267'
+- id: 4_1_1_29_Homo_sapiens_Q6ZQY3_3-Sulfino-L-alanine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.9
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Sulfino-L-alanine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23038267'
+- id: 4_1_1_29_Homo_sapiens_Q6ZQY3_3-Sulfino-L-alanine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00114
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Sulfino-L-alanine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23038267'
+- id: 4_1_1_29_Homo_sapiens_Q6ZQY3_3-Sulfino-L-alanine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1670.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Sulfino-L-alanine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23038267'
+buffer:
+  buffer: 150 mM phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 68556
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/23038267/
+  pubmed_id: '23038267'
+  doi: null
+name: Merged entry for Q6ZQY3 wildtype
+description: 'Merged from 2 files: SABIO_EC4.1.1.11_Homo_sapiens__Q6ZQY3_s_L-Aspartate.yaml,
+  SABIO_EC4.1.1.29_Homo_sapiens__Q6ZQY3_s_3-Sulfino-L-alanine.yaml'

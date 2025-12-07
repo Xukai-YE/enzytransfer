@@ -1,0 +1,261 @@
+version: '2.0'
+created: '2025-11-20T13:40:51.772376'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_8_2_4_P49891_p73152
+  name: estrone sulfotransferase
+  ecnumber: 2.8.2.4
+  organism: Mus musculus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: T45V
+  uniprotid: P49891
+  wildtype_sequence: METSMPEYYEVFGEFRGVLMDKRFTKYWEDVEMFLARPDDLVIATYPKSGTTWISEVVYMIYKEGDVEKCKEDAIFNRIPYLECRNEDLINGIKQLKEKESPRIVKTHLPPKLLPASFWEKNCKMIYLCRNAKDVAVSYYYFLLMITSYPNPKSFSEFVEKFMQGQVPYGSWYDHVKAWWEKSKNSRVLFMFYEDMKEDIRREVVKLIEFLERKPSAELVDRIIQHTSFQEMKNNPSTNYTMMPEEMMNQKVSPFMRKGIIGDWKNHFPEALRERFDEHYKQQMKDCTVKFRMEL
+  mutant_sequence: METSMPEYYEVFGEFRGVLMDKRFTKYWEDVEMFLARPDDLVIAVYPKSGTTWISEVVYMIYKEGDVEKCKEDAIFNRIPYLECRNEDLINGIKQLKEKESPRIVKTHLPPKLLPASFWEKNCKMIYLCRNAKDVAVSYYYFLLMITSYPNPKSFSEFVEKFMQGQVPYGSWYDHVKAWWEKSKNSRVLFMFYEDMKEDIRREVVKLIEFLERKPSAELVDRIIQHTSFQEMKNNPSTNYTMMPEEMMNQKVSPFMRKGIIGDWKNHFPEALRERFDEHYKQQMKDCTVKFRMEL
+complexes: null
+small_molecules:
+- id: substrate_3_-Phosphoadenylyl_sulfate
+  name: 3'-Phosphoadenylyl sulfate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Estradiol-17beta
+  name: Estradiol-17beta
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Estradiol-17beta_3-sulfate
+  name: Estradiol-17beta 3-sulfate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Adenosine_3_
+  name: Adenosine 3'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_5_-bisphosphate
+  name: 5'-bisphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_953_EC2_8_2_4_Mus_musculus_P49891_3_-Phosphoadenylyl_sulfate
+  name: Reaction catalyzed by estrone sulfotransferase on 3'-Phosphoadenylyl sulfate
+  equation: 3'-Phosphoadenylyl sulfate + Estradiol-17beta = Adenosine 3',5'-bisphosphate
+    + Estradiol-17beta 3-sulfate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3_-Phosphoadenylyl_sulfate
+  - species_id: substrate_Estradiol-17beta
+  products:
+  - species_id: product_Estradiol-17beta_3-sulfate
+  - species_id: product_Adenosine_3_
+  - species_id: product_5_-bisphosphate
+  modifiers:
+  - species_id: protein_2_8_2_4_P49891_p73152
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00535
+  notes: 'ChEBI IDs: CHEBI:2475; CHEBI:19857; CHEBI:22240; CHEBI:4866; CHEBI:58339;
+    CHEBI:1353; CHEBI:17985; CHEBI:58343; CHEBI:13735; CHEBI:11680; CHEBI:23965; CHEBI:16469;
+    CHEBI:11679; CHEBI:17980
+
+    KEGG IDs: KEGG:C00951; KEGG:C08357; KEGG:C00053; KEGG:C00054'
+- id: sabiork_953_EC2_8_2_4_Mus_musculus_P49891_3_-Phosphoadenylyl_sulfate
+  name: Reaction catalyzed by estrone sulfotransferase on 3'-Phosphoadenylyl sulfate
+  equation: 3'-Phosphoadenylyl sulfate + Estradiol-17beta = Adenosine 3',5'-bisphosphate
+    + Estradiol-17beta 3-sulfate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3_-Phosphoadenylyl_sulfate
+  - species_id: substrate_Estradiol-17beta
+  products:
+  - species_id: product_Adenosine_3_
+  - species_id: product_5_-bisphosphate
+  - species_id: product_Estradiol-17beta_3-sulfate
+  modifiers:
+  - species_id: protein_2_8_2_4_P49891_p73142
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00535
+  notes: 'ChEBI IDs: CHEBI:2475; CHEBI:19857; CHEBI:22240; CHEBI:4866; CHEBI:58339;
+    CHEBI:1353; CHEBI:17985; CHEBI:58343; CHEBI:13735; CHEBI:11680; CHEBI:23965; CHEBI:16469;
+    CHEBI:11679; CHEBI:17980
+
+    KEGG IDs: KEGG:C00951; KEGG:C08357; KEGG:C00053; KEGG:C00054'
+measurements:
+- id: measurement_2_8_2_4_Mus_musculus_P49891_3_-Phosphoadenylyl_sulfate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_2_8_2_4_Mus_musculus_P49891_3_-Phosphoadenylyl_sulfate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 2_8_2_4_Mus_musculus_P49891_3_-Phosphoadenylyl_sulfate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.0042
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3_-Phosphoadenylyl_sulfate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '9765259'
+- id: 2_8_2_4_Mus_musculus_P49891_3_-Phosphoadenylyl_sulfate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.5e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3_-Phosphoadenylyl_sulfate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '9765259'
+- id: 2_8_2_4_Mus_musculus_P49891_3_-Phosphoadenylyl_sulfate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 200000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3_-Phosphoadenylyl_sulfate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '9765259'
+- id: 2_8_2_4_Mus_musculus_P49891_3_-Phosphoadenylyl_sulfate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.0042
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3_-Phosphoadenylyl_sulfate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '9765259'
+- id: 2_8_2_4_Mus_musculus_P49891_3_-Phosphoadenylyl_sulfate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.14e-08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3_-Phosphoadenylyl_sulfate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '9765259'
+buffer:
+  buffer: 100 mM Tris-HCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 73152
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9765259/
+  pubmed_id: '9765259'
+  doi: null
+name: Merged entry for P49891 T45V
+description: 'Merged from 2 files: SABIO_EC2.8.2.4_Mus_musculus__P49891_T45V_s_3_-Phosphoadenylyl_2.yaml,
+  SABIO_EC2.8.2.4_Mus_musculus__P49891_T45V_s_3_-Phosphoadenylyl.yaml'

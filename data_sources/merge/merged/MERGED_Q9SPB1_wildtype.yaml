@@ -1,0 +1,349 @@
+version: '2.0'
+created: '2025-11-20T13:39:54.163311'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_6_2_6_Q9SPB1_p60221
+  name: leghemoglobin reductase
+  ecnumber: 1.6.2.6
+  organism: Vigna unguiculata
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9SPB1
+  wildtype_sequence: MAMASLARRKAYAVVSSSRSSVFLTSLRGFASGSDENDVVVIGGGPGGYVAAIKASQLGLKTTCIEKRGTLGGTCLNVGCIPSKALLHSSHMYHEAKHSFANHGIKLSSVEVDLAGMMAQKDKAVSNLTKGIEGLFKKNKVNYVKGYGKFVSPSEVSVDTIDGGNTVVKGKHIIIATGSDVKSLPGVTIDEKKIVSSTGALALTEIPKKLVVIGAGYIGLEMGSVWGRLGSEVTVVEFASDIVPTMDAEVRKQFQRSLEKQGMKFQLKTKVVGVDTSGDGVKLTLEPAAGGDQTILETDVVLVSAGRTPFTAGLGLDKIGVETDKIRRILVNERFTTNVSGVYAIGDVIPGPMLAHKAEEDGVACVEFIAGKVGHVDYDKVPGVVYTTPEVAYVGKTEEQVKALGVEYRVGKFPFMANSRAKAIDNAEGLVKILAEKETDKILGVHIMAPNAGELIHEAAIALQYDASSEDIARVCHAHPTMSEAVKEAAMATYDKPHSHMKSWLLLHSLLFIFVQQFTMTWR
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Ferrileghemoglobin
+  name: Ferrileghemoglobin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_FAD
+  name: FAD
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Ferroleghemoglobin
+  name: Ferroleghemoglobin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_682_EC1_6_2_6_Vigna_unguiculata_Q9SPB1_NADH
+  name: Reaction catalyzed by leghemoglobin reductase on NADH
+  equation: Ferrileghemoglobin + H+ + NADH = Ferroleghemoglobin + NAD+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  - species_id: substrate_Ferrileghemoglobin
+  - species_id: cofactor_FAD
+  products:
+  - species_id: product_Ferroleghemoglobin
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_6_2_6_Q9SPB1_p60221
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:16238; CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846;
+    CHEBI:13357; CHEBI:24040; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636;
+    CHEBI:44214; CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:21125; CHEBI:57945; CHEBI:44216;
+    CHEBI:13315; CHEBI:17373; CHEBI:57540; CHEBI:7423; CHEBI:42388; CHEBI:17423; CHEBI:13389;
+    CHEBI:15378; CHEBI:13395; CHEBI:4956; CHEBI:10744; CHEBI:44215; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C02685; KEGG:C00016; KEGG:C02683; KEGG:C00003; KEGG:C00004'
+- id: sabiork_682_EC1_6_2_6_Vigna_unguiculata_Q9SPB1_Ferrileghemoglobin
+  name: Reaction catalyzed by leghemoglobin reductase on Ferrileghemoglobin
+  equation: Ferrileghemoglobin + H+ + NADH = Ferroleghemoglobin + NAD+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Ferrileghemoglobin
+  - species_id: substrate_NADH
+  - species_id: cofactor_FAD
+  products:
+  - species_id: product_Ferroleghemoglobin
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_6_2_6_Q9SPB1_p60223
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:16238; CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846;
+    CHEBI:13357; CHEBI:24040; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636;
+    CHEBI:44214; CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:21125; CHEBI:57945; CHEBI:44216;
+    CHEBI:13315; CHEBI:17373; CHEBI:57540; CHEBI:7423; CHEBI:42388; CHEBI:17423; CHEBI:13389;
+    CHEBI:15378; CHEBI:13395; CHEBI:4956; CHEBI:10744; CHEBI:44215; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C02685; KEGG:C00016; KEGG:C02683; KEGG:C00003; KEGG:C00004'
+- id: sabiork_682_EC1_6_2_6_Vigna_unguiculata_Q9SPB1_NADH
+  name: Reaction catalyzed by leghemoglobin reductase on NADH
+  equation: Ferrileghemoglobin + H+ + NADH = Ferroleghemoglobin + NAD+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  - species_id: substrate_Ferrileghemoglobin
+  - species_id: cofactor_FAD
+  products:
+  - species_id: product_Ferroleghemoglobin
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_6_2_6_Q9SPB1_p60222
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:16238; CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846;
+    CHEBI:13357; CHEBI:24040; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636;
+    CHEBI:44214; CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:21125; CHEBI:57945; CHEBI:44216;
+    CHEBI:13315; CHEBI:17373; CHEBI:57540; CHEBI:7423; CHEBI:42388; CHEBI:17423; CHEBI:13389;
+    CHEBI:13395; CHEBI:15378; CHEBI:4956; CHEBI:10744; CHEBI:44215; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C02685; KEGG:C00016; KEGG:C02683; KEGG:C00003; KEGG:C00004'
+measurements:
+- id: measurement_1_6_2_6_Vigna_unguiculata_Q9SPB1_NADH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_1_6_2_6_Vigna_unguiculata_Q9SPB1_Ferrileghemoglobin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_1_6_2_6_Vigna_unguiculata_Q9SPB1_NADH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 1_6_2_6_Vigna_unguiculata_Q9SPB1_NADH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 3.683333e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '10729615'
+- id: 1_6_2_6_Vigna_unguiculata_Q9SPB1_NADH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.04e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '10729615'
+- id: 1_6_2_6_Vigna_unguiculata_Q9SPB1_NADH_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 298.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 6.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '10729615'
+- id: 1_6_2_6_Vigna_unguiculata_Q9SPB1_NADH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 3.1
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '10729615'
+- id: 1_6_2_6_Vigna_unguiculata_Q9SPB1_Ferrileghemoglobin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.7e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Ferrileghemoglobin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '10729615'
+- id: 1_6_2_6_Vigna_unguiculata_Q9SPB1_NADH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.24e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '10729615'
+- id: 1_6_2_6_Vigna_unguiculata_Q9SPB1_NADH_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 201.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 6.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '10729615'
+- id: 1_6_2_6_Vigna_unguiculata_Q9SPB1_NADH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 3.083333e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '10729615'
+- id: 1_6_2_6_Vigna_unguiculata_Q9SPB1_NADH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2.5
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '10729615'
+buffer:
+  buffer: 50 mM Potassium phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 60221
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10729615/
+  pubmed_id: '10729615'
+  doi: null
+name: Merged entry for Q9SPB1 wildtype
+description: 'Merged from 3 files: SABIO_EC1.6.2.6_Vigna_unguiculata__Q9SPB1_s_NADH.yaml,
+  SABIO_EC1.6.2.6_Vigna_unguiculata__Q9SPB1_s_Ferrileghemoglobin.yaml, SABIO_EC1.6.2.6_Vigna_unguiculata__Q9SPB1_s_NADH_2.yaml'

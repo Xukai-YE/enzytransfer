@@ -1,0 +1,150 @@
+name: SABIO-RK Entry 51007
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 51007
+created: '2025-10-28T15:53:45.295810'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_7_27_P55241_Q947C0_p51007
+  name: glucose-1-phosphate adenylyltransferase
+  sequence: null
+  ecnumber: 2.7.7.27
+  organism: Zea mays
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: V502T
+  uniprotid: P55241; Q947C0
+  mutant_sequence: MQFALALDTNSGPHQIRSCEGDGIDRLEKLSIGGRKQEKALRNRCFGGRVAATTQCILTSDACPETLHSQTQSSRKNYADANRVSAIILGGGTGSQLFPLTSTRATPAVPVGGCYRLIDIPMSNCFNSGINKIFVMSQFNSTSLNRHIHRTYLEGGINFADGSVQVLAATQMPEEPAGWFQGTADSIRKFIWVLEDYYSHKSIDNIVILSGDQLYRMNYMELVQKHVEDDADITISCAPVDESRASKNGLVKIDHTGRVLQFFEKPKGADLNSMRVETNFLSYAIDDAQKYPYLASMGIYVFKKDALLDLLKSKYTQLHDFGSEILPRAVLDHSVQACIFTGYWEDVGTIKSFFDANLALTEQPSKFDFYDPKTPFFTAPRCLPPTQLDKCKMKYAFISDGCLLRECNIEHSVIGVCSRVSSGCELKDSVMMGADTYETEEEASKLLLAGKVPVGIGRNTKIRNCIIDMNARIGKNVVITNSKGIQEADHPEEGYYIRSGITVILKNATINDGSVI
+  position_offset: 0
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_alpha-D-Glucose_1-phosphate
+  name: alpha-D-Glucose 1-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP_alpha-D-glucoside
+  name: ADP alpha-D-glucoside
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Glyceraldehyde_3-phosphate_Phosphate
+  name: Glyceraldehyde 3-phosphate; Phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_9396_EC2_7_7_27_Zea_mays_P55241_Q947C0_alpha-D-Glucose_1-phosphate
+  name: Reaction catalyzed by glucose-1-phosphate adenylyltransferase on alpha-D-Glucose
+    1-phosphate
+  equation: ATP + alpha-D-Glucose 1-phosphate = Diphosphate + ADP alpha-D-glucoside
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_alpha-D-Glucose_1-phosphate
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_ADP_alpha-D-glucoside
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_2_7_7_27_P55241_Q947C0_p51007
+    role: BIOCATALYST
+  - species_id: activator_Glyceraldehyde_3-phosphate_Phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 12120;12121;12122;12123
+  KEGGid: R00948
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:14791; CHEBI:29137; CHEBI:43470;
+    CHEBI:18367; CHEBI:10789; CHEBI:57299; CHEBI:10246; CHEBI:21004; CHEBI:8683; CHEBI:35780;
+    CHEBI:2349; CHEBI:20846; CHEBI:26020; CHEBI:26078; CHEBI:58601; CHEBI:42623; CHEBI:33019;
+    CHEBI:57498; CHEBI:13236; CHEBI:12970; CHEBI:14333; CHEBI:29139; CHEBI:45067;
+    CHEBI:39739; CHEBI:58027; CHEBI:10841; CHEBI:29888; CHEBI:40615; CHEBI:2359; CHEBI:35782;
+    CHEBI:39745; CHEBI:40938; CHEBI:13420; CHEBI:13230; CHEBI:12320; CHEBI:18361;
+    CHEBI:33017; CHEBI:7793; CHEBI:45208; CHEBI:5446; CHEBI:22249; CHEBI:15422; CHEBI:17138;
+    CHEBI:45024; CHEBI:15751; CHEBI:43474; CHEBI:29042; CHEBI:45212; CHEBI:42009;
+    CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00661; KEGG:C00498; KEGG:C00118; KEGG:C00103; KEGG:C00002;
+    KEGG:C00009'
+measurements:
+- id: measurement_2_7_7_27_Zea_mays_P55241_Q947C0_alpha-D-Glucose_1-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 50 mM HEPES, 15 mM MgCl2
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 51007
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/19625637/
+  pubmed_id: '19625637'
+  doi: null

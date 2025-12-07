@@ -1,0 +1,223 @@
+name: SABIO-RK Entry 3970
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 3970
+created: '2025-10-28T13:47:32.852824'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_7_60_Q46893_Q8FEJ5_Q8X7Y4_p3970
+  name: 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase
+  sequence: null
+  ecnumber: 2.7.7.60
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: R109A
+  uniprotid: Q46893
+  wildtype_sequence: MATTHLDVCAVVPAAGFGRRMQTECPKQYLSIGNQTILEHSVHALLAHPRVKRVVIAISPGDSRFAQLPLANHPQITVVDGGDERADSVLAGLKAAGDAQWVLVHDAARPCLHQDDLARLLALSETSRTGGILAAPVRDTMKRAEPGKNAIAHTVDRNGLWHALTPQFFPRELLHDCLTRALNEGATITDEASALEYCGFHPQLVEGRADNIKVTRPEDLALAEFYLTRTIHQENT
+  mutant_sequence: MATTHLDVCAVVPAAGFGRRMQTECPKQYLSIGNQTILEHSVHALLAHPRVKRVVIAISPGDSRFAQLPLANHPQITVVDGGDERADSVLAGLKAAGDAQWVLVHDAAAPCLHQDDLARLLALSETSRTGGILAAPVRDTMKRAEPGKNAIAHTVDRNGLWHALTPQFFPRELLHDCLTRALNEGATITDEASALEYCGFHPQLVEGRADNIKVTRPEDLALAEFYLTRTIHQENT
+  resolution_status: multi_id_resolved
+complexes: null
+small_molecules:
+- id: substrate_CTP
+  name: CTP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_2-C-Methyl-D-erythritol_4-phosphate
+  name: 2-C-Methyl-D-erythritol 4-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4-_Cytidine_5_-diphospho_-2-C-methyl-D-erythritol
+  name: 4-(Cytidine 5'-diphospho)-2-C-methyl-D-erythritol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_5231_EC2_7_7_60_Escherichia_coli_Q46893_Q8FEJ5_Q8X7Y4_CTP
+  name: Reaction catalyzed by 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase
+    on CTP
+  equation: CTP + 2-C-Methyl-D-erythritol 4-phosphate = Diphosphate + 4-(Cytidine
+    5'-diphospho)-2-C-methyl-D-erythritol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_CTP
+  - species_id: substrate_2-C-Methyl-D-erythritol_4-phosphate
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_4-_Cytidine_5_-diphospho_-2-C-methyl-D-erythritol
+  modifiers:
+  - species_id: protein_2_7_7_60_Q46893_Q8FEJ5_Q8X7Y4_p3970
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 13429;13430;13431;13432
+  KEGGid: R05633
+  notes: 'ChEBI IDs: CHEBI:17677; CHEBI:58231; CHEBI:8683; CHEBI:23522; CHEBI:13286;
+    CHEBI:33019; CHEBI:3285; CHEBI:45067; CHEBI:29888; CHEBI:35782; CHEBI:17764; CHEBI:16578;
+    CHEBI:41675; CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:45208; CHEBI:37563;
+    CHEBI:45212; CHEBI:42009; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00063; KEGG:C11434; KEGG:C11435'
+measurements:
+- id: measurement_2_7_7_60_Escherichia_coli_Q46893_Q8FEJ5_Q8X7Y4_CTP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: 23.0
+  temperature_unit: °C
+parameters:
+- id: 2_7_7_60_Escherichia_coli_Q46893_Q8FEJ5_Q8X7Y4_CTP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.003
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15379557'
+- id: 2_7_7_60_Escherichia_coli_Q46893_Q8FEJ5_Q8X7Y4_CTP_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.1315
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15379557'
+- id: 2_7_7_60_Escherichia_coli_Q46893_Q8FEJ5_Q8X7Y4_CTP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.26
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15379557'
+- id: 2_7_7_60_Escherichia_coli_Q46893_Q8FEJ5_Q8X7Y4_CTP_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.17
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15379557'
+- id: 2_7_7_60_Escherichia_coli_Q46893_Q8FEJ5_Q8X7Y4_CTP_kcat_3
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 100.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15379557'
+buffer:
+  buffer: 79.6 mM Tris-HCl, 8 mM MgCl2, 15.8 mM NaOH
+  buffer_concentration: 79.6 mM
+references:
+- title: Reference for SABIO-RK entry 3970
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15379557/
+  pubmed_id: '15379557'
+  doi: null

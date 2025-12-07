@@ -1,0 +1,873 @@
+version: '2.0'
+created: '2025-11-20T13:40:27.568204'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_15_Q9H477_p66959
+  name: ribokinase
+  ecnumber: 2.7.1.15
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9H477
+  wildtype_sequence: MAASGEPQRQWQEEVAAVVVVGSCMTDLVSLTSRLPKTGETIHGHKFFIGFGGKGANQCVQAARLGAMTSMVCKVGKDSFGNDYIENLKQNDISTEFTYQTKDAATGTASIIVNNEGQNIIVIVAGANLLLNTEDLRAAANVISRAKVMVCQLEITPATSLEALTMARRSGVKTLFNPAPAIADLDPQFYTLSDVFCCNESEAEILTGLTVGSAADAGEAALVLLKRGCQVVIITLGAEGCVVLSQTEPEPKHIPTEKVKAVDTTGAGDSFVGALAFYLAYYPNLSLEDMLNRSNFIAAVSVQAAGTQSSYPYKKDLPLTLF
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Ribose
+  name: D-Ribose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mg2_
+  name: Mg2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Ribose_5-phosphate
+  name: D-Ribose 5-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Phosphate
+  name: Phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Galactose
+  name: D-Galactose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Galactose_6-phosphate
+  name: D-Galactose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Fructose
+  name: D-Fructose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Fructose_6-phosphate
+  name: D-Fructose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Arabinose
+  name: D-Arabinose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Arabinose_5-phosphate
+  name: D-Arabinose 5-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Xylose
+  name: D-Xylose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Xylose_1-phosphate
+  name: D-Xylose 1-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_111_EC2_7_1_15_Homo_sapiens_Q9H477_ATP
+  name: Reaction catalyzed by ribokinase on ATP
+  equation: D-Ribose + ATP = ADP + D-Ribose 5-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_D-Ribose
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_D-Ribose_5-phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_15_Q9H477_p66959
+    role: BIOCATALYST
+  - species_id: activator_Phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01051
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:14791; CHEBI:43470; CHEBI:16761;
+    CHEBI:18367; CHEBI:10789; CHEBI:57299; CHEBI:13379; CHEBI:35780; CHEBI:40553;
+    CHEBI:58273; CHEBI:26020; CHEBI:26078; CHEBI:4238; CHEBI:6635; CHEBI:15048; CHEBI:47013;
+    CHEBI:47014; CHEBI:13236; CHEBI:21083; CHEBI:29139; CHEBI:39739; CHEBI:16988;
+    CHEBI:10841; CHEBI:2359; CHEBI:87518; CHEBI:22410; CHEBI:49736; CHEBI:40938; CHEBI:39745;
+    CHEBI:7793; CHEBI:456216; CHEBI:45501; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:45024;
+    CHEBI:17797; CHEBI:18420; CHEBI:45506; CHEBI:25112; CHEBI:43474; CHEBI:13222;
+    CHEBI:13013; CHEBI:22244; CHEBI:29137; CHEBI:39127
+
+    KEGG IDs: KEGG:C00117; KEGG:C00305; KEGG:C00002; KEGG:C00009; KEGG:C00121; KEGG:C00008'
+- id: sabiork_111_EC2_7_1_15_Homo_sapiens_Q9H477_ATP
+  name: Reaction catalyzed by ribokinase on ATP
+  equation: D-Ribose + ATP = ADP + D-Ribose 5-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_D-Ribose
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_ADP
+  - species_id: product_D-Ribose_5-phosphate
+  modifiers:
+  - species_id: protein_2_7_1_15_Q9H477_p66962
+    role: BIOCATALYST
+  - species_id: activator_Phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01051
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:14791; CHEBI:43470; CHEBI:16761;
+    CHEBI:18367; CHEBI:10789; CHEBI:57299; CHEBI:13379; CHEBI:35780; CHEBI:40553;
+    CHEBI:58273; CHEBI:26020; CHEBI:26078; CHEBI:4238; CHEBI:6635; CHEBI:15048; CHEBI:47013;
+    CHEBI:47014; CHEBI:13236; CHEBI:21083; CHEBI:29139; CHEBI:39739; CHEBI:16988;
+    CHEBI:10841; CHEBI:2359; CHEBI:87518; CHEBI:22410; CHEBI:49736; CHEBI:40938; CHEBI:39745;
+    CHEBI:7793; CHEBI:456216; CHEBI:45501; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:45024;
+    CHEBI:17797; CHEBI:18420; CHEBI:45506; CHEBI:25112; CHEBI:43474; CHEBI:13222;
+    CHEBI:13013; CHEBI:22244; CHEBI:29137; CHEBI:39127
+
+    KEGG IDs: KEGG:C00117; KEGG:C00305; KEGG:C00002; KEGG:C00009; KEGG:C00121; KEGG:C00008'
+- id: sabiork_111_EC2_7_1_15_Homo_sapiens_Q9H477_ATP
+  name: Reaction catalyzed by ribokinase on ATP
+  equation: D-Ribose + ATP = ADP + D-Ribose 5-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_D-Ribose
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_ADP
+  - species_id: product_D-Ribose_5-phosphate
+  modifiers:
+  - species_id: protein_2_7_1_15_Q9H477_p66964
+    role: BIOCATALYST
+  - species_id: activator_Phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01051
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:14791; CHEBI:43470; CHEBI:16761;
+    CHEBI:18367; CHEBI:10789; CHEBI:57299; CHEBI:13379; CHEBI:35780; CHEBI:40553;
+    CHEBI:58273; CHEBI:26020; CHEBI:26078; CHEBI:4238; CHEBI:6635; CHEBI:15048; CHEBI:47013;
+    CHEBI:47014; CHEBI:13236; CHEBI:21083; CHEBI:29139; CHEBI:39739; CHEBI:16988;
+    CHEBI:10841; CHEBI:2359; CHEBI:87518; CHEBI:22410; CHEBI:49736; CHEBI:40938; CHEBI:39745;
+    CHEBI:7793; CHEBI:456216; CHEBI:45501; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:45024;
+    CHEBI:17797; CHEBI:18420; CHEBI:45506; CHEBI:25112; CHEBI:43474; CHEBI:13222;
+    CHEBI:13013; CHEBI:22244; CHEBI:29137; CHEBI:39127
+
+    KEGG IDs: KEGG:C00117; KEGG:C00305; KEGG:C00002; KEGG:C00009; KEGG:C00121; KEGG:C00008'
+- id: sabiork_11435_EC2_7_1_15_Homo_sapiens_Q9H477_ATP
+  name: Reaction catalyzed by ribokinase on ATP
+  equation: ATP + D-Galactose = ADP + D-Galactose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_D-Galactose
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_D-Galactose_6-phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_15_Q9H477_p66967
+    role: BIOCATALYST
+  - species_id: activator_Phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:12936; CHEBI:14791; CHEBI:43470;
+    CHEBI:16761; CHEBI:18367; CHEBI:10789; CHEBI:57299; CHEBI:13379; CHEBI:35780;
+    CHEBI:40553; CHEBI:26020; CHEBI:26078; CHEBI:6635; CHEBI:17733; CHEBI:13236; CHEBI:29139;
+    CHEBI:39739; CHEBI:10841; CHEBI:2359; CHEBI:42741; CHEBI:91004; CHEBI:87518; CHEBI:49736;
+    CHEBI:39745; CHEBI:40938; CHEBI:47944; CHEBI:7793; CHEBI:456216; CHEBI:28061;
+    CHEBI:10231; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:4141; CHEBI:4139; CHEBI:45024;
+    CHEBI:18420; CHEBI:22373; CHEBI:25112; CHEBI:43474; CHEBI:13222; CHEBI:12937;
+    CHEBI:22244; CHEBI:29137; CHEBI:39127
+
+    KEGG IDs: KEGG:C00984; KEGG:C00124; KEGG:C00305; KEGG:C00002; KEGG:C01113; KEGG:C00009;
+    KEGG:C00008'
+- id: sabiork_1116_EC2_7_1_15_Homo_sapiens_Q9H477_ATP
+  name: Reaction catalyzed by hexokinase on ATP
+  equation: ATP + D-Fructose = ADP + D-Fructose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_D-Fructose
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_D-Fructose_6-phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_15_Q9H477_p66966
+    role: BIOCATALYST
+  - species_id: activator_Phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00760
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:15946; CHEBI:14791; CHEBI:43470;
+    CHEBI:16761; CHEBI:18367; CHEBI:10789; CHEBI:57299; CHEBI:13379; CHEBI:35780;
+    CHEBI:12926; CHEBI:40553; CHEBI:26020; CHEBI:26078; CHEBI:20935; CHEBI:6635; CHEBI:39127;
+    CHEBI:13236; CHEBI:29139; CHEBI:39739; CHEBI:15824; CHEBI:10841; CHEBI:2359; CHEBI:87518;
+    CHEBI:49736; CHEBI:39745; CHEBI:40938; CHEBI:42406; CHEBI:7793; CHEBI:456216;
+    CHEBI:47424; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:57579; CHEBI:37721; CHEBI:18420;
+    CHEBI:45024; CHEBI:4119; CHEBI:4124; CHEBI:25112; CHEBI:43474; CHEBI:13222; CHEBI:22244;
+    CHEBI:29137; CHEBI:48095
+
+    KEGG IDs: KEGG:C00305; KEGG:C00002; KEGG:C00009; KEGG:C10906; KEGG:C00095; KEGG:C00085;
+    KEGG:C00008'
+- id: sabiork_111_EC2_7_1_15_Homo_sapiens_Q9H477_D-Ribose
+  name: Reaction catalyzed by ribokinase on D-Ribose
+  equation: D-Ribose + ATP = ADP + D-Ribose 5-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Ribose
+  - species_id: substrate_ATP
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_ADP
+  - species_id: product_D-Ribose_5-phosphate
+  modifiers:
+  - species_id: protein_2_7_1_15_Q9H477_p66960
+    role: BIOCATALYST
+  - species_id: activator_Phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01051
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:14791; CHEBI:43470; CHEBI:16761;
+    CHEBI:18367; CHEBI:10789; CHEBI:57299; CHEBI:13379; CHEBI:35780; CHEBI:40553;
+    CHEBI:58273; CHEBI:26020; CHEBI:26078; CHEBI:4238; CHEBI:6635; CHEBI:15048; CHEBI:47013;
+    CHEBI:47014; CHEBI:13236; CHEBI:21083; CHEBI:29139; CHEBI:39739; CHEBI:16988;
+    CHEBI:10841; CHEBI:2359; CHEBI:87518; CHEBI:22410; CHEBI:49736; CHEBI:40938; CHEBI:39745;
+    CHEBI:7793; CHEBI:456216; CHEBI:45501; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:45024;
+    CHEBI:17797; CHEBI:18420; CHEBI:45506; CHEBI:25112; CHEBI:43474; CHEBI:13222;
+    CHEBI:13013; CHEBI:22244; CHEBI:29137; CHEBI:39127
+
+    KEGG IDs: KEGG:C00117; KEGG:C00305; KEGG:C00002; KEGG:C00009; KEGG:C00121; KEGG:C00008'
+- id: sabiork_1723_EC2_7_1_15_Homo_sapiens_Q9H477_D-Arabinose
+  name: Reaction catalyzed by ribokinase on D-Arabinose
+  equation: ATP + D-Arabinose = ADP + D-Arabinose 5-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Arabinose
+  - species_id: substrate_ATP
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_D-Arabinose_5-phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_15_Q9H477_p66969
+    role: BIOCATALYST
+  - species_id: activator_Phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 24588;24589;24590;24591
+  KEGGid: R01573
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:4104; CHEBI:14791; CHEBI:43470;
+    CHEBI:16761; CHEBI:18367; CHEBI:10789; CHEBI:57299; CHEBI:13379; CHEBI:35780;
+    CHEBI:40553; CHEBI:26020; CHEBI:26078; CHEBI:57693; CHEBI:6635; CHEBI:13236; CHEBI:29139;
+    CHEBI:39739; CHEBI:10841; CHEBI:2359; CHEBI:87518; CHEBI:49736; CHEBI:39745; CHEBI:40938;
+    CHEBI:46983; CHEBI:17108; CHEBI:456216; CHEBI:16241; CHEBI:7793; CHEBI:22249;
+    CHEBI:2342; CHEBI:15422; CHEBI:45024; CHEBI:18420; CHEBI:20915; CHEBI:12916; CHEBI:79058;
+    CHEBI:25112; CHEBI:46994; CHEBI:43474; CHEBI:13222; CHEBI:22244; CHEBI:29137;
+    CHEBI:39127
+
+    KEGG IDs: KEGG:C00216; KEGG:C00305; KEGG:C00002; KEGG:C00009; KEGG:C00008; KEGG:C01112'
+- id: sabiork_15494_EC2_7_1_15_Homo_sapiens_Q9H477_ATP
+  name: Reaction catalyzed by ribokinase on ATP
+  equation: ATP + D-Xylose = ADP + D-Xylose 1-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_D-Xylose
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_ADP
+  - species_id: product_D-Xylose_1-phosphate
+  modifiers:
+  - species_id: protein_2_7_1_15_Q9H477_p66968
+    role: BIOCATALYST
+  - species_id: activator_Phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:14791; CHEBI:43470; CHEBI:16761;
+    CHEBI:18367; CHEBI:10789; CHEBI:57299; CHEBI:57574; CHEBI:13379; CHEBI:35780;
+    CHEBI:40553; CHEBI:26020; CHEBI:26078; CHEBI:6635; CHEBI:13236; CHEBI:29139; CHEBI:39739;
+    CHEBI:10841; CHEBI:2359; CHEBI:87518; CHEBI:49736; CHEBI:39745; CHEBI:40938; CHEBI:7793;
+    CHEBI:456216; CHEBI:13033; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:45024;
+    CHEBI:18420; CHEBI:4265; CHEBI:25112; CHEBI:43474; CHEBI:13222; CHEBI:22244; CHEBI:29137;
+    CHEBI:15936; CHEBI:39127; CHEBI:21118
+
+    KEGG IDs: KEGG:C00181; KEGG:C00305; KEGG:C00002; KEGG:C00009; KEGG:C00008'
+- id: sabiork_111_EC2_7_1_15_Homo_sapiens_Q9H477_D-Ribose
+  name: Reaction catalyzed by ribokinase on D-Ribose
+  equation: D-Ribose + ATP = ADP + D-Ribose 5-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Ribose
+  - species_id: substrate_ATP
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_D-Ribose_5-phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_15_Q9H477_p66961
+    role: BIOCATALYST
+  - species_id: activator_Phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01051
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:14791; CHEBI:43470; CHEBI:16761;
+    CHEBI:18367; CHEBI:10789; CHEBI:57299; CHEBI:13379; CHEBI:35780; CHEBI:40553;
+    CHEBI:58273; CHEBI:26020; CHEBI:26078; CHEBI:4238; CHEBI:6635; CHEBI:15048; CHEBI:47013;
+    CHEBI:47014; CHEBI:13236; CHEBI:21083; CHEBI:29139; CHEBI:39739; CHEBI:16988;
+    CHEBI:10841; CHEBI:2359; CHEBI:87518; CHEBI:22410; CHEBI:49736; CHEBI:40938; CHEBI:39745;
+    CHEBI:7793; CHEBI:456216; CHEBI:45501; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:45024;
+    CHEBI:17797; CHEBI:18420; CHEBI:45506; CHEBI:25112; CHEBI:43474; CHEBI:13222;
+    CHEBI:13013; CHEBI:22244; CHEBI:29137; CHEBI:39127
+
+    KEGG IDs: KEGG:C00117; KEGG:C00305; KEGG:C00002; KEGG:C00009; KEGG:C00121; KEGG:C00008'
+- id: sabiork_111_EC2_7_1_15_Homo_sapiens_Q9H477_D-Ribose
+  name: Reaction catalyzed by ribokinase on D-Ribose
+  equation: D-Ribose + ATP = ADP + D-Ribose 5-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Ribose
+  - species_id: substrate_ATP
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_ADP
+  - species_id: product_D-Ribose_5-phosphate
+  modifiers:
+  - species_id: protein_2_7_1_15_Q9H477_p66963
+    role: BIOCATALYST
+  - species_id: activator_Phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01051
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:14791; CHEBI:43470; CHEBI:16761;
+    CHEBI:18367; CHEBI:10789; CHEBI:57299; CHEBI:13379; CHEBI:35780; CHEBI:40553;
+    CHEBI:58273; CHEBI:26020; CHEBI:26078; CHEBI:4238; CHEBI:6635; CHEBI:15048; CHEBI:47013;
+    CHEBI:47014; CHEBI:13236; CHEBI:21083; CHEBI:29139; CHEBI:39739; CHEBI:16988;
+    CHEBI:10841; CHEBI:2359; CHEBI:87518; CHEBI:22410; CHEBI:49736; CHEBI:40938; CHEBI:39745;
+    CHEBI:7793; CHEBI:456216; CHEBI:45501; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:45024;
+    CHEBI:17797; CHEBI:18420; CHEBI:45506; CHEBI:25112; CHEBI:43474; CHEBI:13222;
+    CHEBI:13013; CHEBI:22244; CHEBI:29137; CHEBI:39127
+
+    KEGG IDs: KEGG:C00117; KEGG:C00305; KEGG:C00002; KEGG:C00009; KEGG:C00121; KEGG:C00008'
+- id: sabiork_111_EC2_7_1_15_Homo_sapiens_Q9H477_D-Ribose
+  name: Reaction catalyzed by ribokinase on D-Ribose
+  equation: D-Ribose + ATP = ADP + D-Ribose 5-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Ribose
+  - species_id: substrate_ATP
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_D-Ribose_5-phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_15_Q9H477_p66965
+    role: BIOCATALYST
+  - species_id: activator_Phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01051
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:14791; CHEBI:43470; CHEBI:16761;
+    CHEBI:18367; CHEBI:10789; CHEBI:57299; CHEBI:13379; CHEBI:35780; CHEBI:40553;
+    CHEBI:58273; CHEBI:26020; CHEBI:26078; CHEBI:4238; CHEBI:6635; CHEBI:15048; CHEBI:47013;
+    CHEBI:47014; CHEBI:13236; CHEBI:21083; CHEBI:29139; CHEBI:39739; CHEBI:16988;
+    CHEBI:10841; CHEBI:2359; CHEBI:87518; CHEBI:22410; CHEBI:49736; CHEBI:40938; CHEBI:39745;
+    CHEBI:7793; CHEBI:456216; CHEBI:45501; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:45024;
+    CHEBI:17797; CHEBI:18420; CHEBI:45506; CHEBI:25112; CHEBI:43474; CHEBI:13222;
+    CHEBI:13013; CHEBI:22244; CHEBI:29137; CHEBI:39127
+
+    KEGG IDs: KEGG:C00117; KEGG:C00305; KEGG:C00002; KEGG:C00009; KEGG:C00121; KEGG:C00008'
+measurements:
+- id: measurement_2_7_1_15_Homo_sapiens_Q9H477_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_7_1_15_Homo_sapiens_Q9H477_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_7_1_15_Homo_sapiens_Q9H477_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_7_1_15_Homo_sapiens_Q9H477_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_7_1_15_Homo_sapiens_Q9H477_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_7_1_15_Homo_sapiens_Q9H477_D-Ribose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_7_1_15_Homo_sapiens_Q9H477_D-Arabinose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_7_1_15_Homo_sapiens_Q9H477_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_7_1_15_Homo_sapiens_Q9H477_D-Ribose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_7_1_15_Homo_sapiens_Q9H477_D-Ribose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_7_1_15_Homo_sapiens_Q9H477_D-Ribose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_1_15_Homo_sapiens_Q9H477_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 9320.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17585908'
+- id: 2_7_1_15_Homo_sapiens_Q9H477_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.03043
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17585908'
+- id: 2_7_1_15_Homo_sapiens_Q9H477_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00217
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17585908'
+- id: 2_7_1_15_Homo_sapiens_Q9H477_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 40580.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17585908'
+- id: 2_7_1_15_Homo_sapiens_Q9H477_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 63910.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17585908'
+- id: 2_7_1_15_Homo_sapiens_Q9H477_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 8.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17585908'
+- id: 2_7_1_15_Homo_sapiens_Q9H477_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 80.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17585908'
+- id: 2_7_1_15_Homo_sapiens_Q9H477_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 59.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17585908'
+- id: 2_7_1_15_Homo_sapiens_Q9H477_D-Ribose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00662
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Ribose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17585908'
+- id: 2_7_1_15_Homo_sapiens_Q9H477_D-Ribose_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 20850.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Ribose
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17585908'
+- id: 2_7_1_15_Homo_sapiens_Q9H477_D-Arabinose_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1770.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Arabinose
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17585908'
+- id: 2_7_1_15_Homo_sapiens_Q9H477_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 150.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17585908'
+- id: 2_7_1_15_Homo_sapiens_Q9H477_D-Ribose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00339
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Ribose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17585908'
+- id: 2_7_1_15_Homo_sapiens_Q9H477_D-Ribose_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 31840.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Ribose
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17585908'
+- id: 2_7_1_15_Homo_sapiens_Q9H477_D-Ribose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0001
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Ribose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17585908'
+- id: 2_7_1_15_Homo_sapiens_Q9H477_D-Ribose_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 53590.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Ribose
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17585908'
+- id: 2_7_1_15_Homo_sapiens_Q9H477_D-Ribose_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 66830.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Ribose
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17585908'
+- id: 2_7_1_15_Homo_sapiens_Q9H477_D-Ribose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Ribose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17585908'
+buffer:
+  buffer: 20 mM Tris-maleate, 125 mM KCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 66959
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/17585908/
+  pubmed_id: '17585908'
+  doi: null
+name: Merged entry for Q9H477 wildtype
+description: 'Merged from 11 files: SABIO_EC2.7.1.15_Homo_sapiens__Q9H477_s_ATP.yaml,
+  SABIO_EC2.7.1.15_Homo_sapiens__Q9H477_s_ATP_2.yaml, SABIO_EC2.7.1.15_Homo_sapiens__Q9H477_s_ATP_3.yaml,
+  SABIO_EC2.7.1.15_Homo_sapiens__Q9H477_s_ATP_5.yaml, SABIO_EC2.7.1.15_Homo_sapiens__Q9H477_s_ATP_4.yaml,
+  SABIO_EC2.7.1.15_Homo_sapiens__Q9H477_s_D-Ribose.yaml, SABIO_EC2.7.1.15_Homo_sapiens__Q9H477_s_D-Arabinose.yaml,
+  SABIO_EC2.7.1.15_Homo_sapiens__Q9H477_s_ATP_6.yaml, SABIO_EC2.7.1.15_Homo_sapiens__Q9H477_s_D-Ribose_2.yaml,
+  SABIO_EC2.7.1.15_Homo_sapiens__Q9H477_s_D-Ribose_3.yaml, SABIO_EC2.7.1.15_Homo_sapiens__Q9H477_s_D-Ribose_4.yaml'

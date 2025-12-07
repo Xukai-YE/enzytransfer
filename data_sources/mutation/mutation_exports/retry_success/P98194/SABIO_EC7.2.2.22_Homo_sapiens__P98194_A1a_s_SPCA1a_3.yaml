@@ -1,0 +1,174 @@
+name: SABIO-RK Entry 75789
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 75789
+created: '2025-10-28T17:46:44.735883'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_7_2_2_22_P98194_p75789
+  name: Ca2+-transporting ATPase
+  sequence: null
+  ecnumber: 7.2.2.22
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: A1a
+  uniprotid: P98194
+  mutant_sequence: MKVARFQKIPNGENETMIPVLTSKKASELPVSEVASILQADLQNGLNKCEVSHRRAFHGWNEFDISEDEPLWKKYISQFKNPLIMLLLASAVISVLMHQFDDAVSITVAILIVVTVAFVQEYRSEKSLEELSKLVPPECHCVREGKLEHTLARDLVPGDTVCLSVGDRVPADLRLFEAVDLSIDESSLTGETTPCSKVTAPQPAATNGDLASRSNIAFMGTLVRCGKAKGVVIGTGENSEFGEVFKMMQAEEAPKTPLQKSMDLLGKQLSFYSFGIIGIIMLVGWLLGKDILEMFTISVSLAVAAIPEGLPIVVTVTLALGVMRMVKKRAIVKKLPIVETLGCCNVICSDKTGTLTKNEMTVTHIFTSDGLHAEVTGVGYNQFGEVIVDGDVVHGFYNPAVSRIVEAGCVCNDAVIRNNTLMGKPTEGALIALAMKMGLDGLQQDYIRKAEYPFSSEQKWMAVKCVHRTQQDRPEICFMKGAYEQVIKYCTTYQSKGQTLTLTQQQRDVYQQEKARMGSAGLRVLALASGPELGQLTFLGLVGIIDPPRTGVKEAVTTLIASGVSIKMITGDSQETAVAIASRLGLYSKTSQSVSGEEIDAMDVQQLSQIVPKVAVFYRASPRHKMKIIKSLQKNGSVVAMTGDGVNDAVALKAADIGVAMGQTGTDVCKEAADMILVDDDFQTIMSAIEEGKGIYNNIKNFVRFQLSTSIAALTLISLATLMNFPNPLNAMQILWINIIMDGPPAQSLGVEPVDKDVIRKPPRNWKDSILTKNLILKILVSSIIIVCGTLFVFWRELRDNVITPRDTTMTFTCFVFFDMFNALSSRSQTKSVFEIGLCSNRMFCYAVLGSIMGQLLVIYFPPLQKVFQTESLSILDLLFLLGLTSSVCIVAEIIKKVERSREKIQKHVSSTSSSFLEV
+  position_offset: 3
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_SPCA1a
+  name: SPCA1a
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mn2_
+  name: Mn2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_phosphorylated_SPCA1a
+  name: phosphorylated SPCA1a
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_16475_EC7_2_2_22_Homo_sapiens_P98194_SPCA1a
+  name: Reaction catalyzed by Ca2+-transporting ATPase on SPCA1a
+  equation: ATP + SPCA1a = ADP + phosphorylated SPCA1a
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_SPCA1a
+  - species_id: substrate_ATP
+  - species_id: cofactor_Mn2_
+  products:
+  - species_id: product_ADP
+  - species_id: product_phosphorylated_SPCA1a
+  modifiers:
+  - species_id: protein_7_2_2_22_P98194_p75789
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:29035; CHEBI:16761; CHEBI:10789;
+    CHEBI:57299; CHEBI:40553; CHEBI:49749; CHEBI:13236; CHEBI:10841; CHEBI:2359; CHEBI:25156;
+    CHEBI:87518; CHEBI:40938; CHEBI:456216; CHEBI:22249; CHEBI:2342; CHEBI:15422;
+    CHEBI:13222; CHEBI:22244; CHEBI:21435
+
+    KEGG IDs: KEGG:C00002; KEGG:C00034; KEGG:C00008; KEGG:C19610'
+measurements:
+- id: measurement_7_2_2_22_Homo_sapiens_P98194_SPCA1a
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 4.0
+  temperature_unit: °C
+parameters:
+- id: 7_2_2_22_Homo_sapiens_P98194_SPCA1a_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000242
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_SPCA1a
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 4.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '30923126'
+- id: 7_2_2_22_Homo_sapiens_P98194_SPCA1a_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.3e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_SPCA1a
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 4.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '30923126'
+buffer:
+  buffer: 17 mM Hepes, 160 mM KCl, 5 mM MgCl2, 1 mM EGTA, 1 mM DTT, 40 ¦Ìg BSA
+  buffer_concentration: 17 mM
+references:
+- title: Reference for SABIO-RK entry 75789
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/30923126/
+  pubmed_id: '30923126'
+  doi: null

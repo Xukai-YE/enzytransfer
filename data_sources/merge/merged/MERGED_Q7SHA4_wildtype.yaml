@@ -1,0 +1,239 @@
+version: '2.0'
+created: '2025-11-20T13:40:05.001975'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_3_1_4_Q7SHA4_p38167
+  name: glucosamine-phosphate N-acetyltransferase
+  ecnumber: 2.3.1.4
+  organism: Neurospora crassa
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q7SHA4
+  wildtype_sequence: MAAPKELFSADLLSPEVQSALPEGYKLRALRPTDYDTGFLDCLRVLTTVGDITKEQFQDRYNWISRQDGGYFILVIEDTNSSPPRVVGTGAVLVERKFIHNLGSVGHIEDIAIAKDQQGKKLGLRMIQALDFIAERTGCYKTILDCSEANEGFYVKCGFKRAGLEMAHYYQNTKSKA
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_D-Glucosamine_6-phosphate
+  name: D-Glucosamine 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Acetyl-CoA
+  name: Acetyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N-Acetyl-D-glucosamine_6-phosphate
+  name: N-Acetyl-D-glucosamine 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2075_EC2_3_1_4_Neurospora_crassa_Q7SHA4_D-Glucosamine_6-phosphate
+  name: Reaction catalyzed by glucosamine-phosphate N-acetyltransferase on D-Glucosamine
+    6-phosphate
+  equation: D-Glucosamine 6-phosphate + Acetyl-CoA = Coenzyme A + N-Acetyl-D-glucosamine
+    6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Glucosamine_6-phosphate
+  - species_id: substrate_Acetyl-CoA
+  products:
+  - species_id: product_Coenzyme_A
+  - species_id: product_N-Acetyl-D-glucosamine_6-phosphate
+  modifiers:
+  - species_id: protein_2_3_1_4_Q7SHA4_p38167
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 10292;10293;10294;10295
+  KEGGid: R02058
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:15346; CHEBI:23355; CHEBI:57288; CHEBI:41631;
+    CHEBI:13712; CHEBI:75989; CHEBI:57513; CHEBI:13295; CHEBI:41597; CHEBI:7127; CHEBI:12962;
+    CHEBI:12564; CHEBI:57287; CHEBI:15784; CHEBI:58725; CHEBI:13294; CHEBI:12456;
+    CHEBI:47987; CHEBI:40470; CHEBI:21521; CHEBI:2408; CHEBI:42901; CHEBI:3771; CHEBI:741566;
+    CHEBI:12317; CHEBI:4164; CHEBI:15873; CHEBI:13298; CHEBI:15351
+
+    KEGG IDs: KEGG:C00357; KEGG:C00024; KEGG:C00010; KEGG:C00352'
+- id: sabiork_2075_EC2_3_1_4_Neurospora_crassa_Q7SHA4_Acetyl-CoA
+  name: Reaction catalyzed by glucosamine-phosphate N-acetyltransferase on Acetyl-CoA
+  equation: D-Glucosamine 6-phosphate + Acetyl-CoA = Coenzyme A + N-Acetyl-D-glucosamine
+    6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Acetyl-CoA
+  - species_id: substrate_D-Glucosamine_6-phosphate
+  products:
+  - species_id: product_N-Acetyl-D-glucosamine_6-phosphate
+  - species_id: product_Coenzyme_A
+  modifiers:
+  - species_id: protein_2_3_1_4_Q7SHA4_p38166
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 10292;10293;10294;10295
+  KEGGid: R02058
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:15346; CHEBI:23355; CHEBI:57288; CHEBI:41631;
+    CHEBI:13712; CHEBI:75989; CHEBI:57513; CHEBI:13295; CHEBI:7127; CHEBI:41597; CHEBI:12962;
+    CHEBI:12564; CHEBI:57287; CHEBI:15784; CHEBI:58725; CHEBI:13294; CHEBI:12456;
+    CHEBI:47987; CHEBI:40470; CHEBI:21521; CHEBI:2408; CHEBI:42901; CHEBI:3771; CHEBI:741566;
+    CHEBI:12317; CHEBI:4164; CHEBI:15873; CHEBI:13298; CHEBI:15351
+
+    KEGG IDs: KEGG:C00010; KEGG:C00357; KEGG:C00352; KEGG:C00024'
+measurements:
+- id: measurement_2_3_1_4_Neurospora_crassa_Q7SHA4_D-Glucosamine_6-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.6
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_3_1_4_Neurospora_crassa_Q7SHA4_Acetyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.6
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_3_1_4_Neurospora_crassa_Q7SHA4_D-Glucosamine_6-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00078
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucosamine_6-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '13428743'
+- id: 2_3_1_4_Neurospora_crassa_Q7SHA4_D-Glucosamine_6-phosphate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000203611
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucosamine_6-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '13428743'
+- id: 2_3_1_4_Neurospora_crassa_Q7SHA4_Acetyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00078
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '13428743'
+- id: 2_3_1_4_Neurospora_crassa_Q7SHA4_Acetyl-CoA_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000203611
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '13428743'
+buffer:
+  buffer: 28.57 mM Phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 38167
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/13428743/
+  pubmed_id: '13428743'
+  doi: null
+name: Merged entry for Q7SHA4 wildtype
+description: 'Merged from 2 files: SABIO_EC2.3.1.4_Neurospora_crassa__Q7SHA4_s_D-Glucosamine.yaml,
+  SABIO_EC2.3.1.4_Neurospora_crassa__Q7SHA4_s_Acetyl-CoA.yaml'

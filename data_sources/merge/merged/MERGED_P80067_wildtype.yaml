@@ -1,0 +1,253 @@
+version: '2.0'
+created: '2025-11-20T13:41:11.511013'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_4_14_1_P80067_p26867
+  name: dipeptidyl-peptidase I
+  ecnumber: 3.4.14.1
+  organism: Rattus norvegicus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P80067
+  wildtype_sequence: MGPWTHSLRAALLLVLLGVCTVSSDTPANCTYPDLLGTWVFQVGPRHPRSHINCSVMEPTEEKVVIHLKKLDTAYDEVGNSGYFTLIYNQGFEIVLNDYKWFAFFKYEVKGSRAISYCHETMTGWVHDVLGRNWACFVGKKMANHSEKVYVNVAHLGGLQEKYSERLYSHNHNFVKAINSVQKSWTATTYEEYEKLSIRDLIRRSGHSGRILRPKPAPITDEIQQQILSLPESWDWRNVRGINFVSPVRNQESCGSCYSFASLGMLEARIRILTNNSQTPILSPQEVVSCSPYAQGCDGGFPYLIAGKYAQDFGVVEENCFPYTATDAPCKPKENCLRYYSSEYYYVGGFYGGCNEALMKLELVKHGPMAVAFEVHDDFLHYHSGIYHHTGLSDPFNPFELTNHAVLLVGYGKDPVTGLDYWIVKNSWGSQWGESGYFRIRRGTDECAIESIAMAAIPIPKL
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Hydroxylamine
+  name: Hydroxylamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Glycyl-Tyrosyl-amide
+  name: Glycyl-Tyrosyl-amide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Glycyl-Tyrosyl-hydroxamic_acid
+  name: Glycyl-Tyrosyl-hydroxamic acid
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NH3
+  name: NH3
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Valyl-Leucyl-amide
+  name: Valyl-Leucyl-amide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Valyl-Leucyl-hydroxamic_acid
+  name: Valyl-Leucyl-hydroxamic acid
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_10867_EC3_4_14_1_Rattus_norvegicus_P80067_Hydroxylamine
+  name: Reaction catalyzed by dipeptidyl-peptidase I on Hydroxylamine
+  equation: Glycyl-Tyrosyl-amide + Hydroxylamine = Glycyl-Tyrosyl-hydroxamic acid
+    + NH3
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Hydroxylamine
+  - species_id: substrate_Glycyl-Tyrosyl-amide
+  products:
+  - species_id: product_Glycyl-Tyrosyl-hydroxamic_acid
+  - species_id: product_NH3
+  modifiers:
+  - species_id: protein_3_4_14_1_P80067_p26867
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:44284; CHEBI:16134; CHEBI:13405; CHEBI:7434; CHEBI:13407;
+    CHEBI:135980; CHEBI:22534; CHEBI:10793; CHEBI:7435; CHEBI:49783; CHEBI:22533;
+    CHEBI:43221; CHEBI:44404; CHEBI:13771; CHEBI:44269; CHEBI:13406; CHEBI:24708;
+    CHEBI:28938; CHEBI:15429; CHEBI:14421; CHEBI:5806
+
+    KEGG IDs: KEGG:C01342; KEGG:C00192; KEGG:C00014'
+- id: sabiork_10981_EC3_4_14_1_Rattus_norvegicus_P80067_Valyl-Leucyl-amide
+  name: Reaction catalyzed by dipeptidyl-peptidase I on Valyl-Leucyl-amide
+  equation: Hydroxylamine + Valyl-Leucyl-amide = Valyl-Leucyl-hydroxamic acid + NH3
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Valyl-Leucyl-amide
+  - species_id: substrate_Hydroxylamine
+  products:
+  - species_id: product_NH3
+  - species_id: product_Valyl-Leucyl-hydroxamic_acid
+  modifiers:
+  - species_id: protein_3_4_14_1_P80067_p26868
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:44284; CHEBI:16134; CHEBI:13405; CHEBI:7434; CHEBI:13407;
+    CHEBI:135980; CHEBI:22534; CHEBI:10793; CHEBI:7435; CHEBI:49783; CHEBI:22533;
+    CHEBI:43221; CHEBI:44404; CHEBI:13771; CHEBI:44269; CHEBI:13406; CHEBI:24708;
+    CHEBI:28938; CHEBI:15429; CHEBI:14421; CHEBI:5806
+
+    KEGG IDs: KEGG:C01342; KEGG:C00192; KEGG:C00014'
+measurements:
+- id: measurement_3_4_14_1_Rattus_norvegicus_P80067_Hydroxylamine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.8
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_3_4_14_1_Rattus_norvegicus_P80067_Valyl-Leucyl-amide
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.8
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_4_14_1_Rattus_norvegicus_P80067_Hydroxylamine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.006
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Hydroxylamine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '5026312'
+- id: 3_4_14_1_Rattus_norvegicus_P80067_Hydroxylamine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.001526667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Hydroxylamine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '5026312'
+- id: 3_4_14_1_Rattus_norvegicus_P80067_Valyl-Leucyl-amide_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0025
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Valyl-Leucyl-amide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '5026312'
+- id: 3_4_14_1_Rattus_norvegicus_P80067_Valyl-Leucyl-amide_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.007783333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Valyl-Leucyl-amide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '5026312'
+buffer:
+  buffer: 25 mM dithioerythritol
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 26867
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/5026312/
+  pubmed_id: '5026312'
+  doi: null
+name: Merged entry for P80067 wildtype
+description: 'Merged from 2 files: SABIO_EC3.4.14.1_Rattus_norvegicus__P80067_s_Hydroxylamine.yaml,
+  SABIO_EC3.4.14.1_Rattus_norvegicus__P80067_s_Valyl-Leucyl-amide.yaml'

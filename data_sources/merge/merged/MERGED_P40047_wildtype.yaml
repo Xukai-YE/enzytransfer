@@ -1,0 +1,550 @@
+version: '2.0'
+created: '2025-11-20T13:39:42.242418'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_2_1_5_P40047_p63604
+  name: 2,5-dioxovalerate dehydrogenase
+  ecnumber: 1.2.1.5
+  organism: Saccharomyces cerevisiae
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P40047
+  wildtype_sequence: MLSRTRAAAPNSRIFTRSLLRLYSQAPLRVPITLPNGFTYEQPTGLFINGEFVASKQKKTFDVINPSNEEKITTVYKAMEDDVDEAVAAAKKAFETKWSIVEPEVRAKALFNLADLVEKHQETLAAIESMDNGKSLFCARGDVALVSKYLRSCGGWADKIYGNVIDTGKNHFTYSIKEPLGVCGQIIPWNFPLLMWSWKIGPALATGNTVVLKPAETTPLSALFASQLCQEAGIPAGVVNILPGSGRVVGERLSAHPDVKKIAFTGSTATGRHIMKVAADTVKKVTLELGGKSPNIVFADADLDKAVKNIAFGIFYNSGEVCCAGSRIYIQDTVYEEVLQKLKDYTESLKVGDPFDEEVFQGAQTSDKQLHKILDYVDVAKSEGARLVTGGARHGSKGYFVKPTVFADVKEDMRIVKEEVFGPIVTVSKFSTVDEVIAMANDSQYGLAAGIHTNDINKAVDVSKRVKAGTVWINTYNNFHQNVPFGGFGQSGIGREMGEAALSNYTQTKSVRIAIDKPIR
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Acetaldehyde
+  name: Acetaldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Acetate
+  name: Acetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Propanal
+  name: Propanal
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Propanoate
+  name: Propanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_541_EC1_2_1_5_Saccharomyces_cerevisiae_P40047_Acetaldehyde
+  name: Reaction catalyzed by 2,5-dioxovalerate dehydrogenase on Acetaldehyde
+  equation: H2O + NADP+ + Acetaldehyde = H+ + Acetate + NADPH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Acetaldehyde
+  - species_id: substrate_NADP_
+  products:
+  - species_id: product_NADPH
+  - species_id: product_Acetate
+  modifiers:
+  - species_id: protein_1_2_1_5_P40047_p63604
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 25298;25299;25300;25301
+  KEGGid: R00711
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:40480; CHEBI:44819; CHEBI:41981; CHEBI:13397;
+    CHEBI:13398; CHEBI:13704; CHEBI:7424; CHEBI:15366; CHEBI:44405; CHEBI:21903; CHEBI:42857;
+    CHEBI:41979; CHEBI:7425; CHEBI:29234; CHEBI:40486; CHEBI:22169; CHEBI:25523; CHEBI:2387;
+    CHEBI:13357; CHEBI:42043; CHEBI:2383; CHEBI:40533; CHEBI:30089; CHEBI:24636; CHEBI:29233;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:13399; CHEBI:5584; CHEBI:15377; CHEBI:15343;
+    CHEBI:13352; CHEBI:13703; CHEBI:16474; CHEBI:22165; CHEBI:44286; CHEBI:43228;
+    CHEBI:22158; CHEBI:44292; CHEBI:21904; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:44409; CHEBI:15378; CHEBI:18009; CHEBI:58349; CHEBI:13400; CHEBI:57783;
+    CHEBI:10744; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00084; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00001; KEGG:C00033;
+    KEGG:C11037'
+- id: sabiork_541_EC1_2_1_5_Saccharomyces_cerevisiae_P40047_Acetaldehyde
+  name: Reaction catalyzed by 2,5-dioxovalerate dehydrogenase on Acetaldehyde
+  equation: H2O + NADP+ + Acetaldehyde = H+ + Acetate + NADPH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Acetaldehyde
+  - species_id: substrate_NADP_
+  products:
+  - species_id: product_Acetate
+  - species_id: product_NADPH
+  modifiers:
+  - species_id: protein_1_2_1_5_P40047_p63605
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 25298;25299;25300;25301
+  KEGGid: R00711
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:40480; CHEBI:44819; CHEBI:41981; CHEBI:13397;
+    CHEBI:13398; CHEBI:13704; CHEBI:7424; CHEBI:15366; CHEBI:44405; CHEBI:21903; CHEBI:42857;
+    CHEBI:41979; CHEBI:7425; CHEBI:29234; CHEBI:40486; CHEBI:22169; CHEBI:25523; CHEBI:2387;
+    CHEBI:13357; CHEBI:42043; CHEBI:2383; CHEBI:40533; CHEBI:30089; CHEBI:24636; CHEBI:29233;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:5584; CHEBI:13399; CHEBI:15377; CHEBI:15343;
+    CHEBI:13352; CHEBI:13703; CHEBI:22165; CHEBI:16474; CHEBI:44286; CHEBI:43228;
+    CHEBI:22158; CHEBI:44292; CHEBI:21904; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:44409; CHEBI:15378; CHEBI:18009; CHEBI:58349; CHEBI:13400; CHEBI:57783;
+    CHEBI:10744; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00084; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00001; KEGG:C00033;
+    KEGG:C11037'
+- id: sabiork_9833_EC1_2_1_5_Saccharomyces_cerevisiae_P40047_NAD_
+  name: Reaction catalyzed by aldehyde dehydrogenase (NAD+) on NAD+
+  equation: Propanal + NAD+ + H2O = Propanoate + NADH + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_Propanal
+  products:
+  - species_id: product_NADH
+  - species_id: product_Propanoate
+  modifiers:
+  - species_id: protein_1_2_1_5_P40047_p63603
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:17272; CHEBI:45227;
+    CHEBI:44281; CHEBI:42857; CHEBI:17153; CHEBI:13393; CHEBI:14898; CHEBI:41979;
+    CHEBI:8468; CHEBI:15846; CHEBI:29234; CHEBI:13357; CHEBI:45052; CHEBI:21902; CHEBI:13396;
+    CHEBI:21901; CHEBI:42043; CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:33811;
+    CHEBI:13394; CHEBI:33813; CHEBI:27313; CHEBI:5584; CHEBI:15377; CHEBI:13352; CHEBI:57945;
+    CHEBI:44216; CHEBI:8476; CHEBI:26281; CHEBI:41359; CHEBI:57540; CHEBI:43228; CHEBI:7423;
+    CHEBI:26290; CHEBI:44292; CHEBI:13389; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:14903; CHEBI:13395; CHEBI:15378; CHEBI:30768; CHEBI:44215; CHEBI:10744;
+    CHEBI:26304; CHEBI:29373; CHEBI:44701; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00479; KEGG:C00163; KEGG:C00080; KEGG:C00001; KEGG:C00003; KEGG:C00004'
+- id: sabiork_6935_EC1_2_1_5_Saccharomyces_cerevisiae_P40047_NADP_
+  name: Reaction catalyzed by formyltetrahydrofolate dehydrogenase on NADP+
+  equation: NADP+ + Propanal + H2O = H+ + NADPH + Propanoate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADP_
+  - species_id: substrate_Propanal
+  products:
+  - species_id: product_NADPH
+  - species_id: product_Propanoate
+  modifiers:
+  - species_id: protein_1_2_1_5_P40047_p63592
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 27918;27919;27920;27921
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:13397; CHEBI:13398;
+    CHEBI:17272; CHEBI:45227; CHEBI:7424; CHEBI:21903; CHEBI:44405; CHEBI:42857; CHEBI:17153;
+    CHEBI:41979; CHEBI:14898; CHEBI:7425; CHEBI:8468; CHEBI:29234; CHEBI:25523; CHEBI:45052;
+    CHEBI:13357; CHEBI:42043; CHEBI:24636; CHEBI:29233; CHEBI:33811; CHEBI:33813;
+    CHEBI:27313; CHEBI:13399; CHEBI:5584; CHEBI:15377; CHEBI:13352; CHEBI:8476; CHEBI:16474;
+    CHEBI:44286; CHEBI:26281; CHEBI:41359; CHEBI:43228; CHEBI:26290; CHEBI:44292;
+    CHEBI:21904; CHEBI:33806; CHEBI:14903; CHEBI:44409; CHEBI:29374; CHEBI:5585; CHEBI:10743;
+    CHEBI:15378; CHEBI:18009; CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:30768;
+    CHEBI:10744; CHEBI:26304; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00479; KEGG:C00005; KEGG:C00163; KEGG:C00080; KEGG:C00001; KEGG:C00006;
+    KEGG:C11037'
+- id: sabiork_6935_EC1_2_1_5_Saccharomyces_cerevisiae_P40047_Propanal
+  name: Reaction catalyzed by formyltetrahydrofolate dehydrogenase on Propanal
+  equation: NADP+ + Propanal + H2O = H+ + NADPH + Propanoate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Propanal
+  - species_id: substrate_NADP_
+  products:
+  - species_id: product_Propanoate
+  - species_id: product_NADPH
+  modifiers:
+  - species_id: protein_1_2_1_5_P40047_p63593
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 27918;27919;27920;27921
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:13397; CHEBI:13398;
+    CHEBI:17272; CHEBI:45227; CHEBI:7424; CHEBI:21903; CHEBI:44405; CHEBI:42857; CHEBI:17153;
+    CHEBI:41979; CHEBI:14898; CHEBI:29234; CHEBI:8468; CHEBI:7425; CHEBI:25523; CHEBI:45052;
+    CHEBI:13357; CHEBI:42043; CHEBI:24636; CHEBI:29233; CHEBI:33811; CHEBI:33813;
+    CHEBI:27313; CHEBI:5584; CHEBI:13399; CHEBI:15377; CHEBI:13352; CHEBI:8476; CHEBI:16474;
+    CHEBI:44286; CHEBI:26281; CHEBI:41359; CHEBI:43228; CHEBI:26290; CHEBI:44292;
+    CHEBI:21904; CHEBI:33806; CHEBI:14903; CHEBI:44409; CHEBI:29374; CHEBI:5585; CHEBI:10743;
+    CHEBI:15378; CHEBI:18009; CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:30768;
+    CHEBI:10744; CHEBI:26304; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00479; KEGG:C00005; KEGG:C00163; KEGG:C00080; KEGG:C00001; KEGG:C00006;
+    KEGG:C11037'
+- id: sabiork_9833_EC1_2_1_5_Saccharomyces_cerevisiae_P40047_Propanal
+  name: Reaction catalyzed by aldehyde dehydrogenase (NAD+) on Propanal
+  equation: Propanal + NAD+ + H2O = Propanoate + NADH + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Propanal
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_Propanoate
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_2_1_5_P40047_p63602
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:17272; CHEBI:45227;
+    CHEBI:44281; CHEBI:42857; CHEBI:17153; CHEBI:41979; CHEBI:14898; CHEBI:13393;
+    CHEBI:8468; CHEBI:15846; CHEBI:29234; CHEBI:13357; CHEBI:45052; CHEBI:21902; CHEBI:13396;
+    CHEBI:21901; CHEBI:42043; CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:13394; CHEBI:5584; CHEBI:15377; CHEBI:13352; CHEBI:57945;
+    CHEBI:44216; CHEBI:8476; CHEBI:26281; CHEBI:41359; CHEBI:57540; CHEBI:43228; CHEBI:7423;
+    CHEBI:26290; CHEBI:44292; CHEBI:33806; CHEBI:13389; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:14903; CHEBI:15378; CHEBI:13395; CHEBI:30768; CHEBI:44215; CHEBI:10744;
+    CHEBI:26304; CHEBI:29373; CHEBI:44701; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00479; KEGG:C00163; KEGG:C00080; KEGG:C00001; KEGG:C00003; KEGG:C00004'
+measurements:
+- id: measurement_1_2_1_5_Saccharomyces_cerevisiae_P40047_Acetaldehyde
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_1_2_1_5_Saccharomyces_cerevisiae_P40047_Acetaldehyde
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_1_2_1_5_Saccharomyces_cerevisiae_P40047_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_1_2_1_5_Saccharomyces_cerevisiae_P40047_NADP_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_1_2_1_5_Saccharomyces_cerevisiae_P40047_Propanal
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_1_2_1_5_Saccharomyces_cerevisiae_P40047_Propanal
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 1_2_1_5_Saccharomyces_cerevisiae_P40047_Acetaldehyde_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.83333e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetaldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '9473035'
+- id: 1_2_1_5_Saccharomyces_cerevisiae_P40047_Acetaldehyde_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.8e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetaldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '9473035'
+- id: 1_2_1_5_Saccharomyces_cerevisiae_P40047_Acetaldehyde_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.83333e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetaldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '9473035'
+- id: 1_2_1_5_Saccharomyces_cerevisiae_P40047_Acetaldehyde_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00064
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetaldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '9473035'
+- id: 1_2_1_5_Saccharomyces_cerevisiae_P40047_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00643
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '9473035'
+- id: 1_2_1_5_Saccharomyces_cerevisiae_P40047_NAD__Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.833333e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '9473035'
+- id: 1_2_1_5_Saccharomyces_cerevisiae_P40047_NADP__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00039
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '9473035'
+- id: 1_2_1_5_Saccharomyces_cerevisiae_P40047_NADP__Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 7.5e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '9473035'
+- id: 1_2_1_5_Saccharomyces_cerevisiae_P40047_Propanal_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00347
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Propanal
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '9473035'
+- id: 1_2_1_5_Saccharomyces_cerevisiae_P40047_Propanal_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 7.5e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Propanal
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '9473035'
+- id: 1_2_1_5_Saccharomyces_cerevisiae_P40047_Propanal_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00083
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Propanal
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '9473035'
+- id: 1_2_1_5_Saccharomyces_cerevisiae_P40047_Propanal_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.833333e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Propanal
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '9473035'
+buffer:
+  buffer: 100 mM sodium phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 63604
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9473035/
+  pubmed_id: '9473035'
+  doi: null
+name: Merged entry for P40047 wildtype
+description: 'Merged from 6 files: SABIO_EC1.2.1.5_Saccharomyces_cerevisiae__P40047_s_Acetaldehyde.yaml,
+  SABIO_EC1.2.1.5_Saccharomyces_cerevisiae__P40047_s_Acetaldehyde_2.yaml, SABIO_EC1.2.1.5_Saccharomyces_cerevisiae__P40047_s_NAD_.yaml,
+  SABIO_EC1.2.1.5_Saccharomyces_cerevisiae__P40047_s_NADP_.yaml, SABIO_EC1.2.1.5_Saccharomyces_cerevisiae__P40047_s_Propanal.yaml,
+  SABIO_EC1.2.1.5_Saccharomyces_cerevisiae__P40047_s_Propanal_2.yaml'

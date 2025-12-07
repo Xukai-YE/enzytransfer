@@ -1,0 +1,158 @@
+name: SABIO-RK Entry 63303
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 63303
+created: '2025-10-28T16:43:33.526876'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_11_O15648_p63303
+  name: 6-phosphofructokinase
+  sequence: null
+  ecnumber: 2.7.1.11
+  organism: Trypanosoma brucei
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: r139P
+  uniprotid: O15648
+  mutant_sequence: MAVESRSRVTSKLVKAHRAMLNSVTQEDLKVDRLPGADYPNPSKKYSSRTEFRDKTDYIMYNPRPRDEPSSENPVSVSPLLCELAAARSRIHFNPTETTIGIVTCGGICPGLNDVIRSITLTGINVYNVKPVIGFRFGYWGLSKKGSQTAIELHRGRVTNIHHYGGTILGSSRGPQDPKEMVDTLERLGVNILFTVGGDGTQRGALVISQEAKRRGVDISVFGVPKTIDNDLSFSHRTFGFQTAVEKAVQAIRAAYAEAVSANYGVGVVKLMGRDSGFIAAQAAVASAQANICLVPENPISEQEVMSLLERRFCHSRSCVIIVAEGFGQDWGRGSGGYDASGNKKLIDIGVILTEKVKAFLKANKSRYPDSTVKYIDPSYMIRACPPSANDALFCATLATLAVHEAMAGATGCIIAMRHNNYILVPIKVATSVRRVLDLRGQLWRQVREITVDLGSDVRLARKLEIRRELEAINRNRDRLHEELAKL
+  position_offset: -8
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Fructose_6-phosphate
+  name: Fructose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_AMP
+  name: AMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Fructose_1
+  name: Fructose 1
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_6-bisphosphate
+  name: 6-bisphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_2_5-Anhydro-1-deoxy-1-_m-isothiocyanophenylamino_-D-mannitol
+  name: 2,5-Anhydro-1-deoxy-1-(m-isothiocyanophenylamino)-D-mannitol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_12923_EC2_7_1_11_Trypanosoma_brucei_O15648_Fructose_6-phosphate
+  name: Reaction catalyzed by 6-phosphofructokinase on Fructose 6-phosphate
+  equation: ATP + Fructose 6-phosphate = ADP + Fructose 1,6-bisphosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Fructose_6-phosphate
+  - species_id: substrate_ATP
+  - species_id: cofactor_AMP
+  products:
+  - species_id: product_Fructose_1
+  - species_id: product_6-bisphosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_11_O15648_p63303
+    role: BIOCATALYST
+  - species_id: activator_2_5-Anhydro-1-deoxy-1-_m-isothiocyanophenylamino_-D-mannitol
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:15946; CHEBI:30616; CHEBI:237958; CHEBI:32968; CHEBI:16761;
+    CHEBI:10789; CHEBI:57299; CHEBI:40726; CHEBI:22245; CHEBI:12926; CHEBI:40553;
+    CHEBI:40510; CHEBI:20935; CHEBI:22242; CHEBI:13736; CHEBI:47222; CHEBI:456215;
+    CHEBI:13236; CHEBI:40786; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841; CHEBI:2359;
+    CHEBI:87518; CHEBI:40938; CHEBI:40591; CHEBI:42406; CHEBI:456216; CHEBI:22249;
+    CHEBI:2342; CHEBI:15422; CHEBI:40595; CHEBI:57579; CHEBI:13740; CHEBI:4124; CHEBI:13234;
+    CHEBI:40721; CHEBI:13222; CHEBI:32967; CHEBI:22244; CHEBI:13235; CHEBI:12056
+
+    KEGG IDs: KEGG:C00002; KEGG:C00020; KEGG:C00008'
+measurements:
+- id: measurement_2_7_1_11_Trypanosoma_brucei_O15648_Fructose_6-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 0.1 M triethanolamine hydrochloride, 1 mM EDTA, 0.42 mM NADH, 2.2 mM PEP,
+    2.5 mM MgCl2, 1 mM NaHCO3, 1.1 U/ml PyK/LDH (1/1)
+  buffer_concentration: 0.1 M
+references:
+- title: Reference for SABIO-RK entry 63303
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12162732/
+  pubmed_id: '12162732'
+  doi: null

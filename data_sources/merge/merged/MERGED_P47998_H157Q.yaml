@@ -1,0 +1,276 @@
+version: '2.0'
+created: '2025-11-20T13:40:19.823710'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_5_1_47_P47998_p43458
+  name: cysteine synthase
+  ecnumber: 2.5.1.47
+  organism: Arabidopsis thaliana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: H157Q
+  uniprotid: P47998
+  wildtype_sequence: MASRIAKDVTELIGNTPLVYLNNVAEGCVGRVAAKLEMMEPCSSVKDRIGFSMISDAEKKGLIKPGESVLIEPTSGNTGVGLAFTAAAKGYKLIITMPASMSTERRIILLAFGVELVLTDPAKGMKGAIAKAEEILAKTPNGYMLQQFENPANPKIHYETTGPEIWKGTGGKIDGFVSGIGTGGTITGAGKYLKEQNANVKLYGVEPVESAILSGGKPGPHKIQGIGAGFIPSVLNVDLIDEVVQVSSDESIDMARQLALKEGLLVGISSGAAAAAAIKLAQRPENAGKLFVAIFPSFGERYLSTVLFDATRKEAEAMTFEA
+  mutant_sequence: MASRIAKDVTELIGNTPLVYLNNVAEGCVGRVAAKLEMMEPCSSVKDRIGFSMISDAEKKGLIKPGESVLIEPTSGNTGVGLAFTAAAKGYKLIITMPASMSTERRIILLAFGVELVLTDPAKGMKGAIAKAEEILAKTPNGYMLQQFENPANPKIQYETTGPEIWKGTGGKIDGFVSGIGTGGTITGAGKYLKEQNANVKLYGVEPVESAILSGGKPGPHKIQGIGAGFIPSVLNVDLIDEVVQVSSDESIDMARQLALKEGLLVGISSGAAAAAAIKLAQRPENAGKLFVAIFPSFGERYLSTVLFDATRKEAEAMTFEA
+complexes: null
+small_molecules:
+- id: substrate_Sulfide
+  name: Sulfide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_O-Acetyl-L-serine
+  name: O-Acetyl-L-serine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Cysteine
+  name: L-Cysteine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Acetate
+  name: Acetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Pyridoxal_phosphate
+  name: Pyridoxal phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_9651_EC2_5_1_47_Arabidopsis_thaliana_P47998_Sulfide
+  name: Reaction catalyzed by cysteine synthase on Sulfide
+  equation: Sulfide + O-Acetyl-L-serine = Acetate + L-Cysteine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Sulfide
+  - species_id: substrate_O-Acetyl-L-serine
+  products:
+  - species_id: product_L-Cysteine
+  - species_id: product_Acetate
+  modifiers:
+  - species_id: protein_2_5_1_47_P47998_p43458
+    role: BIOCATALYST
+  - species_id: activator_Pyridoxal_phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00897
+  notes: 'ChEBI IDs: CHEBI:40480; CHEBI:7668; CHEBI:12685; CHEBI:17981; CHEBI:12724;
+    CHEBI:41781; CHEBI:13095; CHEBI:13704; CHEBI:32442; CHEBI:15366; CHEBI:358848;
+    CHEBI:21938; CHEBI:21261; CHEBI:40486; CHEBI:22169; CHEBI:2387; CHEBI:41700; CHEBI:26424;
+    CHEBI:41811; CHEBI:8668; CHEBI:12710; CHEBI:58340; CHEBI:30089; CHEBI:18405; CHEBI:32443;
+    CHEBI:41768; CHEBI:29950; CHEBI:597326; CHEBI:15138; CHEBI:22165; CHEBI:16385;
+    CHEBI:234571; CHEBI:6207; CHEBI:35235; CHEBI:45145; CHEBI:44568; CHEBI:32445;
+    CHEBI:14977; CHEBI:17561; CHEBI:41227
+
+    KEGG IDs: KEGG:C00018; KEGG:C00033; KEGG:C00297; KEGG:C00979; KEGG:C00097; KEGG:C00283'
+- id: sabiork_9651_EC2_5_1_47_Arabidopsis_thaliana_P47998_Sulfide
+  name: Reaction catalyzed by cysteine synthase on Sulfide
+  equation: Sulfide + O-Acetyl-L-serine = Acetate + L-Cysteine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Sulfide
+  - species_id: substrate_O-Acetyl-L-serine
+  products:
+  - species_id: product_L-Cysteine
+  - species_id: product_Acetate
+  modifiers:
+  - species_id: protein_2_5_1_47_P47998_p43438
+    role: BIOCATALYST
+  - species_id: activator_Pyridoxal_phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00897
+  notes: 'ChEBI IDs: CHEBI:40480; CHEBI:7668; CHEBI:12685; CHEBI:17981; CHEBI:12724;
+    CHEBI:41781; CHEBI:13095; CHEBI:13704; CHEBI:32442; CHEBI:15366; CHEBI:358848;
+    CHEBI:21938; CHEBI:21261; CHEBI:40486; CHEBI:22169; CHEBI:2387; CHEBI:41700; CHEBI:26424;
+    CHEBI:41811; CHEBI:8668; CHEBI:12710; CHEBI:58340; CHEBI:30089; CHEBI:18405; CHEBI:32443;
+    CHEBI:41768; CHEBI:29950; CHEBI:597326; CHEBI:15138; CHEBI:22165; CHEBI:16385;
+    CHEBI:234571; CHEBI:6207; CHEBI:35235; CHEBI:45145; CHEBI:44568; CHEBI:32445;
+    CHEBI:14977; CHEBI:17561; CHEBI:41227
+
+    KEGG IDs: KEGG:C00018; KEGG:C00033; KEGG:C00297; KEGG:C00979; KEGG:C00097; KEGG:C00283'
+measurements:
+- id: measurement_2_5_1_47_Arabidopsis_thaliana_P47998_Sulfide
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_5_1_47_Arabidopsis_thaliana_P47998_Sulfide
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_5_1_47_Arabidopsis_thaliana_P47998_Sulfide_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0003
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Sulfide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16166087'
+- id: 2_5_1_47_Arabidopsis_thaliana_P47998_Sulfide_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 5930000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Sulfide
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16166087'
+- id: 2_5_1_47_Arabidopsis_thaliana_P47998_Sulfide_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1780.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Sulfide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16166087'
+- id: 2_5_1_47_Arabidopsis_thaliana_P47998_Sulfide_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00091
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Sulfide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16166087'
+- id: 2_5_1_47_Arabidopsis_thaliana_P47998_Sulfide_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1160000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Sulfide
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16166087'
+- id: 2_5_1_47_Arabidopsis_thaliana_P47998_Sulfide_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1055.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Sulfide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16166087'
+buffer:
+  buffer: 100 mM 3-(N-morpholino)-2-hydroxypropanesulfonic acid
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 43458
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16166087/
+  pubmed_id: '16166087'
+  doi: null
+name: Merged entry for P47998 H157Q
+description: 'Merged from 2 files: SABIO_EC2.5.1.47_Arabidopsis_thaliana__P47998_H157Q_s_Sulfide_2.yaml,
+  SABIO_EC2.5.1.47_Arabidopsis_thaliana__P47998_H157Q_s_Sulfide.yaml'

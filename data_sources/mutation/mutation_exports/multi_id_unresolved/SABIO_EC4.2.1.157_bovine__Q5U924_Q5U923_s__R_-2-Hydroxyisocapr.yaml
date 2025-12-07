@@ -1,0 +1,169 @@
+name: SABIO-RK Entry 67441
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 67441
+created: '2025-10-28T17:02:57.668648'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_2_1_157_Q5U924_Q5U923_p67441
+  name: (R)-2-hydroxyisocaproyl-CoA dehydratase
+  sequence: null
+  ecnumber: 4.2.1.157
+  organism: bovine
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q5U924; Q5U923
+complexes: null
+small_molecules:
+- id: substrate__R_-2-Hydroxyisocaproyl-CoA
+  name: (R)-2-Hydroxyisocaproyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Isocaprenoyl-CoA
+  name: 2-Isocaprenoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_HadI
+  name: HadI
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_15549_EC4_2_1_157_bovine_Q5U924_Q5U923__R_-2-Hydroxyisocaproyl-CoA
+  name: Reaction catalyzed by (R)-2-hydroxyisocaproyl-CoA dehydratase on (R)-2-Hydroxyisocaproyl-CoA
+  equation: (R)-2-Hydroxyisocaproyl-CoA = H2O + 2-Isocaprenoyl-CoA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate__R_-2-Hydroxyisocaproyl-CoA
+  products:
+  - species_id: product_2-Isocaprenoyl-CoA
+  modifiers:
+  - species_id: protein_4_2_1_157_Q5U924_Q5U923_p67441
+    role: BIOCATALYST
+  - species_id: activator_HadI
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R11076
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:41979;
+    CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352;
+    CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:87436;
+    CHEBI:87119; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C21089; KEGG:C00001; KEGG:C21090'
+measurements:
+- id: measurement_4_2_1_157_bovine_Q5U924_Q5U923__R_-2-Hydroxyisocaproyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: null
+  temperature_unit: null
+parameters:
+- id: 4_2_1_157_bovine_Q5U924_Q5U923__R_-2-Hydroxyisocaproyl-CoA_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 190.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__R_-2-Hydroxyisocaproyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15654892'
+- id: 4_2_1_157_bovine_Q5U924_Q5U923__R_-2-Hydroxyisocaproyl-CoA_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.00216671
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__R_-2-Hydroxyisocaproyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15654892'
+- id: 4_2_1_157_bovine_Q5U924_Q5U923__R_-2-Hydroxyisocaproyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__R_-2-Hydroxyisocaproyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15654892'
+buffer:
+  buffer: 50 mM Tris-HCl, 5 mM MgCl2, 0.4 mM ATP, 0.1 mM dithionite, 5 mM dithiothreitol,
+    1 ¦ÌM bovine serum albumin
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 67441
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15654892/
+  pubmed_id: '15654892'
+  doi: null

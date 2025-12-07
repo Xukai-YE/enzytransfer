@@ -1,0 +1,278 @@
+version: '2.0'
+created: '2025-11-20T13:40:08.870999'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_4_1_203_Q9ZSK5_p39381
+  name: trans-zeatin O-beta-D-glucosyltransferase
+  ecnumber: 2.4.1.203
+  organism: Phaseolus lunatus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9ZSK5
+  wildtype_sequence: MALNDKSIPHETKVVVLLIPFPAQGHLNQFLHLSRLIVAQNIPVHYVGTVTHIRQATLRYNNPTSNIHFHAFQVPPFVSPPPNPEDDFPSHLIPSFEASAHLREPVGKLLQSLSSQAKRVVVINDSLMASVAQDAANISNVENYTFHSFSAFNTSGDFWEEMGKPPVGDFHFPEFPSLEGCIAAQFKGFRTAQYEFRKFNNGDIYNTSRVIEGPYVELLELFNGGKKVWALGPFNPLAVEKKDSIGFRHPCMEWLDKQEPSSVIYISFGTTTALRDEQIQQIATGLEQSKQKFIWVLREADKGDIFAGSEAKRYELPKGFEERVEGMGLVVRDWAPQLEILSHSSTGGFMSHCGWNSCLESITMGVPIATWPMHSDQPRNAVLVTEVLKVGLVVKDWAQRNSLVSASVVENGVRRLMETKEGDEMRQRAVRLKNAIHRSMDEGGVSHMEMGSFIAHISK
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_UDP-D-glucose
+  name: UDP-D-glucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Zeatin
+  name: Zeatin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_UDP
+  name: UDP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_O-beta-D-Glucosylzeatin
+  name: O-beta-D-Glucosylzeatin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Magnesium_chloride
+  name: Magnesium chloride
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_UDP-D-xylose
+  name: UDP-D-xylose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_O-beta-D-Xylosylzeatin
+  name: O-beta-D-Xylosylzeatin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_9235_EC2_4_1_203_Phaseolus_lunatus_Q9ZSK5_UDP-D-glucose
+  name: Reaction catalyzed by trans-zeatin O-beta-D-glucosyltransferase on UDP-D-glucose
+  equation: UDP-D-glucose + Zeatin = UDP + O-beta-D-Glucosylzeatin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_UDP-D-glucose
+  - species_id: substrate_Zeatin
+  - species_id: cofactor_ATP
+  products:
+  - species_id: product_UDP
+  - species_id: product_O-beta-D-Glucosylzeatin
+  modifiers:
+  - species_id: protein_2_4_1_203_Q9ZSK5_p39381
+    role: BIOCATALYST
+  - species_id: activator_Magnesium_chloride
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02118
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:10789; CHEBI:7707; CHEBI:57299;
+    CHEBI:46402; CHEBI:16522; CHEBI:13445; CHEBI:12705; CHEBI:13236; CHEBI:15333;
+    CHEBI:18066; CHEBI:10841; CHEBI:2359; CHEBI:12882; CHEBI:40938; CHEBI:27230; CHEBI:58223;
+    CHEBI:22249; CHEBI:17659; CHEBI:15422; CHEBI:38266; CHEBI:6636; CHEBI:27359; CHEBI:9802;
+    CHEBI:10107
+
+    KEGG IDs: KEGG:C07755; KEGG:C03423; KEGG:C00371; KEGG:C00002; KEGG:C00015; KEGG:C00029'
+- id: sabiork_9368_EC2_4_1_203_Phaseolus_lunatus_Q9ZSK5_UDP-D-xylose
+  name: Reaction catalyzed by trans-zeatin O-beta-D-glucosyltransferase on UDP-D-xylose
+  equation: UDP-D-xylose + Zeatin = UDP + O-beta-D-Xylosylzeatin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_UDP-D-xylose
+  - species_id: substrate_Zeatin
+  - species_id: cofactor_ATP
+  products:
+  - species_id: product_O-beta-D-Xylosylzeatin
+  - species_id: product_UDP
+  modifiers:
+  - species_id: protein_2_4_1_203_Q9ZSK5_p39382
+    role: BIOCATALYST
+  - species_id: activator_Magnesium_chloride
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 14721;14722;14723;14724
+  KEGGid: R02119
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:57632; CHEBI:10789; CHEBI:57299;
+    CHEBI:46402; CHEBI:16522; CHEBI:46260; CHEBI:12706; CHEBI:17438; CHEBI:13445;
+    CHEBI:13236; CHEBI:9813; CHEBI:15333; CHEBI:16082; CHEBI:22105; CHEBI:10841; CHEBI:2359;
+    CHEBI:12882; CHEBI:13490; CHEBI:40938; CHEBI:27230; CHEBI:58223; CHEBI:7709; CHEBI:22249;
+    CHEBI:17659; CHEBI:15422; CHEBI:6636; CHEBI:59456; CHEBI:21947; CHEBI:27359; CHEBI:9802;
+    CHEBI:10107
+
+    KEGG IDs: KEGG:C07755; KEGG:C00015; KEGG:C03300; KEGG:C00371; KEGG:C00002; KEGG:C00190'
+- id: sabiork_9235_EC2_4_1_203_Phaseolus_lunatus_Q9ZSK5_Zeatin
+  name: Reaction catalyzed by trans-zeatin O-beta-D-glucosyltransferase on Zeatin
+  equation: UDP-D-glucose + Zeatin = UDP + O-beta-D-Glucosylzeatin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Zeatin
+  - species_id: substrate_UDP-D-glucose
+  - species_id: cofactor_ATP
+  products:
+  - species_id: product_UDP
+  - species_id: product_O-beta-D-Glucosylzeatin
+  modifiers:
+  - species_id: protein_2_4_1_203_Q9ZSK5_p39380
+    role: BIOCATALYST
+  - species_id: activator_Magnesium_chloride
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02118
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:10789; CHEBI:7707; CHEBI:57299;
+    CHEBI:46402; CHEBI:16522; CHEBI:13445; CHEBI:12705; CHEBI:13236; CHEBI:15333;
+    CHEBI:18066; CHEBI:10841; CHEBI:2359; CHEBI:12882; CHEBI:40938; CHEBI:27230; CHEBI:58223;
+    CHEBI:22249; CHEBI:17659; CHEBI:15422; CHEBI:38266; CHEBI:6636; CHEBI:27359; CHEBI:9802;
+    CHEBI:10107
+
+    KEGG IDs: KEGG:C07755; KEGG:C03423; KEGG:C00371; KEGG:C00002; KEGG:C00015; KEGG:C00029'
+measurements:
+- id: measurement_2_4_1_203_Phaseolus_lunatus_Q9ZSK5_UDP-D-glucose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 27.0
+  temperature_unit: °C
+- id: measurement_2_4_1_203_Phaseolus_lunatus_Q9ZSK5_UDP-D-xylose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 27.0
+  temperature_unit: °C
+- id: measurement_2_4_1_203_Phaseolus_lunatus_Q9ZSK5_Zeatin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 27.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_4_1_203_Phaseolus_lunatus_Q9ZSK5_UDP-D-glucose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000216
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDP-D-glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 27.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16666929'
+- id: 2_4_1_203_Phaseolus_lunatus_Q9ZSK5_UDP-D-xylose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0027
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDP-D-xylose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 27.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16666929'
+- id: 2_4_1_203_Phaseolus_lunatus_Q9ZSK5_Zeatin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.8e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Zeatin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 27.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16666929'
+buffer:
+  buffer: 1 mM Tris
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 39381
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16666929/
+  pubmed_id: '16666929'
+  doi: null
+name: Merged entry for Q9ZSK5 wildtype
+description: 'Merged from 3 files: SABIO_EC2.4.1.203_Phaseolus_lunatus__Q9ZSK5_s_UDP-D-glucose.yaml,
+  SABIO_EC2.4.1.203_Phaseolus_lunatus__Q9ZSK5_s_UDP-D-xylose.yaml, SABIO_EC2.4.1.203_Phaseolus_lunatus__Q9ZSK5_s_Zeatin.yaml'

@@ -1,0 +1,351 @@
+version: '2.0'
+created: '2025-11-20T13:41:43.020156'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_5_1_99_4_Q9UHK6_p31494
+  name: alpha-methylacyl-CoA racemase
+  ecnumber: 5.1.99.4
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9UHK6
+  wildtype_sequence: MALQGISVVELSGLAPGPFCAMVLADFGARVVRVDRPGSRYDVSRLGRGKRSLVLDLKQPRGAAVLRRLCKRSDVLLEPFRRGVMEKLQLGPEILQRENPRLIYARLSGFGQSGSFCRLAGHDINYLALSGVLSKIGRSGENPYAPLNLLADFAGGGLMCALGIIMALFDRTRTGKGQVIDANMVEGTAYLSSFLWKTQKLSLWEAPRGQNMLDGGAPFYTTYRTADGEFMAVGAIEPQFYELLIKGLGLKSDELPNQMSMDDWPEMKKKFADVFAEKTKAEWCQIFDGTDACVTPVLTFEEVVHHDHNKERGSFITSEEQDVSPRPAPLLLNTPAIPSFKRDPFIGEHTEEILEEFGFSREEIYQLNSDKIIESNKVKASL
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate__S_-Pristanoyl-CoA
+  name: (S)-Pristanoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product__R_-Pristanoyl-CoA
+  name: (R)-Pristanoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate__S_-Trihydroxycoprostanoyl-CoA
+  name: (S)-Trihydroxycoprostanoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product__R_-Trihydroxycoprostanoyl-CoA
+  name: (R)-Trihydroxycoprostanoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_2-Methylmyristoyl-CoA
+  name: 2-Methylmyristoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Ibuprofenoyl-CoA
+  name: Ibuprofenoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_10559_EC5_1_99_4_Homo_sapiens_Q9UHK6__S_-Pristanoyl-CoA
+  name: Reaction catalyzed by alpha-methylacyl-CoA racemase on (S)-Pristanoyl-CoA
+  equation: (S)-Pristanoyl-CoA = (R)-Pristanoyl-CoA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate__S_-Pristanoyl-CoA
+  products:
+  - species_id: product__R_-Pristanoyl-CoA
+  modifiers:
+  - species_id: protein_5_1_99_4_Q9UHK6_p31494
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: sabiork_10542_EC5_1_99_4_Homo_sapiens_Q9UHK6__S_-Trihydroxycoprostanoyl-CoA
+  name: Reaction catalyzed by alpha-methylacyl-CoA racemase on (S)-Trihydroxycoprostanoyl-CoA
+  equation: (S)-Trihydroxycoprostanoyl-CoA = (R)-Trihydroxycoprostanoyl-CoA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate__S_-Trihydroxycoprostanoyl-CoA
+  products:
+  - species_id: product__R_-Trihydroxycoprostanoyl-CoA
+  modifiers:
+  - species_id: protein_5_1_99_4_Q9UHK6_p31496
+    role: BIOCATALYST
+  - species_id: activator_2-Methylmyristoyl-CoA
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: sabiork_10542_EC5_1_99_4_Homo_sapiens_Q9UHK6__S_-Trihydroxycoprostanoyl-CoA
+  name: Reaction catalyzed by alpha-methylacyl-CoA racemase on (S)-Trihydroxycoprostanoyl-CoA
+  equation: (S)-Trihydroxycoprostanoyl-CoA = (R)-Trihydroxycoprostanoyl-CoA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate__S_-Trihydroxycoprostanoyl-CoA
+  products:
+  - species_id: product__R_-Trihydroxycoprostanoyl-CoA
+  modifiers:
+  - species_id: protein_5_1_99_4_Q9UHK6_p31495
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: sabiork_10542_EC5_1_99_4_Homo_sapiens_Q9UHK6__S_-Trihydroxycoprostanoyl-CoA
+  name: Reaction catalyzed by alpha-methylacyl-CoA racemase on (S)-Trihydroxycoprostanoyl-CoA
+  equation: (S)-Trihydroxycoprostanoyl-CoA = (R)-Trihydroxycoprostanoyl-CoA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate__S_-Trihydroxycoprostanoyl-CoA
+  products:
+  - species_id: product__R_-Trihydroxycoprostanoyl-CoA
+  modifiers:
+  - species_id: protein_5_1_99_4_Q9UHK6_p31497
+    role: BIOCATALYST
+  - species_id: activator_Ibuprofenoyl-CoA
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+measurements:
+- id: measurement_5_1_99_4_Homo_sapiens_Q9UHK6__S_-Pristanoyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_5_1_99_4_Homo_sapiens_Q9UHK6__S_-Trihydroxycoprostanoyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_5_1_99_4_Homo_sapiens_Q9UHK6__S_-Trihydroxycoprostanoyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_5_1_99_4_Homo_sapiens_Q9UHK6__S_-Trihydroxycoprostanoyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 5_1_99_4_Homo_sapiens_Q9UHK6__S_-Pristanoyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000172
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__S_-Pristanoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7649182'
+- id: 5_1_99_4_Homo_sapiens_Q9UHK6__S_-Pristanoyl-CoA_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.666667e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__S_-Pristanoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7649182'
+- id: 5_1_99_4_Homo_sapiens_Q9UHK6__S_-Trihydroxycoprostanoyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.16e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__S_-Trihydroxycoprostanoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7649182'
+- id: 5_1_99_4_Homo_sapiens_Q9UHK6__S_-Trihydroxycoprostanoyl-CoA_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 5.0e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__S_-Trihydroxycoprostanoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7649182'
+- id: 5_1_99_4_Homo_sapiens_Q9UHK6__S_-Trihydroxycoprostanoyl-CoA_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 5.0e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__S_-Trihydroxycoprostanoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7649182'
+- id: 5_1_99_4_Homo_sapiens_Q9UHK6__S_-Trihydroxycoprostanoyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.16e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__S_-Trihydroxycoprostanoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7649182'
+- id: 5_1_99_4_Homo_sapiens_Q9UHK6__S_-Trihydroxycoprostanoyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.16e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__S_-Trihydroxycoprostanoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7649182'
+- id: 5_1_99_4_Homo_sapiens_Q9UHK6__S_-Trihydroxycoprostanoyl-CoA_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 5.0e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__S_-Trihydroxycoprostanoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7649182'
+buffer:
+  buffer: 50 mM Sodium/Potassium phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 31494
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/7649182/
+  pubmed_id: '7649182'
+  doi: null
+name: Merged entry for Q9UHK6 wildtype
+description: 'Merged from 4 files: SABIO_EC5.1.99.4_Homo_sapiens__Q9UHK6_s__S_-Pristanoyl-CoA.yaml,
+  SABIO_EC5.1.99.4_Homo_sapiens__Q9UHK6_s__S_-Trihydroxycopros_2.yaml, SABIO_EC5.1.99.4_Homo_sapiens__Q9UHK6_s__S_-Trihydroxycopros.yaml,
+  SABIO_EC5.1.99.4_Homo_sapiens__Q9UHK6_s__S_-Trihydroxycopros_3.yaml'

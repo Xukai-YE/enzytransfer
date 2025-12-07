@@ -1,0 +1,434 @@
+version: '2.0'
+created: '2025-11-20T13:41:01.609041'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_1_8_1_P0A434_p24039
+  name: aryldialkylphosphatase
+  ecnumber: 3.1.8.1
+  organism: Brevundimonas diminuta
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: H254N
+  uniprotid: P0A434
+  wildtype_sequence: MQTRRVVLKSAAAAGTLLGGLAGCASVAGSIGTGDRINTVRGPITISEAGFTLTHEHICGSSAGFLRAWPEFFGSRKALAEKAVRGLRRARAAGVRTIVDVSTFDIGRDVSLLAEVSRAADVHIVAATGLWFDPPLSMRLRSVEELTQFFLREIQYGIEDTGIRAGIIKVATTGKATPFQELVLKAAARASLATGVPVTTHTAASQRDGEQQAAIFESEGLSPSRVCIGHSDDTDDLSYLTALAARGYLIGLDHIPHSAIGLEDNASASALLGIRSWQTRALLIKALIDQGYMKQILVSNDWLFGFSSYVTNIMDVMDRVNPDGMAFIPLRVIPFLREKGVPQETLAGITVTNPARFLSPTLRAS
+  mutant_sequence: MQTRRVVLKSAAAAGTLLGGLAGCASVAGSIGTGDRINTVRGPITISEAGFTLTHEHICGSSAGFLRAWPEFFGSRKALAEKAVRGLRRARAAGVRTIVDVSTFDIGRDVSLLAEVSRAADVHIVAATGLWFDPPLSMRLRSVEELTQFFLREIQYGIEDTGIRAGIIKVATTGKATPFQELVLKAAARASLATGVPVTTHTAASQRDGEQQAAIFESEGLSPSRVCIGHSDDTDDLSYLTALAARGYLIGLDNIPHSAIGLEDNASASALLGIRSWQTRALLIKALIDQGYMKQILVSNDWLFGFSSYVTNIMDVMDRVNPDGMAFIPLRVIPFLREKGVPQETLAGITVTNPARFLSPTLRAS
+complexes: null
+small_molecules:
+- id: substrate_Paraoxon
+  name: Paraoxon
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_p-Nitrophenol
+  name: p-Nitrophenol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diethylphosphoric_acid
+  name: Diethylphosphoric acid
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Co2_
+  name: Co2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Zn2_
+  name: Zn2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Cd2_
+  name: Cd2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_5154_EC3_1_8_1_Brevundimonas_diminuta_P0A434_Paraoxon
+  name: Reaction catalyzed by aryldialkylphosphatase on Paraoxon
+  equation: H2O + Paraoxon = Diethylphosphoric acid + p-Nitrophenol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Paraoxon
+  products:
+  - species_id: product_p-Nitrophenol
+  - species_id: product_Diethylphosphoric_acid
+  modifiers:
+  - species_id: protein_3_1_8_1_P0A434_p24039
+    role: BIOCATALYST
+  - species_id: activator_Co2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 18053;18054;18055;18056
+  KEGGid: R05548
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:140537; CHEBI:41981; CHEBI:49570;
+    CHEBI:20457; CHEBI:44390; CHEBI:48827; CHEBI:4529; CHEBI:27708; CHEBI:42857; CHEBI:16836;
+    CHEBI:41979; CHEBI:48828; CHEBI:12034; CHEBI:42043; CHEBI:23712; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:7924; CHEBI:25855; CHEBI:43228;
+    CHEBI:44292; CHEBI:57917; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:27827;
+    CHEBI:1913; CHEBI:23337; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00175; KEGG:C06606; KEGG:C00870; KEGG:C00001; KEGG:C06608'
+- id: sabiork_5154_EC3_1_8_1_Brevundimonas_diminuta_P0A434_Paraoxon
+  name: Reaction catalyzed by aryldialkylphosphatase on Paraoxon
+  equation: H2O + Paraoxon = Diethylphosphoric acid + p-Nitrophenol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Paraoxon
+  - species_id: cofactor_Zn2_
+  products:
+  - species_id: product_Diethylphosphoric_acid
+  - species_id: product_p-Nitrophenol
+  modifiers:
+  - species_id: protein_3_1_8_1_P0A434_p24055
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 18053;18054;18055;18056
+  KEGGid: R05548
+  notes: 'ChEBI IDs: CHEBI:29105; CHEBI:29375; CHEBI:44819; CHEBI:140537; CHEBI:41981;
+    CHEBI:49570; CHEBI:20457; CHEBI:44390; CHEBI:10113; CHEBI:4529; CHEBI:27708; CHEBI:42857;
+    CHEBI:16836; CHEBI:41979; CHEBI:12034; CHEBI:42043; CHEBI:23712; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:7924; CHEBI:25855; CHEBI:43228;
+    CHEBI:49972; CHEBI:44292; CHEBI:57917; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:49982; CHEBI:27368; CHEBI:27827; CHEBI:1913; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C06606; KEGG:C00870; KEGG:C00001; KEGG:C06608; KEGG:C00038'
+- id: sabiork_5154_EC3_1_8_1_Brevundimonas_diminuta_P0A434_Paraoxon
+  name: Reaction catalyzed by aryldialkylphosphatase on Paraoxon
+  equation: H2O + Paraoxon = Diethylphosphoric acid + p-Nitrophenol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Paraoxon
+  products:
+  - species_id: product_p-Nitrophenol
+  - species_id: product_Diethylphosphoric_acid
+  modifiers:
+  - species_id: protein_3_1_8_1_P0A434_p24047
+    role: BIOCATALYST
+  - species_id: activator_Co2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 18053;18054;18055;18056
+  KEGGid: R05548
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:140537; CHEBI:41981; CHEBI:49570;
+    CHEBI:20457; CHEBI:44390; CHEBI:48827; CHEBI:4529; CHEBI:27708; CHEBI:42857; CHEBI:16836;
+    CHEBI:41979; CHEBI:48828; CHEBI:12034; CHEBI:42043; CHEBI:23712; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:7924; CHEBI:25855; CHEBI:43228;
+    CHEBI:44292; CHEBI:57917; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:27827;
+    CHEBI:1913; CHEBI:23337; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00175; KEGG:C06606; KEGG:C00870; KEGG:C00001; KEGG:C06608'
+- id: sabiork_5154_EC3_1_8_1_Brevundimonas_diminuta_P0A434_Paraoxon
+  name: Reaction catalyzed by aryldialkylphosphatase on Paraoxon
+  equation: H2O + Paraoxon = Diethylphosphoric acid + p-Nitrophenol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Paraoxon
+  products:
+  - species_id: product_Diethylphosphoric_acid
+  - species_id: product_p-Nitrophenol
+  modifiers:
+  - species_id: protein_3_1_8_1_P0A434_p24063
+    role: BIOCATALYST
+  - species_id: activator_Cd2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 18053;18054;18055;18056
+  KEGGid: R05548
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:140537; CHEBI:41981; CHEBI:49570;
+    CHEBI:20457; CHEBI:44390; CHEBI:4529; CHEBI:48775; CHEBI:48773; CHEBI:27708; CHEBI:42857;
+    CHEBI:16836; CHEBI:41979; CHEBI:12034; CHEBI:3290; CHEBI:42043; CHEBI:23712; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:7924; CHEBI:25855; CHEBI:43228;
+    CHEBI:44292; CHEBI:57917; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:27827;
+    CHEBI:1913; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C01413; KEGG:C06606; KEGG:C00870; KEGG:C00001; KEGG:C06608'
+measurements:
+- id: measurement_3_1_8_1_Brevundimonas_diminuta_P0A434_Paraoxon
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_3_1_8_1_Brevundimonas_diminuta_P0A434_Paraoxon
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_3_1_8_1_Brevundimonas_diminuta_P0A434_Paraoxon
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_3_1_8_1_Brevundimonas_diminuta_P0A434_Paraoxon
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_1_8_1_Brevundimonas_diminuta_P0A434_Paraoxon_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.1e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Paraoxon
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8155644'
+- id: 3_1_8_1_Brevundimonas_diminuta_P0A434_Paraoxon_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 9700000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Paraoxon
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8155644'
+- id: 3_1_8_1_Brevundimonas_diminuta_P0A434_Paraoxon_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 26000000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Paraoxon
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8155644'
+- id: 3_1_8_1_Brevundimonas_diminuta_P0A434_Paraoxon_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.3e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Paraoxon
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8155644'
+- id: 3_1_8_1_Brevundimonas_diminuta_P0A434_Paraoxon_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 34.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Paraoxon
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8155644'
+- id: 3_1_8_1_Brevundimonas_diminuta_P0A434_Paraoxon_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 33000000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Paraoxon
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8155644'
+- id: 3_1_8_1_Brevundimonas_diminuta_P0A434_Paraoxon_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.7e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Paraoxon
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8155644'
+- id: 3_1_8_1_Brevundimonas_diminuta_P0A434_Paraoxon_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 900.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Paraoxon
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8155644'
+- id: 3_1_8_1_Brevundimonas_diminuta_P0A434_Paraoxon_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 6700000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Paraoxon
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8155644'
+- id: 3_1_8_1_Brevundimonas_diminuta_P0A434_Paraoxon_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 3600.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Paraoxon
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8155644'
+- id: 3_1_8_1_Brevundimonas_diminuta_P0A434_Paraoxon_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00054
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Paraoxon
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8155644'
+buffer:
+  buffer: 100 mM CHES
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 24039
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/8155644/
+  pubmed_id: '8155644'
+  doi: null
+name: Merged entry for P0A434 H254N
+description: 'Merged from 4 files: SABIO_EC3.1.8.1_Brevundimonas_diminuta__P0A434_H254N_s_Paraoxon.yaml,
+  SABIO_EC3.1.8.1_Brevundimonas_diminuta__P0A434_H254N_s_Paraoxon_3.yaml, SABIO_EC3.1.8.1_Brevundimonas_diminuta__P0A434_H254N_s_Paraoxon_2.yaml,
+  SABIO_EC3.1.8.1_Brevundimonas_diminuta__P0A434_H254N_s_Paraoxon_4.yaml'

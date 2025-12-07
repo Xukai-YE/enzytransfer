@@ -1,0 +1,190 @@
+name: SABIO-RK Entry 11348
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 11348
+created: '2025-10-28T13:58:58.778265'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_1_P08319_p11348
+  name: alcohol dehydrogenase
+  ecnumber: 1.1.1.1
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: M141L
+  uniprotid: P08319
+  wildtype_sequence: MGTKGKVIKCKAAIAWEAGKPLCIEEVEVAPPKAHEVRIQIIATSLCHTDATVIDSKFEGLAFPVIVGHEAAGIVESIGPGVTNVKPGDKVIPLYAPLCRKCKFCLSPLTNLCGKISNLKSPASDQQLMEDKTSRFTCKGKPVYHFFGTSTFSQYTVVSDINLAKIDDDANLERVCLLGCGFSTGYGAAINNAKVTPGSTCAVFGLGGVGLSAVMGCKAAGASRIIGIDINSEKFVKAKALGATDCLNPRDLHKPIQEVIIELTKGGVDFALDCAGGSETMKAALDCTTAGWGSCTFIGVAAGSKGLTIFPEELIIGRTINGTFFGGWKSVDSIPKLVTDYKNKKFNLDALVTHTLPFDKISEAFDLMNQGKSVRTILIF
+  mutant_sequence: MLVRGPHFELQRCKTHLFSSNYLTQVIKCKAAIAWEAGKPLCIEEVEVAPPKAHEVRIQIIATSLCHTDATVIDSKFEGLAFPVIVGHEAAGIVESIGPGVTNVKPGDKVIPLYAPLCRKCKFCLSPLTNLCGKISNLKSPASDQQLLEDKTSRFTCKGKPVYHFFGTSTFSQYTVVSDINLAKIDDDANLERVCLLGCGFSTGYGAAINNAKVTPGSTCAVFGLGGVGLSAVMGCKAAGASRIIGIDINSEKFVKAKALGATDCLNPRDLHKPIQEVIIELTKGGVDFALDCAGGSETMKAALDCTTAGWGSCTFIGVAAGSKGLTIFPEELIIGRTINGTFFGGWKSVDSIPKLVTDYKNKKFNLDALVTHTLPFDKISEAFDLMNQGKSVRTILIF
+  position_offset: 7
+  retry_status: isoform_2_matched
+  isoform_used: 2
+complexes: null
+small_molecules:
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_11-cis-Retinal
+  name: 11-cis-Retinal
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_11-cis-Retinol
+  name: 11-cis-Retinol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2894_EC1_1_1_1_Homo_sapiens_P08319_NADH
+  name: Reaction catalyzed by alcohol dehydrogenase on NADH
+  equation: NAD+ + 11-cis-Retinol = NADH + H+ + 11-cis-Retinal
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  - species_id: substrate_11-cis-Retinal
+  products:
+  - species_id: product_NAD_
+  - species_id: product_11-cis-Retinol
+  modifiers:
+  - species_id: protein_1_1_1_1_P08319_p11348
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 42060;42061;42062;42063
+  KEGGid: R03048
+  notes: 'ChEBI IDs: CHEBI:16066; CHEBI:44281; CHEBI:13393; CHEBI:15846; CHEBI:21902;
+    CHEBI:13396; CHEBI:21901; CHEBI:44214; CHEBI:13394; CHEBI:57945; CHEBI:44216;
+    CHEBI:57540; CHEBI:7423; CHEBI:16302; CHEBI:13389; CHEBI:13395; CHEBI:44215; CHEBI:7422;
+    CHEBI:16908
+
+    KEGG IDs: KEGG:C00899; KEGG:C00003; KEGG:C02110; KEGG:C00004'
+measurements:
+- id: measurement_1_1_1_1_Homo_sapiens_P08319_NADH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1_1_Homo_sapiens_P08319_NADH_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 37500.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15096205'
+- id: 1_1_1_1_Homo_sapiens_P08319_NADH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.3
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15096205'
+- id: 1_1_1_1_Homo_sapiens_P08319_NADH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 8.0e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15096205'
+buffer:
+  buffer: 0.1 M sodium phosphate, 0.02% Tween-80
+  buffer_concentration: 0.1 M
+references:
+- title: Reference for SABIO-RK entry 11348
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15096205/
+  pubmed_id: '15096205'
+  doi: null

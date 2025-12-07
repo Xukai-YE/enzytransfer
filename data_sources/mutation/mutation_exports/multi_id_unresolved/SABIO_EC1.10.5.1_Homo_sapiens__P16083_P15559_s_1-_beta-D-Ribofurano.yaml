@@ -1,0 +1,200 @@
+name: SABIO-RK Entry 63759
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 63759
+created: '2025-10-28T16:45:54.330398'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_10_5_1_P16083_P15559_p63759
+  name: ribosyldihydronicotinamide dehydrogenase (quinone)
+  sequence: null
+  ecnumber: 1.10.5.1
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P16083; P15559
+complexes: null
+small_molecules:
+- id: substrate_1-_beta-D-Ribofuranosyl_-1
+  name: 1-(beta-D-Ribofuranosyl)-1
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_4-dihydronicotinamide
+  name: 4-dihydronicotinamide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_2
+  name: '2'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_6-Dichloroindophenol
+  name: 6-Dichloroindophenol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Reduced_2
+  name: Reduced 2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_6-dichlorophenolindophenol
+  name: 6-dichlorophenolindophenol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N-Ribosylnicotinamide
+  name: N-Ribosylnicotinamide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_15039_EC1_10_5_1_Homo_sapiens_P16083_P15559_1-_beta-D-Ribofuranosyl_-1
+  name: Reaction catalyzed by ribosyldihydronicotinamide dehydrogenase (quinone) on
+    1-(beta-D-Ribofuranosyl)-1
+  equation: 2,6-Dichloroindophenol + 1-(beta-D-Ribofuranosyl)-1,4-dihydronicotinamide
+    = N-Ribosylnicotinamide + Reduced 2,6-dichlorophenolindophenol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_1-_beta-D-Ribofuranosyl_-1
+  - species_id: substrate_4-dihydronicotinamide
+  - species_id: substrate_2
+  - species_id: substrate_6-Dichloroindophenol
+  products:
+  - species_id: product_Reduced_2
+  - species_id: product_6-dichlorophenolindophenol
+  - species_id: product_N-Ribosylnicotinamide
+  modifiers:
+  - species_id: protein_1_10_5_1_P16083_P15559_p63759
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:15927; CHEBI:47589; CHEBI:945; CHEBI:21786; CHEBI:12527;
+    CHEBI:7337; CHEBI:55458
+
+    KEGG IDs: KEGG:C05720; KEGG:C03150; KEGG:C15497; KEGG:C00102'
+measurements:
+- id: measurement_1_10_5_1_Homo_sapiens_P16083_P15559_1-_beta-D-Ribofuranosyl_-1
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_10_5_1_Homo_sapiens_P16083_P15559_1-_beta-D-Ribofuranosyl_-1_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.9e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1-_beta-D-Ribofuranosyl_-1
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9367528'
+- id: 1_10_5_1_Homo_sapiens_P16083_P15559_1-_beta-D-Ribofuranosyl_-1_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 91.83333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1-_beta-D-Ribofuranosyl_-1
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9367528'
+buffer:
+  buffer: 25 mM Tris-HCl, 0.23 mg/ml BSA, 0.01% Tween20, 5 ¦ÌM FAD, 10 ¦ÌM dicumarol
+  buffer_concentration: 25 mM
+references:
+- title: Reference for SABIO-RK entry 63759
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9367528/
+  pubmed_id: '9367528'
+  doi: null

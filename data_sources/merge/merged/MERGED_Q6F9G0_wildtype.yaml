@@ -1,0 +1,263 @@
+version: '2.0'
+created: '2025-11-20T13:39:41.172421'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_2_1_24_Q6F9G0_p75614
+  name: succinate-semialdehyde dehydrogenase (NAD+)
+  ecnumber: 1.2.1.24
+  organism: Acinetobacter baylyi
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q6F9G0
+  wildtype_sequence: MDLQQQPLFRQKALVAGQWCDADNAEKTPIFNPATQELIGYVPNMGRAETERAIEAAYASWEMWKTKTAKERSALLKKWYDLILLNLDVLAEILTTEQGKPFNEAKGEIIYAASFIEWFAEEAKRIYGDIIPSPYPDARIVVNKQPIGVVAAITPWNFPAAMITRKVAPALAAGCPCIVKPAPETPFTALALADLAIQAGIPAEIMSVVTGDAAQIGDAIFASDHVRKFTFTGSTPIGKLLLEKSAKTLKKVSLELGGNAPFIVFDDADIEAAVEGALIAKFRNAGQTCVCVNRFLVQSGVYEKFIQVFKAKIESLKIGNGLEAGSEIGPLINAQAVAKVQSHIEDALSKNGRLITGGQVHATGELFFEPTLIADANTEMMVATQETFGPLAAIFKFDTEQQAIQMANDTEFGLAAYCYTRDLGRAWRMSEQLEYGMVGINKGLISNEVAPFGGIKHSGLGREGSKYGIEDYLEIKYTLFGGL
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Succinate_semialdehyde
+  name: Succinate semialdehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Succinate
+  name: Succinate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1085_EC1_2_1_24_Acinetobacter_baylyi_Q6F9G0_NAD_
+  name: Reaction catalyzed by succinate-semialdehyde dehydrogenase (NAD+) on NAD+
+  equation: H2O + Succinate semialdehyde + NAD+ = H+ + NADH + Succinate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_Succinate_semialdehyde
+  products:
+  - species_id: product_Succinate
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_2_1_24_Q6F9G0_p75614
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 13217;13218;13219;13220
+  KEGGid: R00713
+  notes: 'ChEBI IDs: CHEBI:26807; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:15125;
+    CHEBI:44281; CHEBI:42857; CHEBI:13393; CHEBI:41979; CHEBI:26803; CHEBI:29234;
+    CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:22943; CHEBI:21901;
+    CHEBI:42043; CHEBI:24636; CHEBI:44214; CHEBI:45639; CHEBI:29233; CHEBI:33811;
+    CHEBI:13394; CHEBI:33813; CHEBI:27313; CHEBI:9304; CHEBI:15377; CHEBI:132287;
+    CHEBI:5584; CHEBI:90372; CHEBI:13352; CHEBI:57945; CHEBI:44216; CHEBI:57540; CHEBI:26805;
+    CHEBI:43228; CHEBI:7423; CHEBI:44292; CHEBI:30031; CHEBI:26804; CHEBI:13389; CHEBI:33806;
+    CHEBI:29374; CHEBI:5585; CHEBI:10743; CHEBI:15378; CHEBI:22941; CHEBI:15126; CHEBI:30779;
+    CHEBI:13395; CHEBI:15741; CHEBI:9305; CHEBI:57706; CHEBI:44215; CHEBI:16265; CHEBI:10744;
+    CHEBI:29373; CHEBI:44701; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00232; KEGG:C00080; KEGG:C00001; KEGG:C00003; KEGG:C00042; KEGG:C00004'
+- id: sabiork_1085_EC1_2_1_24_Acinetobacter_baylyi_Q6F9G0_Succinate_semialdehyde
+  name: Reaction catalyzed by succinate-semialdehyde dehydrogenase (NAD+) on Succinate
+    semialdehyde
+  equation: H2O + Succinate semialdehyde + NAD+ = H+ + NADH + Succinate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Succinate_semialdehyde
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_Succinate
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_2_1_24_Q6F9G0_p75615
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 13217;13218;13219;13220
+  KEGGid: R00713
+  notes: 'ChEBI IDs: CHEBI:26807; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:15125;
+    CHEBI:44281; CHEBI:42857; CHEBI:41979; CHEBI:13393; CHEBI:26803; CHEBI:29234;
+    CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:22943; CHEBI:21901;
+    CHEBI:42043; CHEBI:24636; CHEBI:44214; CHEBI:45639; CHEBI:29233; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:13394; CHEBI:9304; CHEBI:15377; CHEBI:132287;
+    CHEBI:5584; CHEBI:90372; CHEBI:13352; CHEBI:57945; CHEBI:44216; CHEBI:57540; CHEBI:43228;
+    CHEBI:26805; CHEBI:7423; CHEBI:44292; CHEBI:30031; CHEBI:33806; CHEBI:26804; CHEBI:10743;
+    CHEBI:29374; CHEBI:5585; CHEBI:13389; CHEBI:15378; CHEBI:22941; CHEBI:15126; CHEBI:30779;
+    CHEBI:13395; CHEBI:15741; CHEBI:9305; CHEBI:57706; CHEBI:44215; CHEBI:16265; CHEBI:10744;
+    CHEBI:29373; CHEBI:44701; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00232; KEGG:C00080; KEGG:C00001; KEGG:C00003; KEGG:C00042; KEGG:C00004'
+measurements:
+- id: measurement_1_2_1_24_Acinetobacter_baylyi_Q6F9G0_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_2_1_24_Acinetobacter_baylyi_Q6F9G0_Succinate_semialdehyde
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_2_1_24_Acinetobacter_baylyi_Q6F9G0_NAD__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 61.5
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29686076'
+- id: 1_2_1_24_Acinetobacter_baylyi_Q6F9G0_NAD__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 570000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29686076'
+- id: 1_2_1_24_Acinetobacter_baylyi_Q6F9G0_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000107
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29686076'
+- id: 1_2_1_24_Acinetobacter_baylyi_Q6F9G0_Succinate_semialdehyde_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 850000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Succinate_semialdehyde
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29686076'
+- id: 1_2_1_24_Acinetobacter_baylyi_Q6F9G0_Succinate_semialdehyde_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.2e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Succinate_semialdehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29686076'
+buffer:
+  buffer: 50 mM Tris-HCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 75614
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/29686076/
+  pubmed_id: '29686076'
+  doi: null
+name: Merged entry for Q6F9G0 wildtype
+description: 'Merged from 2 files: SABIO_EC1.2.1.24_Acinetobacter_baylyi__Q6F9G0_s_NAD_.yaml,
+  SABIO_EC1.2.1.24_Acinetobacter_baylyi__Q6F9G0_s_Succinate.yaml'

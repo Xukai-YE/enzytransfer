@@ -1,0 +1,179 @@
+name: SABIO-RK Entry 26952
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 26952
+created: '2025-10-28T14:30:36.916432'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_1_1_73_Q9P979_p26952
+  name: feruloyl esterase
+  ecnumber: 3.1.1.73
+  organism: Aspergillus awamori
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: T72R
+  uniprotid: Q9P979
+  wildtype_sequence: MKQFSAKHALAVVVTAGHALAASTQGISEDLYTRLVEMATISQAAYADLCNIPSTIIKGEKIYNSQTDINGWILRDDSSKEIITVFRGTGSDTNLQLDTNYTLTPFDTLPQCNGCEVHGGYYIGWVSVQDQVESLVKQQVSQYPDYALTVTGHSLGASLAALTAAQLSATYDNIRLYTFGEPRSGNQAFASYMNDAFQASSPDTTQYFRVTHANDGIPNLPPVEQGYAHGGVEYWSVDPYSAQNTFVCTGDEVQCCEAQGGQGVNNAHTTYFGMTSGACTW
+  mutant_sequence: MKQFSAKHALAVVVTAGHALAASTQGISEDLYTRLVEMATISQAAYADLCNIPSTIIKGEKIYNSQRDINGWILRDDSSKEIITVFRGTGSDTNLQLDTNYTLTPFDTLPQCNGCEVHGGYYIGWVSVQDQVESLVKQQVSQYPDYALTVTGHSLGASLAALTAAQLSATYDNIRLYTFGEPRSGNQAFASYMNDAFQASSPDTTQYFRVTHANDGIPNLPPVEQGYAHGGVEYWSVDPYSAQNTFVCTGDEVQCCEAQGGQGVNNAHTTYFGMTSGACTW
+  position_offset: -5
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_alpha-Naphthyl_caprylate
+  name: alpha-Naphthyl caprylate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Octanoate
+  name: Octanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_alpha-Naphthol
+  name: alpha-Naphthol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_10875_EC3_1_1_73_Aspergillus_awamori_Q9P979_alpha-Naphthyl_caprylate
+  name: Reaction catalyzed by feruloyl esterase on alpha-Naphthyl caprylate
+  equation: alpha-Naphthyl caprylate + H2O = Octanoate + alpha-Naphthol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_alpha-Naphthyl_caprylate
+  products:
+  - species_id: product_Octanoate
+  - species_id: product_alpha-Naphthol
+  modifiers:
+  - species_id: protein_3_1_1_73_Q9P979_p26952
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:25648;
+    CHEBI:41979; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377;
+    CHEBI:13352; CHEBI:3373; CHEBI:25646; CHEBI:44501; CHEBI:43228; CHEBI:28837; CHEBI:44292;
+    CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:29373; CHEBI:44701; CHEBI:10319
+
+    KEGG IDs: KEGG:C11714; KEGG:C00001; KEGG:C06423'
+measurements:
+- id: measurement_3_1_1_73_Aspergillus_awamori_Q9P979_alpha-Naphthyl_caprylate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 5.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 3_1_1_73_Aspergillus_awamori_Q9P979_alpha-Naphthyl_caprylate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.7e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_alpha-Naphthyl_caprylate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15716038'
+- id: 3_1_1_73_Aspergillus_awamori_Q9P979_alpha-Naphthyl_caprylate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 18800.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_alpha-Naphthyl_caprylate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 5.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15716038'
+- id: 3_1_1_73_Aspergillus_awamori_Q9P979_alpha-Naphthyl_caprylate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.32
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_alpha-Naphthyl_caprylate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15716038'
+buffer:
+  buffer: 0.05 M sodium acetate
+  buffer_concentration: 0.05 M
+references:
+- title: Reference for SABIO-RK entry 26952
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15716038/
+  pubmed_id: '15716038'
+  doi: null

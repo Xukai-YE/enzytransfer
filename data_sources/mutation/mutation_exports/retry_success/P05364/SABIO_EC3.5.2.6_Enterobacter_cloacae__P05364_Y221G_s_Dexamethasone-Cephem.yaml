@@ -1,0 +1,180 @@
+name: SABIO-RK Entry 1610
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 1610
+created: '2025-10-28T13:45:11.617751'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_5_2_6_P05364_p1610
+  name: beta-lactamase
+  ecnumber: 3.5.2.6
+  organism: Enterobacter cloacae
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: Y221G
+  uniprotid: P05364
+  wildtype_sequence: MMRKSLCCALLLGISCSALATPVSEKQLAEVVANTITPLMKAQSVPGMAVAVIYQGKPHYYTFGKADIAANKPVTPQTLFELGSISKTFTGVLGGDAIARGEISLDDAVTRYWPQLTGKQWQGIRMLDLATYTAGGLPLQVPDEVTDNASLLRFYQNWQPQWKPGTTRLYANASIGLFGALAVKPSGMPYEQAMTTRVLKPLKLDHTWINVPKAEEAHYAWGYRDGKAVRVSPGMLDAQAYGVKTNVQDMANWVMANMAPENVADASLKQGIALAQSRYWRIGSMYQGLGWEMLNWPVEANTVVEGSDSKVALAPLPVAEVNPPAPPVKASWVHKTGSTGGFGSYVAFIPEKQIGIVMLANTSYPNPARVEAAYHILEALQ
+  mutant_sequence: MMRKSLCCALLLGISCSALATPVSEKQLAEVVANTITPLMKAQSVPGMAVAVIYQGKPHYYTFGKADIAANKPVTPQTLFELGSISKTFTGVLGGDAIARGEISLDDAVTRYWPQLTGKQWQGIRMLDLATYTAGGLPLQVPDEVTDNASLLRFYQNWQPQWKPGTTRLYANASIGLFGALAVKPSGMPYEQAMTTRVLKPLKLDHTWINVPKAEEAHGAWGYRDGKAVRVSPGMLDAQAYGVKTNVQDMANWVMANMAPENVADASLKQGIALAQSRYWRIGSMYQGLGWEMLNWPVEANTVVEGSDSKVALAPLPVAEVNPPAPPVKASWVHKTGSTGGFGSYVAFIPEKQIGIVMLANTSYPNPARVEAAYHILEALQ
+  position_offset: -2
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Dexamethasone-Cephem-Methotrexate
+  name: Dexamethasone-Cephem-Methotrexate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Dexamethasone-Cephem_derivative
+  name: Dexamethasone-Cephem derivative
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Methotrexate-thiol
+  name: Methotrexate-thiol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_6741_EC3_5_2_6_Enterobacter_cloacae_P05364_Dexamethasone-Cephem-Methotrexate
+  name: Reaction catalyzed by beta-lactamase on Dexamethasone-Cephem-Methotrexate
+  equation: H2O + Dexamethasone-Cephem-Methotrexate = Dexamethasone-Cephem derivative
+    + Methotrexate-thiol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Dexamethasone-Cephem-Methotrexate
+  products:
+  - species_id: product_Dexamethasone-Cephem_derivative
+  - species_id: product_Methotrexate-thiol
+  modifiers:
+  - species_id: protein_3_5_2_6_P05364_p1610
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:41979;
+    CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352;
+    CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C00001'
+measurements:
+- id: measurement_3_5_2_6_Enterobacter_cloacae_P05364_Dexamethasone-Cephem-Methotrexate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 27.0
+  temperature_unit: °C
+parameters:
+- id: 3_5_2_6_Enterobacter_cloacae_P05364_Dexamethasone-Cephem-Methotrexate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Dexamethasone-Cephem-Methotrexate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 27.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15035627'
+- id: 3_5_2_6_Enterobacter_cloacae_P05364_Dexamethasone-Cephem-Methotrexate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 57000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Dexamethasone-Cephem-Methotrexate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 27.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15035627'
+- id: 3_5_2_6_Enterobacter_cloacae_P05364_Dexamethasone-Cephem-Methotrexate_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 4.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Dexamethasone-Cephem-Methotrexate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 27.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15035627'
+buffer:
+  buffer: 10 mM sodium phosphate
+  buffer_concentration: 10 mM
+references:
+- title: Reference for SABIO-RK entry 1610
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15035627/
+  pubmed_id: '15035627'
+  doi: null

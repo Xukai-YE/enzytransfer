@@ -1,0 +1,247 @@
+version: '2.0'
+created: '2025-11-20T13:41:28.305039'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_1_2_10_Q9LFT6_p66365
+  name: (R)-mandelonitrile lyase
+  ecnumber: 4.1.2.10
+  organism: rat
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9LFT6
+  wildtype_sequence: MERKHHFVLVHNAYHGAWIWYKLKPLLESAGHRVTAVELAASGIDPRPIQAVETVDEYSKPLIETLKSLPENEEVILVGFSFGGINIALAADIFPAKIKVLVFLNAFLPDTTHVPSHVLDKYMEMPGGLGDCEFSSHETRNGTMSLLKMGPKFMKARLYQNCPIEDYELAKMLHRQGSFFTEDLSKKEKFSEEGYGSVQRVYVMSSEDKAIPCDFIRWMIDNFNVSKVYEIDGGDHMVMLSKPQKLFDSLSAIATDYM
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Cyanide
+  name: Cyanide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Benzaldehyde
+  name: Benzaldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Mandelonitrile
+  name: Mandelonitrile
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Mandelonitrile
+  name: Mandelonitrile
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Cyanide
+  name: Cyanide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Benzaldehyde
+  name: Benzaldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1865_EC4_1_2_10_rat_Q9LFT6_Cyanide
+  name: Reaction catalyzed by (R)-mandelonitrile lyase on Cyanide
+  equation: Mandelonitrile = Cyanide + Benzaldehyde
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Cyanide
+  - species_id: substrate_Benzaldehyde
+  products:
+  - species_id: product_Mandelonitrile
+  modifiers:
+  - species_id: protein_4_1_2_10_Q9LFT6_p66365
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01767
+  notes: 'ChEBI IDs: CHEBI:41780; CHEBI:14573; CHEBI:22697; CHEBI:3969; CHEBI:17169;
+    CHEBI:36826; CHEBI:14038; CHEBI:6680; CHEBI:13875; CHEBI:3019; CHEBI:18450; CHEBI:48819;
+    CHEBI:16910; CHEBI:18407; CHEBI:17514; CHEBI:25151
+
+    KEGG IDs: KEGG:C00193; KEGG:C01326; KEGG:C00177; KEGG:C00261; KEGG:C00561'
+- id: sabiork_1865_EC4_1_2_10_rat_Q9LFT6_Mandelonitrile
+  name: Reaction catalyzed by (R)-mandelonitrile lyase on Mandelonitrile
+  equation: Mandelonitrile = Cyanide + Benzaldehyde
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Mandelonitrile
+  products:
+  - species_id: product_Cyanide
+  - species_id: product_Benzaldehyde
+  modifiers:
+  - species_id: protein_4_1_2_10_Q9LFT6_p66363
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01767
+  notes: 'ChEBI IDs: CHEBI:41780; CHEBI:14573; CHEBI:18407; CHEBI:22697; CHEBI:3969;
+    CHEBI:17169; CHEBI:36826; CHEBI:14038; CHEBI:6680; CHEBI:13875; CHEBI:3019; CHEBI:48819;
+    CHEBI:16910; CHEBI:18450; CHEBI:17514; CHEBI:25151
+
+    KEGG IDs: KEGG:C00193; KEGG:C01326; KEGG:C00261; KEGG:C00177; KEGG:C00561'
+measurements:
+- id: measurement_4_1_2_10_rat_Q9LFT6_Cyanide
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 5.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_4_1_2_10_rat_Q9LFT6_Mandelonitrile
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 5.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 4_1_2_10_rat_Q9LFT6_Cyanide_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.006
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cyanide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19433222'
+- id: 4_1_2_10_rat_Q9LFT6_Cyanide_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000255
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cyanide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19433222'
+- id: 4_1_2_10_rat_Q9LFT6_Mandelonitrile_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0014
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Mandelonitrile
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19433222'
+- id: 4_1_2_10_rat_Q9LFT6_Mandelonitrile_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.001333333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Mandelonitrile
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19433222'
+buffer:
+  buffer: 50 mM Citrate phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 66365
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/19433222/
+  pubmed_id: '19433222'
+  doi: null
+name: Merged entry for Q9LFT6 wildtype
+description: 'Merged from 2 files: SABIO_EC4.1.2.10_rat__Q9LFT6_s_Cyanide.yaml, SABIO_EC4.1.2.10_rat__Q9LFT6_s_Mandelonitrile.yaml'

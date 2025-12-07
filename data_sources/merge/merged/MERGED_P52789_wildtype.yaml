@@ -1,0 +1,859 @@
+version: '2.0'
+created: '2025-11-20T13:40:28.195204'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_1_P52789_p31749
+  name: hexokinase
+  ecnumber: 2.7.1.1
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P52789
+  wildtype_sequence: MIASHLLAYFFTELNHDQVQKVDQYLYHMRLSDETLLEISKRFRKEMEKGLGATTHPTAAVKMLPTFVRSTPDGTEHGEFLALDLGGTNFRVLWVKVTDNGLQKVEMENQIYAIPEDIMRGSGTQLFDHIAECLANFMDKLQIKDKKLPLGFTFSFPCHQTKLDESFLVSWTKGFKSSGVEGRDVVALIRKAIQRRGDFDIDIVAVVNDTVGTMMTCGYDDHNCEIGLIVGTGSNACYMEEMRHIDMVEGDEGRMCINMEWGAFGDDGSLNDIRTEFDQEIDMGSLNPGKQLFEKMISGMYMGELVRLILVKMAKEELLFGGKLSPELLNTGRFETKDISDIEGEKDGIRKAREVLMRLGLDPTQEDCVATHRICQIVSTRSASLCAATLAAVLQRIKENKGEERLRSTIGVDGSVYKKHPHFAKRLHKTVRRLVPGCDVRFLRSEDGSGKGAAMVTAVAYRLADQHRARQKTLEHLQLSHDQLLEVKRRMKVEMERGLSKETHASAPVKMLPTYVCATPDGTEKGDFLALDLGGTNFRVLLVRVRNGKWGGVEMHNKIYAIPQEVMHGTGDELFDHIVQCIADFLEYMGMKGVSLPLGFTFSFPCQQNSLDESILLKWTKGFKASGCEGEDVVTLLKEAIHRREEFDLDVVAVVNDTVGTMMTCGFEDPHCEVGLIVGTGSNACYMEEMRNVELVEGEEGRMCVNMEWGAFGDNGCLDDFRTEFDVAVDELSLNPGKQRFEKMISGMYLGEIVRNILIDFTKRGLLFRGRISERLKTRGIFETKFLSQIESDCLALLQVRAILQHLGLESTCDDSIIVKEVCTVVARRAAQLCGAGMAAVVDRIRENRGLDALKVTVGVDGTLYKLHPHFAKVMHETVKDLAPKCDVSFLQSEDGSGKGAALITAVACRIREAGQR
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Glucose
+  name: D-Glucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Glucose_6-phosphate
+  name: Glucose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Glucose_6-phosphate
+  name: D-Glucose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_9175_EC2_7_1_1_Homo_sapiens_P52789_ATP
+  name: Reaction catalyzed by hexokinase on ATP
+  equation: ATP + D-Glucose = ADP + Glucose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_D-Glucose
+  products:
+  - species_id: product_Glucose_6-phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_1_P52789_p31749
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17825;17826;17827;17828;36495;36496;36497;36498
+  KEGGid: R00299
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:42748; CHEBI:40553; CHEBI:42802; CHEBI:13236; CHEBI:10242; CHEBI:58225;
+    CHEBI:4167; CHEBI:12318; CHEBI:17634; CHEBI:10841; CHEBI:4170; CHEBI:12321; CHEBI:2359;
+    CHEBI:17665; CHEBI:87518; CHEBI:40938; CHEBI:22386; CHEBI:10245; CHEBI:456216;
+    CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:22389; CHEBI:13222; CHEBI:22244; CHEBI:40557;
+    CHEBI:17925; CHEBI:88300
+
+    KEGG IDs: KEGG:C00267; KEGG:C00668; KEGG:C00092; KEGG:C00002; KEGG:C00008; KEGG:C00031'
+- id: sabiork_9175_EC2_7_1_1_Homo_sapiens_P52789_ATP
+  name: Reaction catalyzed by hexokinase on ATP
+  equation: ATP + D-Glucose = ADP + Glucose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_D-Glucose
+  products:
+  - species_id: product_Glucose_6-phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_1_P52789_p31750
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17825;17826;17827;17828;36495;36496;36497;36498
+  KEGGid: R00299
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:42748; CHEBI:40553; CHEBI:42802; CHEBI:13236; CHEBI:10242; CHEBI:58225;
+    CHEBI:4167; CHEBI:12318; CHEBI:17634; CHEBI:10841; CHEBI:4170; CHEBI:12321; CHEBI:2359;
+    CHEBI:17665; CHEBI:87518; CHEBI:40938; CHEBI:22386; CHEBI:10245; CHEBI:456216;
+    CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:22389; CHEBI:13222; CHEBI:22244; CHEBI:40557;
+    CHEBI:17925; CHEBI:88300
+
+    KEGG IDs: KEGG:C00267; KEGG:C00668; KEGG:C00092; KEGG:C00002; KEGG:C00008; KEGG:C00031'
+- id: sabiork_793_EC2_7_1_1_Homo_sapiens_P52789_ATP
+  name: Reaction catalyzed by glucokinase on ATP
+  equation: D-Glucose + ATP = ADP + D-Glucose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_D-Glucose
+  products:
+  - species_id: product_D-Glucose_6-phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_1_P52789_p75682
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17825;17826;17827;17828;36495;36496;36497;36498
+  KEGGid: R00299
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:42748; CHEBI:40553; CHEBI:42802; CHEBI:13236; CHEBI:10242; CHEBI:58225;
+    CHEBI:4167; CHEBI:12318; CHEBI:17634; CHEBI:10841; CHEBI:4170; CHEBI:12321; CHEBI:2359;
+    CHEBI:17665; CHEBI:87518; CHEBI:40938; CHEBI:22386; CHEBI:15954; CHEBI:10245;
+    CHEBI:14314; CHEBI:456216; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:22389;
+    CHEBI:13222; CHEBI:22244; CHEBI:40557; CHEBI:17925; CHEBI:88300
+
+    KEGG IDs: KEGG:C00267; KEGG:C00668; KEGG:C00092; KEGG:C00002; KEGG:C00008; KEGG:C00031'
+- id: sabiork_793_EC2_7_1_1_Homo_sapiens_P52789_ATP
+  name: Reaction catalyzed by glucokinase on ATP
+  equation: D-Glucose + ATP = ADP + D-Glucose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_D-Glucose
+  products:
+  - species_id: product_ADP
+  - species_id: product_D-Glucose_6-phosphate
+  modifiers:
+  - species_id: protein_2_7_1_1_P52789_p75685
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17825;17826;17827;17828;36495;36496;36497;36498
+  KEGGid: R00299
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:40553; CHEBI:42748; CHEBI:42802; CHEBI:13236; CHEBI:10242; CHEBI:58225;
+    CHEBI:4167; CHEBI:12318; CHEBI:17634; CHEBI:10841; CHEBI:4170; CHEBI:12321; CHEBI:2359;
+    CHEBI:17665; CHEBI:87518; CHEBI:40938; CHEBI:22386; CHEBI:15954; CHEBI:10245;
+    CHEBI:456216; CHEBI:14314; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:22389;
+    CHEBI:13222; CHEBI:22244; CHEBI:40557; CHEBI:17925; CHEBI:88300
+
+    KEGG IDs: KEGG:C00267; KEGG:C00668; KEGG:C00092; KEGG:C00002; KEGG:C00008; KEGG:C00031'
+- id: sabiork_9175_EC2_7_1_1_Homo_sapiens_P52789_D-Glucose
+  name: Reaction catalyzed by hexokinase on D-Glucose
+  equation: ATP + D-Glucose = ADP + Glucose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Glucose
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_Glucose_6-phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_1_P52789_p31751
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17825;17826;17827;17828;36495;36496;36497;36498
+  KEGGid: R00299
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:42748; CHEBI:40553; CHEBI:42802; CHEBI:10242; CHEBI:13236; CHEBI:58225;
+    CHEBI:4167; CHEBI:12318; CHEBI:17634; CHEBI:10841; CHEBI:4170; CHEBI:12321; CHEBI:2359;
+    CHEBI:17665; CHEBI:87518; CHEBI:40938; CHEBI:22386; CHEBI:10245; CHEBI:456216;
+    CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:22389; CHEBI:13222; CHEBI:22244; CHEBI:40557;
+    CHEBI:17925; CHEBI:88300
+
+    KEGG IDs: KEGG:C00267; KEGG:C00668; KEGG:C00092; KEGG:C00002; KEGG:C00008; KEGG:C00031'
+- id: sabiork_9175_EC2_7_1_1_Homo_sapiens_P52789_ATP
+  name: Reaction catalyzed by hexokinase on ATP
+  equation: ATP + D-Glucose = ADP + Glucose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_D-Glucose
+  products:
+  - species_id: product_Glucose_6-phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_1_P52789_p31752
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17825;17826;17827;17828;36495;36496;36497;36498
+  KEGGid: R00299
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:42748; CHEBI:40553; CHEBI:42802; CHEBI:13236; CHEBI:10242; CHEBI:58225;
+    CHEBI:4167; CHEBI:12318; CHEBI:17634; CHEBI:10841; CHEBI:4170; CHEBI:12321; CHEBI:2359;
+    CHEBI:17665; CHEBI:87518; CHEBI:40938; CHEBI:22386; CHEBI:10245; CHEBI:456216;
+    CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:22389; CHEBI:13222; CHEBI:22244; CHEBI:40557;
+    CHEBI:17925; CHEBI:88300
+
+    KEGG IDs: KEGG:C00267; KEGG:C00668; KEGG:C00092; KEGG:C00002; KEGG:C00008; KEGG:C00031'
+- id: sabiork_793_EC2_7_1_1_Homo_sapiens_P52789_D-Glucose
+  name: Reaction catalyzed by glucokinase on D-Glucose
+  equation: D-Glucose + ATP = ADP + D-Glucose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Glucose
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_ADP
+  - species_id: product_D-Glucose_6-phosphate
+  modifiers:
+  - species_id: protein_2_7_1_1_P52789_p75683
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17825;17826;17827;17828;36495;36496;36497;36498
+  KEGGid: R00299
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:40553; CHEBI:42748; CHEBI:42802; CHEBI:10242; CHEBI:13236; CHEBI:58225;
+    CHEBI:4167; CHEBI:12318; CHEBI:17634; CHEBI:10841; CHEBI:4170; CHEBI:12321; CHEBI:2359;
+    CHEBI:17665; CHEBI:87518; CHEBI:40938; CHEBI:22386; CHEBI:15954; CHEBI:10245;
+    CHEBI:456216; CHEBI:14314; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:22389;
+    CHEBI:13222; CHEBI:22244; CHEBI:40557; CHEBI:17925; CHEBI:88300
+
+    KEGG IDs: KEGG:C00267; KEGG:C00668; KEGG:C00092; KEGG:C00002; KEGG:C00008; KEGG:C00031'
+- id: sabiork_793_EC2_7_1_1_Homo_sapiens_P52789_D-Glucose
+  name: Reaction catalyzed by glucokinase on D-Glucose
+  equation: D-Glucose + ATP = ADP + D-Glucose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Glucose
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_ADP
+  - species_id: product_D-Glucose_6-phosphate
+  modifiers:
+  - species_id: protein_2_7_1_1_P52789_p75676
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17825;17826;17827;17828;36495;36496;36497;36498
+  KEGGid: R00299
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:40553; CHEBI:42748; CHEBI:42802; CHEBI:10242; CHEBI:13236; CHEBI:58225;
+    CHEBI:4167; CHEBI:12318; CHEBI:17634; CHEBI:10841; CHEBI:4170; CHEBI:12321; CHEBI:2359;
+    CHEBI:17665; CHEBI:87518; CHEBI:40938; CHEBI:22386; CHEBI:15954; CHEBI:10245;
+    CHEBI:456216; CHEBI:14314; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:22389;
+    CHEBI:13222; CHEBI:22244; CHEBI:40557; CHEBI:17925; CHEBI:88300
+
+    KEGG IDs: KEGG:C00267; KEGG:C00668; KEGG:C00092; KEGG:C00002; KEGG:C00008; KEGG:C00031'
+- id: sabiork_793_EC2_7_1_1_Homo_sapiens_P52789_D-Glucose
+  name: Reaction catalyzed by glucokinase on D-Glucose
+  equation: D-Glucose + ATP = ADP + D-Glucose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Glucose
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_D-Glucose_6-phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_1_P52789_p75677
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17825;17826;17827;17828;36495;36496;36497;36498
+  KEGGid: R00299
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:42748; CHEBI:40553; CHEBI:42802; CHEBI:10242; CHEBI:13236; CHEBI:58225;
+    CHEBI:4167; CHEBI:12318; CHEBI:17634; CHEBI:10841; CHEBI:4170; CHEBI:12321; CHEBI:2359;
+    CHEBI:17665; CHEBI:87518; CHEBI:40938; CHEBI:22386; CHEBI:15954; CHEBI:10245;
+    CHEBI:14314; CHEBI:456216; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:22389;
+    CHEBI:13222; CHEBI:22244; CHEBI:40557; CHEBI:17925; CHEBI:88300
+
+    KEGG IDs: KEGG:C00267; KEGG:C00668; KEGG:C00092; KEGG:C00002; KEGG:C00008; KEGG:C00031'
+- id: sabiork_793_EC2_7_1_1_Homo_sapiens_P52789_D-Glucose
+  name: Reaction catalyzed by glucokinase on D-Glucose
+  equation: D-Glucose + ATP = ADP + D-Glucose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Glucose
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_D-Glucose_6-phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_1_P52789_p75684
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17825;17826;17827;17828;36495;36496;36497;36498
+  KEGGid: R00299
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:42748; CHEBI:40553; CHEBI:42802; CHEBI:10242; CHEBI:13236; CHEBI:58225;
+    CHEBI:4167; CHEBI:12318; CHEBI:17634; CHEBI:10841; CHEBI:4170; CHEBI:12321; CHEBI:2359;
+    CHEBI:17665; CHEBI:87518; CHEBI:40938; CHEBI:22386; CHEBI:15954; CHEBI:10245;
+    CHEBI:14314; CHEBI:456216; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:22389;
+    CHEBI:13222; CHEBI:22244; CHEBI:40557; CHEBI:17925; CHEBI:88300
+
+    KEGG IDs: KEGG:C00267; KEGG:C00668; KEGG:C00092; KEGG:C00002; KEGG:C00008; KEGG:C00031'
+measurements:
+- id: measurement_2_7_1_1_Homo_sapiens_P52789_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_7_1_1_Homo_sapiens_P52789_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_7_1_1_Homo_sapiens_P52789_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_7_1_1_Homo_sapiens_P52789_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_7_1_1_Homo_sapiens_P52789_D-Glucose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_7_1_1_Homo_sapiens_P52789_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_7_1_1_Homo_sapiens_P52789_D-Glucose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_7_1_1_Homo_sapiens_P52789_D-Glucose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_7_1_1_Homo_sapiens_P52789_D-Glucose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_7_1_1_Homo_sapiens_P52789_D-Glucose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_1_1_Homo_sapiens_P52789_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 3.26673e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16640561'
+- id: 2_7_1_1_Homo_sapiens_P52789_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000696
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16640561'
+- id: 2_7_1_1_Homo_sapiens_P52789_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00099
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16640561'
+- id: 2_7_1_1_Homo_sapiens_P52789_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 8.66684e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16640561'
+- id: 2_7_1_1_Homo_sapiens_P52789_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 10.2
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29298880'
+- id: 2_7_1_1_Homo_sapiens_P52789_ATP_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 13000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29298880'
+- id: 2_7_1_1_Homo_sapiens_P52789_ATP_kcat_3
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 42000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29298880'
+- id: 2_7_1_1_Homo_sapiens_P52789_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 6100.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29298880'
+- id: 2_7_1_1_Homo_sapiens_P52789_ATP_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 10.4
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29298880'
+- id: 2_7_1_1_Homo_sapiens_P52789_ATP_kcat_3
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 55000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29298880'
+- id: 2_7_1_1_Homo_sapiens_P52789_D-Glucose_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 2.75006e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16640561'
+- id: 2_7_1_1_Homo_sapiens_P52789_D-Glucose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000146
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16640561'
+- id: 2_7_1_1_Homo_sapiens_P52789_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00018
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16640561'
+- id: 2_7_1_1_Homo_sapiens_P52789_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 7.33348e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16640561'
+- id: 2_7_1_1_Homo_sapiens_P52789_D-Glucose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 38000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29298880'
+- id: 2_7_1_1_Homo_sapiens_P52789_D-Glucose_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 57000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29298880'
+- id: 2_7_1_1_Homo_sapiens_P52789_D-Glucose_kcat_3
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 18.1
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29298880'
+- id: 2_7_1_1_Homo_sapiens_P52789_D-Glucose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 49000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29298880'
+- id: 2_7_1_1_Homo_sapiens_P52789_D-Glucose_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 264000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29298880'
+- id: 2_7_1_1_Homo_sapiens_P52789_D-Glucose_kcat_3
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 55.4
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29298880'
+- id: 2_7_1_1_Homo_sapiens_P52789_D-Glucose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 69.7
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29298880'
+- id: 2_7_1_1_Homo_sapiens_P52789_D-Glucose_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 410000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29298880'
+- id: 2_7_1_1_Homo_sapiens_P52789_D-Glucose_kcat_3
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 148000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29298880'
+- id: 2_7_1_1_Homo_sapiens_P52789_D-Glucose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 251000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29298880'
+- id: 2_7_1_1_Homo_sapiens_P52789_D-Glucose_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 180000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29298880'
+- id: 2_7_1_1_Homo_sapiens_P52789_D-Glucose_kcat_3
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 45.5
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29298880'
+buffer:
+  buffer: 20 mM HEPES, 20 mM MgCl2, 3 mM NAD+, 0.1 U/Î¼l G6PDH; 100 mM KCl, 50 mM
+    Mops, 0.5 mM EGTA, 2 U/ml G6PDH, 1 mM NADP+, 5 mM MgCl2, 1 ¦ÌM Oligomycin
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 31749
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16640561/
+  pubmed_id: '16640561'
+  doi: null
+- title: Reference for SABIO-RK entry 75682
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/29298880/
+  pubmed_id: '29298880'
+  doi: null
+name: Merged entry for P52789 wildtype
+description: 'Merged from 10 files: SABIO_EC2.7.1.1_Homo_sapiens__P52789_s_ATP.yaml,
+  SABIO_EC2.7.1.1_Homo_sapiens__P52789_s_ATP_2.yaml, SABIO_EC2.7.1.1_Homo_sapiens__P52789_s_ATP_4.yaml,
+  SABIO_EC2.7.1.1_Homo_sapiens__P52789_s_ATP_5.yaml, SABIO_EC2.7.1.1_Homo_sapiens__P52789_s_D-Glucose.yaml,
+  SABIO_EC2.7.1.1_Homo_sapiens__P52789_s_ATP_3.yaml, SABIO_EC2.7.1.1_Homo_sapiens__P52789_s_D-Glucose_4.yaml,
+  SABIO_EC2.7.1.1_Homo_sapiens__P52789_s_D-Glucose_2.yaml, SABIO_EC2.7.1.1_Homo_sapiens__P52789_s_D-Glucose_3.yaml,
+  SABIO_EC2.7.1.1_Homo_sapiens__P52789_s_D-Glucose_5.yaml'

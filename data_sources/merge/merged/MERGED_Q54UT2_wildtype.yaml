@@ -1,0 +1,320 @@
+version: '2.0'
+created: '2025-11-20T13:40:26.280613'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_113_Q54UT2_p40733
+  name: deoxyadenosine kinase
+  ecnumber: 2.7.1.113
+  organism: Dictyostelium discoideum
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q54UT2
+  wildtype_sequence: MFRRSLMFMISNNKNTNMVSSINTTNKVNNFSKIIILEGNISAGKTYLSSKLGDLLGYKVFLEPTATNPYLSLFYKEPSKYALIMQKWLLNQRYNTFLNALQYSLENEQGVILDRSVYSDWVFAENCRSEGLISAEGFKEYNSIRDRFLSNIPIPNVTLFLDVDPKQCLQRIQNRKRDCEQSIPLSYLSGLDNCYKKFLIEMKSKGSNVIILDWNNFGDINLVLNEINNDNFNNFNNSNNSKFNDVNYKKQQLISDIENEKNNLKEMKFFLNENNNNNNQEKIKS
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Deoxyadenosine
+  name: Deoxyadenosine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_dAMP
+  name: dAMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Deoxyguanosine
+  name: Deoxyguanosine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_dGMP
+  name: dGMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_279_EC2_7_1_113_Dictyostelium_discoideum_Q54UT2_ATP
+  name: Reaction catalyzed by deoxyadenosine kinase on ATP
+  equation: ATP + Deoxyadenosine = dAMP + ADP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Deoxyadenosine
+  products:
+  - species_id: product_dAMP
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_113_Q54UT2_p40733
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 23452;23453;23454;23455
+  KEGGid: R02089
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:39863; CHEBI:40560; CHEBI:16761;
+    CHEBI:10789; CHEBI:57299; CHEBI:58245; CHEBI:40553; CHEBI:19234; CHEBI:40419;
+    CHEBI:17256; CHEBI:13236; CHEBI:17713; CHEBI:40607; CHEBI:10841; CHEBI:19236;
+    CHEBI:2359; CHEBI:40499; CHEBI:87518; CHEBI:40544; CHEBI:40938; CHEBI:456216;
+    CHEBI:22249; CHEBI:40505; CHEBI:2342; CHEBI:15422; CHEBI:14112; CHEBI:4405; CHEBI:14068;
+    CHEBI:10490; CHEBI:41864; CHEBI:41815; CHEBI:13222; CHEBI:22244; CHEBI:40535
+
+    KEGG IDs: KEGG:C00002; KEGG:C00008; KEGG:C00559; KEGG:C00360'
+- id: sabiork_324_EC2_7_1_113_Dictyostelium_discoideum_Q54UT2_ATP
+  name: Reaction catalyzed by deoxynucleoside kinase on ATP
+  equation: ATP + Deoxyguanosine = dGMP + ADP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Deoxyguanosine
+  products:
+  - species_id: product_ADP
+  - species_id: product_dGMP
+  modifiers:
+  - species_id: protein_2_7_1_113_Q54UT2_p40734
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 19201;19202;19203;19204
+  KEGGid: R01967
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:42987; CHEBI:10789;
+    CHEBI:57299; CHEBI:42726; CHEBI:40553; CHEBI:10496; CHEBI:47449; CHEBI:42867;
+    CHEBI:19246; CHEBI:13236; CHEBI:16192; CHEBI:14074; CHEBI:42733; CHEBI:10841;
+    CHEBI:2359; CHEBI:23624; CHEBI:87518; CHEBI:40938; CHEBI:14116; CHEBI:456216;
+    CHEBI:22249; CHEBI:4412; CHEBI:2342; CHEBI:15422; CHEBI:19244; CHEBI:42667; CHEBI:41902;
+    CHEBI:57673; CHEBI:13222; CHEBI:22244; CHEBI:41939; CHEBI:17172; CHEBI:42676
+
+    KEGG IDs: KEGG:C00002; KEGG:C00330; KEGG:C00008; KEGG:C00362'
+measurements:
+- id: measurement_2_7_1_113_Dictyostelium_discoideum_Q54UT2_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_2_7_1_113_Dictyostelium_discoideum_Q54UT2_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 22.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_1_113_Dictyostelium_discoideum_Q54UT2_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.333333e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17448496'
+- id: 2_7_1_113_Dictyostelium_discoideum_Q54UT2_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000206
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17448496'
+- id: 2_7_1_113_Dictyostelium_discoideum_Q54UT2_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 23.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17448496'
+- id: 2_7_1_113_Dictyostelium_discoideum_Q54UT2_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.0047
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17448496'
+- id: 2_7_1_113_Dictyostelium_discoideum_Q54UT2_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 2200000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17448496'
+- id: 2_7_1_113_Dictyostelium_discoideum_Q54UT2_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.4e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17448496'
+- id: 2_7_1_113_Dictyostelium_discoideum_Q54UT2_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 3.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17448496'
+- id: 2_7_1_113_Dictyostelium_discoideum_Q54UT2_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 9.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17448496'
+buffer:
+  buffer: 50 mM Tris-HCl, 2.5 mM MgCl2, 10 mM Dithiothreitol, 3 mg/ml BSA
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 40733
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/17448496/
+  pubmed_id: '17448496'
+  doi: null
+name: Merged entry for Q54UT2 wildtype
+description: 'Merged from 2 files: SABIO_EC2.7.1.113_Dictyostelium_discoideum__Q54UT2_s_ATP.yaml,
+  SABIO_EC2.7.1.113_Dictyostelium_discoideum__Q54UT2_s_ATP_2.yaml'

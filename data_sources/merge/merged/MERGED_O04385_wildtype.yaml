@@ -1,0 +1,288 @@
+version: '2.0'
+created: '2025-11-20T13:39:56.979304'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_1_1_146_O04385_p75277
+  name: (iso)eugenol O-methyltransferase
+  ecnumber: 2.1.1.146
+  organism: Clarkia breweri
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: O04385
+  wildtype_sequence: MGSTGNAEIQIIPTHSSDEEANLFAMQLASAAVLPMALKAAIELDVLEIMAKSVPPSGYISPAEIAAQLPTTNPEAPVMLDRVLRLLASYSVVTYTLRELPSGKVERLYGLAPVCKFLTKNEDGVSLAPFLLTATDKVLLEPWFYLKDAILEGGIPFNKAYGMNEFDYHGTDHRFNKVFNKGMSSNSTITMKKILEMYNGFEGLTTIVDVGGGTGAVASMIVAKYPSINAINFDLPHVIQDAPAFSGVEHLGGDMFDGVPKGDAIFIKWICHDWSDEHCLKLLKNCYAALPDHGKVIVAEYILPPSPDPSIATKVVIHTDALMLAYNPGGKERTEKEFQALAMASGFRGFKVASCAFNTYVMEFLKTA
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Isoeugenol
+  name: Isoeugenol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_S-Adenosyl-L-methionine
+  name: S-Adenosyl-L-methionine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Methylisoeugenol
+  name: Methylisoeugenol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_S-Adenosyl-L-homocysteine
+  name: S-Adenosyl-L-homocysteine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Caffeate
+  name: Caffeate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Ferulate
+  name: Ferulate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_9049_EC2_1_1_146_Clarkia_breweri_O04385_Isoeugenol
+  name: Reaction catalyzed by (iso)eugenol O-methyltransferase on Isoeugenol
+  equation: S-Adenosyl-L-methionine + Isoeugenol = S-Adenosyl-L-homocysteine + Methylisoeugenol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Isoeugenol
+  - species_id: substrate_S-Adenosyl-L-methionine
+  products:
+  - species_id: product_Methylisoeugenol
+  - species_id: product_S-Adenosyl-L-homocysteine
+  modifiers:
+  - species_id: protein_2_1_1_146_O04385_p75277
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R07240
+  notes: 'ChEBI IDs: CHEBI:22036; CHEBI:12760; CHEBI:12742; CHEBI:59789; CHEBI:67009;
+    CHEBI:45495; CHEBI:6877; CHEBI:142094; CHEBI:8945; CHEBI:14469; CHEBI:67040; CHEBI:45607;
+    CHEBI:33442; CHEBI:15414; CHEBI:14466; CHEBI:10833; CHEBI:12761; CHEBI:12741;
+    CHEBI:57856; CHEBI:18224; CHEBI:16680; CHEBI:12759; CHEBI:8946; CHEBI:6007; CHEBI:22034;
+    CHEBI:50545; CHEBI:50550; CHEBI:527887; CHEBI:10786; CHEBI:12757
+
+    KEGG IDs: KEGG:C00021; KEGG:C10478; KEGG:C10469; KEGG:C00019'
+- id: sabiork_14976_EC2_1_1_68_Clarkia_breweri_O04385_Caffeate
+  name: Reaction catalyzed by caffeate O-methyltransferase on Caffeate
+  equation: S-Adenosyl-L-methionine + Caffeate = S-Adenosyl-L-homocysteine + Ferulate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Caffeate
+  - species_id: substrate_S-Adenosyl-L-methionine
+  products:
+  - species_id: product_Ferulate
+  - species_id: product_S-Adenosyl-L-homocysteine
+  modifiers:
+  - species_id: protein_2_1_1_68_O04385_p75279
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 20225;20226;20227;20228
+  KEGGid: R03366
+  notes: 'ChEBI IDs: CHEBI:22036; CHEBI:11691; CHEBI:12760; CHEBI:12742; CHEBI:24030;
+    CHEBI:59789; CHEBI:67009; CHEBI:11692; CHEBI:45495; CHEBI:16433; CHEBI:17620;
+    CHEBI:57770; CHEBI:42445; CHEBI:142094; CHEBI:8945; CHEBI:67040; CHEBI:14260;
+    CHEBI:45607; CHEBI:33442; CHEBI:5046; CHEBI:15414; CHEBI:1379; CHEBI:19877; CHEBI:12870;
+    CHEBI:10833; CHEBI:12761; CHEBI:12741; CHEBI:57856; CHEBI:17395; CHEBI:29749;
+    CHEBI:14259; CHEBI:16680; CHEBI:12759; CHEBI:8946; CHEBI:22034; CHEBI:527887;
+    CHEBI:24029; CHEBI:36281; CHEBI:41964; CHEBI:10786; CHEBI:11848; CHEBI:12757
+
+    KEGG IDs: KEGG:C01494; KEGG:C01481; KEGG:C01197; KEGG:C00021; KEGG:C00019'
+measurements:
+- id: measurement_2_1_1_146_Clarkia_breweri_O04385_Isoeugenol
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_2_1_1_68_Clarkia_breweri_O04385_Caffeate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_1_1_146_Clarkia_breweri_O04385_Isoeugenol_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.4e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Isoeugenol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10415125'
+- id: 2_1_1_146_Clarkia_breweri_O04385_Isoeugenol_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Isoeugenol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10415125'
+- id: 2_1_1_146_Clarkia_breweri_O04385_Isoeugenol_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1100000000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Isoeugenol
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10415125'
+- id: 2_1_1_68_Clarkia_breweri_O04385_Caffeate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.6e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Caffeate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10415125'
+- id: 2_1_1_68_Clarkia_breweri_O04385_Caffeate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.26
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Caffeate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10415125'
+- id: 2_1_1_68_Clarkia_breweri_O04385_Caffeate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 3400000000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Caffeate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10415125'
+buffer:
+  buffer: 250 mM Tris-HCl, 10 mM DTT
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 75277
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10415125/
+  pubmed_id: '10415125'
+  doi: null
+name: Merged entry for O04385 wildtype
+description: 'Merged from 2 files: SABIO_EC2.1.1.146_Clarkia_breweri__O04385_s_Isoeugenol.yaml,
+  SABIO_EC2.1.1.68_Clarkia_breweri__O04385_s_Caffeate.yaml'

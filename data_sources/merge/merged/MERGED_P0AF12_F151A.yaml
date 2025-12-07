@@ -1,0 +1,278 @@
+version: '2.0'
+created: '2025-11-20T13:41:08.870259'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_2_2_9_P0AF12_p70780
+  name: methylthioadenosine nucleosidase
+  ecnumber: 3.2.2.9
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: F151A
+  uniprotid: P0AF12
+  wildtype_sequence: MKIGIIGAMEEEVTLLRDKIENRQTISLGGCEIYTGQLNGTEVALLKSGIGKVAAALGATLLLEHCKPDVIINTGSAGGLAPTLKVGDIVVSDEARYHDADVTAFGYEYGQLPGCPAGFKADDKLIAAAEACIAELNLNAVRGLIVSGDAFINGSVGLAKIRHNFPQAIAVEMEATAIAHVCHNFNVPFVVVRAISDVADQQSHLSFDEFLAVAAKQSSLMVESLVQKLAHG
+  mutant_sequence: MKIGIIGAMEEEVTLLRDKIENRQTISLGGCEIYTGQLNGTEVALLKSGIGKVAAALGATLLLEHCKPDVIINTGSAGGLAPTLKVGDIVVSDEARYHDADVTAFGYEYGQLPGCPAGFKADDKLIAAAEACIAELNLNAVRGLIVSGDAAINGSVGLAKIRHNFPQAIAVEMEATAIAHVCHNFNVPFVVVRAISDVADQQSHLSFDEFLAVAAKQSSLMVESLVQKLAHG
+complexes: null
+small_molecules:
+- id: substrate_5_-Deoxy-5_-_methylthio_adenosine
+  name: 5'-Deoxy-5'-(methylthio)adenosine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Adenine
+  name: Adenine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_5-Methylthio-D-ribose
+  name: 5-Methylthio-D-ribose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_S-Adenosyl-L-homocysteine
+  name: S-Adenosyl-L-homocysteine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_S-Ribosyl-L-homocysteine
+  name: S-Ribosyl-L-homocysteine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1593_EC3_2_2_9_Escherichia_coli_P0AF12_5_-Deoxy-5_-_methylthio_adenosine
+  name: Reaction catalyzed by methylthioadenosine nucleosidase on 5'-Deoxy-5'-(methylthio)adenosine
+  equation: H2O + 5'-Deoxy-5'-(methylthio)adenosine = 5-Methylthio-D-ribose + Adenine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_5_-Deoxy-5_-_methylthio_adenosine
+  products:
+  - species_id: product_Adenine
+  - species_id: product_5-Methylthio-D-ribose
+  modifiers:
+  - species_id: protein_3_2_2_9_P0AF12_p70780
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 13617;13618;13619;13620
+  KEGGid: R01401
+  notes: 'ChEBI IDs: CHEBI:20494; CHEBI:29375; CHEBI:44819; CHEBI:13733; CHEBI:41981;
+    CHEBI:12771; CHEBI:17509; CHEBI:16895; CHEBI:42857; CHEBI:41979; CHEBI:1966; CHEBI:42043;
+    CHEBI:16708; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:2470; CHEBI:15377; CHEBI:1986;
+    CHEBI:13352; CHEBI:40579; CHEBI:14605; CHEBI:12064; CHEBI:20491; CHEBI:22236;
+    CHEBI:43228; CHEBI:44292; CHEBI:44181; CHEBI:2101; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:22007; CHEBI:12055; CHEBI:57941; CHEBI:12148; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C03089; KEGG:C00001; KEGG:C00170; KEGG:C00147'
+- id: sabiork_740_EC3_2_2_9_Escherichia_coli_P0AF12_S-Adenosyl-L-homocysteine
+  name: Reaction catalyzed by adenosylhomocysteine nucleosidase on S-Adenosyl-L-homocysteine
+  equation: S-Adenosyl-L-homocysteine + H2O = Adenine + S-Ribosyl-L-homocysteine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_S-Adenosyl-L-homocysteine
+  products:
+  - species_id: product_Adenine
+  - species_id: product_S-Ribosyl-L-homocysteine
+  modifiers:
+  - species_id: protein_3_2_2_9_P0AF12_p70792
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00194
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:13733; CHEBI:41981; CHEBI:67009;
+    CHEBI:45495; CHEBI:42857; CHEBI:41979; CHEBI:8945; CHEBI:17575; CHEBI:42043; CHEBI:16708;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:12761; CHEBI:2470; CHEBI:15377; CHEBI:12741;
+    CHEBI:57856; CHEBI:13352; CHEBI:40579; CHEBI:16680; CHEBI:22236; CHEBI:43228;
+    CHEBI:12759; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:22034;
+    CHEBI:5585; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00021; KEGG:C03539; KEGG:C00001; KEGG:C00147'
+measurements:
+- id: measurement_3_2_2_9_Escherichia_coli_P0AF12_5_-Deoxy-5_-_methylthio_adenosine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_3_2_2_9_Escherichia_coli_P0AF12_S-Adenosyl-L-homocysteine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 22.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_2_2_9_Escherichia_coli_P0AF12_5_-Deoxy-5_-_methylthio_adenosine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 17000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_5_-Deoxy-5_-_methylthio_adenosine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16101288'
+- id: 3_2_2_9_Escherichia_coli_P0AF12_5_-Deoxy-5_-_methylthio_adenosine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.2e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_5_-Deoxy-5_-_methylthio_adenosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16101288'
+- id: 3_2_2_9_Escherichia_coli_P0AF12_5_-Deoxy-5_-_methylthio_adenosine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.37
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_5_-Deoxy-5_-_methylthio_adenosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16101288'
+- id: 3_2_2_9_Escherichia_coli_P0AF12_S-Adenosyl-L-homocysteine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.7e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-homocysteine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16101288'
+- id: 3_2_2_9_Escherichia_coli_P0AF12_S-Adenosyl-L-homocysteine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 3800.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-homocysteine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16101288'
+- id: 3_2_2_9_Escherichia_coli_P0AF12_S-Adenosyl-L-homocysteine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.14
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-homocysteine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16101288'
+buffer:
+  buffer: 50 mM potassium phosphate, 0.35 U/ml grade III buttermilk xanthine oxidase,
+    1 mM 2-(4-iodophenyl)-3-(4-nitrophenyl)-5-phenyltetrazolium chloride
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 70780
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16101288/
+  pubmed_id: '16101288'
+  doi: null
+name: Merged entry for P0AF12 F151A
+description: 'Merged from 2 files: SABIO_EC3.2.2.9_Escherichia_coli__P0AF12_F151A_s_5_-Deoxy-5_-_methylt.yaml,
+  SABIO_EC3.2.2.9_Escherichia_coli__P0AF12_F151A_s_S-Adenosyl-L-homocys.yaml'

@@ -1,0 +1,237 @@
+version: '2.0'
+created: '2025-11-20T13:39:57.249307'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_1_1_166_P0C0R7_p58739
+  name: 23S rRNA (uridine2552-2'-O)-methyltransferase
+  ecnumber: 2.1.1.166
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P0C0R7
+  wildtype_sequence: MTGKKRSASSSRWLQEHFSDKYVQQAQKKGLRSRAWFKLDEIQQSDKLFKPGMTVVDLGAAPGGWSQYVVTQIGGKGRIIACDLLPMDPIVGVDFLQGDFRDELVMKALLERVGDSKVQVVMSDMAPNMSGTPAVDIPRAMYLVELALEMCRDVLAPGGSFVVKVFQGEGFDEYLREIRSLFTKVKVRKPDSSRARSREVYIVATGRKP
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_S-Adenosyl-L-methionine
+  name: S-Adenosyl-L-methionine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Uridine_2552_in_23S_rRNA
+  name: Uridine(2552) in 23S rRNA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2_-O-Methyluridine_2552_in_23S_rRNA
+  name: 2'-O-Methyluridine(2552) in 23S rRNA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_S-Adenosyl-L-homocysteine
+  name: S-Adenosyl-L-homocysteine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_14350_EC2_1_1_166_Escherichia_coli_P0C0R7_S-Adenosyl-L-methionine
+  name: Reaction catalyzed by 23S rRNA (uridine2552-2'-O)-methyltransferase on S-Adenosyl-L-methionine
+  equation: S-Adenosyl-L-methionine + Uridine(2552) in 23S rRNA = S-Adenosyl-L-homocysteine
+    + 2'-O-Methyluridine(2552) in 23S rRNA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_S-Adenosyl-L-methionine
+  - species_id: substrate_Uridine_2552_in_23S_rRNA
+  products:
+  - species_id: product_2_-O-Methyluridine_2552_in_23S_rRNA
+  - species_id: product_S-Adenosyl-L-homocysteine
+  modifiers:
+  - species_id: protein_2_1_1_166_P0C0R7_p58739
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:22036; CHEBI:12760; CHEBI:12742; CHEBI:59789; CHEBI:67009;
+    CHEBI:45495; CHEBI:142094; CHEBI:8945; CHEBI:67040; CHEBI:45607; CHEBI:33442;
+    CHEBI:15414; CHEBI:10833; CHEBI:12761; CHEBI:12741; CHEBI:57856; CHEBI:16680;
+    CHEBI:12759; CHEBI:8946; CHEBI:22034; CHEBI:527887; CHEBI:10786; CHEBI:12757
+
+    KEGG IDs: KEGG:C00021; KEGG:C00019'
+- id: sabiork_14350_EC2_1_1_166_Escherichia_coli_P0C0R7_Uridine_2552_in_23S_rRNA
+  name: Reaction catalyzed by 23S rRNA (uridine2552-2'-O)-methyltransferase on Uridine(2552)
+    in 23S rRNA
+  equation: S-Adenosyl-L-methionine + Uridine(2552) in 23S rRNA = S-Adenosyl-L-homocysteine
+    + 2'-O-Methyluridine(2552) in 23S rRNA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Uridine_2552_in_23S_rRNA
+  - species_id: substrate_S-Adenosyl-L-methionine
+  products:
+  - species_id: product_S-Adenosyl-L-homocysteine
+  - species_id: product_2_-O-Methyluridine_2552_in_23S_rRNA
+  modifiers:
+  - species_id: protein_2_1_1_166_P0C0R7_p58738
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:22036; CHEBI:12760; CHEBI:12742; CHEBI:59789; CHEBI:67009;
+    CHEBI:45495; CHEBI:142094; CHEBI:8945; CHEBI:67040; CHEBI:45607; CHEBI:33442;
+    CHEBI:15414; CHEBI:10833; CHEBI:12761; CHEBI:12741; CHEBI:57856; CHEBI:16680;
+    CHEBI:12759; CHEBI:8946; CHEBI:22034; CHEBI:527887; CHEBI:10786; CHEBI:12757
+
+    KEGG IDs: KEGG:C00021; KEGG:C00019'
+measurements:
+- id: measurement_2_1_1_166_Escherichia_coli_P0C0R7_S-Adenosyl-L-methionine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_1_1_166_Escherichia_coli_P0C0R7_Uridine_2552_in_23S_rRNA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_1_1_166_Escherichia_coli_P0C0R7_S-Adenosyl-L-methionine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.7e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12181314'
+- id: 2_1_1_166_Escherichia_coli_P0C0R7_S-Adenosyl-L-methionine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.001066667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12181314'
+- id: 2_1_1_166_Escherichia_coli_P0C0R7_Uridine_2552_in_23S_rRNA_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.001066667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Uridine_2552_in_23S_rRNA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12181314'
+- id: 2_1_1_166_Escherichia_coli_P0C0R7_Uridine_2552_in_23S_rRNA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 8.0e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Uridine_2552_in_23S_rRNA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12181314'
+buffer:
+  buffer: 50 mM HEPES/KOH, 85 mM NH4Cl, 3 mM MgCl2, 2 mM beta-mercaptoethanol
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 58739
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12181314/
+  pubmed_id: '12181314'
+  doi: null
+name: Merged entry for P0C0R7 wildtype
+description: 'Merged from 2 files: SABIO_EC2.1.1.166_Escherichia_coli__P0C0R7_s_S-Adenosyl-L-methion.yaml,
+  SABIO_EC2.1.1.166_Escherichia_coli__P0C0R7_s_Uridine_2552_.yaml'

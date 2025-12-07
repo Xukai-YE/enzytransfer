@@ -1,0 +1,302 @@
+version: '2.0'
+created: '2025-11-20T13:39:56.890306'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_1_1_141_Q9AR07_p63188
+  name: jasmonate O-methyltransferase
+  ecnumber: 2.1.1.141
+  organism: Arabidopsis thaliana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9AR07
+  wildtype_sequence: MEVMRVLHMNKGNGETSYAKNSTAQSNIISLGRRVMDEALKKLMMSNSEISSIGIADLGCSSGPNSLLSISNIVDTIHNLCPDLDRPVPELRVSLNDLPSNDFNYICASLPEFYDRVNNNKEGLGFGRGGGESCFVSAVPGSFYGRLFPRRSLHFVHSSSSLHWLSQVPCREAEKEDRTITADLENMGKIYISKTSPKSAHKAYALQFQTDFWVFLRSRSEELVPGGRMVLSFLGRRSLDPTTEESCYQWELLAQALMSMAKEGIIEEEKIDAFNAPYYAASSEELKMVIEKEGSFSIDRLEISPIDWEGGSISEESYDLVIRSKPEALASGRRVSNTIRAVVEPMLEPTFGENVMDELFERYAKIVGEYFYVSSPRYAIVILSLVRAG
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_S-Adenosyl-L-methionine
+  name: S-Adenosyl-L-methionine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate__-_-Jasmonic_acid
+  name: (-)-Jasmonic acid
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Methyl_jasmonate
+  name: Methyl jasmonate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_S-Adenosyl-L-homocysteine
+  name: S-Adenosyl-L-homocysteine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_5352_EC2_1_1_141_Arabidopsis_thaliana_Q9AR07_S-Adenosyl-L-methionine
+  name: Reaction catalyzed by jasmonate O-methyltransferase on S-Adenosyl-L-methionine
+  equation: S-Adenosyl-L-methionine + (-)-Jasmonic acid = S-Adenosyl-L-homocysteine
+    + Methyl jasmonate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_S-Adenosyl-L-methionine
+  - species_id: substrate__-_-Jasmonic_acid
+  products:
+  - species_id: product_Methyl_jasmonate
+  - species_id: product_S-Adenosyl-L-homocysteine
+  modifiers:
+  - species_id: protein_2_1_1_141_Q9AR07_p63188
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R05759
+  notes: 'ChEBI IDs: CHEBI:22036; CHEBI:12760; CHEBI:12742; CHEBI:59789; CHEBI:67009;
+    CHEBI:45495; CHEBI:18292; CHEBI:142094; CHEBI:8945; CHEBI:67040; CHEBI:45607;
+    CHEBI:33442; CHEBI:15414; CHEBI:10833; CHEBI:12761; CHEBI:12741; CHEBI:57856;
+    CHEBI:16680; CHEBI:12759; CHEBI:15929; CHEBI:8946; CHEBI:22034; CHEBI:527887;
+    CHEBI:10786; CHEBI:12757
+
+    KEGG IDs: KEGG:C11512; KEGG:C08491; KEGG:C00021; KEGG:C00019'
+- id: sabiork_5352_EC2_1_1_141_Arabidopsis_thaliana_Q9AR07__-_-Jasmonic_acid
+  name: Reaction catalyzed by jasmonate O-methyltransferase on (-)-Jasmonic acid
+  equation: S-Adenosyl-L-methionine + (-)-Jasmonic acid = S-Adenosyl-L-homocysteine
+    + Methyl jasmonate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate__-_-Jasmonic_acid
+  - species_id: substrate_S-Adenosyl-L-methionine
+  products:
+  - species_id: product_S-Adenosyl-L-homocysteine
+  - species_id: product_Methyl_jasmonate
+  modifiers:
+  - species_id: protein_2_1_1_141_Q9AR07_p63189
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R05759
+  notes: 'ChEBI IDs: CHEBI:22036; CHEBI:12760; CHEBI:12742; CHEBI:59789; CHEBI:67009;
+    CHEBI:45495; CHEBI:18292; CHEBI:142094; CHEBI:8945; CHEBI:67040; CHEBI:45607;
+    CHEBI:33442; CHEBI:15414; CHEBI:10833; CHEBI:12761; CHEBI:12741; CHEBI:57856;
+    CHEBI:16680; CHEBI:12759; CHEBI:15929; CHEBI:8946; CHEBI:22034; CHEBI:527887;
+    CHEBI:10786; CHEBI:12757
+
+    KEGG IDs: KEGG:C00021; KEGG:C08491; KEGG:C11512; KEGG:C00019'
+measurements:
+- id: measurement_2_1_1_141_Arabidopsis_thaliana_Q9AR07_S-Adenosyl-L-methionine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 20.0
+  temperature_unit: °C
+- id: measurement_2_1_1_141_Arabidopsis_thaliana_Q9AR07__-_-Jasmonic_acid
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 20.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_1_1_141_Arabidopsis_thaliana_Q9AR07_S-Adenosyl-L-methionine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.85e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11287667'
+- id: 2_1_1_141_Arabidopsis_thaliana_Q9AR07_S-Adenosyl-L-methionine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 25.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11287667'
+- id: 2_1_1_141_Arabidopsis_thaliana_Q9AR07_S-Adenosyl-L-methionine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: moldivs
+  initial_value: 5.0e-10
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11287667'
+- id: 2_1_1_141_Arabidopsis_thaliana_Q9AR07_S-Adenosyl-L-methionine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 700000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11287667'
+- id: 2_1_1_141_Arabidopsis_thaliana_Q9AR07__-_-Jasmonic_acid_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.3e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__-_-Jasmonic_acid
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11287667'
+- id: 2_1_1_141_Arabidopsis_thaliana_Q9AR07__-_-Jasmonic_acid_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 11100000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__-_-Jasmonic_acid
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11287667'
+- id: 2_1_1_141_Arabidopsis_thaliana_Q9AR07__-_-Jasmonic_acid_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 70.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__-_-Jasmonic_acid
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11287667'
+- id: 2_1_1_141_Arabidopsis_thaliana_Q9AR07__-_-Jasmonic_acid_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: moldivs
+  initial_value: 1.4e-09
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__-_-Jasmonic_acid
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11287667'
+buffer:
+  buffer: 50 mM Tris-HCl, 100 mM KCl, 10 mM beta-mercaptoethanol
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 63188
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11287667/
+  pubmed_id: '11287667'
+  doi: null
+name: Merged entry for Q9AR07 wildtype
+description: 'Merged from 2 files: SABIO_EC2.1.1.141_Arabidopsis_thaliana__Q9AR07_s_S-Adenosyl-L-methion.yaml,
+  SABIO_EC2.1.1.141_Arabidopsis_thaliana__Q9AR07_s__-_-Jasmonic.yaml'

@@ -1,0 +1,238 @@
+version: '2.0'
+created: '2025-11-20T13:40:46.037460'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_7_12_P07902_p49650
+  name: UDP-glucose---hexose-1-phosphate uridylyltransferase
+  ecnumber: 2.7.7.12
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: R223S
+  uniprotid: P07902
+  wildtype_sequence: MSRSGTDPQQRQQASEADAAAATFRANDHQHIRYNPLQDEWVLVSAHRMKRPWQGQVEPQLLKTVPRHDPLNPLCPGAIRANGEVNPQYDSTFLFDNDFPALQPDAPSPGPSDHPLFQAKSARGVCKVMCFHPWSDVTLPLMSVPEIRAVVDAWASVTEELGAQYPWVQIFENKGAMMGCSNPHPHCQVWASSFLPDIAQREERSQQAYKSQHGEPLLMEYSRQELLRKERLVLTSEHWLVLVPFWATWPYQTLLLPRRHVRRLPELTPAERDDLASIMKKLLTKYDNLFETSFPYSMGWHGAPTGSEAGANWNHWQLHAHYYPPLLRSATVRKFMVGYEMLAQAQRDLTPEQAAERLRALPEVHYHLGQKDRETATIA
+  mutant_sequence: MSRSGTDPQQRQQASEADAAAATFRANDHQHIRYNPLQDEWVLVSAHRMKRPWQGQVEPQLLKTVPRHDPLNPLCPGAIRANGEVNPQYDSTFLFDNDFPALQPDAPSPGPSDHPLFQAKSARGVCKVMCFHPWSDVTLPLMSVPEIRAVVDAWASVTEELGAQYPWVQIFENKGAMMGCSNPHPHCQVWASSFLPDIAQREERSQQAYKSQHGEPLLMEYSSQELLRKERLVLTSEHWLVLVPFWATWPYQTLLLPRRHVRRLPELTPAERDDLASIMKKLLTKYDNLFETSFPYSMGWHGAPTGSEAGANWNHWQLHAHYYPPLLRSATVRKFMVGYEMLAQAQRDLTPEQAAERLRALPEVHYHLGQKDRETATIA
+complexes: null
+small_molecules:
+- id: substrate_alpha-D-Galactose_1-phosphate
+  name: alpha-D-Galactose 1-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_UDP-D-glucose
+  name: UDP-D-glucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_alpha-D-Glucose_1-phosphate
+  name: alpha-D-Glucose 1-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_UDP-D-galactose
+  name: UDP-D-galactose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_8526_EC2_7_7_12_Homo_sapiens_P07902_alpha-D-Galactose_1-phosphate
+  name: Reaction catalyzed by UDP-glucose---hexose-1-phosphate uridylyltransferase
+    on alpha-D-Galactose 1-phosphate
+  equation: UDP-D-glucose + alpha-D-Galactose 1-phosphate = UDP-D-galactose + alpha-D-Glucose
+    1-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_alpha-D-Galactose_1-phosphate
+  - species_id: substrate_UDP-D-glucose
+  products:
+  - species_id: product_alpha-D-Glucose_1-phosphate
+  - species_id: product_UDP-D-galactose
+  modifiers:
+  - species_id: protein_2_7_7_12_P07902_p49650
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00955
+  notes: 'ChEBI IDs: CHEBI:12320; CHEBI:12970; CHEBI:21004; CHEBI:10246; CHEBI:10232;
+    CHEBI:12306; CHEBI:17973; CHEBI:58336; CHEBI:18066; CHEBI:58601; CHEBI:29042;
+    CHEBI:22374; CHEBI:42878; CHEBI:42623; CHEBI:18307; CHEBI:12305
+
+    KEGG IDs: KEGG:C00446; KEGG:C00052; KEGG:C00103; KEGG:C00029'
+- id: sabiork_8526_EC2_7_7_12_Homo_sapiens_P07902_UDP-D-glucose
+  name: Reaction catalyzed by UDP-glucose---hexose-1-phosphate uridylyltransferase
+    on UDP-D-glucose
+  equation: UDP-D-glucose + alpha-D-Galactose 1-phosphate = UDP-D-galactose + alpha-D-Glucose
+    1-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_UDP-D-glucose
+  - species_id: substrate_alpha-D-Galactose_1-phosphate
+  products:
+  - species_id: product_UDP-D-galactose
+  - species_id: product_alpha-D-Glucose_1-phosphate
+  modifiers:
+  - species_id: protein_2_7_7_12_P07902_p49649
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00955
+  notes: 'ChEBI IDs: CHEBI:12320; CHEBI:12970; CHEBI:21004; CHEBI:10246; CHEBI:10232;
+    CHEBI:12306; CHEBI:17973; CHEBI:58336; CHEBI:18066; CHEBI:58601; CHEBI:29042;
+    CHEBI:22374; CHEBI:42878; CHEBI:42623; CHEBI:18307; CHEBI:12305
+
+    KEGG IDs: KEGG:C00029; KEGG:C00052; KEGG:C00103; KEGG:C00446'
+measurements:
+- id: measurement_2_7_7_12_Homo_sapiens_P07902_alpha-D-Galactose_1-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.7
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_2_7_7_12_Homo_sapiens_P07902_UDP-D-glucose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.7
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 2_7_7_12_Homo_sapiens_P07902_alpha-D-Galactose_1-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00076
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_alpha-D-Galactose_1-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.7
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '22461411'
+- id: 2_7_7_12_Homo_sapiens_P07902_alpha-D-Galactose_1-phosphate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000297
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_alpha-D-Galactose_1-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.7
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '22461411'
+- id: 2_7_7_12_Homo_sapiens_P07902_UDP-D-glucose_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000297
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDP-D-glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.7
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '22461411'
+- id: 2_7_7_12_Homo_sapiens_P07902_UDP-D-glucose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00112
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDP-D-glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.7
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '22461411'
+buffer:
+  buffer: 100 mM Glycine, 5 mM MgCl2 , 5 mM dithiothreitol, 0.8 mM NADP, 5 &#956;M
+    glucose-alpha-1,6-diphosphate, 0.5 U/ml Phosphoglucomutase, 0.5 U/ml Glucose-6-phosphate
+    dehydrogenase
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 49650
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/22461411/
+  pubmed_id: '22461411'
+  doi: null
+name: Merged entry for P07902 R223S
+description: 'Merged from 2 files: SABIO_EC2.7.7.12_Homo_sapiens__P07902_R223S_s_alpha-D-Galactose.yaml,
+  SABIO_EC2.7.7.12_Homo_sapiens__P07902_R223S_s_UDP-D-glucose.yaml'

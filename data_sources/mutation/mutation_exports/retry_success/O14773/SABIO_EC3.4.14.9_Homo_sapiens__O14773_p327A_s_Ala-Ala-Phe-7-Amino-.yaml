@@ -1,0 +1,179 @@
+name: SABIO-RK Entry 1843
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 1843
+created: '2025-10-28T13:45:25.199161'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_4_14_9_O14773_p1843
+  name: signal peptidase I
+  sequence: null
+  ecnumber: 3.4.14.9
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: p327A
+  uniprotid: O14773
+  mutant_sequence: MGLQACLLGLFALILSGKCSYSPEPDQRRTLPPGWVSLGRADPEEELSLTFALRQQNVERLSELVQAVSDPSSPQYGKYLTLENVADLVRPSPLTLHTVQKWLLAAGAQKCHSVITQDFLTCWLSIRQAELLLPGAEFHHYVGGPTETHVVRSPHPYQLPQALAPHVDFVGGLHRFPPTSSLRQRPEPQVTGTVGLHLGVTPSVIRKRYNLTSQDVGSGTSNNSQACAQFLEQYFHDSDLAQFMRLFGGNFAHQASVARVVGQQGRGRAGIEASLDVQYLMSAGANISTWVYSSPGRHEGQEPFLQWLMLLSNESALAHVHTVSYGDDEDSLSSAYIQRVNTELMKAAARGLTLLFASGDSGAGCWSVSGRHQFRPTFPASSPYVTTVGGTSFQEPFLITNEIVDYISGGGFSNVFPRPSYQEEAVTKFLSSSPHLPPSSYFNASGRAYPDVAALSDGYWVVSNRVPIPWVSGTSASTPVFGGILSLINEHRILSGRPPLGFLNPRLYQQHGAGLFDVTRGCHESCLDEEVEGQGFCSGPGWDPVTGWGTPNFPALLKTLLNP
+  position_offset: -9
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Ala-Ala-Phe-7-Amino-4-methylcoumarin
+  name: Ala-Ala-Phe-7-Amino-4-methylcoumarin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_7-Amino-4-methylcoumarin
+  name: 7-Amino-4-methylcoumarin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Ala-Ala-Phe
+  name: Ala-Ala-Phe
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_6849_EC3_4_14_9_Homo_sapiens_O14773_Ala-Ala-Phe-7-Amino-4-methylcoumarin
+  name: Reaction catalyzed by signal peptidase I on Ala-Ala-Phe-7-Amino-4-methylcoumarin
+  equation: H2O + Ala-Ala-Phe-7-Amino-4-methylcoumarin = Ala-Ala-Phe + 7-Amino-4-methylcoumarin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Ala-Ala-Phe-7-Amino-4-methylcoumarin
+  products:
+  - species_id: product_7-Amino-4-methylcoumarin
+  - species_id: product_Ala-Ala-Phe
+  modifiers:
+  - species_id: protein_3_4_14_9_O14773_p1843
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:41979;
+    CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352;
+    CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:29373;
+    CHEBI:44701; CHEBI:51771
+
+    KEGG IDs: KEGG:C01386; KEGG:C00001'
+measurements:
+- id: measurement_3_4_14_9_Homo_sapiens_O14773_Ala-Ala-Phe-7-Amino-4-methylcoumarin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 5.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 3_4_14_9_Homo_sapiens_O14773_Ala-Ala-Phe-7-Amino-4-methylcoumarin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000164
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Ala-Ala-Phe-7-Amino-4-methylcoumarin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15733845'
+- id: 3_4_14_9_Homo_sapiens_O14773_Ala-Ala-Phe-7-Amino-4-methylcoumarin_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 25730.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Ala-Ala-Phe-7-Amino-4-methylcoumarin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15733845'
+- id: 3_4_14_9_Homo_sapiens_O14773_Ala-Ala-Phe-7-Amino-4-methylcoumarin_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 4.22
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Ala-Ala-Phe-7-Amino-4-methylcoumarin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15733845'
+buffer:
+  buffer: 0.1 M sodium acetate, 0.1% Triton X-100
+  buffer_concentration: 0.1 M
+references:
+- title: Reference for SABIO-RK entry 1843
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15733845/
+  pubmed_id: '15733845'
+  doi: null

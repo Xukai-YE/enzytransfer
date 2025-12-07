@@ -1,0 +1,749 @@
+version: '2.0'
+created: '2025-11-20T13:39:18.487950'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_261_P72010_p38969
+  name: sn-glycerol-1-phosphate dehydrogenase
+  ecnumber: 1.1.1.261
+  organism: Methanothermobacter thermautotrophicus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P72010
+  wildtype_sequence: MDPRKIQLPREIYTGPGVIEDTGRICRDLRFEGRAMVVTGPRTLQIAGEAAIESLQAEGFEVDQVTVDDATMASVRNVQDGLDGVSVVLGVGGGKVIDVAKMSATLEGLHFISVPTAASHDGIASPRASIRNGEGTASLEASSPIGVIADTEIISRAPFRLLASGCADIISNYTAIMDWKLAHRLLNERYSESAAALSLMTAKMIIKSADAIKEGLEESARLAVKSLISSGIAISIAGSSRPASGSEHKFSHALDMIAPKPALHGEQCGVGTIMMMHLHGGDWQFIRDALARINAPTTAAELGIDPEYIIEALTMAHNIRRERYTILGDRGLTREAAERLAKITEVI
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Glycerone_phosphate
+  name: Glycerone phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_sn-Glycerol_1-phosphate
+  name: sn-Glycerol 1-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_K_
+  name: K+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_sn-Glycerol_1-phosphate
+  name: sn-Glycerol 1-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Glycerone_phosphate
+  name: Glycerone phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_5275_EC1_1_1_261_Methanothermobacter_thermautotrophicus_P72010_NADH
+  name: Reaction catalyzed by sn-glycerol-1-phosphate dehydrogenase on NADH
+  equation: NAD+ + sn-Glycerol 1-phosphate = NADH + Glycerone phosphate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  - species_id: substrate_Glycerone_phosphate
+  products:
+  - species_id: product_NAD_
+  - species_id: product_sn-Glycerol_1-phosphate
+  modifiers:
+  - species_id: protein_1_1_1_261_P72010_p38969
+    role: BIOCATALYST
+  - species_id: activator_K_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 21412;21413;21414;21415
+  KEGGid: R05679
+  notes: 'ChEBI IDs: CHEBI:26702; CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846;
+    CHEBI:26219; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:8345; CHEBI:21901; CHEBI:24636;
+    CHEBI:26703; CHEBI:44214; CHEBI:5450; CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:16221;
+    CHEBI:29103; CHEBI:57945; CHEBI:44216; CHEBI:57540; CHEBI:7423; CHEBI:13389; CHEBI:39668;
+    CHEBI:15378; CHEBI:13395; CHEBI:12844; CHEBI:57685; CHEBI:10744; CHEBI:44215;
+    CHEBI:49685; CHEBI:7422; CHEBI:16108; CHEBI:16908
+
+    KEGG IDs: KEGG:C00111; KEGG:C00080; KEGG:C00003; KEGG:C00238; KEGG:C00004; KEGG:C00623'
+- id: sabiork_5276_EC1_1_1_261_Methanothermobacter_thermautotrophicus_P72010_Glycerone_phosphate
+  name: Reaction catalyzed by sn-glycerol-1-phosphate dehydrogenase on Glycerone phosphate
+  equation: NADP+ + sn-Glycerol 1-phosphate = Glycerone phosphate + NADPH + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Glycerone_phosphate
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_NADP_
+  - species_id: product_sn-Glycerol_1-phosphate
+  modifiers:
+  - species_id: protein_1_1_1_261_P72010_p38968
+    role: BIOCATALYST
+  - species_id: activator_K_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 21416;21417;21418;21419
+  KEGGid: R05680
+  notes: 'ChEBI IDs: CHEBI:26702; CHEBI:13397; CHEBI:13398; CHEBI:7424; CHEBI:44405;
+    CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:26219; CHEBI:13357; CHEBI:25523; CHEBI:8345;
+    CHEBI:24636; CHEBI:26703; CHEBI:5450; CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:16221;
+    CHEBI:29103; CHEBI:16474; CHEBI:44286; CHEBI:21904; CHEBI:44409; CHEBI:39668;
+    CHEBI:15378; CHEBI:12844; CHEBI:18009; CHEBI:57685; CHEBI:58349; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744; CHEBI:49685; CHEBI:16108
+
+    KEGG IDs: KEGG:C00005; KEGG:C00111; KEGG:C00080; KEGG:C00006; KEGG:C00238; KEGG:C11037;
+    KEGG:C00623'
+- id: sabiork_5275_EC1_1_1_261_Methanothermobacter_thermautotrophicus_P72010_Glycerone_phosphate
+  name: Reaction catalyzed by sn-glycerol-1-phosphate dehydrogenase on Glycerone phosphate
+  equation: NAD+ + sn-Glycerol 1-phosphate = NADH + Glycerone phosphate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Glycerone_phosphate
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_sn-Glycerol_1-phosphate
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_1_1_261_P72010_p38967
+    role: BIOCATALYST
+  - species_id: activator_K_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 21412;21413;21414;21415
+  KEGGid: R05679
+  notes: 'ChEBI IDs: CHEBI:26702; CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846;
+    CHEBI:26219; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:8345; CHEBI:21901; CHEBI:24636;
+    CHEBI:26703; CHEBI:5450; CHEBI:44214; CHEBI:29233; CHEBI:16221; CHEBI:5584; CHEBI:13394;
+    CHEBI:29103; CHEBI:57945; CHEBI:44216; CHEBI:57540; CHEBI:7423; CHEBI:13389; CHEBI:39668;
+    CHEBI:15378; CHEBI:13395; CHEBI:12844; CHEBI:57685; CHEBI:10744; CHEBI:44215;
+    CHEBI:49685; CHEBI:7422; CHEBI:16108; CHEBI:16908
+
+    KEGG IDs: KEGG:C00111; KEGG:C00080; KEGG:C00003; KEGG:C00238; KEGG:C00004; KEGG:C00623'
+- id: sabiork_5276_EC1_1_1_261_Methanothermobacter_thermautotrophicus_P72010_NADPH
+  name: Reaction catalyzed by sn-glycerol-1-phosphate dehydrogenase on NADPH
+  equation: NADP+ + sn-Glycerol 1-phosphate = Glycerone phosphate + NADPH + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_Glycerone_phosphate
+  products:
+  - species_id: product_NADP_
+  - species_id: product_sn-Glycerol_1-phosphate
+  modifiers:
+  - species_id: protein_1_1_1_261_P72010_p38970
+    role: BIOCATALYST
+  - species_id: activator_K_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 21416;21417;21418;21419
+  KEGGid: R05680
+  notes: 'ChEBI IDs: CHEBI:26702; CHEBI:13397; CHEBI:13398; CHEBI:7424; CHEBI:44405;
+    CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:26219; CHEBI:13357; CHEBI:25523; CHEBI:8345;
+    CHEBI:24636; CHEBI:26703; CHEBI:5450; CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:16221;
+    CHEBI:29103; CHEBI:16474; CHEBI:44286; CHEBI:21904; CHEBI:44409; CHEBI:39668;
+    CHEBI:15378; CHEBI:12844; CHEBI:18009; CHEBI:57685; CHEBI:58349; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744; CHEBI:49685; CHEBI:16108
+
+    KEGG IDs: KEGG:C00005; KEGG:C00111; KEGG:C00080; KEGG:C00006; KEGG:C00238; KEGG:C11037;
+    KEGG:C00623'
+- id: sabiork_5275_EC1_1_1_261_Methanothermobacter_thermautotrophicus_P72010_sn-Glycerol_1-phosphate
+  name: Reaction catalyzed by sn-glycerol-1-phosphate dehydrogenase on sn-Glycerol
+    1-phosphate
+  equation: NAD+ + sn-Glycerol 1-phosphate = NADH + Glycerone phosphate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_sn-Glycerol_1-phosphate
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_Glycerone_phosphate
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_1_1_261_P72010_p38971
+    role: BIOCATALYST
+  - species_id: activator_K_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 21412;21413;21414;21415
+  KEGGid: R05679
+  notes: 'ChEBI IDs: CHEBI:26702; CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846;
+    CHEBI:26219; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:8345; CHEBI:21901; CHEBI:24636;
+    CHEBI:26703; CHEBI:44214; CHEBI:5450; CHEBI:29233; CHEBI:13394; CHEBI:5584; CHEBI:16221;
+    CHEBI:29103; CHEBI:57945; CHEBI:44216; CHEBI:57540; CHEBI:7423; CHEBI:13389; CHEBI:39668;
+    CHEBI:15378; CHEBI:12844; CHEBI:13395; CHEBI:57685; CHEBI:44215; CHEBI:10744;
+    CHEBI:49685; CHEBI:7422; CHEBI:16108; CHEBI:16908
+
+    KEGG IDs: KEGG:C00111; KEGG:C00080; KEGG:C00003; KEGG:C00238; KEGG:C00004; KEGG:C00623'
+- id: sabiork_5276_EC1_1_1_261_Methanothermobacter_thermautotrophicus_P72010_sn-Glycerol_1-phosphate
+  name: Reaction catalyzed by sn-glycerol-1-phosphate dehydrogenase on sn-Glycerol
+    1-phosphate
+  equation: NADP+ + sn-Glycerol 1-phosphate = Glycerone phosphate + NADPH + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_sn-Glycerol_1-phosphate
+  - species_id: substrate_NADP_
+  products:
+  - species_id: product_NADPH
+  - species_id: product_Glycerone_phosphate
+  modifiers:
+  - species_id: protein_1_1_1_261_P72010_p38972
+    role: BIOCATALYST
+  - species_id: activator_K_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 21416;21417;21418;21419
+  KEGGid: R05680
+  notes: 'ChEBI IDs: CHEBI:26702; CHEBI:13397; CHEBI:13398; CHEBI:7424; CHEBI:21903;
+    CHEBI:44405; CHEBI:7425; CHEBI:29234; CHEBI:26219; CHEBI:25523; CHEBI:13357; CHEBI:8345;
+    CHEBI:24636; CHEBI:26703; CHEBI:5450; CHEBI:29233; CHEBI:5584; CHEBI:16221; CHEBI:13399;
+    CHEBI:29103; CHEBI:16474; CHEBI:44286; CHEBI:21904; CHEBI:44409; CHEBI:39668;
+    CHEBI:15378; CHEBI:12844; CHEBI:18009; CHEBI:57685; CHEBI:58349; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744; CHEBI:49685; CHEBI:16108
+
+    KEGG IDs: KEGG:C00005; KEGG:C00111; KEGG:C00080; KEGG:C00006; KEGG:C00238; KEGG:C11037;
+    KEGG:C00623'
+- id: sabiork_5275_EC1_1_1_261_Methanothermobacter_thermautotrophicus_P72010_sn-Glycerol_1-phosphate
+  name: Reaction catalyzed by sn-glycerol-1-phosphate dehydrogenase on sn-Glycerol
+    1-phosphate
+  equation: NAD+ + sn-Glycerol 1-phosphate = NADH + Glycerone phosphate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_sn-Glycerol_1-phosphate
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_NADH
+  - species_id: product_Glycerone_phosphate
+  modifiers:
+  - species_id: protein_1_1_1_261_P72010_p38973
+    role: BIOCATALYST
+  - species_id: activator_K_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 21412;21413;21414;21415
+  KEGGid: R05679
+  notes: 'ChEBI IDs: CHEBI:26702; CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846;
+    CHEBI:26219; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:8345; CHEBI:21901; CHEBI:24636;
+    CHEBI:26703; CHEBI:44214; CHEBI:5450; CHEBI:29233; CHEBI:13394; CHEBI:16221; CHEBI:5584;
+    CHEBI:29103; CHEBI:57945; CHEBI:44216; CHEBI:57540; CHEBI:7423; CHEBI:13389; CHEBI:39668;
+    CHEBI:13395; CHEBI:12844; CHEBI:15378; CHEBI:57685; CHEBI:44215; CHEBI:10744;
+    CHEBI:49685; CHEBI:7422; CHEBI:16108; CHEBI:16908
+
+    KEGG IDs: KEGG:C00111; KEGG:C00080; KEGG:C00003; KEGG:C00238; KEGG:C00004; KEGG:C00623'
+- id: sabiork_5276_EC1_1_1_261_Methanothermobacter_thermautotrophicus_P72010_sn-Glycerol_1-phosphate
+  name: Reaction catalyzed by sn-glycerol-1-phosphate dehydrogenase on sn-Glycerol
+    1-phosphate
+  equation: NADP+ + sn-Glycerol 1-phosphate = Glycerone phosphate + NADPH + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_sn-Glycerol_1-phosphate
+  - species_id: substrate_NADP_
+  products:
+  - species_id: product_NADPH
+  - species_id: product_Glycerone_phosphate
+  modifiers:
+  - species_id: protein_1_1_1_261_P72010_p38974
+    role: BIOCATALYST
+  - species_id: activator_K_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 21416;21417;21418;21419
+  KEGGid: R05680
+  notes: 'ChEBI IDs: CHEBI:26702; CHEBI:13397; CHEBI:13398; CHEBI:7424; CHEBI:21903;
+    CHEBI:44405; CHEBI:7425; CHEBI:29234; CHEBI:26219; CHEBI:25523; CHEBI:13357; CHEBI:8345;
+    CHEBI:24636; CHEBI:26703; CHEBI:5450; CHEBI:29233; CHEBI:16221; CHEBI:13399; CHEBI:5584;
+    CHEBI:29103; CHEBI:16474; CHEBI:44286; CHEBI:21904; CHEBI:44409; CHEBI:39668;
+    CHEBI:15378; CHEBI:12844; CHEBI:18009; CHEBI:57685; CHEBI:58349; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744; CHEBI:49685; CHEBI:16108
+
+    KEGG IDs: KEGG:C00005; KEGG:C00111; KEGG:C00080; KEGG:C00006; KEGG:C00238; KEGG:C11037;
+    KEGG:C00623'
+measurements:
+- id: measurement_1_1_1_261_Methanothermobacter_thermautotrophicus_P72010_NADH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 65.0
+  temperature_unit: °C
+- id: measurement_1_1_1_261_Methanothermobacter_thermautotrophicus_P72010_Glycerone_phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 65.0
+  temperature_unit: °C
+- id: measurement_1_1_1_261_Methanothermobacter_thermautotrophicus_P72010_Glycerone_phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 65.0
+  temperature_unit: °C
+- id: measurement_1_1_1_261_Methanothermobacter_thermautotrophicus_P72010_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 65.0
+  temperature_unit: °C
+- id: measurement_1_1_1_261_Methanothermobacter_thermautotrophicus_P72010_sn-Glycerol_1-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 65.0
+  temperature_unit: °C
+- id: measurement_1_1_1_261_Methanothermobacter_thermautotrophicus_P72010_sn-Glycerol_1-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 65.0
+  temperature_unit: °C
+- id: measurement_1_1_1_261_Methanothermobacter_thermautotrophicus_P72010_sn-Glycerol_1-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 65.0
+  temperature_unit: °C
+- id: measurement_1_1_1_261_Methanothermobacter_thermautotrophicus_P72010_sn-Glycerol_1-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 65.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1_261_Methanothermobacter_thermautotrophicus_P72010_NADH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.01028333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9348086'
+- id: 1_1_1_261_Methanothermobacter_thermautotrophicus_P72010_NADH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00217
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9348086'
+- id: 1_1_1_261_Methanothermobacter_thermautotrophicus_P72010_Glycerone_phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.202
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glycerone_phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9348086'
+- id: 1_1_1_261_Methanothermobacter_thermautotrophicus_P72010_Glycerone_phosphate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.00505
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glycerone_phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9348086'
+- id: 1_1_1_261_Methanothermobacter_thermautotrophicus_P72010_Glycerone_phosphate_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glycerone_phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9348086'
+- id: 1_1_1_261_Methanothermobacter_thermautotrophicus_P72010_Glycerone_phosphate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.01016667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glycerone_phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9348086'
+- id: 1_1_1_261_Methanothermobacter_thermautotrophicus_P72010_Glycerone_phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.07883333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glycerone_phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9348086'
+- id: 1_1_1_261_Methanothermobacter_thermautotrophicus_P72010_Glycerone_phosphate_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000129
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glycerone_phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9348086'
+- id: 1_1_1_261_Methanothermobacter_thermautotrophicus_P72010_NADPH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00058
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9348086'
+- id: 1_1_1_261_Methanothermobacter_thermautotrophicus_P72010_NADPH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.005383333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9348086'
+- id: 1_1_1_261_Methanothermobacter_thermautotrophicus_P72010_sn-Glycerol_1-phosphate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000663333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_sn-Glycerol_1-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9348086'
+- id: 1_1_1_261_Methanothermobacter_thermautotrophicus_P72010_sn-Glycerol_1-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000127
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_sn-Glycerol_1-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9348086'
+- id: 1_1_1_261_Methanothermobacter_thermautotrophicus_P72010_sn-Glycerol_1-phosphate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000398333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_sn-Glycerol_1-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9348086'
+- id: 1_1_1_261_Methanothermobacter_thermautotrophicus_P72010_sn-Glycerol_1-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00027
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_sn-Glycerol_1-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9348086'
+- id: 1_1_1_261_Methanothermobacter_thermautotrophicus_P72010_sn-Glycerol_1-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0163
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_sn-Glycerol_1-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9348086'
+- id: 1_1_1_261_Methanothermobacter_thermautotrophicus_P72010_sn-Glycerol_1-phosphate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000656667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_sn-Glycerol_1-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9348086'
+- id: 1_1_1_261_Methanothermobacter_thermautotrophicus_P72010_sn-Glycerol_1-phosphate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000243333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_sn-Glycerol_1-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9348086'
+- id: 1_1_1_261_Methanothermobacter_thermautotrophicus_P72010_sn-Glycerol_1-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0048
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_sn-Glycerol_1-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9348086'
+buffer:
+  buffer: 50 mM Triethanolamine
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 38969
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9348086/
+  pubmed_id: '9348086'
+  doi: null
+name: Merged entry for P72010 wildtype
+description: 'Merged from 8 files: SABIO_EC1.1.1.261_Methanothermobacter_thermautotrophicus__P72010_s_NADH.yaml,
+  SABIO_EC1.1.1.261_Methanothermobacter_thermautotrophicus__P72010_s_Glycerone_2.yaml,
+  SABIO_EC1.1.1.261_Methanothermobacter_thermautotrophicus__P72010_s_Glycerone.yaml,
+  SABIO_EC1.1.1.261_Methanothermobacter_thermautotrophicus__P72010_s_NADPH.yaml, SABIO_EC1.1.1.261_Methanothermobacter_thermautotrophicus__P72010_s_sn-Glycerol.yaml,
+  SABIO_EC1.1.1.261_Methanothermobacter_thermautotrophicus__P72010_s_sn-Glycerol_2.yaml,
+  SABIO_EC1.1.1.261_Methanothermobacter_thermautotrophicus__P72010_s_sn-Glycerol_3.yaml,
+  SABIO_EC1.1.1.261_Methanothermobacter_thermautotrophicus__P72010_s_sn-Glycerol_4.yaml'

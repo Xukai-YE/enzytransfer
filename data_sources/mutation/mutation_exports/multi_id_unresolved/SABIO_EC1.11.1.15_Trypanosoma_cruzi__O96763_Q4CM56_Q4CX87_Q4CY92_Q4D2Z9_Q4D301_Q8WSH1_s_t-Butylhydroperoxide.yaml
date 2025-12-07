@@ -1,0 +1,187 @@
+name: SABIO-RK Entry 2136
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 2136
+created: '2025-10-28T13:45:39.044871'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_11_1_15_O96763_Q4CM56_Q4CX87_Q4CY92_Q4D2Z9_Q4D301_Q8WSH1_p2136
+  name: peroxiredoxin
+  sequence: null
+  ecnumber: 1.11.1.15
+  organism: Trypanosoma cruzi
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: O96763; Q4CM56; Q4CX87; Q4CY92; Q4D2Z9; Q4D301; Q8WSH1
+complexes: null
+small_molecules:
+- id: substrate_t-Butylhydroperoxide
+  name: t-Butylhydroperoxide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_R_C_R_SH
+  name: R'C(R)SH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_R_C_R_S-S_R_CR_
+  name: R'C(R)S-S(R)CR'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_t-Butanol
+  name: t-Butanol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_6778_EC1_11_1_15_Trypanosoma_cruzi_O96763_Q4CM56_Q4CX87_Q4CY92_Q4D2Z9_Q4D301_Q8WSH1_t-Butylhydroperoxide
+  name: Reaction catalyzed by peroxiredoxin on t-Butylhydroperoxide
+  equation: t-Butylhydroperoxide + R'C(R)SH = H2O + t-Butanol + R'C(R)S-S(R)CR'
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_t-Butylhydroperoxide
+  - species_id: substrate_R_C_R_SH
+  products:
+  - species_id: product_R_C_R_S-S_R_CR_
+  - species_id: product_t-Butanol
+  modifiers:
+  - species_id: protein_1_11_1_15_O96763_Q4CM56_Q4CX87_Q4CY92_Q4D2Z9_Q4D301_Q8WSH1_p2136
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:26877; CHEBI:44819; CHEBI:41981; CHEBI:13424;
+    CHEBI:16520; CHEBI:42857; CHEBI:8737; CHEBI:41979; CHEBI:42043; CHEBI:13423; CHEBI:64090;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:17412; CHEBI:13352;
+    CHEBI:43228; CHEBI:45895; CHEBI:44292; CHEBI:8738; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:45893; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C21389; KEGG:C02318; KEGG:C00001; KEGG:C01525'
+measurements:
+- id: measurement_1_11_1_15_Trypanosoma_cruzi_O96763_Q4CM56_Q4CX87_Q4CY92_Q4D2Z9_Q4D301_Q8WSH1_t-Butylhydroperoxide
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_11_1_15_Trypanosoma_cruzi_O96763_Q4CM56_Q4CX87_Q4CY92_Q4D2Z9_Q4D301_Q8WSH1_t-Butylhydroperoxide_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.66e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_t-Butylhydroperoxide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12751791'
+- id: 1_11_1_15_Trypanosoma_cruzi_O96763_Q4CM56_Q4CX87_Q4CY92_Q4D2Z9_Q4D301_Q8WSH1_t-Butylhydroperoxide_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.7
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_t-Butylhydroperoxide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12751791'
+- id: 1_11_1_15_Trypanosoma_cruzi_O96763_Q4CM56_Q4CX87_Q4CY92_Q4D2Z9_Q4D301_Q8WSH1_t-Butylhydroperoxide_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.18e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_t-Butylhydroperoxide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12751791'
+buffer:
+  buffer: 50 mM Tris, 1 mM EDTA
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 2136
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12751791/
+  pubmed_id: '12751791'
+  doi: null

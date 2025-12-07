@@ -1,0 +1,181 @@
+name: SABIO-RK Entry 50676
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 50676
+created: '2025-10-28T15:52:46.941382'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_6_2_1_12_Q9S725_p50676
+  name: 4-coumarate---CoA ligase
+  sequence: null
+  ecnumber: 6.2.1.12
+  organism: Arabidopsis thaliana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: t4C
+  uniprotid: Q9S725
+  mutant_sequence: MCTQDVIVNDQNDQKQCSNDVIFRSRLPDIYIPNHLPLHDYIFENISEFAAKPCLINGPTGEVYTYADVHVTSRKLAAGLHNLGVKQHDVVMILLPNSPEVVLTFLAASFIGAITTSANPFFTPAEISKQAKASAAKLIVTQSRYVDKIKNLQNDGVLIVTTDSDAIPENCLRFSELTQSEEPRVDSIPEKISPEDVVALPFSSGTTGLPKGVMLTHKGLVTSVAQQVDGENPNLYFNRDDVILCVLPMFHIYALNSIMLCSLRVGATILIMPKFEITLLLEQIQRCKVTVAMVVPPIVLAIAKSPETEKYDLSSVRMVKSGAAPLGKELEDAISAKFPNAKLGQGYGMTEAGPVLAMSLGFAKEPFPVKSGACGTVVRNAEMKILDPDTGDSLPRNKPGEICIRGNQIMKGYLNDPLATASTIDKDGWLHTGDVGFIDDDDELFIVDRLKELIKYKGFQVAPAELESLLIGHPEINDVAVVAMKEEDAGEVPVAFVVRSKDSNISEDEIKQFVSKQVVFYKRINKVFFTDSIPKAPSGKILRKDLRARLANGLMN
+  position_offset: -2
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Triphosphate
+  name: Triphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mg2_
+  name: Mg2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Adenosine_5_-tetraphosphate
+  name: Adenosine 5'-tetraphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_4-Coumarate
+  name: 4-Coumarate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_13552_EC6_2_1_12_Arabidopsis_thaliana_Q9S725_ATP
+  name: Reaction catalyzed by 4-coumarate---CoA ligase on ATP
+  equation: ATP + Triphosphate = Diphosphate + Adenosine 5'-tetraphosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Triphosphate
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Adenosine_5_-tetraphosphate
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_6_2_1_12_Q9S725_p50676
+    role: BIOCATALYST
+  - species_id: activator_4-Coumarate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:10789; CHEBI:57299; CHEBI:8683;
+    CHEBI:13379; CHEBI:48316; CHEBI:32374; CHEBI:48314; CHEBI:20348; CHEBI:6635; CHEBI:13738;
+    CHEBI:43108; CHEBI:33019; CHEBI:12876; CHEBI:39942; CHEBI:13236; CHEBI:45067;
+    CHEBI:10841; CHEBI:48313; CHEBI:29888; CHEBI:36090; CHEBI:2359; CHEBI:35782; CHEBI:20405;
+    CHEBI:12007; CHEBI:49736; CHEBI:40938; CHEBI:13420; CHEBI:2478; CHEBI:18361; CHEBI:27061;
+    CHEBI:11978; CHEBI:33017; CHEBI:18334; CHEBI:9744; CHEBI:45208; CHEBI:22249; CHEBI:18036;
+    CHEBI:15266; CHEBI:15422; CHEBI:1812; CHEBI:22248; CHEBI:32373; CHEBI:18420; CHEBI:20347;
+    CHEBI:33018; CHEBI:5926; CHEBI:48315; CHEBI:58450; CHEBI:25112; CHEBI:45212; CHEBI:42009;
+    CHEBI:39127; CHEBI:29203; CHEBI:39949
+
+    KEGG IDs: KEGG:C00536; KEGG:C00013; KEGG:C00305; KEGG:C00002; KEGG:C03483; KEGG:C00811'
+measurements:
+- id: measurement_6_2_1_12_Arabidopsis_thaliana_Q9S725_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 6_2_1_12_Arabidopsis_thaliana_Q9S725_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 6.3e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12644689'
+- id: 6_2_1_12_Arabidopsis_thaliana_Q9S725_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.2e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12644689'
+buffer:
+  buffer: 100 mM HEPES/KOH, 5 mM MgCl2
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 50676
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12644689/
+  pubmed_id: '12644689'
+  doi: null

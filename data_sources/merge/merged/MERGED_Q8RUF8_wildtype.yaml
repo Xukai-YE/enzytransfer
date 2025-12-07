@@ -1,0 +1,380 @@
+version: '2.0'
+created: '2025-11-20T13:41:16.561636'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_5_1_3_Q8RUF8_p63986
+  name: omega-amidase
+  ecnumber: 3.5.1.3
+  organism: Arabidopsis thaliana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q8RUF8
+  wildtype_sequence: MKSAISSSLFFNSKNLLNPNPLSRFISLKSNFLPKLSPRSITSHTLKLPSSSTSALRSISSSMASSFNPEQARVPSALPLPAPPLTKFNIGLCQLSVTSDKKRNISHAKKAIEEAASKGAKLVLLPEIWNSPYSNDSFPVYAEEIDAGGDASPSTAMLSEVSKRLKITIIGGSIPERVGDRLYNTCCVFGSDGELKAKHRKIHLFDIDIPGKITFMESKTLTAGETPTIVDTDVGRIGIGICYDIRFQELAMIYAARGAHLLCYPGAFNMTTGPLHWELLQRARATDNQLYVATCSPARDSGAGYTAWGHSTLVGPFGEVLATTEHEEAIIIAEIDYSILEQRRTSLPLNRQRRGDLYQLVDVQRLDSK
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_2-Hydroxysuccinamate
+  name: 2-Hydroxysuccinamate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Malate
+  name: Malate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NH3
+  name: NH3
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_2-Oxoglutaramate
+  name: 2-Oxoglutaramate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Oxoglutarate
+  name: 2-Oxoglutarate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_2-Oxosuccinamate
+  name: 2-Oxosuccinamate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Oxaloacetate
+  name: Oxaloacetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_15060_EC3_5_1_3_Arabidopsis_thaliana_Q8RUF8_2-Hydroxysuccinamate
+  name: Reaction catalyzed by omega-amidase on 2-Hydroxysuccinamate
+  equation: H2O + 2-Hydroxysuccinamate = NH3 + Malate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2-Hydroxysuccinamate
+  products:
+  - species_id: product_Malate
+  - species_id: product_NH3
+  modifiers:
+  - species_id: protein_3_5_1_3_Q8RUF8_p63986
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44284; CHEBI:44819; CHEBI:16134; CHEBI:41981;
+    CHEBI:13405; CHEBI:7434; CHEBI:25115; CHEBI:42857; CHEBI:41979; CHEBI:14556; CHEBI:13407;
+    CHEBI:6650; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:25114; CHEBI:22534;
+    CHEBI:15377; CHEBI:7435; CHEBI:49783; CHEBI:135980; CHEBI:22533; CHEBI:13352;
+    CHEBI:44404; CHEBI:13771; CHEBI:43228; CHEBI:44269; CHEBI:44292; CHEBI:15595;
+    CHEBI:13406; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:28938; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C00711; KEGG:C00014; KEGG:C00001; KEGG:C01342; KEGG:C00149'
+- id: sabiork_771_EC3_5_1_3_Arabidopsis_thaliana_Q8RUF8_2-Oxoglutaramate
+  name: Reaction catalyzed by omega-amidase on 2-Oxoglutaramate
+  equation: 2-Oxoglutaramate + H2O = 2-Oxoglutarate + NH3
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2-Oxoglutaramate
+  products:
+  - species_id: product_2-Oxoglutarate
+  - species_id: product_NH3
+  modifiers:
+  - species_id: protein_3_5_1_3_Q8RUF8_p63985
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 32963;32964;32965;32966
+  KEGGid: R00269
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:19746; CHEBI:44284; CHEBI:44819; CHEBI:11637;
+    CHEBI:41981; CHEBI:16134; CHEBI:1252; CHEBI:13405; CHEBI:7434; CHEBI:11638; CHEBI:1253;
+    CHEBI:42857; CHEBI:19748; CHEBI:41979; CHEBI:13407; CHEBI:42043; CHEBI:16810;
+    CHEBI:40661; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:22534; CHEBI:135980;
+    CHEBI:15377; CHEBI:7435; CHEBI:49783; CHEBI:22533; CHEBI:13352; CHEBI:30916; CHEBI:30882;
+    CHEBI:44404; CHEBI:13771; CHEBI:43228; CHEBI:19749; CHEBI:44269; CHEBI:44292;
+    CHEBI:16769; CHEBI:13406; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:19747;
+    CHEBI:28938; CHEBI:30915; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00014; KEGG:C00026; KEGG:C01342; KEGG:C00001; KEGG:C00940'
+- id: sabiork_822_EC3_5_1_3_Arabidopsis_thaliana_Q8RUF8_2-Oxosuccinamate
+  name: Reaction catalyzed by omega-amidase on 2-Oxosuccinamate
+  equation: H2O + 2-Oxosuccinamate = NH3 + Oxaloacetate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2-Oxosuccinamate
+  products:
+  - species_id: product_NH3
+  - species_id: product_Oxaloacetate
+  modifiers:
+  - species_id: protein_3_5_1_3_Q8RUF8_p63984
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 59412;59413;59414;59415
+  KEGGid: R00348
+  notes: 'ChEBI IDs: CHEBI:24959; CHEBI:29375; CHEBI:44284; CHEBI:44819; CHEBI:16134;
+    CHEBI:41981; CHEBI:13405; CHEBI:7434; CHEBI:57735; CHEBI:16452; CHEBI:42857; CHEBI:41979;
+    CHEBI:13407; CHEBI:12820; CHEBI:11646; CHEBI:42043; CHEBI:33811; CHEBI:33813;
+    CHEBI:27313; CHEBI:22534; CHEBI:135980; CHEBI:15377; CHEBI:7435; CHEBI:49783;
+    CHEBI:14703; CHEBI:22533; CHEBI:13352; CHEBI:25734; CHEBI:44404; CHEBI:16327;
+    CHEBI:13771; CHEBI:25731; CHEBI:19757; CHEBI:43228; CHEBI:44269; CHEBI:30744;
+    CHEBI:44292; CHEBI:13406; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:28938;
+    CHEBI:7812; CHEBI:24958; CHEBI:1261; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C02362; KEGG:C00014; KEGG:C01342; KEGG:C00001; KEGG:C00036'
+measurements:
+- id: measurement_3_5_1_3_Arabidopsis_thaliana_Q8RUF8_2-Hydroxysuccinamate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_3_5_1_3_Arabidopsis_thaliana_Q8RUF8_2-Oxoglutaramate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_3_5_1_3_Arabidopsis_thaliana_Q8RUF8_2-Oxosuccinamate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_5_1_3_Arabidopsis_thaliana_Q8RUF8_2-Hydroxysuccinamate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.155
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Hydroxysuccinamate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '24461228'
+- id: 3_5_1_3_Arabidopsis_thaliana_Q8RUF8_2-Hydroxysuccinamate_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00558
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Hydroxysuccinamate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '24461228'
+- id: 3_5_1_3_Arabidopsis_thaliana_Q8RUF8_2-Hydroxysuccinamate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.000865
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Hydroxysuccinamate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '24461228'
+- id: 3_5_1_3_Arabidopsis_thaliana_Q8RUF8_2-Oxoglutaramate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00443
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Oxoglutaramate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '24461228'
+- id: 3_5_1_3_Arabidopsis_thaliana_Q8RUF8_2-Oxoglutaramate_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.188
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Oxoglutaramate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '24461228'
+- id: 3_5_1_3_Arabidopsis_thaliana_Q8RUF8_2-Oxoglutaramate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.000836
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Oxoglutaramate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '24461228'
+- id: 3_5_1_3_Arabidopsis_thaliana_Q8RUF8_2-Oxosuccinamate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00613
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Oxosuccinamate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '24461228'
+- id: 3_5_1_3_Arabidopsis_thaliana_Q8RUF8_2-Oxosuccinamate_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.128
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Oxosuccinamate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '24461228'
+- id: 3_5_1_3_Arabidopsis_thaliana_Q8RUF8_2-Oxosuccinamate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.000785
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Oxosuccinamate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '24461228'
+buffer:
+  buffer: 50 mM Tris, 150 ¦ÌM NAD, 0.03 U/¦Ìl L-malate-dehydrogenase; 50 mM Tris,
+    150 ¦ÌM NADH, 0.03 U/¦Ìl L-malate-dehydrogenase; 50 mM Tris, 10 mM NH4Cl, 150
+    ¦ÌM NADH, 1 mM ADP, 2 mM MgCl2, 0.5 mg/ml BSA, 10 U/ml glutamate dehydrogenase
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 63986
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/24461228/
+  pubmed_id: '24461228'
+  doi: null
+name: Merged entry for Q8RUF8 wildtype
+description: 'Merged from 3 files: SABIO_EC3.5.1.3_Arabidopsis_thaliana__Q8RUF8_s_2-Hydroxysuccinamate.yaml,
+  SABIO_EC3.5.1.3_Arabidopsis_thaliana__Q8RUF8_s_2-Oxoglutaramate.yaml, SABIO_EC3.5.1.3_Arabidopsis_thaliana__Q8RUF8_s_2-Oxosuccinamate.yaml'

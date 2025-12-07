@@ -1,0 +1,170 @@
+name: SABIO-RK Entry 37585
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 37585
+created: '2025-10-28T15:03:37.350504'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_3_1_107_Q9ZTK5_Q9ZTK5_p37585
+  name: deacetylvindoline O-acetyltransferase
+  sequence: null
+  ecnumber: 2.3.1.107
+  organism: Catharanthus roseus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9ZTK5; Q9ZTK5
+complexes: null
+small_molecules:
+- id: substrate_Deacetylvindoline
+  name: Deacetylvindoline
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Acetyl-CoA
+  name: Acetyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Vindoline
+  name: Vindoline
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_3056_EC2_3_1_107_Catharanthus_roseus_Q9ZTK5_Q9ZTK5_Deacetylvindoline
+  name: Reaction catalyzed by deacetylvindoline O-acetyltransferase on Deacetylvindoline
+  equation: Acetyl-CoA + Deacetylvindoline = Coenzyme A + Vindoline
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Deacetylvindoline
+  - species_id: substrate_Acetyl-CoA
+  products:
+  - species_id: product_Coenzyme_A
+  - species_id: product_Vindoline
+  modifiers:
+  - species_id: protein_2_3_1_107_Q9ZTK5_Q9ZTK5_p37585
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 24496;24497;24498;24499
+  KEGGid: R03230
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:57287; CHEBI:15346; CHEBI:23355; CHEBI:15351;
+    CHEBI:3771; CHEBI:13295; CHEBI:13294; CHEBI:741566; CHEBI:41597; CHEBI:40470;
+    CHEBI:57288; CHEBI:41631; CHEBI:18362; CHEBI:16380; CHEBI:13712; CHEBI:13298;
+    CHEBI:2408
+
+    KEGG IDs: KEGG:C01091; KEGG:C01626; KEGG:C00010; KEGG:C00024'
+measurements:
+- id: measurement_2_3_1_107_Catharanthus_roseus_Q9ZTK5_Q9ZTK5_Deacetylvindoline
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 2_3_1_107_Catharanthus_roseus_Q9ZTK5_Q9ZTK5_Deacetylvindoline_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.5e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Deacetylvindoline
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2350183'
+- id: 2_3_1_107_Catharanthus_roseus_Q9ZTK5_Q9ZTK5_Deacetylvindoline_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.26e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Deacetylvindoline
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2350183'
+buffer:
+  buffer: 100 mM Hepes, 10 mM Ascorbate
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 37585
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/2350183/
+  pubmed_id: '2350183'
+  doi: null

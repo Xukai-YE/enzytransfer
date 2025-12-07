@@ -1,0 +1,169 @@
+name: SABIO-RK Entry 14554
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 14554
+created: '2025-10-28T14:05:24.718073'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_2_1_84_P13448_P13449_p14554
+  name: nitrile hydratase
+  sequence: null
+  ecnumber: 4.2.1.84
+  organism: Rhodococcus erythropolis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: Q90N
+  uniprotid: P13448; P13449
+  mutant_sequence: MSVTIDHTTENAAPAQAPVSDRAWALFRALDGKGLVPDGYVEGWKKTFEEDFSPRRGAELVARAWTDPEFRQLLLTDGTAAVANYGYLGPQGEYIVAVEDTPTLKNVIVCSLCSCTAWPILGLPPTWYKSFEYRARVVREPRKVLSEMGTEIASDIEIRVYDTTAETRYMVLPQRPAGTEGWSQEQLQEIVTKDCLIGVAIPQVPTV
+  position_offset: -6
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Methacrylonitrile
+  name: Methacrylonitrile
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Methacrylamide
+  name: Methacrylamide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_9691_EC4_2_1_84_Rhodococcus_erythropolis_P13448_P13449_Methacrylonitrile
+  name: Reaction catalyzed by nitrile hydratase on Methacrylonitrile
+  equation: H2O + Methacrylonitrile = Methacrylamide
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Methacrylonitrile
+  products:
+  - species_id: product_Methacrylamide
+  modifiers:
+  - species_id: protein_4_2_1_84_P13448_P13449_p14554
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:41979;
+    CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352;
+    CHEBI:43228; CHEBI:44292; CHEBI:51759; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00001'
+measurements:
+- id: measurement_4_2_1_84_Rhodococcus_erythropolis_P13448_P13449_Methacrylonitrile
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: null
+  temperature_unit: null
+parameters:
+- id: 4_2_1_84_Rhodococcus_erythropolis_P13448_P13449_Methacrylonitrile_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 16500.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Methacrylonitrile
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '16636455'
+- id: 4_2_1_84_Rhodococcus_erythropolis_P13448_P13449_Methacrylonitrile_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 43.33333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Methacrylonitrile
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '16636455'
+- id: 4_2_1_84_Rhodococcus_erythropolis_P13448_P13449_Methacrylonitrile_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0026
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Methacrylonitrile
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '16636455'
+buffer:
+  buffer: 102 mM sodium phosphate
+  buffer_concentration: 102 mM
+references:
+- title: Reference for SABIO-RK entry 14554
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16636455/
+  pubmed_id: '16636455'
+  doi: null

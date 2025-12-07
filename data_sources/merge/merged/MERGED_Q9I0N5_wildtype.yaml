@@ -1,0 +1,271 @@
+version: '2.0'
+created: '2025-11-20T13:39:31.625002'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_13_11__Q9I0N5_p60906
+  name: With incorporation of two atoms of oxygen
+  ecnumber: 1.13.11.
+  organism: Pseudomonas aeruginosa
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9I0N5
+  wildtype_sequence: MSSILRLDRLRQFIGELATLLDSRPDESTLLAQAHPLLAELVHQDDWLPEDCARPDPQRYQQYLLHVDSRQRFSVVSFVWGPGQITPVHDHRVWGLIGMLRGAEYSQPYAFDAGGRPHPSGARRRLEPGEVEALSPRIGDVHQVSNAFSDRTSISIHVYGANIGAVRRAVFSAEGEEKPFISGYSNSRLPNIWDLSKENPA
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_3-Mercaptopropanoate
+  name: 3-Mercaptopropanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3-Sulfinopropanoate
+  name: 3-Sulfinopropanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Cysteine
+  name: Cysteine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Cysteine_sulfinic_acid
+  name: Cysteine sulfinic acid
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_14728_EC1_13_11__Pseudomonas_aeruginosa_Q9I0N5_O2
+  name: Reaction catalyzed by With incorporation of two atoms of oxygen on O2
+  equation: O2 + 3-Mercaptopropanoate = 3-Sulfinopropanoate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_3-Mercaptopropanoate
+  products:
+  - species_id: product_3-Sulfinopropanoate
+  modifiers:
+  - species_id: protein_1_13_11__Q9I0N5_p60906
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:44742; CHEBI:25366; CHEBI:29793; CHEBI:7860;
+    CHEBI:15379; CHEBI:23833; CHEBI:13416; CHEBI:10745; CHEBI:26689; CHEBI:30491
+
+    KEGG IDs: KEGG:C00007; KEGG:C00704'
+- id: sabiork_14729_EC1_13_11__Pseudomonas_aeruginosa_Q9I0N5_O2
+  name: Reaction catalyzed by With incorporation of two atoms of oxygen on O2
+  equation: O2 + Cysteine = Cysteine sulfinic acid
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_Cysteine
+  products:
+  - species_id: product_Cysteine_sulfinic_acid
+  modifiers:
+  - species_id: protein_1_13_11__Q9I0N5_p60907
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:32457; CHEBI:23508; CHEBI:14061; CHEBI:35237;
+    CHEBI:26689; CHEBI:23833; CHEBI:13416; CHEBI:32458; CHEBI:15379; CHEBI:32456;
+    CHEBI:30491; CHEBI:4050; CHEBI:25366; CHEBI:44742; CHEBI:29793; CHEBI:7860; CHEBI:10745;
+    CHEBI:17561; CHEBI:15356
+
+    KEGG IDs: KEGG:C00007; KEGG:C00736; KEGG:C00704'
+measurements:
+- id: measurement_1_13_11__Pseudomonas_aeruginosa_Q9I0N5_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_13_11__Pseudomonas_aeruginosa_Q9I0N5_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_13_11__Pseudomonas_aeruginosa_Q9I0N5_O2_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 100.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26272617'
+- id: 1_13_11__Pseudomonas_aeruginosa_Q9I0N5_O2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.11
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26272617'
+- id: 1_13_11__Pseudomonas_aeruginosa_Q9I0N5_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.001
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26272617'
+- id: 1_13_11__Pseudomonas_aeruginosa_Q9I0N5_O2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.021
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26272617'
+- id: 1_13_11__Pseudomonas_aeruginosa_Q9I0N5_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.008
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26272617'
+- id: 1_13_11__Pseudomonas_aeruginosa_Q9I0N5_O2_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 3.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26272617'
+buffer:
+  buffer: 10 mM Phosphate, 0-20 mM NaCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 60906
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/26272617/
+  pubmed_id: '26272617'
+  doi: null
+name: Merged entry for Q9I0N5 wildtype
+description: 'Merged from 2 files: SABIO_EC1.13.11._Pseudomonas_aeruginosa__Q9I0N5_s_O2.yaml,
+  SABIO_EC1.13.11._Pseudomonas_aeruginosa__Q9I0N5_s_O2_2.yaml'

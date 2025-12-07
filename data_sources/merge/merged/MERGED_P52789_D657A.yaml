@@ -1,0 +1,270 @@
+version: '2.0'
+created: '2025-11-20T13:40:28.152205'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_1_P52789_p75680
+  name: glucokinase
+  ecnumber: 2.7.1.1
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: D657A
+  uniprotid: P52789
+  wildtype_sequence: MIASHLLAYFFTELNHDQVQKVDQYLYHMRLSDETLLEISKRFRKEMEKGLGATTHPTAAVKMLPTFVRSTPDGTEHGEFLALDLGGTNFRVLWVKVTDNGLQKVEMENQIYAIPEDIMRGSGTQLFDHIAECLANFMDKLQIKDKKLPLGFTFSFPCHQTKLDESFLVSWTKGFKSSGVEGRDVVALIRKAIQRRGDFDIDIVAVVNDTVGTMMTCGYDDHNCEIGLIVGTGSNACYMEEMRHIDMVEGDEGRMCINMEWGAFGDDGSLNDIRTEFDQEIDMGSLNPGKQLFEKMISGMYMGELVRLILVKMAKEELLFGGKLSPELLNTGRFETKDISDIEGEKDGIRKAREVLMRLGLDPTQEDCVATHRICQIVSTRSASLCAATLAAVLQRIKENKGEERLRSTIGVDGSVYKKHPHFAKRLHKTVRRLVPGCDVRFLRSEDGSGKGAAMVTAVAYRLADQHRARQKTLEHLQLSHDQLLEVKRRMKVEMERGLSKETHASAPVKMLPTYVCATPDGTEKGDFLALDLGGTNFRVLLVRVRNGKWGGVEMHNKIYAIPQEVMHGTGDELFDHIVQCIADFLEYMGMKGVSLPLGFTFSFPCQQNSLDESILLKWTKGFKASGCEGEDVVTLLKEAIHRREEFDLDVVAVVNDTVGTMMTCGFEDPHCEVGLIVGTGSNACYMEEMRNVELVEGEEGRMCVNMEWGAFGDNGCLDDFRTEFDVAVDELSLNPGKQRFEKMISGMYLGEIVRNILIDFTKRGLLFRGRISERLKTRGIFETKFLSQIESDCLALLQVRAILQHLGLESTCDDSIIVKEVCTVVARRAAQLCGAGMAAVVDRIRENRGLDALKVTVGVDGTLYKLHPHFAKVMHETVKDLAPKCDVSFLQSEDGSGKGAALITAVACRIREAGQR
+  mutant_sequence: MIASHLLAYFFTELNHDQVQKVDQYLYHMRLSDETLLEISKRFRKEMEKGLGATTHPTAAVKMLPTFVRSTPDGTEHGEFLALDLGGTNFRVLWVKVTDNGLQKVEMENQIYAIPEDIMRGSGTQLFDHIAECLANFMDKLQIKDKKLPLGFTFSFPCHQTKLDESFLVSWTKGFKSSGVEGRDVVALIRKAIQRRGDFDIDIVAVVNDTVGTMMTCGYDDHNCEIGLIVGTGSNACYMEEMRHIDMVEGDEGRMCINMEWGAFGDDGSLNDIRTEFDQEIDMGSLNPGKQLFEKMISGMYMGELVRLILVKMAKEELLFGGKLSPELLNTGRFETKDISDIEGEKDGIRKAREVLMRLGLDPTQEDCVATHRICQIVSTRSASLCAATLAAVLQRIKENKGEERLRSTIGVDGSVYKKHPHFAKRLHKTVRRLVPGCDVRFLRSEDGSGKGAAMVTAVAYRLADQHRARQKTLEHLQLSHDQLLEVKRRMKVEMERGLSKETHASAPVKMLPTYVCATPDGTEKGDFLALDLGGTNFRVLLVRVRNGKWGGVEMHNKIYAIPQEVMHGTGDELFDHIVQCIADFLEYMGMKGVSLPLGFTFSFPCQQNSLDESILLKWTKGFKASGCEGEDVVTLLKEAIHRREEFDLDVVAVVNATVGTMMTCGFEDPHCEVGLIVGTGSNACYMEEMRNVELVEGEEGRMCVNMEWGAFGDNGCLDDFRTEFDVAVDELSLNPGKQRFEKMISGMYLGEIVRNILIDFTKRGLLFRGRISERLKTRGIFETKFLSQIESDCLALLQVRAILQHLGLESTCDDSIIVKEVCTVVARRAAQLCGAGMAAVVDRIRENRGLDALKVTVGVDGTLYKLHPHFAKVMHETVKDLAPKCDVSFLQSEDGSGKGAALITAVACRIREAGQR
+complexes: null
+small_molecules:
+- id: substrate_D-Glucose
+  name: D-Glucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Glucose_6-phosphate
+  name: D-Glucose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_793_EC2_7_1_1_Homo_sapiens_P52789_D-Glucose
+  name: Reaction catalyzed by glucokinase on D-Glucose
+  equation: D-Glucose + ATP = ADP + D-Glucose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Glucose
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_D-Glucose_6-phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_1_P52789_p75680
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17825;17826;17827;17828;36495;36496;36497;36498
+  KEGGid: R00299
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:42748; CHEBI:40553; CHEBI:42802; CHEBI:10242; CHEBI:13236; CHEBI:58225;
+    CHEBI:4167; CHEBI:12318; CHEBI:17634; CHEBI:10841; CHEBI:4170; CHEBI:12321; CHEBI:2359;
+    CHEBI:17665; CHEBI:87518; CHEBI:40938; CHEBI:22386; CHEBI:15954; CHEBI:10245;
+    CHEBI:14314; CHEBI:456216; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:22389;
+    CHEBI:13222; CHEBI:22244; CHEBI:40557; CHEBI:17925; CHEBI:88300
+
+    KEGG IDs: KEGG:C00267; KEGG:C00668; KEGG:C00092; KEGG:C00002; KEGG:C00008; KEGG:C00031'
+- id: sabiork_793_EC2_7_1_1_Homo_sapiens_P52789_D-Glucose
+  name: Reaction catalyzed by glucokinase on D-Glucose
+  equation: D-Glucose + ATP = ADP + D-Glucose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Glucose
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_ADP
+  - species_id: product_D-Glucose_6-phosphate
+  modifiers:
+  - species_id: protein_2_7_1_1_P52789_p75681
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17825;17826;17827;17828;36495;36496;36497;36498
+  KEGGid: R00299
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:40553; CHEBI:42748; CHEBI:42802; CHEBI:10242; CHEBI:13236; CHEBI:58225;
+    CHEBI:4167; CHEBI:12318; CHEBI:17634; CHEBI:10841; CHEBI:4170; CHEBI:12321; CHEBI:2359;
+    CHEBI:17665; CHEBI:87518; CHEBI:40938; CHEBI:22386; CHEBI:15954; CHEBI:10245;
+    CHEBI:456216; CHEBI:14314; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:22389;
+    CHEBI:13222; CHEBI:22244; CHEBI:40557; CHEBI:17925; CHEBI:88300
+
+    KEGG IDs: KEGG:C00267; KEGG:C00668; KEGG:C00092; KEGG:C00002; KEGG:C00008; KEGG:C00031'
+measurements:
+- id: measurement_2_7_1_1_Homo_sapiens_P52789_D-Glucose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_7_1_1_Homo_sapiens_P52789_D-Glucose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_1_1_Homo_sapiens_P52789_D-Glucose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 212000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29298880'
+- id: 2_7_1_1_Homo_sapiens_P52789_D-Glucose_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 55.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29298880'
+- id: 2_7_1_1_Homo_sapiens_P52789_D-Glucose_kcat_3
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 53000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29298880'
+- id: 2_7_1_1_Homo_sapiens_P52789_D-Glucose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 70000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29298880'
+- id: 2_7_1_1_Homo_sapiens_P52789_D-Glucose_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 25.9
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29298880'
+- id: 2_7_1_1_Homo_sapiens_P52789_D-Glucose_kcat_3
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 164000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29298880'
+buffer:
+  buffer: 20 mM HEPES, 20 mM MgCl2, 3 mM NAD+, 0.1 U/Î¼l G6PDH
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 75680
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/29298880/
+  pubmed_id: '29298880'
+  doi: null
+name: Merged entry for P52789 D657A
+description: 'Merged from 2 files: SABIO_EC2.7.1.1_Homo_sapiens__P52789_D657A_s_D-Glucose.yaml,
+  SABIO_EC2.7.1.1_Homo_sapiens__P52789_D657A_s_D-Glucose_2.yaml'

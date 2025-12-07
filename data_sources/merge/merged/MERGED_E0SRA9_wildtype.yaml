@@ -1,0 +1,528 @@
+version: '2.0'
+created: '2025-11-20T13:39:22.080154'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_383_E0SRA9_p61357
+  name: ketol-acid reductoisomerase [NAD(P)+]
+  ecnumber: 1.1.1.383
+  organism: Ignisphaera aggregans
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: E0SRA9
+  wildtype_sequence: MAKIYKDEDISLEPIKNKTIAILGYGSQGRAWALNLRDSGLNVVVGLERQGDSWRRAIDDGFKPMYTKDAVAIADIIVFLVPDMVQKSLWLNSVKDFMKKGADLVFAHGFNIHFKIIEPPKDSDVYMIAPKSPGPIVRRSYEMGGGVPALVAVYQNVSGEALQKALAIAKGIGCARAGVIESTFKEETETDLFGEQVILVGGIMELIKASFETLVEEGYQPEVAYFETVNELKLIVDLIYEKGLTGMLRAVSDTAKYGGITVGKFIIDKSVRDKMKIVLERIRSGEFAREWIKEYERGMPTVFKELSELEGSTIETVGRKLREMMFRGMKQISSH
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate__S_-2-Acetolactate
+  name: (S)-2-Acetolactate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product__R_-2
+  name: (R)-2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3-Dihydroxy-3-methylbutanoate
+  name: 3-Dihydroxy-3-methylbutanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_14799_EC1_1_1_383_Ignisphaera_aggregans_E0SRA9_NADH
+  name: Reaction catalyzed by ketol-acid reductoisomerase [NAD(P)+] on NADH
+  equation: NADH + H+ + (S)-2-Acetolactate = NAD+ + (R)-2,3-Dihydroxy-3-methylbutanoate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  - species_id: substrate__S_-2-Acetolactate
+  products:
+  - species_id: product__R_-2
+  - species_id: product_3-Dihydroxy-3-methylbutanoate
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_1_1_383_E0SRA9_p61357
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:10966; CHEBI:11424; CHEBI:44281; CHEBI:13393; CHEBI:29234;
+    CHEBI:15684; CHEBI:18645; CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:13396;
+    CHEBI:21901; CHEBI:24636; CHEBI:15689; CHEBI:44214; CHEBI:29233; CHEBI:5584; CHEBI:13394;
+    CHEBI:57945; CHEBI:44216; CHEBI:18409; CHEBI:57540; CHEBI:7423; CHEBI:13389; CHEBI:13395;
+    CHEBI:15378; CHEBI:881; CHEBI:305; CHEBI:10744; CHEBI:44215; CHEBI:49072; CHEBI:7422;
+    CHEBI:16908
+
+    KEGG IDs: KEGG:C04039; KEGG:C00080; KEGG:C06010; KEGG:C00003; KEGG:C00004; KEGG:C04272'
+- id: sabiork_14799_EC1_1_1_383_Ignisphaera_aggregans_E0SRA9_NADH
+  name: Reaction catalyzed by ketol-acid reductoisomerase [NAD(P)+] on NADH
+  equation: NADH + H+ + (S)-2-Acetolactate = NAD+ + (R)-2,3-Dihydroxy-3-methylbutanoate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  - species_id: substrate__S_-2-Acetolactate
+  products:
+  - species_id: product__R_-2
+  - species_id: product_3-Dihydroxy-3-methylbutanoate
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_1_1_383_E0SRA9_p61360
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:10966; CHEBI:11424; CHEBI:44281; CHEBI:13393; CHEBI:29234;
+    CHEBI:15684; CHEBI:18645; CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:13396;
+    CHEBI:21901; CHEBI:24636; CHEBI:15689; CHEBI:44214; CHEBI:29233; CHEBI:5584; CHEBI:13394;
+    CHEBI:57945; CHEBI:44216; CHEBI:18409; CHEBI:57540; CHEBI:7423; CHEBI:13389; CHEBI:13395;
+    CHEBI:15378; CHEBI:881; CHEBI:305; CHEBI:10744; CHEBI:44215; CHEBI:49072; CHEBI:7422;
+    CHEBI:16908
+
+    KEGG IDs: KEGG:C04039; KEGG:C00080; KEGG:C06010; KEGG:C00003; KEGG:C00004; KEGG:C04272'
+- id: sabiork_4125_EC1_1_1_383_Ignisphaera_aggregans_E0SRA9_NADPH
+  name: Reaction catalyzed by ketol-acid reductoisomerase [NAD(P)+] on NADPH
+  equation: NADP+ + (R)-2,3-Dihydroxy-3-methylbutanoate = NADPH + (S)-2-Acetolactate
+    + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate__S_-2-Acetolactate
+  products:
+  - species_id: product__R_-2
+  - species_id: product_3-Dihydroxy-3-methylbutanoate
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_1_1_383_E0SRA9_p61358
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R04439
+  notes: 'ChEBI IDs: CHEBI:10966; CHEBI:11424; CHEBI:13397; CHEBI:13398; CHEBI:7424;
+    CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:15684; CHEBI:18645; CHEBI:13357;
+    CHEBI:25523; CHEBI:24636; CHEBI:15689; CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:18409;
+    CHEBI:16474; CHEBI:44286; CHEBI:21904; CHEBI:44409; CHEBI:15378; CHEBI:881; CHEBI:18009;
+    CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:305; CHEBI:10744; CHEBI:49072
+
+    KEGG IDs: KEGG:C04039; KEGG:C00005; KEGG:C00080; KEGG:C06010; KEGG:C00006; KEGG:C11037;
+    KEGG:C04272'
+- id: sabiork_4125_EC1_1_1_383_Ignisphaera_aggregans_E0SRA9_NADPH
+  name: Reaction catalyzed by ketol-acid reductoisomerase [NAD(P)+] on NADPH
+  equation: NADP+ + (R)-2,3-Dihydroxy-3-methylbutanoate = NADPH + (S)-2-Acetolactate
+    + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate__S_-2-Acetolactate
+  products:
+  - species_id: product_NADP_
+  - species_id: product__R_-2
+  - species_id: product_3-Dihydroxy-3-methylbutanoate
+  modifiers:
+  - species_id: protein_1_1_1_383_E0SRA9_p61359
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R04439
+  notes: 'ChEBI IDs: CHEBI:10966; CHEBI:11424; CHEBI:13397; CHEBI:13398; CHEBI:7424;
+    CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:15684; CHEBI:18645; CHEBI:13357;
+    CHEBI:25523; CHEBI:24636; CHEBI:15689; CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:18409;
+    CHEBI:16474; CHEBI:44286; CHEBI:21904; CHEBI:44409; CHEBI:15378; CHEBI:881; CHEBI:18009;
+    CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:305; CHEBI:10744; CHEBI:49072
+
+    KEGG IDs: KEGG:C04039; KEGG:C00005; KEGG:C00080; KEGG:C06010; KEGG:C00006; KEGG:C11037;
+    KEGG:C04272'
+- id: sabiork_14799_EC1_1_1_383_Ignisphaera_aggregans_E0SRA9__S_-2-Acetolactate
+  name: Reaction catalyzed by ketol-acid reductoisomerase [NAD(P)+] on (S)-2-Acetolactate
+  equation: NADH + H+ + (S)-2-Acetolactate = NAD+ + (R)-2,3-Dihydroxy-3-methylbutanoate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate__S_-2-Acetolactate
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_NAD_
+  - species_id: product__R_-2
+  - species_id: product_3-Dihydroxy-3-methylbutanoate
+  modifiers:
+  - species_id: protein_1_1_1_383_E0SRA9_p61361
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:10966; CHEBI:11424; CHEBI:44281; CHEBI:13393; CHEBI:29234;
+    CHEBI:15684; CHEBI:15846; CHEBI:18645; CHEBI:13357; CHEBI:21902; CHEBI:13396;
+    CHEBI:21901; CHEBI:24636; CHEBI:15689; CHEBI:44214; CHEBI:29233; CHEBI:5584; CHEBI:13394;
+    CHEBI:57945; CHEBI:44216; CHEBI:18409; CHEBI:57540; CHEBI:7423; CHEBI:13389; CHEBI:13395;
+    CHEBI:15378; CHEBI:881; CHEBI:305; CHEBI:10744; CHEBI:44215; CHEBI:49072; CHEBI:7422;
+    CHEBI:16908
+
+    KEGG IDs: KEGG:C04039; KEGG:C00080; KEGG:C06010; KEGG:C00003; KEGG:C00004; KEGG:C04272'
+- id: sabiork_4125_EC1_1_1_383_Ignisphaera_aggregans_E0SRA9__S_-2-Acetolactate
+  name: Reaction catalyzed by ketol-acid reductoisomerase [NAD(P)+] on (S)-2-Acetolactate
+  equation: NADP+ + (R)-2,3-Dihydroxy-3-methylbutanoate = NADPH + (S)-2-Acetolactate
+    + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate__S_-2-Acetolactate
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_NADP_
+  - species_id: product__R_-2
+  - species_id: product_3-Dihydroxy-3-methylbutanoate
+  modifiers:
+  - species_id: protein_1_1_1_383_E0SRA9_p61356
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R04439
+  notes: 'ChEBI IDs: CHEBI:10966; CHEBI:11424; CHEBI:13397; CHEBI:13398; CHEBI:7424;
+    CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:15684; CHEBI:18645; CHEBI:13357;
+    CHEBI:25523; CHEBI:24636; CHEBI:15689; CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:18409;
+    CHEBI:16474; CHEBI:44286; CHEBI:21904; CHEBI:44409; CHEBI:15378; CHEBI:881; CHEBI:18009;
+    CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:305; CHEBI:10744; CHEBI:49072
+
+    KEGG IDs: KEGG:C04039; KEGG:C00005; KEGG:C00080; KEGG:C06010; KEGG:C00006; KEGG:C11037;
+    KEGG:C04272'
+measurements:
+- id: measurement_1_1_1_383_Ignisphaera_aggregans_E0SRA9_NADH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_1_1_383_Ignisphaera_aggregans_E0SRA9_NADH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_1_1_383_Ignisphaera_aggregans_E0SRA9_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_1_1_383_Ignisphaera_aggregans_E0SRA9_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_1_1_383_Ignisphaera_aggregans_E0SRA9__S_-2-Acetolactate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_1_1_383_Ignisphaera_aggregans_E0SRA9__S_-2-Acetolactate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1_383_Ignisphaera_aggregans_E0SRA9_NADH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2.6
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26644020'
+- id: 1_1_1_383_Ignisphaera_aggregans_E0SRA9_NADH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.7
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26644020'
+- id: 1_1_1_383_Ignisphaera_aggregans_E0SRA9_NADPH_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 3000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26644020'
+- id: 1_1_1_383_Ignisphaera_aggregans_E0SRA9_NADPH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 3.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26644020'
+- id: 1_1_1_383_Ignisphaera_aggregans_E0SRA9_NADPH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.001
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26644020'
+- id: 1_1_1_383_Ignisphaera_aggregans_E0SRA9_NADPH_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 2000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26644020'
+- id: 1_1_1_383_Ignisphaera_aggregans_E0SRA9_NADPH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0005
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26644020'
+- id: 1_1_1_383_Ignisphaera_aggregans_E0SRA9_NADPH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26644020'
+- id: 1_1_1_383_Ignisphaera_aggregans_E0SRA9__S_-2-Acetolactate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.8
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__S_-2-Acetolactate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26644020'
+- id: 1_1_1_383_Ignisphaera_aggregans_E0SRA9__S_-2-Acetolactate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1100.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__S_-2-Acetolactate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26644020'
+- id: 1_1_1_383_Ignisphaera_aggregans_E0SRA9__S_-2-Acetolactate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 3.3
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__S_-2-Acetolactate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26644020'
+- id: 1_1_1_383_Ignisphaera_aggregans_E0SRA9__S_-2-Acetolactate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0031
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__S_-2-Acetolactate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26644020'
+buffer:
+  buffer: 100 mM potassium phosphate, 10 mM MgCl2
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 61357
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/26644020/
+  pubmed_id: '26644020'
+  doi: null
+name: Merged entry for E0SRA9 wildtype
+description: 'Merged from 6 files: SABIO_EC1.1.1.383_Ignisphaera_aggregans__E0SRA9_s_NADH.yaml,
+  SABIO_EC1.1.1.383_Ignisphaera_aggregans__E0SRA9_s_NADH_2.yaml, SABIO_EC1.1.1.383_Ignisphaera_aggregans__E0SRA9_s_NADPH.yaml,
+  SABIO_EC1.1.1.383_Ignisphaera_aggregans__E0SRA9_s_NADPH_2.yaml, SABIO_EC1.1.1.383_Ignisphaera_aggregans__E0SRA9_s__S_-2-Acetolactate_2.yaml,
+  SABIO_EC1.1.1.383_Ignisphaera_aggregans__E0SRA9_s__S_-2-Acetolactate.yaml'

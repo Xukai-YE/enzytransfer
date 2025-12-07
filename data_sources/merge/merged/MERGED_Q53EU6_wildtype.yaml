@@ -1,0 +1,266 @@
+version: '2.0'
+created: '2025-11-20T13:40:05.043975'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_3_1_51_Q53EU6_p62216
+  name: 1-acylglycerol-3-phosphate O-acyltransferase
+  ecnumber: 2.3.1.51
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q53EU6
+  wildtype_sequence: MEGAELAGKILSTWLTLVLGFILLPSVFGVSLGISEIYMKILVKTLEWATIRIEKGTPKESILKNSASVGIIQRDESPMEKGLSGLRGRDFELSDVFYFSKKGLEAIVEDEVTQRFSSEELVSWNLLTRTNVNFQYISLRLTMVWVLGVIVRYCVLLPLRVTLAFIGISLLVIGTTLVGQLPDSSLKNWLSELVHLTCCRICVRALSGTIHYHNKQYRPQKGGICVANHTSPIDVLILTTDGCYAMVGQVHGGLMGIIQRAMVKACPHVWFERSEMKDRHLVTKRLKEHIADKKKLPILIFPEGTCINNTSVMMFKKGSFEIGGTIHPVAIKYNPQFGDAFWNSSKYNMVSYLLRMMTSWAIVCDVWYMPPMTREEGEDAVQFANRVKSAIAIQGGLTELPWDGGLKRAKVKDIFKEEQQKNYSKMIVGNGSLS
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_1-Oleoyl-lysophosphatidate
+  name: 1-Oleoyl-lysophosphatidate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Oleoyl-CoA
+  name: Oleoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Dioleoyl_phosphatidic_acid
+  name: Dioleoyl phosphatidic acid
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_14856_EC2_3_1_51_Homo_sapiens_Q53EU6_1-Oleoyl-lysophosphatidate
+  name: Reaction catalyzed by 1-acylglycerol-3-phosphate O-acyltransferase on 1-Oleoyl-lysophosphatidate
+  equation: Oleoyl-CoA + 1-Oleoyl-lysophosphatidate = Coenzyme A + Dioleoyl phosphatidic
+    acid
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_1-Oleoyl-lysophosphatidate
+  - species_id: substrate_Oleoyl-CoA
+  products:
+  - species_id: product_Dioleoyl_phosphatidic_acid
+  - species_id: product_Coenzyme_A
+  modifiers:
+  - species_id: protein_2_3_1_51_Q53EU6_p62216
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:57287; CHEBI:15346; CHEBI:23355; CHEBI:3771; CHEBI:13295;
+    CHEBI:77537; CHEBI:13294; CHEBI:15534; CHEBI:741566; CHEBI:78146; CHEBI:41597;
+    CHEBI:60427; CHEBI:41631; CHEBI:62837; CHEBI:13298
+
+    KEGG IDs: KEGG:C00510; KEGG:C00010'
+- id: sabiork_14856_EC2_3_1_51_Homo_sapiens_Q53EU6_Oleoyl-CoA
+  name: Reaction catalyzed by 1-acylglycerol-3-phosphate O-acyltransferase on Oleoyl-CoA
+  equation: Oleoyl-CoA + 1-Oleoyl-lysophosphatidate = Coenzyme A + Dioleoyl phosphatidic
+    acid
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oleoyl-CoA
+  - species_id: substrate_1-Oleoyl-lysophosphatidate
+  products:
+  - species_id: product_Coenzyme_A
+  - species_id: product_Dioleoyl_phosphatidic_acid
+  modifiers:
+  - species_id: protein_2_3_1_51_Q53EU6_p62215
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:57287; CHEBI:15346; CHEBI:23355; CHEBI:3771; CHEBI:13295;
+    CHEBI:77537; CHEBI:13294; CHEBI:15534; CHEBI:741566; CHEBI:78146; CHEBI:41597;
+    CHEBI:60427; CHEBI:41631; CHEBI:62837; CHEBI:13298
+
+    KEGG IDs: KEGG:C00510; KEGG:C00010'
+measurements:
+- id: measurement_2_3_1_51_Homo_sapiens_Q53EU6_1-Oleoyl-lysophosphatidate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_3_1_51_Homo_sapiens_Q53EU6_Oleoyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_3_1_51_Homo_sapiens_Q53EU6_1-Oleoyl-lysophosphatidate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.025
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1-Oleoyl-lysophosphatidate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19318427'
+- id: 2_3_1_51_Homo_sapiens_Q53EU6_1-Oleoyl-lysophosphatidate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.365e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1-Oleoyl-lysophosphatidate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19318427'
+- id: 2_3_1_51_Homo_sapiens_Q53EU6_1-Oleoyl-lysophosphatidate_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 9.2e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1-Oleoyl-lysophosphatidate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19318427'
+- id: 2_3_1_51_Homo_sapiens_Q53EU6_Oleoyl-CoA_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.0e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oleoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19318427'
+- id: 2_3_1_51_Homo_sapiens_Q53EU6_Oleoyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.7e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oleoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19318427'
+- id: 2_3_1_51_Homo_sapiens_Q53EU6_Oleoyl-CoA_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.3666667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oleoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19318427'
+buffer:
+  buffer: 100 mM Tris-HCl, 1 mg/ml BSA (fatty acid free)
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 62216
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/19318427/
+  pubmed_id: '19318427'
+  doi: null
+name: Merged entry for Q53EU6 wildtype
+description: 'Merged from 2 files: SABIO_EC2.3.1.51_Homo_sapiens__Q53EU6_s_1-Oleoyl-lysophospha.yaml,
+  SABIO_EC2.3.1.51_Homo_sapiens__Q53EU6_s_Oleoyl-CoA.yaml'

@@ -1,0 +1,198 @@
+version: '2.0'
+created: '2025-11-20T13:40:12.333127'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_4_1__A5Z2X3_p67328
+  name: Hexosyltransferases
+  ecnumber: 2.4.1.
+  organism: Caenorhabditis elegans
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: A5Z2X3
+  wildtype_sequence: MRYNSNYLMYFCLVLGIFANIYVIIKITLGSSHILEYFQKNSNLSPKCEINVNNLLSFIENRHFLDLEQKNSQKSQPNYEKTLQLMLFAFPSGGLGNKLFEIISLHGIATSLQRKAVINATNPSFIETLNRNIQPLFPKLADQFTLRIIPDSLVTHQQTNWGRCCVYDDPSRFLNRSDQNLILDGHYFQSFKYFHHIRPQVREWLAPSKLQAMRAEILLPAKFRDDFLICTHVRRGDFQYDGLHRPSDATFTRAATDFLVDLYRKSHERVNVVVLGNDIHFAYTVFEDRVAHFTFLQKPVNNSYDYSLPQISPSYTAILTPTLTPEIDLAFSRLFCDVTLITAPSSTFGWWLSYLAKRTATTYYRDILESKDGVAGEMHPEDFYPPEWIKLKTDLNGKISKY
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_GDP-fucose
+  name: GDP-fucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Gal-beta1-3-GalNAc-alpha-O-p-nitrophenol
+  name: Gal-beta1-3-GalNAc-alpha-O-p-nitrophenol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_GDP
+  name: GDP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Fuc-alpha1-2-Gal-beta1-3-GalNAc-alpha-O-p-nitrophenol
+  name: Fuc-alpha1-2-Gal-beta1-3-GalNAc-alpha-O-p-nitrophenol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_15531_EC2_4_1__Caenorhabditis_elegans_A5Z2X3_GDP-fucose
+  name: Reaction catalyzed by Hexosyltransferases on GDP-fucose
+  equation: GDP-fucose + Gal-beta1-3-GalNAc-alpha-O-p-nitrophenol = GDP + Fuc-alpha1-2-Gal-beta1-3-GalNAc-alpha-O-p-nitrophenol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_GDP-fucose
+  - species_id: substrate_Gal-beta1-3-GalNAc-alpha-O-p-nitrophenol
+  products:
+  - species_id: product_GDP
+  - species_id: product_Fuc-alpha1-2-Gal-beta1-3-GalNAc-alpha-O-p-nitrophenol
+  modifiers:
+  - species_id: protein_2_4_1__A5Z2X3_p67328
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:65180; CHEBI:24448; CHEBI:58189; CHEBI:13327; CHEBI:14379;
+    CHEBI:17552; CHEBI:5212; CHEBI:42738
+
+    KEGG IDs: KEGG:C00035'
+- id: sabiork_15531_EC2_4_1__Caenorhabditis_elegans_A5Z2X3_Gal-beta1-3-GalNAc-alpha-O-p-nitrophenol
+  name: Reaction catalyzed by Hexosyltransferases on Gal-beta1-3-GalNAc-alpha-O-p-nitrophenol
+  equation: GDP-fucose + Gal-beta1-3-GalNAc-alpha-O-p-nitrophenol = GDP + Fuc-alpha1-2-Gal-beta1-3-GalNAc-alpha-O-p-nitrophenol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Gal-beta1-3-GalNAc-alpha-O-p-nitrophenol
+  - species_id: substrate_GDP-fucose
+  products:
+  - species_id: product_GDP
+  - species_id: product_Fuc-alpha1-2-Gal-beta1-3-GalNAc-alpha-O-p-nitrophenol
+  modifiers:
+  - species_id: protein_2_4_1__A5Z2X3_p67327
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:65180; CHEBI:24448; CHEBI:58189; CHEBI:13327; CHEBI:14379;
+    CHEBI:17552; CHEBI:5212; CHEBI:42738
+
+    KEGG IDs: KEGG:C00035'
+measurements:
+- id: measurement_2_4_1__Caenorhabditis_elegans_A5Z2X3_GDP-fucose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_4_1__Caenorhabditis_elegans_A5Z2X3_Gal-beta1-3-GalNAc-alpha-O-p-nitrophenol
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_4_1__Caenorhabditis_elegans_A5Z2X3_GDP-fucose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.001
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_GDP-fucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18252778'
+- id: 2_4_1__Caenorhabditis_elegans_A5Z2X3_Gal-beta1-3-GalNAc-alpha-O-p-nitrophenol_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00061
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Gal-beta1-3-GalNAc-alpha-O-p-nitrophenol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18252778'
+buffer:
+  buffer: 100 mM sodium cacodylate, 20 mM MnCl2, 5 mM ATP, 15 mM fucose
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 67328
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/18252778/
+  pubmed_id: '18252778'
+  doi: null
+name: Merged entry for A5Z2X3 wildtype
+description: 'Merged from 2 files: SABIO_EC2.4.1._Caenorhabditis_elegans__A5Z2X3_s_GDP-fucose.yaml,
+  SABIO_EC2.4.1._Caenorhabditis_elegans__A5Z2X3_s_Gal-beta1-3-GalNAc-a.yaml'

@@ -1,0 +1,181 @@
+name: SABIO-RK Entry 49912
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 49912
+created: '2025-10-28T15:49:33.613017'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_4_21_42_P09871_p49912
+  name: complement subcomponent C_overbar_1s_
+  sequence: null
+  ecnumber: 3.4.21.42
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: C1s
+  uniprotid: P09871
+  mutant_sequence: MWSIVLFSLLAWVYAEPTMYGEILSPNYPQAYPSEVEKSWDIEVPEGYGIHLYFTHLDIELSENCAYDSVQIISGDTEEGRLCGQRSSNNPHSPIVEEFQVPYNKLQVIFKSDFSNEERFTGFAAYYVATDINECTDFVDVPCSHFCNNFIGGYFCSCPPEYFLHDDMKNCGVNCSGDVFTALIGEIASPNYPKPYPENSRCEYQIRLEKGFQVVVTLRREDFDVEAADSAGNCLDSLVFVAGDRQFGPYCGHGFPGPLNIETKSNALDIIFQTDLTGQKKGWKLRYHGDPMPCPKEDTPNSVWEPAKAKYVFRDVVQITCLDGFEVVEGRVGATSFYSTCQSNGKWSNSKLKCQPVDCGIPESIENGKVEDPESTLFGSVIRYTCEEPYYYMENGGGGEYHCAGNGSWVNEVLGPELPKCVPVCGVPREPFEEKQRIIGGSDADIKNFPWQVFFDNPWAGGALINEYWVLTAAHVVEGNREPTMYVGSTSVQTSRLAKSKMLTPEHVFIHPGWKLLEVPEGRTNFDNDIALVRLKDPVKMGPTVSPICLPGTSSDYNLMDGDLGLISGWGRTEKRDRAVRLKAARLPVAPLRKCKEVKVEKPTADAEAYVFTPNMICAGGEKGMDSCKGDSGGAFAVQDPNDKTKFYAAGLVSWGPQCGTYGLYTRVKNYVDWIMKTMQENSTPRED
+  position_offset: 2
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Complement_component_C4
+  name: Complement component C4
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Complement_component_C4b
+  name: Complement component C4b
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Complement_component_C4a
+  name: Complement component C4a
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_13479_EC3_4_21_42_Homo_sapiens_P09871_Complement_component_C4
+  name: Reaction catalyzed by complement subcomponent C_overbar_1s_ on Complement
+    component C4
+  equation: H2O + Complement component C4 = Complement component C4b + Complement
+    component C4a
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Complement_component_C4
+  products:
+  - species_id: product_Complement_component_C4b
+  - species_id: product_Complement_component_C4a
+  modifiers:
+  - species_id: protein_3_4_21_42_P09871_p49912
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:41979;
+    CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352;
+    CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C01129; KEGG:C00001; KEGG:C03381; KEGG:C03490'
+measurements:
+- id: measurement_3_4_21_42_Homo_sapiens_P09871_Complement_component_C4
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 3_4_21_42_Homo_sapiens_P09871_Complement_component_C4_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.92e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Complement_component_C4
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11527969'
+- id: 3_4_21_42_Homo_sapiens_P09871_Complement_component_C4_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 2450000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Complement_component_C4
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11527969'
+- id: 3_4_21_42_Homo_sapiens_P09871_Complement_component_C4_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 4.7
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Complement_component_C4
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11527969'
+buffer:
+  buffer: 150 mM NaCl, 5 mM EDTA, 20 mM sodium phosphate.
+  buffer_concentration: 150 mM
+references:
+- title: Reference for SABIO-RK entry 49912
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11527969/
+  pubmed_id: '11527969'
+  doi: null

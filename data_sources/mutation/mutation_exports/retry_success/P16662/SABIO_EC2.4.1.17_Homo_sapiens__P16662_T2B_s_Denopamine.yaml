@@ -1,0 +1,142 @@
+name: SABIO-RK Entry 33971
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 33971
+created: '2025-10-28T14:50:57.590739'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_4_1_17_P16662_p33971
+  name: glucuronosyltransferase
+  ecnumber: 2.4.1.17
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: T2B
+  uniprotid: P16662
+  wildtype_sequence: MSVKWTSVILLIQLSFCFSSGNCGKVLVWAAEYSHWMNIKTILDELIQRGHEVTVLASSASILFDPNNSSALKIEIYPTSLTKTELENFIMQQIKRWSDLPKDTFWLYFSQVQEIMSIFGDITRKFCKDVVSNKKFMKKVQESRFDVIFADAIFPCSELLAELFNIPFVYSLSFSPGYTFEKHSGGFIFPPSYVPVVMSELTDQMTFMERVKNMIYVLYFDFWFEIFDMKKWDQFYSEVLGRPTTLSETMGKADVWLIRNSWNFQFPYPLLPNVDFVGGLHCKPAKPLPKEMEDFVQSSGENGVVVFSLGSMVSNMTEERANVIASALAQIPQKVLWRFDGNKPDTLGLNTRLYKWIPQNDLLGHPKTRAFITHGGANGIYEAIYHGIPMVGIPLFADQPDNIAHMKARGAAVRVDFNTMSSTDLLNALKRVINDPSYKENVMKLSRIQHDQPVKPLDRAVFWIEFVMRHKGAKHLRVAAHDLTWFQYHSLDVIGFLLVCVATVIFIVTKCCLFCFWKFARKAKKGKND
+  mutant_sequence: MSVKWBSVILLIQLSFCFSSGNCGKVLVWAAEYSHWMNIKTILDELIQRGHEVTVLASSASILFDPNNSSALKIEIYPTSLTKTELENFIMQQIKRWSDLPKDTFWLYFSQVQEIMSIFGDITRKFCKDVVSNKKFMKKVQESRFDVIFADAIFPCSELLAELFNIPFVYSLSFSPGYTFEKHSGGFIFPPSYVPVVMSELTDQMTFMERVKNMIYVLYFDFWFEIFDMKKWDQFYSEVLGRPTTLSETMGKADVWLIRNSWNFQFPYPLLPNVDFVGGLHCKPAKPLPKEMEDFVQSSGENGVVVFSLGSMVSNMTEERANVIASALAQIPQKVLWRFDGNKPDTLGLNTRLYKWIPQNDLLGHPKTRAFITHGGANGIYEAIYHGIPMVGIPLFADQPDNIAHMKARGAAVRVDFNTMSSTDLLNALKRVINDPSYKENVMKLSRIQHDQPVKPLDRAVFWIEFVMRHKGAKHLRVAAHDLTWFQYHSLDVIGFLLVCVATVIFIVTKCCLFCFWKFARKAKKGKND
+  position_offset: 4
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Denopamine
+  name: Denopamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_UDPglucuronate
+  name: UDPglucuronate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Denopamine_beta-D-glucuronide
+  name: Denopamine beta-D-glucuronide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_UDP
+  name: UDP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Diclofenac
+  name: Diclofenac
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_11580_EC2_4_1_17_Homo_sapiens_P16662_Denopamine
+  name: Reaction catalyzed by glucuronosyltransferase on Denopamine
+  equation: UDPglucuronate + Denopamine = UDP + Denopamine beta-D-glucuronide
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Denopamine
+  - species_id: substrate_UDPglucuronate
+  products:
+  - species_id: product_Denopamine_beta-D-glucuronide
+  - species_id: product_UDP
+  modifiers:
+  - species_id: protein_2_4_1_17_P16662_p33971
+    role: BIOCATALYST
+  - species_id: activator_Diclofenac
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:47380; CHEBI:27230; CHEBI:58223; CHEBI:13445; CHEBI:17200;
+    CHEBI:46402; CHEBI:135359; CHEBI:9846; CHEBI:13506; CHEBI:48311; CHEBI:4507; CHEBI:58052;
+    CHEBI:17659; CHEBI:9802; CHEBI:47381; CHEBI:22104; CHEBI:13489; CHEBI:46309
+
+    KEGG IDs: KEGG:C00015; KEGG:C01690; KEGG:C00167'
+measurements:
+- id: measurement_2_4_1_17_Homo_sapiens_P16662_Denopamine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 50 mM Tris-HCl, 8 mM MgCl2, 25 ¦Ìg/ml Alamethicin
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 33971
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15608137/
+  pubmed_id: '15608137'
+  doi: null

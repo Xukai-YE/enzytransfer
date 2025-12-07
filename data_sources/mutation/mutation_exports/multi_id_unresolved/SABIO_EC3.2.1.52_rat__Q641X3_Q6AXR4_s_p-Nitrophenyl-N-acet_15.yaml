@@ -1,0 +1,161 @@
+name: SABIO-RK Entry 16472
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 16472
+created: '2025-10-28T14:09:14.262894'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_2_1_52_Q641X3_Q6AXR4_p16472
+  name: beta-N-acetylhexosaminidase
+  sequence: null
+  ecnumber: 3.2.1.52
+  organism: rat
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q641X3; Q6AXR4
+complexes: null
+small_molecules:
+- id: substrate_p-Nitrophenyl-N-acetyl-beta-D-glucosaminide
+  name: p-Nitrophenyl-N-acetyl-beta-D-glucosaminide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N-Acetyl-beta-D-glucosamine
+  name: N-Acetyl-beta-D-glucosamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_p-Nitrophenol
+  name: p-Nitrophenol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_9856_EC3_2_1_52_rat_Q641X3_Q6AXR4_p-Nitrophenyl-N-acetyl-beta-D-glucosaminide
+  name: Reaction catalyzed by beta-N-acetylhexosaminidase on p-Nitrophenyl-N-acetyl-beta-D-glucosaminide
+  equation: p-Nitrophenyl-N-acetyl-beta-D-glucosaminide + H2O = p-Nitrophenol + N-Acetyl-beta-D-glucosamine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_p-Nitrophenyl-N-acetyl-beta-D-glucosaminide
+  products:
+  - species_id: product_N-Acetyl-beta-D-glucosamine
+  - species_id: product_p-Nitrophenol
+  modifiers:
+  - species_id: protein_3_2_1_52_Q641X3_Q6AXR4_p16472
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:20457; CHEBI:44390;
+    CHEBI:44166; CHEBI:42857; CHEBI:16836; CHEBI:41979; CHEBI:7140; CHEBI:12034; CHEBI:42043;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:21579;
+    CHEBI:43228; CHEBI:44292; CHEBI:57917; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:28009; CHEBI:7169; CHEBI:1913; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C03878; KEGG:C00001; KEGG:C00870'
+measurements:
+- id: measurement_3_2_1_52_rat_Q641X3_Q6AXR4_p-Nitrophenyl-N-acetyl-beta-D-glucosaminide
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 4.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 3_2_1_52_rat_Q641X3_Q6AXR4_p-Nitrophenyl-N-acetyl-beta-D-glucosaminide_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00043
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_p-Nitrophenyl-N-acetyl-beta-D-glucosaminide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 4.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1499277'
+- id: 3_2_1_52_rat_Q641X3_Q6AXR4_p-Nitrophenyl-N-acetyl-beta-D-glucosaminide_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 1.340027e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_p-Nitrophenyl-N-acetyl-beta-D-glucosaminide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 4.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1499277'
+buffer:
+  buffer: 0.1 M sodium citrate/citric acid
+  buffer_concentration: 0.1 M
+references:
+- title: Reference for SABIO-RK entry 16472
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/1499277/
+  pubmed_id: '1499277'
+  doi: null

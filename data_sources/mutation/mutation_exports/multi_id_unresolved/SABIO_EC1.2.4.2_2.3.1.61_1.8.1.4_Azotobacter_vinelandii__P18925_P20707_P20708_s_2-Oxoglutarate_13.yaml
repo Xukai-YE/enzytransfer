@@ -1,0 +1,155 @@
+name: SABIO-RK Entry 11942
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 11942
+created: '2025-10-28T13:59:58.282334'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_2_4_2; 2_3_1_61; 1_8_1_4_P18925_P20707_P20708_p11942
+  name: dihydrolipoyl dehydrogenase
+  sequence: null
+  ecnumber: 1.2.4.2; 2.3.1.61; 1.8.1.4
+  organism: Azotobacter vinelandii
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P18925; P20707; P20708
+complexes: null
+small_molecules:
+- id: substrate_2-Oxoglutarate
+  name: 2-Oxoglutarate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Hexacyanoferrate_III_
+  name: Hexacyanoferrate(III)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Succinate
+  name: Succinate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Hexacyanoferrate_II_
+  name: Hexacyanoferrate(II)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_3-Oxoglutarate
+  name: 3-Oxoglutarate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_8165_EC1_2_4_2; 2_3_1_61; 1_8_1_4_Azotobacter_vinelandii_P18925_P20707_P20708_2-Oxoglutarate
+  name: Reaction catalyzed by dihydrolipoyl dehydrogenase on 2-Oxoglutarate
+  equation: Hexacyanoferrate(III) + 2-Oxoglutarate + H2O = Succinate + Hexacyanoferrate(II)
+    + CO2
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2-Oxoglutarate
+  - species_id: substrate_Hexacyanoferrate_III_
+  products:
+  - species_id: product_CO2
+  - species_id: product_Succinate
+  - species_id: product_Hexacyanoferrate_II_
+  modifiers:
+  - species_id: protein_1_2_4_2; 2_3_1_61; 1_8_1_4_P18925_P20707_P20708_p11942
+    role: BIOCATALYST
+  - species_id: activator_3-Oxoglutarate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:26807; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:11638;
+    CHEBI:15125; CHEBI:139538; CHEBI:1253; CHEBI:42857; CHEBI:19748; CHEBI:41979;
+    CHEBI:26803; CHEBI:3283; CHEBI:22943; CHEBI:42043; CHEBI:16810; CHEBI:40661; CHEBI:45639;
+    CHEBI:5020; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:23011; CHEBI:9304; CHEBI:15377;
+    CHEBI:132287; CHEBI:90372; CHEBI:13352; CHEBI:30916; CHEBI:5032; CHEBI:13285;
+    CHEBI:13282; CHEBI:19749; CHEBI:43228; CHEBI:13283; CHEBI:44292; CHEBI:30031;
+    CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:13284; CHEBI:22941; CHEBI:30779;
+    CHEBI:15741; CHEBI:16526; CHEBI:30915; CHEBI:48829; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00324; KEGG:C00026; KEGG:C00011; KEGG:C00001; KEGG:C00042; KEGG:C01913'
+measurements:
+- id: measurement_1_2_4_2; 2_3_1_61; 1_8_1_4_Azotobacter_vinelandii_P18925_P20707_P20708_2-Oxoglutarate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.3
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 0.05 M potassium phosphate, 1 mM MgCl2, 1 mM thiamin diphosphate
+  buffer_concentration: 0.05 M
+references:
+- title: Reference for SABIO-RK entry 11942
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10848975/
+  pubmed_id: '10848975'
+  doi: null

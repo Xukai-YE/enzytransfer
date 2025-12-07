@@ -1,0 +1,231 @@
+version: '2.0'
+created: '2025-11-20T13:42:01.761168'
+modified: null
+creators:
+- given_name: SKiD
+  family_name: Database
+  mail: skid@database.org
+vessels: null
+proteins:
+- id: protein_P48735
+  name: Homo sapiens
+  ecnumber: 1.1.1.42
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: K413Q
+  uniprotid: P48735
+  wildtype_sequence: MAGYLRVVRSLCRASGSRPAWAPAALTAPTSQEQPRRHYADKRIKVAKPVVEMDGDEMTRIIWQFIKEKLILPHVDIQLKYFDLGLPNRDQTDDQVTIDSALATQKYSVAVKCATITPDEARVEEFKLKKMWKSPNGTIRNILGGTVFREPIICKNIPRLVPGWTKPITIGRHAHGDQYKATDFVADRAGTFKMVFTPKDGSGVKEWEVYNFPAGGVGMGMYNTDESISGFAHSCFQYAIQKKWPLYMSTKNTILKAYDGRFKDIFQEIFDKHYKTDFDKNKIWYEHRLIDDMVAQVLKSSGGFVWACKNYDGDVQSDILAQGFGSLGLMTSVLVCPDGKTIEAEAAHGTVTRHYREHQKGRPTSTNPIASIFAWTRGLEHRGKLDGNQDLIRFAQMLEKVCVETVESGAMTKDLAGCIHGLSNVKLNEHFLNTTDFLDTIKSNLDRALGRQ
+  mutant_sequence: MAGYLRVVRSLCRASGSRPAWAPAALTAPTSQEQPRRHYADKRIKVAKPVVEMDGDEMTRIIWQFIKEKLILPHVDIQLKYFDLGLPNRDQTDDQVTIDSALATQKYSVAVKCATITPDEARVEEFKLKKMWKSPNGTIRNILGGTVFREPIICKNIPRLVPGWTKPITIGRHAHGDQYKATDFVADRAGTFKMVFTPKDGSGVKEWEVYNFPAGGVGMGMYNTDESISGFAHSCFQYAIQKKWPLYMSTKNTILKAYDGRFKDIFQEIFDKHYKTDFDKNKIWYEHRLIDDMVAQVLKSSGGFVWACKNYDGDVQSDILAQGFGSLGLMTSVLVCPDGKTIEAEAAHGTVTRHYREHQKGRPTSTNPIASIFAWTRGLEHRGKLDGNQDLIRFAQMLEKVCVETVESGAMTQDLAGCIHGLSNVKLNEHFLNTTDFLDTIKSNLDRALGRQ
+complexes: null
+small_molecules:
+- id: substrate_NADP_
+  name: NADP+
+  canonical_smiles: C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)(O)O)O)O)O)C(=O)N
+  inchi: InChI=1S/C21H28N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1-4,7-8,10-11,13-16,20-21,29-31H,5-6H2,(H7-,22,23,24,25,32,33,34,35,36,37,38,39)/p+1
+  inchikey: XJLXINKUBYWONI-UHFFFAOYSA-O
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/5886
+- id: product
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_isocitrate
+  name: isocitrate
+  canonical_smiles: C(C(O)C(C(=O)[O-])CC(=O)[O-])(=O)[O-]
+  inchi: InChI=1S/C6H8O7/c7-3(8)1-2(5(10)11)4(9)6(12)13/h2,4,9H,1H2,(H,7,8)(H,10,11)(H,12,13)/p-3
+  inchikey: ODBLHEXUDAPZAU-UHFFFAOYSA-K
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/1198
+reactions:
+- id: reaction_P48735_NADP_
+  name: Reaction catalyzed by enzyme on NADP+
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADP_
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_P48735
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_P48735_isocitrate
+  name: Reaction catalyzed by enzyme on isocitrate
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_isocitrate
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_P48735
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+measurements:
+- id: measurement_0
+  name: Experimental conditions (pH=8.0, T=37.0°C)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=8.0, T=37.0°C)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: P48735_NADP__K413Q_kcat_8553
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 7.9
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: 'Mutation: K413Q; Source: kcat'
+  pubmed_id: '32457458'
+- id: P48735_NADP__K413Q_Km_22486
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.0569
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: 'Mutation: K413Q; Source: Km'
+  pubmed_id: '32457458'
+- id: P48735_isocitrate_K413Q_kcat_8552
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 4.9
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_isocitrate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: 'Mutation: K413Q; Source: kcat'
+  pubmed_id: '32457458'
+- id: P48735_isocitrate_K413Q_Km_22485
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.003
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_isocitrate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: 'Mutation: K413Q; Source: Km'
+  pubmed_id: '32457458'
+buffer:
+  buffer: null
+  buffer_concentration: null
+references:
+- title: P.
+  authors: Smolkova, K., Spackova, J., Gotvaldova, K., Dvorak, A., Krenkova, A., Hubalek,
+    M., Holendova, B., Vitek, L., Jezek
+  year: '2020'
+  journal: SIRT3 and GCN5L regulation of NADP+- and NADPH-driven reactions of mitochondrial
+    isocitrate dehydrogenase IDH2. Sci
+  uri: null
+  pubmed_id: '32457458'
+  doi: null
+  id: '168'
+  pages: '8677'
+  volume: '10'
+  citation: 'Smolkova, K.,Spackova, J.,Gotvaldova, K.,Dvorak, A.,Krenkova, A.,Hubalek,
+    M.,Holendova, B.,Vitek, L.,Jezek, P., SIRT3 and GCN5L regulation of NADP+- and
+    NADPH-driven reactions of mitochondrial isocitrate dehydrogenase IDH2. Sci, Rep.,
+    2020, 8677, 10, PMID: 32457458'
+name: Merged entry for P48735 K413Q
+description: 'Merged from 2 files: SKID_EC1.1.1.42_Homo_P48735_K413Q_NADP_.yaml, SKID_EC1.1.1.42_Homo_P48735_K413Q_isocitrate.yaml'

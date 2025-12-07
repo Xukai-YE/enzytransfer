@@ -1,0 +1,178 @@
+name: SABIO-RK Entry 24957
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 24957
+created: '2025-10-28T14:25:51.710610'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_23_P10370_p24957
+  name: histidinol dehydrogenase
+  ecnumber: 1.1.1.23
+  organism: Salmonella typhimurium
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: H326N
+  uniprotid: P10370
+  wildtype_sequence: MSFNTLIDWNSCSPEQQRALLTRPAISASDSITRTVSDILDNVKTRGDDALREYSAKFDKTEVTALRVTPEEIAAAGARLSDELKQAMTAAVKNIETFHSAQTLPPVDVETQPGVRCQQVTRPVSSVGLYIPGGSAPLFSTVLMLATPARIAGCQKVVLCSPPPIADEILYAAQLCGVQEIFNVGGAQAIAALAFGSESVPKVDKIFGPGNAFVTEAKRQVSQRLDGAAIDMPAGPSEVLVIADSGATPDFVASDLLSQAEHGPDSQVILLTPDADIARKVAEAVERQLAELPRADTARQALSASRLIVTKDLAQCVAISNQYGPEHLIIQTRNARDLVDAITSAGSVFLGDWSPESAGDYASGTNHVLPTYGYTATCSSLGLADFQKRMTVQELSKAGFSALASTIETLAAAERLTAHKNAVTLRVNALKEQA
+  mutant_sequence: MSFNTLIDWNSCSPEQQRALLTRPAISASDSITRTVSDILDNVKTRGDDALREYSAKFDKTEVTALRVTPEEIAAAGARLSDELKQAMTAAVKNIETFHSAQTLPPVDVETQPGVRCQQVTRPVSSVGLYIPGGSAPLFSTVLMLATPARIAGCQKVVLCSPPPIADEILYAAQLCGVQEIFNVGGAQAIAALAFGSESVPKVDKIFGPGNAFVTEAKRQVSQRLDGAAIDMPAGPSEVLVIADSGATPDFVASDLLSQAEHGPDSQVILLTPDADIARKVAEAVERQLAELPRADTARQALSASRLIVTKDLAQCVAISNQYGPENLIIQTRNARDLVDAITSAGSVFLGDWSPESAGDYASGTNHVLPTYGYTATCSSLGLADFQKRMTVQELSKAGFSALASTIETLAAAERLTAHKNAVTLRVNALKEQA
+  position_offset: 1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Imidazolyl_propanediol
+  name: Imidazolyl propanediol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Imidazole_lactate
+  name: Imidazole lactate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_10568_EC1_1_1_23_Salmonella_typhimurium_P10370_Imidazolyl_propanediol
+  name: Reaction catalyzed by histidinol dehydrogenase on Imidazolyl propanediol
+  equation: H2O + Imidazolyl propanediol + NAD+ = NADH + Imidazole lactate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Imidazolyl_propanediol
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_NADH
+  - species_id: product_Imidazole_lactate
+  modifiers:
+  - species_id: protein_1_1_1_23_P10370_p24957
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:16373; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:27487;
+    CHEBI:389; CHEBI:18744; CHEBI:5873; CHEBI:44281; CHEBI:42857; CHEBI:11042; CHEBI:13393;
+    CHEBI:41979; CHEBI:29234; CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:13396;
+    CHEBI:21901; CHEBI:57752; CHEBI:42043; CHEBI:24636; CHEBI:44214; CHEBI:29233;
+    CHEBI:33811; CHEBI:13394; CHEBI:33813; CHEBI:27313; CHEBI:5584; CHEBI:15377; CHEBI:13352;
+    CHEBI:57945; CHEBI:24774; CHEBI:44216; CHEBI:1119; CHEBI:24773; CHEBI:57540; CHEBI:43228;
+    CHEBI:7423; CHEBI:44292; CHEBI:13389; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585;
+    CHEBI:15378; CHEBI:13395; CHEBI:44215; CHEBI:10744; CHEBI:29373; CHEBI:44701;
+    CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C03817; KEGG:C05568; KEGG:C00080; KEGG:C00001; KEGG:C00003; KEGG:C00004'
+measurements:
+- id: measurement_1_1_1_23_Salmonella_typhimurium_P10370_Imidazolyl_propanediol
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1_23_Salmonella_typhimurium_P10370_Imidazolyl_propanediol_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.003
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Imidazolyl_propanediol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10353848'
+- id: 1_1_1_23_Salmonella_typhimurium_P10370_Imidazolyl_propanediol_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0007
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Imidazolyl_propanediol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10353848'
+buffer:
+  buffer: 50 mM Sodium glycine, 0.5 mM MnCl2
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 24957
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10353848/
+  pubmed_id: '10353848'
+  doi: null

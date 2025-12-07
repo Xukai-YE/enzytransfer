@@ -1,0 +1,206 @@
+name: SABIO-RK Entry 57013
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 57013
+created: '2025-10-28T16:18:02.518178'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_1_1_39_P00880_P04716_p57013
+  name: ribulose-bisphosphate carboxylase
+  sequence: null
+  ecnumber: 4.1.1.39
+  organism: Synechococcus sp.
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P00880; P04716
+complexes: null
+small_molecules:
+- id: substrate_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Ribulose_1
+  name: D-Ribulose 1
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_5-bisphosphate
+  name: 5-bisphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3-Phospho-D-glycerate
+  name: 3-Phospho-D-glycerate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_9130_EC4_1_1_39_Synechococcus_sp._P00880_P04716_CO2
+  name: Reaction catalyzed by ribulose-bisphosphate carboxylase on CO2
+  equation: H2O + CO2 + D-Ribulose 1,5-bisphosphate = 3-Phospho-D-glycerate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_CO2
+  - species_id: substrate_D-Ribulose_1
+  - species_id: substrate_5-bisphosphate
+  products:
+  - species_id: product_3-Phospho-D-glycerate
+  modifiers:
+  - species_id: protein_4_1_1_39_P00880_P04716_p57013
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 23124;23125;23126;23127
+  KEGGid: R00024
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:1657; CHEBI:44819; CHEBI:41981; CHEBI:13017;
+    CHEBI:45480; CHEBI:139538; CHEBI:11882; CHEBI:12987; CHEBI:42857; CHEBI:57870;
+    CHEBI:41979; CHEBI:11880; CHEBI:88352; CHEBI:3283; CHEBI:16710; CHEBI:4242; CHEBI:42043;
+    CHEBI:57998; CHEBI:33811; CHEBI:33813; CHEBI:23011; CHEBI:27313; CHEBI:58272;
+    CHEBI:15377; CHEBI:21087; CHEBI:13352; CHEBI:13285; CHEBI:13282; CHEBI:88005;
+    CHEBI:43228; CHEBI:13283; CHEBI:44292; CHEBI:24345; CHEBI:17050; CHEBI:33806;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:13284; CHEBI:17794; CHEBI:1659; CHEBI:16526;
+    CHEBI:48829; CHEBI:21029; CHEBI:11879; CHEBI:40016; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00597; KEGG:C00001; KEGG:C00011; KEGG:C01182; KEGG:C00197'
+measurements:
+- id: measurement_4_1_1_39_Synechococcus_sp._P00880_P04716_CO2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 4_1_1_39_Synechococcus_sp._P00880_P04716_CO2_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 4.16675e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CO2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9882445'
+- id: 4_1_1_39_Synechococcus_sp._P00880_P04716_CO2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2.7
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CO2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9882445'
+- id: 4_1_1_39_Synechococcus_sp._P00880_P04716_CO2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.9e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CO2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9882445'
+- id: 4_1_1_39_Synechococcus_sp._P00880_P04716_CO2_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000173
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CO2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9882445'
+buffer:
+  buffer: 64 mM MOPS-KOH, 10 mM magnesium acetate, 1 mM EDTA, 1 or 20 mM NaHCO3
+  buffer_concentration: 64 mM
+references:
+- title: Reference for SABIO-RK entry 57013
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9882445/
+  pubmed_id: '9882445'
+  doi: null

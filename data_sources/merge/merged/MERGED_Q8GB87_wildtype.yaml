@@ -1,0 +1,366 @@
+version: '2.0'
+created: '2025-11-20T13:39:27.948009'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_10_3_1_Q8GB87_p69466
+  name: laccase
+  ecnumber: 1.10.3.1
+  organism: Streptomyces lavendulae
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q8GB87
+  wildtype_sequence: MTDIIERITDGLAGAARDAAPAAADGELTPYAAPLTVPPVLRPDSTDVLRETEIALRPTWVRLHPQLPPTLMWGYGGSVPGPTVEVRRGQRVRIAWTNRIPKGSEYPVTAVEVPAANPNPSTEPGRGGVPPIADVAALPAWTVTHLHGAQTGGGNDGWADNAVGYGDAQLSEYPNDHQAVQWWYHDHAMNVTRWNVHTGLYGTYLVRDDEEDALQLPSGKREIPLLIADRNLDTDEDGALNGRLLHKTVIVQEKNPETGKPVSVPFAGPYTTVNGRIWPYAEVDAAWHRFRLVNASNARIYDLVLIDEDDNPVPGVLHQIGSDGGLLPRPVPVDFDEALPTLTVAPAERMDLLIDFRALAGRRLRLVNKGAGQAPGVPDPANNVRYPHVMEFRVGECGTDDPFELPEVLSGSFRRLTHDIEHGHRLIVLTPPATKGGGGHPEIWEMTEVEDAEQVELPADGVIQLMSSEGALKTYRRTSRTFNDGLGFTVAEGSYEQWSFLNLAVNPPVVHPMHIHLADFQILGRDTYDVSGFDVTAGGTRAPLAPDPATPVPLPPNERGYKDVFRALPGQMLRVMGRFDGAYGRFMYHCHLLEHEDMGMMRPFVVMPAEAMKFDHGAGHGGHGGHGGHGG
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Catechol
+  name: Catechol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Oxidized_donor
+  name: Oxidized donor
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Guaiacol
+  name: Guaiacol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Oxidized_guaiacol
+  name: Oxidized guaiacol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Hydroquinone
+  name: Hydroquinone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_15767_EC1_10_3_1_Streptomyces_lavendulae_Q8GB87_Catechol
+  name: Reaction catalyzed by laccase on Catechol
+  equation: O2 + Catechol = H2O + Oxidized donor
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Catechol
+  - species_id: substrate_O2
+  products:
+  - species_id: product_Oxidized_donor
+  modifiers:
+  - species_id: protein_1_10_3_1_Q8GB87_p69466
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:23054; CHEBI:29375; CHEBI:44819; CHEBI:13950;
+    CHEBI:41981; CHEBI:26689; CHEBI:18135; CHEBI:42857; CHEBI:41979; CHEBI:23833;
+    CHEBI:135158; CHEBI:13416; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:41441; CHEBI:13352; CHEBI:15379; CHEBI:43228; CHEBI:44292;
+    CHEBI:30491; CHEBI:33806; CHEBI:25366; CHEBI:32402; CHEBI:44742; CHEBI:5585; CHEBI:29374;
+    CHEBI:10743; CHEBI:29793; CHEBI:7860; CHEBI:17654; CHEBI:10745; CHEBI:3467; CHEBI:29373;
+    CHEBI:44701; CHEBI:50524
+
+    KEGG IDs: KEGG:C01785; KEGG:C15571; KEGG:C00090; KEGG:C00001; KEGG:C00704; KEGG:C00007;
+    KEGG:C00028'
+- id: sabiork_15760_EC1_10_3_1_Streptomyces_lavendulae_Q8GB87_Guaiacol
+  name: Reaction catalyzed by laccase on Guaiacol
+  equation: O2 + Guaiacol = H2O + Oxidized guaiacol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Guaiacol
+  - species_id: substrate_O2
+  products:
+  - species_id: product_Oxidized_guaiacol
+  modifiers:
+  - species_id: protein_1_10_3_1_Q8GB87_p69468
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:26689;
+    CHEBI:5549; CHEBI:42857; CHEBI:41979; CHEBI:23833; CHEBI:13416; CHEBI:42043; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:15379; CHEBI:43228;
+    CHEBI:44292; CHEBI:30491; CHEBI:24434; CHEBI:33806; CHEBI:25366; CHEBI:44742;
+    CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:28591; CHEBI:29793; CHEBI:7860; CHEBI:10745;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C15572; KEGG:C01502; KEGG:C00001; KEGG:C00704; KEGG:C00007'
+- id: sabiork_15770_EC1_10_3_1_Streptomyces_lavendulae_Q8GB87_O2
+  name: Reaction catalyzed by catechol oxidase on O2
+  equation: O2 + Hydroquinone = H2O + Oxidized donor
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_Hydroquinone
+  products:
+  - species_id: product_Oxidized_donor
+  modifiers:
+  - species_id: protein_1_10_3_1_Q8GB87_p69467
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:26689;
+    CHEBI:42857; CHEBI:41979; CHEBI:24645; CHEBI:23833; CHEBI:17594; CHEBI:13416;
+    CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:5793; CHEBI:13352;
+    CHEBI:15379; CHEBI:43228; CHEBI:44292; CHEBI:14416; CHEBI:30491; CHEBI:33806;
+    CHEBI:25366; CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:29793; CHEBI:7860;
+    CHEBI:17654; CHEBI:10745; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C15603; KEGG:C00001; KEGG:C00530; KEGG:C00704; KEGG:C00007; KEGG:C00028'
+measurements:
+- id: measurement_1_10_3_1_Streptomyces_lavendulae_Q8GB87_Catechol
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 4.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_10_3_1_Streptomyces_lavendulae_Q8GB87_Guaiacol
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 4.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_10_3_1_Streptomyces_lavendulae_Q8GB87_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 4.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_10_3_1_Streptomyces_lavendulae_Q8GB87_Catechol_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.3e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Catechol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 4.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14586105'
+- id: 1_10_3_1_Streptomyces_lavendulae_Q8GB87_Catechol_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 253000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Catechol
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 4.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14586105'
+- id: 1_10_3_1_Streptomyces_lavendulae_Q8GB87_Catechol_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 10.9
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Catechol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 4.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14586105'
+- id: 1_10_3_1_Streptomyces_lavendulae_Q8GB87_Guaiacol_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.8e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Guaiacol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 4.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14586105'
+- id: 1_10_3_1_Streptomyces_lavendulae_Q8GB87_Guaiacol_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 27600.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Guaiacol
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 4.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14586105'
+- id: 1_10_3_1_Streptomyces_lavendulae_Q8GB87_Guaiacol_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.6
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Guaiacol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 4.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14586105'
+- id: 1_10_3_1_Streptomyces_lavendulae_Q8GB87_O2_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 136000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 4.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14586105'
+- id: 1_10_3_1_Streptomyces_lavendulae_Q8GB87_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.9e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 4.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14586105'
+- id: 1_10_3_1_Streptomyces_lavendulae_Q8GB87_O2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 5.3
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 4.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14586105'
+buffer:
+  buffer: 50 mM sodium acetate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 69466
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/14586105/
+  pubmed_id: '14586105'
+  doi: null
+name: Merged entry for Q8GB87 wildtype
+description: 'Merged from 3 files: SABIO_EC1.10.3.1_Streptomyces_lavendulae__Q8GB87_s_Catechol.yaml,
+  SABIO_EC1.10.3.1_Streptomyces_lavendulae__Q8GB87_s_Guaiacol.yaml, SABIO_EC1.10.3.1_Streptomyces_lavendulae__Q8GB87_s_O2.yaml'

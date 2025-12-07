@@ -1,0 +1,174 @@
+name: SABIO-RK Entry 55802
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 55802
+created: '2025-10-28T16:13:34.954066'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_1_99_12_Q5A3V6_p55802
+  name: 3,4-dihydroxy-2-butanone-4-phosphate synthase
+  ecnumber: 4.1.99.12
+  organism: Candida albicans
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: C87A
+  uniprotid: Q5A3V6
+  wildtype_sequence: MTNIFTPIEEALEAYKNGEFLIVMDDEDRENEGDLIMAAELITQEKMAFLVRYSSGYVCVPLSEERANQLELPPMLANRSDRHGTAYTITCDFAEGTTTGISAHDRALTTRSLANPNSKPQDFIKPGHILPLRAVPGLLKKRRGHTEAAVQLSTLAGLQPAGVICELVRDEDGLMMRLDDCIQFGKKHGIKIININQLVEYISK
+  mutant_sequence: MTNIFTPIEEALEAYKNGEFLIVMDDEDRENEGDLIMAAELITQEKMAFLVRYSSGYVCVPLSEERANQLELPPMLANRSDRHGTAYTITADFAEGTTTGISAHDRALTTRSLANPNSKPQDFIKPGHILPLRAVPGLLKKRRGHTEAAVQLSTLAGLQPAGVICELVRDEDGLMMRLDDCIQFGKKHGIKIININQLVEYISK
+  position_offset: 4
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_D-Ribulose_5-phosphate
+  name: D-Ribulose 5-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Formate
+  name: Formate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3
+  name: '3'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4-Dihydroxy-2-butanone_4-phosphate
+  name: 4-Dihydroxy-2-butanone 4-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_9052_EC4_1_99_12_Candida_albicans_Q5A3V6_D-Ribulose_5-phosphate
+  name: Reaction catalyzed by 3,4-dihydroxy-2-butanone-4-phosphate synthase on D-Ribulose
+    5-phosphate
+  equation: D-Ribulose 5-phosphate = Formate + 3,4-Dihydroxy-2-butanone 4-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Ribulose_5-phosphate
+  products:
+  - species_id: product_Formate
+  - species_id: product_3
+  - species_id: product_4-Dihydroxy-2-butanone_4-phosphate
+  modifiers:
+  - species_id: protein_4_1_99_12_Q5A3V6_p55802
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R07281
+  notes: 'ChEBI IDs: CHEBI:37455; CHEBI:21088; CHEBI:14276; CHEBI:26572; CHEBI:40192;
+    CHEBI:13018; CHEBI:15740; CHEBI:5145; CHEBI:42460; CHEBI:50606; CHEBI:24082; CHEBI:4243;
+    CHEBI:30751; CHEBI:24081; CHEBI:17363; CHEBI:58121; CHEBI:13040
+
+    KEGG IDs: KEGG:C00199; KEGG:C00058; KEGG:C15556'
+measurements:
+- id: measurement_4_1_99_12_Candida_albicans_Q5A3V6_D-Ribulose_5-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: null
+  temperature_unit: null
+parameters:
+- id: 4_1_99_12_Candida_albicans_Q5A3V6_D-Ribulose_5-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.117
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Ribulose_5-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15328619'
+- id: 4_1_99_12_Candida_albicans_Q5A3V6_D-Ribulose_5-phosphate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.166667e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Ribulose_5-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15328619'
+buffer:
+  buffer: 50 mM Tris-HCl, 5 mM Ribose 5-phosphate, 10 mM MgCl2, 0.37 mM 5-Amino-6-ribosylamino-2,4(1H,3H)-pyrimidinedione,
+    0.25 ¦Ìg/¦Ìl 6,7-dimethyl-8-ribityllumazine synthase, 0,00625 U/¦Ìl Phosphoriboisomerase
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 55802
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15328619/
+  pubmed_id: '15328619'
+  doi: null

@@ -1,0 +1,290 @@
+version: '2.0'
+created: '2025-11-20T13:41:00.514997'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_1_4_1; 3_6_1_9_P22413_p17218
+  name: bis(5'-adenosyl)-triphosphatase
+  ecnumber: 3.1.4.1; 3.6.1.9
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P22413
+  wildtype_sequence: MERDGCAGGGSRGGEGGRAPREGPAGNGRDRGRSHAAEAPGDPQAAASLLAPMDVGEEPLEKAARARTAKDPNTYKVLSLVLSVCVLTTILGCIFGLKPSCAKEVKSCKGRCFERTFGNCRCDAACVELGNCCLDYQETCIEPEHIWTCNKFRCGEKRLTRSLCACSDDCKDKGDCCINYSSVCQGEKSWVEEPCESINEPQCPAGFETPPTLLFSLDGFRAEYLHTWGGLLPVISKLKKCGTYTKNMRPVYPTKTFPNHYSIVTGLYPESHGIIDNKMYDPKMNASFSLKSKEKFNPEWYKGEPIWVTAKYQGLKSGTFFWPGSDVEINGIFPDIYKMYNGSVPFEERILAVLQWLQLPKDERPHFYTLYLEEPDSSGHSYGPVSSEVIKALQRVDGMVGMLMDGLKELNLHRCLNLILISDHGMEQGSCKKYIYLNKYLGDVKNIKVIYGPAARLRPSDVPDKYYSFNYEGIARNLSCREPNQHFKPYLKHFLPKRLHFAKSDRIEPLTFYLDPQWQLALNPSERKYCGSGFHGSDNVFSNMQALFVGYGPGFKHGIEADTFENIEVYNLMCDLLNLTPAPNNGTHGSLNHLLKNPVYTPKHPKEVHPLVQCPFTRNPRDNLGCSCNPSILPIEDFQTQFNLTVAEEKIIKHETLPYGRPRVLQKENTICLLSQHQFMSGYSQDILMPLWTSYTVDRNDSFSTEDFSNCLYQDFRIPLSPVHKCSFYKNNTKVSYGFLSPPQLNKNSSGIYSEALLTTNIVPMYQSFQVIWRYFHDTLLRKYAEERNGVNVVSGPVFDFDYDGRCDSLENLRQKRRVIRNQEILIPTHFFIVLTSCKDTSQTPLHCENLDTLAFILPHRTDNSESCVHGKHDSSWVEELLMLHRARITDVEHITGLSFYQQRKEPVSDILKLKTHLPTFSQED
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_P1
+  name: P1
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_P3-Bis_5_-adenosyl_triphosphate
+  name: P3-Bis(5'-adenosyl) triphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_AMP
+  name: AMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_PSB-170621A
+  name: PSB-170621A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Phosphate
+  name: Phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_PSB-170621B
+  name: PSB-170621B
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_735_EC3_1_4_1; 3_6_1_9_Homo_sapiens_P22413_P1
+  name: Reaction catalyzed by bis(5'-adenosyl)-triphosphatase on P1
+  equation: H2O + P1,P3-Bis(5'-adenosyl) triphosphate = ADP + AMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_P1
+  - species_id: substrate_P3-Bis_5_-adenosyl_triphosphate
+  products:
+  - species_id: product_AMP
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_3_1_4_1; 3_6_1_9_P22413_p17218
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 13893;13894;13895;13896
+  KEGGid: R00187
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:16761; CHEBI:40726; CHEBI:41981;
+    CHEBI:22245; CHEBI:40553; CHEBI:40510; CHEBI:22242; CHEBI:13736; CHEBI:42857;
+    CHEBI:47222; CHEBI:41979; CHEBI:456215; CHEBI:40786; CHEBI:12728; CHEBI:40826;
+    CHEBI:16027; CHEBI:2356; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:87518;
+    CHEBI:15377; CHEBI:13352; CHEBI:7874; CHEBI:456216; CHEBI:58529; CHEBI:27775;
+    CHEBI:43228; CHEBI:21997; CHEBI:2342; CHEBI:44292; CHEBI:33806; CHEBI:13740; CHEBI:10743;
+    CHEBI:29374; CHEBI:5585; CHEBI:13234; CHEBI:40721; CHEBI:13222; CHEBI:22244; CHEBI:13235;
+    CHEBI:12056; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00020; KEGG:C00008; KEGG:C00001; KEGG:C06197'
+- id: sabiork_15294_EC3_6_1_5_Homo_sapiens_P22413_PSB-170621A
+  name: Reaction catalyzed by apyrase on PSB-170621A
+  equation: H2O + PSB-170621A = Phosphate + PSB-170621B
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_PSB-170621A
+  products:
+  - species_id: product_Phosphate
+  - species_id: product_PSB-170621B
+  modifiers:
+  - species_id: protein_3_6_1_5_P22413_p65893
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:29375; CHEBI:43470; CHEBI:44819; CHEBI:18367;
+    CHEBI:41981; CHEBI:35780; CHEBI:26020; CHEBI:26078; CHEBI:42857; CHEBI:41979;
+    CHEBI:29139; CHEBI:39739; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:39745; CHEBI:13352; CHEBI:7793; CHEBI:43228; CHEBI:44292; CHEBI:45024;
+    CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:43474; CHEBI:29137; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C00001; KEGG:C00009'
+measurements:
+- id: measurement_3_1_4_1; 3_6_1_9_Homo_sapiens_P22413_P1
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_3_6_1_5_Homo_sapiens_P22413_PSB-170621A
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_1_4_1; 3_6_1_9_Homo_sapiens_P22413_P1_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 4.3e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_P1
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12846830'
+- id: 3_1_4_1; 3_6_1_9_Homo_sapiens_P22413_P1_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.1e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_P1
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12846830'
+- id: 3_6_1_5_Homo_sapiens_P22413_PSB-170621A_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.00199
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_PSB-170621A
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '30303204'
+- id: 3_6_1_5_Homo_sapiens_P22413_PSB-170621A_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 53.1
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_PSB-170621A
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 9.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '30303204'
+- id: 3_6_1_5_Homo_sapiens_P22413_PSB-170621A_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.75e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_PSB-170621A
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '30303204'
+buffer:
+  buffer: 20 mM Hepes, 140 mM NaCl, 5 mM KCl, 1 mM MgCl2, 1 mM CaCl2; 10 mM CHES,
+    1 mM MgCl2, 2 mM CaCl2
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 17218
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12846830/
+  pubmed_id: '12846830'
+  doi: null
+- title: Reference for SABIO-RK entry 65893
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/30303204/
+  pubmed_id: '30303204'
+  doi: null
+name: Merged entry for P22413 wildtype
+description: 'Merged from 2 files: SABIO_EC3.1.4.1_3.6.1.9_Homo_sapiens__P22413_s_P1.yaml,
+  SABIO_EC3.6.1.5_Homo_sapiens__P22413_s_PSB-170621A.yaml'

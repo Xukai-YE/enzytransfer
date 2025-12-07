@@ -1,0 +1,434 @@
+version: '2.0'
+created: '2025-11-20T13:39:17.604365'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_215_P37666_p48249
+  name: gluconate 2-dehydrogenase
+  ecnumber: 1.1.1.215
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P37666
+  wildtype_sequence: MKPSVILYKALPDDLLQRLQEHFTVHQVANLSPQTVEQNAAIFAEAEGLLGSNENVNAALLEKMPKLRATSTISVGYDNFDVDALTARKILLMHTPTVLTETVADTLMALVLSTARRVVEVAERVKAGEWTASIGPDWYGTDVHHKTLGIVGMGRIGMALAQRAHFGFNMPILYNARRHHKEAEERFNARYCDLDTLLQESDFVCLILPLTDETHHLFGAEQFAKMKSSAIFINAGRGPVVDENALIAALQKGEIHAAGLDVFEQEPLSVDSPLLSMANVVAVPHIGSATHETRYGMAACAVDNLIDALQGKVEKNCVNPHVAD
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_2-Dehydro-D-gluconate
+  name: 2-Dehydro-D-gluconate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Gluconate
+  name: D-Gluconate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Glyoxylate
+  name: Glyoxylate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Glycolate
+  name: Glycolate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_3-Hydroxypyruvate
+  name: 3-Hydroxypyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Glycerate
+  name: D-Glycerate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1847_EC1_1_1_215_Escherichia_coli_P37666_2-Dehydro-D-gluconate
+  name: Reaction catalyzed by gluconate 2-dehydrogenase on 2-Dehydro-D-gluconate
+  equation: NADP+ + D-Gluconate = NADPH + 2-Dehydro-D-gluconate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2-Dehydro-D-gluconate
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_D-Gluconate
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_1_1_215_P37666_p48249
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 16653;16654;16655;16656
+  KEGGid: R01739
+  notes: 'ChEBI IDs: CHEBI:59504; CHEBI:11559; CHEBI:13397; CHEBI:13398; CHEBI:7424;
+    CHEBI:44405; CHEBI:33198; CHEBI:20985; CHEBI:21903; CHEBI:7425; CHEBI:27469; CHEBI:29234;
+    CHEBI:13357; CHEBI:25523; CHEBI:20986; CHEBI:24636; CHEBI:20983; CHEBI:19539;
+    CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:42715; CHEBI:1066; CHEBI:16474; CHEBI:44286;
+    CHEBI:24266; CHEBI:58512; CHEBI:12955; CHEBI:1180; CHEBI:21904; CHEBI:18391; CHEBI:24265;
+    CHEBI:44409; CHEBI:15378; CHEBI:19669; CHEBI:18009; CHEBI:4157; CHEBI:58349; CHEBI:13400;
+    CHEBI:16808; CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00257; KEGG:C00005; KEGG:C00080; KEGG:C06473; KEGG:C00006; KEGG:C11037'
+- id: sabiork_159_EC1_1_1_79_Escherichia_coli_P37666_NADPH
+  name: Reaction catalyzed by glyoxylate reductase (NADP+) on NADPH
+  equation: NADP+ + Glycolate = NADPH + Glyoxylate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_Glyoxylate
+  products:
+  - species_id: product_NADP_
+  - species_id: product_Glycolate
+  modifiers:
+  - species_id: protein_1_1_1_79_P37666_p48247
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 10992;10993;10994;10995
+  KEGGid: R00465
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:24390; CHEBI:14348; CHEBI:35977;
+    CHEBI:24421; CHEBI:16891; CHEBI:7424; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234;
+    CHEBI:13357; CHEBI:25523; CHEBI:36655; CHEBI:24636; CHEBI:29233; CHEBI:5584; CHEBI:13399;
+    CHEBI:5475; CHEBI:16474; CHEBI:44286; CHEBI:29805; CHEBI:24420; CHEBI:21904; CHEBI:44409;
+    CHEBI:15378; CHEBI:17497; CHEBI:18009; CHEBI:58349; CHEBI:42767; CHEBI:13400;
+    CHEBI:57783; CHEBI:42865; CHEBI:24388; CHEBI:10744; CHEBI:14368; CHEBI:5509
+
+    KEGG IDs: KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00160; KEGG:C00048; KEGG:C11037'
+- id: sabiork_427_EC1_1_1_81_Escherichia_coli_P37666_3-Hydroxypyruvate
+  name: Reaction catalyzed by glyoxylate reductase (NADP+) on 3-Hydroxypyruvate
+  equation: NADP+ + D-Glycerate = H+ + NADPH + 3-Hydroxypyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3-Hydroxypyruvate
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_NADP_
+  - species_id: product_D-Glycerate
+  modifiers:
+  - species_id: protein_1_1_1_81_P37666_p48248
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 18657;18658;18659;18660
+  KEGGid: R01392
+  notes: 'ChEBI IDs: CHEBI:21027; CHEBI:30841; CHEBI:13397; CHEBI:13398; CHEBI:7424;
+    CHEBI:44405; CHEBI:21903; CHEBI:39999; CHEBI:14425; CHEBI:7425; CHEBI:29234; CHEBI:13357;
+    CHEBI:25523; CHEBI:10999; CHEBI:41990; CHEBI:5813; CHEBI:24636; CHEBI:29233; CHEBI:20083;
+    CHEBI:5584; CHEBI:13399; CHEBI:21030; CHEBI:12985; CHEBI:16659; CHEBI:16474; CHEBI:44286;
+    CHEBI:11837; CHEBI:21904; CHEBI:44409; CHEBI:15378; CHEBI:17180; CHEBI:18009;
+    CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:32398; CHEBI:4187; CHEBI:10744; CHEBI:20082
+
+    KEGG IDs: KEGG:C00005; KEGG:C00168; KEGG:C00080; KEGG:C00006; KEGG:C11037; KEGG:C00258'
+measurements:
+- id: measurement_1_1_1_215_Escherichia_coli_P37666_2-Dehydro-D-gluconate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_1_1_1_79_Escherichia_coli_P37666_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_1_1_1_81_Escherichia_coli_P37666_3-Hydroxypyruvate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 1_1_1_215_Escherichia_coli_P37666_2-Dehydro-D-gluconate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 40.7
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Dehydro-D-gluconate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11237876'
+- id: 1_1_1_215_Escherichia_coli_P37666_2-Dehydro-D-gluconate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.00115
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Dehydro-D-gluconate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11237876'
+- id: 1_1_1_215_Escherichia_coli_P37666_2-Dehydro-D-gluconate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0015
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Dehydro-D-gluconate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11237876'
+- id: 1_1_1_215_Escherichia_coli_P37666_2-Dehydro-D-gluconate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 27000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Dehydro-D-gluconate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11237876'
+- id: 1_1_1_79_Escherichia_coli_P37666_NADPH_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 30000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11237876'
+- id: 1_1_1_79_Escherichia_coli_P37666_NADPH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0066
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11237876'
+- id: 1_1_1_79_Escherichia_coli_P37666_NADPH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 203.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11237876'
+- id: 1_1_1_79_Escherichia_coli_P37666_NADPH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.00575
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11237876'
+- id: 1_1_1_81_Escherichia_coli_P37666_3-Hydroxypyruvate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 100000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Hydroxypyruvate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11237876'
+- id: 1_1_1_81_Escherichia_coli_P37666_3-Hydroxypyruvate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.00205
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Hydroxypyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11237876'
+- id: 1_1_1_81_Escherichia_coli_P37666_3-Hydroxypyruvate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 72.5
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Hydroxypyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11237876'
+- id: 1_1_1_81_Escherichia_coli_P37666_3-Hydroxypyruvate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0007
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Hydroxypyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11237876'
+buffer:
+  buffer: 100 mM Potassium phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 48249
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11237876/
+  pubmed_id: '11237876'
+  doi: null
+name: Merged entry for P37666 wildtype
+description: 'Merged from 3 files: SABIO_EC1.1.1.215_Escherichia_coli__P37666_s_2-Dehydro-D-gluconat.yaml,
+  SABIO_EC1.1.1.79_Escherichia_coli__P37666_s_NADPH.yaml, SABIO_EC1.1.1.81_Escherichia_coli__P37666_s_3-Hydroxypyruvate.yaml'

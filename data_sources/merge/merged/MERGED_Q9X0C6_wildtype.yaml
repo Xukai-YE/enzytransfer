@@ -1,0 +1,272 @@
+version: '2.0'
+created: '2025-11-20T13:41:37.708665'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_3_1__Q9X0C6_p61350
+  name: Ammonia-lyases
+  ecnumber: 4.3.1.
+  organism: Thermotoga maritima
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9X0C6
+  wildtype_sequence: MLAKRIIACLDVKDGRVVKGTNFENLRDSGDPVELGKFYSEIGIDELVFLDITASVEKRKTMLELVEKVAEQIDIPFTVGGGIHDFETASELILRGADKVSINTAAVENPSLITQIAQTFGSQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLAGADAALAASVFHFREIDVRELKEYLKKHGVNVRLEGL
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NH3
+  name: NH3
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_N-_5_-Phospho-D-1_-ribulosylformimino_-5-amino-1-_5_-phospho-D-ribosyl_-4-imidazolecarboxamide
+  name: N-(5'-Phospho-D-1'-ribulosylformimino)-5-amino-1-(5''-phospho-D-ribosyl)-4-imidazolecarboxamide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_1-_5_-Phosphoribosyl_-5-amino-4-imidazolecarboxamide
+  name: 1-(5'-Phosphoribosyl)-5-amino-4-imidazolecarboxamide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-erythro-1-_Imidazol-4-yl_glycerol_3-phosphate
+  name: D-erythro-1-(Imidazol-4-yl)glycerol 3-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7138_EC4_3_1__Thermotoga_maritima_Q9X0C6_NH3
+  name: Reaction catalyzed by Ammonia-lyases on NH3
+  equation: N-(5'-Phospho-D-1'-ribulosylformimino)-5-amino-1-(5''-phospho-D-ribosyl)-4-imidazolecarboxamide
+    + NH3 = D-erythro-1-(Imidazol-4-yl)glycerol 3-phosphate + 1-(5'-Phosphoribosyl)-5-amino-4-imidazolecarboxamide
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NH3
+  - species_id: substrate_N-_5_-Phospho-D-1_-ribulosylformimino_-5-amino-1-_5_-phospho-D-ribosyl_-4-imidazolecarboxamide
+  products:
+  - species_id: product_1-_5_-Phosphoribosyl_-5-amino-4-imidazolecarboxamide
+  - species_id: product_D-erythro-1-_Imidazol-4-yl_glycerol_3-phosphate
+  modifiers:
+  - species_id: protein_4_3_1__Q9X0C6_p61350
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 45184;45185;45186;45187
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:4270; CHEBI:44284; CHEBI:16134; CHEBI:18406; CHEBI:12102;
+    CHEBI:58278; CHEBI:13405; CHEBI:7434; CHEBI:13407; CHEBI:20923; CHEBI:7090; CHEBI:39698;
+    CHEBI:135980; CHEBI:22534; CHEBI:17805; CHEBI:7435; CHEBI:49783; CHEBI:22533;
+    CHEBI:58525; CHEBI:44404; CHEBI:573; CHEBI:13771; CHEBI:12100; CHEBI:44269; CHEBI:13406;
+    CHEBI:21471; CHEBI:18966; CHEBI:40739; CHEBI:12888; CHEBI:28938; CHEBI:27735;
+    CHEBI:58475
+
+    KEGG IDs: KEGG:C04666; KEGG:C04677; KEGG:C00014; KEGG:C04916; KEGG:C01342'
+- id: sabiork_7138_EC4_3_1__Thermotoga_maritima_Q9X0C6_NH3
+  name: Reaction catalyzed by Ammonia-lyases on NH3
+  equation: N-(5'-Phospho-D-1'-ribulosylformimino)-5-amino-1-(5''-phospho-D-ribosyl)-4-imidazolecarboxamide
+    + NH3 = D-erythro-1-(Imidazol-4-yl)glycerol 3-phosphate + 1-(5'-Phosphoribosyl)-5-amino-4-imidazolecarboxamide
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NH3
+  - species_id: substrate_N-_5_-Phospho-D-1_-ribulosylformimino_-5-amino-1-_5_-phospho-D-ribosyl_-4-imidazolecarboxamide
+  products:
+  - species_id: product_D-erythro-1-_Imidazol-4-yl_glycerol_3-phosphate
+  - species_id: product_1-_5_-Phosphoribosyl_-5-amino-4-imidazolecarboxamide
+  modifiers:
+  - species_id: protein_4_3_1__Q9X0C6_p61351
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 45184;45185;45186;45187
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:4270; CHEBI:44284; CHEBI:16134; CHEBI:58278; CHEBI:18406;
+    CHEBI:12102; CHEBI:13405; CHEBI:7434; CHEBI:13407; CHEBI:20923; CHEBI:7090; CHEBI:39698;
+    CHEBI:135980; CHEBI:22534; CHEBI:17805; CHEBI:7435; CHEBI:49783; CHEBI:22533;
+    CHEBI:58525; CHEBI:44404; CHEBI:573; CHEBI:13771; CHEBI:12100; CHEBI:44269; CHEBI:13406;
+    CHEBI:21471; CHEBI:18966; CHEBI:40739; CHEBI:12888; CHEBI:28938; CHEBI:27735;
+    CHEBI:58475
+
+    KEGG IDs: KEGG:C04677; KEGG:C04666; KEGG:C00014; KEGG:C04916; KEGG:C01342'
+measurements:
+- id: measurement_4_3_1__Thermotoga_maritima_Q9X0C6_NH3
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_4_3_1__Thermotoga_maritima_Q9X0C6_NH3
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 4_3_1__Thermotoga_maritima_Q9X0C6_NH3_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1300000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NH3
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11264293'
+- id: 4_3_1__Thermotoga_maritima_Q9X0C6_NH3_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.7e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NH3
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11264293'
+- id: 4_3_1__Thermotoga_maritima_Q9X0C6_NH3_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2.2
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NH3
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11264293'
+- id: 4_3_1__Thermotoga_maritima_Q9X0C6_NH3_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0022
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NH3
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11264293'
+- id: 4_3_1__Thermotoga_maritima_Q9X0C6_NH3_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 900.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NH3
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11264293'
+- id: 4_3_1__Thermotoga_maritima_Q9X0C6_NH3_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NH3
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11264293'
+buffer:
+  buffer: 50 mM Tris-acetate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 61350
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11264293/
+  pubmed_id: '11264293'
+  doi: null
+name: Merged entry for Q9X0C6 wildtype
+description: 'Merged from 2 files: SABIO_EC4.3.1._Thermotoga_maritima__Q9X0C6_s_NH3.yaml,
+  SABIO_EC4.3.1._Thermotoga_maritima__Q9X0C6_s_NH3_2.yaml'

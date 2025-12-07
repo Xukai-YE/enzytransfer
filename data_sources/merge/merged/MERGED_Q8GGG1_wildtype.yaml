@@ -1,0 +1,260 @@
+version: '2.0'
+created: '2025-11-20T13:40:03.584979'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_3_1_20_Q8GGG1_p67573
+  name: diacylglycerol O-acyltransferase
+  ecnumber: 2.3.1.20
+  organism: bovine
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q8GGG1
+  wildtype_sequence: MRPLHPIDFIFLSLEKRQQPMHVGGLFLFQIPDNAPDTFIQDLVNDIRISKSIPVPPFNNKLNGLFWDEDEEFDLDHHFRHIALPHPGRIRELLIYISQEHSTLLDRAKPLWTCNIIEGIEGNRFAMYFKIHHAMVDGVAGMRLIEKSLSHDVTEKSIVPPWCVEGKRAKRLREPKTGKIKKIMSGIKSQLQATPTVIQELSQTVFKDIGRNPDHVSSFQAPCSILNQRVSSSRRFAAQSFDLDRFRNIAKSLNVTINDVVLAVCSGALRAYLMSHNSLPSKPLIAMVPASIRNDDSDVSNRITMILANLATHKDDPLQRLEIIRRSVQNSKQRFKRMTSDQILNYSAVVYGPAGLNIISGMMPKRQAFNLVISNVPGPREPLYWNGAKLDALYPASIVLDGQALNITMTSYLDKLEVGLIACRNALPRMQNLLTHLEEEIQLFEGVIAKQEDIKTAN
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_1
+  name: '1'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_2-Dipalmitoyl_glycerol
+  name: 2-Dipalmitoyl glycerol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Palmitoyl-CoA
+  name: Palmitoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Tripalmitin
+  name: Tripalmitin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_1-Hexadecanol
+  name: 1-Hexadecanol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_1-Hexadecyl_hexadecanoate
+  name: 1-Hexadecyl hexadecanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_15557_EC2_3_1_20_bovine_Q8GGG1_1
+  name: Reaction catalyzed by diacylglycerol O-acyltransferase on 1
+  equation: Palmitoyl-CoA + 1,2-Dipalmitoyl glycerol = Coenzyme A + Tripalmitin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_1
+  - species_id: substrate_2-Dipalmitoyl_glycerol
+  - species_id: substrate_Palmitoyl-CoA
+  products:
+  - species_id: product_Coenzyme_A
+  - species_id: product_Tripalmitin
+  modifiers:
+  - species_id: protein_2_3_1_20_Q8GGG1_p67573
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:24543; CHEBI:14732; CHEBI:57287; CHEBI:15346; CHEBI:23355;
+    CHEBI:77393; CHEBI:15525; CHEBI:3771; CHEBI:13295; CHEBI:13294; CHEBI:741566;
+    CHEBI:41597; CHEBI:14397; CHEBI:41631; CHEBI:57379; CHEBI:7898; CHEBI:13298
+
+    KEGG IDs: KEGG:C00154; KEGG:C00010'
+- id: sabiork_11557_EC2_3_1_75_bovine_Q8GGG1_1-Hexadecanol
+  name: Reaction catalyzed by long-chain-alcohol O-fatty-acyltransferase on 1-Hexadecanol
+  equation: Palmitoyl-CoA + 1-Hexadecanol = Coenzyme A + 1-Hexadecyl hexadecanoate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_1-Hexadecanol
+  - species_id: substrate_Palmitoyl-CoA
+  products:
+  - species_id: product_Coenzyme_A
+  - species_id: product_1-Hexadecyl_hexadecanoate
+  modifiers:
+  - species_id: protein_2_3_1_75_Q8GGG1_p67572
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 38167;38168;38169;38170
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:15346; CHEBI:24538; CHEBI:23355; CHEBI:14396; CHEBI:41631;
+    CHEBI:15525; CHEBI:13295; CHEBI:5696; CHEBI:41597; CHEBI:57379; CHEBI:14732; CHEBI:57287;
+    CHEBI:13294; CHEBI:75584; CHEBI:14397; CHEBI:7898; CHEBI:24543; CHEBI:16125; CHEBI:3771;
+    CHEBI:741566; CHEBI:45015; CHEBI:13298
+
+    KEGG IDs: KEGG:C00154; KEGG:C13821; KEGG:C00823; KEGG:C00010'
+measurements:
+- id: measurement_2_3_1_20_bovine_Q8GGG1_1
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 35.0
+  temperature_unit: °C
+- id: measurement_2_3_1_75_bovine_Q8GGG1_1-Hexadecanol
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 35.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_3_1_20_bovine_Q8GGG1_1_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 9.05e-10
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 35.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12502715'
+- id: 2_3_1_20_bovine_Q8GGG1_1_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.11e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 35.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12502715'
+- id: 2_3_1_75_bovine_Q8GGG1_1-Hexadecanol_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 3.546667e-09
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1-Hexadecanol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 35.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12502715'
+- id: 2_3_1_75_bovine_Q8GGG1_1-Hexadecanol_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.56e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1-Hexadecanol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 35.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12502715'
+buffer:
+  buffer: 125 mM sodium phosphate, 10 mM MgCl2, 4.63 mg/ml bovine serum albumin
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 67573
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12502715/
+  pubmed_id: '12502715'
+  doi: null
+name: Merged entry for Q8GGG1 wildtype
+description: 'Merged from 2 files: SABIO_EC2.3.1.20_bovine__Q8GGG1_s_1.yaml, SABIO_EC2.3.1.75_bovine__Q8GGG1_s_1-Hexadecanol.yaml'

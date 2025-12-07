@@ -1,0 +1,200 @@
+version: '2.0'
+created: '2025-11-20T13:39:12.876360'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_unknown_Q8H157_p59988
+  name: protein#59988
+  ecnumber: null
+  organism: Arabidopsis thaliana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q8H157
+  wildtype_sequence: MEVEEEVSRWEGYADWRNRAAVKGRHGGMLAASFVLVVEILENLAYLANASNLVLYLREYMHMSPSKSANDVTNFMGTAFLLALLGGFLSDAFFSTFQIFLISASIEFLGLIILTIQARTPSLMPPSCDSPTCEEVSGSKAAMLFVGLYLVALGVGGIKGSLASHGAEQFDESTPKGRKQRSTFFNYFVFCLACGALVAVTFVVWLEDNKGWEWGFGVSTIAIFVSILIFLSGSRFYRNKIPCGSPLTTILKVLLAASVKCCSSGSSSNAVASMSVSPSNHCVSKGKKEVESQGELEKPRQEEALPPRAQLTNSLKVLNGAADEKPVHRLLECTVQQVEDVKIVLKMLPIFACTIMLNCCLAQLSTFSVQQAASMNTKIGSLKIPPASLPIFPVVFIMILAPIYDHLIIPFARKATKTETGVTHLQRIGVGLVLSILAMAVAALVEIKRKGVAKDSGLLDSKETLPVTFLWIALQYLFLGSADLFTLAGLLEYFFTEAPSSMRSLATSLSWASLAMGYYLSSVIVSIVNSITGSSGNTPWLRGKSINRYKLDYFYWLMCVLSAANFLHYLFWAMRYKYRSTGSRS
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Nitrate
+  name: Nitrate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Nitrate
+  name: Nitrate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Abscisate
+  name: Abscisate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Abscisate
+  name: Abscisate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_14537_ECunknown_Arabidopsis_thaliana_Q8H157_Nitrate
+  name: Reaction catalyzed by enzyme on Nitrate
+  equation: Nitrate = Nitrate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: product_Nitrate
+  products:
+  - species_id: product_Nitrate
+  modifiers:
+  - species_id: protein_unknown_Q8H157_p59988
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:48107; CHEBI:25545; CHEBI:17632; CHEBI:7580
+
+    KEGG IDs: KEGG:C00244'
+- id: sabiork_16477_ECunknown_Arabidopsis_thaliana_Q8H157_Abscisate
+  name: Reaction catalyzed by enzyme on Abscisate
+  equation: Abscisate = Abscisate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: product_Abscisate
+  products:
+  - species_id: product_Abscisate
+  modifiers:
+  - species_id: protein_unknown_Q8H157_p75806
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:49196; CHEBI:158341; CHEBI:2365; CHEBI:62071; CHEBI:37569;
+    CHEBI:22152
+
+    KEGG IDs: KEGG:C06082'
+measurements:
+- id: measurement_unknown_Arabidopsis_thaliana_Q8H157_Nitrate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 5.5
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_unknown_Arabidopsis_thaliana_Q8H157_Abscisate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: unknown_Arabidopsis_thaliana_Q8H157_Nitrate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0059
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_Nitrate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '10449574'
+- id: unknown_Arabidopsis_thaliana_Q8H157_Abscisate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.0e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_Abscisate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22645333'
+buffer:
+  buffer: 10 mM Tris-Mes, 230 mM mannitol, 0.15 mM CaCl2; 50 mM potassium phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 59988
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10449574/
+  pubmed_id: '10449574'
+  doi: null
+- title: Reference for SABIO-RK entry 75806
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/22645333/
+  pubmed_id: '22645333'
+  doi: null
+name: Merged entry for Q8H157 wildtype
+description: 'Merged from 2 files: SABIO_Arabidopsis_thaliana__Q8H157_s_Nitrate.yaml,
+  SABIO_Arabidopsis_thaliana__Q8H157_s_Abscisate.yaml'

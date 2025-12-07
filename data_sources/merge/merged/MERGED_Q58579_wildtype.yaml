@@ -1,0 +1,373 @@
+version: '2.0'
+created: '2025-11-20T13:40:47.651382'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_7_2_Q58579_p65536
+  name: FAD synthetase
+  ecnumber: 2.7.7.2
+  organism: Methanocaldococcus jannaschii
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q58579
+  wildtype_sequence: MKKRVVTAGTFDILHPGHYEILKFAKSLGDELIVIVARDETVKKLKGRKPIIPEEQRREMVEALKPVDKAILGSLKNKLEPILELKPDIIVLGPDQTTFDEETLKKELAKYNLYPEIVRFRGYKKCPFHSSFDIVKEIIRRFCNKEIKI
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Riboflavin-5-phosphate
+  name: Riboflavin-5-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mg2_
+  name: Mg2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_FAD
+  name: FAD
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_CTP
+  name: CTP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Flavin_cytidine_dinucleotide
+  name: Flavin cytidine dinucleotide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_390_EC2_7_7_2_Methanocaldococcus_jannaschii_Q58579_ATP
+  name: Reaction catalyzed by FAD synthetase on ATP
+  equation: ATP + Riboflavin-5-phosphate = FAD + Diphosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Riboflavin-5-phosphate
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_FAD
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_2_7_7_2_Q58579_p65536
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00161
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16238; CHEBI:10789; CHEBI:57299;
+    CHEBI:17621; CHEBI:8683; CHEBI:13379; CHEBI:6635; CHEBI:33019; CHEBI:4960; CHEBI:13236;
+    CHEBI:24040; CHEBI:45067; CHEBI:10841; CHEBI:29888; CHEBI:2359; CHEBI:21127; CHEBI:35782;
+    CHEBI:21125; CHEBI:49736; CHEBI:40938; CHEBI:13420; CHEBI:18361; CHEBI:33017;
+    CHEBI:42587; CHEBI:13315; CHEBI:13317; CHEBI:45208; CHEBI:42388; CHEBI:22249;
+    CHEBI:24041; CHEBI:15422; CHEBI:18420; CHEBI:25112; CHEBI:4956; CHEBI:45212; CHEBI:42009;
+    CHEBI:39127; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00305; KEGG:C00002; KEGG:C00061; KEGG:C00016'
+- id: sabiork_390_EC2_7_7_2_Methanocaldococcus_jannaschii_Q58579_Riboflavin-5-phosphate
+  name: Reaction catalyzed by FAD synthetase on Riboflavin-5-phosphate
+  equation: ATP + Riboflavin-5-phosphate = FAD + Diphosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Riboflavin-5-phosphate
+  - species_id: substrate_ATP
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_FAD
+  modifiers:
+  - species_id: protein_2_7_7_2_Q58579_p65537
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00161
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16238; CHEBI:10789; CHEBI:17621;
+    CHEBI:57299; CHEBI:8683; CHEBI:13379; CHEBI:6635; CHEBI:33019; CHEBI:4960; CHEBI:13236;
+    CHEBI:24040; CHEBI:45067; CHEBI:10841; CHEBI:29888; CHEBI:2359; CHEBI:35782; CHEBI:21127;
+    CHEBI:21125; CHEBI:49736; CHEBI:40938; CHEBI:13420; CHEBI:18361; CHEBI:33017;
+    CHEBI:42587; CHEBI:13315; CHEBI:13317; CHEBI:45208; CHEBI:42388; CHEBI:24041;
+    CHEBI:22249; CHEBI:15422; CHEBI:18420; CHEBI:25112; CHEBI:4956; CHEBI:45212; CHEBI:42009;
+    CHEBI:39127; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00305; KEGG:C00061; KEGG:C00002; KEGG:C00016'
+- id: sabiork_15250_EC2_7_7_2_Methanocaldococcus_jannaschii_Q58579_Riboflavin-5-phosphate
+  name: Reaction catalyzed by FAD synthetase on Riboflavin-5-phosphate
+  equation: CTP + Riboflavin-5-phosphate = Diphosphate + Flavin cytidine dinucleotide
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Riboflavin-5-phosphate
+  - species_id: substrate_CTP
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_Flavin_cytidine_dinucleotide
+  modifiers:
+  - species_id: protein_2_7_7_2_Q58579_p65538
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:17677; CHEBI:58231; CHEBI:8683; CHEBI:17621; CHEBI:13379;
+    CHEBI:23522; CHEBI:6635; CHEBI:13286; CHEBI:33019; CHEBI:4960; CHEBI:3285; CHEBI:45067;
+    CHEBI:29888; CHEBI:35782; CHEBI:21127; CHEBI:49736; CHEBI:41675; CHEBI:13420;
+    CHEBI:18361; CHEBI:33017; CHEBI:42587; CHEBI:13317; CHEBI:45208; CHEBI:24041;
+    CHEBI:18420; CHEBI:25112; CHEBI:37563; CHEBI:45212; CHEBI:42009; CHEBI:39127;
+    CHEBI:33018
+
+    KEGG IDs: KEGG:C00061; KEGG:C00305; KEGG:C00013; KEGG:C00063'
+measurements:
+- id: measurement_2_7_7_2_Methanocaldococcus_jannaschii_Q58579_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 70.0
+  temperature_unit: °C
+- id: measurement_2_7_7_2_Methanocaldococcus_jannaschii_Q58579_Riboflavin-5-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 70.0
+  temperature_unit: °C
+- id: measurement_2_7_7_2_Methanocaldococcus_jannaschii_Q58579_Riboflavin-5-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 70.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_7_2_Methanocaldococcus_jannaschii_Q58579_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 70.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20822113'
+- id: 2_7_7_2_Methanocaldococcus_jannaschii_Q58579_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.333333e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 70.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20822113'
+- id: 2_7_7_2_Methanocaldococcus_jannaschii_Q58579_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 160.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.2
+  temperature: 70.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20822113'
+- id: 2_7_7_2_Methanocaldococcus_jannaschii_Q58579_Riboflavin-5-phosphate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.333333e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Riboflavin-5-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 70.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20822113'
+- id: 2_7_7_2_Methanocaldococcus_jannaschii_Q58579_Riboflavin-5-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.3e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Riboflavin-5-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 70.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20822113'
+- id: 2_7_7_2_Methanocaldococcus_jannaschii_Q58579_Riboflavin-5-phosphate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 64.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Riboflavin-5-phosphate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.2
+  temperature: 70.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20822113'
+- id: 2_7_7_2_Methanocaldococcus_jannaschii_Q58579_Riboflavin-5-phosphate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 6.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Riboflavin-5-phosphate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.2
+  temperature: 70.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20822113'
+- id: 2_7_7_2_Methanocaldococcus_jannaschii_Q58579_Riboflavin-5-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00048
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Riboflavin-5-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 70.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20822113'
+- id: 2_7_7_2_Methanocaldococcus_jannaschii_Q58579_Riboflavin-5-phosphate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.666667e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Riboflavin-5-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 70.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20822113'
+buffer:
+  buffer: 35 mM TES (K+)
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 65536
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/20822113/
+  pubmed_id: '20822113'
+  doi: null
+name: Merged entry for Q58579 wildtype
+description: 'Merged from 3 files: SABIO_EC2.7.7.2_Methanocaldococcus_jannaschii__Q58579_s_ATP.yaml,
+  SABIO_EC2.7.7.2_Methanocaldococcus_jannaschii__Q58579_s_Riboflavin-5-phospha.yaml,
+  SABIO_EC2.7.7.2_Methanocaldococcus_jannaschii__Q58579_s_Riboflavin-5-phospha_2.yaml'

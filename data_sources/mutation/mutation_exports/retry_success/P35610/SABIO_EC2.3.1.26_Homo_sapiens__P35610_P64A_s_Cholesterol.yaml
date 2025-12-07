@@ -1,0 +1,140 @@
+name: SABIO-RK Entry 63628
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 63628
+created: '2025-10-28T16:45:18.171807'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_3_1_26_P35610_p63628
+  name: sterol O-acyltransferase
+  ecnumber: 2.3.1.26
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: P64A
+  uniprotid: P35610
+  wildtype_sequence: MVGEEKMSLRNRLSKSRENPEEDEDQRNPAKESLETPSNGRIDIKQLIAKKIKLTAEAEELKPFFMKEVGSHFDDFVTNLIEKSASLDNGGCALTTFSVLEGEKNNHRAKDLRAPPEQGKIFIARRSLLDELLEVDHIRTIYHMFIALLILFILSTLVVDYIDEGRLVLEFSLLSYAFGKFPTVVWTWWIMFLSTFSVPYFLFQHWATGYSKSSHPLIRSLFHGFLFMIFQIGVLGFGPTYVVLAYTLPPASRFIIIFEQIRFVMKAHSFVRENVPRVLNSAKEKSSTVPIPTVNQYLYFLFAPTLIYRDSYPRNPTVRWGYVAMKFAQVFGCFFYVYYIFERLCAPLFRNIKQEPFSARVLVLCVFNSILPGVLILFLTFFAFLHCWLNAFAEMLRFGDRMFYKDWWNSTSYSNYYRTWNVVVHDWLYYYAYKDFLWFFSKRFKSAAMLAVFAVSAVVHEYALAVCLSFFYPVLFVLFMFFGMAFNFIVNDSRKKPIWNVLMWTSLFLGNGVLLCFYSQEWYARQHCPLKNPTFLDYVRPRSWTCRYVF
+  mutant_sequence: MVGEEKMSLRNRLSKSRENPEEDEDQRNPAKESLETPSNGRIDIKQLIAKKIKLTAEAEELKAFFMKEVGSHFDDFVTNLIEKSASLDNGGCALTTFSVLEGEKNNHRAKDLRAPPEQGKIFIARRSLLDELLEVDHIRTIYHMFIALLILFILSTLVVDYIDEGRLVLEFSLLSYAFGKFPTVVWTWWIMFLSTFSVPYFLFQHWATGYSKSSHPLIRSLFHGFLFMIFQIGVLGFGPTYVVLAYTLPPASRFIIIFEQIRFVMKAHSFVRENVPRVLNSAKEKSSTVPIPTVNQYLYFLFAPTLIYRDSYPRNPTVRWGYVAMKFAQVFGCFFYVYYIFERLCAPLFRNIKQEPFSARVLVLCVFNSILPGVLILFLTFFAFLHCWLNAFAEMLRFGDRMFYKDWWNSTSYSNYYRTWNVVVHDWLYYYAYKDFLWFFSKRFKSAAMLAVFAVSAVVHEYALAVCLSFFYPVLFVLFMFFGMAFNFIVNDSRKKPIWNVLMWTSLFLGNGVLLCFYSQEWYARQHCPLKNPTFLDYVRPRSWTCRYVF
+  position_offset: -1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Cholesterol
+  name: Cholesterol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Oleoyl-CoA
+  name: Oleoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Cholesteryl_oleate
+  name: Cholesteryl oleate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_14935_EC2_3_1_26_Homo_sapiens_P35610_Cholesterol
+  name: Reaction catalyzed by sterol O-acyltransferase on Cholesterol
+  equation: Cholesterol + Oleoyl-CoA = Coenzyme A + Cholesteryl oleate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Cholesterol
+  - species_id: substrate_Oleoyl-CoA
+  products:
+  - species_id: product_Coenzyme_A
+  - species_id: product_Cholesteryl_oleate
+  modifiers:
+  - species_id: protein_2_3_1_26_P35610_p63628
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:46898; CHEBI:57287; CHEBI:15346; CHEBI:16113; CHEBI:23355;
+    CHEBI:3771; CHEBI:13295; CHEBI:77537; CHEBI:13294; CHEBI:15534; CHEBI:741566;
+    CHEBI:78146; CHEBI:41597; CHEBI:41631; CHEBI:13298
+
+    KEGG IDs: KEGG:C00510; KEGG:C14641; KEGG:C00010; KEGG:C00187'
+measurements:
+- id: measurement_2_3_1_26_Homo_sapiens_P35610_Cholesterol
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.8
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 50 mM Tris, 1 mM EDTA, 18.6 mM Taurocholate, 11.2 mM Phosphatidylcholine
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 63628
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11888294/
+  pubmed_id: '11888294'
+  doi: null

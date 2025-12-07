@@ -1,0 +1,178 @@
+name: SABIO-RK Entry 12376
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 12376
+created: '2025-10-28T14:00:45.657457'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_2_1_3_P05091_p12376
+  name: aldehyde dehydrogenase (NAD+)
+  ecnumber: 1.2.1.3
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: E487K
+  uniprotid: P05091
+  wildtype_sequence: MLRAAARFGPRLGRRLLSAAATQAVPAPNQQPEVFCNQIFINNEWHDAVSRKTFPTVNPSTGEVICQVAEGDKEDVDKAVKAARAAFQLGSPWRRMDASHRGRLLNRLADLIERDRTYLAALETLDNGKPYVISYLVDLDMVLKCLRYYAGWADKYHGKTIPIDGDFFSYTRHEPVGVCGQIIPWNFPLLMQAWKLGPALATGNVVVMKVAEQTPLTALYVANLIKEAGFPPGVVNIVPGFGPTAGAAIASHEDVDKVAFTGSTEIGRVIQVAAGSSNLKRVTLELGGKSPNIIMSDADMDWAVEQAHFALFFNQGQCCCAGSRTFVQEDIYDEFVERSVARAKSRVVGNPFDSKTEQGPQVDETQFKKILGYINTGKQEGAKLLCGGGIAADRGYFIQPTVFGDVQDGMTIAKEEIFGPVMQILKFKTIEEVVGRANNSTYGLAAAVFTKDLDKANYLSQALQAGTVWVNCYDVFGAQSPFGGYKMSGSGRELGEYGLQAYTEVKTVTVKVPQKNS
+  mutant_sequence: MLRAAARFGPRLGRRLLSAAATQAVPAPNQQPEVFCNQIFINNEWHDAVSRKTFPTVNPSTGEVICQVAEGDKEDVDKAVKAARAAFQLGSPWRRMDASHRGRLLNRLADLIERDRTYLAALETLDNGKPYVISYLVDLDMVLKCLRYYAGWADKYHGKTIPIDGDFFSYTRHEPVGVCGQIIPWNFPLLMQAWKLGPALATGNVVVMKVAEQTPLTALYVANLIKEAGFPPGVVNIVPGFGPTAGAAIASHEDVDKVAFTGSTEIGRVIQVAAGSSNLKRVTLELGGKSPNIIMSDADMDWAVEQAHFALFFNQGQCCCAGSRTFVQEDIYDEFVERSVARAKSRVVGNPFDSKTEQGPQVDETQFKKILGYINTGKQEGAKLLCGGGIAADRGYFIQPTVFGDVQDGMTIAKEEIFGPVMQILKFKTIEEVVGRANNSTYGLAAAVFTKDLDKANYLSQALQAGTVWVNCYDVFGAQSPFGGYKMSGSGRKLGEYGLQAYTEVKTVTVKVPQKNS
+  position_offset: 6
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Propanal
+  name: Propanal
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Propanoate
+  name: Propanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_9833_EC1_2_1_3_Homo_sapiens_P05091_Propanal
+  name: Reaction catalyzed by aldehyde dehydrogenase (NAD+) on Propanal
+  equation: Propanal + NAD+ + H2O = Propanoate + NADH + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Propanal
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_NADH
+  - species_id: product_Propanoate
+  modifiers:
+  - species_id: protein_1_2_1_3_P05091_p12376
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:17272; CHEBI:45227;
+    CHEBI:44281; CHEBI:42857; CHEBI:17153; CHEBI:13393; CHEBI:14898; CHEBI:41979;
+    CHEBI:8468; CHEBI:15846; CHEBI:29234; CHEBI:13357; CHEBI:45052; CHEBI:21902; CHEBI:13396;
+    CHEBI:21901; CHEBI:42043; CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:33811;
+    CHEBI:13394; CHEBI:33813; CHEBI:27313; CHEBI:5584; CHEBI:15377; CHEBI:13352; CHEBI:57945;
+    CHEBI:44216; CHEBI:8476; CHEBI:26281; CHEBI:41359; CHEBI:57540; CHEBI:43228; CHEBI:7423;
+    CHEBI:26290; CHEBI:44292; CHEBI:13389; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:14903; CHEBI:15378; CHEBI:13395; CHEBI:30768; CHEBI:44215; CHEBI:10744;
+    CHEBI:26304; CHEBI:29373; CHEBI:44701; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00479; KEGG:C00163; KEGG:C00080; KEGG:C00001; KEGG:C00003; KEGG:C00004'
+measurements:
+- id: measurement_1_2_1_3_Homo_sapiens_P05091_Propanal
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_2_1_3_Homo_sapiens_P05091_Propanal_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0074
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Propanal
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7910607'
+- id: 1_2_1_3_Homo_sapiens_P05091_Propanal_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.3166667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Propanal
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7910607'
+buffer:
+  buffer: 50 mM sodium phosphate
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 12376
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/7910607/
+  pubmed_id: '7910607'
+  doi: null

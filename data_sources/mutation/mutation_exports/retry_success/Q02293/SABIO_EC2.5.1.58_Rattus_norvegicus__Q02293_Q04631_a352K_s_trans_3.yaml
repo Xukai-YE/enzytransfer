@@ -1,0 +1,170 @@
+name: SABIO-RK Entry 17880
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 17880
+created: '2025-10-28T14:11:37.752457'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_5_1_58_Q02293_Q04631_p17880
+  name: protein farnesyltransferase
+  sequence: null
+  ecnumber: 2.5.1.58
+  organism: Rattus norvegicus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: a352K
+  uniprotid: Q02293; Q04631
+  mutant_sequence: MASSSSFTYYCPPSSSPVWSEPLYSLRPEHARERLQDDSVETVTSIEQAKVEEKIQEVFSSYKFNHLVPRLVLQREKHFHYLKRGLRQLTDAYECLDASRPWLCYWILHSLELLDEPIPQIVATDVCQFLELCQSPDGGFGGGPGQYPHLAPTYAAVNALCIIGTEEAYNVINREKLLQYLYSLKQPDGSFLMHVGGEVDVRSAYCAASVASLTNIITPDLFEGTAEWIARCQNWEGGIGGVPGMEAHGGYTFCGLAALVILKKERSLNLKSLLQWVTSRQMRFEGGFQGRCNKLVDGCYSFWQAGLLPLLHRALHAQGDPALSMSHWMFHQQALQEYILMCCQCPKGGLLDKPGKSRDFYHTCYCLSGLSIAQHFGSGAMLHDVVMGVPENVLQPTHPVYNIGPDKVIQATTHFLQKPVPGFEECEDAVTSDPATD
+  position_offset: -5
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_trans
+  name: trans
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_trans-Farnesyl_diphosphate
+  name: trans-Farnesyl diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Protein_cysteine
+  name: Protein cysteine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mn2_
+  name: Mn2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_S-Farnesyl_protein
+  name: S-Farnesyl protein
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_9952_EC2_5_1_58_Rattus_norvegicus_Q02293_Q04631_trans
+  name: Reaction catalyzed by protein farnesyltransferase on trans
+  equation: trans,trans-Farnesyl diphosphate + Protein cysteine = Diphosphate + S-Farnesyl
+    protein
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_trans
+  - species_id: substrate_trans-Farnesyl_diphosphate
+  - species_id: substrate_Protein_cysteine
+  - species_id: cofactor_Mn2_
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_S-Farnesyl_protein
+  modifiers:
+  - species_id: protein_2_5_1_58_Q02293_Q04631_p17880
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R09844
+  notes: 'ChEBI IDs: CHEBI:29035; CHEBI:8683; CHEBI:19789; CHEBI:10700; CHEBI:49749;
+    CHEBI:33019; CHEBI:45067; CHEBI:12854; CHEBI:29888; CHEBI:35782; CHEBI:25156;
+    CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:175763; CHEBI:11488; CHEBI:45208;
+    CHEBI:50277; CHEBI:12874; CHEBI:42496; CHEBI:24016; CHEBI:11491; CHEBI:14231;
+    CHEBI:17407; CHEBI:45212; CHEBI:42009; CHEBI:21435; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00448; KEGG:C00034; KEGG:C20119; KEGG:C19610; KEGG:C20120'
+measurements:
+- id: measurement_2_5_1_58_Rattus_norvegicus_Q02293_Q04631_trans
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.8
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 2_5_1_58_Rattus_norvegicus_Q02293_Q04631_trans_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.037
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_trans
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.8
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14532266'
+buffer:
+  buffer: 50 mM Heppso, 1 mM Tris(2-carboxyethyl) phosphine hydrochloride
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 17880
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/14532266/
+  pubmed_id: '14532266'
+  doi: null

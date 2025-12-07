@@ -1,0 +1,133 @@
+name: SABIO-RK Entry 61681
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 61681
+created: '2025-10-28T16:35:01.817844'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_unknown_O34406_O34852_O34315_O34931_O34900_p61681
+  name: protein#61681
+  sequence: null
+  ecnumber: null
+  organism: rat
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: O34406; O34852; O34315; O34931; O34900
+complexes: null
+small_molecules:
+- id: substrate_L-Cystine
+  name: L-Cystine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Cystine
+  name: L-Cystine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_14825_ECunknown_rat_O34406_O34852_O34315_O34931_O34900_L-Cystine
+  name: Reaction catalyzed by enzyme on L-Cystine
+  equation: L-Cystine = L-Cystine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: product_L-Cystine
+  products:
+  - species_id: product_L-Cystine
+  modifiers:
+  - species_id: protein_unknown_O34406_O34852_O34315_O34931_O34900_p61681
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:6209; CHEBI:21278; CHEBI:50058; CHEBI:16283; CHEBI:35491;
+    CHEBI:35492; CHEBI:13097; CHEBI:14062; CHEBI:63163; CHEBI:23513; CHEBI:4052; CHEBI:17376
+
+    KEGG IDs: KEGG:C00491; KEGG:C01420'
+measurements:
+- id: measurement_unknown_rat_O34406_O34852_O34315_O34931_O34900_L-Cystine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: null
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: unknown_rat_O34406_O34852_O34315_O34931_O34900_L-Cystine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.5e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_L-Cystine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15262924'
+buffer:
+  buffer: 6 mM K2HPO4, 4.4 mM KH2PO4, 0.3 mM trisodium citrate, 200 mM xylose, 0.5
+    % glucose, 0.2 mM K2SO4, 60 ¦Ìg/ml chloramphenicol
+  buffer_concentration: 6 mM
+references:
+- title: Reference for SABIO-RK entry 61681
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15262924/
+  pubmed_id: '15262924'
+  doi: null

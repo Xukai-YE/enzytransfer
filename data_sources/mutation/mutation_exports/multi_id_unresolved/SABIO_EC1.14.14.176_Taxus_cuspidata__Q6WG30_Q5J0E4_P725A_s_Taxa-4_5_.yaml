@@ -1,0 +1,205 @@
+name: SABIO-RK Entry 73880
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 73880
+created: '2025-10-28T17:37:51.794246'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_14_14_176_Q6WG30_Q5J0E4_p73880
+  name: taxadiene 5alpha-hydroxylase
+  sequence: null
+  ecnumber: 1.14.14.176
+  organism: Taxus cuspidata
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: P725A
+  uniprotid: Q6WG30; Q5J0E4
+complexes: null
+small_molecules:
+- id: substrate_Taxa-4_5_
+  name: Taxa-4(5)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_11_12_-diene
+  name: 11(12)-diene
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Reduced_acceptor
+  name: Reduced acceptor
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Acceptor
+  name: Acceptor
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Taxa-4_20_
+  name: Taxa-4(20)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_11_12_-dien-5alpha-ol
+  name: 11(12)-dien-5alpha-ol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_5888_EC1_14_14_176_Taxus_cuspidata_Q6WG30_Q5J0E4_Taxa-4_5_
+  name: Reaction catalyzed by taxadiene 5alpha-hydroxylase on Taxa-4(5)
+  equation: O2 + Reduced acceptor + Taxa-4(5),11(12)-diene = H2O + Taxa-4(20),11(12)-dien-5alpha-ol
+    + Acceptor
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Taxa-4_5_
+  - species_id: substrate_11_12_-diene
+  - species_id: substrate_O2
+  - species_id: substrate_Reduced_acceptor
+  products:
+  - species_id: product_Acceptor
+  - species_id: product_Taxa-4_20_
+  - species_id: product_11_12_-dien-5alpha-ol
+  modifiers:
+  - species_id: protein_1_14_14_176_Q6WG30_Q5J0E4_p73880
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R06306
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:8785; CHEBI:29375; CHEBI:44819; CHEBI:41981;
+    CHEBI:13193; CHEBI:30038; CHEBI:26689; CHEBI:30037; CHEBI:42857; CHEBI:41979;
+    CHEBI:15018; CHEBI:23833; CHEBI:13416; CHEBI:42043; CHEBI:33811; CHEBI:33813;
+    CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:13233; CHEBI:15379; CHEBI:43228;
+    CHEBI:44292; CHEBI:15339; CHEBI:30491; CHEBI:33806; CHEBI:25366; CHEBI:44742;
+    CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:29793; CHEBI:7860; CHEBI:10745; CHEBI:29373;
+    CHEBI:44701; CHEBI:17499
+
+    KEGG IDs: KEGG:C00030; KEGG:C16722; KEGG:C00001; KEGG:C00704; KEGG:C11894; KEGG:C00007;
+    KEGG:C00028; KEGG:C11895'
+measurements:
+- id: measurement_1_14_14_176_Taxus_cuspidata_Q6WG30_Q5J0E4_Taxa-4_5_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 32.0
+  temperature_unit: °C
+parameters:
+- id: 1_14_14_176_Taxus_cuspidata_Q6WG30_Q5J0E4_Taxa-4_5__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000123
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Taxa-4_5_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 32.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '28109855'
+- id: 1_14_14_176_Taxus_cuspidata_Q6WG30_Q5J0E4_Taxa-4_5__Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1mol-1
+  initial_value: 0.0005
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Taxa-4_5_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 32.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '28109855'
+buffer:
+  buffer: 0.1 M potassium phosphate, 50 Î¼M POPC lipids, 400 Î¼M NADPH
+  buffer_concentration: 0.1 M
+references:
+- title: Reference for SABIO-RK entry 73880
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/28109855/
+  pubmed_id: '28109855'
+  doi: null

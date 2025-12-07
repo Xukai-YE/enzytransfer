@@ -1,0 +1,282 @@
+version: '2.0'
+created: '2025-11-20T13:41:58.954614'
+modified: null
+creators:
+- given_name: SKiD
+  family_name: Database
+  mail: skid@database.org
+vessels: null
+proteins:
+- id: protein_Q5FQJ0
+  name: Gluconobacter oxydans
+  ecnumber: 1.1.1.184
+  organism: Gluconobacter oxydans
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: null
+  uniprotid: Q5FQJ0
+  wildtype_sequence: MASDTIRIPGIDTPLSRVALGTWAIGGWMWGGPDDDNGVRTIHAALDEGINLIDTAPVYGFGHSEEIVGRALAEKPNKAHVATKLGLHWVGEDEKNMKVFRDSRPARIRKEVEDSLRRLRVETIDLEQIHWPDDKTPIDESARELQKLHQDGKIRALGVSNFSPEQMDIFREVAPLATIQPPLNLFERTIEKDILPYAEKHNAVVLAYGALCRGLLTGKMNRDTTFPKDDLRSNDPKFQKPNFEKYLAAMDEFEKLAEKRGKSVMAFAVRWVLDQGPVIALWGARKPGQVSGVKDVFGWSLTDEEKKAVDDILARHVPNPIDPTFMAPPARD
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_2_3-Pentanedione
+  name: 2,3-Pentanedione
+  canonical_smiles: CC(C(CC)=O)=O
+  inchi: InChI=1S/C5H8O2/c1-3-5(7)4(2)6/h3H2,1-2H3
+  inchikey: TZMFJUDUGYTVRY-UHFFFAOYSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/11747
+- id: product
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)(O)O)O)O)O
+  inchi: InChI=1S/C21H30N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1,3-4,7-8,10-11,13-16,20-21,29-31H,2,5-6H2,(H2,23,32)(H,36,37)(H,38,39)(H2,22,24,25)(H2,33,34,35)
+  inchikey: ACFIXJIJDZMPPO-UHFFFAOYSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/5884
+- id: substrate_methylglyoxal
+  name: methylglyoxal
+  canonical_smiles: CC(=O)C=O
+  inchi: InChI=1S/C3H4O2/c1-3(5)2-4/h2H,1H3
+  inchikey: AIJULSRZWUXGPQ-UHFFFAOYSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/880
+reactions:
+- id: reaction_Q5FQJ0_2_3-Pentanedione
+  name: Reaction catalyzed by enzyme on 2,3-Pentanedione
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2_3-Pentanedione
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_Q5FQJ0
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_Q5FQJ0_NADPH
+  name: Reaction catalyzed by enzyme on NADPH
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_Q5FQJ0
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_Q5FQJ0_methylglyoxal
+  name: Reaction catalyzed by enzyme on methylglyoxal
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_methylglyoxal
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_Q5FQJ0
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+measurements:
+- id: measurement_0
+  name: Experimental conditions (pH=7.0, T=25.0°C)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=7.0, T=25.0°C)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=7.0, T=25.0°C)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: Q5FQJ0_2_3-Pentanedione_kcat_131
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 10.7
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_2_3-Pentanedione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: 'Source: kcat'
+  pubmed_id: '20414648'
+- id: Q5FQJ0_2_3-Pentanedione_Km_11149
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 10.8
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_2_3-Pentanedione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '20414648'
+- id: Q5FQJ0_NADPH_Km_11148
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.075
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '20414648'
+- id: Q5FQJ0_methylglyoxal_kcat_130
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 23.8
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_methylglyoxal
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: 'Source: kcat'
+  pubmed_id: '20414648'
+- id: Q5FQJ0_methylglyoxal_Km_11147
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 2.2
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_methylglyoxal
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '20414648'
+buffer:
+  buffer: null
+  buffer_concentration: null
+references:
+- title: U.
+  authors: Schweiger, P., Gross, H., Deppenmeier
+  year: '2010'
+  journal: Characterization of two aldo-keto reductases from Gluconobacter oxydans
+    621H capable of regio- and stereoselective alpha-ketocarbonyl reduction. Appl.
+    Microbiol
+  uri: null
+  pubmed_id: '20414648'
+  doi: null
+  id: '86'
+  pages: 1415-1426
+  volume: '87'
+  citation: 'Schweiger, P.,Gross, H.,Deppenmeier, U., Characterization of two aldo-keto
+    reductases from Gluconobacter oxydans 621H capable of regio- and stereoselective
+    alpha-ketocarbonyl reduction. Appl. Microbiol, Biotechnol., 2010, 1415-1426, 87,
+    PMID: 20414648'
+name: Merged entry for Q5FQJ0 wildtype
+description: 'Merged from 3 files: SKID_EC1.1.1.184_Gluconobac_Q5FQJ0_2_3-Pentanedion.yaml,
+  SKID_EC1.1.1.184_Gluconobac_Q5FQJ0_NADPH.yaml, SKID_EC1.1.1.184_Gluconobac_Q5FQJ0_methylglyoxal.yaml'

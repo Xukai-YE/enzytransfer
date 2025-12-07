@@ -1,0 +1,304 @@
+version: '2.0'
+created: '2025-11-20T13:39:58.185938'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_1_1_277_D9J0Z7_p56605
+  name: anthranilate O-methyltransferase
+  ecnumber: 2.1.1.277
+  organism: Zea mays
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: D9J0Z7
+  wildtype_sequence: MPMRIERDLHMAIGNGETSYTKNSRIQEKAMFQMKSVLEEATRAVCTTLLPQTMVVADLGCSSGPNTLRFVTEVTRIIAHHCKLEHNRRHDHLPQLQFFLNDLPGNDFNNLFQLIEQFNKSSTTHKGDAATEALQPPCYISGLPGSYYTRIFPSESVHLFHSLFCLQWRSQAPEQLKGTQKSCLDIYITKTMSPSMVKLFQQQFQKDFSLFLRLRYEELVSGGQMVLTFIGRKHEDVFTGESNHLYGLLAQSLKSLVDEGLVEKEKLESFYLPIYSPSVGEVEAIVKQLGLFNMNHVKVFEINWDPYDDSEGDDVHNSIESGENVAKCLRAVMEPLVASQFGERILDELFKEYARRVAKHLENEKTKHAVLVLSIEKAIIHV
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Anthranilate
+  name: Anthranilate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_S-Adenosyl-L-methionine
+  name: S-Adenosyl-L-methionine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_O-Methylanthranilate
+  name: O-Methylanthranilate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_S-Adenosyl-L-homocysteine
+  name: S-Adenosyl-L-homocysteine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Benzoate
+  name: Benzoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Methylbenzoate
+  name: Methylbenzoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_14113_EC2_1_1_277_Zea_mays_D9J0Z7_Anthranilate
+  name: Reaction catalyzed by anthranilate O-methyltransferase on Anthranilate
+  equation: S-Adenosyl-L-methionine + Anthranilate = S-Adenosyl-L-homocysteine + O-Methylanthranilate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Anthranilate
+  - species_id: substrate_S-Adenosyl-L-methionine
+  products:
+  - species_id: product_O-Methylanthranilate
+  - species_id: product_S-Adenosyl-L-homocysteine
+  modifiers:
+  - species_id: protein_2_1_1_277_D9J0Z7_p56605
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 36103;36104;36105;36106
+  KEGGid: R10451
+  notes: 'ChEBI IDs: CHEBI:73244; CHEBI:22036; CHEBI:12760; CHEBI:12742; CHEBI:59789;
+    CHEBI:67009; CHEBI:22578; CHEBI:45495; CHEBI:142094; CHEBI:8945; CHEBI:67040;
+    CHEBI:16567; CHEBI:45607; CHEBI:33442; CHEBI:15414; CHEBI:40980; CHEBI:10833;
+    CHEBI:22575; CHEBI:22577; CHEBI:12761; CHEBI:12741; CHEBI:57856; CHEBI:2757; CHEBI:16680;
+    CHEBI:30754; CHEBI:12759; CHEBI:8946; CHEBI:22034; CHEBI:527887; CHEBI:10786;
+    CHEBI:13841; CHEBI:12757
+
+    KEGG IDs: KEGG:C00021; KEGG:C00108; KEGG:C20634; KEGG:C00019'
+- id: sabiork_14114_EC2_1_1_277_Zea_mays_D9J0Z7_Benzoate
+  name: Reaction catalyzed by anthranilate O-methyltransferase on Benzoate
+  equation: S-Adenosyl-L-methionine + Benzoate = S-Adenosyl-L-homocysteine + Methylbenzoate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Benzoate
+  - species_id: substrate_S-Adenosyl-L-methionine
+  products:
+  - species_id: product_S-Adenosyl-L-homocysteine
+  - species_id: product_Methylbenzoate
+  modifiers:
+  - species_id: protein_2_1_1_277_D9J0Z7_p56606
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:22036; CHEBI:12760; CHEBI:12742; CHEBI:59789; CHEBI:67009;
+    CHEBI:45495; CHEBI:142094; CHEBI:8945; CHEBI:67040; CHEBI:45607; CHEBI:33442;
+    CHEBI:19781; CHEBI:15414; CHEBI:41051; CHEBI:28872; CHEBI:10833; CHEBI:16150;
+    CHEBI:12761; CHEBI:12741; CHEBI:57856; CHEBI:22722; CHEBI:16680; CHEBI:12759;
+    CHEBI:8946; CHEBI:13879; CHEBI:22034; CHEBI:10610; CHEBI:527887; CHEBI:19782;
+    CHEBI:36632; CHEBI:10786; CHEBI:22717; CHEBI:3029; CHEBI:30746; CHEBI:12757
+
+    KEGG IDs: KEGG:C07215; KEGG:C00539; KEGG:C00180; KEGG:C00021; KEGG:C00019'
+measurements:
+- id: measurement_2_1_1_277_Zea_mays_D9J0Z7_Anthranilate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_1_1_277_Zea_mays_D9J0Z7_Benzoate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_1_1_277_Zea_mays_D9J0Z7_Anthranilate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.9e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Anthranilate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20519632'
+- id: 2_1_1_277_Zea_mays_D9J0Z7_Anthranilate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.45
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Anthranilate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20519632'
+- id: 2_1_1_277_Zea_mays_D9J0Z7_Anthranilate_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000641
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Anthranilate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20519632'
+- id: 2_1_1_277_Zea_mays_D9J0Z7_Anthranilate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 700.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Anthranilate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20519632'
+- id: 2_1_1_277_Zea_mays_D9J0Z7_Benzoate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 20.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Benzoate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20519632'
+- id: 2_1_1_277_Zea_mays_D9J0Z7_Benzoate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.04
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Benzoate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20519632'
+- id: 2_1_1_277_Zea_mays_D9J0Z7_Benzoate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.025e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Benzoate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20519632'
+buffer:
+  buffer: "40.5 mM Tris-HCl, 81 mM KCl, 4.05 mM Ã\x9F-Mercaptoethanol, 8.1 % glycerol"
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 56605
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/20519632/
+  pubmed_id: '20519632'
+  doi: null
+name: Merged entry for D9J0Z7 wildtype
+description: 'Merged from 2 files: SABIO_EC2.1.1.277_Zea_mays__D9J0Z7_s_Anthranilate.yaml,
+  SABIO_EC2.1.1.277_Zea_mays__D9J0Z7_s_Benzoate.yaml'

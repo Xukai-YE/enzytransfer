@@ -1,0 +1,401 @@
+version: '2.0'
+created: '2025-11-20T13:39:26.783694'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1__Q13268_p44569
+  name: L-xylulose reductase
+  ecnumber: 1.1.1.
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q13268
+  wildtype_sequence: MLSAVARGYQGWFHPCARLSVRMSSTGIDRKGVLANRVAVVTGSTSGIGFAIARRLARDGAHVVISSRKQQNVDRAMAKLQGEGLSVAGIVCHVGKAEDREQLVAKALEHCGGVDFLVCSAGVNPLVGSTLGTSEQIWDKILSVNVKSPALLLSQLLPYMENRRGAVILVSSIAAYNPVVALGVYNVSKTALLGLTRTLALELAPKDIRVNCVVPGIIKTDFSKVFHGNESLWKNFKEHHQLQRIGESEDCAGIVSFLCSPDASYVNGENIAVAGYSTRL
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_1-Phenyl-1
+  name: 1-Phenyl-1
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_2-propanedione
+  name: 2-propanedione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Unknown
+  name: Unknown
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_2
+  name: '2'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_3-Heptanedione
+  name: 3-Heptanedione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_3
+  name: '3'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_4-Hexanedione
+  name: 4-Hexanedione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Propioin
+  name: Propioin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_8030_EC1_1_1__Homo_sapiens_Q13268_1-Phenyl-1
+  name: Reaction catalyzed by L-xylulose reductase on 1-Phenyl-1
+  equation: NADPH + 1-Phenyl-1,2-propanedione + H+ = Unknown + NADP+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_1-Phenyl-1
+  - species_id: substrate_2-propanedione
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_NADP_
+  - species_id: product_Unknown
+  modifiers:
+  - species_id: protein_1_1_1__Q13268_p44569
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:7424; CHEBI:44405; CHEBI:21903;
+    CHEBI:7425; CHEBI:29234; CHEBI:13357; CHEBI:25523; CHEBI:24636; CHEBI:29233; CHEBI:5584;
+    CHEBI:13399; CHEBI:16474; CHEBI:63552; CHEBI:44286; CHEBI:21904; CHEBI:44409;
+    CHEBI:15378; CHEBI:18009; CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00005; KEGG:C17268; KEGG:C00080; KEGG:C00006; KEGG:C11037'
+- id: sabiork_12097_EC1_1_1__Homo_sapiens_Q13268_NADPH
+  name: Reaction catalyzed by With NAD(+) or NADP(+) as acceptor on NADPH
+  equation: H+ + NADPH + 2,3-Heptanedione = Unknown + NADP+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_2
+  - species_id: substrate_3-Heptanedione
+  products:
+  - species_id: product_NADP_
+  - species_id: product_Unknown
+  modifiers:
+  - species_id: protein_1_1_1__Q13268_p44570
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:7424; CHEBI:44405; CHEBI:21903;
+    CHEBI:7425; CHEBI:29234; CHEBI:88623; CHEBI:13357; CHEBI:25523; CHEBI:24636; CHEBI:29233;
+    CHEBI:5584; CHEBI:13399; CHEBI:16474; CHEBI:44286; CHEBI:21904; CHEBI:44409; CHEBI:15378;
+    CHEBI:18009; CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00006; KEGG:C00005; KEGG:C11037; KEGG:C00080'
+- id: sabiork_8044_EC1_1_1__Homo_sapiens_Q13268_3
+  name: Reaction catalyzed by L-xylulose reductase on 3
+  equation: H+ + NADPH + 3,4-Hexanedione = Propioin + NADP+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3
+  - species_id: substrate_4-Hexanedione
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_NADP_
+  - species_id: product_Propioin
+  modifiers:
+  - species_id: protein_1_1_1__Q13268_p44571
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:88652; CHEBI:13397; CHEBI:13398; CHEBI:1866; CHEBI:7424;
+    CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357; CHEBI:25523; CHEBI:24636;
+    CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:16474; CHEBI:44286; CHEBI:20379; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:18351; CHEBI:18009; CHEBI:58349; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744; CHEBI:11995
+
+    KEGG IDs: KEGG:C02948; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C11037'
+measurements:
+- id: measurement_1_1_1__Homo_sapiens_Q13268_1-Phenyl-1
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_1_1__Homo_sapiens_Q13268_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_1_1__Homo_sapiens_Q13268_3
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1__Homo_sapiens_Q13268_1-Phenyl-1_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 833.3333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1-Phenyl-1
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 6.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16685466'
+- id: 1_1_1__Homo_sapiens_Q13268_1-Phenyl-1_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0003
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1-Phenyl-1
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16685466'
+- id: 1_1_1__Homo_sapiens_Q13268_1-Phenyl-1_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.2533333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1-Phenyl-1
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16685466'
+- id: 1_1_1__Homo_sapiens_Q13268_NADPH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.6666667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16685466'
+- id: 1_1_1__Homo_sapiens_Q13268_NADPH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0011
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16685466'
+- id: 1_1_1__Homo_sapiens_Q13268_NADPH_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 600.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 6.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16685466'
+- id: 1_1_1__Homo_sapiens_Q13268_3_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 250.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 6.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16685466'
+- id: 1_1_1__Homo_sapiens_Q13268_3_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.195
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16685466'
+- id: 1_1_1__Homo_sapiens_Q13268_3_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0008
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16685466'
+buffer:
+  buffer: 100 mM Phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 44569
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16685466/
+  pubmed_id: '16685466'
+  doi: null
+name: Merged entry for Q13268 wildtype
+description: 'Merged from 3 files: SABIO_EC1.1.1._Homo_sapiens__Q13268_s_1-Phenyl-1.yaml,
+  SABIO_EC1.1.1._Homo_sapiens__Q13268_s_NADPH.yaml, SABIO_EC1.1.1._Homo_sapiens__Q13268_s_3.yaml'

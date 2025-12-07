@@ -1,0 +1,209 @@
+name: SABIO-RK Entry 75467
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 75467
+created: '2025-10-28T17:45:02.517658'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_5_1_18_O80852_p75467
+  name: glutathione transferase
+  ecnumber: 2.5.1.18
+  organism: Arabidopsis thaliana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: H2O
+  uniprotid: O80852
+  wildtype_sequence: MVLKVYGPHFASPKRALVTLIEKGVAFETIPVDLMKGEHKQPAYLALQPFGTVPAVVDGDYKIFESRAVMRYVAEKYRSQGPDLLGKTVEDRGQVEQWLDVEATTYHPPLLNLTLHIMFASVMGFPSDEKLIKESEEKLAGVLDVYEAHLSKSKYLAGDFVSLADLAHLPFTDYLVGPIGKAYMIKDRKHVSAWWDDISSRPAWKETVAKYSFPA
+  mutant_sequence: MVLKVYGPOFASPKRALVTLIEKGVAFETIPVDLMKGEHKQPAYLALQPFGTVPAVVDGDYKIFESRAVMRYVAEKYRSQGPDLLGKTVEDRGQVEQWLDVEATTYHPPLLNLTLHIMFASVMGFPSDEKLIKESEEKLAGVLDVYEAHLSKSKYLAGDFVSLADLAHLPFTDYLVGPIGKAYMIKDRKHVSAWWDDISSRPAWKETVAKYSFPA
+  position_offset: 7
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_1-Chloro-2
+  name: 1-Chloro-2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_4-dinitrobenzene
+  name: 4-dinitrobenzene
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Reduced_glutathione
+  name: Reduced glutathione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_S-_2
+  name: S-(2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4-Dinitrophenyl_glutathione
+  name: 4-Dinitrophenyl)glutathione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_HCl
+  name: HCl
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_6622_EC2_5_1_18_Arabidopsis_thaliana_O80852_1-Chloro-2
+  name: Reaction catalyzed by glutathione transferase on 1-Chloro-2
+  equation: Reduced glutathione + 1-Chloro-2,4-dinitrobenzene = HCl + S-(2,4-Dinitrophenyl)glutathione
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_1-Chloro-2
+  - species_id: substrate_4-dinitrobenzene
+  - species_id: substrate_Reduced_glutathione
+  products:
+  - species_id: product_S-_2
+  - species_id: product_4-Dinitrophenyl_glutathione
+  - species_id: product_HCl
+  modifiers:
+  - species_id: protein_2_5_1_18_O80852_p75467
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 51220;51221;51222;51223
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:3616; CHEBI:12402; CHEBI:17996; CHEBI:5590; CHEBI:16856;
+    CHEBI:5437; CHEBI:8927; CHEBI:42826; CHEBI:3731; CHEBI:24334; CHEBI:14327; CHEBI:34718;
+    CHEBI:13364; CHEBI:17883; CHEBI:13291; CHEBI:13970; CHEBI:43049; CHEBI:133977;
+    CHEBI:24635; CHEBI:42873; CHEBI:48804; CHEBI:57925
+
+    KEGG IDs: KEGG:C00051; KEGG:C11175; KEGG:C00698; KEGG:C01327; KEGG:C14397'
+measurements:
+- id: measurement_2_5_1_18_Arabidopsis_thaliana_O80852_1-Chloro-2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: null
+  temperature_unit: null
+parameters:
+- id: 2_5_1_18_Arabidopsis_thaliana_O80852_1-Chloro-2_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 7000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1-Chloro-2
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 6.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '29732642'
+- id: 2_5_1_18_Arabidopsis_thaliana_O80852_1-Chloro-2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.5
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1-Chloro-2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '29732642'
+- id: 2_5_1_18_Arabidopsis_thaliana_O80852_1-Chloro-2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.1e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1-Chloro-2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '29732642'
+buffer:
+  buffer: 250 mM MOPS, 150 mM NaCl
+  buffer_concentration: 250 mM
+references:
+- title: Reference for SABIO-RK entry 75467
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/29732642/
+  pubmed_id: '29732642'
+  doi: null

@@ -1,0 +1,273 @@
+version: '2.0'
+created: '2025-11-20T13:40:45.572613'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_7_12_P09148_p48443
+  name: UDP-glucose---hexose-1-phosphate uridylyltransferase
+  ecnumber: 2.7.7.12
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: Q168N
+  uniprotid: P09148
+  wildtype_sequence: MTQFNPVDHPHRRYNPLTGQWILVSPHRAKRPWQGAQETPAKQVLPAHDPDCFLCAGNVRVTGDKNPDYTGTYVFTNDFAALMSDTPDAPESHDPLMRCQSARGTSRVICFSPDHSKTLPELSVAALTEIVKTWQEQTAELGKTYPWVQVFENKGAAMGCSNPHPHGQIWANSFLPNEAEREDRLQKEYFAEQKSPMLVDYVQRELADGSRTVVETEHWLAVVPYWAAWPFETLLLPKAHVLRITDLTDAQRSDLALALKKLTSRYDNLFQCSFPYSMGWHGAPFNGEENQHWQLHAHFYPPLLRSATVRKFMVGYEMLAETQRDLTAEQAAERLRAVSDIHFRESGV
+  mutant_sequence: MTQFNPVDHPHRRYNPLTGQWILVSPHRAKRPWQGAQETPAKQVLPAHDPDCFLCAGNVRVTGDKNPDYTGTYVFTNDFAALMSDTPDAPESHDPLMRCQSARGTSRVICFSPDHSKTLPELSVAALTEIVKTWQEQTAELGKTYPWVQVFENKGAAMGCSNPHPHGNIWANSFLPNEAEREDRLQKEYFAEQKSPMLVDYVQRELADGSRTVVETEHWLAVVPYWAAWPFETLLLPKAHVLRITDLTDAQRSDLALALKKLTSRYDNLFQCSFPYSMGWHGAPFNGEENQHWQLHAHFYPPLLRSATVRKFMVGYEMLAETQRDLTAEQAAERLRAVSDIHFRESGV
+complexes: null
+small_molecules:
+- id: substrate_UDPgalactose
+  name: UDPgalactose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Glucose_1-phosphate
+  name: D-Glucose 1-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Fe2_
+  name: Fe2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Zn2_
+  name: Zn2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_UDPglucose
+  name: UDPglucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_alpha-D-Galactose_1-phosphate
+  name: alpha-D-Galactose 1-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_UDPglucose
+  name: UDPglucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_alpha-D-Galactose_1-phosphate
+  name: alpha-D-Galactose 1-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_UDPgalactose
+  name: UDPgalactose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Glucose_1-phosphate
+  name: D-Glucose 1-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1268_EC2_7_7_12_Escherichia_coli_P09148_UDPgalactose
+  name: Reaction catalyzed by UDP-glucose---hexose-1-phosphate uridylyltransferase
+    on UDPgalactose
+  equation: alpha-D-Galactose 1-phosphate + UDPglucose = D-Glucose 1-phosphate + UDPgalactose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_UDPgalactose
+  - species_id: substrate_D-Glucose_1-phosphate
+  - species_id: cofactor_Fe2_
+  - species_id: cofactor_Zn2_
+  products:
+  - species_id: product_UDPglucose
+  - species_id: product_alpha-D-Galactose_1-phosphate
+  modifiers:
+  - species_id: protein_2_7_7_12_P09148_p48443
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00955
+  notes: 'ChEBI IDs: CHEBI:29105; CHEBI:26049; CHEBI:10113; CHEBI:29033; CHEBI:12306;
+    CHEBI:57684; CHEBI:16218; CHEBI:34754; CHEBI:42878; CHEBI:21129; CHEBI:18307;
+    CHEBI:16077; CHEBI:8142; CHEBI:28149; CHEBI:10232; CHEBI:58336; CHEBI:18066; CHEBI:22374;
+    CHEBI:13319; CHEBI:12374; CHEBI:17973; CHEBI:24876; CHEBI:49972; CHEBI:12305;
+    CHEBI:49982; CHEBI:27368; CHEBI:10398; CHEBI:22796; CHEBI:13321; CHEBI:49599
+
+    KEGG IDs: KEGG:C00038; KEGG:C00446; KEGG:C14818; KEGG:C00103; KEGG:C00029; KEGG:C00663;
+    KEGG:C00052'
+- id: sabiork_1268_EC2_7_7_12_Escherichia_coli_P09148_UDPglucose
+  name: Reaction catalyzed by UDP-glucose---hexose-1-phosphate uridylyltransferase
+    on UDPglucose
+  equation: alpha-D-Galactose 1-phosphate + UDPglucose = D-Glucose 1-phosphate + UDPgalactose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_UDPglucose
+  - species_id: substrate_alpha-D-Galactose_1-phosphate
+  - species_id: cofactor_Fe2_
+  - species_id: cofactor_Zn2_
+  products:
+  - species_id: product_UDPgalactose
+  - species_id: product_D-Glucose_1-phosphate
+  modifiers:
+  - species_id: protein_2_7_7_12_P09148_p48442
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00955
+  notes: 'ChEBI IDs: CHEBI:29105; CHEBI:26049; CHEBI:10113; CHEBI:29033; CHEBI:12306;
+    CHEBI:57684; CHEBI:16218; CHEBI:34754; CHEBI:42878; CHEBI:21129; CHEBI:18307;
+    CHEBI:16077; CHEBI:8142; CHEBI:28149; CHEBI:10232; CHEBI:58336; CHEBI:18066; CHEBI:22374;
+    CHEBI:13319; CHEBI:12374; CHEBI:17973; CHEBI:24876; CHEBI:49972; CHEBI:12305;
+    CHEBI:49982; CHEBI:27368; CHEBI:10398; CHEBI:22796; CHEBI:13321; CHEBI:49599
+
+    KEGG IDs: KEGG:C00038; KEGG:C00446; KEGG:C14818; KEGG:C00103; KEGG:C00663; KEGG:C00029;
+    KEGG:C00052'
+measurements:
+- id: measurement_2_7_7_12_Escherichia_coli_P09148_UDPgalactose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 27.0
+  temperature_unit: °C
+- id: measurement_2_7_7_12_Escherichia_coli_P09148_UDPglucose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 27.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_7_12_Escherichia_coli_P09148_UDPgalactose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000293
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDPgalactose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 27.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9772178'
+- id: 2_7_7_12_Escherichia_coli_P09148_UDPglucose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 19.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDPglucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 27.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9772178'
+- id: 2_7_7_12_Escherichia_coli_P09148_UDPglucose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0002
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDPglucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 27.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9772178'
+buffer:
+  buffer: 95 mM sodium bicinate, 8 mM cysteine
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 48443
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9772178/
+  pubmed_id: '9772178'
+  doi: null
+name: Merged entry for P09148 Q168N
+description: 'Merged from 2 files: SABIO_EC2.7.7.12_Escherichia_coli__P09148_Q168N_s_UDPgalactose.yaml,
+  SABIO_EC2.7.7.12_Escherichia_coli__P09148_Q168N_s_UDPglucose.yaml'

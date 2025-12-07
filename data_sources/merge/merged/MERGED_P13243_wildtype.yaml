@@ -1,0 +1,215 @@
+version: '2.0'
+created: '2025-11-20T13:41:28.329037'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_1_2_13_P13243_p32825
+  name: fructose-bisphosphate aldolase
+  ecnumber: 4.1.2.13
+  organism: Bacillus subtilis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P13243
+  wildtype_sequence: MPLVSMTEMLNTAKEKGYAVGQFNLNNLEFTQAILQAAEEEKSPVILGVSEGAGRYMGGFKTVVAMVKALMEEYKVTVPVAIHLDHGSSFESCAKAIHAGFTSVMIDASHHPFEENVATTAKVVELAHFHGVSVEAELGTVGGQEDDVIAEGVIYADPKECQELVERTGIDCLAPALGSVHGPYKGEPNLGFKEMEEIGKSTGLPLVLHGGTGIPTADIKKSISLGTAKINVNTENQISSAKAVRETLAAKPDEYDPRKYLGPAREAIKETVIGKMREFGSSNQA
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_D-Fructose_1
+  name: D-Fructose 1
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_6-bisphosphate
+  name: 6-bisphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Glyceraldehyde_3-phosphate
+  name: D-Glyceraldehyde 3-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Glycerone_phosphate
+  name: Glycerone phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Phosphoglycolohydrazide
+  name: Phosphoglycolohydrazide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Phosphoglycoloamidoxime
+  name: Phosphoglycoloamidoxime
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1338_EC4_1_2_13_Bacillus_subtilis_P13243_D-Fructose_1
+  name: Reaction catalyzed by fructose-bisphosphate aldolase on D-Fructose 1
+  equation: D-Fructose 1,6-bisphosphate = D-Glyceraldehyde 3-phosphate + Glycerone
+    phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Fructose_1
+  - species_id: substrate_6-bisphosphate
+  products:
+  - species_id: product_D-Glyceraldehyde_3-phosphate
+  - species_id: product_Glycerone_phosphate
+  modifiers:
+  - species_id: protein_4_1_2_13_P13243_p32825
+    role: BIOCATALYST
+  - species_id: activator_Phosphoglycolohydrazide
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 14729;14730;14731;14732
+  KEGGid: R01070
+  notes: 'ChEBI IDs: CHEBI:28013; CHEBI:16905; CHEBI:181; CHEBI:12984; CHEBI:37736;
+    CHEBI:10374; CHEBI:29052; CHEBI:18324; CHEBI:59776; CHEBI:22767; CHEBI:41014;
+    CHEBI:32966; CHEBI:12983; CHEBI:21026; CHEBI:42553; CHEBI:16108
+
+    KEGG IDs: KEGG:C00118; KEGG:C05378; KEGG:C00354; KEGG:C00111'
+- id: sabiork_1338_EC4_1_2_13_Bacillus_subtilis_P13243_D-Fructose_1
+  name: Reaction catalyzed by fructose-bisphosphate aldolase on D-Fructose 1
+  equation: D-Fructose 1,6-bisphosphate = D-Glyceraldehyde 3-phosphate + Glycerone
+    phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Fructose_1
+  - species_id: substrate_6-bisphosphate
+  products:
+  - species_id: product_Glycerone_phosphate
+  - species_id: product_D-Glyceraldehyde_3-phosphate
+  modifiers:
+  - species_id: protein_4_1_2_13_P13243_p32826
+    role: BIOCATALYST
+  - species_id: activator_Phosphoglycoloamidoxime
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 14729;14730;14731;14732
+  KEGGid: R01070
+  notes: 'ChEBI IDs: CHEBI:28013; CHEBI:16905; CHEBI:181; CHEBI:12984; CHEBI:37736;
+    CHEBI:10374; CHEBI:29052; CHEBI:18324; CHEBI:59776; CHEBI:22767; CHEBI:41014;
+    CHEBI:32966; CHEBI:12983; CHEBI:21026; CHEBI:42553; CHEBI:16108
+
+    KEGG IDs: KEGG:C00118; KEGG:C05378; KEGG:C00354; KEGG:C00111'
+measurements:
+- id: measurement_4_1_2_13_Bacillus_subtilis_P13243_D-Fructose_1
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_4_1_2_13_Bacillus_subtilis_P13243_D-Fructose_1
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 4_1_2_13_Bacillus_subtilis_P13243_D-Fructose_1_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.002
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Fructose_1
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15125960'
+- id: 4_1_2_13_Bacillus_subtilis_P13243_D-Fructose_1_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.002
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Fructose_1
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15125960'
+buffer:
+  buffer: 0.1 M Glycylglycine
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 32825
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15125960/
+  pubmed_id: '15125960'
+  doi: null
+name: Merged entry for P13243 wildtype
+description: 'Merged from 2 files: SABIO_EC4.1.2.13_Bacillus_subtilis__P13243_s_D-Fructose.yaml,
+  SABIO_EC4.1.2.13_Bacillus_subtilis__P13243_s_D-Fructose_2.yaml'

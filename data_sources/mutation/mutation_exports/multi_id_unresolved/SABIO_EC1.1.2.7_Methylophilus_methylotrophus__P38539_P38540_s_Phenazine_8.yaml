@@ -1,0 +1,166 @@
+name: SABIO-RK Entry 4014
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 4014
+created: '2025-10-28T13:47:36.207106'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_2_7_P38539_P38540_p4014
+  name: methanol dehydrogenase (cytochrome c)
+  sequence: null
+  ecnumber: 1.1.2.7
+  organism: Methylophilus methylotrophus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P38539; P38540
+complexes: null
+small_molecules:
+- id: substrate_Phenazine_ethosulfate
+  name: Phenazine ethosulfate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Methanol
+  name: Methanol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_5
+  name: '5'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_10-Dihydro-5-methylphenazine_ethosulfate
+  name: 10-Dihydro-5-methylphenazine ethosulfate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Formaldehyde
+  name: Formaldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Ammonium_sulfate
+  name: Ammonium sulfate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7136_EC1_1_2_7_Methylophilus_methylotrophus_P38539_P38540_Phenazine_ethosulfate
+  name: Reaction catalyzed by methanol dehydrogenase (cytochrome c) on Phenazine ethosulfate
+  equation: Methanol + Phenazine ethosulfate = 5,10-Dihydro-5-methylphenazine ethosulfate
+    + Formaldehyde
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Phenazine_ethosulfate
+  - species_id: substrate_Methanol
+  products:
+  - species_id: product_5
+  - species_id: product_10-Dihydro-5-methylphenazine_ethosulfate
+  - species_id: product_Formaldehyde
+  modifiers:
+  - species_id: protein_1_1_2_7_P38539_P38540_p4014
+    role: BIOCATALYST
+  - species_id: activator_Ammonium_sulfate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:6816; CHEBI:44553; CHEBI:62946; CHEBI:5142; CHEBI:24077;
+    CHEBI:17790; CHEBI:16842; CHEBI:25227; CHEBI:337763; CHEBI:14588; CHEBI:44080;
+    CHEBI:14274
+
+    KEGG IDs: KEGG:C00132; KEGG:C00067'
+measurements:
+- id: measurement_1_1_2_7_Methylophilus_methylotrophus_P38539_P38540_Phenazine_ethosulfate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 41.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_2_7_Methylophilus_methylotrophus_P38539_P38540_Phenazine_ethosulfate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 14.5
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Phenazine_ethosulfate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 41.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12667088'
+buffer:
+  buffer: 6 mM KCN, 0.04 mM Dichlorophenol indophenol, 0.1 M CHES
+  buffer_concentration: 6 mM
+references:
+- title: Reference for SABIO-RK entry 4014
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12667088/
+  pubmed_id: '12667088'
+  doi: null

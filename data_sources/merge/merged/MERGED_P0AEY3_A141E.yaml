@@ -1,0 +1,316 @@
+version: '2.0'
+created: '2025-11-20T13:41:23.153882'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_6_1_8_P0AEY3_p64873
+  name: ATP diphosphatase
+  ecnumber: 3.6.1.8
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: A141E
+  uniprotid: P0AEY3
+  wildtype_sequence: MNQIDRLLTIMQRLRDPENGCPWDKEQTFATIAPYTLEETYEVLDAIAREDFDDLRGELGDLLFQVVFYAQMAQEEGRFDFNDICAAISDKLERRHPHVFADSSAENSSEVLARWEQIKTEERAQKAQHSALDDIPRSLPALMRAQKIQKRCANVGFDWTTLGPVVDKVYEEIDEVMYEARQAVVDQAKLEEEMGDLLFATVNLARHLGTKAEIALQKANEKFERRFREVERIVAARGLEMTGVDLETMEEVWQQVKRQEIDL
+  mutant_sequence: MNQIDRLLTIMQRLRDPENGCPWDKEQTFATIAPYTLEETYEVLDAIAREDFDDLRGELGDLLFQVVFYAQMAQEEGRFDFNDICAAISDKLERRHPHVFADSSAENSSEVLARWEQIKTEERAQKAQHSALDDIPRSLPELMRAQKIQKRCANVGFDWTTLGPVVDKVYEEIDEVMYEARQAVVDQAKLEEEMGDLLFATVNLARHLGTKAEIALQKANEKFERRFREVERIVAARGLEMTGVDLETMEEVWQQVKRQEIDL
+complexes: null
+small_molecules:
+- id: substrate_dATP
+  name: dATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mg2_
+  name: Mg2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_dAMP
+  name: dAMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_8-oxo-dGTP
+  name: 8-oxo-dGTP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_8-oxo-dGMP
+  name: 8-oxo-dGMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_10433_EC3_6_1_8_Escherichia_coli_P0AEY3_dATP
+  name: Reaction catalyzed by ATP diphosphatase on dATP
+  equation: H2O + dATP = Diphosphate + dAMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_dATP
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_dAMP
+  modifiers:
+  - species_id: protein_3_6_1_8_P0AEY3_p64873
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 28334;28335;28336;28337
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:8683; CHEBI:41981; CHEBI:13379;
+    CHEBI:58245; CHEBI:10491; CHEBI:40419; CHEBI:6635; CHEBI:39127; CHEBI:42857; CHEBI:16284;
+    CHEBI:41979; CHEBI:33019; CHEBI:45067; CHEBI:17713; CHEBI:40607; CHEBI:42043;
+    CHEBI:495505; CHEBI:29888; CHEBI:19236; CHEBI:35782; CHEBI:33811; CHEBI:33813;
+    CHEBI:27313; CHEBI:40499; CHEBI:40544; CHEBI:15377; CHEBI:49736; CHEBI:13420;
+    CHEBI:13352; CHEBI:18361; CHEBI:33017; CHEBI:45208; CHEBI:43228; CHEBI:40505;
+    CHEBI:44292; CHEBI:33806; CHEBI:18420; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:61404;
+    CHEBI:42290; CHEBI:14068; CHEBI:14069; CHEBI:25112; CHEBI:10490; CHEBI:41864;
+    CHEBI:41815; CHEBI:45212; CHEBI:42009; CHEBI:19238; CHEBI:29373; CHEBI:44701;
+    CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00305; KEGG:C00360; KEGG:C00131; KEGG:C00001'
+- id: sabiork_10417_EC3_6_1_8_Escherichia_coli_P0AEY3_8-oxo-dGTP
+  name: Reaction catalyzed by ATP diphosphatase on 8-oxo-dGTP
+  equation: H2O + 8-oxo-dGTP = Diphosphate + 8-oxo-dGMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_8-oxo-dGTP
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_8-oxo-dGMP
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_3_6_1_8_P0AEY3_p64876
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 31575;31576;31577;31578
+  KEGGid: R09832
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:63222; CHEBI:41981; CHEBI:8683;
+    CHEBI:13379; CHEBI:6635; CHEBI:39127; CHEBI:42857; CHEBI:41979; CHEBI:33019; CHEBI:45067;
+    CHEBI:42043; CHEBI:29888; CHEBI:77896; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:35782; CHEBI:15377; CHEBI:63224; CHEBI:49736; CHEBI:13420; CHEBI:13352;
+    CHEBI:18361; CHEBI:33017; CHEBI:63220; CHEBI:45208; CHEBI:43228; CHEBI:44292;
+    CHEBI:33806; CHEBI:18420; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:63223; CHEBI:25112;
+    CHEBI:45212; CHEBI:42009; CHEBI:29373; CHEBI:44701; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00305; KEGG:C00001; KEGG:C19968; KEGG:C19967'
+measurements:
+- id: measurement_3_6_1_8_Escherichia_coli_P0AEY3_dATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.6
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_3_6_1_8_Escherichia_coli_P0AEY3_8-oxo-dGTP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.6
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_6_1_8_Escherichia_coli_P0AEY3_dATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 2600.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_dATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 9.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20529853'
+- id: 3_6_1_8_Escherichia_coli_P0AEY3_dATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.9633333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_dATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20529853'
+- id: 3_6_1_8_Escherichia_coli_P0AEY3_dATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 3.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_dATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20529853'
+- id: 3_6_1_8_Escherichia_coli_P0AEY3_dATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00037
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_dATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20529853'
+- id: 3_6_1_8_Escherichia_coli_P0AEY3_8-oxo-dGTP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.115
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_8-oxo-dGTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20529853'
+- id: 3_6_1_8_Escherichia_coli_P0AEY3_8-oxo-dGTP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 283.3333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_8-oxo-dGTP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 9.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20529853'
+- id: 3_6_1_8_Escherichia_coli_P0AEY3_8-oxo-dGTP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00042
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_8-oxo-dGTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20529853'
+- id: 3_6_1_8_Escherichia_coli_P0AEY3_8-oxo-dGTP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 3.666667e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_8-oxo-dGTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20529853'
+buffer:
+  buffer: 50 mM glycine-NaOH, 100 mM NaCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 64873
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/20529853/
+  pubmed_id: '20529853'
+  doi: null
+name: Merged entry for P0AEY3 A141E
+description: 'Merged from 2 files: SABIO_EC3.6.1.8_Escherichia_coli__P0AEY3_A141E_s_dATP.yaml,
+  SABIO_EC3.6.1.8_Escherichia_coli__P0AEY3_A141E_s_8-oxo-dGTP.yaml'

@@ -1,0 +1,163 @@
+name: SABIO-RK Entry 11898
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 11898
+created: '2025-10-28T13:59:53.516304'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_2_4_2; 2_3_1_61; 1_8_1_4_P18925_P20707_P20708_p11898
+  name: dihydrolipoyl dehydrogenase
+  sequence: null
+  ecnumber: 1.2.4.2; 2.3.1.61; 1.8.1.4
+  organism: Azotobacter vinelandii
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P18925; P20707; P20708
+complexes: null
+small_molecules:
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_4-Methylthio-2-oxobutanoate
+  name: 4-Methylthio-2-oxobutanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3-Methylthiopropanoyl-CoA
+  name: 3-Methylthiopropanoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_8166_EC1_2_4_2; 2_3_1_61; 1_8_1_4_Azotobacter_vinelandii_P18925_P20707_P20708_NAD_
+  name: Reaction catalyzed by dihydrolipoyl dehydrogenase on NAD+
+  equation: NAD+ + Coenzyme A + 4-Methylthio-2-oxobutanoate = H+ + NADH + CO2 + 3-Methylthiopropanoyl-CoA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_4-Methylthio-2-oxobutanoate
+  - species_id: substrate_Coenzyme_A
+  products:
+  - species_id: product_CO2
+  - species_id: product_NADH
+  - species_id: product_3-Methylthiopropanoyl-CoA
+  modifiers:
+  - species_id: protein_1_2_4_2; 2_3_1_61; 1_8_1_4_P18925_P20707_P20708_p11898
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:63388; CHEBI:15346; CHEBI:23355; CHEBI:139538; CHEBI:41631;
+    CHEBI:44281; CHEBI:13393; CHEBI:15846; CHEBI:3283; CHEBI:21902; CHEBI:13295; CHEBI:13396;
+    CHEBI:21901; CHEBI:41597; CHEBI:20451; CHEBI:12029; CHEBI:44214; CHEBI:22458;
+    CHEBI:82815; CHEBI:13394; CHEBI:23011; CHEBI:83579; CHEBI:57287; CHEBI:57945;
+    CHEBI:43720; CHEBI:44216; CHEBI:13285; CHEBI:33574; CHEBI:13294; CHEBI:13282;
+    CHEBI:57540; CHEBI:7423; CHEBI:13283; CHEBI:16723; CHEBI:13389; CHEBI:1902; CHEBI:13284;
+    CHEBI:13395; CHEBI:3771; CHEBI:16526; CHEBI:741566; CHEBI:48829; CHEBI:44215;
+    CHEBI:7422; CHEBI:13298; CHEBI:16908
+
+    KEGG IDs: KEGG:C01180; KEGG:C00010; KEGG:C00011; KEGG:C00003; KEGG:C00004; KEGG:C20870'
+measurements:
+- id: measurement_1_2_4_2; 2_3_1_61; 1_8_1_4_Azotobacter_vinelandii_P18925_P20707_P20708_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 0.1 M potassium phosphate, 1 mM MgCl2, 1 mM thiamin diphosphate, 0.1 mM
+    dithiothreitol
+  buffer_concentration: 0.1 M
+references:
+- title: Reference for SABIO-RK entry 11898
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10848975/
+  pubmed_id: '10848975'
+  doi: null

@@ -1,0 +1,251 @@
+version: '2.0'
+created: '2025-11-20T13:40:50.401374'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_8__Q5U2V5_p50442
+  name: cardiolipin synthase (CMP-forming)
+  ecnumber: 2.7.8.
+  organism: Rattus norvegicus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q5U2V5
+  wildtype_sequence: MLAWRVARGAWGSLRVAVRPPGARLGRGGSRRALLPPAACCLGCLAERWRLRPAAFALRLPGTSPRTHCSGAGKAAPEPAAGGDAAAQAPSARWVRASATSSYENPWTIPNLLSMTRIGLAPVLGYLILEEDFNVALGVFALAGLTDLLDGFIARNWANQKSALGSALDPLADKVLISILYISLTYADLIPVPLTYMIISRDVMLIAAVFYVRYRTLPTPRTLAKYFNPCYATARLKPTFISKVNTAVQLILVAASLAAPVFNYADSIYLQILWCCTAFTTAASAYSYYHYGRKTVQVIKGK
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_CDP-1
+  name: CDP-1
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_2-diacylglycerol
+  name: 2-diacylglycerol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Phosphatidylglycerol
+  name: Phosphatidylglycerol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CMP
+  name: CMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Cardiolipin
+  name: Cardiolipin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_CoCl2_Phosphatidylethanolamine
+  name: CoCl2; Phosphatidylethanolamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2058_EC2_7_8__Rattus_norvegicus_Q5U2V5_CDP-1
+  name: Reaction catalyzed by cardiolipin synthase (CMP-forming) on CDP-1
+  equation: CDP-1,2-diacylglycerol + Phosphatidylglycerol = CMP + Cardiolipin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_CDP-1
+  - species_id: substrate_2-diacylglycerol
+  - species_id: substrate_Phosphatidylglycerol
+  products:
+  - species_id: product_CMP
+  - species_id: product_Cardiolipin
+  modifiers:
+  - species_id: protein_2_7_8__Q5U2V5_p50442
+    role: BIOCATALYST
+  - species_id: activator_CoCl2_Phosphatidylethanolamine
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 32931;32932;32933;32934
+  KEGGid: R02030
+  notes: 'ChEBI IDs: CHEBI:17517; CHEBI:28494; CHEBI:13269; CHEBI:8129; CHEBI:17361;
+    CHEBI:14803; CHEBI:45210; CHEBI:13256; CHEBI:35696; CHEBI:12701; CHEBI:41319;
+    CHEBI:47362; CHEBI:26030; CHEBI:16038; CHEBI:41691; CHEBI:57613; CHEBI:50308;
+    CHEBI:26031; CHEBI:13274; CHEBI:48799; CHEBI:60523; CHEBI:41312; CHEBI:60377;
+    CHEBI:23520; CHEBI:3275; CHEBI:58120; CHEBI:41666; CHEBI:7661; CHEBI:29365
+
+    KEGG IDs: KEGG:C00269; KEGG:C00344; KEGG:C00350; KEGG:C05980; KEGG:C00055'
+- id: sabiork_2058_EC2_7_8__Rattus_norvegicus_Q5U2V5_Phosphatidylglycerol
+  name: Reaction catalyzed by cardiolipin synthase (CMP-forming) on Phosphatidylglycerol
+  equation: CDP-1,2-diacylglycerol + Phosphatidylglycerol = CMP + Cardiolipin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Phosphatidylglycerol
+  - species_id: substrate_CDP-1
+  - species_id: substrate_2-diacylglycerol
+  products:
+  - species_id: product_CMP
+  - species_id: product_Cardiolipin
+  modifiers:
+  - species_id: protein_2_7_8__Q5U2V5_p50443
+    role: BIOCATALYST
+  - species_id: activator_CoCl2_Phosphatidylethanolamine
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 32931;32932;32933;32934
+  KEGGid: R02030
+  notes: 'ChEBI IDs: CHEBI:17517; CHEBI:28494; CHEBI:13269; CHEBI:8129; CHEBI:17361;
+    CHEBI:14803; CHEBI:45210; CHEBI:13256; CHEBI:35696; CHEBI:12701; CHEBI:41319;
+    CHEBI:47362; CHEBI:26030; CHEBI:16038; CHEBI:41691; CHEBI:57613; CHEBI:50308;
+    CHEBI:26031; CHEBI:13274; CHEBI:48799; CHEBI:60523; CHEBI:41312; CHEBI:60377;
+    CHEBI:23520; CHEBI:3275; CHEBI:58120; CHEBI:41666; CHEBI:7661; CHEBI:29365
+
+    KEGG IDs: KEGG:C00269; KEGG:C00344; KEGG:C00350; KEGG:C05980; KEGG:C00055'
+measurements:
+- id: measurement_2_7_8__Rattus_norvegicus_Q5U2V5_CDP-1
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_7_8__Rattus_norvegicus_Q5U2V5_Phosphatidylglycerol
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_8__Rattus_norvegicus_Q5U2V5_CDP-1_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.6e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CDP-1
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1657995'
+- id: 2_7_8__Rattus_norvegicus_Q5U2V5_CDP-1_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.416667e-10
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CDP-1
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1657995'
+- id: 2_7_8__Rattus_norvegicus_Q5U2V5_Phosphatidylglycerol_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 6.033333e-10
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Phosphatidylglycerol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1657995'
+- id: 2_7_8__Rattus_norvegicus_Q5U2V5_Phosphatidylglycerol_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Phosphatidylglycerol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1657995'
+buffer:
+  buffer: 50 mM Tris, 0.25 mM EGTA
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 50442
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/1657995/
+  pubmed_id: '1657995'
+  doi: null
+name: Merged entry for Q5U2V5 wildtype
+description: 'Merged from 2 files: SABIO_EC2.7.8._Rattus_norvegicus__Q5U2V5_s_CDP-1.yaml,
+  SABIO_EC2.7.8._Rattus_norvegicus__Q5U2V5_s_Phosphatidylglycerol.yaml'

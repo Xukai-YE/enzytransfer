@@ -1,0 +1,177 @@
+name: SABIO-RK Entry 50365
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 50365
+created: '2025-10-28T15:51:41.372636'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_5_3_2_6_P70994_p50365
+  name: Interconverting keto- and enol- groups
+  ecnumber: 5.3.2.6
+  organism: Bacillus subtilis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: P1A
+  uniprotid: P70994
+  wildtype_sequence: MPYVTVKMLEGRTDEQKRNLVEKVTEAVKETTGASEEKIVVFIEEMRKDHYAVAGKRLSDME
+  mutant_sequence: MAYVTVKMLEGRTDEQKRNLVEKVTEAVKETTGASEEKIVVFIEEMRKDHYAVAGKRLSDME
+  position_offset: 1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_2-Hydroxy-2
+  name: 2-Hydroxy-2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_4-pentadienoate
+  name: 4-pentadienoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Oxo-4-pentenoate
+  name: 2-Oxo-4-pentenoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_13517_EC5_3_2_6_Bacillus_subtilis_P70994_2-Hydroxy-2
+  name: Reaction catalyzed by Interconverting keto- and enol- groups on 2-Hydroxy-2
+  equation: 2-Hydroxy-2,4-pentadienoate = 2-Oxo-4-pentenoate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2-Hydroxy-2
+  - species_id: substrate_4-pentadienoate
+  products:
+  - species_id: product_2-Oxo-4-pentenoate
+  modifiers:
+  - species_id: protein_5_3_2_6_P70994_p50365
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 31295;31296;31297;31298
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:1113; CHEBI:48643; CHEBI:67181; CHEBI:67152; CHEBI:11641;
+    CHEBI:37318; CHEBI:37319
+
+    KEGG IDs: KEGG:C00596'
+measurements:
+- id: measurement_5_3_2_6_Bacillus_subtilis_P70994_2-Hydroxy-2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.3
+  temperature_opt: 23.0
+  temperature_unit: °C
+parameters:
+- id: 5_3_2_6_Bacillus_subtilis_P70994_2-Hydroxy-2_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 6600.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Hydroxy-2
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.3
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17902707'
+- id: 5_3_2_6_Bacillus_subtilis_P70994_2-Hydroxy-2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000378
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Hydroxy-2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.3
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17902707'
+- id: 5_3_2_6_Bacillus_subtilis_P70994_2-Hydroxy-2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2.5
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Hydroxy-2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.3
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17902707'
+buffer:
+  buffer: 20 mM NaH2PO4
+  buffer_concentration: 20 mM
+references:
+- title: Reference for SABIO-RK entry 50365
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/17902707/
+  pubmed_id: '17902707'
+  doi: null

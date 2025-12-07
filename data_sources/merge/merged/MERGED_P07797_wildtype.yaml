@@ -1,0 +1,201 @@
+version: '2.0'
+created: '2025-11-20T13:39:39.376619'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_16_3_1_P07797_p8524
+  name: ferroxidase
+  ecnumber: 1.16.3.1
+  organism: Rana catesbeiana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P07797
+  wildtype_sequence: MESQVRQNFHQDCEAGLNRTVNLKFHSSYVYLSMASYFNRDDVALSNFAKFFRERSEEEKEHAEKLIEYQNQRGGRVFLQSVEKPERDDWANGLEALQTALKLQKSVNQALLDLHAVAADKSDPHMTDFLESPYLSESVETIKKLGDHITSLKKLWSSHPGMAEYLFNKHTLG
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Fe2_
+  name: Fe2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Fe3_
+  name: Fe3+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_665_EC1_16_3_1_Rana_catesbeiana_P07797_O2
+  name: Reaction catalyzed by ferroxidase on O2
+  equation: Fe2+ + H+ + O2 = Fe3+ + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_Fe2_
+  products:
+  - species_id: product_Fe3_
+  modifiers:
+  - species_id: protein_1_16_3_1_P07797_p8524
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 11148;11149;11150;11151;11436;11437;11438;11439
+  KEGGid: R00078
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:34755;
+    CHEBI:29033; CHEBI:49595; CHEBI:34754; CHEBI:26689; CHEBI:21129; CHEBI:42857;
+    CHEBI:21130; CHEBI:41979; CHEBI:29234; CHEBI:13357; CHEBI:23833; CHEBI:13416;
+    CHEBI:42043; CHEBI:24636; CHEBI:29233; CHEBI:33811; CHEBI:5584; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:13319; CHEBI:13352; CHEBI:13320; CHEBI:15379; CHEBI:24877;
+    CHEBI:24876; CHEBI:43228; CHEBI:44292; CHEBI:30491; CHEBI:33806; CHEBI:25366;
+    CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:15378; CHEBI:10743; CHEBI:29793; CHEBI:7860;
+    CHEBI:10745; CHEBI:13321; CHEBI:29034; CHEBI:10744; CHEBI:29373; CHEBI:44701;
+    CHEBI:49599
+
+    KEGG IDs: KEGG:C14819; KEGG:C14818; KEGG:C00080; KEGG:C00001; KEGG:C00704; KEGG:C00007'
+- id: sabiork_665_EC1_16_3_1_Rana_catesbeiana_P07797_Fe2_
+  name: Reaction catalyzed by ferroxidase on Fe2+
+  equation: Fe2+ + H+ + O2 = Fe3+ + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Fe2_
+  - species_id: substrate_O2
+  products:
+  - species_id: product_Fe3_
+  modifiers:
+  - species_id: protein_1_16_3_1_P07797_p8525
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 11148;11149;11150;11151;11436;11437;11438;11439
+  KEGGid: R00078
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:34755;
+    CHEBI:29033; CHEBI:49595; CHEBI:34754; CHEBI:26689; CHEBI:21129; CHEBI:42857;
+    CHEBI:21130; CHEBI:41979; CHEBI:29234; CHEBI:13357; CHEBI:23833; CHEBI:13416;
+    CHEBI:42043; CHEBI:24636; CHEBI:29233; CHEBI:33811; CHEBI:5584; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:13319; CHEBI:13352; CHEBI:13320; CHEBI:15379; CHEBI:24877;
+    CHEBI:24876; CHEBI:43228; CHEBI:44292; CHEBI:30491; CHEBI:33806; CHEBI:25366;
+    CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:15378; CHEBI:10743; CHEBI:29793; CHEBI:7860;
+    CHEBI:10745; CHEBI:13321; CHEBI:29034; CHEBI:10744; CHEBI:29373; CHEBI:44701;
+    CHEBI:49599
+
+    KEGG IDs: KEGG:C14819; KEGG:C14818; KEGG:C00080; KEGG:C00001; KEGG:C00704; KEGG:C00007'
+measurements:
+- id: measurement_1_16_3_1_Rana_catesbeiana_P07797_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_1_16_3_1_Rana_catesbeiana_P07797_Fe2_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 1_16_3_1_Rana_catesbeiana_P07797_O2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 33.41
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15166287'
+- id: 1_16_3_1_Rana_catesbeiana_P07797_Fe2__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.27
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Fe2_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15166287'
+buffer:
+  buffer: 200 mM Mops
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 8524
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15166287/
+  pubmed_id: '15166287'
+  doi: null
+name: Merged entry for P07797 wildtype
+description: 'Merged from 2 files: SABIO_EC1.16.3.1_Rana_catesbeiana__P07797_s_O2.yaml,
+  SABIO_EC1.16.3.1_Rana_catesbeiana__P07797_s_Fe2_.yaml'

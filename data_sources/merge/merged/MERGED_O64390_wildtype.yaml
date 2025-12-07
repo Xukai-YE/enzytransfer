@@ -1,0 +1,400 @@
+version: '2.0'
+created: '2025-11-20T13:40:28.583254'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_1_O64390_p50396
+  name: glucokinase
+  ecnumber: 2.7.1.1
+  organism: Solanum tuberosum
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: O64390
+  wildtype_sequence: MKKVTVGAAVVGAAAVCAVAALIVNHRMRKSSKWGRAMAILREFEEKCKTQDAKLKQVADAMTVEMHAGLASEGGQSSRCLSPMSIISQLVMKLGVFYALDLGGTNFRVLRVQLGGKDGGIIHQEFAEASIPPSLMVGTSDALFDYIAAELAKFVAAEEEKFHQPPGKQRELGFHLLIPSNADFNNSGTIMRWTKGFSIDDAVGQDVVGELTKAMKEKVLDMRVSALVNDTVGTLAGGKYTQKDVAVAVILGTGTNAAYVERVQAIPKWHGPVPKSGEMVINMEWGNFRSSHLPLTEYDHALDNESLNPAEQIFEKMTSGMYLGEILRRVLTRVAEEVLAFLAMRSLQSLKDSFVLRTPDMSAMHHDTSPDLKVVGEKLKDILEISNTSLKTRKLVLSLCNIVATRGARLDAAGVLGILKKMGRDTPKQGGSERTVIAMDGGLYEHYTEYRMCLENSLKDLLGEELATSIVFVHSNDGSGIGAALLRASHSMYLEDQA
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_D-Glucose
+  name: D-Glucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Glucose_6-phosphate
+  name: D-Glucose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Fructose
+  name: D-Fructose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Fructose_6-phosphate
+  name: D-Fructose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Mannose
+  name: D-Mannose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Mannose_6-phosphate
+  name: D-Mannose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_793_EC2_7_1_1_Solanum_tuberosum_O64390_D-Glucose
+  name: Reaction catalyzed by glucokinase on D-Glucose
+  equation: D-Glucose + ATP = ADP + D-Glucose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Glucose
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_D-Glucose_6-phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_1_O64390_p50396
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17825;17826;17827;17828;36495;36496;36497;36498
+  KEGGid: R00299
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:42748; CHEBI:40553; CHEBI:42802; CHEBI:10242; CHEBI:13236; CHEBI:58225;
+    CHEBI:4167; CHEBI:12318; CHEBI:17634; CHEBI:10841; CHEBI:4170; CHEBI:12321; CHEBI:2359;
+    CHEBI:17665; CHEBI:87518; CHEBI:40938; CHEBI:22386; CHEBI:15954; CHEBI:10245;
+    CHEBI:14314; CHEBI:456216; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:22389;
+    CHEBI:13222; CHEBI:22244; CHEBI:40557; CHEBI:17925; CHEBI:88300
+
+    KEGG IDs: KEGG:C00267; KEGG:C00668; KEGG:C00092; KEGG:C00002; KEGG:C00008; KEGG:C00031'
+- id: sabiork_1116_EC2_7_1_1_Solanum_tuberosum_O64390_D-Fructose
+  name: Reaction catalyzed by hexokinase on D-Fructose
+  equation: ATP + D-Fructose = ADP + D-Fructose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Fructose
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_D-Fructose_6-phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_1_O64390_p50397
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00760
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:15946; CHEBI:16761; CHEBI:10789;
+    CHEBI:57299; CHEBI:12926; CHEBI:40553; CHEBI:20935; CHEBI:13236; CHEBI:15824;
+    CHEBI:10841; CHEBI:2359; CHEBI:87518; CHEBI:40938; CHEBI:42406; CHEBI:456216;
+    CHEBI:47424; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:57579; CHEBI:37721; CHEBI:4119;
+    CHEBI:4124; CHEBI:13222; CHEBI:22244; CHEBI:48095
+
+    KEGG IDs: KEGG:C00002; KEGG:C10906; KEGG:C00095; KEGG:C00085; KEGG:C00008'
+- id: sabiork_793_EC2_7_1_1_Solanum_tuberosum_O64390_D-Glucose
+  name: Reaction catalyzed by glucokinase on D-Glucose
+  equation: D-Glucose + ATP = ADP + D-Glucose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Glucose
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_ADP
+  - species_id: product_D-Glucose_6-phosphate
+  modifiers:
+  - species_id: protein_2_7_1_1_O64390_p50399
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17825;17826;17827;17828;36495;36496;36497;36498
+  KEGGid: R00299
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:40553; CHEBI:42748; CHEBI:42802; CHEBI:10242; CHEBI:13236; CHEBI:58225;
+    CHEBI:4167; CHEBI:12318; CHEBI:17634; CHEBI:10841; CHEBI:4170; CHEBI:12321; CHEBI:2359;
+    CHEBI:17665; CHEBI:87518; CHEBI:40938; CHEBI:22386; CHEBI:15954; CHEBI:10245;
+    CHEBI:456216; CHEBI:14314; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:22389;
+    CHEBI:13222; CHEBI:22244; CHEBI:40557; CHEBI:17925; CHEBI:88300
+
+    KEGG IDs: KEGG:C00267; KEGG:C00668; KEGG:C00092; KEGG:C00002; KEGG:C00008; KEGG:C00031'
+- id: sabiork_575_EC2_7_1_1_Solanum_tuberosum_O64390_D-Mannose
+  name: Reaction catalyzed by hexokinase on D-Mannose
+  equation: D-Mannose + ATP = ADP + D-Mannose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Mannose
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_ADP
+  - species_id: product_D-Mannose_6-phosphate
+  modifiers:
+  - species_id: protein_2_7_1_1_O64390_p50398
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01326
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:40553; CHEBI:10260; CHEBI:28729; CHEBI:13236; CHEBI:10841; CHEBI:2359; CHEBI:22403;
+    CHEBI:87518; CHEBI:40938; CHEBI:17369; CHEBI:37684; CHEBI:456216; CHEBI:60332;
+    CHEBI:4208; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:12328; CHEBI:43894; CHEBI:48066;
+    CHEBI:16024; CHEBI:43896; CHEBI:43805; CHEBI:13222; CHEBI:22244
+
+    KEGG IDs: KEGG:C00936; KEGG:C00002; KEGG:C00159; KEGG:C00008; KEGG:C00275'
+measurements:
+- id: measurement_2_7_1_1_Solanum_tuberosum_O64390_D-Glucose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_2_7_1_1_Solanum_tuberosum_O64390_D-Fructose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_2_7_1_1_Solanum_tuberosum_O64390_D-Glucose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_2_7_1_1_Solanum_tuberosum_O64390_D-Mannose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 2_7_1_1_Solanum_tuberosum_O64390_D-Glucose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.3e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '10482667'
+- id: 2_7_1_1_Solanum_tuberosum_O64390_D-Glucose_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 5.816667e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '10482667'
+- id: 2_7_1_1_Solanum_tuberosum_O64390_D-Fructose_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 8.716667e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Fructose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '10482667'
+- id: 2_7_1_1_Solanum_tuberosum_O64390_D-Fructose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00147
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Fructose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '10482667'
+- id: 2_7_1_1_Solanum_tuberosum_O64390_D-Glucose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000103
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '10482667'
+- id: 2_7_1_1_Solanum_tuberosum_O64390_D-Glucose_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 6.0e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '10482667'
+- id: 2_7_1_1_Solanum_tuberosum_O64390_D-Mannose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.9e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Mannose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '10482667'
+- id: 2_7_1_1_Solanum_tuberosum_O64390_D-Mannose_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 3.683333e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Mannose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '10482667'
+buffer:
+  buffer: 50 mM Tris-HCl, 4 mM MgCl2, 0.33 mM NAD+, 17 nkat/ml glucose-6-phosphate
+    dehydrogenase
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 50396
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10482667/
+  pubmed_id: '10482667'
+  doi: null
+name: Merged entry for O64390 wildtype
+description: 'Merged from 4 files: SABIO_EC2.7.1.1_Solanum_tuberosum__O64390_s_D-Glucose.yaml,
+  SABIO_EC2.7.1.1_Solanum_tuberosum__O64390_s_D-Fructose.yaml, SABIO_EC2.7.1.1_Solanum_tuberosum__O64390_s_D-Glucose_2.yaml,
+  SABIO_EC2.7.1.1_Solanum_tuberosum__O64390_s_D-Mannose.yaml'

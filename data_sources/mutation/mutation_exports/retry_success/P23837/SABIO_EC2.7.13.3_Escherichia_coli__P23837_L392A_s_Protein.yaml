@@ -1,0 +1,188 @@
+name: SABIO-RK Entry 74573
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 74573
+created: '2025-10-28T17:41:04.371182'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_13_3_P23837_p74573
+  name: histidine kinase
+  ecnumber: 2.7.13.3
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: L392A
+  uniprotid: P23837
+  wildtype_sequence: MKKLLRLFFPLSLRVRFLLATAAVVLVLSLAYGMVALIGYSVSFDKTTFRLLRGESNLFYTLAKWENNKLHVELPENIDKQSPTMTLIYDENGQLLWAQRDVPWLMKMIQPDWLKSNGFHEIEADVNDTSLLLSGDHSIQQQLQEVREDDDDAEMTHSVAVNVYPATSRMPKLTIVVVDTIPVELKSSYMVWSWFIYVLSANLLLVIPLLWVAAWWSLRPIEALAKEVRELEEHNRELLNPATTRELTSLVRNLNRLLKSERERYDKYRTTLTDLTHSLKTPLAVLQSTLRSLRSEKMSVSDAEPVMLEQISRISQQIGYYLHRASMRGGTLLSRELHPVAPLLDNLTSALNKVYQRKGVNISLDISPEISFVGEQNDFVEVMGNVLDNACKYCLEFVEISARQTDEHLYIVVEDDGPGIPLSKREVIFDRGQRVDTLRPGQGVGLAVAREITEQYEGKIVAGESMLGGARMEVIFGRQHSAPKDE
+  mutant_sequence: MKKLLRLFFPLSLRVRFLLATAAVVLVLSLAYGMVALIGYSVSFDKTTFRLLRGESNLFYTLAKWENNKLHVELPENIDKQSPTMTLIYDENGQLLWAQRDVPWLMKMIQPDWLKSNGFHEIEADVNDTSLLLSGDHSIQQQLQEVREDDDDAEMTHSVAVNVYPATSRMPKLTIVVVDTIPVELKSSYMVWSWFIYVLSANLLLVIPLLWVAAWWSLRPIEALAKEVRELEEHNRELLNPATTRELTSLVRNLNRLLKSERERYDKYRTTLTDLTHSLKTPLAVLQSTLRSLRSEKMSVSDAEPVMLEQISRISQQIGYYLHRASMRGGTLLSRELHPVAPLLDNLTSALNKVYQRKGVNISLDISPEISFVGEQNDFVEVMGNVADNACKYCLEFVEISARQTDEHLYIVVEDDGPGIPLSKREVIFDRGQRVDTLRPGQGVGLAVAREITEQYEGKIVAGESMLGGARMEVIFGRQHSAPKDE
+  position_offset: -5
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Protein_histidine
+  name: Protein histidine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Protein_N-phosphohistidine
+  name: Protein N-phosphohistidine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_14309_EC2_7_13_3_Escherichia_coli_P23837_Protein_histidine
+  name: Reaction catalyzed by histidine kinase on Protein histidine
+  equation: ATP + Protein histidine = ADP + Protein N-phosphohistidine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Protein_histidine
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_Protein_N-phosphohistidine
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_13_3_P23837_p74573
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02625
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:40938; CHEBI:16761; CHEBI:2359;
+    CHEBI:10789; CHEBI:57299; CHEBI:13236; CHEBI:456216; CHEBI:40553; CHEBI:13222;
+    CHEBI:10841; CHEBI:22249; CHEBI:2342; CHEBI:22244; CHEBI:15422; CHEBI:87518
+
+    KEGG IDs: KEGG:C00002; KEGG:C00008; KEGG:C04261; KEGG:C00615'
+measurements:
+- id: measurement_2_7_13_3_Escherichia_coli_P23837_Protein_histidine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 22.0
+  temperature_unit: °C
+parameters:
+- id: 2_7_13_3_Escherichia_coli_P23837_Protein_histidine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 0.005333333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Protein_histidine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11493605'
+- id: 2_7_13_3_Escherichia_coli_P23837_Protein_histidine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0009167
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Protein_histidine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11493605'
+- id: 2_7_13_3_Escherichia_coli_P23837_Protein_histidine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 4.883333e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Protein_histidine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11493605'
+buffer:
+  buffer: 20 mM Tris-Cl, 50 mM KCl, 1 mM MgCl2
+  buffer_concentration: 20 mM
+references:
+- title: Reference for SABIO-RK entry 74573
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11493605/
+  pubmed_id: '11493605'
+  doi: null

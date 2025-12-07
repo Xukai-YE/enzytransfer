@@ -1,0 +1,202 @@
+version: '2.0'
+created: '2025-11-20T13:41:34.408757'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_2_1_82_D4GP40_p64786
+  name: gluconate dehydratase
+  ecnumber: 4.2.1.82
+  organism: Halobacterium volcanii
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: D4GP40
+  wildtype_sequence: MVEQAKLSDPNAEYTMRDLSAETIDITNPRGGVRDAEITDVQTTMVDGNYPWILVRVYTDAGVVGTGEAYWGGGDTAIIERMKPFLVGENPLDIDRLYEHLVQKMSGEGSVSGKVISAISGIEIALHDVAGKLLDVPAYQLVGGKYRDEVRVYCDLHTEDEANPQACAEEGVRVVEELGYDAIKFDLDVPSGHEKDRANRHLRNPEIDHKVEIVEAVTEAVGDRADVAFDCHWSFTGGSAKRLASELEDYDVWWLEDPVPPENHDVQKLVTQSTTTPIAVGENVYRKFGQRTLLEPQAVDIIAPDLPRVGGMRETRKIADLADMYYIPVAMHNVSSPIGTMASAQVAAAIPNSLALEYHSYQLGWWEDLVEEDDLIQNGHMEIPEKPGLGLTLDLDAVEAHMVEGETLFDEE
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_D-Gluconate
+  name: D-Gluconate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Dehydro-3-deoxy-D-gluconate
+  name: 2-Dehydro-3-deoxy-D-gluconate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Xylonate
+  name: D-Xylonate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Dehydro-3-deoxy-D-xylonate
+  name: 2-Dehydro-3-deoxy-D-xylonate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1703_EC4_2_1_82_Halobacterium_volcanii_D4GP40_D-Gluconate
+  name: Reaction catalyzed by gluconate dehydratase on D-Gluconate
+  equation: D-Gluconate = H2O + 2-Dehydro-3-deoxy-D-gluconate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Gluconate
+  products:
+  - species_id: product_2-Dehydro-3-deoxy-D-gluconate
+  modifiers:
+  - species_id: protein_4_2_1_82_D4GP40_p64786
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 21612;21613;21614;21615
+  KEGGid: R01538
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:19530; CHEBI:57990;
+    CHEBI:33198; CHEBI:42857; CHEBI:20985; CHEBI:41979; CHEBI:20986; CHEBI:42043;
+    CHEBI:20983; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:42715;
+    CHEBI:13352; CHEBI:24266; CHEBI:1059; CHEBI:43228; CHEBI:44292; CHEBI:12955; CHEBI:18391;
+    CHEBI:33806; CHEBI:24265; CHEBI:29374; CHEBI:5585; CHEBI:10743; CHEBI:17032; CHEBI:4157;
+    CHEBI:11550; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00204; KEGG:C00257; KEGG:C00001'
+- id: sabiork_2364_EC4_2_1_82_Halobacterium_volcanii_D4GP40_D-Xylonate
+  name: Reaction catalyzed by xylonate dehydratase on D-Xylonate
+  equation: D-Xylonate = 2-Dehydro-3-deoxy-D-xylonate + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Xylonate
+  products:
+  - species_id: product_2-Dehydro-3-deoxy-D-xylonate
+  modifiers:
+  - species_id: protein_4_2_1_82_D4GP40_p64787
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 19157;19158;19159;19160
+  KEGGid: R02429
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:1054; CHEBI:44819; CHEBI:41981; CHEBI:13029;
+    CHEBI:16699; CHEBI:42857; CHEBI:21113; CHEBI:41979; CHEBI:11553; CHEBI:19524;
+    CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:17746; CHEBI:27313; CHEBI:15377;
+    CHEBI:13352; CHEBI:43228; CHEBI:19525; CHEBI:44292; CHEBI:48093; CHEBI:33806;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:1060; CHEBI:19531; CHEBI:11545; CHEBI:4262;
+    CHEBI:46655; CHEBI:11554; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00502; KEGG:C00001; KEGG:C03826'
+measurements:
+- id: measurement_4_2_1_82_Halobacterium_volcanii_D4GP40_D-Gluconate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 42.0
+  temperature_unit: °C
+- id: measurement_4_2_1_82_Halobacterium_volcanii_D4GP40_D-Xylonate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 42.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 4_2_1_82_Halobacterium_volcanii_D4GP40_D-Gluconate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0004
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Gluconate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 42.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19584053'
+- id: 4_2_1_82_Halobacterium_volcanii_D4GP40_D-Xylonate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00055
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Xylonate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 42.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19584053'
+buffer:
+  buffer: 0.1 M Tris-HCl, 2.5 M KCl, 50 mM MgCl2
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 64786
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/19584053/
+  pubmed_id: '19584053'
+  doi: null
+name: Merged entry for D4GP40 wildtype
+description: 'Merged from 2 files: SABIO_EC4.2.1.82_Halobacterium_volcanii__D4GP40_s_D-Gluconate.yaml,
+  SABIO_EC4.2.1.82_Halobacterium_volcanii__D4GP40_s_D-Xylonate.yaml'

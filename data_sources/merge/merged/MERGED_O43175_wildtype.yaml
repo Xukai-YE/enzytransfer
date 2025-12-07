@@ -1,0 +1,711 @@
+version: '2.0'
+created: '2025-11-20T13:39:21.784370'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_37_O43175_p65161
+  name: malate dehydrogenase
+  ecnumber: 1.1.1.37
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: O43175
+  wildtype_sequence: MAFANLRKVLISDSLDPCCRKILQDGGLQVVEKQNLSKEELIAELQDCEGLIVRSATKVTADVINAAEKLQVVGRAGTGVDNVDLEAATRKGILVMNTPNGNSLSAAELTCGMIMCLARQIPQATASMKDGKWERKKFMGTELNGKTLGILGLGRIGREVATRMQSFGMKTIGYDPIISPEVSASFGVQQLPLEEIWPLCDFITVHTPLLPSTTGLLNDNTFAQCKKGVRVVNCARGGIVDEGALLRALQSGQCAGAALDVFTEEPPRDRALVDHENVISCPHLGASTKEAQSRCGEEIAVQFVDMVKGKSLTGVVNAQALTSAFSPHTKPWIGLAEALGTLMRAWAGSPKGTIQVITQGTSLKNAGNCLSPAVIVGLLKEASKQADVNLVNAKLLVKEAGLNVTTSHSPAAPGEQGFGECLLAVALAGAPYQAVGLVQGTTPVLQGLNGAVFRPEVPLRRDLPLLLFRTQTSDPAMLPTMIGLLAEAGVRLLSYQTSLVSDGETWHVMGISSLLPSLEAWKQHVTEAFQFHF
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Oxaloacetate
+  name: Oxaloacetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Malate
+  name: L-Malate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_2-Oxoglutarate
+  name: 2-Oxoglutarate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product__R_-2-Hydroxyglutarate
+  name: (R)-2-Hydroxyglutarate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Glycerate_3-phosphate
+  name: Glycerate 3-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3-Phosphohydroxypyruvate
+  name: 3-Phosphohydroxypyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_3-Phosphohydroxypyruvate
+  name: 3-Phosphohydroxypyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3-Phospho-D-glycerate
+  name: 3-Phospho-D-glycerate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_113_EC1_1_1_37_Homo_sapiens_O43175_Oxaloacetate
+  name: Reaction catalyzed by malate dehydrogenase on Oxaloacetate
+  equation: L-Malate + NAD+ = NADH + H+ + Oxaloacetate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxaloacetate
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_NAD_
+  - species_id: product_L-Malate
+  modifiers:
+  - species_id: protein_1_1_1_37_O43175_p65161
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 21432;21433;21434;21435
+  KEGGid: R00342
+  notes: 'ChEBI IDs: CHEBI:24959; CHEBI:15589; CHEBI:16452; CHEBI:44281; CHEBI:13393;
+    CHEBI:29234; CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:12820; CHEBI:13396;
+    CHEBI:30797; CHEBI:21901; CHEBI:24636; CHEBI:423; CHEBI:44214; CHEBI:29233; CHEBI:14703;
+    CHEBI:5584; CHEBI:13394; CHEBI:11066; CHEBI:25734; CHEBI:57945; CHEBI:44216; CHEBI:18784;
+    CHEBI:25731; CHEBI:13140; CHEBI:57540; CHEBI:7423; CHEBI:30744; CHEBI:18785; CHEBI:13389;
+    CHEBI:15378; CHEBI:13395; CHEBI:7812; CHEBI:24958; CHEBI:10744; CHEBI:44215; CHEBI:7422;
+    CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C00149; KEGG:C00036; KEGG:C00003; KEGG:C00004'
+- id: sabiork_113_EC1_1_1_37_Homo_sapiens_O43175_NADH
+  name: Reaction catalyzed by malate dehydrogenase on NADH
+  equation: L-Malate + NAD+ = NADH + H+ + Oxaloacetate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  - species_id: substrate_Oxaloacetate
+  products:
+  - species_id: product_L-Malate
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_1_1_37_O43175_p65162
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 21432;21433;21434;21435
+  KEGGid: R00342
+  notes: 'ChEBI IDs: CHEBI:24959; CHEBI:15589; CHEBI:16452; CHEBI:44281; CHEBI:13393;
+    CHEBI:29234; CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:12820;
+    CHEBI:30797; CHEBI:21901; CHEBI:24636; CHEBI:423; CHEBI:44214; CHEBI:29233; CHEBI:14703;
+    CHEBI:5584; CHEBI:11066; CHEBI:13394; CHEBI:57945; CHEBI:25734; CHEBI:44216; CHEBI:18784;
+    CHEBI:25731; CHEBI:13140; CHEBI:57540; CHEBI:7423; CHEBI:30744; CHEBI:18785; CHEBI:13389;
+    CHEBI:13395; CHEBI:15378; CHEBI:7812; CHEBI:24958; CHEBI:10744; CHEBI:44215; CHEBI:7422;
+    CHEBI:16908
+
+    KEGG IDs: KEGG:C00003; KEGG:C00080; KEGG:C00036; KEGG:C00149; KEGG:C00004'
+- id: sabiork_15201_EC1_1_1_399_Homo_sapiens_O43175_2-Oxoglutarate
+  name: Reaction catalyzed by 2-oxoglutarate reductase on 2-Oxoglutarate
+  equation: NADH + H+ + 2-Oxoglutarate = NAD+ + (R)-2-Hydroxyglutarate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2-Oxoglutarate
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_NAD_
+  - species_id: product__R_-2-Hydroxyglutarate
+  modifiers:
+  - species_id: protein_1_1_1_399_O43175_p65163
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 49612;49613;49614;49615
+  KEGGid: R11337
+  notes: 'ChEBI IDs: CHEBI:18650; CHEBI:11638; CHEBI:18651; CHEBI:1253; CHEBI:44281;
+    CHEBI:19748; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:13357; CHEBI:21902;
+    CHEBI:13396; CHEBI:21901; CHEBI:16810; CHEBI:40661; CHEBI:24636; CHEBI:44214;
+    CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:32796; CHEBI:15801; CHEBI:310; CHEBI:30916;
+    CHEBI:57945; CHEBI:44216; CHEBI:339; CHEBI:57540; CHEBI:19749; CHEBI:7423; CHEBI:10974;
+    CHEBI:13389; CHEBI:15378; CHEBI:13395; CHEBI:30915; CHEBI:10744; CHEBI:44215;
+    CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C00026; KEGG:C01087; KEGG:C00003; KEGG:C00004'
+- id: sabiork_15201_EC1_1_1_399_Homo_sapiens_O43175_NADH
+  name: Reaction catalyzed by 2-oxoglutarate reductase on NADH
+  equation: NADH + H+ + 2-Oxoglutarate = NAD+ + (R)-2-Hydroxyglutarate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  - species_id: substrate_2-Oxoglutarate
+  products:
+  - species_id: product__R_-2-Hydroxyglutarate
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_1_1_399_O43175_p65164
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 49612;49613;49614;49615
+  KEGGid: R11337
+  notes: 'ChEBI IDs: CHEBI:18650; CHEBI:11638; CHEBI:18651; CHEBI:1253; CHEBI:44281;
+    CHEBI:19748; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:13357; CHEBI:21902;
+    CHEBI:13396; CHEBI:21901; CHEBI:16810; CHEBI:40661; CHEBI:24636; CHEBI:44214;
+    CHEBI:29233; CHEBI:5584; CHEBI:32796; CHEBI:15801; CHEBI:13394; CHEBI:310; CHEBI:57945;
+    CHEBI:30916; CHEBI:44216; CHEBI:339; CHEBI:57540; CHEBI:19749; CHEBI:7423; CHEBI:10974;
+    CHEBI:13389; CHEBI:13395; CHEBI:15378; CHEBI:30915; CHEBI:10744; CHEBI:44215;
+    CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C00026; KEGG:C01087; KEGG:C00003; KEGG:C00004'
+- id: sabiork_1684_EC1_1_1_95_Homo_sapiens_O43175_Glycerate_3-phosphate
+  name: Reaction catalyzed by phosphoglycerate dehydrogenase on Glycerate 3-phosphate
+  equation: Glycerate 3-phosphate + NAD+ = NADH + H+ + 3-Phosphohydroxypyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Glycerate_3-phosphate
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_NADH
+  - species_id: product_3-Phosphohydroxypyruvate
+  modifiers:
+  - species_id: protein_1_1_1_95_O43175_p65159
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 12641;12642;12643;12644
+  KEGGid: R01513
+  notes: 'ChEBI IDs: CHEBI:1657; CHEBI:20191; CHEBI:44281; CHEBI:11880; CHEBI:11882;
+    CHEBI:12987; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:88352; CHEBI:11884;
+    CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:57998; CHEBI:24636;
+    CHEBI:44214; CHEBI:1661; CHEBI:29233; CHEBI:58272; CHEBI:13394; CHEBI:5584; CHEBI:57945;
+    CHEBI:44216; CHEBI:30933; CHEBI:88005; CHEBI:57540; CHEBI:7423; CHEBI:24345; CHEBI:17050;
+    CHEBI:11883; CHEBI:13389; CHEBI:13395; CHEBI:17794; CHEBI:1659; CHEBI:15378; CHEBI:20192;
+    CHEBI:21029; CHEBI:11879; CHEBI:44215; CHEBI:10744; CHEBI:40016; CHEBI:18110;
+    CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00597; KEGG:C03232; KEGG:C00080; KEGG:C00003; KEGG:C00197; KEGG:C00004'
+- id: sabiork_8970_EC1_1_1_95_Homo_sapiens_O43175_NADH
+  name: Reaction catalyzed by phosphoglycerate dehydrogenase on NADH
+  equation: NAD+ + 3-Phospho-D-glycerate = NADH + H+ + 3-Phosphohydroxypyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  - species_id: substrate_3-Phosphohydroxypyruvate
+  products:
+  - species_id: product_3-Phospho-D-glycerate
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_1_1_95_O43175_p63325
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 12641;12642;12643;12644
+  KEGGid: R01513
+  notes: 'ChEBI IDs: CHEBI:1657; CHEBI:20191; CHEBI:44281; CHEBI:11882; CHEBI:12987;
+    CHEBI:11880; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:88352; CHEBI:13357;
+    CHEBI:11884; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636; CHEBI:57998;
+    CHEBI:1661; CHEBI:44214; CHEBI:29233; CHEBI:5584; CHEBI:58272; CHEBI:13394; CHEBI:57945;
+    CHEBI:44216; CHEBI:30933; CHEBI:88005; CHEBI:57540; CHEBI:7423; CHEBI:24345; CHEBI:17050;
+    CHEBI:11883; CHEBI:13389; CHEBI:13395; CHEBI:15378; CHEBI:17794; CHEBI:1659; CHEBI:20192;
+    CHEBI:21029; CHEBI:11879; CHEBI:10744; CHEBI:44215; CHEBI:40016; CHEBI:18110;
+    CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00597; KEGG:C03232; KEGG:C00080; KEGG:C00003; KEGG:C00197; KEGG:C00004'
+- id: sabiork_1684_EC1_1_1_95_Homo_sapiens_O43175_NAD_
+  name: Reaction catalyzed by phosphoglycerate dehydrogenase on NAD+
+  equation: Glycerate 3-phosphate + NAD+ = NADH + H+ + 3-Phosphohydroxypyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_Glycerate_3-phosphate
+  products:
+  - species_id: product_NADH
+  - species_id: product_3-Phosphohydroxypyruvate
+  modifiers:
+  - species_id: protein_1_1_1_95_O43175_p65160
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 12641;12642;12643;12644
+  KEGGid: R01513
+  notes: 'ChEBI IDs: CHEBI:1657; CHEBI:20191; CHEBI:44281; CHEBI:11882; CHEBI:12987;
+    CHEBI:11880; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:88352; CHEBI:11884;
+    CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:57998; CHEBI:24636;
+    CHEBI:44214; CHEBI:1661; CHEBI:29233; CHEBI:58272; CHEBI:13394; CHEBI:5584; CHEBI:57945;
+    CHEBI:44216; CHEBI:30933; CHEBI:88005; CHEBI:57540; CHEBI:7423; CHEBI:24345; CHEBI:17050;
+    CHEBI:11883; CHEBI:13389; CHEBI:13395; CHEBI:17794; CHEBI:1659; CHEBI:15378; CHEBI:20192;
+    CHEBI:21029; CHEBI:11879; CHEBI:44215; CHEBI:10744; CHEBI:40016; CHEBI:18110;
+    CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00597; KEGG:C03232; KEGG:C00080; KEGG:C00003; KEGG:C00197; KEGG:C00004'
+- id: sabiork_8970_EC1_1_1_95_Homo_sapiens_O43175_NADH
+  name: Reaction catalyzed by phosphoglycerate dehydrogenase on NADH
+  equation: NAD+ + 3-Phospho-D-glycerate = NADH + H+ + 3-Phosphohydroxypyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  - species_id: substrate_3-Phosphohydroxypyruvate
+  products:
+  - species_id: product_NAD_
+  - species_id: product_3-Phospho-D-glycerate
+  modifiers:
+  - species_id: protein_1_1_1_95_O43175_p63326
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 12641;12642;12643;12644
+  KEGGid: R01513
+  notes: 'ChEBI IDs: CHEBI:1657; CHEBI:20191; CHEBI:44281; CHEBI:11882; CHEBI:12987;
+    CHEBI:11880; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:88352; CHEBI:13357;
+    CHEBI:11884; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636; CHEBI:57998;
+    CHEBI:1661; CHEBI:44214; CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:58272; CHEBI:57945;
+    CHEBI:44216; CHEBI:30933; CHEBI:88005; CHEBI:57540; CHEBI:7423; CHEBI:24345; CHEBI:17050;
+    CHEBI:11883; CHEBI:13389; CHEBI:15378; CHEBI:13395; CHEBI:17794; CHEBI:1659; CHEBI:20192;
+    CHEBI:21029; CHEBI:11879; CHEBI:10744; CHEBI:44215; CHEBI:40016; CHEBI:18110;
+    CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00597; KEGG:C03232; KEGG:C00080; KEGG:C00003; KEGG:C00197; KEGG:C00004'
+measurements:
+- id: measurement_1_1_1_37_Homo_sapiens_O43175_Oxaloacetate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_1_1_37_Homo_sapiens_O43175_NADH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_1_1_399_Homo_sapiens_O43175_2-Oxoglutarate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_1_1_399_Homo_sapiens_O43175_NADH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_1_1_95_Homo_sapiens_O43175_Glycerate_3-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_1_1_95_Homo_sapiens_O43175_NADH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.1
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_1_1_95_Homo_sapiens_O43175_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_1_1_95_Homo_sapiens_O43175_NADH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.1
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1_37_Homo_sapiens_O43175_Oxaloacetate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0065
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxaloacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '25406093'
+- id: 1_1_1_37_Homo_sapiens_O43175_Oxaloacetate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.1766667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxaloacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '25406093'
+- id: 1_1_1_37_Homo_sapiens_O43175_NADH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.0e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '25406093'
+- id: 1_1_1_37_Homo_sapiens_O43175_NADH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.1766667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '25406093'
+- id: 1_1_1_399_Homo_sapiens_O43175_2-Oxoglutarate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.07833333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Oxoglutarate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '25406093'
+- id: 1_1_1_399_Homo_sapiens_O43175_2-Oxoglutarate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0101
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Oxoglutarate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '25406093'
+- id: 1_1_1_399_Homo_sapiens_O43175_NADH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.07833333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '25406093'
+- id: 1_1_1_399_Homo_sapiens_O43175_NADH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.0e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '25406093'
+- id: 1_1_1_95_Homo_sapiens_O43175_Glycerate_3-phosphate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.075
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glycerate_3-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '25406093'
+- id: 1_1_1_95_Homo_sapiens_O43175_Glycerate_3-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00026
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glycerate_3-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '25406093'
+- id: 1_1_1_95_Homo_sapiens_O43175_NADH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 5.833333e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.1
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19235232'
+- id: 1_1_1_95_Homo_sapiens_O43175_NADH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.75e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.1
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19235232'
+- id: 1_1_1_95_Homo_sapiens_O43175_NAD__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.075
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '25406093'
+- id: 1_1_1_95_Homo_sapiens_O43175_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.2e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '25406093'
+- id: 1_1_1_95_Homo_sapiens_O43175_NADH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.8e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.1
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19235232'
+- id: 1_1_1_95_Homo_sapiens_O43175_NADH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.16e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.1
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19235232'
+buffer:
+  buffer: 200 mM Tris, 200 mM Hydrazine; 200 mM Tris; 25 mM HEPES, 400 mM KCl, 10
+    ¦Ìg/ml lactate dehydrogenase
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 65161
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/25406093/
+  pubmed_id: '25406093'
+  doi: null
+- title: Reference for SABIO-RK entry 63325
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/19235232/
+  pubmed_id: '19235232'
+  doi: null
+name: Merged entry for O43175 wildtype
+description: 'Merged from 8 files: SABIO_EC1.1.1.37_Homo_sapiens__O43175_s_Oxaloacetate.yaml,
+  SABIO_EC1.1.1.37_Homo_sapiens__O43175_s_NADH.yaml, SABIO_EC1.1.1.399_Homo_sapiens__O43175_s_2-Oxoglutarate.yaml,
+  SABIO_EC1.1.1.399_Homo_sapiens__O43175_s_NADH.yaml, SABIO_EC1.1.1.95_Homo_sapiens__O43175_s_Glycerate.yaml,
+  SABIO_EC1.1.1.95_Homo_sapiens__O43175_s_NADH.yaml, SABIO_EC1.1.1.95_Homo_sapiens__O43175_s_NAD_.yaml,
+  SABIO_EC1.1.1.95_Homo_sapiens__O43175_s_NADH_2.yaml'

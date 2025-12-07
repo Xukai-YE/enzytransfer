@@ -1,0 +1,191 @@
+name: SABIO-RK Entry 35303
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 35303
+created: '2025-10-28T14:55:36.777065'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_1_P11766_p35303
+  name: alcohol dehydrogenase
+  sequence: null
+  ecnumber: 1.1.1.1
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: g115L
+  uniprotid: P11766
+  mutant_sequence: MANEVIKCKAAVAWEAGKPLSIEEIEVAPPKAHEVRIKIIATAVCHTDAYTLSGADPEGCFPVILGHEGAGIVESVGEGVTKLKAGDTVIPLYIPQCGECKFCLNPKTNLCQKIRVTQLKGLMPDGTSRFTCKGKTILHYMGTSTFSEYTVVADISVAKIDPLAPLDKVCLLGCGISTGYGAAVNTAKLEPGSVCAVFGLGGVGLAVIMGCKVAGASRIIGVDINKDKFARAKEFGATECINPQDFSKPIQEVLIEMTDGGVDYSFECIGNVKVMRAALEACHKGWGVSVVVGVAASGEEIATRPFQLVTGRTWKGTAFGGWKSVESVPKLVSEYMSKKIKVDEFVTHNLSFDEINKAFELMHSGKSIRTVVKI
+  position_offset: 4
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_S-_Hydroxymethyl_glutathione
+  name: S-(Hydroxymethyl)glutathione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_S-Formylglutathione
+  name: S-Formylglutathione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7489_EC1_1_1_1_Homo_sapiens_P11766_S-_Hydroxymethyl_glutathione
+  name: Reaction catalyzed by alcohol dehydrogenase on S-(Hydroxymethyl)glutathione
+  equation: NAD+ + S-(Hydroxymethyl)glutathione = NADH + H+ + S-Formylglutathione
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_S-_Hydroxymethyl_glutathione
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_NADH
+  - species_id: product_S-Formylglutathione
+  modifiers:
+  - species_id: protein_1_1_1_1_P11766_p35303
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 19985;19986;19987;19988
+  KEGGid: R06983
+  notes: 'ChEBI IDs: CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:40619;
+    CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:22044; CHEBI:21901; CHEBI:24636;
+    CHEBI:44214; CHEBI:29233; CHEBI:13394; CHEBI:5584; CHEBI:57945; CHEBI:44216; CHEBI:57540;
+    CHEBI:7423; CHEBI:58758; CHEBI:16225; CHEBI:48926; CHEBI:57688; CHEBI:13389; CHEBI:34963;
+    CHEBI:12764; CHEBI:13395; CHEBI:15378; CHEBI:12746; CHEBI:8956; CHEBI:44215; CHEBI:10744;
+    CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C01031; KEGG:C00080; KEGG:C14180; KEGG:C00003; KEGG:C00004'
+measurements:
+- id: measurement_1_1_1_1_Homo_sapiens_P11766_S-_Hydroxymethyl_glutathione
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1_1_Homo_sapiens_P11766_S-_Hydroxymethyl_glutathione_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.1e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-_Hydroxymethyl_glutathione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12631283'
+- id: 1_1_1_1_Homo_sapiens_P11766_S-_Hydroxymethyl_glutathione_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 166666.7
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-_Hydroxymethyl_glutathione
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12631283'
+- id: 1_1_1_1_Homo_sapiens_P11766_S-_Hydroxymethyl_glutathione_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.833333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-_Hydroxymethyl_glutathione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12631283'
+buffer:
+  buffer: 0.1 M potassium phosphate
+  buffer_concentration: 0.1 M
+references:
+- title: Reference for SABIO-RK entry 35303
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12631283/
+  pubmed_id: '12631283'
+  doi: null

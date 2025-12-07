@@ -1,0 +1,410 @@
+version: '2.0'
+created: '2025-11-20T13:39:29.356525'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_10_3_2_Q12718_p69565
+  name: laccase
+  ecnumber: 1.10.3.2
+  organism: Trametes versicolor
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q12718
+  wildtype_sequence: MGLQRFSFFVTLALVARSLAAIGPVASLVVANAPVSPDGFLRDAIVVNGVVPSPLITGKKGDRFQLNVDDTLTNHSMLKSTSIHWHGFFQAGTNWADGPAFVNQCPIASGHSFLYDFHVPDQAGTFWYHSHLSTQYCDGLRGPFVVYDPKDPHASRYDVDNESTVITLTDWYHTAARLGPRFPLGADATLINGLGRSASTPTAALAVINVQHGKRYRFRLVSISCDPNYTFSIDGHNLTVIEVDGINSQPLLVDSIQIFAAQRYSFVLNANQTVGNYWVRANPNFGTVGFAGGINSAILRYQGAPVAEPTTTQTTSVIPLIETNLHPLARMPVPGSPTPGGVDKALNLAFNFNGTNFFINNATFTPPTVPVLLQILSGAQTAQDLLPAGSVYPLPAHSTIEITLPATALAPGAPHPFHLHGHAFAVVRSAGSTTYNYNDPIFRDVVSTGTPAAGDNVTIRFQTDNPGPWFLHCHIDFHLDAGFAIVFAEDVADVKAANPVPKAWSDLCPIYDGLSEANQ
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Methyl_syringate
+  name: Methyl syringate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Oxidized_donor
+  name: Oxidized donor
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Cu2_
+  name: Cu2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Acetosyringone
+  name: Acetosyringone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Syringaldehyde
+  name: Syringaldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_15785_EC1_10_3_2_Trametes_versicolor_Q12718_Methyl_syringate
+  name: Reaction catalyzed by laccase on Methyl syringate
+  equation: O2 + Methyl syringate = H2O + Oxidized donor
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Methyl_syringate
+  - species_id: substrate_O2
+  products:
+  - species_id: product_Oxidized_donor
+  modifiers:
+  - species_id: protein_1_10_3_2_Q12718_p69565
+    role: BIOCATALYST
+  - species_id: activator_Cu2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:49550;
+    CHEBI:26689; CHEBI:42857; CHEBI:41979; CHEBI:23833; CHEBI:13416; CHEBI:42043;
+    CHEBI:45820; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352;
+    CHEBI:15379; CHEBI:43228; CHEBI:44292; CHEBI:30491; CHEBI:33806; CHEBI:20882;
+    CHEBI:25366; CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:29793; CHEBI:7860;
+    CHEBI:17654; CHEBI:29036; CHEBI:10745; CHEBI:29373; CHEBI:44701; CHEBI:23380
+
+    KEGG IDs: KEGG:C00070; KEGG:C00001; KEGG:C00704; KEGG:C00007; KEGG:C00028'
+- id: sabiork_15784_EC1_10_3_2_Trametes_versicolor_Q12718_O2
+  name: Reaction catalyzed by laccase on O2
+  equation: O2 + Acetosyringone = H2O + Oxidized donor
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_Acetosyringone
+  products:
+  - species_id: product_Oxidized_donor
+  modifiers:
+  - species_id: protein_1_10_3_2_Q12718_p69566
+    role: BIOCATALYST
+  - species_id: activator_Cu2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:49550;
+    CHEBI:26689; CHEBI:2404; CHEBI:42857; CHEBI:41979; CHEBI:23833; CHEBI:13416; CHEBI:42043;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:15379;
+    CHEBI:43228; CHEBI:44292; CHEBI:30491; CHEBI:33806; CHEBI:20882; CHEBI:25366;
+    CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:29793; CHEBI:7860; CHEBI:17654;
+    CHEBI:29036; CHEBI:10745; CHEBI:29373; CHEBI:44701; CHEBI:23380
+
+    KEGG IDs: KEGG:C10664; KEGG:C00070; KEGG:C00001; KEGG:C00704; KEGG:C00007; KEGG:C00028'
+- id: sabiork_15783_EC1_10_3_2_Trametes_versicolor_Q12718_Syringaldehyde
+  name: Reaction catalyzed by laccase on Syringaldehyde
+  equation: O2 + Syringaldehyde = H2O + Oxidized donor
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Syringaldehyde
+  - species_id: substrate_O2
+  products:
+  - species_id: product_Oxidized_donor
+  modifiers:
+  - species_id: protein_1_10_3_2_Q12718_p69567
+    role: BIOCATALYST
+  - species_id: activator_Cu2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:49550;
+    CHEBI:26689; CHEBI:42857; CHEBI:41979; CHEBI:23833; CHEBI:13416; CHEBI:42043;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:15379;
+    CHEBI:67380; CHEBI:43228; CHEBI:44292; CHEBI:30491; CHEBI:33806; CHEBI:20882;
+    CHEBI:25366; CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:29793; CHEBI:7860;
+    CHEBI:17654; CHEBI:29036; CHEBI:10745; CHEBI:29373; CHEBI:44701; CHEBI:23380
+
+    KEGG IDs: KEGG:C00070; KEGG:C00001; KEGG:C00704; KEGG:C00007; KEGG:C00028'
+measurements:
+- id: measurement_1_10_3_2_Trametes_versicolor_Q12718_Methyl_syringate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 4.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_10_3_2_Trametes_versicolor_Q12718_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 4.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_10_3_2_Trametes_versicolor_Q12718_Syringaldehyde
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 4.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_10_3_2_Trametes_versicolor_Q12718_Methyl_syringate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000733333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Methyl_syringate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 4.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22995168'
+- id: 1_10_3_2_Trametes_versicolor_Q12718_Methyl_syringate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 46.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Methyl_syringate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 4.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22995168'
+- id: 1_10_3_2_Trametes_versicolor_Q12718_Methyl_syringate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0009
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Methyl_syringate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 4.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22995168'
+- id: 1_10_3_2_Trametes_versicolor_Q12718_Methyl_syringate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 52000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Methyl_syringate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 4.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22995168'
+- id: 1_10_3_2_Trametes_versicolor_Q12718_O2_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 68000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 4.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22995168'
+- id: 1_10_3_2_Trametes_versicolor_Q12718_O2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 50.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 4.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22995168'
+- id: 1_10_3_2_Trametes_versicolor_Q12718_O2_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000766667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 4.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22995168'
+- id: 1_10_3_2_Trametes_versicolor_Q12718_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0007
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 4.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22995168'
+- id: 1_10_3_2_Trametes_versicolor_Q12718_Syringaldehyde_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 35000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Syringaldehyde
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 4.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22995168'
+- id: 1_10_3_2_Trametes_versicolor_Q12718_Syringaldehyde_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.001
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Syringaldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 4.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22995168'
+- id: 1_10_3_2_Trametes_versicolor_Q12718_Syringaldehyde_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 42.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Syringaldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 4.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22995168'
+- id: 1_10_3_2_Trametes_versicolor_Q12718_Syringaldehyde_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000633333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Syringaldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 4.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22995168'
+buffer:
+  buffer: 100 mM phosphoric acid, 100 mM boric acid, 100 mM acetic acid, 0.5 mM NaOH
+    to desired pH (Britton-Robinson)
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 69565
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/22995168/
+  pubmed_id: '22995168'
+  doi: null
+name: Merged entry for Q12718 wildtype
+description: 'Merged from 3 files: SABIO_EC1.10.3.2_Trametes_versicolor__Q12718_s_Methyl.yaml,
+  SABIO_EC1.10.3.2_Trametes_versicolor__Q12718_s_O2.yaml, SABIO_EC1.10.3.2_Trametes_versicolor__Q12718_s_Syringaldehyde.yaml'

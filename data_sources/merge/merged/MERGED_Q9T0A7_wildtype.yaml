@@ -1,0 +1,244 @@
+version: '2.0'
+created: '2025-11-20T13:41:42.565157'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_5_1_3_2_Q9T0A7_p52627
+  name: UDP-glucose 4-epimerase
+  ecnumber: 5.1.3.2
+  organism: Arabidopsis thaliana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9T0A7
+  wildtype_sequence: MAKSVLVTGGAGYIGSHTVLQLLEGGYSAVVVDNYDNSSAASLQRVKKLAGENGNRLSFHQVDLRDRPALEKIFSETKFDAVIHFAGLKAVGESVEKPLLYYNNNIVGTVTLLEVMAQYGCKNLVFSSSATVYGWPKEVPCTEESPISATNPYGRTKLFIEEICRDVHRSDSEWKIILLRYFNPVGAHPSGYIGEDPLGVPNNLMPYVQQVAVGRRPHLTVFGTDYKTKDGTGVRDYIHVMDLADGHIAALRKLDDLKISCEVYNLGTGNGTSVLEMVAAFEKASGKKIPLVMAGRRPGDAEVVYASTEKAERELNWKAKNGIEEMCRDLWNWASNNPYGYNSSSNGSSS
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_UDPgalactose
+  name: UDPgalactose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_UDPglucose
+  name: UDPglucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_UDPglucose
+  name: UDPglucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_UDPgalactose
+  name: UDPgalactose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_70_EC5_1_3_2_Arabidopsis_thaliana_Q9T0A7_UDPgalactose
+  name: Reaction catalyzed by UDP-glucose 4-epimerase on UDPgalactose
+  equation: UDPglucose = UDPgalactose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_UDPgalactose
+  - species_id: cofactor_NAD_
+  products:
+  - species_id: product_UDPglucose
+  modifiers:
+  - species_id: protein_5_1_3_2_Q9T0A7_p52627
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00291
+  notes: 'ChEBI IDs: CHEBI:13393; CHEBI:15846; CHEBI:21901; CHEBI:18066; CHEBI:57540;
+    CHEBI:44215; CHEBI:44214; CHEBI:44281; CHEBI:13394; CHEBI:18307; CHEBI:7422; CHEBI:13389
+
+    KEGG IDs: KEGG:C00003; KEGG:C00029; KEGG:C00052'
+- id: sabiork_70_EC5_1_3_2_Arabidopsis_thaliana_Q9T0A7_UDPglucose
+  name: Reaction catalyzed by UDP-glucose 4-epimerase on UDPglucose
+  equation: UDPglucose = UDPgalactose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_UDPglucose
+  - species_id: cofactor_NAD_
+  products:
+  - species_id: product_UDPgalactose
+  modifiers:
+  - species_id: protein_5_1_3_2_Q9T0A7_p52628
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00291
+  notes: 'ChEBI IDs: CHEBI:13393; CHEBI:15846; CHEBI:21901; CHEBI:18066; CHEBI:57540;
+    CHEBI:44215; CHEBI:44214; CHEBI:44281; CHEBI:13394; CHEBI:18307; CHEBI:7422; CHEBI:13389
+
+    KEGG IDs: KEGG:C00003; KEGG:C00029; KEGG:C00052'
+measurements:
+- id: measurement_5_1_3_2_Arabidopsis_thaliana_Q9T0A7_UDPgalactose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_5_1_3_2_Arabidopsis_thaliana_Q9T0A7_UDPglucose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 5_1_3_2_Arabidopsis_thaliana_Q9T0A7_UDPgalactose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00013
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDPgalactose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16644739'
+- id: 5_1_3_2_Arabidopsis_thaliana_Q9T0A7_UDPgalactose_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 777000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDPgalactose
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16644739'
+- id: 5_1_3_2_Arabidopsis_thaliana_Q9T0A7_UDPgalactose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 101.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDPgalactose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16644739'
+- id: 5_1_3_2_Arabidopsis_thaliana_Q9T0A7_UDPglucose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 24.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDPglucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16644739'
+- id: 5_1_3_2_Arabidopsis_thaliana_Q9T0A7_UDPglucose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 9.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDPglucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16644739'
+buffer:
+  buffer: 50 mM Tris/HCl, 125 ¦Ìg/ml acetylated BSA
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 52627
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16644739/
+  pubmed_id: '16644739'
+  doi: null
+name: Merged entry for Q9T0A7 wildtype
+description: 'Merged from 2 files: SABIO_EC5.1.3.2_Arabidopsis_thaliana__Q9T0A7_s_UDPgalactose.yaml,
+  SABIO_EC5.1.3.2_Arabidopsis_thaliana__Q9T0A7_s_UDPglucose.yaml'

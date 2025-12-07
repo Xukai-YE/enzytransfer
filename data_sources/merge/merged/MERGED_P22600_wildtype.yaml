@@ -1,0 +1,378 @@
+version: '2.0'
+created: '2025-11-20T13:41:39.493766'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_99_1_1_P22600_p30655
+  name: ferrochelatase
+  ecnumber: 4.99.1.1
+  organism: Bos taurus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P22600
+  wildtype_sequence: MAAALRSAGVLLRDRLLYGGSRACQPRRCQSGAATAAAATETAQRARSPKPQAQPGNRKPRTGILMLNMGGPETVEEVQDFLQRLFLDQDLMTLPVQDKLGPFIAKRRTPKIQEQYRRIGGGSPIKMWTSKQGEGMVKLLDELSPHTAPHKYYIGFRYVHPLTEEAIEEMERDGLERAVAFTQYPQYSCSTTGSSLNAIYRYYNEVGRKPTMKWSTIDRWPTHPLLIQCFADHILKELDHFPPEKRREVVILFSAHSLPMSVVNRGDPYPQEVGATVQRVMDKLGYSNPYRLVWQSKVGPMPWLGPQTDEAIKGLCKRGRKNILLVPIAFTSDHIETLYELDIEYSQVLASECGLENIRRAESLNGNPLFSKALADLVHSHLQSKERCSTQLTLSCPLCVNPTCRETKSFFTSQQL
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Fe2_
+  name: Fe2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Mesoporphyrin_IX
+  name: Mesoporphyrin IX
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Mesoheme
+  name: Mesoheme
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Zn2_
+  name: Zn2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Zinc_mesoporphyrin_IX
+  name: Zinc mesoporphyrin IX
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Protoporphyrin
+  name: Protoporphyrin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Heme
+  name: Heme
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_10871_EC4_99_1_1_Bos_taurus_P22600_Fe2_
+  name: Reaction catalyzed by ferrochelatase on Fe2+
+  equation: Mesoporphyrin IX + Fe2+ = Mesoheme + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Fe2_
+  - species_id: substrate_Mesoporphyrin_IX
+  products:
+  - species_id: product_Mesoheme
+  modifiers:
+  - species_id: protein_4_99_1_1_P22600_p30655
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:13319; CHEBI:29234; CHEBI:15378; CHEBI:133626; CHEBI:13357;
+    CHEBI:5584; CHEBI:29033; CHEBI:24876; CHEBI:34754; CHEBI:13321; CHEBI:24636; CHEBI:10744;
+    CHEBI:29233; CHEBI:21129; CHEBI:49599
+
+    KEGG IDs: KEGG:C14818; KEGG:C00080'
+- id: sabiork_10871_EC4_99_1_1_Bos_taurus_P22600_Mesoporphyrin_IX
+  name: Reaction catalyzed by ferrochelatase on Mesoporphyrin IX
+  equation: Mesoporphyrin IX + Fe2+ = Mesoheme + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Mesoporphyrin_IX
+  - species_id: substrate_Fe2_
+  products:
+  - species_id: product_Mesoheme
+  modifiers:
+  - species_id: protein_4_99_1_1_P22600_p30654
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:13319; CHEBI:29234; CHEBI:15378; CHEBI:133626; CHEBI:13357;
+    CHEBI:5584; CHEBI:29033; CHEBI:24876; CHEBI:34754; CHEBI:13321; CHEBI:24636; CHEBI:10744;
+    CHEBI:29233; CHEBI:21129; CHEBI:49599
+
+    KEGG IDs: KEGG:C14818; KEGG:C00080'
+- id: sabiork_11330_EC4_99_1_1_Bos_taurus_P22600_Mesoporphyrin_IX
+  name: Reaction catalyzed by ferrochelatase on Mesoporphyrin IX
+  equation: Zn2+ + Mesoporphyrin IX = Zinc mesoporphyrin IX + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Mesoporphyrin_IX
+  - species_id: substrate_Zn2_
+  products:
+  - species_id: product_Zinc_mesoporphyrin_IX
+  modifiers:
+  - species_id: protein_4_99_1_1_P22600_p30656
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29105; CHEBI:49982; CHEBI:29234; CHEBI:27368; CHEBI:15378;
+    CHEBI:133626; CHEBI:13357; CHEBI:10113; CHEBI:49972; CHEBI:24636; CHEBI:10744;
+    CHEBI:29233; CHEBI:5584
+
+    KEGG IDs: KEGG:C00038; KEGG:C00080'
+- id: sabiork_802_EC4_99_1_1_Bos_taurus_P22600_Protoporphyrin
+  name: Reaction catalyzed by ferrochelatase on Protoporphyrin
+  equation: Fe2+ + Protoporphyrin = Heme + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Protoporphyrin
+  - species_id: substrate_Fe2_
+  products:
+  - species_id: product_Heme
+  modifiers:
+  - species_id: protein_4_99_1_1_P22600_p30657
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 22584;22585;22586;22587
+  KEGGid: R00310
+  notes: 'ChEBI IDs: CHEBI:26358; CHEBI:29033; CHEBI:30413; CHEBI:34754; CHEBI:21129;
+    CHEBI:15430; CHEBI:29234; CHEBI:13357; CHEBI:14957; CHEBI:24636; CHEBI:8592; CHEBI:29233;
+    CHEBI:5584; CHEBI:17627; CHEBI:14959; CHEBI:13319; CHEBI:57306; CHEBI:5651; CHEBI:24876;
+    CHEBI:15378; CHEBI:14960; CHEBI:14961; CHEBI:26355; CHEBI:13321; CHEBI:10744;
+    CHEBI:60344; CHEBI:49599
+
+    KEGG IDs: KEGG:C14818; KEGG:C02191; KEGG:C00032; KEGG:C00080'
+measurements:
+- id: measurement_4_99_1_1_Bos_taurus_P22600_Fe2_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_4_99_1_1_Bos_taurus_P22600_Mesoporphyrin_IX
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_4_99_1_1_Bos_taurus_P22600_Mesoporphyrin_IX
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_4_99_1_1_Bos_taurus_P22600_Protoporphyrin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 4_99_1_1_Bos_taurus_P22600_Fe2__Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 8.166667e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Fe2_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2310748'
+- id: 4_99_1_1_Bos_taurus_P22600_Fe2__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.25e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Fe2_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2310748'
+- id: 4_99_1_1_Bos_taurus_P22600_Mesoporphyrin_IX_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.51e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Mesoporphyrin_IX
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2310748'
+- id: 4_99_1_1_Bos_taurus_P22600_Mesoporphyrin_IX_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 8.166667e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Mesoporphyrin_IX
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2310748'
+- id: 4_99_1_1_Bos_taurus_P22600_Mesoporphyrin_IX_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.17e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Mesoporphyrin_IX
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2310748'
+- id: 4_99_1_1_Bos_taurus_P22600_Mesoporphyrin_IX_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 8.166667e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Mesoporphyrin_IX
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2310748'
+- id: 4_99_1_1_Bos_taurus_P22600_Protoporphyrin_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.016667e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Protoporphyrin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2310748'
+- id: 4_99_1_1_Bos_taurus_P22600_Protoporphyrin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.27e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Protoporphyrin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2310748'
+buffer:
+  buffer: 100 mM Tris-HCl, 0.1 % Triton X-100, 1 mM Dithiothreitol
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 30655
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/2310748/
+  pubmed_id: '2310748'
+  doi: null
+name: Merged entry for P22600 wildtype
+description: 'Merged from 4 files: SABIO_EC4.99.1.1_Bos_taurus__P22600_s_Fe2_.yaml,
+  SABIO_EC4.99.1.1_Bos_taurus__P22600_s_Mesoporphyrin.yaml, SABIO_EC4.99.1.1_Bos_taurus__P22600_s_Mesoporphyrin_2.yaml,
+  SABIO_EC4.99.1.1_Bos_taurus__P22600_s_Protoporphyrin.yaml'

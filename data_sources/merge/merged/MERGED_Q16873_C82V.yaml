@@ -1,0 +1,235 @@
+version: '2.0'
+created: '2025-11-20T13:41:38.712767'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_4_1_20_Q16873_p15185
+  name: leukotriene-C4 synthase
+  ecnumber: 4.4.1.20
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: C82V
+  uniprotid: Q16873
+  wildtype_sequence: MKDEVALLAAVTLLGVLLQAYFSLQVISARRAFRVSPPLTTGPPEFERVYRAQVNCSEYFPLFLATLWVAGIFFHEGAAALCGLVYLFARLRYFQGYARSAQLRLAPLYASARALWLLVALAALGLLAHFLPAALRAALLGRLRTLLPWA
+  mutant_sequence: MKDEVALLAAVTLLGVLLQAYFSLQVISARRAFRVSPPLTTGPPEFERVYRAQVNCSEYFPLFLATLWVAGIFFHEGAAALVGLVYLFARLRYFQGYARSAQLRLAPLYASARALWLLVALAALGLLAHFLPAALRAALLGRLRTLLPWA
+complexes: null
+small_molecules:
+- id: substrate_Leukotriene_A4
+  name: Leukotriene A4
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Reduced_glutathione
+  name: Reduced glutathione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Leukotriene_C4
+  name: Leukotriene C4
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_8569_EC4_4_1_20_Homo_sapiens_Q16873_Leukotriene_A4
+  name: Reaction catalyzed by leukotriene-C4 synthase on Leukotriene A4
+  equation: Leukotriene A4 + Reduced glutathione = Leukotriene C4
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Leukotriene_A4
+  - species_id: substrate_Reduced_glutathione
+  products:
+  - species_id: product_Leukotriene_C4
+  modifiers:
+  - species_id: protein_4_4_1_20_Q16873_p15185
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17617;17618;17619;17620
+  KEGGid: R03059
+  notes: 'ChEBI IDs: CHEBI:12402; CHEBI:42873; CHEBI:24334; CHEBI:15651; CHEBI:14327;
+    CHEBI:57925; CHEBI:16856; CHEBI:5437; CHEBI:16978; CHEBI:43049
+
+    KEGG IDs: KEGG:C00909; KEGG:C00051; KEGG:C02166'
+- id: sabiork_8569_EC4_4_1_20_Homo_sapiens_Q16873_Leukotriene_A4
+  name: Reaction catalyzed by leukotriene-C4 synthase on Leukotriene A4
+  equation: Leukotriene A4 + Reduced glutathione = Leukotriene C4
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Leukotriene_A4
+  - species_id: substrate_Reduced_glutathione
+  products:
+  - species_id: product_Leukotriene_C4
+  modifiers:
+  - species_id: protein_4_4_1_20_Q16873_p15200
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17617;17618;17619;17620
+  KEGGid: R03059
+  notes: 'ChEBI IDs: CHEBI:12402; CHEBI:42873; CHEBI:24334; CHEBI:15651; CHEBI:14327;
+    CHEBI:57925; CHEBI:16856; CHEBI:5437; CHEBI:16978; CHEBI:43049
+
+    KEGG IDs: KEGG:C00909; KEGG:C00051; KEGG:C02166'
+measurements:
+- id: measurement_4_4_1_20_Homo_sapiens_Q16873_Leukotriene_A4
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_4_4_1_20_Homo_sapiens_Q16873_Leukotriene_A4
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 22.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 4_4_1_20_Homo_sapiens_Q16873_Leukotriene_A4_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.002
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Leukotriene_A4
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9153254'
+- id: 4_4_1_20_Homo_sapiens_Q16873_Leukotriene_A4_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.09e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Leukotriene_A4
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9153254'
+- id: 4_4_1_20_Homo_sapiens_Q16873_Leukotriene_A4_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000628333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Leukotriene_A4
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9153254'
+- id: 4_4_1_20_Homo_sapiens_Q16873_Leukotriene_A4_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.3e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Leukotriene_A4
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9153254'
+- id: 4_4_1_20_Homo_sapiens_Q16873_Leukotriene_A4_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0009
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Leukotriene_A4
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9153254'
+buffer:
+  buffer: 50 mM HEPES, 10 mM MgCl2,; 50 ml HEPES, 10 mM MgCl2,
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 15185
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9153254/
+  pubmed_id: '9153254'
+  doi: null
+name: Merged entry for Q16873 C82V
+description: 'Merged from 2 files: SABIO_EC4.4.1.20_Homo_sapiens__Q16873_C82V_s_Leukotriene.yaml,
+  SABIO_EC4.4.1.20_Homo_sapiens__Q16873_C82V_s_Leukotriene_2.yaml'

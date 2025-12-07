@@ -1,0 +1,152 @@
+name: SABIO-RK Entry 4770
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 4770
+created: '2025-10-28T13:48:30.253120'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_2_1_2_P05042_Q8FHA7_Q8X769_p4770
+  name: fumarate hydratase
+  sequence: null
+  ecnumber: 4.2.1.2
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P05042; Q8FHA7; Q8X769
+complexes: null
+small_molecules:
+- id: substrate_L-Malate
+  name: L-Malate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Fumarate
+  name: Fumarate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_256_EC4_2_1_2_Escherichia_coli_P05042_Q8FHA7_Q8X769_L-Malate
+  name: Reaction catalyzed by fumarate hydratase on L-Malate
+  equation: L-Malate = H2O + Fumarate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Malate
+  products:
+  - species_id: product_Fumarate
+  modifiers:
+  - species_id: protein_4_2_1_2_P05042_Q8FHA7_Q8X769_p4770
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 12460;12461;12462;12463
+  KEGGid: R01082
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:42743; CHEBI:41981; CHEBI:42511;
+    CHEBI:15589; CHEBI:42857; CHEBI:41979; CHEBI:24124; CHEBI:30797; CHEBI:42043;
+    CHEBI:423; CHEBI:29806; CHEBI:33811; CHEBI:11066; CHEBI:33813; CHEBI:27313; CHEBI:15377;
+    CHEBI:13352; CHEBI:18784; CHEBI:13140; CHEBI:43228; CHEBI:24122; CHEBI:18785;
+    CHEBI:44292; CHEBI:18012; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:14284;
+    CHEBI:5190; CHEBI:37154; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00122; KEGG:C00149; KEGG:C00001'
+measurements:
+- id: measurement_4_2_1_2_Escherichia_coli_P05042_Q8FHA7_Q8X769_L-Malate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.56
+  temperature_opt: 15.0
+  temperature_unit: °C
+parameters:
+- id: 4_2_1_2_Escherichia_coli_P05042_Q8FHA7_Q8X769_L-Malate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Malate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.56
+  temperature: 15.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14990798'
+- id: 4_2_1_2_Escherichia_coli_P05042_Q8FHA7_Q8X769_L-Malate_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.75
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Malate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.56
+  temperature: 15.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14990798'
+buffer:
+  buffer: 20 mM Tris acetate
+  buffer_concentration: 20 mM
+references:
+- title: Reference for SABIO-RK entry 4770
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/14990798/
+  pubmed_id: '14990798'
+  doi: null

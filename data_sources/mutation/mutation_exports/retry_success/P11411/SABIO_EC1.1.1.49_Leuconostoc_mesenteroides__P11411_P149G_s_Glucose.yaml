@@ -1,0 +1,202 @@
+name: SABIO-RK Entry 7832
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 7832
+created: '2025-10-28T13:52:28.327737'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_49_P11411_p7832
+  name: glucose-6-phosphate dehydrogenase [NAD(P)+]
+  ecnumber: 1.1.1.49
+  organism: Leuconostoc mesenteroides
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: P149G
+  uniprotid: P11411
+  wildtype_sequence: MVSEIKTLVTFFGGTGDLAKRKLYPSVFNLYKKGYLQKHFAIVGTARQALNDDEFKQLVRDSIKDFTDDQAQAEAFIEHFSYRAHDVTDAASYAVLKEAIEEAADKFDIDGNRIFYMSVAPRFFGTIAKYLKSEGLLADTGYNRLMIEKPFGTSYDTAAELQNDLENAFDDNQLFRIDHYLGKEMVQNIAALRFGNPIFDAAWNKDYIKNVQVTLSEVLGVEERAGYYDTAGALLDMIQNHTMQIVGWLAMEKPESFTDKDIRAAKNAAFNALKIYDEAEVNKYFVRAQYGAGDSADFKPYLEELDVPADSKNNTFIAGELQFDLPRWEGVPFYVRSGKRLAAKQTRVDIVFKAGTFNFGSEQEAQEAVLSIIIDPKGAIELKLNAKSVEDAFNTRTIDLGWTVSDEDKKNTPEPYERMIHDTMNGDGSNFADWNGVSIAWKFVDAISAVYTADKAPLETYKSGSMGPEASDKLLAANGDAWVFKG
+  mutant_sequence: MVSEIKTLVTFFGGTGDLAKRKLYPSVFNLYKKGYLQKHFAIVGTARQALNDDEFKQLVRDSIKDFTDDQAQAEAFIEHFSYRAHDVTDAASYAVLKEAIEEAADKFDIDGNRIFYMSVAPRFFGTIAKYLKSEGLLADTGYNRLMIEKGFGTSYDTAAELQNDLENAFDDNQLFRIDHYLGKEMVQNIAALRFGNPIFDAAWNKDYIKNVQVTLSEVLGVEERAGYYDTAGALLDMIQNHTMQIVGWLAMEKPESFTDKDIRAAKNAAFNALKIYDEAEVNKYFVRAQYGAGDSADFKPYLEELDVPADSKNNTFIAGELQFDLPRWEGVPFYVRSGKRLAAKQTRVDIVFKAGTFNFGSEQEAQEAVLSIIIDPKGAIELKLNAKSVEDAFNTRTIDLGWTVSDEDKKNTPEPYERMIHDTMNGDGSNFADWNGVSIAWKFVDAISAVYTADKAPLETYKSGSMGPEASDKLLAANGDAWVFKG
+  position_offset: 1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Glucose_6-phosphate
+  name: Glucose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_6-Phospho-D-glucono-1
+  name: 6-Phospho-D-glucono-1
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_5-lactone
+  name: 5-lactone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7793_EC1_1_1_49_Leuconostoc_mesenteroides_P11411_Glucose_6-phosphate
+  name: Reaction catalyzed by glucose-6-phosphate dehydrogenase [NAD(P)+] on Glucose
+    6-phosphate
+  equation: NAD+ + Glucose 6-phosphate = NADH + H+ + 6-Phospho-D-glucono-1,5-lactone
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Glucose_6-phosphate
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_6-Phospho-D-glucono-1
+  - species_id: product_5-lactone
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_1_1_49_P11411_p7832
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 38215;38216;38217;38218
+  KEGGid: R10520
+  notes: 'ChEBI IDs: CHEBI:42748; CHEBI:12958; CHEBI:44281; CHEBI:13393; CHEBI:29234;
+    CHEBI:15846; CHEBI:4160; CHEBI:13357; CHEBI:58225; CHEBI:21902; CHEBI:13396; CHEBI:21901;
+    CHEBI:4170; CHEBI:12321; CHEBI:24636; CHEBI:44214; CHEBI:17665; CHEBI:29233; CHEBI:13394;
+    CHEBI:5584; CHEBI:10245; CHEBI:57945; CHEBI:44216; CHEBI:57955; CHEBI:57540; CHEBI:7423;
+    CHEBI:12233; CHEBI:22389; CHEBI:13389; CHEBI:20989; CHEBI:13395; CHEBI:15378;
+    CHEBI:16938; CHEBI:44215; CHEBI:10744; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00668; KEGG:C01236; KEGG:C00092; KEGG:C00080; KEGG:C00003; KEGG:C00004'
+measurements:
+- id: measurement_1_1_1_49_Leuconostoc_mesenteroides_P11411_Glucose_6-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1_49_Leuconostoc_mesenteroides_P11411_Glucose_6-phosphate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 10000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glucose_6-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11106479'
+- id: 1_1_1_49_Leuconostoc_mesenteroides_P11411_Glucose_6-phosphate_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 21666.67
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glucose_6-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11106479'
+- id: 1_1_1_49_Leuconostoc_mesenteroides_P11411_Glucose_6-phosphate_kcat_3
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 17.5
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glucose_6-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11106479'
+buffer:
+  buffer: 33 mM Tris-HCl
+  buffer_concentration: 33 mM
+references:
+- title: Reference for SABIO-RK entry 7832
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11106479/
+  pubmed_id: '11106479'
+  doi: null

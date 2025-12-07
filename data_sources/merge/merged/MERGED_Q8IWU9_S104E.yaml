@@ -1,0 +1,394 @@
+version: '2.0'
+created: '2025-11-20T13:39:37.406360'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_14_16_4_Q8IWU9_p72609
+  name: phenylalanine 4-monooxygenase
+  ecnumber: 1.14.16.4
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: S104E
+  uniprotid: Q8IWU9
+  wildtype_sequence: MQPAMMMFSSKYWARRGFSLDSAVPEEHQLLGSSTLNKPNSGKNDDKGNKGSSKREAATESGKTAVVFSLKNEVGGLVKALRLFQEKRVNMVHIESRKSRRRSSEVEIFVDCECGKTEFNELIQLLKFQTTIVTLNPPENIWTEEEELEDVPWFPRKISELDKCSHRVLMYGSELDADHPGFKDNVYRQRRKYFVDVAMGYKYGQPIPRVEYTEEETKTWGVVFRELSKLYPTHACREYLKNFPLLTKYCGYREDNVPQLEDVSMFLKERSGFTVRPVAGYLSPRDFLAGLAYRVFHCTQYIRHGSDPLYTPEPDTCHELLGHVPLLADPKFAQFSQEIGLASLGASDEDVQKLATCYFFTIEFGLCKQEGQLRAYGAGLLSSIGELKHALSDKACVKAFDPKTTCLQECLITTFQEAYFVSESFEEAKEKMRDFAKSITRPFSVYFNPYTQSIEILKDTRSIENVVQDLRSDLNTVCDALNKMNQYLGI
+  mutant_sequence: MQPAMMMFSSKYWARRGFSLDSAVPEEHQLLGSSTLNKPNSGKNDDKGNKGSSKREAATESGKTAVVFSLKNEVGGLVKALRLFQEKRVNMVHIESRKSRRRSEEVEIFVDCECGKTEFNELIQLLKFQTTIVTLNPPENIWTEEEELEDVPWFPRKISELDKCSHRVLMYGSELDADHPGFKDNVYRQRRKYFVDVAMGYKYGQPIPRVEYTEEETKTWGVVFRELSKLYPTHACREYLKNFPLLTKYCGYREDNVPQLEDVSMFLKERSGFTVRPVAGYLSPRDFLAGLAYRVFHCTQYIRHGSDPLYTPEPDTCHELLGHVPLLADPKFAQFSQEIGLASLGASDEDVQKLATCYFFTIEFGLCKQEGQLRAYGAGLLSSIGELKHALSDKACVKAFDPKTTCLQECLITTFQEAYFVSESFEEAKEKMRDFAKSITRPFSVYFNPYTQSIEILKDTRSIENVVQDLRSDLNTVCDALNKMNQYLGI
+complexes: null
+small_molecules:
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_L-Tryptophan
+  name: L-Tryptophan
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Tetrahydrobiopterin
+  name: Tetrahydrobiopterin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Fe2_
+  name: Fe2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4a-Hydroxytetrahydrobiopterin
+  name: 4a-Hydroxytetrahydrobiopterin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_5-Hydroxy-L-tryptophan
+  name: 5-Hydroxy-L-tryptophan
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_8593_EC1_14_16_4_Homo_sapiens_Q8IWU9_O2
+  name: Reaction catalyzed by phenylalanine 4-monooxygenase on O2
+  equation: O2 + Tetrahydrobiopterin + L-Tryptophan = 5-Hydroxy-L-tryptophan + 4a-Hydroxytetrahydrobiopterin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_L-Tryptophan
+  - species_id: substrate_Tetrahydrobiopterin
+  - species_id: cofactor_Fe2_
+  products:
+  - species_id: product_4a-Hydroxytetrahydrobiopterin
+  - species_id: product_5-Hydroxy-L-tryptophan
+  modifiers:
+  - species_id: protein_1_14_16_4_Q8IWU9_p72609
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R07213
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:10926; CHEBI:46125; CHEBI:12074; CHEBI:12133;
+    CHEBI:29033; CHEBI:32702; CHEBI:15219; CHEBI:34754; CHEBI:46225; CHEBI:26689;
+    CHEBI:13178; CHEBI:21129; CHEBI:45988; CHEBI:6310; CHEBI:29954; CHEBI:23833; CHEBI:13416;
+    CHEBI:57912; CHEBI:21407; CHEBI:136571; CHEBI:17780; CHEBI:254; CHEBI:2064; CHEBI:18604;
+    CHEBI:20577; CHEBI:32704; CHEBI:13319; CHEBI:46086; CHEBI:58266; CHEBI:15379;
+    CHEBI:9480; CHEBI:24876; CHEBI:184633; CHEBI:16828; CHEBI:15372; CHEBI:15642;
+    CHEBI:30491; CHEBI:26902; CHEBI:25366; CHEBI:44742; CHEBI:12053; CHEBI:29793;
+    CHEBI:7860; CHEBI:10745; CHEBI:43063; CHEBI:15374; CHEBI:10740; CHEBI:13321; CHEBI:49599
+
+    KEGG IDs: KEGG:C00643; KEGG:C14818; KEGG:C00078; KEGG:C15522; KEGG:C00272; KEGG:C00704;
+    KEGG:C00007'
+- id: sabiork_8593_EC1_14_16_4_Homo_sapiens_Q8IWU9_Tetrahydrobiopterin
+  name: Reaction catalyzed by phenylalanine 4-monooxygenase on Tetrahydrobiopterin
+  equation: O2 + Tetrahydrobiopterin + L-Tryptophan = 5-Hydroxy-L-tryptophan + 4a-Hydroxytetrahydrobiopterin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Tetrahydrobiopterin
+  - species_id: substrate_L-Tryptophan
+  - species_id: substrate_O2
+  - species_id: cofactor_Fe2_
+  products:
+  - species_id: product_4a-Hydroxytetrahydrobiopterin
+  - species_id: product_5-Hydroxy-L-tryptophan
+  modifiers:
+  - species_id: protein_1_14_16_4_Q8IWU9_p72602
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R07213
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:10926; CHEBI:46125; CHEBI:12074; CHEBI:12133;
+    CHEBI:29033; CHEBI:32702; CHEBI:15219; CHEBI:34754; CHEBI:46225; CHEBI:26689;
+    CHEBI:13178; CHEBI:21129; CHEBI:45988; CHEBI:6310; CHEBI:29954; CHEBI:23833; CHEBI:21407;
+    CHEBI:57912; CHEBI:13416; CHEBI:136571; CHEBI:17780; CHEBI:254; CHEBI:2064; CHEBI:18604;
+    CHEBI:20577; CHEBI:32704; CHEBI:13319; CHEBI:46086; CHEBI:58266; CHEBI:15379;
+    CHEBI:9480; CHEBI:24876; CHEBI:15372; CHEBI:16828; CHEBI:184633; CHEBI:15642;
+    CHEBI:30491; CHEBI:26902; CHEBI:25366; CHEBI:44742; CHEBI:12053; CHEBI:29793;
+    CHEBI:7860; CHEBI:10745; CHEBI:43063; CHEBI:15374; CHEBI:10740; CHEBI:13321; CHEBI:49599
+
+    KEGG IDs: KEGG:C00643; KEGG:C14818; KEGG:C00078; KEGG:C15522; KEGG:C00272; KEGG:C00704;
+    KEGG:C00007'
+- id: sabiork_8593_EC1_14_16_4_Homo_sapiens_Q8IWU9_Tetrahydrobiopterin
+  name: Reaction catalyzed by phenylalanine 4-monooxygenase on Tetrahydrobiopterin
+  equation: O2 + Tetrahydrobiopterin + L-Tryptophan = 5-Hydroxy-L-tryptophan + 4a-Hydroxytetrahydrobiopterin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Tetrahydrobiopterin
+  - species_id: substrate_L-Tryptophan
+  - species_id: substrate_O2
+  - species_id: cofactor_Fe2_
+  products:
+  - species_id: product_5-Hydroxy-L-tryptophan
+  - species_id: product_4a-Hydroxytetrahydrobiopterin
+  modifiers:
+  - species_id: protein_1_14_16_4_Q8IWU9_p72608
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R07213
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:10926; CHEBI:46125; CHEBI:12074; CHEBI:12133;
+    CHEBI:29033; CHEBI:32702; CHEBI:15219; CHEBI:34754; CHEBI:46225; CHEBI:26689;
+    CHEBI:13178; CHEBI:21129; CHEBI:45988; CHEBI:6310; CHEBI:29954; CHEBI:23833; CHEBI:21407;
+    CHEBI:57912; CHEBI:13416; CHEBI:136571; CHEBI:17780; CHEBI:254; CHEBI:2064; CHEBI:20577;
+    CHEBI:18604; CHEBI:32704; CHEBI:13319; CHEBI:46086; CHEBI:58266; CHEBI:15379;
+    CHEBI:9480; CHEBI:24876; CHEBI:15372; CHEBI:16828; CHEBI:184633; CHEBI:15642;
+    CHEBI:30491; CHEBI:26902; CHEBI:25366; CHEBI:44742; CHEBI:12053; CHEBI:29793;
+    CHEBI:7860; CHEBI:10745; CHEBI:43063; CHEBI:15374; CHEBI:10740; CHEBI:13321; CHEBI:49599
+
+    KEGG IDs: KEGG:C00643; KEGG:C14818; KEGG:C00078; KEGG:C15522; KEGG:C00272; KEGG:C00704;
+    KEGG:C00007'
+- id: sabiork_8593_EC1_14_16_4_Homo_sapiens_Q8IWU9_O2
+  name: Reaction catalyzed by phenylalanine 4-monooxygenase on O2
+  equation: O2 + Tetrahydrobiopterin + L-Tryptophan = 5-Hydroxy-L-tryptophan + 4a-Hydroxytetrahydrobiopterin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_Tetrahydrobiopterin
+  - species_id: substrate_L-Tryptophan
+  - species_id: cofactor_Fe2_
+  products:
+  - species_id: product_5-Hydroxy-L-tryptophan
+  - species_id: product_4a-Hydroxytetrahydrobiopterin
+  modifiers:
+  - species_id: protein_1_14_16_4_Q8IWU9_p72597
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R07213
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:10926; CHEBI:46125; CHEBI:12074; CHEBI:12133;
+    CHEBI:29033; CHEBI:32702; CHEBI:15219; CHEBI:34754; CHEBI:46225; CHEBI:26689;
+    CHEBI:13178; CHEBI:21129; CHEBI:45988; CHEBI:6310; CHEBI:29954; CHEBI:23833; CHEBI:13416;
+    CHEBI:57912; CHEBI:21407; CHEBI:136571; CHEBI:17780; CHEBI:254; CHEBI:2064; CHEBI:20577;
+    CHEBI:18604; CHEBI:32704; CHEBI:13319; CHEBI:46086; CHEBI:58266; CHEBI:15379;
+    CHEBI:9480; CHEBI:24876; CHEBI:15372; CHEBI:16828; CHEBI:184633; CHEBI:15642;
+    CHEBI:30491; CHEBI:26902; CHEBI:25366; CHEBI:44742; CHEBI:12053; CHEBI:29793;
+    CHEBI:7860; CHEBI:10745; CHEBI:43063; CHEBI:15374; CHEBI:10740; CHEBI:13321; CHEBI:49599
+
+    KEGG IDs: KEGG:C00643; KEGG:C14818; KEGG:C00078; KEGG:C15522; KEGG:C00272; KEGG:C00704;
+    KEGG:C00007'
+measurements:
+- id: measurement_1_14_16_4_Homo_sapiens_Q8IWU9_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_14_16_4_Homo_sapiens_Q8IWU9_Tetrahydrobiopterin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_14_16_4_Homo_sapiens_Q8IWU9_Tetrahydrobiopterin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_14_16_4_Homo_sapiens_Q8IWU9_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_14_16_4_Homo_sapiens_Q8IWU9_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0001628
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17973628'
+- id: 1_14_16_4_Homo_sapiens_Q8IWU9_O2_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.30667e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17973628'
+- id: 1_14_16_4_Homo_sapiens_Q8IWU9_Tetrahydrobiopterin_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.49833e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Tetrahydrobiopterin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17973628'
+- id: 1_14_16_4_Homo_sapiens_Q8IWU9_Tetrahydrobiopterin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.77e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Tetrahydrobiopterin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17973628'
+- id: 1_14_16_4_Homo_sapiens_Q8IWU9_Tetrahydrobiopterin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0001488
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Tetrahydrobiopterin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17973628'
+- id: 1_14_16_4_Homo_sapiens_Q8IWU9_Tetrahydrobiopterin_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 9.066667e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Tetrahydrobiopterin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17973628'
+- id: 1_14_16_4_Homo_sapiens_Q8IWU9_O2_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.985e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17973628'
+- id: 1_14_16_4_Homo_sapiens_Q8IWU9_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.86e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17973628'
+buffer:
+  buffer: 40 mM NaHepes, 0.05 mg/ml catalase, 2.5 mM dithiothreitol
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 72609
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/17973628/
+  pubmed_id: '17973628'
+  doi: null
+name: Merged entry for Q8IWU9 S104E
+description: 'Merged from 4 files: SABIO_EC1.14.16.4_Homo_sapiens__Q8IWU9_S104E_s_O2_2.yaml,
+  SABIO_EC1.14.16.4_Homo_sapiens__Q8IWU9_S104E_s_Tetrahydrobiopterin.yaml, SABIO_EC1.14.16.4_Homo_sapiens__Q8IWU9_S104E_s_Tetrahydrobiopterin_2.yaml,
+  SABIO_EC1.14.16.4_Homo_sapiens__Q8IWU9_S104E_s_O2.yaml'

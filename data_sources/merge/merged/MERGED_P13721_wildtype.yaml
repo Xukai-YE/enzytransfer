@@ -1,0 +1,370 @@
+version: '2.0'
+created: '2025-11-20T13:40:15.553691'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_4_99_1_P13721_p70110
+  name: N-acetyllactosaminide alpha-2,3-sialyltransferase
+  ecnumber: 2.4.99.1
+  organism: Rattus norvegicus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P13721
+  wildtype_sequence: MIHTNLKKKFSLFILVFLLFAVICVWKKGSDYEALTLQAKEFQMPKSQEKVAMGSASQVVFSNSKQDPKEDIPILSYHRVTAKVKPQPSFQVWDKDSTYSKLNPRLLKIWRNYLNMNKYKVSYKGPGPGVKFSVEALRCHLRDHVNVSMIEATDFPFNTTEWEGYLPKENFRTKVGPWQRCAVVSSAGSLKNSQLGREIDNHDAVLRFNGAPTDNFQQDVGSKTTIRLMNSQLVTTEKRFLKDSLYTEGILIVWDPSVYHADIPKWYQKPDYNFFETYKSYRRLNPSQPFYILKPQMPWELWDIIQEISADLIQPNPPSSGMLGIIIMMTLCDQVDIYEFLPSKRKTDVCYYHQKFFDSACTMGAYHPLLFEKNMVKHLNEGTDEDIYLFGKATLSGFRNIRC
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_CMP-N-acetylneuraminate
+  name: CMP-N-acetylneuraminate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Fetuin
+  name: Fetuin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CMP
+  name: CMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Sialylated_fetuin
+  name: Sialylated fetuin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Dexamethasone
+  name: Dexamethasone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_14355_EC2_4_99_1_Rattus_norvegicus_P13721_CMP-N-acetylneuraminate
+  name: Reaction catalyzed by N-acetyllactosaminide alpha-2,3-sialyltransferase on
+    CMP-N-acetylneuraminate
+  equation: CMP-N-acetylneuraminate + Fetuin = CMP + Sialylated fetuin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_CMP-N-acetylneuraminate
+  - species_id: substrate_Fetuin
+  products:
+  - species_id: product_CMP
+  - species_id: product_Sialylated_fetuin
+  modifiers:
+  - species_id: protein_2_4_99_1_P13721_p70110
+    role: BIOCATALYST
+  - species_id: activator_Dexamethasone
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:13274; CHEBI:41879; CHEBI:58120; CHEBI:41666; CHEBI:41319;
+    CHEBI:16556; CHEBI:47362; CHEBI:41691; CHEBI:41312; CHEBI:17361; CHEBI:60377;
+    CHEBI:23520; CHEBI:50308; CHEBI:3275; CHEBI:48799
+
+    KEGG IDs: KEGG:C00128; KEGG:C15643; KEGG:C00055'
+- id: sabiork_14355_EC2_4_99_1_Rattus_norvegicus_P13721_Fetuin
+  name: Reaction catalyzed by N-acetyllactosaminide alpha-2,3-sialyltransferase on
+    Fetuin
+  equation: CMP-N-acetylneuraminate + Fetuin = CMP + Sialylated fetuin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Fetuin
+  - species_id: substrate_CMP-N-acetylneuraminate
+  products:
+  - species_id: product_Sialylated_fetuin
+  - species_id: product_CMP
+  modifiers:
+  - species_id: protein_2_4_99_1_P13721_p70108
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:13274; CHEBI:58120; CHEBI:41666; CHEBI:41319; CHEBI:16556;
+    CHEBI:47362; CHEBI:41691; CHEBI:41312; CHEBI:17361; CHEBI:60377; CHEBI:23520;
+    CHEBI:50308; CHEBI:3275; CHEBI:48799
+
+    KEGG IDs: KEGG:C00128; KEGG:C00055'
+- id: sabiork_14355_EC2_4_99_1_Rattus_norvegicus_P13721_Fetuin
+  name: Reaction catalyzed by N-acetyllactosaminide alpha-2,3-sialyltransferase on
+    Fetuin
+  equation: CMP-N-acetylneuraminate + Fetuin = CMP + Sialylated fetuin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Fetuin
+  - species_id: substrate_CMP-N-acetylneuraminate
+  products:
+  - species_id: product_CMP
+  - species_id: product_Sialylated_fetuin
+  modifiers:
+  - species_id: protein_2_4_99_1_P13721_p70107
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:13274; CHEBI:58120; CHEBI:41666; CHEBI:41319; CHEBI:16556;
+    CHEBI:47362; CHEBI:41691; CHEBI:41312; CHEBI:17361; CHEBI:60377; CHEBI:23520;
+    CHEBI:50308; CHEBI:3275; CHEBI:48799
+
+    KEGG IDs: KEGG:C00128; KEGG:C00055'
+- id: sabiork_14355_EC2_4_99_1_Rattus_norvegicus_P13721_Fetuin
+  name: Reaction catalyzed by N-acetyllactosaminide alpha-2,3-sialyltransferase on
+    Fetuin
+  equation: CMP-N-acetylneuraminate + Fetuin = CMP + Sialylated fetuin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Fetuin
+  - species_id: substrate_CMP-N-acetylneuraminate
+  products:
+  - species_id: product_Sialylated_fetuin
+  - species_id: product_CMP
+  modifiers:
+  - species_id: protein_2_4_99_1_P13721_p70109
+    role: BIOCATALYST
+  - species_id: activator_Dexamethasone
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:13274; CHEBI:41879; CHEBI:58120; CHEBI:41666; CHEBI:41319;
+    CHEBI:16556; CHEBI:47362; CHEBI:41691; CHEBI:41312; CHEBI:17361; CHEBI:60377;
+    CHEBI:23520; CHEBI:50308; CHEBI:3275; CHEBI:48799
+
+    KEGG IDs: KEGG:C00128; KEGG:C15643; KEGG:C00055'
+measurements:
+- id: measurement_2_4_99_1_Rattus_norvegicus_P13721_CMP-N-acetylneuraminate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_4_99_1_Rattus_norvegicus_P13721_Fetuin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_4_99_1_Rattus_norvegicus_P13721_Fetuin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_4_99_1_Rattus_norvegicus_P13721_Fetuin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_4_99_1_Rattus_norvegicus_P13721_CMP-N-acetylneuraminate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 5.027778e-12
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CMP-N-acetylneuraminate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9280318'
+- id: 2_4_99_1_Rattus_norvegicus_P13721_CMP-N-acetylneuraminate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.132
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CMP-N-acetylneuraminate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9280318'
+- id: 2_4_99_1_Rattus_norvegicus_P13721_Fetuin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0779
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Fetuin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9280318'
+- id: 2_4_99_1_Rattus_norvegicus_P13721_Fetuin_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.944444e-13
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Fetuin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9280318'
+- id: 2_4_99_1_Rattus_norvegicus_P13721_Fetuin_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 9.305556e-13
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Fetuin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9280318'
+- id: 2_4_99_1_Rattus_norvegicus_P13721_Fetuin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.8e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Fetuin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9280318'
+- id: 2_4_99_1_Rattus_norvegicus_P13721_Fetuin_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 4.305556e-12
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Fetuin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9280318'
+- id: 2_4_99_1_Rattus_norvegicus_P13721_Fetuin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000144
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Fetuin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9280318'
+buffer:
+  buffer: 50 mM Tris-HCl, 10 mM MgCl2, 3 mg/ml Triton X-100
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 70110
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9280318/
+  pubmed_id: '9280318'
+  doi: null
+name: Merged entry for P13721 wildtype
+description: 'Merged from 4 files: SABIO_EC2.4.99.1_Rattus_norvegicus__P13721_s_CMP-N-acetylneuramin.yaml,
+  SABIO_EC2.4.99.1_Rattus_norvegicus__P13721_s_Fetuin_2.yaml, SABIO_EC2.4.99.1_Rattus_norvegicus__P13721_s_Fetuin.yaml,
+  SABIO_EC2.4.99.1_Rattus_norvegicus__P13721_s_Fetuin_3.yaml'

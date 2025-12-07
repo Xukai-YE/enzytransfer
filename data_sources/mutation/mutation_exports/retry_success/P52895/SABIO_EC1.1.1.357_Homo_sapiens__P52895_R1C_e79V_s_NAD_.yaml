@@ -1,0 +1,191 @@
+name: SABIO-RK Entry 52581
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 52581
+created: '2025-10-28T16:01:12.055931'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_357_P52895_p52581
+  name: 3alpha-hydroxysteroid dehydrogenase (B-specific)
+  sequence: null
+  ecnumber: 1.1.1.357
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: R1C; e79V
+  uniprotid: P52895
+  mutant_sequence: MDSKYQCVKLNDGHFMPVLGFGTYAPAEVPKSKALEAVKLAIEAGFHHIDSAHVYNNEEQVGLAIRSKIADGSVKREDIFYTSKLWSNSHRPELVCPALERSLKNLQLDYVDLYLIHFPVSVKPGEEVIPKDENGKILFDTVDLCATWEAMEKCKDAGLAKSIGVSNFNHRLLVMILNKPGLKYKPVCNQVECHPYFNQRKLLDFCKSKDIVLVAYSALGSHREEPWVDPNSPVLLEDPVLCALAKKHKRTPALIALRYQLQRGVVVLAKSYNEQRIRQNVQVFEFQLTSEEMKAIDGLNRNVRYLTLDIFAGPPNYPFSDEY
+  position_offset: 95
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Androstanediol
+  name: Androstanediol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_5alpha-Androstane-17beta-ol-3-one
+  name: 5alpha-Androstane-17beta-ol-3-one
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_13670_EC1_1_1_357_Homo_sapiens_P52895_NAD_
+  name: Reaction catalyzed by 3alpha-hydroxysteroid dehydrogenase (B-specific) on
+    NAD+
+  equation: NAD+ + Androstanediol = NADH + H+ + 5alpha-Androstane-17beta-ol-3-one
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_Androstanediol
+  products:
+  - species_id: product_NADH
+  - species_id: product_5alpha-Androstane-17beta-ol-3-one
+  modifiers:
+  - species_id: protein_1_1_1_357_P52895_p52581
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:13357;
+    CHEBI:21902; CHEBI:13396; CHEBI:27727; CHEBI:21901; CHEBI:24636; CHEBI:44214;
+    CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:57945; CHEBI:16330; CHEBI:44216; CHEBI:57540;
+    CHEBI:7423; CHEBI:13389; CHEBI:15378; CHEBI:13395; CHEBI:44215; CHEBI:10744; CHEBI:7422;
+    CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C07632; KEGG:C00003; KEGG:C03917; KEGG:C00004'
+measurements:
+- id: measurement_1_1_1_357_Homo_sapiens_P52895_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1_357_Homo_sapiens_P52895_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.252e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '21802064'
+- id: 1_1_1_357_Homo_sapiens_P52895_NAD__Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000833333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '21802064'
+- id: 1_1_1_357_Homo_sapiens_P52895_NAD__Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.7e-08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '21802064'
+buffer:
+  buffer: 50 mM Kip
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 52581
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/21802064/
+  pubmed_id: '21802064'
+  doi: null

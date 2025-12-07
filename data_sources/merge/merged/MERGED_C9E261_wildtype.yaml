@@ -1,0 +1,246 @@
+version: '2.0'
+created: '2025-11-20T13:42:00.309613'
+modified: null
+creators:
+- given_name: SKiD
+  family_name: Database
+  mail: skid@database.org
+vessels: null
+proteins:
+- id: protein_C9E261
+  name: Burkholderia cepacia
+  ecnumber: 1.1.1.22
+  organism: Burkholderia cepacia
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: null
+  uniprotid: C9E261
+  wildtype_sequence: MNLTIIGSGYVGLVTGACLADIGHDVFCLDVDQAKIDILNNGGVPIHEPGLKEVIARNRSAGRLRFSTDIEAAVAHGDVQFIAVGTPPDEDGSADLQYVLAAARNIGRYMTGFKVIVDKSTVPVGTAERVRAAVAEELAKRGGDQMFSVVSNPEFLKEGAAVDDFTRPDRIVIGCDDDVPGERARELMKKLYAPFNRNHERTLYMDVRSAEFTKYAANAMLATRISFMNELANLADRFGADIEAVRRGIGSDPRIGYHFLYAGCGYGGSCFPKDVEALIRTADEHGQSLQILKAVSSVNATQKRVLADKIVARFGEDLTGRTFAIWGLAFKPNTDDMREAPSRELIAELLSRGARIAAYDPVAQEEARRVIALDLADHPSWLERLSFVDDEAQAARDADALVIVTEWKIFKSPDFVALGRLWKTPVIFDGRNLYEPETMSEQGIEYHPIGRPGSRQAVAARVTGTAPASA
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_UDP-alpha-D-glucose
+  name: UDP-alpha-D-glucose
+  canonical_smiles: C1=CN(C(=O)NC1=O)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OC3C(C(C(C(O3)CO)O)O)O)O)O
+  inchi: InChI=1S/C15H24N2O17P2/c18-3-5-8(20)10(22)12(24)14(32-5)33-36(28,29)34-35(26,27)30-4-6-9(21)11(23)13(31-6)17-2-1-7(19)16-15(17)25/h1-2,5-6,8-14,18,20-24H,3-4H2,(H,26,27)(H,28,29)(H,16,19,25)
+  inchikey: HSCJRCZFDFQWRP-UHFFFAOYSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/8629
+- id: product
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N
+  inchi: InChI=1S/C21H27N7O14P2/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(32)14(30)11(41-21)6-39-44(36,37)42-43(34,35)38-5-10-13(29)15(31)20(40-10)27-3-1-2-9(4-27)18(23)33/h1-4,7-8,10-11,13-16,20-21,29-32H,5-6H2,(H5-,22,23,24,25,33,34,35,36,37)
+  inchikey: BAWFJGJZGIEFAR-UHFFFAOYSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/5892
+reactions:
+- id: reaction_C9E261_UDP-alpha-D-glucose
+  name: Reaction catalyzed by enzyme on UDP-alpha-D-glucose
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_UDP-alpha-D-glucose
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_C9E261
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_C9E261_NAD_
+  name: Reaction catalyzed by enzyme on NAD+
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_C9E261
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+measurements:
+- id: measurement_0
+  name: Experimental conditions (pH=8.7, T=30.0°C)
+  species_data: null
+  ph_opt: 8.7
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=8.7, T=30.0°C)
+  species_data: null
+  ph_opt: 8.7
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: C9E261_UDP-alpha-D-glucose_kcat_231
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 6.9
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_UDP-alpha-D-glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.7
+  temperature: 30.0
+  temperature_unit: °C
+  notes: 'Source: kcat'
+  pubmed_id: '21602353'
+- id: C9E261_UDP-alpha-D-glucose_Km_11280
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.23
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_UDP-alpha-D-glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.7
+  temperature: 30.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '21602353'
+- id: C9E261_NAD__kcat_232
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 6.7
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.7
+  temperature: 30.0
+  temperature_unit: °C
+  notes: 'Source: kcat'
+  pubmed_id: '21602353'
+- id: C9E261_NAD__Km_11293
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.53
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.7
+  temperature: 30.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '17209547'
+buffer:
+  buffer: null
+  buffer_concentration: null
+references:
+- title: C.
+  authors: Rocha, J., Popescu, A.O., Borges, P., Mil-Homens, D., Moreira, L.M., Sa-Correia,
+    I., Fialho, A.M., Frazao
+  year: '2011'
+  journal: Structure of Burkholderia cepacia UDP-glucose dehydrogenase (UGD) BceC
+    and role of Tyr10 in final hydrolysis of UGD thioester intermediate. J
+  uri: null
+  pubmed_id: '21602353'
+  doi: null
+  id: '57'
+  pages: 3978-3987
+  volume: '193'
+  citation: 'Rocha, J.,Popescu, A.O.,Borges, P.,Mil-Homens, D.,Moreira, L.M.,Sa-Correia,
+    I.,Fialho, A.M.,Frazao, C., Structure of Burkholderia cepacia UDP-glucose dehydrogenase
+    (UGD) BceC and role of Tyr10 in final hydrolysis of UGD thioester intermediate.
+    J, Bacteriol., 2011, 3978-3987, 193, PMID: 21602353'
+- title: M.A.
+  authors: Easley, K.E., Sommer, B.J., Boanca, G., Barycki, J.J., Simpson
+  year: '2007'
+  journal: Characterization of human UDP-glucose dehydrogenase reveals critical catalytic
+    roles for lysine 220 and aspartate 280
+  uri: null
+  pubmed_id: '17209547'
+  doi: null
+  id: '36'
+  pages: 369-378
+  volume: '46'
+  citation: 'Easley, K.E.,Sommer, B.J.,Boanca, G.,Barycki, J.J.,Simpson, M.A., Characterization
+    of human UDP-glucose dehydrogenase reveals critical catalytic roles for lysine
+    220 and aspartate 280, Biochemistry, 2007, 369-378, 46, PMID: 17209547'
+name: Merged entry for C9E261 wildtype
+description: 'Merged from 2 files: SKID_EC1.1.1.22_Burkholder_C9E261_UDP-alpha-D-glu.yaml,
+  SKID_EC1.1.1.22_Burkholder_C9E261_NAD_.yaml'

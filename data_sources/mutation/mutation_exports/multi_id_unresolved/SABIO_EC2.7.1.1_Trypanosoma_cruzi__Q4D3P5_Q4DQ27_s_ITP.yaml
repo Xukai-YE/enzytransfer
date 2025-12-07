@@ -1,0 +1,157 @@
+name: SABIO-RK Entry 11553
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 11553
+created: '2025-10-28T13:59:16.525232'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_1_Q4D3P5_Q4DQ27_p11553
+  name: hexokinase
+  sequence: null
+  ecnumber: 2.7.1.1
+  organism: Trypanosoma cruzi
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q4D3P5; Q4DQ27
+complexes: null
+small_molecules:
+- id: substrate_ITP
+  name: ITP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Glucose
+  name: D-Glucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Glucose_6-phosphate
+  name: D-Glucose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_IDP
+  name: IDP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_14_EC2_7_1_1_Trypanosoma_cruzi_Q4D3P5_Q4DQ27_ITP
+  name: Reaction catalyzed by hexokinase on ITP
+  equation: ITP + D-Glucose = IDP + D-Glucose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ITP
+  - species_id: substrate_D-Glucose
+  products:
+  - species_id: product_D-Glucose_6-phosphate
+  - species_id: product_IDP
+  modifiers:
+  - species_id: protein_2_7_1_1_Q4D3P5_Q4DQ27_p11553
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00725
+  notes: 'ChEBI IDs: CHEBI:5848; CHEBI:42748; CHEBI:19272; CHEBI:16039; CHEBI:42802;
+    CHEBI:17808; CHEBI:10242; CHEBI:58225; CHEBI:13371; CHEBI:4167; CHEBI:12318; CHEBI:17634;
+    CHEBI:4170; CHEBI:12321; CHEBI:43252; CHEBI:17665; CHEBI:61402; CHEBI:13374; CHEBI:22386;
+    CHEBI:15954; CHEBI:10245; CHEBI:57614; CHEBI:14314; CHEBI:43508; CHEBI:5851; CHEBI:22389;
+    CHEBI:58280; CHEBI:19270; CHEBI:40557; CHEBI:17925; CHEBI:88300
+
+    KEGG IDs: KEGG:C00267; KEGG:C00668; KEGG:C00081; KEGG:C00092; KEGG:C00104; KEGG:C00031'
+measurements:
+- id: measurement_2_7_1_1_Trypanosoma_cruzi_Q4D3P5_Q4DQ27_ITP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 2_7_1_1_Trypanosoma_cruzi_Q4D3P5_Q4DQ27_ITP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00069
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ITP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '6235452'
+buffer:
+  buffer: 50 mM Tris-HCl, 5 mM MgCl2, 1 mM Phosphoenolpyruvate, 5 U/ml Pyruvate kinase,
+    5 U/ml Lactate dehydrogenase, 0.2 mM NADH, 90 mM KCl, 4 mM Mercaptoethanol, 0.1
+    mM EGTA
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 11553
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/6235452/
+  pubmed_id: '6235452'
+  doi: null

@@ -1,0 +1,189 @@
+name: SABIO-RK Entry 53190
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 53190
+created: '2025-10-28T16:03:11.101021'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_3_1_30_Q42588_P16703_p53190
+  name: serine O-acetyltransferase
+  sequence: null
+  ecnumber: 2.3.1.30
+  organism: Arabidopsis thaliana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q42588; P16703
+complexes: null
+small_molecules:
+- id: substrate_Acetyl-CoA
+  name: Acetyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_L-Serine
+  name: L-Serine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_O-Acetyl-L-serine
+  name: O-Acetyl-L-serine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_986_EC2_3_1_30_Arabidopsis_thaliana_Q42588_P16703_Acetyl-CoA
+  name: Reaction catalyzed by serine O-acetyltransferase on Acetyl-CoA
+  equation: L-Serine + Acetyl-CoA = Coenzyme A + O-Acetyl-L-serine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Acetyl-CoA
+  - species_id: substrate_L-Serine
+  products:
+  - species_id: product_Coenzyme_A
+  - species_id: product_O-Acetyl-L-serine
+  modifiers:
+  - species_id: protein_2_3_1_30_Q42588_P16703_p53190
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 24560;24561;24562;24563
+  KEGGid: R00586
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:15346; CHEBI:32836; CHEBI:23355; CHEBI:7668;
+    CHEBI:12685; CHEBI:17981; CHEBI:32837; CHEBI:12724; CHEBI:57288; CHEBI:41631;
+    CHEBI:13167; CHEBI:45451; CHEBI:21938; CHEBI:13712; CHEBI:45440; CHEBI:13295;
+    CHEBI:45590; CHEBI:12710; CHEBI:41597; CHEBI:58340; CHEBI:29999; CHEBI:33384;
+    CHEBI:57287; CHEBI:13294; CHEBI:45597; CHEBI:40470; CHEBI:17115; CHEBI:21387;
+    CHEBI:2408; CHEBI:44568; CHEBI:3771; CHEBI:6301; CHEBI:741566; CHEBI:45677; CHEBI:13298;
+    CHEBI:15351
+
+    KEGG IDs: KEGG:C00979; KEGG:C00065; KEGG:C00010; KEGG:C00024'
+measurements:
+- id: measurement_2_3_1_30_Arabidopsis_thaliana_Q42588_P16703_Acetyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 2_3_1_30_Arabidopsis_thaliana_Q42588_P16703_Acetyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0003
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9692924'
+- id: 2_3_1_30_Arabidopsis_thaliana_Q42588_P16703_Acetyl-CoA_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 360000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetyl-CoA
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9692924'
+- id: 2_3_1_30_Arabidopsis_thaliana_Q42588_P16703_Acetyl-CoA_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 108.6
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9692924'
+buffer:
+  buffer: 50 mM Hepes/HCl, 2.5 mM sulfide
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 53190
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9692924/
+  pubmed_id: '9692924'
+  doi: null

@@ -1,0 +1,294 @@
+version: '2.0'
+created: '2025-11-20T13:41:12.509013'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_4_21_21_P08709_p54143
+  name: coagulation factor IXa
+  ecnumber: 3.4.21.21
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P08709
+  wildtype_sequence: MVSQALRLLCLLLGLQGCLAAGGVAKASGGETRDMPWKPGPHRVFVTQEEAHGVLHRRRRANAFLEELRPGSLERECKEEQCSFEEAREIFKDAERTKLFWISYSDGDQCASSPCQNGGSCKDQLQSYICFCLPAFEGRNCETHKDDQLICVNENGGCEQYCSDHTGTKRSCRCHEGYSLLADGVSCTPTVEYPCGKIPILEKRNASKPQGRIVGGKVCPKGECPWQVLLLVNGAQLCGGTLINTIWVVSAAHCFDKIKNWRNLIAVLGEHDLSEHDGDEQSRRVAQVIIPSTYVPGTTNHDIALLRLHQPVVLTDHVVPLCLPERTFSERTLAFVRFSLVSGWGQLLDRGATALELMVLNVPRLMTQDCLQQSRKVGDSPNITEYMFCAGYSDGSKDSCKGDSGGPHATHYRGTWYLTGIVSWGQGCATVGHFGVYTRVSQYIEWLQKLMRSEPRPGVLLRAPFP
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Factor_X
+  name: Factor X
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Ca2_
+  name: Ca2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Factor_Xa
+  name: Factor Xa
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_H-D-Ile-Pro-Arg-p-nitroanilide
+  name: H-D-Ile-Pro-Arg-p-nitroanilide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4-Nitroaniline
+  name: 4-Nitroaniline
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_H-D-Ile-Pro-Arg
+  name: H-D-Ile-Pro-Arg
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_sTF
+  name: sTF
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_6645_EC3_4_21_21_Homo_sapiens_P08709_Factor_X
+  name: Reaction catalyzed by coagulation factor IXa on Factor X
+  equation: Factor X + H2O = Factor Xa
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Factor_X
+  - species_id: cofactor_Ca2_
+  products:
+  - species_id: product_Factor_Xa
+  modifiers:
+  - species_id: protein_3_4_21_21_P08709_p54143
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:39123; CHEBI:29108; CHEBI:3308; CHEBI:22988; CHEBI:48760;
+    CHEBI:4964
+
+    KEGG IDs: KEGG:C01577; KEGG:C01492; KEGG:C00076'
+- id: sabiork_11846_EC3_4_21_21_Homo_sapiens_P08709_H-D-Ile-Pro-Arg-p-nitroanilide
+  name: Reaction catalyzed by trypsin on H-D-Ile-Pro-Arg-p-nitroanilide
+  equation: H2O + H-D-Ile-Pro-Arg-p-nitroanilide = 4-Nitroaniline + H-D-Ile-Pro-Arg
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_H-D-Ile-Pro-Arg-p-nitroanilide
+  products:
+  - species_id: product_4-Nitroaniline
+  - species_id: product_H-D-Ile-Pro-Arg
+  modifiers:
+  - species_id: protein_3_4_21_21_P08709_p35919
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:44545; CHEBI:20455;
+    CHEBI:42857; CHEBI:41979; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:12032; CHEBI:15377; CHEBI:13352; CHEBI:43228; CHEBI:44292; CHEBI:33806;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:1910; CHEBI:17064; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00001; KEGG:C02126'
+- id: sabiork_11846_EC3_4_21_21_Homo_sapiens_P08709_H-D-Ile-Pro-Arg-p-nitroanilide
+  name: Reaction catalyzed by trypsin on H-D-Ile-Pro-Arg-p-nitroanilide
+  equation: H2O + H-D-Ile-Pro-Arg-p-nitroanilide = 4-Nitroaniline + H-D-Ile-Pro-Arg
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_H-D-Ile-Pro-Arg-p-nitroanilide
+  products:
+  - species_id: product_4-Nitroaniline
+  - species_id: product_H-D-Ile-Pro-Arg
+  modifiers:
+  - species_id: protein_3_4_21_21_P08709_p35923
+    role: BIOCATALYST
+  - species_id: activator_sTF
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:44545; CHEBI:20455;
+    CHEBI:42857; CHEBI:41979; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:12032; CHEBI:15377; CHEBI:13352; CHEBI:43228; CHEBI:44292; CHEBI:33806;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:1910; CHEBI:17064; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00001; KEGG:C02126'
+measurements:
+- id: measurement_3_4_21_21_Homo_sapiens_P08709_Factor_X
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: null
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_3_4_21_21_Homo_sapiens_P08709_H-D-Ile-Pro-Arg-p-nitroanilide
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_3_4_21_21_Homo_sapiens_P08709_H-D-Ile-Pro-Arg-p-nitroanilide
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 3_4_21_21_Homo_sapiens_P08709_Factor_X_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.8666667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Factor_X
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8428982'
+- id: 3_4_21_21_Homo_sapiens_P08709_Factor_X_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.22e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Factor_X
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8428982'
+- id: 3_4_21_21_Homo_sapiens_P08709_H-D-Ile-Pro-Arg-p-nitroanilide_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.008
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_H-D-Ile-Pro-Arg-p-nitroanilide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15518559'
+- id: 3_4_21_21_Homo_sapiens_P08709_H-D-Ile-Pro-Arg-p-nitroanilide_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0015
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_H-D-Ile-Pro-Arg-p-nitroanilide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15518559'
+buffer:
+  buffer: 50 mM Hepes, 0.1 M NaCl, 5 mM CaCl2, 1 mg/ml BSA
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 54143
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/8428982/
+  pubmed_id: '8428982'
+  doi: null
+- title: Reference for SABIO-RK entry 35919
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15518559/
+  pubmed_id: '15518559'
+  doi: null
+name: Merged entry for P08709 wildtype
+description: 'Merged from 3 files: SABIO_EC3.4.21.21_Homo_sapiens__P08709_s_Factor.yaml,
+  SABIO_EC3.4.21.21_Homo_sapiens__P08709_s_H-D-Ile-Pro-Arg-p-ni.yaml, SABIO_EC3.4.21.21_Homo_sapiens__P08709_s_H-D-Ile-Pro-Arg-p-ni_2.yaml'

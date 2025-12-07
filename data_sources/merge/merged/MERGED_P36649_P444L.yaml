@@ -1,0 +1,223 @@
+version: '2.0'
+created: '2025-11-20T13:39:28.783003'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_10_3_2_P36649_p69941
+  name: laccase
+  ecnumber: 1.10.3.2
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: P444L
+  uniprotid: P36649
+  wildtype_sequence: MQRRDFLKYSVALGVASALPLWSRAVFAAERPTLPIPDLLTTDARNRIQLTIGAGQSTFGGKTATTWGYNGNLLGPAVKLQRGKAVTVDIYNQLTEETTLHWHGLEVPGEVDGGPQGIIPPGGKRSVTLNVDQPAATCWFHPHQHGKTGRQVAMGLAGLVVIEDDEILKLMLPKQWGIDDVPVIVQDKKFSADGQIDYQLDVMTAAVGWFGDTLLTNGAIYPQHAAPRGWLRLRLLNGCNARSLNFATSDNRPLYVIASDGGLLPEPVKVSELPVLMGERFEVLVEVNDNKPFDLVTLPVSQMGMAIAPFDKPHPVMRIQPIAISASGALPDTLSSLPALPSLEGLTVRKLQLSMDPMLDMMGMQMLMEKYGDQAMAGMDHSQMMGHMGHGNMNHMNHGGKFDFHHANKINGQAFDMNKPMFAAAKGQYERWVISGVGDMMLHPFHIHGTQFRILSENGKPPAAHRAGWKDTVKVEGNVSEVLVKFNHDAPKEHAYMAHCHLLEHEDTGMMLGFTV
+  mutant_sequence: MQRRDFLKYSVALGVASALPLWSRAVFAAERPTLPIPDLLTTDARNRIQLTIGAGQSTFGGKTATTWGYNGNLLGPAVKLQRGKAVTVDIYNQLTEETTLHWHGLEVPGEVDGGPQGIIPPGGKRSVTLNVDQPAATCWFHPHQHGKTGRQVAMGLAGLVVIEDDEILKLMLPKQWGIDDVPVIVQDKKFSADGQIDYQLDVMTAAVGWFGDTLLTNGAIYPQHAAPRGWLRLRLLNGCNARSLNFATSDNRPLYVIASDGGLLPEPVKVSELPVLMGERFEVLVEVNDNKPFDLVTLPVSQMGMAIAPFDKPHPVMRIQPIAISASGALPDTLSSLPALPSLEGLTVRKLQLSMDPMLDMMGMQMLMEKYGDQAMAGMDHSQMMGHMGHGNMNHMNHGGKFDFHHANKINGQAFDMNKPMFAAAKGQYERWVISGVGDMMLHLFHIHGTQFRILSENGKPPAAHRAGWKDTVKVEGNVSEVLVKFNHDAPKEHAYMAHCHLLEHEDTGMMLGFTV
+complexes: null
+small_molecules:
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_2
+  name: '2'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_2_-Azino-bis_3-ethylbenzthiazoline-6-sulfonic_acid_
+  name: 2'-Azino-bis(3-ethylbenzthiazoline-6-sulfonic acid)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Oxidized_2
+  name: Oxidized 2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2_-azino-bis_3-ethylbenzthiazoline-6-sulfonic_acid_
+  name: 2'-azino-bis(3-ethylbenzthiazoline-6-sulfonic acid)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Cu2_
+  name: Cu2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_12786_EC1_10_3_2_Escherichia_coli_P36649_O2
+  name: Reaction catalyzed by laccase on O2
+  equation: O2 + 2,2'-Azino-bis(3-ethylbenzthiazoline-6-sulfonic acid) = Oxidized
+    2,2'-azino-bis(3-ethylbenzthiazoline-6-sulfonic acid) + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_2
+  - species_id: substrate_2_-Azino-bis_3-ethylbenzthiazoline-6-sulfonic_acid_
+  products:
+  - species_id: product_Oxidized_2
+  - species_id: product_2_-azino-bis_3-ethylbenzthiazoline-6-sulfonic_acid_
+  modifiers:
+  - species_id: protein_1_10_3_2_P36649_p69941
+    role: BIOCATALYST
+  - species_id: activator_Cu2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:49550;
+    CHEBI:26689; CHEBI:42857; CHEBI:41979; CHEBI:23833; CHEBI:13416; CHEBI:42043;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:15379;
+    CHEBI:43228; CHEBI:44292; CHEBI:30491; CHEBI:33806; CHEBI:20882; CHEBI:25366;
+    CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:29793; CHEBI:7860; CHEBI:29036;
+    CHEBI:10745; CHEBI:29373; CHEBI:44701; CHEBI:23380
+
+    KEGG IDs: KEGG:C00070; KEGG:C00001; KEGG:C00007; KEGG:C00704'
+- id: sabiork_12786_EC1_10_3_2_Escherichia_coli_P36649_O2
+  name: Reaction catalyzed by laccase on O2
+  equation: O2 + 2,2'-Azino-bis(3-ethylbenzthiazoline-6-sulfonic acid) = Oxidized
+    2,2'-azino-bis(3-ethylbenzthiazoline-6-sulfonic acid) + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_2
+  - species_id: substrate_2_-Azino-bis_3-ethylbenzthiazoline-6-sulfonic_acid_
+  products:
+  - species_id: product_Oxidized_2
+  - species_id: product_2_-azino-bis_3-ethylbenzthiazoline-6-sulfonic_acid_
+  modifiers:
+  - species_id: protein_1_10_3_2_P36649_p69948
+    role: BIOCATALYST
+  - species_id: activator_Cu2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:49550;
+    CHEBI:26689; CHEBI:42857; CHEBI:41979; CHEBI:23833; CHEBI:13416; CHEBI:42043;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:15379;
+    CHEBI:43228; CHEBI:44292; CHEBI:30491; CHEBI:33806; CHEBI:20882; CHEBI:25366;
+    CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:29793; CHEBI:7860; CHEBI:29036;
+    CHEBI:10745; CHEBI:29373; CHEBI:44701; CHEBI:23380
+
+    KEGG IDs: KEGG:C00070; KEGG:C00001; KEGG:C00007; KEGG:C00704'
+measurements:
+- id: measurement_1_10_3_2_Escherichia_coli_P36649_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 5.5
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_1_10_3_2_Escherichia_coli_P36649_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 5.5
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 1_10_3_2_Escherichia_coli_P36649_O2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 10.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '21142169'
+- id: 1_10_3_2_Escherichia_coli_P36649_O2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 17.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '21142169'
+buffer:
+  buffer: 0.1 M acetate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 69941
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/21142169/
+  pubmed_id: '21142169'
+  doi: null
+name: Merged entry for P36649 P444L
+description: 'Merged from 2 files: SABIO_EC1.10.3.2_Escherichia_coli__P36649_P444L_s_O2.yaml,
+  SABIO_EC1.10.3.2_Escherichia_coli__P36649_P444L_s_O2_2.yaml'

@@ -1,0 +1,368 @@
+version: '2.0'
+created: '2025-11-20T13:40:05.290974'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_3_1_74_P30074_p58487
+  name: naringenin-chalcone synthase
+  ecnumber: 2.3.1.74
+  organism: Medicago sativa
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: N336K
+  uniprotid: P30074
+  wildtype_sequence: MVSVSEIRKAQRAEGPATILAIGTANPANCVEQSTYPDFYFKITNSEHKTELKEKFQRMCDKSMIKRRYMYLTEEILKENPNVCEYMAPSLDARQDMVVVEVPRLGKEAAVKAIKEWGQPKSKITHLIVCTTSGVDMPGADYQLTKLLGLRPYVKRYMMYQQGCFAGGTVLRLAKDLAENNKGARVLVVCSEVTAVTFRGPSDTHLDSLVGQALFGDGAAALIVGSDPVPEIEKPIFEMVWTAQTIAPDSEGAIDGHLREAGLTFHLLKDVPGIVSKNITKALVEAFEPLGISDYNSIFWIAHPGGPAILDQVEQKLALKPEKMNATREVLSEYGNMSSACVLFILDEMRKKSTQNGLKTTGEGLEWGVLFGFGPGLTIETVVLRSVAI
+  mutant_sequence: MVSVSEIRKAQRAEGPATILAIGTANPANCVEQSTYPDFYFKITNSEHKTELKEKFQRMCDKSMIKRRYMYLTEEILKENPNVCEYMAPSLDARQDMVVVEVPRLGKEAAVKAIKEWGQPKSKITHLIVCTTSGVDMPGADYQLTKLLGLRPYVKRYMMYQQGCFAGGTVLRLAKDLAENNKGARVLVVCSEVTAVTFRGPSDTHLDSLVGQALFGDGAAALIVGSDPVPEIEKPIFEMVWTAQTIAPDSEGAIDGHLREAGLTFHLLKDVPGIVSKNITKALVEAFEPLGISDYNSIFWIAHPGGPAILDQVEQKLALKPEKMNATREVLSEYGKMSSACVLFILDEMRKKSTQNGLKTTGEGLEWGVLFGFGPGLTIETVVLRSVAI
+complexes: null
+small_molecules:
+- id: substrate_Malonyl-CoA
+  name: Malonyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_4-Coumaroyl-CoA
+  name: 4-Coumaroyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Naringenin_chalcone
+  name: Naringenin chalcone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Acetyl-CoA
+  name: Acetyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1758_EC2_3_1_74_Medicago_sativa_P30074_Malonyl-CoA
+  name: Reaction catalyzed by naringenin-chalcone synthase on Malonyl-CoA
+  equation: 4-Coumaroyl-CoA + Malonyl-CoA = CO2 + Coenzyme A + Naringenin chalcone
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Malonyl-CoA
+  - species_id: substrate_4-Coumaroyl-CoA
+  products:
+  - species_id: product_CO2
+  - species_id: product_Naringenin_chalcone
+  - species_id: product_Coenzyme_A
+  modifiers:
+  - species_id: protein_2_3_1_74_P30074_p58487
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 11128;11129;11130;11131
+  KEGGid: R01613
+  notes: 'ChEBI IDs: CHEBI:25135; CHEBI:15346; CHEBI:23355; CHEBI:43979; CHEBI:139538;
+    CHEBI:41631; CHEBI:85008; CHEBI:20349; CHEBI:11979; CHEBI:85531; CHEBI:1813; CHEBI:15531;
+    CHEBI:57384; CHEBI:3283; CHEBI:6661; CHEBI:6055; CHEBI:13295; CHEBI:41597; CHEBI:14641;
+    CHEBI:15499; CHEBI:23011; CHEBI:15413; CHEBI:57287; CHEBI:13285; CHEBI:13282;
+    CHEBI:13294; CHEBI:77645; CHEBI:57355; CHEBI:13283; CHEBI:10785; CHEBI:14565;
+    CHEBI:13284; CHEBI:3771; CHEBI:16526; CHEBI:48829; CHEBI:741566; CHEBI:19219;
+    CHEBI:13298
+
+    KEGG IDs: KEGG:C00010; KEGG:C00083; KEGG:C06561; KEGG:C00011; KEGG:C00223'
+- id: sabiork_1758_EC2_3_1_74_Medicago_sativa_P30074_Malonyl-CoA
+  name: Reaction catalyzed by naringenin-chalcone synthase on Malonyl-CoA
+  equation: 4-Coumaroyl-CoA + Malonyl-CoA = CO2 + Coenzyme A + Naringenin chalcone
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Malonyl-CoA
+  - species_id: substrate_4-Coumaroyl-CoA
+  products:
+  - species_id: product_Coenzyme_A
+  - species_id: product_CO2
+  - species_id: product_Naringenin_chalcone
+  modifiers:
+  - species_id: protein_2_3_1_74_P30074_p58495
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 11128;11129;11130;11131
+  KEGGid: R01613
+  notes: 'ChEBI IDs: CHEBI:25135; CHEBI:15346; CHEBI:23355; CHEBI:43979; CHEBI:139538;
+    CHEBI:41631; CHEBI:85008; CHEBI:20349; CHEBI:11979; CHEBI:85531; CHEBI:1813; CHEBI:15531;
+    CHEBI:57384; CHEBI:3283; CHEBI:6661; CHEBI:13295; CHEBI:6055; CHEBI:41597; CHEBI:14641;
+    CHEBI:15499; CHEBI:23011; CHEBI:15413; CHEBI:57287; CHEBI:13285; CHEBI:13294;
+    CHEBI:13282; CHEBI:77645; CHEBI:57355; CHEBI:13283; CHEBI:10785; CHEBI:14565;
+    CHEBI:13284; CHEBI:3771; CHEBI:16526; CHEBI:741566; CHEBI:48829; CHEBI:19219;
+    CHEBI:13298
+
+    KEGG IDs: KEGG:C00010; KEGG:C00083; KEGG:C06561; KEGG:C00011; KEGG:C00223'
+- id: sabiork_750_EC2_3_1_74_Medicago_sativa_P30074_Malonyl-CoA
+  name: Reaction catalyzed by malonyl-CoA decarboxylase on Malonyl-CoA
+  equation: Malonyl-CoA = CO2 + Acetyl-CoA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Malonyl-CoA
+  products:
+  - species_id: product_Acetyl-CoA
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_2_3_1_74_P30074_p58505
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 18781;18782;18783;18784
+  KEGGid: R00233
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:25135; CHEBI:43979; CHEBI:57288; CHEBI:139538;
+    CHEBI:13712; CHEBI:15531; CHEBI:57384; CHEBI:3283; CHEBI:6661; CHEBI:23011; CHEBI:13285;
+    CHEBI:13282; CHEBI:40470; CHEBI:13283; CHEBI:2408; CHEBI:14565; CHEBI:13284; CHEBI:16526;
+    CHEBI:48829; CHEBI:15351
+
+    KEGG IDs: KEGG:C00011; KEGG:C00083; KEGG:C00024'
+measurements:
+- id: measurement_2_3_1_74_Medicago_sativa_P30074_Malonyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_3_1_74_Medicago_sativa_P30074_Malonyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_3_1_74_Medicago_sativa_P30074_Malonyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_3_1_74_Medicago_sativa_P30074_Malonyl-CoA_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.16667e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Malonyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10653632'
+- id: 2_3_1_74_Medicago_sativa_P30074_Malonyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.81e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Malonyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10653632'
+- id: 2_3_1_74_Medicago_sativa_P30074_Malonyl-CoA_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 0.4
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Malonyl-CoA
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10653632'
+- id: 2_3_1_74_Medicago_sativa_P30074_Malonyl-CoA_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 0.3
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Malonyl-CoA
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10653632'
+- id: 2_3_1_74_Medicago_sativa_P30074_Malonyl-CoA_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 4.33333e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Malonyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10653632'
+- id: 2_3_1_74_Medicago_sativa_P30074_Malonyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000127
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Malonyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10653632'
+- id: 2_3_1_74_Medicago_sativa_P30074_Malonyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000339
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Malonyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10653632'
+- id: 2_3_1_74_Medicago_sativa_P30074_Malonyl-CoA_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 0.7
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Malonyl-CoA
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10653632'
+- id: 2_3_1_74_Medicago_sativa_P30074_Malonyl-CoA_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.000225
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Malonyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10653632'
+buffer:
+  buffer: 100 mM potassium phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 58487
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10653632/
+  pubmed_id: '10653632'
+  doi: null
+name: Merged entry for P30074 N336K
+description: 'Merged from 3 files: SABIO_EC2.3.1.74_Medicago_sativa__P30074_N336K_s_Malonyl-CoA.yaml,
+  SABIO_EC2.3.1.74_Medicago_sativa__P30074_N336K_s_Malonyl-CoA_2.yaml, SABIO_EC2.3.1.74_Medicago_sativa__P30074_N336K_s_Malonyl-CoA_3.yaml'

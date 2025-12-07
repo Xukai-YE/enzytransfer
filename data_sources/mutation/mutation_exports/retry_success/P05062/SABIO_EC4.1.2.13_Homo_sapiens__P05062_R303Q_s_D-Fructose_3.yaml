@@ -1,0 +1,174 @@
+name: SABIO-RK Entry 5888
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 5888
+created: '2025-10-28T13:49:54.396866'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_1_2_13_P05062_p5888
+  name: fructose-bisphosphate aldolase
+  ecnumber: 4.1.2.13
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: R303Q
+  uniprotid: P05062
+  wildtype_sequence: MAHRFPALTQEQKKELSEIAQSIVANGKGILAADESVGTMGNRLQRIKVENTEENRRQFREILFSVDSSINQSIGGVILFHETLYQKDSQGKLFRNILKEKGIVVGIKLDQGGAPLAGTNKETTIQGLDGLSERCAQYKKDGVDFGKWRAVLRIADQCPSSLAIQENANALARYASICQQNGLVPIVEPEVIPDGDHDLEHCQYVTEKVLAAVYKALNDHHVYLEGTLLKPNMVTAGHACTKKYTPEQVAMATVTALHRTVPAAVPGICFLSGGMSEEDATLNLNAINLCPLPKPWKLSFSYGRALQASALAAWGGKAANKEATQEAFMKRAMANCQAAKGQYVHTGSSGAASTQSLFTACYTY
+  mutant_sequence: MAHRFPALTQEQKKELSEIAQSIVANGKGILAADESVGTMGNRLQRIKVENTEENRRQFREILFSVDSSINQSIGGVILFHETLYQKDSQGKLFRNILKEKGIVVGIKLDQGGAPLAGTNKETTIQGLDGLSERCAQYKKDGVDFGKWRAVLRIADQCPSSLAIQENANALARYASICQQNGLVPIVEPEVIPDGDHDLEHCQYVTEKVLAAVYKALNDHHVYLEGTLLKPNMVTAGHACTKKYTPEQVAMATVTALHRTVPAAVPGICFLSGGMSEEDATLNLNAINLCPLPKPWKLSFSYGQALQASALAAWGGKAANKEATQEAFMKRAMANCQAAKGQYVHTGSSGAASTQSLFTACYTY
+  position_offset: 1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_D-Fructose_1
+  name: D-Fructose 1
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_6-bisphosphate
+  name: 6-bisphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Glyceraldehyde_3-phosphate
+  name: D-Glyceraldehyde 3-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Glycerone_phosphate
+  name: Glycerone phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1338_EC4_1_2_13_Homo_sapiens_P05062_D-Fructose_1
+  name: Reaction catalyzed by fructose-bisphosphate aldolase on D-Fructose 1
+  equation: D-Fructose 1,6-bisphosphate = D-Glyceraldehyde 3-phosphate + Glycerone
+    phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Fructose_1
+  - species_id: substrate_6-bisphosphate
+  products:
+  - species_id: product_D-Glyceraldehyde_3-phosphate
+  - species_id: product_Glycerone_phosphate
+  modifiers:
+  - species_id: protein_4_1_2_13_P05062_p5888
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 14729;14730;14731;14732
+  KEGGid: R01070
+  notes: 'ChEBI IDs: CHEBI:28013; CHEBI:16905; CHEBI:181; CHEBI:12984; CHEBI:37736;
+    CHEBI:10374; CHEBI:29052; CHEBI:18324; CHEBI:59776; CHEBI:22767; CHEBI:41014;
+    CHEBI:32966; CHEBI:12983; CHEBI:21026; CHEBI:42553; CHEBI:16108
+
+    KEGG IDs: KEGG:C00118; KEGG:C05378; KEGG:C00354; KEGG:C00111'
+measurements:
+- id: measurement_4_1_2_13_Homo_sapiens_P05062_D-Fructose_1
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 4_1_2_13_Homo_sapiens_P05062_D-Fructose_1_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000147
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Fructose_1
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10970798'
+- id: 4_1_2_13_Homo_sapiens_P05062_D-Fructose_1_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.39
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Fructose_1
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10970798'
+buffer:
+  buffer: 100 mM Tris/HCl, 0.2 mM NADH, 0.5 mM EDTA, 10 ¦Ìg/ml alpha-glycerol-phosphate
+    dehydrogenase/triose phosphate isomerase
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 5888
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10970798/
+  pubmed_id: '10970798'
+  doi: null

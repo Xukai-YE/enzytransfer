@@ -1,0 +1,190 @@
+name: SABIO-RK Entry 4527
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 4527
+created: '2025-10-28T13:48:12.091453'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_1_P49384_p4527
+  name: alcohol dehydrogenase
+  ecnumber: 1.1.1.1
+  organism: Kluyveromyces lactis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: G225A
+  uniprotid: P49384
+  wildtype_sequence: MLRLTSARSIVSPLRKGAFGSIRTLATSVPETQKGVIFYENGGKLEYKDIPVPKPKPNEILINVKYSGVCHTDLHAWKGDWPLPTKLPLVGGHEGAGVVVAMGENVKGWNIGDFAGIKWLNGSCMSCEYCELSNESNCPDADLSGYTHDGSFQQYATADAVQAARIPKGTDLAEVAPILCAGVTVYKALKSANLKAGDWVAISGAAGGLGSLAVQYAKAMGYRVVGIDGGEEKGKLVKQLGGEAFVDFTKTKDMVAEIQEITNGGPHGVINVSVSEAAMNASTQFVRPTGTVVLVGLPAGAVIKSEVFSHVVKSINIKGSYVGNRADTREAINFFANGHVHSPIKVVGLSELPKVYELMEQGKILGRYVVDTSN
+  mutant_sequence: MLRLTSARSIVSPLRKGAFGSIRTLATSVPETQKGVIFYENGGKLEYKDIPVPKPKPNEILINVKYSGVCHTDLHAWKGDWPLPTKLPLVGGHEGAGVVVAMGENVKGWNIGDFAGIKWLNGSCMSCEYCELSNESNCPDADLSGYTHDGSFQQYATADAVQAARIPKGTDLAEVAPILCAGVTVYKALKSANLKAGDWVAISGAAGGLGSLAVQYAKAMAYRVVGIDGGEEKGKLVKQLGGEAFVDFTKTKDMVAEIQEITNGGPHGVINVSVSEAAMNASTQFVRPTGTVVLVGLPAGAVIKSEVFSHVVKSINIKGSYVGNRADTREAINFFANGHVHSPIKVVGLSELPKVYELMEQGKILGRYVVDTSN
+  position_offset: -4
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Acetaldehyde
+  name: Acetaldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Ethanol
+  name: Ethanol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_49_EC1_1_1_1_Kluyveromyces_lactis_P49384_Acetaldehyde
+  name: Reaction catalyzed by alcohol dehydrogenase on Acetaldehyde
+  equation: Ethanol + NADP+ = NADPH + H+ + Acetaldehyde
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Acetaldehyde
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_NADP_
+  - species_id: product_Ethanol
+  modifiers:
+  - species_id: protein_1_1_1_1_P49384_p4527
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00746
+  notes: 'ChEBI IDs: CHEBI:16236; CHEBI:13397; CHEBI:13398; CHEBI:23978; CHEBI:7424;
+    CHEBI:30880; CHEBI:21903; CHEBI:44405; CHEBI:7425; CHEBI:25523; CHEBI:2383; CHEBI:40533;
+    CHEBI:13399; CHEBI:15343; CHEBI:14222; CHEBI:13703; CHEBI:16474; CHEBI:44594;
+    CHEBI:44286; CHEBI:22158; CHEBI:21904; CHEBI:44409; CHEBI:42377; CHEBI:18009;
+    CHEBI:30878; CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:4879
+
+    KEGG IDs: KEGG:C00084; KEGG:C00469; KEGG:C00005; KEGG:C00006; KEGG:C11037'
+measurements:
+- id: measurement_1_1_1_1_Kluyveromyces_lactis_P49384_Acetaldehyde
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1_1_Kluyveromyces_lactis_P49384_Acetaldehyde_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00037
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetaldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15556281'
+- id: 1_1_1_1_Kluyveromyces_lactis_P49384_Acetaldehyde_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 26.33333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetaldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15556281'
+- id: 1_1_1_1_Kluyveromyces_lactis_P49384_Acetaldehyde_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 71166.67
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetaldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15556281'
+buffer:
+  buffer: 50 mM Tris-HCl
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 4527
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15556281/
+  pubmed_id: '15556281'
+  doi: null

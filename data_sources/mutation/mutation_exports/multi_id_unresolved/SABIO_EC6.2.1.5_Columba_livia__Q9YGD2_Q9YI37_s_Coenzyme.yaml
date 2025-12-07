@@ -1,0 +1,197 @@
+name: SABIO-RK Entry 30252
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 30252
+created: '2025-10-28T14:40:00.198612'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_6_2_1_5_Q9YGD2_Q9YI37_p30252
+  name: succinate---CoA ligase (ADP-forming)
+  sequence: null
+  ecnumber: 6.2.1.5
+  organism: Columba livia
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9YGD2; Q9YI37
+complexes: null
+small_molecules:
+- id: substrate_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Succinate
+  name: Succinate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Succinyl-CoA
+  name: Succinyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Phosphate
+  name: Phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_260_EC6_2_1_5_Columba_livia_Q9YGD2_Q9YI37_Coenzyme_A
+  name: Reaction catalyzed by succinate---CoA ligase (ADP-forming) on Coenzyme A
+  equation: ATP + Coenzyme A + Succinate = ADP + Phosphate + Succinyl-CoA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Coenzyme_A
+  - species_id: substrate_Succinate
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_ADP
+  - species_id: product_Succinyl-CoA
+  - species_id: product_Phosphate
+  modifiers:
+  - species_id: protein_6_2_1_5_Q9YGD2_Q9YI37_p30252
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17661;17662;17663;17664
+  KEGGid: R00405
+  notes: 'ChEBI IDs: CHEBI:26807; CHEBI:30616; CHEBI:237958; CHEBI:14791; CHEBI:15346;
+    CHEBI:23355; CHEBI:16761; CHEBI:10789; CHEBI:57299; CHEBI:35780; CHEBI:18367;
+    CHEBI:43470; CHEBI:40553; CHEBI:26020; CHEBI:15125; CHEBI:26078; CHEBI:41631;
+    CHEBI:26803; CHEBI:10746; CHEBI:13236; CHEBI:29139; CHEBI:13295; CHEBI:26811;
+    CHEBI:22943; CHEBI:39739; CHEBI:41597; CHEBI:15380; CHEBI:45541; CHEBI:10841;
+    CHEBI:45639; CHEBI:2359; CHEBI:87518; CHEBI:9304; CHEBI:132287; CHEBI:39745; CHEBI:40938;
+    CHEBI:57287; CHEBI:90372; CHEBI:13294; CHEBI:9310; CHEBI:456216; CHEBI:7793; CHEBI:22249;
+    CHEBI:2342; CHEBI:57292; CHEBI:15422; CHEBI:15127; CHEBI:30031; CHEBI:45024; CHEBI:22941;
+    CHEBI:30779; CHEBI:3771; CHEBI:15741; CHEBI:741566; CHEBI:43474; CHEBI:13222;
+    CHEBI:22244; CHEBI:29137; CHEBI:13298
+
+    KEGG IDs: KEGG:C00091; KEGG:C00010; KEGG:C00002; KEGG:C00009; KEGG:C00008; KEGG:C00042'
+measurements:
+- id: measurement_6_2_1_5_Columba_livia_Q9YGD2_Q9YI37_Coenzyme_A
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 6_2_1_5_Columba_livia_Q9YGD2_Q9YI37_Coenzyme_A_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Coenzyme_A
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9765290'
+- id: 6_2_1_5_Columba_livia_Q9YGD2_Q9YI37_Coenzyme_A_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.000110169
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Coenzyme_A
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9765290'
+buffer:
+  buffer: 100 mM Tris acetate, 7.1 mM Magnesium acetate, 10 mM KCl, 1.55 mM Phosphoenolpyruvate,
+    0.1 mM NADH, 7.5 U/ml pyruvate kinase, 7.5 U/ml lactate dehydrogenase
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 30252
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9765290/
+  pubmed_id: '9765290'
+  doi: null

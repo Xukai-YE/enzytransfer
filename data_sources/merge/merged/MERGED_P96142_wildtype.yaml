@@ -1,0 +1,821 @@
+version: '2.0'
+created: '2025-11-20T13:41:50.584758'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_6_1_1_9_P96142_p68016
+  name: valine---tRNA ligase
+  ecnumber: 6.1.1.9
+  organism: Thermus thermophilus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P96142
+  wildtype_sequence: MDLPKAYDPKSVEPKWAEKWAKNPFVANPKSGKPPFVIFMPPPNVTGSLHMGHALDNSLQDALIRYKRMRGFEAVWLPGTDHAGIATQVVVERLLLKEGKTRHDLGREKFLERVWQWKEESGGTILKQLKRLGASADWSREAFTMDEKRSRAVRYAFSRYYHEGLAYRAPRLVNWCPRCETTLSDLEVETEPTPGKLYTLRYEVEGGGFIEIATVRPETVFADQAIAVHPEDERYRHLLGKRARIPLTEVWIPILADPAVEKDFGTGALKVTPAHDPLDYEIGERHGLKPVSVINLEGRMEGERVPEALRGLDRFEARRKAVELFREAGHLVKEEDYTIALATCSRCGTPIEYAIFPQWWLRMRPLAEEVLKGLRRGDIAFVPERWKKVNMDWLENVKDWNISRQLWWGHQIPAWYCEDCQAVNVPRPERYLEDPTSCEACGSPRLKRDEDVFDTWFSSALWPLSTLGWPEETEDLKAFYPGDVLVTGYDILFLWVSRMEVSGYHFMGERPFKTVLLHGLVLDEKGQKMSKSKGNVIDPLEMVERYGADALRFALIYLATGGQDIRLDLRWLEMARNFANKLYNAARFVLLSREGFQAKEDTPTLADRFMRSRLSRGVEEITALYEALDLAQAAREVYELVWSEFCDWYLEAAKPALKAGNAHTLRTLEEVLAVLLKLLHPMMPFLTSELYQALTGKEELALEAWPEPGGRDEEAERAFEALKQAVTAVRALKAEAGLPPAQEVRVYLEGETAPVEENLEVFRFLSRADLLPERPAKALVKAMPRVTARMPLEGLLDVEEWRRRQEKRLKELLALAERSQRKLASPGFREKAPKEVVEAEEARLKENLEQAERIREALSQIG
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_L-Valine
+  name: L-Valine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_tRNA_Val_
+  name: tRNA(Val)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Valyl-tRNA_Val_
+  name: L-Valyl-tRNA(Val)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_AMP
+  name: AMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_416_EC6_1_1_9_Thermus_thermophilus_P96142_ATP
+  name: Reaction catalyzed by valine---tRNA ligase on ATP
+  equation: ATP + L-Valine + tRNA(Val) = Diphosphate + AMP + L-Valyl-tRNA(Val)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_L-Valine
+  - species_id: substrate_tRNA_Val_
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_L-Valyl-tRNA_Val_
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_6_1_1_9_P96142_p68016
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03665
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:6321; CHEBI:10789; CHEBI:57299;
+    CHEBI:32859; CHEBI:8683; CHEBI:40726; CHEBI:22245; CHEBI:29164; CHEBI:40510; CHEBI:46484;
+    CHEBI:22242; CHEBI:30015; CHEBI:47222; CHEBI:13736; CHEBI:46282; CHEBI:33019;
+    CHEBI:456215; CHEBI:13236; CHEBI:16414; CHEBI:45067; CHEBI:40786; CHEBI:40826;
+    CHEBI:16027; CHEBI:2356; CHEBI:27266; CHEBI:10841; CHEBI:29888; CHEBI:2359; CHEBI:87977;
+    CHEBI:35782; CHEBI:40938; CHEBI:32860; CHEBI:13420; CHEBI:57762; CHEBI:18361;
+    CHEBI:33017; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:32852; CHEBI:13740;
+    CHEBI:29183; CHEBI:21417; CHEBI:46418; CHEBI:42009; CHEBI:13186; CHEBI:40721;
+    CHEBI:13234; CHEBI:32851; CHEBI:45212; CHEBI:46376; CHEBI:13235; CHEBI:12056;
+    CHEBI:33018
+
+    KEGG IDs: KEGG:C01653; KEGG:C00013; KEGG:C00183; KEGG:C02554; KEGG:C00002; KEGG:C16436;
+    KEGG:C00020'
+- id: sabiork_416_EC6_1_1_9_Thermus_thermophilus_P96142_L-Valine
+  name: Reaction catalyzed by valine---tRNA ligase on L-Valine
+  equation: ATP + L-Valine + tRNA(Val) = Diphosphate + AMP + L-Valyl-tRNA(Val)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Valine
+  - species_id: substrate_ATP
+  - species_id: substrate_tRNA_Val_
+  products:
+  - species_id: product_L-Valyl-tRNA_Val_
+  - species_id: product_AMP
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_6_1_1_9_P96142_p68015
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03665
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:6321; CHEBI:10789; CHEBI:57299;
+    CHEBI:32859; CHEBI:40726; CHEBI:22245; CHEBI:8683; CHEBI:29164; CHEBI:40510; CHEBI:46484;
+    CHEBI:22242; CHEBI:30015; CHEBI:47222; CHEBI:13736; CHEBI:46282; CHEBI:33019;
+    CHEBI:456215; CHEBI:13236; CHEBI:16414; CHEBI:40786; CHEBI:45067; CHEBI:40826;
+    CHEBI:16027; CHEBI:2356; CHEBI:27266; CHEBI:10841; CHEBI:29888; CHEBI:2359; CHEBI:87977;
+    CHEBI:35782; CHEBI:40938; CHEBI:32860; CHEBI:13420; CHEBI:57762; CHEBI:18361;
+    CHEBI:33017; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:32852; CHEBI:13740;
+    CHEBI:29183; CHEBI:21417; CHEBI:46418; CHEBI:13234; CHEBI:13186; CHEBI:40721;
+    CHEBI:42009; CHEBI:32851; CHEBI:45212; CHEBI:46376; CHEBI:13235; CHEBI:12056;
+    CHEBI:33018
+
+    KEGG IDs: KEGG:C01653; KEGG:C00013; KEGG:C00183; KEGG:C02554; KEGG:C00002; KEGG:C16436;
+    KEGG:C00020'
+- id: sabiork_416_EC6_1_1_9_Thermus_thermophilus_P96142_L-Valine
+  name: Reaction catalyzed by valine---tRNA ligase on L-Valine
+  equation: ATP + L-Valine + tRNA(Val) = Diphosphate + AMP + L-Valyl-tRNA(Val)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Valine
+  - species_id: substrate_tRNA_Val_
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_AMP
+  - species_id: product_Diphosphate
+  - species_id: product_L-Valyl-tRNA_Val_
+  modifiers:
+  - species_id: protein_6_1_1_9_P96142_p68012
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03665
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:6321; CHEBI:10789; CHEBI:57299;
+    CHEBI:32859; CHEBI:40726; CHEBI:22245; CHEBI:8683; CHEBI:29164; CHEBI:40510; CHEBI:46484;
+    CHEBI:22242; CHEBI:30015; CHEBI:47222; CHEBI:13736; CHEBI:46282; CHEBI:33019;
+    CHEBI:456215; CHEBI:13236; CHEBI:16414; CHEBI:40786; CHEBI:45067; CHEBI:40826;
+    CHEBI:16027; CHEBI:2356; CHEBI:27266; CHEBI:10841; CHEBI:29888; CHEBI:2359; CHEBI:87977;
+    CHEBI:35782; CHEBI:40938; CHEBI:32860; CHEBI:13420; CHEBI:57762; CHEBI:18361;
+    CHEBI:33017; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:32852; CHEBI:13740;
+    CHEBI:29183; CHEBI:21417; CHEBI:46418; CHEBI:13234; CHEBI:13186; CHEBI:40721;
+    CHEBI:42009; CHEBI:32851; CHEBI:45212; CHEBI:46376; CHEBI:13235; CHEBI:12056;
+    CHEBI:33018
+
+    KEGG IDs: KEGG:C01653; KEGG:C00013; KEGG:C00183; KEGG:C02554; KEGG:C00002; KEGG:C16436;
+    KEGG:C00020'
+- id: sabiork_416_EC6_1_1_9_Thermus_thermophilus_P96142_L-Valine
+  name: Reaction catalyzed by valine---tRNA ligase on L-Valine
+  equation: ATP + L-Valine + tRNA(Val) = Diphosphate + AMP + L-Valyl-tRNA(Val)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Valine
+  - species_id: substrate_ATP
+  - species_id: substrate_tRNA_Val_
+  products:
+  - species_id: product_AMP
+  - species_id: product_Diphosphate
+  - species_id: product_L-Valyl-tRNA_Val_
+  modifiers:
+  - species_id: protein_6_1_1_9_P96142_p68018
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03665
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:6321; CHEBI:10789; CHEBI:57299;
+    CHEBI:32859; CHEBI:40726; CHEBI:22245; CHEBI:8683; CHEBI:29164; CHEBI:40510; CHEBI:46484;
+    CHEBI:22242; CHEBI:30015; CHEBI:47222; CHEBI:13736; CHEBI:46282; CHEBI:33019;
+    CHEBI:456215; CHEBI:13236; CHEBI:16414; CHEBI:40786; CHEBI:45067; CHEBI:40826;
+    CHEBI:16027; CHEBI:2356; CHEBI:27266; CHEBI:10841; CHEBI:29888; CHEBI:2359; CHEBI:87977;
+    CHEBI:35782; CHEBI:40938; CHEBI:32860; CHEBI:13420; CHEBI:57762; CHEBI:18361;
+    CHEBI:33017; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:32852; CHEBI:13740;
+    CHEBI:29183; CHEBI:21417; CHEBI:46418; CHEBI:13234; CHEBI:13186; CHEBI:40721;
+    CHEBI:42009; CHEBI:32851; CHEBI:45212; CHEBI:46376; CHEBI:13235; CHEBI:12056;
+    CHEBI:33018
+
+    KEGG IDs: KEGG:C01653; KEGG:C00013; KEGG:C00183; KEGG:C02554; KEGG:C00002; KEGG:C16436;
+    KEGG:C00020'
+- id: sabiork_416_EC6_1_1_9_Thermus_thermophilus_P96142_L-Valine
+  name: Reaction catalyzed by valine---tRNA ligase on L-Valine
+  equation: ATP + L-Valine + tRNA(Val) = Diphosphate + AMP + L-Valyl-tRNA(Val)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Valine
+  - species_id: substrate_tRNA_Val_
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_AMP
+  - species_id: product_Diphosphate
+  - species_id: product_L-Valyl-tRNA_Val_
+  modifiers:
+  - species_id: protein_6_1_1_9_P96142_p68019
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03665
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:6321; CHEBI:10789; CHEBI:57299;
+    CHEBI:32859; CHEBI:40726; CHEBI:22245; CHEBI:8683; CHEBI:29164; CHEBI:40510; CHEBI:46484;
+    CHEBI:22242; CHEBI:30015; CHEBI:47222; CHEBI:13736; CHEBI:46282; CHEBI:33019;
+    CHEBI:456215; CHEBI:13236; CHEBI:16414; CHEBI:40786; CHEBI:45067; CHEBI:40826;
+    CHEBI:16027; CHEBI:2356; CHEBI:27266; CHEBI:10841; CHEBI:29888; CHEBI:2359; CHEBI:87977;
+    CHEBI:35782; CHEBI:40938; CHEBI:32860; CHEBI:13420; CHEBI:57762; CHEBI:18361;
+    CHEBI:33017; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:32852; CHEBI:13740;
+    CHEBI:29183; CHEBI:21417; CHEBI:46418; CHEBI:13234; CHEBI:13186; CHEBI:40721;
+    CHEBI:42009; CHEBI:32851; CHEBI:45212; CHEBI:46376; CHEBI:13235; CHEBI:12056;
+    CHEBI:33018
+
+    KEGG IDs: KEGG:C01653; KEGG:C00013; KEGG:C00183; KEGG:C02554; KEGG:C00002; KEGG:C16436;
+    KEGG:C00020'
+- id: sabiork_416_EC6_1_1_9_Thermus_thermophilus_P96142_L-Valine
+  name: Reaction catalyzed by valine---tRNA ligase on L-Valine
+  equation: ATP + L-Valine + tRNA(Val) = Diphosphate + AMP + L-Valyl-tRNA(Val)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Valine
+  - species_id: substrate_tRNA_Val_
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_L-Valyl-tRNA_Val_
+  - species_id: product_AMP
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_6_1_1_9_P96142_p68021
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03665
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:6321; CHEBI:10789; CHEBI:57299;
+    CHEBI:32859; CHEBI:40726; CHEBI:22245; CHEBI:8683; CHEBI:29164; CHEBI:40510; CHEBI:46484;
+    CHEBI:22242; CHEBI:30015; CHEBI:47222; CHEBI:13736; CHEBI:46282; CHEBI:33019;
+    CHEBI:456215; CHEBI:13236; CHEBI:16414; CHEBI:40786; CHEBI:45067; CHEBI:40826;
+    CHEBI:16027; CHEBI:2356; CHEBI:27266; CHEBI:10841; CHEBI:29888; CHEBI:2359; CHEBI:87977;
+    CHEBI:35782; CHEBI:40938; CHEBI:32860; CHEBI:13420; CHEBI:57762; CHEBI:18361;
+    CHEBI:33017; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:32852; CHEBI:13740;
+    CHEBI:29183; CHEBI:21417; CHEBI:46418; CHEBI:13234; CHEBI:13186; CHEBI:40721;
+    CHEBI:42009; CHEBI:32851; CHEBI:45212; CHEBI:46376; CHEBI:13235; CHEBI:12056;
+    CHEBI:33018
+
+    KEGG IDs: KEGG:C01653; KEGG:C00013; KEGG:C00183; KEGG:C02554; KEGG:C00002; KEGG:C16436;
+    KEGG:C00020'
+- id: sabiork_416_EC6_1_1_9_Thermus_thermophilus_P96142_tRNA_Val_
+  name: Reaction catalyzed by valine---tRNA ligase on tRNA(Val)
+  equation: ATP + L-Valine + tRNA(Val) = Diphosphate + AMP + L-Valyl-tRNA(Val)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_tRNA_Val_
+  - species_id: substrate_L-Valine
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_AMP
+  - species_id: product_L-Valyl-tRNA_Val_
+  modifiers:
+  - species_id: protein_6_1_1_9_P96142_p68013
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03665
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:6321; CHEBI:10789; CHEBI:57299;
+    CHEBI:32859; CHEBI:8683; CHEBI:40726; CHEBI:22245; CHEBI:29164; CHEBI:40510; CHEBI:46484;
+    CHEBI:22242; CHEBI:30015; CHEBI:47222; CHEBI:13736; CHEBI:46282; CHEBI:33019;
+    CHEBI:456215; CHEBI:13236; CHEBI:16414; CHEBI:45067; CHEBI:40786; CHEBI:40826;
+    CHEBI:16027; CHEBI:2356; CHEBI:27266; CHEBI:10841; CHEBI:29888; CHEBI:2359; CHEBI:87977;
+    CHEBI:35782; CHEBI:40938; CHEBI:32860; CHEBI:13420; CHEBI:57762; CHEBI:18361;
+    CHEBI:33017; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:32852; CHEBI:13740;
+    CHEBI:29183; CHEBI:21417; CHEBI:46418; CHEBI:42009; CHEBI:13186; CHEBI:40721;
+    CHEBI:13234; CHEBI:32851; CHEBI:45212; CHEBI:46376; CHEBI:13235; CHEBI:12056;
+    CHEBI:33018
+
+    KEGG IDs: KEGG:C01653; KEGG:C00013; KEGG:C00183; KEGG:C02554; KEGG:C00002; KEGG:C16436;
+    KEGG:C00020'
+- id: sabiork_416_EC6_1_1_9_Thermus_thermophilus_P96142_tRNA_Val_
+  name: Reaction catalyzed by valine---tRNA ligase on tRNA(Val)
+  equation: ATP + L-Valine + tRNA(Val) = Diphosphate + AMP + L-Valyl-tRNA(Val)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_tRNA_Val_
+  - species_id: substrate_ATP
+  - species_id: substrate_L-Valine
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_L-Valyl-tRNA_Val_
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_6_1_1_9_P96142_p68020
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03665
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:6321; CHEBI:10789; CHEBI:57299;
+    CHEBI:32859; CHEBI:8683; CHEBI:40726; CHEBI:22245; CHEBI:29164; CHEBI:40510; CHEBI:46484;
+    CHEBI:22242; CHEBI:30015; CHEBI:47222; CHEBI:13736; CHEBI:46282; CHEBI:33019;
+    CHEBI:456215; CHEBI:13236; CHEBI:16414; CHEBI:45067; CHEBI:40786; CHEBI:40826;
+    CHEBI:16027; CHEBI:2356; CHEBI:27266; CHEBI:10841; CHEBI:29888; CHEBI:2359; CHEBI:87977;
+    CHEBI:35782; CHEBI:40938; CHEBI:32860; CHEBI:13420; CHEBI:57762; CHEBI:18361;
+    CHEBI:33017; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:32852; CHEBI:13740;
+    CHEBI:29183; CHEBI:21417; CHEBI:46418; CHEBI:42009; CHEBI:13186; CHEBI:40721;
+    CHEBI:13234; CHEBI:32851; CHEBI:45212; CHEBI:46376; CHEBI:13235; CHEBI:12056;
+    CHEBI:33018
+
+    KEGG IDs: KEGG:C01653; KEGG:C00013; KEGG:C00183; KEGG:C02554; KEGG:C00002; KEGG:C16436;
+    KEGG:C00020'
+measurements:
+- id: measurement_6_1_1_9_Thermus_thermophilus_P96142_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.7
+  temperature_opt: 65.0
+  temperature_unit: °C
+- id: measurement_6_1_1_9_Thermus_thermophilus_P96142_L-Valine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.7
+  temperature_opt: 65.0
+  temperature_unit: °C
+- id: measurement_6_1_1_9_Thermus_thermophilus_P96142_L-Valine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.7
+  temperature_opt: 65.0
+  temperature_unit: °C
+- id: measurement_6_1_1_9_Thermus_thermophilus_P96142_L-Valine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.7
+  temperature_opt: 65.0
+  temperature_unit: °C
+- id: measurement_6_1_1_9_Thermus_thermophilus_P96142_L-Valine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.7
+  temperature_opt: 65.0
+  temperature_unit: °C
+- id: measurement_6_1_1_9_Thermus_thermophilus_P96142_L-Valine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.7
+  temperature_opt: 65.0
+  temperature_unit: °C
+- id: measurement_6_1_1_9_Thermus_thermophilus_P96142_tRNA_Val_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.7
+  temperature_opt: 65.0
+  temperature_unit: °C
+- id: measurement_6_1_1_9_Thermus_thermophilus_P96142_tRNA_Val_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.7
+  temperature_opt: 65.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 6_1_1_9_Thermus_thermophilus_P96142_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 500.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.7
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12554880'
+- id: 6_1_1_9_Thermus_thermophilus_P96142_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.018
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.7
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12554880'
+- id: 6_1_1_9_Thermus_thermophilus_P96142_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.6e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.7
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12554880'
+- id: 6_1_1_9_Thermus_thermophilus_P96142_L-Valine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.3
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Valine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.7
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12554880'
+- id: 6_1_1_9_Thermus_thermophilus_P96142_L-Valine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.0e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Valine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.7
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12554880'
+- id: 6_1_1_9_Thermus_thermophilus_P96142_L-Valine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1900000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Valine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.7
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12554880'
+- id: 6_1_1_9_Thermus_thermophilus_P96142_L-Valine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 6.7
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Valine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.7
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12554880'
+- id: 6_1_1_9_Thermus_thermophilus_P96142_L-Valine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.5e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Valine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.7
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12554880'
+- id: 6_1_1_9_Thermus_thermophilus_P96142_L-Valine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 4400000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Valine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.7
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12554880'
+- id: 6_1_1_9_Thermus_thermophilus_P96142_L-Valine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 4.2
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Valine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.7
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12554880'
+- id: 6_1_1_9_Thermus_thermophilus_P96142_L-Valine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.3e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Valine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.7
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12554880'
+- id: 6_1_1_9_Thermus_thermophilus_P96142_L-Valine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 320000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Valine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.7
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12554880'
+- id: 6_1_1_9_Thermus_thermophilus_P96142_L-Valine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.7e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Valine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.7
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12554880'
+- id: 6_1_1_9_Thermus_thermophilus_P96142_L-Valine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.2
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Valine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.7
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12554880'
+- id: 6_1_1_9_Thermus_thermophilus_P96142_L-Valine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 44000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Valine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.7
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12554880'
+- id: 6_1_1_9_Thermus_thermophilus_P96142_L-Valine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 5.3
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Valine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.7
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12554880'
+- id: 6_1_1_9_Thermus_thermophilus_P96142_L-Valine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 960000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Valine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.7
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12554880'
+- id: 6_1_1_9_Thermus_thermophilus_P96142_L-Valine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.5e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Valine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.7
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12554880'
+- id: 6_1_1_9_Thermus_thermophilus_P96142_tRNA_Val__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 8500.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Val_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.7
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12554880'
+- id: 6_1_1_9_Thermus_thermophilus_P96142_tRNA_Val__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.36
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Val_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.7
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12554880'
+- id: 6_1_1_9_Thermus_thermophilus_P96142_tRNA_Val__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.2e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Val_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.7
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12554880'
+- id: 6_1_1_9_Thermus_thermophilus_P96142_tRNA_Val__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.1e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Val_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.7
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12554880'
+- id: 6_1_1_9_Thermus_thermophilus_P96142_tRNA_Val__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 6800.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Val_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.7
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12554880'
+- id: 6_1_1_9_Thermus_thermophilus_P96142_tRNA_Val__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.21
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Val_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.7
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12554880'
+buffer:
+  buffer: 50 mM Tris, 2.5 mM MgCl2 ,10 mM KCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 68016
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12554880/
+  pubmed_id: '12554880'
+  doi: null
+name: Merged entry for P96142 wildtype
+description: 'Merged from 8 files: SABIO_EC6.1.1.9_Thermus_thermophilus__P96142_s_ATP.yaml,
+  SABIO_EC6.1.1.9_Thermus_thermophilus__P96142_s_L-Valine_2.yaml, SABIO_EC6.1.1.9_Thermus_thermophilus__P96142_s_L-Valine.yaml,
+  SABIO_EC6.1.1.9_Thermus_thermophilus__P96142_s_L-Valine_3.yaml, SABIO_EC6.1.1.9_Thermus_thermophilus__P96142_s_L-Valine_4.yaml,
+  SABIO_EC6.1.1.9_Thermus_thermophilus__P96142_s_L-Valine_5.yaml, SABIO_EC6.1.1.9_Thermus_thermophilus__P96142_s_tRNA_Val_.yaml,
+  SABIO_EC6.1.1.9_Thermus_thermophilus__P96142_s_tRNA_Val__2.yaml'

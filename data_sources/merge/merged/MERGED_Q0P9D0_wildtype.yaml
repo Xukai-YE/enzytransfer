@@ -1,0 +1,221 @@
+version: '2.0'
+created: '2025-11-20T13:40:50.055375'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_8_36_Q0P9D0_p67635
+  name: undecaprenyl phosphate N,N'-diacetylbacillosamine 1-phosphate transferase
+  ecnumber: 2.7.8.36
+  organism: Campylobacter jejuni
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q0P9D0
+  wildtype_sequence: MYEKVFKRIFDFILALVLLVLFSPVILITALLLKITQGSVIFTQNRPGLDEKIFKIYKFKTMSDERDEKGELLSDELRLKAFGKIVRSLSLDELLQLFNVLKGDMSFVGPRPLLVEYLPLYNKEQKLRHKVRPGITGWAQVNGRNAISWQKKFELDVYYVKNISFLLDLKIMFLTALKVLKRSGVSKEGHVTTEKFNGKN
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Undecaprenyl_phosphate
+  name: Undecaprenyl phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_UDP-bacillosamine
+  name: UDP-bacillosamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Undecaprenyl_pyrophosphate_bacillosamine
+  name: Undecaprenyl pyrophosphate bacillosamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_UMP
+  name: UMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_UDP-6-hydroxybacillosamine
+  name: UDP-6-hydroxybacillosamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Undecaprenyl_pyrophosphate_6-hydroxybacillosamine
+  name: Undecaprenyl pyrophosphate 6-hydroxybacillosamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_15576_EC2_7_8_36_Campylobacter_jejuni_Q0P9D0_Undecaprenyl_phosphate
+  name: Reaction catalyzed by undecaprenyl phosphate N,N'-diacetylbacillosamine 1-phosphate
+    transferase on Undecaprenyl phosphate
+  equation: Undecaprenyl phosphate + UDP-bacillosamine = UMP + Undecaprenyl pyrophosphate
+    bacillosamine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Undecaprenyl_phosphate
+  - species_id: substrate_UDP-bacillosamine
+  products:
+  - species_id: product_Undecaprenyl_pyrophosphate_bacillosamine
+  - species_id: product_UMP
+  modifiers:
+  - species_id: protein_2_7_8_36_Q0P9D0_p67635
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:13508; CHEBI:16141; CHEBI:13509; CHEBI:47721; CHEBI:46382;
+    CHEBI:9849; CHEBI:16695; CHEBI:46362; CHEBI:27231; CHEBI:46381; CHEBI:57865
+
+    KEGG IDs: KEGG:C00105; KEGG:C17556'
+- id: sabiork_15577_EC2_7_8_36_Campylobacter_jejuni_Q0P9D0_Undecaprenyl_phosphate
+  name: Reaction catalyzed by undecaprenyl phosphate N,N'-diacetylbacillosamine 1-phosphate
+    transferase on Undecaprenyl phosphate
+  equation: Undecaprenyl phosphate + UDP-6-hydroxybacillosamine = UMP + Undecaprenyl
+    pyrophosphate 6-hydroxybacillosamine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Undecaprenyl_phosphate
+  - species_id: substrate_UDP-6-hydroxybacillosamine
+  products:
+  - species_id: product_UMP
+  - species_id: product_Undecaprenyl_pyrophosphate_6-hydroxybacillosamine
+  modifiers:
+  - species_id: protein_2_7_8_36_Q0P9D0_p67636
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:13508; CHEBI:16141; CHEBI:13509; CHEBI:47721; CHEBI:46382;
+    CHEBI:9849; CHEBI:16695; CHEBI:46362; CHEBI:27231; CHEBI:46381; CHEBI:57865
+
+    KEGG IDs: KEGG:C00105; KEGG:C17556'
+measurements:
+- id: measurement_2_7_8_36_Campylobacter_jejuni_Q0P9D0_Undecaprenyl_phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_2_7_8_36_Campylobacter_jejuni_Q0P9D0_Undecaprenyl_phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 22.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_8_36_Campylobacter_jejuni_Q0P9D0_Undecaprenyl_phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.2e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Undecaprenyl_phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16618123'
+- id: 2_7_8_36_Campylobacter_jejuni_Q0P9D0_Undecaprenyl_phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.3e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Undecaprenyl_phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16618123'
+buffer:
+  buffer: 45 mM Tris-acetate, 10 mM MgCl2, 3% (v/v) DMSO, 1% (v/v) Triton X-100, PglA,
+    0.99 ¦ÌM 3H-labeled UDP-GalNAc
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 67635
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16618123/
+  pubmed_id: '16618123'
+  doi: null
+name: Merged entry for Q0P9D0 wildtype
+description: 'Merged from 2 files: SABIO_EC2.7.8.36_Campylobacter_jejuni__Q0P9D0_s_Undecaprenyl.yaml,
+  SABIO_EC2.7.8.36_Campylobacter_jejuni__Q0P9D0_s_Undecaprenyl_2.yaml'

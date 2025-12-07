@@ -1,0 +1,267 @@
+version: '2.0'
+created: '2025-11-20T13:41:43.956292'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_5_3_1_4_Q9WYB3_p45490
+  name: L-arabinose isomerase
+  ecnumber: 5.3.1.4
+  organism: Thermotoga maritima
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9WYB3
+  wildtype_sequence: MIDLKQYEFWFLVGSQYLYGLETLKKVEQQASKIVDSLNDDPIFPSKIVLKPVLKSSSEITEIFEKANADPKCAGVIVWMHTFSPSKMWIRGLSINKKPLLHLHTQYNREIPWDTIDMDYMNLNQSAHGDREHGFIHARMRLPRKVVVGHWEEKEVREKIAKWMRVACAIQDGRMGQIVRFGDNMREVASTEGDKVEAQIKLGWSINTWGVGELAERVKAVPEREVEELLKEYREKYIMPEDEYSLKAIREQAKIEIALREFLKEKNAVGFTTTFEDLHDLPQLPGLAVQRLMEEGYGFGAEGDWKAAGLVRAIKVMGTSLPGGTSFMEDYTYHLTPGNELVLGAHMLEVCPTIAKEKPRIEVHPLSIGGKADPARLVFDGQEGPAVNASIVDMGNRFRLVVNKVLSVPIERKMPKLPTARVLWKPLPDFKRATTAWILAGGSHHTAFSTAIDVEYLIDWAEALEIEYVVIDENLDLEDFKKELRWNELYWGLLKR
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_D-Galactose
+  name: D-Galactose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mn2_
+  name: Mn2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Tagatose
+  name: D-Tagatose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Co2_
+  name: Co2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_L-Arabinose
+  name: L-Arabinose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Ribulose
+  name: L-Ribulose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7940_EC5_3_1_4_Thermotoga_maritima_Q9WYB3_D-Galactose
+  name: Reaction catalyzed by L-arabinose isomerase on D-Galactose
+  equation: D-Galactose = D-Tagatose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Galactose
+  - species_id: cofactor_Mn2_
+  products:
+  - species_id: product_D-Tagatose
+  modifiers:
+  - species_id: protein_5_3_1_4_Q9WYB3_p45490
+    role: BIOCATALYST
+  - species_id: activator_Co2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:12936; CHEBI:49092; CHEBI:29035; CHEBI:4249; CHEBI:47693;
+    CHEBI:48828; CHEBI:48827; CHEBI:22373; CHEBI:28061; CHEBI:10231; CHEBI:21435;
+    CHEBI:16443; CHEBI:23337; CHEBI:42741; CHEBI:25156; CHEBI:4139; CHEBI:49749; CHEBI:49088
+
+    KEGG IDs: KEGG:C00984; KEGG:C00124; KEGG:C00034; KEGG:C00175; KEGG:C00795; KEGG:C19610'
+- id: sabiork_1860_EC5_3_1_4_Thermotoga_maritima_Q9WYB3_L-Arabinose
+  name: Reaction catalyzed by L-arabinose isomerase on L-Arabinose
+  equation: L-Arabinose = L-Ribulose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Arabinose
+  - species_id: cofactor_Mn2_
+  products:
+  - species_id: product_L-Ribulose
+  modifiers:
+  - species_id: protein_5_3_1_4_Q9WYB3_p45489
+    role: BIOCATALYST
+  - species_id: activator_Co2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 14821;14822;14823;14824
+  KEGGid: R01761
+  notes: 'ChEBI IDs: CHEBI:29035; CHEBI:21382; CHEBI:48827; CHEBI:30849; CHEBI:48828;
+    CHEBI:17535; CHEBI:16880; CHEBI:49749; CHEBI:6182; CHEBI:23337; CHEBI:25156; CHEBI:13163;
+    CHEBI:21435; CHEBI:6295
+
+    KEGG IDs: KEGG:C00034; KEGG:C00175; KEGG:C05052; KEGG:C19610; KEGG:C11476; KEGG:C00508;
+    KEGG:C00259'
+measurements:
+- id: measurement_5_3_1_4_Thermotoga_maritima_Q9WYB3_D-Galactose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 90.0
+  temperature_unit: °C
+- id: measurement_5_3_1_4_Thermotoga_maritima_Q9WYB3_L-Arabinose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 90.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 5_3_1_4_Thermotoga_maritima_Q9WYB3_D-Galactose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Galactose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 90.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15006759'
+- id: 5_3_1_4_Thermotoga_maritima_Q9WYB3_D-Galactose_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000148333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Galactose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 90.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15006759'
+- id: 5_3_1_4_Thermotoga_maritima_Q9WYB3_D-Galactose_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 141.6667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Galactose
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 90.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15006759'
+- id: 5_3_1_4_Thermotoga_maritima_Q9WYB3_L-Arabinose_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000688333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Arabinose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 90.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15006759'
+- id: 5_3_1_4_Thermotoga_maritima_Q9WYB3_L-Arabinose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.031
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Arabinose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 90.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15006759'
+- id: 5_3_1_4_Thermotoga_maritima_Q9WYB3_L-Arabinose_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1246.667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Arabinose
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 90.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15006759'
+buffer:
+  buffer: 50 mM HEPES
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 45490
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15006759/
+  pubmed_id: '15006759'
+  doi: null
+name: Merged entry for Q9WYB3 wildtype
+description: 'Merged from 2 files: SABIO_EC5.3.1.4_Thermotoga_maritima__Q9WYB3_s_D-Galactose.yaml,
+  SABIO_EC5.3.1.4_Thermotoga_maritima__Q9WYB3_s_L-Arabinose.yaml'

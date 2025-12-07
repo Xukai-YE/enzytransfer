@@ -1,0 +1,263 @@
+version: '2.0'
+created: '2025-11-20T13:39:43.438476'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_21_3_1_P05189_p18053
+  name: isopenicillin-N synthase
+  ecnumber: 1.21.3.1
+  organism: Cephalosporium acremonium
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: C106S
+  uniprotid: P05189
+  wildtype_sequence: MGSVPVPVANVPRIDVSPLFGDDKEKKLEVARAIDAASRDTGFFYAVNHGVDLPWLSRETNKFHMSITDEEKWQLAIRAYNKEHESQIRAGYYLPIPGKKAVESFCYLNPSFSPDHPRIKEPTPMHEVNVWPDEAKHPGFRAFAEKYYWDVFGLSSAVLRGYALALGRDEDFFTRHSRRDTTLSSVVLIRYPYLDPYPEPAIKTADDGTKLSFEWHEDVSLITVLYQSDVQNLQVKTPQGWQDIQADDTGFLINCGSYMAHITDDYYPAPIHRVKWVNEERQSLPFFVNLGWEDTIQPWDPATAKDGAKDAAKDKPAISYGEYLQGGLRGLINKNGQT
+  mutant_sequence: MGSVPVPVANVPRIDVSPLFGDDKEKKLEVARAIDAASRDTGFFYAVNHGVDLPWLSRETNKFHMSITDEEKWQLAIRAYNKEHESQIRAGYYLPIPGKKAVESFSYLNPSFSPDHPRIKEPTPMHEVNVWPDEAKHPGFRAFAEKYYWDVFGLSSAVLRGYALALGRDEDFFTRHSRRDTTLSSVVLIRYPYLDPYPEPAIKTADDGTKLSFEWHEDVSLITVLYQSDVQNLQVKTPQGWQDIQADDTGFLINCGSYMAHITDDYYPAPIHRVKWVNEERQSLPFFVNLGWEDTIQPWDPATAKDGAKDAAKDKPAISYGEYLQGGLRGLINKNGQT
+complexes: null
+small_molecules:
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_delta_L-2-Aminoadipyl_-L-cysteinyl-D-valine
+  name: delta(L-2-Aminoadipyl)-L-cysteinyl-D-valine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Isopenicillin_N
+  name: Isopenicillin N
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_4514_EC1_21_3_1_Cephalosporium_acremonium_P05189_O2
+  name: Reaction catalyzed by isopenicillin-N synthase on O2
+  equation: O2 + delta(L-2-Aminoadipyl)-L-cysteinyl-D-valine = H2O + Isopenicillin
+    N
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_delta_L-2-Aminoadipyl_-L-cysteinyl-D-valine
+  products:
+  - species_id: product_Isopenicillin_N
+  modifiers:
+  - species_id: protein_1_21_3_1_P05189_p18053
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 22428;22429;22430;22431
+  KEGGid: R04872
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:6036;
+    CHEBI:58572; CHEBI:14472; CHEBI:26689; CHEBI:42857; CHEBI:41979; CHEBI:23603;
+    CHEBI:23833; CHEBI:43447; CHEBI:13416; CHEBI:42043; CHEBI:12538; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:58399; CHEBI:15379;
+    CHEBI:10536; CHEBI:18165; CHEBI:43228; CHEBI:28496; CHEBI:44292; CHEBI:30491;
+    CHEBI:33806; CHEBI:25366; CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:12540; CHEBI:10743;
+    CHEBI:29793; CHEBI:7860; CHEBI:10745; CHEBI:40570; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C05557; KEGG:C05556; KEGG:C00001; KEGG:C00704; KEGG:C00007'
+- id: sabiork_4514_EC1_21_3_1_Cephalosporium_acremonium_P05189_delta_L-2-Aminoadipyl_-L-cysteinyl-D-valine
+  name: Reaction catalyzed by isopenicillin-N synthase on delta(L-2-Aminoadipyl)-L-cysteinyl-D-valine
+  equation: O2 + delta(L-2-Aminoadipyl)-L-cysteinyl-D-valine = H2O + Isopenicillin
+    N
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_delta_L-2-Aminoadipyl_-L-cysteinyl-D-valine
+  - species_id: substrate_O2
+  products:
+  - species_id: product_Isopenicillin_N
+  modifiers:
+  - species_id: protein_1_21_3_1_P05189_p18054
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 22428;22429;22430;22431
+  KEGGid: R04872
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:6036;
+    CHEBI:58572; CHEBI:14472; CHEBI:26689; CHEBI:42857; CHEBI:41979; CHEBI:23603;
+    CHEBI:23833; CHEBI:43447; CHEBI:13416; CHEBI:42043; CHEBI:12538; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:58399; CHEBI:15379;
+    CHEBI:10536; CHEBI:18165; CHEBI:43228; CHEBI:28496; CHEBI:44292; CHEBI:30491;
+    CHEBI:33806; CHEBI:25366; CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:12540; CHEBI:10743;
+    CHEBI:29793; CHEBI:7860; CHEBI:10745; CHEBI:40570; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C05557; KEGG:C05556; KEGG:C00001; KEGG:C00704; KEGG:C00007'
+measurements:
+- id: measurement_1_21_3_1_Cephalosporium_acremonium_P05189_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_21_3_1_Cephalosporium_acremonium_P05189_delta_L-2-Aminoadipyl_-L-cysteinyl-D-valine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_21_3_1_Cephalosporium_acremonium_P05189_O2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.7
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2050677'
+- id: 1_21_3_1_Cephalosporium_acremonium_P05189_O2_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 200.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.2
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2050677'
+- id: 1_21_3_1_Cephalosporium_acremonium_P05189_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0078
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2050677'
+- id: 1_21_3_1_Cephalosporium_acremonium_P05189_delta_L-2-Aminoadipyl_-L-cysteinyl-D-valine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 200.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_delta_L-2-Aminoadipyl_-L-cysteinyl-D-valine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.2
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2050677'
+- id: 1_21_3_1_Cephalosporium_acremonium_P05189_delta_L-2-Aminoadipyl_-L-cysteinyl-D-valine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.7
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_delta_L-2-Aminoadipyl_-L-cysteinyl-D-valine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2050677'
+- id: 1_21_3_1_Cephalosporium_acremonium_P05189_delta_L-2-Aminoadipyl_-L-cysteinyl-D-valine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00782
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_delta_L-2-Aminoadipyl_-L-cysteinyl-D-valine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2050677'
+buffer:
+  buffer: 100 mM MOPS, 5 mM ascorbate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 18053
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/2050677/
+  pubmed_id: '2050677'
+  doi: null
+name: Merged entry for P05189 C106S
+description: 'Merged from 2 files: SABIO_EC1.21.3.1_Cephalosporium_acremonium__P05189_C106S_s_O2.yaml,
+  SABIO_EC1.21.3.1_Cephalosporium_acremonium__P05189_C106S_s_delta_L-2-Aminoadipy.yaml'

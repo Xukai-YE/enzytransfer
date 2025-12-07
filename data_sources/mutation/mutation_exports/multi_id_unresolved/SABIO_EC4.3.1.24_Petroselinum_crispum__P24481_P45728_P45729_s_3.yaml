@@ -1,0 +1,163 @@
+name: SABIO-RK Entry 34030
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 34030
+created: '2025-10-28T14:51:21.269736'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_3_1_24_P24481_P45728_P45729_p34030
+  name: phenylalanine ammonia-lyase
+  sequence: null
+  ecnumber: 4.3.1.24
+  organism: Petroselinum crispum
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P24481; P45728; P45729
+complexes: null
+small_molecules:
+- id: substrate_3
+  name: '3'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_5-Difluoro-L-phenylalanine
+  name: 5-Difluoro-L-phenylalanine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3
+  name: '3'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_5-Difluoro-trans-cinnamate
+  name: 5-Difluoro-trans-cinnamate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NH3
+  name: NH3
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_11590_EC4_3_1_24_Petroselinum_crispum_P24481_P45728_P45729_3
+  name: Reaction catalyzed by phenylalanine ammonia-lyase on 3
+  equation: 3,5-Difluoro-L-phenylalanine = NH3 + 3,5-Difluoro-trans-cinnamate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: product_3
+  - species_id: substrate_5-Difluoro-L-phenylalanine
+  products:
+  - species_id: product_3
+  - species_id: product_5-Difluoro-trans-cinnamate
+  - species_id: product_NH3
+  modifiers:
+  - species_id: protein_4_3_1_24_P24481_P45728_P45729_p34030
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:7435; CHEBI:49783; CHEBI:44284; CHEBI:22533; CHEBI:135980;
+    CHEBI:13407; CHEBI:44404; CHEBI:16134; CHEBI:28938; CHEBI:13771; CHEBI:13405;
+    CHEBI:13406; CHEBI:7434; CHEBI:44269; CHEBI:22534
+
+    KEGG IDs: KEGG:C01342; KEGG:C00014'
+measurements:
+- id: measurement_4_3_1_24_Petroselinum_crispum_P24481_P45728_P45729_3
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.8
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 4_3_1_24_Petroselinum_crispum_P24481_P45728_P45729_3_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000159
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_3
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.8
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11039531'
+buffer:
+  buffer: 0.1 M Tris-HCl
+  buffer_concentration: 0.1 M
+references:
+- title: Reference for SABIO-RK entry 34030
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11039531/
+  pubmed_id: '11039531'
+  doi: null

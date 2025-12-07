@@ -1,0 +1,179 @@
+name: SABIO-RK Entry 8412
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 8412
+created: '2025-10-28T13:53:16.609640'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_2_1_132_P33665_p8412
+  name: chitosanase
+  ecnumber: 3.2.1.132
+  organism: Streptomyces sp.
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: D37E
+  uniprotid: P33665
+  wildtype_sequence: MHSQHRTARIALAVVLTAIPASLATAGVGYASTQASTAVKAGAGLDDPHKKEIAMELVSSAENSSLDWKAQYKYIEDIGDGRGYTGGIIGFCSGTGDMLELVQHYTDLEPGNILAKYLPALKKVNGSASHSGLGTPFTKDWATAAKDTVFQQAQNDERDRVYFDPAVSQAKADGLRALGQFAYYDAIVMHGPGNDPTSFGGIRKTAMKKARTPAQGGDETTYLNAFLDARKAAMLTEAAHDDTSRVDTEQRVFLKAGNLDLNPPLKWKTYGDPYVINS
+  mutant_sequence: MHSQHRTARIALAVVLTAIPASLATAGVGYASTQASTAVKAGAGLEDPHKKEIAMELVSSAENSSLDWKAQYKYIEDIGDGRGYTGGIIGFCSGTGDMLELVQHYTDLEPGNILAKYLPALKKVNGSASHSGLGTPFTKDWATAAKDTVFQQAQNDERDRVYFDPAVSQAKADGLRALGQFAYYDAIVMHGPGNDPTSFGGIRKTAMKKARTPAQGGDETTYLNAFLDARKAAMLTEAAHDDTSRVDTEQRVFLKAGNLDLNPPLKWKTYGDPYVINS
+  position_offset: 9
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Chitosan
+  name: Chitosan
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Chitosan
+  name: Chitosan
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Glucosaminide
+  name: D-Glucosaminide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2699_EC3_2_1_132_Streptomyces_sp._P33665_Chitosan
+  name: Reaction catalyzed by chitosanase on Chitosan
+  equation: H2O + Chitosan = D-Glucosaminide + Chitosan
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: product_Chitosan
+  products:
+  - species_id: product_Chitosan
+  - species_id: product_D-Glucosaminide
+  modifiers:
+  - species_id: protein_3_2_1_132_P33665_p8412
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02833
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:41979;
+    CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352;
+    CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:16261;
+    CHEBI:35373; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C06023; KEGG:C00001; KEGG:C00734'
+measurements:
+- id: measurement_3_2_1_132_Streptomyces_sp._P33665_Chitosan
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 5.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 3_2_1_132_Streptomyces_sp._P33665_Chitosan_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0465
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_Chitosan
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8537367'
+- id: 3_2_1_132_Streptomyces_sp._P33665_Chitosan_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 3.063333
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_Chitosan
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8537367'
+- id: 3_2_1_132_Streptomyces_sp._P33665_Chitosan_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 65.83333
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_Chitosan
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8537367'
+buffer:
+  buffer: 50 mM sodium acetate
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 8412
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/8537367/
+  pubmed_id: '8537367'
+  doi: null

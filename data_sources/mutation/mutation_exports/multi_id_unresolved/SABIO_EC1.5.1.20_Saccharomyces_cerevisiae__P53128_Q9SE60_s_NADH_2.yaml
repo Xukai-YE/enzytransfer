@@ -1,0 +1,167 @@
+name: SABIO-RK Entry 53632
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 53632
+created: '2025-10-28T16:05:05.180569'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_5_1_20_P53128_Q9SE60_p53632
+  name: methylenetetrahydrofolate reductase [NAD(P)H]
+  sequence: null
+  ecnumber: 1.5.1.20
+  organism: Saccharomyces cerevisiae
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P53128; Q9SE60
+complexes: null
+small_molecules:
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_5
+  name: '5'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_10-Methylenetetrahydrofolate
+  name: 10-Methylenetetrahydrofolate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_5-Methyltetrahydrofolate
+  name: 5-Methyltetrahydrofolate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_9210_EC1_5_1_20_Saccharomyces_cerevisiae_P53128_Q9SE60_NADH
+  name: Reaction catalyzed by methylenetetrahydrofolate reductase [NAD(P)H] on NADH
+  equation: 5-Methyltetrahydrofolate + NAD+ = NADH + H+ + 5,10-Methylenetetrahydrofolate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  - species_id: substrate_5
+  - species_id: substrate_10-Methylenetetrahydrofolate
+  products:
+  - species_id: product_NAD_
+  - species_id: product_5-Methyltetrahydrofolate
+  modifiers:
+  - species_id: protein_1_5_1_20_P53128_Q9SE60_p53632
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 19821;19822;19823;19824
+  KEGGid: R07168
+  notes: 'ChEBI IDs: CHEBI:18608; CHEBI:10925; CHEBI:15636; CHEBI:44281; CHEBI:13393;
+    CHEBI:29234; CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901;
+    CHEBI:136009; CHEBI:12071; CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:5584;
+    CHEBI:13394; CHEBI:12146; CHEBI:57945; CHEBI:44216; CHEBI:18602; CHEBI:2097; CHEBI:57540;
+    CHEBI:1989; CHEBI:7423; CHEBI:15641; CHEBI:13389; CHEBI:13395; CHEBI:15378; CHEBI:10744;
+    CHEBI:44215; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00440; KEGG:C00080; KEGG:C00003; KEGG:C00143; KEGG:C00004'
+measurements:
+- id: measurement_1_5_1_20_Saccharomyces_cerevisiae_P53128_Q9SE60_NADH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 1_5_1_20_Saccharomyces_cerevisiae_P53128_Q9SE60_NADH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.8e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11729203'
+buffer:
+  buffer: 100 mM Potassium Phosphate, 2 mM EDTA, 1.8 mM sodium ascorbate, 2 mM formaldehyde,
+    25 ¦ÌM FAD, 0.25 mM Menadione
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 53632
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11729203/
+  pubmed_id: '11729203'
+  doi: null

@@ -1,0 +1,275 @@
+version: '2.0'
+created: '2025-11-20T13:39:31.392003'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_13_11_6_Q1LCS4_p45068
+  name: 3-hydroxyanthranilate 3,4-dioxygenase
+  ecnumber: 1.13.11.6
+  organism: Cupriavidus metallidurans
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q1LCS4
+  wildtype_sequence: MLTYGAPFNFPRWIDEHAHLLKPPVGNRQVWQDSDFIVTVVGGPNHRTDYHDDPLEEFFYQLRGNAYLNLWVDGRRERADLKEGDIFLLPPHVRHSPQRPEAGSACLVIERQRPAGMLDGFEWYCDACGHLVHRVEVQLKSIVTDLPPLFESFYASEDKRRCPHCGQVHPGRAA
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_3-Hydroxyanthranilate
+  name: 3-Hydroxyanthranilate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Amino-3-carboxymuconate_semialdehyde
+  name: 2-Amino-3-carboxymuconate semialdehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Fe2_
+  name: Fe2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2561_EC1_13_11_6_Cupriavidus_metallidurans_Q1LCS4_O2
+  name: Reaction catalyzed by 3-hydroxyanthranilate 3,4-dioxygenase on O2
+  equation: O2 + 3-Hydroxyanthranilate = 2-Amino-3-carboxymuconate semialdehyde
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_3-Hydroxyanthranilate
+  products:
+  - species_id: product_2-Amino-3-carboxymuconate_semialdehyde
+  modifiers:
+  - species_id: protein_1_13_11_6_Q1LCS4_p45068
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17953;17954;17955;17956
+  KEGGid: R02665
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:11504; CHEBI:19447; CHEBI:36559; CHEBI:1536;
+    CHEBI:26689; CHEBI:995; CHEBI:994; CHEBI:23833; CHEBI:13416; CHEBI:11800; CHEBI:77612;
+    CHEBI:20061; CHEBI:15379; CHEBI:11505; CHEBI:11826; CHEBI:39887; CHEBI:30491;
+    CHEBI:25366; CHEBI:44742; CHEBI:29793; CHEBI:7860; CHEBI:29044; CHEBI:77803; CHEBI:10745;
+    CHEBI:19448; CHEBI:15793
+
+    KEGG IDs: KEGG:C00007; KEGG:C00632; KEGG:C04409; KEGG:C00704'
+- id: sabiork_2561_EC1_13_11_6_Cupriavidus_metallidurans_Q1LCS4_O2
+  name: Reaction catalyzed by 3-hydroxyanthranilate 3,4-dioxygenase on O2
+  equation: O2 + 3-Hydroxyanthranilate = 2-Amino-3-carboxymuconate semialdehyde
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_3-Hydroxyanthranilate
+  - species_id: cofactor_Fe2_
+  products:
+  - species_id: product_2-Amino-3-carboxymuconate_semialdehyde
+  modifiers:
+  - species_id: protein_1_13_11_6_Q1LCS4_p63478
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17953;17954;17955;17956
+  KEGGid: R02665
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:11504; CHEBI:19447; CHEBI:36559; CHEBI:1536;
+    CHEBI:29033; CHEBI:34754; CHEBI:26689; CHEBI:21129; CHEBI:995; CHEBI:994; CHEBI:23833;
+    CHEBI:13416; CHEBI:11800; CHEBI:13319; CHEBI:77612; CHEBI:20061; CHEBI:15379;
+    CHEBI:11505; CHEBI:11826; CHEBI:24876; CHEBI:39887; CHEBI:30491; CHEBI:25366;
+    CHEBI:44742; CHEBI:29793; CHEBI:7860; CHEBI:29044; CHEBI:77803; CHEBI:10745; CHEBI:19448;
+    CHEBI:13321; CHEBI:15793; CHEBI:49599
+
+    KEGG IDs: KEGG:C14818; KEGG:C00632; KEGG:C04409; KEGG:C00704; KEGG:C00007'
+measurements:
+- id: measurement_1_13_11_6_Cupriavidus_metallidurans_Q1LCS4_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_1_13_11_6_Cupriavidus_metallidurans_Q1LCS4_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 1_13_11_6_Cupriavidus_metallidurans_Q1LCS4_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.24e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15909978'
+- id: 1_13_11_6_Cupriavidus_metallidurans_Q1LCS4_O2_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1116000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.2
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15909978'
+- id: 1_13_11_6_Cupriavidus_metallidurans_Q1LCS4_O2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 25.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15909978'
+- id: 1_13_11_6_Cupriavidus_metallidurans_Q1LCS4_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00122
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '14700627'
+- id: 1_13_11_6_Cupriavidus_metallidurans_Q1LCS4_O2_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 7100.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.2
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '14700627'
+- id: 1_13_11_6_Cupriavidus_metallidurans_Q1LCS4_O2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 8.65
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '14700627'
+buffer:
+  buffer: 10 mM Phosphate; 10 mM phosphate, 20 mM DTT
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 45068
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15909978/
+  pubmed_id: '15909978'
+  doi: null
+- title: Reference for SABIO-RK entry 63478
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/14700627/
+  pubmed_id: '14700627'
+  doi: null
+name: Merged entry for Q1LCS4 wildtype
+description: 'Merged from 2 files: SABIO_EC1.13.11.6_Cupriavidus_metallidurans__Q1LCS4_s_O2.yaml,
+  SABIO_EC1.13.11.6_Cupriavidus_metallidurans__Q1LCS4_s_O2_2.yaml'

@@ -1,0 +1,198 @@
+version: '2.0'
+created: '2025-11-20T13:41:17.638187'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_5_2_15_A1SGT4_p75383
+  name: cyanuric acid amidohydrolase
+  ecnumber: 3.5.2.15
+  organism: Nocardioides sp.
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: A1SGT4
+  wildtype_sequence: MPDAIEVRKVPIHSVADASELAKLIDDGVMQAERVIAIIGKTEGNGGVNDYTRIIADRAFREVLVEKGAPAEQVKQVPIVWSGGTDGVISPHATIFATVPPEDLTGALAPSDEQRLTVGFAMSERLAPEDIGRTAMITKVADAVKVAMERAGISDPADVHYVQTKTPLLTIHTIRDAKSRGKTVWTEHTHESMDLSNGCTALGIAVALGEIEMPSDEDVMHDRSLYSSVASCSSGVELDQAQVVVVGNAPGVGGRYRIGHSVMKDALDQDGIWEAIKDAGLDLPERPRTSDLDGRLVNVFLKCEASQDGLVRGRRNAMLDDSDVHWHRQIKSCVGGVTAAVTGDPAVFVSVSAAHQGPDGGGPVAAIVDLG
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Cyanuric_acid
+  name: Cyanuric acid
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_1-Carboxybiuret
+  name: 1-Carboxybiuret
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Barbiturate
+  name: Barbiturate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3-Oxo-3-ureidopropanoate
+  name: 3-Oxo-3-ureidopropanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_8883_EC3_5_2_15_Nocardioides_sp._A1SGT4_Cyanuric_acid
+  name: Reaction catalyzed by cyanuric acid amidohydrolase on Cyanuric acid
+  equation: H2O + Cyanuric acid = 1-Carboxybiuret
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Cyanuric_acid
+  products:
+  - species_id: product_1-Carboxybiuret
+  modifiers:
+  - species_id: protein_3_5_2_15_A1SGT4_p75383
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R12332
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:41979;
+    CHEBI:143024; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:38028;
+    CHEBI:15377; CHEBI:13352; CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743;
+    CHEBI:29374; CHEBI:5585; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C06554; KEGG:C00001; KEGG:C22084'
+- id: sabiork_16387_EC3_5_2_1_Nocardioides_sp._A1SGT4_Barbiturate
+  name: Reaction catalyzed by barbiturase on Barbiturate
+  equation: H2O + Barbiturate = 3-Oxo-3-ureidopropanoate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Barbiturate
+  products:
+  - species_id: product_3-Oxo-3-ureidopropanoate
+  modifiers:
+  - species_id: protein_3_5_2_1_A1SGT4_p75382
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:41979;
+    CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352;
+    CHEBI:29745; CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:16294;
+    CHEBI:5585; CHEBI:29374; CHEBI:49049; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00813; KEGG:C00001; KEGG:C15607'
+measurements:
+- id: measurement_3_5_2_15_Nocardioides_sp._A1SGT4_Cyanuric_acid
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 28.0
+  temperature_unit: °C
+- id: measurement_3_5_2_1_Nocardioides_sp._A1SGT4_Barbiturate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 28.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_5_2_15_Nocardioides_sp._A1SGT4_Cyanuric_acid_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1100.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cyanuric_acid
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.5
+  temperature: 28.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '28235873'
+- id: 3_5_2_1_Nocardioides_sp._A1SGT4_Barbiturate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 36000000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Barbiturate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 28.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '28235873'
+buffer:
+  buffer: 1 mM TAPS; 20 mM Tris-HCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 75383
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/28235873/
+  pubmed_id: '28235873'
+  doi: null
+name: Merged entry for A1SGT4 wildtype
+description: 'Merged from 2 files: SABIO_EC3.5.2.15_Nocardioides_sp.__A1SGT4_s_Cyanuric.yaml,
+  SABIO_EC3.5.2.1_Nocardioides_sp.__A1SGT4_s_Barbiturate.yaml'

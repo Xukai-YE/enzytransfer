@@ -1,0 +1,171 @@
+name: SABIO-RK Entry 25088
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 25088
+created: '2025-10-28T14:26:06.680664'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_5_2_6_Q79F59_p25088
+  name: beta-lactamase
+  ecnumber: 3.5.2.6
+  organism: Klebsiella pneumoniae
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: K161A
+  uniprotid: Q79F59
+  wildtype_sequence: MSKLSVFFIFLFCSIATAAESLPDLKIEKLDEGVYVHTSFEEVNGWGVVPKHGLVVLVNAEAYLIDTPFTAKDTEKLVTWFVERGYKIKGSISSHFHSDSTGGIEWLNSRSIPTYASELTNELLKKDGKVQATNSFSGVNYWLVKNKIEVFYPGPGHTPDNVVVWLPERKILFGGCFIKPYGLGNLGDANIEAWPKSAKLLKSKYGKAKLVVPSHSEVGDASLLKLTLEQAVKGLNESKKPSKPSN
+  mutant_sequence: MSKLSVFFIFLFCSIATAAESLPDLKIEKLDEGVYVHTSFEEVNGWGVVPKHGLVVLVNAEAYLIDTPFTAKDTEKLVTWFVERGYKIKGSISSHFHSDSTGGIEWLNSRSIPTYASELTNELLKKDGKVQATNSFSGVNYWLVKNKIEVFYPGPGHTPDNVVVWLPERAILFGGCFIKPYGLGNLGDANIEAWPKSAKLLKSKYGKAKLVVPSHSEVGDASLLKLTLEQAVKGLNESKKPSKPSN
+  position_offset: 9
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Imipenem
+  name: Imipenem
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Zn2_
+  name: Zn2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Substituted_beta-amino_acid
+  name: Substituted beta-amino acid
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_6516_EC3_5_2_6_Klebsiella_pneumoniae_Q79F59_Imipenem
+  name: Reaction catalyzed by beta-lactamase on Imipenem
+  equation: H2O + Imipenem = Substituted beta-amino acid
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Imipenem
+  - species_id: cofactor_Zn2_
+  products:
+  - species_id: product_Substituted_beta-amino_acid
+  modifiers:
+  - species_id: protein_3_5_2_6_Q79F59_p25088
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29105; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:10113;
+    CHEBI:42857; CHEBI:41979; CHEBI:51799; CHEBI:42043; CHEBI:33811; CHEBI:33813;
+    CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:13690; CHEBI:43228; CHEBI:49972;
+    CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:49982; CHEBI:27368;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00038; KEGG:C00001; KEGG:C06665; KEGG:C03806'
+measurements:
+- id: measurement_3_5_2_6_Klebsiella_pneumoniae_Q79F59_Imipenem
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: null
+  temperature_unit: null
+parameters:
+- id: 3_5_2_6_Klebsiella_pneumoniae_Q79F59_Imipenem_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 7.1
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Imipenem
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11287151'
+- id: 3_5_2_6_Klebsiella_pneumoniae_Q79F59_Imipenem_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.001
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Imipenem
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11287151'
+- id: 3_5_2_6_Klebsiella_pneumoniae_Q79F59_Imipenem_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 7700.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Imipenem
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11287151'
+buffer:
+  buffer: 50 mM MOPS
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 25088
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11287151/
+  pubmed_id: '11287151'
+  doi: null

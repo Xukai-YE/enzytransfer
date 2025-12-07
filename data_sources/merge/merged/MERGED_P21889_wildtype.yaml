@@ -1,0 +1,298 @@
+version: '2.0'
+created: '2025-11-20T13:41:47.642194'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_6_1_1_12_P21889_p47367
+  name: aspartate---tRNA ligase
+  ecnumber: 6.1.1.12
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P21889
+  wildtype_sequence: MRTEYCGQLRLSHVGQQVTLCGWVNRRRDLGSLIFIDMRDREGIVQVFFDPDRADALKLASELRNEFCIQVTGTVRARDEKNINRDMATGEIEVLASSLTIINRADVLPLDSNHVNTEEARLKYRYLDLRRPEMAQRLKTRAKITSLVRRFMDDHGFLDIETPMLTKATPEGARDYLVPSRVHKGKFYALPQSPQLFKQLLMMSGFDRYYQIVKCFRDEDLRADRQPEFTQIDVETSFMTAPQVREVMEALVRHLWLEVKGVDLGDFPVMTFAEAERRYGSDKPDLRNPMELTDVADLLKSVEFAVFAGPANDPKGRVAALRVPGGASLTRKQIDEYGNFVKIYGAKGLAYIKVNERAKGLEGINSPVAKFLNAEIIEDILDRTAAQDGDMIFFGADNKKIVADAMGALRLKVGKDLGLTDESKWAPLWVIDFPMFEDDGEGGLTAMHHPFTSPKDMTAAELKAAPENAVANAYDMVINGYEVGGGSVRIHNGDMQQTVFGILGINEEEQREKFGFLLDALKYGTPPHAGLAFGLDRLTMLLTGTDNIRDVIAFPKTTAAACLMTEAPSFANPTALAELSIQVVKKAENN
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_L-Aspartate
+  name: L-Aspartate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_tRNA_Asp_
+  name: tRNA(Asp)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_AMP
+  name: AMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Aspartyl-tRNA_Asp_
+  name: L-Aspartyl-tRNA(Asp)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_402_EC6_1_1_12_Escherichia_coli_P21889_L-Aspartate
+  name: Reaction catalyzed by aspartate---tRNA ligase on L-Aspartate
+  equation: ATP + L-Aspartate + tRNA(Asp) = Diphosphate + AMP + L-Aspartyl-tRNA(Asp)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Aspartate
+  - species_id: substrate_ATP
+  - species_id: substrate_tRNA_Asp_
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_AMP
+  - species_id: product_L-Aspartyl-tRNA_Asp_
+  modifiers:
+  - species_id: protein_6_1_1_12_P21889_p47367
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R05577
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:10789; CHEBI:57299; CHEBI:29991;
+    CHEBI:21247; CHEBI:8683; CHEBI:40726; CHEBI:22245; CHEBI:21244; CHEBI:6193; CHEBI:40510;
+    CHEBI:29993; CHEBI:17053; CHEBI:22242; CHEBI:13736; CHEBI:47222; CHEBI:33019;
+    CHEBI:456215; CHEBI:13236; CHEBI:40900; CHEBI:45067; CHEBI:13085; CHEBI:40786;
+    CHEBI:40942; CHEBI:16027; CHEBI:40826; CHEBI:2356; CHEBI:10841; CHEBI:29888; CHEBI:40913;
+    CHEBI:2359; CHEBI:29958; CHEBI:35782; CHEBI:10675; CHEBI:40938; CHEBI:13420; CHEBI:18361;
+    CHEBI:15169; CHEBI:33017; CHEBI:45208; CHEBI:40853; CHEBI:22249; CHEBI:15422;
+    CHEBI:13740; CHEBI:13234; CHEBI:40721; CHEBI:29158; CHEBI:45212; CHEBI:42009;
+    CHEBI:13235; CHEBI:12056; CHEBI:29186; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00049; KEGG:C01638; KEGG:C00002; KEGG:C02984; KEGG:C00020'
+- id: sabiork_402_EC6_1_1_12_Escherichia_coli_P21889_tRNA_Asp_
+  name: Reaction catalyzed by aspartate---tRNA ligase on tRNA(Asp)
+  equation: ATP + L-Aspartate + tRNA(Asp) = Diphosphate + AMP + L-Aspartyl-tRNA(Asp)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_tRNA_Asp_
+  - species_id: substrate_L-Aspartate
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_L-Aspartyl-tRNA_Asp_
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_6_1_1_12_P21889_p47368
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R05577
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:10789; CHEBI:57299; CHEBI:29991;
+    CHEBI:21247; CHEBI:8683; CHEBI:40726; CHEBI:22245; CHEBI:21244; CHEBI:6193; CHEBI:40510;
+    CHEBI:29993; CHEBI:17053; CHEBI:22242; CHEBI:13736; CHEBI:47222; CHEBI:33019;
+    CHEBI:456215; CHEBI:13236; CHEBI:40900; CHEBI:45067; CHEBI:13085; CHEBI:40786;
+    CHEBI:40942; CHEBI:16027; CHEBI:40826; CHEBI:2356; CHEBI:10841; CHEBI:29888; CHEBI:40913;
+    CHEBI:2359; CHEBI:29958; CHEBI:35782; CHEBI:10675; CHEBI:40938; CHEBI:13420; CHEBI:18361;
+    CHEBI:15169; CHEBI:33017; CHEBI:45208; CHEBI:40853; CHEBI:22249; CHEBI:15422;
+    CHEBI:13740; CHEBI:13234; CHEBI:40721; CHEBI:29158; CHEBI:45212; CHEBI:42009;
+    CHEBI:13235; CHEBI:12056; CHEBI:29186; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00049; KEGG:C01638; KEGG:C00002; KEGG:C02984; KEGG:C00020'
+measurements:
+- id: measurement_6_1_1_12_Escherichia_coli_P21889_L-Aspartate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_6_1_1_12_Escherichia_coli_P21889_tRNA_Asp_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 6_1_1_12_Escherichia_coli_P21889_L-Aspartate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 34000000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Aspartate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.2
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15096594'
+- id: 6_1_1_12_Escherichia_coli_P21889_L-Aspartate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 6.8
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Aspartate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15096594'
+- id: 6_1_1_12_Escherichia_coli_P21889_L-Aspartate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.0e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Aspartate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15096594'
+- id: 6_1_1_12_Escherichia_coli_P21889_tRNA_Asp__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.2e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Asp_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15096594'
+- id: 6_1_1_12_Escherichia_coli_P21889_tRNA_Asp__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 6.8
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Asp_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15096594'
+- id: 6_1_1_12_Escherichia_coli_P21889_tRNA_Asp__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 310000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Asp_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.2
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15096594'
+buffer:
+  buffer: 100 mM Na-Hepes, 10 mM MgCl2, 30 mM KCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 47367
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15096594/
+  pubmed_id: '15096594'
+  doi: null
+name: Merged entry for P21889 wildtype
+description: 'Merged from 2 files: SABIO_EC6.1.1.12_Escherichia_coli__P21889_s_L-Aspartate.yaml,
+  SABIO_EC6.1.1.12_Escherichia_coli__P21889_s_tRNA_Asp_.yaml'

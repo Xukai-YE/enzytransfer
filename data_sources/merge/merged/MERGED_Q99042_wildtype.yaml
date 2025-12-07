@@ -1,0 +1,238 @@
+version: '2.0'
+created: '2025-11-20T13:39:50.794751'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_4_3_3_Q99042_p33320
+  name: glycine oxidase
+  ecnumber: 1.4.3.3
+  organism: Trigonopsis variabilis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q99042
+  wildtype_sequence: MAKIVVIGAGVAGLTTALQLLRKGHEVTIVSEFTPGDLSIGYTSPWAGANWLTFYDGGKLADYDAVSYPILRELARSSPEAGIRLISQRSHVLKRDLPKLEVAMSAICQRNPWFKNTVDSFEIIEDRSRIVHDDVAYLVEFRSVCIHTGVYLNWLMSQCLSLGATVVKRRVNHIKDANLLHSSGSRPDVIVNCSGLFARFLGGVEDKKMYPIRGQVVLVRNSLPFMASFSSTPEKENEDEALYIMTRFDGTSIIGGCFQPNNWSSEPDPSLTHRILSRALDRFPELTKDGPLDIVRECVGHRPGREGGPRVELEKIPGVGFVVHNYGAAGAGYQSSYGMADEAVSYVERALTRPNL
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_D-Alanine
+  name: D-Alanine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Pyruvate
+  name: Pyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NH3
+  name: NH3
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Valine
+  name: D-Valine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_alpha-Ketovaline
+  name: alpha-Ketovaline
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_5450_EC1_4_3_3_Trigonopsis_variabilis_Q99042_D-Alanine
+  name: Reaction catalyzed by glycine oxidase on D-Alanine
+  equation: O2 + H2O + D-Alanine = NH3 + Pyruvate + H2O2
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Alanine
+  - species_id: substrate_O2
+  products:
+  - species_id: product_Pyruvate
+  - species_id: product_NH3
+  modifiers:
+  - species_id: protein_1_4_3_3_Q99042_p33320
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 22688;22689;22690;22691
+  KEGGid: R05861
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:32435; CHEBI:29375; CHEBI:12899; CHEBI:44284;
+    CHEBI:44819; CHEBI:13354; CHEBI:16134; CHEBI:41981; CHEBI:29192; CHEBI:13405;
+    CHEBI:24637; CHEBI:7434; CHEBI:14987; CHEBI:41798; CHEBI:26689; CHEBI:42857; CHEBI:20893;
+    CHEBI:41979; CHEBI:13407; CHEBI:10840; CHEBI:16240; CHEBI:15361; CHEBI:29949;
+    CHEBI:32436; CHEBI:23833; CHEBI:13416; CHEBI:15570; CHEBI:41756; CHEBI:42043;
+    CHEBI:13355; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:22534; CHEBI:135980;
+    CHEBI:15377; CHEBI:7435; CHEBI:49783; CHEBI:22533; CHEBI:13352; CHEBI:26466; CHEBI:44404;
+    CHEBI:4087; CHEBI:41877; CHEBI:15379; CHEBI:13771; CHEBI:57416; CHEBI:26462; CHEBI:43228;
+    CHEBI:44269; CHEBI:44292; CHEBI:13406; CHEBI:30491; CHEBI:8685; CHEBI:33806; CHEBI:25366;
+    CHEBI:41848; CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:44812; CHEBI:29793;
+    CHEBI:32816; CHEBI:28938; CHEBI:7860; CHEBI:10745; CHEBI:5586; CHEBI:45253; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C00133; KEGG:C00014; KEGG:C00022; KEGG:C00001; KEGG:C01342; KEGG:C00027;
+    KEGG:C00704; KEGG:C00007'
+- id: sabiork_7750_EC1_4_3_3_Trigonopsis_variabilis_Q99042_D-Valine
+  name: Reaction catalyzed by D-amino-acid oxidase on D-Valine
+  equation: O2 + H2O + D-Valine = NH3 + alpha-Ketovaline + H2O2
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Valine
+  - species_id: substrate_O2
+  products:
+  - species_id: product_alpha-Ketovaline
+  - species_id: product_NH3
+  modifiers:
+  - species_id: protein_1_4_3_3_Q99042_p33319
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44284; CHEBI:44819; CHEBI:13354;
+    CHEBI:16134; CHEBI:41981; CHEBI:32856; CHEBI:29192; CHEBI:32855; CHEBI:24637;
+    CHEBI:7434; CHEBI:13405; CHEBI:26689; CHEBI:1584; CHEBI:42857; CHEBI:41979; CHEBI:13407;
+    CHEBI:16240; CHEBI:23833; CHEBI:27477; CHEBI:13416; CHEBI:13355; CHEBI:11851;
+    CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:22534; CHEBI:135980;
+    CHEBI:15377; CHEBI:7435; CHEBI:49783; CHEBI:22533; CHEBI:13352; CHEBI:44404; CHEBI:15379;
+    CHEBI:16530; CHEBI:13771; CHEBI:74338; CHEBI:43228; CHEBI:44269; CHEBI:44292;
+    CHEBI:13406; CHEBI:30491; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:4261; CHEBI:5585;
+    CHEBI:44742; CHEBI:25366; CHEBI:44812; CHEBI:29793; CHEBI:20115; CHEBI:28938;
+    CHEBI:7860; CHEBI:43714; CHEBI:10745; CHEBI:50328; CHEBI:5586; CHEBI:29373; CHEBI:44701;
+    CHEBI:21112
+
+    KEGG IDs: KEGG:C00141; KEGG:C00014; KEGG:C00001; KEGG:C01342; KEGG:C00027; KEGG:C00704;
+    KEGG:C06417; KEGG:C00007'
+measurements:
+- id: measurement_1_4_3_3_Trigonopsis_variabilis_Q99042_D-Alanine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_1_4_3_3_Trigonopsis_variabilis_Q99042_D-Valine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 1_4_3_3_Trigonopsis_variabilis_Q99042_D-Alanine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 52.5
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Alanine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '8100225'
+- id: 1_4_3_3_Trigonopsis_variabilis_Q99042_D-Valine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 42.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Valine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '8100225'
+buffer:
+  buffer: 50 mM sodium pyrophosphate, 1% glycerol, 0.3 mM EDTA, 0.5 mM 2-mercaptoethanol,
+    200 mM Glucose, 0.1 ¦ÌM glucose oxidase, 0.03 ¦ÌM catalase
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 33320
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/8100225/
+  pubmed_id: '8100225'
+  doi: null
+name: Merged entry for Q99042 wildtype
+description: 'Merged from 2 files: SABIO_EC1.4.3.3_Trigonopsis_variabilis__Q99042_s_D-Alanine.yaml,
+  SABIO_EC1.4.3.3_Trigonopsis_variabilis__Q99042_s_D-Valine.yaml'

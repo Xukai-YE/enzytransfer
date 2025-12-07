@@ -1,0 +1,237 @@
+version: '2.0'
+created: '2025-11-20T13:41:35.326966'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_2_2_8_C7EXL6_p73048
+  name: heparin-sulfate lyase
+  ecnumber: 4.2.2.8
+  organism: Bacteroides stercoris
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: C7EXL6
+  wildtype_sequence: MNKTFKYIVLLALACFVGKANAQELKTEVFSLLNLDYPGLEKVKALHQEGKDADAAKALLDYYRARTNVKTPDINLKKVTIGKDEQKMADEALQHTFFAHKGYQPSFNYGEDIDWRYWPVKDNELRWQLHRHKWFTPMGKAYRVSGDEKYAVEWTKQYIDWIKKNPLVKVDKKEYEMTGDNQLKGDVENARFAWRPLEVSNRLQDQTSQFQLFLPSPSFTPEFLTEFLVNYHKHAIHILGIYSAQGNHLLFEAQRMIYAGAFFPEFKEAAAWRKSGIDIMNREINVQVYNDGGQFELDPHYHLAAINIFCKALNIADLYGFRNEFPQEYLDTIEKMIVFYANVSFPDYTNPCFSDAKLTNKKEMLKNYRNWSKMFPKNQFIKYLATDGKEGALPEYLSKGFLKSGFFVFRNSWGTDATQMVVKAGPKAFWHCQPDNGTFELWFNGKNLFPDSGSYVYAGEGEVMEQRNWHRQTCVHNTVTLNNKNLDQTESVTKLWQPEGNVQILVTENPSYKNLKHRRSVFFVDNSYFVIVDEMVGSQKGSINLHYQMPKGEIANSREDMTFVTQFEEGSNMKLQCFGPEGMTMKKEPGWCSTAYRKRYKRMNVSFNVKKDSEDAVRYITVICPIKNSADAPKLSAKFKNKTFNENGLEVEVKVNGKKQSLNYKL
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Heparan_sulfate
+  name: Heparan sulfate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_alpha-deltaUA-GlcN
+  name: alpha-deltaUA-GlcN
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_alpha-deltaUA-GlcNS6S
+  name: alpha-deltaUA-GlcNS6S
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_alpha-deltaUA-GlcNAc
+  name: alpha-deltaUA-GlcNAc
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Heparin
+  name: Heparin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_16101_EC4_2_2_8_Bacteroides_stercoris_C7EXL6_Heparan_sulfate
+  name: Reaction catalyzed by heparin-sulfate lyase on Heparan sulfate
+  equation: Heparan sulfate = alpha-deltaUA-GlcNS6S + alpha-deltaUA-GlcN + alpha-deltaUA-GlcNAc
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Heparan_sulfate
+  products:
+  - species_id: product_alpha-deltaUA-GlcN
+  - species_id: product_alpha-deltaUA-GlcNS6S
+  - species_id: product_alpha-deltaUA-GlcNAc
+  modifiers:
+  - species_id: protein_4_2_2_8_C7EXL6_p73048
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:28815
+
+    KEGG IDs: KEGG:C00925'
+- id: sabiork_16100_EC4_2_2_8_Bacteroides_stercoris_C7EXL6_Heparin
+  name: Reaction catalyzed by heparin-sulfate lyase on Heparin
+  equation: Heparin = alpha-deltaUA-GlcNS6S + alpha-deltaUA-GlcN + alpha-deltaUA-GlcNAc
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Heparin
+  products:
+  - species_id: product_alpha-deltaUA-GlcN
+  - species_id: product_alpha-deltaUA-GlcNAc
+  - species_id: product_alpha-deltaUA-GlcNS6S
+  modifiers:
+  - species_id: protein_4_2_2_8_C7EXL6_p73047
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:28304
+
+    KEGG IDs: KEGG:C00374'
+measurements:
+- id: measurement_4_2_2_8_Bacteroides_stercoris_C7EXL6_Heparan_sulfate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.6
+  temperature_opt: 45.0
+  temperature_unit: °C
+- id: measurement_4_2_2_8_Bacteroides_stercoris_C7EXL6_Heparin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.6
+  temperature_opt: 45.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 4_2_2_8_Bacteroides_stercoris_C7EXL6_Heparan_sulfate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.08808
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Heparan_sulfate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.6
+  temperature: 45.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19908038'
+- id: 4_2_2_8_Bacteroides_stercoris_C7EXL6_Heparan_sulfate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.000863517
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Heparan_sulfate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.6
+  temperature: 45.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19908038'
+- id: 4_2_2_8_Bacteroides_stercoris_C7EXL6_Heparin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.42275
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Heparin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.6
+  temperature: 45.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19908038'
+- id: 4_2_2_8_Bacteroides_stercoris_C7EXL6_Heparin_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.000357674
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Heparin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.6
+  temperature: 45.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19908038'
+buffer:
+  buffer: 50 mM sodium phosphate, 350 mM NaCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 73048
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/19908038/
+  pubmed_id: '19908038'
+  doi: null
+name: Merged entry for C7EXL6 wildtype
+description: 'Merged from 2 files: SABIO_EC4.2.2.8_Bacteroides_stercoris__C7EXL6_s_Heparan.yaml,
+  SABIO_EC4.2.2.8_Bacteroides_stercoris__C7EXL6_s_Heparin.yaml'

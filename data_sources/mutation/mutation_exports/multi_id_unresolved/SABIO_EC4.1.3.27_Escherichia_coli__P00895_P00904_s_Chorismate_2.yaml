@@ -1,0 +1,171 @@
+name: SABIO-RK Entry 62511
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 62511
+created: '2025-10-28T16:39:18.457544'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_1_3_27_P00895_P00904_p62511
+  name: anthranilate synthase
+  sequence: null
+  ecnumber: 4.1.3.27
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P00895; P00904
+complexes: null
+small_molecules:
+- id: substrate_Chorismate
+  name: Chorismate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_L-Glutamine
+  name: L-Glutamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mg2_
+  name: Mg2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Anthranilate
+  name: Anthranilate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Pyruvate
+  name: Pyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Glutamate
+  name: L-Glutamate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1280_EC4_1_3_27_Escherichia_coli_P00895_P00904_Chorismate
+  name: Reaction catalyzed by anthranilate synthase on Chorismate
+  equation: L-Glutamine + Chorismate = L-Glutamate + Anthranilate + Pyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Chorismate
+  - species_id: substrate_L-Glutamine
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Anthranilate
+  - species_id: product_Pyruvate
+  - species_id: product_L-Glutamate
+  modifiers:
+  - species_id: protein_4_1_3_27_P00895_P00904_p62511
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 21732;21733;21734;21735
+  KEGGid: R00986
+  notes: 'ChEBI IDs: CHEBI:42943; CHEBI:42825; CHEBI:32678; CHEBI:13379; CHEBI:32666;
+    CHEBI:22578; CHEBI:14987; CHEBI:42899; CHEBI:17333; CHEBI:6635; CHEBI:15361; CHEBI:23227;
+    CHEBI:16567; CHEBI:3677; CHEBI:29972; CHEBI:24316; CHEBI:21301; CHEBI:32679; CHEBI:40980;
+    CHEBI:28300; CHEBI:22577; CHEBI:22575; CHEBI:49736; CHEBI:21308; CHEBI:23225;
+    CHEBI:32665; CHEBI:26466; CHEBI:5432; CHEBI:6224; CHEBI:2757; CHEBI:42814; CHEBI:26462;
+    CHEBI:13107; CHEBI:13110; CHEBI:30754; CHEBI:16015; CHEBI:13841; CHEBI:13993;
+    CHEBI:21304; CHEBI:18050; CHEBI:8685; CHEBI:18420; CHEBI:6227; CHEBI:32816; CHEBI:42812;
+    CHEBI:25112; CHEBI:29985; CHEBI:29988; CHEBI:58359; CHEBI:30011; CHEBI:45253;
+    CHEBI:39127; CHEBI:29748
+
+    KEGG IDs: KEGG:C00108; KEGG:C00064; KEGG:C00303; KEGG:C00251; KEGG:C00305; KEGG:C00022;
+    KEGG:C00025'
+measurements:
+- id: measurement_4_1_3_27_Escherichia_coli_P00895_P00904_Chorismate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 4_1_3_27_Escherichia_coli_P00895_P00904_Chorismate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00036
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Chorismate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '5333199'
+buffer:
+  buffer: 8.25 mM Tris, 0.33 mM EDTA
+  buffer_concentration: 8.25 mM
+references:
+- title: Reference for SABIO-RK entry 62511
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/5333199/
+  pubmed_id: '5333199'
+  doi: null

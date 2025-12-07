@@ -1,0 +1,184 @@
+name: SABIO-RK Entry 72865
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 72865
+created: '2025-10-28T17:31:30.188877'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_1_1_17_P07805_p72865
+  name: ornithine decarboxylase
+  ecnumber: 4.1.1.17
+  organism: Trypanosoma brucei
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: D88A
+  uniprotid: P07805
+  wildtype_sequence: MDIVVNDDLSCRFLEGFNTRDALCKKISMNTCDEGDPFFVADLGDIVRKHETWKKCLPRVTPFYAVKCNDDWRVLGTLAALGTGFDCASNTEIQRVRGIGVPPEKIIYANPCKQISHIRYARDSGVDVMTFDCVDELEKVAKTHPKAKMVLRISTDDSLARCRLSVKFGAKVEDCRFILEQAKKLNIDVTGVSFHVGSGSTDASTFAQAISDSRFVFDMGTELGFNMHILDIGGGFPGTRDAPLKFEEIAGVINNALEKHFPPDLKLTIVAEPGRYYVASAFTLAVNVIAKKVTPGVQTDVGAHAESNAQSFMYYVNDGVYGSFNCILYDHAVVRPLPQREPIPNEKLYPSSVWGPTCDGLDQIVERYYLPEMQVGEWLLFEDMGAYTVVGTSSFNGFQSPTIYYVVSGLPDHVVRELKSQKS
+  mutant_sequence: MDIVVNDDLSCRFLEGFNTRDALCKKISMNTCDEGDPFFVADLGDIVRKHETWKKCLPRVTPFYAVKCNDDWRVLGTLAALGTGFACASNTEIQRVRGIGVPPEKIIYANPCKQISHIRYARDSGVDVMTFDCVDELEKVAKTHPKAKMVLRISTDDSLARCRLSVKFGAKVEDCRFILEQAKKLNIDVTGVSFHVGSGSTDASTFAQAISDSRFVFDMGTELGFNMHILDIGGGFPGTRDAPLKFEEIAGVINNALEKHFPPDLKLTIVAEPGRYYVASAFTLAVNVIAKKVTPGVQTDVGAHAESNAQSFMYYVNDGVYGSFNCILYDHAVVRPLPQREPIPNEKLYPSSVWGPTCDGLDQIVERYYLPEMQVGEWLLFEDMGAYTVVGTSSFNGFQSPTIYYVVSGLPDHVVRELKSQKS
+  position_offset: -2
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_L-Ornithine
+  name: L-Ornithine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Putrescine
+  name: Putrescine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Pyridoxal_phosphate
+  name: Pyridoxal phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1050_EC4_1_1_17_Trypanosoma_brucei_P07805_L-Ornithine
+  name: Reaction catalyzed by ornithine decarboxylase on L-Ornithine
+  equation: L-Ornithine = CO2 + Putrescine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Ornithine
+  products:
+  - species_id: product_CO2
+  - species_id: product_Putrescine
+  modifiers:
+  - species_id: protein_4_1_1_17_P07805_p72865
+    role: BIOCATALYST
+  - species_id: activator_Pyridoxal_phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 22964;22965;22966;22967
+  KEGGid: R00670
+  notes: 'ChEBI IDs: CHEBI:21367; CHEBI:14972; CHEBI:139538; CHEBI:358848; CHEBI:8650;
+    CHEBI:44667; CHEBI:3283; CHEBI:26424; CHEBI:46914; CHEBI:8668; CHEBI:18405; CHEBI:23011;
+    CHEBI:597326; CHEBI:6280; CHEBI:13285; CHEBI:45092; CHEBI:13282; CHEBI:15729;
+    CHEBI:234571; CHEBI:13283; CHEBI:45145; CHEBI:326268; CHEBI:13284; CHEBI:16526;
+    CHEBI:13148; CHEBI:14977; CHEBI:48829; CHEBI:26405; CHEBI:46911; CHEBI:17148
+
+    KEGG IDs: KEGG:C00134; KEGG:C00077; KEGG:C00011; KEGG:C00018'
+measurements:
+- id: measurement_4_1_1_17_Trypanosoma_brucei_P07805_L-Ornithine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 4_1_1_17_Trypanosoma_brucei_P07805_L-Ornithine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0044
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Ornithine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7744828'
+- id: 4_1_1_17_Trypanosoma_brucei_P07805_L-Ornithine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 9.8
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Ornithine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7744828'
+- id: 4_1_1_17_Trypanosoma_brucei_P07805_L-Ornithine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.043
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Ornithine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7744828'
+buffer:
+  buffer: 20 mM Tris, 0.08 mg/ml BSA, 10 mM MgCl2, 0.256 mM NADH, 1.76 mM phosphoenol
+    pyruvate, 2.5 mM DTT, 1.5% glycerol, 0.77 U/ml malate dehydrogenase, 0.14 U/ml
+    phosphoenol pyruvate carboxykinase
+  buffer_concentration: 20 mM
+references:
+- title: Reference for SABIO-RK entry 72865
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/7744828/
+  pubmed_id: '7744828'
+  doi: null

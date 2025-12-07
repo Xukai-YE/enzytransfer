@@ -1,0 +1,523 @@
+version: '2.0'
+created: '2025-11-20T13:39:13.986774'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_146_Q6QLL4_p19964
+  name: 11beta-hydroxysteroid dehydrogenase
+  ecnumber: 1.1.1.146
+  organism: Cavia porcellus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q6QLL4
+  wildtype_sequence: MAFLKKYLLTILMVFLAYYYYSANEKFRPEMLQGKKVIVTGASKGIGREIAYHLAKMGAHVVVTARSKEALQKVVARCLELGAASAHYIAGSMEDMTFAEEFVAEAGNLMGGLDMLILNHVLYNRLTFFHGEIDNVRKSMEVNFHSFVVLSVAAMPMLMQSQGSIAVVSSVAGKITYPLIAPYSASKFALDGFFSTLRSEFLVNKVNVSITLCILGLIDTETAIKATSGIYLGPASPKEECALEIIKGTALRQDEMYYVGSRWVPYLLGNPGRKIMEFLSAAEYNWDNVLSNEKLYGRWA
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Cortisone
+  name: Cortisone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Cortisol
+  name: Cortisol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Cortisol
+  name: Cortisol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Cortisone
+  name: Cortisone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2701_EC1_1_1_146_Cavia_porcellus_Q6QLL4_Cortisone
+  name: Reaction catalyzed by 11beta-hydroxysteroid dehydrogenase on Cortisone
+  equation: NADP+ + Cortisol = H+ + NADPH + Cortisone
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Cortisone
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_Cortisol
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_1_1_146_Q6QLL4_p19964
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02836
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:7424; CHEBI:44405; CHEBI:21903;
+    CHEBI:7425; CHEBI:29234; CHEBI:13357; CHEBI:25523; CHEBI:24636; CHEBI:29233; CHEBI:5584;
+    CHEBI:13399; CHEBI:17650; CHEBI:16474; CHEBI:44286; CHEBI:16962; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:18009; CHEBI:58349; CHEBI:13400; CHEBI:57783;
+    CHEBI:10744
+
+    KEGG IDs: KEGG:C00005; KEGG:C00080; KEGG:C00735; KEGG:C00006; KEGG:C00762; KEGG:C11037'
+- id: sabiork_2701_EC1_1_1_146_Cavia_porcellus_Q6QLL4_NADPH
+  name: Reaction catalyzed by 11beta-hydroxysteroid dehydrogenase on NADPH
+  equation: NADP+ + Cortisol = H+ + NADPH + Cortisone
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_Cortisone
+  products:
+  - species_id: product_NADP_
+  - species_id: product_Cortisol
+  modifiers:
+  - species_id: protein_1_1_1_146_Q6QLL4_p19965
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02836
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:7424; CHEBI:44405; CHEBI:21903;
+    CHEBI:7425; CHEBI:29234; CHEBI:13357; CHEBI:25523; CHEBI:24636; CHEBI:29233; CHEBI:5584;
+    CHEBI:13399; CHEBI:17650; CHEBI:16474; CHEBI:44286; CHEBI:16962; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:18009; CHEBI:58349; CHEBI:13400; CHEBI:57783;
+    CHEBI:10744
+
+    KEGG IDs: KEGG:C00005; KEGG:C00080; KEGG:C00735; KEGG:C00006; KEGG:C00762; KEGG:C11037'
+- id: sabiork_2701_EC1_1_1_146_Cavia_porcellus_Q6QLL4_Cortisone
+  name: Reaction catalyzed by 11beta-hydroxysteroid dehydrogenase on Cortisone
+  equation: NADP+ + Cortisol = H+ + NADPH + Cortisone
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Cortisone
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_NADP_
+  - species_id: product_Cortisol
+  modifiers:
+  - species_id: protein_1_1_1_146_Q6QLL4_p19963
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02836
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:7424; CHEBI:44405; CHEBI:21903;
+    CHEBI:7425; CHEBI:29234; CHEBI:13357; CHEBI:25523; CHEBI:24636; CHEBI:29233; CHEBI:5584;
+    CHEBI:13399; CHEBI:17650; CHEBI:16474; CHEBI:44286; CHEBI:16962; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:18009; CHEBI:58349; CHEBI:13400; CHEBI:57783;
+    CHEBI:10744
+
+    KEGG IDs: KEGG:C00005; KEGG:C00080; KEGG:C00735; KEGG:C00006; KEGG:C00762; KEGG:C11037'
+- id: sabiork_2701_EC1_1_1_146_Cavia_porcellus_Q6QLL4_Cortisol
+  name: Reaction catalyzed by 11beta-hydroxysteroid dehydrogenase on Cortisol
+  equation: NADP+ + Cortisol = H+ + NADPH + Cortisone
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Cortisol
+  - species_id: substrate_NADP_
+  products:
+  - species_id: product_NADPH
+  - species_id: product_Cortisone
+  modifiers:
+  - species_id: protein_1_1_1_146_Q6QLL4_p19972
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02836
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:7424; CHEBI:21903; CHEBI:44405;
+    CHEBI:7425; CHEBI:29234; CHEBI:25523; CHEBI:13357; CHEBI:24636; CHEBI:29233; CHEBI:5584;
+    CHEBI:13399; CHEBI:17650; CHEBI:16474; CHEBI:44286; CHEBI:16962; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:18009; CHEBI:58349; CHEBI:13400; CHEBI:57783;
+    CHEBI:10744
+
+    KEGG IDs: KEGG:C00005; KEGG:C00080; KEGG:C00735; KEGG:C00006; KEGG:C00762; KEGG:C11037'
+- id: sabiork_2701_EC1_1_1_146_Cavia_porcellus_Q6QLL4_NADPH
+  name: Reaction catalyzed by 11beta-hydroxysteroid dehydrogenase on NADPH
+  equation: NADP+ + Cortisol = H+ + NADPH + Cortisone
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_Cortisone
+  products:
+  - species_id: product_Cortisol
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_1_1_146_Q6QLL4_p19971
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02836
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:7424; CHEBI:44405; CHEBI:21903;
+    CHEBI:7425; CHEBI:29234; CHEBI:13357; CHEBI:25523; CHEBI:24636; CHEBI:29233; CHEBI:5584;
+    CHEBI:13399; CHEBI:17650; CHEBI:16474; CHEBI:44286; CHEBI:16962; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:18009; CHEBI:58349; CHEBI:13400; CHEBI:57783;
+    CHEBI:10744
+
+    KEGG IDs: KEGG:C00005; KEGG:C00080; KEGG:C00735; KEGG:C00006; KEGG:C00762; KEGG:C11037'
+measurements:
+- id: measurement_1_1_1_146_Cavia_porcellus_Q6QLL4_Cortisone
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_1_1_146_Cavia_porcellus_Q6QLL4_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_1_1_146_Cavia_porcellus_Q6QLL4_Cortisone
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_1_1_146_Cavia_porcellus_Q6QLL4_Cortisol
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.2
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_1_1_146_Cavia_porcellus_Q6QLL4_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1_146_Cavia_porcellus_Q6QLL4_Cortisone_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: moldivs
+  initial_value: 4.805556e-14
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cortisone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12397058'
+- id: 1_1_1_146_Cavia_porcellus_Q6QLL4_Cortisone_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.8e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cortisone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12397058'
+- id: 1_1_1_146_Cavia_porcellus_Q6QLL4_NADPH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 8.2e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12397058'
+- id: 1_1_1_146_Cavia_porcellus_Q6QLL4_NADPH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 3.683333e-09
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12397058'
+- id: 1_1_1_146_Cavia_porcellus_Q6QLL4_Cortisone_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 7.0e-10
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cortisone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12397058'
+- id: 1_1_1_146_Cavia_porcellus_Q6QLL4_Cortisone_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.2e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cortisone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12397058'
+- id: 1_1_1_146_Cavia_porcellus_Q6QLL4_Cortisol_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.1e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cortisol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12397058'
+- id: 1_1_1_146_Cavia_porcellus_Q6QLL4_Cortisol_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.126667e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cortisol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12397058'
+- id: 1_1_1_146_Cavia_porcellus_Q6QLL4_Cortisol_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 10500.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cortisol
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 9.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12397058'
+- id: 1_1_1_146_Cavia_porcellus_Q6QLL4_Cortisol_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.035
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cortisol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12397058'
+- id: 1_1_1_146_Cavia_porcellus_Q6QLL4_NADPH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.009
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12397058'
+- id: 1_1_1_146_Cavia_porcellus_Q6QLL4_NADPH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.0e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12397058'
+- id: 1_1_1_146_Cavia_porcellus_Q6QLL4_NADPH_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 21666.67
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 6.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12397058'
+- id: 1_1_1_146_Cavia_porcellus_Q6QLL4_NADPH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 3.133333e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12397058'
+buffer:
+  buffer: 50 mM potassium phosphate; 50 mM Tris-Cl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 19964
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12397058/
+  pubmed_id: '12397058'
+  doi: null
+name: Merged entry for Q6QLL4 wildtype
+description: 'Merged from 5 files: SABIO_EC1.1.1.146_Cavia_porcellus__Q6QLL4_s_Cortisone_2.yaml,
+  SABIO_EC1.1.1.146_Cavia_porcellus__Q6QLL4_s_NADPH.yaml, SABIO_EC1.1.1.146_Cavia_porcellus__Q6QLL4_s_Cortisone.yaml,
+  SABIO_EC1.1.1.146_Cavia_porcellus__Q6QLL4_s_Cortisol.yaml, SABIO_EC1.1.1.146_Cavia_porcellus__Q6QLL4_s_NADPH_2.yaml'

@@ -1,0 +1,183 @@
+name: SABIO-RK Entry 49639
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 49639
+created: '2025-10-28T15:48:41.715887'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_1_1_22_Q0TU55_p49639
+  name: histidine decarboxylase
+  ecnumber: 4.1.1.22
+  organism: Clostridium perfringens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: E214D
+  uniprotid: Q0TU55
+  wildtype_sequence: MNKNLEANRNRTLSEGIHKNIKVRAPKIDKTAISPYDRYCDGYGMPGAYGNGYVSVLKVSVGTVKKTDDILLDGIVSYDRAEINDAYVGQINMLTASSFCGVAGQVWGHDLATHDSIANDEIKPLYELKQFDGTPLKVYDAKPLLEAGIELFGTEKNRRFTTAPGAHVICANKSATAYRPKENRPLKEGEAYGVWSFIALSLSNDRDHCADLFIEDAGLWTKNDNPEDLKKFLEDHRKAVTWSVVECGRDSHVVFERTYIGFAYVIMKPGEIGNALTCAPYVTLARDAVPSEGFPSLNRISLSQWLDDMNFDSLVNPSKK
+  mutant_sequence: MNKNLEANRNRTLSEGIHKNIKVRAPKIDKTAISPYDRYCDGYGMPGAYGNGYVSVLKVSVGTVKKTDDILLDGIVSYDRAEINDAYVGQINMLTASSFCGVAGQVWGHDLATHDSIANDEIKPLYELKQFDGTPLKVYDAKPLLEAGIELFGTEKNRRFTTAPGAHVICANKSATAYRPKENRPLKEGEAYGVWSFIALSLSNDRDHCADLFIDDAGLWTKNDNPEDLKKFLEDHRKAVTWSVVECGRDSHVVFERTYIGFAYVIMKPGEIGNALTCAPYVTLARDAVPSEGFPSLNRISLSQWLDDMNFDSLVNPSKK
+  position_offset: 1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_L-Histidine
+  name: L-Histidine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Histamine
+  name: Histamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Pyruvate
+  name: Pyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1405_EC4_1_1_22_Clostridium_perfringens_Q0TU55_L-Histidine
+  name: Reaction catalyzed by histidine decarboxylase on L-Histidine
+  equation: L-Histidine = CO2 + Histamine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Histidine
+  products:
+  - species_id: product_Histamine
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_4_1_1_22_Q0TU55_p49639
+    role: BIOCATALYST
+  - species_id: activator_Pyruvate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 20840;20841;20842;20843
+  KEGGid: R01167
+  notes: 'ChEBI IDs: CHEBI:14401; CHEBI:6240; CHEBI:21324; CHEBI:14987; CHEBI:13117;
+    CHEBI:43048; CHEBI:43187; CHEBI:139538; CHEBI:32510; CHEBI:43114; CHEBI:57595;
+    CHEBI:3283; CHEBI:15361; CHEBI:32512; CHEBI:817; CHEBI:23011; CHEBI:29979; CHEBI:43239;
+    CHEBI:26466; CHEBI:32513; CHEBI:13285; CHEBI:13282; CHEBI:26462; CHEBI:13283;
+    CHEBI:8685; CHEBI:58432; CHEBI:13284; CHEBI:43190; CHEBI:32816; CHEBI:16526; CHEBI:18295;
+    CHEBI:48829; CHEBI:15971; CHEBI:24596; CHEBI:45253
+
+    KEGG IDs: KEGG:C00135; KEGG:C00388; KEGG:C00011; KEGG:C00022'
+measurements:
+- id: measurement_4_1_1_22_Clostridium_perfringens_Q0TU55_L-Histidine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 4.5
+  temperature_opt: null
+  temperature_unit: null
+parameters:
+- id: 4_1_1_22_Clostridium_perfringens_Q0TU55_L-Histidine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 11566.67
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Histidine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 4.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '2261482'
+- id: 4_1_1_22_Clostridium_perfringens_Q0TU55_L-Histidine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Histidine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 4.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '2261482'
+- id: 4_1_1_22_Clostridium_perfringens_Q0TU55_L-Histidine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.66667e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Histidine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 4.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '2261482'
+buffer:
+  buffer: 0.2 M Ammonium acetate, 0.4 M Magnesium sulfate
+  buffer_concentration: 0.2 M
+references:
+- title: Reference for SABIO-RK entry 49639
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/2261482/
+  pubmed_id: '2261482'
+  doi: null

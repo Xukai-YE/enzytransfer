@@ -1,0 +1,171 @@
+name: SABIO-RK Entry 64223
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 64223
+created: '2025-10-28T16:48:20.689185'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_41_P50213_P51553_p64223
+  name: isocitrate dehydrogenase (NAD+)
+  sequence: null
+  ecnumber: 1.1.1.41
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: N273A
+  uniprotid: P50213; P51553
+complexes: null
+small_molecules:
+- id: substrate_Isocitrate
+  name: Isocitrate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mn2_
+  name: Mn2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Oxoglutarate
+  name: 2-Oxoglutarate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_270_EC1_1_1_41_Homo_sapiens_P50213_P51553_Isocitrate
+  name: Reaction catalyzed by isocitrate dehydrogenase (NAD+) on Isocitrate
+  equation: Isocitrate + NAD+ = H+ + NADH + CO2 + 2-Oxoglutarate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Isocitrate
+  - species_id: substrate_NAD_
+  - species_id: cofactor_Mn2_
+  products:
+  - species_id: product_CO2
+  - species_id: product_2-Oxoglutarate
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_1_1_41_P50213_P51553_p64223
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00709
+  notes: 'ChEBI IDs: CHEBI:29035; CHEBI:11638; CHEBI:139538; CHEBI:1253; CHEBI:14465;
+    CHEBI:44281; CHEBI:49749; CHEBI:24886; CHEBI:13393; CHEBI:19748; CHEBI:29234;
+    CHEBI:15846; CHEBI:3283; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636;
+    CHEBI:36454; CHEBI:16810; CHEBI:44214; CHEBI:40661; CHEBI:29233; CHEBI:25156;
+    CHEBI:13394; CHEBI:23011; CHEBI:5584; CHEBI:30916; CHEBI:57945; CHEBI:44216; CHEBI:13285;
+    CHEBI:13282; CHEBI:16087; CHEBI:5998; CHEBI:57540; CHEBI:19749; CHEBI:7423; CHEBI:13283;
+    CHEBI:13389; CHEBI:15378; CHEBI:13284; CHEBI:13395; CHEBI:151; CHEBI:36453; CHEBI:16526;
+    CHEBI:30915; CHEBI:48829; CHEBI:30887; CHEBI:44215; CHEBI:10744; CHEBI:24884;
+    CHEBI:21435; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00034; KEGG:C00080; KEGG:C00026; KEGG:C00011; KEGG:C19610; KEGG:C00003;
+    KEGG:C00311; KEGG:C00004'
+measurements:
+- id: measurement_1_1_1_41_Homo_sapiens_P50213_P51553_Isocitrate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1_41_Homo_sapiens_P50213_P51553_Isocitrate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1430.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Isocitrate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '28098230'
+buffer:
+  buffer: 33 mM Tris-acetate
+  buffer_concentration: 33 mM
+references:
+- title: Reference for SABIO-RK entry 64223
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/28098230/
+  pubmed_id: '28098230'
+  doi: null

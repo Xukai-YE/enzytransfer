@@ -1,0 +1,538 @@
+version: '2.0'
+created: '2025-11-20T13:39:54.177313'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_6_3_1_O58308_p48098
+  name: catalase
+  ecnumber: 1.6.3.1
+  organism: Pyrococcus horikoshii
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: O58308
+  wildtype_sequence: MGENMKKKVVIIGGGAAGMSAASRVKRLKPEWDVKVFEATEWVSHAPCGIPYVVEGLSTPDKLMYYPPEVFIKKRGIDLHLNAEVIEVDTGYVRVRENGGEKSYEWDYLVFANGASPQVPAIEGVNLKGVFTADLPPDALAIREYMEKYKVENVVIIGGGYIGIEMAEAFAAQGKNVTMIVRGERVLRRSFDKEVTDILEEKLKKHVNLRLQEITMKIEGEERVEKVVTDAGEYKAELVILATGIKPNIELAKQLGVRIGETGAIWTNEKMQTSVENVYAAGDVAETRHVITGRRVWVPLAPAGNKMGYVAGSNIAGKELHFPGVLGTAVTKFMDVEIGKTGLTEMEALKEGYDVRTAFIKASTRPHYYPGGREIWLKGVVDNETNRLLGVQVVGSDILPRIDTAAAMLMAGFTTKDAFFTDLAYAPPFAPVWDPLIVLARVLKF
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_FAD
+  name: FAD
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_CoA-disulfide
+  name: CoA-disulfide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_9073_EC1_6_3_1_Pyrococcus_horikoshii_O58308_NADH
+  name: Reaction catalyzed by catalase on NADH
+  equation: NADH + H+ + O2 = NAD+ + H2O2
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  - species_id: substrate_O2
+  - species_id: cofactor_FAD
+  products:
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_6_3_1_O58308_p48098
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 11264;11265;11266;11267
+  KEGGid: R07171
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:16238; CHEBI:13354; CHEBI:29192; CHEBI:24637;
+    CHEBI:26689; CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:13357;
+    CHEBI:16240; CHEBI:24040; CHEBI:21902; CHEBI:13396; CHEBI:23833; CHEBI:21901;
+    CHEBI:13416; CHEBI:13355; CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:5584; CHEBI:13394;
+    CHEBI:21125; CHEBI:57945; CHEBI:44216; CHEBI:15379; CHEBI:13315; CHEBI:57540;
+    CHEBI:42388; CHEBI:7423; CHEBI:30491; CHEBI:13389; CHEBI:25366; CHEBI:44742; CHEBI:44812;
+    CHEBI:13395; CHEBI:15378; CHEBI:29793; CHEBI:7860; CHEBI:10745; CHEBI:5586; CHEBI:4956;
+    CHEBI:10744; CHEBI:44215; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C00016; KEGG:C00027; KEGG:C00704; KEGG:C00003; KEGG:C00007;
+    KEGG:C00004'
+- id: sabiork_9073_EC1_6_3_1_Pyrococcus_horikoshii_O58308_NADH
+  name: Reaction catalyzed by catalase on NADH
+  equation: NADH + H+ + O2 = NAD+ + H2O2
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  - species_id: substrate_O2
+  - species_id: cofactor_FAD
+  products:
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_6_3_1_O58308_p48100
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 11264;11265;11266;11267
+  KEGGid: R07171
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:16238; CHEBI:13354; CHEBI:29192; CHEBI:24637;
+    CHEBI:26689; CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:13357;
+    CHEBI:16240; CHEBI:24040; CHEBI:21902; CHEBI:13396; CHEBI:23833; CHEBI:21901;
+    CHEBI:13416; CHEBI:13355; CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:5584; CHEBI:13394;
+    CHEBI:21125; CHEBI:57945; CHEBI:44216; CHEBI:15379; CHEBI:13315; CHEBI:57540;
+    CHEBI:42388; CHEBI:7423; CHEBI:30491; CHEBI:13389; CHEBI:25366; CHEBI:44742; CHEBI:44812;
+    CHEBI:13395; CHEBI:15378; CHEBI:29793; CHEBI:7860; CHEBI:10745; CHEBI:5586; CHEBI:4956;
+    CHEBI:10744; CHEBI:44215; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C00016; KEGG:C00027; KEGG:C00704; KEGG:C00003; KEGG:C00007;
+    KEGG:C00004'
+- id: sabiork_7702_EC1_6_3_1_Pyrococcus_horikoshii_O58308_NADPH
+  name: Reaction catalyzed by NAD(P)H oxidase on NADPH
+  equation: O2 + H+ + NADPH = NADP+ + H2O2
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_O2
+  - species_id: cofactor_FAD
+  products:
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_6_3_1_O58308_p48099
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 11260;11261;11262;11263
+  KEGGid: R07172
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:16238; CHEBI:13354; CHEBI:29192; CHEBI:24637;
+    CHEBI:13398; CHEBI:13397; CHEBI:7424; CHEBI:26689; CHEBI:44405; CHEBI:21903; CHEBI:7425;
+    CHEBI:29234; CHEBI:13357; CHEBI:16240; CHEBI:25523; CHEBI:24040; CHEBI:23833;
+    CHEBI:13416; CHEBI:13355; CHEBI:24636; CHEBI:29233; CHEBI:13399; CHEBI:5584; CHEBI:21125;
+    CHEBI:15379; CHEBI:16474; CHEBI:13315; CHEBI:44286; CHEBI:42388; CHEBI:30491;
+    CHEBI:21904; CHEBI:25366; CHEBI:44742; CHEBI:44812; CHEBI:44409; CHEBI:15378;
+    CHEBI:29793; CHEBI:18009; CHEBI:7860; CHEBI:10745; CHEBI:58349; CHEBI:13400; CHEBI:57783;
+    CHEBI:5586; CHEBI:4956; CHEBI:10744
+
+    KEGG IDs: KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00027; KEGG:C00704; KEGG:C00016;
+    KEGG:C00007; KEGG:C11037'
+- id: sabiork_8922_EC1_8_1_14_Pyrococcus_horikoshii_O58308_CoA-disulfide
+  name: Reaction catalyzed by protein-disulfide reductase (glutathione) on CoA-disulfide
+  equation: Coenzyme A + NADP+ = H+ + CoA-disulfide + NADPH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_CoA-disulfide
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_Coenzyme_A
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_8_1_14_O58308_p48097
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 14705;14706;14707;14708
+  KEGGid: R07175
+  notes: 'ChEBI IDs: CHEBI:15346; CHEBI:23355; CHEBI:3772; CHEBI:13397; CHEBI:13398;
+    CHEBI:41631; CHEBI:7424; CHEBI:44405; CHEBI:21903; CHEBI:62209; CHEBI:7425; CHEBI:29234;
+    CHEBI:13357; CHEBI:25523; CHEBI:13295; CHEBI:41597; CHEBI:24636; CHEBI:29233;
+    CHEBI:5584; CHEBI:13399; CHEBI:13296; CHEBI:57287; CHEBI:20880; CHEBI:13294; CHEBI:16474;
+    CHEBI:44286; CHEBI:21904; CHEBI:44409; CHEBI:15378; CHEBI:18009; CHEBI:3771; CHEBI:16161;
+    CHEBI:741566; CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:10744; CHEBI:13298
+
+    KEGG IDs: KEGG:C02015; KEGG:C00010; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C11037'
+- id: sabiork_673_EC1_8_1_14_Pyrococcus_horikoshii_O58308_NADH
+  name: Reaction catalyzed by CoA-disulfide reductase on NADH
+  equation: NAD+ + Coenzyme A = CoA-disulfide + H+ + NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  - species_id: substrate_CoA-disulfide
+  products:
+  - species_id: product_Coenzyme_A
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_8_1_14_O58308_p48095
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 14701;14702;14703;14704
+  KEGGid: R00091
+  notes: 'ChEBI IDs: CHEBI:15346; CHEBI:23355; CHEBI:3772; CHEBI:41631; CHEBI:44281;
+    CHEBI:62209; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:13357; CHEBI:21902;
+    CHEBI:13295; CHEBI:13396; CHEBI:21901; CHEBI:41597; CHEBI:24636; CHEBI:44214;
+    CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:13296; CHEBI:57287; CHEBI:57945; CHEBI:44216;
+    CHEBI:20880; CHEBI:13294; CHEBI:57540; CHEBI:7423; CHEBI:13389; CHEBI:15378; CHEBI:13395;
+    CHEBI:3771; CHEBI:16161; CHEBI:741566; CHEBI:10744; CHEBI:44215; CHEBI:7422; CHEBI:13298;
+    CHEBI:16908
+
+    KEGG IDs: KEGG:C02015; KEGG:C00010; KEGG:C00080; KEGG:C00003; KEGG:C00004'
+- id: sabiork_8922_EC1_8_1_14_Pyrococcus_horikoshii_O58308_NADPH
+  name: Reaction catalyzed by protein-disulfide reductase (glutathione) on NADPH
+  equation: Coenzyme A + NADP+ = H+ + CoA-disulfide + NADPH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_CoA-disulfide
+  products:
+  - species_id: product_Coenzyme_A
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_8_1_14_O58308_p48096
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 14705;14706;14707;14708
+  KEGGid: R07175
+  notes: 'ChEBI IDs: CHEBI:15346; CHEBI:23355; CHEBI:3772; CHEBI:13397; CHEBI:13398;
+    CHEBI:41631; CHEBI:7424; CHEBI:44405; CHEBI:21903; CHEBI:62209; CHEBI:7425; CHEBI:29234;
+    CHEBI:13357; CHEBI:25523; CHEBI:13295; CHEBI:41597; CHEBI:24636; CHEBI:29233;
+    CHEBI:5584; CHEBI:13399; CHEBI:13296; CHEBI:57287; CHEBI:20880; CHEBI:13294; CHEBI:16474;
+    CHEBI:44286; CHEBI:21904; CHEBI:44409; CHEBI:15378; CHEBI:18009; CHEBI:3771; CHEBI:16161;
+    CHEBI:741566; CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:10744; CHEBI:13298
+
+    KEGG IDs: KEGG:C02015; KEGG:C00010; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C11037'
+measurements:
+- id: measurement_1_6_3_1_Pyrococcus_horikoshii_O58308_NADH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 75.0
+  temperature_unit: °C
+- id: measurement_1_6_3_1_Pyrococcus_horikoshii_O58308_NADH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 75.0
+  temperature_unit: °C
+- id: measurement_1_6_3_1_Pyrococcus_horikoshii_O58308_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 75.0
+  temperature_unit: °C
+- id: measurement_1_8_1_14_Pyrococcus_horikoshii_O58308_CoA-disulfide
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 75.0
+  temperature_unit: °C
+- id: measurement_1_8_1_14_Pyrococcus_horikoshii_O58308_NADH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 75.0
+  temperature_unit: °C
+- id: measurement_1_8_1_14_Pyrococcus_horikoshii_O58308_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 75.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_6_3_1_Pyrococcus_horikoshii_O58308_NADH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 8.2
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 75.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15720393'
+- id: 1_6_3_1_Pyrococcus_horikoshii_O58308_NADH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.3e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 75.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15720393'
+- id: 1_6_3_1_Pyrococcus_horikoshii_O58308_NADH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 5.9
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 75.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15720393'
+- id: 1_6_3_1_Pyrococcus_horikoshii_O58308_NADH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.2e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 75.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15720393'
+- id: 1_6_3_1_Pyrococcus_horikoshii_O58308_NADPH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 75.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15720393'
+- id: 1_6_3_1_Pyrococcus_horikoshii_O58308_NADPH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.3e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 75.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15720393'
+- id: 1_8_1_14_Pyrococcus_horikoshii_O58308_CoA-disulfide_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CoA-disulfide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 75.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15720393'
+- id: 1_8_1_14_Pyrococcus_horikoshii_O58308_CoA-disulfide_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 7.1
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CoA-disulfide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 75.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15720393'
+- id: 1_8_1_14_Pyrococcus_horikoshii_O58308_NADH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 8.1
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 75.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15720393'
+- id: 1_8_1_14_Pyrococcus_horikoshii_O58308_NADH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.3e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 75.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15720393'
+- id: 1_8_1_14_Pyrococcus_horikoshii_O58308_NADPH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.5e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 75.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15720393'
+- id: 1_8_1_14_Pyrococcus_horikoshii_O58308_NADPH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 7.2
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 75.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15720393'
+buffer:
+  buffer: 50 mM Potassium phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 48098
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15720393/
+  pubmed_id: '15720393'
+  doi: null
+name: Merged entry for O58308 wildtype
+description: 'Merged from 6 files: SABIO_EC1.6.3.1_Pyrococcus_horikoshii__O58308_s_NADH.yaml,
+  SABIO_EC1.6.3.1_Pyrococcus_horikoshii__O58308_s_NADH_2.yaml, SABIO_EC1.6.3.1_Pyrococcus_horikoshii__O58308_s_NADPH.yaml,
+  SABIO_EC1.8.1.14_Pyrococcus_horikoshii__O58308_s_CoA-disulfide.yaml, SABIO_EC1.8.1.14_Pyrococcus_horikoshii__O58308_s_NADH.yaml,
+  SABIO_EC1.8.1.14_Pyrococcus_horikoshii__O58308_s_NADPH.yaml'

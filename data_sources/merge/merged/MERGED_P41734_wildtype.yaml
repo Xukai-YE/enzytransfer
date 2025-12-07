@@ -1,0 +1,332 @@
+version: '2.0'
+created: '2025-11-20T13:41:01.877041'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_1__P41734_p49482
+  name: Acting on ester bonds
+  ecnumber: 3.1.
+  organism: Saccharomyces cerevisiae
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P41734
+  wildtype_sequence: MDYEKFLLFGDSITEFAFNTRPIEDGKDQYALGAALVNEYTRKMDILQRGFKGYTSRWALKILPEILKHESNIVMATIFLGANDACSAGPQSVPLPEFIDNIRQMVSLMKSYHIRPIIIGPGLVDREKWEKEKSEEIALGYFRTNENFAIYSDALAKLANEEKVPFVALNKAFQQEGGDAWQQLLTDGLHFSGKGYKIFHDELLKVIETFYPQYHPKNMQYKLKDWRDVLDDGSNIMS
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Isoamyl_acetate
+  name: Isoamyl acetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3-Methylbutanol
+  name: 3-Methylbutanol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Acetate
+  name: Acetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_3-Methylbutanol
+  name: 3-Methylbutanol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Acetate
+  name: Acetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Isoamyl_acetate
+  name: Isoamyl acetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Isobutyl_acetate
+  name: Isobutyl acetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Isobutanol
+  name: Isobutanol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_13427_EC3_1__Saccharomyces_cerevisiae_P41734_Isoamyl_acetate
+  name: Reaction catalyzed by Acting on ester bonds on Isoamyl acetate
+  equation: H2O + Isoamyl acetate = Acetate + 3-Methylbutanol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Isoamyl_acetate
+  products:
+  - species_id: product_3-Methylbutanol
+  - species_id: product_Acetate
+  modifiers:
+  - species_id: protein_3_1__P41734_p49482
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 60436;60437;60438;60439
+  KEGGid: R12516
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:1597; CHEBI:40480; CHEBI:44819; CHEBI:41981;
+    CHEBI:13704; CHEBI:15366; CHEBI:42857; CHEBI:41979; CHEBI:40486; CHEBI:22169;
+    CHEBI:15837; CHEBI:2387; CHEBI:42043; CHEBI:30089; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:13352; CHEBI:20125; CHEBI:22165; CHEBI:11855; CHEBI:43228;
+    CHEBI:44292; CHEBI:33806; CHEBI:43359; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:31725;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00033; KEGG:C07328; KEGG:C00001; KEGG:C12296'
+- id: sabiork_13427_EC3_1__Saccharomyces_cerevisiae_P41734_3-Methylbutanol
+  name: Reaction catalyzed by Acting on ester bonds on 3-Methylbutanol
+  equation: H2O + Isoamyl acetate = Acetate + 3-Methylbutanol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3-Methylbutanol
+  - species_id: substrate_Acetate
+  products:
+  - species_id: product_Isoamyl_acetate
+  modifiers:
+  - species_id: protein_3_1__P41734_p49484
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 60436;60437;60438;60439
+  KEGGid: R12516
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:1597; CHEBI:40480; CHEBI:44819; CHEBI:41981;
+    CHEBI:13704; CHEBI:15366; CHEBI:42857; CHEBI:41979; CHEBI:40486; CHEBI:22169;
+    CHEBI:15837; CHEBI:2387; CHEBI:42043; CHEBI:30089; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:20125; CHEBI:13352; CHEBI:22165; CHEBI:11855; CHEBI:43228;
+    CHEBI:44292; CHEBI:33806; CHEBI:43359; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:31725;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00033; KEGG:C00001; KEGG:C07328; KEGG:C12296'
+- id: sabiork_13427_EC3_1__Saccharomyces_cerevisiae_P41734_Isoamyl_acetate
+  name: Reaction catalyzed by Acting on ester bonds on Isoamyl acetate
+  equation: H2O + Isoamyl acetate = Acetate + 3-Methylbutanol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Isoamyl_acetate
+  products:
+  - species_id: product_Acetate
+  - species_id: product_3-Methylbutanol
+  modifiers:
+  - species_id: protein_3_1__P41734_p49485
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 60436;60437;60438;60439
+  KEGGid: R12516
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:40480; CHEBI:1597; CHEBI:44819; CHEBI:41981;
+    CHEBI:13704; CHEBI:15366; CHEBI:42857; CHEBI:41979; CHEBI:40486; CHEBI:22169;
+    CHEBI:15837; CHEBI:2387; CHEBI:42043; CHEBI:30089; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:13352; CHEBI:20125; CHEBI:22165; CHEBI:11855; CHEBI:43228;
+    CHEBI:44292; CHEBI:33806; CHEBI:43359; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:31725;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00033; KEGG:C07328; KEGG:C00001; KEGG:C12296'
+- id: sabiork_13428_EC3_1__Saccharomyces_cerevisiae_P41734_Isobutyl_acetate
+  name: Reaction catalyzed by Acting on ester bonds on Isobutyl acetate
+  equation: H2O + Isobutyl acetate = Acetate + Isobutanol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Isobutyl_acetate
+  products:
+  - species_id: product_Isobutanol
+  - species_id: product_Acetate
+  modifiers:
+  - species_id: protein_3_1__P41734_p49483
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:40480; CHEBI:44819; CHEBI:41981; CHEBI:13704;
+    CHEBI:15366; CHEBI:42857; CHEBI:46645; CHEBI:41979; CHEBI:40486; CHEBI:22169;
+    CHEBI:2387; CHEBI:42043; CHEBI:30089; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377;
+    CHEBI:13352; CHEBI:22165; CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743;
+    CHEBI:29374; CHEBI:5585; CHEBI:50569; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00033; KEGG:C00001; KEGG:C14710'
+measurements:
+- id: measurement_3_1__Saccharomyces_cerevisiae_P41734_Isoamyl_acetate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_3_1__Saccharomyces_cerevisiae_P41734_3-Methylbutanol
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_3_1__Saccharomyces_cerevisiae_P41734_Isoamyl_acetate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_3_1__Saccharomyces_cerevisiae_P41734_Isobutyl_acetate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_1__Saccharomyces_cerevisiae_P41734_Isoamyl_acetate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0403
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Isoamyl_acetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10855721'
+- id: 3_1__Saccharomyces_cerevisiae_P41734_3-Methylbutanol_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.000285
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Methylbutanol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10855721'
+- id: 3_1__Saccharomyces_cerevisiae_P41734_Isoamyl_acetate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 179.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Isoamyl_acetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10855721'
+- id: 3_1__Saccharomyces_cerevisiae_P41734_Isobutyl_acetate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0153
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Isobutyl_acetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10855721'
+buffer:
+  buffer: 10 mM Sodium phosphate, 7 mM MgCl2
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 49482
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10855721/
+  pubmed_id: '10855721'
+  doi: null
+name: Merged entry for P41734 wildtype
+description: 'Merged from 4 files: SABIO_EC3.1._Saccharomyces_cerevisiae__P41734_s_Isoamyl.yaml,
+  SABIO_EC3.1._Saccharomyces_cerevisiae__P41734_s_3-Methylbutanol.yaml, SABIO_EC3.1._Saccharomyces_cerevisiae__P41734_s_Isoamyl_2.yaml,
+  SABIO_EC3.1._Saccharomyces_cerevisiae__P41734_s_Isobutyl.yaml'

@@ -1,0 +1,290 @@
+version: '2.0'
+created: '2025-11-20T13:41:15.632637'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_5_1_11_P07941_p729
+  name: penicillin amidase
+  ecnumber: 3.5.1.11
+  organism: Kluyvera citrophila
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P07941
+  wildtype_sequence: MKNRNRMIVNGIVTSLICCSSLSALAASPPTEVKIVRDEYGMPHIYADDTYRLFYGYGYVVAQDRLFQMEMARRSTQGTVSEVLGKAFVSFDKDIRQNYWPDSIRAQIASLSAEDKSILQGYADGMNAWIDKVNASPDKLLPQQFSTFGFKPKHWEPFDVAMIFVGTMANRFSDSTSEIDNLALLTAVKDKYGNDEGMAVFNQLKWLVNPSAPTTIAARESSYPLKFDLQNTQTAALLVPRYDQPAPMLDRPAKGTDGALLAVTAIKNRETIAAQFANGANGLAGYPTTSNMWVIGKNKAQDAKAIMVNGPQFGWYAPAYTYGIGLHGAGYDVTGNTPFAYPGLVFGHNGTISWGSTAGFGDDVDIFAEKLSAEKPGYYQHNGEWVKMLSRKETIAVKDGQPETFTVWRTLDGNVIKTDTRTQTAYAKARAWAGKEVASLLAWTHQMKAKNWPEWTQQAAKQALTINWYYADVNGNIGYVHTGAYPDRQPGHDPRLPVPDGKWDWKGLLSFDLNPKVYNPQSGYIANWNNSPQKDYPASDLFAFLWGGADRVTEIDTILDKQPRFTADQAWDVIRQTSLRDLLRLFLPALKDATANLAENDPRRQLVDKLASWDGENLVNDDGKTYQQPGSAILNAWLTSMLKRTVVAAVPAPFGKWYSASGYETTQDGPTGSLNISVGAKILYEALQGDKSPIPQAVDLFGGKPEQEVILAALDDAWQTLSKRYGNDVTGWKTPAMALTFRANNFFGVPQAAAKEARHQAEYQNRGTENDMIVFSPTSGNRPVLAWDVVAPGQSGFIAPDGKADKHYDDQLKMYESFGRKSLWLTPQDVDEHKESQEVLQVQR
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Penicillin_G
+  name: Penicillin G
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_6-Aminopenicillanate
+  name: 6-Aminopenicillanate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Phenyl_acetate
+  name: 2-Phenyl acetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_3830_EC3_5_1_11_Kluyvera_citrophila_P07941_Penicillin_G
+  name: Reaction catalyzed by penicillin amidase on Penicillin G
+  equation: H2O + Penicillin G = 2-Phenyl acetate + 6-Aminopenicillanate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Penicillin_G
+  products:
+  - species_id: product_6-Aminopenicillanate
+  - species_id: product_2-Phenyl_acetate
+  modifiers:
+  - species_id: protein_3_5_1_11_P07941_p729
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:18208; CHEBI:42857;
+    CHEBI:41979; CHEBI:57869; CHEBI:45073; CHEBI:42043; CHEBI:16705; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:30938; CHEBI:25866;
+    CHEBI:2172; CHEBI:51354; CHEBI:43228; CHEBI:44292; CHEBI:20704; CHEBI:33806; CHEBI:20705;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:14743; CHEBI:8082; CHEBI:12207; CHEBI:7962;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00548; KEGG:C02954; KEGG:C00001; KEGG:C15583; KEGG:C05551'
+- id: sabiork_3830_EC3_5_1_11_Kluyvera_citrophila_P07941_Penicillin_G
+  name: Reaction catalyzed by penicillin amidase on Penicillin G
+  equation: H2O + Penicillin G = 2-Phenyl acetate + 6-Aminopenicillanate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Penicillin_G
+  products:
+  - species_id: product_6-Aminopenicillanate
+  - species_id: product_2-Phenyl_acetate
+  modifiers:
+  - species_id: protein_3_5_1_11_P07941_p728
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:18208; CHEBI:42857;
+    CHEBI:41979; CHEBI:57869; CHEBI:45073; CHEBI:42043; CHEBI:16705; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:30938; CHEBI:25866;
+    CHEBI:2172; CHEBI:51354; CHEBI:43228; CHEBI:44292; CHEBI:20704; CHEBI:33806; CHEBI:20705;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:14743; CHEBI:8082; CHEBI:12207; CHEBI:7962;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00548; KEGG:C02954; KEGG:C00001; KEGG:C15583; KEGG:C05551'
+- id: sabiork_3830_EC3_5_1_11_Kluyvera_citrophila_P07941_Penicillin_G
+  name: Reaction catalyzed by penicillin amidase on Penicillin G
+  equation: H2O + Penicillin G = 2-Phenyl acetate + 6-Aminopenicillanate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Penicillin_G
+  products:
+  - species_id: product_2-Phenyl_acetate
+  - species_id: product_6-Aminopenicillanate
+  modifiers:
+  - species_id: protein_3_5_1_11_P07941_p727
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:18208; CHEBI:42857;
+    CHEBI:41979; CHEBI:57869; CHEBI:45073; CHEBI:42043; CHEBI:16705; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:30938; CHEBI:25866;
+    CHEBI:2172; CHEBI:51354; CHEBI:43228; CHEBI:44292; CHEBI:20704; CHEBI:33806; CHEBI:20705;
+    CHEBI:14743; CHEBI:29374; CHEBI:5585; CHEBI:10743; CHEBI:8082; CHEBI:12207; CHEBI:7962;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00548; KEGG:C02954; KEGG:C00001; KEGG:C15583; KEGG:C05551'
+measurements:
+- id: measurement_3_5_1_11_Kluyvera_citrophila_P07941_Penicillin_G
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 40.0
+  temperature_unit: °C
+- id: measurement_3_5_1_11_Kluyvera_citrophila_P07941_Penicillin_G
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 40.0
+  temperature_unit: °C
+- id: measurement_3_5_1_11_Kluyvera_citrophila_P07941_Penicillin_G
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 40.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_5_1_11_Kluyvera_citrophila_P07941_Penicillin_G_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.1e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Penicillin_G
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 40.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15604805'
+- id: 3_5_1_11_Kluyvera_citrophila_P07941_Penicillin_G_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 27.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Penicillin_G
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 40.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15604805'
+- id: 3_5_1_11_Kluyvera_citrophila_P07941_Penicillin_G_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Penicillin_G
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 40.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15604805'
+- id: 3_5_1_11_Kluyvera_citrophila_P07941_Penicillin_G_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 21.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Penicillin_G
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 40.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15604805'
+- id: 3_5_1_11_Kluyvera_citrophila_P07941_Penicillin_G_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 63.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Penicillin_G
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 40.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15604805'
+- id: 3_5_1_11_Kluyvera_citrophila_P07941_Penicillin_G_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.6e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Penicillin_G
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 40.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15604805'
+buffer:
+  buffer: 50 mM Phosphate, 10 mM Phenylglyoxal; 50 mM Phosphate, 50 mM 2,3 Butanedione;
+    50 mM Phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 729
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15604805/
+  pubmed_id: '15604805'
+  doi: null
+name: Merged entry for P07941 wildtype
+description: 'Merged from 3 files: SABIO_EC3.5.1.11_Kluyvera_citrophila__P07941_s_Penicillin_3.yaml,
+  SABIO_EC3.5.1.11_Kluyvera_citrophila__P07941_s_Penicillin_2.yaml, SABIO_EC3.5.1.11_Kluyvera_citrophila__P07941_s_Penicillin.yaml'

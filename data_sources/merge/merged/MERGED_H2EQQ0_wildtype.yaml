@@ -1,0 +1,209 @@
+version: '2.0'
+created: '2025-11-20T13:41:02.650253'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_2_1_14_H2EQQ0_p57409
+  name: chitinase
+  ecnumber: 3.2.1.14
+  organism: Schistocerca gregaria
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: H2EQQ0
+  wildtype_sequence: MRTSVAVLLGIALVLVLGSGDAKKLQRCEIVSALKRHGITSDLRNWVCLVESESGGRTDKRGPRNKNGSYDYGLFQINSKYWCGIGKVAGDCRLKCEDLLNNDLSDDVRCAKKIFQRHGFRGWYGWRSKCDGKSLPDISSC
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Chitin
+  name: Chitin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N-Acetyl-D-glucosamine
+  name: N-Acetyl-D-glucosamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Chitin
+  name: Chitin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Peptidoglycan
+  name: Peptidoglycan
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Unknown
+  name: Unknown
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1440_EC3_2_1_14_Schistocerca_gregaria_H2EQQ0_Chitin
+  name: Reaction catalyzed by chitinase on Chitin
+  equation: H2O + Chitin = N-Acetyl-D-glucosamine + Chitin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: product_Chitin
+  products:
+  - species_id: product_N-Acetyl-D-glucosamine
+  - species_id: product_Chitin
+  modifiers:
+  - species_id: protein_3_2_1_14_H2EQQ0_p57409
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01206
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:12563; CHEBI:17411;
+    CHEBI:21517; CHEBI:42857; CHEBI:41979; CHEBI:12455; CHEBI:42043; CHEBI:17029;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:43228;
+    CHEBI:7123; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:58134;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00140; KEGG:C00001; KEGG:C00461'
+- id: sabiork_14160_EC3_2_1_17_Schistocerca_gregaria_H2EQQ0_Peptidoglycan
+  name: Reaction catalyzed by lysozyme on Peptidoglycan
+  equation: H2O + Peptidoglycan = Unknown
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Peptidoglycan
+  products:
+  - species_id: product_Unknown
+  modifiers:
+  - species_id: protein_3_2_1_17_H2EQQ0_p57407
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:41979;
+    CHEBI:8005; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352;
+    CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C00889; KEGG:C00001'
+measurements:
+- id: measurement_3_2_1_14_Schistocerca_gregaria_H2EQQ0_Chitin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_3_2_1_17_Schistocerca_gregaria_H2EQQ0_Peptidoglycan
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.2
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_2_1_14_Schistocerca_gregaria_H2EQQ0_Chitin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.93
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_Chitin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '25972507'
+- id: 3_2_1_17_Schistocerca_gregaria_H2EQQ0_Peptidoglycan_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0005
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Peptidoglycan
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '25972507'
+buffer:
+  buffer: 0.2 M sodium acetate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 57409
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/25972507/
+  pubmed_id: '25972507'
+  doi: null
+name: Merged entry for H2EQQ0 wildtype
+description: 'Merged from 2 files: SABIO_EC3.2.1.14_Schistocerca_gregaria__H2EQQ0_s_Chitin.yaml,
+  SABIO_EC3.2.1.17_Schistocerca_gregaria__H2EQQ0_s_Peptidoglycan.yaml'

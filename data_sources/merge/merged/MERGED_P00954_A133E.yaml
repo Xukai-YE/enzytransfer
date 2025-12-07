@@ -1,0 +1,472 @@
+version: '2.0'
+created: '2025-11-20T13:41:49.534066'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_6_1_1_2_P00954_p52851
+  name: tryptophan---tRNA ligase
+  ecnumber: 6.1.1.2
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: A133E
+  uniprotid: P00954
+  wildtype_sequence: MTKPIVFSGAQPSGELTIGNYMGALRQWVNMQDDYHCIYCIVDQHAITVRQDAQKLRKATLDTLALYLACGIDPEKSTIFVQSHVPEHAQLGWALNCYTYFGELSRMTQFKDKSARYAENINAGLFDYPVLMAADILLYQTNLVPVGEDQKQHLELSRDIAQRFNALYGEIFKVPEPFIPKSGARVMSLLEPTKKMSKSDDNRNNVIGLLEDPKSVVKKIKRAVTDSDEPPVVRYDVQNKAGVSNLLDILSAVTGQSIPELEKQFEGKMYGHLKGEVADAVSGMLTELQERYHRFRNDEAFLQQVMKDGAEKASAHASRTLKAVYEAIGFVAKP
+  mutant_sequence: MTKPIVFSGAQPSGELTIGNYMGALRQWVNMQDDYHCIYCIVDQHAITVRQDAQKLRKATLDTLALYLACGIDPEKSTIFVQSHVPEHAQLGWALNCYTYFGELSRMTQFKDKSARYAENINAGLFDYPVLMEADILLYQTNLVPVGEDQKQHLELSRDIAQRFNALYGEIFKVPEPFIPKSGARVMSLLEPTKKMSKSDDNRNNVIGLLEDPKSVVKKIKRAVTDSDEPPVVRYDVQNKAGVSNLLDILSAVTGQSIPELEKQFEGKMYGHLKGEVADAVSGMLTELQERYHRFRNDEAFLQQVMKDGAEKASAHASRTLKAVYEAIGFVAKP
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_tRNA_Trp_
+  name: tRNA(Trp)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_L-Tryptophan
+  name: L-Tryptophan
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Tryptophanyl-tRNA_Trp_
+  name: L-Tryptophanyl-tRNA(Trp)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_AMP
+  name: AMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Tryptophanyl-AMP
+  name: L-Tryptophanyl-AMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_408_EC6_1_1_2_Escherichia_coli_P00954_ATP
+  name: Reaction catalyzed by tryptophan---tRNA ligase on ATP
+  equation: L-Tryptophan + ATP + tRNA(Trp) = Diphosphate + AMP + L-Tryptophanyl-tRNA(Trp)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_tRNA_Trp_
+  - species_id: substrate_L-Tryptophan
+  products:
+  - species_id: product_L-Tryptophanyl-tRNA_Trp_
+  - species_id: product_Diphosphate
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_6_1_1_2_P00954_p52851
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03664
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:46125; CHEBI:10789; CHEBI:57299;
+    CHEBI:8683; CHEBI:40726; CHEBI:22245; CHEBI:10691; CHEBI:32702; CHEBI:40510; CHEBI:46225;
+    CHEBI:13178; CHEBI:45988; CHEBI:6310; CHEBI:29954; CHEBI:29159; CHEBI:47222; CHEBI:29181;
+    CHEBI:33019; CHEBI:22242; CHEBI:13736; CHEBI:456215; CHEBI:13236; CHEBI:45067;
+    CHEBI:40786; CHEBI:40826; CHEBI:21407; CHEBI:57912; CHEBI:16027; CHEBI:2356; CHEBI:10841;
+    CHEBI:29888; CHEBI:2359; CHEBI:35782; CHEBI:40938; CHEBI:13420; CHEBI:32704; CHEBI:18361;
+    CHEBI:46086; CHEBI:33017; CHEBI:45208; CHEBI:184633; CHEBI:22249; CHEBI:16828;
+    CHEBI:15422; CHEBI:13740; CHEBI:15188; CHEBI:13234; CHEBI:40721; CHEBI:45212;
+    CHEBI:42009; CHEBI:13235; CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C03512; KEGG:C00078; KEGG:C00002; KEGG:C00020; KEGG:C01652'
+- id: sabiork_408_EC6_1_1_2_Escherichia_coli_P00954_ATP
+  name: Reaction catalyzed by tryptophan---tRNA ligase on ATP
+  equation: L-Tryptophan + ATP + tRNA(Trp) = Diphosphate + AMP + L-Tryptophanyl-tRNA(Trp)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_L-Tryptophan
+  - species_id: substrate_tRNA_Trp_
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_L-Tryptophanyl-tRNA_Trp_
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_6_1_1_2_P00954_p52853
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03664
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:46125; CHEBI:10789; CHEBI:57299;
+    CHEBI:8683; CHEBI:40726; CHEBI:22245; CHEBI:10691; CHEBI:32702; CHEBI:40510; CHEBI:46225;
+    CHEBI:13178; CHEBI:45988; CHEBI:6310; CHEBI:29954; CHEBI:29159; CHEBI:47222; CHEBI:29181;
+    CHEBI:33019; CHEBI:22242; CHEBI:13736; CHEBI:456215; CHEBI:13236; CHEBI:45067;
+    CHEBI:40786; CHEBI:40826; CHEBI:21407; CHEBI:57912; CHEBI:16027; CHEBI:2356; CHEBI:10841;
+    CHEBI:29888; CHEBI:2359; CHEBI:35782; CHEBI:40938; CHEBI:13420; CHEBI:32704; CHEBI:18361;
+    CHEBI:46086; CHEBI:33017; CHEBI:45208; CHEBI:184633; CHEBI:22249; CHEBI:16828;
+    CHEBI:15422; CHEBI:13740; CHEBI:15188; CHEBI:13234; CHEBI:40721; CHEBI:45212;
+    CHEBI:42009; CHEBI:13235; CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C03512; KEGG:C00078; KEGG:C00002; KEGG:C00020; KEGG:C01652'
+- id: sabiork_408_EC6_1_1_2_Escherichia_coli_P00954_L-Tryptophan
+  name: Reaction catalyzed by tryptophan---tRNA ligase on L-Tryptophan
+  equation: L-Tryptophan + ATP + tRNA(Trp) = Diphosphate + AMP + L-Tryptophanyl-tRNA(Trp)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Tryptophan
+  - species_id: substrate_ATP
+  - species_id: substrate_tRNA_Trp_
+  products:
+  - species_id: product_L-Tryptophanyl-tRNA_Trp_
+  - species_id: product_Diphosphate
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_6_1_1_2_P00954_p52852
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03664
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:46125; CHEBI:10789; CHEBI:57299;
+    CHEBI:8683; CHEBI:40726; CHEBI:22245; CHEBI:10691; CHEBI:32702; CHEBI:40510; CHEBI:46225;
+    CHEBI:13178; CHEBI:45988; CHEBI:6310; CHEBI:29954; CHEBI:29159; CHEBI:47222; CHEBI:29181;
+    CHEBI:33019; CHEBI:22242; CHEBI:13736; CHEBI:456215; CHEBI:13236; CHEBI:45067;
+    CHEBI:40786; CHEBI:40826; CHEBI:21407; CHEBI:57912; CHEBI:16027; CHEBI:2356; CHEBI:10841;
+    CHEBI:29888; CHEBI:2359; CHEBI:35782; CHEBI:40938; CHEBI:13420; CHEBI:32704; CHEBI:18361;
+    CHEBI:46086; CHEBI:33017; CHEBI:45208; CHEBI:184633; CHEBI:16828; CHEBI:22249;
+    CHEBI:15422; CHEBI:13740; CHEBI:15188; CHEBI:13234; CHEBI:40721; CHEBI:45212;
+    CHEBI:42009; CHEBI:13235; CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C03512; KEGG:C00078; KEGG:C00002; KEGG:C00020; KEGG:C01652'
+- id: sabiork_13683_EC6_1_1_2_Escherichia_coli_P00954_L-Tryptophan
+  name: Reaction catalyzed by tryptophan---tRNA ligase on L-Tryptophan
+  equation: ATP + L-Tryptophan = Diphosphate + L-Tryptophanyl-AMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Tryptophan
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_L-Tryptophanyl-AMP
+  modifiers:
+  - species_id: protein_6_1_1_2_P00954_p52868
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:46125; CHEBI:10789; CHEBI:57299;
+    CHEBI:8683; CHEBI:32702; CHEBI:46225; CHEBI:13178; CHEBI:45988; CHEBI:6310; CHEBI:29954;
+    CHEBI:33019; CHEBI:13236; CHEBI:45067; CHEBI:21407; CHEBI:57912; CHEBI:10841;
+    CHEBI:29888; CHEBI:2359; CHEBI:35782; CHEBI:40938; CHEBI:13420; CHEBI:32704; CHEBI:18361;
+    CHEBI:46086; CHEBI:33017; CHEBI:45208; CHEBI:184633; CHEBI:16828; CHEBI:22249;
+    CHEBI:15422; CHEBI:45212; CHEBI:42009; CHEBI:33018
+
+    KEGG IDs: KEGG:C00002; KEGG:C00013; KEGG:C00078'
+- id: sabiork_13683_EC6_1_1_2_Escherichia_coli_P00954_L-Tryptophan
+  name: Reaction catalyzed by tryptophan---tRNA ligase on L-Tryptophan
+  equation: ATP + L-Tryptophan = Diphosphate + L-Tryptophanyl-AMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Tryptophan
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_L-Tryptophanyl-AMP
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_6_1_1_2_P00954_p52869
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:46125; CHEBI:10789; CHEBI:57299;
+    CHEBI:8683; CHEBI:32702; CHEBI:46225; CHEBI:13178; CHEBI:45988; CHEBI:6310; CHEBI:29954;
+    CHEBI:33019; CHEBI:13236; CHEBI:45067; CHEBI:21407; CHEBI:57912; CHEBI:10841;
+    CHEBI:29888; CHEBI:2359; CHEBI:35782; CHEBI:40938; CHEBI:13420; CHEBI:32704; CHEBI:18361;
+    CHEBI:46086; CHEBI:33017; CHEBI:45208; CHEBI:184633; CHEBI:16828; CHEBI:22249;
+    CHEBI:15422; CHEBI:45212; CHEBI:42009; CHEBI:33018
+
+    KEGG IDs: KEGG:C00002; KEGG:C00013; KEGG:C00078'
+measurements:
+- id: measurement_6_1_1_2_Escherichia_coli_P00954_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_2_Escherichia_coli_P00954_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_2_Escherichia_coli_P00954_L-Tryptophan
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_2_Escherichia_coli_P00954_L-Tryptophan
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_2_Escherichia_coli_P00954_L-Tryptophan
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 6_1_1_2_Escherichia_coli_P00954_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.6e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8555191'
+- id: 6_1_1_2_Escherichia_coli_P00954_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.26
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8555191'
+- id: 6_1_1_2_Escherichia_coli_P00954_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.8e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8555191'
+- id: 6_1_1_2_Escherichia_coli_P00954_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.6
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8555191'
+- id: 6_1_1_2_Escherichia_coli_P00954_L-Tryptophan_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000177
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Tryptophan
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8555191'
+- id: 6_1_1_2_Escherichia_coli_P00954_L-Tryptophan_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.1
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Tryptophan
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8555191'
+- id: 6_1_1_2_Escherichia_coli_P00954_L-Tryptophan_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Tryptophan
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8555191'
+- id: 6_1_1_2_Escherichia_coli_P00954_L-Tryptophan_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 40.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Tryptophan
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8555191'
+- id: 6_1_1_2_Escherichia_coli_P00954_L-Tryptophan_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.3e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Tryptophan
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8555191'
+- id: 6_1_1_2_Escherichia_coli_P00954_L-Tryptophan_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 40.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Tryptophan
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8555191'
+buffer:
+  buffer: 50 mM HEPES, 10 mM magnesium acetate, 4 mM DTT, 0.05% BSA, 10 mM KF, 10
+    mM tetrasodium pyrophosphate; 50 mM HEPES, 10 mM magnesium acetate, 4 mM DTT,
+    0.05% BSA
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 52851
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/8555191/
+  pubmed_id: '8555191'
+  doi: null
+name: Merged entry for P00954 A133E
+description: 'Merged from 5 files: SABIO_EC6.1.1.2_Escherichia_coli__P00954_A133E_s_ATP.yaml,
+  SABIO_EC6.1.1.2_Escherichia_coli__P00954_A133E_s_ATP_2.yaml, SABIO_EC6.1.1.2_Escherichia_coli__P00954_A133E_s_L-Tryptophan.yaml,
+  SABIO_EC6.1.1.2_Escherichia_coli__P00954_A133E_s_L-Tryptophan_2.yaml, SABIO_EC6.1.1.2_Escherichia_coli__P00954_A133E_s_L-Tryptophan_3.yaml'

@@ -1,0 +1,402 @@
+version: '2.0'
+created: '2025-11-20T13:40:05.550691'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_3_1_87_Q5KQI6_p67052
+  name: aralkylamine N-acetyltransferase
+  ecnumber: 2.3.1.87
+  organism: Oryza sativa
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q5KQI6
+  wildtype_sequence: MAPAASASASAVVTPSSFRCVPTASCGLGARGKAPAPRRLLHDHAQGKKRAAATWSLKAGLWDSLRSGFLKSNNSTETVEPPSAPIEEEEPLPEELVLLERTLADGSTEQIIFSSAGDVNVYDLQALCDKVGWPRRPLTKIAASLRNSYLVATLHSVTMPSKAEGEERKQLIGMARATSDHAFNATIWDVLVDPSYQGQGLGKALMEKVIRTLLQRDISNITLFADNKVVDFYKNLGFEADPQGIKGMFWYPRF
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_5-Methoxytryptamine
+  name: 5-Methoxytryptamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Acetyl-CoA
+  name: Acetyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Melatonin
+  name: Melatonin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Serotonin
+  name: Serotonin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N-Acetylserotonin
+  name: N-Acetylserotonin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Tryptamine
+  name: Tryptamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N-Acetyltryptamine
+  name: N-Acetyltryptamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_15495_EC2_3_1_87_Oryza_sativa_Q5KQI6_5-Methoxytryptamine
+  name: Reaction catalyzed by aralkylamine N-acetyltransferase on 5-Methoxytryptamine
+  equation: Acetyl-CoA + 5-Methoxytryptamine = Coenzyme A + Melatonin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_5-Methoxytryptamine
+  - species_id: substrate_Acetyl-CoA
+  products:
+  - species_id: product_Melatonin
+  - species_id: product_Coenzyme_A
+  modifiers:
+  - species_id: protein_2_3_1_87_Q5KQI6_p67052
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:15346; CHEBI:23355; CHEBI:57288; CHEBI:41631;
+    CHEBI:13712; CHEBI:13295; CHEBI:16796; CHEBI:41597; CHEBI:57287; CHEBI:13294;
+    CHEBI:40470; CHEBI:2408; CHEBI:6730; CHEBI:3771; CHEBI:741566; CHEBI:2089; CHEBI:14577;
+    CHEBI:25180; CHEBI:13298; CHEBI:15351
+
+    KEGG IDs: KEGG:C05659; KEGG:C01598; KEGG:C00010; KEGG:C00024'
+- id: sabiork_2771_EC2_3_1_87_Oryza_sativa_Q5KQI6_Serotonin
+  name: Reaction catalyzed by aralkylamine N-acetyltransferase on Serotonin
+  equation: Acetyl-CoA + Serotonin = Coenzyme A + N-Acetylserotonin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Serotonin
+  - species_id: substrate_Acetyl-CoA
+  products:
+  - species_id: product_Coenzyme_A
+  - species_id: product_N-Acetylserotonin
+  modifiers:
+  - species_id: protein_2_3_1_87_Q5KQI6_p59333
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 25217;25218;25219;25220
+  KEGGid: R02911
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:15346; CHEBI:23355; CHEBI:57288; CHEBI:41631;
+    CHEBI:13712; CHEBI:13295; CHEBI:17697; CHEBI:7223; CHEBI:41597; CHEBI:350546;
+    CHEBI:57287; CHEBI:13294; CHEBI:40804; CHEBI:125590; CHEBI:40470; CHEBI:12582;
+    CHEBI:49894; CHEBI:1420; CHEBI:2408; CHEBI:21630; CHEBI:28790; CHEBI:26652; CHEBI:3771;
+    CHEBI:741566; CHEBI:13298; CHEBI:15351
+
+    KEGG IDs: KEGG:C00978; KEGG:C00780; KEGG:C00010; KEGG:C00024'
+- id: sabiork_14676_EC2_3_1_87_Oryza_sativa_Q5KQI6_Tryptamine
+  name: Reaction catalyzed by aralkylamine N-acetyltransferase on Tryptamine
+  equation: Acetyl-CoA + Tryptamine = Coenzyme A + N-Acetyltryptamine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Tryptamine
+  - species_id: substrate_Acetyl-CoA
+  products:
+  - species_id: product_Coenzyme_A
+  - species_id: product_N-Acetyltryptamine
+  modifiers:
+  - species_id: protein_2_3_1_87_Q5KQI6_p67051
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:16765; CHEBI:15346; CHEBI:23355; CHEBI:9767;
+    CHEBI:57288; CHEBI:41631; CHEBI:13712; CHEBI:13295; CHEBI:41597; CHEBI:15274;
+    CHEBI:57287; CHEBI:13294; CHEBI:46157; CHEBI:40470; CHEBI:2408; CHEBI:3771; CHEBI:57887;
+    CHEBI:741566; CHEBI:27161; CHEBI:13298; CHEBI:15351
+
+    KEGG IDs: KEGG:C00024; KEGG:C00010; KEGG:C00398'
+- id: sabiork_2771_EC2_3_1_87_Oryza_sativa_Q5KQI6_Serotonin
+  name: Reaction catalyzed by aralkylamine N-acetyltransferase on Serotonin
+  equation: Acetyl-CoA + Serotonin = Coenzyme A + N-Acetylserotonin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Serotonin
+  - species_id: substrate_Acetyl-CoA
+  products:
+  - species_id: product_Coenzyme_A
+  - species_id: product_N-Acetylserotonin
+  modifiers:
+  - species_id: protein_2_3_1_87_Q5KQI6_p67050
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 25217;25218;25219;25220
+  KEGGid: R02911
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:15346; CHEBI:23355; CHEBI:57288; CHEBI:41631;
+    CHEBI:13712; CHEBI:13295; CHEBI:17697; CHEBI:7223; CHEBI:41597; CHEBI:350546;
+    CHEBI:57287; CHEBI:13294; CHEBI:40804; CHEBI:125590; CHEBI:40470; CHEBI:12582;
+    CHEBI:49894; CHEBI:1420; CHEBI:2408; CHEBI:21630; CHEBI:28790; CHEBI:26652; CHEBI:3771;
+    CHEBI:741566; CHEBI:13298; CHEBI:15351
+
+    KEGG IDs: KEGG:C00978; KEGG:C00780; KEGG:C00010; KEGG:C00024'
+measurements:
+- id: measurement_2_3_1_87_Oryza_sativa_Q5KQI6_5-Methoxytryptamine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.8
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_2_3_1_87_Oryza_sativa_Q5KQI6_Serotonin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.8
+  temperature_opt: 55.0
+  temperature_unit: °C
+- id: measurement_2_3_1_87_Oryza_sativa_Q5KQI6_Tryptamine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.8
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_2_3_1_87_Oryza_sativa_Q5KQI6_Serotonin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.8
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_3_1_87_Oryza_sativa_Q5KQI6_5-Methoxytryptamine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000375
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_5-Methoxytryptamine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.8
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22998587'
+- id: 2_3_1_87_Oryza_sativa_Q5KQI6_5-Methoxytryptamine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 6.5e-09
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_5-Methoxytryptamine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.8
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22998587'
+- id: 2_3_1_87_Oryza_sativa_Q5KQI6_Serotonin_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 5.5e-08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Serotonin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.8
+  temperature: 55.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '24134674'
+- id: 2_3_1_87_Oryza_sativa_Q5KQI6_Serotonin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00027
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Serotonin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.8
+  temperature: 55.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '24134674'
+- id: 2_3_1_87_Oryza_sativa_Q5KQI6_Tryptamine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 8.0e-09
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Tryptamine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.8
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22998587'
+- id: 2_3_1_87_Oryza_sativa_Q5KQI6_Tryptamine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000836
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Tryptamine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.8
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22998587'
+- id: 2_3_1_87_Oryza_sativa_Q5KQI6_Serotonin_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 4.7e-09
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Serotonin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.8
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22998587'
+- id: 2_3_1_87_Oryza_sativa_Q5KQI6_Serotonin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000385
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Serotonin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.8
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22998587'
+buffer:
+  buffer: 100 mM potassium phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 67052
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/22998587/
+  pubmed_id: '22998587'
+  doi: null
+- title: Reference for SABIO-RK entry 59333
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/24134674/
+  pubmed_id: '24134674'
+  doi: null
+name: Merged entry for Q5KQI6 wildtype
+description: 'Merged from 4 files: SABIO_EC2.3.1.87_Oryza_sativa__Q5KQI6_s_5-Methoxytryptamine.yaml,
+  SABIO_EC2.3.1.87_Oryza_sativa__Q5KQI6_s_Serotonin.yaml, SABIO_EC2.3.1.87_Oryza_sativa__Q5KQI6_s_Tryptamine.yaml,
+  SABIO_EC2.3.1.87_Oryza_sativa__Q5KQI6_s_Serotonin_2.yaml'

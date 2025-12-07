@@ -1,0 +1,173 @@
+name: SABIO-RK Entry 26326
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 26326
+created: '2025-10-28T14:29:00.192075'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_21_O74237_p26326
+  name: aldehyde reductase
+  ecnumber: 1.1.1.21
+  organism: Candida tenuis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: H113A
+  uniprotid: O74237
+  wildtype_sequence: MSASIPDIKLSSGHLMPSIGFGCWKLANATAGEQVYQAIKAGYRLFDGAEDYGNEKEVGDGVKRAIDEGLVKREEIFLTSKLWNNYHDPKNVETALNKTLADLKVDYVDLFLIHFPIAFKFVPIEEKYPPGFYCGDGNNFVYEDVPILETWKALEKLVAAGKIKSIGVSNFPGALLLDLLRGATIKPAVLQVEHHPYLQQPKLIEFAQKAGVTITAYSSFGPQSFVEMNQGRALNTPTLFAHDTIKAIAAKYNKTPAEVLLRWAAQRGIAVIPKSNLPERLVQNRSFNTFDLTKEDFEEIAKLDIGLRFNDPWDWDNIPIFV
+  mutant_sequence: MSASIPDIKLSSGHLMPSIGFGCWKLANATAGEQVYQAIKAGYRLFDGAEDYGNEKEVGDGVKRAIDEGLVKREEIFLTSKLWNNYHDPKNVETALNKTLADLKVDYVDLFLIAFPIAFKFVPIEEKYPPGFYCGDGNNFVYEDVPILETWKALEKLVAAGKIKSIGVSNFPGALLLDLLRGATIKPAVLQVEHHPYLQQPKLIEFAQKAGVTITAYSSFGPQSFVEMNQGRALNTPTLFAHDTIKAIAAKYNKTPAEVLLRWAAQRGIAVIPKSNLPERLVQNRSFNTFDLTKEDFEEIAKLDIGLRFNDPWDWDNIPIFV
+  position_offset: 1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_m-Fluorobenzaldehyde
+  name: m-Fluorobenzaldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_m-Fluorobenzyl_alcohol
+  name: m-Fluorobenzyl alcohol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_10776_EC1_1_1_21_Candida_tenuis_O74237_m-Fluorobenzaldehyde
+  name: Reaction catalyzed by aldehyde reductase on m-Fluorobenzaldehyde
+  equation: H+ + m-Fluorobenzaldehyde + NADH = m-Fluorobenzyl alcohol + NAD+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_m-Fluorobenzaldehyde
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_m-Fluorobenzyl_alcohol
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_1_1_21_O74237_p26326
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:13357;
+    CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636; CHEBI:44214; CHEBI:29233;
+    CHEBI:5584; CHEBI:13394; CHEBI:57945; CHEBI:44216; CHEBI:57540; CHEBI:7423; CHEBI:13389;
+    CHEBI:15378; CHEBI:13395; CHEBI:10744; CHEBI:44215; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00003; KEGG:C00004; KEGG:C00080'
+measurements:
+- id: measurement_1_1_1_21_Candida_tenuis_O74237_m-Fluorobenzaldehyde
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1_21_Candida_tenuis_O74237_m-Fluorobenzaldehyde_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.047
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_m-Fluorobenzaldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15109252'
+- id: 1_1_1_21_Candida_tenuis_O74237_m-Fluorobenzaldehyde_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 12.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_m-Fluorobenzaldehyde
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15109252'
+buffer:
+  buffer: 50 mM Potassium phosphate
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 26326
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15109252/
+  pubmed_id: '15109252'
+  doi: null

@@ -1,0 +1,321 @@
+version: '2.0'
+created: '2025-11-20T13:40:50.833376'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_8_1_4_P77718_p67712
+  name: tRNA sulfurtransferase
+  ecnumber: 2.8.1.4
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P77718
+  wildtype_sequence: MKFIIKLFPEITIKSQSVRLRFIKILTGNIRNVLKHYDETLAVVRHWDNIEVRAKDENQRLAIRDALTRIPGIHHILEVEDVPFTDMHDIFEKALVQYRDQLEGKTFCVRVKRRGKHDFSSIDVERYVGGGLNQHIESARVKLTNPDVTVHLEVEDDRLLLIKGRYEGIGGFPIGTQEDVLSLISGGFDSGVSSYMLMRRGCRVHYCFFNLGGAAHEIGVRQVAHYLWNRFGSSHRVRFVAINFEPVVGEILEKIDDGQMGVILKRMMVRAASKVAERYGVQALVTGEALGQVSSQTLTNLRLIDNVSDTLILRPLISYDKEHIINLARQIGTEDFARTMPEYCGVISKSPTVKAVKSKIEAEEEKFDFSILDKVVEEANNVDIREIAQQTEQEVVEVETVNGFGPNDVILDIRSIDEQEDKPLKVEGIDVVSLPFYKLSTKFGDLDQNKTWLLWCERGVMSRLQALYLREQGFNNVKVYRP
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_tRNA
+  name: tRNA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_adenylated_tRNA_U8_
+  name: adenylated tRNA (U8)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_GTP
+  name: GTP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Guanylated_tRNA_U8_
+  name: Guanylated tRNA (U8)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_15590_EC2_8_1_4_Escherichia_coli_P77718_ATP
+  name: Reaction catalyzed by tRNA sulfurtransferase on ATP
+  equation: ATP + tRNA = Diphosphate + adenylated tRNA (U8)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_tRNA
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_adenylated_tRNA_U8_
+  modifiers:
+  - species_id: protein_2_8_1_4_P77718_p67712
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:10789; CHEBI:57299; CHEBI:8683;
+    CHEBI:33019; CHEBI:13236; CHEBI:45067; CHEBI:10652; CHEBI:10841; CHEBI:29888;
+    CHEBI:2359; CHEBI:35782; CHEBI:17843; CHEBI:40938; CHEBI:13420; CHEBI:18361; CHEBI:33017;
+    CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:15145; CHEBI:15163; CHEBI:15164;
+    CHEBI:45212; CHEBI:15165; CHEBI:42009; CHEBI:33018
+
+    KEGG IDs: KEGG:C00002; KEGG:C00013; KEGG:C00066'
+- id: sabiork_15591_EC2_8_1_4_Escherichia_coli_P77718_GTP
+  name: Reaction catalyzed by tRNA sulfurtransferase on GTP
+  equation: GTP + tRNA = Diphosphate + Guanylated tRNA (U8)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_GTP
+  - species_id: substrate_tRNA
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_Guanylated_tRNA_U8_
+  modifiers:
+  - species_id: protein_2_8_1_4_P77718_p67713
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:57600; CHEBI:8683; CHEBI:33019; CHEBI:45067; CHEBI:5234;
+    CHEBI:10652; CHEBI:29888; CHEBI:35782; CHEBI:17843; CHEBI:13420; CHEBI:18361;
+    CHEBI:33017; CHEBI:45208; CHEBI:24451; CHEBI:15996; CHEBI:37565; CHEBI:15145;
+    CHEBI:15163; CHEBI:15164; CHEBI:42934; CHEBI:45212; CHEBI:15165; CHEBI:42009;
+    CHEBI:13342; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00066; KEGG:C00044'
+measurements:
+- id: measurement_2_8_1_4_Escherichia_coli_P77718_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_2_8_1_4_Escherichia_coli_P77718_GTP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 22.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_8_1_4_Escherichia_coli_P77718_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 604.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18604845'
+- id: 2_8_1_4_Escherichia_coli_P77718_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 3.166667e-08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18604845'
+- id: 2_8_1_4_Escherichia_coli_P77718_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00024
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18604845'
+- id: 2_8_1_4_Escherichia_coli_P77718_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.145
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18604845'
+- id: 2_8_1_4_Escherichia_coli_P77718_GTP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.15e-08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_GTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18604845'
+- id: 2_8_1_4_Escherichia_coli_P77718_GTP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00084
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_GTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18604845'
+- id: 2_8_1_4_Escherichia_coli_P77718_GTP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 113.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_GTP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18604845'
+- id: 2_8_1_4_Escherichia_coli_P77718_GTP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.095
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_GTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18604845'
+buffer:
+  buffer: "50 mM Tris, 1 mM MgCl2, 0.1 mM sodium azid, 0.2 M 2â\x80\x90aminoâ\x80?â\x80\x90mercaptoâ\x80?â\x80\x90methylpurine
+    ribonucleoside (MESG), 1 U purine nucleoside phosphorylase, 0.03 U inorganic pyrophosphatase;
+    50 mM Tris, 1 mM MgCl2, 0.1 M sodium azid, 0.2 M 2â\x80\x90aminoâ\x80?â\x80\x90mercaptoâ\x80?â\x80\x90methylpurine
+    ribonucleoside (MESG), 1 U purine nucleoside phosphorylase, 0.03 U inorganic pyrophosphatase"
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 67712
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/18604845/
+  pubmed_id: '18604845'
+  doi: null
+name: Merged entry for P77718 wildtype
+description: 'Merged from 2 files: SABIO_EC2.8.1.4_Escherichia_coli__P77718_s_ATP.yaml,
+  SABIO_EC2.8.1.4_Escherichia_coli__P77718_s_GTP.yaml'

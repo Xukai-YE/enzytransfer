@@ -1,0 +1,210 @@
+version: '2.0'
+created: '2025-11-20T13:41:35.342965'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_2_2__T2KNC2_p74443
+  name: Acting on polysaccharides
+  ecnumber: 4.2.2.
+  organism: Formosa agariphila
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: T2KNC2
+  wildtype_sequence: MLEKTTLKNIILIHFLMFLAVVTAQTAPDEDTSAITRCTAEGTNPVRETDIPNPVNVGTIDDRSCYANYKESTVYGKTWGVYNITFDSNDFDTSLQPRIERSLSRSSETGIGSYARLTGVFRILEVGDTSGTSQDGTYLAQAKGKHTGGGGSPDPAICLYLAKPVYGTGEDADKQVSFDIYAERILYRGGEGDGREIVFLKNVKKDEETNFELEVGFKEDPNDVSKKIQYCNAVIGGDTFNWNIPEPERGTESGIRYGAYRVKGGRAQIRWANTTYQKVENVEVTNPGPIGDVYKLKNVATGQYLSDSGVSASAVIMSDSGEAQNNYWTFVESGSLFNIDNETFGILRAPGAGGPGGAYVVVSTTKEGPSSDGDKVWTIHYNESNDTYRFESGSSGRFMYQEINGNVTHISAMNTDDRSVWKAIAVESLSVDENAILASDVRVFPNPASDSFTISLKTINHVTVNIYDVLGNTIFKSEFNGDTIQIRNKGQFKAGVYLIQLTDKNNNKYHKKLIVK
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Ulvan
+  name: Ulvan
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Ca2_
+  name: Ca2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Ulvan
+  name: Ulvan
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_16224_EC4_2_2__Formosa_agariphila_T2KNC2_Ulvan
+  name: Reaction catalyzed by Acting on polysaccharides on Ulvan
+  equation: Ulvan = Ulvan
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: product_Ulvan
+  - species_id: cofactor_Ca2_
+  products:
+  - species_id: product_Ulvan
+  - species_id: product_Ulvan
+  modifiers:
+  - species_id: protein_4_2_2__T2KNC2_p74443
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:39123; CHEBI:29108; CHEBI:3308; CHEBI:22988; CHEBI:48760
+
+    KEGG IDs: KEGG:C00076'
+- id: sabiork_16224_EC4_2_2__Formosa_agariphila_T2KNC2_Ulvan
+  name: Reaction catalyzed by Acting on polysaccharides on Ulvan
+  equation: Ulvan = Ulvan
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: product_Ulvan
+  - species_id: cofactor_Ca2_
+  products:
+  - species_id: product_Ulvan
+  - species_id: product_Ulvan
+  modifiers:
+  - species_id: protein_4_2_2__T2KNC2_p74442
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:39123; CHEBI:29108; CHEBI:3308; CHEBI:22988; CHEBI:48760
+
+    KEGG IDs: KEGG:C00076'
+measurements:
+- id: measurement_4_2_2__Formosa_agariphila_T2KNC2_Ulvan
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_4_2_2__Formosa_agariphila_T2KNC2_Ulvan
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 4_2_2__Formosa_agariphila_T2KNC2_Ulvan_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.75
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_Ulvan
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29948117'
+- id: 4_2_2__Formosa_agariphila_T2KNC2_Ulvan_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 20.1
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_Ulvan
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29948117'
+- id: 4_2_2__Formosa_agariphila_T2KNC2_Ulvan_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.26
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_Ulvan
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29948117'
+- id: 4_2_2__Formosa_agariphila_T2KNC2_Ulvan_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 24.8
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_Ulvan
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29948117'
+buffer:
+  buffer: 50 mM Tris-HCl, 600 mM NaCl; 50 mM Tris-HCl, 100 mM NaCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 74443
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/29948117/
+  pubmed_id: '29948117'
+  doi: null
+name: Merged entry for T2KNC2 wildtype
+description: 'Merged from 2 files: SABIO_EC4.2.2._Formosa_agariphila__T2KNC2_s_Ulvan_2.yaml,
+  SABIO_EC4.2.2._Formosa_agariphila__T2KNC2_s_Ulvan.yaml'

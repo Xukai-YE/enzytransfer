@@ -1,0 +1,183 @@
+name: SABIO-RK Entry 69506
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 69506
+created: '2025-10-28T17:13:16.257967'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_10_3_2_B9W2C5_p69506
+  name: laccase
+  ecnumber: 1.10.3.2
+  organism: Bacillus sp. HR03
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: D500S
+  uniprotid: B9W2C5
+  wildtype_sequence: MTLEKFVDALPIPDTLKPVQQSKEKTYYEVTMEECTHQLHRDLPPTRLWGYNGLFPGPTIEVKRNENVYVKWMNNLPSTHFLPIDHTIHHSDSQHEESEVKTVVHLHGGVTPDDSDGYPEAWFSKDFEQTGPYFKREVYHYPNQQRGAILWYHDHAMALTRLNVYAGLVGAYIIHDPKEKRLKLPSDEYDVPLLITDRTINEDGSLFYPSAPENPSPSLPNPSIVPAFCGETILVNGKVWPYLEVEPRKYRFRVINASNTRTYNLSLDNGGEFIQVGSDGGLLPRSVKLNSFSLAPAERYDIIIDFTAYEGESIILANSAGCGGDVNPETDANIMQFRVTKPLAQKDESRKPEYLASYPSVQHERIQNIRTLKLAGTQDEYGRPVLLLNNKRWHDPVTGAPKVGTTEIWSIINPTRGTHPIHLHLVSFRVLDRRPFDIARYQESGELSYTGPAVPPPPSEEGWKDTIQAHAGEVLRIAATFGPYSGRYVWHCHILEHEDYDMMRPMDITDRHK
+  mutant_sequence: MTLEKFVDALPIPDTLKPVQQSKEKTYYEVTMEECTHQLHRDLPPTRLWGYNGLFPGPTIEVKRNENVYVKWMNNLPSTHFLPIDHTIHHSDSQHEESEVKTVVHLHGGVTPDDSDGYPEAWFSKDFEQTGPYFKREVYHYPNQQRGAILWYHDHAMALTRLNVYAGLVGAYIIHDPKEKRLKLPSDEYDVPLLITDRTINEDGSLFYPSAPENPSPSLPNPSIVPAFCGETILVNGKVWPYLEVEPRKYRFRVINASNTRTYNLSLDNGGEFIQVGSDGGLLPRSVKLNSFSLAPAERYDIIIDFTAYEGESIILANSAGCGGDVNPETDANIMQFRVTKPLAQKDESRKPEYLASYPSVQHERIQNIRTLKLAGTQDEYGRPVLLLNNKRWHDPVTGAPKVGTTEIWSIINPTRGTHPIHLHLVSFRVLDRRPFDIARYQESGELSYTGPAVPPPPSEEGWKDTIQAHAGEVLRIAATFGPYSGRYVWHCHILEHESYDMMRPMDITDRHK
+  position_offset: -1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Syringaldazine
+  name: Syringaldazine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Oxidized_syringaldazine
+  name: Oxidized syringaldazine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Cu2_
+  name: Cu2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_12788_EC1_10_3_2_Bacillus_sp._B9W2C5_O2
+  name: Reaction catalyzed by laccase on O2
+  equation: O2 + Syringaldazine = Oxidized syringaldazine + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_Syringaldazine
+  products:
+  - species_id: product_Oxidized_syringaldazine
+  modifiers:
+  - species_id: protein_1_10_3_2_B9W2C5_p69506
+    role: BIOCATALYST
+  - species_id: activator_Cu2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:49550;
+    CHEBI:26689; CHEBI:42857; CHEBI:41979; CHEBI:23833; CHEBI:13416; CHEBI:42043;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:15379;
+    CHEBI:43228; CHEBI:44292; CHEBI:30491; CHEBI:33806; CHEBI:20882; CHEBI:25366;
+    CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:29793; CHEBI:7860; CHEBI:29036;
+    CHEBI:10745; CHEBI:29373; CHEBI:44701; CHEBI:23380
+
+    KEGG IDs: KEGG:C00070; KEGG:C00001; KEGG:C00007; KEGG:C00704'
+measurements:
+- id: measurement_1_10_3_2_Bacillus_sp._B9W2C5_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 22.0
+  temperature_unit: °C
+parameters:
+- id: 1_10_3_2_Bacillus_sp._B9W2C5_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0182
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23707861'
+- id: 1_10_3_2_Bacillus_sp._B9W2C5_O2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 13.6
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23707861'
+- id: 1_10_3_2_Bacillus_sp._B9W2C5_O2_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 740.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23707861'
+buffer:
+  buffer: 100 mM potassium phosphate
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 69506
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/23707861/
+  pubmed_id: '23707861'
+  doi: null

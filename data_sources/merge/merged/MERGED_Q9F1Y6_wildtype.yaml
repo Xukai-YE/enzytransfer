@@ -1,0 +1,249 @@
+version: '2.0'
+created: '2025-11-20T13:41:35.494965'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_2_3_118_Q9F1Y6_p62253
+  name: 2-methylisoborneol synthase
+  ecnumber: 4.2.3.118
+  organism: Streptomyces coelicolor
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9F1Y6
+  wildtype_sequence: MPDSGTLGTPPPEQGPTPPTTLPDVPAPVIPSASVTSAASDFLAALHPPVTVPDPAPPPPPAPAAGNPPDTVTGDSVLQRILRGPTGPGTTSLAPAVRYGRQPGPEAPASAPPAAGRAVPGLYHHPVPEPDPVRVEEVSRRIKRWAEDEVQLYPEEWEGQFDGFSVGRYMVGCHPDAPTVDHLMLATRLMVAENAVDDCYCEDHGGSPVGLGGRLLLAHTAIDHFHSTAEYTPTWQASLAADAPRRAYDSAMGYFVRAATPSQSDRYRHDMARLHLGYLAEGAWAQTGHVPEVWEYLAMRQFNNFRPCPTITDTVGGYELPADLHARPDMQRVIALAGNATTIVNDLYSYTKELNSPGRHLNLPVVIAEREQLCERDAYLKAVEVHNELQHSFEAAAADLAEACPLPPVLRFLRGVAAWVDGNHDWHRTNTYRYSLPDFW
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate__E_-2-Methylgeranyl_diphosphate
+  name: (E)-2-Methylgeranyl diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mg2_
+  name: Mg2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Methylisoborneol
+  name: 2-Methylisoborneol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Geranyl_diphosphate
+  name: Geranyl diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Cyclic_monoterpene
+  name: Cyclic monoterpene
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_14859_EC4_2_3_118_Streptomyces_coelicolor_Q9F1Y6__E_-2-Methylgeranyl_diphosphate
+  name: Reaction catalyzed by 2-methylisoborneol synthase on (E)-2-Methylgeranyl diphosphate
+  equation: H2O + (E)-2-Methylgeranyl diphosphate = Diphosphate + 2-Methylisoborneol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate__E_-2-Methylgeranyl_diphosphate
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_2-Methylisoborneol
+  modifiers:
+  - species_id: protein_4_2_3_118_Q9F1Y6_p62253
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 32571;32572;32573;32574
+  KEGGid: R09973
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:61987; CHEBI:44819; CHEBI:8683; CHEBI:41981;
+    CHEBI:13379; CHEBI:6635; CHEBI:39127; CHEBI:42857; CHEBI:41979; CHEBI:33019; CHEBI:61982;
+    CHEBI:45067; CHEBI:42043; CHEBI:29888; CHEBI:35782; CHEBI:33811; CHEBI:33813;
+    CHEBI:27313; CHEBI:15377; CHEBI:49736; CHEBI:13420; CHEBI:13352; CHEBI:18361;
+    CHEBI:33017; CHEBI:45208; CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:18420;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:61984; CHEBI:25112; CHEBI:45212; CHEBI:42009;
+    CHEBI:29373; CHEBI:44701; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C20235; KEGG:C20243; KEGG:C00305; KEGG:C00001'
+- id: sabiork_14858_EC4_2_3_118_Streptomyces_coelicolor_Q9F1Y6_Geranyl_diphosphate
+  name: Reaction catalyzed by 2-methylisoborneol synthase on Geranyl diphosphate
+  equation: H2O + Geranyl diphosphate = Diphosphate + Cyclic monoterpene
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Geranyl_diphosphate
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Cyclic_monoterpene
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_4_2_3_118_Q9F1Y6_p62252
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:8683; CHEBI:41981; CHEBI:13379;
+    CHEBI:14299; CHEBI:5332; CHEBI:6635; CHEBI:39127; CHEBI:42857; CHEBI:41979; CHEBI:33019;
+    CHEBI:58057; CHEBI:42877; CHEBI:45067; CHEBI:42043; CHEBI:29888; CHEBI:24223;
+    CHEBI:35782; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:49736;
+    CHEBI:13420; CHEBI:13352; CHEBI:18361; CHEBI:33017; CHEBI:45208; CHEBI:43228;
+    CHEBI:44292; CHEBI:33806; CHEBI:18420; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:25112;
+    CHEBI:17211; CHEBI:45212; CHEBI:42009; CHEBI:29373; CHEBI:44701; CHEBI:33018
+
+    KEGG IDs: KEGG:C00001; KEGG:C00341; KEGG:C00305; KEGG:C00013'
+measurements:
+- id: measurement_4_2_3_118_Streptomyces_coelicolor_Q9F1Y6__E_-2-Methylgeranyl_diphosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_4_2_3_118_Streptomyces_coelicolor_Q9F1Y6_Geranyl_diphosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 4_2_3_118_Streptomyces_coelicolor_Q9F1Y6__E_-2-Methylgeranyl_diphosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.6e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__E_-2-Methylgeranyl_diphosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18563898'
+- id: 4_2_3_118_Streptomyces_coelicolor_Q9F1Y6__E_-2-Methylgeranyl_diphosphate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.039
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__E_-2-Methylgeranyl_diphosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18563898'
+- id: 4_2_3_118_Streptomyces_coelicolor_Q9F1Y6_Geranyl_diphosphate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 3.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Geranyl_diphosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18563898'
+- id: 4_2_3_118_Streptomyces_coelicolor_Q9F1Y6_Geranyl_diphosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.8e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Geranyl_diphosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18563898'
+buffer:
+  buffer: 50 mM PIPES, 100 mM NaCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 62253
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/18563898/
+  pubmed_id: '18563898'
+  doi: null
+name: Merged entry for Q9F1Y6 wildtype
+description: 'Merged from 2 files: SABIO_EC4.2.3.118_Streptomyces_coelicolor__Q9F1Y6_s__E_-2-Methylgeranyl.yaml,
+  SABIO_EC4.2.3.118_Streptomyces_coelicolor__Q9F1Y6_s_Geranyl.yaml'

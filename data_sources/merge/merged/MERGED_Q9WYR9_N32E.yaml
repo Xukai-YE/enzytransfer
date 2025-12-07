@@ -1,0 +1,306 @@
+version: '2.0'
+created: '2025-11-20T13:39:24.090298'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_44_Q9WYR9_p65632
+  name: phosphogluconate dehydrogenase (decarboxylating)
+  ecnumber: 1.1.1.44
+  organism: Thermotoga maritima
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: N32E
+  uniprotid: Q9WYR9
+  wildtype_sequence: MKSHIGLIGLAVMGQNLALNIARKGYKVSVYNRTAQRTEEFVKNRVTNEEIEPHYDIESFVKSLERPRKIILMVKAGKPVDDTISQLLPHLEPGDLIIDGGNSHYMDTERRFKELSEKGILFLGMGVSGGEYGALHGPSLMPGGSREAYNLVEEILLEIAAKTEDGPCCTYVGERSAGHFVKMVHNGIEYAIMQAIAEVYHIMRDVLSLSSEEMSSIFEEWNRGELSSFLVEITYKILRKKDEETGKPMVDVILDKAEQKGTGKWTSQAALDLGIPTPSINLAVVERVISHFKDIRTRLSKLYNKRRSATQGSEEFLRDLRNSLFFAMFMAFSQGMWLIAEASKEFGYGVSLSEVLRIWKGGCIIRAKLIDTLRRYISNENAYLLENEEVMNLLKGKIDSLKNILKASIENEIPVPVLSSSYNYFMSLTEERLPANLIQAQRDFFGAHTFERVDREGVFHINWEEGEIG
+  mutant_sequence: MKSHIGLIGLAVMGQNLALNIARKGYKVSVYERTAQRTEEFVKNRVTNEEIEPHYDIESFVKSLERPRKIILMVKAGKPVDDTISQLLPHLEPGDLIIDGGNSHYMDTERRFKELSEKGILFLGMGVSGGEYGALHGPSLMPGGSREAYNLVEEILLEIAAKTEDGPCCTYVGERSAGHFVKMVHNGIEYAIMQAIAEVYHIMRDVLSLSSEEMSSIFEEWNRGELSSFLVEITYKILRKKDEETGKPMVDVILDKAEQKGTGKWTSQAALDLGIPTPSINLAVVERVISHFKDIRTRLSKLYNKRRSATQGSEEFLRDLRNSLFFAMFMAFSQGMWLIAEASKEFGYGVSLSEVLRIWKGGCIIRAKLIDTLRRYISNENAYLLENEEVMNLLKGKIDSLKNILKASIENEIPVPVLSSSYNYFMSLTEERLPANLIQAQRDFFGAHTFERVDREGVFHINWEEGEIG
+complexes: null
+small_molecules:
+- id: substrate_6-Phospho-D-gluconate
+  name: 6-Phospho-D-gluconate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Ribulose_5-phosphate
+  name: D-Ribulose 5-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_108_EC1_1_1_44_Thermotoga_maritima_Q9WYR9_6-Phospho-D-gluconate
+  name: Reaction catalyzed by phosphogluconate dehydrogenase (decarboxylating) on
+    6-Phospho-D-gluconate
+  equation: NADP+ + 6-Phospho-D-gluconate = CO2 + H+ + NADPH + D-Ribulose 5-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_6-Phospho-D-gluconate
+  - species_id: substrate_NADP_
+  products:
+  - species_id: product_NADPH
+  - species_id: product_D-Ribulose_5-phosphate
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_1_1_1_44_Q9WYR9_p65632
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 10116;10117;10118;10119
+  KEGGid: R01528
+  notes: 'ChEBI IDs: CHEBI:2231; CHEBI:26572; CHEBI:13397; CHEBI:13398; CHEBI:4243;
+    CHEBI:139538; CHEBI:7424; CHEBI:21903; CHEBI:44405; CHEBI:21088; CHEBI:7425; CHEBI:16863;
+    CHEBI:29234; CHEBI:3283; CHEBI:25523; CHEBI:13357; CHEBI:40192; CHEBI:13018; CHEBI:24636;
+    CHEBI:29233; CHEBI:13399; CHEBI:23011; CHEBI:5584; CHEBI:58759; CHEBI:37455; CHEBI:13040;
+    CHEBI:33851; CHEBI:40282; CHEBI:13285; CHEBI:13282; CHEBI:16474; CHEBI:44286;
+    CHEBI:48928; CHEBI:13283; CHEBI:21904; CHEBI:44409; CHEBI:15378; CHEBI:12232;
+    CHEBI:13284; CHEBI:18009; CHEBI:16526; CHEBI:58349; CHEBI:48829; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744; CHEBI:17363; CHEBI:58121
+
+    KEGG IDs: KEGG:C00199; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00011; KEGG:C11037;
+    KEGG:C00345'
+- id: sabiork_9789_EC1_1_1_44_Thermotoga_maritima_Q9WYR9_NAD_
+  name: Reaction catalyzed by phosphogluconate dehydrogenase (decarboxylating) on
+    NAD+
+  equation: 6-Phospho-D-gluconate + NAD+ = D-Ribulose 5-phosphate + NADH + H+ + CO2
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_6-Phospho-D-gluconate
+  products:
+  - species_id: product_CO2
+  - species_id: product_D-Ribulose_5-phosphate
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_1_1_44_Q9WYR9_p65637
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 33023;33024;33025;33026
+  KEGGid: R10221
+  notes: 'ChEBI IDs: CHEBI:2231; CHEBI:26572; CHEBI:4243; CHEBI:139538; CHEBI:44281;
+    CHEBI:13393; CHEBI:21088; CHEBI:16863; CHEBI:29234; CHEBI:15846; CHEBI:3283; CHEBI:13357;
+    CHEBI:40192; CHEBI:13018; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636;
+    CHEBI:44214; CHEBI:29233; CHEBI:13394; CHEBI:23011; CHEBI:5584; CHEBI:58759; CHEBI:37455;
+    CHEBI:13040; CHEBI:33851; CHEBI:40282; CHEBI:57945; CHEBI:44216; CHEBI:13285;
+    CHEBI:13282; CHEBI:57540; CHEBI:48928; CHEBI:7423; CHEBI:13283; CHEBI:13389; CHEBI:13395;
+    CHEBI:12232; CHEBI:13284; CHEBI:15378; CHEBI:16526; CHEBI:48829; CHEBI:44215;
+    CHEBI:10744; CHEBI:17363; CHEBI:7422; CHEBI:58121; CHEBI:16908
+
+    KEGG IDs: KEGG:C00199; KEGG:C00080; KEGG:C00011; KEGG:C00003; KEGG:C00004; KEGG:C00345'
+measurements:
+- id: measurement_1_1_1_44_Thermotoga_maritima_Q9WYR9_6-Phospho-D-gluconate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 70.0
+  temperature_unit: °C
+- id: measurement_1_1_1_44_Thermotoga_maritima_Q9WYR9_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 70.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1_44_Thermotoga_maritima_Q9WYR9_6-Phospho-D-gluconate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.079
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_6-Phospho-D-gluconate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 70.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27805055'
+- id: 1_1_1_44_Thermotoga_maritima_Q9WYR9_6-Phospho-D-gluconate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 15.9
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_6-Phospho-D-gluconate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 70.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27805055'
+- id: 1_1_1_44_Thermotoga_maritima_Q9WYR9_6-Phospho-D-gluconate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 200.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_6-Phospho-D-gluconate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 70.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27805055'
+- id: 1_1_1_44_Thermotoga_maritima_Q9WYR9_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0025
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 70.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27805055'
+- id: 1_1_1_44_Thermotoga_maritima_Q9WYR9_NAD__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 19200.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 70.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27805055'
+- id: 1_1_1_44_Thermotoga_maritima_Q9WYR9_NAD__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 47.9
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 70.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27805055'
+buffer:
+  buffer: 100 mM HEPES, 5 mM MgCl2, 0.5 mM MnCl2
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 65632
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/27805055/
+  pubmed_id: '27805055'
+  doi: null
+name: Merged entry for Q9WYR9 N32E
+description: 'Merged from 2 files: SABIO_EC1.1.1.44_Thermotoga_maritima__Q9WYR9_N32E_s_6-Phospho-D-gluconat.yaml,
+  SABIO_EC1.1.1.44_Thermotoga_maritima__Q9WYR9_N32E_s_NAD_.yaml'

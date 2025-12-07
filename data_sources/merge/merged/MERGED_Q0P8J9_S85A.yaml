@@ -1,0 +1,267 @@
+version: '2.0'
+created: '2025-11-20T13:40:30.017542'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_224_Q0P8J9_p78294
+  name: cytidine diphosphoramidate kinase
+  ecnumber: 2.7.1.224
+  organism: Campylobacter jejuni
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: S85A
+  uniprotid: Q0P8J9
+  wildtype_sequence: MKNNPYIIWLTGLAGSGKTTIGQALYEKLKLKYKNLIYLDGDELREILGHYAYDRQGRIDMALKRAKFAKFLNDQGMMVIVTTISMFNEIYDYNRKQLKNYYEIYIECDMHELIQRDQKGLYTKALNKEIDNVVGVDIEFDKPEADLVINNSCRNNLEEKVELIIKKLAL
+  mutant_sequence: MKNNPYIIWLTGLAGSGKTTIGQALYEKLKLKYKNLIYLDGDELREILGHYAYDRQGRIDMALKRAKFAKFLNDQGMMVIVTTIAMFNEIYDYNRKQLKNYYEIYIECDMHELIQRDQKGLYTKALNKEIDNVVGVDIEFDKPEADLVINNSCRNNLEEKVELIIKKLAL
+complexes: null
+small_molecules:
+- id: substrate_Cytidine_diphosphoramidate
+  name: Cytidine diphosphoramidate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Cytidine_3_-phospho-5_-diphosphoramidate
+  name: Cytidine 3'-phospho-5'-diphosphoramidate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_16958_EC2_7_1_224_Campylobacter_jejuni_Q0P8J9_Cytidine_diphosphoramidate
+  name: Reaction catalyzed by cytidine diphosphoramidate kinase on Cytidine diphosphoramidate
+  equation: ATP + Cytidine diphosphoramidate = ADP + Cytidine 3'-phospho-5'-diphosphoramidate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Cytidine_diphosphoramidate
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_Cytidine_3_-phospho-5_-diphosphoramidate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_224_Q0P8J9_p78294
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:40938; CHEBI:16761; CHEBI:2359;
+    CHEBI:10789; CHEBI:57299; CHEBI:13236; CHEBI:456216; CHEBI:40553; CHEBI:13222;
+    CHEBI:10841; CHEBI:22249; CHEBI:141584; CHEBI:2342; CHEBI:15422; CHEBI:22244;
+    CHEBI:87518
+
+    KEGG IDs: KEGG:C00002; KEGG:C00008'
+- id: sabiork_16958_EC2_7_1_224_Campylobacter_jejuni_Q0P8J9_ATP
+  name: Reaction catalyzed by cytidine diphosphoramidate kinase on ATP
+  equation: ATP + Cytidine diphosphoramidate = ADP + Cytidine 3'-phospho-5'-diphosphoramidate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Cytidine_diphosphoramidate
+  products:
+  - species_id: product_ADP
+  - species_id: product_Cytidine_3_-phospho-5_-diphosphoramidate
+  modifiers:
+  - species_id: protein_2_7_1_224_Q0P8J9_p78293
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:40938; CHEBI:16761; CHEBI:2359;
+    CHEBI:10789; CHEBI:57299; CHEBI:13236; CHEBI:456216; CHEBI:40553; CHEBI:13222;
+    CHEBI:10841; CHEBI:22249; CHEBI:2342; CHEBI:22244; CHEBI:15422; CHEBI:141584;
+    CHEBI:87518
+
+    KEGG IDs: KEGG:C00002; KEGG:C00008'
+measurements:
+- id: measurement_2_7_1_224_Campylobacter_jejuni_Q0P8J9_Cytidine_diphosphoramidate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_7_1_224_Campylobacter_jejuni_Q0P8J9_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_1_224_Campylobacter_jejuni_Q0P8J9_Cytidine_diphosphoramidate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 2300.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cytidine_diphosphoramidate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29578334'
+- id: 2_7_1_224_Campylobacter_jejuni_Q0P8J9_Cytidine_diphosphoramidate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0007
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cytidine_diphosphoramidate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29578334'
+- id: 2_7_1_224_Campylobacter_jejuni_Q0P8J9_Cytidine_diphosphoramidate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.6
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cytidine_diphosphoramidate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29578334'
+- id: 2_7_1_224_Campylobacter_jejuni_Q0P8J9_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 360.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29578334'
+- id: 2_7_1_224_Campylobacter_jejuni_Q0P8J9_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0044
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29578334'
+- id: 2_7_1_224_Campylobacter_jejuni_Q0P8J9_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.6
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29578334'
+buffer:
+  buffer: 100 mM HEPES/K+, 100 mM KCl, 4.0 mM MgCl2, 2.0 mM phosphoenol pyruvate,
+    0.3 mM NADH, 8 U/ml lactate dehydrogenase, 8 U/ml pyruvate kinase
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 78294
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/29578334/
+  pubmed_id: '29578334'
+  doi: null
+name: Merged entry for Q0P8J9 S85A
+description: 'Merged from 2 files: SABIO_EC2.7.1.224_Campylobacter_jejuni__Q0P8J9_S85A_s_Cytidine.yaml,
+  SABIO_EC2.7.1.224_Campylobacter_jejuni__Q0P8J9_S85A_s_ATP.yaml'

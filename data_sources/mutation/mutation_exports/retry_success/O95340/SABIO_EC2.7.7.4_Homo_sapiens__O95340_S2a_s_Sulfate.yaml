@@ -1,0 +1,176 @@
+name: SABIO-RK Entry 23985
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 23985
+created: '2025-10-28T14:23:37.334777'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_7_4_O95340_p23985
+  name: sulfate adenylyltransferase
+  sequence: null
+  ecnumber: 2.7.7.4
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: S2a
+  uniprotid: O95340
+  mutant_sequence: MAGIKKQKTENQQKSTNVVYQAHHVSRNKRGQVVGTRGGFRGCTVWLTGLSGAGKTTISFALEEYLVSHAIPCYSLDGDNVRHGLNRNLGFSPGDREENIRRIAEVAKLFADAGLVCITSFISPFAKDRENARKIHESAGLPFFEIFVDAPLNICESRDVKGLYKRARAGEIKGFTGIDSDYEKPETPERVLKTNLSTVSDCVHQVVELLQEQNIVPYTIIKDIHELFVPENKLDHVRAEAETLPSLSITKLDLQWVQVLSEGWATPLKGFMREKEYLQVMHFDTLLDDGVINMSIPIVLPVSAEDKTRLEGCSKFVLAHGGRRVAILRDAEFYEHRKEERCSRVWGTTCTKHPHIKMVMESGDWLVGGDLQVLEKIRWNDGLDQYRLTPLELKQKCKEMNADAVFAFQLRNPVHNGHALLMQDTRRRLLERGYKHPVLLLHPLGGWTKDDDVPLDWRMKQHAAVLEEGVLDPKSTIVAIFPSPMLYAGPTEVQWHCRSRMIAGANFYIVGRDPAGMPHPETKKDLYEPTHGGKVLSMAPGLTSVEIIPFRVAAYNKAKKAMDFYDPARHNEFDFISGTRMRKLAREGENPPDGFMAPKAWKVLTDYYRSLEKN
+  position_offset: 0
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Sulfate
+  name: Sulfate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Adenylylsulfate
+  name: Adenylylsulfate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_947_EC2_7_7_4_Homo_sapiens_O95340_Sulfate
+  name: Reaction catalyzed by sulfate adenylyltransferase on Sulfate
+  equation: ATP + Sulfate = Diphosphate + Adenylylsulfate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Sulfate
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_Adenylylsulfate
+  modifiers:
+  - species_id: protein_2_7_7_4_O95340_p23985
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 18133;18134;18135;18136
+  KEGGid: R00529
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:10789; CHEBI:57299; CHEBI:8683;
+    CHEBI:40562; CHEBI:45687; CHEBI:22247; CHEBI:12059; CHEBI:58243; CHEBI:13741;
+    CHEBI:17709; CHEBI:33019; CHEBI:13743; CHEBI:13236; CHEBI:45067; CHEBI:29199;
+    CHEBI:10841; CHEBI:29888; CHEBI:2359; CHEBI:45693; CHEBI:9335; CHEBI:35782; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:2486; CHEBI:45208; CHEBI:22249; CHEBI:15422;
+    CHEBI:15135; CHEBI:45696; CHEBI:33018; CHEBI:16189; CHEBI:45212; CHEBI:42009;
+    CHEBI:26836
+
+    KEGG IDs: KEGG:C00002; KEGG:C00059; KEGG:C00013; KEGG:C00224'
+measurements:
+- id: measurement_2_7_7_4_Homo_sapiens_O95340_Sulfate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 2_7_7_4_Homo_sapiens_O95340_Sulfate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.23
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Sulfate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11931637'
+- id: 2_7_7_4_Homo_sapiens_O95340_Sulfate_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 610.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Sulfate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11931637'
+buffer:
+  buffer: 45 mM Tris/HCl, 15 mM KCl, 4.5 mM MgCl2, 0.9 mM EDTA, 13.5 mM dithiothreitol
+  buffer_concentration: 45 mM
+references:
+- title: Reference for SABIO-RK entry 23985
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11931637/
+  pubmed_id: '11931637'
+  doi: null

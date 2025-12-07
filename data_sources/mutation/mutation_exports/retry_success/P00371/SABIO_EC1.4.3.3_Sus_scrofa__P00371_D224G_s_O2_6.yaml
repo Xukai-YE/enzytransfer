@@ -1,0 +1,181 @@
+name: SABIO-RK Entry 7671
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 7671
+created: '2025-10-28T13:52:14.307847'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_4_3_3_P00371_p7671
+  name: D-amino-acid oxidase
+  ecnumber: 1.4.3.3
+  organism: Sus scrofa
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: D224G
+  uniprotid: P00371
+  wildtype_sequence: MRVVVIGAGVIGLSTALCIHERYHSVLQPLDVKVYADRFTPFTTTDVAAGLWQPYTSEPSNPQEANWNQQTFNYLLSHIGSPNAANMGLTPVSGYNLFREAVPDPYWKDMVLGFRKLTPRELDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVIINCTGVWAGVLQPDPLLQPGRGQIIKVDAPWLKNFIITHDLERGIYNSPYIIPGLQAVTLGGTFQVGNWNEINNIQDHNTIWEGCCRLEPTLKDAKIVGEYTGFRPVRPQVRLEREQLRFGSSNTEVIHNYGHGGYGLTIHWGCALEVAKLFGKVLEERNLLTMPPSHL
+  mutant_sequence: MRVVVIGAGVIGLSTALCIHERYHSVLQPLDVKVYADRFTPFTTTDVAAGLWQPYTSEPSNPQEANWNQQTFNYLLSHIGSPNAANMGLTPVSGYNLFREAVPDPYWKDMVLGFRKLTPRELDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVIINCTGVWAGVLQPDPLLQPGRGQIIKVDAPWLKNFIITHGLERGIYNSPYIIPGLQAVTLGGTFQVGNWNEINNIQDHNTIWEGCCRLEPTLKDAKIVGEYTGFRPVRPQVRLEREQLRFGSSNTEVIHNYGHGGYGLTIHWGCALEVAKLFGKVLEERNLLTMPPSHL
+  position_offset: -6
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Methionine
+  name: D-Methionine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NH3
+  name: NH3
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4-Methylthio-2-oxobutanoate
+  name: 4-Methylthio-2-oxobutanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_6497_EC1_4_3_3_Sus_scrofa_P00371_O2
+  name: Reaction catalyzed by D-amino-acid oxidase on O2
+  equation: H2O + D-Methionine + O2 = 4-Methylthio-2-oxobutanoate + H2O2 + NH3
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_D-Methionine
+  products:
+  - species_id: product_NH3
+  - species_id: product_4-Methylthio-2-oxobutanoate
+  modifiers:
+  - species_id: protein_1_4_3_3_P00371_p7671
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:63388; CHEBI:29375; CHEBI:44284; CHEBI:44819;
+    CHEBI:13354; CHEBI:16134; CHEBI:13005; CHEBI:41981; CHEBI:29192; CHEBI:24637;
+    CHEBI:13405; CHEBI:7434; CHEBI:26689; CHEBI:32637; CHEBI:42857; CHEBI:41979; CHEBI:13407;
+    CHEBI:21065; CHEBI:16240; CHEBI:23833; CHEBI:13416; CHEBI:13355; CHEBI:42043;
+    CHEBI:44701; CHEBI:20451; CHEBI:12029; CHEBI:4215; CHEBI:22458; CHEBI:33811; CHEBI:33813;
+    CHEBI:27313; CHEBI:22534; CHEBI:135980; CHEBI:15377; CHEBI:7435; CHEBI:49783;
+    CHEBI:22533; CHEBI:13352; CHEBI:43720; CHEBI:44404; CHEBI:15379; CHEBI:13771;
+    CHEBI:33574; CHEBI:57932; CHEBI:43228; CHEBI:44269; CHEBI:44292; CHEBI:13406;
+    CHEBI:30491; CHEBI:33806; CHEBI:16723; CHEBI:25366; CHEBI:44742; CHEBI:5585; CHEBI:29374;
+    CHEBI:10743; CHEBI:44812; CHEBI:1902; CHEBI:29793; CHEBI:28938; CHEBI:7860; CHEBI:10745;
+    CHEBI:16867; CHEBI:44071; CHEBI:5586; CHEBI:29373; CHEBI:32638
+
+    KEGG IDs: KEGG:C01180; KEGG:C00855; KEGG:C00014; KEGG:C00001; KEGG:C01342; KEGG:C00027;
+    KEGG:C00704; KEGG:C00007'
+measurements:
+- id: measurement_1_4_3_3_Sus_scrofa_P00371_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.3
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_4_3_3_Sus_scrofa_P00371_O2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 9.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.3
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16751595'
+- id: 1_4_3_3_Sus_scrofa_P00371_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00067
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.3
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16751595'
+buffer:
+  buffer: 50 mM sodium pyrophosphate, 20 ¦ÌM FAD
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 7671
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16751595/
+  pubmed_id: '16751595'
+  doi: null

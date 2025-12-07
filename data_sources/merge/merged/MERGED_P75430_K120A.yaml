@@ -1,0 +1,264 @@
+version: '2.0'
+created: '2025-11-20T13:41:54.144283'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_6_3_3_2_P75430_p60399
+  name: 5-formyltetrahydrofolate cyclo-ligase
+  ecnumber: 6.3.3.2
+  organism: Mycoplasma pneumoniae
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: K120A
+  uniprotid: P75430
+  wildtype_sequence: MDKNALRKQILQKRMALSTIEKSHLDQKINQKLVAFLTPKPCIKTIALYEPIKNEVTFVDFFFEFLKINQIRAVYPKVISDTEIIFIDQETNTFEPNQIDCFLIPLVGFNKDNYRLGFGKGYYDRYLMQLTRQQPKIGIAYSFQKGDFLADPWDVQLDLIINDE
+  mutant_sequence: MDKNALRKQILQKRMALSTIEKSHLDQKINQKLVAFLTPKPCIKTIALYEPIKNEVTFVDFFFEFLKINQIRAVYPKVISDTEIIFIDQETNTFEPNQIDCFLIPLVGFNKDNYRLGFGAGYYDRYLMQLTRQQPKIGIAYSFQKGDFLADPWDVQLDLIINDE
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_5-Formyltetrahydrofolate
+  name: 5-Formyltetrahydrofolate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_5
+  name: '5'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_10-Methenyltetrahydrofolate
+  name: 10-Methenyltetrahydrofolate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Phosphate
+  name: Phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2263_EC6_3_3_2_Mycoplasma_pneumoniae_P75430_ATP
+  name: Reaction catalyzed by 5-formyltetrahydrofolate cyclo-ligase on ATP
+  equation: ATP + 5-Formyltetrahydrofolate = 5,10-Methenyltetrahydrofolate + Phosphate
+    + ADP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_5-Formyltetrahydrofolate
+  products:
+  - species_id: product_ADP
+  - species_id: product_5
+  - species_id: product_10-Methenyltetrahydrofolate
+  - species_id: product_Phosphate
+  modifiers:
+  - species_id: protein_6_3_3_2_P75430_p60399
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 10488;10489;10490;10491
+  KEGGid: R02301
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:14791; CHEBI:43470; CHEBI:16761;
+    CHEBI:18367; CHEBI:10789; CHEBI:57299; CHEBI:35780; CHEBI:40553; CHEBI:26020;
+    CHEBI:26078; CHEBI:13236; CHEBI:29139; CHEBI:39739; CHEBI:10841; CHEBI:63606;
+    CHEBI:2359; CHEBI:87518; CHEBI:39745; CHEBI:40938; CHEBI:57455; CHEBI:57457; CHEBI:1987;
+    CHEBI:7793; CHEBI:456216; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:45024; CHEBI:15640;
+    CHEBI:12069; CHEBI:43474; CHEBI:13222; CHEBI:12068; CHEBI:22244; CHEBI:29137;
+    CHEBI:15638
+
+    KEGG IDs: KEGG:C00445; KEGG:C03479; KEGG:C00002; KEGG:C00009; KEGG:C00008'
+- id: sabiork_2263_EC6_3_3_2_Mycoplasma_pneumoniae_P75430_5-Formyltetrahydrofolate
+  name: Reaction catalyzed by 5-formyltetrahydrofolate cyclo-ligase on 5-Formyltetrahydrofolate
+  equation: ATP + 5-Formyltetrahydrofolate = 5,10-Methenyltetrahydrofolate + Phosphate
+    + ADP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_5-Formyltetrahydrofolate
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_5
+  - species_id: product_10-Methenyltetrahydrofolate
+  - species_id: product_Phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_6_3_3_2_P75430_p60398
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 10488;10489;10490;10491
+  KEGGid: R02301
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:14791; CHEBI:43470; CHEBI:18367;
+    CHEBI:16761; CHEBI:10789; CHEBI:57299; CHEBI:35780; CHEBI:26020; CHEBI:40553;
+    CHEBI:26078; CHEBI:13236; CHEBI:29139; CHEBI:39739; CHEBI:10841; CHEBI:63606;
+    CHEBI:2359; CHEBI:87518; CHEBI:39745; CHEBI:40938; CHEBI:57455; CHEBI:57457; CHEBI:1987;
+    CHEBI:7793; CHEBI:456216; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:45024; CHEBI:15640;
+    CHEBI:12069; CHEBI:43474; CHEBI:13222; CHEBI:12068; CHEBI:22244; CHEBI:29137;
+    CHEBI:15638
+
+    KEGG IDs: KEGG:C00445; KEGG:C03479; KEGG:C00002; KEGG:C00009; KEGG:C00008'
+measurements:
+- id: measurement_6_3_3_2_Mycoplasma_pneumoniae_P75430_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_3_3_2_Mycoplasma_pneumoniae_P75430_5-Formyltetrahydrofolate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 6_3_3_2_Mycoplasma_pneumoniae_P75430_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.3
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18473156'
+- id: 6_3_3_2_Mycoplasma_pneumoniae_P75430_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.1e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18473156'
+- id: 6_3_3_2_Mycoplasma_pneumoniae_P75430_5-Formyltetrahydrofolate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.7
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_5-Formyltetrahydrofolate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18473156'
+- id: 6_3_3_2_Mycoplasma_pneumoniae_P75430_5-Formyltetrahydrofolate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0012
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_5-Formyltetrahydrofolate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18473156'
+buffer:
+  buffer: 200 mM MES, 30 mM NaCl, 10 mM MgCl2, 0.1% Triton X-100, 0.01% 2-mercaptoethanol
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 60399
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/18473156/
+  pubmed_id: '18473156'
+  doi: null
+name: Merged entry for P75430 K120A
+description: 'Merged from 2 files: SABIO_EC6.3.3.2_Mycoplasma_pneumoniae__P75430_K120A_s_ATP.yaml,
+  SABIO_EC6.3.3.2_Mycoplasma_pneumoniae__P75430_K120A_s_5-Formyltetrahydrofo.yaml'

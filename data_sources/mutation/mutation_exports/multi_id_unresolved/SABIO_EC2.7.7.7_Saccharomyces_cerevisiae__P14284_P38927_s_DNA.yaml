@@ -1,0 +1,156 @@
+name: SABIO-RK Entry 65830
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 65830
+created: '2025-10-28T16:56:43.640248'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_7_7_P14284_P38927_p65830
+  name: DNA-directed DNA polymerase
+  sequence: null
+  ecnumber: 2.7.7.7
+  organism: Saccharomyces cerevisiae
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P14284; P38927
+complexes: null
+small_molecules:
+- id: substrate_DNA
+  name: DNA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_dGTP
+  name: dGTP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_DNA
+  name: DNA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_184_EC2_7_7_7_Saccharomyces_cerevisiae_P14284_P38927_DNA
+  name: Reaction catalyzed by DNA-directed DNA polymerase on DNA
+  equation: dGTP + DNA = DNA + Diphosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: product_DNA
+  - species_id: substrate_dGTP
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_DNA
+  modifiers:
+  - species_id: protein_2_7_7_7_P14284_P38927_p65830
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00376
+  notes: 'ChEBI IDs: CHEBI:21123; CHEBI:8683; CHEBI:13302; CHEBI:16497; CHEBI:57794;
+    CHEBI:33019; CHEBI:10497; CHEBI:4291; CHEBI:33698; CHEBI:45067; CHEBI:61429; CHEBI:29888;
+    CHEBI:14076; CHEBI:35782; CHEBI:13420; CHEBI:18361; CHEBI:19247; CHEBI:16991;
+    CHEBI:33017; CHEBI:45208; CHEBI:45212; CHEBI:42009; CHEBI:33018
+
+    KEGG IDs: KEGG:C00286; KEGG:C00013; KEGG:C00039'
+measurements:
+- id: measurement_2_7_7_7_Saccharomyces_cerevisiae_P14284_P38927_DNA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 2_7_7_7_Saccharomyces_cerevisiae_P14284_P38927_DNA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000543
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_DNA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11316789'
+buffer:
+  buffer: 40 mM Tris-HCl, 5 mM MgCl2, 1 mM dithiothreitol, 100 Î¼g/ml BSA, 10 % glycerol,
+    20 nM 5&apos;-32P-labeled oligonucleotide primer annealed to an oligonucleotide
+    template
+  buffer_concentration: 40 mM
+references:
+- title: Reference for SABIO-RK entry 65830
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11316789/
+  pubmed_id: '11316789'
+  doi: null

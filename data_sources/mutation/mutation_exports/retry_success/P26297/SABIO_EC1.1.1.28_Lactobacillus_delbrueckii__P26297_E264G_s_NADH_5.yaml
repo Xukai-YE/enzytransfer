@@ -1,0 +1,208 @@
+name: SABIO-RK Entry 44063
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 44063
+created: '2025-10-28T15:29:40.148612'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_28_P26297_p44063
+  name: D-lactate dehydrogenase
+  ecnumber: 1.1.1.28
+  organism: Lactobacillus delbrueckii subsp. bulgaricus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: E264G
+  uniprotid: P26297
+  wildtype_sequence: MTKIFAYAIREDEKPFLKEWEDAHKDVEVEYTDKLLTPETVALAKGADGVVVYQQLDYTAETLQALADNGITKMSLRNVGVDNIDMAKAKELGFQITNVPVYSPNAIAEHAAIQAARILRQDKAMDEKVARHDLRWAPTIGREVRDQVVGVIGTGHIGQVFMQIMEGFGAKVIAYDIFRNPELEKKGYYVDSLDDLYKQADVISLHVPDVPANVHMINDESIAKMKQDVVIVNVSRGPLVDTDAVIRGLDSGKIFGYAMDVYEGEVGIFNEDWEGKEFPDARLADLIARPNVLVTPHTAFYTTHAVRNMVVKAFDNNLELVEGKEAETPVKVG
+  mutant_sequence: MTKIFAYAIREDEKPFLKEWEDAHKDVEVEYTDKLLTPETVALAKGADGVVVYQQLDYTAETLQALADNGITKMSLRNVGVDNIDMAKAKELGFQITNVPVYSPNAIAEHAAIQAARILRQDKAMDEKVARHDLRWAPTIGREVRDQVVGVIGTGHIGQVFMQIMEGFGAKVIAYDIFRNPELEKKGYYVDSLDDLYKQADVISLHVPDVPANVHMINDESIAKMKQDVVIVNVSRGPLVDTDAVIRGLDSGKIFGYAMDVYGGEVGIFNEDWEGKEFPDARLADLIARPNVLVTPHTAFYTTHAVRNMVVKAFDNNLELVEGKEAETPVKVG
+  position_offset: -1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Oxaloacetate
+  name: Oxaloacetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Malate
+  name: D-Malate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_9744_EC1_1_1_28_Lactobacillus_delbrueckii_P26297_NADH
+  name: Reaction catalyzed by D-lactate dehydrogenase on NADH
+  equation: D-Malate + NAD+ = Oxaloacetate + H+ + NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  - species_id: substrate_Oxaloacetate
+  products:
+  - species_id: product_NAD_
+  - species_id: product_D-Malate
+  modifiers:
+  - species_id: protein_1_1_1_28_P26297_p44063
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:24959; CHEBI:16452; CHEBI:44281; CHEBI:342; CHEBI:13393;
+    CHEBI:29234; CHEBI:30796; CHEBI:15846; CHEBI:13357; CHEBI:15588; CHEBI:21902;
+    CHEBI:13396; CHEBI:12820; CHEBI:42060; CHEBI:21901; CHEBI:18685; CHEBI:24636;
+    CHEBI:18686; CHEBI:44214; CHEBI:29233; CHEBI:14703; CHEBI:5584; CHEBI:13394; CHEBI:57945;
+    CHEBI:25734; CHEBI:44216; CHEBI:11002; CHEBI:44073; CHEBI:25731; CHEBI:57540;
+    CHEBI:7423; CHEBI:30744; CHEBI:13389; CHEBI:13395; CHEBI:15378; CHEBI:7812; CHEBI:24958;
+    CHEBI:10744; CHEBI:44215; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C00497; KEGG:C00036; KEGG:C00003; KEGG:C00004'
+measurements:
+- id: measurement_1_1_1_28_Lactobacillus_delbrueckii_P26297_NADH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 5.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1_28_Lactobacillus_delbrueckii_P26297_NADH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 980.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1356978'
+- id: 1_1_1_28_Lactobacillus_delbrueckii_P26297_NADH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0024
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1356978'
+- id: 1_1_1_28_Lactobacillus_delbrueckii_P26297_NADH_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 408000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 5.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1356978'
+- id: 1_1_1_28_Lactobacillus_delbrueckii_P26297_NADH_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 464.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1356978'
+buffer:
+  buffer: 50 mM MES
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 44063
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/1356978/
+  pubmed_id: '1356978'
+  doi: null

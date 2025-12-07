@@ -1,0 +1,166 @@
+name: SABIO-RK Entry 3197
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 3197
+created: '2025-10-28T13:46:40.434568'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_13_11_12_P08170_p3197
+  name: linoleate 13S-lipoxygenase
+  sequence: null
+  ecnumber: 1.13.11.12
+  organism: rat
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: e553P
+  uniprotid: P08170
+  mutant_sequence: MFSAGHKIKGTVVLMPKNELEVNPDGSAVDNLNAFLGRSVSLQLISATKADAHGKGKVGKDTFLEGINTSLPTLGAGESAFNIHFEWDGSMGIPGAFYIKNYMQVEFFLKSLTLEAISNQGTIRFVCNSWVYNTKLYKSVRIFFANHTYVPSETPAPLVSYREEELKSLRGNGTGERKEYDRIYDYDVYNDLGNPDKSEKLARPVLGGSSTFPYPRRGRTGRGPTVTDPNTEKQGEVFYVPRDENLGHLKSKDALEIGTKSLSQIVQPAFESAFDLKSTPIEFHSFQDVHDLYEGGIKLPRDVISTIIPLPVIKELYRTDGQHILKFPQPHVVQVSQSAWMTDEEFAREMIAGVNPCVIRGLEEFPPKSNLDPAIYGDQSSKITADSLDLDGYTMDEALGSRRLFMLDYHDIFMPYVRQINQLNSAKTYATRTILFLREDGTLKPVAIELSLPHSAGDLSAAVSQVVLPAKEGVESTIWLLAKAYVIVNDSCYHQLMSHWLNTHAAMEPFVIATHRHLSVLHPIYKLLTPHYRNNMNINALARQSLINANGIIPTTFLPSKYSVEMSSAVYKNWVFTDQALPADLIKRGVAIKDPSTPHGVRLLIEDYPYAADGLEIWAAIKTWVQEYVPLYYARDDDVKNDSELQHWWKEAVEKGHGDLKDKPWWPKLQTLEDLVEVCLIIIWIASALHAAVNFGQYPYGGLIMNRPTASRRLLPEKGTPEYEEMINNHEKAYLRTITSKLPTLISLSVIEILSTHASDEVYLGQRDNPHWTSDSKALQAFQKFGNKLKEIEEKLVRRNNDPSLQGNRLGPVQLPYTLLYPSSEEGLTFRGIPNSISI
+  position_offset: 1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Linoleate
+  name: Linoleate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product__9Z
+  name: (9Z
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_11E_-_13S_-13-Hydroperoxyoctadeca-9
+  name: 11E)-(13S)-13-Hydroperoxyoctadeca-9
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_11-dienoate
+  name: 11-dienoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_3408_EC1_13_11_12_rat_P08170_O2
+  name: Reaction catalyzed by linoleate 13S-lipoxygenase on O2
+  equation: O2 + Linoleate = (9Z,11E)-(13S)-13-Hydroperoxyoctadeca-9,11-dienoate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_Linoleate
+  products:
+  - species_id: product__9Z
+  - species_id: product_11E_-_13S_-13-Hydroperoxyoctadeca-9
+  - species_id: product_11-dienoate
+  modifiers:
+  - species_id: protein_1_13_11_12_P08170_p3197
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 22780;22781;22782;22783
+  KEGGid: R03626
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:44742; CHEBI:25366; CHEBI:75108; CHEBI:15655;
+    CHEBI:29793; CHEBI:7860; CHEBI:15379; CHEBI:30245; CHEBI:23833; CHEBI:13416; CHEBI:10745;
+    CHEBI:17351; CHEBI:26689; CHEBI:30491
+
+    KEGG IDs: KEGG:C01595; KEGG:C04717; KEGG:C00007; KEGG:C00704'
+measurements:
+- id: measurement_1_13_11_12_rat_P08170_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 20.0
+  temperature_unit: °C
+parameters:
+- id: 1_13_11_12_rat_P08170_O2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 960000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14516198'
+buffer:
+  buffer: 0.1 M borate
+  buffer_concentration: 0.1 M
+references:
+- title: Reference for SABIO-RK entry 3197
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/14516198/
+  pubmed_id: '14516198'
+  doi: null

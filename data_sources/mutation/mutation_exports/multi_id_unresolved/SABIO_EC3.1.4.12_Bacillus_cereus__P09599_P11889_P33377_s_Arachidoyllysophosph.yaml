@@ -1,0 +1,177 @@
+name: SABIO-RK Entry 3951
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 3951
+created: '2025-10-28T13:47:31.398609'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_1_4_12_P09599_P11889_P33377_p3951
+  name: sphingomyelin phosphodiesterase
+  sequence: null
+  ecnumber: 3.1.4.12
+  organism: Bacillus cereus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P09599; P11889; P33377
+complexes: null
+small_molecules:
+- id: substrate_Arachidoyllysophosphatidylcholine
+  name: Arachidoyllysophosphatidylcholine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Monoarachidin
+  name: Monoarachidin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Choline_phosphate
+  name: Choline phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7111_EC3_1_4_12_Bacillus_cereus_P09599_P11889_P33377_Arachidoyllysophosphatidylcholine
+  name: Reaction catalyzed by sphingomyelin phosphodiesterase on Arachidoyllysophosphatidylcholine
+  equation: H2O + Arachidoyllysophosphatidylcholine = Monoarachidin + Choline phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Arachidoyllysophosphatidylcholine
+  products:
+  - species_id: product_Monoarachidin
+  - species_id: product_Choline_phosphate
+  modifiers:
+  - species_id: protein_3_1_4_12_P09599_P11889_P33377_p3951
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:12720; CHEBI:41981; CHEBI:42857;
+    CHEBI:41979; CHEBI:13986; CHEBI:23214; CHEBI:42043; CHEBI:33811; CHEBI:33813;
+    CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:44707; CHEBI:43228; CHEBI:44292;
+    CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:18132; CHEBI:3667; CHEBI:295975;
+    CHEBI:142495; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00001; KEGG:C00588'
+measurements:
+- id: measurement_3_1_4_12_Bacillus_cereus_P09599_P11889_P33377_Arachidoyllysophosphatidylcholine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 3_1_4_12_Bacillus_cereus_P09599_P11889_P33377_Arachidoyllysophosphatidylcholine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.81667e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Arachidoyllysophosphatidylcholine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15516713'
+- id: 3_1_4_12_Bacillus_cereus_P09599_P11889_P33377_Arachidoyllysophosphatidylcholine_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2.233333e-08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Arachidoyllysophosphatidylcholine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15516713'
+- id: 3_1_4_12_Bacillus_cereus_P09599_P11889_P33377_Arachidoyllysophosphatidylcholine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000808
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Arachidoyllysophosphatidylcholine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15516713'
+buffer:
+  buffer: 4 mM Mg2+, 33 mM TES
+  buffer_concentration: 4 mM
+references:
+- title: Reference for SABIO-RK entry 3951
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15516713/
+  pubmed_id: '15516713'
+  doi: null

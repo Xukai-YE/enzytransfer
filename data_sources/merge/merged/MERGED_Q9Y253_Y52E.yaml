@@ -1,0 +1,451 @@
+version: '2.0'
+created: '2025-11-20T13:40:49.114193'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_7_7_Q9Y253_p9865
+  name: DNA-directed DNA polymerase
+  ecnumber: 2.7.7.7
+  organism: bovine
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: Y52E
+  uniprotid: Q9Y253
+  wildtype_sequence: MATGQDRVVALVDMDCFFVQVEQRQNPHLRNKPCAVVQYKSWKGGGIIAVSYEARAFGVTRSMWADDAKKLCPDLLLAQVRESRGKANLTKYREASVEVMEIMSRFAVIERASIDEAYVDLTSAVQERLQKLQGQPISADLLPSTYIEGLPQGPTTAEETVQKEGMRKQGLFQWLDSLQIDNLTSPDLQLTVGAVIVEEMRAAIERETGFQCSAGISHNKVLAKLACGLNKPNRQTLVSHGSVPQLFSQMPIRKIRSLGGKLGASVIEILGIEYMGELTQFTESQLQSHFGEKNGSWLYAMCRGIEHDPVKPRQLPKTIGCSKNFPGKTALATREQVQWWLLQLAQELEERLTKDRNDNDRVATQLVVSIRVQGDKRLSSLRRCCALTRYDAHKMSHDAFTVIKNCNTSGIQTEWSPPLTMLFLCATKFSASAPSSSTDITSFLSSDPSSLPKVPVTSSEAKTQGSGPAVTATKKATTSLESFFQKAAERQKVKEASLSSLTAPTQAPMSNSPSKPSLPFQTSQSTGTEPFFKQKSLLLKQKQLNNSSVSSPQQNPWSNCKALPNSLPTEYPGCVPVCEGVSKLEESSKATPAEMDLAHNSQSMHASSASKSVLEVTQKATPNPSLLAAEDQVPCEKCGSLVPVWDMPEHMDYHFALELQKSFLQPHSSNPQVVSAVSHQGKRNPKSPLACTNKRPRPEGMQTLESFFKPLTH
+  mutant_sequence: MATGQDRVVALVDMDCFFVQVEQRQNPHLRNKPCAVVQYKSWKGGGIIAVSEEARAFGVTRSMWADDAKKLCPDLLLAQVRESRGKANLTKYREASVEVMEIMSRFAVIERASIDEAYVDLTSAVQERLQKLQGQPISADLLPSTYIEGLPQGPTTAEETVQKEGMRKQGLFQWLDSLQIDNLTSPDLQLTVGAVIVEEMRAAIERETGFQCSAGISHNKVLAKLACGLNKPNRQTLVSHGSVPQLFSQMPIRKIRSLGGKLGASVIEILGIEYMGELTQFTESQLQSHFGEKNGSWLYAMCRGIEHDPVKPRQLPKTIGCSKNFPGKTALATREQVQWWLLQLAQELEERLTKDRNDNDRVATQLVVSIRVQGDKRLSSLRRCCALTRYDAHKMSHDAFTVIKNCNTSGIQTEWSPPLTMLFLCATKFSASAPSSSTDITSFLSSDPSSLPKVPVTSSEAKTQGSGPAVTATKKATTSLESFFQKAAERQKVKEASLSSLTAPTQAPMSNSPSKPSLPFQTSQSTGTEPFFKQKSLLLKQKQLNNSSVSSPQQNPWSNCKALPNSLPTEYPGCVPVCEGVSKLEESSKATPAEMDLAHNSQSMHASSASKSVLEVTQKATPNPSLLAAEDQVPCEKCGSLVPVWDMPEHMDYHFALELQKSFLQPHSSNPQVVSAVSHQGKRNPKSPLACTNKRPRPEGMQTLESFFKPLTH
+complexes: null
+small_molecules:
+- id: substrate_DNA
+  name: DNA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_dATP
+  name: dATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_DNA
+  name: DNA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_dCTP
+  name: dCTP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_dGTP
+  name: dGTP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_dTTP
+  name: dTTP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_185_EC2_7_7_7_bovine_Q9Y253_DNA
+  name: Reaction catalyzed by DNA-directed DNA polymerase on DNA
+  equation: dATP + DNA = DNA + Diphosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: product_DNA
+  - species_id: substrate_dATP
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_DNA
+  modifiers:
+  - species_id: protein_2_7_7_7_Q9Y253_p9865
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00375
+  notes: 'ChEBI IDs: CHEBI:21123; CHEBI:8683; CHEBI:13302; CHEBI:10491; CHEBI:16284;
+    CHEBI:33019; CHEBI:4291; CHEBI:33698; CHEBI:45067; CHEBI:495505; CHEBI:29888;
+    CHEBI:35782; CHEBI:13420; CHEBI:18361; CHEBI:16991; CHEBI:33017; CHEBI:45208;
+    CHEBI:61404; CHEBI:42290; CHEBI:14069; CHEBI:45212; CHEBI:42009; CHEBI:19238;
+    CHEBI:33018
+
+    KEGG IDs: KEGG:C00131; KEGG:C00013; KEGG:C00039'
+- id: sabiork_447_EC2_7_7_7_bovine_Q9Y253_DNA
+  name: Reaction catalyzed by RNA-directed DNA polymerase on DNA
+  equation: dCTP + DNA = Diphosphate + DNA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: product_DNA
+  - species_id: substrate_dCTP
+  products:
+  - species_id: product_DNA
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_2_7_7_7_Q9Y253_p9867
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00377
+  notes: 'ChEBI IDs: CHEBI:21123; CHEBI:8683; CHEBI:13302; CHEBI:57724; CHEBI:33019;
+    CHEBI:4291; CHEBI:33698; CHEBI:45067; CHEBI:29888; CHEBI:35782; CHEBI:19243; CHEBI:13420;
+    CHEBI:18361; CHEBI:61481; CHEBI:16991; CHEBI:33017; CHEBI:45208; CHEBI:16311;
+    CHEBI:10494; CHEBI:45212; CHEBI:14072; CHEBI:42009; CHEBI:33018
+
+    KEGG IDs: KEGG:C00458; KEGG:C00013; KEGG:C00039'
+- id: sabiork_184_EC2_7_7_7_bovine_Q9Y253_DNA
+  name: Reaction catalyzed by DNA-directed DNA polymerase on DNA
+  equation: dGTP + DNA = DNA + Diphosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: product_DNA
+  - species_id: substrate_dGTP
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_DNA
+  modifiers:
+  - species_id: protein_2_7_7_7_Q9Y253_p9871
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00376
+  notes: 'ChEBI IDs: CHEBI:21123; CHEBI:8683; CHEBI:13302; CHEBI:16497; CHEBI:57794;
+    CHEBI:33019; CHEBI:10497; CHEBI:4291; CHEBI:33698; CHEBI:45067; CHEBI:61429; CHEBI:29888;
+    CHEBI:14076; CHEBI:35782; CHEBI:13420; CHEBI:18361; CHEBI:19247; CHEBI:16991;
+    CHEBI:33017; CHEBI:45208; CHEBI:45212; CHEBI:42009; CHEBI:33018
+
+    KEGG IDs: KEGG:C00286; KEGG:C00013; KEGG:C00039'
+- id: sabiork_448_EC2_7_7_7_bovine_Q9Y253_dTTP
+  name: Reaction catalyzed by RNA-directed DNA polymerase on dTTP
+  equation: dTTP + DNA = Diphosphate + DNA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_dTTP
+  - species_id: product_DNA
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_DNA
+  modifiers:
+  - species_id: protein_2_7_7_7_Q9Y253_p9868
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00378
+  notes: 'ChEBI IDs: CHEBI:21123; CHEBI:8683; CHEBI:13302; CHEBI:37568; CHEBI:10530;
+    CHEBI:33019; CHEBI:4291; CHEBI:33698; CHEBI:14093; CHEBI:45067; CHEBI:29888; CHEBI:46175;
+    CHEBI:35782; CHEBI:18077; CHEBI:13420; CHEBI:18361; CHEBI:16991; CHEBI:33017;
+    CHEBI:27000; CHEBI:18284; CHEBI:45208; CHEBI:58370; CHEBI:45212; CHEBI:42009;
+    CHEBI:33018
+
+    KEGG IDs: KEGG:C00459; KEGG:C00039; KEGG:C00013'
+measurements:
+- id: measurement_2_7_7_7_bovine_Q9Y253_DNA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_2_7_7_7_bovine_Q9Y253_DNA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_2_7_7_7_bovine_Q9Y253_DNA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_2_7_7_7_bovine_Q9Y253_dTTP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_7_7_bovine_Q9Y253_DNA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5500.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_DNA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12644469'
+- id: 2_7_7_7_bovine_Q9Y253_DNA_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00393
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_DNA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12644469'
+- id: 2_7_7_7_bovine_Q9Y253_DNA_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1
+  initial_value: 2.166667e-11
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_DNA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12644469'
+- id: 2_7_7_7_bovine_Q9Y253_DNA_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1
+  initial_value: 8.333333e-12
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_DNA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12644469'
+- id: 2_7_7_7_bovine_Q9Y253_DNA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.448
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_DNA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12644469'
+- id: 2_7_7_7_bovine_Q9Y253_DNA_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 16.66667
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_DNA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12644469'
+- id: 2_7_7_7_bovine_Q9Y253_DNA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1833.333
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_DNA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12644469'
+- id: 2_7_7_7_bovine_Q9Y253_DNA_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1
+  initial_value: 5.833333e-11
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_DNA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12644469'
+- id: 2_7_7_7_bovine_Q9Y253_DNA_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.03274
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_DNA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12644469'
+- id: 2_7_7_7_bovine_Q9Y253_dTTP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.129
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_dTTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12644469'
+- id: 2_7_7_7_bovine_Q9Y253_dTTP_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 16.66667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_dTTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12644469'
+- id: 2_7_7_7_bovine_Q9Y253_dTTP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1
+  initial_value: 3.5e-11
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_dTTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12644469'
+buffer:
+  buffer: 40 mM Tris-HCl, 5 mM MgCl2, 60 mM KCl, 10 mM dithiothreitol, 250 ¦Ìg bovine
+    serum albumin, 2.5% glycerol
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 9865
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12644469/
+  pubmed_id: '12644469'
+  doi: null
+name: Merged entry for Q9Y253 Y52E
+description: 'Merged from 4 files: SABIO_EC2.7.7.7_bovine__Q9Y253_Y52E_s_DNA.yaml,
+  SABIO_EC2.7.7.7_bovine__Q9Y253_Y52E_s_DNA_2.yaml, SABIO_EC2.7.7.7_bovine__Q9Y253_Y52E_s_DNA_3.yaml,
+  SABIO_EC2.7.7.7_bovine__Q9Y253_Y52E_s_dTTP.yaml'

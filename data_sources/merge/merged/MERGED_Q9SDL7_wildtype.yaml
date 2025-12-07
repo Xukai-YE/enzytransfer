@@ -1,0 +1,374 @@
+version: '2.0'
+created: '2025-11-20T13:39:56.700988'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_1_1_10_Q9SDL7_p48578
+  name: homocysteine S-methyltransferase
+  ecnumber: 2.1.1.10
+  organism: Arabidopsis thaliana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9SDL7
+  wildtype_sequence: MVLEKKSALLEDLIKKCGGCAVVDGGFATQLEIHGAAINDPLWSAVSLIKNPELIKRVHMEYLEAGADIVVTSSYQATIPGFLSRGLSIEESESLLQKSVELAVEARDRFWEKVSKVSGHSYNRALVAASIGSYGAYLADGSEYSGHYGENVSLDKLKDFHRRRLQVLVEAGPDLLAFETIPNKLEAQACVELLEEEKVQIPAWICFTSVDGEKAPSGESFEECLEPLNKSNNIYAVGINCAPPQFIENLIRKFAKLTKKAIVVYPNSGEVWDGKAKQWLPSQCFGDDEFEMFATKWRDLGAKLIGGCCRTTPSTINAISRDLKRR
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_L-Homocysteine
+  name: L-Homocysteine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_S-Methyl-L-methionine
+  name: S-Methyl-L-methionine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Methionine
+  name: L-Methionine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_S-Adenosyl-L-methionine
+  name: S-Adenosyl-L-methionine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_S-Adenosyl-L-homocysteine
+  name: S-Adenosyl-L-homocysteine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_13306_EC2_1_1_10_Arabidopsis_thaliana_Q9SDL7_L-Homocysteine
+  name: Reaction catalyzed by homocysteine S-methyltransferase on L-Homocysteine
+  equation: L-Homocysteine + S-Methyl-L-methionine = L-Methionine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Homocysteine
+  - species_id: substrate_S-Methyl-L-methionine
+  products:
+  - species_id: product_L-Methionine
+  modifiers:
+  - species_id: protein_2_1_1_10_Q9SDL7_p48578
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 26337;26338;26339;26340
+  KEGGid: R11063
+  notes: 'ChEBI IDs: CHEBI:13141; CHEBI:66952; CHEBI:21360; CHEBI:17728; CHEBI:32632;
+    CHEBI:58199; CHEBI:14408; CHEBI:17230; CHEBI:67050; CHEBI:58065; CHEBI:16044;
+    CHEBI:12772; CHEBI:8965; CHEBI:16643; CHEBI:43117; CHEBI:21329; CHEBI:58252; CHEBI:22057;
+    CHEBI:49037; CHEBI:32631; CHEBI:5751; CHEBI:6245; CHEBI:6271; CHEBI:17588; CHEBI:63072;
+    CHEBI:57844; CHEBI:43990; CHEBI:49038; CHEBI:13122
+
+    KEGG IDs: KEGG:C03172; KEGG:C05330; KEGG:C00073; KEGG:C00155'
+- id: sabiork_1035_EC2_1_1_10_Arabidopsis_thaliana_Q9SDL7_S-Adenosyl-L-methionine
+  name: Reaction catalyzed by homocysteine S-methyltransferase on S-Adenosyl-L-methionine
+  equation: S-Adenosyl-L-methionine + L-Homocysteine = L-Methionine + S-Adenosyl-L-homocysteine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_S-Adenosyl-L-methionine
+  - species_id: substrate_L-Homocysteine
+  products:
+  - species_id: product_L-Methionine
+  - species_id: product_S-Adenosyl-L-homocysteine
+  modifiers:
+  - species_id: protein_2_1_1_10_Q9SDL7_p48579
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 21820;21821;21822;21823
+  KEGGid: R00650
+  notes: 'ChEBI IDs: CHEBI:22036; CHEBI:12760; CHEBI:12742; CHEBI:66952; CHEBI:13141;
+    CHEBI:59789; CHEBI:21360; CHEBI:67009; CHEBI:45495; CHEBI:32632; CHEBI:58199;
+    CHEBI:14408; CHEBI:17230; CHEBI:142094; CHEBI:8945; CHEBI:67040; CHEBI:58065;
+    CHEBI:45607; CHEBI:33442; CHEBI:15414; CHEBI:16044; CHEBI:10833; CHEBI:12761;
+    CHEBI:12741; CHEBI:57856; CHEBI:16643; CHEBI:16680; CHEBI:43117; CHEBI:21329;
+    CHEBI:12759; CHEBI:8946; CHEBI:22034; CHEBI:49037; CHEBI:32631; CHEBI:5751; CHEBI:6245;
+    CHEBI:6271; CHEBI:527887; CHEBI:17588; CHEBI:63072; CHEBI:13122; CHEBI:57844;
+    CHEBI:10786; CHEBI:43990; CHEBI:49038; CHEBI:12757
+
+    KEGG IDs: KEGG:C00073; KEGG:C05330; KEGG:C00155; KEGG:C00021; KEGG:C00019'
+- id: sabiork_13306_EC2_1_1_10_Arabidopsis_thaliana_Q9SDL7_S-Methyl-L-methionine
+  name: Reaction catalyzed by homocysteine S-methyltransferase on S-Methyl-L-methionine
+  equation: L-Homocysteine + S-Methyl-L-methionine = L-Methionine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_S-Methyl-L-methionine
+  - species_id: substrate_L-Homocysteine
+  products:
+  - species_id: product_L-Methionine
+  modifiers:
+  - species_id: protein_2_1_1_10_Q9SDL7_p48580
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 26337;26338;26339;26340
+  KEGGid: R11063
+  notes: 'ChEBI IDs: CHEBI:13141; CHEBI:66952; CHEBI:21360; CHEBI:17728; CHEBI:32632;
+    CHEBI:58199; CHEBI:14408; CHEBI:17230; CHEBI:67050; CHEBI:58065; CHEBI:16044;
+    CHEBI:12772; CHEBI:8965; CHEBI:16643; CHEBI:43117; CHEBI:21329; CHEBI:58252; CHEBI:22057;
+    CHEBI:49037; CHEBI:32631; CHEBI:5751; CHEBI:6245; CHEBI:6271; CHEBI:17588; CHEBI:63072;
+    CHEBI:57844; CHEBI:43990; CHEBI:49038; CHEBI:13122
+
+    KEGG IDs: KEGG:C03172; KEGG:C05330; KEGG:C00073; KEGG:C00155'
+- id: sabiork_1035_EC2_1_1_10_Arabidopsis_thaliana_Q9SDL7_S-Adenosyl-L-methionine
+  name: Reaction catalyzed by homocysteine S-methyltransferase on S-Adenosyl-L-methionine
+  equation: S-Adenosyl-L-methionine + L-Homocysteine = L-Methionine + S-Adenosyl-L-homocysteine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_S-Adenosyl-L-methionine
+  - species_id: substrate_L-Homocysteine
+  products:
+  - species_id: product_S-Adenosyl-L-homocysteine
+  - species_id: product_L-Methionine
+  modifiers:
+  - species_id: protein_2_1_1_10_Q9SDL7_p48581
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 21820;21821;21822;21823
+  KEGGid: R00650
+  notes: 'ChEBI IDs: CHEBI:22036; CHEBI:12760; CHEBI:12742; CHEBI:66952; CHEBI:13141;
+    CHEBI:59789; CHEBI:21360; CHEBI:67009; CHEBI:45495; CHEBI:32632; CHEBI:58199;
+    CHEBI:14408; CHEBI:17230; CHEBI:142094; CHEBI:8945; CHEBI:67040; CHEBI:58065;
+    CHEBI:45607; CHEBI:33442; CHEBI:15414; CHEBI:16044; CHEBI:10833; CHEBI:12761;
+    CHEBI:12741; CHEBI:57856; CHEBI:16643; CHEBI:16680; CHEBI:43117; CHEBI:21329;
+    CHEBI:12759; CHEBI:8946; CHEBI:22034; CHEBI:49037; CHEBI:32631; CHEBI:5751; CHEBI:6245;
+    CHEBI:6271; CHEBI:527887; CHEBI:17588; CHEBI:63072; CHEBI:13122; CHEBI:57844;
+    CHEBI:10786; CHEBI:43990; CHEBI:49038; CHEBI:12757
+
+    KEGG IDs: KEGG:C00073; KEGG:C05330; KEGG:C00155; KEGG:C00021; KEGG:C00019'
+measurements:
+- id: measurement_2_1_1_10_Arabidopsis_thaliana_Q9SDL7_L-Homocysteine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_2_1_1_10_Arabidopsis_thaliana_Q9SDL7_S-Adenosyl-L-methionine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_2_1_1_10_Arabidopsis_thaliana_Q9SDL7_S-Methyl-L-methionine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_2_1_1_10_Arabidopsis_thaliana_Q9SDL7_S-Adenosyl-L-methionine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_1_1_10_Arabidopsis_thaliana_Q9SDL7_L-Homocysteine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.9e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Homocysteine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10747987'
+- id: 2_1_1_10_Arabidopsis_thaliana_Q9SDL7_L-Homocysteine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.316667e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Homocysteine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10747987'
+- id: 2_1_1_10_Arabidopsis_thaliana_Q9SDL7_S-Adenosyl-L-methionine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 8.34e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10747987'
+- id: 2_1_1_10_Arabidopsis_thaliana_Q9SDL7_S-Adenosyl-L-methionine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00195
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10747987'
+- id: 2_1_1_10_Arabidopsis_thaliana_Q9SDL7_S-Methyl-L-methionine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.316667e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Methyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10747987'
+- id: 2_1_1_10_Arabidopsis_thaliana_Q9SDL7_S-Methyl-L-methionine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.7e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Methyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10747987'
+- id: 2_1_1_10_Arabidopsis_thaliana_Q9SDL7_S-Adenosyl-L-methionine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.7e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10747987'
+- id: 2_1_1_10_Arabidopsis_thaliana_Q9SDL7_S-Adenosyl-L-methionine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 8.34e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10747987'
+buffer:
+  buffer: 20 mM Hepes-KOH, 2 mM Dithiothreitol; 200 mM Hepes-KOH, 2 mM Dithiothreitol
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 48578
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10747987/
+  pubmed_id: '10747987'
+  doi: null
+name: Merged entry for Q9SDL7 wildtype
+description: 'Merged from 4 files: SABIO_EC2.1.1.10_Arabidopsis_thaliana__Q9SDL7_s_L-Homocysteine.yaml,
+  SABIO_EC2.1.1.10_Arabidopsis_thaliana__Q9SDL7_s_S-Adenosyl-L-methion.yaml, SABIO_EC2.1.1.10_Arabidopsis_thaliana__Q9SDL7_s_S-Methyl-L-methionin.yaml,
+  SABIO_EC2.1.1.10_Arabidopsis_thaliana__Q9SDL7_s_S-Adenosyl-L-methion_2.yaml'

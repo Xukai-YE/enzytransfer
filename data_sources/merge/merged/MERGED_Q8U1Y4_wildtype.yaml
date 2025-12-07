@@ -1,0 +1,292 @@
+version: '2.0'
+created: '2025-11-20T13:41:12.238014'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_4_19_15_Q8U1Y4_p76633
+  name: desampylase
+  ecnumber: 3.4.19.15
+  organism: Pyrococcus furiosus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q8U1Y4
+  wildtype_sequence: MPSSSKSDFSFSTLIIPQHYLRAILKVVSSSSVEVCGFLFGKENRVLKVRFIRNRLNSPVEFEMDPEEMLKALEEAEQENLEVVGIFHSHIACPPIPSGKDLEGMKRWPVIWLIVNEKGEYKAWILSEKNKISEVKIVVE
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Met1-linked_Ubiquitin_dimer
+  name: Met1-linked Ubiquitin dimer
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Zn2_
+  name: Zn2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Ubiquitin
+  name: Ubiquitin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_SAMP2_dimer
+  name: SAMP2 dimer
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_SAMP2
+  name: SAMP2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_16621_EC3_4_19_15_Pyrococcus_furiosus_Q8U1Y4_Met1-linked_Ubiquitin_dimer
+  name: Reaction catalyzed by desampylase on Met1-linked Ubiquitin dimer
+  equation: H2O + Met1-linked Ubiquitin dimer = Ubiquitin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Met1-linked_Ubiquitin_dimer
+  - species_id: cofactor_Zn2_
+  products:
+  - species_id: product_Ubiquitin
+  modifiers:
+  - species_id: protein_3_4_19_15_Q8U1Y4_p76633
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29105; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:10113;
+    CHEBI:42857; CHEBI:41979; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:13352; CHEBI:43228; CHEBI:49972; CHEBI:44292; CHEBI:33806;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:49982; CHEBI:27368; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00038; KEGG:C00496; KEGG:C00001'
+- id: sabiork_16620_EC3_4_19_15_Pyrococcus_furiosus_Q8U1Y4_SAMP2_dimer
+  name: Reaction catalyzed by desampylase on SAMP2 dimer
+  equation: H2O + SAMP2 dimer = SAMP2
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_SAMP2_dimer
+  - species_id: cofactor_Zn2_
+  products:
+  - species_id: product_SAMP2
+  modifiers:
+  - species_id: protein_3_4_19_15_Q8U1Y4_p76630
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29105; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:10113;
+    CHEBI:42857; CHEBI:41979; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:13352; CHEBI:43228; CHEBI:49972; CHEBI:44292; CHEBI:33806;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:49982; CHEBI:27368; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00038; KEGG:C00001'
+- id: sabiork_16620_EC3_4_19_15_Pyrococcus_furiosus_Q8U1Y4_SAMP2_dimer
+  name: Reaction catalyzed by desampylase on SAMP2 dimer
+  equation: H2O + SAMP2 dimer = SAMP2
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_SAMP2_dimer
+  - species_id: cofactor_Zn2_
+  products:
+  - species_id: product_SAMP2
+  modifiers:
+  - species_id: protein_3_4_19_15_Q8U1Y4_p76629
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29105; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:10113;
+    CHEBI:42857; CHEBI:41979; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:13352; CHEBI:43228; CHEBI:49972; CHEBI:44292; CHEBI:33806;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:49982; CHEBI:27368; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00038; KEGG:C00001'
+measurements:
+- id: measurement_3_4_19_15_Pyrococcus_furiosus_Q8U1Y4_Met1-linked_Ubiquitin_dimer
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 70.0
+  temperature_unit: °C
+- id: measurement_3_4_19_15_Pyrococcus_furiosus_Q8U1Y4_SAMP2_dimer
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 100.0
+  temperature_unit: °C
+- id: measurement_3_4_19_15_Pyrococcus_furiosus_Q8U1Y4_SAMP2_dimer
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 100.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_4_19_15_Pyrococcus_furiosus_Q8U1Y4_Met1-linked_Ubiquitin_dimer_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2.66667e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Met1-linked_Ubiquitin_dimer
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 70.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '28479062'
+- id: 3_4_19_15_Pyrococcus_furiosus_Q8U1Y4_Met1-linked_Ubiquitin_dimer_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000155
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Met1-linked_Ubiquitin_dimer
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 70.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '28479062'
+- id: 3_4_19_15_Pyrococcus_furiosus_Q8U1Y4_SAMP2_dimer_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.004666667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_SAMP2_dimer
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 100.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '28479062'
+- id: 3_4_19_15_Pyrococcus_furiosus_Q8U1Y4_SAMP2_dimer_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.42e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_SAMP2_dimer
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 100.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '28479062'
+- id: 3_4_19_15_Pyrococcus_furiosus_Q8U1Y4_SAMP2_dimer_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.55e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_SAMP2_dimer
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 100.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '28479062'
+- id: 3_4_19_15_Pyrococcus_furiosus_Q8U1Y4_SAMP2_dimer_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.002666667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_SAMP2_dimer
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 100.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '28479062'
+buffer:
+  buffer: 20 mM Tris-HCl, 150 mM NaCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 76633
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/28479062/
+  pubmed_id: '28479062'
+  doi: null
+name: Merged entry for Q8U1Y4 wildtype
+description: 'Merged from 3 files: SABIO_EC3.4.19.15_Pyrococcus_furiosus__Q8U1Y4_s_Met1-linked.yaml,
+  SABIO_EC3.4.19.15_Pyrococcus_furiosus__Q8U1Y4_s_SAMP2_2.yaml, SABIO_EC3.4.19.15_Pyrococcus_furiosus__Q8U1Y4_s_SAMP2.yaml'

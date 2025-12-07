@@ -1,0 +1,400 @@
+version: '2.0'
+created: '2025-11-20T13:40:33.505967'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_30_Q9NJP9_p34187
+  name: glycerol kinase
+  ecnumber: 2.7.1.30
+  organism: Trypanosoma brucei
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9NJP9
+  wildtype_sequence: MKYVGSIDQGTTSTRFIIFDERQRPVSVHQVPHTQHTPHPGWLEHDPMEIFRSACKCMSVAIAKLRQKDASFRKIEAIGITNQRETTVAWDRVTKEPLCYAPVWNDLRTYDITKKVTAELGGGDSMFASKITGLPVSTYFAAFKMRWMLENVPAVADACRRGTLCFGTIDTWLMYKLSGGKAFVTDVTNASRTFLMDLRTRKWSPELCEKLKIPMETLPEIRSNSELFGYVETDECGVAAALNERTPIMGSIGDQQSALFGNMCFEKGEAKNTYGTGCFLLMNVGEEARFSKHGLLSTVGFQVGRDGPCYYALEGAIACAGATVEWMRRNMNLFSHITECEKLARSVPGTQGIVFVPAFSGLLAPYWDPSARGTIVGMTLKTTRAHVIRAALQAIALQLNDVVGSMKRDAGLNLSSLRVDGGLSKNGLLMEIQASLLGVDILVPSMHETTALGAALCAGLAAGVWTSLEEVKAVSRRENSWKTVSPSGSAMEREAMIAEWREALKRTKWAKL
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_sn-Glycerol_3-phosphate
+  name: sn-Glycerol 3-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Glycerol
+  name: Glycerol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Glycerol
+  name: Glycerol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_sn-Glycerol_3-phosphate
+  name: sn-Glycerol 3-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_99_EC2_7_1_30_Trypanosoma_brucei_Q9NJP9_ADP
+  name: Reaction catalyzed by glycerol kinase on ADP
+  equation: ATP + Glycerol = sn-Glycerol 3-phosphate + ADP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ADP
+  - species_id: substrate_sn-Glycerol_3-phosphate
+  products:
+  - species_id: product_ATP
+  - species_id: product_Glycerol
+  modifiers:
+  - species_id: protein_2_7_1_30_Q9NJP9_p34187
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 21644;21645;21646;21647
+  KEGGid: R00847
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:24351; CHEBI:16761; CHEBI:10789;
+    CHEBI:57299; CHEBI:17754; CHEBI:40553; CHEBI:15978; CHEBI:131422; CHEBI:14334;
+    CHEBI:13236; CHEBI:10841; CHEBI:12848; CHEBI:2359; CHEBI:87518; CHEBI:40938; CHEBI:10648;
+    CHEBI:12843; CHEBI:42998; CHEBI:456216; CHEBI:5448; CHEBI:2342; CHEBI:22249; CHEBI:15422;
+    CHEBI:57597; CHEBI:13222; CHEBI:26705; CHEBI:22244; CHEBI:42793
+
+    KEGG IDs: KEGG:C00008; KEGG:C00116; KEGG:C00002; KEGG:C00093'
+- id: sabiork_99_EC2_7_1_30_Trypanosoma_brucei_Q9NJP9_Glycerol
+  name: Reaction catalyzed by glycerol kinase on Glycerol
+  equation: ATP + Glycerol = sn-Glycerol 3-phosphate + ADP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Glycerol
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_sn-Glycerol_3-phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_30_Q9NJP9_p34185
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 21644;21645;21646;21647
+  KEGGid: R00847
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:24351; CHEBI:16761; CHEBI:10789;
+    CHEBI:17754; CHEBI:57299; CHEBI:40553; CHEBI:15978; CHEBI:131422; CHEBI:14334;
+    CHEBI:13236; CHEBI:10841; CHEBI:12848; CHEBI:2359; CHEBI:87518; CHEBI:40938; CHEBI:10648;
+    CHEBI:12843; CHEBI:42998; CHEBI:5448; CHEBI:456216; CHEBI:22249; CHEBI:2342; CHEBI:15422;
+    CHEBI:57597; CHEBI:13222; CHEBI:26705; CHEBI:22244; CHEBI:42793
+
+    KEGG IDs: KEGG:C00002; KEGG:C00008; KEGG:C00116; KEGG:C00093'
+- id: sabiork_99_EC2_7_1_30_Trypanosoma_brucei_Q9NJP9_Glycerol
+  name: Reaction catalyzed by glycerol kinase on Glycerol
+  equation: ATP + Glycerol = sn-Glycerol 3-phosphate + ADP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Glycerol
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_sn-Glycerol_3-phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_30_Q9NJP9_p34184
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 21644;21645;21646;21647
+  KEGGid: R00847
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:24351; CHEBI:16761; CHEBI:10789;
+    CHEBI:17754; CHEBI:57299; CHEBI:40553; CHEBI:15978; CHEBI:131422; CHEBI:14334;
+    CHEBI:13236; CHEBI:10841; CHEBI:12848; CHEBI:2359; CHEBI:87518; CHEBI:40938; CHEBI:10648;
+    CHEBI:12843; CHEBI:42998; CHEBI:5448; CHEBI:456216; CHEBI:22249; CHEBI:2342; CHEBI:15422;
+    CHEBI:57597; CHEBI:13222; CHEBI:26705; CHEBI:22244; CHEBI:42793
+
+    KEGG IDs: KEGG:C00002; KEGG:C00008; KEGG:C00116; KEGG:C00093'
+- id: sabiork_99_EC2_7_1_30_Trypanosoma_brucei_Q9NJP9_sn-Glycerol_3-phosphate
+  name: Reaction catalyzed by glycerol kinase on sn-Glycerol 3-phosphate
+  equation: ATP + Glycerol = sn-Glycerol 3-phosphate + ADP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_sn-Glycerol_3-phosphate
+  - species_id: substrate_ADP
+  products:
+  - species_id: product_Glycerol
+  - species_id: product_ATP
+  modifiers:
+  - species_id: protein_2_7_1_30_Q9NJP9_p34186
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 21644;21645;21646;21647
+  KEGGid: R00847
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:24351; CHEBI:16761; CHEBI:10789;
+    CHEBI:17754; CHEBI:57299; CHEBI:40553; CHEBI:15978; CHEBI:131422; CHEBI:14334;
+    CHEBI:13236; CHEBI:10841; CHEBI:12848; CHEBI:2359; CHEBI:87518; CHEBI:40938; CHEBI:10648;
+    CHEBI:12843; CHEBI:42998; CHEBI:456216; CHEBI:5448; CHEBI:2342; CHEBI:22249; CHEBI:57597;
+    CHEBI:15422; CHEBI:13222; CHEBI:26705; CHEBI:22244; CHEBI:42793
+
+    KEGG IDs: KEGG:C00008; KEGG:C00116; KEGG:C00002; KEGG:C00093'
+measurements:
+- id: measurement_2_7_1_30_Trypanosoma_brucei_Q9NJP9_ADP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_2_7_1_30_Trypanosoma_brucei_Q9NJP9_Glycerol
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.6
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_2_7_1_30_Trypanosoma_brucei_Q9NJP9_Glycerol
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.6
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_2_7_1_30_Trypanosoma_brucei_Q9NJP9_sn-Glycerol_3-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 2_7_1_30_Trypanosoma_brucei_Q9NJP9_ADP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.000375008
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ADP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11154065'
+- id: 2_7_1_30_Trypanosoma_brucei_Q9NJP9_ADP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00329
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ADP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11154065'
+- id: 2_7_1_30_Trypanosoma_brucei_Q9NJP9_Glycerol_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000246
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glycerol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.6
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11154065'
+- id: 2_7_1_30_Trypanosoma_brucei_Q9NJP9_Glycerol_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.003395068
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glycerol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.6
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11154065'
+- id: 2_7_1_30_Trypanosoma_brucei_Q9NJP9_Glycerol_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000169
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glycerol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.6
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11154065'
+- id: 2_7_1_30_Trypanosoma_brucei_Q9NJP9_Glycerol_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.003443402
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glycerol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.6
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11154065'
+- id: 2_7_1_30_Trypanosoma_brucei_Q9NJP9_sn-Glycerol_3-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.01256
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_sn-Glycerol_3-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11154065'
+- id: 2_7_1_30_Trypanosoma_brucei_Q9NJP9_sn-Glycerol_3-phosphate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.000343674
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_sn-Glycerol_3-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11154065'
+buffer:
+  buffer: 75 mM triethanolamine, 37 mM KCl, 10 mM MgCl2, 10 mM NADP+, 2 mM glucose,
+    6.8 U/ml hexokinase from Saccharomyces, 3.4 U/ml glucose 6-phosphate dehydrogenase
+    from Leuconostoc; 0.5 M hydrazine, 0.2 M glycine, 5 mM MgCl2, 10 mM NAD+, 3.7
+    U/ml glycerol 3-phosphate dehydrogenase
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 34187
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11154065/
+  pubmed_id: '11154065'
+  doi: null
+name: Merged entry for Q9NJP9 wildtype
+description: 'Merged from 4 files: SABIO_EC2.7.1.30_Trypanosoma_brucei__Q9NJP9_s_ADP.yaml,
+  SABIO_EC2.7.1.30_Trypanosoma_brucei__Q9NJP9_s_Glycerol_2.yaml, SABIO_EC2.7.1.30_Trypanosoma_brucei__Q9NJP9_s_Glycerol.yaml,
+  SABIO_EC2.7.1.30_Trypanosoma_brucei__Q9NJP9_s_sn-Glycerol.yaml'

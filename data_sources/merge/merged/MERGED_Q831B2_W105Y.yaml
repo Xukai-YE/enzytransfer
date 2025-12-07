@@ -1,0 +1,263 @@
+version: '2.0'
+created: '2025-11-20T13:39:54.918312'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_7_1_6_Q831B2_p39287
+  name: azobenzene reductase
+  ecnumber: 1.7.1.6
+  organism: Enterococcus faecalis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: W105Y
+  uniprotid: Q831B2
+  wildtype_sequence: MSKLLVVKAHPLTKEESRSVRALETFLASYRETNPSDEIEILDVYAPETNMPEIDEELLSAWGALRAGAAFETLSENQQQKVARFNELTDQFLSADKVVIANPMWNLNVPTRLKAWVDTINVAGKTFQYTAEGPKPLTSGKKALHIQSNGGFYEGKDFASQYIKAILNFIGVDQVDGLFIEGIDHFPDRAEELLNTAMTKATEYGKTF
+  mutant_sequence: MSKLLVVKAHPLTKEESRSVRALETFLASYRETNPSDEIEILDVYAPETNMPEIDEELLSAWGALRAGAAFETLSENQQQKVARFNELTDQFLSADKVVIANPMYNLNVPTRLKAWVDTINVAGKTFQYTAEGPKPLTSGKKALHIQSNGGFYEGKDFASQYIKAILNFIGVDQVDGLFIEGIDHFPDRAEELLNTAMTKATEYGKTF
+complexes: null
+small_molecules:
+- id: substrate_Methyl_red
+  name: Methyl red
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Reduced_FMN
+  name: Reduced FMN
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N
+  name: N
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N-Dimethyl-1
+  name: N-Dimethyl-1
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4-phenylenediamine
+  name: 4-phenylenediamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Anthranilate
+  name: Anthranilate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_9591_EC1_7_1_6_Enterococcus_faecalis_Q831B2_Methyl_red
+  name: Reaction catalyzed by azobenzene reductase on Methyl red
+  equation: Methyl red + H+ + NADH = N,N-Dimethyl-1,4-phenylenediamine + Anthranilate
+    + NAD+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Methyl_red
+  - species_id: substrate_NADH
+  - species_id: cofactor_Reduced_FMN
+  products:
+  - species_id: product_N
+  - species_id: product_N-Dimethyl-1
+  - species_id: product_4-phenylenediamine
+  - species_id: product_NAD_
+  - species_id: product_Anthranilate
+  modifiers:
+  - species_id: protein_1_7_1_6_Q831B2_p39287
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:21450; CHEBI:8782; CHEBI:22578; CHEBI:7073; CHEBI:21128;
+    CHEBI:16048; CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:13357;
+    CHEBI:21902; CHEBI:13396; CHEBI:16567; CHEBI:15017; CHEBI:21901; CHEBI:24636;
+    CHEBI:40980; CHEBI:44214; CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:22577; CHEBI:22575;
+    CHEBI:57945; CHEBI:13318; CHEBI:44216; CHEBI:15783; CHEBI:2757; CHEBI:57618; CHEBI:57540;
+    CHEBI:30754; CHEBI:7423; CHEBI:71579; CHEBI:12533; CHEBI:13389; CHEBI:12422; CHEBI:15378;
+    CHEBI:13395; CHEBI:42517; CHEBI:10744; CHEBI:44215; CHEBI:13841; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00108; KEGG:C19459; KEGG:C04203; KEGG:C00080; KEGG:C01847; KEGG:C00003;
+    KEGG:C00004'
+- id: sabiork_9591_EC1_7_1_6_Enterococcus_faecalis_Q831B2_Methyl_red
+  name: Reaction catalyzed by azobenzene reductase on Methyl red
+  equation: Methyl red + H+ + NADH = N,N-Dimethyl-1,4-phenylenediamine + Anthranilate
+    + NAD+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Methyl_red
+  - species_id: substrate_NADH
+  - species_id: cofactor_Reduced_FMN
+  products:
+  - species_id: product_NAD_
+  - species_id: product_N
+  - species_id: product_N-Dimethyl-1
+  - species_id: product_4-phenylenediamine
+  - species_id: product_Anthranilate
+  modifiers:
+  - species_id: protein_1_7_1_6_Q831B2_p39294
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:21450; CHEBI:8782; CHEBI:22578; CHEBI:7073; CHEBI:21128;
+    CHEBI:16048; CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:13357;
+    CHEBI:21902; CHEBI:13396; CHEBI:16567; CHEBI:15017; CHEBI:21901; CHEBI:24636;
+    CHEBI:40980; CHEBI:44214; CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:22577; CHEBI:22575;
+    CHEBI:57945; CHEBI:13318; CHEBI:44216; CHEBI:15783; CHEBI:2757; CHEBI:57618; CHEBI:57540;
+    CHEBI:30754; CHEBI:7423; CHEBI:71579; CHEBI:12533; CHEBI:13389; CHEBI:12422; CHEBI:13395;
+    CHEBI:15378; CHEBI:42517; CHEBI:10744; CHEBI:44215; CHEBI:13841; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00108; KEGG:C19459; KEGG:C04203; KEGG:C00080; KEGG:C01847; KEGG:C00003;
+    KEGG:C00004'
+measurements:
+- id: measurement_1_7_1_6_Enterococcus_faecalis_Q831B2_Methyl_red
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.1
+  temperature_opt: 23.0
+  temperature_unit: °C
+- id: measurement_1_7_1_6_Enterococcus_faecalis_Q831B2_Methyl_red
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.1
+  temperature_opt: 23.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_7_1_6_Enterococcus_faecalis_Q831B2_Methyl_red_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.001145023
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Methyl_red
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.1
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18757799'
+- id: 1_7_1_6_Enterococcus_faecalis_Q831B2_Methyl_red_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.76e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Methyl_red
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.1
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18757799'
+- id: 1_7_1_6_Enterococcus_faecalis_Q831B2_Methyl_red_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000166
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Methyl_red
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.1
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18757799'
+buffer:
+  buffer: 25 mM potassium phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 39287
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/18757799/
+  pubmed_id: '18757799'
+  doi: null
+name: Merged entry for Q831B2 W105Y
+description: 'Merged from 2 files: SABIO_EC1.7.1.6_Enterococcus_faecalis__Q831B2_W105Y_s_Methyl.yaml,
+  SABIO_EC1.7.1.6_Enterococcus_faecalis__Q831B2_W105Y_s_Methyl_2.yaml'

@@ -1,0 +1,366 @@
+version: '2.0'
+created: '2025-11-20T13:39:57.392304'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_1_1_184_P45439_p52096
+  name: 23S rRNA (adenine2085-N6)-dimethyltransferase
+  ecnumber: 2.1.1.184
+  organism: Streptomyces fradiae
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P45439
+  wildtype_sequence: MARAPRSPHPARSRETSRAHPPYGTRADRAPGRGRDRDRSPDSPGNTSSRDGGRSPDRARRELSQNFLARRAVAERVARLVRPAPGGLLLEVGAGRGVLTEALAPYCGRLVAHEIDPRLLPALRDRFGGPHHAHVRISGGDFLAAPVPREPFALAGNIPYSRTAGIVDWALRARTLTSATFVTQLEYARKRTGDYGRWSLLTVRTWPRHEWRLLGRVSRREFRPVPRVDSGILRIERRERPLLPSAALGDYHRMVELGFSGVGGSLYASLRRAHRAGPLDAAFRAARLDRSVVVAYVTPEQWLTVFRTLRPVRSRPAGR
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_S-Adenosyl-L-methionine
+  name: S-Adenosyl-L-methionine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_rRNA
+  name: rRNA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_S-Adenosyl-L-homocysteine
+  name: S-Adenosyl-L-homocysteine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_rRNA_containing_N6-methyladenine
+  name: rRNA containing N6-methyladenine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_8885_EC2_1_1_184_Streptomyces_fradiae_P45439_S-Adenosyl-L-methionine
+  name: Reaction catalyzed by 23S rRNA (adenine2085-N6)-dimethyltransferase on S-Adenosyl-L-methionine
+  equation: S-Adenosyl-L-methionine + rRNA = S-Adenosyl-L-homocysteine + rRNA containing
+    N6-methyladenine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_S-Adenosyl-L-methionine
+  - species_id: substrate_rRNA
+  products:
+  - species_id: product_S-Adenosyl-L-homocysteine
+  - species_id: product_rRNA_containing_N6-methyladenine
+  modifiers:
+  - species_id: protein_2_1_1_184_P45439_p52096
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R07232
+  notes: 'ChEBI IDs: CHEBI:22036; CHEBI:12760; CHEBI:12742; CHEBI:59789; CHEBI:67009;
+    CHEBI:45495; CHEBI:15013; CHEBI:142094; CHEBI:8945; CHEBI:67040; CHEBI:45607;
+    CHEBI:33442; CHEBI:15414; CHEBI:18192; CHEBI:10833; CHEBI:12761; CHEBI:12741;
+    CHEBI:57856; CHEBI:16680; CHEBI:12759; CHEBI:8946; CHEBI:18111; CHEBI:22034; CHEBI:10639;
+    CHEBI:527887; CHEBI:10786; CHEBI:12757
+
+    KEGG IDs: KEGG:C00021; KEGG:C04154; KEGG:C00019; KEGG:C00240'
+- id: sabiork_8885_EC2_1_1_184_Streptomyces_fradiae_P45439_rRNA
+  name: Reaction catalyzed by 23S rRNA (adenine2085-N6)-dimethyltransferase on rRNA
+  equation: S-Adenosyl-L-methionine + rRNA = S-Adenosyl-L-homocysteine + rRNA containing
+    N6-methyladenine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_rRNA
+  - species_id: substrate_S-Adenosyl-L-methionine
+  products:
+  - species_id: product_rRNA_containing_N6-methyladenine
+  - species_id: product_S-Adenosyl-L-homocysteine
+  modifiers:
+  - species_id: protein_2_1_1_184_P45439_p52098
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R07232
+  notes: 'ChEBI IDs: CHEBI:22036; CHEBI:12760; CHEBI:12742; CHEBI:59789; CHEBI:67009;
+    CHEBI:45495; CHEBI:15013; CHEBI:142094; CHEBI:8945; CHEBI:67040; CHEBI:45607;
+    CHEBI:33442; CHEBI:15414; CHEBI:18192; CHEBI:10833; CHEBI:12761; CHEBI:12741;
+    CHEBI:57856; CHEBI:16680; CHEBI:12759; CHEBI:8946; CHEBI:18111; CHEBI:22034; CHEBI:10639;
+    CHEBI:527887; CHEBI:10786; CHEBI:12757
+
+    KEGG IDs: KEGG:C04154; KEGG:C00021; KEGG:C00019; KEGG:C00240'
+- id: sabiork_8885_EC2_1_1_184_Streptomyces_fradiae_P45439_rRNA
+  name: Reaction catalyzed by 23S rRNA (adenine2085-N6)-dimethyltransferase on rRNA
+  equation: S-Adenosyl-L-methionine + rRNA = S-Adenosyl-L-homocysteine + rRNA containing
+    N6-methyladenine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_rRNA
+  - species_id: substrate_S-Adenosyl-L-methionine
+  products:
+  - species_id: product_S-Adenosyl-L-homocysteine
+  - species_id: product_rRNA_containing_N6-methyladenine
+  modifiers:
+  - species_id: protein_2_1_1_184_P45439_p52097
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R07232
+  notes: 'ChEBI IDs: CHEBI:22036; CHEBI:12760; CHEBI:12742; CHEBI:59789; CHEBI:67009;
+    CHEBI:45495; CHEBI:15013; CHEBI:142094; CHEBI:8945; CHEBI:67040; CHEBI:45607;
+    CHEBI:33442; CHEBI:15414; CHEBI:18192; CHEBI:10833; CHEBI:12761; CHEBI:12741;
+    CHEBI:57856; CHEBI:16680; CHEBI:12759; CHEBI:8946; CHEBI:18111; CHEBI:22034; CHEBI:10639;
+    CHEBI:527887; CHEBI:10786; CHEBI:12757
+
+    KEGG IDs: KEGG:C00021; KEGG:C04154; KEGG:C00019; KEGG:C00240'
+- id: sabiork_8885_EC2_1_1_184_Streptomyces_fradiae_P45439_rRNA
+  name: Reaction catalyzed by 23S rRNA (adenine2085-N6)-dimethyltransferase on rRNA
+  equation: S-Adenosyl-L-methionine + rRNA = S-Adenosyl-L-homocysteine + rRNA containing
+    N6-methyladenine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_rRNA
+  - species_id: substrate_S-Adenosyl-L-methionine
+  products:
+  - species_id: product_S-Adenosyl-L-homocysteine
+  - species_id: product_rRNA_containing_N6-methyladenine
+  modifiers:
+  - species_id: protein_2_1_1_184_P45439_p52099
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R07232
+  notes: 'ChEBI IDs: CHEBI:22036; CHEBI:12760; CHEBI:12742; CHEBI:59789; CHEBI:67009;
+    CHEBI:45495; CHEBI:15013; CHEBI:142094; CHEBI:8945; CHEBI:67040; CHEBI:45607;
+    CHEBI:33442; CHEBI:15414; CHEBI:18192; CHEBI:10833; CHEBI:12761; CHEBI:12741;
+    CHEBI:57856; CHEBI:16680; CHEBI:12759; CHEBI:8946; CHEBI:18111; CHEBI:22034; CHEBI:10639;
+    CHEBI:527887; CHEBI:10786; CHEBI:12757
+
+    KEGG IDs: KEGG:C00021; KEGG:C04154; KEGG:C00019; KEGG:C00240'
+measurements:
+- id: measurement_2_1_1_184_Streptomyces_fradiae_P45439_S-Adenosyl-L-methionine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_1_1_184_Streptomyces_fradiae_P45439_rRNA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_1_1_184_Streptomyces_fradiae_P45439_rRNA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_1_1_184_Streptomyces_fradiae_P45439_rRNA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_1_1_184_Streptomyces_fradiae_P45439_S-Adenosyl-L-methionine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.63e-08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12071710'
+- id: 2_1_1_184_Streptomyces_fradiae_P45439_S-Adenosyl-L-methionine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.383333e-11
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12071710'
+- id: 2_1_1_184_Streptomyces_fradiae_P45439_rRNA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.11e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_rRNA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12071710'
+- id: 2_1_1_184_Streptomyces_fradiae_P45439_rRNA_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.733333e-11
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_rRNA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12071710'
+- id: 2_1_1_184_Streptomyces_fradiae_P45439_rRNA_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.566667e-11
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_rRNA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12071710'
+- id: 2_1_1_184_Streptomyces_fradiae_P45439_rRNA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.88e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_rRNA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12071710'
+- id: 2_1_1_184_Streptomyces_fradiae_P45439_rRNA_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 4.05e-11
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_rRNA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12071710'
+- id: 2_1_1_184_Streptomyces_fradiae_P45439_rRNA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.175e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_rRNA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12071710'
+buffer:
+  buffer: 50 mM Tris-HCl, 4 mM MgCl2, 40 mM KCl, 10 mM dithiothreitol, 200 U/ml of
+    RNasin
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 52096
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12071710/
+  pubmed_id: '12071710'
+  doi: null
+name: Merged entry for P45439 wildtype
+description: 'Merged from 4 files: SABIO_EC2.1.1.184_Streptomyces_fradiae__P45439_s_S-Adenosyl-L-methion.yaml,
+  SABIO_EC2.1.1.184_Streptomyces_fradiae__P45439_s_rRNA_2.yaml, SABIO_EC2.1.1.184_Streptomyces_fradiae__P45439_s_rRNA.yaml,
+  SABIO_EC2.1.1.184_Streptomyces_fradiae__P45439_s_rRNA_3.yaml'

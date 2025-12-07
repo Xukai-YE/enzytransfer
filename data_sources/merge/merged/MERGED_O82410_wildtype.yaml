@@ -1,0 +1,338 @@
+version: '2.0'
+created: '2025-11-20T13:40:52.219376'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_8_2__O82410_p66073
+  name: Sulfotransferases
+  ecnumber: 2.8.2.
+  organism: Brassica napus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: O82410
+  wildtype_sequence: MSSSSSVPDYLRDEKLTQETRDLISSLPSEKGWLVSQIYQFQGRWHTEALLQGILTCQKHFKAKDSDIILVTNPKSGTTWLKSLVFALINRHKFPVSSGDHPLLVTNPHLLVPFMEGVYYESPDFDFSLLPFPRLMNTHISHLSLPESVKSSSCQIVYCCRNPKDMFVSLWHFGKKLAPQETADYPLEKAVEAFCQGKFIAGPFWDHVLEYWYASLENPNKVLFVTYEELKKQTEVEVKRIAEFIGCGFTAEEEVSEIVKLCSFESLSRLEVNRQGKLPNGIETNAFFRKGEIGGWRDTLSESLADAIDRTTEEKFGGSGLKFSC
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_3_-Phosphoadenylyl_sulfate
+  name: 3'-Phosphoadenylyl sulfate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_24-Epiteasterone
+  name: 24-Epiteasterone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Adenosine_3_
+  name: Adenosine 3'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_5_-bisphosphate
+  name: 5'-bisphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_24-Epiteasterone-22-O-sulfate
+  name: 24-Epiteasterone-22-O-sulfate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_24-epi-Cathasterone
+  name: 24-epi-Cathasterone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_24-epi-Cathasterone-22-O-sulfate
+  name: 24-epi-Cathasterone-22-O-sulfate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_15369_EC2_8_2__Brassica_napus_O82410_3_-Phosphoadenylyl_sulfate
+  name: Reaction catalyzed by Sulfotransferases on 3'-Phosphoadenylyl sulfate
+  equation: 3'-Phosphoadenylyl sulfate + 24-Epiteasterone = Adenosine 3',5'-bisphosphate
+    + 24-Epiteasterone-22-O-sulfate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3_-Phosphoadenylyl_sulfate
+  - species_id: substrate_24-Epiteasterone
+  products:
+  - species_id: product_Adenosine_3_
+  - species_id: product_5_-bisphosphate
+  - species_id: product_24-Epiteasterone-22-O-sulfate
+  modifiers:
+  - species_id: protein_2_8_2__O82410_p66073
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:2475; CHEBI:19857; CHEBI:22240; CHEBI:58339; CHEBI:1353;
+    CHEBI:17985; CHEBI:58343; CHEBI:13735; CHEBI:11680; CHEBI:11679; CHEBI:17980
+
+    KEGG IDs: KEGG:C00054; KEGG:C00053'
+- id: sabiork_15234_EC2_8_2__Brassica_napus_O82410_24-epi-Cathasterone
+  name: Reaction catalyzed by Sulfotransferases on 24-epi-Cathasterone
+  equation: 3'-Phosphoadenylyl sulfate + 24-epi-Cathasterone = Adenosine 3',5'-bisphosphate
+    + 24-epi-Cathasterone-22-O-sulfate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_24-epi-Cathasterone
+  - species_id: substrate_3_-Phosphoadenylyl_sulfate
+  products:
+  - species_id: product_Adenosine_3_
+  - species_id: product_5_-bisphosphate
+  - species_id: product_24-epi-Cathasterone-22-O-sulfate
+  modifiers:
+  - species_id: protein_2_8_2__O82410_p66072
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:2475; CHEBI:19857; CHEBI:22240; CHEBI:58339; CHEBI:1353;
+    CHEBI:17985; CHEBI:58343; CHEBI:13735; CHEBI:11680; CHEBI:11679; CHEBI:17980
+
+    KEGG IDs: KEGG:C00054; KEGG:C00053'
+- id: sabiork_15234_EC2_8_2__Brassica_napus_O82410_3_-Phosphoadenylyl_sulfate
+  name: Reaction catalyzed by Sulfotransferases on 3'-Phosphoadenylyl sulfate
+  equation: 3'-Phosphoadenylyl sulfate + 24-epi-Cathasterone = Adenosine 3',5'-bisphosphate
+    + 24-epi-Cathasterone-22-O-sulfate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3_-Phosphoadenylyl_sulfate
+  - species_id: substrate_24-epi-Cathasterone
+  products:
+  - species_id: product_Adenosine_3_
+  - species_id: product_5_-bisphosphate
+  - species_id: product_24-epi-Cathasterone-22-O-sulfate
+  modifiers:
+  - species_id: protein_2_8_2__O82410_p66074
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:2475; CHEBI:19857; CHEBI:22240; CHEBI:58339; CHEBI:1353;
+    CHEBI:17985; CHEBI:58343; CHEBI:13735; CHEBI:11680; CHEBI:11679; CHEBI:17980
+
+    KEGG IDs: KEGG:C00054; KEGG:C00053'
+measurements:
+- id: measurement_2_8_2__Brassica_napus_O82410_3_-Phosphoadenylyl_sulfate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_8_2__Brassica_napus_O82410_24-epi-Cathasterone
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_8_2__Brassica_napus_O82410_3_-Phosphoadenylyl_sulfate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_8_2__Brassica_napus_O82410_3_-Phosphoadenylyl_sulfate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0023
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3_-Phosphoadenylyl_sulfate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10409637'
+- id: 2_8_2__Brassica_napus_O82410_3_-Phosphoadenylyl_sulfate_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.2e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3_-Phosphoadenylyl_sulfate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10409637'
+- id: 2_8_2__Brassica_napus_O82410_3_-Phosphoadenylyl_sulfate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 9.6e-09
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3_-Phosphoadenylyl_sulfate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10409637'
+- id: 2_8_2__Brassica_napus_O82410_24-epi-Cathasterone_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.031
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_24-epi-Cathasterone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10409637'
+- id: 2_8_2__Brassica_napus_O82410_24-epi-Cathasterone_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.4e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_24-epi-Cathasterone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10409637'
+- id: 2_8_2__Brassica_napus_O82410_24-epi-Cathasterone_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 4.2e-08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_24-epi-Cathasterone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10409637'
+- id: 2_8_2__Brassica_napus_O82410_3_-Phosphoadenylyl_sulfate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.0e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3_-Phosphoadenylyl_sulfate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10409637'
+buffer:
+  buffer: 50 mM Tris
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 66073
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10409637/
+  pubmed_id: '10409637'
+  doi: null
+name: Merged entry for O82410 wildtype
+description: 'Merged from 3 files: SABIO_EC2.8.2._Brassica_napus__O82410_s_3_-Phosphoadenylyl.yaml,
+  SABIO_EC2.8.2._Brassica_napus__O82410_s_24-epi-Cathasterone.yaml, SABIO_EC2.8.2._Brassica_napus__O82410_s_3_-Phosphoadenylyl_2.yaml'

@@ -1,0 +1,1477 @@
+version: '2.0'
+created: '2025-11-20T13:39:25.194054'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_82_P52426_p56173
+  name: malate dehydrogenase (NADP+)
+  ecnumber: 1.1.1.82
+  organism: Spinacia oleracea
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P52426
+  wildtype_sequence: MAVAELSPCYQTQIVKPPHLSWLSNNHKLNLLGLPKASRITEICCSLAPNQVQTPVAVPTGAQSIKPECYGVFCWTYDLKKEEETRSWKKMITIAISGAAGTISNHLLFKLASGVVFGPDQPIALKLLGSEKSFHALEGVAMELEDSLYPLLREVSIGIDPYEVFEDAEWALLIGAKPRGPGMERADLLDINGKIYAEQGKALNAVASPNVKVIVVGNPCNTNALICLKNPPNIPAKNFHSLTRLDENRAKCQLALKAGVFYDKVSNVTIWGNHSTTQVPDFVNAQIGGVPVKEVIKAQKWLEEEFTEKVRKRGGVLIQKWGRSSAASTAVSIVDAINPLITPTPPGDWFPSGVYTNGNPYGIAEDLIYSMPCRSKGDGDYELVKDVIFDDYLRKRIKTSEEELLAEKRCTAHLTGEGIAVCDLPAGDTMLPGEM
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Oxaloacetate
+  name: Oxaloacetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Malate
+  name: L-Malate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Reduced_thioredoxin
+  name: Reduced thioredoxin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_L-Malate
+  name: L-Malate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Oxaloacetate
+  name: Oxaloacetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_143_EC1_1_1_82_Spinacia_oleracea_P52426_NADPH
+  name: Reaction catalyzed by malate dehydrogenase (NADP+) on NADPH
+  equation: NADP+ + L-Malate = NADPH + Oxaloacetate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_Oxaloacetate
+  products:
+  - species_id: product_L-Malate
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_1_1_82_P52426_p56173
+    role: BIOCATALYST
+  - species_id: activator_Reduced_thioredoxin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 10824;10825;10826;10827
+  KEGGid: R00343
+  notes: 'ChEBI IDs: CHEBI:24959; CHEBI:13397; CHEBI:13398; CHEBI:15589; CHEBI:7424;
+    CHEBI:16452; CHEBI:15033; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357;
+    CHEBI:25523; CHEBI:15967; CHEBI:12820; CHEBI:30797; CHEBI:24636; CHEBI:423; CHEBI:29233;
+    CHEBI:14703; CHEBI:5584; CHEBI:13399; CHEBI:11066; CHEBI:25734; CHEBI:18784; CHEBI:16474;
+    CHEBI:44286; CHEBI:25731; CHEBI:13140; CHEBI:30744; CHEBI:18785; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:7812; CHEBI:18009; CHEBI:58349; CHEBI:24958; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00342; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00036; KEGG:C00149;
+    KEGG:C11037'
+- id: sabiork_143_EC1_1_1_82_Spinacia_oleracea_P52426_NADPH
+  name: Reaction catalyzed by malate dehydrogenase (NADP+) on NADPH
+  equation: NADP+ + L-Malate = NADPH + Oxaloacetate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_Oxaloacetate
+  products:
+  - species_id: product_L-Malate
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_1_1_82_P52426_p56155
+    role: BIOCATALYST
+  - species_id: activator_Reduced_thioredoxin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 10824;10825;10826;10827
+  KEGGid: R00343
+  notes: 'ChEBI IDs: CHEBI:24959; CHEBI:13397; CHEBI:13398; CHEBI:15589; CHEBI:7424;
+    CHEBI:16452; CHEBI:15033; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357;
+    CHEBI:25523; CHEBI:15967; CHEBI:12820; CHEBI:30797; CHEBI:24636; CHEBI:423; CHEBI:29233;
+    CHEBI:14703; CHEBI:5584; CHEBI:13399; CHEBI:11066; CHEBI:25734; CHEBI:18784; CHEBI:16474;
+    CHEBI:44286; CHEBI:25731; CHEBI:13140; CHEBI:30744; CHEBI:18785; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:7812; CHEBI:18009; CHEBI:58349; CHEBI:24958; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00342; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00036; KEGG:C00149;
+    KEGG:C11037'
+- id: sabiork_143_EC1_1_1_82_Spinacia_oleracea_P52426_NADPH
+  name: Reaction catalyzed by malate dehydrogenase (NADP+) on NADPH
+  equation: NADP+ + L-Malate = NADPH + Oxaloacetate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_Oxaloacetate
+  products:
+  - species_id: product_NADP_
+  - species_id: product_L-Malate
+  modifiers:
+  - species_id: protein_1_1_1_82_P52426_p56157
+    role: BIOCATALYST
+  - species_id: activator_Reduced_thioredoxin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 10824;10825;10826;10827
+  KEGGid: R00343
+  notes: 'ChEBI IDs: CHEBI:24959; CHEBI:13397; CHEBI:13398; CHEBI:15589; CHEBI:7424;
+    CHEBI:16452; CHEBI:15033; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357;
+    CHEBI:25523; CHEBI:15967; CHEBI:12820; CHEBI:30797; CHEBI:24636; CHEBI:423; CHEBI:29233;
+    CHEBI:14703; CHEBI:5584; CHEBI:13399; CHEBI:11066; CHEBI:25734; CHEBI:18784; CHEBI:16474;
+    CHEBI:44286; CHEBI:25731; CHEBI:13140; CHEBI:30744; CHEBI:18785; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:7812; CHEBI:18009; CHEBI:58349; CHEBI:24958; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00342; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00036; KEGG:C00149;
+    KEGG:C11037'
+- id: sabiork_143_EC1_1_1_82_Spinacia_oleracea_P52426_NADPH
+  name: Reaction catalyzed by malate dehydrogenase (NADP+) on NADPH
+  equation: NADP+ + L-Malate = NADPH + Oxaloacetate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_Oxaloacetate
+  products:
+  - species_id: product_NADP_
+  - species_id: product_L-Malate
+  modifiers:
+  - species_id: protein_1_1_1_82_P52426_p56159
+    role: BIOCATALYST
+  - species_id: activator_Reduced_thioredoxin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 10824;10825;10826;10827
+  KEGGid: R00343
+  notes: 'ChEBI IDs: CHEBI:24959; CHEBI:13397; CHEBI:13398; CHEBI:15589; CHEBI:7424;
+    CHEBI:16452; CHEBI:15033; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357;
+    CHEBI:25523; CHEBI:15967; CHEBI:12820; CHEBI:30797; CHEBI:24636; CHEBI:423; CHEBI:29233;
+    CHEBI:14703; CHEBI:5584; CHEBI:13399; CHEBI:11066; CHEBI:25734; CHEBI:18784; CHEBI:16474;
+    CHEBI:44286; CHEBI:25731; CHEBI:13140; CHEBI:30744; CHEBI:18785; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:7812; CHEBI:18009; CHEBI:58349; CHEBI:24958; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00342; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00036; KEGG:C00149;
+    KEGG:C11037'
+- id: sabiork_143_EC1_1_1_82_Spinacia_oleracea_P52426_NADPH
+  name: Reaction catalyzed by malate dehydrogenase (NADP+) on NADPH
+  equation: NADP+ + L-Malate = NADPH + Oxaloacetate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_Oxaloacetate
+  products:
+  - species_id: product_L-Malate
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_1_1_82_P52426_p56161
+    role: BIOCATALYST
+  - species_id: activator_Reduced_thioredoxin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 10824;10825;10826;10827
+  KEGGid: R00343
+  notes: 'ChEBI IDs: CHEBI:24959; CHEBI:13397; CHEBI:13398; CHEBI:15589; CHEBI:7424;
+    CHEBI:16452; CHEBI:15033; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357;
+    CHEBI:25523; CHEBI:15967; CHEBI:12820; CHEBI:30797; CHEBI:24636; CHEBI:423; CHEBI:29233;
+    CHEBI:14703; CHEBI:5584; CHEBI:13399; CHEBI:11066; CHEBI:25734; CHEBI:18784; CHEBI:16474;
+    CHEBI:44286; CHEBI:25731; CHEBI:13140; CHEBI:30744; CHEBI:18785; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:7812; CHEBI:18009; CHEBI:58349; CHEBI:24958; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00342; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00036; KEGG:C00149;
+    KEGG:C11037'
+- id: sabiork_143_EC1_1_1_82_Spinacia_oleracea_P52426_NADPH
+  name: Reaction catalyzed by malate dehydrogenase (NADP+) on NADPH
+  equation: NADP+ + L-Malate = NADPH + Oxaloacetate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_Oxaloacetate
+  products:
+  - species_id: product_L-Malate
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_1_1_82_P52426_p56162
+    role: BIOCATALYST
+  - species_id: activator_Reduced_thioredoxin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 10824;10825;10826;10827
+  KEGGid: R00343
+  notes: 'ChEBI IDs: CHEBI:24959; CHEBI:13397; CHEBI:13398; CHEBI:15589; CHEBI:7424;
+    CHEBI:16452; CHEBI:15033; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357;
+    CHEBI:25523; CHEBI:15967; CHEBI:12820; CHEBI:30797; CHEBI:24636; CHEBI:423; CHEBI:29233;
+    CHEBI:14703; CHEBI:5584; CHEBI:13399; CHEBI:11066; CHEBI:25734; CHEBI:18784; CHEBI:16474;
+    CHEBI:44286; CHEBI:25731; CHEBI:13140; CHEBI:30744; CHEBI:18785; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:7812; CHEBI:18009; CHEBI:58349; CHEBI:24958; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00342; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00036; KEGG:C00149;
+    KEGG:C11037'
+- id: sabiork_143_EC1_1_1_82_Spinacia_oleracea_P52426_NADPH
+  name: Reaction catalyzed by malate dehydrogenase (NADP+) on NADPH
+  equation: NADP+ + L-Malate = NADPH + Oxaloacetate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_Oxaloacetate
+  products:
+  - species_id: product_NADP_
+  - species_id: product_L-Malate
+  modifiers:
+  - species_id: protein_1_1_1_82_P52426_p56168
+    role: BIOCATALYST
+  - species_id: activator_Reduced_thioredoxin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 10824;10825;10826;10827
+  KEGGid: R00343
+  notes: 'ChEBI IDs: CHEBI:24959; CHEBI:13397; CHEBI:13398; CHEBI:15589; CHEBI:7424;
+    CHEBI:16452; CHEBI:15033; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357;
+    CHEBI:25523; CHEBI:15967; CHEBI:12820; CHEBI:30797; CHEBI:24636; CHEBI:423; CHEBI:29233;
+    CHEBI:14703; CHEBI:5584; CHEBI:13399; CHEBI:11066; CHEBI:25734; CHEBI:18784; CHEBI:16474;
+    CHEBI:44286; CHEBI:25731; CHEBI:13140; CHEBI:30744; CHEBI:18785; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:7812; CHEBI:18009; CHEBI:58349; CHEBI:24958; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00342; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00036; KEGG:C00149;
+    KEGG:C11037'
+- id: sabiork_143_EC1_1_1_82_Spinacia_oleracea_P52426_NADPH
+  name: Reaction catalyzed by malate dehydrogenase (NADP+) on NADPH
+  equation: NADP+ + L-Malate = NADPH + Oxaloacetate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_Oxaloacetate
+  products:
+  - species_id: product_L-Malate
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_1_1_82_P52426_p56170
+    role: BIOCATALYST
+  - species_id: activator_Reduced_thioredoxin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 10824;10825;10826;10827
+  KEGGid: R00343
+  notes: 'ChEBI IDs: CHEBI:24959; CHEBI:13397; CHEBI:13398; CHEBI:15589; CHEBI:7424;
+    CHEBI:16452; CHEBI:15033; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357;
+    CHEBI:25523; CHEBI:15967; CHEBI:12820; CHEBI:30797; CHEBI:24636; CHEBI:423; CHEBI:29233;
+    CHEBI:14703; CHEBI:5584; CHEBI:13399; CHEBI:11066; CHEBI:25734; CHEBI:18784; CHEBI:16474;
+    CHEBI:44286; CHEBI:25731; CHEBI:13140; CHEBI:30744; CHEBI:18785; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:7812; CHEBI:18009; CHEBI:58349; CHEBI:24958; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00342; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00036; KEGG:C00149;
+    KEGG:C11037'
+- id: sabiork_143_EC1_1_1_82_Spinacia_oleracea_P52426_NADPH
+  name: Reaction catalyzed by malate dehydrogenase (NADP+) on NADPH
+  equation: NADP+ + L-Malate = NADPH + Oxaloacetate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_Oxaloacetate
+  products:
+  - species_id: product_L-Malate
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_1_1_82_P52426_p56171
+    role: BIOCATALYST
+  - species_id: activator_Reduced_thioredoxin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 10824;10825;10826;10827
+  KEGGid: R00343
+  notes: 'ChEBI IDs: CHEBI:24959; CHEBI:13397; CHEBI:13398; CHEBI:15589; CHEBI:7424;
+    CHEBI:16452; CHEBI:15033; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357;
+    CHEBI:25523; CHEBI:15967; CHEBI:12820; CHEBI:30797; CHEBI:24636; CHEBI:423; CHEBI:29233;
+    CHEBI:14703; CHEBI:5584; CHEBI:13399; CHEBI:11066; CHEBI:25734; CHEBI:18784; CHEBI:16474;
+    CHEBI:44286; CHEBI:25731; CHEBI:13140; CHEBI:30744; CHEBI:18785; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:7812; CHEBI:18009; CHEBI:58349; CHEBI:24958; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00342; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00036; KEGG:C00149;
+    KEGG:C11037'
+- id: sabiork_143_EC1_1_1_82_Spinacia_oleracea_P52426_NADPH
+  name: Reaction catalyzed by malate dehydrogenase (NADP+) on NADPH
+  equation: NADP+ + L-Malate = NADPH + Oxaloacetate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_Oxaloacetate
+  products:
+  - species_id: product_L-Malate
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_1_1_82_P52426_p56172
+    role: BIOCATALYST
+  - species_id: activator_Reduced_thioredoxin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 10824;10825;10826;10827
+  KEGGid: R00343
+  notes: 'ChEBI IDs: CHEBI:24959; CHEBI:13397; CHEBI:13398; CHEBI:15589; CHEBI:7424;
+    CHEBI:16452; CHEBI:15033; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357;
+    CHEBI:25523; CHEBI:15967; CHEBI:12820; CHEBI:30797; CHEBI:24636; CHEBI:423; CHEBI:29233;
+    CHEBI:14703; CHEBI:5584; CHEBI:13399; CHEBI:11066; CHEBI:25734; CHEBI:18784; CHEBI:16474;
+    CHEBI:44286; CHEBI:25731; CHEBI:13140; CHEBI:30744; CHEBI:18785; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:7812; CHEBI:18009; CHEBI:58349; CHEBI:24958; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00342; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00036; KEGG:C00149;
+    KEGG:C11037'
+- id: sabiork_143_EC1_1_1_82_Spinacia_oleracea_P52426_NADP_
+  name: Reaction catalyzed by malate dehydrogenase (NADP+) on NADP+
+  equation: NADP+ + L-Malate = NADPH + Oxaloacetate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADP_
+  - species_id: substrate_L-Malate
+  products:
+  - species_id: product_Oxaloacetate
+  - species_id: product_NADPH
+  modifiers:
+  - species_id: protein_1_1_1_82_P52426_p55470
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 10824;10825;10826;10827
+  KEGGid: R00343
+  notes: 'ChEBI IDs: CHEBI:24959; CHEBI:13397; CHEBI:13398; CHEBI:15589; CHEBI:7424;
+    CHEBI:16452; CHEBI:21903; CHEBI:44405; CHEBI:7425; CHEBI:29234; CHEBI:25523; CHEBI:13357;
+    CHEBI:12820; CHEBI:30797; CHEBI:423; CHEBI:24636; CHEBI:29233; CHEBI:14703; CHEBI:5584;
+    CHEBI:11066; CHEBI:13399; CHEBI:25734; CHEBI:18784; CHEBI:16474; CHEBI:44286;
+    CHEBI:25731; CHEBI:13140; CHEBI:18785; CHEBI:30744; CHEBI:21904; CHEBI:44409;
+    CHEBI:15378; CHEBI:18009; CHEBI:7812; CHEBI:58349; CHEBI:24958; CHEBI:13400; CHEBI:57783;
+    CHEBI:10744
+
+    KEGG IDs: KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00036; KEGG:C00149; KEGG:C11037'
+- id: sabiork_143_EC1_1_1_82_Spinacia_oleracea_P52426_NADP_
+  name: Reaction catalyzed by malate dehydrogenase (NADP+) on NADP+
+  equation: NADP+ + L-Malate = NADPH + Oxaloacetate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADP_
+  - species_id: substrate_L-Malate
+  products:
+  - species_id: product_Oxaloacetate
+  - species_id: product_NADPH
+  modifiers:
+  - species_id: protein_1_1_1_82_P52426_p55471
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 10824;10825;10826;10827
+  KEGGid: R00343
+  notes: 'ChEBI IDs: CHEBI:24959; CHEBI:13397; CHEBI:13398; CHEBI:15589; CHEBI:7424;
+    CHEBI:16452; CHEBI:21903; CHEBI:44405; CHEBI:7425; CHEBI:29234; CHEBI:25523; CHEBI:13357;
+    CHEBI:12820; CHEBI:30797; CHEBI:423; CHEBI:24636; CHEBI:29233; CHEBI:14703; CHEBI:11066;
+    CHEBI:13399; CHEBI:5584; CHEBI:25734; CHEBI:18784; CHEBI:16474; CHEBI:44286; CHEBI:25731;
+    CHEBI:13140; CHEBI:30744; CHEBI:18785; CHEBI:21904; CHEBI:44409; CHEBI:15378;
+    CHEBI:18009; CHEBI:7812; CHEBI:58349; CHEBI:24958; CHEBI:13400; CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00036; KEGG:C00149; KEGG:C11037'
+- id: sabiork_143_EC1_1_1_82_Spinacia_oleracea_P52426_Oxaloacetate
+  name: Reaction catalyzed by malate dehydrogenase (NADP+) on Oxaloacetate
+  equation: NADP+ + L-Malate = NADPH + Oxaloacetate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxaloacetate
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_L-Malate
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_1_1_82_P52426_p56156
+    role: BIOCATALYST
+  - species_id: activator_Reduced_thioredoxin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 10824;10825;10826;10827
+  KEGGid: R00343
+  notes: 'ChEBI IDs: CHEBI:24959; CHEBI:13397; CHEBI:13398; CHEBI:15589; CHEBI:7424;
+    CHEBI:16452; CHEBI:15033; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357;
+    CHEBI:25523; CHEBI:15967; CHEBI:12820; CHEBI:30797; CHEBI:24636; CHEBI:423; CHEBI:29233;
+    CHEBI:14703; CHEBI:5584; CHEBI:13399; CHEBI:11066; CHEBI:25734; CHEBI:18784; CHEBI:16474;
+    CHEBI:44286; CHEBI:25731; CHEBI:13140; CHEBI:30744; CHEBI:18785; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:7812; CHEBI:18009; CHEBI:58349; CHEBI:24958; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00342; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00036; KEGG:C00149;
+    KEGG:C11037'
+- id: sabiork_143_EC1_1_1_82_Spinacia_oleracea_P52426_Oxaloacetate
+  name: Reaction catalyzed by malate dehydrogenase (NADP+) on Oxaloacetate
+  equation: NADP+ + L-Malate = NADPH + Oxaloacetate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxaloacetate
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_L-Malate
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_1_1_82_P52426_p56174
+    role: BIOCATALYST
+  - species_id: activator_Reduced_thioredoxin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 10824;10825;10826;10827
+  KEGGid: R00343
+  notes: 'ChEBI IDs: CHEBI:24959; CHEBI:13397; CHEBI:13398; CHEBI:15589; CHEBI:7424;
+    CHEBI:16452; CHEBI:15033; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357;
+    CHEBI:25523; CHEBI:15967; CHEBI:12820; CHEBI:30797; CHEBI:24636; CHEBI:423; CHEBI:29233;
+    CHEBI:14703; CHEBI:5584; CHEBI:13399; CHEBI:11066; CHEBI:25734; CHEBI:18784; CHEBI:16474;
+    CHEBI:44286; CHEBI:25731; CHEBI:13140; CHEBI:30744; CHEBI:18785; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:7812; CHEBI:18009; CHEBI:58349; CHEBI:24958; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00342; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00036; KEGG:C00149;
+    KEGG:C11037'
+- id: sabiork_143_EC1_1_1_82_Spinacia_oleracea_P52426_Oxaloacetate
+  name: Reaction catalyzed by malate dehydrogenase (NADP+) on Oxaloacetate
+  equation: NADP+ + L-Malate = NADPH + Oxaloacetate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxaloacetate
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_L-Malate
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_1_1_82_P52426_p56175
+    role: BIOCATALYST
+  - species_id: activator_Reduced_thioredoxin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 10824;10825;10826;10827
+  KEGGid: R00343
+  notes: 'ChEBI IDs: CHEBI:24959; CHEBI:13397; CHEBI:13398; CHEBI:15589; CHEBI:7424;
+    CHEBI:16452; CHEBI:15033; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357;
+    CHEBI:25523; CHEBI:15967; CHEBI:12820; CHEBI:30797; CHEBI:24636; CHEBI:423; CHEBI:29233;
+    CHEBI:14703; CHEBI:5584; CHEBI:13399; CHEBI:11066; CHEBI:25734; CHEBI:18784; CHEBI:16474;
+    CHEBI:44286; CHEBI:25731; CHEBI:13140; CHEBI:30744; CHEBI:18785; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:7812; CHEBI:18009; CHEBI:58349; CHEBI:24958; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00342; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00036; KEGG:C00149;
+    KEGG:C11037'
+- id: sabiork_143_EC1_1_1_82_Spinacia_oleracea_P52426_Oxaloacetate
+  name: Reaction catalyzed by malate dehydrogenase (NADP+) on Oxaloacetate
+  equation: NADP+ + L-Malate = NADPH + Oxaloacetate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxaloacetate
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_L-Malate
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_1_1_82_P52426_p56176
+    role: BIOCATALYST
+  - species_id: activator_Reduced_thioredoxin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 10824;10825;10826;10827
+  KEGGid: R00343
+  notes: 'ChEBI IDs: CHEBI:24959; CHEBI:13397; CHEBI:13398; CHEBI:15589; CHEBI:7424;
+    CHEBI:16452; CHEBI:15033; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357;
+    CHEBI:25523; CHEBI:15967; CHEBI:12820; CHEBI:30797; CHEBI:24636; CHEBI:423; CHEBI:29233;
+    CHEBI:14703; CHEBI:5584; CHEBI:13399; CHEBI:11066; CHEBI:25734; CHEBI:18784; CHEBI:16474;
+    CHEBI:44286; CHEBI:25731; CHEBI:13140; CHEBI:30744; CHEBI:18785; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:7812; CHEBI:18009; CHEBI:58349; CHEBI:24958; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00342; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00036; KEGG:C00149;
+    KEGG:C11037'
+- id: sabiork_143_EC1_1_1_82_Spinacia_oleracea_P52426_Oxaloacetate
+  name: Reaction catalyzed by malate dehydrogenase (NADP+) on Oxaloacetate
+  equation: NADP+ + L-Malate = NADPH + Oxaloacetate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxaloacetate
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_L-Malate
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_1_1_82_P52426_p56177
+    role: BIOCATALYST
+  - species_id: activator_Reduced_thioredoxin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 10824;10825;10826;10827
+  KEGGid: R00343
+  notes: 'ChEBI IDs: CHEBI:24959; CHEBI:13397; CHEBI:13398; CHEBI:15589; CHEBI:7424;
+    CHEBI:16452; CHEBI:15033; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357;
+    CHEBI:25523; CHEBI:15967; CHEBI:12820; CHEBI:30797; CHEBI:24636; CHEBI:423; CHEBI:29233;
+    CHEBI:14703; CHEBI:5584; CHEBI:13399; CHEBI:11066; CHEBI:25734; CHEBI:18784; CHEBI:16474;
+    CHEBI:44286; CHEBI:25731; CHEBI:13140; CHEBI:30744; CHEBI:18785; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:7812; CHEBI:18009; CHEBI:58349; CHEBI:24958; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00342; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00036; KEGG:C00149;
+    KEGG:C11037'
+- id: sabiork_143_EC1_1_1_82_Spinacia_oleracea_P52426_Oxaloacetate
+  name: Reaction catalyzed by malate dehydrogenase (NADP+) on Oxaloacetate
+  equation: NADP+ + L-Malate = NADPH + Oxaloacetate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxaloacetate
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_L-Malate
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_1_1_82_P52426_p56158
+    role: BIOCATALYST
+  - species_id: activator_Reduced_thioredoxin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 10824;10825;10826;10827
+  KEGGid: R00343
+  notes: 'ChEBI IDs: CHEBI:24959; CHEBI:13397; CHEBI:13398; CHEBI:15589; CHEBI:7424;
+    CHEBI:16452; CHEBI:15033; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357;
+    CHEBI:25523; CHEBI:15967; CHEBI:12820; CHEBI:30797; CHEBI:24636; CHEBI:423; CHEBI:29233;
+    CHEBI:14703; CHEBI:5584; CHEBI:13399; CHEBI:11066; CHEBI:25734; CHEBI:18784; CHEBI:16474;
+    CHEBI:44286; CHEBI:25731; CHEBI:13140; CHEBI:30744; CHEBI:18785; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:7812; CHEBI:18009; CHEBI:58349; CHEBI:24958; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00342; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00036; KEGG:C00149;
+    KEGG:C11037'
+- id: sabiork_143_EC1_1_1_82_Spinacia_oleracea_P52426_Oxaloacetate
+  name: Reaction catalyzed by malate dehydrogenase (NADP+) on Oxaloacetate
+  equation: NADP+ + L-Malate = NADPH + Oxaloacetate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxaloacetate
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_NADP_
+  - species_id: product_L-Malate
+  modifiers:
+  - species_id: protein_1_1_1_82_P52426_p56160
+    role: BIOCATALYST
+  - species_id: activator_Reduced_thioredoxin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 10824;10825;10826;10827
+  KEGGid: R00343
+  notes: 'ChEBI IDs: CHEBI:24959; CHEBI:13397; CHEBI:13398; CHEBI:15589; CHEBI:7424;
+    CHEBI:16452; CHEBI:15033; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357;
+    CHEBI:25523; CHEBI:15967; CHEBI:12820; CHEBI:30797; CHEBI:24636; CHEBI:423; CHEBI:29233;
+    CHEBI:14703; CHEBI:5584; CHEBI:13399; CHEBI:11066; CHEBI:25734; CHEBI:18784; CHEBI:16474;
+    CHEBI:44286; CHEBI:25731; CHEBI:13140; CHEBI:30744; CHEBI:18785; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:7812; CHEBI:18009; CHEBI:58349; CHEBI:24958; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00342; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00036; KEGG:C00149;
+    KEGG:C11037'
+- id: sabiork_143_EC1_1_1_82_Spinacia_oleracea_P52426_Oxaloacetate
+  name: Reaction catalyzed by malate dehydrogenase (NADP+) on Oxaloacetate
+  equation: NADP+ + L-Malate = NADPH + Oxaloacetate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxaloacetate
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_NADP_
+  - species_id: product_L-Malate
+  modifiers:
+  - species_id: protein_1_1_1_82_P52426_p56163
+    role: BIOCATALYST
+  - species_id: activator_Reduced_thioredoxin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 10824;10825;10826;10827
+  KEGGid: R00343
+  notes: 'ChEBI IDs: CHEBI:24959; CHEBI:13397; CHEBI:13398; CHEBI:15589; CHEBI:7424;
+    CHEBI:16452; CHEBI:15033; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357;
+    CHEBI:25523; CHEBI:15967; CHEBI:12820; CHEBI:30797; CHEBI:24636; CHEBI:423; CHEBI:29233;
+    CHEBI:14703; CHEBI:5584; CHEBI:13399; CHEBI:11066; CHEBI:25734; CHEBI:18784; CHEBI:16474;
+    CHEBI:44286; CHEBI:25731; CHEBI:13140; CHEBI:30744; CHEBI:18785; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:7812; CHEBI:18009; CHEBI:58349; CHEBI:24958; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00342; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00036; KEGG:C00149;
+    KEGG:C11037'
+- id: sabiork_143_EC1_1_1_82_Spinacia_oleracea_P52426_Oxaloacetate
+  name: Reaction catalyzed by malate dehydrogenase (NADP+) on Oxaloacetate
+  equation: NADP+ + L-Malate = NADPH + Oxaloacetate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxaloacetate
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_NADP_
+  - species_id: product_L-Malate
+  modifiers:
+  - species_id: protein_1_1_1_82_P52426_p56165
+    role: BIOCATALYST
+  - species_id: activator_Reduced_thioredoxin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 10824;10825;10826;10827
+  KEGGid: R00343
+  notes: 'ChEBI IDs: CHEBI:24959; CHEBI:13397; CHEBI:13398; CHEBI:15589; CHEBI:7424;
+    CHEBI:16452; CHEBI:15033; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357;
+    CHEBI:25523; CHEBI:15967; CHEBI:12820; CHEBI:30797; CHEBI:24636; CHEBI:423; CHEBI:29233;
+    CHEBI:14703; CHEBI:5584; CHEBI:13399; CHEBI:11066; CHEBI:25734; CHEBI:18784; CHEBI:16474;
+    CHEBI:44286; CHEBI:25731; CHEBI:13140; CHEBI:30744; CHEBI:18785; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:7812; CHEBI:18009; CHEBI:58349; CHEBI:24958; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00342; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00036; KEGG:C00149;
+    KEGG:C11037'
+- id: sabiork_143_EC1_1_1_82_Spinacia_oleracea_P52426_Oxaloacetate
+  name: Reaction catalyzed by malate dehydrogenase (NADP+) on Oxaloacetate
+  equation: NADP+ + L-Malate = NADPH + Oxaloacetate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxaloacetate
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_L-Malate
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_1_1_82_P52426_p56164
+    role: BIOCATALYST
+  - species_id: activator_Reduced_thioredoxin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 10824;10825;10826;10827
+  KEGGid: R00343
+  notes: 'ChEBI IDs: CHEBI:24959; CHEBI:13397; CHEBI:13398; CHEBI:15589; CHEBI:7424;
+    CHEBI:16452; CHEBI:15033; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357;
+    CHEBI:25523; CHEBI:15967; CHEBI:12820; CHEBI:30797; CHEBI:24636; CHEBI:423; CHEBI:29233;
+    CHEBI:14703; CHEBI:5584; CHEBI:13399; CHEBI:11066; CHEBI:25734; CHEBI:18784; CHEBI:16474;
+    CHEBI:44286; CHEBI:25731; CHEBI:13140; CHEBI:30744; CHEBI:18785; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:7812; CHEBI:18009; CHEBI:58349; CHEBI:24958; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00342; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00036; KEGG:C00149;
+    KEGG:C11037'
+- id: sabiork_143_EC1_1_1_82_Spinacia_oleracea_P52426_Oxaloacetate
+  name: Reaction catalyzed by malate dehydrogenase (NADP+) on Oxaloacetate
+  equation: NADP+ + L-Malate = NADPH + Oxaloacetate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxaloacetate
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_NADP_
+  - species_id: product_L-Malate
+  modifiers:
+  - species_id: protein_1_1_1_82_P52426_p56166
+    role: BIOCATALYST
+  - species_id: activator_Reduced_thioredoxin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 10824;10825;10826;10827
+  KEGGid: R00343
+  notes: 'ChEBI IDs: CHEBI:24959; CHEBI:13397; CHEBI:13398; CHEBI:15589; CHEBI:7424;
+    CHEBI:16452; CHEBI:15033; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357;
+    CHEBI:25523; CHEBI:15967; CHEBI:12820; CHEBI:30797; CHEBI:24636; CHEBI:423; CHEBI:29233;
+    CHEBI:14703; CHEBI:5584; CHEBI:13399; CHEBI:11066; CHEBI:25734; CHEBI:18784; CHEBI:16474;
+    CHEBI:44286; CHEBI:25731; CHEBI:13140; CHEBI:30744; CHEBI:18785; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:7812; CHEBI:18009; CHEBI:58349; CHEBI:24958; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00342; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00036; KEGG:C00149;
+    KEGG:C11037'
+- id: sabiork_143_EC1_1_1_82_Spinacia_oleracea_P52426_Oxaloacetate
+  name: Reaction catalyzed by malate dehydrogenase (NADP+) on Oxaloacetate
+  equation: NADP+ + L-Malate = NADPH + Oxaloacetate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxaloacetate
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_L-Malate
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_1_1_82_P52426_p56167
+    role: BIOCATALYST
+  - species_id: activator_Reduced_thioredoxin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 10824;10825;10826;10827
+  KEGGid: R00343
+  notes: 'ChEBI IDs: CHEBI:24959; CHEBI:13397; CHEBI:13398; CHEBI:15589; CHEBI:7424;
+    CHEBI:16452; CHEBI:15033; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357;
+    CHEBI:25523; CHEBI:15967; CHEBI:12820; CHEBI:30797; CHEBI:24636; CHEBI:423; CHEBI:29233;
+    CHEBI:14703; CHEBI:5584; CHEBI:13399; CHEBI:11066; CHEBI:25734; CHEBI:18784; CHEBI:16474;
+    CHEBI:44286; CHEBI:25731; CHEBI:13140; CHEBI:30744; CHEBI:18785; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:7812; CHEBI:18009; CHEBI:58349; CHEBI:24958; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00342; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00036; KEGG:C00149;
+    KEGG:C11037'
+- id: sabiork_143_EC1_1_1_82_Spinacia_oleracea_P52426_Oxaloacetate
+  name: Reaction catalyzed by malate dehydrogenase (NADP+) on Oxaloacetate
+  equation: NADP+ + L-Malate = NADPH + Oxaloacetate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxaloacetate
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_NADP_
+  - species_id: product_L-Malate
+  modifiers:
+  - species_id: protein_1_1_1_82_P52426_p56169
+    role: BIOCATALYST
+  - species_id: activator_Reduced_thioredoxin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 10824;10825;10826;10827
+  KEGGid: R00343
+  notes: 'ChEBI IDs: CHEBI:24959; CHEBI:13397; CHEBI:13398; CHEBI:15589; CHEBI:7424;
+    CHEBI:16452; CHEBI:15033; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357;
+    CHEBI:25523; CHEBI:15967; CHEBI:12820; CHEBI:30797; CHEBI:24636; CHEBI:423; CHEBI:29233;
+    CHEBI:14703; CHEBI:5584; CHEBI:13399; CHEBI:11066; CHEBI:25734; CHEBI:18784; CHEBI:16474;
+    CHEBI:44286; CHEBI:25731; CHEBI:13140; CHEBI:30744; CHEBI:18785; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:7812; CHEBI:18009; CHEBI:58349; CHEBI:24958; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00342; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00036; KEGG:C00149;
+    KEGG:C11037'
+measurements:
+- id: measurement_1_1_1_82_Spinacia_oleracea_P52426_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.9
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_82_Spinacia_oleracea_P52426_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.9
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_82_Spinacia_oleracea_P52426_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.9
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_82_Spinacia_oleracea_P52426_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.9
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_82_Spinacia_oleracea_P52426_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.9
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_82_Spinacia_oleracea_P52426_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.9
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_82_Spinacia_oleracea_P52426_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.9
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_82_Spinacia_oleracea_P52426_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.9
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_82_Spinacia_oleracea_P52426_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.9
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_82_Spinacia_oleracea_P52426_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.9
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_82_Spinacia_oleracea_P52426_NADP_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_82_Spinacia_oleracea_P52426_NADP_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_82_Spinacia_oleracea_P52426_Oxaloacetate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.9
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_82_Spinacia_oleracea_P52426_Oxaloacetate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.9
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_82_Spinacia_oleracea_P52426_Oxaloacetate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.9
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_82_Spinacia_oleracea_P52426_Oxaloacetate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.9
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_82_Spinacia_oleracea_P52426_Oxaloacetate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.9
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_82_Spinacia_oleracea_P52426_Oxaloacetate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.9
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_82_Spinacia_oleracea_P52426_Oxaloacetate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.9
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_82_Spinacia_oleracea_P52426_Oxaloacetate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.9
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_82_Spinacia_oleracea_P52426_Oxaloacetate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.9
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_82_Spinacia_oleracea_P52426_Oxaloacetate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.9
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_82_Spinacia_oleracea_P52426_Oxaloacetate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.9
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_82_Spinacia_oleracea_P52426_Oxaloacetate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.9
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_82_Spinacia_oleracea_P52426_Oxaloacetate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.9
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1_82_Spinacia_oleracea_P52426_NADPH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000115
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.9
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8856084'
+- id: 1_1_1_82_Spinacia_oleracea_P52426_NADPH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 8.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.9
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8856084'
+- id: 1_1_1_82_Spinacia_oleracea_P52426_NADPH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.0001
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.9
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8856084'
+- id: 1_1_1_82_Spinacia_oleracea_P52426_NADPH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.9
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8856084'
+- id: 1_1_1_82_Spinacia_oleracea_P52426_NADPH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.83333e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.9
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8856084'
+- id: 1_1_1_82_Spinacia_oleracea_P52426_NADPH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 3.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.9
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8856084'
+- id: 1_1_1_82_Spinacia_oleracea_P52426_NADPH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 5.66667e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.9
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8856084'
+- id: 1_1_1_82_Spinacia_oleracea_P52426_NADPH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 7.33333e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.9
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8856084'
+- id: 1_1_1_82_Spinacia_oleracea_P52426_NADPH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 6.16667e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.9
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8856084'
+- id: 1_1_1_82_Spinacia_oleracea_P52426_NADPH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000241667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.9
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8856084'
+- id: 1_1_1_82_Spinacia_oleracea_P52426_NADP__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 6.7
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '3948869'
+- id: 1_1_1_82_Spinacia_oleracea_P52426_NADP__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.018
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '3948869'
+- id: 1_1_1_82_Spinacia_oleracea_P52426_NADP__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.002
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '3948869'
+- id: 1_1_1_82_Spinacia_oleracea_P52426_NADP__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 6.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '3948869'
+- id: 1_1_1_82_Spinacia_oleracea_P52426_Oxaloacetate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000115
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxaloacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.9
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8856084'
+- id: 1_1_1_82_Spinacia_oleracea_P52426_Oxaloacetate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 9.33333e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxaloacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.9
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8856084'
+- id: 1_1_1_82_Spinacia_oleracea_P52426_Oxaloacetate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000176667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxaloacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.9
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8856084'
+- id: 1_1_1_82_Spinacia_oleracea_P52426_Oxaloacetate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxaloacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.9
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8856084'
+- id: 1_1_1_82_Spinacia_oleracea_P52426_Oxaloacetate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 3.66667e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxaloacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.9
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8856084'
+- id: 1_1_1_82_Spinacia_oleracea_P52426_Oxaloacetate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000125
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxaloacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.9
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8856084'
+- id: 1_1_1_82_Spinacia_oleracea_P52426_Oxaloacetate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.16667e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxaloacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.9
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8856084'
+- id: 1_1_1_82_Spinacia_oleracea_P52426_Oxaloacetate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 9.66667e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxaloacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.9
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8856084'
+- id: 1_1_1_82_Spinacia_oleracea_P52426_Oxaloacetate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 9.83333e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxaloacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.9
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8856084'
+- id: 1_1_1_82_Spinacia_oleracea_P52426_Oxaloacetate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000131667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxaloacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.9
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8856084'
+- id: 1_1_1_82_Spinacia_oleracea_P52426_Oxaloacetate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000123333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxaloacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.9
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8856084'
+- id: 1_1_1_82_Spinacia_oleracea_P52426_Oxaloacetate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.83333e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxaloacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.9
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8856084'
+- id: 1_1_1_82_Spinacia_oleracea_P52426_Oxaloacetate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 4.16667e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxaloacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.9
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8856084'
+buffer:
+  buffer: 0.1 mM Tris-HCl, 5 mM Dithiothreitol; 100 mM sodium phosphate, 2 mM EDTA,
+    8.7 ¦ÌM thioredoxin m, 10.3 mM dithiothreitol, 20 mM glutamate, 1 unit/ml glutamate:oxaloacetate
+    aininotransferase
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 56173
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/8856084/
+  pubmed_id: '8856084'
+  doi: null
+- title: Reference for SABIO-RK entry 55470
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/3948869/
+  pubmed_id: '3948869'
+  doi: null
+name: Merged entry for P52426 wildtype
+description: 'Merged from 25 files: SABIO_EC1.1.1.82_Spinacia_oleracea__P52426_s_NADPH_10.yaml,
+  SABIO_EC1.1.1.82_Spinacia_oleracea__P52426_s_NADPH.yaml, SABIO_EC1.1.1.82_Spinacia_oleracea__P52426_s_NADPH_2.yaml,
+  SABIO_EC1.1.1.82_Spinacia_oleracea__P52426_s_NADPH_3.yaml, SABIO_EC1.1.1.82_Spinacia_oleracea__P52426_s_NADPH_4.yaml,
+  SABIO_EC1.1.1.82_Spinacia_oleracea__P52426_s_NADPH_5.yaml, SABIO_EC1.1.1.82_Spinacia_oleracea__P52426_s_NADPH_6.yaml,
+  SABIO_EC1.1.1.82_Spinacia_oleracea__P52426_s_NADPH_7.yaml, SABIO_EC1.1.1.82_Spinacia_oleracea__P52426_s_NADPH_8.yaml,
+  SABIO_EC1.1.1.82_Spinacia_oleracea__P52426_s_NADPH_9.yaml, SABIO_EC1.1.1.82_Spinacia_oleracea__P52426_s_NADP_.yaml,
+  SABIO_EC1.1.1.82_Spinacia_oleracea__P52426_s_NADP__2.yaml, SABIO_EC1.1.1.82_Spinacia_oleracea__P52426_s_Oxaloacetate.yaml,
+  SABIO_EC1.1.1.82_Spinacia_oleracea__P52426_s_Oxaloacetate_10.yaml, SABIO_EC1.1.1.82_Spinacia_oleracea__P52426_s_Oxaloacetate_11.yaml,
+  SABIO_EC1.1.1.82_Spinacia_oleracea__P52426_s_Oxaloacetate_12.yaml, SABIO_EC1.1.1.82_Spinacia_oleracea__P52426_s_Oxaloacetate_13.yaml,
+  SABIO_EC1.1.1.82_Spinacia_oleracea__P52426_s_Oxaloacetate_2.yaml, SABIO_EC1.1.1.82_Spinacia_oleracea__P52426_s_Oxaloacetate_3.yaml,
+  SABIO_EC1.1.1.82_Spinacia_oleracea__P52426_s_Oxaloacetate_4.yaml, SABIO_EC1.1.1.82_Spinacia_oleracea__P52426_s_Oxaloacetate_6.yaml,
+  SABIO_EC1.1.1.82_Spinacia_oleracea__P52426_s_Oxaloacetate_5.yaml, SABIO_EC1.1.1.82_Spinacia_oleracea__P52426_s_Oxaloacetate_7.yaml,
+  SABIO_EC1.1.1.82_Spinacia_oleracea__P52426_s_Oxaloacetate_8.yaml, SABIO_EC1.1.1.82_Spinacia_oleracea__P52426_s_Oxaloacetate_9.yaml'

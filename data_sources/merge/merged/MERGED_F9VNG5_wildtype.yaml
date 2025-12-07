@@ -1,0 +1,257 @@
+version: '2.0'
+created: '2025-11-20T13:42:01.582167'
+modified: null
+creators:
+- given_name: SKiD
+  family_name: Database
+  mail: skid@database.org
+vessels: null
+proteins:
+- id: protein_F9VNG5
+  name: Sulfurisphaera tokodaii
+  ecnumber: 1.1.1.3
+  organism: Sulfurisphaera tokodaii
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: null
+  uniprotid: F9VNG5
+  wildtype_sequence: MKLLLFGYGNVGKAFRKLLHEKRSPELNDVIIGGIVTRRGIMLQDKEDFTPDLEGDVFKAFEKIKPDIIVDVSSANYNNGEPSLSLYKEAIKDGVNIITTNKAPLALAFNEIFSLARSKGVKIGFQGTVMSGTPSINLYRVLPGSRVIKIRGILNGTTNFILTLMNKGVSFEEALKEAQRRGYAEEDPTLDINGFDAAAKITILANFMIGNSVTIKDVKFEGINRDLPKNEKIKLIAYADEKEVWVKPLPISQDDPLYNVDGVENALEITTDIQSILIRGPGAGPVNAAYGALSDLILLKRDCL
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_L-homoserine
+  name: L-homoserine
+  canonical_smiles: N[C@@H](CCO)C(=O)O
+  inchi: InChI=1S/C4H9NO3/c5-3(1-2-6)4(7)8/h3,6H,1-2,5H2,(H,7,8)/t3-/m0/s1
+  inchikey: UKAUYVFTDYCKQA-VKHMYHEASA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/12647
+- id: product
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADP_
+  name: NADP+
+  canonical_smiles: C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)(O)O)O)O)O)C(=O)N
+  inchi: InChI=1S/C21H28N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1-4,7-8,10-11,13-16,20-21,29-31H,5-6H2,(H7-,22,23,24,25,32,33,34,35,36,37,38,39)/p+1
+  inchikey: XJLXINKUBYWONI-UHFFFAOYSA-O
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/5886
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N
+  inchi: InChI=1S/C21H27N7O14P2/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(32)14(30)11(41-21)6-39-44(36,37)42-43(34,35)38-5-10-13(29)15(31)20(40-10)27-3-1-2-9(4-27)18(23)33/h1-4,7-8,10-11,13-16,20-21,29-32H,5-6H2,(H5-,22,23,24,25,33,34,35,36,37)
+  inchikey: BAWFJGJZGIEFAR-UHFFFAOYSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/5892
+reactions:
+- id: reaction_F9VNG5_L-homoserine
+  name: Reaction catalyzed by enzyme on L-homoserine
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-homoserine
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_F9VNG5
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_F9VNG5_NADP_
+  name: Reaction catalyzed by enzyme on NADP+
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADP_
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_F9VNG5
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_F9VNG5_NAD_
+  name: Reaction catalyzed by enzyme on NAD+
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_F9VNG5
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+measurements:
+- id: measurement_0
+  name: Experimental conditions (pH=8.0, T=30.0°C)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=8.0, T=30.0°C)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=8.0, T=30.0°C)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: F9VNG5_L-homoserine_Km_11408
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.21
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_L-homoserine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: null
+- id: F9VNG5_NADP__Km_11409
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 1.2
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '29636528'
+- id: F9VNG5_NAD__Km_11407
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.319843711834389
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: null
+buffer:
+  buffer: null
+  buffer_concentration: null
+references:
+- title: K.
+  authors: Tomonaga, Y., Kaneko, R., Goto, M., Ohshima, T., Yoshimune
+  year: '2015'
+  journal: Structural insight into activation of homoserine dehydrogenase from the
+    archaeon Sulfolobus tokodaii via reduction. Biochem. Biophys
+  uri: null
+  pubmed_id: null
+  doi: null
+  id: '39'
+  pages: 14-17
+  volume: '3'
+  citation: Tomonaga, Y.,Kaneko, R.,Goto, M.,Ohshima, T.,Yoshimune, K., Structural
+    insight into activation of homoserine dehydrogenase from the archaeon Sulfolobus
+    tokodaii via reduction. Biochem. Biophys, Rep., 2015, 14-17, 3
+- title: K.
+  authors: Ogata, K., Yajima, Y., Nakamura, S., Kaneko, R., Goto, M., Ohshima, T.,
+    Yoshimune
+  year: '2018'
+  journal: Inhibition of homoserine dehydrogenase by formation of a cysteine-NAD covalent
+    complex. Sci
+  uri: null
+  pubmed_id: '29636528'
+  doi: null
+  id: '52'
+  pages: '5749'
+  volume: '8'
+  citation: 'Ogata, K.,Yajima, Y.,Nakamura, S.,Kaneko, R.,Goto, M.,Ohshima, T.,Yoshimune,
+    K., Inhibition of homoserine dehydrogenase by formation of a cysteine-NAD covalent
+    complex. Sci, Rep., 2018, 5749, 8, PMID: 29636528'
+name: Merged entry for F9VNG5 wildtype
+description: 'Merged from 3 files: SKID_EC1.1.1.3_Sulfurisph_F9VNG5_L-homoserine.yaml,
+  SKID_EC1.1.1.3_Sulfurisph_F9VNG5_NADP_.yaml, SKID_EC1.1.1.3_Sulfurisph_F9VNG5_NAD_.yaml'

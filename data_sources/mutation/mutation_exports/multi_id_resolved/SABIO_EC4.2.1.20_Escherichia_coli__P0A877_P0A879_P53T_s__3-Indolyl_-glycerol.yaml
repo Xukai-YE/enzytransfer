@@ -1,0 +1,181 @@
+name: SABIO-RK Entry 16102
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 16102
+created: '2025-10-28T14:08:40.838662'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_2_1_20_P0A877_P0A879_p16102
+  name: indole-3-glycerol-phosphate lyase
+  sequence: null
+  ecnumber: 4.2.1.20
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: P53T
+  uniprotid: P0A877
+  wildtype_sequence: MERYESLFAQLKERKEGAFVPFVTLGDPGIEQSLKIIDTLIEAGADALELGIPFSDPLADGPTIQNATLRAFAAGVTPAQCFEMLALIRQKHPTIPIGLLMYANLVFNKGIDEFYAQCEKVGVDSVLVADVPVEESAPFRQAALRHNVAPIFICPPNADDDLLRQIASYGRGYTYLLSRAGVTGAENRAALPLNHLVAKLKEYNAAPPLQGFGISAPDQVKAAIDAGAAGAISGSAIVKIIEQHINEPEKMLAALKVFVQPMKAATRS
+  mutant_sequence: MERYESLFAQLKERKEGAFVPFVTLGDPGIEQSLKIIDTLIEAGADALELGITFSDPLADGPTIQNATLRAFAAGVTPAQCFEMLALIRQKHPTIPIGLLMYANLVFNKGIDEFYAQCEKVGVDSVLVADVPVEESAPFRQAALRHNVAPIFICPPNADDDLLRQIASYGRGYTYLLSRAGVTGAENRAALPLNHLVAKLKEYNAAPPLQGFGISAPDQVKAAIDAGAAGAISGSAIVKIIEQHINEPEKMLAALKVFVQPMKAATRS
+  resolution_status: multi_id_resolved
+complexes: null
+small_molecules:
+- id: substrate__3-Indolyl_-glycerol_phosphate
+  name: (3-Indolyl)-glycerol phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Indole
+  name: Indole
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Glyceraldehyde_3-phosphate
+  name: D-Glyceraldehyde 3-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_9527_EC4_2_1_20_Escherichia_coli_P0A877_P0A879__3-Indolyl_-glycerol_phosphate
+  name: Reaction catalyzed by indole-3-glycerol-phosphate lyase on (3-Indolyl)-glycerol
+    phosphate
+  equation: (3-Indolyl)-glycerol phosphate = D-Glyceraldehyde 3-phosphate + Indole
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate__3-Indolyl_-glycerol_phosphate
+  products:
+  - species_id: product_Indole
+  - species_id: product_D-Glyceraldehyde_3-phosphate
+  modifiers:
+  - species_id: protein_4_2_1_20_P0A877_P0A879_p16102
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 14081;14082;14083;14084
+  KEGGid: R02340
+  notes: 'ChEBI IDs: CHEBI:5915; CHEBI:51793; CHEBI:12417; CHEBI:5900; CHEBI:29052;
+    CHEBI:11201; CHEBI:24794; CHEBI:12984; CHEBI:16881; CHEBI:12983; CHEBI:181; CHEBI:21026;
+    CHEBI:18299; CHEBI:24825; CHEBI:59776; CHEBI:58866; CHEBI:60820; CHEBI:43537;
+    CHEBI:14444; CHEBI:18324; CHEBI:35581
+
+    KEGG IDs: KEGG:C00463; KEGG:C03506; KEGG:C00118'
+measurements:
+- id: measurement_4_2_1_20_Escherichia_coli_P0A877_P0A879__3-Indolyl_-glycerol_phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.8
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 4_2_1_20_Escherichia_coli_P0A877_P0A879__3-Indolyl_-glycerol_phosphate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.269
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__3-Indolyl_-glycerol_phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1939081'
+- id: 4_2_1_20_Escherichia_coli_P0A877_P0A879__3-Indolyl_-glycerol_phosphate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 500.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__3-Indolyl_-glycerol_phosphate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1939081'
+- id: 4_2_1_20_Escherichia_coli_P0A877_P0A879__3-Indolyl_-glycerol_phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00054
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__3-Indolyl_-glycerol_phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1939081'
+buffer:
+  buffer: Tris-Cl, 0.18 M NaCl, 0.2 mM dithiothreitol, 0.05 mM pyridoxal phosphate,
+    4 mM EDTA
+  buffer_concentration: 0.18 M
+references:
+- title: Reference for SABIO-RK entry 16102
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/1939081/
+  pubmed_id: '1939081'
+  doi: null

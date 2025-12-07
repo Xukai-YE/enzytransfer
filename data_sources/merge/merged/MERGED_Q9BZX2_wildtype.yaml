@@ -1,0 +1,288 @@
+version: '2.0'
+created: '2025-11-20T13:40:35.150951'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_48_Q9BZX2_p39676
+  name: uridine kinase
+  ecnumber: 2.7.1.48
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9BZX2
+  wildtype_sequence: MAGDSEQTLQNHQQPNGGEPFLIGVSGGTASGKSSVCAKIVQLLGQNEVDYRQKQVVILSQDSFYRVLTSEQKAKALKGQFNFDHPDAFDNELILKTLKEITEGKTVQIPVYDFVSHSRKEETVTVYPADVVLFEGILAFYSQEVRDLFQMKLFVDTDADTRLSRRVLRDISERGRDLEQILSQYITFVKPAFEEFCLPTKKYADVIIPRGADNLVAINLIVQHIQDILNGGPSKRQTNGCLNGYTPSRKRQASESSSRPH
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Cytidine
+  name: Cytidine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CMP
+  name: CMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Uridine
+  name: Uridine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_UMP
+  name: UMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_212_EC2_7_1_48_Homo_sapiens_Q9BZX2_ATP
+  name: Reaction catalyzed by uridine kinase on ATP
+  equation: Cytidine + ATP = CMP + ADP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Cytidine
+  products:
+  - species_id: product_CMP
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_48_Q9BZX2_p39676
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 24674;24675;24676;24677
+  KEGGid: R00513
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:40553; CHEBI:17361; CHEBI:41649; CHEBI:23515; CHEBI:41319; CHEBI:13236;
+    CHEBI:47362; CHEBI:41704; CHEBI:41691; CHEBI:10841; CHEBI:2359; CHEBI:50308; CHEBI:87518;
+    CHEBI:40938; CHEBI:41686; CHEBI:13274; CHEBI:456216; CHEBI:41312; CHEBI:60377;
+    CHEBI:22249; CHEBI:23520; CHEBI:17562; CHEBI:14063; CHEBI:15422; CHEBI:2342; CHEBI:3275;
+    CHEBI:4053; CHEBI:58120; CHEBI:41666; CHEBI:13222; CHEBI:22244; CHEBI:48799
+
+    KEGG IDs: KEGG:C00002; KEGG:C00008; KEGG:C00475; KEGG:C00055'
+- id: sabiork_85_EC2_7_1_48_Homo_sapiens_Q9BZX2_Uridine
+  name: Reaction catalyzed by uridine kinase on Uridine
+  equation: Uridine + ATP = ADP + UMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Uridine
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_ADP
+  - species_id: product_UMP
+  modifiers:
+  - species_id: protein_2_7_1_48_Q9BZX2_p39674
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 16825;16826;16827;16828
+  KEGGid: R00964
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:13508; CHEBI:16761; CHEBI:10789;
+    CHEBI:57299; CHEBI:40553; CHEBI:16695; CHEBI:15296; CHEBI:27231; CHEBI:46381;
+    CHEBI:13236; CHEBI:9893; CHEBI:46362; CHEBI:10841; CHEBI:2359; CHEBI:46386; CHEBI:87518;
+    CHEBI:57865; CHEBI:40938; CHEBI:47721; CHEBI:27227; CHEBI:46460; CHEBI:456216;
+    CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:46382; CHEBI:13509; CHEBI:46391; CHEBI:9849;
+    CHEBI:13222; CHEBI:22244; CHEBI:16704
+
+    KEGG IDs: KEGG:C00002; KEGG:C00008; KEGG:C00105; KEGG:C00299'
+measurements:
+- id: measurement_2_7_1_48_Homo_sapiens_Q9BZX2_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_7_1_48_Homo_sapiens_Q9BZX2_Uridine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_1_48_Homo_sapiens_Q9BZX2_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 8.6e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11306702'
+- id: 2_7_1_48_Homo_sapiens_Q9BZX2_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 37000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11306702'
+- id: 2_7_1_48_Homo_sapiens_Q9BZX2_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000108333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11306702'
+- id: 2_7_1_48_Homo_sapiens_Q9BZX2_Uridine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 26000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Uridine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11306702'
+- id: 2_7_1_48_Homo_sapiens_Q9BZX2_Uridine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Uridine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11306702'
+- id: 2_7_1_48_Homo_sapiens_Q9BZX2_Uridine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 4.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Uridine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11306702'
+buffer:
+  buffer: 50 mM Tris, 100 mM KCl, 5 mM MgCl2, 15 mM NaF, 5 mM DTT, 0.5 mg/ml BSA
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 39676
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11306702/
+  pubmed_id: '11306702'
+  doi: null
+name: Merged entry for Q9BZX2 wildtype
+description: 'Merged from 2 files: SABIO_EC2.7.1.48_Homo_sapiens__Q9BZX2_s_ATP.yaml,
+  SABIO_EC2.7.1.48_Homo_sapiens__Q9BZX2_s_Uridine.yaml'

@@ -1,0 +1,338 @@
+version: '2.0'
+created: '2025-11-20T13:40:05.148974'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_3_1_5_O86309_p73109
+  name: arylamine N-acetyltransferase
+  ecnumber: 2.3.1.5
+  organism: Mycobacterium smegmatis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: O86309
+  wildtype_sequence: MAMDLGGYLTRIGLDGRPRPDLGTLHAIVAAHNRSIPFENLDPLLGIPVADLSAEALFAKLVDRRRGGYCYEHNGLLGYVLEELGFEVERLSGRVVWMRADDAPLPAQTHNVLSVAVPGADGRYLVDVGFGGQTLTSPIRLEAGPVQQTRHEPYRLTRHGDDHTLAAQVRGEWQPLYTFTTEPRPRIDLEVGSWYVSTHPGSHFVTGLTVAVVTDDARYNLRGRNLAVHRSGATEHIRFDSAAQVLDAIVNRFGIDLGDLAGRDVQARVAEVLDT
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Acetyl-CoA
+  name: Acetyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Isoniazid
+  name: Isoniazid
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N-Acetylisoniazid
+  name: N-Acetylisoniazid
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_p-Anisidine
+  name: p-Anisidine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N-Acetyl-4-methoxyaniline
+  name: N-Acetyl-4-methoxyaniline
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_4-Aminoveratrole
+  name: 4-Aminoveratrole
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N-Acetyl-3
+  name: N-Acetyl-3
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4-dimethoxyaniline
+  name: 4-dimethoxyaniline
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_14461_EC2_3_1_5_Mycobacterium_smegmatis_O86309_Acetyl-CoA
+  name: Reaction catalyzed by arylamine N-acetyltransferase on Acetyl-CoA
+  equation: Acetyl-CoA + Isoniazid = Coenzyme A + N-Acetylisoniazid
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Acetyl-CoA
+  - species_id: substrate_Isoniazid
+  products:
+  - species_id: product_N-Acetylisoniazid
+  - species_id: product_Coenzyme_A
+  modifiers:
+  - species_id: protein_2_3_1_5_O86309_p73109
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R08248
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:57287; CHEBI:15346; CHEBI:23355; CHEBI:15351;
+    CHEBI:3771; CHEBI:13295; CHEBI:13294; CHEBI:741566; CHEBI:41597; CHEBI:40470;
+    CHEBI:57288; CHEBI:41631; CHEBI:7207; CHEBI:6030; CHEBI:13712; CHEBI:13298; CHEBI:2408
+
+    KEGG IDs: KEGG:C07054; KEGG:C07585; KEGG:C00010; KEGG:C00024'
+- id: sabiork_14453_EC2_3_1_5_Mycobacterium_smegmatis_O86309_p-Anisidine
+  name: Reaction catalyzed by N-hydroxyarylamine O-acetyltransferase on p-Anisidine
+  equation: Acetyl-CoA + p-Anisidine = Coenzyme A + N-Acetyl-4-methoxyaniline
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_p-Anisidine
+  - species_id: substrate_Acetyl-CoA
+  products:
+  - species_id: product_N-Acetyl-4-methoxyaniline
+  - species_id: product_Coenzyme_A
+  modifiers:
+  - species_id: protein_2_3_1_5_O86309_p73110
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:57287; CHEBI:15346; CHEBI:23355; CHEBI:15351;
+    CHEBI:3771; CHEBI:13295; CHEBI:13294; CHEBI:741566; CHEBI:41597; CHEBI:40470;
+    CHEBI:57288; CHEBI:41631; CHEBI:13712; CHEBI:13298; CHEBI:2408
+
+    KEGG IDs: KEGG:C00010; KEGG:C00024'
+- id: sabiork_16119_EC2_3_1_5_Mycobacterium_smegmatis_O86309_4-Aminoveratrole
+  name: Reaction catalyzed by arylamine N-acetyltransferase on 4-Aminoveratrole
+  equation: Acetyl-CoA + 4-Aminoveratrole = Coenzyme A + N-Acetyl-3,4-dimethoxyaniline
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_4-Aminoveratrole
+  - species_id: substrate_Acetyl-CoA
+  products:
+  - species_id: product_N-Acetyl-3
+  - species_id: product_4-dimethoxyaniline
+  - species_id: product_Coenzyme_A
+  modifiers:
+  - species_id: protein_2_3_1_5_O86309_p73111
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:57287; CHEBI:15346; CHEBI:23355; CHEBI:15351;
+    CHEBI:3771; CHEBI:13295; CHEBI:13294; CHEBI:741566; CHEBI:41597; CHEBI:40470;
+    CHEBI:57288; CHEBI:41631; CHEBI:13712; CHEBI:13298; CHEBI:2408
+
+    KEGG IDs: KEGG:C00010; KEGG:C00024'
+measurements:
+- id: measurement_2_3_1_5_Mycobacterium_smegmatis_O86309_Acetyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_2_3_1_5_Mycobacterium_smegmatis_O86309_p-Anisidine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_2_3_1_5_Mycobacterium_smegmatis_O86309_4-Aminoveratrole
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 2_3_1_5_Mycobacterium_smegmatis_O86309_Acetyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.042
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '9973365'
+- id: 2_3_1_5_Mycobacterium_smegmatis_O86309_Acetyl-CoA_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '9973365'
+- id: 2_3_1_5_Mycobacterium_smegmatis_O86309_p-Anisidine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000266667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_p-Anisidine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '9973365'
+- id: 2_3_1_5_Mycobacterium_smegmatis_O86309_p-Anisidine_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0003
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_p-Anisidine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '9973365'
+- id: 2_3_1_5_Mycobacterium_smegmatis_O86309_4-Aminoveratrole_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00065
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_4-Aminoveratrole
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '9973365'
+- id: 2_3_1_5_Mycobacterium_smegmatis_O86309_4-Aminoveratrole_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000416667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_4-Aminoveratrole
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '9973365'
+buffer:
+  buffer: 20 mM Tris-HCl, 2 mM Dithiothreitol
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 73109
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9973365/
+  pubmed_id: '9973365'
+  doi: null
+name: Merged entry for O86309 wildtype
+description: 'Merged from 3 files: SABIO_EC2.3.1.5_Mycobacterium_smegmatis__O86309_s_Acetyl-CoA.yaml,
+  SABIO_EC2.3.1.5_Mycobacterium_smegmatis__O86309_s_p-Anisidine.yaml, SABIO_EC2.3.1.5_Mycobacterium_smegmatis__O86309_s_4-Aminoveratrole.yaml'

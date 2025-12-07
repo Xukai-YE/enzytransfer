@@ -1,0 +1,269 @@
+version: '2.0'
+created: '2025-11-20T13:40:03.401974'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_3_1_199_A1L3X0_p71059
+  name: very-long-chain 3-oxoacyl-CoA synthase
+  ecnumber: 2.3.1.199
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: A1L3X0
+  wildtype_sequence: MAFSDLTSRTVHLYDNWIKDADPRVEDWLLMSSPLPQTILLGFYVYFVTSLGPKLMENRKPFELKKAMITYNFFIVLFSVYMCYEFVMSGWGIGYSFRCDIVDYSRSPTALRMARTCWLYYFSKFIELLDTIFFVLRKKNSQVTFLHVFHHTIMPWTWWFGVKFAAGGLGTFHALLNTAVHVVMYSYYGLSALGPAYQKYLWWKKYLTSLQLVQFVIVAIHISQFFFMEDCKYQFPVFACIIMSYSFMFLLLFLHFWYRAYTKGQRLPKTVKNGTCKNKDN
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_alpha-Linolenoyl-CoA
+  name: alpha-Linolenoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Malonyl-CoA
+  name: Malonyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product__11Z
+  name: (11Z
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_14Z
+  name: 14Z
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_17Z_-3-Oxoicosatrienoyl-CoA
+  name: 17Z)-3-Oxoicosatrienoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_15885_EC2_3_1_199_Homo_sapiens_A1L3X0_alpha-Linolenoyl-CoA
+  name: Reaction catalyzed by very-long-chain 3-oxoacyl-CoA synthase on alpha-Linolenoyl-CoA
+  equation: Malonyl-CoA + alpha-Linolenoyl-CoA = Coenzyme A + CO2 + (11Z,14Z,17Z)-3-Oxoicosatrienoyl-CoA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_alpha-Linolenoyl-CoA
+  - species_id: substrate_Malonyl-CoA
+  products:
+  - species_id: product_CO2
+  - species_id: product__11Z
+  - species_id: product_14Z
+  - species_id: product_17Z_-3-Oxoicosatrienoyl-CoA
+  - species_id: product_Coenzyme_A
+  modifiers:
+  - species_id: protein_2_3_1_199_A1L3X0_p71059
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25135; CHEBI:15346; CHEBI:23355; CHEBI:43979; CHEBI:139538;
+    CHEBI:41631; CHEBI:15531; CHEBI:57384; CHEBI:3283; CHEBI:6661; CHEBI:13295; CHEBI:41597;
+    CHEBI:23011; CHEBI:57287; CHEBI:13285; CHEBI:13282; CHEBI:13294; CHEBI:13283;
+    CHEBI:14565; CHEBI:74034; CHEBI:13284; CHEBI:3771; CHEBI:16526; CHEBI:48829; CHEBI:741566;
+    CHEBI:74114; CHEBI:13298
+
+    KEGG IDs: KEGG:C00010; KEGG:C00011; KEGG:C00083; KEGG:C16162'
+- id: sabiork_15885_EC2_3_1_199_Homo_sapiens_A1L3X0_Malonyl-CoA
+  name: Reaction catalyzed by very-long-chain 3-oxoacyl-CoA synthase on Malonyl-CoA
+  equation: Malonyl-CoA + alpha-Linolenoyl-CoA = Coenzyme A + CO2 + (11Z,14Z,17Z)-3-Oxoicosatrienoyl-CoA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Malonyl-CoA
+  - species_id: substrate_alpha-Linolenoyl-CoA
+  products:
+  - species_id: product_Coenzyme_A
+  - species_id: product__11Z
+  - species_id: product_14Z
+  - species_id: product_17Z_-3-Oxoicosatrienoyl-CoA
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_2_3_1_199_A1L3X0_p71058
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25135; CHEBI:15346; CHEBI:23355; CHEBI:43979; CHEBI:139538;
+    CHEBI:41631; CHEBI:15531; CHEBI:57384; CHEBI:3283; CHEBI:6661; CHEBI:13295; CHEBI:41597;
+    CHEBI:23011; CHEBI:57287; CHEBI:13285; CHEBI:13294; CHEBI:13282; CHEBI:13283;
+    CHEBI:14565; CHEBI:74034; CHEBI:13284; CHEBI:3771; CHEBI:16526; CHEBI:741566;
+    CHEBI:48829; CHEBI:74114; CHEBI:13298
+
+    KEGG IDs: KEGG:C00010; KEGG:C00011; KEGG:C00083; KEGG:C16162'
+measurements:
+- id: measurement_2_3_1_199_Homo_sapiens_A1L3X0_alpha-Linolenoyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_3_1_199_Homo_sapiens_A1L3X0_Malonyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_3_1_199_Homo_sapiens_A1L3X0_alpha-Linolenoyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.17e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_alpha-Linolenoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '21959040'
+- id: 2_3_1_199_Homo_sapiens_A1L3X0_alpha-Linolenoyl-CoA_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 5.166667e-09
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_alpha-Linolenoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '21959040'
+- id: 2_3_1_199_Homo_sapiens_A1L3X0_Malonyl-CoA_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 5.5e-09
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Malonyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '21959040'
+- id: 2_3_1_199_Homo_sapiens_A1L3X0_Malonyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.6e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Malonyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '21959040'
+buffer:
+  buffer: 50 mM potassium phosphate, 5 Î¼M rotenone, 1 mM NADPH, 20 Î¼M BSA
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 71059
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/21959040/
+  pubmed_id: '21959040'
+  doi: null
+name: Merged entry for A1L3X0 wildtype
+description: 'Merged from 2 files: SABIO_EC2.3.1.199_Homo_sapiens__A1L3X0_s_alpha-Linolenoyl-CoA.yaml,
+  SABIO_EC2.3.1.199_Homo_sapiens__A1L3X0_s_Malonyl-CoA.yaml'

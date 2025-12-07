@@ -1,0 +1,670 @@
+version: '2.0'
+created: '2025-11-20T13:41:37.167141'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_3_1_18_P53095_p39375
+  name: D-serine ammonia-lyase
+  ecnumber: 4.3.1.18
+  organism: Saccharomyces cerevisiae
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P53095
+  wildtype_sequence: MSDVLSQYKGCSVRDLPTPNFVINEEKFDKNCTTMLNNVEKLSQECGVPIKFRAHVKTHKTAKGTLKQLGHGLPLAKRTTRAILVSTLKEAEELLNYQDRQCSDYIDDITYSLPCCVPEFIPLLSNLSRRVNNFQVFVDNIEHLENLKNFGRPASGKKWSVFIKVDMGTKRAGLAFDSPEFLSLLKKLTSSEIKEVIEPYGFYAHAGHSYSSTSINDTQNLLMEEVKAVNSAAKVLCSVDPQFDPSKLTLSVGATPTSNSLKLDNKSTLVKFITTQLVSTLEIHCGNYCMYDLQQVATGCVQDHELSGFVLGTVLSSYPSRGELLSNTGVMCLTREASSIKGFGICADLEHVLKSESFSREWYVARVSQEHGILRPIRNWNETTPLKLGSKIAVLPQHACITMGQFPYYFVVNSEGIVNDVWLPFQKW
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_3-Chloro-D-alanine
+  name: 3-Chloro-D-alanine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Cl-
+  name: Cl-
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Pyruvate
+  name: Pyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NH3
+  name: NH3
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Serine
+  name: D-Serine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Zn2_
+  name: Zn2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Threonine
+  name: D-Threonine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Oxobutyrate
+  name: 2-Oxobutyrate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1319_EC4_3_1_18_Saccharomyces_cerevisiae_P53095_3-Chloro-D-alanine
+  name: Reaction catalyzed by D-serine ammonia-lyase on 3-Chloro-D-alanine
+  equation: H2O + 3-Chloro-D-alanine = NH3 + Pyruvate + Cl-
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3-Chloro-D-alanine
+  products:
+  - species_id: product_Cl-
+  - species_id: product_Pyruvate
+  - species_id: product_NH3
+  modifiers:
+  - species_id: protein_4_3_1_18_P53095_p39375
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 18873;18874;18875;18876
+  KEGGid: R01031
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:3616; CHEBI:44284; CHEBI:44819; CHEBI:17996;
+    CHEBI:41981; CHEBI:16134; CHEBI:13405; CHEBI:7434; CHEBI:14987; CHEBI:5590; CHEBI:17092;
+    CHEBI:42857; CHEBI:41979; CHEBI:3731; CHEBI:13407; CHEBI:15361; CHEBI:13364; CHEBI:19978;
+    CHEBI:42043; CHEBI:17883; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:22534;
+    CHEBI:13291; CHEBI:15377; CHEBI:7435; CHEBI:49783; CHEBI:135980; CHEBI:22533;
+    CHEBI:13352; CHEBI:26466; CHEBI:44404; CHEBI:13771; CHEBI:26462; CHEBI:13970;
+    CHEBI:11769; CHEBI:43228; CHEBI:44269; CHEBI:44292; CHEBI:47291; CHEBI:13406;
+    CHEBI:8685; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:24635; CHEBI:32816;
+    CHEBI:28938; CHEBI:48804; CHEBI:1470; CHEBI:45253; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C02634; KEGG:C00698; KEGG:C00014; KEGG:C01327; KEGG:C00022; KEGG:C00001;
+    KEGG:C01342'
+- id: sabiork_1319_EC4_3_1_18_Saccharomyces_cerevisiae_P53095_3-Chloro-D-alanine
+  name: Reaction catalyzed by D-serine ammonia-lyase on 3-Chloro-D-alanine
+  equation: H2O + 3-Chloro-D-alanine = NH3 + Pyruvate + Cl-
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3-Chloro-D-alanine
+  products:
+  - species_id: product_NH3
+  - species_id: product_Cl-
+  - species_id: product_Pyruvate
+  modifiers:
+  - species_id: protein_4_3_1_18_P53095_p39374
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 18873;18874;18875;18876
+  KEGGid: R01031
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44284; CHEBI:3616; CHEBI:44819; CHEBI:16134;
+    CHEBI:41981; CHEBI:17996; CHEBI:13405; CHEBI:7434; CHEBI:14987; CHEBI:5590; CHEBI:17092;
+    CHEBI:42857; CHEBI:41979; CHEBI:3731; CHEBI:13407; CHEBI:15361; CHEBI:13364; CHEBI:19978;
+    CHEBI:42043; CHEBI:17883; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:22534;
+    CHEBI:135980; CHEBI:15377; CHEBI:7435; CHEBI:49783; CHEBI:13291; CHEBI:22533;
+    CHEBI:13352; CHEBI:26466; CHEBI:44404; CHEBI:13771; CHEBI:26462; CHEBI:13970;
+    CHEBI:11769; CHEBI:43228; CHEBI:44269; CHEBI:44292; CHEBI:47291; CHEBI:13406;
+    CHEBI:8685; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:24635; CHEBI:28938;
+    CHEBI:32816; CHEBI:48804; CHEBI:1470; CHEBI:45253; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C02634; KEGG:C00698; KEGG:C00014; KEGG:C01327; KEGG:C00022; KEGG:C01342;
+    KEGG:C00001'
+- id: sabiork_746_EC4_3_1_18_Saccharomyces_cerevisiae_P53095_D-Serine
+  name: Reaction catalyzed by D-serine ammonia-lyase on D-Serine
+  equation: D-Serine = Pyruvate + NH3
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Serine
+  products:
+  - species_id: product_NH3
+  - species_id: product_Pyruvate
+  modifiers:
+  - species_id: protein_4_3_1_18_P53095_p39371
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 13977;13978;13979;13980
+  KEGGid: R00221
+  notes: 'ChEBI IDs: CHEBI:44284; CHEBI:16134; CHEBI:13405; CHEBI:7434; CHEBI:14987;
+    CHEBI:4245; CHEBI:13407; CHEBI:21090; CHEBI:15361; CHEBI:16523; CHEBI:42262; CHEBI:32840;
+    CHEBI:22534; CHEBI:135980; CHEBI:7435; CHEBI:49783; CHEBI:143888; CHEBI:35247;
+    CHEBI:22533; CHEBI:26466; CHEBI:44404; CHEBI:13771; CHEBI:26462; CHEBI:44269;
+    CHEBI:13406; CHEBI:32841; CHEBI:8685; CHEBI:13019; CHEBI:28938; CHEBI:32816; CHEBI:45253;
+    CHEBI:29998
+
+    KEGG IDs: KEGG:C00022; KEGG:C01342; KEGG:C00014; KEGG:C00740'
+- id: sabiork_746_EC4_3_1_18_Saccharomyces_cerevisiae_P53095_D-Serine
+  name: Reaction catalyzed by D-serine ammonia-lyase on D-Serine
+  equation: D-Serine = Pyruvate + NH3
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Serine
+  - species_id: cofactor_Zn2_
+  products:
+  - species_id: product_Pyruvate
+  - species_id: product_NH3
+  modifiers:
+  - species_id: protein_4_3_1_18_P53095_p39373
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 13977;13978;13979;13980
+  KEGGid: R00221
+  notes: 'ChEBI IDs: CHEBI:29105; CHEBI:44284; CHEBI:16134; CHEBI:10113; CHEBI:13405;
+    CHEBI:7434; CHEBI:14987; CHEBI:4245; CHEBI:13407; CHEBI:21090; CHEBI:15361; CHEBI:16523;
+    CHEBI:42262; CHEBI:32840; CHEBI:22534; CHEBI:135980; CHEBI:7435; CHEBI:49783;
+    CHEBI:143888; CHEBI:35247; CHEBI:26466; CHEBI:22533; CHEBI:44404; CHEBI:13771;
+    CHEBI:26462; CHEBI:44269; CHEBI:49972; CHEBI:13406; CHEBI:8685; CHEBI:32841; CHEBI:13019;
+    CHEBI:49982; CHEBI:27368; CHEBI:32816; CHEBI:28938; CHEBI:45253; CHEBI:29998
+
+    KEGG IDs: KEGG:C00014; KEGG:C00740; KEGG:C00022; KEGG:C01342; KEGG:C00038'
+- id: sabiork_746_EC4_3_1_18_Saccharomyces_cerevisiae_P53095_D-Serine
+  name: Reaction catalyzed by D-serine ammonia-lyase on D-Serine
+  equation: D-Serine = Pyruvate + NH3
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Serine
+  products:
+  - species_id: product_Pyruvate
+  - species_id: product_NH3
+  modifiers:
+  - species_id: protein_4_3_1_18_P53095_p39372
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 13977;13978;13979;13980
+  KEGGid: R00221
+  notes: 'ChEBI IDs: CHEBI:44284; CHEBI:16134; CHEBI:13405; CHEBI:7434; CHEBI:14987;
+    CHEBI:4245; CHEBI:13407; CHEBI:21090; CHEBI:15361; CHEBI:16523; CHEBI:42262; CHEBI:32840;
+    CHEBI:22534; CHEBI:135980; CHEBI:7435; CHEBI:49783; CHEBI:143888; CHEBI:35247;
+    CHEBI:26466; CHEBI:22533; CHEBI:44404; CHEBI:13771; CHEBI:26462; CHEBI:44269;
+    CHEBI:13406; CHEBI:8685; CHEBI:32841; CHEBI:13019; CHEBI:32816; CHEBI:28938; CHEBI:45253;
+    CHEBI:29998
+
+    KEGG IDs: KEGG:C00022; KEGG:C01342; KEGG:C00014; KEGG:C00740'
+- id: sabiork_1319_EC4_3_1_18_Saccharomyces_cerevisiae_P53095_3-Chloro-D-alanine
+  name: Reaction catalyzed by D-serine ammonia-lyase on 3-Chloro-D-alanine
+  equation: H2O + 3-Chloro-D-alanine = NH3 + Pyruvate + Cl-
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3-Chloro-D-alanine
+  - species_id: cofactor_Zn2_
+  products:
+  - species_id: product_NH3
+  - species_id: product_Cl-
+  - species_id: product_Pyruvate
+  modifiers:
+  - species_id: protein_4_3_1_18_P53095_p39376
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 18873;18874;18875;18876
+  KEGGid: R01031
+  notes: 'ChEBI IDs: CHEBI:29105; CHEBI:29375; CHEBI:44284; CHEBI:3616; CHEBI:44819;
+    CHEBI:16134; CHEBI:41981; CHEBI:17996; CHEBI:10113; CHEBI:13405; CHEBI:7434; CHEBI:14987;
+    CHEBI:5590; CHEBI:17092; CHEBI:42857; CHEBI:41979; CHEBI:3731; CHEBI:13407; CHEBI:15361;
+    CHEBI:13364; CHEBI:19978; CHEBI:42043; CHEBI:17883; CHEBI:33811; CHEBI:33813;
+    CHEBI:27313; CHEBI:22534; CHEBI:135980; CHEBI:15377; CHEBI:7435; CHEBI:49783;
+    CHEBI:13291; CHEBI:22533; CHEBI:13352; CHEBI:26466; CHEBI:44404; CHEBI:13771;
+    CHEBI:26462; CHEBI:13970; CHEBI:11769; CHEBI:43228; CHEBI:44269; CHEBI:49972;
+    CHEBI:44292; CHEBI:47291; CHEBI:13406; CHEBI:8685; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:24635; CHEBI:49982; CHEBI:27368; CHEBI:28938; CHEBI:32816; CHEBI:48804;
+    CHEBI:1470; CHEBI:45253; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C02634; KEGG:C00698; KEGG:C00014; KEGG:C01327; KEGG:C00022; KEGG:C01342;
+    KEGG:C00001; KEGG:C00038'
+- id: sabiork_12192_EC4_3_1_18_rat_P53095_D-Threonine
+  name: Reaction catalyzed by D-serine ammonia-lyase on D-Threonine
+  equation: D-Threonine = 2-Oxobutyrate + NH3
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Threonine
+  - species_id: cofactor_Zn2_
+  products:
+  - species_id: product_NH3
+  - species_id: product_2-Oxobutyrate
+  modifiers:
+  - species_id: protein_4_3_1_18_P53095_p39378
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29105; CHEBI:19741; CHEBI:44284; CHEBI:16134; CHEBI:10113;
+    CHEBI:13405; CHEBI:7434; CHEBI:13407; CHEBI:32827; CHEBI:21107; CHEBI:19743; CHEBI:45990;
+    CHEBI:13027; CHEBI:144836; CHEBI:30831; CHEBI:32828; CHEBI:57757; CHEBI:22534;
+    CHEBI:135980; CHEBI:16398; CHEBI:4254; CHEBI:7435; CHEBI:49783; CHEBI:39748; CHEBI:22533;
+    CHEBI:44404; CHEBI:45935; CHEBI:13771; CHEBI:44269; CHEBI:49972; CHEBI:13406;
+    CHEBI:1250; CHEBI:49982; CHEBI:27368; CHEBI:28938; CHEBI:42224; CHEBI:16763; CHEBI:42146;
+    CHEBI:11636; CHEBI:42196
+
+    KEGG IDs: KEGG:C00109; KEGG:C00820; KEGG:C00014; KEGG:C01342; KEGG:C00038'
+- id: sabiork_12192_EC4_3_1_18_rat_P53095_D-Threonine
+  name: Reaction catalyzed by D-serine ammonia-lyase on D-Threonine
+  equation: D-Threonine = 2-Oxobutyrate + NH3
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Threonine
+  products:
+  - species_id: product_NH3
+  - species_id: product_2-Oxobutyrate
+  modifiers:
+  - species_id: protein_4_3_1_18_P53095_p39377
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:19741; CHEBI:44284; CHEBI:16134; CHEBI:13405; CHEBI:7434;
+    CHEBI:13407; CHEBI:32827; CHEBI:21107; CHEBI:19743; CHEBI:45990; CHEBI:13027;
+    CHEBI:144836; CHEBI:30831; CHEBI:32828; CHEBI:57757; CHEBI:22534; CHEBI:135980;
+    CHEBI:16398; CHEBI:4254; CHEBI:7435; CHEBI:49783; CHEBI:39748; CHEBI:22533; CHEBI:44404;
+    CHEBI:45935; CHEBI:13771; CHEBI:44269; CHEBI:13406; CHEBI:1250; CHEBI:28938; CHEBI:42224;
+    CHEBI:16763; CHEBI:42146; CHEBI:11636; CHEBI:42196
+
+    KEGG IDs: KEGG:C00109; KEGG:C00820; KEGG:C01342; KEGG:C00014'
+measurements:
+- id: measurement_4_3_1_18_Saccharomyces_cerevisiae_P53095_3-Chloro-D-alanine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_4_3_1_18_Saccharomyces_cerevisiae_P53095_3-Chloro-D-alanine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_4_3_1_18_Saccharomyces_cerevisiae_P53095_D-Serine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_4_3_1_18_Saccharomyces_cerevisiae_P53095_D-Serine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_4_3_1_18_Saccharomyces_cerevisiae_P53095_D-Serine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_4_3_1_18_Saccharomyces_cerevisiae_P53095_3-Chloro-D-alanine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_4_3_1_18_rat_P53095_D-Threonine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_4_3_1_18_rat_P53095_D-Threonine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 4_3_1_18_Saccharomyces_cerevisiae_P53095_3-Chloro-D-alanine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00098
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Chloro-D-alanine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17937657'
+- id: 4_3_1_18_Saccharomyces_cerevisiae_P53095_3-Chloro-D-alanine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.48
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Chloro-D-alanine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17937657'
+- id: 4_3_1_18_Saccharomyces_cerevisiae_P53095_3-Chloro-D-alanine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00145
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Chloro-D-alanine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17937657'
+- id: 4_3_1_18_Saccharomyces_cerevisiae_P53095_3-Chloro-D-alanine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.22
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Chloro-D-alanine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17937657'
+- id: 4_3_1_18_Saccharomyces_cerevisiae_P53095_D-Serine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00039
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Serine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17937657'
+- id: 4_3_1_18_Saccharomyces_cerevisiae_P53095_D-Serine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 13.1
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Serine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17937657'
+- id: 4_3_1_18_Saccharomyces_cerevisiae_P53095_D-Serine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 12.5
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Serine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17937657'
+- id: 4_3_1_18_Saccharomyces_cerevisiae_P53095_D-Serine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00048
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Serine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17937657'
+- id: 4_3_1_18_Saccharomyces_cerevisiae_P53095_D-Serine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.67
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Serine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17937657'
+- id: 4_3_1_18_Saccharomyces_cerevisiae_P53095_D-Serine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00019
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Serine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17937657'
+- id: 4_3_1_18_Saccharomyces_cerevisiae_P53095_3-Chloro-D-alanine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00245
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Chloro-D-alanine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17937657'
+- id: 4_3_1_18_Saccharomyces_cerevisiae_P53095_3-Chloro-D-alanine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.24
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Chloro-D-alanine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17937657'
+- id: 4_3_1_18_rat_P53095_D-Threonine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00017
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Threonine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17937657'
+- id: 4_3_1_18_rat_P53095_D-Threonine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.34
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Threonine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17937657'
+- id: 4_3_1_18_rat_P53095_D-Threonine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.43
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Threonine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17937657'
+- id: 4_3_1_18_rat_P53095_D-Threonine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00013
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Threonine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17937657'
+buffer:
+  buffer: 50 mM Hepes/NaOH, 20 ¦ÌM PLP, 0.3 mM NADH, 5 mM 2-oxoglutarate, 10 units/ml
+    glutamate dehydrogenase; 50 mM Hepes/NaOH, 20 ¦ÌM PLP, 0.3 mM NADH, 10 units/ml
+    lactate dehydrogenase, 2.5 ¦ÌM Zn2+; 50 mM Hepes/NaOH, 20 ¦ÌM PLP, 0.3 mM NADH,
+    10 units/ml lactate dehydrogenase
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 39375
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/17937657/
+  pubmed_id: '17937657'
+  doi: null
+name: Merged entry for P53095 wildtype
+description: 'Merged from 8 files: SABIO_EC4.3.1.18_Saccharomyces_cerevisiae__P53095_s_3-Chloro-D-alanine_2.yaml,
+  SABIO_EC4.3.1.18_Saccharomyces_cerevisiae__P53095_s_3-Chloro-D-alanine.yaml, SABIO_EC4.3.1.18_Saccharomyces_cerevisiae__P53095_s_D-Serine.yaml,
+  SABIO_EC4.3.1.18_Saccharomyces_cerevisiae__P53095_s_D-Serine_3.yaml, SABIO_EC4.3.1.18_Saccharomyces_cerevisiae__P53095_s_D-Serine_2.yaml,
+  SABIO_EC4.3.1.18_Saccharomyces_cerevisiae__P53095_s_3-Chloro-D-alanine_3.yaml, SABIO_EC4.3.1.18_rat__P53095_s_D-Threonine_2.yaml,
+  SABIO_EC4.3.1.18_rat__P53095_s_D-Threonine.yaml'

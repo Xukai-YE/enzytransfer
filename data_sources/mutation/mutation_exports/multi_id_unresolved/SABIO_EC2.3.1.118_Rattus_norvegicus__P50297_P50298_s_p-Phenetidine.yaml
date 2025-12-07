@@ -1,0 +1,169 @@
+name: SABIO-RK Entry 67697
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 67697
+created: '2025-10-28T17:03:49.654064'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_3_1_118_P50297_P50298_p67697
+  name: N-hydroxyarylamine O-acetyltransferase
+  sequence: null
+  ecnumber: 2.3.1.118
+  organism: Rattus norvegicus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P50297; P50298
+complexes: null
+small_molecules:
+- id: substrate_p-Phenetidine
+  name: p-Phenetidine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Acetyl-CoA
+  name: Acetyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N-Acetyl-p-phenetidine
+  name: N-Acetyl-p-phenetidine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_14460_EC2_3_1_118_Rattus_norvegicus_P50297_P50298_p-Phenetidine
+  name: Reaction catalyzed by N-hydroxyarylamine O-acetyltransferase on p-Phenetidine
+  equation: Acetyl-CoA + p-Phenetidine = Coenzyme A + N-Acetyl-p-phenetidine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_p-Phenetidine
+  - species_id: substrate_Acetyl-CoA
+  products:
+  - species_id: product_Coenzyme_A
+  - species_id: product_N-Acetyl-p-phenetidine
+  modifiers:
+  - species_id: protein_2_3_1_118_P50297_P50298_p67697
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:57287; CHEBI:15346; CHEBI:23355; CHEBI:15351;
+    CHEBI:3771; CHEBI:13295; CHEBI:13294; CHEBI:741566; CHEBI:41597; CHEBI:40470;
+    CHEBI:57288; CHEBI:41631; CHEBI:85505; CHEBI:13712; CHEBI:13298; CHEBI:2408
+
+    KEGG IDs: KEGG:C00010; KEGG:C00024'
+measurements:
+- id: measurement_2_3_1_118_Rattus_norvegicus_P50297_P50298_p-Phenetidine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.8
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 2_3_1_118_Rattus_norvegicus_P50297_P50298_p-Phenetidine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.416667e-08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_p-Phenetidine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '6469990'
+- id: 2_3_1_118_Rattus_norvegicus_P50297_P50298_p-Phenetidine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00027
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_p-Phenetidine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '6469990'
+buffer:
+  buffer: 0.1 M sodium phosphate
+  buffer_concentration: 0.1 M
+references:
+- title: Reference for SABIO-RK entry 67697
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/6469990/
+  pubmed_id: '6469990'
+  doi: null

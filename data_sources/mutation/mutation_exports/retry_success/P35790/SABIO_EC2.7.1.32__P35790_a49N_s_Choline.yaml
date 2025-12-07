@@ -1,0 +1,168 @@
+name: SABIO-RK Entry 42345
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 42345
+created: '2025-10-28T15:24:01.901237'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_32_P35790_p42345
+  name: choline kinase
+  sequence: null
+  ecnumber: 2.7.1.32
+  organism: null
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: a49N
+  uniprotid: P35790
+  mutant_sequence: MKTKFCTGGEAEPSPLGLLLSCGSGSAAPAPGVGQQRDNASDLESKQLGGQQPPLALPPPPPLPLPLPLPQPPPPQPPADEQPEPRTRRRAYLWCKEFLPGAWRGLREDEFHISVIRGGLSNMLFQCSLPDTTATLGDEPRKVLLRLYGAILQMRSCNKEGSEQAQKENEFQGAEAMVLESVMFAILAERSLGPKLYGIFPQGRLEQFIPSRRLDTEELSLPDISAEIAEKMATFHGMKMPFNKEPKWLFGTMEKYLKEVLRIKFTEESRIKKLHKLLSYNLPLELENLRSLLESTPSPVVFCHNDCQEGNILLLEGRENSEKQKLMLIDFEYSSYNYRGFDIGNHFCEWMYDYSYEKYPFFRANIRKYPTKKQQLHFISSYLPAFQNDFENLSTEEKSIIKEEMLLEVNRFALASHFLWGLWSIVQAKISSIEFGYMDYAQARFDAYFHQKRKLGV
+  position_offset: -10
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Choline
+  name: Choline
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Choline_phosphate
+  name: Choline phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1310_EC2_7_1_32_P35790_Choline
+  name: Reaction catalyzed by choline kinase on Choline
+  equation: ATP + Choline = ADP + Choline phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Choline
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_ADP
+  - species_id: product_Choline_phosphate
+  modifiers:
+  - species_id: protein_2_7_1_32_P35790_p42345
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 12837;12838;12839;12840
+  KEGGid: R01021
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:12720; CHEBI:10789;
+    CHEBI:57299; CHEBI:40553; CHEBI:41524; CHEBI:13236; CHEBI:13986; CHEBI:23214;
+    CHEBI:10841; CHEBI:2359; CHEBI:87518; CHEBI:40938; CHEBI:456216; CHEBI:23212;
+    CHEBI:44707; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:3665; CHEBI:18132; CHEBI:13222;
+    CHEBI:3667; CHEBI:295975; CHEBI:22244; CHEBI:13985; CHEBI:72322; CHEBI:15354
+
+    KEGG IDs: KEGG:C00114; KEGG:C00002; KEGG:C00008; KEGG:C00588'
+measurements:
+- id: measurement_2_7_1_32_P35790_Choline
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 2_7_1_32_P35790_Choline_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 71.5
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Choline
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: null
+- id: 2_7_1_32_P35790_Choline_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.2e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Choline
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: null
+buffer:
+  buffer: 100 mM Tris-HCl, 100 mM KCl, 10 mM MgCl2, 0.5 mM phosphoenolpyruvate, 0.25
+    mM NADH, 4 units/ml pyruvate kinase, 5 units/ml lactate dehydrogenase
+  buffer_concentration: 100 mM
+references: null

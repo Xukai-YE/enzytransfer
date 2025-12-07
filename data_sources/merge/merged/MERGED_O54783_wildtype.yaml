@@ -1,0 +1,300 @@
+version: '2.0'
+created: '2025-11-20T13:40:36.539179'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_82_O54783_p26774
+  name: ethanolamine kinase
+  ecnumber: 2.7.1.82
+  organism: Rattus norvegicus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: O54783
+  wildtype_sequence: MAADGTGVVGGGAVGGPLSKDGLLDAKCPEPIPNRRRSSSLSRDAQRRAYQWCREYLGGAWRRARPEELSVCPVSGGLSNLLFRCSLPNHVPSMGGEPREVLLRLYGAILQGVDSLVLESVMFAILAERSLGPQLYGVFPEGRLEQYLPSRPLKTQELRDPVLSGAIATKMARFHGMEMPFTKEPRWLFGTMERYLKQIQDLPSTSLPQMNLVEMYSLKDEMNHLRTLLDATPSPVVFCHNDIQEGNILLLSEPDSDDNLMLVDFEYSSYNYRGFDIGNHFCEWVYDYTYEEWPFYKARPADYPTREQQLLFIRHYLAEVQKGEVLSEEEQKKQEEDLLIEISRYALASHFFWGLWSTLQASMSTIEFGYLEYAQSRFQFYFQQKGQLTSFLSP
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Ethanolamine
+  name: Ethanolamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Ethanolamine_phosphate
+  name: Ethanolamine phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Choline
+  name: Choline
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1644_EC2_7_1_82_Rattus_norvegicus_O54783_ATP
+  name: Reaction catalyzed by ethanolamine kinase on ATP
+  equation: ATP + Ethanolamine = ADP + Ethanolamine phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Ethanolamine
+  products:
+  - species_id: product_Ethanolamine_phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_82_O54783_p26774
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 13069;13070;13071;13072
+  KEGGid: R01468
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:57603; CHEBI:16761; CHEBI:10789;
+    CHEBI:57299; CHEBI:42323; CHEBI:4881; CHEBI:44681; CHEBI:40553; CHEBI:14814; CHEBI:14224;
+    CHEBI:16000; CHEBI:23981; CHEBI:13236; CHEBI:10841; CHEBI:2359; CHEBI:87518; CHEBI:40938;
+    CHEBI:58190; CHEBI:4880; CHEBI:12694; CHEBI:23979; CHEBI:456216; CHEBI:22249;
+    CHEBI:2342; CHEBI:15422; CHEBI:14223; CHEBI:272066; CHEBI:17553; CHEBI:36711;
+    CHEBI:23980; CHEBI:13222; CHEBI:22244
+
+    KEGG IDs: KEGG:C00002; KEGG:C00346; KEGG:C00008; KEGG:C00189'
+- id: sabiork_1644_EC2_7_1_82_Rattus_norvegicus_O54783_Ethanolamine
+  name: Reaction catalyzed by ethanolamine kinase on Ethanolamine
+  equation: ATP + Ethanolamine = ADP + Ethanolamine phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Ethanolamine
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_ADP
+  - species_id: product_Ethanolamine_phosphate
+  modifiers:
+  - species_id: protein_2_7_1_82_O54783_p26776
+    role: BIOCATALYST
+  - species_id: activator_Choline
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 13069;13070;13071;13072
+  KEGGid: R01468
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:57603; CHEBI:16761; CHEBI:10789;
+    CHEBI:57299; CHEBI:42323; CHEBI:4881; CHEBI:44681; CHEBI:40553; CHEBI:14814; CHEBI:14224;
+    CHEBI:16000; CHEBI:23981; CHEBI:13236; CHEBI:41524; CHEBI:10841; CHEBI:2359; CHEBI:87518;
+    CHEBI:40938; CHEBI:58190; CHEBI:4880; CHEBI:12694; CHEBI:23979; CHEBI:456216;
+    CHEBI:23212; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:14223; CHEBI:272066;
+    CHEBI:3665; CHEBI:17553; CHEBI:36711; CHEBI:23980; CHEBI:13222; CHEBI:22244; CHEBI:13985;
+    CHEBI:72322; CHEBI:15354
+
+    KEGG IDs: KEGG:C00114; KEGG:C00346; KEGG:C00189; KEGG:C00002; KEGG:C00008'
+- id: sabiork_1644_EC2_7_1_82_Rattus_norvegicus_O54783_Ethanolamine
+  name: Reaction catalyzed by ethanolamine kinase on Ethanolamine
+  equation: ATP + Ethanolamine = ADP + Ethanolamine phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Ethanolamine
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_ADP
+  - species_id: product_Ethanolamine_phosphate
+  modifiers:
+  - species_id: protein_2_7_1_82_O54783_p26775
+    role: BIOCATALYST
+  - species_id: activator_Choline
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 13069;13070;13071;13072
+  KEGGid: R01468
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:57603; CHEBI:16761; CHEBI:10789;
+    CHEBI:57299; CHEBI:42323; CHEBI:4881; CHEBI:44681; CHEBI:40553; CHEBI:14814; CHEBI:14224;
+    CHEBI:16000; CHEBI:23981; CHEBI:13236; CHEBI:41524; CHEBI:10841; CHEBI:2359; CHEBI:87518;
+    CHEBI:40938; CHEBI:58190; CHEBI:4880; CHEBI:12694; CHEBI:23979; CHEBI:456216;
+    CHEBI:23212; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:14223; CHEBI:272066;
+    CHEBI:3665; CHEBI:17553; CHEBI:36711; CHEBI:23980; CHEBI:13222; CHEBI:22244; CHEBI:13985;
+    CHEBI:72322; CHEBI:15354
+
+    KEGG IDs: KEGG:C00114; KEGG:C00346; KEGG:C00189; KEGG:C00002; KEGG:C00008'
+measurements:
+- id: measurement_2_7_1_82_Rattus_norvegicus_O54783_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_7_1_82_Rattus_norvegicus_O54783_Ethanolamine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_7_1_82_Rattus_norvegicus_O54783_Ethanolamine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_1_82_Rattus_norvegicus_O54783_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0001
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '5047700'
+- id: 2_7_1_82_Rattus_norvegicus_O54783_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 7.666667e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '5047700'
+- id: 2_7_1_82_Rattus_norvegicus_O54783_Ethanolamine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 7.666667e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Ethanolamine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '5047700'
+- id: 2_7_1_82_Rattus_norvegicus_O54783_Ethanolamine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 7.666667e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Ethanolamine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '5047700'
+- id: 2_7_1_82_Rattus_norvegicus_O54783_Ethanolamine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0001
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Ethanolamine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '5047700'
+buffer:
+  buffer: 20 mM Glycylglycine, 3 mM MgCl2
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 26774
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/5047700/
+  pubmed_id: '5047700'
+  doi: null
+name: Merged entry for O54783 wildtype
+description: 'Merged from 3 files: SABIO_EC2.7.1.82_Rattus_norvegicus__O54783_s_ATP.yaml,
+  SABIO_EC2.7.1.82_Rattus_norvegicus__O54783_s_Ethanolamine_2.yaml, SABIO_EC2.7.1.82_Rattus_norvegicus__O54783_s_Ethanolamine.yaml'

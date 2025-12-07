@@ -1,0 +1,189 @@
+name: SABIO-RK Entry 35292
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 35292
+created: '2025-10-28T14:55:35.061494'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_1_P11766_p35292
+  name: alcohol dehydrogenase
+  sequence: null
+  ecnumber: 1.1.1.1
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: g115S
+  uniprotid: P11766
+  mutant_sequence: MANEVIKCKAAVAWEAGKPLSIEEIEVAPPKAHEVRIKIIATAVCHTDAYTLSGADPEGCFPVILGHEGAGIVESVGEGVTKLKAGDTVIPLYIPQCGECKFCLNPKTNLCQKIRVTQSKGLMPDGTSRFTCKGKTILHYMGTSTFSEYTVVADISVAKIDPLAPLDKVCLLGCGISTGYGAAVNTAKLEPGSVCAVFGLGGVGLAVIMGCKVAGASRIIGVDINKDKFARAKEFGATECINPQDFSKPIQEVLIEMTDGGVDYSFECIGNVKVMRAALEACHKGWGVSVVVGVAASGEEIATRPFQLVTGRTWKGTAFGGWKSVESVPKLVSEYMSKKIKVDEFVTHNLSFDEINKAFELMHSGKSIRTVVKI
+  position_offset: 4
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_S-Nitrosoglutathione
+  name: S-Nitrosoglutathione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Glutathione_sulfinamide
+  name: Glutathione sulfinamide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_11768_EC1_1_1_1_Homo_sapiens_P11766_S-Nitrosoglutathione
+  name: Reaction catalyzed by alcohol dehydrogenase on S-Nitrosoglutathione
+  equation: NADH + S-Nitrosoglutathione = NAD+ + Glutathione sulfinamide
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_S-Nitrosoglutathione
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_NAD_
+  - species_id: product_Glutathione_sulfinamide
+  modifiers:
+  - species_id: protein_1_1_1_1_P11766_p35292
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:44281; CHEBI:13393; CHEBI:15846; CHEBI:21902; CHEBI:13396;
+    CHEBI:21901; CHEBI:44214; CHEBI:145547; CHEBI:13394; CHEBI:57945; CHEBI:44216;
+    CHEBI:145544; CHEBI:57540; CHEBI:7423; CHEBI:13389; CHEBI:13395; CHEBI:50091;
+    CHEBI:44215; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00003; KEGG:C00004'
+measurements:
+- id: measurement_1_1_1_1_Homo_sapiens_P11766_S-Nitrosoglutathione
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1_1_Homo_sapiens_P11766_S-Nitrosoglutathione_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 65000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Nitrosoglutathione
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12631283'
+- id: 1_1_1_1_Homo_sapiens_P11766_S-Nitrosoglutathione_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 45.83333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Nitrosoglutathione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12631283'
+- id: 1_1_1_1_Homo_sapiens_P11766_S-Nitrosoglutathione_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0007
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Nitrosoglutathione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12631283'
+buffer:
+  buffer: 0.1 M potassium phosphate
+  buffer_concentration: 0.1 M
+references:
+- title: Reference for SABIO-RK entry 35292
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12631283/
+  pubmed_id: '12631283'
+  doi: null

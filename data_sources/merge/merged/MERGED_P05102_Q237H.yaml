@@ -1,0 +1,253 @@
+version: '2.0'
+created: '2025-11-20T13:39:58.405952'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_1_1_37_P05102_p74324
+  name: DNA (cytosine-5-)-methyltransferase
+  ecnumber: 2.1.1.37
+  organism: Haemophilus parahaemolyticus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: Q237H
+  uniprotid: P05102
+  wildtype_sequence: MIEIKDKQLTGLRFIDLFAGLGGFRLALESCGAECVYSNEWDKYAQEVYEMNFGEKPEGDITQVNEKTIPDHDILCAGFPCQAFSISGKQKGFEDSRGTLFFDIARIVREKKPKVVFMENVKNFASHDNGNTLEVVKNTMNELDYSFHAKVLNALDYGIPQKRERIYMICFRNDLNIQNFQFPKPFELNTFVKDLLLPDSEVEHLVIDRKDLVMTNQEIEQTTPKTVRLGIVGKGGQGERIYSTRGIAITLSAYGGGIFAKTGGYLVNGKTRKLHPRECARVMGYPDSYKVHPSTSQAYKQFGNSVVINVLQYIAYNIGSSLNFKPY
+  mutant_sequence: MIEIKDKQLTGLRFIDLFAGLGGFRLALESCGAECVYSNEWDKYAQEVYEMNFGEKPEGDITQVNEKTIPDHDILCAGFPCQAFSISGKQKGFEDSRGTLFFDIARIVREKKPKVVFMENVKNFASHDNGNTLEVVKNTMNELDYSFHAKVLNALDYGIPQKRERIYMICFRNDLNIQNFQFPKPFELNTFVKDLLLPDSEVEHLVIDRKDLVMTNQEIEQTTPKTVRLGIVGKGGHGERIYSTRGIAITLSAYGGGIFAKTGGYLVNGKTRKLHPRECARVMGYPDSYKVHPSTSQAYKQFGNSVVINVLQYIAYNIGSSLNFKPY
+complexes: null
+small_molecules:
+- id: substrate_Cytosine_in_DNA_
+  name: Cytosine (in DNA)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_S-Adenosyl-L-methionine
+  name: S-Adenosyl-L-methionine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_5-Methylcytosine_in_DNA_
+  name: 5-Methylcytosine (in DNA)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_S-Adenosyl-L-homocysteine
+  name: S-Adenosyl-L-homocysteine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2854_EC2_1_1_37_Haemophilus_parahaemolyticus_P05102_Cytosine_in_DNA_
+  name: Reaction catalyzed by DNA (cytosine-5-)-methyltransferase on Cytosine (in
+    DNA)
+  equation: S-Adenosyl-L-methionine + Cytosine (in DNA) = S-Adenosyl-L-homocysteine
+    + 5-Methylcytosine (in DNA)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Cytosine_in_DNA_
+  - species_id: substrate_S-Adenosyl-L-methionine
+  products:
+  - species_id: product_5-Methylcytosine_in_DNA_
+  - species_id: product_S-Adenosyl-L-homocysteine
+  modifiers:
+  - species_id: protein_2_1_1_37_P05102_p74324
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R04858
+  notes: 'ChEBI IDs: CHEBI:22036; CHEBI:12760; CHEBI:12742; CHEBI:59789; CHEBI:67009;
+    CHEBI:45495; CHEBI:142094; CHEBI:8945; CHEBI:67040; CHEBI:45607; CHEBI:33442;
+    CHEBI:15414; CHEBI:10833; CHEBI:12761; CHEBI:12741; CHEBI:57856; CHEBI:16680;
+    CHEBI:12759; CHEBI:8946; CHEBI:22034; CHEBI:527887; CHEBI:10786; CHEBI:12757
+
+    KEGG IDs: KEGG:C00856; KEGG:C02967; KEGG:C00021; KEGG:C00019'
+- id: sabiork_2854_EC2_1_1_37_Haemophilus_parahaemolyticus_P05102_S-Adenosyl-L-methionine
+  name: Reaction catalyzed by DNA (cytosine-5-)-methyltransferase on S-Adenosyl-L-methionine
+  equation: S-Adenosyl-L-methionine + Cytosine (in DNA) = S-Adenosyl-L-homocysteine
+    + 5-Methylcytosine (in DNA)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_S-Adenosyl-L-methionine
+  - species_id: substrate_Cytosine_in_DNA_
+  products:
+  - species_id: product_S-Adenosyl-L-homocysteine
+  - species_id: product_5-Methylcytosine_in_DNA_
+  modifiers:
+  - species_id: protein_2_1_1_37_P05102_p74330
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R04858
+  notes: 'ChEBI IDs: CHEBI:22036; CHEBI:12760; CHEBI:12742; CHEBI:59789; CHEBI:67009;
+    CHEBI:45495; CHEBI:142094; CHEBI:8945; CHEBI:67040; CHEBI:45607; CHEBI:33442;
+    CHEBI:15414; CHEBI:10833; CHEBI:12761; CHEBI:12741; CHEBI:57856; CHEBI:16680;
+    CHEBI:12759; CHEBI:8946; CHEBI:22034; CHEBI:527887; CHEBI:10786; CHEBI:12757
+
+    KEGG IDs: KEGG:C00856; KEGG:C02967; KEGG:C00021; KEGG:C00019'
+measurements:
+- id: measurement_2_1_1_37_Haemophilus_parahaemolyticus_P05102_Cytosine_in_DNA_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_1_1_37_Haemophilus_parahaemolyticus_P05102_S-Adenosyl-L-methionine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_1_1_37_Haemophilus_parahaemolyticus_P05102_Cytosine_in_DNA__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.003333333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cytosine_in_DNA_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7899082'
+- id: 2_1_1_37_Haemophilus_parahaemolyticus_P05102_Cytosine_in_DNA__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 30000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cytosine_in_DNA_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7899082'
+- id: 2_1_1_37_Haemophilus_parahaemolyticus_P05102_Cytosine_in_DNA__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.41e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cytosine_in_DNA_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7899082'
+- id: 2_1_1_37_Haemophilus_parahaemolyticus_P05102_Cytosine_in_DNA__Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1g-1
+  initial_value: 9.833333e-08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cytosine_in_DNA_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7899082'
+- id: 2_1_1_37_Haemophilus_parahaemolyticus_P05102_S-Adenosyl-L-methionine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.8e-08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7899082'
+buffer:
+  buffer: 50 mM Tris-HCl, 10 mM Na2EDTA, 10 mM beta-mercaptoethanol, 200 ¦Ìg/ml BSA
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 74324
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/7899082/
+  pubmed_id: '7899082'
+  doi: null
+name: Merged entry for P05102 Q237H
+description: 'Merged from 2 files: SABIO_EC2.1.1.37_Haemophilus_parahaemolyticus__P05102_Q237H_s_Cytosine.yaml,
+  SABIO_EC2.1.1.37_Haemophilus_parahaemolyticus__P05102_Q237H_s_S-Adenosyl-L-methion.yaml'

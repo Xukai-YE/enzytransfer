@@ -1,0 +1,147 @@
+name: SABIO-RK Entry 50661
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 50661
+created: '2025-10-28T15:52:44.602266'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_6_1_21_P19938_p50661
+  name: D-amino-acid transaminase
+  ecnumber: 2.6.1.21
+  organism: Bacillus sp.
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: K145Q
+  uniprotid: P19938
+  wildtype_sequence: MGYTLWNDQIVKDEEVKIDKEDRGYQFGDGVYEVVKVYNGEMFTVNEHIDRLYASAEKIRITIPYTKDKFHQLLHELVEKNELNTGHIYFQVTRGTSPRAHQFPENTVKPVIIGYTKENPRPLENLEKGVKATFVEDIRWLRCDIKSLNLLGAVLAKQEAHEKGCYEAILHRNNTVTEGSSSNVFGIKDGILYTHPANNMILKGITRDVVIACANEINMPVKEIPFTTHEALKMDELFVTSTTSEITPVIEIDGKLIRDGKVGEWTRKLQKQFETKIPKPLHI
+  mutant_sequence: MGYTLWNDQIVKDEEVKIDKEDRGYQFGDGVYEVVKVYNGEMFTVNEHIDRLYASAEKIRITIPYTKDKFHQLLHELVEKNELNTGHIYFQVTRGTSPRAHQFPENTVKPVIIGYTKENPRPLENLEKGVKATFVEDIRWLRCDIQSLNLLGAVLAKQEAHEKGCYEAILHRNNTVTEGSSSNVFGIKDGILYTHPANNMILKGITRDVVIACANEINMPVKEIPFTTHEALKMDELFVTSTTSEITPVIEIDGKLIRDGKVGEWTRKLQKQFETKIPKPLHI
+  position_offset: 1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_D-Alanine
+  name: D-Alanine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_2-Oxoglutarate
+  name: 2-Oxoglutarate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Glutamate
+  name: D-Glutamate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Pyruvate
+  name: Pyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Pyridoxal_phosphate
+  name: Pyridoxal phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1389_EC2_6_1_21_Bacillus_sp._P19938_D-Alanine
+  name: Reaction catalyzed by D-amino-acid transaminase on D-Alanine
+  equation: D-Alanine + 2-Oxoglutarate = Pyruvate + D-Glutamate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Alanine
+  - species_id: substrate_2-Oxoglutarate
+  products:
+  - species_id: product_D-Glutamate
+  - species_id: product_Pyruvate
+  modifiers:
+  - species_id: protein_2_6_1_21_P19938_p50661
+    role: BIOCATALYST
+  - species_id: activator_Pyridoxal_phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 15869;15870;15871;15872
+  KEGGid: R01148
+  notes: 'ChEBI IDs: CHEBI:32435; CHEBI:12899; CHEBI:21022; CHEBI:29986; CHEBI:11638;
+    CHEBI:14987; CHEBI:41798; CHEBI:1253; CHEBI:358848; CHEBI:19748; CHEBI:20893;
+    CHEBI:10840; CHEBI:26424; CHEBI:4183; CHEBI:15361; CHEBI:29949; CHEBI:32436; CHEBI:8668;
+    CHEBI:15570; CHEBI:41756; CHEBI:16810; CHEBI:40661; CHEBI:18405; CHEBI:48096;
+    CHEBI:26466; CHEBI:30916; CHEBI:597326; CHEBI:4087; CHEBI:41877; CHEBI:57416;
+    CHEBI:26462; CHEBI:21023; CHEBI:19749; CHEBI:234571; CHEBI:12979; CHEBI:8685;
+    CHEBI:45145; CHEBI:41848; CHEBI:32816; CHEBI:30915; CHEBI:15966; CHEBI:14977;
+    CHEBI:45253; CHEBI:29989
+
+    KEGG IDs: KEGG:C00018; KEGG:C00133; KEGG:C00026; KEGG:C00022; KEGG:C00217'
+measurements:
+- id: measurement_2_6_1_21_Bacillus_sp._P19938_D-Alanine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 22.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 50 mM Tris/HCl
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 50661
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9930994/
+  pubmed_id: '9930994'
+  doi: null

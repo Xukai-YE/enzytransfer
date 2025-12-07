@@ -1,0 +1,190 @@
+name: SABIO-RK Entry 63805
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 63805
+created: '2025-10-28T16:46:04.759253'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_1_1_43_Q9NQR1_p63805
+  name: histone-lysine N-methyltransferase
+  ecnumber: 2.1.1.43
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: H347E
+  uniprotid: Q9NQR1
+  wildtype_sequence: MGEGGAAAALVAAAAAAAAAAAAVVAGQRRRRLGRRARCHGPGRAAGGKMSKPCAVEAAAAAVAATAPGPEMVERRGPGRPRTDGENVFTGQSKIYSYMSPNKCSGMRFPLQEENSVTHHEVKCQGKPLAGIYRKREEKRNAGNAVRSAMKSEEQKIKDARKGPLVPFPNQKSEAAEPPKTPPSSCDSTNAAIAKQALKKPIKGKQAPRKKAQGKTQQNRKLTDFYPVRRSSRKSKAELQSEERKRIDELIESGKEEGMKIDLIDGKGRGVIATKQFSRGDFVVEYHGDLIEITDAKKREALYAQDPSTGCYMYYFQYLSKTYCVDATRETNRLGRLINHSKCGNCQTKLHDIDGVPHLILIASRDIAAGEELLYDYGDRSKASIEAHPWLKH
+  mutant_sequence: MGEGGAAAALVAAAAAAAAAAAAVVAGQRRRRLGRRARCHGPGRAAGGKMSKPCAVEAAAAAVAATAPGPEMVERRGPGRPRTDGENVFTGQSKIYSYMSPNKCSGMRFPLQEENSVTHHEVKCQGKPLAGIYRKREEKRNAGNAVRSAMKSEEQKIKDARKGPLVPFPNQKSEAAEPPKTPPSSCDSTNAAIAKQALKKPIKGKQAPRKKAQGKTQQNRKLTDFYPVRRSSRKSKAELQSEERKRIDELIESGKEEGMKIDLIDGKGRGVIATKQFSRGDFVVEYHGDLIEITDAKKREALYAQDPSTGCYMYYFQYLSKTYCVDATRETNRLGRLINESKCGNCQTKLHDIDGVPHLILIASRDIAAGEELLYDYGDRSKASIEAHPWLKH
+  position_offset: -7
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Histone-L-lysine
+  name: Histone-L-lysine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_S-Adenosyl-L-methionine
+  name: S-Adenosyl-L-methionine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Histone_N6-methyl-L-lysine
+  name: Histone N6-methyl-L-lysine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_S-Adenosyl-L-homocysteine
+  name: S-Adenosyl-L-homocysteine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_3679_EC2_1_1_43_Homo_sapiens_Q9NQR1_Histone-L-lysine
+  name: Reaction catalyzed by histone-lysine N-methyltransferase on Histone-L-lysine
+  equation: S-Adenosyl-L-methionine + Histone-L-lysine = S-Adenosyl-L-homocysteine
+    + Histone N6-methyl-L-lysine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Histone-L-lysine
+  - species_id: substrate_S-Adenosyl-L-methionine
+  products:
+  - species_id: product_Histone_N6-methyl-L-lysine
+  - species_id: product_S-Adenosyl-L-homocysteine
+  modifiers:
+  - species_id: protein_2_1_1_43_Q9NQR1_p63805
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03938
+  notes: 'ChEBI IDs: CHEBI:22036; CHEBI:12760; CHEBI:12742; CHEBI:59789; CHEBI:67009;
+    CHEBI:45495; CHEBI:142094; CHEBI:8945; CHEBI:67040; CHEBI:45607; CHEBI:33442;
+    CHEBI:15414; CHEBI:10833; CHEBI:12761; CHEBI:12741; CHEBI:57856; CHEBI:16680;
+    CHEBI:12759; CHEBI:8946; CHEBI:22034; CHEBI:527887; CHEBI:10786; CHEBI:12757
+
+    KEGG IDs: KEGG:C03702; KEGG:C00021; KEGG:C02415; KEGG:C00019'
+measurements:
+- id: measurement_2_1_1_43_Homo_sapiens_Q9NQR1_Histone-L-lysine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: null
+  temperature_unit: null
+parameters:
+- id: 2_1_1_43_Homo_sapiens_Q9NQR1_Histone-L-lysine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00047
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Histone-L-lysine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15933070'
+- id: 2_1_1_43_Homo_sapiens_Q9NQR1_Histone-L-lysine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 2833333.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Histone-L-lysine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15933070'
+- id: 2_1_1_43_Homo_sapiens_Q9NQR1_Histone-L-lysine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.001333333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Histone-L-lysine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15933070'
+buffer:
+  buffer: 100 mM HEPES, 0.02% maleimide-treated BSA
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 63805
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15933070/
+  pubmed_id: '15933070'
+  doi: null

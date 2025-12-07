@@ -1,0 +1,292 @@
+version: '2.0'
+created: '2025-11-20T13:41:22.164616'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_6_1_45_Q865Y9_p39881
+  name: ADP-ribose diphosphatase
+  ecnumber: 3.6.1.45
+  organism: Sus scrofa
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q865Y9
+  wildtype_sequence: MERIEGAAVGRCADSPYLRPLTLHYRQNGTQKSWDFVKTHDSVTLLMFNASRRSLVLVKQFRPAVYAGAVERLFPGSLVAADQDRPRELPAALPGSAGVTFELCAGLVDQPGLSLEEVACKEAWEECGYRLAPSDLRRVASYKSGVGLTGSSQTMFYAAVTDAQRGGPGGGLAEEGELIEVVHLPLDGAQAFADDPDVPKTLGVIFGISWFLSCVAPVLGPQ
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_ADPribose
+  name: ADPribose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mg2_
+  name: Mg2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Ribose_5-phosphate
+  name: D-Ribose 5-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_AMP
+  name: AMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_UDPglucose
+  name: UDPglucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_UMP
+  name: UMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Glucose_1-phosphate
+  name: D-Glucose 1-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_233_EC3_6_1_45_Sus_scrofa_Q865Y9_ADPribose
+  name: Reaction catalyzed by ADP-ribose diphosphatase on ADPribose
+  equation: H2O + ADPribose = AMP + D-Ribose 5-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ADPribose
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_D-Ribose_5-phosphate
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_3_6_1_45_Q865Y9_p39881
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01054
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:40726; CHEBI:41981; CHEBI:22245;
+    CHEBI:13379; CHEBI:58273; CHEBI:40510; CHEBI:16960; CHEBI:4238; CHEBI:6635; CHEBI:22242;
+    CHEBI:13736; CHEBI:42857; CHEBI:15048; CHEBI:41979; CHEBI:47222; CHEBI:39127;
+    CHEBI:456215; CHEBI:21083; CHEBI:40786; CHEBI:40826; CHEBI:16027; CHEBI:2356;
+    CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:49736;
+    CHEBI:13352; CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:17797; CHEBI:10743;
+    CHEBI:29374; CHEBI:5585; CHEBI:13740; CHEBI:18420; CHEBI:13234; CHEBI:25112; CHEBI:40721;
+    CHEBI:13013; CHEBI:13235; CHEBI:12056; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00117; KEGG:C00305; KEGG:C00301; KEGG:C00001; KEGG:C00020'
+- id: sabiork_446_EC3_6_1_45_Sus_scrofa_Q865Y9_UDPglucose
+  name: Reaction catalyzed by nucleotide diphosphatase on UDPglucose
+  equation: UDPglucose + H2O = UMP + D-Glucose 1-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_UDPglucose
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_UMP
+  - species_id: product_D-Glucose_1-phosphate
+  modifiers:
+  - species_id: protein_3_6_1_45_Q865Y9_p39880
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00287
+  notes: 'ChEBI IDs: CHEBI:13508; CHEBI:29375; CHEBI:44819; CHEBI:26049; CHEBI:41981;
+    CHEBI:13379; CHEBI:16695; CHEBI:57684; CHEBI:16218; CHEBI:27231; CHEBI:46381;
+    CHEBI:6635; CHEBI:39127; CHEBI:42857; CHEBI:16077; CHEBI:41979; CHEBI:8142; CHEBI:28149;
+    CHEBI:18066; CHEBI:42043; CHEBI:46362; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:57865; CHEBI:49736; CHEBI:13352; CHEBI:47721; CHEBI:12374;
+    CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:46382; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:13509; CHEBI:18420; CHEBI:10398; CHEBI:9849; CHEBI:25112; CHEBI:22796;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00105; KEGG:C00305; KEGG:C00103; KEGG:C00001; KEGG:C00029; KEGG:C00663'
+measurements:
+- id: measurement_3_6_1_45_Sus_scrofa_Q865Y9_ADPribose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_3_6_1_45_Sus_scrofa_Q865Y9_UDPglucose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_6_1_45_Sus_scrofa_Q865Y9_ADPribose_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 9.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ADPribose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12429023'
+- id: 3_6_1_45_Sus_scrofa_Q865Y9_ADPribose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0017
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ADPribose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12429023'
+- id: 3_6_1_45_Sus_scrofa_Q865Y9_ADPribose_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.055
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ADPribose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12429023'
+- id: 3_6_1_45_Sus_scrofa_Q865Y9_UDPglucose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0006
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDPglucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12429023'
+- id: 3_6_1_45_Sus_scrofa_Q865Y9_UDPglucose_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.2216667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDPglucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12429023'
+- id: 3_6_1_45_Sus_scrofa_Q865Y9_UDPglucose_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000133333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDPglucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12429023'
+buffer:
+  buffer: 50 mM Tris/HCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 39881
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12429023/
+  pubmed_id: '12429023'
+  doi: null
+name: Merged entry for Q865Y9 wildtype
+description: 'Merged from 2 files: SABIO_EC3.6.1.45_Sus_scrofa__Q865Y9_s_ADPribose.yaml,
+  SABIO_EC3.6.1.45_Sus_scrofa__Q865Y9_s_UDPglucose.yaml'

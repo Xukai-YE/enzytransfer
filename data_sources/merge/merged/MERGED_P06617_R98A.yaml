@@ -1,0 +1,460 @@
+version: '2.0'
+created: '2025-11-20T13:39:31.665003'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_13_12_3_P06617_p3264
+  name: tryptophan 2-monooxygenase
+  ecnumber: 1.13.12.3
+  organism: Pseudomonas savastanoi
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: R98A
+  uniprotid: P06617
+  wildtype_sequence: MYDHFNSPSIDILYDYGPFLKKCEMTGGIGSYSAGTPTPRVAIVGAGISGLVAATELLRAGVKDVVLYESRDRIGGRVWSQVFDQTRPRYIAEMGAMRFPPSATGLFHYLKKFGISTSTTFPDPGVVDTELHYRGKRYHWPAGKKPPELFRRVYEGWQSLLSEGYLLEGGSLVAPLDITAMLKSGRLEEAAIAWQGWLNVFRDCSFYNAIVCIFTGRHPPGGDRWARPEDFELFGSLGIGSGGFLPVFQAGFTEILRMVINGYQSDQRLIPDGISSLAARLADQSFDGKALRDRVCFSRVGRISREAEKIIIQTEAGEQRVFDRVIVTSSNRAMQMIHCLTDSESFLSRDVARAVRETHLTGSSKLFILTRTKFWIKNKLPTTIQSDGLVRGVYCLDYQPDEPEGHGVVLLSYTWEDDAQKMLAMPDKKTRCQVLVDDLAAIHPTFASYLLPVDGDYERYVLHHDWLTDPHSAGAFKLNYPGEDVYSQRLFFQPMTANSPNKDTGLYLAGCSCSFAGGWIEGAVQTALNSACAVLRSTGGQLSKGNPLDCINASYRY
+  mutant_sequence: MYDHFNSPSIDILYDYGPFLKKCEMTGGIGSYSAGTPTPRVAIVGAGISGLVAATELLRAGVKDVVLYESRDRIGGRVWSQVFDQTRPRYIAEMGAMAFPPSATGLFHYLKKFGISTSTTFPDPGVVDTELHYRGKRYHWPAGKKPPELFRRVYEGWQSLLSEGYLLEGGSLVAPLDITAMLKSGRLEEAAIAWQGWLNVFRDCSFYNAIVCIFTGRHPPGGDRWARPEDFELFGSLGIGSGGFLPVFQAGFTEILRMVINGYQSDQRLIPDGISSLAARLADQSFDGKALRDRVCFSRVGRISREAEKIIIQTEAGEQRVFDRVIVTSSNRAMQMIHCLTDSESFLSRDVARAVRETHLTGSSKLFILTRTKFWIKNKLPTTIQSDGLVRGVYCLDYQPDEPEGHGVVLLSYTWEDDAQKMLAMPDKKTRCQVLVDDLAAIHPTFASYLLPVDGDYERYVLHHDWLTDPHSAGAFKLNYPGEDVYSQRLFFQPMTANSPNKDTGLYLAGCSCSFAGGWIEGAVQTALNSACAVLRSTGGQLSKGNPLDCINASYRY
+complexes: null
+small_molecules:
+- id: substrate_L-Tryptophan
+  name: L-Tryptophan
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Indole-3-acetamide
+  name: Indole-3-acetamide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Indolepyruvate
+  name: Indolepyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1059_EC1_13_12_3_Pseudomonas_savastanoi_P06617_L-Tryptophan
+  name: Reaction catalyzed by tryptophan 2-monooxygenase on L-Tryptophan
+  equation: L-Tryptophan + O2 = CO2 + H2O + Indole-3-acetamide
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Tryptophan
+  - species_id: substrate_O2
+  products:
+  - species_id: product_Indole-3-acetamide
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_1_13_12_3_P06617_p3264
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 16165;16166;16167;16168
+  KEGGid: R00679
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:16031; CHEBI:46125; CHEBI:44819;
+    CHEBI:41981; CHEBI:32702; CHEBI:139538; CHEBI:46225; CHEBI:26689; CHEBI:13178;
+    CHEBI:45988; CHEBI:6310; CHEBI:29954; CHEBI:42857; CHEBI:41979; CHEBI:46118; CHEBI:3283;
+    CHEBI:23833; CHEBI:21407; CHEBI:57912; CHEBI:13416; CHEBI:42043; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:23011; CHEBI:15377; CHEBI:14446; CHEBI:32704;
+    CHEBI:13352; CHEBI:46086; CHEBI:13285; CHEBI:15379; CHEBI:13282; CHEBI:184633;
+    CHEBI:16828; CHEBI:43228; CHEBI:13283; CHEBI:44292; CHEBI:5904; CHEBI:30491; CHEBI:33806;
+    CHEBI:25366; CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:13284; CHEBI:29793;
+    CHEBI:7860; CHEBI:16526; CHEBI:10745; CHEBI:48829; CHEBI:29373; CHEBI:44701; CHEBI:24800
+
+    KEGG IDs: KEGG:C02693; KEGG:C00078; KEGG:C00001; KEGG:C00011; KEGG:C00704; KEGG:C00007'
+- id: sabiork_1059_EC1_13_12_3_Pseudomonas_savastanoi_P06617_L-Tryptophan
+  name: Reaction catalyzed by tryptophan 2-monooxygenase on L-Tryptophan
+  equation: L-Tryptophan + O2 = CO2 + H2O + Indole-3-acetamide
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Tryptophan
+  - species_id: substrate_O2
+  products:
+  - species_id: product_Indole-3-acetamide
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_1_13_12_3_P06617_p3266
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 16165;16166;16167;16168
+  KEGGid: R00679
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:16031; CHEBI:29375; CHEBI:46125; CHEBI:44819;
+    CHEBI:41981; CHEBI:32702; CHEBI:139538; CHEBI:46225; CHEBI:26689; CHEBI:13178;
+    CHEBI:45988; CHEBI:6310; CHEBI:29954; CHEBI:46118; CHEBI:42857; CHEBI:41979; CHEBI:3283;
+    CHEBI:23833; CHEBI:21407; CHEBI:57912; CHEBI:13416; CHEBI:42043; CHEBI:33811;
+    CHEBI:33813; CHEBI:23011; CHEBI:27313; CHEBI:15377; CHEBI:14446; CHEBI:32704;
+    CHEBI:13352; CHEBI:46086; CHEBI:13285; CHEBI:15379; CHEBI:13282; CHEBI:184633;
+    CHEBI:16828; CHEBI:43228; CHEBI:13283; CHEBI:5904; CHEBI:44292; CHEBI:30491; CHEBI:33806;
+    CHEBI:25366; CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:13284; CHEBI:29793;
+    CHEBI:7860; CHEBI:16526; CHEBI:10745; CHEBI:48829; CHEBI:29373; CHEBI:44701; CHEBI:24800
+
+    KEGG IDs: KEGG:C02693; KEGG:C00078; KEGG:C00011; KEGG:C00001; KEGG:C00704; KEGG:C00007'
+- id: sabiork_1059_EC1_13_12_3_Pseudomonas_savastanoi_P06617_L-Tryptophan
+  name: Reaction catalyzed by tryptophan 2-monooxygenase on L-Tryptophan
+  equation: L-Tryptophan + O2 = CO2 + H2O + Indole-3-acetamide
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Tryptophan
+  - species_id: substrate_O2
+  products:
+  - species_id: product_Indole-3-acetamide
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_1_13_12_3_P06617_p3265
+    role: BIOCATALYST
+  - species_id: activator_Indolepyruvate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 16165;16166;16167;16168
+  KEGGid: R00679
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:16031; CHEBI:29375; CHEBI:46125; CHEBI:44819;
+    CHEBI:41981; CHEBI:29750; CHEBI:32702; CHEBI:139538; CHEBI:46225; CHEBI:26689;
+    CHEBI:13178; CHEBI:39967; CHEBI:45988; CHEBI:6310; CHEBI:29954; CHEBI:46118; CHEBI:42857;
+    CHEBI:41979; CHEBI:17640; CHEBI:3283; CHEBI:11113; CHEBI:23833; CHEBI:21407; CHEBI:57912;
+    CHEBI:13416; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:23011;
+    CHEBI:15377; CHEBI:14446; CHEBI:32704; CHEBI:13352; CHEBI:24817; CHEBI:14454;
+    CHEBI:46086; CHEBI:13285; CHEBI:15379; CHEBI:13282; CHEBI:11738; CHEBI:184633;
+    CHEBI:16828; CHEBI:43228; CHEBI:13283; CHEBI:5904; CHEBI:44292; CHEBI:30491; CHEBI:33806;
+    CHEBI:25366; CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:13284; CHEBI:29793;
+    CHEBI:7860; CHEBI:16526; CHEBI:10745; CHEBI:48829; CHEBI:5917; CHEBI:29373; CHEBI:44701;
+    CHEBI:24816; CHEBI:24800
+
+    KEGG IDs: KEGG:C02693; KEGG:C00078; KEGG:C00331; KEGG:C00001; KEGG:C00011; KEGG:C00704;
+    KEGG:C00007'
+- id: sabiork_1059_EC1_13_12_3_Pseudomonas_savastanoi_P06617_L-Tryptophan
+  name: Reaction catalyzed by tryptophan 2-monooxygenase on L-Tryptophan
+  equation: L-Tryptophan + O2 = CO2 + H2O + Indole-3-acetamide
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Tryptophan
+  - species_id: substrate_O2
+  products:
+  - species_id: product_Indole-3-acetamide
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_1_13_12_3_P06617_p3267
+    role: BIOCATALYST
+  - species_id: activator_Indolepyruvate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 16165;16166;16167;16168
+  KEGGid: R00679
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:16031; CHEBI:29375; CHEBI:46125; CHEBI:44819;
+    CHEBI:41981; CHEBI:29750; CHEBI:32702; CHEBI:139538; CHEBI:46225; CHEBI:26689;
+    CHEBI:13178; CHEBI:39967; CHEBI:45988; CHEBI:6310; CHEBI:29954; CHEBI:46118; CHEBI:42857;
+    CHEBI:41979; CHEBI:17640; CHEBI:3283; CHEBI:11113; CHEBI:23833; CHEBI:21407; CHEBI:57912;
+    CHEBI:13416; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:23011; CHEBI:27313;
+    CHEBI:15377; CHEBI:14446; CHEBI:32704; CHEBI:13352; CHEBI:24817; CHEBI:14454;
+    CHEBI:46086; CHEBI:13285; CHEBI:15379; CHEBI:13282; CHEBI:11738; CHEBI:184633;
+    CHEBI:16828; CHEBI:43228; CHEBI:13283; CHEBI:5904; CHEBI:44292; CHEBI:30491; CHEBI:33806;
+    CHEBI:25366; CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:13284; CHEBI:29793;
+    CHEBI:7860; CHEBI:16526; CHEBI:10745; CHEBI:48829; CHEBI:5917; CHEBI:29373; CHEBI:44701;
+    CHEBI:24816; CHEBI:24800
+
+    KEGG IDs: KEGG:C02693; KEGG:C00078; KEGG:C00331; KEGG:C00011; KEGG:C00001; KEGG:C00704;
+    KEGG:C00007'
+measurements:
+- id: measurement_1_13_12_3_Pseudomonas_savastanoi_P06617_L-Tryptophan
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.3
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_13_12_3_Pseudomonas_savastanoi_P06617_L-Tryptophan
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.3
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_13_12_3_Pseudomonas_savastanoi_P06617_L-Tryptophan
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.3
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_13_12_3_Pseudomonas_savastanoi_P06617_L-Tryptophan
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.3
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_13_12_3_Pseudomonas_savastanoi_P06617_L-Tryptophan_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 3200.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Tryptophan
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.3
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14636049'
+- id: 1_13_12_3_Pseudomonas_savastanoi_P06617_L-Tryptophan_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.21
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Tryptophan
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.3
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14636049'
+- id: 1_13_12_3_Pseudomonas_savastanoi_P06617_L-Tryptophan_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.7e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Tryptophan
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.3
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14636049'
+- id: 1_13_12_3_Pseudomonas_savastanoi_P06617_L-Tryptophan_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.21
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Tryptophan
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.3
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14636049'
+- id: 1_13_12_3_Pseudomonas_savastanoi_P06617_L-Tryptophan_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 42.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Tryptophan
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.3
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14636049'
+- id: 1_13_12_3_Pseudomonas_savastanoi_P06617_L-Tryptophan_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0033
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Tryptophan
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.3
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14636049'
+- id: 1_13_12_3_Pseudomonas_savastanoi_P06617_L-Tryptophan_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.7e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Tryptophan
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.3
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14636049'
+- id: 1_13_12_3_Pseudomonas_savastanoi_P06617_L-Tryptophan_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 3200.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Tryptophan
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.3
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14636049'
+- id: 1_13_12_3_Pseudomonas_savastanoi_P06617_L-Tryptophan_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.21
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Tryptophan
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.3
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14636049'
+- id: 1_13_12_3_Pseudomonas_savastanoi_P06617_L-Tryptophan_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.21
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Tryptophan
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.3
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14636049'
+- id: 1_13_12_3_Pseudomonas_savastanoi_P06617_L-Tryptophan_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0033
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Tryptophan
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.3
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14636049'
+- id: 1_13_12_3_Pseudomonas_savastanoi_P06617_L-Tryptophan_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 42.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Tryptophan
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.3
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14636049'
+buffer:
+  buffer: 50 mM Tris, 1 mM EDTA, 0.5 mM Dithiothreitol
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 3264
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/14636049/
+  pubmed_id: '14636049'
+  doi: null
+name: Merged entry for P06617 R98A
+description: 'Merged from 4 files: SABIO_EC1.13.12.3_Pseudomonas_savastanoi__P06617_R98A_s_L-Tryptophan.yaml,
+  SABIO_EC1.13.12.3_Pseudomonas_savastanoi__P06617_R98A_s_L-Tryptophan_3.yaml, SABIO_EC1.13.12.3_Pseudomonas_savastanoi__P06617_R98A_s_L-Tryptophan_2.yaml,
+  SABIO_EC1.13.12.3_Pseudomonas_savastanoi__P06617_R98A_s_L-Tryptophan_4.yaml'

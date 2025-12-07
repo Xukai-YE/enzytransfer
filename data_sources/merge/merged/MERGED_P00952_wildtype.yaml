@@ -1,0 +1,409 @@
+version: '2.0'
+created: '2025-11-20T13:41:49.225856'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_6_1_1_1_P00952_p68009
+  name: tyrosine---tRNA ligase
+  ecnumber: 6.1.1.1
+  organism: bovine
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P00952
+  wildtype_sequence: MDLLAELQWRGLVNQTTDEDGLRKLLNEERVTLYCGFDPTADSLHIGHLATILTMRRFQQAGHRPIALVGGATGLIGDPSGKKSERTLNAKETVEAWSARIKEQLGRFLDFEADGNPAKIKNNYDWIGPLDVITFLRDVGKHFSVNYMMAKESVQSRIETGISFTEFSYMMLQAYDFLRLYETEGCRLQIGGSDQWGNITAGLELIRKTKGEARAFGLTIPLVTKADGTKFGKTESGTIWLDKEKTSPYEFYQFWINTDDRDVIRYLKYFTFLSKEEIEALEQELREAPEKRAAQKTLAEEVTKLVHGEEALRQAIRISEALFSGDIANLTAAEIEQGFKDVPSFVHEGGDVPLVELLVSAGISPSKRQAREDIQNGAIYVNGERLQDVGAILTAEHRLEGRFTVIRRGKKKYYLIRYA
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_L-Tyrosine
+  name: L-Tyrosine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mg2_
+  name: Mg2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Tyrosyl_adenylate
+  name: Tyrosyl adenylate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_15655_EC6_1_1_1_bovine_P00952_ATP
+  name: Reaction catalyzed by tyrosine---tRNA ligase on ATP
+  equation: ATP + L-Tyrosine = Diphosphate + Tyrosyl adenylate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_L-Tyrosine
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_Tyrosyl_adenylate
+  modifiers:
+  - species_id: protein_6_1_1_1_P00952_p68009
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:13181; CHEBI:10789; CHEBI:57299;
+    CHEBI:6313; CHEBI:8683; CHEBI:13379; CHEBI:32785; CHEBI:27176; CHEBI:17895; CHEBI:6635;
+    CHEBI:32760; CHEBI:32784; CHEBI:33019; CHEBI:13236; CHEBI:45067; CHEBI:18186;
+    CHEBI:9800; CHEBI:32762; CHEBI:10841; CHEBI:46161; CHEBI:29888; CHEBI:2359; CHEBI:35782;
+    CHEBI:49736; CHEBI:40938; CHEBI:13420; CHEBI:18361; CHEBI:32786; CHEBI:33017;
+    CHEBI:46070; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:46858; CHEBI:18420;
+    CHEBI:21411; CHEBI:32761; CHEBI:15277; CHEBI:25112; CHEBI:45212; CHEBI:42009;
+    CHEBI:39127; CHEBI:58315; CHEBI:33018
+
+    KEGG IDs: KEGG:C01536; KEGG:C00013; KEGG:C00305; KEGG:C00002; KEGG:C00082'
+- id: sabiork_15655_EC6_1_1_1_bovine_P00952_L-Tyrosine
+  name: Reaction catalyzed by tyrosine---tRNA ligase on L-Tyrosine
+  equation: ATP + L-Tyrosine = Diphosphate + Tyrosyl adenylate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Tyrosine
+  - species_id: substrate_ATP
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Tyrosyl_adenylate
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_6_1_1_1_P00952_p68011
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:13181; CHEBI:10789; CHEBI:57299;
+    CHEBI:6313; CHEBI:8683; CHEBI:13379; CHEBI:32785; CHEBI:27176; CHEBI:17895; CHEBI:6635;
+    CHEBI:32760; CHEBI:32784; CHEBI:33019; CHEBI:13236; CHEBI:45067; CHEBI:18186;
+    CHEBI:9800; CHEBI:32762; CHEBI:46161; CHEBI:10841; CHEBI:29888; CHEBI:2359; CHEBI:35782;
+    CHEBI:49736; CHEBI:40938; CHEBI:13420; CHEBI:18361; CHEBI:32786; CHEBI:33017;
+    CHEBI:46070; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:46858; CHEBI:18420;
+    CHEBI:21411; CHEBI:32761; CHEBI:15277; CHEBI:25112; CHEBI:45212; CHEBI:42009;
+    CHEBI:39127; CHEBI:58315; CHEBI:33018
+
+    KEGG IDs: KEGG:C01536; KEGG:C00013; KEGG:C00305; KEGG:C00002; KEGG:C00082'
+- id: sabiork_15655_EC6_1_1_1_bovine_P00952_L-Tyrosine
+  name: Reaction catalyzed by tyrosine---tRNA ligase on L-Tyrosine
+  equation: ATP + L-Tyrosine = Diphosphate + Tyrosyl adenylate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Tyrosine
+  - species_id: substrate_ATP
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Tyrosyl_adenylate
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_6_1_1_1_P00952_p68008
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:13181; CHEBI:10789; CHEBI:57299;
+    CHEBI:6313; CHEBI:8683; CHEBI:13379; CHEBI:32785; CHEBI:27176; CHEBI:17895; CHEBI:6635;
+    CHEBI:32760; CHEBI:32784; CHEBI:33019; CHEBI:13236; CHEBI:45067; CHEBI:18186;
+    CHEBI:9800; CHEBI:32762; CHEBI:46161; CHEBI:10841; CHEBI:29888; CHEBI:2359; CHEBI:35782;
+    CHEBI:49736; CHEBI:40938; CHEBI:13420; CHEBI:18361; CHEBI:32786; CHEBI:33017;
+    CHEBI:46070; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:46858; CHEBI:18420;
+    CHEBI:21411; CHEBI:32761; CHEBI:15277; CHEBI:25112; CHEBI:45212; CHEBI:42009;
+    CHEBI:39127; CHEBI:58315; CHEBI:33018
+
+    KEGG IDs: KEGG:C01536; KEGG:C00013; KEGG:C00305; KEGG:C00002; KEGG:C00082'
+- id: sabiork_15655_EC6_1_1_1_bovine_P00952_L-Tyrosine
+  name: Reaction catalyzed by tyrosine---tRNA ligase on L-Tyrosine
+  equation: ATP + L-Tyrosine = Diphosphate + Tyrosyl adenylate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Tyrosine
+  - species_id: substrate_ATP
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Tyrosyl_adenylate
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_6_1_1_1_P00952_p68010
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:13181; CHEBI:10789; CHEBI:57299;
+    CHEBI:6313; CHEBI:8683; CHEBI:13379; CHEBI:32785; CHEBI:27176; CHEBI:17895; CHEBI:6635;
+    CHEBI:32760; CHEBI:32784; CHEBI:33019; CHEBI:13236; CHEBI:45067; CHEBI:18186;
+    CHEBI:9800; CHEBI:32762; CHEBI:46161; CHEBI:10841; CHEBI:29888; CHEBI:2359; CHEBI:35782;
+    CHEBI:49736; CHEBI:40938; CHEBI:13420; CHEBI:18361; CHEBI:32786; CHEBI:33017;
+    CHEBI:46070; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:46858; CHEBI:18420;
+    CHEBI:21411; CHEBI:32761; CHEBI:15277; CHEBI:25112; CHEBI:45212; CHEBI:42009;
+    CHEBI:39127; CHEBI:58315; CHEBI:33018
+
+    KEGG IDs: KEGG:C01536; KEGG:C00013; KEGG:C00305; KEGG:C00002; KEGG:C00082'
+measurements:
+- id: measurement_6_1_1_1_bovine_P00952_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_1_bovine_P00952_L-Tyrosine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_1_bovine_P00952_L-Tyrosine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_1_bovine_P00952_L-Tyrosine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 6_1_1_1_bovine_P00952_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00138
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '6315404'
+- id: 6_1_1_1_bovine_P00952_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 5000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '6315404'
+- id: 6_1_1_1_bovine_P00952_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 6.9
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '6315404'
+- id: 6_1_1_1_bovine_P00952_L-Tyrosine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.4e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Tyrosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '6315404'
+- id: 6_1_1_1_bovine_P00952_L-Tyrosine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 4.6
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Tyrosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '6315404'
+- id: 6_1_1_1_bovine_P00952_L-Tyrosine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 5900.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Tyrosine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '6315404'
+- id: 6_1_1_1_bovine_P00952_L-Tyrosine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 8.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Tyrosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '6315404'
+- id: 6_1_1_1_bovine_P00952_L-Tyrosine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00135
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Tyrosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '6315404'
+- id: 6_1_1_1_bovine_P00952_L-Tyrosine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.8e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Tyrosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '6315404'
+- id: 6_1_1_1_bovine_P00952_L-Tyrosine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 5.5
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Tyrosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '6315404'
+buffer:
+  buffer: 100 mM sodium cacodylate, 10 mM 2-mercaptoethanol, 10 mM potassium fluoride,
+    0.1 mg bovine plasma albumin
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 68009
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/6315404/
+  pubmed_id: '6315404'
+  doi: null
+name: Merged entry for P00952 wildtype
+description: 'Merged from 4 files: SABIO_EC6.1.1.1_bovine__P00952_s_ATP.yaml, SABIO_EC6.1.1.1_bovine__P00952_s_L-Tyrosine_3.yaml,
+  SABIO_EC6.1.1.1_bovine__P00952_s_L-Tyrosine.yaml, SABIO_EC6.1.1.1_bovine__P00952_s_L-Tyrosine_2.yaml'

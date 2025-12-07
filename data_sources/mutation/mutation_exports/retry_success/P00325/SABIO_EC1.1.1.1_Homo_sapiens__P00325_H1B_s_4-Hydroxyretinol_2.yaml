@@ -1,0 +1,190 @@
+name: SABIO-RK Entry 12170
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 12170
+created: '2025-10-28T14:00:24.898109'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_1_P00325_p12170
+  name: alcohol dehydrogenase
+  ecnumber: 1.1.1.1
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: H1B
+  uniprotid: P00325
+  wildtype_sequence: MSTAGKVIKCKAAVLWEVKKPFSIEDVEVAPPKAYEVRIKMVAVGICHTDDHVVSGNLVTPLPVILGHEAAGIVESVGEGVTTVKPGDKVIPLFTPQCGKCRVCKNPESNYCLKNDLGNPRGTLQDGTRRFTCRGKPIHHFLGTSTFSQYTVVDENAVAKIDAASPLEKVCLIGCGFSTGYGSAVNVAKVTPGSTCAVFGLGGVGLSAVMGCKAAGAARIIAVDINKDKFAKAKELGATECINPQDYKKPIQEVLKEMTDGGVDFSFEVIGRLDTMMASLLCCHEACGTSVIVGVPPASQNLSINPMLLLTGRTWKGAVYGGFKSKEGIPKLVADFMAKKFSLDALITHVLPFEKINEGFDLLHSGKSIRTVLTF
+  mutant_sequence: MVAVGICBTDDHVVSGNLVTPLPVILGHEAAGIVESVGEGVTTVKPGDKVIPLFTPQCGKCRVCKNPESNYCLKNDLGNPRGTLQDGTRRFTCRGKPIHHFLGTSTFSQYTVVDENAVAKIDAASPLEKVCLIGCGFSTGYGSAVNVAKVTPGSTCAVFGLGGVGLSAVMGCKAAGAARIIAVDINKDKFAKAKELGATECINPQDYKKPIQEVLKEMTDGGVDFSFEVIGRLDTMMASLLCCHEACGTSVIVGVPPASQNLSINPMLLLTGRTWKGAVYGGFKSKEGIPKLVADFMAKKFSLDALITHVLPFEKINEGFDLLHSGKSIRTVLTF
+  position_offset: 7
+  retry_status: isoform_2_matched
+  isoform_used: 2
+complexes: null
+small_molecules:
+- id: substrate_4-Hydroxyretinol
+  name: 4-Hydroxyretinol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4-Hydroxyretinal
+  name: 4-Hydroxyretinal
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_9560_EC1_1_1_1_Homo_sapiens_P00325_4-Hydroxyretinol
+  name: Reaction catalyzed by alcohol dehydrogenase on 4-Hydroxyretinol
+  equation: NAD+ + 4-Hydroxyretinol = H+ + NADH + 4-Hydroxyretinal
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_4-Hydroxyretinol
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_4-Hydroxyretinal
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_1_1_1_P00325_p12170
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:132259; CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846;
+    CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636; CHEBI:44214;
+    CHEBI:29233; CHEBI:13394; CHEBI:5584; CHEBI:57945; CHEBI:44216; CHEBI:57540; CHEBI:7423;
+    CHEBI:13389; CHEBI:13395; CHEBI:15378; CHEBI:44215; CHEBI:10744; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00003; KEGG:C00004; KEGG:C00080'
+measurements:
+- id: measurement_1_1_1_1_Homo_sapiens_P00325_4-Hydroxyretinol
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1_1_Homo_sapiens_P00325_4-Hydroxyretinol_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.1e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_4-Hydroxyretinol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15369820'
+- id: 1_1_1_1_Homo_sapiens_P00325_4-Hydroxyretinol_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2.833333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_4-Hydroxyretinol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15369820'
+- id: 1_1_1_1_Homo_sapiens_P00325_4-Hydroxyretinol_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 253333.3
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_4-Hydroxyretinol
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15369820'
+buffer:
+  buffer: 0.1 M sodium phosphate, 0.02% Tween 80
+  buffer_concentration: 0.1 M
+references:
+- title: Reference for SABIO-RK entry 12170
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15369820/
+  pubmed_id: '15369820'
+  doi: null

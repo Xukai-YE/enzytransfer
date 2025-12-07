@@ -1,0 +1,178 @@
+name: SABIO-RK Entry 6392
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 6392
+created: '2025-10-28T13:50:30.759265'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_1_3_3_P0A6L4_p6392
+  name: N-acetylneuraminate lyase
+  ecnumber: 4.1.3.3
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: N5B
+  uniprotid: P0A6L4
+  wildtype_sequence: MATNLRGVMAALLTPFDQQQALDKASLRRLVQFNIQQGIDGLYVGGSTGEAFVQSLSEREQVLEIVAEEAKGKIKLIAHVGCVSTAESQQLAASAKRYGFDAVSAVTPFYYPFSFEEHCDHYRAIIDSADGLPMVVYNIPALSGVKLTLDQINTLVTLPGVGALKQTSGDLYQMEQIRREHPDLVLYNGYDEIFASGLLAGADGGIGSTYNIMGWRYQGIVKALKEGDIQTAQKLQTECNKVIDLLIKTGVFRGLKTVLHYMDVVSVPLCRKPFGPVDEKYLPELKALAQQLMQERG
+  mutant_sequence: MATBLRGVMAALLTPFDQQQALDKASLRRLVQFNIQQGIDGLYVGGSTGEAFVQSLSEREQVLEIVAEEAKGKIKLIAHVGCVSTAESQQLAASAKRYGFDAVSAVTPFYYPFSFEEHCDHYRAIIDSADGLPMVVYNIPALSGVKLTLDQINTLVTLPGVGALKQTSGDLYQMEQIRREHPDLVLYNGYDEIFASGLLAGADGGIGSTYNIMGWRYQGIVKALKEGDIQTAQKLQTECNKVIDLLIKTGVFRGLKTVLHYMDVVSVPLCRKPFGPVDEKYLPELKALAQQLMQERG
+  position_offset: -1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_N-Acetyl-D-neuraminate
+  name: N-Acetyl-D-neuraminate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N-Acetyl-D-mannosamine
+  name: N-Acetyl-D-mannosamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Pyruvate
+  name: Pyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7666_EC4_1_3_3_Escherichia_coli_P0A6L4_N-Acetyl-D-neuraminate
+  name: Reaction catalyzed by N-acetylneuraminate lyase on N-Acetyl-D-neuraminate
+  equation: N-Acetyl-D-neuraminate = Pyruvate + N-Acetyl-D-mannosamine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N-Acetyl-D-neuraminate
+  products:
+  - species_id: product_N-Acetyl-D-mannosamine
+  - species_id: product_Pyruvate
+  modifiers:
+  - species_id: protein_4_1_3_3_P0A6L4_p6392
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:26466; CHEBI:49025; CHEBI:17122; CHEBI:32816; CHEBI:15361;
+    CHEBI:58770; CHEBI:26462; CHEBI:14987; CHEBI:8685; CHEBI:45253; CHEBI:45493; CHEBI:49026
+
+    KEGG IDs: KEGG:C19909; KEGG:C19910; KEGG:C00645; KEGG:C00022'
+measurements:
+- id: measurement_4_1_3_3_Escherichia_coli_P0A6L4_N-Acetyl-D-neuraminate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 4_1_3_3_Escherichia_coli_P0A6L4_N-Acetyl-D-neuraminate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.5
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Acetyl-D-neuraminate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15967977'
+- id: 4_1_3_3_Escherichia_coli_P0A6L4_N-Acetyl-D-neuraminate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 100.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Acetyl-D-neuraminate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15967977'
+- id: 4_1_3_3_Escherichia_coli_P0A6L4_N-Acetyl-D-neuraminate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0153
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Acetyl-D-neuraminate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15967977'
+buffer:
+  buffer: 50 mM potassium phosphate, 5 mM 2-mercaptoethanol, 360 mM NADH, 0.67 U/ml
+    Lactic dehydrogenase
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 6392
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15967977/
+  pubmed_id: '15967977'
+  doi: null

@@ -1,0 +1,295 @@
+version: '2.0'
+created: '2025-11-20T13:41:24.825478'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_8_1_5_D4Z2G1_p17443
+  name: haloalkane dehalogenase
+  ecnumber: 3.8.1.5
+  organism: Sphingomonas paucimobilis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: L177Q
+  uniprotid: D4Z2G1
+  wildtype_sequence: MSLGAKPFGEKKFIEIKGRRMAYIDEGTGDPILFQHGNPTSSYLWRNIMPHCAGLGRLIACDLIGMGDSDKLDPSGPERYAYAEHRDYLDALWEALDLGDRVVLVVHDWGSALGFDWARRHRERVQGIAYMEAIAMPIEWADFPEQDRDLFQAFRSQAGEELVLQDNVFVEQVLPGLILRPLSEAEMAAYREPFLAAGEARRPTLSWPRQIPIAGTPADVVAIARDYAGWLSESPIPKLFINAEPGALTTGRMRDFCRTWPNQTEITVAGAHFIQEDSPDEIGAAIAAFVRRLRPA
+  mutant_sequence: MSLGAKPFGEKKFIEIKGRRMAYIDEGTGDPILFQHGNPTSSYLWRNIMPHCAGLGRLIACDLIGMGDSDKLDPSGPERYAYAEHRDYLDALWEALDLGDRVVLVVHDWGSALGFDWARRHRERVQGIAYMEAIAMPIEWADFPEQDRDLFQAFRSQAGEELVLQDNVFVEQVLPGQILRPLSEAEMAAYREPFLAAGEARRPTLSWPRQIPIAGTPADVVAIARDYAGWLSESPIPKLFINAEPGALTTGRMRDFCRTWPNQTEITVAGAHFIQEDSPDEIGAAIAAFVRRLRPA
+complexes: null
+small_molecules:
+- id: substrate_1
+  name: '1'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_2-Dibromoethane
+  name: 2-Dibromoethane
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Bromoethanol
+  name: 2-Bromoethanol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Br-
+  name: Br-
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_1-Chlorobutane
+  name: 1-Chlorobutane
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_1-Butanol
+  name: 1-Butanol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Cl-
+  name: Cl-
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7246_EC3_8_1_5_Sphingomonas_paucimobilis_D4Z2G1_1
+  name: Reaction catalyzed by haloalkane dehalogenase on 1
+  equation: H2O + 1,2-Dibromoethane = Br- + 2-Bromoethanol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_1
+  - species_id: substrate_2-Dibromoethane
+  products:
+  - species_id: product_2-Bromoethanol
+  - species_id: product_Br-
+  modifiers:
+  - species_id: protein_3_8_1_5_D4Z2G1_p17443
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:3178; CHEBI:44819; CHEBI:41981; CHEBI:18880;
+    CHEBI:42857; CHEBI:41979; CHEBI:29134; CHEBI:15858; CHEBI:42043; CHEBI:33811;
+    CHEBI:28534; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:496; CHEBI:47266; CHEBI:13352;
+    CHEBI:13918; CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:31673; CHEBI:49515; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C01324; KEGG:C00001; KEGG:C13645; KEGG:C11088'
+- id: sabiork_9969_EC3_8_1_5_Sphingomonas_paucimobilis_D4Z2G1_1-Chlorobutane
+  name: Reaction catalyzed by haloalkane dehalogenase on 1-Chlorobutane
+  equation: H2O + 1-Chlorobutane = Cl- + 1-Butanol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_1-Chlorobutane
+  products:
+  - species_id: product_1-Butanol
+  - species_id: product_Cl-
+  modifiers:
+  - species_id: protein_3_8_1_5_D4Z2G1_p17426
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:39632; CHEBI:3616; CHEBI:44819; CHEBI:17996;
+    CHEBI:41981; CHEBI:5590; CHEBI:22936; CHEBI:42857; CHEBI:41979; CHEBI:3731; CHEBI:13364;
+    CHEBI:42043; CHEBI:17883; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:13291;
+    CHEBI:15377; CHEBI:13352; CHEBI:13970; CHEBI:43228; CHEBI:28885; CHEBI:44292;
+    CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:24635; CHEBI:48804; CHEBI:612;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C01327; KEGG:C00001; KEGG:C00698; KEGG:C06142'
+measurements:
+- id: measurement_3_8_1_5_Sphingomonas_paucimobilis_D4Z2G1_1
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.6
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_3_8_1_5_Sphingomonas_paucimobilis_D4Z2G1_1-Chlorobutane
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.6
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_8_1_5_Sphingomonas_paucimobilis_D4Z2G1_1_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 48.8
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14525993'
+- id: 3_8_1_5_Sphingomonas_paucimobilis_D4Z2G1_1_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 4710.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14525993'
+- id: 3_8_1_5_Sphingomonas_paucimobilis_D4Z2G1_1_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.01037
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14525993'
+- id: 3_8_1_5_Sphingomonas_paucimobilis_D4Z2G1_1-Chlorobutane_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2.25
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1-Chlorobutane
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14525993'
+- id: 3_8_1_5_Sphingomonas_paucimobilis_D4Z2G1_1-Chlorobutane_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 510.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1-Chlorobutane
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14525993'
+- id: 3_8_1_5_Sphingomonas_paucimobilis_D4Z2G1_1-Chlorobutane_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0044
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1-Chlorobutane
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14525993'
+buffer:
+  buffer: Glycine
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 17443
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/14525993/
+  pubmed_id: '14525993'
+  doi: null
+name: Merged entry for D4Z2G1 L177Q
+description: 'Merged from 2 files: SABIO_EC3.8.1.5_Sphingomonas_paucimobilis__D4Z2G1_L177Q_s_1.yaml,
+  SABIO_EC3.8.1.5_Sphingomonas_paucimobilis__D4Z2G1_L177Q_s_1-Chlorobutane.yaml'

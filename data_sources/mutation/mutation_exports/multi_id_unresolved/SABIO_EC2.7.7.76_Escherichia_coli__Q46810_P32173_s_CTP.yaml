@@ -1,0 +1,172 @@
+name: SABIO-RK Entry 65990
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 65990
+created: '2025-10-28T16:57:20.247578'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_7_76_Q46810_P32173_p65990
+  name: molybdenum cofactor guanylyltransferase
+  sequence: null
+  ecnumber: 2.7.7.76
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q46810; P32173
+complexes: null
+small_molecules:
+- id: substrate_CTP
+  name: CTP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Mo-Molybdopterin
+  name: Mo-Molybdopterin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mg2_
+  name: Mg2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Mo-molybdopterin_cytosine_dinucleotide
+  name: Mo-molybdopterin cytosine dinucleotide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_15314_EC2_7_7_76_Escherichia_coli_Q46810_P32173_CTP
+  name: Reaction catalyzed by molybdenum cofactor guanylyltransferase on CTP
+  equation: CTP + Mo-Molybdopterin = Diphosphate + Mo-molybdopterin cytosine dinucleotide
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_CTP
+  - species_id: substrate_Mo-Molybdopterin
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Mo-molybdopterin_cytosine_dinucleotide
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_2_7_7_76_Q46810_P32173_p65990
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:17677; CHEBI:58231; CHEBI:8683; CHEBI:13379; CHEBI:23522;
+    CHEBI:6635; CHEBI:13286; CHEBI:71308; CHEBI:33019; CHEBI:3285; CHEBI:45067; CHEBI:29888;
+    CHEBI:35782; CHEBI:21437; CHEBI:49736; CHEBI:41675; CHEBI:13420; CHEBI:18361;
+    CHEBI:33017; CHEBI:45208; CHEBI:18420; CHEBI:25112; CHEBI:37563; CHEBI:45212;
+    CHEBI:42009; CHEBI:39127; CHEBI:33018
+
+    KEGG IDs: KEGG:C00305; KEGG:C00013; KEGG:C00063'
+measurements:
+- id: measurement_2_7_7_76_Escherichia_coli_Q46810_P32173_CTP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 22.0
+  temperature_unit: °C
+parameters:
+- id: 2_7_7_76_Escherichia_coli_Q46810_P32173_CTP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.6e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '21081498'
+- id: 2_7_7_76_Escherichia_coli_Q46810_P32173_CTP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.003833333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '21081498'
+buffer:
+  buffer: 100 mM Tris
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 65990
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/21081498/
+  pubmed_id: '21081498'
+  doi: null

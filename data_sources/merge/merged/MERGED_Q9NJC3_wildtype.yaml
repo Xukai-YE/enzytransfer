@@ -1,0 +1,399 @@
+version: '2.0'
+created: '2025-11-20T13:39:15.867813'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_1_Q9NJC3_p24937
+  name: alcohol dehydrogenase
+  ecnumber: 1.1.1.1
+  organism: Branchiostoma lanceolatum
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9NJC3
+  wildtype_sequence: MAETAGKPITCRAAVAWEAKKPLVIETIEVAPPRAHEVRIKVLATGVCHTDAYTLDGFDSEGKFPVVLGHEGGGVVESVGEGVSGFKPGDHVIPLYVPQCKECKFCKSPKTNLCQKIRVTQGQGVMPDGSTRFTCKGQTVFHFMGTSTFSEYTVVADISLCKVTESAPLDKVCLLGCGISTGYGAALNTAKVESGSTVAVWGLGAVGLAVIMGAKVAGASRIIGVDINPDKAEIAKKFGMTEFVNPKDHDKPIQQVLVELTDGGLDFTFECIGNVHTMRAALESCHKGWGTSVIIGVAAAGQEISTRPFQLVTGRVWKGTAFGGWKSVDSVPKLVEEYQSGKIQVDEFISHNFPLDKINDSFHLMHAGESIRSVVHF
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_1-Octanol
+  name: 1-Octanol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_1-Octanal
+  name: 1-Octanal
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_12-Hydroxydodecanoic_acid
+  name: 12-Hydroxydodecanoic acid
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_12-Oxododecanoic_acid
+  name: 12-Oxododecanoic acid
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_S-_Hydroxymethyl_glutathione
+  name: S-(Hydroxymethyl)glutathione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_S-Formylglutathione
+  name: S-Formylglutathione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2740_EC1_1_1_1_Branchiostoma_lanceolatum_Q9NJC3_1-Octanol
+  name: Reaction catalyzed by alcohol dehydrogenase on 1-Octanol
+  equation: NAD+ + 1-Octanol = NADH + H+ + 1-Octanal
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_1-Octanol
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_NADH
+  - species_id: product_1-Octanal
+  modifiers:
+  - species_id: protein_1_1_1_1_Q9NJC3_p24937
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 24620;24621;24622;24623
+  KEGGid: R02878
+  notes: 'ChEBI IDs: CHEBI:660; CHEBI:37868; CHEBI:44281; CHEBI:25643; CHEBI:13393;
+    CHEBI:15846; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:44214; CHEBI:13394;
+    CHEBI:25642; CHEBI:11269; CHEBI:17935; CHEBI:659; CHEBI:57945; CHEBI:44216; CHEBI:16188;
+    CHEBI:57540; CHEBI:11268; CHEBI:7423; CHEBI:13389; CHEBI:13395; CHEBI:25641; CHEBI:44579;
+    CHEBI:44215; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00003; KEGG:C00004; KEGG:C01545; KEGG:C00756'
+- id: sabiork_7123_EC1_1_1_1_Branchiostoma_lanceolatum_Q9NJC3_12-Hydroxydodecanoic_acid
+  name: Reaction catalyzed by alcohol dehydrogenase on 12-Hydroxydodecanoic acid
+  equation: NAD+ + 12-Hydroxydodecanoic acid = NADH + 12-Oxododecanoic acid + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_12-Hydroxydodecanoic_acid
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_NADH
+  - species_id: product_12-Oxododecanoic_acid
+  modifiers:
+  - species_id: protein_1_1_1_1_Q9NJC3_p24938
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 60980;60981;60982;60983
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:44281; CHEBI:10616; CHEBI:13393; CHEBI:29234; CHEBI:39567;
+    CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:36204; CHEBI:21901;
+    CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:13394; CHEBI:5584; CHEBI:39557; CHEBI:57945;
+    CHEBI:44216; CHEBI:144067; CHEBI:57540; CHEBI:7423; CHEBI:13389; CHEBI:13395;
+    CHEBI:15378; CHEBI:144066; CHEBI:44215; CHEBI:10744; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00003; KEGG:C08317; KEGG:C00004; KEGG:C00080'
+- id: sabiork_7489_EC1_1_1_1_Branchiostoma_lanceolatum_Q9NJC3_NAD_
+  name: Reaction catalyzed by alcohol dehydrogenase on NAD+
+  equation: NAD+ + S-(Hydroxymethyl)glutathione = NADH + H+ + S-Formylglutathione
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_S-_Hydroxymethyl_glutathione
+  products:
+  - species_id: product_NADH
+  - species_id: product_S-Formylglutathione
+  modifiers:
+  - species_id: protein_1_1_1_1_Q9NJC3_p24936
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 19985;19986;19987;19988
+  KEGGid: R06983
+  notes: 'ChEBI IDs: CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:40619;
+    CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:22044; CHEBI:21901; CHEBI:24636;
+    CHEBI:44214; CHEBI:29233; CHEBI:13394; CHEBI:5584; CHEBI:57945; CHEBI:44216; CHEBI:57540;
+    CHEBI:7423; CHEBI:58758; CHEBI:16225; CHEBI:48926; CHEBI:57688; CHEBI:13389; CHEBI:34963;
+    CHEBI:12764; CHEBI:13395; CHEBI:15378; CHEBI:12746; CHEBI:8956; CHEBI:44215; CHEBI:10744;
+    CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C01031; KEGG:C00080; KEGG:C14180; KEGG:C00003; KEGG:C00004'
+measurements:
+- id: measurement_1_1_1_1_Branchiostoma_lanceolatum_Q9NJC3_1-Octanol
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 10.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_1_1_1_Branchiostoma_lanceolatum_Q9NJC3_12-Hydroxydodecanoic_acid
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 10.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_1_1_1_Branchiostoma_lanceolatum_Q9NJC3_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1_1_Branchiostoma_lanceolatum_Q9NJC3_1-Octanol_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00049
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1-Octanol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 10.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11054102'
+- id: 1_1_1_1_Branchiostoma_lanceolatum_Q9NJC3_1-Octanol_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 12.33333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1-Octanol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 10.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11054102'
+- id: 1_1_1_1_Branchiostoma_lanceolatum_Q9NJC3_1-Octanol_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 25000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1-Octanol
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 10.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11054102'
+- id: 1_1_1_1_Branchiostoma_lanceolatum_Q9NJC3_12-Hydroxydodecanoic_acid_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 11.33333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_12-Hydroxydodecanoic_acid
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 10.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11054102'
+- id: 1_1_1_1_Branchiostoma_lanceolatum_Q9NJC3_12-Hydroxydodecanoic_acid_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 9.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_12-Hydroxydodecanoic_acid
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 10.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11054102'
+- id: 1_1_1_1_Branchiostoma_lanceolatum_Q9NJC3_12-Hydroxydodecanoic_acid_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 126666.7
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_12-Hydroxydodecanoic_acid
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 10.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11054102'
+- id: 1_1_1_1_Branchiostoma_lanceolatum_Q9NJC3_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.1e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11054102'
+- id: 1_1_1_1_Branchiostoma_lanceolatum_Q9NJC3_NAD__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 2500000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11054102'
+- id: 1_1_1_1_Branchiostoma_lanceolatum_Q9NJC3_NAD__Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.4e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11054102'
+- id: 1_1_1_1_Branchiostoma_lanceolatum_Q9NJC3_NAD__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 11.33333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11054102'
+buffer:
+  buffer: 0.1 M sodium pyrophosphate; 0.1 M glycine/NaOH
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 24937
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11054102/
+  pubmed_id: '11054102'
+  doi: null
+name: Merged entry for Q9NJC3 wildtype
+description: 'Merged from 3 files: SABIO_EC1.1.1.1_Branchiostoma_lanceolatum__Q9NJC3_s_1-Octanol.yaml,
+  SABIO_EC1.1.1.1_Branchiostoma_lanceolatum__Q9NJC3_s_12-Hydroxydodecanoic.yaml, SABIO_EC1.1.1.1_Branchiostoma_lanceolatum__Q9NJC3_s_NAD_.yaml'

@@ -1,0 +1,371 @@
+version: '2.0'
+created: '2025-11-20T13:41:26.651654'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_1_1_25_A0A481NV25_p75308
+  name: histidine decarboxylase
+  ecnumber: 4.1.1.25
+  organism: Enterococcus faecium
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: A0A481NV25
+  wildtype_sequence: MKDMDIKAVFIGDKAENGPVYKMLLNKMVDEHLGWRENYIPSDMPAISEGDKLTPDYLATRDHMIEVLDEVSQRLRAGSIPWHSAGRYWGQMNAETLMPALLAYNYAMLWNPNNVALESSMATSQMEAEVGQDFASLFNMADGWGHIAADGSIANLEGLWYARCIKSIPLAVKEVLPEKVKNMSEWALLNLSVEEILEMTESFTDEEMDEVKAASSRSGKNIQKLGKWLVPQTKHYSWMKALDICGVGLDQMVAIPVQEDYRMDINALEKTIRELADQKIPILGVVAVVGTTEEGQVDSVDKIIQLREKLKDEGIYFYLHVDAAYGGYARSLFLNEAGEFVPYASLAEFFEEHHVFHHYVTIDKEVYEGFRAISEADSVTIDPHKMGYVPYAAGGIVIKHKNMRNIISYFAPYVFEKSVKAPDMLGAYILEGSKAGATAAAVWTAHRVLPLNVTGYGQLIGASIEAAQRFREFLEQLHFTVKGKTIEVYPLNHPDFNMVNWVFKVQDCTDLNAINELNEKMFDRSSYMDGDVYGERFITSHTTFTQEDYGDSPIRFIERMGLSKEEWQKEQQITLLRAAIMTPYLNDDRIFNFYTKEIAKAMEKKLNEIIK
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_L-Dopa
+  name: L-Dopa
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Dopamine
+  name: Dopamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Pyridoxal_phosphate
+  name: Pyridoxal phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Carbidopa_Pyridoxal_phosphate
+  name: Carbidopa; Pyridoxal phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_L-Tyrosine
+  name: L-Tyrosine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Tyramine
+  name: Tyramine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2090_EC4_1_1_25_Enterococcus_faecium_A0A481NV25_L-Dopa
+  name: Reaction catalyzed by histidine decarboxylase on L-Dopa
+  equation: L-Dopa = CO2 + Dopamine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Dopa
+  products:
+  - species_id: product_Dopamine
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_4_1_1_25_A0A481NV25_p75308
+    role: BIOCATALYST
+  - species_id: activator_Pyridoxal_phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 12272;12273;12274;12275
+  KEGGid: R02080
+  notes: 'ChEBI IDs: CHEBI:41871; CHEBI:11693; CHEBI:23886; CHEBI:139538; CHEBI:358848;
+    CHEBI:11930; CHEBI:19825; CHEBI:11695; CHEBI:1764; CHEBI:3283; CHEBI:26424; CHEBI:8668;
+    CHEBI:75987; CHEBI:18405; CHEBI:15765; CHEBI:49933; CHEBI:23011; CHEBI:597326;
+    CHEBI:13285; CHEBI:13282; CHEBI:13098; CHEBI:18243; CHEBI:234571; CHEBI:13283;
+    CHEBI:59905; CHEBI:45145; CHEBI:13284; CHEBI:67012; CHEBI:16526; CHEBI:57504;
+    CHEBI:14977; CHEBI:48829; CHEBI:14203; CHEBI:1377; CHEBI:43686
+
+    KEGG IDs: KEGG:C03758; KEGG:C00011; KEGG:C00355; KEGG:C00018'
+- id: sabiork_2090_EC4_1_1_25_Enterococcus_faecium_A0A481NV25_L-Dopa
+  name: Reaction catalyzed by histidine decarboxylase on L-Dopa
+  equation: L-Dopa = CO2 + Dopamine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Dopa
+  products:
+  - species_id: product_CO2
+  - species_id: product_Dopamine
+  modifiers:
+  - species_id: protein_4_1_1_25_A0A481NV25_p75313
+    role: BIOCATALYST
+  - species_id: activator_Carbidopa_Pyridoxal_phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 12272;12273;12274;12275
+  KEGGid: R02080
+  notes: 'ChEBI IDs: CHEBI:41871; CHEBI:11693; CHEBI:23886; CHEBI:139538; CHEBI:358848;
+    CHEBI:11930; CHEBI:19825; CHEBI:11695; CHEBI:3283; CHEBI:1764; CHEBI:39585; CHEBI:26424;
+    CHEBI:8668; CHEBI:75987; CHEBI:18405; CHEBI:15765; CHEBI:49933; CHEBI:23011; CHEBI:597326;
+    CHEBI:13285; CHEBI:13282; CHEBI:13098; CHEBI:18243; CHEBI:234571; CHEBI:13283;
+    CHEBI:59905; CHEBI:45145; CHEBI:3395; CHEBI:13284; CHEBI:67012; CHEBI:16526; CHEBI:57504;
+    CHEBI:14977; CHEBI:48829; CHEBI:14203; CHEBI:1377; CHEBI:43686
+
+    KEGG IDs: KEGG:C03758; KEGG:C00011; KEGG:C00355; KEGG:C00018'
+- id: sabiork_1099_EC4_1_1_25_Enterococcus_faecium_A0A481NV25_L-Tyrosine
+  name: Reaction catalyzed by tyrosine decarboxylase on L-Tyrosine
+  equation: L-Tyrosine = CO2 + Tyramine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Tyrosine
+  products:
+  - species_id: product_Tyramine
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_4_1_1_25_A0A481NV25_p75309
+    role: BIOCATALYST
+  - species_id: activator_Pyridoxal_phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 14345;14346;14347;14348
+  KEGGid: R00736
+  notes: 'ChEBI IDs: CHEBI:13181; CHEBI:6313; CHEBI:27174; CHEBI:32785; CHEBI:27176;
+    CHEBI:15276; CHEBI:17895; CHEBI:139538; CHEBI:358848; CHEBI:32760; CHEBI:32784;
+    CHEBI:3283; CHEBI:15760; CHEBI:327995; CHEBI:26424; CHEBI:8668; CHEBI:18186; CHEBI:9800;
+    CHEBI:32762; CHEBI:46161; CHEBI:18405; CHEBI:9799; CHEBI:23011; CHEBI:597326;
+    CHEBI:32786; CHEBI:13285; CHEBI:13282; CHEBI:46070; CHEBI:234571; CHEBI:13283;
+    CHEBI:46858; CHEBI:45145; CHEBI:21411; CHEBI:13284; CHEBI:32761; CHEBI:15277;
+    CHEBI:16526; CHEBI:14977; CHEBI:48829; CHEBI:58315
+
+    KEGG IDs: KEGG:C01536; KEGG:C00018; KEGG:C00483; KEGG:C00011; KEGG:C00082'
+measurements:
+- id: measurement_4_1_1_25_Enterococcus_faecium_A0A481NV25_L-Dopa
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 4.5
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_4_1_1_25_Enterococcus_faecium_A0A481NV25_L-Dopa
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 4.5
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_4_1_1_25_Enterococcus_faecium_A0A481NV25_L-Tyrosine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 4.5
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 4_1_1_25_Enterococcus_faecium_A0A481NV25_L-Dopa_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1
+  initial_value: 5.666667e-08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Dopa
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 4.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '30659181'
+- id: 4_1_1_25_Enterococcus_faecium_A0A481NV25_L-Dopa_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0004
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Dopa
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 4.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '30659181'
+- id: 4_1_1_25_Enterococcus_faecium_A0A481NV25_L-Dopa_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 12733.33
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Dopa
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 4.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '30659181'
+- id: 4_1_1_25_Enterococcus_faecium_A0A481NV25_L-Dopa_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 5.706667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Dopa
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 4.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '30659181'
+- id: 4_1_1_25_Enterococcus_faecium_A0A481NV25_L-Dopa_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0004481
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Dopa
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 4.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '30659181'
+- id: 4_1_1_25_Enterococcus_faecium_A0A481NV25_L-Tyrosine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 42633.33
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Tyrosine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 4.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '30659181'
+- id: 4_1_1_25_Enterococcus_faecium_A0A481NV25_L-Tyrosine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0002
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Tyrosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 4.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '30659181'
+- id: 4_1_1_25_Enterococcus_faecium_A0A481NV25_L-Tyrosine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 7.26
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Tyrosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 4.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '30659181'
+- id: 4_1_1_25_Enterococcus_faecium_A0A481NV25_L-Tyrosine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1
+  initial_value: 7.333333e-08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Tyrosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 4.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '30659181'
+buffer:
+  buffer: 100 mM potassium phosphate; 200 mM potassium acetate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 75308
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/30659181/
+  pubmed_id: '30659181'
+  doi: null
+name: Merged entry for A0A481NV25 wildtype
+description: 'Merged from 3 files: SABIO_EC4.1.1.25_Enterococcus_faecium__A0A481NV25_s_L-Dopa.yaml,
+  SABIO_EC4.1.1.25_Enterococcus_faecium__A0A481NV25_s_L-Dopa_2.yaml, SABIO_EC4.1.1.25_Enterococcus_faecium__A0A481NV25_s_L-Tyrosine.yaml'

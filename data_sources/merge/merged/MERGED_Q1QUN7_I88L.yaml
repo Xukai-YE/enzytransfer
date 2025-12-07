@@ -1,0 +1,245 @@
+version: '2.0'
+created: '2025-11-20T13:41:59.424010'
+modified: null
+creators:
+- given_name: SKiD
+  family_name: Database
+  mail: skid@database.org
+vessels: null
+proteins:
+- id: protein_Q1QUN7
+  name: Chromohalobacter salexigens
+  ecnumber: 1.1.1.203
+  organism: Chromohalobacter salexigens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: I88L
+  uniprotid: Q1QUN7
+  wildtype_sequence: MLNRLLVTGAAGGVGSAIRPHLGTLAHEVRLSDIVDLGAAEAHEEIVACDLADAQAVHDLVKDCDGIIHLGGVSVERPWNDILQANIIGAYNLYEAARNLGKPRIVFASSNHTIGYYPRTTRIDTEVPRRPDSLYGLSKCFGEDLASLYYHKFDIETLNIRIGSCFPKPKDARMMATWLSVDDFMRLMKRAFVAPKLGCTVVYGASANTESWWDNDKSAFLGWVPQDSSEIWREEIEQQAGEIDPDDPAVIYQGGKFVAAGHPDDAE
+  mutant_sequence: MLNRLLVTGAAGGVGSAIRPHLGTLAHEVRLSDIVDLGAAEAHEEIVACDLADAQAVHDLVKDCDGIIHLGGVSVERPWNDILQANILGAYNLYEAARNLGKPRIVFASSNHTIGYYPRTTRIDTEVPRRPDSLYGLSKCFGEDLASLYYHKFDIETLNIRIGSCFPKPKDARMMATWLSVDDFMRLMKRAFVAPKLGCTVVYGASANTESWWDNDKSAFLGWVPQDSSEIWREEIEQQAGEIDPDDPAVIYQGGKFVAAGHPDDAE
+complexes: null
+small_molecules:
+- id: substrate_beta-D-glucuronate
+  name: beta-D-glucuronate
+  canonical_smiles: O[C@H]1[C@H](O)[C@@H](O)[C@H](O)[C@H](O1)C(=O)[O-]
+  inchi: InChI=1S/C6H10O7/c7-1-2(8)4(5(10)11)13-6(12)3(1)9/h1-4,6-9,12H,(H,10,11)/p-1/t1-,2-,3+,4-,6+/m0/s1
+  inchikey: AEMOLEFTQBMNLQ-QIUUJYRFSA-M
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/11877136
+- id: product
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_beta-D-galacturonate
+  name: beta-D-galacturonate
+  canonical_smiles: O[C@H]1[C@H](O)[C@@H](O)[C@@H](O)[C@H](O1)C(=O)[O-]
+  inchi: InChI=1S/C6H10O7/c7-1-2(8)4(5(10)11)13-6(12)3(1)9/h1-4,6-9,12H,(H,10,11)/p-1/t1-,2+,3+,4-,6+/m0/s1
+  inchikey: AEMOLEFTQBMNLQ-DTEWXJGMSA-M
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/6992022
+reactions:
+- id: reaction_Q1QUN7_beta-D-glucuronate
+  name: Reaction catalyzed by enzyme on beta-D-glucuronate
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_beta-D-glucuronate
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_Q1QUN7
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_Q1QUN7_beta-D-galacturonate
+  name: Reaction catalyzed by enzyme on beta-D-galacturonate
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_beta-D-galacturonate
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_Q1QUN7
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+measurements:
+- id: measurement_0
+  name: Experimental conditions (pH=8.0, T=25.0°C)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=8.0, T=25.0°C)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: Q1QUN7_beta-D-glucuronate_I88L_kcat_8462
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 192.0
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_beta-D-glucuronate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: 'Mutation: I88L; Source: kcat'
+  pubmed_id: null
+- id: Q1QUN7_beta-D-glucuronate_I88L_Km_22311
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 1.5
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_beta-D-glucuronate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: 'Mutation: I88L; Source: Km'
+  pubmed_id: null
+- id: Q1QUN7_beta-D-galacturonate_I88L_kcat_8456
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 22.0
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_beta-D-galacturonate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: 'Mutation: I88L; Source: kcat'
+  pubmed_id: null
+- id: Q1QUN7_beta-D-galacturonate_I88L_Km_22318
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.2
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_beta-D-galacturonate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: 'Mutation: I88L; Source: Km'
+  pubmed_id: '25884328'
+buffer:
+  buffer: null
+  buffer_concentration: null
+references:
+- title: B.
+  authors: Wagschal, K., Chan, V., Pereira, J., Zwart, P., Sankaran
+  year: '2022'
+  journal: 'Chromohalobacter salixigens uronate dehydrogenase:  Directed evolution
+    for improved thermal stability and mutant CsUDH-inc X-ray crystal structure'
+  uri: null
+  pubmed_id: null
+  doi: null
+  id: '18'
+  pages: 185-192
+  volume: '114'
+  citation: 'Wagschal, K.,Chan, V.,Pereira, J.,Zwart, P.,Sankaran, B., Chromohalobacter
+    salixigens uronate dehydrogenase:  Directed evolution for improved thermal stability
+    and mutant CsUDH-inc X-ray crystal structure, Process Biochem., 2022, 185-192,
+    114'
+- title: V.
+  authors: Pick, A., Schmid, J., Sieber
+  year: '2015'
+  journal: Characterization of uronate dehydrogenases catalysing the initial step
+    in an oxidative pathway. Microb
+  uri: null
+  pubmed_id: '25884328'
+  doi: null
+  id: '8'
+  pages: 633-643
+  volume: '8'
+  citation: 'Pick, A.,Schmid, J.,Sieber, V., Characterization of uronate dehydrogenases
+    catalysing the initial step in an oxidative pathway. Microb, Biotechnol., 2015,
+    633-643, 8, PMID: 25884328'
+name: Merged entry for Q1QUN7 I88L
+description: 'Merged from 2 files: SKID_EC1.1.1.203_Chromohalo_Q1QUN7_I88L_beta-D-glucuron.yaml,
+  SKID_EC1.1.1.203_Chromohalo_Q1QUN7_I88L_beta-D-galactur.yaml'

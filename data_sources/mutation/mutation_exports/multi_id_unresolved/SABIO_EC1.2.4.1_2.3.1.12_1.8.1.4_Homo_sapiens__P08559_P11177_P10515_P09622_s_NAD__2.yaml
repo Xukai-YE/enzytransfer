@@ -1,0 +1,168 @@
+name: SABIO-RK Entry 64570
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 64570
+created: '2025-10-28T16:49:57.084236'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_2_4_1; 2_3_1_12; 1_8_1_4_P08559_P11177_P10515_P09622_p64570
+  name: dihydrolipoyllysine-residue (2-methylpropanoyl)transferase
+  sequence: null
+  ecnumber: 1.2.4.1; 2.3.1.12; 1.8.1.4
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P08559; P11177; P10515; P09622
+complexes: null
+small_molecules:
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Pyruvate
+  name: Pyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Acetyl-CoA
+  name: Acetyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Thiamine_diphosphate
+  name: Thiamine diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_523_EC1_2_4_1; 2_3_1_12; 1_8_1_4_Homo_sapiens_P08559_P11177_P10515_P09622_NAD_
+  name: Reaction catalyzed by dihydrolipoyllysine-residue (2-methylpropanoyl)transferase
+    on NAD+
+  equation: NAD+ + Pyruvate + Coenzyme A = CO2 + Acetyl-CoA + H+ + NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_Coenzyme_A
+  - species_id: substrate_Pyruvate
+  products:
+  - species_id: product_Acetyl-CoA
+  - species_id: product_NADH
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_1_2_4_1; 2_3_1_12; 1_8_1_4_P08559_P11177_P10515_P09622_p64570
+    role: BIOCATALYST
+  - species_id: activator_Thiamine_diphosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 28042;28043;28044;28045
+  KEGGid: R00209
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:15346; CHEBI:23355; CHEBI:14987; CHEBI:57288;
+    CHEBI:41631; CHEBI:139538; CHEBI:15229; CHEBI:44281; CHEBI:13712; CHEBI:13393;
+    CHEBI:29234; CHEBI:15846; CHEBI:3283; CHEBI:13357; CHEBI:21902; CHEBI:13295; CHEBI:15361;
+    CHEBI:13396; CHEBI:21901; CHEBI:41597; CHEBI:24636; CHEBI:44214; CHEBI:29233;
+    CHEBI:13394; CHEBI:5584; CHEBI:23011; CHEBI:9532; CHEBI:57287; CHEBI:26466; CHEBI:57945;
+    CHEBI:16908; CHEBI:44216; CHEBI:13285; CHEBI:49939; CHEBI:13294; CHEBI:13282;
+    CHEBI:26462; CHEBI:40470; CHEBI:57540; CHEBI:7423; CHEBI:45930; CHEBI:13283; CHEBI:8685;
+    CHEBI:13389; CHEBI:2408; CHEBI:13395; CHEBI:15378; CHEBI:13284; CHEBI:45931; CHEBI:32816;
+    CHEBI:3771; CHEBI:16526; CHEBI:58937; CHEBI:741566; CHEBI:48829; CHEBI:44215;
+    CHEBI:10744; CHEBI:45253; CHEBI:7422; CHEBI:13298; CHEBI:15351
+
+    KEGG IDs: KEGG:C00068; KEGG:C00010; KEGG:C00080; KEGG:C00022; KEGG:C00011; KEGG:C00003;
+    KEGG:C00004; KEGG:C00024'
+measurements:
+- id: measurement_1_2_4_1; 2_3_1_12; 1_8_1_4_Homo_sapiens_P08559_P11177_P10515_P09622_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 50 mM potassium phosphate, 1 mM DTT, 1 mM MgCl2
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 64570
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/2087902/
+  pubmed_id: '2087902'
+  doi: null

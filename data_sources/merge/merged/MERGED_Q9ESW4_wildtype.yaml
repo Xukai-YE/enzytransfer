@@ -1,0 +1,323 @@
+version: '2.0'
+created: '2025-11-20T13:40:26.165610'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_107_Q9ESW4_p47984
+  name: diacylglycerol kinase
+  ecnumber: 2.7.1.107
+  organism: Mus musculus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9ESW4
+  wildtype_sequence: MTAFFKTLRNHWKKTTAGLCLLTWGGHWLYGKHCDNLLRRAACQEAQVFGNQLIPPNAQVKKATVFLNPAACKGKARTLFEKNAAPILHLSGMDVTVVKTDYEGQAKKLLELMESTDVIIVAGGDGTLQEVVTGVLRRTDEATFSKIPIGFIPLGQTSSLSHTLFAESGNKVQHITDATLAIVKGETVPLDVLQIKGEKEQPVYAMTGLRWGSFRDAGVKVSKYWYLGPLKTKAAHFFSTLQEWPQTHQASISYTGPRERPPIEPEETPPRPSLYRRILRRLASFWAQPQDASSREVSPEVWKDVQLSTIELSITTRNTQLDLMSKEDFMNICIEPDTVSKGDFIIIGSKKVRDPGLRAAGTECLQASHCTLVLPEGTEGSFSIDSEEYEAMPVEVKLLPRKLRFFCDPRKREQMLPSTSQ
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_sn-1
+  name: sn-1
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_2-Dioleoylglycerol
+  name: 2-Dioleoylglycerol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mg2_
+  name: Mg2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Dioleoyl_phosphatidic_acid
+  name: Dioleoyl phosphatidic acid
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_N-Acylsphingosine
+  name: N-Acylsphingosine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Ceramide_1-phosphate
+  name: Ceramide 1-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Cardiolipin
+  name: Cardiolipin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_12768_EC2_7_1_107_Mus_musculus_Q9ESW4_ATP
+  name: Reaction catalyzed by diacylglycerol kinase on ATP
+  equation: ATP + sn-1,2-Dioleoylglycerol = ADP + Dioleoyl phosphatidic acid
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_sn-1
+  - species_id: substrate_2-Dioleoylglycerol
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Dioleoyl_phosphatidic_acid
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_107_Q9ESW4_p47984
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:13379; CHEBI:40553; CHEBI:6635; CHEBI:13236; CHEBI:52333; CHEBI:60427; CHEBI:10841;
+    CHEBI:2359; CHEBI:87518; CHEBI:49736; CHEBI:40938; CHEBI:456216; CHEBI:22249;
+    CHEBI:2342; CHEBI:15422; CHEBI:18420; CHEBI:25112; CHEBI:13222; CHEBI:22244; CHEBI:39127
+
+    KEGG IDs: KEGG:C00002; KEGG:C00305; KEGG:C00008'
+- id: sabiork_1668_EC2_7_1_138_Mus_musculus_Q9ESW4_ATP
+  name: Reaction catalyzed by ceramide kinase on ATP
+  equation: ATP + N-Acylsphingosine = ADP + Ceramide 1-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_N-Acylsphingosine
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_ADP
+  - species_id: product_Ceramide_1-phosphate
+  modifiers:
+  - species_id: protein_2_7_1_138_Q9ESW4_p47983
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17929;17930;17931;17932
+  KEGGid: R01495
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:13379; CHEBI:40553; CHEBI:6635; CHEBI:52639; CHEBI:13236; CHEBI:10841; CHEBI:2359;
+    CHEBI:87518; CHEBI:49736; CHEBI:40938; CHEBI:456216; CHEBI:22249; CHEBI:2342;
+    CHEBI:15422; CHEBI:18420; CHEBI:17761; CHEBI:25112; CHEBI:13222; CHEBI:22244;
+    CHEBI:39127; CHEBI:16197
+
+    KEGG IDs: KEGG:C02960; KEGG:C00195; KEGG:C00305; KEGG:C00002; KEGG:C00008'
+- id: sabiork_1668_EC2_7_1_138_Mus_musculus_Q9ESW4_ATP
+  name: Reaction catalyzed by ceramide kinase on ATP
+  equation: ATP + N-Acylsphingosine = ADP + Ceramide 1-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_N-Acylsphingosine
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_ADP
+  - species_id: product_Ceramide_1-phosphate
+  modifiers:
+  - species_id: protein_2_7_1_138_Q9ESW4_p47985
+    role: BIOCATALYST
+  - species_id: activator_Cardiolipin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 17929;17930;17931;17932
+  KEGGid: R01495
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:13379; CHEBI:28494; CHEBI:40553; CHEBI:6635; CHEBI:52639; CHEBI:13236; CHEBI:10841;
+    CHEBI:2359; CHEBI:87518; CHEBI:49736; CHEBI:40938; CHEBI:456216; CHEBI:22249;
+    CHEBI:2342; CHEBI:15422; CHEBI:18420; CHEBI:17761; CHEBI:25112; CHEBI:13222; CHEBI:22244;
+    CHEBI:39127; CHEBI:16197
+
+    KEGG IDs: KEGG:C02960; KEGG:C00195; KEGG:C00305; KEGG:C00002; KEGG:C05980; KEGG:C00008'
+measurements:
+- id: measurement_2_7_1_107_Mus_musculus_Q9ESW4_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_7_1_138_Mus_musculus_Q9ESW4_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_7_1_138_Mus_musculus_Q9ESW4_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_1_107_Mus_musculus_Q9ESW4_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15252046'
+- id: 2_7_1_107_Mus_musculus_Q9ESW4_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.65e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15252046'
+- id: 2_7_1_138_Mus_musculus_Q9ESW4_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 6.166667e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15252046'
+- id: 2_7_1_138_Mus_musculus_Q9ESW4_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.4e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15252046'
+- id: 2_7_1_138_Mus_musculus_Q9ESW4_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.133333e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15252046'
+buffer:
+  buffer: 10 mM MOPS, 100 mM NaCl, 1 mM EGTA, 3 mM CaCl2
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 47984
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15252046/
+  pubmed_id: '15252046'
+  doi: null
+name: Merged entry for Q9ESW4 wildtype
+description: 'Merged from 3 files: SABIO_EC2.7.1.107_Mus_musculus__Q9ESW4_s_ATP.yaml,
+  SABIO_EC2.7.1.138_Mus_musculus__Q9ESW4_s_ATP.yaml, SABIO_EC2.7.1.138_Mus_musculus__Q9ESW4_s_ATP_2.yaml'

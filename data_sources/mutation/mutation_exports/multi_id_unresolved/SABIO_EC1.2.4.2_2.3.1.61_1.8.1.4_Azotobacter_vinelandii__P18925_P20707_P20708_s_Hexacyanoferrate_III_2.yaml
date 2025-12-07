@@ -1,0 +1,169 @@
+name: SABIO-RK Entry 11902
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 11902
+created: '2025-10-28T13:59:53.812254'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_2_4_2; 2_3_1_61; 1_8_1_4_P18925_P20707_P20708_p11902
+  name: dihydrolipoyl dehydrogenase
+  sequence: null
+  ecnumber: 1.2.4.2; 2.3.1.61; 1.8.1.4
+  organism: Azotobacter vinelandii
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P18925; P20707; P20708
+complexes: null
+small_molecules:
+- id: substrate_Hexacyanoferrate_III_
+  name: Hexacyanoferrate(III)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_2-Oxoadipate
+  name: 2-Oxoadipate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Glutarate
+  name: Glutarate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Hexacyanoferrate_II_
+  name: Hexacyanoferrate(II)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_8167_EC1_2_4_2; 2_3_1_61; 1_8_1_4_Azotobacter_vinelandii_P18925_P20707_P20708_Hexacyanoferrate_III_
+  name: Reaction catalyzed by dihydrolipoyl dehydrogenase on Hexacyanoferrate(III)
+  equation: Hexacyanoferrate(III) + 2-Oxoadipate + H2O = Glutarate + Hexacyanoferrate(II)
+    + CO2
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Hexacyanoferrate_III_
+  - species_id: substrate_2-Oxoadipate
+  products:
+  - species_id: product_Glutarate
+  - species_id: product_Hexacyanoferrate_II_
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_1_2_4_2; 2_3_1_61; 1_8_1_4_P18925_P20707_P20708_p11902
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:30922; CHEBI:44819; CHEBI:11635; CHEBI:41981;
+    CHEBI:1247; CHEBI:43097; CHEBI:139538; CHEBI:24327; CHEBI:42857; CHEBI:14322;
+    CHEBI:41979; CHEBI:30921; CHEBI:3283; CHEBI:5434; CHEBI:42043; CHEBI:5020; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:23011; CHEBI:15377; CHEBI:13352; CHEBI:35907;
+    CHEBI:5032; CHEBI:17859; CHEBI:13285; CHEBI:24330; CHEBI:13282; CHEBI:43228; CHEBI:13283;
+    CHEBI:44292; CHEBI:57499; CHEBI:35906; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:13284; CHEBI:16526; CHEBI:24329; CHEBI:15753; CHEBI:48829; CHEBI:19737;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00489; KEGG:C00324; KEGG:C00001; KEGG:C00011; KEGG:C01913; KEGG:C00322'
+measurements:
+- id: measurement_1_2_4_2; 2_3_1_61; 1_8_1_4_Azotobacter_vinelandii_P18925_P20707_P20708_Hexacyanoferrate_III_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.3
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_2_4_2; 2_3_1_61; 1_8_1_4_Azotobacter_vinelandii_P18925_P20707_P20708_Hexacyanoferrate_III__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.3e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Hexacyanoferrate_III_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.3
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10848975'
+buffer:
+  buffer: 0.05 M potassium phosphate, 1 mM MgCl2, 1 mM thiamin diphosphate
+  buffer_concentration: 0.05 M
+references:
+- title: Reference for SABIO-RK entry 11902
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10848975/
+  pubmed_id: '10848975'
+  doi: null

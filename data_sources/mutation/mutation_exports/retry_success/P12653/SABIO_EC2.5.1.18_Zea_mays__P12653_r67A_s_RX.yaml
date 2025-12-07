@@ -1,0 +1,142 @@
+name: SABIO-RK Entry 5173
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 5173
+created: '2025-10-28T13:49:01.418332'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_5_1_18_P12653_p5173
+  name: glutathione transferase
+  sequence: null
+  ecnumber: 2.5.1.18
+  organism: Zea mays
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: r67A
+  uniprotid: P12653
+  mutant_sequence: MAPMKLYGAVMSWNLTRCATALEEAGSDYEIVPINFATAEHKSPEHLVRNPFGQVPALQDGDLYLFESAAICKYAARKNKPELLREGNLEEAAMVDVWIEVEANQYTAALNPILFQVLISPMLGGTTDQKVVDENLEKLKKVLEVYEARLTKCKYLAGDFLSLADLNHVSVTLCLFATPYASVLDAYPHVKAWWSGLMERPSVQKVAALMKPSA
+  position_offset: 2
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_RX
+  name: RX
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Reduced_glutathione
+  name: Reduced glutathione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_R-S-Glutathione
+  name: R-S-Glutathione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_HX
+  name: HX
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_CB3GA
+  name: CB3GA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_3310_EC2_5_1_18_Zea_mays_P12653_RX
+  name: Reaction catalyzed by glutathione transferase on RX
+  equation: Reduced glutathione + RX = R-S-Glutathione + HX
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_RX
+  - species_id: substrate_Reduced_glutathione
+  products:
+  - species_id: product_R-S-Glutathione
+  - species_id: product_HX
+  modifiers:
+  - species_id: protein_2_5_1_18_P12653_p5173
+    role: BIOCATALYST
+  - species_id: activator_CB3GA
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03522
+  notes: 'ChEBI IDs: CHEBI:14431; CHEBI:43237; CHEBI:12402; CHEBI:8767; CHEBI:24593;
+    CHEBI:42873; CHEBI:24334; CHEBI:14327; CHEBI:24762; CHEBI:57925; CHEBI:16856;
+    CHEBI:5437; CHEBI:13444; CHEBI:8745; CHEBI:17368; CHEBI:43049; CHEBI:5841
+
+    KEGG IDs: KEGG:C00051; KEGG:C00262; KEGG:C00462; KEGG:C02320; KEGG:C01322'
+measurements:
+- id: measurement_2_5_1_18_Zea_mays_P12653_RX
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 20 mM Potassium phosphate
+  buffer_concentration: 20 mM
+references:
+- title: Reference for SABIO-RK entry 5173
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15196053/
+  pubmed_id: '15196053'
+  doi: null

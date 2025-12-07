@@ -1,0 +1,152 @@
+name: SABIO-RK Entry 20974
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 20974
+created: '2025-10-28T14:17:12.284739'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_2_1_46_P27830_P37759_P55293_p20974
+  name: dTDP-glucose 4,6-dehydratase
+  sequence: null
+  ecnumber: 4.2.1.46
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P27830; P37759; P55293
+complexes: null
+small_molecules:
+- id: substrate_dTDP-D-glucose
+  name: dTDP-D-glucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_dTDP-4-dehydro-6-deoxy-D-glucose
+  name: dTDP-4-dehydro-6-deoxy-D-glucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_8948_EC4_2_1_46_Escherichia_coli_P27830_P37759_P55293_dTDP-D-glucose
+  name: Reaction catalyzed by dTDP-glucose 4,6-dehydratase on dTDP-D-glucose
+  equation: dTDP-D-glucose = H2O + dTDP-4-dehydro-6-deoxy-D-glucose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_dTDP-D-glucose
+  products:
+  - species_id: product_dTDP-4-dehydro-6-deoxy-D-glucose
+  modifiers:
+  - species_id: protein_4_2_1_46_P27830_P37759_P55293_p20974
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R06513
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:23541; CHEBI:10510;
+    CHEBI:42857; CHEBI:41979; CHEBI:62829; CHEBI:35248; CHEBI:14080; CHEBI:57837;
+    CHEBI:42043; CHEBI:14081; CHEBI:10509; CHEBI:16620; CHEBI:33813; CHEBI:33811;
+    CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:43228; CHEBI:44292; CHEBI:33806;
+    CHEBI:10743; CHEBI:57649; CHEBI:5585; CHEBI:29374; CHEBI:16128; CHEBI:29373; CHEBI:44701;
+    CHEBI:23542
+
+    KEGG IDs: KEGG:C11907; KEGG:C00001; KEGG:C00842'
+measurements:
+- id: measurement_4_2_1_46_Escherichia_coli_P27830_P37759_P55293_dTDP-D-glucose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 38.0
+  temperature_unit: °C
+parameters:
+- id: 4_2_1_46_Escherichia_coli_P27830_P37759_P55293_dTDP-D-glucose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.7e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_dTDP-D-glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 38.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14284740'
+- id: 4_2_1_46_Escherichia_coli_P27830_P37759_P55293_dTDP-D-glucose_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 3.33333e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_dTDP-D-glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 38.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14284740'
+buffer:
+  buffer: 0.16 M Tris-HCl
+  buffer_concentration: 0.16 M
+references:
+- title: Reference for SABIO-RK entry 20974
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/14284740/
+  pubmed_id: '14284740'
+  doi: null

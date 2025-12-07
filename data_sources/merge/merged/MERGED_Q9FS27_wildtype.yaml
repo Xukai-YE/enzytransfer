@@ -1,0 +1,273 @@
+version: '2.0'
+created: '2025-11-20T13:40:20.319484'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_5_1_47_Q9FS27_p54784
+  name: cysteine synthase
+  ecnumber: 2.5.1.47
+  organism: Solanum tuberosum
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9FS27
+  wildtype_sequence: MAGEKIGIAKDVTELIGNTPLVYLNNVVDGCVARVAARLESMEPCSSVKDRIGYSMITDAEEKGLIKPGESVLIEPTSGNTGVGLAFMAAAKGYKLIITMPSSMSLERRIILRAFGAELVLTDPAKGMKGAISKAEEIKAKIPNSYILQQFENPANPKIHYETTGPEIWKGSNGKVDALVSGIGTGGTITGSGKYLREQNPNVKLYGVEPVESAILSGGKPGPHKIQGIGAGFIPGVLEVNLIDDVVQVSSEESIEMAKLLALKEGLLVGISSGAAAAAAIKVAKRPENAGKLIVVIFPSFGERYLSSVLFETVRREAENMTVEP
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_O-Acetyl-L-serine
+  name: O-Acetyl-L-serine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Sulfide
+  name: Sulfide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Cysteine
+  name: L-Cysteine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Acetate
+  name: Acetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_L-Cysteine
+  name: L-Cysteine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Cyanide
+  name: Cyanide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3-Cyano-L-alanine
+  name: 3-Cyano-L-alanine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Sulfide
+  name: Sulfide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_9651_EC2_5_1_47_Solanum_tuberosum_Q9FS27_O-Acetyl-L-serine
+  name: Reaction catalyzed by cysteine synthase on O-Acetyl-L-serine
+  equation: Sulfide + O-Acetyl-L-serine = Acetate + L-Cysteine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O-Acetyl-L-serine
+  - species_id: substrate_Sulfide
+  products:
+  - species_id: product_L-Cysteine
+  - species_id: product_Acetate
+  modifiers:
+  - species_id: protein_2_5_1_47_Q9FS27_p54784
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00897
+  notes: 'ChEBI IDs: CHEBI:40480; CHEBI:7668; CHEBI:12685; CHEBI:17981; CHEBI:12724;
+    CHEBI:41781; CHEBI:13095; CHEBI:13704; CHEBI:32442; CHEBI:15366; CHEBI:21938;
+    CHEBI:21261; CHEBI:40486; CHEBI:22169; CHEBI:2387; CHEBI:41700; CHEBI:41811; CHEBI:12710;
+    CHEBI:58340; CHEBI:30089; CHEBI:32443; CHEBI:41768; CHEBI:29950; CHEBI:15138;
+    CHEBI:22165; CHEBI:16385; CHEBI:6207; CHEBI:35235; CHEBI:44568; CHEBI:32445; CHEBI:17561;
+    CHEBI:41227
+
+    KEGG IDs: KEGG:C00033; KEGG:C00297; KEGG:C00979; KEGG:C00097; KEGG:C00283'
+- id: sabiork_3312_EC4_4_1_9_Solanum_tuberosum_Q9FS27_L-Cysteine
+  name: Reaction catalyzed by L-3-cyanoalanine synthase on L-Cysteine
+  equation: L-Cysteine + Cyanide = Sulfide + 3-Cyano-L-alanine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Cysteine
+  - species_id: substrate_Cyanide
+  products:
+  - species_id: product_3-Cyano-L-alanine
+  - species_id: product_Sulfide
+  modifiers:
+  - species_id: protein_4_4_1_9_Q9FS27_p54781
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03524
+  notes: 'ChEBI IDs: CHEBI:1477; CHEBI:11773; CHEBI:16934; CHEBI:41781; CHEBI:13095;
+    CHEBI:32442; CHEBI:14038; CHEBI:18407; CHEBI:17514; CHEBI:21261; CHEBI:41700;
+    CHEBI:41811; CHEBI:32443; CHEBI:41768; CHEBI:29950; CHEBI:41780; CHEBI:13061;
+    CHEBI:15138; CHEBI:36826; CHEBI:77860; CHEBI:16385; CHEBI:6207; CHEBI:35235; CHEBI:19989;
+    CHEBI:11772; CHEBI:3969; CHEBI:32445; CHEBI:57954; CHEBI:17561; CHEBI:48819; CHEBI:41227
+
+    KEGG IDs: KEGG:C02512; KEGG:C00297; KEGG:C01326; KEGG:C00097; KEGG:C00177; KEGG:C00283'
+measurements:
+- id: measurement_2_5_1_47_Solanum_tuberosum_Q9FS27_O-Acetyl-L-serine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_4_4_1_9_Solanum_tuberosum_Q9FS27_L-Cysteine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 2_5_1_47_Solanum_tuberosum_Q9FS27_O-Acetyl-L-serine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00157
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O-Acetyl-L-serine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11575729'
+- id: 2_5_1_47_Solanum_tuberosum_Q9FS27_O-Acetyl-L-serine_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00299
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O-Acetyl-L-serine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11575729'
+- id: 4_4_1_9_Solanum_tuberosum_Q9FS27_L-Cysteine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.12e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Cysteine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11575729'
+- id: 4_4_1_9_Solanum_tuberosum_Q9FS27_L-Cysteine_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0142
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Cysteine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11575729'
+buffer:
+  buffer: 50 mM Tris-HCl; 50 mM sodium phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 54784
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11575729/
+  pubmed_id: '11575729'
+  doi: null
+name: Merged entry for Q9FS27 wildtype
+description: 'Merged from 2 files: SABIO_EC2.5.1.47_Solanum_tuberosum__Q9FS27_s_O-Acetyl-L-serine.yaml,
+  SABIO_EC4.4.1.9_Solanum_tuberosum__Q9FS27_s_L-Cysteine.yaml'

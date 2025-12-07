@@ -1,0 +1,230 @@
+version: '2.0'
+created: '2025-11-20T13:42:01.471262'
+modified: null
+creators:
+- given_name: SKiD
+  family_name: Database
+  mail: skid@database.org
+vessels: null
+proteins:
+- id: protein_A0A088E2H7
+  name: Metallosphaera sedula
+  ecnumber: 1.1.1.37
+  organism: Metallosphaera sedula
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: null
+  uniprotid: A0A088E2H7
+  wildtype_sequence: MAKVGFIGAGKIGQTIAYSALVSGAVDEAVIYDIIPELPDKFEHELRHAFATKGIKANVLGTNSLDDVSGMDIVVISAGKPRKPGMSRRDLFVDNAKIMIDLAQKLPSKNPGAIYLMVANPVDMMASVFMKYSKQFTISAGDQVETMRMRSFIAKKLKIPVTSVDGFVGGEHGEDAVVLWSTVKIKGKPVDEFNINKDEVSDYVKKIPGEIIRVIGGTTWGPGTIIADIIKSIAFSENRVMSIATPKEYEKEIIHVSAPTVVGSSIGPSLESLLDEKDRWHLNSAMKDFYEAYKENLKQLEQATKA
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)(O)O)O)O)O
+  inchi: InChI=1S/C21H30N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1,3-4,7-8,10-11,13-16,20-21,29-31H,2,5-6H2,(H2,23,32)(H,36,37)(H,38,39)(H2,22,24,25)(H2,33,34,35)
+  inchikey: ACFIXJIJDZMPPO-UHFFFAOYSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/5884
+- id: product
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O
+  inchi: InChI=1S/C21H29N7O14P2/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(32)14(30)11(41-21)6-39-44(36,37)42-43(34,35)38-5-10-13(29)15(31)20(40-10)27-3-1-2-9(4-27)18(23)33/h1,3-4,7-8,10-11,13-16,20-21,29-32H,2,5-6H2,(H2,23,33)(H,34,35)(H,36,37)(H2,22,24,25)
+  inchikey: BOPGDPNILDQYTO-UHFFFAOYSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/439153
+reactions:
+- id: reaction_A0A088E2H7_NADPH
+  name: Reaction catalyzed by enzyme on NADPH
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_A0A088E2H7
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_A0A088E2H7_NADH
+  name: Reaction catalyzed by enzyme on NADH
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_A0A088E2H7
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+measurements:
+- id: measurement_0
+  name: Experimental conditions (pH=7.0, T=None°C)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_0
+  name: Experimental conditions (pH=7.0, T=None°C)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: A0A088E2H7_NADPH_kcat_337
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.01
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: 'Source: kcat'
+  pubmed_id: '30638660'
+- id: A0A088E2H7_NADPH_Km_11480
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.165
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: 'Source: Km'
+  pubmed_id: '30638660'
+- id: A0A088E2H7_NADH_kcat_338
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.02
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: 'Source: kcat'
+  pubmed_id: '30638660'
+- id: A0A088E2H7_NADH_Km_11479
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.123
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: 'Source: Km'
+  pubmed_id: '30638660'
+buffer:
+  buffer: null
+  buffer_concentration: null
+references:
+- title: K.J.
+  authors: Lee, D., Hong, J., Kim
+  year: '2019'
+  journal: Crystal structure and biochemical characterization of malate dehydrogenase
+    from Metallosphaera sedula. Biochem. Biophys. Res
+  uri: null
+  pubmed_id: '30638660'
+  doi: null
+  id: '148'
+  pages: 833-838
+  volume: '509'
+  citation: 'Lee, D.,Hong, J.,Kim, K.J., Crystal structure and biochemical characterization
+    of malate dehydrogenase from Metallosphaera sedula. Biochem. Biophys. Res, Commun.,
+    2019, 833-838, 509, PMID: 30638660'
+name: Merged entry for A0A088E2H7 wildtype
+description: 'Merged from 2 files: SKID_EC1.1.1.37_Metallosph_A0A088E2H7_NADPH.yaml,
+  SKID_EC1.1.1.37_Metallosph_A0A088E2H7_NADH.yaml'

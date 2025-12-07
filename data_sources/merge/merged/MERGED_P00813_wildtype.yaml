@@ -1,0 +1,347 @@
+version: '2.0'
+created: '2025-11-20T13:41:19.829883'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_5_4_4_P00813_p28480
+  name: adenosine deaminase
+  ecnumber: 3.5.4.4
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P00813
+  wildtype_sequence: MAQTPAFDKPKVELHVHLDGSIKPETILYYGRRRGIALPANTAEGLLNVIGMDKPLTLPDFLAKFDYYMPAIAGCREAIKRIAYEFVEMKAKEGVVYVEVRYSPHLLANSKVEPIPWNQAEGDLTPDEVVALVGQGLQEGERDFGVKARSILCCMRHQPNWSPKVVELCKKYQQQTVVAIDLAGDETIPGSSLLPGHVQAYQEAVKSGIHRTVHAGEVGSAEVVKEAVDILKTERLGHGYHTLEDQALYNRLRQENMHFEICPWSSYLTGAWKPDTEHAVIRLKNDQANYSLNTDDPLIFKSTLDTDYQMTKRDMGFTEEEFKRLNINAAKSSFLPEDEKRELLDLLYKAYGMPPSASAGQNL
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Adenosine
+  name: Adenosine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Inosine
+  name: Inosine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NH3
+  name: NH3
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Zn2_
+  name: Zn2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_134_EC3_5_4_4_Homo_sapiens_P00813_Adenosine
+  name: Reaction catalyzed by adenosine deaminase on Adenosine
+  equation: H2O + Adenosine = NH3 + Inosine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Adenosine
+  products:
+  - species_id: product_Inosine
+  - species_id: product_NH3
+  modifiers:
+  - species_id: protein_3_5_4_4_P00813_p28480
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 24408;24409;24410;24411
+  KEGGid: R01560
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:40906; CHEBI:44284; CHEBI:44819; CHEBI:16134;
+    CHEBI:41981; CHEBI:40558; CHEBI:13405; CHEBI:7434; CHEBI:24841; CHEBI:2472; CHEBI:42857;
+    CHEBI:41979; CHEBI:13407; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:22534; CHEBI:135980; CHEBI:15377; CHEBI:7435; CHEBI:49783; CHEBI:22533;
+    CHEBI:13352; CHEBI:44404; CHEBI:13771; CHEBI:44407; CHEBI:43228; CHEBI:44269;
+    CHEBI:44292; CHEBI:13406; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:5927;
+    CHEBI:28938; CHEBI:16335; CHEBI:14456; CHEBI:13734; CHEBI:17596; CHEBI:22237;
+    CHEBI:40825; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00014; KEGG:C01342; KEGG:C00001; KEGG:C00294; KEGG:C00212'
+- id: sabiork_134_EC3_5_4_4_Homo_sapiens_P00813_Adenosine
+  name: Reaction catalyzed by adenosine deaminase on Adenosine
+  equation: H2O + Adenosine = NH3 + Inosine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Adenosine
+  - species_id: cofactor_Zn2_
+  products:
+  - species_id: product_NH3
+  - species_id: product_Inosine
+  modifiers:
+  - species_id: protein_3_5_4_4_P00813_p75181
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 24408;24409;24410;24411
+  KEGGid: R01560
+  notes: 'ChEBI IDs: CHEBI:29105; CHEBI:29375; CHEBI:40906; CHEBI:44284; CHEBI:44819;
+    CHEBI:16134; CHEBI:41981; CHEBI:10113; CHEBI:40558; CHEBI:13405; CHEBI:7434; CHEBI:24841;
+    CHEBI:2472; CHEBI:42857; CHEBI:41979; CHEBI:13407; CHEBI:42043; CHEBI:33811; CHEBI:33813;
+    CHEBI:27313; CHEBI:22534; CHEBI:135980; CHEBI:15377; CHEBI:7435; CHEBI:49783;
+    CHEBI:22533; CHEBI:13352; CHEBI:44404; CHEBI:13771; CHEBI:44407; CHEBI:43228;
+    CHEBI:44269; CHEBI:49972; CHEBI:44292; CHEBI:13406; CHEBI:33806; CHEBI:10743;
+    CHEBI:29374; CHEBI:5585; CHEBI:49982; CHEBI:27368; CHEBI:5927; CHEBI:28938; CHEBI:16335;
+    CHEBI:14456; CHEBI:13734; CHEBI:17596; CHEBI:22237; CHEBI:40825; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C00014; KEGG:C01342; KEGG:C00001; KEGG:C00294; KEGG:C00212; KEGG:C00038'
+- id: sabiork_134_EC3_5_4_4_Homo_sapiens_P00813_Adenosine
+  name: Reaction catalyzed by adenosine deaminase on Adenosine
+  equation: H2O + Adenosine = NH3 + Inosine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Adenosine
+  - species_id: cofactor_Zn2_
+  products:
+  - species_id: product_Inosine
+  - species_id: product_NH3
+  modifiers:
+  - species_id: protein_3_5_4_4_P00813_p75182
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 24408;24409;24410;24411
+  KEGGid: R01560
+  notes: 'ChEBI IDs: CHEBI:29105; CHEBI:29375; CHEBI:40906; CHEBI:44284; CHEBI:44819;
+    CHEBI:16134; CHEBI:41981; CHEBI:10113; CHEBI:40558; CHEBI:13405; CHEBI:7434; CHEBI:24841;
+    CHEBI:2472; CHEBI:42857; CHEBI:41979; CHEBI:13407; CHEBI:42043; CHEBI:33811; CHEBI:33813;
+    CHEBI:27313; CHEBI:22534; CHEBI:135980; CHEBI:15377; CHEBI:7435; CHEBI:49783;
+    CHEBI:22533; CHEBI:13352; CHEBI:44404; CHEBI:13771; CHEBI:44407; CHEBI:43228;
+    CHEBI:44269; CHEBI:49972; CHEBI:44292; CHEBI:13406; CHEBI:33806; CHEBI:10743;
+    CHEBI:29374; CHEBI:5585; CHEBI:49982; CHEBI:27368; CHEBI:5927; CHEBI:28938; CHEBI:16335;
+    CHEBI:14456; CHEBI:13734; CHEBI:17596; CHEBI:22237; CHEBI:40825; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C00014; KEGG:C01342; KEGG:C00001; KEGG:C00294; KEGG:C00212; KEGG:C00038'
+measurements:
+- id: measurement_3_5_4_4_Homo_sapiens_P00813_Adenosine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 5.8
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_3_5_4_4_Homo_sapiens_P00813_Adenosine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_3_5_4_4_Homo_sapiens_P00813_Adenosine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 3_5_4_4_Homo_sapiens_P00813_Adenosine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Adenosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '5559973'
+- id: 3_5_4_4_Homo_sapiens_P00813_Adenosine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 9.2e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Adenosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '5559973'
+- id: 3_5_4_4_Homo_sapiens_P00813_Adenosine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 3880000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Adenosine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '31002765'
+- id: 3_5_4_4_Homo_sapiens_P00813_Adenosine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.064e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Adenosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '31002765'
+- id: 3_5_4_4_Homo_sapiens_P00813_Adenosine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 80.04
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Adenosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '31002765'
+- id: 3_5_4_4_Homo_sapiens_P00813_Adenosine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.728e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Adenosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '31002765'
+- id: 3_5_4_4_Homo_sapiens_P00813_Adenosine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 2360000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Adenosine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '31002765'
+- id: 3_5_4_4_Homo_sapiens_P00813_Adenosine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 40.71
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Adenosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '31002765'
+buffer:
+  buffer: 0.4 M sodium acetate; 50 mM Tris-HCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 28480
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/5559973/
+  pubmed_id: '5559973'
+  doi: null
+- title: Reference for SABIO-RK entry 75181
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/31002765/
+  pubmed_id: '31002765'
+  doi: null
+name: Merged entry for P00813 wildtype
+description: 'Merged from 3 files: SABIO_EC3.5.4.4_Homo_sapiens__P00813_s_Adenosine.yaml,
+  SABIO_EC3.5.4.4_Homo_sapiens__P00813_s_Adenosine_2.yaml, SABIO_EC3.5.4.4_Homo_sapiens__P00813_s_Adenosine_3.yaml'

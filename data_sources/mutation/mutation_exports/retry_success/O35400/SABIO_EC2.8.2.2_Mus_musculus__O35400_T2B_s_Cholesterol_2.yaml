@@ -1,0 +1,184 @@
+name: SABIO-RK Entry 68672
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 68672
+created: '2025-10-28T17:09:33.040960'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_8_2_2_O35400_p68672
+  name: alcohol sulfotransferase
+  ecnumber: 2.8.2.2
+  organism: Mus musculus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: T2B
+  uniprotid: O35400
+  wildtype_sequence: MDGPQPRALWSSSEKNVSEMSWNFGGEYFRYKGIPFPVGMYSPESLSLAENTSNVRDDDIFIVTYPKSGTNWMIEIVCLILKDGDPSWIRSEPIWQRAPWCETIISAFNVLDRPSPRIMSSHLPIELFTKAFFSSKAKVIYVGRNPRDVVVSLYYYSKIAGQLKDPGTPDQFLQNFLKGEVQFGSWFDHIKGWIRMQNQENFLFITYEELQQDLRGSVQRICEFLGRPLGEEALSSVVAHSAFAAMKANTMSNYSLLPASLLDHRQGEFLRKGISGDWKNHFTVAQSEAFDSVYREQMHGVQRFPWDTSEEDSSPDGQPDPEPSPSPASDDPNPGSSQ
+  mutant_sequence: MBSRDCCCGGVEVDLLLRWTHGAQRKDTPHWRVNEGPCDSCPPPWSSLHVPFPSFSWNFGGEYFRYKGIPFPVGMYSPESLSLAENTSNVRDDDIFIVTYPKSGTNWMIEIVCLILKDGDPSWIRSEPIWQRAPWCETIISAFNVLDRPSPRIMSSHLPIELFTKAFFSSKAKVIYVGRNPRDVVVSLYYYSKIAGQLKDPGTPDQFLQNFLKGEVQFGSWFDHIKGWIRMQNQENFLFITYEELQQDLRGSVQRICEFLGRPLGEEALSSVVAHSAFAAMKANTMSNYSLLPASLLDHRQGEFLRKGISGDWKNHFTVAQSEAFDSVYREQMHGVQRFPWDTSEEDSSPDGQPDPEPSPSPASDDPNPGSSQ
+  position_offset: 0
+  retry_status: isoform_2_matched
+  isoform_used: 2
+complexes: null
+small_molecules:
+- id: substrate_Cholesterol
+  name: Cholesterol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_3_-Phosphoadenylyl_sulfate
+  name: 3'-Phosphoadenylyl sulfate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Cholesterol_sulfate
+  name: Cholesterol sulfate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Adenosine_3_
+  name: Adenosine 3'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_5_-bisphosphate
+  name: 5'-bisphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_15393_EC2_8_2_2_Mus_musculus_O35400_Cholesterol
+  name: Reaction catalyzed by alcohol sulfotransferase on Cholesterol
+  equation: 3'-Phosphoadenylyl sulfate + Cholesterol = Adenosine 3',5'-bisphosphate
+    + Cholesterol sulfate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Cholesterol
+  - species_id: substrate_3_-Phosphoadenylyl_sulfate
+  products:
+  - species_id: product_Cholesterol_sulfate
+  - species_id: product_Adenosine_3_
+  - species_id: product_5_-bisphosphate
+  modifiers:
+  - species_id: protein_2_8_2_2_O35400_p68672
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:2475; CHEBI:19857; CHEBI:16113; CHEBI:22240; CHEBI:58339;
+    CHEBI:1353; CHEBI:17985; CHEBI:58343; CHEBI:13735; CHEBI:11680; CHEBI:11679; CHEBI:17980
+
+    KEGG IDs: KEGG:C00054; KEGG:C00053; KEGG:C00187'
+measurements:
+- id: measurement_2_8_2_2_Mus_musculus_O35400_Cholesterol
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 2_8_2_2_Mus_musculus_O35400_Cholesterol_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 8.7e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cholesterol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12639899'
+- id: 2_8_2_2_Mus_musculus_O35400_Cholesterol_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 19400.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cholesterol
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12639899'
+buffer:
+  buffer: 0.1 mM Tris-HCl, 5 mM MgCl2, 0.2 mM 2-hydroxypropyl-beta-cyclodextrin, 4%
+    (v/v) ethanol
+  buffer_concentration: 0.1 mM
+references:
+- title: Reference for SABIO-RK entry 68672
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12639899/
+  pubmed_id: '12639899'
+  doi: null

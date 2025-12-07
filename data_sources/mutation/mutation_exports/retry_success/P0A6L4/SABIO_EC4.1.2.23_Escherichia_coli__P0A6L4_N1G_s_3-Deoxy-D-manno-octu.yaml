@@ -1,0 +1,180 @@
+name: SABIO-RK Entry 6399
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 6399
+created: '2025-10-28T13:50:31.323806'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_1_2_23_P0A6L4_p6399
+  name: 4-hydroxy-2-oxoheptanedioate aldolase
+  ecnumber: 4.1.2.23
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: N1G
+  uniprotid: P0A6L4
+  wildtype_sequence: MATNLRGVMAALLTPFDQQQALDKASLRRLVQFNIQQGIDGLYVGGSTGEAFVQSLSEREQVLEIVAEEAKGKIKLIAHVGCVSTAESQQLAASAKRYGFDAVSAVTPFYYPFSFEEHCDHYRAIIDSADGLPMVVYNIPALSGVKLTLDQINTLVTLPGVGALKQTSGDLYQMEQIRREHPDLVLYNGYDEIFASGLLAGADGGIGSTYNIMGWRYQGIVKALKEGDIQTAQKLQTECNKVIDLLIKTGVFRGLKTVLHYMDVVSVPLCRKPFGPVDEKYLPELKALAQQLMQERG
+  mutant_sequence: MATGLRGVMAALLTPFDQQQALDKASLRRLVQFNIQQGIDGLYVGGSTGEAFVQSLSEREQVLEIVAEEAKGKIKLIAHVGCVSTAESQQLAASAKRYGFDAVSAVTPFYYPFSFEEHCDHYRAIIDSADGLPMVVYNIPALSGVKLTLDQINTLVTLPGVGALKQTSGDLYQMEQIRREHPDLVLYNGYDEIFASGLLAGADGGIGSTYNIMGWRYQGIVKALKEGDIQTAQKLQTECNKVIDLLIKTGVFRGLKTVLHYMDVVSVPLCRKPFGPVDEKYLPELKALAQQLMQERG
+  position_offset: 3
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_3-Deoxy-D-manno-octulosonate
+  name: 3-Deoxy-D-manno-octulosonate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Pyruvate
+  name: Pyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Arabinose
+  name: D-Arabinose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1726_EC4_1_2_23_Escherichia_coli_P0A6L4_3-Deoxy-D-manno-octulosonate
+  name: Reaction catalyzed by 4-hydroxy-2-oxoheptanedioate aldolase on 3-Deoxy-D-manno-octulosonate
+  equation: 3-Deoxy-D-manno-octulosonate = Pyruvate + D-Arabinose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3-Deoxy-D-manno-octulosonate
+  products:
+  - species_id: product_Pyruvate
+  - species_id: product_D-Arabinose
+  modifiers:
+  - species_id: protein_4_1_2_23_P0A6L4_p6399
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01576
+  notes: 'ChEBI IDs: CHEBI:32817; CHEBI:58643; CHEBI:14987; CHEBI:16064; CHEBI:11791;
+    CHEBI:15361; CHEBI:20005; CHEBI:11787; CHEBI:26466; CHEBI:46983; CHEBI:17108;
+    CHEBI:11789; CHEBI:26462; CHEBI:8685; CHEBI:59447; CHEBI:20007; CHEBI:1493; CHEBI:32816;
+    CHEBI:46994; CHEBI:45253
+
+    KEGG IDs: KEGG:C00216; KEGG:C00022; KEGG:C01187'
+measurements:
+- id: measurement_4_1_2_23_Escherichia_coli_P0A6L4_3-Deoxy-D-manno-octulosonate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 4_1_2_23_Escherichia_coli_P0A6L4_3-Deoxy-D-manno-octulosonate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.5
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Deoxy-D-manno-octulosonate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15967977'
+- id: 4_1_2_23_Escherichia_coli_P0A6L4_3-Deoxy-D-manno-octulosonate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0123
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Deoxy-D-manno-octulosonate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15967977'
+- id: 4_1_2_23_Escherichia_coli_P0A6L4_3-Deoxy-D-manno-octulosonate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 120.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Deoxy-D-manno-octulosonate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15967977'
+buffer:
+  buffer: 50 mM potassium phosphate, 5 mM 2-mercaptoethanol, 360 mM NADH, 0.67 U/ml
+    Lactic dehydrogenase
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 6399
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15967977/
+  pubmed_id: '15967977'
+  doi: null

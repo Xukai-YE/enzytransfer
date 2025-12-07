@@ -1,0 +1,210 @@
+version: '2.0'
+created: '2025-11-20T13:41:56.561575'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_unknown_Q9H9B4_p75687
+  name: protein#75687
+  ecnumber: null
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9H9B4
+  wildtype_sequence: MSGELPPNINIKEPRWDQSTFIGRANHFFTVTDPRNILLTNEQLESARKIVHDYRQGIVPPGLTENELWRAKYIYDSAFHPDTGEKMILIGRMSAQVPMNMTITGCMMTFYRTTPAVLFWQWINQSFNAVVNYTNRSGDAPLTVNELGTAYVSATTGAVATALGLNALTKHVSPLIGRFVPFAAVAAANCINIPLMRQRELKVGIPVTDENGNRLGESANAAKQAITQVVVSRILMAAPGMAIPPFIMNTLEKKAFLKRFPWMSAPIQVGLVGFCLVFATPLCCALFPQKSSMSVTSLEAELQAKIQESHPELRRVYFNKGL
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_L-Alanine
+  name: L-Alanine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Alanine
+  name: L-Alanine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_L-Serine
+  name: L-Serine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Serine
+  name: L-Serine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_10375_ECunknown_Homo_sapiens_Q9H9B4_L-Alanine
+  name: Reaction catalyzed by enzyme on L-Alanine
+  equation: L-Alanine = L-Alanine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: product_L-Alanine
+  products:
+  - species_id: product_L-Alanine
+  modifiers:
+  - species_id: protein_unknown_Q9H9B4_p75687
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:46217; CHEBI:32432; CHEBI:40735; CHEBI:32431; CHEBI:16977;
+    CHEBI:21216; CHEBI:46308; CHEBI:40734; CHEBI:13069; CHEBI:57972; CHEBI:6171; CHEBI:76050
+
+    KEGG IDs: KEGG:C00041'
+- id: sabiork_13463_ECunknown_Homo_sapiens_Q9H9B4_L-Serine
+  name: Reaction catalyzed by enzyme on L-Serine
+  equation: L-Serine = L-Serine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: product_L-Serine
+  products:
+  - species_id: product_L-Serine
+  modifiers:
+  - species_id: protein_unknown_Q9H9B4_p75686
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 35031;35032;35033;35034
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:33384; CHEBI:32836; CHEBI:45440; CHEBI:13167; CHEBI:45590;
+    CHEBI:6301; CHEBI:45597; CHEBI:32837; CHEBI:45677; CHEBI:29999; CHEBI:17115; CHEBI:45451;
+    CHEBI:21387
+
+    KEGG IDs: KEGG:C00065'
+measurements:
+- id: measurement_unknown_Homo_sapiens_Q9H9B4_L-Alanine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_unknown_Homo_sapiens_Q9H9B4_L-Serine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: unknown_Homo_sapiens_Q9H9B4_L-Alanine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000371
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_L-Alanine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '30442778'
+- id: unknown_Homo_sapiens_Q9H9B4_L-Serine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: moldivs
+  initial_value: 1.366667e-13
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_L-Serine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '30442778'
+- id: unknown_Homo_sapiens_Q9H9B4_L-Serine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00017
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_L-Serine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '30442778'
+buffer:
+  buffer: 20 mM Tris-HCl, 100 mM NaCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 75687
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/30442778/
+  pubmed_id: '30442778'
+  doi: null
+name: Merged entry for Q9H9B4 wildtype
+description: 'Merged from 2 files: SABIO_Homo_sapiens__Q9H9B4_s_L-Alanine.yaml, SABIO_Homo_sapiens__Q9H9B4_s_L-Serine.yaml'

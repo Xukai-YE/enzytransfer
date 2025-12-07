@@ -1,0 +1,143 @@
+name: SABIO-RK Entry 20738
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 20738
+created: '2025-10-28T14:16:47.620311'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_2_1_24_P51649_P51649_p20738
+  name: aminobutyraldehyde dehydrogenase
+  sequence: null
+  ecnumber: 1.2.1.24
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P51649; P51649
+complexes: null
+small_molecules:
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Butanal
+  name: Butanal
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Butanoate
+  name: Butanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_6490_EC1_2_1_24_Homo_sapiens_P51649_P51649_NAD_
+  name: Reaction catalyzed by aminobutyraldehyde dehydrogenase on NAD+
+  equation: Butanal + NAD+ + H2O = H+ + Butanoate + NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_Butanal
+  products:
+  - species_id: product_Butanoate
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_2_1_24_P51649_P51649_p20738
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:22946; CHEBI:30772;
+    CHEBI:22938; CHEBI:44281; CHEBI:3234; CHEBI:42857; CHEBI:41979; CHEBI:13393; CHEBI:29234;
+    CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:3233; CHEBI:21901; CHEBI:42043;
+    CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:13394; CHEBI:5584; CHEBI:15377; CHEBI:13352; CHEBI:57945; CHEBI:44216; CHEBI:17968;
+    CHEBI:57540; CHEBI:43228; CHEBI:13924; CHEBI:7423; CHEBI:44292; CHEBI:33806; CHEBI:13389;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:15743; CHEBI:41208; CHEBI:22948; CHEBI:15378;
+    CHEBI:13395; CHEBI:113450; CHEBI:44215; CHEBI:10744; CHEBI:29373; CHEBI:44701;
+    CHEBI:7422; CHEBI:13923; CHEBI:16908
+
+    KEGG IDs: KEGG:C00246; KEGG:C00080; KEGG:C00001; KEGG:C00003; KEGG:C00004; KEGG:C01412'
+measurements:
+- id: measurement_1_2_1_24_Homo_sapiens_P51649_P51649_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 0.1 M Sodium pyrophosphate, 5 mM EDTA
+  buffer_concentration: 0.1 M
+references:
+- title: Reference for SABIO-RK entry 20738
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/3190233/
+  pubmed_id: '3190233'
+  doi: null

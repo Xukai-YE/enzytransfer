@@ -1,0 +1,183 @@
+name: SABIO-RK Entry 49251
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 49251
+created: '2025-10-28T15:47:32.911932'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_5_1_88_Q9FUZ2_p49251
+  name: peptide deformylase
+  ecnumber: 3.5.1.88
+  organism: Arabidopsis thaliana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: F1B
+  uniprotid: Q9FUZ2
+  wildtype_sequence: MAVCNCFLQAPPLSRILLPVLSRRATTLSAGYGRLKSTVTFCSTVNRTSPLTSSVRAEVKRVSRKDDKVASATDVQFETPLKIVEYPDPILRAKNKRIDIFDENLKNLVDAMFDVMYKTDGIGLSAPQVGLNVQLMVFNPAGEPGEGKEIVLVNPKIKKYSDKLVPFDEGCLSFPGIYAEVVRPQSVKIDARDITGERFSISLSRLPARIFQHEYDHLEGVLFFDRMTDQVLDSIREELEALEKKYEEKTGLPSPERVEARQKRKAGVGFGKR
+  mutant_sequence: MAVCNCBLQAPPLSRILLPVLSRRATTLSAGYGRLKSTVTFCSTVNRTSPLTSSVRAEVKRVSRKDDKVASATDVQFETPLKIVEYPDPILRAKNKRIDIFDENLKNLVDAMFDVMYKTDGIGLSAPQVGLNVQLMVFNPAGEPGEGKEIVLVNPKIKKYSDKLVPFDEGCLSFPGIYAEVVRPQSVKIDARDITGERFSISLSRLPARIFQHEYDHLEGVLFFDRMTDQVLDSIREELEALEKKYEEKTGLPSPERVEARQKRKAGVGFGKR
+  position_offset: 6
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Formyl-L-methionyl_peptide
+  name: Formyl-L-methionyl peptide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Methionyl_peptide
+  name: Methionyl peptide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Formate
+  name: Formate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Ni2_
+  name: Ni2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_5233_EC3_5_1_88_Arabidopsis_thaliana_Q9FUZ2_Formyl-L-methionyl_peptide
+  name: Reaction catalyzed by peptide deformylase on Formyl-L-methionyl peptide
+  equation: H2O + Formyl-L-methionyl peptide = Methionyl peptide + Formate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Formyl-L-methionyl_peptide
+  products:
+  - species_id: product_Methionyl_peptide
+  - species_id: product_Formate
+  modifiers:
+  - species_id: protein_3_5_1_88_Q9FUZ2_p49251
+    role: BIOCATALYST
+  - species_id: activator_Ni2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R05635
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:49786; CHEBI:44819; CHEBI:41981; CHEBI:42857;
+    CHEBI:15740; CHEBI:41979; CHEBI:42043; CHEBI:24082; CHEBI:24081; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:14276; CHEBI:13352; CHEBI:5145; CHEBI:42460;
+    CHEBI:43228; CHEBI:30751; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C11440; KEGG:C00001; KEGG:C00058; KEGG:C00291; KEGG:C11439'
+measurements:
+- id: measurement_3_5_1_88_Arabidopsis_thaliana_Q9FUZ2_Formyl-L-methionyl_peptide
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 3_5_1_88_Arabidopsis_thaliana_Q9FUZ2_Formyl-L-methionyl_peptide_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0056
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Formyl-L-methionyl_peptide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11733990'
+- id: 3_5_1_88_Arabidopsis_thaliana_Q9FUZ2_Formyl-L-methionyl_peptide_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 13300.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Formyl-L-methionyl_peptide
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11733990'
+- id: 3_5_1_88_Arabidopsis_thaliana_Q9FUZ2_Formyl-L-methionyl_peptide_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 75.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Formyl-L-methionyl_peptide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11733990'
+buffer:
+  buffer: 50 mM Hepes, 12 mM NAD+, 4.5 units/ml yeast formate dehydrogenase, 200 ¦Ìg/ml
+    BSA
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 49251
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11733990/
+  pubmed_id: '11733990'
+  doi: null

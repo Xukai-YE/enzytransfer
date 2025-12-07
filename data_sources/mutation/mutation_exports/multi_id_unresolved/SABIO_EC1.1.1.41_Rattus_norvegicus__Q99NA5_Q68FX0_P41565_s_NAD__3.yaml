@@ -1,0 +1,180 @@
+name: SABIO-RK Entry 64038
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 64038
+created: '2025-10-28T16:47:37.721830'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_41_Q99NA5_Q68FX0_P41565_p64038
+  name: isocitrate dehydrogenase (NAD+)
+  sequence: null
+  ecnumber: 1.1.1.41
+  organism: Rattus norvegicus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q99NA5; Q68FX0; P41565
+complexes: null
+small_molecules:
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-threo-Isocitrate
+  name: D-threo-Isocitrate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mn2_
+  name: Mn2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Oxoglutarate
+  name: 2-Oxoglutarate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_15068_EC1_1_1_41_Rattus_norvegicus_Q99NA5_Q68FX0_P41565_NAD_
+  name: Reaction catalyzed by isocitrate dehydrogenase (NAD+) on NAD+
+  equation: NAD+ + D-threo-Isocitrate = NADH + CO2 + 2-Oxoglutarate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_D-threo-Isocitrate
+  - species_id: cofactor_ADP
+  - species_id: cofactor_Mn2_
+  products:
+  - species_id: product_NADH
+  - species_id: product_CO2
+  - species_id: product_2-Oxoglutarate
+  modifiers:
+  - species_id: protein_1_1_1_41_Q99NA5_Q68FX0_P41565_p64038
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 23632;23633;23634;23635
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:10827; CHEBI:29035; CHEBI:16761; CHEBI:40553; CHEBI:11638;
+    CHEBI:139538; CHEBI:1253; CHEBI:44281; CHEBI:49749; CHEBI:19748; CHEBI:13393;
+    CHEBI:15846; CHEBI:3283; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:16810; CHEBI:40661;
+    CHEBI:44214; CHEBI:25156; CHEBI:13394; CHEBI:23011; CHEBI:87518; CHEBI:57945;
+    CHEBI:30916; CHEBI:44216; CHEBI:13285; CHEBI:13282; CHEBI:456216; CHEBI:57540;
+    CHEBI:19749; CHEBI:7423; CHEBI:2342; CHEBI:13283; CHEBI:13389; CHEBI:13395; CHEBI:13284;
+    CHEBI:151; CHEBI:18510; CHEBI:16526; CHEBI:30915; CHEBI:48829; CHEBI:13222; CHEBI:15562;
+    CHEBI:44215; CHEBI:22244; CHEBI:21435; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00034; KEGG:C00008; KEGG:C00026; KEGG:C00451; KEGG:C00011; KEGG:C19610;
+    KEGG:C00003; KEGG:C00004'
+measurements:
+- id: measurement_1_1_1_41_Rattus_norvegicus_Q99NA5_Q68FX0_P41565_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1_41_Rattus_norvegicus_Q99NA5_Q68FX0_P41565_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0001
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '218557'
+buffer:
+  buffer: 50 mM 4-Morpholinepropanesulphonic acid, 2 ¦Ìg/ml Rotenone
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 64038
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/218557/
+  pubmed_id: '218557'
+  doi: null

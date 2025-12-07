@@ -1,0 +1,506 @@
+version: '2.0'
+created: '2025-11-20T13:40:41.871336'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_2_3_Q9RBS3_p5337
+  name: phosphoglycerate kinase
+  ecnumber: 2.7.2.3
+  organism: Pseudomonas sp.
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9RBS3
+  wildtype_sequence: MTVLKMTDLDLQGKRVLIREDLNVPVKDGVVTSDARILASLPTIKLALEKGAAVMVCSHLGRPTEGEFSAENSLKPVADYLSKALGREVPLVSDYLNGVDVKAGDIVLFENVRFNKGEKKNADELAKQYAALCDVFVMDAFGTAHRAEGPTHGVAKFAKVAAAGPLLAAELDALGKALGAPAKPMAAIVAGSKVSTKLDVLNSLSQICDLLIVGGGIASTFLAAAGHPVGKSLYEPDLLDTARAIAAKVNVPLPTDVVVAKEFAESAEATVKLIADVAADDMILDIGPQTAEHFAQLLKTSKTILWNGPVGVFEFDQFGNGTKVLAKAIADSAAFSIAGGGDTLAAIDKYGVADQISYISTGGGAFLEFVEGKVLPAVEVLESRAKA
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Glycerate_3-phosphate
+  name: Glycerate 3-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Glycerate_1
+  name: Glycerate 1
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3-bisphosphate
+  name: 3-bisphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_6_EC2_7_2_3_Pseudomonas_sp._Q9RBS3_ATP
+  name: Reaction catalyzed by phosphoglycerate kinase on ATP
+  equation: Glycerate 3-phosphate + ATP = Glycerate 1,3-bisphosphate + ADP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Glycerate_3-phosphate
+  products:
+  - species_id: product_Glycerate_1
+  - species_id: product_3-bisphosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_2_3_Q9RBS3_p5337
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:1657; CHEBI:16761; CHEBI:10789;
+    CHEBI:57299; CHEBI:40553; CHEBI:11882; CHEBI:12987; CHEBI:11880; CHEBI:88352;
+    CHEBI:13236; CHEBI:10841; CHEBI:57998; CHEBI:2359; CHEBI:58272; CHEBI:87518; CHEBI:40938;
+    CHEBI:456216; CHEBI:88005; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:24345;
+    CHEBI:17050; CHEBI:89363; CHEBI:17794; CHEBI:1659; CHEBI:21029; CHEBI:13222; CHEBI:11879;
+    CHEBI:22244; CHEBI:40016
+
+    KEGG IDs: KEGG:C00002; KEGG:C00197; KEGG:C00008; KEGG:C00597'
+- id: sabiork_6_EC2_7_2_3_Pseudomonas_sp._Q9RBS3_Glycerate_3-phosphate
+  name: Reaction catalyzed by phosphoglycerate kinase on Glycerate 3-phosphate
+  equation: Glycerate 3-phosphate + ATP = Glycerate 1,3-bisphosphate + ADP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Glycerate_3-phosphate
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_ADP
+  - species_id: product_Glycerate_1
+  - species_id: product_3-bisphosphate
+  modifiers:
+  - species_id: protein_2_7_2_3_Q9RBS3_p5338
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:1657; CHEBI:16761; CHEBI:10789;
+    CHEBI:57299; CHEBI:40553; CHEBI:11880; CHEBI:11882; CHEBI:12987; CHEBI:88352;
+    CHEBI:13236; CHEBI:57998; CHEBI:10841; CHEBI:2359; CHEBI:58272; CHEBI:87518; CHEBI:40938;
+    CHEBI:456216; CHEBI:88005; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:24345;
+    CHEBI:17050; CHEBI:89363; CHEBI:17794; CHEBI:1659; CHEBI:21029; CHEBI:13222; CHEBI:11879;
+    CHEBI:22244; CHEBI:40016
+
+    KEGG IDs: KEGG:C00002; KEGG:C00197; KEGG:C00008; KEGG:C00597'
+- id: sabiork_6_EC2_7_2_3_Pseudomonas_sp._Q9RBS3_ATP
+  name: Reaction catalyzed by phosphoglycerate kinase on ATP
+  equation: Glycerate 3-phosphate + ATP = Glycerate 1,3-bisphosphate + ADP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Glycerate_3-phosphate
+  products:
+  - species_id: product_Glycerate_1
+  - species_id: product_3-bisphosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_2_3_Q9RBS3_p5339
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:1657; CHEBI:16761; CHEBI:10789;
+    CHEBI:57299; CHEBI:40553; CHEBI:11882; CHEBI:12987; CHEBI:11880; CHEBI:88352;
+    CHEBI:13236; CHEBI:10841; CHEBI:57998; CHEBI:2359; CHEBI:58272; CHEBI:87518; CHEBI:40938;
+    CHEBI:456216; CHEBI:88005; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:24345;
+    CHEBI:17050; CHEBI:89363; CHEBI:17794; CHEBI:1659; CHEBI:21029; CHEBI:13222; CHEBI:11879;
+    CHEBI:22244; CHEBI:40016
+
+    KEGG IDs: KEGG:C00002; KEGG:C00197; KEGG:C00008; KEGG:C00597'
+measurements:
+- id: measurement_2_7_2_3_Pseudomonas_sp._Q9RBS3_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_7_2_3_Pseudomonas_sp._Q9RBS3_Glycerate_3-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_7_2_3_Pseudomonas_sp._Q9RBS3_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_2_3_Pseudomonas_sp._Q9RBS3_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00021
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10753921'
+- id: 2_7_2_3_Pseudomonas_sp._Q9RBS3_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 2380000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10753921'
+- id: 2_7_2_3_Pseudomonas_sp._Q9RBS3_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 500.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10753921'
+- id: 2_7_2_3_Pseudomonas_sp._Q9RBS3_ATP_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 537.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10753921'
+- id: 2_7_2_3_Pseudomonas_sp._Q9RBS3_ATP_kcat_Km_2
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1002000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10753921'
+- id: 2_7_2_3_Pseudomonas_sp._Q9RBS3_ATP_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00053
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10753921'
+- id: 2_7_2_3_Pseudomonas_sp._Q9RBS3_Glycerate_3-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00048
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glycerate_3-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10753921'
+- id: 2_7_2_3_Pseudomonas_sp._Q9RBS3_Glycerate_3-phosphate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 2162000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glycerate_3-phosphate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10753921'
+- id: 2_7_2_3_Pseudomonas_sp._Q9RBS3_Glycerate_3-phosphate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 540.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glycerate_3-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10753921'
+- id: 2_7_2_3_Pseudomonas_sp._Q9RBS3_Glycerate_3-phosphate_kcat_Km_2
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1126000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glycerate_3-phosphate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10753921'
+- id: 2_7_2_3_Pseudomonas_sp._Q9RBS3_Glycerate_3-phosphate_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00024
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glycerate_3-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10753921'
+- id: 2_7_2_3_Pseudomonas_sp._Q9RBS3_Glycerate_3-phosphate_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 519.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glycerate_3-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10753921'
+- id: 2_7_2_3_Pseudomonas_sp._Q9RBS3_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 362.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10753921'
+- id: 2_7_2_3_Pseudomonas_sp._Q9RBS3_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00038
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10753921'
+- id: 2_7_2_3_Pseudomonas_sp._Q9RBS3_ATP_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 411.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10753921'
+- id: 2_7_2_3_Pseudomonas_sp._Q9RBS3_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1071000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10753921'
+- id: 2_7_2_3_Pseudomonas_sp._Q9RBS3_ATP_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00089
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10753921'
+- id: 2_7_2_3_Pseudomonas_sp._Q9RBS3_ATP_kcat_Km_2
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 406000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10753921'
+buffer:
+  buffer: 30 mM Triethanolamine-HCl, 50 mM KCl, 0.1 mM EDTA, 0.15 mM NADH, 5 mM MgCl2,
+    40 mM Ammonium sulfate, 1 ¦Ìg/ml Glyceraldehyde 3-phosphate dehydrogenase
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 5337
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10753921/
+  pubmed_id: '10753921'
+  doi: null
+name: Merged entry for Q9RBS3 wildtype
+description: 'Merged from 3 files: SABIO_EC2.7.2.3_Pseudomonas_sp.__Q9RBS3_s_ATP.yaml,
+  SABIO_EC2.7.2.3_Pseudomonas_sp.__Q9RBS3_s_Glycerate.yaml, SABIO_EC2.7.2.3_Pseudomonas_sp.__Q9RBS3_s_ATP_2.yaml'

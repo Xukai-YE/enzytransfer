@@ -1,0 +1,137 @@
+name: SABIO-RK Entry 21715
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 21715
+created: '2025-10-28T14:18:36.283051'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_5_4_2_2_P33401_P37012_Q03262_p21715
+  name: phosphoglucomutase
+  sequence: null
+  ecnumber: 5.4.2.2
+  organism: Saccharomyces cerevisiae
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P33401; P37012; Q03262
+complexes: null
+small_molecules:
+- id: substrate_D-Glucose_1-phosphate
+  name: D-Glucose 1-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_alpha-D-Glucose_6-phosphate
+  name: alpha-D-Glucose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_alpha-D-Glucose_1_6-bisphosphate
+  name: alpha-D-Glucose 1,6-bisphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_11_EC5_4_2_2_Saccharomyces_cerevisiae_P33401_P37012_Q03262_D-Glucose_1-phosphate
+  name: Reaction catalyzed by phosphoglucomutase on D-Glucose 1-phosphate
+  equation: D-Glucose 1-phosphate = alpha-D-Glucose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Glucose_1-phosphate
+  products:
+  - species_id: product_alpha-D-Glucose_6-phosphate
+  modifiers:
+  - species_id: protein_5_4_2_2_P33401_P37012_Q03262_p21715
+    role: BIOCATALYST
+  - species_id: activator_alpha-D-Glucose_1_6-bisphosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00959
+  notes: 'ChEBI IDs: CHEBI:42761; CHEBI:26049; CHEBI:18148; CHEBI:42748; CHEBI:10243;
+    CHEBI:57684; CHEBI:16218; CHEBI:58392; CHEBI:16077; CHEBI:8142; CHEBI:28149; CHEBI:58225;
+    CHEBI:12321; CHEBI:17665; CHEBI:10245; CHEBI:12374; CHEBI:22389; CHEBI:12319;
+    CHEBI:10398; CHEBI:22796; CHEBI:22387
+
+    KEGG IDs: KEGG:C00663; KEGG:C00668; KEGG:C00103; KEGG:C01231'
+measurements:
+- id: measurement_5_4_2_2_Saccharomyces_cerevisiae_P33401_P37012_Q03262_D-Glucose_1-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 5_4_2_2_Saccharomyces_cerevisiae_P33401_P37012_Q03262_D-Glucose_1-phosphate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.002466716
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose_1-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '4992300'
+buffer:
+  buffer: 10 mM Tris/HCl, 0.2 mM NADP+, 5 ¦ÌM EDTA, 10 mM MgCl2, 9 ¦Ìg/ml Glucose-6-phosphate
+    dehydrogenase
+  buffer_concentration: 10 mM
+references:
+- title: Reference for SABIO-RK entry 21715
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/4992300/
+  pubmed_id: '4992300'
+  doi: null

@@ -1,0 +1,209 @@
+name: SABIO-RK Entry 7205
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 7205
+created: '2025-10-28T13:51:35.588674'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_188_P52897_p7205
+  name: prostaglandin-F synthase
+  ecnumber: 1.1.1.188
+  organism: Bos taurus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: R91Q
+  uniprotid: P52897
+  wildtype_sequence: MDPKSQRVKFNDGHFIPVLGFGTYAPEEVPKSEALEATKFAIEVGFRHVDSAHLYQNEEQVGQAIRSKIADGTVKREDIFYTSKLWCNSLQPELVRPALEKSLQNLQLDYVDLYIIHSPVSLKPGNKFVPKDESGKLIFDSVDLCHTWEALEKCKDAGLTKSIGVSNFNHKQLEKILNKPGLKYKPVCNQVECHPYLNQSKLLEFCKSHDIVLVAYAALGAQLLSEWVNSNNPVLLEDPVLCAIAKKHKQTPALVALRYQVQRGVVVLAKSFNKKRIKENMQVFDFELTPEDMKAIDGLNRNTRYYDFQQGIGHPEYPFSEEY
+  mutant_sequence: MDPKSQRVKFNDGHFIPVLGFGTYAPEEVPKSEALEATKFAIEVGFRHVDSAHLYQNEEQVGQAIRSKIADGTVKREDIFYTSKLWCNSLQPELVQPALEKSLQNLQLDYVDLYIIHSPVSLKPGNKFVPKDESGKLIFDSVDLCHTWEALEKCKDAGLTKSIGVSNFNHKQLEKILNKPGLKYKPVCNQVECHPYLNQSKLLEFCKSHDIVLVAYAALGAQLLSEWVNSNNPVLLEDPVLCAIAKKHKQTPALVALRYQVQRGVVVLAKSFNKKRIKENMQVFDFELTPEDMKAIDGLNRNTRYYDFQQGIGHPEYPFSEEY
+  position_offset: 5
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_9
+  name: '9'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_10-Phenanthroquinone
+  name: 10-Phenanthroquinone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Phenanthrene-9
+  name: Phenanthrene-9
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_10-diol
+  name: 10-diol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7755_EC1_1_1_188_Bos_taurus_P52897_9
+  name: Reaction catalyzed by prostaglandin-F synthase on 9
+  equation: 9,10-Phenanthroquinone + H+ + NADPH = NADP+ + Phenanthrene-9,10-diol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_9
+  - species_id: substrate_10-Phenanthroquinone
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_NADP_
+  - species_id: product_Phenanthrene-9
+  - species_id: product_10-diol
+  modifiers:
+  - species_id: protein_1_1_1_188_P52897_p7205
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 63488;63489;63490;63491
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:20817; CHEBI:13397; CHEBI:13398; CHEBI:37454; CHEBI:7424;
+    CHEBI:21903; CHEBI:44405; CHEBI:7425; CHEBI:25523; CHEBI:13399; CHEBI:16474; CHEBI:44286;
+    CHEBI:2330; CHEBI:21904; CHEBI:20814; CHEBI:44409; CHEBI:18009; CHEBI:58349; CHEBI:13400;
+    CHEBI:57783
+
+    KEGG IDs: KEGG:C00006; KEGG:C00005; KEGG:C11037; KEGG:C03243'
+measurements:
+- id: measurement_1_1_1_188_Bos_taurus_P52897_9
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1_188_Bos_taurus_P52897_9_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 8.0e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_9
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9867836'
+- id: 1_1_1_188_Bos_taurus_P52897_9_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.04233333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_9
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9867836'
+- id: 1_1_1_188_Bos_taurus_P52897_9_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 53000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_9
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9867836'
+buffer:
+  buffer: 0.1 M potassium phosphate
+  buffer_concentration: 0.1 M
+references:
+- title: Reference for SABIO-RK entry 7205
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9867836/
+  pubmed_id: '9867836'
+  doi: null

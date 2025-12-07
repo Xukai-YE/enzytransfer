@@ -1,0 +1,171 @@
+name: SABIO-RK Entry 8548
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 8548
+created: '2025-10-28T13:53:36.396117'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_6_1_85_P00903_P05041_p8548
+  name: aminodeoxychorismate synthase
+  sequence: null
+  ecnumber: 2.6.1.85
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: E258A
+  uniprotid: P05041
+  wildtype_sequence: MKTLSPAVITLLWRQDAAEFYFSRLSHLPWAMLLHSGYADHPYSRFDIVVAEPICTLTTFGKETVVSESEKRTTTTDDPLQVLQQVLDRADIRPTHNEDLPFQGGALGLFGYDLGRRFESLPEIAEQDIVLPDMAVGIYDWALIVDHQRHTVSLLSHNDVNARRAWLESQQFSPQEDFTLTSDWQSNMTREQYGEKFRQVQEYLHSGDCYQVNLAQRFHATYSGDEWQAFLQLNQANRAPFSAFLRLEQGAILSLSPERFILCDNSEIQTRPIKGTLPRLPDPQEDSKQAVKLANSAKDRAENLMIVDLMRNDIGRVAVAGSVKVPELFVVEPFPAVHHLVSTITAQLPEQLHASDLLRAAFPGGSITGAPKVRAMEIIDELEPQRRNAWCGSIGYLSFCGNMDTSITIRTLTAINGQIFCSAGGGIVADSQEEAEYQETFDKVNRILKQLEK
+  mutant_sequence: MKTLSPAVITLLWRQDAAEFYFSRLSHLPWAMLLHSGYADHPYSRFDIVVAEPICTLTTFGKETVVSESEKRTTTTDDPLQVLQQVLDRADIRPTHNEDLPFQGGALGLFGYDLGRRFESLPEIAEQDIVLPDMAVGIYDWALIVDHQRHTVSLLSHNDVNARRAWLESQQFSPQEDFTLTSDWQSNMTREQYGEKFRQVQEYLHSGDCYQVNLAQRFHATYSGDEWQAFLQLNQANRAPFSAFLRLEQGAILSLSPARFILCDNSEIQTRPIKGTLPRLPDPQEDSKQAVKLANSAKDRAENLMIVDLMRNDIGRVAVAGSVKVPELFVVEPFPAVHHLVSTITAQLPEQLHASDLLRAAFPGGSITGAPKVRAMEIIDELEPQRRNAWCGSIGYLSFCGNMDTSITIRTLTAINGQIFCSAGGGIVADSQEEAEYQETFDKVNRILKQLEK
+  resolution_status: multi_id_resolved
+complexes: null
+small_molecules:
+- id: substrate_NH3
+  name: NH3
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Chorismate
+  name: Chorismate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4-Amino-4-deoxychorismate
+  name: 4-Amino-4-deoxychorismate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Acetate
+  name: Acetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_5157_EC2_6_1_85_Escherichia_coli_P00903_P05041_NH3
+  name: Reaction catalyzed by aminodeoxychorismate synthase on NH3
+  equation: NH3 + Chorismate = H2O + 4-Amino-4-deoxychorismate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NH3
+  - species_id: substrate_Chorismate
+  products:
+  - species_id: product_4-Amino-4-deoxychorismate
+  modifiers:
+  - species_id: protein_2_6_1_85_P00903_P05041_p8548
+    role: BIOCATALYST
+  - species_id: activator_Acetate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R05552
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44284; CHEBI:40480; CHEBI:44819; CHEBI:16134;
+    CHEBI:41981; CHEBI:13405; CHEBI:7434; CHEBI:13704; CHEBI:15366; CHEBI:17333; CHEBI:42857;
+    CHEBI:41979; CHEBI:35180; CHEBI:13407; CHEBI:40486; CHEBI:22169; CHEBI:2387; CHEBI:23227;
+    CHEBI:3677; CHEBI:1943; CHEBI:42043; CHEBI:30089; CHEBI:35181; CHEBI:135980; CHEBI:22534;
+    CHEBI:33813; CHEBI:33811; CHEBI:27313; CHEBI:15377; CHEBI:7435; CHEBI:49783; CHEBI:22533;
+    CHEBI:23225; CHEBI:13352; CHEBI:44404; CHEBI:13771; CHEBI:22165; CHEBI:44269;
+    CHEBI:43228; CHEBI:44292; CHEBI:13993; CHEBI:13406; CHEBI:58406; CHEBI:33806;
+    CHEBI:29373; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:28938; CHEBI:18198; CHEBI:11956;
+    CHEBI:44701; CHEBI:29748
+
+    KEGG IDs: KEGG:C00251; KEGG:C00014; KEGG:C11355; KEGG:C01342; KEGG:C00001; KEGG:C00033'
+measurements:
+- id: measurement_2_6_1_85_Escherichia_coli_P00903_P05041_NH3
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 2_6_1_85_Escherichia_coli_P00903_P05041_NH3_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.412
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NH3
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16605270'
+- id: 2_6_1_85_Escherichia_coli_P00903_P05041_NH3_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.00045
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NH3
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16605270'
+buffer:
+  buffer: 100 mM Bicine, 5 mM MgCl2, 20 ¦ÌM PLP, 10 ¦ÌM 4-Amino-4-deoxychorismate
+    lyase, 200 ¦ÌM NADH, 4 U/ml Lactate dehydrogenase
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 8548
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16605270/
+  pubmed_id: '16605270'
+  doi: null

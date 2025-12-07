@@ -1,0 +1,157 @@
+name: SABIO-RK Entry 61127
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 61127
+created: '2025-10-28T16:32:11.284125'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_3_1__Q2R0K3_p61127
+  name: Acyltransferases
+  sequence: null
+  ecnumber: 2.3.1.
+  organism: Oryza sativa
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: R84d
+  uniprotid: Q2R0K3
+  mutant_sequence: MEITSSAMLKTTTTPPHPLAGEKVPLSAFDRAAFDVFVPLVFAYRAPAPSSEAVKEGLRVAVAAYPLVSGRIAVDGQGRRRRRDVLHVNNEGVLVLDATVEVDLDAVLAANVATDLYPALPEHSFGAALLQVQLTRFGCGGLVVGLIGHHHVFDGHSMSTFCATWARAVRDSEAFIVPSPSLDRAITGVPRSPPAPVFDHRSIEFKVGNKSSDSSGAAAAAAVEKIANIGVRFTAKFVAELKARVGGRCSTFECVLAHAWKKITAARGLKPEEFTRVRVAVNCRRRANPPAPADLFGNMVLWAFPRLQVRRLLSSSYRDVVGAIRAAVARVDAEYIQSFVDYVEVADARGEELAATAAEPGETLCPDLEVDSWLGFRFHEMDLGTGPPAAVLSPDLPIEGLMILVPVGGDGGGVDLFVALADDHAQAFEQICYSLEEHAMIHSHL
+  position_offset: 0
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Serotonin
+  name: Serotonin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_4-Coumaroyl-CoA
+  name: 4-Coumaroyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N-_p-Coumaroyl_serotonin
+  name: N-(p-Coumaroyl)serotonin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_14776_EC2_3_1__Oryza_sativa_Q2R0K3_Serotonin
+  name: Reaction catalyzed by Acyltransferases on Serotonin
+  equation: 4-Coumaroyl-CoA + Serotonin = Coenzyme A + N-(p-Coumaroyl)serotonin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Serotonin
+  - species_id: substrate_4-Coumaroyl-CoA
+  products:
+  - species_id: product_Coenzyme_A
+  - species_id: product_N-_p-Coumaroyl_serotonin
+  modifiers:
+  - species_id: protein_2_3_1__Q2R0K3_p61127
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:15346; CHEBI:23355; CHEBI:41631; CHEBI:85008; CHEBI:20349;
+    CHEBI:11979; CHEBI:85531; CHEBI:1813; CHEBI:13295; CHEBI:41597; CHEBI:350546;
+    CHEBI:15499; CHEBI:57287; CHEBI:13294; CHEBI:57355; CHEBI:49894; CHEBI:1420; CHEBI:28790;
+    CHEBI:26652; CHEBI:3771; CHEBI:741566; CHEBI:13298
+
+    KEGG IDs: KEGG:C00780; KEGG:C00223; KEGG:C00010'
+measurements:
+- id: measurement_2_3_1__Oryza_sativa_Q2R0K3_Serotonin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 2_3_1__Oryza_sativa_Q2R0K3_Serotonin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.03e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Serotonin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27354554'
+buffer:
+  buffer: 50 mM potassium phosphate
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 61127
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/27354554/
+  pubmed_id: '27354554'
+  doi: null

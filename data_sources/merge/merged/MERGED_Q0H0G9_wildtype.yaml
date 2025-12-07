@@ -1,0 +1,509 @@
+version: '2.0'
+created: '2025-11-20T13:40:29.614137'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_21_Q0H0G9_p29527
+  name: thymidine kinase
+  ecnumber: 2.7.1.21
+  organism: Staphylococcus aureus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q0H0G9
+  wildtype_sequence: MYETYHSGWIECITGSMFSGKSEELIRRLRRGIYAKQKVVVFKPAIDDRYHKEKVVSHNGNAIEAINISKASEIMTHDLTNVDVIGIDEVQFFDDEIVSIVEKLSADGHRVIVAGLDMDFRGEPFEPMPKLMAVSEQVTKLQAVCAVCGSSSSRTQRLINGKPAKIDDPIILVGANESYEPRCRAHHIVAPSDNNKEEL
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Zidovudine
+  name: Zidovudine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3_-Azido-3_-deoxythymidine_5_-phosphate
+  name: 3'-Azido-3'-deoxythymidine 5'-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Thymidine
+  name: Thymidine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_dTMP
+  name: dTMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_8131_EC2_7_1_21_Staphylococcus_aureus_Q0H0G9_Zidovudine
+  name: Reaction catalyzed by thymidine kinase on Zidovudine
+  equation: Zidovudine + ATP = ADP + 3'-Azido-3'-deoxythymidine 5'-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Zidovudine
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_ADP
+  - species_id: product_3_-Azido-3_-deoxythymidine_5_-phosphate
+  modifiers:
+  - species_id: protein_2_7_1_21_Q0H0G9_p29527
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:40553; CHEBI:13236; CHEBI:10841; CHEBI:2359; CHEBI:87518; CHEBI:40938; CHEBI:456216;
+    CHEBI:619601; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:10110; CHEBI:13222;
+    CHEBI:22244
+
+    KEGG IDs: KEGG:C00002; KEGG:C07210; KEGG:C00008'
+- id: sabiork_90_EC2_7_1_21_Staphylococcus_aureus_Q0H0G9_ATP
+  name: Reaction catalyzed by thymidine kinase on ATP
+  equation: ATP + Thymidine = dTMP + ADP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Thymidine
+  products:
+  - species_id: product_ADP
+  - species_id: product_dTMP
+  modifiers:
+  - species_id: protein_2_7_1_21_Q0H0G9_p29520
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 19129;19130;19131;19132
+  KEGGid: R01567
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:50300; CHEBI:46013; CHEBI:15246;
+    CHEBI:19273; CHEBI:16761; CHEBI:10789; CHEBI:57299; CHEBI:10529; CHEBI:14092;
+    CHEBI:40553; CHEBI:47711; CHEBI:63549; CHEBI:13236; CHEBI:15244; CHEBI:10841;
+    CHEBI:45917; CHEBI:45782; CHEBI:2359; CHEBI:26999; CHEBI:15245; CHEBI:87518; CHEBI:40938;
+    CHEBI:45834; CHEBI:46036; CHEBI:456216; CHEBI:45926; CHEBI:17748; CHEBI:22249;
+    CHEBI:2342; CHEBI:45759; CHEBI:15422; CHEBI:45772; CHEBI:17013; CHEBI:46960; CHEBI:9579;
+    CHEBI:13222; CHEBI:53527; CHEBI:22244; CHEBI:63528
+
+    KEGG IDs: KEGG:C00364; KEGG:C00002; KEGG:C00008; KEGG:C00214'
+- id: sabiork_90_EC2_7_1_21_Staphylococcus_aureus_Q0H0G9_Thymidine
+  name: Reaction catalyzed by thymidine kinase on Thymidine
+  equation: ATP + Thymidine = dTMP + ADP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Thymidine
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_dTMP
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_21_Q0H0G9_p29526
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 19129;19130;19131;19132
+  KEGGid: R01567
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:50300; CHEBI:46013; CHEBI:15246;
+    CHEBI:19273; CHEBI:10529; CHEBI:10789; CHEBI:57299; CHEBI:16761; CHEBI:14092;
+    CHEBI:40553; CHEBI:47711; CHEBI:63549; CHEBI:13236; CHEBI:15244; CHEBI:10841;
+    CHEBI:45917; CHEBI:45782; CHEBI:2359; CHEBI:26999; CHEBI:15245; CHEBI:87518; CHEBI:40938;
+    CHEBI:45834; CHEBI:46036; CHEBI:456216; CHEBI:45926; CHEBI:17748; CHEBI:22249;
+    CHEBI:2342; CHEBI:45759; CHEBI:15422; CHEBI:45772; CHEBI:17013; CHEBI:46960; CHEBI:9579;
+    CHEBI:13222; CHEBI:53527; CHEBI:22244; CHEBI:63528
+
+    KEGG IDs: KEGG:C00364; KEGG:C00002; KEGG:C00008; KEGG:C00214'
+- id: sabiork_8131_EC2_7_1_21_Staphylococcus_aureus_Q0H0G9_Zidovudine
+  name: Reaction catalyzed by thymidine kinase on Zidovudine
+  equation: Zidovudine + ATP = ADP + 3'-Azido-3'-deoxythymidine 5'-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Zidovudine
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_ADP
+  - species_id: product_3_-Azido-3_-deoxythymidine_5_-phosphate
+  modifiers:
+  - species_id: protein_2_7_1_21_Q0H0G9_p29521
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:40553; CHEBI:13236; CHEBI:10841; CHEBI:2359; CHEBI:87518; CHEBI:40938; CHEBI:456216;
+    CHEBI:619601; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:10110; CHEBI:13222;
+    CHEBI:22244
+
+    KEGG IDs: KEGG:C00002; KEGG:C07210; KEGG:C00008'
+measurements:
+- id: measurement_2_7_1_21_Staphylococcus_aureus_Q0H0G9_Zidovudine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_2_7_1_21_Staphylococcus_aureus_Q0H0G9_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_2_7_1_21_Staphylococcus_aureus_Q0H0G9_Thymidine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_2_7_1_21_Staphylococcus_aureus_Q0H0G9_Zidovudine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 2_7_1_21_Staphylococcus_aureus_Q0H0G9_Zidovudine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 129000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Zidovudine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '17526755'
+- id: 2_7_1_21_Staphylococcus_aureus_Q0H0G9_Zidovudine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 6.6668e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Zidovudine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '17526755'
+- id: 2_7_1_21_Staphylococcus_aureus_Q0H0G9_Zidovudine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.48
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Zidovudine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '17526755'
+- id: 2_7_1_21_Staphylococcus_aureus_Q0H0G9_Zidovudine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.16e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Zidovudine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '17526755'
+- id: 2_7_1_21_Staphylococcus_aureus_Q0H0G9_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.44
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '17526755'
+- id: 2_7_1_21_Staphylococcus_aureus_Q0H0G9_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 160000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '17526755'
+- id: 2_7_1_21_Staphylococcus_aureus_Q0H0G9_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '17526755'
+- id: 2_7_1_21_Staphylococcus_aureus_Q0H0G9_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.8e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '17526755'
+- id: 2_7_1_21_Staphylococcus_aureus_Q0H0G9_Thymidine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.8e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Thymidine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '17526755'
+- id: 2_7_1_21_Staphylococcus_aureus_Q0H0G9_Thymidine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 160000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Thymidine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '17526755'
+- id: 2_7_1_21_Staphylococcus_aureus_Q0H0G9_Thymidine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Thymidine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '17526755'
+- id: 2_7_1_21_Staphylococcus_aureus_Q0H0G9_Thymidine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.44
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Thymidine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '17526755'
+- id: 2_7_1_21_Staphylococcus_aureus_Q0H0G9_Zidovudine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.16e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Zidovudine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '17526755'
+- id: 2_7_1_21_Staphylococcus_aureus_Q0H0G9_Zidovudine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.48
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Zidovudine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '17526755'
+- id: 2_7_1_21_Staphylococcus_aureus_Q0H0G9_Zidovudine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 129000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Zidovudine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '17526755'
+- id: 2_7_1_21_Staphylococcus_aureus_Q0H0G9_Zidovudine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 6.66667e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Zidovudine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '17526755'
+buffer:
+  buffer: 50 mM Tris-HCl, 10 mM DTT, 2.5 mM MgCl2, 3 mg/ml BSA, 0.5 mM CHAPS
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 29527
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/17526755/
+  pubmed_id: '17526755'
+  doi: null
+name: Merged entry for Q0H0G9 wildtype
+description: 'Merged from 4 files: SABIO_EC2.7.1.21_Staphylococcus_aureus__Q0H0G9_s_Zidovudine_2.yaml,
+  SABIO_EC2.7.1.21_Staphylococcus_aureus__Q0H0G9_s_ATP.yaml, SABIO_EC2.7.1.21_Staphylococcus_aureus__Q0H0G9_s_Thymidine.yaml,
+  SABIO_EC2.7.1.21_Staphylococcus_aureus__Q0H0G9_s_Zidovudine.yaml'

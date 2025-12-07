@@ -1,0 +1,554 @@
+version: '2.0'
+created: '2025-11-20T13:39:54.412311'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_6_5_2_P15559_p63748
+  name: ferredoxin---NADP+ reductase
+  ecnumber: 1.6.5.2
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P15559
+  wildtype_sequence: MVGRRALIVLAHSERTSFNYAMKEAAAAALKKKGWEVVESDLYAMNFNPIISRKDITGKLKDPANFQYPAESVLAYKEGHLSPDIVAEQKKLEAADLVIFQFPLQWFGVPAILKGWFERVFIGEFAYTYAAMYDKGPFRSKKAVLSITTGGSGSMYSLQGIHGDMNVILWPIQSGILHFCGFQVLEPQLTYSIGHTPADARIQILEGWKKRLENIWDETPLYFAPSSLFDLNFQAGFLMKKEVQDEEKNKKFGLSVGHHLGKSIPTDNQIKARK
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_2
+  name: '2'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_6-Dichloroindophenol
+  name: 6-Dichloroindophenol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Reduced_2
+  name: Reduced 2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_6-dichlorophenolindophenol
+  name: 6-dichlorophenolindophenol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_5-_Aziridin-1-yl_-2
+  name: 5-(Aziridin-1-yl)-2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_4-dinitrobenzamide
+  name: 4-dinitrobenzamide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_5-_Aziridin-1-yl_-4-_hydroxyamino_-2-nitrobenzamide
+  name: 5-(Aziridin-1-yl)-4-(hydroxyamino)-2-nitrobenzamide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Methyl_red
+  name: Methyl red
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Reduced_methyl_red
+  name: Reduced methyl red
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Menadione
+  name: Menadione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Menadiol
+  name: Menadiol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_6671_EC1_6_5_2_Homo_sapiens_P15559_2
+  name: Reaction catalyzed by ferredoxin---NADP+ reductase on 2
+  equation: 2,6-Dichloroindophenol + NADH + H+ = Reduced 2,6-dichlorophenolindophenol
+    + NAD+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2
+  - species_id: substrate_6-Dichloroindophenol
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_NAD_
+  - species_id: product_Reduced_2
+  - species_id: product_6-dichlorophenolindophenol
+  modifiers:
+  - species_id: protein_1_6_5_2_P15559_p63748
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:13357;
+    CHEBI:21902; CHEBI:945; CHEBI:13396; CHEBI:21901; CHEBI:24636; CHEBI:44214; CHEBI:29233;
+    CHEBI:5584; CHEBI:13394; CHEBI:57945; CHEBI:44216; CHEBI:57540; CHEBI:7423; CHEBI:13389;
+    CHEBI:15378; CHEBI:13395; CHEBI:10744; CHEBI:44215; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C05720; KEGG:C00080; KEGG:C00102; KEGG:C00003; KEGG:C00004'
+- id: sabiork_15044_EC1_6_5_2_Homo_sapiens_P15559_5-_Aziridin-1-yl_-2
+  name: Reaction catalyzed by NAD(P)H dehydrogenase (quinone) on 5-(Aziridin-1-yl)-2
+  equation: NADH + 5-(Aziridin-1-yl)-2,4-dinitrobenzamide = NAD+ + 5-(Aziridin-1-yl)-4-(hydroxyamino)-2-nitrobenzamide
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_5-_Aziridin-1-yl_-2
+  - species_id: substrate_4-dinitrobenzamide
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_5-_Aziridin-1-yl_-4-_hydroxyamino_-2-nitrobenzamide
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_6_5_2_P15559_p63754
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:13393; CHEBI:13395; CHEBI:57945; CHEBI:15846; CHEBI:44216;
+    CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:57540; CHEBI:7423; CHEBI:44215; CHEBI:44214;
+    CHEBI:44281; CHEBI:13394; CHEBI:7422; CHEBI:13389; CHEBI:16908
+
+    KEGG IDs: KEGG:C00003; KEGG:C00004'
+- id: sabiork_15042_EC1_6_5_2_Homo_sapiens_P15559_Methyl_red
+  name: Reaction catalyzed by NAD(P)H dehydrogenase (quinone) on Methyl red
+  equation: NADH + Methyl red = NAD+ + Reduced methyl red
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Methyl_red
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_Reduced_methyl_red
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_6_5_2_P15559_p63752
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:13393; CHEBI:13394; CHEBI:13395; CHEBI:57945; CHEBI:15846;
+    CHEBI:44216; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:57540; CHEBI:7423; CHEBI:44215;
+    CHEBI:44214; CHEBI:44281; CHEBI:71579; CHEBI:7422; CHEBI:13389; CHEBI:16908
+
+    KEGG IDs: KEGG:C00003; KEGG:C00004; KEGG:C19459'
+- id: sabiork_10112_EC1_6_5_2_Homo_sapiens_P15559_Menadione
+  name: Reaction catalyzed by NAD(P)H dehydrogenase (quinone) on Menadione
+  equation: H+ + Menadione + NADH = Menadiol + NAD+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Menadione
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_Menadiol
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_6_5_2_P15559_p63750
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:28869; CHEBI:6746; CHEBI:44281; CHEBI:13393; CHEBI:15846;
+    CHEBI:21902; CHEBI:13396; CHEBI:6747; CHEBI:21901; CHEBI:44214; CHEBI:13394; CHEBI:57945;
+    CHEBI:44216; CHEBI:46306; CHEBI:57540; CHEBI:7423; CHEBI:13389; CHEBI:13395; CHEBI:27304;
+    CHEBI:44215; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00003; KEGG:C05377; KEGG:C00004; KEGG:C07126'
+measurements:
+- id: measurement_1_6_5_2_Homo_sapiens_P15559_2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_6_5_2_Homo_sapiens_P15559_5-_Aziridin-1-yl_-2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_6_5_2_Homo_sapiens_P15559_Methyl_red
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_6_5_2_Homo_sapiens_P15559_Menadione
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_6_5_2_Homo_sapiens_P15559_2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 600.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9367528'
+- id: 1_6_5_2_Homo_sapiens_P15559_2_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 33333330.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9367528'
+- id: 1_6_5_2_Homo_sapiens_P15559_2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9367528'
+- id: 1_6_5_2_Homo_sapiens_P15559_2_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 516.6667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9367528'
+- id: 1_6_5_2_Homo_sapiens_P15559_2_kcat_Km_2
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 7333333.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9367528'
+- id: 1_6_5_2_Homo_sapiens_P15559_2_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.8e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9367528'
+- id: 1_6_5_2_Homo_sapiens_P15559_5-_Aziridin-1-yl_-2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.01
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_5-_Aziridin-1-yl_-2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9367528'
+- id: 1_6_5_2_Homo_sapiens_P15559_5-_Aziridin-1-yl_-2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00137
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_5-_Aziridin-1-yl_-2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9367528'
+- id: 1_6_5_2_Homo_sapiens_P15559_5-_Aziridin-1-yl_-2_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 7.333333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_5-_Aziridin-1-yl_-2
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9367528'
+- id: 1_6_5_2_Homo_sapiens_P15559_Methyl_red_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.8e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Methyl_red
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9367528'
+- id: 1_6_5_2_Homo_sapiens_P15559_Methyl_red_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 11666.67
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Methyl_red
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 6.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9367528'
+- id: 1_6_5_2_Homo_sapiens_P15559_Methyl_red_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.3333333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Methyl_red
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9367528'
+- id: 1_6_5_2_Homo_sapiens_P15559_Menadione_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 11666.67
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Menadione
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9367528'
+- id: 1_6_5_2_Homo_sapiens_P15559_Menadione_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 550.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Menadione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9367528'
+- id: 1_6_5_2_Homo_sapiens_P15559_Menadione_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.7e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Menadione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9367528'
+buffer:
+  buffer: 10 mM sodium phosphate; 50 mM potassium phosphate, 0.3 mg/ml MTT (3-(4,5-
+    dimethylthizaol-2-yl)-2,5-diphenyltetrazolium); 50 mM phosphate; 25 mM Tris-HCl,
+    0.23 mg/ml BSA, 0.01% Tween20, 5 ¦ÌM FAD, 10 ¦ÌM dicumarol
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 63748
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9367528/
+  pubmed_id: '9367528'
+  doi: null
+name: Merged entry for P15559 wildtype
+description: 'Merged from 4 files: SABIO_EC1.6.5.2_Homo_sapiens__P15559_s_2.yaml,
+  SABIO_EC1.6.5.2_Homo_sapiens__P15559_s_5-_Aziridin-1-yl_-2.yaml, SABIO_EC1.6.5.2_Homo_sapiens__P15559_s_Methyl.yaml,
+  SABIO_EC1.6.5.2_Homo_sapiens__P15559_s_Menadione.yaml'

@@ -1,0 +1,441 @@
+version: '2.0'
+created: '2025-11-20T13:39:25.259065'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_85_P30125_p73660
+  name: 3-isopropylmalate dehydrogenase
+  ecnumber: 1.1.1.85
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P30125
+  wildtype_sequence: MSKNYHIAVLPGDGIGPEVMTQALKVLDAVRNRFAMRITTSHYDVGGAAIDNHGQPLPPATVEGCEQADAVLFGSVGGPKWEHLPPDQQPERGALLPLRKHFKLFSNLRPAKLYQGLEAFCPLRADIAANGFDILCVRELTGGIYFGQPKGREGSGQYEKAFDTEVYHRFEIERIARIAFESARKRRHKVTSIDKANVLQSSILWREIVNEIATEYPDVELAHMYIDNATMQLIKDPSQFDVLLCSNLFGDILSDECAMITGSMGMLPSASLNEQGFGLYEPAGGSAPDIAGKNIANPIAQILSLALLLRYSLDADDAACAIERAINRALEEGIRTGDLARGAAAVSTDEMGDIIARYVAEGV
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_3-Ethylmalate
+  name: 3-Ethylmalate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mn2_
+  name: Mn2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Oxopentanoate
+  name: 2-Oxopentanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_K_
+  name: K+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_3-tert-Butylmalate
+  name: 3-tert-Butylmalate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Hydroxy-4
+  name: 2-Hydroxy-4
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4-dimethylpentanoate
+  name: 4-dimethylpentanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_3-Isopropylmalate
+  name: 3-Isopropylmalate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4-Methyl-2-oxopentanoate
+  name: 4-Methyl-2-oxopentanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_16160_EC1_1_1_85_Escherichia_coli_P30125_3-Ethylmalate
+  name: Reaction catalyzed by 3-isopropylmalate dehydrogenase on 3-Ethylmalate
+  equation: NAD+ + 3-Ethylmalate = NADH + H+ + CO2 + 2-Oxopentanoate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3-Ethylmalate
+  - species_id: substrate_NAD_
+  - species_id: cofactor_Mn2_
+  products:
+  - species_id: product_CO2
+  - species_id: product_NADH
+  - species_id: product_2-Oxopentanoate
+  modifiers:
+  - species_id: protein_1_1_1_85_P30125_p73660
+    role: BIOCATALYST
+  - species_id: activator_K_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29035; CHEBI:139538; CHEBI:44281; CHEBI:1262; CHEBI:49749;
+    CHEBI:13393; CHEBI:15591; CHEBI:29234; CHEBI:15846; CHEBI:3283; CHEBI:13357; CHEBI:26219;
+    CHEBI:21902; CHEBI:13396; CHEBI:8345; CHEBI:21901; CHEBI:1257; CHEBI:24636; CHEBI:44214;
+    CHEBI:29233; CHEBI:25156; CHEBI:5584; CHEBI:13394; CHEBI:23011; CHEBI:29103; CHEBI:57945;
+    CHEBI:44216; CHEBI:13285; CHEBI:13282; CHEBI:19754; CHEBI:57540; CHEBI:7423; CHEBI:13283;
+    CHEBI:13389; CHEBI:15378; CHEBI:13284; CHEBI:13395; CHEBI:16526; CHEBI:28644;
+    CHEBI:19753; CHEBI:48829; CHEBI:33033; CHEBI:44215; CHEBI:10744; CHEBI:49685;
+    CHEBI:21435; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C01989; KEGG:C06255; KEGG:C00034; KEGG:C00080; KEGG:C00011; KEGG:C19610;
+    KEGG:C00003; KEGG:C00238; KEGG:C00004'
+- id: sabiork_16161_EC1_1_1_85_Escherichia_coli_P30125_3-tert-Butylmalate
+  name: Reaction catalyzed by 3-isopropylmalate dehydrogenase on 3-tert-Butylmalate
+  equation: NAD+ + 3-tert-Butylmalate = NADH + H+ + CO2 + 2-Hydroxy-4,4-dimethylpentanoate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3-tert-Butylmalate
+  - species_id: substrate_NAD_
+  - species_id: cofactor_Mn2_
+  products:
+  - species_id: product_NADH
+  - species_id: product_CO2
+  - species_id: product_2-Hydroxy-4
+  - species_id: product_4-dimethylpentanoate
+  modifiers:
+  - species_id: protein_1_1_1_85_P30125_p73661
+    role: BIOCATALYST
+  - species_id: activator_K_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29035; CHEBI:139538; CHEBI:44281; CHEBI:49749; CHEBI:13393;
+    CHEBI:29234; CHEBI:15846; CHEBI:3283; CHEBI:13357; CHEBI:26219; CHEBI:21902; CHEBI:13396;
+    CHEBI:8345; CHEBI:21901; CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:25156; CHEBI:13394;
+    CHEBI:23011; CHEBI:5584; CHEBI:29103; CHEBI:57945; CHEBI:44216; CHEBI:13285; CHEBI:13282;
+    CHEBI:57540; CHEBI:7423; CHEBI:13283; CHEBI:13389; CHEBI:13395; CHEBI:13284; CHEBI:15378;
+    CHEBI:16526; CHEBI:48829; CHEBI:44215; CHEBI:10744; CHEBI:49685; CHEBI:21435;
+    CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00034; KEGG:C00080; KEGG:C00011; KEGG:C19610; KEGG:C00003; KEGG:C00238;
+    KEGG:C00004'
+- id: sabiork_12393_EC1_1_1_85_Escherichia_coli_P30125_3-Isopropylmalate
+  name: Reaction catalyzed by 3-isopropylmalate dehydrogenase on 3-Isopropylmalate
+  equation: 3-Isopropylmalate + NAD+ = 4-Methyl-2-oxopentanoate + CO2 + H+ + NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3-Isopropylmalate
+  - species_id: substrate_NAD_
+  - species_id: cofactor_Mn2_
+  products:
+  - species_id: product_CO2
+  - species_id: product_NADH
+  - species_id: product_4-Methyl-2-oxopentanoate
+  modifiers:
+  - species_id: protein_1_1_1_85_P30125_p73657
+    role: BIOCATALYST
+  - species_id: activator_K_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 32271;32272;32273;32274
+  KEGGid: R10052
+  notes: 'ChEBI IDs: CHEBI:1565; CHEBI:29035; CHEBI:35122; CHEBI:139538; CHEBI:44281;
+    CHEBI:48430; CHEBI:49749; CHEBI:13393; CHEBI:43465; CHEBI:29234; CHEBI:15846;
+    CHEBI:3283; CHEBI:13357; CHEBI:26219; CHEBI:21902; CHEBI:13396; CHEBI:20438; CHEBI:8345;
+    CHEBI:21901; CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:25156; CHEBI:13394;
+    CHEBI:23011; CHEBI:5584; CHEBI:29103; CHEBI:57945; CHEBI:44216; CHEBI:13285; CHEBI:13282;
+    CHEBI:35121; CHEBI:57540; CHEBI:12020; CHEBI:7423; CHEBI:13283; CHEBI:13389; CHEBI:17865;
+    CHEBI:43468; CHEBI:13284; CHEBI:15378; CHEBI:13395; CHEBI:41619; CHEBI:1891; CHEBI:16526;
+    CHEBI:15592; CHEBI:35120; CHEBI:48829; CHEBI:44215; CHEBI:10744; CHEBI:49685;
+    CHEBI:21435; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C04411; KEGG:C00034; KEGG:C00080; KEGG:C00011; KEGG:C00233; KEGG:C19610;
+    KEGG:C00003; KEGG:C00238; KEGG:C00004'
+measurements:
+- id: measurement_1_1_1_85_Escherichia_coli_P30125_3-Ethylmalate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 40.0
+  temperature_unit: °C
+- id: measurement_1_1_1_85_Escherichia_coli_P30125_3-tert-Butylmalate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 40.0
+  temperature_unit: °C
+- id: measurement_1_1_1_85_Escherichia_coli_P30125_3-Isopropylmalate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 40.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1_85_Escherichia_coli_P30125_3-Ethylmalate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 9.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Ethylmalate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 40.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9003442'
+- id: 1_1_1_85_Escherichia_coli_P30125_3-Ethylmalate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 70.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Ethylmalate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 40.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9003442'
+- id: 1_1_1_85_Escherichia_coli_P30125_3-Ethylmalate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 747000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Ethylmalate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.6
+  temperature: 40.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9003442'
+- id: 1_1_1_85_Escherichia_coli_P30125_3-tert-Butylmalate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000214
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-tert-Butylmalate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 40.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9003442'
+- id: 1_1_1_85_Escherichia_coli_P30125_3-tert-Butylmalate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 26000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-tert-Butylmalate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.6
+  temperature: 40.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9003442'
+- id: 1_1_1_85_Escherichia_coli_P30125_3-tert-Butylmalate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 6.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-tert-Butylmalate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 40.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9003442'
+- id: 1_1_1_85_Escherichia_coli_P30125_3-Isopropylmalate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 656000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Isopropylmalate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.6
+  temperature: 40.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9003442'
+- id: 1_1_1_85_Escherichia_coli_P30125_3-Isopropylmalate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 69.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Isopropylmalate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 40.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9003442'
+- id: 1_1_1_85_Escherichia_coli_P30125_3-Isopropylmalate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000105
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Isopropylmalate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 40.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9003442'
+- id: 1_1_1_85_Escherichia_coli_P30125_3-Isopropylmalate_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000321
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Isopropylmalate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 40.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9003442'
+buffer:
+  buffer: 20 mM potassium phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 73660
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9003442/
+  pubmed_id: '9003442'
+  doi: null
+name: Merged entry for P30125 wildtype
+description: 'Merged from 3 files: SABIO_EC1.1.1.85_Escherichia_coli__P30125_s_3-Ethylmalate.yaml,
+  SABIO_EC1.1.1.85_Escherichia_coli__P30125_s_3-tert-Butylmalate.yaml, SABIO_EC1.1.1.85_Escherichia_coli__P30125_s_3-Isopropylmalate.yaml'

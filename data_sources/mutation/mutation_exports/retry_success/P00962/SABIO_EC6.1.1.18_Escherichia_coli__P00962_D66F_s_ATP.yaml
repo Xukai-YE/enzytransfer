@@ -1,0 +1,216 @@
+name: SABIO-RK Entry 16627
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 16627
+created: '2025-10-28T14:09:35.460384'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_6_1_1_18_P00962_p16627
+  name: glutamine---tRNA ligase
+  ecnumber: 6.1.1.18
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: D66F
+  uniprotid: P00962
+  wildtype_sequence: MSEAEARPTNFIRQIIDEDLASGKHTTVHTRFPPEPNGYLHIGHAKSICLNFGIAQDYKGQCNLRFDDTNPVKEDIEYVESIKNDVEWLGFHWSGNVRYSSDYFDQLHAYAIELINKGLAYVDELTPEQIREYRGTLTQPGKNSPYRDRSVEENLALFEKMRAGGFEEGKACLRAKIDMASPFIVMRDPVLYRIKFAEHHQTGNKWCIYPMYDFTHCISDALEGITHSLCTLEFQDNRRLYDWVLDNITIPVHPRQYEFSRLNLEYTVMSKRKLNLLVTDKHVEGWDDPRMPTISGLRRRGYTAASIREFCKRIGVTKQDNTIEMASLESCIREDLNENAPRAMAVIDPVKLVIENYQGEGEMVTMPNHPNKPEMGSRQVPFSGEIWIDRADFREEANKQYKRLVLGKEVRLRNAYVIKAERVEKDAEGNITTIFCTYDADTLSKDPADGRKVKGVIHWVSAAHALPVEIRLYDRLFSVPNPGAADDFLSVINPESLVIKQGFAEPSLKDAVAGKAFQFEREGYFCLDSRHSTAEKPVFNRTVGLRDTWAKVGE
+  mutant_sequence: MSEAEARPTNFIRQIIDEDLASGKHTTVHTRFPPEPNGYLHIGHAKSICLNFGIAQFYKGQCNLRFDDTNPVKEDIEYVESIKNDVEWLGFHWSGNVRYSSDYFDQLHAYAIELINKGLAYVDELTPEQIREYRGTLTQPGKNSPYRDRSVEENLALFEKMRAGGFEEGKACLRAKIDMASPFIVMRDPVLYRIKFAEHHQTGNKWCIYPMYDFTHCISDALEGITHSLCTLEFQDNRRLYDWVLDNITIPVHPRQYEFSRLNLEYTVMSKRKLNLLVTDKHVEGWDDPRMPTISGLRRRGYTAASIREFCKRIGVTKQDNTIEMASLESCIREDLNENAPRAMAVIDPVKLVIENYQGEGEMVTMPNHPNKPEMGSRQVPFSGEIWIDRADFREEANKQYKRLVLGKEVRLRNAYVIKAERVEKDAEGNITTIFCTYDADTLSKDPADGRKVKGVIHWVSAAHALPVEIRLYDRLFSVPNPGAADDFLSVINPESLVIKQGFAEPSLKDAVAGKAFQFEREGYFCLDSRHSTAEKPVFNRTVGLRDTWAKVGE
+  position_offset: -9
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_L-Glutamine
+  name: L-Glutamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_tRNA_Gln_
+  name: tRNA(Gln)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_AMP
+  name: AMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Glutaminyl-tRNA_Gln_
+  name: L-Glutaminyl-tRNA(Gln)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_3430_EC6_1_1_18_Escherichia_coli_P00962_ATP
+  name: Reaction catalyzed by glutamine---tRNA ligase on ATP
+  equation: L-Glutamine + ATP + tRNA(Gln) = Diphosphate + AMP + L-Glutaminyl-tRNA(Gln)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_L-Glutamine
+  - species_id: substrate_tRNA_Gln_
+  products:
+  - species_id: product_AMP
+  - species_id: product_L-Glutaminyl-tRNA_Gln_
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_6_1_1_18_P00962_p16627
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03652
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:29166; CHEBI:10789; CHEBI:57299;
+    CHEBI:32678; CHEBI:42943; CHEBI:40726; CHEBI:32666; CHEBI:22245; CHEBI:13235;
+    CHEBI:8683; CHEBI:40510; CHEBI:42899; CHEBI:22242; CHEBI:13736; CHEBI:47222; CHEBI:33019;
+    CHEBI:456215; CHEBI:13236; CHEBI:29168; CHEBI:40786; CHEBI:45067; CHEBI:40826;
+    CHEBI:10679; CHEBI:16027; CHEBI:24316; CHEBI:2356; CHEBI:10841; CHEBI:32679; CHEBI:29888;
+    CHEBI:2359; CHEBI:35782; CHEBI:28300; CHEBI:21308; CHEBI:40938; CHEBI:32665; CHEBI:13420;
+    CHEBI:18361; CHEBI:5432; CHEBI:33017; CHEBI:42814; CHEBI:45208; CHEBI:13110; CHEBI:22249;
+    CHEBI:15422; CHEBI:18050; CHEBI:13740; CHEBI:6227; CHEBI:15174; CHEBI:42812; CHEBI:13234;
+    CHEBI:40721; CHEBI:45212; CHEBI:58359; CHEBI:42009; CHEBI:30011; CHEBI:12056;
+    CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00064; KEGG:C02282; KEGG:C00303; KEGG:C00002; KEGG:C01640;
+    KEGG:C00020'
+measurements:
+- id: measurement_6_1_1_18_Escherichia_coli_P00962_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 6_1_1_18_Escherichia_coli_P00962_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.0141
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9657697'
+- id: 6_1_1_18_Escherichia_coli_P00962_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000758
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9657697'
+- id: 6_1_1_18_Escherichia_coli_P00962_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 19.16667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9657697'
+buffer:
+  buffer: 20 mM HEPES, 10 mM Mg acetate
+  buffer_concentration: 20 mM
+references:
+- title: Reference for SABIO-RK entry 16627
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9657697/
+  pubmed_id: '9657697'
+  doi: null

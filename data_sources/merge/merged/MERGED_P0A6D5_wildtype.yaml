@@ -1,0 +1,1176 @@
+version: '2.0'
+created: '2025-11-20T13:39:19.315586'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+- given_name: SKiD
+  family_name: Database
+  mail: skid@database.org
+vessels: null
+proteins:
+- id: protein_1_1_1_282_P0A6D5_p30230
+  name: shikimate dehydrogenase
+  ecnumber: 1.1.1.282
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P0A6D5
+  wildtype_sequence: MDVTAKYELIGLMAYPIRHSLSPEMQNKALEKAGLPFTYMAFEVDNDSFPGAIEGLKALKMRGTGVSMPNKQLACEYVDELTPAAKLVGAINTIVNDDGYLRGYNTDGTGHIRAIKESGFDIKGKTMVLLGAGGASTAIGAQGAIEGLKEIKLFNRRDEFFDKALAFAQRVNENTDCVVTVTDLADQQAFAEALASADILTNGTKVGMKPLENESLVNDISLLHPGLLVTECVYNPHMTKLLQQAQQAGCKTIDGYGMLLWQGAEQFTLWTGKDFPLEYVKQVMGFGA
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Shikimate
+  name: Shikimate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3-Dehydroshikimate
+  name: 3-Dehydroshikimate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Quinate
+  name: Quinate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3-Dehydroquinate
+  name: 3-Dehydroquinate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_L-quinate
+  name: L-quinate
+  canonical_smiles: C1C(C(C(CC1(C(=O)O)O)O)O)O
+  inchi: InChI=1S/C7H12O6/c8-3-1-7(13,6(11)12)2-4(9)5(3)10/h3-5,8-10,13H,1-2H2,(H,11,12)
+  inchikey: AAWZDTNXLSGCEK-UHFFFAOYSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/6508
+- id: substrate_shikimate
+  name: shikimate
+  canonical_smiles: C1C(C(C(C=C1C(=O)O)O)O)O
+  inchi: InChI=1S/C7H10O5/c8-4-1-3(7(11)12)2-5(9)6(4)10/h1,4-6,8-10H,2H2,(H,11,12)
+  inchikey: JXOHGGNKMLTUBP-UHFFFAOYSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/8742
+reactions:
+- id: sabiork_2351_EC1_1_1_282_Escherichia_coli_P0A6D5_NADP_
+  name: Reaction catalyzed by shikimate dehydrogenase on NADP+
+  equation: NADP+ + Shikimate = NADPH + 3-Dehydroshikimate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADP_
+  - species_id: substrate_Shikimate
+  products:
+  - species_id: product_NADPH
+  - species_id: product_3-Dehydroshikimate
+  modifiers:
+  - species_id: protein_1_1_1_282_P0A6D5_p30230
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17737;17738;17739;17740
+  KEGGid: R02413
+  notes: 'ChEBI IDs: CHEBI:2052; CHEBI:15083; CHEBI:30918; CHEBI:13397; CHEBI:13398;
+    CHEBI:9133; CHEBI:132329; CHEBI:36208; CHEBI:7424; CHEBI:21903; CHEBI:44405; CHEBI:12123;
+    CHEBI:7425; CHEBI:29234; CHEBI:25523; CHEBI:13357; CHEBI:11782; CHEBI:19999; CHEBI:20566;
+    CHEBI:24636; CHEBI:29233; CHEBI:26663; CHEBI:5584; CHEBI:13399; CHEBI:45740; CHEBI:16119;
+    CHEBI:1488; CHEBI:16474; CHEBI:44286; CHEBI:26664; CHEBI:16630; CHEBI:42005; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:18009; CHEBI:26662; CHEBI:19998; CHEBI:58349;
+    CHEBI:13400; CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C02637; KEGG:C00493; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C11037'
+- id: sabiork_6421_EC1_1_1_282_Escherichia_coli_P0A6D5_NADP_
+  name: Reaction catalyzed by quinate/shikimate dehydrogenase on NADP+
+  equation: NADP+ + Quinate = H+ + NADPH + 3-Dehydroquinate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADP_
+  - species_id: substrate_Quinate
+  products:
+  - species_id: product_3-Dehydroquinate
+  - species_id: product_NADPH
+  modifiers:
+  - species_id: protein_1_1_1_282_P0A6D5_p30235
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R06846
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:17521; CHEBI:7424; CHEBI:29751;
+    CHEBI:21903; CHEBI:44405; CHEBI:7425; CHEBI:29234; CHEBI:25523; CHEBI:13357; CHEBI:24636;
+    CHEBI:29233; CHEBI:13399; CHEBI:5584; CHEBI:16474; CHEBI:44286; CHEBI:21904; CHEBI:44409;
+    CHEBI:15378; CHEBI:18009; CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:10744;
+    CHEBI:32364; CHEBI:17947
+
+    KEGG IDs: KEGG:C00296; KEGG:C00005; KEGG:C00944; KEGG:C00080; KEGG:C00006; KEGG:C11037'
+- id: sabiork_1936_EC1_1_1_282_Escherichia_coli_P0A6D5_NAD_
+  name: Reaction catalyzed by quinate/shikimate dehydrogenase on NAD+
+  equation: NAD+ + Quinate = H+ + 3-Dehydroquinate + NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_Quinate
+  products:
+  - species_id: product_3-Dehydroquinate
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_1_1_282_P0A6D5_p9646
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01872
+  notes: 'ChEBI IDs: CHEBI:17521; CHEBI:29751; CHEBI:44281; CHEBI:13393; CHEBI:29234;
+    CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636;
+    CHEBI:44214; CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:57945; CHEBI:44216; CHEBI:57540;
+    CHEBI:7423; CHEBI:13389; CHEBI:15378; CHEBI:13395; CHEBI:44215; CHEBI:10744; CHEBI:32364;
+    CHEBI:17947; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00296; KEGG:C00944; KEGG:C00080; KEGG:C00003; KEGG:C00004'
+- id: sabiork_6422_EC1_1_1_282_Escherichia_coli_P0A6D5_NAD_
+  name: Reaction catalyzed by quinate/shikimate dehydrogenase on NAD+
+  equation: Shikimate + NAD+ = H+ + 3-Dehydroshikimate + NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_Shikimate
+  products:
+  - species_id: product_3-Dehydroshikimate
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_1_1_282_P0A6D5_p30231
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17741;17742;17743;17744
+  KEGGid: R06847
+  notes: 'ChEBI IDs: CHEBI:2052; CHEBI:15083; CHEBI:30918; CHEBI:9133; CHEBI:132329;
+    CHEBI:36208; CHEBI:44281; CHEBI:12123; CHEBI:13393; CHEBI:29234; CHEBI:15846;
+    CHEBI:13357; CHEBI:11782; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:19999;
+    CHEBI:20566; CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:26663; CHEBI:13394;
+    CHEBI:5584; CHEBI:45740; CHEBI:57945; CHEBI:44216; CHEBI:16119; CHEBI:1488; CHEBI:57540;
+    CHEBI:26664; CHEBI:7423; CHEBI:16630; CHEBI:42005; CHEBI:13389; CHEBI:15378; CHEBI:13395;
+    CHEBI:26662; CHEBI:19998; CHEBI:44215; CHEBI:10744; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C02637; KEGG:C00493; KEGG:C00080; KEGG:C00003; KEGG:C00004'
+- id: sabiork_6422_EC1_1_1_282_Escherichia_coli_P0A6D5_NAD_
+  name: Reaction catalyzed by quinate/shikimate dehydrogenase on NAD+
+  equation: Shikimate + NAD+ = H+ + 3-Dehydroshikimate + NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_Shikimate
+  products:
+  - species_id: product_3-Dehydroshikimate
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_1_1_282_P0A6D5_p9653
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17741;17742;17743;17744
+  KEGGid: R06847
+  notes: 'ChEBI IDs: CHEBI:2052; CHEBI:15083; CHEBI:30918; CHEBI:9133; CHEBI:132329;
+    CHEBI:36208; CHEBI:44281; CHEBI:12123; CHEBI:13393; CHEBI:29234; CHEBI:15846;
+    CHEBI:13357; CHEBI:11782; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:19999;
+    CHEBI:20566; CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:26663; CHEBI:13394;
+    CHEBI:5584; CHEBI:45740; CHEBI:57945; CHEBI:44216; CHEBI:16119; CHEBI:1488; CHEBI:57540;
+    CHEBI:26664; CHEBI:7423; CHEBI:16630; CHEBI:42005; CHEBI:13389; CHEBI:15378; CHEBI:13395;
+    CHEBI:26662; CHEBI:19998; CHEBI:44215; CHEBI:10744; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C02637; KEGG:C00493; KEGG:C00080; KEGG:C00003; KEGG:C00004'
+- id: sabiork_6422_EC1_1_1_282_Escherichia_coli_P0A6D5_NAD_
+  name: Reaction catalyzed by quinate/shikimate dehydrogenase on NAD+
+  equation: Shikimate + NAD+ = H+ + 3-Dehydroshikimate + NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_Shikimate
+  products:
+  - species_id: product_3-Dehydroshikimate
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_1_1_282_P0A6D5_p9668
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17741;17742;17743;17744
+  KEGGid: R06847
+  notes: 'ChEBI IDs: CHEBI:2052; CHEBI:15083; CHEBI:30918; CHEBI:9133; CHEBI:132329;
+    CHEBI:36208; CHEBI:44281; CHEBI:12123; CHEBI:13393; CHEBI:29234; CHEBI:15846;
+    CHEBI:13357; CHEBI:11782; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:19999;
+    CHEBI:20566; CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:26663; CHEBI:13394;
+    CHEBI:5584; CHEBI:45740; CHEBI:57945; CHEBI:44216; CHEBI:16119; CHEBI:1488; CHEBI:57540;
+    CHEBI:26664; CHEBI:7423; CHEBI:16630; CHEBI:42005; CHEBI:13389; CHEBI:13395; CHEBI:15378;
+    CHEBI:26662; CHEBI:19998; CHEBI:44215; CHEBI:10744; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C02637; KEGG:C00493; KEGG:C00080; KEGG:C00003; KEGG:C00004'
+- id: sabiork_1936_EC1_1_1_282_Escherichia_coli_P0A6D5_NAD_
+  name: Reaction catalyzed by quinate/shikimate dehydrogenase on NAD+
+  equation: NAD+ + Quinate = H+ + 3-Dehydroquinate + NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_Quinate
+  products:
+  - species_id: product_3-Dehydroquinate
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_1_1_282_P0A6D5_p30234
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01872
+  notes: 'ChEBI IDs: CHEBI:17521; CHEBI:29751; CHEBI:44281; CHEBI:13393; CHEBI:29234;
+    CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636;
+    CHEBI:44214; CHEBI:29233; CHEBI:13394; CHEBI:5584; CHEBI:57945; CHEBI:44216; CHEBI:57540;
+    CHEBI:7423; CHEBI:13389; CHEBI:13395; CHEBI:15378; CHEBI:44215; CHEBI:10744; CHEBI:32364;
+    CHEBI:17947; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00296; KEGG:C00944; KEGG:C00080; KEGG:C00003; KEGG:C00004'
+- id: sabiork_1936_EC1_1_1_282_Escherichia_coli_P0A6D5_NAD_
+  name: Reaction catalyzed by quinate/shikimate dehydrogenase on NAD+
+  equation: NAD+ + Quinate = H+ + 3-Dehydroquinate + NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_Quinate
+  products:
+  - species_id: product_3-Dehydroquinate
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_1_1_282_P0A6D5_p30236
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01872
+  notes: 'ChEBI IDs: CHEBI:17521; CHEBI:29751; CHEBI:44281; CHEBI:13393; CHEBI:29234;
+    CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636;
+    CHEBI:44214; CHEBI:29233; CHEBI:13394; CHEBI:5584; CHEBI:57945; CHEBI:44216; CHEBI:57540;
+    CHEBI:7423; CHEBI:13389; CHEBI:13395; CHEBI:15378; CHEBI:44215; CHEBI:10744; CHEBI:32364;
+    CHEBI:17947; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00296; KEGG:C00944; KEGG:C00080; KEGG:C00003; KEGG:C00004'
+- id: sabiork_1936_EC1_1_1_282_Escherichia_coli_P0A6D5_Quinate
+  name: Reaction catalyzed by quinate/shikimate dehydrogenase on Quinate
+  equation: NAD+ + Quinate = H+ + 3-Dehydroquinate + NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Quinate
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_NADH
+  - species_id: product_3-Dehydroquinate
+  modifiers:
+  - species_id: protein_1_1_1_282_P0A6D5_p9661
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01872
+  notes: 'ChEBI IDs: CHEBI:17521; CHEBI:29751; CHEBI:44281; CHEBI:13393; CHEBI:29234;
+    CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636;
+    CHEBI:44214; CHEBI:29233; CHEBI:13394; CHEBI:5584; CHEBI:57945; CHEBI:44216; CHEBI:57540;
+    CHEBI:7423; CHEBI:13389; CHEBI:13395; CHEBI:15378; CHEBI:44215; CHEBI:10744; CHEBI:32364;
+    CHEBI:17947; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00296; KEGG:C00944; KEGG:C00080; KEGG:C00003; KEGG:C00004'
+- id: sabiork_6421_EC1_1_1_282_Escherichia_coli_P0A6D5_Quinate
+  name: Reaction catalyzed by quinate/shikimate dehydrogenase on Quinate
+  equation: NADP+ + Quinate = H+ + NADPH + 3-Dehydroquinate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Quinate
+  - species_id: substrate_NADP_
+  products:
+  - species_id: product_NADPH
+  - species_id: product_3-Dehydroquinate
+  modifiers:
+  - species_id: protein_1_1_1_282_P0A6D5_p30237
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R06846
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:17521; CHEBI:7424; CHEBI:29751;
+    CHEBI:21903; CHEBI:44405; CHEBI:7425; CHEBI:29234; CHEBI:25523; CHEBI:13357; CHEBI:24636;
+    CHEBI:29233; CHEBI:13399; CHEBI:5584; CHEBI:16474; CHEBI:44286; CHEBI:21904; CHEBI:44409;
+    CHEBI:15378; CHEBI:18009; CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:10744;
+    CHEBI:32364; CHEBI:17947
+
+    KEGG IDs: KEGG:C00296; KEGG:C00005; KEGG:C00944; KEGG:C00080; KEGG:C00006; KEGG:C11037'
+- id: sabiork_6422_EC1_1_1_282_Escherichia_coli_P0A6D5_Shikimate
+  name: Reaction catalyzed by quinate/shikimate dehydrogenase on Shikimate
+  equation: Shikimate + NAD+ = H+ + 3-Dehydroshikimate + NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Shikimate
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_3-Dehydroshikimate
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_1_1_282_P0A6D5_p30233
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17741;17742;17743;17744
+  KEGGid: R06847
+  notes: 'ChEBI IDs: CHEBI:2052; CHEBI:15083; CHEBI:30918; CHEBI:9133; CHEBI:132329;
+    CHEBI:36208; CHEBI:44281; CHEBI:12123; CHEBI:13393; CHEBI:29234; CHEBI:15846;
+    CHEBI:13357; CHEBI:11782; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:19999;
+    CHEBI:20566; CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:26663; CHEBI:13394;
+    CHEBI:5584; CHEBI:45740; CHEBI:57945; CHEBI:44216; CHEBI:16119; CHEBI:1488; CHEBI:57540;
+    CHEBI:26664; CHEBI:7423; CHEBI:16630; CHEBI:42005; CHEBI:13389; CHEBI:15378; CHEBI:13395;
+    CHEBI:26662; CHEBI:19998; CHEBI:44215; CHEBI:10744; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C02637; KEGG:C00493; KEGG:C00080; KEGG:C00003; KEGG:C00004'
+- id: sabiork_2351_EC1_1_1_282_Escherichia_coli_P0A6D5_Shikimate
+  name: Reaction catalyzed by shikimate dehydrogenase on Shikimate
+  equation: NADP+ + Shikimate = NADPH + 3-Dehydroshikimate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Shikimate
+  - species_id: substrate_NADP_
+  products:
+  - species_id: product_NADPH
+  - species_id: product_3-Dehydroshikimate
+  modifiers:
+  - species_id: protein_1_1_1_282_P0A6D5_p30232
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17737;17738;17739;17740
+  KEGGid: R02413
+  notes: 'ChEBI IDs: CHEBI:2052; CHEBI:15083; CHEBI:30918; CHEBI:9133; CHEBI:13398;
+    CHEBI:13397; CHEBI:132329; CHEBI:36208; CHEBI:7424; CHEBI:21903; CHEBI:44405;
+    CHEBI:12123; CHEBI:7425; CHEBI:29234; CHEBI:25523; CHEBI:13357; CHEBI:11782; CHEBI:19999;
+    CHEBI:20566; CHEBI:24636; CHEBI:29233; CHEBI:26663; CHEBI:5584; CHEBI:13399; CHEBI:45740;
+    CHEBI:16119; CHEBI:1488; CHEBI:16474; CHEBI:44286; CHEBI:26664; CHEBI:16630; CHEBI:42005;
+    CHEBI:21904; CHEBI:44409; CHEBI:15378; CHEBI:18009; CHEBI:26662; CHEBI:19998;
+    CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C02637; KEGG:C00493; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C11037'
+- id: reaction_P0A6D5_NAD_
+  name: Reaction catalyzed by enzyme on NAD+
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_P0A6D5
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_P0A6D5_L-quinate
+  name: Reaction catalyzed by enzyme on L-quinate
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-quinate
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_P0A6D5
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_P0A6D5_NADP_
+  name: Reaction catalyzed by enzyme on NADP+
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADP_
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_P0A6D5
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_P0A6D5_shikimate
+  name: Reaction catalyzed by enzyme on shikimate
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_shikimate
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_P0A6D5
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+measurements:
+- id: measurement_1_1_1_282_Escherichia_coli_P0A6D5_NADP_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 20.0
+  temperature_unit: °C
+- id: measurement_1_1_1_282_Escherichia_coli_P0A6D5_NADP_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 20.0
+  temperature_unit: °C
+- id: measurement_1_1_1_282_Escherichia_coli_P0A6D5_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 20.0
+  temperature_unit: °C
+- id: measurement_1_1_1_282_Escherichia_coli_P0A6D5_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 20.0
+  temperature_unit: °C
+- id: measurement_1_1_1_282_Escherichia_coli_P0A6D5_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 20.0
+  temperature_unit: °C
+- id: measurement_1_1_1_282_Escherichia_coli_P0A6D5_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 20.0
+  temperature_unit: °C
+- id: measurement_1_1_1_282_Escherichia_coli_P0A6D5_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 20.0
+  temperature_unit: °C
+- id: measurement_1_1_1_282_Escherichia_coli_P0A6D5_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 20.0
+  temperature_unit: °C
+- id: measurement_1_1_1_282_Escherichia_coli_P0A6D5_Quinate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 20.0
+  temperature_unit: °C
+- id: measurement_1_1_1_282_Escherichia_coli_P0A6D5_Quinate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 20.0
+  temperature_unit: °C
+- id: measurement_1_1_1_282_Escherichia_coli_P0A6D5_Shikimate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 20.0
+  temperature_unit: °C
+- id: measurement_1_1_1_282_Escherichia_coli_P0A6D5_Shikimate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 20.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=9.0, T=20.0°C)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 20.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=9.0, T=20.0°C)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 20.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=9.0, T=20.0°C)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 20.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=9.0, T=20.0°C)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 20.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1_282_Escherichia_coli_P0A6D5_NADP__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.1166667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12637497'
+- id: 1_1_1_282_Escherichia_coli_P0A6D5_NADP__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0001
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12637497'
+- id: 1_1_1_282_Escherichia_coli_P0A6D5_NADP__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12637497'
+- id: 1_1_1_282_Escherichia_coli_P0A6D5_NADP__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0005
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12637497'
+- id: 1_1_1_282_Escherichia_coli_P0A6D5_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 9.1e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15596430'
+- id: 1_1_1_282_Escherichia_coli_P0A6D5_NAD__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 12418.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15596430'
+- id: 1_1_1_282_Escherichia_coli_P0A6D5_NAD__kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 113000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15596430'
+- id: 1_1_1_282_Escherichia_coli_P0A6D5_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 8.7e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12637497'
+- id: 1_1_1_282_Escherichia_coli_P0A6D5_NAD__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12637497'
+- id: 1_1_1_282_Escherichia_coli_P0A6D5_NAD__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 91000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15596430'
+- id: 1_1_1_282_Escherichia_coli_P0A6D5_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.9e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15596430'
+- id: 1_1_1_282_Escherichia_coli_P0A6D5_NAD__kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 31379.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15596430'
+- id: 1_1_1_282_Escherichia_coli_P0A6D5_NAD__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 8607.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15596430'
+- id: 1_1_1_282_Escherichia_coli_P0A6D5_NAD__kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 105000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15596430'
+- id: 1_1_1_282_Escherichia_coli_P0A6D5_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.22e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15596430'
+- id: 1_1_1_282_Escherichia_coli_P0A6D5_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000116
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12637497'
+- id: 1_1_1_282_Escherichia_coli_P0A6D5_NAD__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12637497'
+- id: 1_1_1_282_Escherichia_coli_P0A6D5_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.1e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12637497'
+- id: 1_1_1_282_Escherichia_coli_P0A6D5_NAD__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12637497'
+- id: 1_1_1_282_Escherichia_coli_P0A6D5_Quinate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 7717.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Quinate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15596430'
+- id: 1_1_1_282_Escherichia_coli_P0A6D5_Quinate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.84e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Quinate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15596430'
+- id: 1_1_1_282_Escherichia_coli_P0A6D5_Quinate_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 142000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Quinate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15596430'
+- id: 1_1_1_282_Escherichia_coli_P0A6D5_Quinate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000555
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Quinate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12637497'
+- id: 1_1_1_282_Escherichia_coli_P0A6D5_Quinate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Quinate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12637497'
+- id: 1_1_1_282_Escherichia_coli_P0A6D5_Shikimate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Shikimate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12637497'
+- id: 1_1_1_282_Escherichia_coli_P0A6D5_Shikimate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Shikimate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12637497'
+- id: 1_1_1_282_Escherichia_coli_P0A6D5_Shikimate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.1166667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Shikimate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12637497'
+- id: 1_1_1_282_Escherichia_coli_P0A6D5_Shikimate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00012
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Shikimate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12637497'
+- id: P0A6D5_NAD__Km_11399
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.0149826566402624
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 20.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '15596430'
+- id: P0A6D5_L-quinate_Km_11397
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.0091
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_L-quinate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 20.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '15596430'
+- id: P0A6D5_NADP__Km_11396
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.5
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 20.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '12637497'
+- id: P0A6D5_shikimate_Km_11398
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.0029
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_shikimate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 20.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '15596430'
+buffer:
+  buffer: 100 mM Tris/HCl; 100 mM Tris-HCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 30230
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12637497/
+  pubmed_id: '12637497'
+  doi: null
+- title: Reference for SABIO-RK entry 9646
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15596430/
+  pubmed_id: '15596430'
+  doi: null
+name: Merged entry for P0A6D5 wildtype
+description: 'Merged from 16 files: SABIO_EC1.1.1.282_Escherichia_coli__P0A6D5_s_NADP_.yaml,
+  SABIO_EC1.1.1.282_Escherichia_coli__P0A6D5_s_NADP__2.yaml, SABIO_EC1.1.1.282_Escherichia_coli__P0A6D5_s_NAD_.yaml,
+  SABIO_EC1.1.1.282_Escherichia_coli__P0A6D5_s_NAD__4.yaml, SABIO_EC1.1.1.282_Escherichia_coli__P0A6D5_s_NAD__2.yaml,
+  SABIO_EC1.1.1.282_Escherichia_coli__P0A6D5_s_NAD__3.yaml, SABIO_EC1.1.1.282_Escherichia_coli__P0A6D5_s_NAD__5.yaml,
+  SABIO_EC1.1.1.282_Escherichia_coli__P0A6D5_s_NAD__6.yaml, SABIO_EC1.1.1.282_Escherichia_coli__P0A6D5_s_Quinate.yaml,
+  SABIO_EC1.1.1.282_Escherichia_coli__P0A6D5_s_Quinate_2.yaml, SABIO_EC1.1.1.282_Escherichia_coli__P0A6D5_s_Shikimate_2.yaml,
+  SABIO_EC1.1.1.282_Escherichia_coli__P0A6D5_s_Shikimate.yaml, SKID_EC1.1.1.282_Escherichi_P0A6D5_NAD_.yaml,
+  SKID_EC1.1.1.282_Escherichi_P0A6D5_L-quinate.yaml, SKID_EC1.1.1.282_Escherichi_P0A6D5_NADP_.yaml,
+  SKID_EC1.1.1.282_Escherichi_P0A6D5_shikimate.yaml'

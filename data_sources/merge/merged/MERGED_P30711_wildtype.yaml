@@ -1,0 +1,298 @@
+version: '2.0'
+created: '2025-11-20T13:40:17.830797'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_5_1_18_P30711_p22838
+  name: glutathione transferase
+  ecnumber: 2.5.1.18
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P30711
+  wildtype_sequence: MGLELYLDLLSQPCRAVYIFAKKNDIPFELRIVDLIKGQHLSDAFAQVNPLKKVPALKDGDFTLTESVAILLYLTRKYKVPDYWYPQDLQARARVDEYLAWQHTTLRRSCLRALWHKVMFPVFLGEPVSPQTLAATLAELDVTLQLLEDKFLQNKAFLTGPHISLADLVAITELMHPVGAGCQVFEGRPKLATWRQRVEAAVGEDLFQEAHEVILKAKDFPPADPTIKQKLMPWVLAMIR
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Reduced_glutathione
+  name: Reduced glutathione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Dibromomethane
+  name: Dibromomethane
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_S-Bromomethyl_glutathione
+  name: S-Bromomethyl glutathione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Hydrobromic_acid
+  name: Hydrobromic acid
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Bromodichlormethane
+  name: Bromodichlormethane
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_S-Dichlormethyl-glutathione
+  name: S-Dichlormethyl-glutathione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Dichloromethane
+  name: Dichloromethane
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_HCl
+  name: HCl
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_S-Chloromethyl_glutathione
+  name: S-Chloromethyl glutathione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_10444_EC2_5_1_18_Homo_sapiens_P30711_Reduced_glutathione
+  name: Reaction catalyzed by glutathione transferase on Reduced glutathione
+  equation: Dibromomethane + Reduced glutathione = Hydrobromic acid + S-Bromomethyl
+    glutathione
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Reduced_glutathione
+  - species_id: substrate_Dibromomethane
+  products:
+  - species_id: product_S-Bromomethyl_glutathione
+  - species_id: product_Hydrobromic_acid
+  modifiers:
+  - species_id: protein_2_5_1_18_P30711_p22838
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:47266; CHEBI:12402; CHEBI:3178; CHEBI:42873; CHEBI:24334;
+    CHEBI:14327; CHEBI:31673; CHEBI:29134; CHEBI:13918; CHEBI:15858; CHEBI:57925;
+    CHEBI:16856; CHEBI:5437; CHEBI:49515; CHEBI:47077; CHEBI:43049
+
+    KEGG IDs: KEGG:C00051; KEGG:C13645; KEGG:C01324'
+- id: sabiork_7153_EC2_5_1_18_Homo_sapiens_P30711_Reduced_glutathione
+  name: Reaction catalyzed by glutathione transferase on Reduced glutathione
+  equation: Bromodichlormethane + Reduced glutathione = Hydrobromic acid + S-Dichlormethyl-glutathione
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Reduced_glutathione
+  - species_id: substrate_Bromodichlormethane
+  products:
+  - species_id: product_Hydrobromic_acid
+  - species_id: product_S-Dichlormethyl-glutathione
+  modifiers:
+  - species_id: protein_2_5_1_18_P30711_p4297
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:47266; CHEBI:12402; CHEBI:34591; CHEBI:3178; CHEBI:42873;
+    CHEBI:24334; CHEBI:14327; CHEBI:31673; CHEBI:29134; CHEBI:13918; CHEBI:15858;
+    CHEBI:57925; CHEBI:16856; CHEBI:5437; CHEBI:49515; CHEBI:43049
+
+    KEGG IDs: KEGG:C00051; KEGG:C13645; KEGG:C01324; KEGG:C14708'
+- id: sabiork_10409_EC2_5_1_18_Homo_sapiens_P30711_Dichloromethane
+  name: Reaction catalyzed by glutathione transferase on Dichloromethane
+  equation: Dichloromethane + Reduced glutathione = HCl + S-Chloromethyl glutathione
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Dichloromethane
+  - species_id: substrate_Reduced_glutathione
+  products:
+  - species_id: product_HCl
+  - species_id: product_S-Chloromethyl_glutathione
+  modifiers:
+  - species_id: protein_2_5_1_18_P30711_p22836
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:3616; CHEBI:12402; CHEBI:17996; CHEBI:136417; CHEBI:5590;
+    CHEBI:16856; CHEBI:5437; CHEBI:3731; CHEBI:24334; CHEBI:14327; CHEBI:15767; CHEBI:13364;
+    CHEBI:17883; CHEBI:13291; CHEBI:23701; CHEBI:4504; CHEBI:13970; CHEBI:133877;
+    CHEBI:43049; CHEBI:24635; CHEBI:42873; CHEBI:48804; CHEBI:14139; CHEBI:57925
+
+    KEGG IDs: KEGG:C02271; KEGG:C01327; KEGG:C00051; KEGG:C00698'
+measurements:
+- id: measurement_2_5_1_18_Homo_sapiens_P30711_Reduced_glutathione
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 23.0
+  temperature_unit: °C
+- id: measurement_2_5_1_18_Homo_sapiens_P30711_Reduced_glutathione
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_5_1_18_Homo_sapiens_P30711_Dichloromethane
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 23.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_5_1_18_Homo_sapiens_P30711_Reduced_glutathione_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00014
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Reduced_glutathione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14615977'
+- id: 2_5_1_18_Homo_sapiens_P30711_Reduced_glutathione_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.666667e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Reduced_glutathione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12588193'
+- id: 2_5_1_18_Homo_sapiens_P30711_Dichloromethane_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00014
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Dichloromethane
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14615977'
+buffer:
+  buffer: 0.1 M Potassium phosphate; 0.10 M Potassium 3-(N-morpholino)propanesulfonate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 22838
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/14615977/
+  pubmed_id: '14615977'
+  doi: null
+- title: Reference for SABIO-RK entry 4297
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12588193/
+  pubmed_id: '12588193'
+  doi: null
+name: Merged entry for P30711 wildtype
+description: 'Merged from 3 files: SABIO_EC2.5.1.18_Homo_sapiens__P30711_s_Reduced_2.yaml,
+  SABIO_EC2.5.1.18_Homo_sapiens__P30711_s_Reduced.yaml, SABIO_EC2.5.1.18_Homo_sapiens__P30711_s_Dichloromethane.yaml'

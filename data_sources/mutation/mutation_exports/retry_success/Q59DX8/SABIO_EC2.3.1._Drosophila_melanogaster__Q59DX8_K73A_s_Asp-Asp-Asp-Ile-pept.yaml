@@ -1,0 +1,189 @@
+name: SABIO-RK Entry 75454
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 75454
+created: '2025-10-28T17:45:00.068931'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_3_1__Q59DX8_p75454
+  name: Acyltransferases
+  ecnumber: 2.3.1.
+  organism: Drosophila melanogaster
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: K73A
+  uniprotid: Q59DX8
+  wildtype_sequence: MRYIKSEPYYEGLPPFNVSGSPFNVVPIHNYPELMKDTCALINAEWPRSETARMRSLEASCDSLPCSLVLTTEGMCRVIAHLKLSPINSKKKACFVESVVVDKRHRGQGFGKLIMKFAEDYCRVVLDLKTIYLSTIDQDGFYERIGYEYCAPITMYGPRHCELPSLQNAKKKYMKKVL
+  mutant_sequence: MRYIKSEPYYEGLPPFNVSGSPFNVVPIHNYPELMKDTCALINAEWPRSETARMRSLEASCDSLPCSLVLTTEGMCRVIAHLALSPINSKKKACFVESVVVDKRHRGQGFGKLIMKFAEDYCRVVLDLKTIYLSTIDQDGFYERIGYEYCAPITMYGPRHCELPSLQNAKKKYMKKVL
+  position_offset: 10
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Asp-Asp-Asp-Ile-peptide
+  name: Asp-Asp-Asp-Ile-peptide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Acetyl-CoA
+  name: Acetyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N-Acetyl-Asp-Asp-Asp-Ile-peptide
+  name: N-Acetyl-Asp-Asp-Asp-Ile-peptide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_16406_EC2_3_1__Drosophila_melanogaster_Q59DX8_Asp-Asp-Asp-Ile-peptide
+  name: Reaction catalyzed by Acyltransferases on Asp-Asp-Asp-Ile-peptide
+  equation: Acetyl-CoA + Asp-Asp-Asp-Ile-peptide = H+ + Coenzyme A + N-Acetyl-Asp-Asp-Asp-Ile-peptide
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Asp-Asp-Asp-Ile-peptide
+  - species_id: substrate_Acetyl-CoA
+  products:
+  - species_id: product_N-Acetyl-Asp-Asp-Asp-Ile-peptide
+  - species_id: product_Coenzyme_A
+  modifiers:
+  - species_id: protein_2_3_1__Q59DX8_p75454
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:15346; CHEBI:23355; CHEBI:57288; CHEBI:41631;
+    CHEBI:13712; CHEBI:29234; CHEBI:13357; CHEBI:13295; CHEBI:41597; CHEBI:24636;
+    CHEBI:29233; CHEBI:5584; CHEBI:57287; CHEBI:13294; CHEBI:40470; CHEBI:2408; CHEBI:15378;
+    CHEBI:3771; CHEBI:741566; CHEBI:10744; CHEBI:13298; CHEBI:15351
+
+    KEGG IDs: KEGG:C00010; KEGG:C00080; KEGG:C00024'
+measurements:
+- id: measurement_2_3_1__Drosophila_melanogaster_Q59DX8_Asp-Asp-Asp-Ile-peptide
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 2_3_1__Drosophila_melanogaster_Q59DX8_Asp-Asp-Asp-Ile-peptide_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00146
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Asp-Asp-Asp-Ile-peptide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29581307'
+- id: 2_3_1__Drosophila_melanogaster_Q59DX8_Asp-Asp-Asp-Ile-peptide_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 8.666667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Asp-Asp-Asp-Ile-peptide
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29581307'
+- id: 2_3_1__Drosophila_melanogaster_Q59DX8_Asp-Asp-Asp-Ile-peptide_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.01266667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Asp-Asp-Asp-Ile-peptide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29581307'
+buffer:
+  buffer: 100 mM Hepes, 50 mM NaCl, 1 mM DTT
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 75454
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/29581307/
+  pubmed_id: '29581307'
+  doi: null

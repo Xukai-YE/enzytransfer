@@ -1,0 +1,315 @@
+version: '2.0'
+created: '2025-11-20T13:41:20.866613'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_6_1_13_Q9SU14_p63200
+  name: ADP-ribose diphosphatase
+  ecnumber: 3.6.1.13
+  organism: Arabidopsis thaliana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9SU14
+  wildtype_sequence: MGTRAQQIPLLEGETDNYDGVTVTMVEPMDSEVFTESLRASLSHWREEGKKGIWIKLPLGLANLVEAAVSEGFRYHHAEPEYLMLVSWISETPDTIPANASHVVGAGALVINKNTKEVLVVQERSGFFKDKNVWKLPTGVINEGEDIWTGVAREVEEETGIIADFVEVLAFRQSHKAILKKKTDMFFLCVLSPRSYDITEQKSEILQAKWMPIQEYVDQPWNKKNEMFKFMANICQKKCEEEYLGFAIVPTTTSSGKESFIYCNADHAKRLKVSRDQASASL
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_ADPribose
+  name: ADPribose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mg2_
+  name: Mg2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_AMP
+  name: AMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Ribose-phosphate
+  name: Ribose-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Reduced_nicotinamide_nucleotide
+  name: Reduced nicotinamide nucleotide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_14413_EC3_6_1_13_Arabidopsis_thaliana_Q9SU14_ADPribose
+  name: Reaction catalyzed by ADP-ribose diphosphatase on ADPribose
+  equation: H2O + ADPribose = AMP + Ribose-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ADPribose
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_AMP
+  - species_id: product_Ribose-phosphate
+  modifiers:
+  - species_id: protein_3_6_1_13_Q9SU14_p63200
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:40726; CHEBI:41981; CHEBI:22245;
+    CHEBI:13379; CHEBI:58273; CHEBI:40510; CHEBI:16960; CHEBI:4238; CHEBI:6635; CHEBI:22242;
+    CHEBI:13736; CHEBI:42857; CHEBI:47222; CHEBI:41979; CHEBI:15048; CHEBI:39127;
+    CHEBI:456215; CHEBI:21083; CHEBI:40786; CHEBI:40826; CHEBI:16027; CHEBI:2356;
+    CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:49736;
+    CHEBI:13352; CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:13740; CHEBI:10743;
+    CHEBI:29374; CHEBI:5585; CHEBI:17797; CHEBI:18420; CHEBI:13234; CHEBI:25112; CHEBI:40721;
+    CHEBI:13013; CHEBI:13235; CHEBI:12056; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00301; KEGG:C00020; KEGG:C00305; KEGG:C00001'
+- id: sabiork_10186_EC3_6_1_22_Arabidopsis_thaliana_Q9SU14_NADH
+  name: Reaction catalyzed by NAD+ diphosphatase on NADH
+  equation: H2O + NADH = AMP + Reduced nicotinamide nucleotide
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Reduced_nicotinamide_nucleotide
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_3_6_1_22_Q9SU14_p63199
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 48868;48869;48870;48871
+  KEGGid: R11104
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:40726; CHEBI:41981; CHEBI:22245;
+    CHEBI:13379; CHEBI:40510; CHEBI:6635; CHEBI:22242; CHEBI:13736; CHEBI:42857; CHEBI:47222;
+    CHEBI:41979; CHEBI:39127; CHEBI:456215; CHEBI:90832; CHEBI:74452; CHEBI:21902;
+    CHEBI:13396; CHEBI:40786; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:42043; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:49736; CHEBI:13352; CHEBI:57945;
+    CHEBI:44216; CHEBI:43228; CHEBI:7423; CHEBI:44292; CHEBI:33806; CHEBI:13740; CHEBI:10743;
+    CHEBI:29374; CHEBI:5585; CHEBI:18420; CHEBI:13395; CHEBI:13234; CHEBI:25112; CHEBI:40721;
+    CHEBI:13235; CHEBI:12056; CHEBI:29373; CHEBI:44701; CHEBI:16908
+
+    KEGG IDs: KEGG:C00305; KEGG:C21113; KEGG:C00001; KEGG:C00020; KEGG:C00004'
+measurements:
+- id: measurement_3_6_1_13_Arabidopsis_thaliana_Q9SU14_ADPribose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_3_6_1_22_Arabidopsis_thaliana_Q9SU14_NADH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_6_1_13_Arabidopsis_thaliana_Q9SU14_ADPribose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.32e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ADPribose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15878881'
+- id: 3_6_1_13_Arabidopsis_thaliana_Q9SU14_ADPribose_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 5300.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ADPribose
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15878881'
+- id: 3_6_1_13_Arabidopsis_thaliana_Q9SU14_ADPribose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.12
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ADPribose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15878881'
+- id: 3_6_1_13_Arabidopsis_thaliana_Q9SU14_ADPribose_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 4.0e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ADPribose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15878881'
+- id: 3_6_1_22_Arabidopsis_thaliana_Q9SU14_NADH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15878881'
+- id: 3_6_1_22_Arabidopsis_thaliana_Q9SU14_NADH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.5e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15878881'
+- id: 3_6_1_22_Arabidopsis_thaliana_Q9SU14_NADH_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1500.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15878881'
+- id: 3_6_1_22_Arabidopsis_thaliana_Q9SU14_NADH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.72e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15878881'
+buffer:
+  buffer: 50 mM Tris-HCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 63200
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15878881/
+  pubmed_id: '15878881'
+  doi: null
+name: Merged entry for Q9SU14 wildtype
+description: 'Merged from 2 files: SABIO_EC3.6.1.13_Arabidopsis_thaliana__Q9SU14_s_ADPribose.yaml,
+  SABIO_EC3.6.1.22_Arabidopsis_thaliana__Q9SU14_s_NADH.yaml'

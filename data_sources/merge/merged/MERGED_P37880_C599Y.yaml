@@ -1,0 +1,2446 @@
+version: '2.0'
+created: '2025-11-20T13:41:48.588759'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_6_1_1_19_P37880_p14355
+  name: arginine---tRNA ligase
+  ecnumber: 6.1.1.19
+  organism: Cricetulus griseus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: C599Y
+  uniprotid: P37880
+  wildtype_sequence: MDGLVAQCSARLLQQEKEIKSLTAEIDRLKNCGHLEDSPSLDQLREENLKLKYRLNILQRSLQAEKRRRPTKNMININSRLQDVFGCAIKAAYPDLDNPPLVVTPSQQPKFGDYQCNSAMGISQMLKAKEQKVNPRGIAENITKHLPNNEYIDRVEIAGPGFINVHLRKDFVSEQLTNLLVNGIQLPALGENKKVIVDFSSPNIAKEMHVGHLRSTIIGESMSRLFEFAGYDVLRLNHVGDWGTQFGMLIAHLQDQFPDYLTVSPPIGDLQAFYKESKKRFDTEEEFKKRAYQCVVSLQSKDPDFIKAWNLICDVSRAEFNKIYDALDITLIERGESFYQDRMKDIVKEFEDKGYVQVDDGRKIVFVPGCSIPLTIVKSDGGFTYDTSDLAAIKQRLFEEKANKIIYVVDNGQAVHFQTIFAAAQMIGWYDPKVTQVTHVGFGVVLGEDKKKFKTRSGETVRLVDLLGEGLKRSMDKLKEKERDKVLTEEELTAAQTSIAYGCIKYADLSHNRLNDYIFSFDKMLDDRGNTAAYLLYAFTRIRSIARLANVDEEMLQKAARETKIVLDHEKEWKLGRCILRFPEILQKMLDDLFLHTLCDYIYELATTFTEFYDSCYCVEKDRQTGKVLKVNMWRMLLCEAVAAVMAKGFDILGIKPVQRM
+  mutant_sequence: MDGLVAQCSARLLQQEKEIKSLTAEIDRLKNCGHLEDSPSLDQLREENLKLKYRLNILQRSLQAEKRRRPTKNMININSRLQDVFGCAIKAAYPDLDNPPLVVTPSQQPKFGDYQCNSAMGISQMLKAKEQKVNPRGIAENITKHLPNNEYIDRVEIAGPGFINVHLRKDFVSEQLTNLLVNGIQLPALGENKKVIVDFSSPNIAKEMHVGHLRSTIIGESMSRLFEFAGYDVLRLNHVGDWGTQFGMLIAHLQDQFPDYLTVSPPIGDLQAFYKESKKRFDTEEEFKKRAYQCVVSLQSKDPDFIKAWNLICDVSRAEFNKIYDALDITLIERGESFYQDRMKDIVKEFEDKGYVQVDDGRKIVFVPGCSIPLTIVKSDGGFTYDTSDLAAIKQRLFEEKANKIIYVVDNGQAVHFQTIFAAAQMIGWYDPKVTQVTHVGFGVVLGEDKKKFKTRSGETVRLVDLLGEGLKRSMDKLKEKERDKVLTEEELTAAQTSIAYGCIKYADLSHNRLNDYIFSFDKMLDDRGNTAAYLLYAFTRIRSIARLANVDEEMLQKAARETKIVLDHEKEWKLGRCILRFPEILQKMLDDLFLHTLYDYIYELATTFTEFYDSCYCVEKDRQTGKVLKVNMWRMLLCEAVAAVMAKGFDILGIKPVQRM
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_tRNA_Arg_
+  name: tRNA(Arg)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_L-Arginine
+  name: L-Arginine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_AMP
+  name: AMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Arginyl-tRNA_Arg_
+  name: L-Arginyl-tRNA(Arg)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_407_EC6_1_1_19_Cricetulus_griseus_P37880_ATP
+  name: Reaction catalyzed by arginine---tRNA ligase on ATP
+  equation: ATP + L-Arginine + tRNA(Arg) = Diphosphate + L-Arginyl-tRNA(Arg) + AMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_tRNA_Arg_
+  - species_id: substrate_L-Arginine
+  products:
+  - species_id: product_AMP
+  - species_id: product_L-Arginyl-tRNA_Arg_
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_6_1_1_19_P37880_p14355
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03646
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:13077; CHEBI:18366; CHEBI:10789;
+    CHEBI:57299; CHEBI:40726; CHEBI:22245; CHEBI:32683; CHEBI:8683; CHEBI:40510; CHEBI:22242;
+    CHEBI:13736; CHEBI:47222; CHEBI:33019; CHEBI:456215; CHEBI:13236; CHEBI:29952;
+    CHEBI:40786; CHEBI:45067; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841; CHEBI:29888;
+    CHEBI:2359; CHEBI:32681; CHEBI:32682; CHEBI:133495; CHEBI:35782; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:6185; CHEBI:10673; CHEBI:29171; CHEBI:42927;
+    CHEBI:15167; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740; CHEBI:16467;
+    CHEBI:21235; CHEBI:40721; CHEBI:13234; CHEBI:45212; CHEBI:42009; CHEBI:13235;
+    CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00062; KEGG:C01636; KEGG:C00002; KEGG:C02163; KEGG:C00020'
+- id: sabiork_407_EC6_1_1_19_Cricetulus_griseus_P37880_ATP
+  name: Reaction catalyzed by arginine---tRNA ligase on ATP
+  equation: ATP + L-Arginine + tRNA(Arg) = Diphosphate + L-Arginyl-tRNA(Arg) + AMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_L-Arginine
+  - species_id: substrate_tRNA_Arg_
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_L-Arginyl-tRNA_Arg_
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_6_1_1_19_P37880_p14393
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03646
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:13077; CHEBI:18366; CHEBI:10789;
+    CHEBI:57299; CHEBI:8683; CHEBI:40726; CHEBI:32683; CHEBI:22245; CHEBI:40510; CHEBI:22242;
+    CHEBI:13736; CHEBI:47222; CHEBI:33019; CHEBI:456215; CHEBI:13236; CHEBI:29952;
+    CHEBI:45067; CHEBI:40786; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841; CHEBI:29888;
+    CHEBI:2359; CHEBI:133495; CHEBI:32681; CHEBI:32682; CHEBI:35782; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:6185; CHEBI:10673; CHEBI:29171; CHEBI:42927;
+    CHEBI:15167; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740; CHEBI:16467;
+    CHEBI:21235; CHEBI:40721; CHEBI:13234; CHEBI:45212; CHEBI:42009; CHEBI:13235;
+    CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00062; KEGG:C01636; KEGG:C00002; KEGG:C02163; KEGG:C00020'
+- id: sabiork_407_EC6_1_1_19_Cricetulus_griseus_P37880_ATP
+  name: Reaction catalyzed by arginine---tRNA ligase on ATP
+  equation: ATP + L-Arginine + tRNA(Arg) = Diphosphate + L-Arginyl-tRNA(Arg) + AMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_L-Arginine
+  - species_id: substrate_tRNA_Arg_
+  products:
+  - species_id: product_AMP
+  - species_id: product_L-Arginyl-tRNA_Arg_
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_6_1_1_19_P37880_p14400
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03646
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:13077; CHEBI:18366; CHEBI:10789;
+    CHEBI:57299; CHEBI:40726; CHEBI:22245; CHEBI:32683; CHEBI:8683; CHEBI:40510; CHEBI:22242;
+    CHEBI:13736; CHEBI:47222; CHEBI:33019; CHEBI:456215; CHEBI:13236; CHEBI:29952;
+    CHEBI:40786; CHEBI:45067; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841; CHEBI:29888;
+    CHEBI:2359; CHEBI:133495; CHEBI:32681; CHEBI:32682; CHEBI:35782; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:6185; CHEBI:10673; CHEBI:29171; CHEBI:42927;
+    CHEBI:15167; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740; CHEBI:16467;
+    CHEBI:21235; CHEBI:40721; CHEBI:13234; CHEBI:45212; CHEBI:42009; CHEBI:13235;
+    CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00062; KEGG:C01636; KEGG:C00002; KEGG:C02163; KEGG:C00020'
+- id: sabiork_407_EC6_1_1_19_Cricetulus_griseus_P37880_ATP
+  name: Reaction catalyzed by arginine---tRNA ligase on ATP
+  equation: ATP + L-Arginine + tRNA(Arg) = Diphosphate + L-Arginyl-tRNA(Arg) + AMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_L-Arginine
+  - species_id: substrate_tRNA_Arg_
+  products:
+  - species_id: product_L-Arginyl-tRNA_Arg_
+  - species_id: product_AMP
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_6_1_1_19_P37880_p14394
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03646
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:13077; CHEBI:18366; CHEBI:10789;
+    CHEBI:57299; CHEBI:40726; CHEBI:22245; CHEBI:32683; CHEBI:8683; CHEBI:40510; CHEBI:22242;
+    CHEBI:13736; CHEBI:47222; CHEBI:33019; CHEBI:456215; CHEBI:13236; CHEBI:29952;
+    CHEBI:40786; CHEBI:45067; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841; CHEBI:29888;
+    CHEBI:2359; CHEBI:133495; CHEBI:32681; CHEBI:32682; CHEBI:35782; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:6185; CHEBI:10673; CHEBI:29171; CHEBI:42927;
+    CHEBI:15167; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740; CHEBI:16467;
+    CHEBI:21235; CHEBI:40721; CHEBI:13234; CHEBI:45212; CHEBI:42009; CHEBI:13235;
+    CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00062; KEGG:C01636; KEGG:C00002; KEGG:C02163; KEGG:C00020'
+- id: sabiork_407_EC6_1_1_19_Cricetulus_griseus_P37880_ATP
+  name: Reaction catalyzed by arginine---tRNA ligase on ATP
+  equation: ATP + L-Arginine + tRNA(Arg) = Diphosphate + L-Arginyl-tRNA(Arg) + AMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_tRNA_Arg_
+  - species_id: substrate_L-Arginine
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_L-Arginyl-tRNA_Arg_
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_6_1_1_19_P37880_p14356
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03646
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:13077; CHEBI:18366; CHEBI:10789;
+    CHEBI:57299; CHEBI:8683; CHEBI:40726; CHEBI:32683; CHEBI:22245; CHEBI:40510; CHEBI:22242;
+    CHEBI:13736; CHEBI:47222; CHEBI:33019; CHEBI:456215; CHEBI:13236; CHEBI:29952;
+    CHEBI:45067; CHEBI:40786; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841; CHEBI:29888;
+    CHEBI:2359; CHEBI:32681; CHEBI:32682; CHEBI:133495; CHEBI:35782; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:6185; CHEBI:10673; CHEBI:29171; CHEBI:42927;
+    CHEBI:15167; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740; CHEBI:16467;
+    CHEBI:21235; CHEBI:40721; CHEBI:13234; CHEBI:45212; CHEBI:42009; CHEBI:13235;
+    CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00062; KEGG:C01636; KEGG:C00002; KEGG:C02163; KEGG:C00020'
+- id: sabiork_407_EC6_1_1_19_Cricetulus_griseus_P37880_ATP
+  name: Reaction catalyzed by arginine---tRNA ligase on ATP
+  equation: ATP + L-Arginine + tRNA(Arg) = Diphosphate + L-Arginyl-tRNA(Arg) + AMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_L-Arginine
+  - species_id: substrate_tRNA_Arg_
+  products:
+  - species_id: product_L-Arginyl-tRNA_Arg_
+  - species_id: product_AMP
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_6_1_1_19_P37880_p14357
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03646
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:13077; CHEBI:18366; CHEBI:10789;
+    CHEBI:57299; CHEBI:40726; CHEBI:22245; CHEBI:32683; CHEBI:8683; CHEBI:40510; CHEBI:22242;
+    CHEBI:13736; CHEBI:47222; CHEBI:33019; CHEBI:456215; CHEBI:13236; CHEBI:29952;
+    CHEBI:40786; CHEBI:45067; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841; CHEBI:29888;
+    CHEBI:2359; CHEBI:133495; CHEBI:32681; CHEBI:32682; CHEBI:35782; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:6185; CHEBI:10673; CHEBI:29171; CHEBI:42927;
+    CHEBI:15167; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740; CHEBI:16467;
+    CHEBI:21235; CHEBI:40721; CHEBI:13234; CHEBI:45212; CHEBI:42009; CHEBI:13235;
+    CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00062; KEGG:C01636; KEGG:C00002; KEGG:C02163; KEGG:C00020'
+- id: sabiork_407_EC6_1_1_19_Cricetulus_griseus_P37880_ATP
+  name: Reaction catalyzed by arginine---tRNA ligase on ATP
+  equation: ATP + L-Arginine + tRNA(Arg) = Diphosphate + L-Arginyl-tRNA(Arg) + AMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_L-Arginine
+  - species_id: substrate_tRNA_Arg_
+  products:
+  - species_id: product_L-Arginyl-tRNA_Arg_
+  - species_id: product_AMP
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_6_1_1_19_P37880_p14375
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03646
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:13077; CHEBI:18366; CHEBI:10789;
+    CHEBI:57299; CHEBI:40726; CHEBI:22245; CHEBI:32683; CHEBI:8683; CHEBI:40510; CHEBI:22242;
+    CHEBI:13736; CHEBI:47222; CHEBI:33019; CHEBI:456215; CHEBI:13236; CHEBI:29952;
+    CHEBI:40786; CHEBI:45067; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841; CHEBI:29888;
+    CHEBI:2359; CHEBI:133495; CHEBI:32681; CHEBI:32682; CHEBI:35782; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:6185; CHEBI:10673; CHEBI:29171; CHEBI:42927;
+    CHEBI:15167; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740; CHEBI:16467;
+    CHEBI:21235; CHEBI:40721; CHEBI:13234; CHEBI:45212; CHEBI:42009; CHEBI:13235;
+    CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00062; KEGG:C01636; KEGG:C00002; KEGG:C02163; KEGG:C00020'
+- id: sabiork_407_EC6_1_1_19_Cricetulus_griseus_P37880_ATP
+  name: Reaction catalyzed by arginine---tRNA ligase on ATP
+  equation: ATP + L-Arginine + tRNA(Arg) = Diphosphate + L-Arginyl-tRNA(Arg) + AMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_tRNA_Arg_
+  - species_id: substrate_L-Arginine
+  products:
+  - species_id: product_L-Arginyl-tRNA_Arg_
+  - species_id: product_Diphosphate
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_6_1_1_19_P37880_p14358
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03646
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:13077; CHEBI:18366; CHEBI:10789;
+    CHEBI:57299; CHEBI:8683; CHEBI:40726; CHEBI:32683; CHEBI:22245; CHEBI:40510; CHEBI:22242;
+    CHEBI:13736; CHEBI:47222; CHEBI:33019; CHEBI:456215; CHEBI:13236; CHEBI:29952;
+    CHEBI:45067; CHEBI:40786; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841; CHEBI:29888;
+    CHEBI:2359; CHEBI:32681; CHEBI:32682; CHEBI:133495; CHEBI:35782; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:6185; CHEBI:10673; CHEBI:29171; CHEBI:42927;
+    CHEBI:15167; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740; CHEBI:16467;
+    CHEBI:21235; CHEBI:40721; CHEBI:13234; CHEBI:45212; CHEBI:42009; CHEBI:13235;
+    CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00062; KEGG:C01636; KEGG:C00002; KEGG:C02163; KEGG:C00020'
+- id: sabiork_407_EC6_1_1_19_Cricetulus_griseus_P37880_ATP
+  name: Reaction catalyzed by arginine---tRNA ligase on ATP
+  equation: ATP + L-Arginine + tRNA(Arg) = Diphosphate + L-Arginyl-tRNA(Arg) + AMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_tRNA_Arg_
+  - species_id: substrate_L-Arginine
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_AMP
+  - species_id: product_L-Arginyl-tRNA_Arg_
+  modifiers:
+  - species_id: protein_6_1_1_19_P37880_p14378
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03646
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:13077; CHEBI:18366; CHEBI:10789;
+    CHEBI:57299; CHEBI:8683; CHEBI:40726; CHEBI:32683; CHEBI:22245; CHEBI:40510; CHEBI:22242;
+    CHEBI:13736; CHEBI:47222; CHEBI:33019; CHEBI:456215; CHEBI:13236; CHEBI:29952;
+    CHEBI:45067; CHEBI:40786; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841; CHEBI:29888;
+    CHEBI:2359; CHEBI:32681; CHEBI:32682; CHEBI:133495; CHEBI:35782; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:6185; CHEBI:10673; CHEBI:29171; CHEBI:42927;
+    CHEBI:15167; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740; CHEBI:16467;
+    CHEBI:21235; CHEBI:40721; CHEBI:13234; CHEBI:45212; CHEBI:42009; CHEBI:13235;
+    CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00062; KEGG:C01636; KEGG:C00002; KEGG:C02163; KEGG:C00020'
+- id: sabiork_407_EC6_1_1_19_Cricetulus_griseus_P37880_ATP
+  name: Reaction catalyzed by arginine---tRNA ligase on ATP
+  equation: ATP + L-Arginine + tRNA(Arg) = Diphosphate + L-Arginyl-tRNA(Arg) + AMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_tRNA_Arg_
+  - species_id: substrate_L-Arginine
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_L-Arginyl-tRNA_Arg_
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_6_1_1_19_P37880_p14379
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03646
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:13077; CHEBI:18366; CHEBI:10789;
+    CHEBI:57299; CHEBI:8683; CHEBI:40726; CHEBI:32683; CHEBI:22245; CHEBI:40510; CHEBI:22242;
+    CHEBI:13736; CHEBI:47222; CHEBI:33019; CHEBI:456215; CHEBI:13236; CHEBI:29952;
+    CHEBI:45067; CHEBI:40786; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841; CHEBI:29888;
+    CHEBI:2359; CHEBI:32681; CHEBI:32682; CHEBI:133495; CHEBI:35782; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:6185; CHEBI:10673; CHEBI:29171; CHEBI:42927;
+    CHEBI:15167; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740; CHEBI:16467;
+    CHEBI:21235; CHEBI:40721; CHEBI:13234; CHEBI:45212; CHEBI:42009; CHEBI:13235;
+    CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00062; KEGG:C01636; KEGG:C00002; KEGG:C02163; KEGG:C00020'
+- id: sabiork_407_EC6_1_1_19_Cricetulus_griseus_P37880_ATP
+  name: Reaction catalyzed by arginine---tRNA ligase on ATP
+  equation: ATP + L-Arginine + tRNA(Arg) = Diphosphate + L-Arginyl-tRNA(Arg) + AMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_L-Arginine
+  - species_id: substrate_tRNA_Arg_
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_AMP
+  - species_id: product_L-Arginyl-tRNA_Arg_
+  modifiers:
+  - species_id: protein_6_1_1_19_P37880_p14391
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03646
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:13077; CHEBI:18366; CHEBI:10789;
+    CHEBI:57299; CHEBI:8683; CHEBI:40726; CHEBI:32683; CHEBI:22245; CHEBI:40510; CHEBI:22242;
+    CHEBI:13736; CHEBI:47222; CHEBI:33019; CHEBI:456215; CHEBI:13236; CHEBI:29952;
+    CHEBI:45067; CHEBI:40786; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841; CHEBI:29888;
+    CHEBI:2359; CHEBI:133495; CHEBI:32681; CHEBI:32682; CHEBI:35782; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:6185; CHEBI:10673; CHEBI:29171; CHEBI:42927;
+    CHEBI:15167; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740; CHEBI:16467;
+    CHEBI:21235; CHEBI:40721; CHEBI:13234; CHEBI:45212; CHEBI:42009; CHEBI:13235;
+    CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00062; KEGG:C01636; KEGG:C00002; KEGG:C02163; KEGG:C00020'
+- id: sabiork_407_EC6_1_1_19_Cricetulus_griseus_P37880_ATP
+  name: Reaction catalyzed by arginine---tRNA ligase on ATP
+  equation: ATP + L-Arginine + tRNA(Arg) = Diphosphate + L-Arginyl-tRNA(Arg) + AMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_L-Arginine
+  - species_id: substrate_tRNA_Arg_
+  products:
+  - species_id: product_AMP
+  - species_id: product_Diphosphate
+  - species_id: product_L-Arginyl-tRNA_Arg_
+  modifiers:
+  - species_id: protein_6_1_1_19_P37880_p14390
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03646
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:13077; CHEBI:18366; CHEBI:10789;
+    CHEBI:57299; CHEBI:40726; CHEBI:22245; CHEBI:32683; CHEBI:8683; CHEBI:40510; CHEBI:22242;
+    CHEBI:13736; CHEBI:47222; CHEBI:33019; CHEBI:456215; CHEBI:13236; CHEBI:29952;
+    CHEBI:40786; CHEBI:45067; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841; CHEBI:29888;
+    CHEBI:2359; CHEBI:133495; CHEBI:32681; CHEBI:32682; CHEBI:35782; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:6185; CHEBI:10673; CHEBI:29171; CHEBI:42927;
+    CHEBI:15167; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740; CHEBI:16467;
+    CHEBI:21235; CHEBI:40721; CHEBI:13234; CHEBI:45212; CHEBI:42009; CHEBI:13235;
+    CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00062; KEGG:C01636; KEGG:C00002; KEGG:C02163; KEGG:C00020'
+- id: sabiork_407_EC6_1_1_19_Cricetulus_griseus_P37880_L-Arginine
+  name: Reaction catalyzed by arginine---tRNA ligase on L-Arginine
+  equation: ATP + L-Arginine + tRNA(Arg) = Diphosphate + L-Arginyl-tRNA(Arg) + AMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Arginine
+  - species_id: substrate_ATP
+  - species_id: substrate_tRNA_Arg_
+  products:
+  - species_id: product_AMP
+  - species_id: product_L-Arginyl-tRNA_Arg_
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_6_1_1_19_P37880_p14360
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03646
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:13077; CHEBI:18366; CHEBI:10789;
+    CHEBI:57299; CHEBI:40726; CHEBI:22245; CHEBI:32683; CHEBI:8683; CHEBI:40510; CHEBI:22242;
+    CHEBI:13736; CHEBI:47222; CHEBI:33019; CHEBI:456215; CHEBI:13236; CHEBI:29952;
+    CHEBI:40786; CHEBI:45067; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841; CHEBI:29888;
+    CHEBI:2359; CHEBI:133495; CHEBI:32681; CHEBI:32682; CHEBI:35782; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:6185; CHEBI:10673; CHEBI:29171; CHEBI:42927;
+    CHEBI:15167; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740; CHEBI:16467;
+    CHEBI:21235; CHEBI:40721; CHEBI:13234; CHEBI:45212; CHEBI:42009; CHEBI:13235;
+    CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00062; KEGG:C01636; KEGG:C00002; KEGG:C02163; KEGG:C00020'
+- id: sabiork_407_EC6_1_1_19_Cricetulus_griseus_P37880_L-Arginine
+  name: Reaction catalyzed by arginine---tRNA ligase on L-Arginine
+  equation: ATP + L-Arginine + tRNA(Arg) = Diphosphate + L-Arginyl-tRNA(Arg) + AMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Arginine
+  - species_id: substrate_tRNA_Arg_
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_L-Arginyl-tRNA_Arg_
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_6_1_1_19_P37880_p14380
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03646
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:13077; CHEBI:18366; CHEBI:10789;
+    CHEBI:57299; CHEBI:8683; CHEBI:40726; CHEBI:32683; CHEBI:22245; CHEBI:40510; CHEBI:22242;
+    CHEBI:13736; CHEBI:47222; CHEBI:33019; CHEBI:456215; CHEBI:13236; CHEBI:29952;
+    CHEBI:45067; CHEBI:40786; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841; CHEBI:29888;
+    CHEBI:2359; CHEBI:133495; CHEBI:32681; CHEBI:32682; CHEBI:35782; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:6185; CHEBI:10673; CHEBI:29171; CHEBI:42927;
+    CHEBI:15167; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740; CHEBI:16467;
+    CHEBI:21235; CHEBI:40721; CHEBI:13234; CHEBI:45212; CHEBI:42009; CHEBI:13235;
+    CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00062; KEGG:C01636; KEGG:C00002; KEGG:C02163; KEGG:C00020'
+- id: sabiork_407_EC6_1_1_19_Cricetulus_griseus_P37880_L-Arginine
+  name: Reaction catalyzed by arginine---tRNA ligase on L-Arginine
+  equation: ATP + L-Arginine + tRNA(Arg) = Diphosphate + L-Arginyl-tRNA(Arg) + AMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Arginine
+  - species_id: substrate_tRNA_Arg_
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_AMP
+  - species_id: product_Diphosphate
+  - species_id: product_L-Arginyl-tRNA_Arg_
+  modifiers:
+  - species_id: protein_6_1_1_19_P37880_p14377
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03646
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:13077; CHEBI:18366; CHEBI:10789;
+    CHEBI:57299; CHEBI:40726; CHEBI:22245; CHEBI:32683; CHEBI:8683; CHEBI:40510; CHEBI:22242;
+    CHEBI:13736; CHEBI:47222; CHEBI:33019; CHEBI:456215; CHEBI:13236; CHEBI:29952;
+    CHEBI:40786; CHEBI:45067; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841; CHEBI:29888;
+    CHEBI:2359; CHEBI:133495; CHEBI:32681; CHEBI:32682; CHEBI:35782; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:6185; CHEBI:10673; CHEBI:29171; CHEBI:42927;
+    CHEBI:15167; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740; CHEBI:16467;
+    CHEBI:21235; CHEBI:40721; CHEBI:13234; CHEBI:45212; CHEBI:42009; CHEBI:13235;
+    CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00062; KEGG:C01636; KEGG:C00002; KEGG:C02163; KEGG:C00020'
+- id: sabiork_407_EC6_1_1_19_Cricetulus_griseus_P37880_L-Arginine
+  name: Reaction catalyzed by arginine---tRNA ligase on L-Arginine
+  equation: ATP + L-Arginine + tRNA(Arg) = Diphosphate + L-Arginyl-tRNA(Arg) + AMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Arginine
+  - species_id: substrate_ATP
+  - species_id: substrate_tRNA_Arg_
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_L-Arginyl-tRNA_Arg_
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_6_1_1_19_P37880_p14401
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03646
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:13077; CHEBI:18366; CHEBI:10789;
+    CHEBI:57299; CHEBI:8683; CHEBI:40726; CHEBI:32683; CHEBI:22245; CHEBI:40510; CHEBI:22242;
+    CHEBI:13736; CHEBI:47222; CHEBI:33019; CHEBI:456215; CHEBI:13236; CHEBI:29952;
+    CHEBI:45067; CHEBI:40786; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841; CHEBI:29888;
+    CHEBI:2359; CHEBI:133495; CHEBI:32681; CHEBI:32682; CHEBI:35782; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:6185; CHEBI:10673; CHEBI:29171; CHEBI:42927;
+    CHEBI:15167; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740; CHEBI:16467;
+    CHEBI:21235; CHEBI:40721; CHEBI:13234; CHEBI:45212; CHEBI:42009; CHEBI:13235;
+    CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00062; KEGG:C01636; KEGG:C00002; KEGG:C02163; KEGG:C00020'
+- id: sabiork_407_EC6_1_1_19_Cricetulus_griseus_P37880_L-Arginine
+  name: Reaction catalyzed by arginine---tRNA ligase on L-Arginine
+  equation: ATP + L-Arginine + tRNA(Arg) = Diphosphate + L-Arginyl-tRNA(Arg) + AMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Arginine
+  - species_id: substrate_ATP
+  - species_id: substrate_tRNA_Arg_
+  products:
+  - species_id: product_L-Arginyl-tRNA_Arg_
+  - species_id: product_Diphosphate
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_6_1_1_19_P37880_p14402
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03646
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:13077; CHEBI:18366; CHEBI:10789;
+    CHEBI:57299; CHEBI:8683; CHEBI:40726; CHEBI:32683; CHEBI:22245; CHEBI:40510; CHEBI:22242;
+    CHEBI:13736; CHEBI:47222; CHEBI:33019; CHEBI:456215; CHEBI:13236; CHEBI:29952;
+    CHEBI:45067; CHEBI:40786; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841; CHEBI:29888;
+    CHEBI:2359; CHEBI:133495; CHEBI:32681; CHEBI:32682; CHEBI:35782; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:6185; CHEBI:10673; CHEBI:29171; CHEBI:42927;
+    CHEBI:15167; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740; CHEBI:16467;
+    CHEBI:21235; CHEBI:40721; CHEBI:13234; CHEBI:45212; CHEBI:42009; CHEBI:13235;
+    CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00062; KEGG:C01636; KEGG:C00002; KEGG:C02163; KEGG:C00020'
+- id: sabiork_407_EC6_1_1_19_Cricetulus_griseus_P37880_L-Arginine
+  name: Reaction catalyzed by arginine---tRNA ligase on L-Arginine
+  equation: ATP + L-Arginine + tRNA(Arg) = Diphosphate + L-Arginyl-tRNA(Arg) + AMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Arginine
+  - species_id: substrate_ATP
+  - species_id: substrate_tRNA_Arg_
+  products:
+  - species_id: product_L-Arginyl-tRNA_Arg_
+  - species_id: product_Diphosphate
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_6_1_1_19_P37880_p14403
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03646
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:13077; CHEBI:18366; CHEBI:10789;
+    CHEBI:57299; CHEBI:8683; CHEBI:40726; CHEBI:32683; CHEBI:22245; CHEBI:40510; CHEBI:22242;
+    CHEBI:13736; CHEBI:47222; CHEBI:33019; CHEBI:456215; CHEBI:13236; CHEBI:29952;
+    CHEBI:45067; CHEBI:40786; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841; CHEBI:29888;
+    CHEBI:2359; CHEBI:133495; CHEBI:32681; CHEBI:32682; CHEBI:35782; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:6185; CHEBI:10673; CHEBI:29171; CHEBI:42927;
+    CHEBI:15167; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740; CHEBI:16467;
+    CHEBI:21235; CHEBI:40721; CHEBI:13234; CHEBI:45212; CHEBI:42009; CHEBI:13235;
+    CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00062; KEGG:C01636; KEGG:C00002; KEGG:C02163; KEGG:C00020'
+- id: sabiork_407_EC6_1_1_19_Cricetulus_griseus_P37880_tRNA_Arg_
+  name: Reaction catalyzed by arginine---tRNA ligase on tRNA(Arg)
+  equation: ATP + L-Arginine + tRNA(Arg) = Diphosphate + L-Arginyl-tRNA(Arg) + AMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_tRNA_Arg_
+  - species_id: substrate_ATP
+  - species_id: substrate_L-Arginine
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_L-Arginyl-tRNA_Arg_
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_6_1_1_19_P37880_p14359
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03646
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:13077; CHEBI:18366; CHEBI:10789;
+    CHEBI:57299; CHEBI:8683; CHEBI:40726; CHEBI:32683; CHEBI:22245; CHEBI:40510; CHEBI:22242;
+    CHEBI:13736; CHEBI:47222; CHEBI:33019; CHEBI:456215; CHEBI:13236; CHEBI:29952;
+    CHEBI:45067; CHEBI:40786; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841; CHEBI:29888;
+    CHEBI:2359; CHEBI:32681; CHEBI:32682; CHEBI:133495; CHEBI:35782; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:6185; CHEBI:10673; CHEBI:29171; CHEBI:42927;
+    CHEBI:15167; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740; CHEBI:16467;
+    CHEBI:21235; CHEBI:40721; CHEBI:13234; CHEBI:45212; CHEBI:42009; CHEBI:13235;
+    CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00062; KEGG:C01636; KEGG:C00002; KEGG:C02163; KEGG:C00020'
+- id: sabiork_407_EC6_1_1_19_Cricetulus_griseus_P37880_tRNA_Arg_
+  name: Reaction catalyzed by arginine---tRNA ligase on tRNA(Arg)
+  equation: ATP + L-Arginine + tRNA(Arg) = Diphosphate + L-Arginyl-tRNA(Arg) + AMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_tRNA_Arg_
+  - species_id: substrate_L-Arginine
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_L-Arginyl-tRNA_Arg_
+  - species_id: product_AMP
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_6_1_1_19_P37880_p14376
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03646
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:13077; CHEBI:18366; CHEBI:10789;
+    CHEBI:57299; CHEBI:40726; CHEBI:22245; CHEBI:32683; CHEBI:8683; CHEBI:40510; CHEBI:22242;
+    CHEBI:13736; CHEBI:47222; CHEBI:33019; CHEBI:456215; CHEBI:13236; CHEBI:29952;
+    CHEBI:40786; CHEBI:45067; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841; CHEBI:29888;
+    CHEBI:2359; CHEBI:133495; CHEBI:32681; CHEBI:32682; CHEBI:35782; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:6185; CHEBI:10673; CHEBI:29171; CHEBI:42927;
+    CHEBI:15167; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740; CHEBI:16467;
+    CHEBI:21235; CHEBI:40721; CHEBI:13234; CHEBI:45212; CHEBI:42009; CHEBI:13235;
+    CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00062; KEGG:C01636; KEGG:C00002; KEGG:C02163; KEGG:C00020'
+- id: sabiork_407_EC6_1_1_19_Cricetulus_griseus_P37880_tRNA_Arg_
+  name: Reaction catalyzed by arginine---tRNA ligase on tRNA(Arg)
+  equation: ATP + L-Arginine + tRNA(Arg) = Diphosphate + L-Arginyl-tRNA(Arg) + AMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_tRNA_Arg_
+  - species_id: substrate_L-Arginine
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_AMP
+  - species_id: product_L-Arginyl-tRNA_Arg_
+  modifiers:
+  - species_id: protein_6_1_1_19_P37880_p14392
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03646
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:13077; CHEBI:18366; CHEBI:10789;
+    CHEBI:57299; CHEBI:8683; CHEBI:40726; CHEBI:32683; CHEBI:22245; CHEBI:40510; CHEBI:22242;
+    CHEBI:13736; CHEBI:47222; CHEBI:33019; CHEBI:456215; CHEBI:13236; CHEBI:29952;
+    CHEBI:45067; CHEBI:40786; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841; CHEBI:29888;
+    CHEBI:2359; CHEBI:133495; CHEBI:32681; CHEBI:32682; CHEBI:35782; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:6185; CHEBI:10673; CHEBI:29171; CHEBI:42927;
+    CHEBI:15167; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740; CHEBI:16467;
+    CHEBI:21235; CHEBI:40721; CHEBI:13234; CHEBI:45212; CHEBI:42009; CHEBI:13235;
+    CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00062; KEGG:C01636; KEGG:C00002; KEGG:C02163; KEGG:C00020'
+- id: sabiork_407_EC6_1_1_19_Cricetulus_griseus_P37880_tRNA_Arg_
+  name: Reaction catalyzed by arginine---tRNA ligase on tRNA(Arg)
+  equation: ATP + L-Arginine + tRNA(Arg) = Diphosphate + L-Arginyl-tRNA(Arg) + AMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_tRNA_Arg_
+  - species_id: substrate_ATP
+  - species_id: substrate_L-Arginine
+  products:
+  - species_id: product_AMP
+  - species_id: product_L-Arginyl-tRNA_Arg_
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_6_1_1_19_P37880_p14389
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03646
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:13077; CHEBI:18366; CHEBI:10789;
+    CHEBI:57299; CHEBI:40726; CHEBI:22245; CHEBI:32683; CHEBI:8683; CHEBI:40510; CHEBI:22242;
+    CHEBI:13736; CHEBI:47222; CHEBI:33019; CHEBI:456215; CHEBI:13236; CHEBI:29952;
+    CHEBI:40786; CHEBI:45067; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841; CHEBI:29888;
+    CHEBI:2359; CHEBI:32681; CHEBI:32682; CHEBI:133495; CHEBI:35782; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:6185; CHEBI:10673; CHEBI:29171; CHEBI:42927;
+    CHEBI:15167; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740; CHEBI:16467;
+    CHEBI:21235; CHEBI:40721; CHEBI:13234; CHEBI:45212; CHEBI:42009; CHEBI:13235;
+    CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00062; KEGG:C01636; KEGG:C00002; KEGG:C02163; KEGG:C00020'
+- id: sabiork_407_EC6_1_1_19_Cricetulus_griseus_P37880_tRNA_Arg_
+  name: Reaction catalyzed by arginine---tRNA ligase on tRNA(Arg)
+  equation: ATP + L-Arginine + tRNA(Arg) = Diphosphate + L-Arginyl-tRNA(Arg) + AMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_tRNA_Arg_
+  - species_id: substrate_L-Arginine
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_AMP
+  - species_id: product_L-Arginyl-tRNA_Arg_
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_6_1_1_19_P37880_p14399
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03646
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:13077; CHEBI:18366; CHEBI:10789;
+    CHEBI:57299; CHEBI:40726; CHEBI:22245; CHEBI:32683; CHEBI:8683; CHEBI:40510; CHEBI:22242;
+    CHEBI:13736; CHEBI:47222; CHEBI:33019; CHEBI:456215; CHEBI:13236; CHEBI:29952;
+    CHEBI:40786; CHEBI:45067; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841; CHEBI:29888;
+    CHEBI:2359; CHEBI:133495; CHEBI:32681; CHEBI:32682; CHEBI:35782; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:6185; CHEBI:10673; CHEBI:29171; CHEBI:42927;
+    CHEBI:15167; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740; CHEBI:16467;
+    CHEBI:21235; CHEBI:40721; CHEBI:13234; CHEBI:45212; CHEBI:42009; CHEBI:13235;
+    CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00062; KEGG:C01636; KEGG:C00002; KEGG:C02163; KEGG:C00020'
+- id: sabiork_407_EC6_1_1_19_Cricetulus_griseus_P37880_tRNA_Arg_
+  name: Reaction catalyzed by arginine---tRNA ligase on tRNA(Arg)
+  equation: ATP + L-Arginine + tRNA(Arg) = Diphosphate + L-Arginyl-tRNA(Arg) + AMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_tRNA_Arg_
+  - species_id: substrate_L-Arginine
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_AMP
+  - species_id: product_Diphosphate
+  - species_id: product_L-Arginyl-tRNA_Arg_
+  modifiers:
+  - species_id: protein_6_1_1_19_P37880_p14404
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03646
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:13077; CHEBI:18366; CHEBI:10789;
+    CHEBI:57299; CHEBI:40726; CHEBI:22245; CHEBI:32683; CHEBI:8683; CHEBI:40510; CHEBI:22242;
+    CHEBI:13736; CHEBI:47222; CHEBI:33019; CHEBI:456215; CHEBI:13236; CHEBI:29952;
+    CHEBI:40786; CHEBI:45067; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841; CHEBI:29888;
+    CHEBI:2359; CHEBI:133495; CHEBI:32681; CHEBI:32682; CHEBI:35782; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:6185; CHEBI:10673; CHEBI:29171; CHEBI:42927;
+    CHEBI:15167; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740; CHEBI:16467;
+    CHEBI:21235; CHEBI:40721; CHEBI:13234; CHEBI:45212; CHEBI:42009; CHEBI:13235;
+    CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00062; KEGG:C01636; KEGG:C00002; KEGG:C02163; KEGG:C00020'
+measurements:
+- id: measurement_6_1_1_19_Cricetulus_griseus_P37880_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_6_1_1_19_Cricetulus_griseus_P37880_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_6_1_1_19_Cricetulus_griseus_P37880_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_19_Cricetulus_griseus_P37880_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_19_Cricetulus_griseus_P37880_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_19_Cricetulus_griseus_P37880_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_6_1_1_19_Cricetulus_griseus_P37880_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_6_1_1_19_Cricetulus_griseus_P37880_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_19_Cricetulus_griseus_P37880_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_19_Cricetulus_griseus_P37880_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_6_1_1_19_Cricetulus_griseus_P37880_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_6_1_1_19_Cricetulus_griseus_P37880_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_19_Cricetulus_griseus_P37880_L-Arginine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_19_Cricetulus_griseus_P37880_L-Arginine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_19_Cricetulus_griseus_P37880_L-Arginine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_6_1_1_19_Cricetulus_griseus_P37880_L-Arginine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_6_1_1_19_Cricetulus_griseus_P37880_L-Arginine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_19_Cricetulus_griseus_P37880_L-Arginine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_6_1_1_19_Cricetulus_griseus_P37880_tRNA_Arg_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_6_1_1_19_Cricetulus_griseus_P37880_tRNA_Arg_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_19_Cricetulus_griseus_P37880_tRNA_Arg_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_19_Cricetulus_griseus_P37880_tRNA_Arg_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_6_1_1_19_Cricetulus_griseus_P37880_tRNA_Arg_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_6_1_1_19_Cricetulus_griseus_P37880_tRNA_Arg_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 6_1_1_19_Cricetulus_griseus_P37880_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.7e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2.6
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1500000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.6e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.29
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1.2
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.8e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.23
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_ATP_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.04
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_ATP_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000141
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_ATP_kcat_3
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1600.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_ATP_kcat_4
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 22000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1.4
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.5
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.5e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.4e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 3.8
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1600000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2.9
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.5e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1900000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000102
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1500.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.15
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.8e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 5.6
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 2000000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.1
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1300.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.9e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 11000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.2e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.14
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 0.48
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.9e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 0.19
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.24
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.25e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_L-Arginine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.0e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Arginine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_L-Arginine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 12.4
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Arginine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_L-Arginine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 20700000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Arginine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_L-Arginine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 9.0e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Arginine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_L-Arginine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 12000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Arginine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_L-Arginine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.11
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Arginine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_L-Arginine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.3e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Arginine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_L-Arginine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.11
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Arginine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_L-Arginine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 2100.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Arginine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_L-Arginine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 9000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Arginine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_L-Arginine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.9e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Arginine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_L-Arginine_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 170000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Arginine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_L-Arginine_kcat_3
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Arginine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_L-Arginine_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.0e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Arginine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_L-Arginine_kcat_4
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.25
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Arginine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_L-Arginine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.0e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Arginine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_L-Arginine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 6000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Arginine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_L-Arginine_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.14
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Arginine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_L-Arginine_kcat_3
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.04
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Arginine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_L-Arginine_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.3e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Arginine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_L-Arginine_kcat_4
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 70000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Arginine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_L-Arginine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Arginine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_L-Arginine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.2e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Arginine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_L-Arginine_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.37
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Arginine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_L-Arginine_kcat_3
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1000000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Arginine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_L-Arginine_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 8.0e-08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Arginine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_L-Arginine_kcat_4
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 17000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Arginine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_tRNA_Arg__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 21500000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Arg_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_tRNA_Arg__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.0e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Arg_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_tRNA_Arg__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 8.6
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Arg_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_tRNA_Arg__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Arg_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_tRNA_Arg__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000143
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Arg_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_tRNA_Arg__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 500.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Arg_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_tRNA_Arg__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 0.12
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Arg_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_tRNA_Arg__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.32e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Arg_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_tRNA_Arg__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.16
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Arg_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_tRNA_Arg__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 0.57
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Arg_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_tRNA_Arg__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.21
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Arg_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_tRNA_Arg__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.7e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Arg_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_tRNA_Arg__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 18000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Arg_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_tRNA_Arg__kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.25
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Arg_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_tRNA_Arg__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.0e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Arg_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_tRNA_Arg__Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.4e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Arg_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_tRNA_Arg__kcat_3
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 200000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Arg_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_tRNA_Arg__kcat_4
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Arg_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_tRNA_Arg__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.54
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Arg_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_tRNA_Arg__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.0e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Arg_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_tRNA_Arg__Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.8e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Arg_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_tRNA_Arg__kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 7000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Arg_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_tRNA_Arg__kcat_3
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 430000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Arg_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+- id: 6_1_1_19_Cricetulus_griseus_P37880_tRNA_Arg__kcat_4
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.13
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Arg_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993737'
+buffer:
+  buffer: 20 mM imidazole-HCl, 150 mM KCl, 5 mM MgCl, 0.5 mM dithioerythritol; 20
+    mM imidazole-HCl, 10 mM MgCl2, 0.1 mM EDTA
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 14355
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10993737/
+  pubmed_id: '10993737'
+  doi: null
+name: Merged entry for P37880 C599Y
+description: 'Merged from 24 files: SABIO_EC6.1.1.19_Cricetulus_griseus__P37880_C599Y_s_ATP.yaml,
+  SABIO_EC6.1.1.19_Cricetulus_griseus__P37880_C599Y_s_ATP_10.yaml, SABIO_EC6.1.1.19_Cricetulus_griseus__P37880_C599Y_s_ATP_12.yaml,
+  SABIO_EC6.1.1.19_Cricetulus_griseus__P37880_C599Y_s_ATP_11.yaml, SABIO_EC6.1.1.19_Cricetulus_griseus__P37880_C599Y_s_ATP_2.yaml,
+  SABIO_EC6.1.1.19_Cricetulus_griseus__P37880_C599Y_s_ATP_3.yaml, SABIO_EC6.1.1.19_Cricetulus_griseus__P37880_C599Y_s_ATP_5.yaml,
+  SABIO_EC6.1.1.19_Cricetulus_griseus__P37880_C599Y_s_ATP_4.yaml, SABIO_EC6.1.1.19_Cricetulus_griseus__P37880_C599Y_s_ATP_6.yaml,
+  SABIO_EC6.1.1.19_Cricetulus_griseus__P37880_C599Y_s_ATP_7.yaml, SABIO_EC6.1.1.19_Cricetulus_griseus__P37880_C599Y_s_ATP_9.yaml,
+  SABIO_EC6.1.1.19_Cricetulus_griseus__P37880_C599Y_s_ATP_8.yaml, SABIO_EC6.1.1.19_Cricetulus_griseus__P37880_C599Y_s_L-Arginine.yaml,
+  SABIO_EC6.1.1.19_Cricetulus_griseus__P37880_C599Y_s_L-Arginine_3.yaml, SABIO_EC6.1.1.19_Cricetulus_griseus__P37880_C599Y_s_L-Arginine_2.yaml,
+  SABIO_EC6.1.1.19_Cricetulus_griseus__P37880_C599Y_s_L-Arginine_4.yaml, SABIO_EC6.1.1.19_Cricetulus_griseus__P37880_C599Y_s_L-Arginine_5.yaml,
+  SABIO_EC6.1.1.19_Cricetulus_griseus__P37880_C599Y_s_L-Arginine_6.yaml, SABIO_EC6.1.1.19_Cricetulus_griseus__P37880_C599Y_s_tRNA_Arg_.yaml,
+  SABIO_EC6.1.1.19_Cricetulus_griseus__P37880_C599Y_s_tRNA_Arg__2.yaml, SABIO_EC6.1.1.19_Cricetulus_griseus__P37880_C599Y_s_tRNA_Arg__4.yaml,
+  SABIO_EC6.1.1.19_Cricetulus_griseus__P37880_C599Y_s_tRNA_Arg__3.yaml, SABIO_EC6.1.1.19_Cricetulus_griseus__P37880_C599Y_s_tRNA_Arg__5.yaml,
+  SABIO_EC6.1.1.19_Cricetulus_griseus__P37880_C599Y_s_tRNA_Arg__6.yaml'

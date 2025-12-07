@@ -1,0 +1,331 @@
+version: '2.0'
+created: '2025-11-20T13:41:46.332558'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_5_4_99_17_P33247_p1143
+  name: squalene---hopene cyclase
+  ecnumber: 5.4.99.17
+  organism: rat
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: P263G
+  uniprotid: P33247
+  wildtype_sequence: MAEQLVEAPAYARTLDRAVEYLLSCQKDEGYWWGPLLSNVTMEAEYVLLCHILDRVDRDRMEKIRRYLLHEQREDGTWALYPGGPPDLDTTIEAYVALKYIGMSRDEEPMQKALRFIQSQGGIESSRVFTRMWLALVGEYPWEKVPMVPPEIMFLGKRMPLNIYEFGSWARATVVALSIVMSRQPVFPLPERARVPELYETDVPPRRRGAKGGGGWIFDALDRALHGYQKLSVHPFRRAAEIRALDWLLERQAGDGSWGGIQPPWFYALIALKILDMTQHPAFIKGWEGLELYGVELDYGGWMFQASISPVWDTGLAVLALRAAGLPADHDRLVKAGEWLLDRQITVPGDWAVKRPNLKPGGFAFQFDNVYYPDVDDTAVVVWALNTLRLPDERRRRDAMTKGFRWIVGMQSSNGGWGAYDVDNTSDLPNHIPFCDFGEVTDPPSEDVTAHVLECFGSFGYDDAWKVIRRAVEYLKREQKPDGSWFGRWGVNYLYGTGAVVSALKAVGIDTREPYIQKALDWVEQHQNPDGGWGEDCRSYEDPAYAGKGASTPSQTAWALMALIAGGRAESEAARRGVQYLVETQRPDGGWDEPYYTGTGFPGDFYLGYTMYRHVFPTLALGRYKQAIERR
+  mutant_sequence: MAEQLVEAPAYARTLDRAVEYLLSCQKDEGYWWGPLLSNVTMEAEYVLLCHILDRVDRDRMEKIRRYLLHEQREDGTWALYPGGPPDLDTTIEAYVALKYIGMSRDEEPMQKALRFIQSQGGIESSRVFTRMWLALVGEYPWEKVPMVPPEIMFLGKRMPLNIYEFGSWARATVVALSIVMSRQPVFPLPERARVPELYETDVPPRRRGAKGGGGWIFDALDRALHGYQKLSVHPFRRAAEIRALDWLLERQAGDGSWGGIQGPWFYALIALKILDMTQHPAFIKGWEGLELYGVELDYGGWMFQASISPVWDTGLAVLALRAAGLPADHDRLVKAGEWLLDRQITVPGDWAVKRPNLKPGGFAFQFDNVYYPDVDDTAVVVWALNTLRLPDERRRRDAMTKGFRWIVGMQSSNGGWGAYDVDNTSDLPNHIPFCDFGEVTDPPSEDVTAHVLECFGSFGYDDAWKVIRRAVEYLKREQKPDGSWFGRWGVNYLYGTGAVVSALKAVGIDTREPYIQKALDWVEQHQNPDGGWGEDCRSYEDPAYAGKGASTPSQTAWALMALIAGGRAESEAARRGVQYLVETQRPDGGWDEPYYTGTGFPGDFYLGYTMYRHVFPTLALGRYKQAIERR
+complexes: null
+small_molecules:
+- id: substrate_Squalene
+  name: Squalene
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diploptene
+  name: Diploptene
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diplopterol
+  name: Diplopterol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Hopanoid
+  name: Hopanoid
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_6685_EC5_4_99_17_rat_P33247_Squalene
+  name: Reaction catalyzed by squalene---hopene cyclase on Squalene
+  equation: Squalene = Diploptene
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Squalene
+  products:
+  - species_id: product_Diploptene
+  modifiers:
+  - species_id: protein_5_4_99_17_P33247_p1143
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17637;17638;17639;17640
+  KEGGid: R07322
+  notes: 'ChEBI IDs: CHEBI:15440; CHEBI:4648
+
+    KEGG IDs: KEGG:C00751; KEGG:C06310'
+- id: sabiork_6686_EC5_4_99_17_rat_P33247_Squalene
+  name: Reaction catalyzed by squalene---hopene cyclase on Squalene
+  equation: H2O + Squalene = Diplopterol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Squalene
+  products:
+  - species_id: product_Diplopterol
+  modifiers:
+  - species_id: protein_5_4_99_17_P33247_p1163
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 16561;16562;16563;16564
+  KEGGid: R07323
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:41979;
+    CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:36484; CHEBI:15377;
+    CHEBI:13352; CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:15440; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00751; KEGG:C00001; KEGG:C06309'
+- id: sabiork_2738_EC5_4_99_17_rat_P33247_Squalene
+  name: Reaction catalyzed by squalene---hopene cyclase on Squalene
+  equation: Squalene = Hopanoid
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Squalene
+  products:
+  - species_id: product_Hopanoid
+  modifiers:
+  - species_id: protein_5_4_99_17_P33247_p1169
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02876
+  notes: 'ChEBI IDs: CHEBI:15440; CHEBI:51963; CHEBI:5761; CHEBI:24620
+
+    KEGG IDs: KEGG:C00751; KEGG:C06084'
+measurements:
+- id: measurement_5_4_99_17_rat_P33247_Squalene
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.0
+  temperature_opt: 45.0
+  temperature_unit: °C
+- id: measurement_5_4_99_17_rat_P33247_Squalene
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.0
+  temperature_opt: 45.0
+  temperature_unit: °C
+- id: measurement_5_4_99_17_rat_P33247_Squalene
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.0
+  temperature_opt: 45.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 5_4_99_17_rat_P33247_Squalene_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000237
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Squalene
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 45.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15056909'
+- id: 5_4_99_17_rat_P33247_Squalene_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.056667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Squalene
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 45.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15056909'
+- id: 5_4_99_17_rat_P33247_Squalene_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 4466.667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Squalene
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 45.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15056909'
+- id: 5_4_99_17_rat_P33247_Squalene_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 3.858333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Squalene
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 45.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15056909'
+- id: 5_4_99_17_rat_P33247_Squalene_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000237
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Squalene
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 45.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15056909'
+- id: 5_4_99_17_rat_P33247_Squalene_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 16283.33
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Squalene
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 45.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15056909'
+- id: 5_4_99_17_rat_P33247_Squalene_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 22166.67
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Squalene
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 45.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15056909'
+- id: 5_4_99_17_rat_P33247_Squalene_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 5.256667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Squalene
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 45.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15056909'
+- id: 5_4_99_17_rat_P33247_Squalene_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000237
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Squalene
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 45.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15056909'
+buffer:
+  buffer: 60 mM sodium citrate, 0.2 % Triton X-100
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 1143
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15056909/
+  pubmed_id: '15056909'
+  doi: null
+name: Merged entry for P33247 P263G
+description: 'Merged from 3 files: SABIO_EC5.4.99.17_rat__P33247_P263G_s_Squalene.yaml,
+  SABIO_EC5.4.99.17_rat__P33247_P263G_s_Squalene_2.yaml, SABIO_EC5.4.99.17_rat__P33247_P263G_s_Squalene_3.yaml'

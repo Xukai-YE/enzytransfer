@@ -1,0 +1,262 @@
+version: '2.0'
+created: '2025-11-20T13:41:40.054768'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_5_1_1_13_O58403_p67489
+  name: aspartate racemase
+  ecnumber: 5.1.1.13
+  organism: Pyrococcus horikoshii
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: K164A
+  uniprotid: O58403
+  wildtype_sequence: MKTIGILGGMGPLATAELFRRIVIKTPAKRDQEHPKVIIFNNPQIPDRTAYILGKGEDPRPQLIWTAKRLEECGADFIIMPCNTAHAFVEDIRKAIKIPIISMIEETAKKVKELGFKKAGLLATTGTIVSGVYEKEFSKYGVEIMTPTEDEQKDVMRGIYEGVKAGNLKLGRELLLKTAKILEERGAECIIAGCTEVSVVLKQDDLKVPLIDPMDVIAEVAVKVALEK
+  mutant_sequence: MKTIGILGGMGPLATAELFRRIVIKTPAKRDQEHPKVIIFNNPQIPDRTAYILGKGEDPRPQLIWTAKRLEECGADFIIMPCNTAHAFVEDIRKAIKIPIISMIEETAKKVKELGFKKAGLLATTGTIVSGVYEKEFSKYGVEIMTPTEDEQKDVMRGIYEGVAAGNLKLGRELLLKTAKILEERGAECIIAGCTEVSVVLKQDDLKVPLIDPMDVIAEVAVKVALEK
+complexes: null
+small_molecules:
+- id: substrate_L-Aspartate
+  name: L-Aspartate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Aspartate
+  name: D-Aspartate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Aspartate
+  name: D-Aspartate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Aspartate
+  name: L-Aspartate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_923_EC5_1_1_13_Pyrococcus_horikoshii_O58403_L-Aspartate
+  name: Reaction catalyzed by aspartate racemase on L-Aspartate
+  equation: L-Aspartate = D-Aspartate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Aspartate
+  products:
+  - species_id: product_D-Aspartate
+  modifiers:
+  - species_id: protein_5_1_1_13_O58403_p67489
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 14973;14974;14975;14976
+  KEGGid: R00491
+  notes: 'ChEBI IDs: CHEBI:29991; CHEBI:21247; CHEBI:20920; CHEBI:21244; CHEBI:29990;
+    CHEBI:6193; CHEBI:17364; CHEBI:29993; CHEBI:17053; CHEBI:40900; CHEBI:13085; CHEBI:40942;
+    CHEBI:20919; CHEBI:4108; CHEBI:40913; CHEBI:29958; CHEBI:12918; CHEBI:29994; CHEBI:40853;
+    CHEBI:48094
+
+    KEGG IDs: KEGG:C00402; KEGG:C00049'
+- id: sabiork_923_EC5_1_1_13_Pyrococcus_horikoshii_O58403_D-Aspartate
+  name: Reaction catalyzed by aspartate racemase on D-Aspartate
+  equation: L-Aspartate = D-Aspartate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Aspartate
+  products:
+  - species_id: product_L-Aspartate
+  modifiers:
+  - species_id: protein_5_1_1_13_O58403_p67502
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 14973;14974;14975;14976
+  KEGGid: R00491
+  notes: 'ChEBI IDs: CHEBI:29991; CHEBI:21247; CHEBI:20920; CHEBI:21244; CHEBI:29990;
+    CHEBI:6193; CHEBI:17364; CHEBI:29993; CHEBI:17053; CHEBI:40900; CHEBI:13085; CHEBI:20919;
+    CHEBI:40942; CHEBI:4108; CHEBI:40913; CHEBI:29958; CHEBI:12918; CHEBI:29994; CHEBI:40853;
+    CHEBI:48094
+
+    KEGG IDs: KEGG:C00402; KEGG:C00049'
+measurements:
+- id: measurement_5_1_1_13_Pyrococcus_horikoshii_O58403_L-Aspartate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 70.0
+  temperature_unit: °C
+- id: measurement_5_1_1_13_Pyrococcus_horikoshii_O58403_D-Aspartate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 70.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 5_1_1_13_Pyrococcus_horikoshii_O58403_L-Aspartate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 0.7666667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Aspartate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 70.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16705641'
+- id: 5_1_1_13_Pyrococcus_horikoshii_O58403_L-Aspartate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.23
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Aspartate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 70.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16705641'
+- id: 5_1_1_13_Pyrococcus_horikoshii_O58403_L-Aspartate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.1666667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Aspartate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 70.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16705641'
+- id: 5_1_1_13_Pyrococcus_horikoshii_O58403_D-Aspartate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.04833333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Aspartate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 70.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16705641'
+- id: 5_1_1_13_Pyrococcus_horikoshii_O58403_D-Aspartate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.087
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Aspartate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 70.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16705641'
+- id: 5_1_1_13_Pyrococcus_horikoshii_O58403_D-Aspartate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 0.55
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Aspartate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 70.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16705641'
+buffer:
+  buffer: 10 mM Tris-HCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 67489
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16705641/
+  pubmed_id: '16705641'
+  doi: null
+name: Merged entry for O58403 K164A
+description: 'Merged from 2 files: SABIO_EC5.1.1.13_Pyrococcus_horikoshii__O58403_K164A_s_L-Aspartate.yaml,
+  SABIO_EC5.1.1.13_Pyrococcus_horikoshii__O58403_K164A_s_D-Aspartate.yaml'

@@ -1,0 +1,286 @@
+version: '2.0'
+created: '2025-11-20T13:40:50.186372'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_8_7_Q9NRN7_p38501
+  name: holo-[acyl-carrier-protein] synthase
+  ecnumber: 2.7.8.7
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: E181A
+  uniprotid: Q9NRN7
+  wildtype_sequence: MVFPAKRFCLVPSMEGVRWAFSCGTWLPSRAEWLLAVRSIQPEEKERIGQFVFARDAKAAMAGRLMIRKLVAEKLNIPWNHIRLQRTAKGKPVLAKDSSNPYPNFNFNISHQGDYAVLAAEPELQVGIDIMKTSFPGRGSIPEFFHIMKRKFTNKEWETIRSFKDEWTQLDMFYRNWALKESFIKAIGVGLGFELQRLEFDLSPLNLDIGQVYKETRLFLDGEEEKEWAFEESKIDEHHFVAVALRKPDGSRHQDVPSQDDSKPTQRQFTILNFNDLMSSAVPMTPEDPSFWDCFCFTEEIPIRNGTKS
+  mutant_sequence: MVFPAKRFCLVPSMEGVRWAFSCGTWLPSRAEWLLAVRSIQPEEKERIGQFVFARDAKAAMAGRLMIRKLVAEKLNIPWNHIRLQRTAKGKPVLAKDSSNPYPNFNFNISHQGDYAVLAAEPELQVGIDIMKTSFPGRGSIPEFFHIMKRKFTNKEWETIRSFKDEWTQLDMFYRNWALKASFIKAIGVGLGFELQRLEFDLSPLNLDIGQVYKETRLFLDGEEEKEWAFEESKIDEHHFVAVALRKPDGSRHQDVPSQDDSKPTQRQFTILNFNDLMSSAVPMTPEDPSFWDCFCFTEEIPIRNGTKS
+complexes: null
+small_molecules:
+- id: substrate_Acetyl-CoA
+  name: Acetyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Apo-_acyl-carrier_protein_
+  name: Apo-[acyl-carrier protein]
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mg2_
+  name: Mg2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Acetyl-_acyl-carrier_protein_
+  name: Acetyl-[acyl-carrier protein]
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Adenosine_3_
+  name: Adenosine 3'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_5_-bisphosphate
+  name: 5'-bisphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_10497_EC2_7_8_7_Homo_sapiens_Q9NRN7_Acetyl-CoA
+  name: Reaction catalyzed by holo-[acyl-carrier-protein] synthase on Acetyl-CoA
+  equation: Apo-[acyl-carrier protein] + Acetyl-CoA = Acetyl-[acyl-carrier protein]
+    + Adenosine 3',5'-bisphosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Acetyl-CoA
+  - species_id: substrate_Apo-_acyl-carrier_protein_
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Acetyl-_acyl-carrier_protein_
+  - species_id: product_Adenosine_3_
+  - species_id: product_5_-bisphosphate
+  modifiers:
+  - species_id: protein_2_7_8_7_Q9NRN7_p38501
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:46800; CHEBI:13379; CHEBI:13735; CHEBI:57288;
+    CHEBI:26951; CHEBI:6635; CHEBI:13712; CHEBI:13845; CHEBI:2475; CHEBI:2776; CHEBI:13850;
+    CHEBI:26952; CHEBI:49736; CHEBI:22240; CHEBI:16555; CHEBI:17985; CHEBI:30320;
+    CHEBI:40470; CHEBI:58343; CHEBI:18420; CHEBI:2408; CHEBI:17093; CHEBI:15233; CHEBI:25112;
+    CHEBI:9547; CHEBI:16139; CHEBI:39127; CHEBI:15351
+
+    KEGG IDs: KEGG:C03939; KEGG:C16240; KEGG:C00305; KEGG:C00054; KEGG:C01857; KEGG:C03688;
+    KEGG:C00024'
+- id: sabiork_10497_EC2_7_8_7_Homo_sapiens_Q9NRN7_Apo-_acyl-carrier_protein_
+  name: Reaction catalyzed by holo-[acyl-carrier-protein] synthase on Apo-[acyl-carrier
+    protein]
+  equation: Apo-[acyl-carrier protein] + Acetyl-CoA = Acetyl-[acyl-carrier protein]
+    + Adenosine 3',5'-bisphosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Apo-_acyl-carrier_protein_
+  - species_id: substrate_Acetyl-CoA
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Adenosine_3_
+  - species_id: product_5_-bisphosphate
+  - species_id: product_Acetyl-_acyl-carrier_protein_
+  modifiers:
+  - species_id: protein_2_7_8_7_Q9NRN7_p38510
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:46800; CHEBI:13379; CHEBI:13735; CHEBI:57288;
+    CHEBI:26951; CHEBI:6635; CHEBI:13712; CHEBI:13845; CHEBI:2475; CHEBI:2776; CHEBI:13850;
+    CHEBI:26952; CHEBI:49736; CHEBI:22240; CHEBI:16555; CHEBI:17985; CHEBI:30320;
+    CHEBI:40470; CHEBI:58343; CHEBI:18420; CHEBI:2408; CHEBI:17093; CHEBI:15233; CHEBI:25112;
+    CHEBI:9547; CHEBI:16139; CHEBI:39127; CHEBI:15351
+
+    KEGG IDs: KEGG:C03939; KEGG:C16240; KEGG:C00305; KEGG:C00054; KEGG:C01857; KEGG:C03688;
+    KEGG:C00024'
+measurements:
+- id: measurement_2_7_8_7_Homo_sapiens_Q9NRN7_Acetyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_7_8_7_Homo_sapiens_Q9NRN7_Apo-_acyl-carrier_protein_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_8_7_Homo_sapiens_Q9NRN7_Acetyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0183
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18022563'
+- id: 2_7_8_7_Homo_sapiens_Q9NRN7_Acetyl-CoA_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.000383333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18022563'
+- id: 2_7_8_7_Homo_sapiens_Q9NRN7_Acetyl-CoA_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 0.01666667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetyl-CoA
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18022563'
+- id: 2_7_8_7_Homo_sapiens_Q9NRN7_Apo-_acyl-carrier_protein__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.54e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Apo-_acyl-carrier_protein_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18022563'
+- id: 2_7_8_7_Homo_sapiens_Q9NRN7_Apo-_acyl-carrier_protein__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.000716667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Apo-_acyl-carrier_protein_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18022563'
+- id: 2_7_8_7_Homo_sapiens_Q9NRN7_Apo-_acyl-carrier_protein__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 15.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Apo-_acyl-carrier_protein_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18022563'
+buffer:
+  buffer: 83 mM Tris-HCL
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 38501
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/18022563/
+  pubmed_id: '18022563'
+  doi: null
+name: Merged entry for Q9NRN7 E181A
+description: 'Merged from 2 files: SABIO_EC2.7.8.7_Homo_sapiens__Q9NRN7_E181A_s_Acetyl-CoA.yaml,
+  SABIO_EC2.7.8.7_Homo_sapiens__Q9NRN7_E181A_s_Apo-_acyl-carrier.yaml'

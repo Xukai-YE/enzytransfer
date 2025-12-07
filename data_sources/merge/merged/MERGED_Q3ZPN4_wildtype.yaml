@@ -1,0 +1,604 @@
+version: '2.0'
+created: '2025-11-20T13:40:03.329976'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_3_1_196_Q3ZPN4_p57737
+  name: benzyl alcohol O-benzoyltransferase
+  ecnumber: 2.3.1.196
+  organism: Vitis labrusca
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q3ZPN4
+  wildtype_sequence: MASPSSPLVFSVNRCVPQIVRPANPTPREVKQLSDIDDQEGRRFQIPVIMFYRNNPLMEGKDPVKVIREALGKALVYYYPFAGRLIEGDNRKLMVDCTGEGVLFIEADADTTLENLGDAIQPMCPCFEELLYDVPGSTTILGSPLILIQVTRLRCGGFIFALRLNHTMSDAAGLIQFLDTIGEMAQGLSVPSLLPIWQRELLNARNPPRITRIHHEYEKVTNTKGTLMAMDENSLVHRSFFFGREEIRALRNRLPASLGACSTFEVLMACVWRCRTIAFAVDPDEVVRISCIINMRGKHGFELPPGYYGNAFVTPASITKAGMLCKNPLEFAIRLVKKAKAEMSQEYIKSVADLMVIKGRPLFTQPGNFTVSDVTRAGLGEVDFGWGKPVYGGVARACPIISFRMLFRNSKGEEGSVIPIWLPPPVMERFEQELKRMTKKAELLITSML
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Benzoyl-CoA
+  name: Benzoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Benzyl_alcohol
+  name: Benzyl alcohol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Benzyl_benzoate
+  name: Benzyl benzoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Anthraniloyl-CoA
+  name: Anthraniloyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Methanol
+  name: Methanol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_O-Methylanthranilate
+  name: O-Methylanthranilate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_14186_EC2_3_1_196_Vitis_labrusca_Q3ZPN4_Benzoyl-CoA
+  name: Reaction catalyzed by benzyl alcohol O-benzoyltransferase on Benzoyl-CoA
+  equation: Benzoyl-CoA + Benzyl alcohol = Coenzyme A + Benzyl benzoate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Benzoyl-CoA
+  - species_id: substrate_Benzyl_alcohol
+  products:
+  - species_id: product_Benzyl_benzoate
+  - species_id: product_Coenzyme_A
+  modifiers:
+  - species_id: protein_2_3_1_196_Q3ZPN4_p57737
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 30411;30412;30413;30414
+  KEGGid: R09528
+  notes: 'ChEBI IDs: CHEBI:41237; CHEBI:41230; CHEBI:15346; CHEBI:23355; CHEBI:8952;
+    CHEBI:41631; CHEBI:3053; CHEBI:13295; CHEBI:41597; CHEBI:13888; CHEBI:22735; CHEBI:57287;
+    CHEBI:13883; CHEBI:22742; CHEBI:13294; CHEBI:13298; CHEBI:25399; CHEBI:13882;
+    CHEBI:3771; CHEBI:15515; CHEBI:741566; CHEBI:57369; CHEBI:17987; CHEBI:31267
+
+    KEGG IDs: KEGG:C00556; KEGG:C03485; KEGG:C12537; KEGG:C00010; KEGG:C00512'
+- id: sabiork_14186_EC2_3_1_196_Vitis_labrusca_Q3ZPN4_Benzyl_alcohol
+  name: Reaction catalyzed by benzyl alcohol O-benzoyltransferase on Benzyl alcohol
+  equation: Benzoyl-CoA + Benzyl alcohol = Coenzyme A + Benzyl benzoate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Benzyl_alcohol
+  - species_id: substrate_Benzoyl-CoA
+  products:
+  - species_id: product_Benzyl_benzoate
+  - species_id: product_Coenzyme_A
+  modifiers:
+  - species_id: protein_2_3_1_196_Q3ZPN4_p57738
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 30411;30412;30413;30414
+  KEGGid: R09528
+  notes: 'ChEBI IDs: CHEBI:41237; CHEBI:41230; CHEBI:15346; CHEBI:23355; CHEBI:8952;
+    CHEBI:41631; CHEBI:3053; CHEBI:13295; CHEBI:41597; CHEBI:13888; CHEBI:22735; CHEBI:57287;
+    CHEBI:22742; CHEBI:13883; CHEBI:13294; CHEBI:13298; CHEBI:25399; CHEBI:13882;
+    CHEBI:3771; CHEBI:15515; CHEBI:741566; CHEBI:57369; CHEBI:17987; CHEBI:31267
+
+    KEGG IDs: KEGG:C00556; KEGG:C03485; KEGG:C12537; KEGG:C00010; KEGG:C00512'
+- id: sabiork_14185_EC2_3_1_232_Vitis_labrusca_Q3ZPN4_Anthraniloyl-CoA
+  name: Reaction catalyzed by methanol O-anthraniloyltransferase on Anthraniloyl-CoA
+  equation: Methanol + Anthraniloyl-CoA = Coenzyme A + O-Methylanthranilate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Anthraniloyl-CoA
+  - species_id: substrate_Methanol
+  products:
+  - species_id: product_Coenzyme_A
+  - species_id: product_O-Methylanthranilate
+  modifiers:
+  - species_id: protein_2_3_1_232_Q3ZPN4_p57736
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 37659;37660;37661;37662
+  KEGGid: R10681
+  notes: 'ChEBI IDs: CHEBI:73244; CHEBI:15346; CHEBI:23355; CHEBI:13842; CHEBI:57331;
+    CHEBI:22579; CHEBI:2758; CHEBI:25227; CHEBI:41631; CHEBI:6816; CHEBI:44553; CHEBI:13295;
+    CHEBI:41597; CHEBI:14588; CHEBI:57287; CHEBI:13294; CHEBI:17790; CHEBI:15472;
+    CHEBI:44080; CHEBI:11521; CHEBI:3771; CHEBI:741566; CHEBI:13298
+
+    KEGG IDs: KEGG:C00132; KEGG:C02247; KEGG:C20634; KEGG:C00010'
+- id: sabiork_14185_EC2_3_1_232_Vitis_labrusca_Q3ZPN4_Methanol
+  name: Reaction catalyzed by methanol O-anthraniloyltransferase on Methanol
+  equation: Methanol + Anthraniloyl-CoA = Coenzyme A + O-Methylanthranilate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Methanol
+  - species_id: substrate_Anthraniloyl-CoA
+  products:
+  - species_id: product_Coenzyme_A
+  - species_id: product_O-Methylanthranilate
+  modifiers:
+  - species_id: protein_2_3_1_232_Q3ZPN4_p57735
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 37659;37660;37661;37662
+  KEGGid: R10681
+  notes: 'ChEBI IDs: CHEBI:73244; CHEBI:15346; CHEBI:23355; CHEBI:13842; CHEBI:57331;
+    CHEBI:22579; CHEBI:25227; CHEBI:2758; CHEBI:41631; CHEBI:6816; CHEBI:44553; CHEBI:13295;
+    CHEBI:41597; CHEBI:14588; CHEBI:57287; CHEBI:13294; CHEBI:17790; CHEBI:15472;
+    CHEBI:44080; CHEBI:11521; CHEBI:3771; CHEBI:741566; CHEBI:13298
+
+    KEGG IDs: KEGG:C00132; KEGG:C02247; KEGG:C20634; KEGG:C00010'
+- id: sabiork_14185_EC2_3_1_232_Vitis_labrusca_Q3ZPN4_Methanol
+  name: Reaction catalyzed by methanol O-anthraniloyltransferase on Methanol
+  equation: Methanol + Anthraniloyl-CoA = Coenzyme A + O-Methylanthranilate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Methanol
+  - species_id: substrate_Anthraniloyl-CoA
+  products:
+  - species_id: product_O-Methylanthranilate
+  - species_id: product_Coenzyme_A
+  modifiers:
+  - species_id: protein_2_3_1_232_Q3ZPN4_p57739
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 37659;37660;37661;37662
+  KEGGid: R10681
+  notes: 'ChEBI IDs: CHEBI:73244; CHEBI:15346; CHEBI:23355; CHEBI:13842; CHEBI:57331;
+    CHEBI:22579; CHEBI:25227; CHEBI:2758; CHEBI:41631; CHEBI:6816; CHEBI:44553; CHEBI:13295;
+    CHEBI:41597; CHEBI:14588; CHEBI:57287; CHEBI:13294; CHEBI:17790; CHEBI:15472;
+    CHEBI:44080; CHEBI:11521; CHEBI:3771; CHEBI:741566; CHEBI:13298
+
+    KEGG IDs: KEGG:C00132; KEGG:C02247; KEGG:C20634; KEGG:C00010'
+- id: sabiork_14185_EC2_3_1_232_Vitis_labrusca_Q3ZPN4_Methanol
+  name: Reaction catalyzed by methanol O-anthraniloyltransferase on Methanol
+  equation: Methanol + Anthraniloyl-CoA = Coenzyme A + O-Methylanthranilate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Methanol
+  - species_id: substrate_Anthraniloyl-CoA
+  products:
+  - species_id: product_Coenzyme_A
+  - species_id: product_O-Methylanthranilate
+  modifiers:
+  - species_id: protein_2_3_1_232_Q3ZPN4_p57740
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 37659;37660;37661;37662
+  KEGGid: R10681
+  notes: 'ChEBI IDs: CHEBI:73244; CHEBI:15346; CHEBI:23355; CHEBI:13842; CHEBI:57331;
+    CHEBI:22579; CHEBI:25227; CHEBI:2758; CHEBI:41631; CHEBI:6816; CHEBI:44553; CHEBI:13295;
+    CHEBI:41597; CHEBI:14588; CHEBI:57287; CHEBI:13294; CHEBI:17790; CHEBI:15472;
+    CHEBI:44080; CHEBI:11521; CHEBI:3771; CHEBI:741566; CHEBI:13298
+
+    KEGG IDs: KEGG:C00132; KEGG:C02247; KEGG:C20634; KEGG:C00010'
+measurements:
+- id: measurement_2_3_1_196_Vitis_labrusca_Q3ZPN4_Benzoyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 23.0
+  temperature_unit: °C
+- id: measurement_2_3_1_196_Vitis_labrusca_Q3ZPN4_Benzyl_alcohol
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 23.0
+  temperature_unit: °C
+- id: measurement_2_3_1_232_Vitis_labrusca_Q3ZPN4_Anthraniloyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 23.0
+  temperature_unit: °C
+- id: measurement_2_3_1_232_Vitis_labrusca_Q3ZPN4_Methanol
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 23.0
+  temperature_unit: °C
+- id: measurement_2_3_1_232_Vitis_labrusca_Q3ZPN4_Methanol
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 23.0
+  temperature_unit: °C
+- id: measurement_2_3_1_232_Vitis_labrusca_Q3ZPN4_Methanol
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 23.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_3_1_196_Vitis_labrusca_Q3ZPN4_Benzoyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 8.42e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Benzoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16262710'
+- id: 2_3_1_196_Vitis_labrusca_Q3ZPN4_Benzoyl-CoA_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.045
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Benzoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16262710'
+- id: 2_3_1_196_Vitis_labrusca_Q3ZPN4_Benzoyl-CoA_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 2850000000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Benzoyl-CoA
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16262710'
+- id: 2_3_1_196_Vitis_labrusca_Q3ZPN4_Benzyl_alcohol_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 3810000000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Benzyl_alcohol
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16262710'
+- id: 2_3_1_196_Vitis_labrusca_Q3ZPN4_Benzyl_alcohol_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.18e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Benzyl_alcohol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16262710'
+- id: 2_3_1_196_Vitis_labrusca_Q3ZPN4_Benzyl_alcohol_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.045
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Benzyl_alcohol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16262710'
+- id: 2_3_1_232_Vitis_labrusca_Q3ZPN4_Anthraniloyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.18e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Anthraniloyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16262710'
+- id: 2_3_1_232_Vitis_labrusca_Q3ZPN4_Anthraniloyl-CoA_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 180000000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Anthraniloyl-CoA
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16262710'
+- id: 2_3_1_232_Vitis_labrusca_Q3ZPN4_Anthraniloyl-CoA_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.0058
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Anthraniloyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16262710'
+- id: 2_3_1_232_Vitis_labrusca_Q3ZPN4_Methanol_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 2070000000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Methanol
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16262710'
+- id: 2_3_1_232_Vitis_labrusca_Q3ZPN4_Methanol_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.78e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Methanol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16262710'
+- id: 2_3_1_232_Vitis_labrusca_Q3ZPN4_Methanol_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.01
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Methanol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16262710'
+- id: 2_3_1_232_Vitis_labrusca_Q3ZPN4_Methanol_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.497e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Methanol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16262710'
+- id: 2_3_1_232_Vitis_labrusca_Q3ZPN4_Methanol_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.0035
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Methanol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16262710'
+- id: 2_3_1_232_Vitis_labrusca_Q3ZPN4_Methanol_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 240000000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Methanol
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16262710'
+- id: 2_3_1_232_Vitis_labrusca_Q3ZPN4_Methanol_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 8900000000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Methanol
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16262710'
+- id: 2_3_1_232_Vitis_labrusca_Q3ZPN4_Methanol_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.022
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Methanol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16262710'
+- id: 2_3_1_232_Vitis_labrusca_Q3ZPN4_Methanol_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.51e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Methanol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16262710'
+buffer:
+  buffer: 50 mM Tris-HCl, 150 mM NaCl, 1 mM DTT, 10% glycerol; 50 mM Tris-HCl; 50
+    mM Tris-HCl, 150 mM NaCl, 1 mM DTT, 10% Glycerol
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 57737
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16262710/
+  pubmed_id: '16262710'
+  doi: null
+name: Merged entry for Q3ZPN4 wildtype
+description: 'Merged from 6 files: SABIO_EC2.3.1.196_Vitis_labrusca__Q3ZPN4_s_Benzoyl-CoA.yaml,
+  SABIO_EC2.3.1.196_Vitis_labrusca__Q3ZPN4_s_Benzyl.yaml, SABIO_EC2.3.1.232_Vitis_labrusca__Q3ZPN4_s_Anthraniloyl-CoA.yaml,
+  SABIO_EC2.3.1.232_Vitis_labrusca__Q3ZPN4_s_Methanol.yaml, SABIO_EC2.3.1.232_Vitis_labrusca__Q3ZPN4_s_Methanol_2.yaml,
+  SABIO_EC2.3.1.232_Vitis_labrusca__Q3ZPN4_s_Methanol_3.yaml'

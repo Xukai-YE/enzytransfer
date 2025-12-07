@@ -1,0 +1,707 @@
+version: '2.0'
+created: '2025-11-20T13:40:31.718653'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_26_Q84MD8_p44143
+  name: riboflavin kinase
+  ecnumber: 2.7.1.26
+  organism: Arabidopsis thaliana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q84MD8
+  wildtype_sequence: MSMSNSLKKLSSCVLIDLDGTLINTDGVVGDILRKYLCKYGKQWDGRESLKIVGKTPVEAATTIVEDYELPCKVDEFNSEFYPLFSAQMDKIKSLPGANRLIRHLKCHGVPVALASNSSRANIESKISYHEGWKECFSVIVGSDEVSKGKPSPDIFLEAAKRLKKDPADCLVIEDSVPGVMAGKAAGTKVIAVPSLPKQTHLYTSADEVINSLLDIRLEKWGLPPFQDWIENTLPIDPWHIGGPVIKGFGRGSKVLGIPTANLSTKDYADELVEHPSGVYFGWAGLAKRGVFKMVMSIGWNPYFNNKEKTIEPWLLHDFTEDFYGEELRLIIVGYIRPEANFSSLESLIAKIHEDREVAEKALDLPSYAKFKGDPYLTK
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Riboflavin
+  name: Riboflavin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mg2_
+  name: Mg2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Riboflavin-5-phosphate
+  name: Riboflavin-5-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Riboflavin-5-phosphate
+  name: Riboflavin-5-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Riboflavin
+  name: Riboflavin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Phosphate
+  name: Phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_277_EC2_7_1_26_Arabidopsis_thaliana_Q84MD8_ATP
+  name: Reaction catalyzed by riboflavin kinase on ATP
+  equation: ATP + Riboflavin = ADP + Riboflavin-5-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Riboflavin
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_ADP
+  - species_id: product_Riboflavin-5-phosphate
+  modifiers:
+  - species_id: protein_2_7_1_26_Q84MD8_p44143
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00549
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:45214; CHEBI:8843; CHEBI:15044;
+    CHEBI:16761; CHEBI:10789; CHEBI:57299; CHEBI:17621; CHEBI:13379; CHEBI:40553;
+    CHEBI:17015; CHEBI:57986; CHEBI:6635; CHEBI:4960; CHEBI:13236; CHEBI:27299; CHEBI:10841;
+    CHEBI:2359; CHEBI:21127; CHEBI:87518; CHEBI:49736; CHEBI:40938; CHEBI:42587; CHEBI:456216;
+    CHEBI:13317; CHEBI:22249; CHEBI:2342; CHEBI:24041; CHEBI:15422; CHEBI:18420; CHEBI:25112;
+    CHEBI:13222; CHEBI:529204; CHEBI:22244; CHEBI:39127
+
+    KEGG IDs: KEGG:C00305; KEGG:C00255; KEGG:C00002; KEGG:C00061; KEGG:C00008'
+- id: sabiork_277_EC2_7_1_26_Arabidopsis_thaliana_Q84MD8_Riboflavin
+  name: Reaction catalyzed by riboflavin kinase on Riboflavin
+  equation: ATP + Riboflavin = ADP + Riboflavin-5-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Riboflavin
+  - species_id: substrate_ATP
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_ADP
+  - species_id: product_Riboflavin-5-phosphate
+  modifiers:
+  - species_id: protein_2_7_1_26_Q84MD8_p44144
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00549
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:45214; CHEBI:8843; CHEBI:15044;
+    CHEBI:16761; CHEBI:10789; CHEBI:57299; CHEBI:17621; CHEBI:13379; CHEBI:40553;
+    CHEBI:17015; CHEBI:57986; CHEBI:6635; CHEBI:4960; CHEBI:13236; CHEBI:27299; CHEBI:10841;
+    CHEBI:2359; CHEBI:21127; CHEBI:87518; CHEBI:49736; CHEBI:40938; CHEBI:42587; CHEBI:456216;
+    CHEBI:13317; CHEBI:22249; CHEBI:2342; CHEBI:24041; CHEBI:15422; CHEBI:18420; CHEBI:25112;
+    CHEBI:13222; CHEBI:529204; CHEBI:22244; CHEBI:39127
+
+    KEGG IDs: KEGG:C00305; KEGG:C00255; KEGG:C00002; KEGG:C00061; KEGG:C00008'
+- id: sabiork_277_EC2_7_1_26_Arabidopsis_thaliana_Q84MD8_ATP
+  name: Reaction catalyzed by riboflavin kinase on ATP
+  equation: ATP + Riboflavin = ADP + Riboflavin-5-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Riboflavin
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_ADP
+  - species_id: product_Riboflavin-5-phosphate
+  modifiers:
+  - species_id: protein_2_7_1_26_Q84MD8_p44149
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00549
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:45214; CHEBI:8843; CHEBI:15044;
+    CHEBI:16761; CHEBI:10789; CHEBI:57299; CHEBI:17621; CHEBI:13379; CHEBI:40553;
+    CHEBI:17015; CHEBI:57986; CHEBI:6635; CHEBI:4960; CHEBI:13236; CHEBI:27299; CHEBI:10841;
+    CHEBI:2359; CHEBI:21127; CHEBI:87518; CHEBI:49736; CHEBI:40938; CHEBI:42587; CHEBI:456216;
+    CHEBI:13317; CHEBI:22249; CHEBI:2342; CHEBI:24041; CHEBI:15422; CHEBI:18420; CHEBI:25112;
+    CHEBI:13222; CHEBI:529204; CHEBI:22244; CHEBI:39127
+
+    KEGG IDs: KEGG:C00305; KEGG:C00255; KEGG:C00002; KEGG:C00061; KEGG:C00008'
+- id: sabiork_277_EC2_7_1_26_Arabidopsis_thaliana_Q84MD8_ATP
+  name: Reaction catalyzed by riboflavin kinase on ATP
+  equation: ATP + Riboflavin = ADP + Riboflavin-5-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Riboflavin
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_ADP
+  - species_id: product_Riboflavin-5-phosphate
+  modifiers:
+  - species_id: protein_2_7_1_26_Q84MD8_p44145
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00549
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:45214; CHEBI:8843; CHEBI:15044;
+    CHEBI:16761; CHEBI:10789; CHEBI:57299; CHEBI:17621; CHEBI:13379; CHEBI:40553;
+    CHEBI:17015; CHEBI:57986; CHEBI:6635; CHEBI:4960; CHEBI:13236; CHEBI:27299; CHEBI:10841;
+    CHEBI:2359; CHEBI:21127; CHEBI:87518; CHEBI:49736; CHEBI:40938; CHEBI:42587; CHEBI:456216;
+    CHEBI:13317; CHEBI:22249; CHEBI:2342; CHEBI:24041; CHEBI:15422; CHEBI:18420; CHEBI:25112;
+    CHEBI:13222; CHEBI:529204; CHEBI:22244; CHEBI:39127
+
+    KEGG IDs: KEGG:C00305; KEGG:C00255; KEGG:C00002; KEGG:C00061; KEGG:C00008'
+- id: sabiork_277_EC2_7_1_26_Arabidopsis_thaliana_Q84MD8_Riboflavin
+  name: Reaction catalyzed by riboflavin kinase on Riboflavin
+  equation: ATP + Riboflavin = ADP + Riboflavin-5-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Riboflavin
+  - species_id: substrate_ATP
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Riboflavin-5-phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_26_Q84MD8_p44148
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00549
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:45214; CHEBI:8843; CHEBI:15044;
+    CHEBI:16761; CHEBI:10789; CHEBI:57299; CHEBI:17621; CHEBI:13379; CHEBI:40553;
+    CHEBI:17015; CHEBI:57986; CHEBI:6635; CHEBI:4960; CHEBI:13236; CHEBI:27299; CHEBI:10841;
+    CHEBI:2359; CHEBI:21127; CHEBI:87518; CHEBI:49736; CHEBI:40938; CHEBI:42587; CHEBI:456216;
+    CHEBI:13317; CHEBI:22249; CHEBI:24041; CHEBI:2342; CHEBI:15422; CHEBI:18420; CHEBI:25112;
+    CHEBI:13222; CHEBI:529204; CHEBI:22244; CHEBI:39127
+
+    KEGG IDs: KEGG:C00305; KEGG:C00255; KEGG:C00002; KEGG:C00061; KEGG:C00008'
+- id: sabiork_964_EC3_1_3_2_Arabidopsis_thaliana_Q84MD8_Riboflavin-5-phosphate
+  name: Reaction catalyzed by acid phosphatase on Riboflavin-5-phosphate
+  equation: Riboflavin-5-phosphate + H2O = Phosphate + Riboflavin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Riboflavin-5-phosphate
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Riboflavin
+  - species_id: product_Phosphate
+  modifiers:
+  - species_id: protein_3_1_3_2_Q84MD8_p44146
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00548
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:29375; CHEBI:8843; CHEBI:45214; CHEBI:44819;
+    CHEBI:15044; CHEBI:18367; CHEBI:41981; CHEBI:17621; CHEBI:35780; CHEBI:43470;
+    CHEBI:13379; CHEBI:26020; CHEBI:17015; CHEBI:26078; CHEBI:57986; CHEBI:6635; CHEBI:39127;
+    CHEBI:42857; CHEBI:41979; CHEBI:4960; CHEBI:29139; CHEBI:27299; CHEBI:39739; CHEBI:42043;
+    CHEBI:21127; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:49736;
+    CHEBI:39745; CHEBI:13352; CHEBI:42587; CHEBI:7793; CHEBI:13317; CHEBI:43228; CHEBI:24041;
+    CHEBI:44292; CHEBI:45024; CHEBI:33806; CHEBI:18420; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:25112; CHEBI:43474; CHEBI:529204; CHEBI:29137; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C00305; KEGG:C00255; KEGG:C00061; KEGG:C00001; KEGG:C00009'
+- id: sabiork_964_EC3_1_3_2_Arabidopsis_thaliana_Q84MD8_Riboflavin-5-phosphate
+  name: Reaction catalyzed by acid phosphatase on Riboflavin-5-phosphate
+  equation: Riboflavin-5-phosphate + H2O = Phosphate + Riboflavin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Riboflavin-5-phosphate
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Phosphate
+  - species_id: product_Riboflavin
+  modifiers:
+  - species_id: protein_3_1_3_2_Q84MD8_p44147
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00548
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:29375; CHEBI:8843; CHEBI:43470; CHEBI:44819;
+    CHEBI:18367; CHEBI:45214; CHEBI:41981; CHEBI:17621; CHEBI:35780; CHEBI:15044;
+    CHEBI:13379; CHEBI:26020; CHEBI:17015; CHEBI:26078; CHEBI:57986; CHEBI:6635; CHEBI:39127;
+    CHEBI:42857; CHEBI:41979; CHEBI:4960; CHEBI:29139; CHEBI:39739; CHEBI:27299; CHEBI:42043;
+    CHEBI:21127; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:49736;
+    CHEBI:39745; CHEBI:13352; CHEBI:42587; CHEBI:7793; CHEBI:13317; CHEBI:43228; CHEBI:24041;
+    CHEBI:44292; CHEBI:45024; CHEBI:33806; CHEBI:18420; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:25112; CHEBI:43474; CHEBI:529204; CHEBI:29137; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C00305; KEGG:C00255; KEGG:C00061; KEGG:C00001; KEGG:C00009'
+measurements:
+- id: measurement_2_7_1_26_Arabidopsis_thaliana_Q84MD8_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_2_7_1_26_Arabidopsis_thaliana_Q84MD8_Riboflavin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_2_7_1_26_Arabidopsis_thaliana_Q84MD8_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_2_7_1_26_Arabidopsis_thaliana_Q84MD8_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_2_7_1_26_Arabidopsis_thaliana_Q84MD8_Riboflavin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_3_1_3_2_Arabidopsis_thaliana_Q84MD8_Riboflavin-5-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_3_1_3_2_Arabidopsis_thaliana_Q84MD8_Riboflavin-5-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_1_26_Arabidopsis_thaliana_Q84MD8_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 40700000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16183635'
+- id: 2_7_1_26_Arabidopsis_thaliana_Q84MD8_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.03e-08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16183635'
+- id: 2_7_1_26_Arabidopsis_thaliana_Q84MD8_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.419
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16183635'
+- id: 2_7_1_26_Arabidopsis_thaliana_Q84MD8_Riboflavin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.52e-08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Riboflavin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16183635'
+- id: 2_7_1_26_Arabidopsis_thaliana_Q84MD8_Riboflavin_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 38400000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Riboflavin
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16183635'
+- id: 2_7_1_26_Arabidopsis_thaliana_Q84MD8_Riboflavin_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.583
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Riboflavin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16183635'
+- id: 2_7_1_26_Arabidopsis_thaliana_Q84MD8_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.138
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16183635'
+- id: 2_7_1_26_Arabidopsis_thaliana_Q84MD8_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.91e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16183635'
+- id: 2_7_1_26_Arabidopsis_thaliana_Q84MD8_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 72300.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16183635'
+- id: 2_7_1_26_Arabidopsis_thaliana_Q84MD8_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 15900000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16183635'
+- id: 2_7_1_26_Arabidopsis_thaliana_Q84MD8_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.1e-09
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16183635'
+- id: 2_7_1_26_Arabidopsis_thaliana_Q84MD8_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.113
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16183635'
+- id: 2_7_1_26_Arabidopsis_thaliana_Q84MD8_Riboflavin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.0e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Riboflavin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16183635'
+- id: 2_7_1_26_Arabidopsis_thaliana_Q84MD8_Riboflavin_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.443
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Riboflavin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16183635'
+- id: 2_7_1_26_Arabidopsis_thaliana_Q84MD8_Riboflavin_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 222000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Riboflavin
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16183635'
+- id: 3_1_3_2_Arabidopsis_thaliana_Q84MD8_Riboflavin-5-phosphate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 2610000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Riboflavin-5-phosphate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16183635'
+- id: 3_1_3_2_Arabidopsis_thaliana_Q84MD8_Riboflavin-5-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.74e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Riboflavin-5-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16183635'
+- id: 3_1_3_2_Arabidopsis_thaliana_Q84MD8_Riboflavin-5-phosphate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.76
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Riboflavin-5-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16183635'
+- id: 3_1_3_2_Arabidopsis_thaliana_Q84MD8_Riboflavin-5-phosphate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.822
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Riboflavin-5-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16183635'
+- id: 3_1_3_2_Arabidopsis_thaliana_Q84MD8_Riboflavin-5-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 8.05e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Riboflavin-5-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16183635'
+- id: 3_1_3_2_Arabidopsis_thaliana_Q84MD8_Riboflavin-5-phosphate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1020000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Riboflavin-5-phosphate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16183635'
+buffer:
+  buffer: 100 mM Tris-HCl, 1 mM Dithiothreitol, 10 mM Na2SO3, 0.02% Tween 20; 50 mM
+    Tris-HCl, 1 mM Dithiothreitol, 0.02% Tween 20; 100 mM Potassium phosphate, 1 mM
+    Dithiothreitol, 10 mM Na2SO3, 0.02% Tween 20
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 44143
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16183635/
+  pubmed_id: '16183635'
+  doi: null
+name: Merged entry for Q84MD8 wildtype
+description: 'Merged from 7 files: SABIO_EC2.7.1.26_Arabidopsis_thaliana__Q84MD8_s_ATP.yaml,
+  SABIO_EC2.7.1.26_Arabidopsis_thaliana__Q84MD8_s_Riboflavin.yaml, SABIO_EC2.7.1.26_Arabidopsis_thaliana__Q84MD8_s_ATP_3.yaml,
+  SABIO_EC2.7.1.26_Arabidopsis_thaliana__Q84MD8_s_ATP_2.yaml, SABIO_EC2.7.1.26_Arabidopsis_thaliana__Q84MD8_s_Riboflavin_2.yaml,
+  SABIO_EC3.1.3.2_Arabidopsis_thaliana__Q84MD8_s_Riboflavin-5-phospha.yaml, SABIO_EC3.1.3.2_Arabidopsis_thaliana__Q84MD8_s_Riboflavin-5-phospha_2.yaml'

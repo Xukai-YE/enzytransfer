@@ -1,0 +1,303 @@
+version: '2.0'
+created: '2025-11-20T13:39:23.921443'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_42_Q8KZT3_p64432
+  name: homoisocitrate dehydrogenase
+  ecnumber: 1.1.1.42
+  organism: Thermus thermophilus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q8KZT3
+  wildtype_sequence: MPLITTETGKKMHVLEDGRKLITVIPGDGVGPECVEATLKVLEAAKAPLAYEVREAGASVFRRGIASGVPQETIESIRKTRVVLKGPLETPVGYGEKSANVTLRKLFETYANVRPVREFPNVPTPYAGRGIDLVVVRENVEDLYAGIEHMQTPSVAQTLKLISWKGSEKIVRFAFELARAEGRKKVHCATKSNIMKLAEGTLKRAFEQVAQEYPDIEAVHIIVDNAAHQLVKRPEQFEVIVTTNMNGDILSDLTSGLIGGLGFAPSANIGNEVAIFEAVHGSAPKYAGKNVINPTAVLLSAVMMLRYLEEFATADLIENALLYTLEEGRVLTGDVVGYDRGAKTTEYTEAIIQNLGKTPRKTQVRGYKPFRLPQVDGAIAPIVPRSRRVVGVDVFVETNLLPEALGKALEDLAAGTPFRLKMISNRGTQVYPPTGGLTDLVDHYRCRFLYTGEGEAKDPEILDLVSRVASRFRWMHLEKLQEFDGEPGFTKAQGED
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Homoisocitrate
+  name: Homoisocitrate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Oxoadipate
+  name: 2-Oxoadipate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Isocitrate
+  name: Isocitrate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Oxoglutarate
+  name: 2-Oxoglutarate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1988_EC1_1_1_42_Thermus_thermophilus_Q8KZT3_Homoisocitrate
+  name: Reaction catalyzed by homoisocitrate dehydrogenase on Homoisocitrate
+  equation: NAD+ + Homoisocitrate = CO2 + NADH + H+ + 2-Oxoadipate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Homoisocitrate
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_CO2
+  - species_id: product_NADH
+  - species_id: product_2-Oxoadipate
+  modifiers:
+  - species_id: protein_1_1_1_42_Q8KZT3_p64432
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 11900;11901;11902;11903
+  KEGGid: R01934
+  notes: 'ChEBI IDs: CHEBI:15404; CHEBI:11635; CHEBI:29094; CHEBI:1247; CHEBI:139538;
+    CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:5756; CHEBI:30904; CHEBI:15846; CHEBI:3283;
+    CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:19972; CHEBI:24636;
+    CHEBI:44214; CHEBI:29233; CHEBI:13394; CHEBI:23011; CHEBI:5584; CHEBI:18469; CHEBI:57945;
+    CHEBI:44216; CHEBI:13285; CHEBI:13282; CHEBI:24618; CHEBI:24617; CHEBI:57540;
+    CHEBI:7423; CHEBI:13283; CHEBI:10767; CHEBI:57499; CHEBI:13389; CHEBI:15378; CHEBI:13284;
+    CHEBI:13395; CHEBI:16526; CHEBI:36456; CHEBI:11761; CHEBI:48829; CHEBI:15753;
+    CHEBI:36455; CHEBI:30903; CHEBI:44215; CHEBI:10744; CHEBI:19737; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C05662; KEGG:C00080; KEGG:C00011; KEGG:C00003; KEGG:C00322; KEGG:C00004'
+- id: sabiork_270_EC1_1_1_42_Thermus_thermophilus_Q8KZT3_NAD_
+  name: Reaction catalyzed by isocitrate dehydrogenase (NAD+) on NAD+
+  equation: Isocitrate + NAD+ = H+ + NADH + CO2 + 2-Oxoglutarate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_Isocitrate
+  products:
+  - species_id: product_NADH
+  - species_id: product_2-Oxoglutarate
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_1_1_1_42_Q8KZT3_p64433
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00709
+  notes: 'ChEBI IDs: CHEBI:11638; CHEBI:139538; CHEBI:1253; CHEBI:14465; CHEBI:44281;
+    CHEBI:24886; CHEBI:13393; CHEBI:19748; CHEBI:29234; CHEBI:15846; CHEBI:3283; CHEBI:13357;
+    CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:16810; CHEBI:36454; CHEBI:40661;
+    CHEBI:44214; CHEBI:24636; CHEBI:29233; CHEBI:13394; CHEBI:5584; CHEBI:23011; CHEBI:57945;
+    CHEBI:30916; CHEBI:44216; CHEBI:13285; CHEBI:13282; CHEBI:16087; CHEBI:5998; CHEBI:57540;
+    CHEBI:19749; CHEBI:7423; CHEBI:13283; CHEBI:13389; CHEBI:13395; CHEBI:15378; CHEBI:13284;
+    CHEBI:151; CHEBI:36453; CHEBI:16526; CHEBI:30915; CHEBI:48829; CHEBI:30887; CHEBI:44215;
+    CHEBI:10744; CHEBI:24884; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C00026; KEGG:C00011; KEGG:C00003; KEGG:C00311; KEGG:C00004'
+measurements:
+- id: measurement_1_1_1_42_Thermus_thermophilus_Q8KZT3_Homoisocitrate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 60.0
+  temperature_unit: °C
+- id: measurement_1_1_1_42_Thermus_thermophilus_Q8KZT3_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 60.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1_42_Thermus_thermophilus_Q8KZT3_Homoisocitrate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 44000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Homoisocitrate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12427751'
+- id: 1_1_1_42_Thermus_thermophilus_Q8KZT3_Homoisocitrate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 5.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Homoisocitrate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12427751'
+- id: 1_1_1_42_Thermus_thermophilus_Q8KZT3_Homoisocitrate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000114
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Homoisocitrate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12427751'
+- id: 1_1_1_42_Thermus_thermophilus_Q8KZT3_NAD__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1000000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12427751'
+- id: 1_1_1_42_Thermus_thermophilus_Q8KZT3_NAD__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 68.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12427751'
+- id: 1_1_1_42_Thermus_thermophilus_Q8KZT3_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.7e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12427751'
+buffer:
+  buffer: 50 mM HEPES, 200 mM KCl, 5 mM MgCl2
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 64432
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12427751/
+  pubmed_id: '12427751'
+  doi: null
+name: Merged entry for Q8KZT3 wildtype
+description: 'Merged from 2 files: SABIO_EC1.1.1.42_Thermus_thermophilus__Q8KZT3_s_Homoisocitrate.yaml,
+  SABIO_EC1.1.1.42_Thermus_thermophilus__Q8KZT3_s_NAD_.yaml'

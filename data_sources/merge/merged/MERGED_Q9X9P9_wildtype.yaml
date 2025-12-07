@@ -1,0 +1,316 @@
+version: '2.0'
+created: '2025-11-20T13:39:53.210689'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_5_3__Q9X9P9_p985
+  name: With oxygen as acceptor
+  ecnumber: 1.5.3.
+  organism: rat
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9X9P9
+  wildtype_sequence: MTESYDVVVVGGGPVGLATAWQVAERGHRVLVLERHTFFNENGGTSGAERHWRLQYTQEDLFRLTLETLPLWRALESRCERRLIHEIGSLWFGDTDVVTNEGQISGTAAMMDKLSVRYEWLKATDIERRFGFRGLPRDYEGFLQPDGGTIDVRGTLAALFTLAQAAGATLRAGETVTELVPDADGVSVTTDRGTYRAGKVVLACGPYTNDLLEPLGARLAYSVYEMAIAAYRQATPVTEAPFWFAFQQPTPQDTNLFYGFGHNPWAPGEFVRCGPDFEVDPLDHPSAATGVADRRQMDRLSGWLRDHLPTVDPDPVRTSTCLAVLPTDPERQFFLGTARDLMTHGEKLVVYGAGWAFKFVPLFGRICADLAVEDSTAYDISRLAPQSAL
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_delta1-Piperideine-2-carboxylate
+  name: delta1-Piperideine-2-carboxylate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Picolinic_acid
+  name: Picolinic acid
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_3
+  name: '3'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_4-Dehydro-L-proline
+  name: 4-Dehydro-L-proline
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Pyrrole-2-carboxylate
+  name: Pyrrole-2-carboxylate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_6550_EC1_5_3__rat_Q9X9P9_O2
+  name: Reaction catalyzed by With oxygen as acceptor on O2
+  equation: delta1-Piperideine-2-carboxylate + O2 = Picolinic acid + H2O2
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_delta1-Piperideine-2-carboxylate
+  products:
+  - species_id: product_Picolinic_acid
+  modifiers:
+  - species_id: protein_1_5_3__Q9X9P9_p985
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:77631; CHEBI:26128; CHEBI:13354; CHEBI:10539;
+    CHEBI:29192; CHEBI:24637; CHEBI:12278; CHEBI:16187; CHEBI:26689; CHEBI:8201; CHEBI:18885;
+    CHEBI:28747; CHEBI:11153; CHEBI:47159; CHEBI:16240; CHEBI:23833; CHEBI:13416;
+    CHEBI:13355; CHEBI:500; CHEBI:38184; CHEBI:23601; CHEBI:18886; CHEBI:15379; CHEBI:30491;
+    CHEBI:25366; CHEBI:44742; CHEBI:44812; CHEBI:29793; CHEBI:7860; CHEBI:10745; CHEBI:5586;
+    CHEBI:30912
+
+    KEGG IDs: KEGG:C10164; KEGG:C04092; KEGG:C00027; KEGG:C00704; KEGG:C00007'
+- id: sabiork_6482_EC1_5_3__rat_Q9X9P9_O2
+  name: Reaction catalyzed by With oxygen as acceptor on O2
+  equation: 3,4-Dehydro-L-proline + O2 = Pyrrole-2-carboxylate + H2O2
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_3
+  - species_id: substrate_4-Dehydro-L-proline
+  products:
+  - species_id: product_Pyrrole-2-carboxylate
+  modifiers:
+  - species_id: protein_1_5_3__Q9X9P9_p986
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:13354; CHEBI:29192; CHEBI:24637; CHEBI:26689;
+    CHEBI:26451; CHEBI:16240; CHEBI:23833; CHEBI:13416; CHEBI:13355; CHEBI:26453;
+    CHEBI:36751; CHEBI:15379; CHEBI:27660; CHEBI:8684; CHEBI:30491; CHEBI:25366; CHEBI:44742;
+    CHEBI:44812; CHEBI:29793; CHEBI:7860; CHEBI:45388; CHEBI:10745; CHEBI:5586
+
+    KEGG IDs: KEGG:C00007; KEGG:C05942; KEGG:C00027; KEGG:C00704'
+measurements:
+- id: measurement_1_5_3__rat_Q9X9P9_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_5_3__rat_Q9X9P9_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_5_3__rat_Q9X9P9_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.9e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15248773'
+- id: 1_5_3__rat_Q9X9P9_O2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.2
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15248773'
+- id: 1_5_3__rat_Q9X9P9_O2_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.6166667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15248773'
+- id: 1_5_3__rat_Q9X9P9_O2_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.2e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15248773'
+- id: 1_5_3__rat_Q9X9P9_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.3e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15248773'
+- id: 1_5_3__rat_Q9X9P9_O2_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15248773'
+- id: 1_5_3__rat_Q9X9P9_O2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.3
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15248773'
+- id: 1_5_3__rat_Q9X9P9_O2_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.3166667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15248773'
+buffer:
+  buffer: 100 mM Potassium Phosphate (air-saturated)
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 985
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15248773/
+  pubmed_id: '15248773'
+  doi: null
+name: Merged entry for Q9X9P9 wildtype
+description: 'Merged from 2 files: SABIO_EC1.5.3._rat__Q9X9P9_s_O2.yaml, SABIO_EC1.5.3._rat__Q9X9P9_s_O2_2.yaml'

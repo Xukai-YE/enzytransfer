@@ -1,0 +1,240 @@
+version: '2.0'
+created: '2025-11-20T13:40:29.065114'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_208_P54715_p66676
+  name: protein-Npi-phosphohistidine---maltose phosphotransferase
+  ecnumber: 2.7.1.208
+  organism: Bacillus subtilis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P54715
+  wildtype_sequence: MMQKIQRFGSAMFVPVLLFAFAGIIVGISTLFKNKTLMGPLADPDGFWYQCWYIIEQGGWTVFNQMPLLFAIGIPVALAKKAQARACLEALTVYLTFNYFVSAILTVWGGAFGVDMNQEVGGTSGLTMIAGIKTLDTNIIGAIFISSIVVFLHNRYFDKKLPDFLGIFQGSTYIVMISFFIMIPIALAVSYIWPMVQSGIGSLQSFLVASGAVGVWIYTFLERILIPTGLHHFIYTPFIYGPAVAEGGIVTYWAQHLGEYSQSAKPLKELFPQGGFALHGNSKIFGIPGIALAFYVTAKKEKKKLVAGLLIPVTLTAIVAGITEPIEFTFLFISPFLFAVHAVLAATMSTVMYMAGVVGNMGGGLIEAVTLNWIPLFGSHGMTYVYQILIGLSFTAIYFFVFRFLILKFNIATPGREKDEQQETKLYSKKEYRERKNKDETASAAETADDTAFLYIEALGGKDNITEVTNCATRLRVSVKDETKVEPDSVFRALGAHGVVRNGKAFQVIIGLSVPQMRERVEKILNQ
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Maltose
+  name: Maltose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Protein_N-phosphohistidine
+  name: Protein N-phosphohistidine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Maltose_6_-phosphate
+  name: Maltose 6'-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Protein_histidine
+  name: Protein histidine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Phosphoenolpyruvate
+  name: Phosphoenolpyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_8980_EC2_7_1_208_Bacillus_subtilis_P54715_Maltose
+  name: Reaction catalyzed by protein-Npi-phosphohistidine---maltose phosphotransferase
+    on Maltose
+  equation: Maltose + Protein N-phosphohistidine = Protein histidine + Maltose 6'-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Maltose
+  - species_id: substrate_Protein_N-phosphohistidine
+  products:
+  - species_id: product_Maltose_6_-phosphate
+  - species_id: product_Protein_histidine
+  modifiers:
+  - species_id: protein_2_7_1_208_P54715_p66676
+    role: BIOCATALYST
+  - species_id: activator_Phosphoenolpyruvate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R04111
+  notes: 'ChEBI IDs: CHEBI:18167; CHEBI:22463; CHEBI:6670; CHEBI:6669; CHEBI:44894;
+    CHEBI:58702; CHEBI:26055; CHEBI:14569; CHEBI:18021; CHEBI:15703; CHEBI:8147; CHEBI:12340;
+    CHEBI:43893; CHEBI:26054; CHEBI:25142; CHEBI:44897; CHEBI:57478; CHEBI:14812;
+    CHEBI:10300; CHEBI:17306
+
+    KEGG IDs: KEGG:C04261; KEGG:C02995; KEGG:C00074; KEGG:C00615; KEGG:C00897; KEGG:C00208'
+- id: sabiork_8980_EC2_7_1_208_Bacillus_subtilis_P54715_Protein_N-phosphohistidine
+  name: Reaction catalyzed by protein-Npi-phosphohistidine---maltose phosphotransferase
+    on Protein N-phosphohistidine
+  equation: Maltose + Protein N-phosphohistidine = Protein histidine + Maltose 6'-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Protein_N-phosphohistidine
+  - species_id: substrate_Maltose
+  products:
+  - species_id: product_Protein_histidine
+  - species_id: product_Maltose_6_-phosphate
+  modifiers:
+  - species_id: protein_2_7_1_208_P54715_p66677
+    role: BIOCATALYST
+  - species_id: activator_Phosphoenolpyruvate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R04111
+  notes: 'ChEBI IDs: CHEBI:18167; CHEBI:22463; CHEBI:6670; CHEBI:6669; CHEBI:44894;
+    CHEBI:58702; CHEBI:26055; CHEBI:14569; CHEBI:18021; CHEBI:15703; CHEBI:8147; CHEBI:12340;
+    CHEBI:43893; CHEBI:26054; CHEBI:25142; CHEBI:44897; CHEBI:57478; CHEBI:14812;
+    CHEBI:10300; CHEBI:17306
+
+    KEGG IDs: KEGG:C04261; KEGG:C02995; KEGG:C00074; KEGG:C00615; KEGG:C00897; KEGG:C00208'
+measurements:
+- id: measurement_2_7_1_208_Bacillus_subtilis_P54715_Maltose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_7_1_208_Bacillus_subtilis_P54715_Protein_N-phosphohistidine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_1_208_Bacillus_subtilis_P54715_Maltose_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: moldivs
+  initial_value: 1.516667e-09
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Maltose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16707683'
+- id: 2_7_1_208_Bacillus_subtilis_P54715_Maltose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.0e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Maltose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16707683'
+- id: 2_7_1_208_Bacillus_subtilis_P54715_Protein_N-phosphohistidine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: moldivs
+  initial_value: 1.9e-09
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Protein_N-phosphohistidine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16707683'
+- id: 2_7_1_208_Bacillus_subtilis_P54715_Protein_N-phosphohistidine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.5e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Protein_N-phosphohistidine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16707683'
+buffer:
+  buffer: 50 mM Tris-HCl, 20 mM MgCl2
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 66676
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16707683/
+  pubmed_id: '16707683'
+  doi: null
+name: Merged entry for P54715 wildtype
+description: 'Merged from 2 files: SABIO_EC2.7.1.208_Bacillus_subtilis__P54715_s_Maltose.yaml,
+  SABIO_EC2.7.1.208_Bacillus_subtilis__P54715_s_Protein.yaml'

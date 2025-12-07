@@ -1,0 +1,365 @@
+version: '2.0'
+created: '2025-11-20T13:40:55.442261'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_1_1_81_A3FJ64_p76974
+  name: quorum-quenching N-acyl-homoserine lactonase
+  ecnumber: 3.1.1.81
+  organism: Bacillus thuringiensis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: Y194F
+  uniprotid: A3FJ64
+  wildtype_sequence: MTVKKLYFIPAGRCMLDHSSVNSALTPGKLLNLPVWCYLLETEEGPILVDTGMPESAVNNEGLFNGTFVEGQILPKMTEEDRIVNILKRVGYEPDDLLYIISSHLHFDHAGGNGAFTNTPIIVQRTEYEAALHREEYMKECILPHLNYKIIEGDYEVVPGVQLLYTPGHSPGHQSLFIETEQSGSVLLTIDASYTKENFEDEVPFAGFDPELALSSIKRLKEVVKKEKPIIFFGHDIEQEKSCRVFPEYI
+  mutant_sequence: MTVKKLYFIPAGRCMLDHSSVNSALTPGKLLNLPVWCYLLETEEGPILVDTGMPESAVNNEGLFNGTFVEGQILPKMTEEDRIVNILKRVGYEPDDLLYIISSHLHFDHAGGNGAFTNTPIIVQRTEYEAALHREEYMKECILPHLNYKIIEGDYEVVPGVQLLYTPGHSPGHQSLFIETEQSGSVLLTIDASFTKENFEDEVPFAGFDPELALSSIKRLKEVVKKEKPIIFFGHDIEQEKSCRVFPEYI
+complexes: null
+small_molecules:
+- id: substrate_N-Hexanoyl-L-homoserine_lactone
+  name: N-Hexanoyl-L-homoserine lactone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N-Hexanoyl-L-homoserine
+  name: N-Hexanoyl-L-homoserine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Co2_
+  name: Co2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_N-Hexanoyl-DL-homocysteine_thiolactone
+  name: N-Hexanoyl-DL-homocysteine thiolactone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Hexanamido-4-hydroxybutanethioic_S-acid
+  name: 2-Hexanamido-4-hydroxybutanethioic S-acid
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Zn2_
+  name: Zn2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_13607_EC3_1_1_81_Bacillus_thuringiensis_A3FJ64_N-Hexanoyl-L-homoserine_lactone
+  name: Reaction catalyzed by quorum-quenching N-acyl-homoserine lactonase on N-Hexanoyl-L-homoserine
+    lactone
+  equation: H2O + N-Hexanoyl-L-homoserine lactone = N-Hexanoyl-L-homoserine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N-Hexanoyl-L-homoserine_lactone
+  products:
+  - species_id: product_N-Hexanoyl-L-homoserine
+  modifiers:
+  - species_id: protein_3_1_1_81_A3FJ64_p76974
+    role: BIOCATALYST
+  - species_id: activator_Co2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:48827; CHEBI:42857;
+    CHEBI:41979; CHEBI:48828; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:13352; CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743;
+    CHEBI:29374; CHEBI:5585; CHEBI:23337; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C21197; KEGG:C00001; KEGG:C00175'
+- id: sabiork_16706_EC3_1_1_81_Bacillus_thuringiensis_A3FJ64_N-Hexanoyl-DL-homocysteine_thiolactone
+  name: Reaction catalyzed by quorum-quenching N-acyl-homoserine lactonase on N-Hexanoyl-DL-homocysteine
+    thiolactone
+  equation: H2O + N-Hexanoyl-DL-homocysteine thiolactone = 2-Hexanamido-4-hydroxybutanethioic
+    S-acid
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N-Hexanoyl-DL-homocysteine_thiolactone
+  products:
+  - species_id: product_2-Hexanamido-4-hydroxybutanethioic_S-acid
+  modifiers:
+  - species_id: protein_3_1_1_81_A3FJ64_p76976
+    role: BIOCATALYST
+  - species_id: activator_Co2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:48827; CHEBI:42857;
+    CHEBI:41979; CHEBI:48828; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:13352; CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743;
+    CHEBI:29374; CHEBI:5585; CHEBI:23337; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00001; KEGG:C00175'
+- id: sabiork_13607_EC3_1_1_81_Bacillus_thuringiensis_A3FJ64_N-Hexanoyl-L-homoserine_lactone
+  name: Reaction catalyzed by quorum-quenching N-acyl-homoserine lactonase on N-Hexanoyl-L-homoserine
+    lactone
+  equation: H2O + N-Hexanoyl-L-homoserine lactone = N-Hexanoyl-L-homoserine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N-Hexanoyl-L-homoserine_lactone
+  - species_id: cofactor_Zn2_
+  products:
+  - species_id: product_N-Hexanoyl-L-homoserine
+  modifiers:
+  - species_id: protein_3_1_1_81_A3FJ64_p76972
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29105; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:10113;
+    CHEBI:42857; CHEBI:41979; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:13352; CHEBI:43228; CHEBI:49972; CHEBI:44292; CHEBI:33806;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:49982; CHEBI:27368; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C21197; KEGG:C00038; KEGG:C00001'
+measurements:
+- id: measurement_3_1_1_81_Bacillus_thuringiensis_A3FJ64_N-Hexanoyl-L-homoserine_lactone
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_3_1_1_81_Bacillus_thuringiensis_A3FJ64_N-Hexanoyl-DL-homocysteine_thiolactone
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_3_1_1_81_Bacillus_thuringiensis_A3FJ64_N-Hexanoyl-L-homoserine_lactone
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 3_1_1_81_Bacillus_thuringiensis_A3FJ64_N-Hexanoyl-L-homoserine_lactone_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.002
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Hexanoyl-L-homoserine_lactone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '18627130'
+- id: 3_1_1_81_Bacillus_thuringiensis_A3FJ64_N-Hexanoyl-L-homoserine_lactone_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 16.6
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Hexanoyl-L-homoserine_lactone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '18627130'
+- id: 3_1_1_81_Bacillus_thuringiensis_A3FJ64_N-Hexanoyl-L-homoserine_lactone_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 8300.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Hexanoyl-L-homoserine_lactone
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.4
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '18627130'
+- id: 3_1_1_81_Bacillus_thuringiensis_A3FJ64_N-Hexanoyl-DL-homocysteine_thiolactone_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 5.4
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Hexanoyl-DL-homocysteine_thiolactone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '18627130'
+- id: 3_1_1_81_Bacillus_thuringiensis_A3FJ64_N-Hexanoyl-DL-homocysteine_thiolactone_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 9000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Hexanoyl-DL-homocysteine_thiolactone
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.4
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '18627130'
+- id: 3_1_1_81_Bacillus_thuringiensis_A3FJ64_N-Hexanoyl-DL-homocysteine_thiolactone_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0006
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Hexanoyl-DL-homocysteine_thiolactone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '18627130'
+- id: 3_1_1_81_Bacillus_thuringiensis_A3FJ64_N-Hexanoyl-L-homoserine_lactone_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0021
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Hexanoyl-L-homoserine_lactone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '18627130'
+- id: 3_1_1_81_Bacillus_thuringiensis_A3FJ64_N-Hexanoyl-L-homoserine_lactone_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.31
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Hexanoyl-L-homoserine_lactone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '18627130'
+- id: 3_1_1_81_Bacillus_thuringiensis_A3FJ64_N-Hexanoyl-L-homoserine_lactone_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 150.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Hexanoyl-L-homoserine_lactone
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.4
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '18627130'
+buffer:
+  buffer: 1 mM Hepes, 0.1 M Na2SO4, 40 ¦ÌM phenol red
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 76974
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/18627130/
+  pubmed_id: '18627130'
+  doi: null
+name: Merged entry for A3FJ64 Y194F
+description: 'Merged from 3 files: SABIO_EC3.1.1.81_Bacillus_thuringiensis__A3FJ64_Y194F_s_N-Hexanoyl-L-homoser_2.yaml,
+  SABIO_EC3.1.1.81_Bacillus_thuringiensis__A3FJ64_Y194F_s_N-Hexanoyl-DL-homocy.yaml,
+  SABIO_EC3.1.1.81_Bacillus_thuringiensis__A3FJ64_Y194F_s_N-Hexanoyl-L-homoser.yaml'

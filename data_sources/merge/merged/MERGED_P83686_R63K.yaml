@@ -1,0 +1,285 @@
+version: '2.0'
+created: '2025-11-20T13:39:53.692690'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_6_2_2_P83686_p17456
+  name: NADH dehydrogenase
+  ecnumber: 1.6.2.2
+  organism: Sus scrofa
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: R63K
+  uniprotid: P83686
+  wildtype_sequence: STPAITLENPDIKYPLRLIDKEVVNHDTRRFRFALPSPEHILGLPVGQHIYLSARIDGNLVIRPYTPVSSDDDKGFVDLVIKVYFKDTHPKFPAGGKMSQYLESMKIGDTIEFRGPNGLLVYQGKGKFAIRPDKKSSPVIKTVKSVGMIAGGTGITPMLQVIRAIMKDPDDHTVCHLLFANQTEKDILLRPELEELRNEHSARFKLWYTVDRAPEAWDYSQGFVNEEMIRDHLPPPEEEPLVLMCGPPPMIQYACLPNLERVGHPKERCFAF
+  mutant_sequence: STPAITLENPDIKYPLRLIDKEVVNHDTRRFRFALPSPEHILGLPVGQHIYLSARIDGNLVIKPYTPVSSDDDKGFVDLVIKVYFKDTHPKFPAGGKMSQYLESMKIGDTIEFRGPNGLLVYQGKGKFAIRPDKKSSPVIKTVKSVGMIAGGTGITPMLQVIRAIMKDPDDHTVCHLLFANQTEKDILLRPELEELRNEHSARFKLWYTVDRAPEAWDYSQGFVNEEMIRDHLPPPEEEPLVLMCGPPPMIQYACLPNLERVGHPKERCFAF
+complexes: null
+small_molecules:
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Hexacyanoferrate_III_
+  name: Hexacyanoferrate(III)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Hexacyanoferrate_II_
+  name: Hexacyanoferrate(II)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Ferricytochrome_b5
+  name: Ferricytochrome b5
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Ferrocytochrome_b5
+  name: Ferrocytochrome b5
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7657_EC1_6_2_2_Sus_scrofa_P83686_NADH
+  name: Reaction catalyzed by NADH dehydrogenase on NADH
+  equation: NADH + Hexacyanoferrate(III) = NAD+ + Hexacyanoferrate(II) + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  - species_id: substrate_Hexacyanoferrate_III_
+  products:
+  - species_id: product_NAD_
+  - species_id: product_Hexacyanoferrate_II_
+  modifiers:
+  - species_id: protein_1_6_2_2_P83686_p17456
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:13357;
+    CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636; CHEBI:44214; CHEBI:5020; CHEBI:29233;
+    CHEBI:5584; CHEBI:13394; CHEBI:57945; CHEBI:44216; CHEBI:5032; CHEBI:57540; CHEBI:7423;
+    CHEBI:13389; CHEBI:13395; CHEBI:15378; CHEBI:10744; CHEBI:44215; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00324; KEGG:C00080; KEGG:C00003; KEGG:C01913; KEGG:C00004'
+- id: sabiork_681_EC1_6_2_2_Sus_scrofa_P83686_NADH
+  name: Reaction catalyzed by cytochrome-b5 reductase on NADH
+  equation: Ferricytochrome b5 + H+ + NADH = Ferrocytochrome b5 + NAD+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  - species_id: substrate_Ferricytochrome_b5
+  products:
+  - species_id: product_Ferrocytochrome_b5
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_6_2_2_P83686_p17467
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:13357;
+    CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636; CHEBI:44214; CHEBI:18097;
+    CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:57945; CHEBI:44216; CHEBI:16518; CHEBI:57540;
+    CHEBI:7423; CHEBI:13389; CHEBI:15378; CHEBI:13395; CHEBI:10744; CHEBI:44215; CHEBI:7422;
+    CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C00996; KEGG:C00003; KEGG:C00004; KEGG:C00999'
+measurements:
+- id: measurement_1_6_2_2_Sus_scrofa_P83686_NADH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_6_2_2_Sus_scrofa_P83686_NADH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_6_2_2_Sus_scrofa_P83686_NADH_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 245000000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11574067'
+- id: 1_6_2_2_Sus_scrofa_P83686_NADH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.1e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11574067'
+- id: 1_6_2_2_Sus_scrofa_P83686_NADH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 515.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11574067'
+- id: 1_6_2_2_Sus_scrofa_P83686_NADH_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 47500000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11574067'
+- id: 1_6_2_2_Sus_scrofa_P83686_NADH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 347.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11574067'
+- id: 1_6_2_2_Sus_scrofa_P83686_NADH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.3e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11574067'
+buffer:
+  buffer: 10 mM potassium phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 17456
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11574067/
+  pubmed_id: '11574067'
+  doi: null
+name: Merged entry for P83686 R63K
+description: 'Merged from 2 files: SABIO_EC1.6.2.2_Sus_scrofa__P83686_R63K_s_NADH.yaml,
+  SABIO_EC1.6.2.2_Sus_scrofa__P83686_R63K_s_NADH_2.yaml'

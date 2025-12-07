@@ -1,0 +1,169 @@
+name: SABIO-RK Entry 11706
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 11706
+created: '2025-10-28T13:59:30.987209'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_5_2_6_P52700_p11706
+  name: beta-lactamase
+  ecnumber: 3.5.2.6
+  organism: Stenotrophomonas maltophilia
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: Y228F
+  uniprotid: P52700
+  wildtype_sequence: MRSTLLAFALAVALPAAHTSAAEVPLPQLRAYTVDASWLQPMAPLQIADHTWQIGTEDLTALLVQTPDGAVLLDGGMPQMASHLLDNMKARGVTPRDLRLILLSHAHADHAGPVAELKRRTGAKVAANAESAVLLARGGSDDLHFGDGITYPPANADRIVMDGEVITVGGIVFTAHFMAGHTPGSTAWTWTDTRNGKPVRIAYADSLSAPGYQLQGNPRYPHLIEDYRRSFATVRALPCDVLLTPHPGASNWDYAAGARAGAKALTCKAYADAAEQKFDGQLAKETAGAR
+  mutant_sequence: MRSTLLAFALAVALPAAHTSAAEVPLPQLRAYTVDASWLQPMAPLQIADHTWQIGTEDLTALLVQTPDGAVLLDGGMPQMASHLLDNMKARGVTPRDLRLILLSHAHADHAGPVAELKRRTGAKVAANAESAVLLARGGSDDLHFGDGITYPPANADRIVMDGEVITVGGIVFTAHFMAGHTPGSTAWTWTDTRNGKPVRIAYADSLSAPGYQLQGNPRFPHLIEDYRRSFATVRALPCDVLLTPHPGASNWDYAAGARAGAKALTCKAYADAAEQKFDGQLAKETAGAR
+  position_offset: -8
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Cephalothin
+  name: Cephalothin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Substituted_beta-amino_acid
+  name: Substituted beta-amino acid
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_6491_EC3_5_2_6_Stenotrophomonas_maltophilia_P52700_Cephalothin
+  name: Reaction catalyzed by beta-lactamase on Cephalothin
+  equation: H2O + Cephalothin = Substituted beta-amino acid
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Cephalothin
+  products:
+  - species_id: product_Substituted_beta-amino_acid
+  modifiers:
+  - species_id: protein_3_5_2_6_P52700_p11706
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:124991; CHEBI:41547;
+    CHEBI:50895; CHEBI:42857; CHEBI:41979; CHEBI:42043; CHEBI:33811; CHEBI:33813;
+    CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:13690; CHEBI:50897; CHEBI:43228;
+    CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00001; KEGG:C03806; KEGG:C07761'
+measurements:
+- id: measurement_3_5_2_6_Stenotrophomonas_maltophilia_P52700_Cephalothin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 3_5_2_6_Stenotrophomonas_maltophilia_P52700_Cephalothin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.8e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cephalothin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11876827'
+- id: 3_5_2_6_Stenotrophomonas_maltophilia_P52700_Cephalothin_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 190.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cephalothin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11876827'
+- id: 3_5_2_6_Stenotrophomonas_maltophilia_P52700_Cephalothin_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 3300000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cephalothin
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11876827'
+buffer:
+  buffer: 50 mM cacodylate, 100 ¦ÌM ZnCl2
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 11706
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11876827/
+  pubmed_id: '11876827'
+  doi: null

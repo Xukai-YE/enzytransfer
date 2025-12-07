@@ -1,0 +1,274 @@
+version: '2.0'
+created: '2025-11-20T13:39:40.876962'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_2_1_12_P09317_p57213
+  name: glyceraldehyde-3-phosphate dehydrogenase (phosphorylating)
+  ecnumber: 1.2.1.12
+  organism: Ustilago maydis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P09317
+  wildtype_sequence: MSQVNIGINGFGRIGRIVFRNSVVHNTANVVAINDPFIDLEYMVYMLKYDSTHGVFNGDISTKDGKLIVNGKSIAVFAEKDPSNIPWGQAGAHYVVESTGVFTTIDKASAHIKGGAKKVVISAPSADAPMYVCGVNLDAYDPKAQVVSNASCTTNCLAPLAKVIHDKFGIVEGLMTTVHATTATQKTVDGPSAKDWRGGRAAAANIIPSSTGAAKAVGKVIPSLNGKLTGMAFRVPTTNVSVVDLTARLEKGASYDEIKAEVKRASENELKGILGYTEDAVVSQDFIGNSHSSIFDAAAGISLNNNFVKLVSWYDNEWGYSNRCLDLLVFMAQKDSA
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Phosphate
+  name: Phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Glyceraldehyde_3-phosphate
+  name: D-Glyceraldehyde 3-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3-Phospho-D-glyceroyl_phosphate
+  name: 3-Phospho-D-glyceroyl phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7844_EC1_2_1_12_Ustilago_maydis_P09317_Phosphate
+  name: Reaction catalyzed by glyceraldehyde-3-phosphate dehydrogenase (phosphorylating)
+    on Phosphate
+  equation: NAD+ + D-Glyceraldehyde 3-phosphate + Phosphate = NADH + H+ + 3-Phospho-D-glyceroyl
+    phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Phosphate
+  - species_id: substrate_NAD_
+  - species_id: substrate_D-Glyceraldehyde_3-phosphate
+  products:
+  - species_id: product_NADH
+  - species_id: product_3-Phospho-D-glyceroyl_phosphate
+  modifiers:
+  - species_id: protein_1_2_1_12_P09317_p57213
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 10300;10301;10302;10303
+  KEGGid: R01061
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:43470; CHEBI:18367; CHEBI:35780; CHEBI:26020;
+    CHEBI:26078; CHEBI:29052; CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:12984;
+    CHEBI:15846; CHEBI:13357; CHEBI:29139; CHEBI:1658; CHEBI:21902; CHEBI:13396; CHEBI:39739;
+    CHEBI:21901; CHEBI:24636; CHEBI:11881; CHEBI:12983; CHEBI:44214; CHEBI:181; CHEBI:29233;
+    CHEBI:21026; CHEBI:13394; CHEBI:5584; CHEBI:16001; CHEBI:39745; CHEBI:57945; CHEBI:44216;
+    CHEBI:7793; CHEBI:59776; CHEBI:57540; CHEBI:7423; CHEBI:57604; CHEBI:45024; CHEBI:13389;
+    CHEBI:15378; CHEBI:13395; CHEBI:43474; CHEBI:18324; CHEBI:44215; CHEBI:29137;
+    CHEBI:10744; CHEBI:7422; CHEBI:20189; CHEBI:16908
+
+    KEGG IDs: KEGG:C00236; KEGG:C00118; KEGG:C00080; KEGG:C00009; KEGG:C00003; KEGG:C00004'
+- id: sabiork_7844_EC1_2_1_12_Ustilago_maydis_P09317_D-Glyceraldehyde_3-phosphate
+  name: Reaction catalyzed by glyceraldehyde-3-phosphate dehydrogenase (phosphorylating)
+    on D-Glyceraldehyde 3-phosphate
+  equation: NAD+ + D-Glyceraldehyde 3-phosphate + Phosphate = NADH + H+ + 3-Phospho-D-glyceroyl
+    phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Glyceraldehyde_3-phosphate
+  - species_id: substrate_NAD_
+  - species_id: substrate_Phosphate
+  products:
+  - species_id: product_3-Phospho-D-glyceroyl_phosphate
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_2_1_12_P09317_p57214
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 10300;10301;10302;10303
+  KEGGid: R01061
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:43470; CHEBI:18367; CHEBI:35780; CHEBI:26020;
+    CHEBI:26078; CHEBI:29052; CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:12984;
+    CHEBI:15846; CHEBI:1658; CHEBI:29139; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901;
+    CHEBI:39739; CHEBI:11881; CHEBI:24636; CHEBI:12983; CHEBI:44214; CHEBI:181; CHEBI:16001;
+    CHEBI:21026; CHEBI:13394; CHEBI:5584; CHEBI:29233; CHEBI:39745; CHEBI:57945; CHEBI:44216;
+    CHEBI:7793; CHEBI:59776; CHEBI:57540; CHEBI:7423; CHEBI:57604; CHEBI:45024; CHEBI:13389;
+    CHEBI:13395; CHEBI:15378; CHEBI:18324; CHEBI:43474; CHEBI:44215; CHEBI:29137;
+    CHEBI:10744; CHEBI:7422; CHEBI:20189; CHEBI:16908
+
+    KEGG IDs: KEGG:C00236; KEGG:C00118; KEGG:C00080; KEGG:C00009; KEGG:C00003; KEGG:C00004'
+measurements:
+- id: measurement_1_2_1_12_Ustilago_maydis_P09317_Phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.4
+  temperature_opt: 28.0
+  temperature_unit: °C
+- id: measurement_1_2_1_12_Ustilago_maydis_P09317_D-Glyceraldehyde_3-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.4
+  temperature_opt: 28.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_2_1_12_Ustilago_maydis_P09317_Phosphate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 6.666667e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.4
+  temperature: 28.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18803552'
+- id: 1_2_1_12_Ustilago_maydis_P09317_D-Glyceraldehyde_3-phosphate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 8.333333e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glyceraldehyde_3-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.4
+  temperature: 28.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18803552'
+- id: 1_2_1_12_Ustilago_maydis_P09317_D-Glyceraldehyde_3-phosphate_Vmax_2
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.66667e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glyceraldehyde_3-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.4
+  temperature: 28.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18803552'
+- id: 1_2_1_12_Ustilago_maydis_P09317_D-Glyceraldehyde_3-phosphate_Vmax_3
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glyceraldehyde_3-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.4
+  temperature: 28.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18803552'
+- id: 1_2_1_12_Ustilago_maydis_P09317_D-Glyceraldehyde_3-phosphate_Vmax_4
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glyceraldehyde_3-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.4
+  temperature: 28.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18803552'
+buffer:
+  buffer: 50 mM imidazole, 10 mM acetate, 10 mM MES, 10 mM TRIS, 5 mM cysteine, 10
+    mM arsenate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 57213
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/18803552/
+  pubmed_id: '18803552'
+  doi: null
+name: Merged entry for P09317 wildtype
+description: 'Merged from 2 files: SABIO_EC1.2.1.12_Ustilago_maydis__P09317_s_Phosphate.yaml,
+  SABIO_EC1.2.1.12_Ustilago_maydis__P09317_s_D-Glyceraldehyde.yaml'

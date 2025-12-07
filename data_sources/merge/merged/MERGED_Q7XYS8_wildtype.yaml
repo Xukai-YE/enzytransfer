@@ -1,0 +1,263 @@
+version: '2.0'
+created: '2025-11-20T13:40:22.218894'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_5_1__Q7XYS8_p4033
+  name: Transferring alkyl or aryl groups, other than methyl groups
+  ecnumber: 2.5.1.
+  organism: bovine
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q7XYS8
+  wildtype_sequence: MASFISLSSKSASWNASSCPHPSVQPFVTRKNVVRYHKPTSSEPSYSPLTTTLSSNLNSQFMQVYETLKSELIHDPLFEFDDDSRQWVERMIDYTVPGGKMVRGYSVVDSYQLLKGEELTEEEAFLACALGWCTEWFQAFILLHDDMMDGSHTRRGQPCWFRLPEVGAVAINDGVLLRNHVHRILKKHFQGKAYYVHLVDLFNETEFQTISGQMIDTISRLAGQKELSKYSMSLNRRIVQYKGAYYSCYLPIACALLMFGENLDDYVQVKDILVELGMYYQIQNDYLDTFGDPNVFGKTGTDIEECKCSWLIAKALELANEEQKKILSENYGIKDPAKVAKVKEIYHALNLKGAYEDYETNLYENSMKAIKAHPSIAVQAVLKSCLEKMYKGHK
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Dimethylallyl_diphosphate
+  name: Dimethylallyl diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Lavandulyl_diphosphate
+  name: Lavandulyl diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Chrysanthemyl_diphosphate
+  name: Chrysanthemyl diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Isopentenyl_diphosphate
+  name: Isopentenyl diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Geranyl_diphosphate
+  name: Geranyl diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7102_EC2_5_1__bovine_Q7XYS8_Dimethylallyl_diphosphate
+  name: Reaction catalyzed by Transferring alkyl or aryl groups, other than methyl
+    groups on Dimethylallyl diphosphate
+  equation: Dimethylallyl diphosphate = Chrysanthemyl diphosphate + Lavandulyl diphosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Dimethylallyl_diphosphate
+  products:
+  - species_id: product_Lavandulyl_diphosphate
+  - species_id: product_Chrysanthemyl_diphosphate
+  modifiers:
+  - species_id: protein_2_5_1__Q7XYS8_p4033
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:16057; CHEBI:23803; CHEBI:14169; CHEBI:42074; CHEBI:341937;
+    CHEBI:50280; CHEBI:26245; CHEBI:14883; CHEBI:50272; CHEBI:58820; CHEBI:4616; CHEBI:50284;
+    CHEBI:143949; CHEBI:12280; CHEBI:57623; CHEBI:8394
+
+    KEGG IDs: KEGG:C18052; KEGG:C18051; KEGG:C00235; KEGG:C17627'
+- id: sabiork_7101_EC2_5_1__bovine_Q7XYS8_Dimethylallyl_diphosphate
+  name: Reaction catalyzed by Transferring alkyl or aryl groups, other than methyl
+    groups on Dimethylallyl diphosphate
+  equation: Dimethylallyl diphosphate + Isopentenyl diphosphate = Chrysanthemyl diphosphate
+    + Lavandulyl diphosphate + Geranyl diphosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Dimethylallyl_diphosphate
+  - species_id: substrate_Isopentenyl_diphosphate
+  products:
+  - species_id: product_Geranyl_diphosphate
+  - species_id: product_Chrysanthemyl_diphosphate
+  - species_id: product_Lavandulyl_diphosphate
+  modifiers:
+  - species_id: protein_2_5_1__Q7XYS8_p4034
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:16057; CHEBI:23803; CHEBI:128769; CHEBI:14299; CHEBI:5332;
+    CHEBI:6037; CHEBI:12280; CHEBI:8394; CHEBI:50272; CHEBI:58057; CHEBI:42877; CHEBI:16584;
+    CHEBI:24223; CHEBI:14473; CHEBI:14883; CHEBI:58820; CHEBI:341937; CHEBI:143949;
+    CHEBI:57623; CHEBI:14169; CHEBI:42074; CHEBI:50280; CHEBI:26245; CHEBI:17211;
+    CHEBI:4616; CHEBI:50284; CHEBI:24907
+
+    KEGG IDs: KEGG:C17627; KEGG:C00129; KEGG:C18052; KEGG:C18051; KEGG:C00341; KEGG:C00235'
+measurements:
+- id: measurement_2_5_1__bovine_Q7XYS8_Dimethylallyl_diphosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_2_5_1__bovine_Q7XYS8_Dimethylallyl_diphosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_5_1__bovine_Q7XYS8_Dimethylallyl_diphosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00143
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Dimethylallyl_diphosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12782626'
+- id: 2_5_1__bovine_Q7XYS8_Dimethylallyl_diphosphate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 36.66667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Dimethylallyl_diphosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12782626'
+- id: 2_5_1__bovine_Q7XYS8_Dimethylallyl_diphosphate_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.05333333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Dimethylallyl_diphosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12782626'
+- id: 2_5_1__bovine_Q7XYS8_Dimethylallyl_diphosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.001334
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Dimethylallyl_diphosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12782626'
+- id: 2_5_1__bovine_Q7XYS8_Dimethylallyl_diphosphate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.0125
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Dimethylallyl_diphosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12782626'
+buffer:
+  buffer: 30 mM HEPES-NaOH, 2 mM MgCl2, 5 mM dithiothreitol 0.5% (v/v) bovine serum
+    albumin
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 4033
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12782626/
+  pubmed_id: '12782626'
+  doi: null
+name: Merged entry for Q7XYS8 wildtype
+description: 'Merged from 2 files: SABIO_EC2.5.1._bovine__Q7XYS8_s_Dimethylallyl.yaml,
+  SABIO_EC2.5.1._bovine__Q7XYS8_s_Dimethylallyl_2.yaml'

@@ -1,0 +1,314 @@
+version: '2.0'
+created: '2025-11-20T13:39:30.658487'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_13_11_18_O95571_p64833
+  name: sulfur dioxygenase
+  ecnumber: 1.13.11.18
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: O95571
+  wildtype_sequence: MAEAVLRVARRQLSQRGGSGAPILLRQMFEPVSCTFTYLLGDRESREAVLIDPVLETAPRDAQLIKELGLRLLYAVNTHCHADHITGSGLLRSLLPGCQSVISRLSGAQADLHIEDGDSIRFGRFALETRASPGHTPGCVTFVLNDHSMAFTGDALLIRGCGRTDFQQGCAKTLYHSVHEKIFTLPGDCLIYPAHDYHGFTVSTVEEERTLNPRLTLSCEEFVKIMGNLNLPKPQQIDFAVPANMRCGVQTPTA
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_S-Sulfanylglutathione
+  name: S-Sulfanylglutathione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Fe2_
+  name: Fe2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Sulfite
+  name: Sulfite
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Reduced_glutathione
+  name: Reduced glutathione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_15159_EC1_13_11_18_Homo_sapiens_O95571_O2
+  name: Reaction catalyzed by sulfur dioxygenase on O2
+  equation: H2O + O2 + S-Sulfanylglutathione = H+ + Reduced glutathione + Sulfite
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_S-Sulfanylglutathione
+  - species_id: cofactor_Fe2_
+  products:
+  - species_id: product_Sulfite
+  - species_id: product_Reduced_glutathione
+  modifiers:
+  - species_id: protein_1_13_11_18_O95571_p64833
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 12981;12982;12983;12984
+  KEGGid: R08678
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:12402; CHEBI:44819; CHEBI:41981;
+    CHEBI:13367; CHEBI:29033; CHEBI:16856; CHEBI:5437; CHEBI:48854; CHEBI:9344; CHEBI:34754;
+    CHEBI:26689; CHEBI:21129; CHEBI:42857; CHEBI:41979; CHEBI:29234; CHEBI:17359;
+    CHEBI:13357; CHEBI:24334; CHEBI:14327; CHEBI:23833; CHEBI:13416; CHEBI:42043;
+    CHEBI:24636; CHEBI:15139; CHEBI:58905; CHEBI:29233; CHEBI:33811; CHEBI:33813;
+    CHEBI:27313; CHEBI:5584; CHEBI:15377; CHEBI:13319; CHEBI:13352; CHEBI:15379; CHEBI:24876;
+    CHEBI:43228; CHEBI:5598; CHEBI:44292; CHEBI:30491; CHEBI:43049; CHEBI:33806; CHEBI:25366;
+    CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:15378; CHEBI:26837; CHEBI:29793;
+    CHEBI:42873; CHEBI:7860; CHEBI:10745; CHEBI:17137; CHEBI:52857; CHEBI:57925; CHEBI:13321;
+    CHEBI:10744; CHEBI:45548; CHEBI:29373; CHEBI:44701; CHEBI:49599
+
+    KEGG IDs: KEGG:C00051; KEGG:C14818; KEGG:C00080; KEGG:C11481; KEGG:C17267; KEGG:C00001;
+    KEGG:C00704; KEGG:C00007; KEGG:C00094'
+- id: sabiork_15159_EC1_13_11_18_Homo_sapiens_O95571_O2
+  name: Reaction catalyzed by sulfur dioxygenase on O2
+  equation: H2O + O2 + S-Sulfanylglutathione = H+ + Reduced glutathione + Sulfite
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_S-Sulfanylglutathione
+  - species_id: cofactor_Fe2_
+  products:
+  - species_id: product_Sulfite
+  - species_id: product_Reduced_glutathione
+  modifiers:
+  - species_id: protein_1_13_11_18_O95571_p64834
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 12981;12982;12983;12984
+  KEGGid: R08678
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:12402; CHEBI:44819; CHEBI:41981;
+    CHEBI:13367; CHEBI:29033; CHEBI:16856; CHEBI:5437; CHEBI:48854; CHEBI:9344; CHEBI:34754;
+    CHEBI:26689; CHEBI:21129; CHEBI:42857; CHEBI:41979; CHEBI:29234; CHEBI:17359;
+    CHEBI:13357; CHEBI:24334; CHEBI:14327; CHEBI:23833; CHEBI:13416; CHEBI:42043;
+    CHEBI:24636; CHEBI:15139; CHEBI:58905; CHEBI:29233; CHEBI:33811; CHEBI:33813;
+    CHEBI:27313; CHEBI:5584; CHEBI:15377; CHEBI:13319; CHEBI:13352; CHEBI:15379; CHEBI:24876;
+    CHEBI:43228; CHEBI:5598; CHEBI:44292; CHEBI:30491; CHEBI:43049; CHEBI:33806; CHEBI:25366;
+    CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:26837; CHEBI:15378; CHEBI:29793;
+    CHEBI:42873; CHEBI:7860; CHEBI:10745; CHEBI:17137; CHEBI:52857; CHEBI:57925; CHEBI:13321;
+    CHEBI:10744; CHEBI:45548; CHEBI:29373; CHEBI:44701; CHEBI:49599
+
+    KEGG IDs: KEGG:C00051; KEGG:C14818; KEGG:C00080; KEGG:C11481; KEGG:C17267; KEGG:C00001;
+    KEGG:C00704; KEGG:C00007; KEGG:C00094'
+measurements:
+- id: measurement_1_13_11_18_Homo_sapiens_O95571_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_1_13_11_18_Homo_sapiens_O95571_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 22.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_13_11_18_Homo_sapiens_O95571_O2_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 140000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.4
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23144459'
+- id: 1_13_11_18_Homo_sapiens_O95571_O2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 47.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23144459'
+- id: 1_13_11_18_Homo_sapiens_O95571_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00034
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23144459'
+- id: 1_13_11_18_Homo_sapiens_O95571_O2_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.001883333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23144459'
+- id: 1_13_11_18_Homo_sapiens_O95571_O2_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.004183333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23144459'
+- id: 1_13_11_18_Homo_sapiens_O95571_O2_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 416000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.4
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23144459'
+- id: 1_13_11_18_Homo_sapiens_O95571_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00025
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23144459'
+- id: 1_13_11_18_Homo_sapiens_O95571_O2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 104.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23144459'
+buffer:
+  buffer: 100 mM sodium phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 64833
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/23144459/
+  pubmed_id: '23144459'
+  doi: null
+name: Merged entry for O95571 wildtype
+description: 'Merged from 2 files: SABIO_EC1.13.11.18_Homo_sapiens__O95571_s_O2.yaml,
+  SABIO_EC1.13.11.18_Homo_sapiens__O95571_s_O2_2.yaml'

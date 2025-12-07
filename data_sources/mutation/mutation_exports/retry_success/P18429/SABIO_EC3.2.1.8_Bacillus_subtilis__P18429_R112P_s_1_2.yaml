@@ -1,0 +1,200 @@
+name: SABIO-RK Entry 43502
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 43502
+created: '2025-10-28T15:28:10.758992'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_2_1_8_P18429_p43502
+  name: endo-1,4-beta-xylanase
+  ecnumber: 3.2.1.8
+  organism: Bacillus subtilis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: R112P
+  uniprotid: P18429
+  wildtype_sequence: MFKFKKNFLVGLSAALMSISLFSATASAASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFSNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW
+  mutant_sequence: MFKFKKNFLVGLSAALMSISLFSATASAASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYPPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFSNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW
+  position_offset: 5
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_1
+  name: '1'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_4-beta-D-Xylan
+  name: 4-beta-D-Xylan
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_1
+  name: '1'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4-beta-D-Xylan
+  name: 4-beta-D-Xylan
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Xylose
+  name: D-Xylose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1618_EC3_2_1_8_Bacillus_subtilis_P18429_1
+  name: Reaction catalyzed by endo-1,4-beta-xylanase on 1
+  equation: D-Xylose + 1,4-beta-D-Xylan = H2O + 1,4-beta-D-Xylan
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: product_1
+  - species_id: product_4-beta-D-Xylan
+  products:
+  - species_id: product_1
+  - species_id: product_4-beta-D-Xylan
+  - species_id: product_D-Xylose
+  modifiers:
+  - species_id: protein_3_2_1_8_P18429_p43502
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01433
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:57574; CHEBI:41981; CHEBI:42857;
+    CHEBI:41979; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15447;
+    CHEBI:15377; CHEBI:13352; CHEBI:13033; CHEBI:43228; CHEBI:44292; CHEBI:21118;
+    CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:4265; CHEBI:15936; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C00181; KEGG:C00001; KEGG:C02352'
+measurements:
+- id: measurement_3_2_1_8_Bacillus_subtilis_P18429_1
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.0
+  temperature_opt: 40.0
+  temperature_unit: °C
+parameters:
+- id: 3_2_1_8_Bacillus_subtilis_P18429_1_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 9.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_1
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 6.0
+  temperature: 40.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19422059'
+- id: 3_2_1_8_Bacillus_subtilis_P18429_1_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 79.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_1
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 40.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19422059'
+- id: 3_2_1_8_Bacillus_subtilis_P18429_1_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 8.4
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_1
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 40.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19422059'
+buffer:
+  buffer: 20 mM McIlvaine
+  buffer_concentration: 20 mM
+references:
+- title: Reference for SABIO-RK entry 43502
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/19422059/
+  pubmed_id: '19422059'
+  doi: null

@@ -1,0 +1,265 @@
+version: '2.0'
+created: '2025-11-20T13:41:34.228757'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_2_1_70_P33025_p75810
+  name: pseudouridylate synthase
+  ecnumber: 4.2.1.70
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P33025
+  wildtype_sequence: MSELKISPELLQISPEVQDALKNKKPVVALESTIISHGMPFPQNAQTAIEVEETIRKQGAVPATIAIIGGVMKVGLSKEEIELLGREGHNVTKVSRRDLPFVVAAGKNGATTVASTMIIAALAGIKVFATGGIGGVHRGAEHTFDISADLQELANTNVTVVCAGAKSILDLGLTTEYLETFGVPLIGYQTKALPAFFCRTSPFDVSIRLDSASEIARAMVVKWQSGLNGGLVVANPIPEQFAMPEHTINAAIDQAVAEAEAQGVIGKESTPFLLARVAELTGGDSLKSNIQLVFNNAILASEIAKEYQRLAG
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Pseudouridine_5_-phosphate
+  name: Pseudouridine 5'-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mn2_
+  name: Mn2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Uracil
+  name: Uracil
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Ribose_5-phosphate
+  name: D-Ribose 5-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Ribose_5-phosphate
+  name: D-Ribose 5-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Uracil
+  name: Uracil
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Pseudouridine_5_-phosphate
+  name: Pseudouridine 5'-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_92_EC4_2_1_70_Escherichia_coli_P33025_Pseudouridine_5_-phosphate
+  name: Reaction catalyzed by pseudouridylate synthase on Pseudouridine 5'-phosphate
+  equation: Uracil + D-Ribose 5-phosphate = H2O + Pseudouridine 5'-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Pseudouridine_5_-phosphate
+  - species_id: cofactor_Mn2_
+  products:
+  - species_id: product_Uracil
+  - species_id: product_D-Ribose_5-phosphate
+  modifiers:
+  - species_id: protein_4_2_1_70_P33025_p75810
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01055
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:29035; CHEBI:44819; CHEBI:41981; CHEBI:18116;
+    CHEBI:58273; CHEBI:21435; CHEBI:27210; CHEBI:4238; CHEBI:49749; CHEBI:42857; CHEBI:15048;
+    CHEBI:41979; CHEBI:21083; CHEBI:42043; CHEBI:25156; CHEBI:33811; CHEBI:33813;
+    CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:43228; CHEBI:44292; CHEBI:33806;
+    CHEBI:43254; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:17797; CHEBI:17568; CHEBI:15288;
+    CHEBI:9882; CHEBI:13013; CHEBI:29373; CHEBI:44701; CHEBI:46375
+
+    KEGG IDs: KEGG:C00117; KEGG:C00034; KEGG:C00001; KEGG:C19610; KEGG:C00106; KEGG:C01168'
+- id: sabiork_92_EC4_2_1_70_Escherichia_coli_P33025_D-Ribose_5-phosphate
+  name: Reaction catalyzed by pseudouridylate synthase on D-Ribose 5-phosphate
+  equation: Uracil + D-Ribose 5-phosphate = H2O + Pseudouridine 5'-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Ribose_5-phosphate
+  - species_id: substrate_Uracil
+  - species_id: cofactor_Mn2_
+  products:
+  - species_id: product_Pseudouridine_5_-phosphate
+  modifiers:
+  - species_id: protein_4_2_1_70_P33025_p76572
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01055
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:29035; CHEBI:44819; CHEBI:41981; CHEBI:18116;
+    CHEBI:58273; CHEBI:21435; CHEBI:27210; CHEBI:4238; CHEBI:49749; CHEBI:42857; CHEBI:15048;
+    CHEBI:41979; CHEBI:21083; CHEBI:42043; CHEBI:25156; CHEBI:33811; CHEBI:33813;
+    CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:43228; CHEBI:44292; CHEBI:17797;
+    CHEBI:43254; CHEBI:33806; CHEBI:29374; CHEBI:5585; CHEBI:10743; CHEBI:17568; CHEBI:15288;
+    CHEBI:9882; CHEBI:13013; CHEBI:29373; CHEBI:44701; CHEBI:46375
+
+    KEGG IDs: KEGG:C00117; KEGG:C00034; KEGG:C00001; KEGG:C19610; KEGG:C00106; KEGG:C01168'
+measurements:
+- id: measurement_4_2_1_70_Escherichia_coli_P33025_Pseudouridine_5_-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.1
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_4_2_1_70_Escherichia_coli_P33025_D-Ribose_5-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.1
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 4_2_1_70_Escherichia_coli_P33025_Pseudouridine_5_-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Pseudouridine_5_-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.1
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18591240'
+- id: 4_2_1_70_Escherichia_coli_P33025_D-Ribose_5-phosphate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 22000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Ribose_5-phosphate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.1
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23066817'
+- id: 4_2_1_70_Escherichia_coli_P33025_D-Ribose_5-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0001696
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Ribose_5-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.1
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23066817'
+- id: 4_2_1_70_Escherichia_coli_P33025_D-Ribose_5-phosphate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 3.74
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Ribose_5-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.1
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23066817'
+buffer:
+  buffer: 25 mM HEPES; 25 mM HEPES, 25 mM KCl, 1 mM MgCl2, 1 mM dithiothreitol, 50
+    ¦ÌM CTP-Mg, 0.15 mM NADPH, 1.7 U/ml spinach ribose-5-phosphate isomerase, 0.3
+    U/ml Haemophilus influenzae ribulose-5-phosphate reductase
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 75810
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/18591240/
+  pubmed_id: '18591240'
+  doi: null
+- title: Reference for SABIO-RK entry 76572
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/23066817/
+  pubmed_id: '23066817'
+  doi: null
+name: Merged entry for P33025 wildtype
+description: 'Merged from 2 files: SABIO_EC4.2.1.70_Escherichia_coli__P33025_s_Pseudouridine.yaml,
+  SABIO_EC4.2.1.70_Escherichia_coli__P33025_s_D-Ribose.yaml'

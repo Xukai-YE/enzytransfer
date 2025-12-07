@@ -1,0 +1,156 @@
+name: SABIO-RK Entry 21426
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 21426
+created: '2025-10-28T14:18:02.155703'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_1_P04806_P04807_p21426
+  name: hexokinase
+  sequence: null
+  ecnumber: 2.7.1.1
+  organism: porcine
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P04806; P04807
+complexes: null
+small_molecules:
+- id: substrate_D-Hexose
+  name: D-Hexose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Hexose_6-phosphate
+  name: D-Hexose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2712_EC2_7_1_1_porcine_P04806_P04807_D-Hexose
+  name: Reaction catalyzed by hexokinase on D-Hexose
+  equation: D-Hexose + ATP = D-Hexose 6-phosphate + ADP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Hexose
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_D-Hexose_6-phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_1_P04806_P04807_p21426
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02848
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:40553; CHEBI:13236; CHEBI:10841; CHEBI:2359; CHEBI:4194; CHEBI:87518; CHEBI:40938;
+    CHEBI:456216; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:17348; CHEBI:13222;
+    CHEBI:22244; CHEBI:4195
+
+    KEGG IDs: KEGG:C02965; KEGG:C00002; KEGG:C00008; KEGG:C00738'
+measurements:
+- id: measurement_2_7_1_1_porcine_P04806_P04807_D-Hexose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 22.0
+  temperature_unit: °C
+parameters:
+- id: 2_7_1_1_porcine_P04806_P04807_D-Hexose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00043
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Hexose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '4354813'
+buffer:
+  buffer: 50 mM triethanolamine-HCl, 10 mM MgCl2, 100 mM KCl, 1 mM phosphoenolpyruvate,
+    0.18 mM NADH, 10 U/ml porcine muscle lactate dehydrogenase, 10 U/ml rabbit muscle
+    pyruvate kinase
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 21426
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/4354813/
+  pubmed_id: '4354813'
+  doi: null

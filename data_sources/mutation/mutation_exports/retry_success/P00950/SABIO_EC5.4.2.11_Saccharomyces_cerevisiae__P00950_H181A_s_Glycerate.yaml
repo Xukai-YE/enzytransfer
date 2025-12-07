@@ -1,0 +1,143 @@
+name: SABIO-RK Entry 59042
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 59042
+created: '2025-10-28T16:25:22.561652'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_5_4_2_11_P00950_p59042
+  name: phosphoglycerate mutase (2,3-diphosphoglycerate-dependent)
+  ecnumber: 5.4.2.11
+  organism: Saccharomyces cerevisiae
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: H181A
+  uniprotid: P00950
+  wildtype_sequence: MPKLVLVRHGQSEWNEKNLFTGWVDVKLSAKGQQEAARAGELLKEKKVYPDVLYTSKLSRAIQTANIALEKADRLWIPVNRSWRLNERHYGDLQGKDKAETLKKFGEEKFNTYRRSFDVPPPPIDASSPFSQKGDERYKYVDPNVLPETESLALVIDRLLPYWQDVIAKDLLSGKTVMIAAHGNSLRGLVKHLEGISDADIAKLNIPTGIPLVFELDENLKPSKPSYYLDPEAAAAGAAAVANQGKK
+  mutant_sequence: MPKLVLVRHGQSEWNEKNLFTGWVDVKLSAKGQQEAARAGELLKEKKVYPDVLYTSKLSRAIQTANIALEKADRLWIPVNRSWRLNERHYGDLQGKDKAETLKKFGEEKFNTYRRSFDVPPPPIDASSPFSQKGDERYKYVDPNVLPETESLALVIDRLLPYWQDVIAKDLLSGKTVMIAAAGNSLRGLVKHLEGISDADIAKLNIPTGIPLVFELDENLKPSKPSYYLDPEAAAAGAAAVANQGKK
+  position_offset: 1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Glycerate_3-phosphate
+  name: Glycerate 3-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Phosphoglycerate
+  name: 2-Phosphoglycerate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_2_3-Bisphosphoglycerate
+  name: 2,3-Bisphosphoglycerate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7_EC5_4_2_11_Saccharomyces_cerevisiae_P00950_Glycerate_3-phosphate
+  name: Reaction catalyzed by phosphoglycerate mutase (2,3-diphosphoglycerate-dependent)
+    on Glycerate 3-phosphate
+  equation: 2-Phosphoglycerate = Glycerate 3-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Glycerate_3-phosphate
+  products:
+  - species_id: product_2-Phosphoglycerate
+  modifiers:
+  - species_id: protein_5_4_2_11_P00950_p59042
+    role: BIOCATALYST
+  - species_id: activator_2_3-Bisphosphoglycerate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 15901;15902;15903;15904
+  KEGGid: R01518
+  notes: 'ChEBI IDs: CHEBI:17720; CHEBI:1657; CHEBI:24344; CHEBI:19325; CHEBI:11880;
+    CHEBI:11882; CHEBI:12987; CHEBI:41885; CHEBI:88352; CHEBI:28907; CHEBI:17835;
+    CHEBI:21028; CHEBI:11651; CHEBI:1267; CHEBI:57998; CHEBI:19324; CHEBI:58272; CHEBI:19306;
+    CHEBI:58289; CHEBI:873; CHEBI:88005; CHEBI:58248; CHEBI:39868; CHEBI:12986; CHEBI:19307;
+    CHEBI:24345; CHEBI:17050; CHEBI:872; CHEBI:17794; CHEBI:1659; CHEBI:21029; CHEBI:11879;
+    CHEBI:11417; CHEBI:40016; CHEBI:88350
+
+    KEGG IDs: KEGG:C00597; KEGG:C03339; KEGG:C00631; KEGG:C00197; KEGG:C01159'
+measurements:
+- id: measurement_5_4_2_11_Saccharomyces_cerevisiae_P00950_Glycerate_3-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 5_4_2_11_Saccharomyces_cerevisiae_P00950_Glycerate_3-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 87.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glycerate_3-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1386023'
+buffer:
+  buffer: 30 mM Tris/HCl, 20 mM KCl, 5 mM MgS04, 0.2 mM ADP, 0.15 mM NADH, 0.08 U
+    enolase, 0.5 U pyruvate kinase and 0.5 U lactate dehydrogenase
+  buffer_concentration: 30 mM
+references:
+- title: Reference for SABIO-RK entry 59042
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/1386023/
+  pubmed_id: '1386023'
+  doi: null

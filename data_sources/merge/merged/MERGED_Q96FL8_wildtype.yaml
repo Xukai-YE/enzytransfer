@@ -1,0 +1,248 @@
+version: '2.0'
+created: '2025-11-20T13:41:56.490579'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_unknown_Q96FL8_p77502
+  name: protein#77502
+  ecnumber: null
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q96FL8
+  wildtype_sequence: MEAPEEPAPVRGGPEATLEVRGSRCLRLSAFREELRALLVLAGPAFLVQLMVFLISFISSVFCGHLGKLELDAVTLAIAVINVTGVSVGFGLSSACDTLISQTYGSQNLKHVGVILQRSALVLLLCCFPCWALFLNTQHILLLFRQDPDVSRLTQTYVTIFIPALPATFLYMLQVKYLLNQGIVLPQIVTGVAANLVNALANYLFLHQLHLGVIGSALANLISQYTLALLLFLYILGKKLHQATWGGWSLECLQDWASFLRLAIPSMLMLCMEWWAYEVGSFLSGILGMVELGAQSIVYELAIIVYMVPAGFSVAASVRVGNALGAGDMEQARKSSTVSLLITVLFAVAFSVLLLSCKDHVGYIFTTDRDIINLVAQVVPIYAVSHLFEALACTSGGVLRGSGNQKVGAIVNTIGYYVVGLPIGIALMFATTLGVMGLWSGIIICTVFQAVCFLGFIIQLNWKKACQQAQVHANLKVNNVPRSGNSALPQDPLHPGCPENLEGILTNDVGKTGEPQSDQQMRQEEPLPEHPQDGAKLSRKQLVLRRGLLLLGVFLILLVGILVRFYVRIQ
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Agmatine
+  name: Agmatine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Agmatine
+  name: Agmatine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Thiamin
+  name: Thiamin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Thiamin
+  name: Thiamin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_16795_ECunknown_Homo_sapiens_Q96FL8_Agmatine
+  name: Reaction catalyzed by enzyme on Agmatine
+  equation: Agmatine = Agmatine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: product_Agmatine
+  products:
+  - species_id: product_Agmatine
+  modifiers:
+  - species_id: protein_unknown_Q96FL8_p77502
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:13747; CHEBI:2514; CHEBI:18576; CHEBI:17431; CHEBI:58145;
+    CHEBI:40556
+
+    KEGG IDs: KEGG:C00179'
+- id: sabiork_12167_ECunknown_Homo_sapiens_Q96FL8_Thiamin
+  name: Reaction catalyzed by enzyme on Thiamin
+  equation: Thiamin = Thiamin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: product_Thiamin
+  products:
+  - species_id: product_Thiamin
+  modifiers:
+  - species_id: protein_unknown_Q96FL8_p77494
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:33283; CHEBI:18385
+
+    KEGG IDs: KEGG:C00378'
+measurements:
+- id: measurement_unknown_Homo_sapiens_Q96FL8_Agmatine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_unknown_Homo_sapiens_Q96FL8_Thiamin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: null
+  temperature_opt: 22.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: unknown_Homo_sapiens_Q96FL8_Agmatine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00024
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_Agmatine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '21128598'
+- id: unknown_Homo_sapiens_Q96FL8_Agmatine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 3.2e-09
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_Agmatine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '21128598'
+- id: unknown_Homo_sapiens_Q96FL8_Thiamin_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 4.9e-08
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_Thiamin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '24961373'
+- id: unknown_Homo_sapiens_Q96FL8_Thiamin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.9e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_Thiamin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '24961373'
+- id: unknown_Homo_sapiens_Q96FL8_Thiamin_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00083
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_Thiamin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '24961373'
+buffer:
+  buffer: PBS; 25 mM Tricine, 125 mM NaCl, 4.8 mM KCl, 5.6 mM D-glucose, 1.2 mM CaCl2,
+    1.2 mM K2HPO4, 1.2 mM MgSO4
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 77502
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/21128598/
+  pubmed_id: '21128598'
+  doi: null
+- title: Reference for SABIO-RK entry 77494
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/24961373/
+  pubmed_id: '24961373'
+  doi: null
+name: Merged entry for Q96FL8 wildtype
+description: 'Merged from 2 files: SABIO_Homo_sapiens__Q96FL8_s_Agmatine.yaml, SABIO_Homo_sapiens__Q96FL8_s_Thiamin.yaml'

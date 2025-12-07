@@ -1,0 +1,150 @@
+name: SABIO-RK Entry 3315
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 3315
+created: '2025-10-28T13:46:47.758425'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_4_21_5_P00734_p3315
+  name: thrombin
+  ecnumber: 3.4.21.5
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: Y71A
+  uniprotid: P00734
+  wildtype_sequence: MAHVRGLQLPGCLALAALCSLVHSQHVFLAPQQARSLLQRVRRANTFLEEVRKGNLERECVEETCSYEEAFEALESSTATDVFWAKYTACETARTPRDKLAACLEGNCAEGLGTNYRGHVNITRSGIECQLWRSRYPHKPEINSTTHPGADLQENFCRNPDSSTTGPWCYTTDPTVRRQECSIPVCGQDQVTVAMTPRSEGSSVNLSPPLEQCVPDRGQQYQGRLAVTTHGLPCLAWASAQAKALSKHQDFNSAVQLVENFCRNPDGDEEGVWCYVAGKPGDFGYCDLNYCEEAVEEETGDGLDEDSDRAIEGRTATSEYQTFFNPRTFGSGEADCGLRPLFEKKSLEDKTERELLESYIDGRIVEGSDAEIGMSPWQVMLFRKSPQELLCGASLISDRWVLTAAHCLLYPPWDKNFTENDLLVRIGKHSRTRYERNIEKISMLEKIYIHPRYNWRENLDRDIALMKLKKPVAFSDYIHPVCLPDRETAASLLQAGYKGRVTGWGNLKETWTANVGKGQPSVLQVVNLPIVERPVCKDSTRIRITDNMFCAGYKPDEGKRGDACEGDSGGPFVMKSPFNNRWYQMGIVSWGEGCDRDGKYGFYTHVFRLKKWIQKVIDQFGE
+  mutant_sequence: MAHVRGLQLPGCLALAALCSLVHSQHVFLAPQQARSLLQRVRRANTFLEEVRKGNLERECVEETCSAEEAFEALESSTATDVFWAKYTACETARTPRDKLAACLEGNCAEGLGTNYRGHVNITRSGIECQLWRSRYPHKPEINSTTHPGADLQENFCRNPDSSTTGPWCYTTDPTVRRQECSIPVCGQDQVTVAMTPRSEGSSVNLSPPLEQCVPDRGQQYQGRLAVTTHGLPCLAWASAQAKALSKHQDFNSAVQLVENFCRNPDGDEEGVWCYVAGKPGDFGYCDLNYCEEAVEEETGDGLDEDSDRAIEGRTATSEYQTFFNPRTFGSGEADCGLRPLFEKKSLEDKTERELLESYIDGRIVEGSDAEIGMSPWQVMLFRKSPQELLCGASLISDRWVLTAAHCLLYPPWDKNFTENDLLVRIGKHSRTRYERNIEKISMLEKIYIHPRYNWRENLDRDIALMKLKKPVAFSDYIHPVCLPDRETAASLLQAGYKGRVTGWGNLKETWTANVGKGQPSVLQVVNLPIVERPVCKDSTRIRITDNMFCAGYKPDEGKRGDACEGDSGGPFVMKSPFNNRWYQMGIVSWGEGCDRDGKYGFYTHVFRLKKWIQKVIDQFGE
+  position_offset: -4
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Coagulation_Factor_XIII
+  name: Coagulation Factor XIII
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Coagulation_Factor_XIIIa
+  name: Coagulation Factor XIIIa
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Peptide
+  name: Peptide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Fibrinogen
+  name: Fibrinogen
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7033_EC3_4_21_5_Homo_sapiens_P00734_Coagulation_Factor_XIII
+  name: Reaction catalyzed by thrombin on Coagulation Factor XIII
+  equation: Coagulation Factor XIII + H2O = Coagulation Factor XIIIa + Peptide
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Coagulation_Factor_XIII
+  products:
+  - species_id: product_Coagulation_Factor_XIIIa
+  - species_id: product_Peptide
+  modifiers:
+  - species_id: protein_3_4_21_5_P00734_p3315
+    role: BIOCATALYST
+  - species_id: activator_Fibrinogen
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:16670; CHEBI:42857;
+    CHEBI:41979; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377;
+    CHEBI:13352; CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00393; KEGG:C00001; KEGG:C00012'
+measurements:
+- id: measurement_3_4_21_5_Homo_sapiens_P00734_Coagulation_Factor_XIII
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.3
+  temperature_opt: 22.0
+  temperature_unit: °C
+parameters:
+- id: 3_4_21_5_Homo_sapiens_P00734_Coagulation_Factor_XIII_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 38000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Coagulation_Factor_XIII
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.3
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12794066'
+buffer:
+  buffer: 40 mM Tris-HCl, 140 mM NaCl, 0.1 mM dithiothreitol, 5 mM CaCl2, 0.02% (w/v)
+    NaN3, 0.1 mM 5-(biotinamido)pentylamine
+  buffer_concentration: 40 mM
+references:
+- title: Reference for SABIO-RK entry 3315
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12794066/
+  pubmed_id: '12794066'
+  doi: null

@@ -1,0 +1,164 @@
+name: SABIO-RK Entry 39395
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 39395
+created: '2025-10-28T15:12:06.207847'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_5_1_26_P20933_P20933_p39395
+  name: N4-(beta-N-acetylglucosaminyl)-L-asparaginase
+  sequence: null
+  ecnumber: 3.5.1.26
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: r72A
+  uniprotid: P20933; P20933
+complexes: null
+small_molecules:
+- id: substrate_N4-_Acetyl-beta-D-glucosaminyl_asparagine
+  name: N4-(Acetyl-beta-D-glucosaminyl)asparagine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Asparagine
+  name: L-Asparagine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N-Acetyl-D-glucosamine
+  name: N-Acetyl-D-glucosamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1483_EC3_5_1_26_Homo_sapiens_P20933_P20933_N4-_Acetyl-beta-D-glucosaminyl_asparagine
+  name: Reaction catalyzed by N4-(beta-N-acetylglucosaminyl)-L-asparaginase on N4-(Acetyl-beta-D-glucosaminyl)asparagine
+  equation: H2O + N4-(Acetyl-beta-D-glucosaminyl)asparagine = N-Acetyl-D-glucosamine
+    + L-Asparagine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N4-_Acetyl-beta-D-glucosaminyl_asparagine
+  products:
+  - species_id: product_L-Asparagine
+  - species_id: product_N-Acetyl-D-glucosamine
+  modifiers:
+  - species_id: protein_3_5_1_26_P20933_P20933_p39395
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 12324;12325;12326;12327
+  KEGGid: R01266
+  notes: 'ChEBI IDs: CHEBI:6191; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:12563;
+    CHEBI:32650; CHEBI:17411; CHEBI:21517; CHEBI:691; CHEBI:42857; CHEBI:41979; CHEBI:12455;
+    CHEBI:17196; CHEBI:32651; CHEBI:58048; CHEBI:42043; CHEBI:21835; CHEBI:7385; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:58080; CHEBI:15377; CHEBI:13352; CHEBI:40902;
+    CHEBI:13083; CHEBI:43228; CHEBI:7123; CHEBI:44292; CHEBI:19031; CHEBI:33806; CHEBI:10743;
+    CHEBI:29374; CHEBI:5585; CHEBI:50347; CHEBI:58134; CHEBI:12641; CHEBI:21242; CHEBI:11206;
+    CHEBI:17261; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00140; KEGG:C00001; KEGG:C00152; KEGG:C04540'
+measurements:
+- id: measurement_3_5_1_26_Homo_sapiens_P20933_P20933_N4-_Acetyl-beta-D-glucosaminyl_asparagine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 3_5_1_26_Homo_sapiens_P20933_P20933_N4-_Acetyl-beta-D-glucosaminyl_asparagine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0025
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N4-_Acetyl-beta-D-glucosaminyl_asparagine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8670796'
+- id: 3_5_1_26_Homo_sapiens_P20933_P20933_N4-_Acetyl-beta-D-glucosaminyl_asparagine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 4.5e-08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N4-_Acetyl-beta-D-glucosaminyl_asparagine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8670796'
+buffer:
+  buffer: 67 mM K-phosphate
+  buffer_concentration: 67 mM
+references:
+- title: Reference for SABIO-RK entry 39395
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/8670796/
+  pubmed_id: '8670796'
+  doi: null

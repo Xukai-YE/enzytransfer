@@ -1,0 +1,182 @@
+name: SABIO-RK Entry 58852
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 58852
+created: '2025-10-28T16:24:44.400393'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_13_1_5_G0WXL9_p58852
+  name: carbon disulfide hydrolase
+  sequence: null
+  ecnumber: 3.13.1.5
+  organism: Acidianus sp.
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: e96S
+  uniprotid: G0WXL9
+  mutant_sequence: MVSEYIDSELKRLEDYALRRVKGIPNNRRLWVLTCMDERVHIEQSLGIQPDDAHIYRNAGGIVTDDAIRSASLTTNFFGTKEIIVVTHTDCGMLRFTGSEVAKYFISKGIKPTEVQLDPLLPAFRISSEEDFIKWFKFYEDLGVKSPDEMALKGVEILRNHPLIPKDVRITGYVYEVETHRLRKPNQIIYNETSKFEHGTIVKE
+  position_offset: 3
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Carbon_disulfide
+  name: Carbon disulfide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Hydrogen_sulfide
+  name: Hydrogen sulfide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_14361_EC3_13_1_5_Acidianus_sp._G0WXL9_Carbon_disulfide
+  name: Reaction catalyzed by carbon disulfide hydrolase on Carbon disulfide
+  equation: H2O + Carbon disulfide = CO2 + Hydrogen sulfide
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Carbon_disulfide
+  products:
+  - species_id: product_CO2
+  - species_id: product_Hydrogen_sulfide
+  modifiers:
+  - species_id: protein_3_13_1_5_G0WXL9_p58852
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 38143;38144;38145;38146
+  KEGGid: R10538
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:43058; CHEBI:139538;
+    CHEBI:30488; CHEBI:42857; CHEBI:41979; CHEBI:3283; CHEBI:42043; CHEBI:5787; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:23011; CHEBI:15377; CHEBI:13352; CHEBI:13285;
+    CHEBI:23012; CHEBI:13282; CHEBI:13356; CHEBI:24639; CHEBI:29919; CHEBI:14414;
+    CHEBI:43228; CHEBI:13283; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:13284; CHEBI:45489; CHEBI:16526; CHEBI:16136; CHEBI:48829; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C19033; KEGG:C00283; KEGG:C00011; KEGG:C00001'
+measurements:
+- id: measurement_3_13_1_5_Acidianus_sp._G0WXL9_Carbon_disulfide
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 50.0
+  temperature_unit: °C
+parameters:
+- id: 3_13_1_5_Acidianus_sp._G0WXL9_Carbon_disulfide_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.001566667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Carbon_disulfide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22012399'
+- id: 3_13_1_5_Acidianus_sp._G0WXL9_Carbon_disulfide_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 17000000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Carbon_disulfide
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22012399'
+- id: 3_13_1_5_Acidianus_sp._G0WXL9_Carbon_disulfide_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000136
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Carbon_disulfide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22012399'
+buffer:
+  buffer: 20 mM HEPES
+  buffer_concentration: 20 mM
+references:
+- title: Reference for SABIO-RK entry 58852
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/22012399/
+  pubmed_id: '22012399'
+  doi: null

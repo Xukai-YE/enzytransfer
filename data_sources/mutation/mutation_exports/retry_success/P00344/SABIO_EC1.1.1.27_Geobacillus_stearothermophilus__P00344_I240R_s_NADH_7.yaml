@@ -1,0 +1,184 @@
+name: SABIO-RK Entry 21760
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 21760
+created: '2025-10-28T14:18:41.021996'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_27_P00344_p21760
+  name: L-lactate dehydrogenase
+  ecnumber: 1.1.1.27
+  organism: Geobacillus stearothermophilus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: I240R
+  uniprotid: P00344
+  wildtype_sequence: MKNNGGARVVVIGAGFVGASYVFALMNQGIADEIVLIDANESKAIGDAMDFNHGKVFAPKPVDIWHGDYDDCRDADLVVICAGANQKPGETRLDLVDKNIAIFRSIVESVMASGFQGLFLVATNPVDILTYATWKFSGLPHERVIGSGTILDTARFRFLLGEYFSVAPQNVHAYIIGEHGDTELPVWSQAYIGVMPIRKLVESKGEEAQKDLERIFVNVRDAAYQIIEKKGATYYGIAMGLARVTRAILHNENAILTVSAYLDGLYGERDVYIGVPAVINRNGIREVIEIELNDDEKNRFHHSAATLKSVLARAFTR
+  mutant_sequence: MKNNGGARVVVIGAGFVGASYVFALMNQGIADEIVLIDANESKAIGDAMDFNHGKVFAPKPVDIWHGDYDDCRDADLVVICAGANQKPGETRLDLVDKNIAIFRSIVESVMASGFQGLFLVATNPVDILTYATWKFSGLPHERVIGSGTILDTARFRFLLGEYFSVAPQNVHAYIIGEHGDTELPVWSQAYIGVMPIRKLVESKGEEAQKDLERIFVNVRDAAYQIIEKKGATYYGRAMGLARVTRAILHNENAILTVSAYLDGLYGERDVYIGVPAVINRNGIREVIEIELNDDEKNRFHHSAATLKSVLARAFTR
+  position_offset: -3
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Phenylpyruvate
+  name: Phenylpyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Phenyllactate
+  name: Phenyllactate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1572_EC1_1_1_27_Geobacillus_stearothermophilus_P00344_NADH
+  name: Reaction catalyzed by L-lactate dehydrogenase on NADH
+  equation: NAD+ + Phenyllactate = NADH + Phenylpyruvate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  - species_id: substrate_Phenylpyruvate
+  products:
+  - species_id: product_NAD_
+  - species_id: product_Phenyllactate
+  modifiers:
+  - species_id: protein_1_1_1_27_P00344_p21760
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 38351;38352;38353;38354
+  KEGGid: R01370
+  notes: 'ChEBI IDs: CHEBI:18005; CHEBI:26009; CHEBI:44281; CHEBI:13393; CHEBI:32978;
+    CHEBI:29234; CHEBI:30851; CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:13396;
+    CHEBI:12821; CHEBI:21901; CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:5584; CHEBI:13394;
+    CHEBI:8105; CHEBI:57945; CHEBI:44216; CHEBI:11009; CHEBI:57540; CHEBI:7423; CHEBI:8100;
+    CHEBI:45005; CHEBI:13389; CHEBI:15378; CHEBI:13395; CHEBI:26007; CHEBI:14784;
+    CHEBI:10744; CHEBI:44215; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00166; KEGG:C00080; KEGG:C00003; KEGG:C00004; KEGG:C05607'
+measurements:
+- id: measurement_1_1_1_27_Geobacillus_stearothermophilus_P00344_NADH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1_27_Geobacillus_stearothermophilus_P00344_NADH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 48.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: null
+- id: 1_1_1_27_Geobacillus_stearothermophilus_P00344_NADH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0016
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: null
+- id: 1_1_1_27_Geobacillus_stearothermophilus_P00344_NADH_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 30000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 6.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: null
+buffer:
+  buffer: 20 mM piperazine, 5 mM fructose 1,6-bisphosphate
+  buffer_concentration: 20 mM
+references: null

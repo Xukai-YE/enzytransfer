@@ -1,0 +1,163 @@
+name: SABIO-RK Entry 53011
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 53011
+created: '2025-10-28T16:02:40.235794'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_9_3_1_P24010_P24011_P24012_P24013_p53011
+  name: cytochrome-c oxidase
+  sequence: null
+  ecnumber: 1.9.3.1
+  organism: Bacillus subtilis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P24010; P24011; P24012; P24013
+complexes: null
+small_molecules:
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Ferrocytochrome_c
+  name: Ferrocytochrome c
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Ferricytochrome_c
+  name: Ferricytochrome c
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_563_EC1_9_3_1_Bacillus_subtilis_P24010_P24011_P24012_P24013_O2
+  name: Reaction catalyzed by cytochrome-c oxidase on O2
+  equation: Ferrocytochrome c + O2 = Ferricytochrome c + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_Ferrocytochrome_c
+  products:
+  - species_id: product_Ferricytochrome_c
+  modifiers:
+  - species_id: protein_1_9_3_1_P24010_P24011_P24012_P24013_p53011
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:16928;
+    CHEBI:26689; CHEBI:42857; CHEBI:41979; CHEBI:15991; CHEBI:23833; CHEBI:13416;
+    CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352;
+    CHEBI:15379; CHEBI:43228; CHEBI:44292; CHEBI:30491; CHEBI:33806; CHEBI:25366;
+    CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:29793; CHEBI:7860; CHEBI:10745;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00125; KEGG:C00126; KEGG:C00001; KEGG:C00704; KEGG:C00007'
+measurements:
+- id: measurement_1_9_3_1_Bacillus_subtilis_P24010_P24011_P24012_P24013_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 22.0
+  temperature_unit: °C
+parameters:
+- id: 1_9_3_1_Bacillus_subtilis_P24010_P24011_P24012_P24013_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.5e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '3038545'
+- id: 1_9_3_1_Bacillus_subtilis_P24010_P24011_P24012_P24013_O2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2.333333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '3038545'
+buffer:
+  buffer: 10 mM potassium phosphate, 0.05% (w/v) dodecyl maltoside, 2 ¦ÌM carbonyl
+    cyanide p-trifluoromethoxyphenyl hydrazone, 0.4 ¦ÌM valinomycin
+  buffer_concentration: 10 mM
+references:
+- title: Reference for SABIO-RK entry 53011
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/3038545/
+  pubmed_id: '3038545'
+  doi: null

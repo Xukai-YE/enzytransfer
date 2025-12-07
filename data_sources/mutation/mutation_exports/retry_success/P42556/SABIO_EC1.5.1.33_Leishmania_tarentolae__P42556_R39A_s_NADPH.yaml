@@ -1,0 +1,129 @@
+name: SABIO-RK Entry 59884
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 59884
+created: '2025-10-28T16:28:19.606690'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_5_1_33_P42556_p59884
+  name: pteridine reductase
+  ecnumber: 1.5.1.33
+  organism: Leishmania tarentolae
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: R39A
+  uniprotid: P42556
+  wildtype_sequence: MTTSPTAPVALVTGAAKRLGSSIAEALHAEGYTVCLHYHRSAADASTLAATLNARRPNSAITVQADLSNVATASFSETDGSVPVTLFSRCSALVDACYMHWGRCDVLVNNASSFYPTPLLRKDAGEGGSSVGDKESLEVAAADLFGSNAIAPYFLIKAFAQRVADTRAEQRGTSYSIVNMVDAMTSQPLLGYTMYTMAKEALEGLTRSAALELASLQIRVNGVSPGLSVLPDDMPFSVQEDYRRKVPLYQRNSSAEEVSDVVIFLCSPKAKYITGTCIKVDGGYSLTRA
+  mutant_sequence: MTTSPTAPVALVTGAAKRLGSSIAEALHAEGYTVCLHYHASAADASTLAATLNARRPNSAITVQADLSNVATASFSETDGSVPVTLFSRCSALVDACYMHWGRCDVLVNNASSFYPTPLLRKDAGEGGSSVGDKESLEVAAADLFGSNAIAPYFLIKAFAQRVADTRAEQRGTSYSIVNMVDAMTSQPLLGYTMYTMAKEALEGLTRSAALELASLQIRVNGVSPGLSVLPDDMPFSVQEDYRRKVPLYQRNSSAEEVSDVVIFLCSPKAKYITGTCIKVDGGYSLTRA
+  position_offset: 1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Pteridine_reductase
+  name: Pteridine reductase
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Enzyme-ligand_complex
+  name: Enzyme-ligand complex
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_14516_EC1_5_1_33_Leishmania_tarentolae_P42556_NADPH
+  name: Reaction catalyzed by pteridine reductase on NADPH
+  equation: NADPH + Pteridine reductase = Enzyme-ligand complex
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_Pteridine_reductase
+  products:
+  - species_id: product_Enzyme-ligand_complex
+  modifiers:
+  - species_id: protein_1_5_1_33_P42556_p59884
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:7425; CHEBI:16474; CHEBI:44286; CHEBI:13400; CHEBI:57783;
+    CHEBI:13399; CHEBI:21904
+
+    KEGG IDs: KEGG:C00005'
+measurements:
+- id: measurement_1_5_1_33_Leishmania_tarentolae_P42556_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.0
+  temperature_opt: 10.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 100 mM Bis-Tris
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 59884
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10415124/
+  pubmed_id: '10415124'
+  doi: null

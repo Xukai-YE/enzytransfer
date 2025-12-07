@@ -1,0 +1,153 @@
+name: SABIO-RK Entry 36991
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 36991
+created: '2025-10-28T15:01:36.182312'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_3_2_2_P18956_P18956_p36991
+  name: gamma-glutamyltransferase
+  sequence: null
+  ecnumber: 2.3.2.2
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P18956; P18956
+complexes: null
+small_molecules:
+- id: substrate_Glycylglycine
+  name: Glycylglycine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_L-gamma-Glutamyl-p-nitroanilide
+  name: L-gamma-Glutamyl-p-nitroanilide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4-Nitroaniline
+  name: 4-Nitroaniline
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Glutamylglycylglycine
+  name: L-Glutamylglycylglycine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_10412_EC2_3_2_2_Escherichia_coli_P18956_P18956_Glycylglycine
+  name: Reaction catalyzed by gamma-glutamyltransferase on Glycylglycine
+  equation: Glycylglycine + L-gamma-Glutamyl-p-nitroanilide = L-Glutamylglycylglycine
+    + 4-Nitroaniline
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Glycylglycine
+  - species_id: substrate_L-gamma-Glutamyl-p-nitroanilide
+  products:
+  - species_id: product_4-Nitroaniline
+  - species_id: product_L-Glutamylglycylglycine
+  modifiers:
+  - species_id: protein_2_3_2_2_P18956_P18956_p36991
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:24413; CHEBI:14364; CHEBI:44545; CHEBI:12032; CHEBI:20455;
+    CHEBI:5504; CHEBI:1910; CHEBI:17201; CHEBI:356445; CHEBI:17064
+
+    KEGG IDs: KEGG:C02037; KEGG:C02126'
+measurements:
+- id: measurement_2_3_2_2_Escherichia_coli_P18956_P18956_Glycylglycine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 2_3_2_2_Escherichia_coli_P18956_P18956_Glycylglycine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glycylglycine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2877974'
+buffer:
+  buffer: 50 mM Tris-hydrochloride
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 36991
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/2877974/
+  pubmed_id: '2877974'
+  doi: null

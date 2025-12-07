@@ -1,0 +1,265 @@
+version: '2.0'
+created: '2025-11-20T13:41:43.180239'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_5_3_1_16_P16250_p66163
+  name: 1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino]imidazole-4-carboxamide
+    isomerase
+  ecnumber: 5.3.1.16
+  organism: Streptomyces coelicolor
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P16250
+  wildtype_sequence: MSKLELLPAVDVRDGQAVRLVHGESGTETSYGSPLEAALAWQRSGAEWLHLVDLDAAFGTGDNRALIAEVAQAMDIKVELSGGIRDDDTLAAALATGCTRVNLGTAALETPEWVAKVIAEHGDKIAVGLDVRGTTLRGRGWTRDGGDLYETLDRLNKEGCARYVVTDIAKDGTLQGPNLELLKNVCAATDRPVVASGGVSSLDDLRAIAGLVPAGVEGAIVGKALYAKAFTLEEALEATS
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_5-_5-Phospho-D-ribosylaminoformimino_-1-_5-phosphoribosyl_-imidazole-4-carboxamide
+  name: 5-(5-Phospho-D-ribosylaminoformimino)-1-(5-phosphoribosyl)-imidazole-4-carboxamide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N-_5_-Phospho-D-1_-ribulosylformimino_-5-amino-1-_5_-phospho-D-ribosyl_-4-imidazolecarboxamide
+  name: N-(5'-Phospho-D-1'-ribulosylformimino)-5-amino-1-(5''-phospho-D-ribosyl)-4-imidazolecarboxamide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_N-_5-Phospho-D-ribosyl_anthranilate
+  name: N-(5-Phospho-D-ribosyl)anthranilate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_1-_2-Carboxyphenylamino_-1-deoxy-D-ribulose_5-phosphate
+  name: 1-(2-Carboxyphenylamino)-1-deoxy-D-ribulose 5-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_4302_EC5_3_1_16_Streptomyces_coelicolor_P16250_5-_5-Phospho-D-ribosylaminoformimino_-1-_5-phosphoribosyl_-imidazole-4-carboxamide
+  name: Reaction catalyzed by 1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino]imidazole-4-carboxamide
+    isomerase on 5-(5-Phospho-D-ribosylaminoformimino)-1-(5-phosphoribosyl)-imidazole-4-carboxamide
+  equation: 5-(5-Phospho-D-ribosylaminoformimino)-1-(5-phosphoribosyl)-imidazole-4-carboxamide
+    = N-(5'-Phospho-D-1'-ribulosylformimino)-5-amino-1-(5''-phospho-D-ribosyl)-4-imidazolecarboxamide
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_5-_5-Phospho-D-ribosylaminoformimino_-1-_5-phosphoribosyl_-imidazole-4-carboxamide
+  products:
+  - species_id: product_N-_5_-Phospho-D-1_-ribulosylformimino_-5-amino-1-_5_-phospho-D-ribosyl_-4-imidazolecarboxamide
+  modifiers:
+  - species_id: protein_5_3_1_16_P16250_p66163
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R04640
+  notes: 'ChEBI IDs: CHEBI:58525; CHEBI:27735; CHEBI:7090; CHEBI:39698; CHEBI:18302;
+    CHEBI:12100; CHEBI:21471
+
+    KEGG IDs: KEGG:C04916; KEGG:C04896'
+- id: sabiork_15372_EC5_3_1_24_Streptomyces_coelicolor_P16250_N-_5-Phospho-D-ribosyl_anthranilate
+  name: Reaction catalyzed by phosphoribosylanthranilate isomerase on N-(5-Phospho-D-ribosyl)anthranilate
+  equation: N-(5-Phospho-D-ribosyl)anthranilate = 1-(2-Carboxyphenylamino)-1-deoxy-D-ribulose
+    5-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N-_5-Phospho-D-ribosyl_anthranilate
+  products:
+  - species_id: product_1-_2-Carboxyphenylamino_-1-deoxy-D-ribulose_5-phosphate
+  modifiers:
+  - species_id: protein_5_3_1_24_P16250_p66164
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:565; CHEBI:58613; CHEBI:12432; CHEBI:18959; CHEBI:12431;
+    CHEBI:11186; CHEBI:566; CHEBI:21472; CHEBI:29112; CHEBI:18277; CHEBI:21488; CHEBI:7091
+
+    KEGG IDs: KEGG:C01302; KEGG:C04302'
+measurements:
+- id: measurement_5_3_1_16_Streptomyces_coelicolor_P16250_5-_5-Phospho-D-ribosylaminoformimino_-1-_5-phosphoribosyl_-imidazole-4-carboxamide
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_5_3_1_24_Streptomyces_coelicolor_P16250_N-_5-Phospho-D-ribosyl_anthranilate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 5_3_1_16_Streptomyces_coelicolor_P16250_5-_5-Phospho-D-ribosylaminoformimino_-1-_5-phosphoribosyl_-imidazole-4-carboxamide_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.9
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_5-_5-Phospho-D-ribosylaminoformimino_-1-_5-phosphoribosyl_-imidazole-4-carboxamide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15654319'
+- id: 5_3_1_16_Streptomyces_coelicolor_P16250_5-_5-Phospho-D-ribosylaminoformimino_-1-_5-phosphoribosyl_-imidazole-4-carboxamide_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.8e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_5-_5-Phospho-D-ribosylaminoformimino_-1-_5-phosphoribosyl_-imidazole-4-carboxamide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15654319'
+- id: 5_3_1_16_Streptomyces_coelicolor_P16250_5-_5-Phospho-D-ribosylaminoformimino_-1-_5-phosphoribosyl_-imidazole-4-carboxamide_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 30000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_5-_5-Phospho-D-ribosylaminoformimino_-1-_5-phosphoribosyl_-imidazole-4-carboxamide
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15654319'
+- id: 5_3_1_24_Streptomyces_coelicolor_P16250_N-_5-Phospho-D-ribosyl_anthranilate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 3000000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-_5-Phospho-D-ribosyl_anthranilate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15654319'
+- id: 5_3_1_24_Streptomyces_coelicolor_P16250_N-_5-Phospho-D-ribosyl_anthranilate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 12.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-_5-Phospho-D-ribosyl_anthranilate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15654319'
+- id: 5_3_1_24_Streptomyces_coelicolor_P16250_N-_5-Phospho-D-ribosyl_anthranilate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.0e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-_5-Phospho-D-ribosyl_anthranilate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15654319'
+buffer:
+  buffer: 50 mM Tris-HCl, 0.5 mM MgCl2, molar excess of anthranilate phosphoribosyl
+    transferase and indole glycerol phosphate synthase; 50 mM Tris-acetate, 200 mM
+    ammonium acetate, excess of the HisF subunit of the imidazole glycerol phosphate
+    synthase
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 66163
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15654319/
+  pubmed_id: '15654319'
+  doi: null
+name: Merged entry for P16250 wildtype
+description: 'Merged from 2 files: SABIO_EC5.3.1.16_Streptomyces_coelicolor__P16250_s_5-_5-Phospho-D-ribos.yaml,
+  SABIO_EC5.3.1.24_Streptomyces_coelicolor__P16250_s_N-_5-Phospho-D-ribos.yaml'

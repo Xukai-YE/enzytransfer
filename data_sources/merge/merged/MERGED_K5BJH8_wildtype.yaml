@@ -1,0 +1,794 @@
+version: '2.0'
+created: '2025-11-20T13:40:06.432984'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_3_1__K5BJH8_p61323
+  name: Acyltransferases
+  ecnumber: 2.3.1.
+  organism: Mycobacterium hassiacum
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: K5BJH8
+  wildtype_sequence: MSGRRPTLLVFCDSLSYYGPRGGLPADDPRIWPNIVASQLDWDVELIGRVGWTSRDVWWAATQDPRAWAALPRAGAVIFATGGMDSLPSPLPTALRELIRYIRPPWLRRRVRDLYGWLQPRLSPVSRNALPPHLTAEYLEMTRGAIDFNRPGIPVVAALPSVHIADSYGRAHHGREATARAITEWARQHGVVLVDLKAAVADQVLNGRGNPDGIHWNFEAHQAVAELMLKALAEAGVPCR
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Diglucosylglycerate
+  name: Diglucosylglycerate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Octanoyl-CoA
+  name: Octanoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Octanoyl-diglucosylglycerate
+  name: Octanoyl-diglucosylglycerate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Glucosylglycerate
+  name: Glucosylglycerate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Octanoyl-glucosylglycerate
+  name: Octanoyl-glucosylglycerate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Hexanoyl-CoA
+  name: Hexanoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Hexanoyl-diglucosylglycerate
+  name: Hexanoyl-diglucosylglycerate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_14793_EC2_3_1__Mycobacterium_hassiacum_K5BJH8_Diglucosylglycerate
+  name: Reaction catalyzed by Acyltransferases on Diglucosylglycerate
+  equation: Octanoyl-CoA + Diglucosylglycerate = Coenzyme A + Octanoyl-diglucosylglycerate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Diglucosylglycerate
+  - species_id: substrate_Octanoyl-CoA
+  products:
+  - species_id: product_Octanoyl-diglucosylglycerate
+  - species_id: product_Coenzyme_A
+  modifiers:
+  - species_id: protein_2_3_1__K5BJH8_p61323
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:57287; CHEBI:15533; CHEBI:15346; CHEBI:23355; CHEBI:41542;
+    CHEBI:3771; CHEBI:57386; CHEBI:25651; CHEBI:13295; CHEBI:13294; CHEBI:14681; CHEBI:741566;
+    CHEBI:41597; CHEBI:13298; CHEBI:41631; CHEBI:7724
+
+    KEGG IDs: KEGG:C01944; KEGG:C00010'
+- id: sabiork_14794_EC2_3_1__Mycobacterium_hassiacum_K5BJH8_Glucosylglycerate
+  name: Reaction catalyzed by Acyltransferases on Glucosylglycerate
+  equation: Octanoyl-CoA + Glucosylglycerate = Coenzyme A + Octanoyl-glucosylglycerate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Glucosylglycerate
+  - species_id: substrate_Octanoyl-CoA
+  products:
+  - species_id: product_Coenzyme_A
+  - species_id: product_Octanoyl-glucosylglycerate
+  modifiers:
+  - species_id: protein_2_3_1__K5BJH8_p61325
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:57287; CHEBI:15533; CHEBI:15346; CHEBI:23355; CHEBI:41542;
+    CHEBI:3771; CHEBI:57386; CHEBI:25651; CHEBI:13295; CHEBI:13294; CHEBI:14681; CHEBI:741566;
+    CHEBI:41597; CHEBI:13298; CHEBI:41631; CHEBI:7724
+
+    KEGG IDs: KEGG:C01944; KEGG:C00010'
+- id: sabiork_14795_EC2_3_1__Mycobacterium_hassiacum_K5BJH8_Hexanoyl-CoA
+  name: Reaction catalyzed by Acyltransferases on Hexanoyl-CoA
+  equation: Hexanoyl-CoA + Diglucosylglycerate = Coenzyme A + Hexanoyl-diglucosylglycerate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Hexanoyl-CoA
+  - species_id: substrate_Diglucosylglycerate
+  products:
+  - species_id: product_Hexanoyl-diglucosylglycerate
+  - species_id: product_Coenzyme_A
+  modifiers:
+  - species_id: protein_2_3_1__K5BJH8_p61331
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:57287; CHEBI:15346; CHEBI:23355; CHEBI:27540; CHEBI:3771;
+    CHEBI:13295; CHEBI:13294; CHEBI:24575; CHEBI:741566; CHEBI:41597; CHEBI:5703;
+    CHEBI:41631; CHEBI:43306; CHEBI:62620; CHEBI:13298
+
+    KEGG IDs: KEGG:C05270; KEGG:C00010'
+- id: sabiork_14796_EC2_3_1__Mycobacterium_hassiacum_K5BJH8_Glucosylglycerate
+  name: Reaction catalyzed by Acyltransferases on Glucosylglycerate
+  equation: Hexanoyl-CoA + Glucosylglycerate = Coenzyme A + Hexanoyl-diglucosylglycerate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Glucosylglycerate
+  - species_id: substrate_Hexanoyl-CoA
+  products:
+  - species_id: product_Coenzyme_A
+  - species_id: product_Hexanoyl-diglucosylglycerate
+  modifiers:
+  - species_id: protein_2_3_1__K5BJH8_p61333
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:57287; CHEBI:15346; CHEBI:23355; CHEBI:27540; CHEBI:3771;
+    CHEBI:13295; CHEBI:13294; CHEBI:24575; CHEBI:741566; CHEBI:41597; CHEBI:5703;
+    CHEBI:41631; CHEBI:43306; CHEBI:62620; CHEBI:13298
+
+    KEGG IDs: KEGG:C05270; KEGG:C00010'
+- id: sabiork_14795_EC2_3_1__Mycobacterium_hassiacum_K5BJH8_Hexanoyl-CoA
+  name: Reaction catalyzed by Acyltransferases on Hexanoyl-CoA
+  equation: Hexanoyl-CoA + Diglucosylglycerate = Coenzyme A + Hexanoyl-diglucosylglycerate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Hexanoyl-CoA
+  - species_id: substrate_Diglucosylglycerate
+  products:
+  - species_id: product_Hexanoyl-diglucosylglycerate
+  - species_id: product_Coenzyme_A
+  modifiers:
+  - species_id: protein_2_3_1__K5BJH8_p61332
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:57287; CHEBI:15346; CHEBI:23355; CHEBI:27540; CHEBI:3771;
+    CHEBI:13295; CHEBI:13294; CHEBI:24575; CHEBI:741566; CHEBI:41597; CHEBI:5703;
+    CHEBI:41631; CHEBI:43306; CHEBI:62620; CHEBI:13298
+
+    KEGG IDs: KEGG:C05270; KEGG:C00010'
+- id: sabiork_14793_EC2_3_1__Mycobacterium_hassiacum_K5BJH8_Octanoyl-CoA
+  name: Reaction catalyzed by Acyltransferases on Octanoyl-CoA
+  equation: Octanoyl-CoA + Diglucosylglycerate = Coenzyme A + Octanoyl-diglucosylglycerate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Octanoyl-CoA
+  - species_id: substrate_Diglucosylglycerate
+  products:
+  - species_id: product_Octanoyl-diglucosylglycerate
+  - species_id: product_Coenzyme_A
+  modifiers:
+  - species_id: protein_2_3_1__K5BJH8_p61324
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:57287; CHEBI:15533; CHEBI:15346; CHEBI:23355; CHEBI:41542;
+    CHEBI:3771; CHEBI:57386; CHEBI:25651; CHEBI:13295; CHEBI:13294; CHEBI:14681; CHEBI:741566;
+    CHEBI:41597; CHEBI:13298; CHEBI:41631; CHEBI:7724
+
+    KEGG IDs: KEGG:C01944; KEGG:C00010'
+- id: sabiork_14794_EC2_3_1__Mycobacterium_hassiacum_K5BJH8_Octanoyl-CoA
+  name: Reaction catalyzed by Acyltransferases on Octanoyl-CoA
+  equation: Octanoyl-CoA + Glucosylglycerate = Coenzyme A + Octanoyl-glucosylglycerate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Octanoyl-CoA
+  - species_id: substrate_Glucosylglycerate
+  products:
+  - species_id: product_Coenzyme_A
+  - species_id: product_Octanoyl-glucosylglycerate
+  modifiers:
+  - species_id: protein_2_3_1__K5BJH8_p61326
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:57287; CHEBI:15533; CHEBI:15346; CHEBI:23355; CHEBI:41542;
+    CHEBI:3771; CHEBI:57386; CHEBI:25651; CHEBI:13295; CHEBI:13294; CHEBI:14681; CHEBI:741566;
+    CHEBI:41597; CHEBI:13298; CHEBI:41631; CHEBI:7724
+
+    KEGG IDs: KEGG:C01944; KEGG:C00010'
+measurements:
+- id: measurement_2_3_1__Mycobacterium_hassiacum_K5BJH8_Diglucosylglycerate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_3_1__Mycobacterium_hassiacum_K5BJH8_Glucosylglycerate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_3_1__Mycobacterium_hassiacum_K5BJH8_Hexanoyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_3_1__Mycobacterium_hassiacum_K5BJH8_Glucosylglycerate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_3_1__Mycobacterium_hassiacum_K5BJH8_Hexanoyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_3_1__Mycobacterium_hassiacum_K5BJH8_Octanoyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_3_1__Mycobacterium_hassiacum_K5BJH8_Octanoyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_3_1__Mycobacterium_hassiacum_K5BJH8_Diglucosylglycerate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.233333e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Diglucosylglycerate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26324178'
+- id: 2_3_1__Mycobacterium_hassiacum_K5BJH8_Diglucosylglycerate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.001666667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Diglucosylglycerate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26324178'
+- id: 2_3_1__Mycobacterium_hassiacum_K5BJH8_Diglucosylglycerate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 0.1666667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Diglucosylglycerate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26324178'
+- id: 2_3_1__Mycobacterium_hassiacum_K5BJH8_Diglucosylglycerate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0095
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Diglucosylglycerate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26324178'
+- id: 2_3_1__Mycobacterium_hassiacum_K5BJH8_Glucosylglycerate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 18.33333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glucosylglycerate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26324178'
+- id: 2_3_1__Mycobacterium_hassiacum_K5BJH8_Glucosylglycerate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glucosylglycerate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26324178'
+- id: 2_3_1__Mycobacterium_hassiacum_K5BJH8_Glucosylglycerate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 3.5e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glucosylglycerate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26324178'
+- id: 2_3_1__Mycobacterium_hassiacum_K5BJH8_Glucosylglycerate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.000166667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glucosylglycerate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26324178'
+- id: 2_3_1__Mycobacterium_hassiacum_K5BJH8_Hexanoyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0098
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Hexanoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26324178'
+- id: 2_3_1__Mycobacterium_hassiacum_K5BJH8_Hexanoyl-CoA_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 0.05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Hexanoyl-CoA
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26324178'
+- id: 2_3_1__Mycobacterium_hassiacum_K5BJH8_Hexanoyl-CoA_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.0005
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Hexanoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26324178'
+- id: 2_3_1__Mycobacterium_hassiacum_K5BJH8_Hexanoyl-CoA_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 6.833333e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Hexanoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26324178'
+- id: 2_3_1__Mycobacterium_hassiacum_K5BJH8_Glucosylglycerate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glucosylglycerate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26324178'
+- id: 2_3_1__Mycobacterium_hassiacum_K5BJH8_Glucosylglycerate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 21.66667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glucosylglycerate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26324178'
+- id: 2_3_1__Mycobacterium_hassiacum_K5BJH8_Glucosylglycerate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.000166667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glucosylglycerate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26324178'
+- id: 2_3_1__Mycobacterium_hassiacum_K5BJH8_Glucosylglycerate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 3.166667e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glucosylglycerate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26324178'
+- id: 2_3_1__Mycobacterium_hassiacum_K5BJH8_Hexanoyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Hexanoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26324178'
+- id: 2_3_1__Mycobacterium_hassiacum_K5BJH8_Hexanoyl-CoA_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.000666667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Hexanoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26324178'
+- id: 2_3_1__Mycobacterium_hassiacum_K5BJH8_Hexanoyl-CoA_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 35.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Hexanoyl-CoA
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26324178'
+- id: 2_3_1__Mycobacterium_hassiacum_K5BJH8_Hexanoyl-CoA_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 9.833333e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Hexanoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26324178'
+- id: 2_3_1__Mycobacterium_hassiacum_K5BJH8_Octanoyl-CoA_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 31.66667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Octanoyl-CoA
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26324178'
+- id: 2_3_1__Mycobacterium_hassiacum_K5BJH8_Octanoyl-CoA_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.7e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Octanoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26324178'
+- id: 2_3_1__Mycobacterium_hassiacum_K5BJH8_Octanoyl-CoA_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.002
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Octanoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26324178'
+- id: 2_3_1__Mycobacterium_hassiacum_K5BJH8_Octanoyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Octanoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26324178'
+- id: 2_3_1__Mycobacterium_hassiacum_K5BJH8_Octanoyl-CoA_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.000333333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Octanoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26324178'
+- id: 2_3_1__Mycobacterium_hassiacum_K5BJH8_Octanoyl-CoA_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 5.333333e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Octanoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26324178'
+- id: 2_3_1__Mycobacterium_hassiacum_K5BJH8_Octanoyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0066
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Octanoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26324178'
+- id: 2_3_1__Mycobacterium_hassiacum_K5BJH8_Octanoyl-CoA_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 0.05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Octanoyl-CoA
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26324178'
+buffer:
+  buffer: 50 mM Bis-tris propane
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 61323
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/26324178/
+  pubmed_id: '26324178'
+  doi: null
+name: Merged entry for K5BJH8 wildtype
+description: 'Merged from 7 files: SABIO_EC2.3.1._Mycobacterium_hassiacum__K5BJH8_s_Diglucosylglycerate.yaml,
+  SABIO_EC2.3.1._Mycobacterium_hassiacum__K5BJH8_s_Glucosylglycerate.yaml, SABIO_EC2.3.1._Mycobacterium_hassiacum__K5BJH8_s_Hexanoyl-CoA.yaml,
+  SABIO_EC2.3.1._Mycobacterium_hassiacum__K5BJH8_s_Glucosylglycerate_2.yaml, SABIO_EC2.3.1._Mycobacterium_hassiacum__K5BJH8_s_Hexanoyl-CoA_2.yaml,
+  SABIO_EC2.3.1._Mycobacterium_hassiacum__K5BJH8_s_Octanoyl-CoA.yaml, SABIO_EC2.3.1._Mycobacterium_hassiacum__K5BJH8_s_Octanoyl-CoA_2.yaml'

@@ -1,0 +1,130 @@
+name: SABIO-RK Entry 70130
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 70130
+created: '2025-10-28T17:15:30.717928'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_4_22_69_P0C6U8_P0C6X7_p70130
+  name: Cysteine endopeptidases
+  sequence: null
+  ecnumber: 3.4.22.69
+  organism: SARS coronavirus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P0C6U8; P0C6X7
+complexes: null
+small_molecules:
+- id: substrate_MCA-AVLQSGFR-Lys_Dnp_-Lys-NH2
+  name: MCA-AVLQSGFR-Lys(Dnp)-Lys-NH2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_SGFR-Lys_Dnp_-Lys-NH2
+  name: SGFR-Lys(Dnp)-Lys-NH2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_MCA-AVLQ
+  name: MCA-AVLQ
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_N-_2-_Phenyldisulfanyl_thiazol-5-yl_acetamide
+  name: N-(2-(Phenyldisulfanyl)thiazol-5-yl)acetamide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_15695_EC3_4_22_69_SARS_coronavirus_P0C6U8_P0C6X7_MCA-AVLQSGFR-Lys_Dnp_-Lys-NH2
+  name: Reaction catalyzed by Cysteine endopeptidases on MCA-AVLQSGFR-Lys(Dnp)-Lys-NH2
+  equation: H2O + MCA-AVLQSGFR-Lys(Dnp)-Lys-NH2 = SGFR-Lys(Dnp)-Lys-NH2 + MCA-AVLQ
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_MCA-AVLQSGFR-Lys_Dnp_-Lys-NH2
+  products:
+  - species_id: product_SGFR-Lys_Dnp_-Lys-NH2
+  - species_id: product_MCA-AVLQ
+  modifiers:
+  - species_id: protein_3_4_22_69_P0C6U8_P0C6X7_p70130
+    role: BIOCATALYST
+  - species_id: activator_N-_2-_Phenyldisulfanyl_thiazol-5-yl_acetamide
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:41979;
+    CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352;
+    CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C00001'
+measurements:
+- id: measurement_3_4_22_69_SARS_coronavirus_P0C6U8_P0C6X7_MCA-AVLQSGFR-Lys_Dnp_-Lys-NH2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.3
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 50 mM Tris-HCl, 1 mM EDTA
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 70130
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/28624700/
+  pubmed_id: '28624700'
+  doi: null

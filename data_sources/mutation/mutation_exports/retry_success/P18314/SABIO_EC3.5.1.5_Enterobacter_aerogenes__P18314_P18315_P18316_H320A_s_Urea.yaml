@@ -1,0 +1,152 @@
+name: SABIO-RK Entry 33387
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 33387
+created: '2025-10-28T14:49:06.342034'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_5_1_5_P18314_P18315_P18316_p33387
+  name: urease
+  sequence: null
+  ecnumber: 3.5.1.5
+  organism: Enterobacter aerogenes
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: H320A
+  uniprotid: P18314; P18315; P18316
+  mutant_sequence: MSNISRQAYADMFGPTVGDKVRLADTELWIEVEDDLTTYGEEVKFGGGKVIRDGMGQGQMLAADCVDLVLTNALIVDHWGIVKADIGVKDGRIFAIGKAGNPDIQPNVTIPIGAATEVIAAEGKIVTAGGIDTHIHWICPQQAEEALVSGVTTMVGGGTGPAAGTHATTCTPGPWYISRMLQAADSLPVNIGLLGKGNVSQPDALREQVAAGVIGLKIHEDWGATPAAIDCALTVADEMDIQVALHSDTLNESGFVEDTLAAIGGRTIHTFHTEGAGGGHAPDIITACAHPNILPSSTNPTLPYTLNTIDEHLDMLMVCAHLDPDIAEDVAFAESRIRRETIAAEDVLHDLGAFSLTSSDSQAMGRVGEVILRTWQVAHRMKVQRGALAEETGDNDNFRVKRYIAKYTINPALTHGIAHEVGSIEVGKLADLVVWSPAFFGVKPATVIKGGMIAIAPMGDINASIPTPQPVHYRPMFGALGSARHHCRLTFLSQAAAANGVAERLNLRSAIAVVKGCRTVQKADMVHNSLQPNITVDAQTYEVRVDGELITSEPADVLPMAQRYFLF
+  position_offset: 0
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Urea
+  name: Urea
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NH3
+  name: NH3
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_289_EC3_5_1_5_Enterobacter_aerogenes_P18314_P18315_P18316_Urea
+  name: Reaction catalyzed by urease on Urea
+  equation: H2O + Urea = CO2 + NH3
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Urea
+  products:
+  - species_id: product_NH3
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_3_5_1_5_P18314_P18315_P18316_p33387
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 20557;20558;20559;20560
+  KEGGid: R00131
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44284; CHEBI:44819; CHEBI:16134; CHEBI:41981;
+    CHEBI:13405; CHEBI:7434; CHEBI:27218; CHEBI:139538; CHEBI:42857; CHEBI:41979;
+    CHEBI:48376; CHEBI:13407; CHEBI:3283; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:22534; CHEBI:135980; CHEBI:15377; CHEBI:7435; CHEBI:49783; CHEBI:23011;
+    CHEBI:22533; CHEBI:13352; CHEBI:44404; CHEBI:13285; CHEBI:46379; CHEBI:13771;
+    CHEBI:13282; CHEBI:9888; CHEBI:43228; CHEBI:44269; CHEBI:13283; CHEBI:44292; CHEBI:13406;
+    CHEBI:16199; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:32285; CHEBI:13284;
+    CHEBI:28938; CHEBI:16526; CHEBI:15292; CHEBI:48829; CHEBI:134711; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C00014; KEGG:C00086; KEGG:C01342; KEGG:C00011; KEGG:C00001'
+measurements:
+- id: measurement_3_5_1_5_Enterobacter_aerogenes_P18314_P18315_P18316_Urea
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.75
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 3_5_1_5_Enterobacter_aerogenes_P18314_P18315_P18316_Urea_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0083
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Urea
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.75
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8318888'
+buffer:
+  buffer: 25 mM HEPES, 0.5 mM EDTA
+  buffer_concentration: 25 mM
+references:
+- title: Reference for SABIO-RK entry 33387
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/8318888/
+  pubmed_id: '8318888'
+  doi: null

@@ -1,0 +1,151 @@
+name: SABIO-RK Entry 5531
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 5531
+created: '2025-10-28T13:49:25.838269'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_6_5_1_P30033_P59215_p5531
+  name: nucleoside-triphosphatase
+  sequence: null
+  ecnumber: 3.6.5.1
+  organism: Rattus norvegicus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: G0a
+  uniprotid: P30033; P59215
+  mutant_sequence: MACTLSAEERAALERSKAIEKNLKEDGISAAKDVKLLLLGAGESGKSTIVKQMKIIHEDGFSGEDVKQYKPVVYSNTIQSLAAIVRAMDTLGVEYGDKERKADSKMVCDVVSRMEDTEPFSAELLSAMMRLWGDSGIQECFNRSREYQLNDSAKYYLDSLDRIGAADYQPTEQDILRTRVKTTGIVETHFTFKNLHFRLFDVGGQRSERKKWIHCFEDVTAIIFCVALSGYDQVLHEDETTNRMHESLMLFDSICNNKFFIDTSIILFLNKKDLFGEKIKKSPLTICFPEYPGSNTYEDAAAYIQTQFESKNRSPNKEIYCHMTCATDTNNIQVVFDAVTDIIIANNLRGCGLY
+  position_offset: 2
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_GTP
+  name: GTP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Phosphate
+  name: Phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_GDP
+  name: GDP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_816_EC3_6_5_1_Rattus_norvegicus_P30033_P59215_GTP
+  name: Reaction catalyzed by nucleoside-triphosphatase on GTP
+  equation: H2O + GTP = GDP + Phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_GTP
+  products:
+  - species_id: product_Phosphate
+  - species_id: product_GDP
+  modifiers:
+  - species_id: protein_3_6_5_1_P30033_P59215_p5531
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 19669;19670;19671;19672
+  KEGGid: R00335
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:29375; CHEBI:43470; CHEBI:44819; CHEBI:18367;
+    CHEBI:57600; CHEBI:41981; CHEBI:35780; CHEBI:26020; CHEBI:13327; CHEBI:26078;
+    CHEBI:14379; CHEBI:17552; CHEBI:42857; CHEBI:41979; CHEBI:65180; CHEBI:29139;
+    CHEBI:24448; CHEBI:5234; CHEBI:39739; CHEBI:42043; CHEBI:44701; CHEBI:33811; CHEBI:33813;
+    CHEBI:27313; CHEBI:15377; CHEBI:39745; CHEBI:13352; CHEBI:7793; CHEBI:43228; CHEBI:24451;
+    CHEBI:44292; CHEBI:15996; CHEBI:37565; CHEBI:45024; CHEBI:33806; CHEBI:5212; CHEBI:10743;
+    CHEBI:29374; CHEBI:5585; CHEBI:58189; CHEBI:42934; CHEBI:43474; CHEBI:29137; CHEBI:29373;
+    CHEBI:13342; CHEBI:42738
+
+    KEGG IDs: KEGG:C00001; KEGG:C00009; KEGG:C00035; KEGG:C00044'
+measurements:
+- id: measurement_3_6_5_1_Rattus_norvegicus_P30033_P59215_GTP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 20.0
+  temperature_unit: °C
+parameters:
+- id: 3_6_5_1_Rattus_norvegicus_P30033_P59215_GTP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.03666667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_GTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2159473'
+buffer:
+  buffer: 50 mM NaHepes, 5 mM EDTA, 1 mM DTT, 0.1% Lubrol, 10 mM MgSO4
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 5531
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/2159473/
+  pubmed_id: '2159473'
+  doi: null

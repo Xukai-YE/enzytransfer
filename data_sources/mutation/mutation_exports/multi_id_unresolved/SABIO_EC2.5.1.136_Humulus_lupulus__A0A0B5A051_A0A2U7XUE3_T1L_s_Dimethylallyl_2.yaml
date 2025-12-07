@@ -1,0 +1,188 @@
+name: SABIO-RK Entry 75425
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 75425
+created: '2025-10-28T17:44:51.641783'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_5_1_136_A0A0B5A051_A0A2U7XUE3_p75425
+  name: 2-acylphloroglucinol 4-prenyltransferase
+  sequence: null
+  ecnumber: 2.5.1.136
+  organism: Humulus lupulus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: T1L
+  uniprotid: A0A0B5A051; A0A2U7XUE3
+complexes: null
+small_molecules:
+- id: substrate_Dimethylallyl_diphosphate
+  name: Dimethylallyl diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Naringenin_chalcone
+  name: Naringenin chalcone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Desmethylxanthohumol
+  name: Desmethylxanthohumol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_16399_EC2_5_1_136_Humulus_lupulus_A0A0B5A051_A0A2U7XUE3_Dimethylallyl_diphosphate
+  name: Reaction catalyzed by 2-acylphloroglucinol 4-prenyltransferase on Dimethylallyl
+    diphosphate
+  equation: Dimethylallyl diphosphate + Naringenin chalcone = Diphosphate + Desmethylxanthohumol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Dimethylallyl_diphosphate
+  - species_id: substrate_Naringenin_chalcone
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_Desmethylxanthohumol
+  modifiers:
+  - species_id: protein_2_5_1_136_A0A0B5A051_A0A2U7XUE3_p75425
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:16057; CHEBI:23803; CHEBI:8683; CHEBI:12280; CHEBI:8394;
+    CHEBI:33019; CHEBI:6055; CHEBI:45067; CHEBI:29888; CHEBI:14641; CHEBI:35782; CHEBI:15413;
+    CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:77645; CHEBI:14883; CHEBI:45208;
+    CHEBI:341937; CHEBI:10785; CHEBI:57623; CHEBI:14169; CHEBI:42074; CHEBI:80489;
+    CHEBI:26245; CHEBI:19219; CHEBI:45212; CHEBI:42009; CHEBI:4616; CHEBI:33018
+
+    KEGG IDs: KEGG:C17627; KEGG:C00013; KEGG:C16416; KEGG:C06561; KEGG:C00235'
+measurements:
+- id: measurement_2_5_1_136_Humulus_lupulus_A0A0B5A051_A0A2U7XUE3_Dimethylallyl_diphosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 2_5_1_136_Humulus_lupulus_A0A0B5A051_A0A2U7XUE3_Dimethylallyl_diphosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.278e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Dimethylallyl_diphosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29760092'
+- id: 2_5_1_136_Humulus_lupulus_A0A0B5A051_A0A2U7XUE3_Dimethylallyl_diphosphate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 3.833333e-09
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Dimethylallyl_diphosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29760092'
+- id: 2_5_1_136_Humulus_lupulus_A0A0B5A051_A0A2U7XUE3_Dimethylallyl_diphosphate_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.16667e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Dimethylallyl_diphosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29760092'
+buffer:
+  buffer: 50 mM Tris-HCl, 0.1 mg/ml BSA
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 75425
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/29760092/
+  pubmed_id: '29760092'
+  doi: null

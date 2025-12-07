@@ -1,0 +1,254 @@
+version: '2.0'
+created: '2025-11-20T13:39:19.056414'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_27_Q27797_p34519
+  name: L-lactate dehydrogenase
+  ecnumber: 1.1.1.27
+  organism: Toxoplasma gondii
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q27797
+  wildtype_sequence: MTGTVSRRKKIAMIGSGMIGGTMGYLCVLRELADVVLFDVVTGMPEGKALDDSQATSIADTNVSVTSANQYEKIAGSDVVIITAGLTKVPGKSDKEWSRNDLLPFNAKIIREVAQGVKKYCPLAFVIVVTNPLDCMVKCFHEASGLPKNMVCGMANVLDSARFRRFIADQLEISPRDIQATVIGTHGDHMLPLARYVTVSGFPLREFIKKGKMTEAKLAEIVERTKKAGGEIVRLLGQGSAYYAPALSAITMAQAFLKDEKRVLPCSVYCQGEYGLHDMFIGLPAVIGGGGIEQVIELELTHEEQECFRKSVDDVVELNKSLAALG
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Pyruvate
+  name: Pyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Reduced_3-acetylpyridine-adenine_dinucleotide
+  name: Reduced 3-acetylpyridine-adenine dinucleotide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Lactate
+  name: L-Lactate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3-Acetylpyridine-adenine_dinucleotide
+  name: 3-Acetylpyridine-adenine dinucleotide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_8195_EC1_1_1_27_Toxoplasma_gondii_Q27797_Pyruvate
+  name: Reaction catalyzed by L-lactate dehydrogenase on Pyruvate
+  equation: L-Lactate + 3-Acetylpyridine-adenine dinucleotide = H+ + Pyruvate + Reduced
+    3-acetylpyridine-adenine dinucleotide
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Pyruvate
+  - species_id: substrate_Reduced_3-acetylpyridine-adenine_dinucleotide
+  products:
+  - species_id: product_L-Lactate
+  - species_id: product_3-Acetylpyridine-adenine_dinucleotide
+  modifiers:
+  - species_id: protein_1_1_1_27_Q27797_p34519
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:18783; CHEBI:14987; CHEBI:422; CHEBI:12411; CHEBI:29234;
+    CHEBI:13357; CHEBI:15361; CHEBI:24636; CHEBI:29233; CHEBI:5584; CHEBI:26466; CHEBI:11065;
+    CHEBI:26462; CHEBI:16651; CHEBI:8685; CHEBI:15378; CHEBI:32816; CHEBI:10744; CHEBI:45253
+
+    KEGG IDs: KEGG:C00022; KEGG:C00186; KEGG:C00080'
+- id: sabiork_61_EC1_1_1_27_Toxoplasma_gondii_Q27797_Pyruvate
+  name: Reaction catalyzed by With NAD(+) or NADP(+) as acceptor on Pyruvate
+  equation: L-Lactate + NAD+ = NADH + H+ + Pyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Pyruvate
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_NAD_
+  - species_id: product_L-Lactate
+  modifiers:
+  - species_id: protein_1_1_1_27_Q27797_p34520
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 23444;23445;23446;23447
+  KEGGid: R00703
+  notes: 'ChEBI IDs: CHEBI:18783; CHEBI:14987; CHEBI:422; CHEBI:12411; CHEBI:44281;
+    CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:15361;
+    CHEBI:13396; CHEBI:21901; CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:5584; CHEBI:13394;
+    CHEBI:26466; CHEBI:57945; CHEBI:44216; CHEBI:11065; CHEBI:26462; CHEBI:57540;
+    CHEBI:7423; CHEBI:16651; CHEBI:8685; CHEBI:13389; CHEBI:13395; CHEBI:15378; CHEBI:32816;
+    CHEBI:10744; CHEBI:44215; CHEBI:45253; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00186; KEGG:C00080; KEGG:C00022; KEGG:C00003; KEGG:C00004'
+measurements:
+- id: measurement_1_1_1_27_Toxoplasma_gondii_Q27797_Pyruvate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_1_1_27_Toxoplasma_gondii_Q27797_Pyruvate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1_27_Toxoplasma_gondii_Q27797_Pyruvate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000814
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Pyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14744130'
+- id: 1_1_1_27_Toxoplasma_gondii_Q27797_Pyruvate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 30.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Pyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14744130'
+- id: 1_1_1_27_Toxoplasma_gondii_Q27797_Pyruvate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 64.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Pyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14744130'
+- id: 1_1_1_27_Toxoplasma_gondii_Q27797_Pyruvate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000359
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Pyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14744130'
+buffer:
+  buffer: 100 mM Tris
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 34519
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/14744130/
+  pubmed_id: '14744130'
+  doi: null
+name: Merged entry for Q27797 wildtype
+description: 'Merged from 2 files: SABIO_EC1.1.1.27_Toxoplasma_gondii__Q27797_s_Pyruvate.yaml,
+  SABIO_EC1.1.1.27_Toxoplasma_gondii__Q27797_s_Pyruvate_2.yaml'

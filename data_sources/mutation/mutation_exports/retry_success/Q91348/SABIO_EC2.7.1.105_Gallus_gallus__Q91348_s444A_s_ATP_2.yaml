@@ -1,0 +1,185 @@
+name: SABIO-RK Entry 5286
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 5286
+created: '2025-10-28T13:49:08.658181'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_105_Q91348_p5286
+  name: 6-phosphofructokinase
+  sequence: null
+  ecnumber: 2.7.1.105
+  organism: Gallus gallus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: s444A
+  uniprotid: Q91348
+  mutant_sequence: MAAVASGQLTQNPLQKVWVPLSLHRLRRRGSTVPQFTNCPTMVILVGLRRPGKTYISRKLTRYLNWIGMPTRVFNVGQYRREAVQSYKNYEFFRHDNEEAMQIRRQCALAALQDVRTYLSSEEGQVAVFDATNTTRERRALIMQFARENGYKVLFVESICDDPAIIEENIKQVKLSSPDYKGCTPEEAVADFLQRIECYKATYEPLDEQLDSGLSYIKIFDVGVRYLANRVQGHVQSRTVYYLMNTHVTPRAIYLSRHGESQLNLKGRIGGDAGLSTRGRQYAQALAEFIRSQSIRELKVWTSHMKRTIETAEALGVPYEQWKALNEIDAGVCEEMTYEEIQERYPEEFALRDQDKYRYRYPKGESYEDLVQRLEPVIMELERQENVLVICHQAVMRCLLAYFLDKSSEELPYLRCPLHTVLKLTPVAYGCEVEAIFLNVEAVNTHRERPQNVDISRPPAEALVTVPEHY
+  position_offset: -9
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Fructose_6-phosphate
+  name: D-Fructose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mg2_
+  name: Mg2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Fructose_2
+  name: D-Fructose 2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_6-bisphosphate
+  name: 6-bisphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1114_EC2_7_1_105_Gallus_gallus_Q91348_ATP
+  name: Reaction catalyzed by 6-phosphofructokinase on ATP
+  equation: ATP + D-Fructose 6-phosphate = ADP + D-Fructose 2,6-bisphosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_D-Fructose_6-phosphate
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_ADP
+  - species_id: product_D-Fructose_2
+  - species_id: product_6-bisphosphate
+  modifiers:
+  - species_id: protein_2_7_1_105_Q91348_p5286
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:15946; CHEBI:16761; CHEBI:10789;
+    CHEBI:57299; CHEBI:13379; CHEBI:12926; CHEBI:40553; CHEBI:20935; CHEBI:6635; CHEBI:13236;
+    CHEBI:10841; CHEBI:2359; CHEBI:87518; CHEBI:49736; CHEBI:40938; CHEBI:28602; CHEBI:42406;
+    CHEBI:456216; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:57579; CHEBI:18420;
+    CHEBI:4124; CHEBI:25112; CHEBI:13222; CHEBI:22244; CHEBI:39127
+
+    KEGG IDs: KEGG:C00305; KEGG:C00002; KEGG:C00085; KEGG:C00008; KEGG:C00665'
+measurements:
+- id: measurement_2_7_1_105_Gallus_gallus_Q91348_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: null
+  temperature_unit: null
+parameters:
+- id: 2_7_1_105_Gallus_gallus_Q91348_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00089
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11439102'
+- id: 2_7_1_105_Gallus_gallus_Q91348_ATP_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00024
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11439102'
+buffer:
+  buffer: 5 mM potassium phosphate
+  buffer_concentration: 5 mM
+references:
+- title: Reference for SABIO-RK entry 5286
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11439102/
+  pubmed_id: '11439102'
+  doi: null

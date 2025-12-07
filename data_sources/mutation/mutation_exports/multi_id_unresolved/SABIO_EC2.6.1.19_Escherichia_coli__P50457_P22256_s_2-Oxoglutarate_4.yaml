@@ -1,0 +1,169 @@
+name: SABIO-RK Entry 4071
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 4071
+created: '2025-10-28T13:47:40.973726'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_6_1_19_P50457_P22256_p4071
+  name: 4-aminobutyrate transaminase
+  sequence: null
+  ecnumber: 2.6.1.19
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P50457; P22256
+complexes: null
+small_molecules:
+- id: substrate_2-Oxoglutarate
+  name: 2-Oxoglutarate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_2-Methylglutamate
+  name: 2-Methylglutamate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Glutamate
+  name: L-Glutamate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Levulinic_acid
+  name: Levulinic acid
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Pyridoxal_phosphate
+  name: Pyridoxal phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7077_EC2_6_1_19_Escherichia_coli_P50457_P22256_2-Oxoglutarate
+  name: Reaction catalyzed by 4-aminobutyrate transaminase on 2-Oxoglutarate
+  equation: 2-Methylglutamate + 2-Oxoglutarate = CO2 + L-Glutamate + Levulinic acid
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2-Oxoglutarate
+  - species_id: substrate_2-Methylglutamate
+  products:
+  - species_id: product_L-Glutamate
+  - species_id: product_CO2
+  - species_id: product_Levulinic_acid
+  modifiers:
+  - species_id: protein_2_6_1_19_P50457_P22256_p4071
+    role: BIOCATALYST
+  - species_id: activator_Pyridoxal_phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:45628; CHEBI:42825; CHEBI:11638; CHEBI:139538; CHEBI:1253;
+    CHEBI:358848; CHEBI:19748; CHEBI:39150; CHEBI:3283; CHEBI:26424; CHEBI:8668; CHEBI:29972;
+    CHEBI:21301; CHEBI:16810; CHEBI:40661; CHEBI:18405; CHEBI:23011; CHEBI:6224; CHEBI:597326;
+    CHEBI:30916; CHEBI:13285; CHEBI:13282; CHEBI:39149; CHEBI:13107; CHEBI:19749;
+    CHEBI:16015; CHEBI:234571; CHEBI:13283; CHEBI:21304; CHEBI:45630; CHEBI:45145;
+    CHEBI:13284; CHEBI:16526; CHEBI:30915; CHEBI:14977; CHEBI:48829; CHEBI:29985;
+    CHEBI:29988
+
+    KEGG IDs: KEGG:C00025; KEGG:C00011; KEGG:C00018; KEGG:C00026'
+measurements:
+- id: measurement_2_6_1_19_Escherichia_coli_P50457_P22256_2-Oxoglutarate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 2_6_1_19_Escherichia_coli_P50457_P22256_2-Oxoglutarate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.00092
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Oxoglutarate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15723541'
+buffer:
+  buffer: 25 mM Tris or MOPS, 10 mM MgCl2, 0.04 % sodium azide
+  buffer_concentration: 25 mM
+references:
+- title: Reference for SABIO-RK entry 4071
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15723541/
+  pubmed_id: '15723541'
+  doi: null

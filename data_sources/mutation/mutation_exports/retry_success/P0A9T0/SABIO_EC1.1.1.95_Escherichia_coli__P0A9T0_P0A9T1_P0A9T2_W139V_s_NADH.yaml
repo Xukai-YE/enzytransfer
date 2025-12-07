@@ -1,0 +1,191 @@
+name: SABIO-RK Entry 21146
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 21146
+created: '2025-10-28T14:17:31.670551'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_95_P0A9T0_P0A9T1_P0A9T2_p21146
+  name: 2-oxoglutarate reductase
+  sequence: null
+  ecnumber: 1.1.1.95
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: W139V
+  uniprotid: P0A9T0; P0A9T1; P0A9T2
+  mutant_sequence: MAKVSLEKDKIKFLLVEGVHQKALESLRAAGYTNIEFHKGALDDEQLKESIRDAHFIGLRSRTHLTEDVINAAEKLVAIGCFCIGTNQVDLDAAAKRGIPVFNAPFSNTRSVAELVIGELLLLLRGVPEANAKAHRGVVNKLAAGSFEARGKKLGIIGYGHIGTQLGILAESLGMYVYFYDIENKLPLGNATQVQHLSDLLNMSDVVSLHVPENPSTKNMMGAKEISLMKPGSLLINASRGTVVDIPALCDALASKHLAGAAIDVFPTEPATNSDPFTSPLCEFDNVLLTPHIGGSTQEAQENIGLEVAGKLIKYSDNGSTLSAVNFPEVSLPLHGGRRLMHIHENRPGVLTALNKIFAEQGVNIAAQYLQTSAQMGYVVIDIEADEDVAEKALQAMKAIPGTIRARLLY
+  position_offset: 0
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_2-Oxoglutarate
+  name: 2-Oxoglutarate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Hydroxyglutarate
+  name: 2-Hydroxyglutarate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_9739_EC1_1_1_95_Escherichia_coli_P0A9T0_P0A9T1_P0A9T2_NADH
+  name: Reaction catalyzed by 2-oxoglutarate reductase on NADH
+  equation: 2-Oxoglutarate + NADH + H+ = 2-Hydroxyglutarate + NAD+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  - species_id: substrate_2-Oxoglutarate
+  products:
+  - species_id: product_NAD_
+  - species_id: product_2-Hydroxyglutarate
+  modifiers:
+  - species_id: protein_1_1_1_95_P0A9T0_P0A9T1_P0A9T2_p21146
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 13449;13450;13451;13452
+  KEGGid: R08198
+  notes: 'ChEBI IDs: CHEBI:11638; CHEBI:1253; CHEBI:44281; CHEBI:19748; CHEBI:13393;
+    CHEBI:29234; CHEBI:15846; CHEBI:36149; CHEBI:13357; CHEBI:21902; CHEBI:13396;
+    CHEBI:21901; CHEBI:17084; CHEBI:132941; CHEBI:24636; CHEBI:16810; CHEBI:40661;
+    CHEBI:44214; CHEBI:11596; CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:57945; CHEBI:30916;
+    CHEBI:44216; CHEBI:57540; CHEBI:19749; CHEBI:7423; CHEBI:13389; CHEBI:13395; CHEBI:15378;
+    CHEBI:30915; CHEBI:10744; CHEBI:44215; CHEBI:1160; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C02630; KEGG:C00080; KEGG:C00026; KEGG:C00003; KEGG:C00004'
+measurements:
+- id: measurement_1_1_1_95_Escherichia_coli_P0A9T0_P0A9T1_P0A9T2_NADH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: null
+  temperature_unit: null
+parameters:
+- id: 1_1_1_95_Escherichia_coli_P0A9T0_P0A9T1_P0A9T2_NADH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0018
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '10026144'
+- id: 1_1_1_95_Escherichia_coli_P0A9T0_P0A9T1_P0A9T2_NADH_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 25.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '10026144'
+- id: 1_1_1_95_Escherichia_coli_P0A9T0_P0A9T1_P0A9T2_NADH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.045
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '10026144'
+buffer:
+  buffer: 20 mM Tris
+  buffer_concentration: 20 mM
+references:
+- title: Reference for SABIO-RK entry 21146
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10026144/
+  pubmed_id: '10026144'
+  doi: null

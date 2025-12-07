@@ -1,0 +1,160 @@
+name: SABIO-RK Entry 21936
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 21936
+created: '2025-10-28T14:19:03.189215'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_3_1_16_P07871_P21775_p21936
+  name: acetyl-CoA C-acetyltransferase
+  sequence: null
+  ecnumber: 2.3.1.16
+  organism: Rattus norvegicus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P07871; P21775
+complexes: null
+small_molecules:
+- id: substrate_Acetoacetyl-CoA
+  name: Acetoacetyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Acetyl-CoA
+  name: Acetyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_531_EC2_3_1_16_Rattus_norvegicus_P07871_P21775_Acetoacetyl-CoA
+  name: Reaction catalyzed by acetyl-CoA C-acetyltransferase on Acetoacetyl-CoA
+  equation: Acetyl-CoA = Coenzyme A + Acetoacetyl-CoA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Acetoacetyl-CoA
+  - species_id: substrate_Coenzyme_A
+  products:
+  - species_id: product_Acetyl-CoA
+  modifiers:
+  - species_id: protein_2_3_1_16_P07871_P21775_p21936
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 21036;21037;21038;21039
+  KEGGid: R00238
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:15346; CHEBI:23355; CHEBI:57288; CHEBI:41631;
+    CHEBI:13712; CHEBI:41333; CHEBI:2392; CHEBI:15345; CHEBI:13295; CHEBI:13706; CHEBI:41597;
+    CHEBI:11756; CHEBI:57287; CHEBI:13294; CHEBI:57286; CHEBI:40470; CHEBI:2408; CHEBI:3771;
+    CHEBI:741566; CHEBI:22173; CHEBI:13298; CHEBI:15351
+
+    KEGG IDs: KEGG:C00024; KEGG:C00332; KEGG:C00010'
+measurements:
+- id: measurement_2_3_1_16_Rattus_norvegicus_P07871_P21775_Acetoacetyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 2_3_1_16_Rattus_norvegicus_P07871_P21775_Acetoacetyl-CoA_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.002666667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetoacetyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10806397'
+- id: 2_3_1_16_Rattus_norvegicus_P07871_P21775_Acetoacetyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 9.0e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetoacetyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10806397'
+buffer:
+  buffer: 50 mM Tris/HCl
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 21936
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10806397/
+  pubmed_id: '10806397'
+  doi: null

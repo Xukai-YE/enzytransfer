@@ -1,0 +1,361 @@
+version: '2.0'
+created: '2025-11-20T13:39:23.938282'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+- given_name: SKiD
+  family_name: Database
+  mail: skid@database.org
+vessels: null
+proteins:
+- id: protein_1_1_1_44_P00350_p64317
+  name: phosphogluconate dehydrogenase (decarboxylating)
+  ecnumber: 1.1.1.44
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P00350
+  wildtype_sequence: MSKQQIGVVGMAVMGRNLALNIESRGYTVSIFNRSREKTEEVIAENPGKKLVPYYTVKEFVESLETPRRILLMVKAGAGTDAAIDSLKPYLDKGDIIIDGGNTFFQDTIRRNRELSAEGFNFIGTGVSGGEEGALKGPSIMPGGQKEAYELVAPILTKIAAVAEDGEPCVTYIGADGAGHYVKMVHNGIEYGDMQLIAEAYSLLKGGLNLTNEELAQTFTEWNNGELSSYLIDITKDIFTKKDEDGNYLVDVILDEAANKGTGKWTSQSALDLGEPLSLITESVFARYISSLKDQRVAASKVLSGPQAQPAGDKAEFIEKVRRALYLGKIVSYAQGFSQLRAASEEYNWDLNYGEIAKIFRAGCIIRAQFLQKITDAYAENPQIANLLLAPYFKQIADDYQQALRDVVAYAVQNGIPVPTFSAAVAYYDSYRAAVLPANLIQAQRDYFGAHTYKRIDKEGVFHTEWLD
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_6-Phospho-D-gluconate
+  name: 6-Phospho-D-gluconate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Ribulose_5-phosphate
+  name: D-Ribulose 5-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_6-phospho-D-gluconate
+  name: 6-phospho-D-gluconate
+  canonical_smiles: P(=O)(O)(O)OC[C@H]([C@H]([C@@H]([C@H](C(=O)[O-])O)O)O)O
+  inchi: InChI=1S/C6H13O10P/c7-2(1-16-17(13,14)15)3(8)4(9)5(10)6(11)12/h2-5,7-10H,1H2,(H,11,12)(H2,13,14,15)/p-1/t2-,3-,4+,5-/m1/s1
+  inchikey: BIRSGZKFKXLSJQ-SQOUGZDYSA-M
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/91493
+- id: product
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_108_EC1_1_1_44_Escherichia_coli_P00350_NADP_
+  name: Reaction catalyzed by phosphogluconate dehydrogenase (decarboxylating) on
+    NADP+
+  equation: NADP+ + 6-Phospho-D-gluconate = CO2 + H+ + NADPH + D-Ribulose 5-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADP_
+  - species_id: substrate_6-Phospho-D-gluconate
+  products:
+  - species_id: product_CO2
+  - species_id: product_NADPH
+  - species_id: product_D-Ribulose_5-phosphate
+  modifiers:
+  - species_id: protein_1_1_1_44_P00350_p64317
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 10116;10117;10118;10119
+  KEGGid: R01528
+  notes: 'ChEBI IDs: CHEBI:2231; CHEBI:26572; CHEBI:13397; CHEBI:13398; CHEBI:4243;
+    CHEBI:139538; CHEBI:7424; CHEBI:21903; CHEBI:44405; CHEBI:21088; CHEBI:7425; CHEBI:16863;
+    CHEBI:29234; CHEBI:3283; CHEBI:25523; CHEBI:13357; CHEBI:40192; CHEBI:13018; CHEBI:24636;
+    CHEBI:29233; CHEBI:5584; CHEBI:23011; CHEBI:13399; CHEBI:58759; CHEBI:37455; CHEBI:13040;
+    CHEBI:33851; CHEBI:40282; CHEBI:13285; CHEBI:13282; CHEBI:16474; CHEBI:44286;
+    CHEBI:48928; CHEBI:13283; CHEBI:21904; CHEBI:44409; CHEBI:15378; CHEBI:12232;
+    CHEBI:13284; CHEBI:18009; CHEBI:16526; CHEBI:58349; CHEBI:48829; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744; CHEBI:17363; CHEBI:58121
+
+    KEGG IDs: KEGG:C00199; KEGG:C00005; KEGG:C00080; KEGG:C00011; KEGG:C00006; KEGG:C11037;
+    KEGG:C00345'
+- id: sabiork_108_EC1_1_1_44_Escherichia_coli_P00350_NADP_
+  name: Reaction catalyzed by phosphogluconate dehydrogenase (decarboxylating) on
+    NADP+
+  equation: NADP+ + 6-Phospho-D-gluconate = CO2 + H+ + NADPH + D-Ribulose 5-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADP_
+  - species_id: substrate_6-Phospho-D-gluconate
+  products:
+  - species_id: product_CO2
+  - species_id: product_NADPH
+  - species_id: product_D-Ribulose_5-phosphate
+  modifiers:
+  - species_id: protein_1_1_1_44_P00350_p64318
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 10116;10117;10118;10119
+  KEGGid: R01528
+  notes: 'ChEBI IDs: CHEBI:2231; CHEBI:26572; CHEBI:13397; CHEBI:13398; CHEBI:4243;
+    CHEBI:139538; CHEBI:7424; CHEBI:21903; CHEBI:44405; CHEBI:21088; CHEBI:7425; CHEBI:16863;
+    CHEBI:29234; CHEBI:3283; CHEBI:25523; CHEBI:13357; CHEBI:40192; CHEBI:13018; CHEBI:24636;
+    CHEBI:29233; CHEBI:5584; CHEBI:23011; CHEBI:13399; CHEBI:58759; CHEBI:37455; CHEBI:13040;
+    CHEBI:33851; CHEBI:40282; CHEBI:13285; CHEBI:13282; CHEBI:16474; CHEBI:44286;
+    CHEBI:48928; CHEBI:13283; CHEBI:21904; CHEBI:44409; CHEBI:15378; CHEBI:12232;
+    CHEBI:13284; CHEBI:18009; CHEBI:16526; CHEBI:58349; CHEBI:48829; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744; CHEBI:17363; CHEBI:58121
+
+    KEGG IDs: KEGG:C00199; KEGG:C00005; KEGG:C00080; KEGG:C00011; KEGG:C00006; KEGG:C11037;
+    KEGG:C00345'
+- id: reaction_P00350_6-phospho-D-gluconate
+  name: Reaction catalyzed by enzyme on 6-phospho-D-gluconate
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_6-phospho-D-gluconate
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_P00350
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_P00350_NADP_
+  name: Reaction catalyzed by enzyme on NADP+
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADP_
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_P00350
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+measurements:
+- id: measurement_1_1_1_44_Escherichia_coli_P00350_NADP_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_1_1_44_Escherichia_coli_P00350_NADP_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=8.0, T=25.0°C)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=8.0, T=25.0°C)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1_44_Escherichia_coli_P00350_NADP__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 9.3e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19686854'
+- id: 1_1_1_44_Escherichia_coli_P00350_NADP__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 110000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19686854'
+- id: 1_1_1_44_Escherichia_coli_P00350_NADP__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.9e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19686854'
+- id: 1_1_1_44_Escherichia_coli_P00350_NADP__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 430000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19686854'
+- id: P00350_6-phospho-D-gluconate_Km_11605
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.093
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_6-phospho-D-gluconate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '19686854'
+- id: P00350_NADP__Km_11604
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.049
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '19686854'
+buffer:
+  buffer: 50 mM Tris-HCl, 20 mM MgCl2
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 64317
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/19686854/
+  pubmed_id: '19686854'
+  doi: null
+name: Merged entry for P00350 wildtype
+description: 'Merged from 4 files: SABIO_EC1.1.1.44_Escherichia_coli__P00350_s_NADP_.yaml,
+  SABIO_EC1.1.1.44_Escherichia_coli__P00350_s_NADP__2.yaml, SKID_EC1.1.1.44_Escherichi_P00350_6-phospho-D-glu.yaml,
+  SKID_EC1.1.1.44_Escherichi_P00350_NADP_.yaml'

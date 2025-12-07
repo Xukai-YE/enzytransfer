@@ -1,0 +1,234 @@
+name: SABIO-RK Entry 8509
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 8509
+created: '2025-10-28T13:53:33.047749'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_6_3_5_5_P00968_P0A6F1_p8509
+  name: carbamoyl-phosphate synthase (glutamine-hydrolysing)
+  sequence: null
+  ecnumber: 6.3.5.5
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: F755A
+  uniprotid: P00968; P0A6F1
+  mutant_sequence: MPKRTDIKSILILGAGPIVIGQACEFDYSGAQACKALREEGYRVILVNSNPATIMTDPEMADATYIEPIHWEVVRKIIEKERPDAVLPTMGGQTALNCALELERQGVLEEFGVTMIGATADAIDKAEDRRRFDVAMKKIGLETARSGIAHTMEEALAVAADVGFPCIIRPSFTMGGSGGGIAYNREEFEEICARGLDLSPTKELLIDESLIGWKEYEMEVVRDKNDNCIIVCSIENFDAMGIHTGDSITVAPAQTLTDKEYQIMRNASMAVLREIGVETGGSNVQFAVNPKNGRLIVIEMNPRVSRSSALASKATGFPIAKVAAKLAVGYTLDELMNDITGGRTPASFEPSIDYVVTKIPRFNFEKFAGANDRLTTQMKSVGEVMAIGRTQQESLQKALRGLEVGATGFDPKVSLDDPEALTKIRRELKDAGADRIWYIADAFRAGLSVDGVFNLTNIDRWFLVQIEELVRLEEKVAEVGITGLNADFLRQLKRKGFADARLAKLAGVREAEIRKLRDQYDLHPVYKRVDTCAAEFATDTAYMYSTYEEECEANPSTDREKIMVLGGGPNRIGQGIEFDYCCVHASLALREDGYETIMVNCNPETVSTDYDTSDRLYFEPVTLEDVLEIVRIEKPKGVIVQYGGQTPLKLARALEAAGVPVIGTSPDAIDRAEDRERFQHAVERLKLKQPANATVTAIEMAVEKAKEIGYPLVVRPSYVLGGRAMEIVYDEADLRRYFQTAVSVSNDAPVLLDHALDDAVEVDVDAICDGEMVLIGGIMEHIEQAGVHSGDSACSLPAYTLSQEIQDVMRQQVQKLAFELQVRGLMNVQFAVKNNEVYLIEVNPRAARTVPFVSKATGVPLAKVAARVMAGKSLAEQGVTKEVIPPYYSVKEVVLPFNKFPGVDPLLGPEMRSTGEVMGVGRTFAEAFAKAQLGSNSTMKKHGRALLSVREGDKERVVDLAAKLLKQGFELDATHGTAIVLGEAGINPRLVNKVHEGRPHIQDRIKNGEYTYIINTTSGRRAIEDSRVIRRSALQYKVHYDTTLNGGFATAMALNADATEKVISVQEMHAQIK
+  position_offset: 0
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Carbamoyl_phosphate
+  name: Carbamoyl phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Phosphate
+  name: Phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_L-Glutamate
+  name: L-Glutamate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Glutamine
+  name: L-Glutamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Hydrogencarbonate
+  name: Hydrogencarbonate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_203_EC6_3_5_5_Escherichia_coli_P00968_P0A6F1_Carbamoyl_phosphate
+  name: Reaction catalyzed by carbamoyl-phosphate synthase (glutamine-hydrolysing)
+    on Carbamoyl phosphate
+  equation: ATP + H2O + Hydrogencarbonate + L-Glutamine = ADP + Phosphate + Carbamoyl
+    phosphate + L-Glutamate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Carbamoyl_phosphate
+  - species_id: substrate_ADP
+  - species_id: substrate_Phosphate
+  - species_id: substrate_L-Glutamate
+  products:
+  - species_id: product_L-Glutamine
+  - species_id: product_Hydrogencarbonate
+  - species_id: product_ATP
+  modifiers:
+  - species_id: protein_6_3_5_5_P00968_P0A6F1_p8509
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 18633;18634;18635;18636
+  KEGGid: R00575
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:43470; CHEBI:42825; CHEBI:40961; CHEBI:26020;
+    CHEBI:26078; CHEBI:23005; CHEBI:29139; CHEBI:28300; CHEBI:13351; CHEBI:456216;
+    CHEBI:13110; CHEBI:16015; CHEBI:22863; CHEBI:23744; CHEBI:33806; CHEBI:10743;
+    CHEBI:29374; CHEBI:6227; CHEBI:42812; CHEBI:43474; CHEBI:29988; CHEBI:58359; CHEBI:28976;
+    CHEBI:14791; CHEBI:16761; CHEBI:18367; CHEBI:44819; CHEBI:41981; CHEBI:32678;
+    CHEBI:23017; CHEBI:42899; CHEBI:58228; CHEBI:5589; CHEBI:42043; CHEBI:33811; CHEBI:15377;
+    CHEBI:39745; CHEBI:40938; CHEBI:5432; CHEBI:42814; CHEBI:13107; CHEBI:43228; CHEBI:15422;
+    CHEBI:21304; CHEBI:18050; CHEBI:29985; CHEBI:22244; CHEBI:29373; CHEBI:44701;
+    CHEBI:30616; CHEBI:3389; CHEBI:10789; CHEBI:57299; CHEBI:35780; CHEBI:40553; CHEBI:17672;
+    CHEBI:42857; CHEBI:41979; CHEBI:39739; CHEBI:29972; CHEBI:21301; CHEBI:32679;
+    CHEBI:3401; CHEBI:10841; CHEBI:27313; CHEBI:87518; CHEBI:6224; CHEBI:32665; CHEBI:13363;
+    CHEBI:44292; CHEBI:45024; CHEBI:30011; CHEBI:237958; CHEBI:42943; CHEBI:32666;
+    CHEBI:17544; CHEBI:13236; CHEBI:41605; CHEBI:13942; CHEBI:24316; CHEBI:2359; CHEBI:33813;
+    CHEBI:29201; CHEBI:21308; CHEBI:41609; CHEBI:13352; CHEBI:7793; CHEBI:2342; CHEBI:22249;
+    CHEBI:5585; CHEBI:13222; CHEBI:41567; CHEBI:29137
+
+    KEGG IDs: KEGG:C00064; KEGG:C00303; KEGG:C00002; KEGG:C00001; KEGG:C00009; KEGG:C00288;
+    KEGG:C00025; KEGG:C00008; KEGG:C00169; KEGG:C01353'
+measurements:
+- id: measurement_6_3_5_5_Escherichia_coli_P00968_P0A6F1_Carbamoyl_phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 6_3_5_5_Escherichia_coli_P00968_P0A6F1_Carbamoyl_phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.1e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Carbamoyl_phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14718657'
+- id: 6_3_5_5_Escherichia_coli_P00968_P0A6F1_Carbamoyl_phosphate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 9000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Carbamoyl_phosphate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14718657'
+- id: 6_3_5_5_Escherichia_coli_P00968_P0A6F1_Carbamoyl_phosphate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.28
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Carbamoyl_phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14718657'
+buffer:
+  buffer: 50 mM HEPES, 100 mM KCl, 20 mM MgSO4, 10 mM Ornithine, 1 mM NADP+, 20 mM
+    Glucose, 10 U/ml Hexokinase, 5 U/ml Glucose-6-phosphate dehydrogenase
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 8509
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/14718657/
+  pubmed_id: '14718657'
+  doi: null

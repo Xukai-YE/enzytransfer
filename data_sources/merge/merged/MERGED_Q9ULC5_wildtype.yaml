@@ -1,0 +1,359 @@
+version: '2.0'
+created: '2025-11-20T13:41:51.760845'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_6_2_1_3_Q9ULC5_p54365
+  name: long-chain-fatty-acid---CoA ligase
+  ecnumber: 6.2.1.3
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9ULC5
+  wildtype_sequence: MLFIFNFLFSPLPTPALICILTFGAAIFLWLITRPQPVLPLLDLNNQSVGIEGGARKGVSQKNNDLTSCCFSDAKTMYEVFQRGLAVSDNGPCLGYRKPNQPYRWLSYKQVSDRAEYLGSCLLHKGYKSSPDQFVGIFAQNRPEWIISELACYTYSMVAVPLYDTLGPEAIVHIVNKADIAMVICDTPQKALVLIGNVEKGFTPSLKVIILMDPFDDDLKQRGEKSGIEILSLYDAENLGKEHFRKPVPPSPEDLSVICFTSGTTGDPKGAMITHQNIVSNAAAFLKCVEHAYEPTPDDVAISYLPLAHMFERIVQAVVYSCGARVGFFQGDIRLLADDMKTLKPTLFPAVPRLLNRIYDKVQNEAKTPLKKFLLKLAVSSKFKELQKGIIRHDSFWDKLIFAKIQDSLGGRVRVIVTGAAPMSTSVMTFFRAAMGCQVYEAYGQTECTGGCTFTLPGDWTSGHVGVPLACNYVKLEDVADMNYFTVNNEGEVCIKGTNVFKGYLKDPEKTQEALDSDGWLHTGDIGRWLPNGTLKIIDRKKNIFKLAQGEYIAPEKIENIYNRSQPVLQIFVHGESLRSSLVGVVVPDTDVLPSFAAKLGVKGSFEELCQNQVVREAILEDLQKIGKESGLKTFEQVKAIFLHPEPFSIENGLLTPTLKAKRGELSKYFRTQIDSLYEHIQD
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Palmitate
+  name: Palmitate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_AMP
+  name: AMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Palmitoyl-CoA
+  name: Palmitoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Magnesium_chloride
+  name: Magnesium chloride
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1496_EC6_2_1_3_Homo_sapiens_Q9ULC5_ATP
+  name: Reaction catalyzed by long-chain-fatty-acid---CoA ligase on ATP
+  equation: ATP + Coenzyme A + Palmitate = AMP + Diphosphate + Palmitoyl-CoA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Palmitate
+  - species_id: substrate_Coenzyme_A
+  products:
+  - species_id: product_AMP
+  - species_id: product_Diphosphate
+  - species_id: product_Palmitoyl-CoA
+  modifiers:
+  - species_id: protein_6_2_1_3_Q9ULC5_p54365
+    role: BIOCATALYST
+  - species_id: activator_Magnesium_chloride
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 30751;30752;30753;30754
+  KEGGid: R01280
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:15346; CHEBI:23355; CHEBI:10789;
+    CHEBI:57299; CHEBI:15756; CHEBI:40726; CHEBI:22245; CHEBI:8683; CHEBI:44952; CHEBI:40510;
+    CHEBI:41631; CHEBI:24541; CHEBI:22242; CHEBI:13736; CHEBI:47222; CHEBI:24550;
+    CHEBI:33019; CHEBI:7896; CHEBI:456215; CHEBI:13236; CHEBI:24540; CHEBI:15525;
+    CHEBI:13295; CHEBI:40786; CHEBI:45067; CHEBI:40826; CHEBI:41597; CHEBI:16027;
+    CHEBI:2356; CHEBI:10841; CHEBI:14730; CHEBI:29888; CHEBI:29889; CHEBI:2359; CHEBI:35782;
+    CHEBI:57379; CHEBI:40938; CHEBI:57287; CHEBI:13420; CHEBI:18361; CHEBI:14732;
+    CHEBI:233028; CHEBI:33017; CHEBI:13294; CHEBI:24542; CHEBI:45208; CHEBI:14397;
+    CHEBI:22249; CHEBI:15422; CHEBI:7898; CHEBI:13740; CHEBI:24543; CHEBI:6636; CHEBI:3771;
+    CHEBI:13234; CHEBI:741566; CHEBI:40721; CHEBI:231736; CHEBI:45212; CHEBI:42009;
+    CHEBI:13235; CHEBI:12056; CHEBI:35978; CHEBI:13298; CHEBI:33018
+
+    KEGG IDs: KEGG:C00249; KEGG:C00013; KEGG:C00154; KEGG:C00010; KEGG:C00002; KEGG:C07755;
+    KEGG:C00020'
+- id: sabiork_1496_EC6_2_1_3_Homo_sapiens_Q9ULC5_Coenzyme_A
+  name: Reaction catalyzed by long-chain-fatty-acid---CoA ligase on Coenzyme A
+  equation: ATP + Coenzyme A + Palmitate = AMP + Diphosphate + Palmitoyl-CoA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Coenzyme_A
+  - species_id: substrate_ATP
+  - species_id: substrate_Palmitate
+  products:
+  - species_id: product_Palmitoyl-CoA
+  - species_id: product_Diphosphate
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_6_2_1_3_Q9ULC5_p54368
+    role: BIOCATALYST
+  - species_id: activator_Magnesium_chloride
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 30751;30752;30753;30754
+  KEGGid: R01280
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:15346; CHEBI:23355; CHEBI:10789;
+    CHEBI:57299; CHEBI:15756; CHEBI:8683; CHEBI:40726; CHEBI:22245; CHEBI:44952; CHEBI:40510;
+    CHEBI:41631; CHEBI:24541; CHEBI:22242; CHEBI:13736; CHEBI:47222; CHEBI:24550;
+    CHEBI:33019; CHEBI:7896; CHEBI:456215; CHEBI:13236; CHEBI:24540; CHEBI:15525;
+    CHEBI:13295; CHEBI:45067; CHEBI:40786; CHEBI:40826; CHEBI:41597; CHEBI:16027;
+    CHEBI:2356; CHEBI:10841; CHEBI:14730; CHEBI:29888; CHEBI:29889; CHEBI:2359; CHEBI:57379;
+    CHEBI:35782; CHEBI:40938; CHEBI:57287; CHEBI:14732; CHEBI:18361; CHEBI:13420;
+    CHEBI:233028; CHEBI:33017; CHEBI:13294; CHEBI:24542; CHEBI:14397; CHEBI:45208;
+    CHEBI:22249; CHEBI:15422; CHEBI:7898; CHEBI:13740; CHEBI:24543; CHEBI:6636; CHEBI:3771;
+    CHEBI:13234; CHEBI:741566; CHEBI:40721; CHEBI:231736; CHEBI:45212; CHEBI:42009;
+    CHEBI:13235; CHEBI:12056; CHEBI:35978; CHEBI:13298; CHEBI:33018
+
+    KEGG IDs: KEGG:C00249; KEGG:C00154; KEGG:C00013; KEGG:C00010; KEGG:C00002; KEGG:C07755;
+    KEGG:C00020'
+- id: sabiork_1496_EC6_2_1_3_Homo_sapiens_Q9ULC5_Palmitate
+  name: Reaction catalyzed by long-chain-fatty-acid---CoA ligase on Palmitate
+  equation: ATP + Coenzyme A + Palmitate = AMP + Diphosphate + Palmitoyl-CoA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Palmitate
+  - species_id: substrate_Coenzyme_A
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_Palmitoyl-CoA
+  - species_id: product_Diphosphate
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_6_2_1_3_Q9ULC5_p54367
+    role: BIOCATALYST
+  - species_id: activator_Magnesium_chloride
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 30751;30752;30753;30754
+  KEGGid: R01280
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:15346; CHEBI:23355; CHEBI:10789;
+    CHEBI:15756; CHEBI:57299; CHEBI:8683; CHEBI:40726; CHEBI:22245; CHEBI:44952; CHEBI:40510;
+    CHEBI:41631; CHEBI:24541; CHEBI:22242; CHEBI:13736; CHEBI:47222; CHEBI:24550;
+    CHEBI:33019; CHEBI:7896; CHEBI:456215; CHEBI:24540; CHEBI:13236; CHEBI:15525;
+    CHEBI:13295; CHEBI:45067; CHEBI:40786; CHEBI:40826; CHEBI:41597; CHEBI:16027;
+    CHEBI:2356; CHEBI:14730; CHEBI:10841; CHEBI:29888; CHEBI:29889; CHEBI:2359; CHEBI:57379;
+    CHEBI:35782; CHEBI:40938; CHEBI:57287; CHEBI:14732; CHEBI:18361; CHEBI:13420;
+    CHEBI:233028; CHEBI:33017; CHEBI:13294; CHEBI:24542; CHEBI:14397; CHEBI:45208;
+    CHEBI:22249; CHEBI:15422; CHEBI:7898; CHEBI:13740; CHEBI:24543; CHEBI:6636; CHEBI:3771;
+    CHEBI:13234; CHEBI:741566; CHEBI:40721; CHEBI:231736; CHEBI:45212; CHEBI:42009;
+    CHEBI:13235; CHEBI:12056; CHEBI:35978; CHEBI:13298; CHEBI:33018
+
+    KEGG IDs: KEGG:C00249; KEGG:C00154; KEGG:C00013; KEGG:C00010; KEGG:C00002; KEGG:C07755;
+    KEGG:C00020'
+- id: sabiork_1496_EC6_2_1_3_Homo_sapiens_Q9ULC5_Palmitate
+  name: Reaction catalyzed by long-chain-fatty-acid---CoA ligase on Palmitate
+  equation: ATP + Coenzyme A + Palmitate = AMP + Diphosphate + Palmitoyl-CoA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Palmitate
+  - species_id: substrate_Coenzyme_A
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_AMP
+  - species_id: product_Palmitoyl-CoA
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_6_2_1_3_Q9ULC5_p54366
+    role: BIOCATALYST
+  - species_id: activator_Magnesium_chloride
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 30751;30752;30753;30754
+  KEGGid: R01280
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:15346; CHEBI:23355; CHEBI:10789;
+    CHEBI:15756; CHEBI:57299; CHEBI:40726; CHEBI:22245; CHEBI:8683; CHEBI:44952; CHEBI:40510;
+    CHEBI:41631; CHEBI:24541; CHEBI:22242; CHEBI:13736; CHEBI:47222; CHEBI:24550;
+    CHEBI:33019; CHEBI:7896; CHEBI:456215; CHEBI:24540; CHEBI:13236; CHEBI:15525;
+    CHEBI:13295; CHEBI:40786; CHEBI:45067; CHEBI:40826; CHEBI:41597; CHEBI:16027;
+    CHEBI:2356; CHEBI:14730; CHEBI:10841; CHEBI:29888; CHEBI:29889; CHEBI:2359; CHEBI:57379;
+    CHEBI:35782; CHEBI:40938; CHEBI:57287; CHEBI:14732; CHEBI:18361; CHEBI:13420;
+    CHEBI:233028; CHEBI:33017; CHEBI:13294; CHEBI:24542; CHEBI:14397; CHEBI:45208;
+    CHEBI:22249; CHEBI:15422; CHEBI:7898; CHEBI:13740; CHEBI:24543; CHEBI:6636; CHEBI:3771;
+    CHEBI:13234; CHEBI:741566; CHEBI:40721; CHEBI:231736; CHEBI:45212; CHEBI:42009;
+    CHEBI:13235; CHEBI:12056; CHEBI:35978; CHEBI:13298; CHEBI:33018
+
+    KEGG IDs: KEGG:C00249; KEGG:C00154; KEGG:C00013; KEGG:C00010; KEGG:C00002; KEGG:C07755;
+    KEGG:C00020'
+measurements:
+- id: measurement_6_2_1_3_Homo_sapiens_Q9ULC5_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_6_2_1_3_Homo_sapiens_Q9ULC5_Coenzyme_A
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_6_2_1_3_Homo_sapiens_Q9ULC5_Palmitate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_6_2_1_3_Homo_sapiens_Q9ULC5_Palmitate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 6_2_1_3_Homo_sapiens_Q9ULC5_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.1e-10
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17681178'
+- id: 6_2_1_3_Homo_sapiens_Q9ULC5_Coenzyme_A_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.5e-10
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Coenzyme_A
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17681178'
+- id: 6_2_1_3_Homo_sapiens_Q9ULC5_Palmitate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.0e-11
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Palmitate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17681178'
+- id: 6_2_1_3_Homo_sapiens_Q9ULC5_Palmitate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.8e-10
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Palmitate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17681178'
+buffer:
+  buffer: 2.0 mM EDTA, 2.0 mM DTT, 0.2% triton X-100
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 54365
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/17681178/
+  pubmed_id: '17681178'
+  doi: null
+name: Merged entry for Q9ULC5 wildtype
+description: 'Merged from 4 files: SABIO_EC6.2.1.3_Homo_sapiens__Q9ULC5_s_ATP.yaml,
+  SABIO_EC6.2.1.3_Homo_sapiens__Q9ULC5_s_Coenzyme.yaml, SABIO_EC6.2.1.3_Homo_sapiens__Q9ULC5_s_Palmitate_2.yaml,
+  SABIO_EC6.2.1.3_Homo_sapiens__Q9ULC5_s_Palmitate.yaml'

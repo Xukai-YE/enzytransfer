@@ -1,0 +1,445 @@
+version: '2.0'
+created: '2025-11-20T13:40:36.484179'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_81_A2RU49_p75852
+  name: hydroxylysine kinase
+  ecnumber: 2.7.1.81
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: A2RU49
+  wildtype_sequence: MSSGNYQQSEALSKPTFSEEQASALVESVFGLKVSKVRPLPSYDDQNFHVYVSKTKDGPTEYVLKISNTKASKNPDLIEVQNHIIMFLKAAGFPTASVCHTKGDNTASLVSVDSGSEIKSYLVRLLTYLPGRPIAELPVSPQLLYEIGKLAAKLDKTLQRFHHPKLSSLHRENFIWNLKNVPLLEKYLYALGQNRNREIVEHVIHLFKEEVMTKLSHFRECINHGDLNDHNILIESSKSASGNAEYQVSGILDFGDMSYGYYVFEVAITIMYMMIESKSPIQVGGHVLAGFESITPLTAVEKGALFLLVCSRFCQSLVMAAYSCQLYPENKDYLMVTAKTGWKHLQQMFDMGQKAVEEIWFETAKSYESGISM
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_5-Hydroxy-L-lysine
+  name: 5-Hydroxy-L-lysine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_5-Phosphonooxy-L-lysine
+  name: 5-Phosphonooxy-L-lysine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_GTP
+  name: GTP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_GDP
+  name: GDP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_16492_EC2_7_1_81_Homo_sapiens_A2RU49_ATP
+  name: Reaction catalyzed by hydroxylysine kinase on ATP
+  equation: ATP + 5-Hydroxy-L-lysine = ADP + 5-Phosphonooxy-L-lysine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_5-Hydroxy-L-lysine
+  products:
+  - species_id: product_ADP
+  - species_id: product_5-Phosphonooxy-L-lysine
+  modifiers:
+  - species_id: protein_2_7_1_81_A2RU49_p75852
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:58357; CHEBI:20576; CHEBI:16761;
+    CHEBI:10789; CHEBI:57299; CHEBI:12132; CHEBI:40553; CHEBI:18040; CHEBI:57882;
+    CHEBI:20627; CHEBI:13236; CHEBI:43764; CHEBI:10841; CHEBI:2359; CHEBI:87518; CHEBI:12163;
+    CHEBI:40938; CHEBI:456216; CHEBI:2122; CHEBI:16752; CHEBI:22249; CHEBI:2342; CHEBI:15422;
+    CHEBI:13222; CHEBI:22244; CHEBI:51807
+
+    KEGG IDs: KEGG:C03366; KEGG:C00002; KEGG:C16741; KEGG:C01211; KEGG:C00008'
+- id: sabiork_3183_EC2_7_1_81_Homo_sapiens_A2RU49_5-Hydroxy-L-lysine
+  name: Reaction catalyzed by hydroxylysine kinase on 5-Hydroxy-L-lysine
+  equation: 5-Hydroxy-L-lysine + GTP = GDP + 5-Phosphonooxy-L-lysine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_5-Hydroxy-L-lysine
+  - species_id: substrate_GTP
+  products:
+  - species_id: product_5-Phosphonooxy-L-lysine
+  - species_id: product_GDP
+  modifiers:
+  - species_id: protein_2_7_1_81_A2RU49_p75855
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 19049;19050;19051;19052
+  KEGGid: R03378
+  notes: 'ChEBI IDs: CHEBI:58357; CHEBI:20576; CHEBI:57600; CHEBI:12132; CHEBI:18040;
+    CHEBI:13327; CHEBI:57882; CHEBI:14379; CHEBI:17552; CHEBI:65180; CHEBI:20627;
+    CHEBI:24448; CHEBI:5234; CHEBI:43764; CHEBI:12163; CHEBI:2122; CHEBI:16752; CHEBI:24451;
+    CHEBI:15996; CHEBI:37565; CHEBI:5212; CHEBI:58189; CHEBI:42934; CHEBI:51807; CHEBI:13342;
+    CHEBI:42738
+
+    KEGG IDs: KEGG:C00044; KEGG:C03366; KEGG:C16741; KEGG:C01211; KEGG:C00035'
+- id: sabiork_16492_EC2_7_1_81_Homo_sapiens_A2RU49_ATP
+  name: Reaction catalyzed by hydroxylysine kinase on ATP
+  equation: ATP + 5-Hydroxy-L-lysine = ADP + 5-Phosphonooxy-L-lysine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_5-Hydroxy-L-lysine
+  products:
+  - species_id: product_ADP
+  - species_id: product_5-Phosphonooxy-L-lysine
+  modifiers:
+  - species_id: protein_2_7_1_81_A2RU49_p75854
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:58357; CHEBI:20576; CHEBI:16761;
+    CHEBI:10789; CHEBI:57299; CHEBI:12132; CHEBI:40553; CHEBI:18040; CHEBI:57882;
+    CHEBI:20627; CHEBI:13236; CHEBI:43764; CHEBI:10841; CHEBI:2359; CHEBI:87518; CHEBI:12163;
+    CHEBI:40938; CHEBI:456216; CHEBI:2122; CHEBI:16752; CHEBI:22249; CHEBI:2342; CHEBI:15422;
+    CHEBI:13222; CHEBI:22244; CHEBI:51807
+
+    KEGG IDs: KEGG:C03366; KEGG:C00002; KEGG:C16741; KEGG:C01211; KEGG:C00008'
+- id: sabiork_3183_EC2_7_1_81_Homo_sapiens_A2RU49_GTP
+  name: Reaction catalyzed by hydroxylysine kinase on GTP
+  equation: 5-Hydroxy-L-lysine + GTP = GDP + 5-Phosphonooxy-L-lysine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_GTP
+  - species_id: substrate_5-Hydroxy-L-lysine
+  products:
+  - species_id: product_GDP
+  - species_id: product_5-Phosphonooxy-L-lysine
+  modifiers:
+  - species_id: protein_2_7_1_81_A2RU49_p75853
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 19049;19050;19051;19052
+  KEGGid: R03378
+  notes: 'ChEBI IDs: CHEBI:58357; CHEBI:20576; CHEBI:57600; CHEBI:12132; CHEBI:18040;
+    CHEBI:13327; CHEBI:14379; CHEBI:57882; CHEBI:17552; CHEBI:65180; CHEBI:20627;
+    CHEBI:24448; CHEBI:5234; CHEBI:43764; CHEBI:12163; CHEBI:2122; CHEBI:16752; CHEBI:24451;
+    CHEBI:15996; CHEBI:37565; CHEBI:5212; CHEBI:58189; CHEBI:42934; CHEBI:51807; CHEBI:13342;
+    CHEBI:42738
+
+    KEGG IDs: KEGG:C00044; KEGG:C03366; KEGG:C16741; KEGG:C01211; KEGG:C00035'
+measurements:
+- id: measurement_2_7_1_81_Homo_sapiens_A2RU49_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.1
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_2_7_1_81_Homo_sapiens_A2RU49_5-Hydroxy-L-lysine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.1
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_2_7_1_81_Homo_sapiens_A2RU49_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.1
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_2_7_1_81_Homo_sapiens_A2RU49_GTP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.1
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_1_81_Homo_sapiens_A2RU49_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 12000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.1
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22241472'
+- id: 2_7_1_81_Homo_sapiens_A2RU49_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00028
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.1
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22241472'
+- id: 2_7_1_81_Homo_sapiens_A2RU49_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 8.25e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.1
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22241472'
+- id: 2_7_1_81_Homo_sapiens_A2RU49_5-Hydroxy-L-lysine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 9.5e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_5-Hydroxy-L-lysine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.1
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22241472'
+- id: 2_7_1_81_Homo_sapiens_A2RU49_5-Hydroxy-L-lysine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 110000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_5-Hydroxy-L-lysine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.1
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22241472'
+- id: 2_7_1_81_Homo_sapiens_A2RU49_5-Hydroxy-L-lysine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.5e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_5-Hydroxy-L-lysine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.1
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22241472'
+- id: 2_7_1_81_Homo_sapiens_A2RU49_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 5000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.1
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22241472'
+- id: 2_7_1_81_Homo_sapiens_A2RU49_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00081
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.1
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22241472'
+- id: 2_7_1_81_Homo_sapiens_A2RU49_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 8.8e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.1
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22241472'
+- id: 2_7_1_81_Homo_sapiens_A2RU49_GTP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.6e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_GTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.1
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22241472'
+- id: 2_7_1_81_Homo_sapiens_A2RU49_GTP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 45000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_GTP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.1
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22241472'
+- id: 2_7_1_81_Homo_sapiens_A2RU49_GTP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 8.166667e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_GTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.1
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22241472'
+buffer:
+  buffer: 25 mM Hepes, 0.15 mM NADH, 0.25 mM phosphoenolpyruvate, 1 mM dithiothreitol,
+    25 mM KCl, 5 mM MgCl2, 13.3 ¦Ìg/ml lactate dehydrogenase, 13.3 ¦Ìg/ml pyruvate
+    kinase
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 75852
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/22241472/
+  pubmed_id: '22241472'
+  doi: null
+name: Merged entry for A2RU49 wildtype
+description: 'Merged from 4 files: SABIO_EC2.7.1.81_Homo_sapiens__A2RU49_s_ATP.yaml,
+  SABIO_EC2.7.1.81_Homo_sapiens__A2RU49_s_5-Hydroxy-L-lysine.yaml, SABIO_EC2.7.1.81_Homo_sapiens__A2RU49_s_ATP_2.yaml,
+  SABIO_EC2.7.1.81_Homo_sapiens__A2RU49_s_GTP.yaml'

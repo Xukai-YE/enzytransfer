@@ -1,0 +1,152 @@
+name: SABIO-RK Entry 6221
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 6221
+created: '2025-10-28T13:50:18.045966'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_5_1_45_P60038_Q9SC13_p6221
+  name: deoxyhypusine synthase
+  sequence: null
+  ecnumber: 2.5.1.45
+  organism: Senecio vernalis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P60038; Q9SC13
+complexes: null
+small_molecules:
+- id: substrate_Putrescine
+  name: Putrescine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Homospermidine
+  name: Homospermidine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Putrescine
+  name: Putrescine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Homospermidine
+  name: Homospermidine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_6834_EC2_5_1_45_Senecio_vernalis_P60038_Q9SC13_Putrescine
+  name: Reaction catalyzed by deoxyhypusine synthase on Putrescine
+  equation: Putrescine + Homospermidine = Putrescine + Homospermidine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: product_Putrescine
+  - species_id: product_Homospermidine
+  products:
+  - species_id: product_Putrescine
+  - species_id: product_Homospermidine
+  modifiers:
+  - species_id: protein_2_5_1_45_P60038_Q9SC13_p6221
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:16554; CHEBI:45092; CHEBI:14972; CHEBI:26840; CHEBI:12850;
+    CHEBI:10651; CHEBI:26405; CHEBI:57811; CHEBI:8650; CHEBI:17148; CHEBI:326268
+
+    KEGG IDs: KEGG:C06366; KEGG:C00134'
+measurements:
+- id: measurement_2_5_1_45_Senecio_vernalis_P60038_Q9SC13_Putrescine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.25
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 2_5_1_45_Senecio_vernalis_P60038_Q9SC13_Putrescine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000148
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_Putrescine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.25
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12562768'
+buffer:
+  buffer: 0.1 M glycine-NaOH, 2 mM dithiothreitol, 0.1 mM EDTA, 0.5 mM NAD+
+  buffer_concentration: 0.1 M
+references:
+- title: Reference for SABIO-RK entry 6221
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12562768/
+  pubmed_id: '12562768'
+  doi: null

@@ -1,0 +1,163 @@
+name: SABIO-RK Entry 12435
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 12435
+created: '2025-10-28T14:00:52.094222'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_3_3_6_P06598_P08790_P11356_p12435
+  name: acyl-CoA oxidase
+  sequence: null
+  ecnumber: 1.3.3.6
+  organism: Candida tropicalis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P06598; P08790; P11356
+complexes: null
+small_molecules:
+- id: substrate_Octanoyl-CoA
+  name: Octanoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_FAD
+  name: FAD
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_trans-Oct-2-enoyl-CoA
+  name: trans-Oct-2-enoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_6535_EC1_3_3_6_Candida_tropicalis_P06598_P08790_P11356_Octanoyl-CoA
+  name: Reaction catalyzed by acyl-CoA oxidase on Octanoyl-CoA
+  equation: Octanoyl-CoA + O2 = H2O2 + trans-Oct-2-enoyl-CoA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Octanoyl-CoA
+  - species_id: substrate_O2
+  - species_id: cofactor_FAD
+  products:
+  - species_id: product_trans-Oct-2-enoyl-CoA
+  modifiers:
+  - species_id: protein_1_3_3_6_P06598_P08790_P11356_p12435
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 40175;40176;40177;40178
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:16238; CHEBI:13354; CHEBI:29192; CHEBI:24637;
+    CHEBI:26689; CHEBI:7724; CHEBI:16240; CHEBI:24040; CHEBI:23833; CHEBI:14681; CHEBI:13416;
+    CHEBI:13355; CHEBI:27537; CHEBI:21125; CHEBI:57386; CHEBI:15379; CHEBI:13315;
+    CHEBI:42388; CHEBI:30491; CHEBI:25366; CHEBI:44742; CHEBI:44812; CHEBI:15533;
+    CHEBI:41542; CHEBI:29793; CHEBI:7860; CHEBI:25651; CHEBI:10745; CHEBI:5586; CHEBI:4956
+
+    KEGG IDs: KEGG:C05276; KEGG:C01944; KEGG:C00027; KEGG:C00704; KEGG:C00016; KEGG:C00007'
+measurements:
+- id: measurement_1_3_3_6_Candida_tropicalis_P06598_P08790_P11356_Octanoyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 1_3_3_6_Candida_tropicalis_P06598_P08790_P11356_Octanoyl-CoA_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000151667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Octanoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '518611'
+- id: 1_3_3_6_Candida_tropicalis_P06598_P08790_P11356_Octanoyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.25e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Octanoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '518611'
+buffer:
+  buffer: 50 mM potassium phosphate, 0.825 mM 4-aminoantipyrine, 10.6 mM phenol, 30
+    U/ml peroxidase
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 12435
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/518611/
+  pubmed_id: '518611'
+  doi: null

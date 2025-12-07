@@ -1,0 +1,186 @@
+name: SABIO-RK Entry 6832
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 6832
+created: '2025-10-28T13:51:03.043465'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_27_Q4PRK9_Q6JH30_p6832
+  name: L-lactate dehydrogenase
+  sequence: null
+  ecnumber: 1.1.1.27
+  organism: Plasmodium vivax
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q4PRK9; Q6JH30
+complexes: null
+small_molecules:
+- id: substrate_L-Lactate
+  name: L-Lactate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_3-Acetylpyridine-adenine_dinucleotide
+  name: 3-Acetylpyridine-adenine dinucleotide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Reduced_3-acetylpyridine-adenine_dinucleotide
+  name: Reduced 3-acetylpyridine-adenine dinucleotide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Pyruvate
+  name: Pyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_8195_EC1_1_1_27_Plasmodium_vivax_Q4PRK9_Q6JH30_L-Lactate
+  name: Reaction catalyzed by L-lactate dehydrogenase on L-Lactate
+  equation: L-Lactate + 3-Acetylpyridine-adenine dinucleotide = H+ + Pyruvate + Reduced
+    3-acetylpyridine-adenine dinucleotide
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Lactate
+  - species_id: substrate_3-Acetylpyridine-adenine_dinucleotide
+  products:
+  - species_id: product_Reduced_3-acetylpyridine-adenine_dinucleotide
+  - species_id: product_Pyruvate
+  modifiers:
+  - species_id: protein_1_1_1_27_Q4PRK9_Q6JH30_p6832
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:18783; CHEBI:422; CHEBI:14987; CHEBI:12411; CHEBI:29234;
+    CHEBI:13357; CHEBI:15361; CHEBI:24636; CHEBI:29233; CHEBI:5584; CHEBI:26466; CHEBI:11065;
+    CHEBI:26462; CHEBI:16651; CHEBI:8685; CHEBI:15378; CHEBI:32816; CHEBI:10744; CHEBI:45253
+
+    KEGG IDs: KEGG:C00022; KEGG:C00186; KEGG:C00080'
+measurements:
+- id: measurement_1_1_1_27_Plasmodium_vivax_Q4PRK9_Q6JH30_L-Lactate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.2
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1_27_Plasmodium_vivax_Q4PRK9_Q6JH30_L-Lactate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 333.3333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Lactate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.2
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15147206'
+- id: 1_1_1_27_Plasmodium_vivax_Q4PRK9_Q6JH30_L-Lactate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1833333.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Lactate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 9.2
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15147206'
+- id: 1_1_1_27_Plasmodium_vivax_Q4PRK9_Q6JH30_L-Lactate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000182
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Lactate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.2
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15147206'
+buffer:
+  buffer: 0.1 M Tris-HCl, 0.2% Triton X-100
+  buffer_concentration: 0.1 M
+references:
+- title: Reference for SABIO-RK entry 6832
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15147206/
+  pubmed_id: '15147206'
+  doi: null

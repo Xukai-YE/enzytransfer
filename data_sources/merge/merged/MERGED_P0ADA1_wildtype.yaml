@@ -1,0 +1,386 @@
+version: '2.0'
+created: '2025-11-20T13:40:56.810190'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_1_2_2_P0ADA1_p20040
+  name: Carboxylic ester hydrolases
+  ecnumber: 3.1.2.2
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P0ADA1
+  wildtype_sequence: MMNFNNVFRWHLPFLFLVLLTFRAAAADTLLILGDSLSAGYRMSASAAWPALLNDKWQSKTSVVNASISGDTSQQGLARLPALLKQHQPRWVLVELGGNDGLRGFQPQQTEQTLRQILQDVKAANAEPLLMQIRLPANYGRRYNEAFSAIYPKLAKEFDVPLLPFFMEEVYLKPQWMQDDGIHPNRDAQPFIADWMAKQLQPLVNHDS
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_p-Nitrophenyl_butyrate
+  name: p-Nitrophenyl butyrate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Butanoate
+  name: Butanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_p-Nitrophenol
+  name: p-Nitrophenol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_N-Carbobenzoxy-L-tyrosine_p-nitrophenyl_ester
+  name: N-Carbobenzoxy-L-tyrosine p-nitrophenyl ester
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N-Carbobenzoxy-L-tyrosine
+  name: N-Carbobenzoxy-L-tyrosine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Lauroyl-CoA
+  name: Lauroyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Dodecanoate
+  name: Dodecanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_9766_EC3_1_2_2_Escherichia_coli_P0ADA1_p-Nitrophenyl_butyrate
+  name: Reaction catalyzed by Carboxylic ester hydrolases on p-Nitrophenyl butyrate
+  equation: H2O + p-Nitrophenyl butyrate = Butanoate + p-Nitrophenol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_p-Nitrophenyl_butyrate
+  products:
+  - species_id: product_Butanoate
+  - species_id: product_p-Nitrophenol
+  modifiers:
+  - species_id: protein_3_1_2_2_P0ADA1_p20040
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:20457; CHEBI:44390;
+    CHEBI:22946; CHEBI:30772; CHEBI:3234; CHEBI:42857; CHEBI:16836; CHEBI:41979; CHEBI:12034;
+    CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352;
+    CHEBI:43228; CHEBI:13924; CHEBI:44292; CHEBI:57917; CHEBI:33806; CHEBI:22948;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:41208; CHEBI:85867; CHEBI:113450;
+    CHEBI:1913; CHEBI:29373; CHEBI:44701; CHEBI:17968
+
+    KEGG IDs: KEGG:C00870; KEGG:C00001; KEGG:C00246'
+- id: sabiork_10176_EC3_1_2_2_Escherichia_coli_P0ADA1_N-Carbobenzoxy-L-tyrosine_p-nitrophenyl_ester
+  name: Reaction catalyzed by palmitoyl-CoA hydrolase on N-Carbobenzoxy-L-tyrosine
+    p-nitrophenyl ester
+  equation: H2O + N-Carbobenzoxy-L-tyrosine p-nitrophenyl ester = p-Nitrophenol +
+    N-Carbobenzoxy-L-tyrosine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N-Carbobenzoxy-L-tyrosine_p-nitrophenyl_ester
+  products:
+  - species_id: product_p-Nitrophenol
+  - species_id: product_N-Carbobenzoxy-L-tyrosine
+  modifiers:
+  - species_id: protein_3_1_2_2_P0ADA1_p20051
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:20457; CHEBI:44390;
+    CHEBI:42857; CHEBI:16836; CHEBI:41979; CHEBI:12034; CHEBI:42043; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:43228; CHEBI:44292;
+    CHEBI:57917; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:1913; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C00870; KEGG:C00001'
+- id: sabiork_6746_EC3_1_2_2_Escherichia_coli_P0ADA1_Lauroyl-CoA
+  name: Reaction catalyzed by palmitoyl-CoA hydrolase on Lauroyl-CoA
+  equation: H2O + Lauroyl-CoA = Coenzyme A + Dodecanoate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Lauroyl-CoA
+  products:
+  - species_id: product_Coenzyme_A
+  - species_id: product_Dodecanoate
+  modifiers:
+  - species_id: protein_3_1_2_2_P0ADA1_p20046
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 30135;30136;30137;30138
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:57375; CHEBI:44819; CHEBI:15346; CHEBI:23355;
+    CHEBI:41981; CHEBI:30805; CHEBI:23865; CHEBI:41631; CHEBI:42857; CHEBI:41979;
+    CHEBI:14501; CHEBI:41882; CHEBI:13295; CHEBI:41597; CHEBI:15521; CHEBI:42043;
+    CHEBI:25014; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:57287;
+    CHEBI:13352; CHEBI:14188; CHEBI:14187; CHEBI:13294; CHEBI:4680; CHEBI:23863; CHEBI:43228;
+    CHEBI:18262; CHEBI:23864; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:41874; CHEBI:3771; CHEBI:741566; CHEBI:6392; CHEBI:29373; CHEBI:44701;
+    CHEBI:13298
+
+    KEGG IDs: KEGG:C02679; KEGG:C01832; KEGG:C00001; KEGG:C00010'
+measurements:
+- id: measurement_3_1_2_2_Escherichia_coli_P0ADA1_p-Nitrophenyl_butyrate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_3_1_2_2_Escherichia_coli_P0ADA1_N-Carbobenzoxy-L-tyrosine_p-nitrophenyl_ester
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_3_1_2_2_Escherichia_coli_P0ADA1_Lauroyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_1_2_2_Escherichia_coli_P0ADA1_p-Nitrophenyl_butyrate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 15.29
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_p-Nitrophenyl_butyrate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16515533'
+- id: 3_1_2_2_Escherichia_coli_P0ADA1_p-Nitrophenyl_butyrate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 17750.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_p-Nitrophenyl_butyrate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16515533'
+- id: 3_1_2_2_Escherichia_coli_P0ADA1_p-Nitrophenyl_butyrate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00087
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_p-Nitrophenyl_butyrate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16515533'
+- id: 3_1_2_2_Escherichia_coli_P0ADA1_N-Carbobenzoxy-L-tyrosine_p-nitrophenyl_ester_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 512400.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Carbobenzoxy-L-tyrosine_p-nitrophenyl_ester
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16515533'
+- id: 3_1_2_2_Escherichia_coli_P0ADA1_N-Carbobenzoxy-L-tyrosine_p-nitrophenyl_ester_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 88.99
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Carbobenzoxy-L-tyrosine_p-nitrophenyl_ester
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16515533'
+- id: 3_1_2_2_Escherichia_coli_P0ADA1_N-Carbobenzoxy-L-tyrosine_p-nitrophenyl_ester_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000174
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Carbobenzoxy-L-tyrosine_p-nitrophenyl_ester
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16515533'
+- id: 3_1_2_2_Escherichia_coli_P0ADA1_Lauroyl-CoA_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 10.13
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Lauroyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16515533'
+- id: 3_1_2_2_Escherichia_coli_P0ADA1_Lauroyl-CoA_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 69440.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Lauroyl-CoA
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16515533'
+- id: 3_1_2_2_Escherichia_coli_P0ADA1_Lauroyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000146
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Lauroyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16515533'
+buffer:
+  buffer: 0.1 mM DTNB, 80 ¦Ìg/ml BSA, 50 mM potassium phosphate; 50 mM sodium phosphate,
+    21% (v/v) Triton X-100; 0.1 M sodium phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 20040
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16515533/
+  pubmed_id: '16515533'
+  doi: null
+name: Merged entry for P0ADA1 wildtype
+description: 'Merged from 3 files: SABIO_EC3.1.2.2_Escherichia_coli__P0ADA1_s_p-Nitrophenyl.yaml,
+  SABIO_EC3.1.2.2_Escherichia_coli__P0ADA1_s_N-Carbobenzoxy-L-tyr.yaml, SABIO_EC3.1.2.2_Escherichia_coli__P0ADA1_s_Lauroyl-CoA.yaml'

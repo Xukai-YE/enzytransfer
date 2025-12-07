@@ -1,0 +1,191 @@
+name: SABIO-RK Entry 33956
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 33956
+created: '2025-10-28T14:50:54.888268'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_1_P28469_p33956
+  name: alcohol dehydrogenase
+  ecnumber: 1.1.1.1
+  organism: Macaca mulatta
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: G47H
+  uniprotid: P28469
+  wildtype_sequence: MSTAGKVIKCKAAVLWEVMKPFSIEDVEVAPPKAYEVRIKMVTVGICGTDDHVVSGTMVTPLPVILGHEAAGIVESVGEGVTTVEPGDKVIPLALPQCGKCRICKTPERNYCLKNDVSNPRGTLQDGTSRFTCRGKPIHHFLGVSTFSQYTVVDENAVAKIDAASPMEKVCLIGCGFSTGYGSAVKVAKVTPGSTCAVFGLGGVGLSAVMGCKAAGAARIIAVDINKDKFAKAKELGATECINPQDYKKPIQEVLKEMTDGGVDFSFEVIGRLDTMMASLLCCHEACGTSVIVGVPPDSQNLSINPMLLLTGRTWKGAVYGGFKSKEDIPKLVADFMAKKFSLDALITHVLPFEKINEGFDLLRSGKSIRTILTF
+  mutant_sequence: MSTAGKVIKCKAAVLWEVMKPFSIEDVEVAPPKAYEVRIKMVTVHICGTDDHVVSGTMVTPLPVILGHEAAGIVESVGEGVTTVEPGDKVIPLALPQCGKCRICKTPERNYCLKNDVSNPRGTLQDGTSRFTCRGKPIHHFLGVSTFSQYTVVDENAVAKIDAASPMEKVCLIGCGFSTGYGSAVKVAKVTPGSTCAVFGLGGVGLSAVMGCKAAGAARIIAVDINKDKFAKAKELGATECINPQDYKKPIQEVLKEMTDGGVDFSFEVIGRLDTMMASLLCCHEACGTSVIVGVPPDSQNLSINPMLLLTGRTWKGAVYGGFKSKEDIPKLVADFMAKKFSLDALITHVLPFEKINEGFDLLRSGKSIRTILTF
+  position_offset: -2
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Acetaldehyde
+  name: Acetaldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Ethanol
+  name: Ethanol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_597_EC1_1_1_1_Macaca_mulatta_P28469_NADH
+  name: Reaction catalyzed by alcohol dehydrogenase on NADH
+  equation: Ethanol + NAD+ = Acetaldehyde + NADH + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  - species_id: substrate_Acetaldehyde
+  products:
+  - species_id: product_NAD_
+  - species_id: product_Ethanol
+  modifiers:
+  - species_id: protein_1_1_1_1_P28469_p33956
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 25290;25291;25292;25293
+  KEGGid: R00754
+  notes: 'ChEBI IDs: CHEBI:16236; CHEBI:23978; CHEBI:44281; CHEBI:30880; CHEBI:13393;
+    CHEBI:29234; CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901;
+    CHEBI:2383; CHEBI:24636; CHEBI:40533; CHEBI:44214; CHEBI:29233; CHEBI:5584; CHEBI:13394;
+    CHEBI:15343; CHEBI:14222; CHEBI:57945; CHEBI:13703; CHEBI:44216; CHEBI:44594;
+    CHEBI:57540; CHEBI:22158; CHEBI:7423; CHEBI:13389; CHEBI:42377; CHEBI:15378; CHEBI:13395;
+    CHEBI:30878; CHEBI:10744; CHEBI:44215; CHEBI:4879; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00084; KEGG:C00469; KEGG:C00080; KEGG:C00003; KEGG:C00004'
+measurements:
+- id: measurement_1_1_1_1_Macaca_mulatta_P28469_NADH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.3
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1_1_Macaca_mulatta_P28469_NADH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00013
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.3
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1618764'
+- id: 1_1_1_1_Macaca_mulatta_P28469_NADH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 240.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.3
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1618764'
+- id: 1_1_1_1_Macaca_mulatta_P28469_NADH_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.094
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.3
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1618764'
+buffer:
+  buffer: 83 mM Potassium phosphate, 40 mM KCl, 0.25 mM EDTA
+  buffer_concentration: 83 mM
+references:
+- title: Reference for SABIO-RK entry 33956
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/1618764/
+  pubmed_id: '1618764'
+  doi: null

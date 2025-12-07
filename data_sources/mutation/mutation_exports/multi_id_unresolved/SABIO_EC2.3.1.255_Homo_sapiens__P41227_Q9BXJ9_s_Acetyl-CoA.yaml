@@ -1,0 +1,141 @@
+name: SABIO-RK Entry 75038
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 75038
+created: '2025-10-28T17:43:03.602254'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_3_1_255_P41227_Q9BXJ9_p75038
+  name: N-terminal amino-acid Nalpha-acetyltransferase NatA
+  sequence: null
+  ecnumber: 2.3.1.255
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P41227; Q9BXJ9
+complexes: null
+small_molecules:
+- id: substrate_Acetyl-CoA
+  name: Acetyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Peptide
+  name: Peptide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Nalpha-Acetylpeptide
+  name: Nalpha-Acetylpeptide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_HYPK_peptide
+  name: HYPK peptide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_751_EC2_3_1_255_Homo_sapiens_P41227_Q9BXJ9_Acetyl-CoA
+  name: Reaction catalyzed by N-terminal amino-acid Nalpha-acetyltransferase NatA
+    on Acetyl-CoA
+  equation: Acetyl-CoA + Peptide = Coenzyme A + Nalpha-Acetylpeptide
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Acetyl-CoA
+  - species_id: substrate_Peptide
+  products:
+  - species_id: product_Nalpha-Acetylpeptide
+  - species_id: product_Coenzyme_A
+  modifiers:
+  - species_id: protein_2_3_1_255_P41227_Q9BXJ9_p75038
+    role: BIOCATALYST
+  - species_id: activator_HYPK_peptide
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00234
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:57287; CHEBI:15346; CHEBI:23355; CHEBI:15351;
+    CHEBI:3771; CHEBI:13295; CHEBI:13294; CHEBI:741566; CHEBI:41597; CHEBI:40470;
+    CHEBI:18061; CHEBI:16670; CHEBI:57288; CHEBI:41631; CHEBI:13712; CHEBI:13298;
+    CHEBI:2408
+
+    KEGG IDs: KEGG:C00010; KEGG:C00012; KEGG:C03011; KEGG:C00024'
+measurements:
+- id: measurement_2_3_1_255_Homo_sapiens_P41227_Q9BXJ9_Acetyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 100 mM HEPES, 50 mM NaCl, 2 mg/ml BSA
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 75038
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/29754825/
+  pubmed_id: '29754825'
+  doi: null

@@ -1,0 +1,326 @@
+version: '2.0'
+created: '2025-11-20T13:39:23.956282'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_44_P85968_p26529
+  name: phosphogluconate dehydrogenase (decarboxylating)
+  ecnumber: 1.1.1.44
+  organism: Rattus norvegicus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P85968
+  wildtype_sequence: MAQADIALIGLAVMGQNLILNMNDHGFVVCAFNRTVSKVDDFLAKEAKGTKVIGAKSLKDMVSKLKKPRRVILLVKAGQAVDDFIEKLVPLLDTGDIIIDGGNSEYRDTTRRCQDLKAKGILFVGSGVSGGEEGARYGPSLMPGGNKEAWPHIKTIFQAIAAKVGTGEPCCDWVGDEGAGHFVKMVHNGIEYGDMQLICEAYHLMKDVLGMRHEEMAQAFEDWNKTELDSFLIEITANILKFQDTDGKELLPKIRDSAGQKGTGKWTAISALEYGMPVTLIGEAVFARCLSSLKEERVQASRKLKGPKMVQLEGSKQAFLEDVRKALYASKIISYAQGFMLLRQAATEFGWTLNYGGIALMWRGGCIIRSVFLGKIKDAFERNPELQNLLLDDFFKSAVDDCQDSWRRVISTGVQAGIPMPCFTTALSFYDGYRHEMLPANLIQAQRDYFGAHTYELLSKPGEFIHTNWTGHGGSVSSSSYNA
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_6-Phospho-D-gluconate
+  name: 6-Phospho-D-gluconate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Ribulose_5-phosphate
+  name: D-Ribulose 5-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_108_EC1_1_1_44_Rattus_norvegicus_P85968_NADP_
+  name: Reaction catalyzed by phosphogluconate dehydrogenase (decarboxylating) on
+    NADP+
+  equation: NADP+ + 6-Phospho-D-gluconate = CO2 + H+ + NADPH + D-Ribulose 5-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADP_
+  - species_id: substrate_6-Phospho-D-gluconate
+  products:
+  - species_id: product_D-Ribulose_5-phosphate
+  - species_id: product_CO2
+  - species_id: product_NADPH
+  modifiers:
+  - species_id: protein_1_1_1_44_P85968_p26529
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 10116;10117;10118;10119
+  KEGGid: R01528
+  notes: 'ChEBI IDs: CHEBI:2231; CHEBI:26572; CHEBI:13397; CHEBI:13398; CHEBI:4243;
+    CHEBI:139538; CHEBI:7424; CHEBI:21903; CHEBI:44405; CHEBI:21088; CHEBI:7425; CHEBI:16863;
+    CHEBI:29234; CHEBI:3283; CHEBI:25523; CHEBI:13357; CHEBI:40192; CHEBI:13018; CHEBI:24636;
+    CHEBI:29233; CHEBI:13399; CHEBI:23011; CHEBI:5584; CHEBI:58759; CHEBI:37455; CHEBI:13040;
+    CHEBI:33851; CHEBI:40282; CHEBI:13285; CHEBI:13282; CHEBI:16474; CHEBI:44286;
+    CHEBI:48928; CHEBI:13283; CHEBI:21904; CHEBI:44409; CHEBI:15378; CHEBI:12232;
+    CHEBI:13284; CHEBI:18009; CHEBI:16526; CHEBI:58349; CHEBI:48829; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744; CHEBI:17363; CHEBI:58121
+
+    KEGG IDs: KEGG:C00199; KEGG:C00005; KEGG:C00080; KEGG:C00011; KEGG:C00006; KEGG:C11037;
+    KEGG:C00345'
+- id: sabiork_108_EC1_1_1_44_Rattus_norvegicus_P85968_NADP_
+  name: Reaction catalyzed by phosphogluconate dehydrogenase (decarboxylating) on
+    NADP+
+  equation: NADP+ + 6-Phospho-D-gluconate = CO2 + H+ + NADPH + D-Ribulose 5-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADP_
+  - species_id: substrate_6-Phospho-D-gluconate
+  products:
+  - species_id: product_NADPH
+  - species_id: product_D-Ribulose_5-phosphate
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_1_1_1_44_P85968_p26530
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 10116;10117;10118;10119
+  KEGGid: R01528
+  notes: 'ChEBI IDs: CHEBI:2231; CHEBI:26572; CHEBI:13397; CHEBI:13398; CHEBI:4243;
+    CHEBI:139538; CHEBI:7424; CHEBI:21903; CHEBI:44405; CHEBI:21088; CHEBI:7425; CHEBI:16863;
+    CHEBI:29234; CHEBI:3283; CHEBI:25523; CHEBI:13357; CHEBI:40192; CHEBI:13018; CHEBI:24636;
+    CHEBI:29233; CHEBI:13399; CHEBI:5584; CHEBI:23011; CHEBI:58759; CHEBI:37455; CHEBI:13040;
+    CHEBI:33851; CHEBI:40282; CHEBI:13285; CHEBI:13282; CHEBI:16474; CHEBI:44286;
+    CHEBI:48928; CHEBI:13283; CHEBI:21904; CHEBI:44409; CHEBI:15378; CHEBI:12232;
+    CHEBI:13284; CHEBI:18009; CHEBI:16526; CHEBI:58349; CHEBI:48829; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744; CHEBI:17363; CHEBI:58121
+
+    KEGG IDs: KEGG:C00199; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00011; KEGG:C11037;
+    KEGG:C00345'
+- id: sabiork_108_EC1_1_1_44_Rattus_norvegicus_P85968_NADP_
+  name: Reaction catalyzed by phosphogluconate dehydrogenase (decarboxylating) on
+    NADP+
+  equation: NADP+ + 6-Phospho-D-gluconate = CO2 + H+ + NADPH + D-Ribulose 5-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADP_
+  - species_id: substrate_6-Phospho-D-gluconate
+  products:
+  - species_id: product_D-Ribulose_5-phosphate
+  - species_id: product_CO2
+  - species_id: product_NADPH
+  modifiers:
+  - species_id: protein_1_1_1_44_P85968_p26531
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 10116;10117;10118;10119
+  KEGGid: R01528
+  notes: 'ChEBI IDs: CHEBI:2231; CHEBI:26572; CHEBI:13397; CHEBI:13398; CHEBI:4243;
+    CHEBI:139538; CHEBI:7424; CHEBI:21903; CHEBI:44405; CHEBI:21088; CHEBI:7425; CHEBI:16863;
+    CHEBI:29234; CHEBI:3283; CHEBI:25523; CHEBI:13357; CHEBI:40192; CHEBI:13018; CHEBI:24636;
+    CHEBI:29233; CHEBI:5584; CHEBI:23011; CHEBI:13399; CHEBI:58759; CHEBI:37455; CHEBI:13040;
+    CHEBI:33851; CHEBI:40282; CHEBI:13285; CHEBI:13282; CHEBI:16474; CHEBI:44286;
+    CHEBI:48928; CHEBI:13283; CHEBI:21904; CHEBI:44409; CHEBI:15378; CHEBI:12232;
+    CHEBI:13284; CHEBI:18009; CHEBI:16526; CHEBI:58349; CHEBI:48829; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744; CHEBI:17363; CHEBI:58121
+
+    KEGG IDs: KEGG:C00199; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00011; KEGG:C11037;
+    KEGG:C00345'
+measurements:
+- id: measurement_1_1_1_44_Rattus_norvegicus_P85968_NADP_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_1_1_1_44_Rattus_norvegicus_P85968_NADP_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_1_1_1_44_Rattus_norvegicus_P85968_NADP_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 22.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1_44_Rattus_norvegicus_P85968_NADP__Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1
+  initial_value: 2.611111e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12502759'
+- id: 1_1_1_44_Rattus_norvegicus_P85968_NADP__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0014
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12502759'
+- id: 1_1_1_44_Rattus_norvegicus_P85968_NADP__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0038
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12502759'
+- id: 1_1_1_44_Rattus_norvegicus_P85968_NADP__Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1
+  initial_value: 1.4e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12502759'
+- id: 1_1_1_44_Rattus_norvegicus_P85968_NADP__Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1
+  initial_value: 2.277778e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12502759'
+- id: 1_1_1_44_Rattus_norvegicus_P85968_NADP__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0019
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12502759'
+buffer:
+  buffer: 18 % Polyvinyl alcohol (70-100 kDa), 0.1 M Phosphate, 0.4 mM 1-Methoxyphenazine
+    methosulfate, 5 mM MgCl2, 5 mM Sodium azid, 5 mM Nitro Blue tetrazolium
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 26529
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12502759/
+  pubmed_id: '12502759'
+  doi: null
+name: Merged entry for P85968 wildtype
+description: 'Merged from 3 files: SABIO_EC1.1.1.44_Rattus_norvegicus__P85968_s_NADP_.yaml,
+  SABIO_EC1.1.1.44_Rattus_norvegicus__P85968_s_NADP__2.yaml, SABIO_EC1.1.1.44_Rattus_norvegicus__P85968_s_NADP__3.yaml'

@@ -1,0 +1,142 @@
+name: SABIO-RK Entry 46861
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 46861
+created: '2025-10-28T15:39:11.653269'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_4_1_118_Q9FIA0_p46861
+  name: cytokinin 7-beta-glucosyltransferase
+  ecnumber: 2.4.1.118
+  organism: Arabidopsis thaliana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: T76C
+  uniprotid: Q9FIA0
+  wildtype_sequence: MEEKRNGLRVILFPLPLQGCINPMLQLANILHVRGFSITVIHTRFNAPKASSHPLFTFLQIPDGLSETEIQDGVMSLLAQINLNAESPFRDCLRKVLLESKESERVTCLIDDCGWLFTQSVSESLKLPRLVLCTFKATFFNAYPSLPLIRTKGYLPVSESEAEDSVPEFPPLQKRDLSKVFGEFGEKLDPFLHAVVETTIRSSGLIYMSCEELEKDSLTLSNEIFKVPVFAIGPFHSYFSASSSSLFTQDETCILWLDDQEDKSVIYVSLGSVVNITETEFLEIACGLSNSKQPFLWVVRPGSVLGAKWIEPLSEGLVSSLEEKGKIVKWAPQQEVLAHRATGGFLTHNGWNSTLESICEGVPMICLPGGWDQMLNSRFVSDIWKIGIHLEGRIEKKEIEKAVRVLMEESEGNKIRERMKVLKDEVEKSVKQGGSSFQSIETLANHILLL
+  mutant_sequence: MEEKRNGLRVILFPLPLQGCINPMLQLANILHVRGFSITVIHTRFNAPKASSHPLFTFLQIPDGLSECEIQDGVMSLLAQINLNAESPFRDCLRKVLLESKESERVTCLIDDCGWLFTQSVSESLKLPRLVLCTFKATFFNAYPSLPLIRTKGYLPVSESEAEDSVPEFPPLQKRDLSKVFGEFGEKLDPFLHAVVETTIRSSGLIYMSCEELEKDSLTLSNEIFKVPVFAIGPFHSYFSASSSSLFTQDETCILWLDDQEDKSVIYVSLGSVVNITETEFLEIACGLSNSKQPFLWVVRPGSVLGAKWIEPLSEGLVSSLEEKGKIVKWAPQQEVLAHRATGGFLTHNGWNSTLESICEGVPMICLPGGWDQMLNSRFVSDIWKIGIHLEGRIEKKEIEKAVRVLMEESEGNKIRERMKVLKDEVEKSVKQGGSSFQSIETLANHILLL
+  position_offset: -8
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_trans-Zeatin
+  name: trans-Zeatin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_UDPglucose
+  name: UDPglucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_trans-Zeatin-7-beta-D-glucoside
+  name: trans-Zeatin-7-beta-D-glucoside
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_UDP
+  name: UDP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_1_4-Dithiothreitol_Olomoucine
+  name: 1,4-Dithiothreitol; Olomoucine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_13126_EC2_4_1_118_Arabidopsis_thaliana_Q9FIA0_trans-Zeatin
+  name: Reaction catalyzed by cytokinin 7-beta-glucosyltransferase on trans-Zeatin
+  equation: UDPglucose + trans-Zeatin = UDP + trans-Zeatin-7-beta-D-glucoside
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_trans-Zeatin
+  - species_id: substrate_UDPglucose
+  products:
+  - species_id: product_trans-Zeatin-7-beta-D-glucoside
+  - species_id: product_UDP
+  modifiers:
+  - species_id: protein_2_4_1_118_Q9FIA0_p46861
+    role: BIOCATALYST
+  - species_id: activator_1_4-Dithiothreitol_Olomoucine
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R08075
+  notes: 'ChEBI IDs: CHEBI:4664; CHEBI:27230; CHEBI:58223; CHEBI:13445; CHEBI:23854;
+    CHEBI:11174; CHEBI:46402; CHEBI:16522; CHEBI:25189; CHEBI:18066; CHEBI:80494;
+    CHEBI:17659; CHEBI:9802; CHEBI:18320
+
+    KEGG IDs: KEGG:C16443; KEGG:C00265; KEGG:C00371; KEGG:C00015; KEGG:C00029'
+measurements:
+- id: measurement_2_4_1_118_Arabidopsis_thaliana_Q9FIA0_trans-Zeatin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 100 mM MES
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 46861
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15342621/
+  pubmed_id: '15342621'
+  doi: null

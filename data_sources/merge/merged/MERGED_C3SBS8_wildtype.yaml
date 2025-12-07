@@ -1,0 +1,308 @@
+version: '2.0'
+created: '2025-11-20T13:39:56.791307'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_1_1_122_C3SBS8_p65693
+  name: (S)-tetrahydroprotoberberine N-methyltransferase
+  ecnumber: 2.1.1.122
+  organism: Eschscholzia californica
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: C3SBS8
+  wildtype_sequence: MGSSAGEIMGRLMKGEIEDEELKKLIRHQWDRRIEWGYKPTHEKQLAFNLDFIKGLKEMVMSGEIDTMNKETYELPTAFLEAVFGKTVKQSCCYFKDENSTIDEAEEAAHELYCERAQIKDGQTVLDIGCGQGGLVLYIAEKYKNCHVTGLTNSKAQANYIEQQAEKLELTNVDVIFADVTKFDTDKTYDRILVVETIEHMKNIQLFMKKLSTWMTEDSLLFVDHISHKTFNHNFEALDEDDWYSGFIFPKGCVTILSSSTLLYFQDDVSALDHWVVNGMHMARSVEAWRKKLDETIEAAREILEPGLGSKEAVNQVITHIRTFCIGGYEQFSYNNGEEWMITQILFKKK
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_S-Adenosyl-L-methionine
+  name: S-Adenosyl-L-methionine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate__R
+  name: (R
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_S_-Stylopine
+  name: S)-Stylopine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product__R
+  name: (R
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_S_-N-Methylstylopine
+  name: S)-N-Methylstylopine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_S-Adenosyl-L-homocysteine
+  name: S-Adenosyl-L-homocysteine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_15262_EC2_1_1_122_Eschscholzia_californica_C3SBS8_S-Adenosyl-L-methionine
+  name: Reaction catalyzed by (S)-tetrahydroprotoberberine N-methyltransferase on
+    S-Adenosyl-L-methionine
+  equation: S-Adenosyl-L-methionine + (R,S)-Stylopine = S-Adenosyl-L-homocysteine
+    + (R,S)-N-Methylstylopine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_S-Adenosyl-L-methionine
+  - species_id: product__R
+  - species_id: substrate_S_-Stylopine
+  products:
+  - species_id: product__R
+  - species_id: product_S_-N-Methylstylopine
+  - species_id: product_S-Adenosyl-L-homocysteine
+  modifiers:
+  - species_id: protein_2_1_1_122_C3SBS8_p65693
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:22036; CHEBI:12760; CHEBI:12742; CHEBI:59789; CHEBI:67009;
+    CHEBI:45495; CHEBI:142094; CHEBI:8945; CHEBI:67040; CHEBI:45607; CHEBI:33442;
+    CHEBI:15414; CHEBI:10833; CHEBI:12761; CHEBI:12741; CHEBI:57856; CHEBI:16680;
+    CHEBI:12759; CHEBI:8946; CHEBI:22034; CHEBI:527887; CHEBI:10786; CHEBI:12757
+
+    KEGG IDs: KEGG:C00021; KEGG:C00019'
+- id: sabiork_15262_EC2_1_1_122_Eschscholzia_californica_C3SBS8__R
+  name: Reaction catalyzed by (S)-tetrahydroprotoberberine N-methyltransferase on
+    (R
+  equation: S-Adenosyl-L-methionine + (R,S)-Stylopine = S-Adenosyl-L-homocysteine
+    + (R,S)-N-Methylstylopine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: product__R
+  - species_id: substrate_S_-Stylopine
+  - species_id: substrate_S-Adenosyl-L-methionine
+  products:
+  - species_id: product_S-Adenosyl-L-homocysteine
+  - species_id: product__R
+  - species_id: product_S_-N-Methylstylopine
+  modifiers:
+  - species_id: protein_2_1_1_122_C3SBS8_p65694
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:22036; CHEBI:12760; CHEBI:12742; CHEBI:59789; CHEBI:67009;
+    CHEBI:45495; CHEBI:142094; CHEBI:8945; CHEBI:67040; CHEBI:45607; CHEBI:33442;
+    CHEBI:15414; CHEBI:10833; CHEBI:12761; CHEBI:12741; CHEBI:57856; CHEBI:16680;
+    CHEBI:12759; CHEBI:8946; CHEBI:22034; CHEBI:527887; CHEBI:10786; CHEBI:12757
+
+    KEGG IDs: KEGG:C00021; KEGG:C00019'
+measurements:
+- id: measurement_2_1_1_122_Eschscholzia_californica_C3SBS8_S-Adenosyl-L-methionine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_1_1_122_Eschscholzia_californica_C3SBS8__R
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_1_1_122_Eschscholzia_californica_C3SBS8_S-Adenosyl-L-methionine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 7500.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19624470'
+- id: 2_1_1_122_Eschscholzia_californica_C3SBS8_S-Adenosyl-L-methionine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19624470'
+- id: 2_1_1_122_Eschscholzia_californica_C3SBS8_S-Adenosyl-L-methionine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.3
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19624470'
+- id: 2_1_1_122_Eschscholzia_californica_C3SBS8__R_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.5
+  upper_bound: null
+  lower_bound: null
+  associated_species: product__R
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19624470'
+- id: 2_1_1_122_Eschscholzia_californica_C3SBS8__R_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 15625.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: product__R
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19624470'
+- id: 2_1_1_122_Eschscholzia_californica_C3SBS8__R_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 1.03e-08
+  upper_bound: null
+  lower_bound: null
+  associated_species: product__R
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19624470'
+- id: 2_1_1_122_Eschscholzia_californica_C3SBS8__R_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.2e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: product__R
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19624470'
+buffer:
+  buffer: 100 mM Tris/HCl, 12 mM beta-mercaptoethanol
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 65693
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/19624470/
+  pubmed_id: '19624470'
+  doi: null
+name: Merged entry for C3SBS8 wildtype
+description: 'Merged from 2 files: SABIO_EC2.1.1.122_Eschscholzia_californica__C3SBS8_s_S-Adenosyl-L-methion.yaml,
+  SABIO_EC2.1.1.122_Eschscholzia_californica__C3SBS8_s__R.yaml'

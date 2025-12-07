@@ -1,0 +1,515 @@
+version: '2.0'
+created: '2025-11-20T13:41:44.603485'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_5_3_1_9_P06745_p6418
+  name: glucose-6-phosphate isomerase
+  ecnumber: 5.3.1.9
+  organism: Mus musculus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P06745
+  wildtype_sequence: MAALTRNPQFQKLLEWHRANSANLKLRELFEADPERFNNFSLNLNTNHGHILVDYSKNLVNKEVMQMLVELAKSRGVEAARDNMFSGSKINYTENRAVLHVALRNRSNTPIKVDGKDVMPEVNRVLDKMKSFCQRVRSGDWKGYTGKSITDIINIGIGGSDLGPLMVTEALKPYSKGGPRVWFVSNIDGTHIAKTLASLSPETSLFIIASKTFTTQETITNAETAKEWFLEAAKDPSAVAKHFVALSTNTAKVKEFGIDPQNMFEFWDWVGGRYSLWSAIGLSIALHVGFDHFEQLLSGAHWMDQHFLKTPLEKNAPVLLALLGIWYINCYGCETHALLPYDQYMHRFAAYFQQGDMESNGKYITKSGARVDHQTGPIVWGEPGTNGQHAFYQLIHQGTKMIPCDFLIPVQTQHPIRKGLHHKILLANFLAQTEALMKGKLPEEARKELQAAGKSPEDLEKLLPHKVFEGNRPTNSIVFTKLTPFILGALIAMYEHKIFVQGIMWDINSFDQWGVELGKQLAKKIEPELEGSSAVTSHDSSTNGLISFIKQQRDTKLE
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_D-Glucose_6-phosphate
+  name: D-Glucose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Fructose_6-phosphate
+  name: D-Fructose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Fructose_6-phosphate
+  name: D-Fructose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Glucose_6-phosphate
+  name: Glucose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Glucose_6-phosphate
+  name: Glucose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1123_EC5_3_1_9_Mus_musculus_P06745_D-Glucose_6-phosphate
+  name: Reaction catalyzed by glucose-6-phosphate isomerase on D-Glucose 6-phosphate
+  equation: D-Glucose 6-phosphate = D-Fructose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Glucose_6-phosphate
+  products:
+  - species_id: product_D-Fructose_6-phosphate
+  modifiers:
+  - species_id: protein_5_3_1_9_P06745_p6418
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00771
+  notes: 'ChEBI IDs: CHEBI:15946; CHEBI:15954; CHEBI:10245; CHEBI:42406; CHEBI:20935;
+    CHEBI:58225; CHEBI:4124; CHEBI:14314; CHEBI:42748; CHEBI:12926; CHEBI:4170; CHEBI:12321;
+    CHEBI:17665; CHEBI:57579; CHEBI:22389
+
+    KEGG IDs: KEGG:C00668; KEGG:C00085; KEGG:C00092'
+- id: sabiork_8448_EC5_3_1_9_Mus_musculus_P06745_D-Fructose_6-phosphate
+  name: Reaction catalyzed by glucose-6-phosphate isomerase on D-Fructose 6-phosphate
+  equation: Glucose 6-phosphate = D-Fructose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Fructose_6-phosphate
+  products:
+  - species_id: product_Glucose_6-phosphate
+  modifiers:
+  - species_id: protein_5_3_1_9_P06745_p13444
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00771
+  notes: 'ChEBI IDs: CHEBI:15946; CHEBI:42406; CHEBI:10245; CHEBI:58225; CHEBI:4124;
+    CHEBI:12926; CHEBI:42748; CHEBI:4170; CHEBI:12321; CHEBI:17665; CHEBI:57579; CHEBI:20935;
+    CHEBI:22389
+
+    KEGG IDs: KEGG:C00668; KEGG:C00085; KEGG:C00092'
+- id: sabiork_1123_EC5_3_1_9_Mus_musculus_P06745_D-Glucose_6-phosphate
+  name: Reaction catalyzed by glucose-6-phosphate isomerase on D-Glucose 6-phosphate
+  equation: D-Glucose 6-phosphate = D-Fructose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Glucose_6-phosphate
+  products:
+  - species_id: product_D-Fructose_6-phosphate
+  modifiers:
+  - species_id: protein_5_3_1_9_P06745_p36259
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00771
+  notes: 'ChEBI IDs: CHEBI:15946; CHEBI:15954; CHEBI:10245; CHEBI:42406; CHEBI:20935;
+    CHEBI:58225; CHEBI:4124; CHEBI:14314; CHEBI:42748; CHEBI:12926; CHEBI:4170; CHEBI:12321;
+    CHEBI:17665; CHEBI:57579; CHEBI:22389
+
+    KEGG IDs: KEGG:C00668; KEGG:C00085; KEGG:C00092'
+- id: sabiork_1123_EC5_3_1_9_Mus_musculus_P06745_D-Glucose_6-phosphate
+  name: Reaction catalyzed by glucose-6-phosphate isomerase on D-Glucose 6-phosphate
+  equation: D-Glucose 6-phosphate = D-Fructose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Glucose_6-phosphate
+  products:
+  - species_id: product_D-Fructose_6-phosphate
+  modifiers:
+  - species_id: protein_5_3_1_9_P06745_p36258
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00771
+  notes: 'ChEBI IDs: CHEBI:15946; CHEBI:15954; CHEBI:10245; CHEBI:42406; CHEBI:20935;
+    CHEBI:58225; CHEBI:4124; CHEBI:14314; CHEBI:42748; CHEBI:12926; CHEBI:4170; CHEBI:12321;
+    CHEBI:17665; CHEBI:57579; CHEBI:22389
+
+    KEGG IDs: KEGG:C00668; KEGG:C00085; KEGG:C00092'
+- id: sabiork_8448_EC5_3_1_9_Mus_musculus_P06745_Glucose_6-phosphate
+  name: Reaction catalyzed by glucose-6-phosphate isomerase on Glucose 6-phosphate
+  equation: Glucose 6-phosphate = D-Fructose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Glucose_6-phosphate
+  products:
+  - species_id: product_D-Fructose_6-phosphate
+  modifiers:
+  - species_id: protein_5_3_1_9_P06745_p13443
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00771
+  notes: 'ChEBI IDs: CHEBI:15946; CHEBI:10245; CHEBI:42406; CHEBI:20935; CHEBI:58225;
+    CHEBI:4124; CHEBI:42748; CHEBI:12926; CHEBI:4170; CHEBI:12321; CHEBI:17665; CHEBI:57579;
+    CHEBI:22389
+
+    KEGG IDs: KEGG:C00668; KEGG:C00085; KEGG:C00092'
+- id: sabiork_1123_EC5_3_1_9_Mus_musculus_P06745_D-Glucose_6-phosphate
+  name: Reaction catalyzed by glucose-6-phosphate isomerase on D-Glucose 6-phosphate
+  equation: D-Glucose 6-phosphate = D-Fructose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Glucose_6-phosphate
+  products:
+  - species_id: product_D-Fructose_6-phosphate
+  modifiers:
+  - species_id: protein_5_3_1_9_P06745_p36554
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00771
+  notes: 'ChEBI IDs: CHEBI:15946; CHEBI:15954; CHEBI:10245; CHEBI:42406; CHEBI:20935;
+    CHEBI:58225; CHEBI:4124; CHEBI:14314; CHEBI:42748; CHEBI:12926; CHEBI:4170; CHEBI:12321;
+    CHEBI:17665; CHEBI:57579; CHEBI:22389
+
+    KEGG IDs: KEGG:C00668; KEGG:C00085; KEGG:C00092'
+- id: sabiork_1123_EC5_3_1_9_bovine_P06745_D-Glucose_6-phosphate
+  name: Reaction catalyzed by glucose-6-phosphate isomerase on D-Glucose 6-phosphate
+  equation: D-Glucose 6-phosphate = D-Fructose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Glucose_6-phosphate
+  products:
+  - species_id: product_D-Fructose_6-phosphate
+  modifiers:
+  - species_id: protein_5_3_1_9_P06745_p26854
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00771
+  notes: 'ChEBI IDs: CHEBI:15946; CHEBI:15954; CHEBI:10245; CHEBI:42406; CHEBI:20935;
+    CHEBI:58225; CHEBI:4124; CHEBI:14314; CHEBI:42748; CHEBI:12926; CHEBI:4170; CHEBI:12321;
+    CHEBI:17665; CHEBI:57579; CHEBI:22389
+
+    KEGG IDs: KEGG:C00668; KEGG:C00085; KEGG:C00092'
+measurements:
+- id: measurement_5_3_1_9_Mus_musculus_P06745_D-Glucose_6-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_5_3_1_9_Mus_musculus_P06745_D-Fructose_6-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_5_3_1_9_Mus_musculus_P06745_D-Glucose_6-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_5_3_1_9_Mus_musculus_P06745_D-Glucose_6-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_5_3_1_9_Mus_musculus_P06745_Glucose_6-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_5_3_1_9_Mus_musculus_P06745_D-Glucose_6-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_5_3_1_9_bovine_P06745_D-Glucose_6-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 38.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 5_3_1_9_Mus_musculus_P06745_D-Glucose_6-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000272
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose_6-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9414093'
+- id: 5_3_1_9_Mus_musculus_P06745_D-Glucose_6-phosphate_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00048
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose_6-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9414093'
+- id: 5_3_1_9_Mus_musculus_P06745_D-Fructose_6-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000116
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Fructose_6-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '4722497'
+- id: 5_3_1_9_Mus_musculus_P06745_D-Glucose_6-phosphate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 5.35e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose_6-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18721135'
+- id: 5_3_1_9_Mus_musculus_P06745_D-Glucose_6-phosphate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 5.48333e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose_6-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18721135'
+- id: 5_3_1_9_Mus_musculus_P06745_Glucose_6-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00025
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glucose_6-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '4722497'
+- id: 5_3_1_9_Mus_musculus_P06745_D-Glucose_6-phosphate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.0002079
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose_6-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10069389'
+- id: 5_3_1_9_Mus_musculus_P06745_D-Glucose_6-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000272
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose_6-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10069389'
+- id: 5_3_1_9_Mus_musculus_P06745_D-Glucose_6-phosphate_Vmax_2
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000302083
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose_6-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10069389'
+- id: 5_3_1_9_Mus_musculus_P06745_D-Glucose_6-phosphate_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00048
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose_6-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10069389'
+- id: 5_3_1_9_bovine_P06745_D-Glucose_6-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00021
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose_6-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 38.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14114860'
+buffer:
+  buffer: 100 mM Tris, 10 mM phosphate, 10 mM MgCl2; 20 mM imidazole, 150 mM potassium
+    acetate, 5 mM MgCl2, 5 mM K2HPO4, 0.02 % bovine plasma albumin, 2.5 ¦Ìg/ml triose-phosphate
+    isomerase from mus musculus (muscle), 2.5 ¦Ìg/ml glycero-phosphate dehydrogenase
+    from mus musculus (muscle), phospho-fructokinase, 0.008 mM NADH, 3 mM ATP, 0.06
+    mM AMP; 85 mM KCl, 5 mM MgSO4, 5 mM ATP, 1-2 units of phosphofructokinase; 50
+    mM HEPES, 100 mM KCl, 10 mM NH2PO4, 10 mM MgCl2; 50 mM Tris-HCl, glucose 6-phosphate
+    dehydrogenase, NADP+; 50 mM Hepes, 100 mM KCl, 10 mM NaH2PO4, 10 mM MgCl2
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 6418
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9414093/
+  pubmed_id: '9414093'
+  doi: null
+- title: Reference for SABIO-RK entry 13444
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/4722497/
+  pubmed_id: '4722497'
+  doi: null
+- title: Reference for SABIO-RK entry 36259
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/18721135/
+  pubmed_id: '18721135'
+  doi: null
+- title: Reference for SABIO-RK entry 36554
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10069389/
+  pubmed_id: '10069389'
+  doi: null
+- title: Reference for SABIO-RK entry 26854
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/14114860/
+  pubmed_id: '14114860'
+  doi: null
+name: Merged entry for P06745 wildtype
+description: 'Merged from 7 files: SABIO_EC5.3.1.9_Mus_musculus__P06745_s_D-Glucose.yaml,
+  SABIO_EC5.3.1.9_Mus_musculus__P06745_s_D-Fructose.yaml, SABIO_EC5.3.1.9_Mus_musculus__P06745_s_D-Glucose_3.yaml,
+  SABIO_EC5.3.1.9_Mus_musculus__P06745_s_D-Glucose_2.yaml, SABIO_EC5.3.1.9_Mus_musculus__P06745_s_Glucose.yaml,
+  SABIO_EC5.3.1.9_Mus_musculus__P06745_s_D-Glucose_4.yaml, SABIO_EC5.3.1.9_bovine__P06745_s_D-Glucose.yaml'

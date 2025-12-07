@@ -1,0 +1,174 @@
+name: SABIO-RK Entry 24826
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 24826
+created: '2025-10-28T14:25:35.691695'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_3_2_P11009_p24826
+  name: creatine kinase
+  ecnumber: 2.7.3.2
+  organism: Gallus gallus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: C278G
+  uniprotid: P11009
+  wildtype_sequence: MAGTFGRLLAGRVTAALFAAAGSGVLTTGYLLNQQNVKATVHEKRKLFPPSADYPDLRKHNNCMAECLTPAIYAKLRDKLTPNGYSLDQCIQTGVDNPGHPFIKTVGMVAGDEESYEVFAEIFDPVIKARHNGYDPRTMKHHTDLDASKITHGQFDERYVLSSRVRTGRSIRGLSLPPACSRAERREVENVVVTALAGLKGDLSGKYYSLTNMSERDQQQLIDDHFLFDKPVSPLLTCAGMARDWPDARGIWHNNDKTFLVWINEEDHTRVISMEKGGNMKRVFERFCRGLKEVERLIKERGWEFMWNERLGYVLTCPSNLGTGLRAGVHVKLPRLSKDPRFPKILENLRLQKRGTGGVDTAAVADVYDISNLDRMGRSEVELVQIVIDGVNYLVDCEKKLEKGQDIKVPPPLPQFGRK
+  mutant_sequence: MAGTFGRLLAGRVTAALFAAAGSGVLTTGYLLNQQNVKATVHEKRKLFPPSADYPDLRKHNNCMAECLTPAIYAKLRDKLTPNGYSLDQCIQTGVDNPGHPFIKTVGMVAGDEESYEVFAEIFDPVIKARHNGYDPRTMKHHTDLDASKITHGQFDERYVLSSRVRTGRSIRGLSLPPACSRAERREVENVVVTALAGLKGDLSGKYYSLTNMSERDQQQLIDDHFLFDKPVSPLLTCAGMARDWPDARGIWHNNDKTFLVWINEEDHTRVISMEKGGNMKRVFERFGRGLKEVERLIKERGWEFMWNERLGYVLTCPSNLGTGLRAGVHVKLPRLSKDPRFPKILENLRLQKRGTGGVDTAAVADVYDISNLDRMGRSEVELVQIVIDGVNYLVDCEKKLEKGQDIKVPPPLPQFGRK
+  position_offset: 10
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Phosphocreatine
+  name: Phosphocreatine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Creatine
+  name: Creatine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1941_EC2_7_3_2_Gallus_gallus_P11009_ADP
+  name: Reaction catalyzed by creatine kinase on ADP
+  equation: ATP + Creatine = ADP + Phosphocreatine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ADP
+  - species_id: substrate_Phosphocreatine
+  products:
+  - species_id: product_Creatine
+  - species_id: product_ATP
+  modifiers:
+  - species_id: protein_2_7_3_2_P11009_p24826
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17157;17158;17159;17160
+  KEGGid: R01881
+  notes: 'ChEBI IDs: CHEBI:23404; CHEBI:30616; CHEBI:237958; CHEBI:14028; CHEBI:16761;
+    CHEBI:26053; CHEBI:57299; CHEBI:10789; CHEBI:40553; CHEBI:41678; CHEBI:66924;
+    CHEBI:13236; CHEBI:16919; CHEBI:3909; CHEBI:10841; CHEBI:58092; CHEBI:17287; CHEBI:2359;
+    CHEBI:87518; CHEBI:40938; CHEBI:57947; CHEBI:456216; CHEBI:2342; CHEBI:22249;
+    CHEBI:15422; CHEBI:14813; CHEBI:8145; CHEBI:13222; CHEBI:22244; CHEBI:12526
+
+    KEGG IDs: KEGG:C00008; KEGG:C02305; KEGG:C00300; KEGG:C00002'
+measurements:
+- id: measurement_2_7_3_2_Gallus_gallus_P11009_ADP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 2_7_3_2_Gallus_gallus_P11009_ADP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.01092
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ADP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8334132'
+- id: 2_7_3_2_Gallus_gallus_P11009_ADP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000188333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ADP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8334132'
+buffer:
+  buffer: 65 mM KCl, 15 mM MgCl2, 1 mM 2-Mercaptoethanol
+  buffer_concentration: 65 mM
+references:
+- title: Reference for SABIO-RK entry 24826
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/8334132/
+  pubmed_id: '8334132'
+  doi: null

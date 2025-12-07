@@ -1,0 +1,189 @@
+name: SABIO-RK Entry 29593
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 29593
+created: '2025-10-28T14:38:09.793482'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1__P17516_p29593
+  name: With NAD(+) or NADP(+) as acceptor
+  ecnumber: 1.1.1.
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: R1C
+  uniprotid: P17516
+  wildtype_sequence: MDPKYQRVELNDGHFMPVLGFGTYAPPEVPRNRAVEVTKLAIEAGFRHIDSAYLYNNEEQVGLAIRSKIADGSVKREDIFYTSKLWCTFFQPQMVQPALESSLKKLQLDYVDLYLLHFPMALKPGETPLPKDENGKVIFDTVDLSATWEVMEKCKDAGLAKSIGVSNFNCRQLEMILNKPGLKYKPVCNQVECHPYLNQSKLLDFCKSKDIVLVAHSALGTQRHKLWVDPNSPVLLEDPVLCALAKKHKQTPALIALRYQLQRGVVVLAKSYNEQRIRENIQVFEFQLTSEDMKVLDGLNRNYRYVVMDFLMDHPDYPFSDEY
+  mutant_sequence: MDPKYQCVELNDGHFMPVLGFGTYAPPEVPRNRAVEVTKLAIEAGFRHIDSAYLYNNEEQVGLAIRSKIADGSVKREDIFYTSKLWCTFFQPQMVQPALESSLKKLQLDYVDLYLLHFPMALKPGETPLPKDENGKVIFDTVDLSATWEVMEKCKDAGLAKSIGVSNFNCRQLEMILNKPGLKYKPVCNQVECHPYLNQSKLLDFCKSKDIVLVAHSALGTQRHKLWVDPNSPVLLEDPVLCALAKKHKQTPALIALRYQLQRGVVVLAKSYNEQRIRENIQVFEFQLTSEDMKVLDGLNRNYRYVVMDFLMDHPDYPFSDEY
+  position_offset: 6
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_5alpha-Dihydrotestosterone-17beta-sulfate
+  name: 5alpha-Dihydrotestosterone-17beta-sulfate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_5alpha-Androstan-3beta-hydroxy-17beta-sulfate
+  name: 5alpha-Androstan-3beta-hydroxy-17beta-sulfate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_11259_EC1_1_1__Homo_sapiens_P17516_5alpha-Dihydrotestosterone-17beta-sulfate
+  name: Reaction catalyzed by With NAD(+) or NADP(+) as acceptor on 5alpha-Dihydrotestosterone-17beta-sulfate
+  equation: NADPH + 5alpha-Dihydrotestosterone-17beta-sulfate = NADP+ + 5alpha-Androstan-3beta-hydroxy-17beta-sulfate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_5alpha-Dihydrotestosterone-17beta-sulfate
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_NADP_
+  - species_id: product_5alpha-Androstan-3beta-hydroxy-17beta-sulfate
+  modifiers:
+  - species_id: protein_1_1_1__P17516_p29593
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:44409; CHEBI:7425; CHEBI:21903; CHEBI:25523; CHEBI:18009;
+    CHEBI:13397; CHEBI:16474; CHEBI:13398; CHEBI:44286; CHEBI:58349; CHEBI:13400;
+    CHEBI:57783; CHEBI:44405; CHEBI:7424; CHEBI:13399; CHEBI:21904
+
+    KEGG IDs: KEGG:C00006; KEGG:C00005; KEGG:C11037'
+measurements:
+- id: measurement_1_1_1__Homo_sapiens_P17516_5alpha-Dihydrotestosterone-17beta-sulfate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: null
+  temperature_unit: null
+parameters:
+- id: 1_1_1__Homo_sapiens_P17516_5alpha-Dihydrotestosterone-17beta-sulfate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.05116667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_5alpha-Dihydrotestosterone-17beta-sulfate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '19218247'
+- id: 1_1_1__Homo_sapiens_P17516_5alpha-Dihydrotestosterone-17beta-sulfate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.0e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_5alpha-Dihydrotestosterone-17beta-sulfate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '19218247'
+- id: 1_1_1__Homo_sapiens_P17516_5alpha-Dihydrotestosterone-17beta-sulfate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 250000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_5alpha-Dihydrotestosterone-17beta-sulfate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '19218247'
+buffer:
+  buffer: 100 mM Potassium phosphate, 0,02% BSA, 2.3 mM NAD+, 200 ¦ÌM 1- Acenaphthenol
+    (with 4% Acetonitrile)
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 29593
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/19218247/
+  pubmed_id: '19218247'
+  doi: null

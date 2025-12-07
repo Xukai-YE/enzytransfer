@@ -1,0 +1,158 @@
+name: SABIO-RK Entry 73992
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 73992
+created: '2025-10-28T17:38:08.726923'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_11_1_9_P04041_P36970_p73992
+  name: glutathione transferase
+  sequence: null
+  ecnumber: 1.11.1.9
+  organism: Rattus norvegicus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P04041; P36970
+complexes: null
+small_molecules:
+- id: substrate_Reduced_glutathione
+  name: Reduced glutathione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Cumene_hydroperoxide
+  name: Cumene hydroperoxide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Phenyl-2-propanol
+  name: 2-Phenyl-2-propanol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Oxidized_glutathione
+  name: Oxidized glutathione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_10575_EC1_11_1_9_Rattus_norvegicus_P04041_P36970_Reduced_glutathione
+  name: Reaction catalyzed by glutathione transferase on Reduced glutathione
+  equation: Cumene hydroperoxide + Reduced glutathione = Oxidized glutathione + 2-Phenyl-2-propanol
+    + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Reduced_glutathione
+  - species_id: substrate_Cumene_hydroperoxide
+  products:
+  - species_id: product_2-Phenyl-2-propanol
+  - species_id: product_Oxidized_glutathione
+  modifiers:
+  - species_id: protein_1_11_1_9_P04041_P36970_p73992
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:12402; CHEBI:44819; CHEBI:7840; CHEBI:41981;
+    CHEBI:14328; CHEBI:16856; CHEBI:5437; CHEBI:42857; CHEBI:41979; CHEBI:24334; CHEBI:14327;
+    CHEBI:24336; CHEBI:42043; CHEBI:58297; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:13352; CHEBI:78673; CHEBI:14720; CHEBI:43228; CHEBI:17858;
+    CHEBI:44292; CHEBI:43049; CHEBI:131607; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:42832; CHEBI:42873; CHEBI:57925; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00051; KEGG:C00001; KEGG:C00127'
+measurements:
+- id: measurement_1_11_1_9_Rattus_norvegicus_P04041_P36970_Reduced_glutathione
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 1_11_1_9_Rattus_norvegicus_P04041_P36970_Reduced_glutathione_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000251
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Reduced_glutathione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '30053395'
+buffer:
+  buffer: 20 mM MOPS, 120 mM KCl, 1 mM EGTA, 0.02% Triton X-100, 0.5-1 U/ml glutathione
+    reductase, 0.15-0.2 mM NADPH
+  buffer_concentration: 20 mM
+references:
+- title: Reference for SABIO-RK entry 73992
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/30053395/
+  pubmed_id: '30053395'
+  doi: null

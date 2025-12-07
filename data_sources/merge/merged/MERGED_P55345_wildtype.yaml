@@ -1,0 +1,344 @@
+version: '2.0'
+created: '2025-11-20T13:39:58.319953'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_1_1_319_P55345_p75085
+  name: type I protein arginine methyltransferase
+  ecnumber: 2.1.1.319
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P55345
+  wildtype_sequence: MATSGDCPRSESQGEEPAECSEAGLLQEGVQPEEFVAIADYAATDETQLSFLRGEKILILRQTTADWWWGERAGCCGYIPANHVGKHVDEYDPEDTWQDEEYFGSYGTLKLHLEMLADQPRTTKYHSVILQNKESLTDKVILDVGCGTGIISLFCAHYARPRAVYAVEASEMAQHTGQLVLQNGFADIITVYQQKVEDVVLPEKVDVLVSEWMGTCLLFEFMIESILYARDAWLKEDGVIWPTMAALHLVPCSADKDYRSKVLFWDNAYEFNLSALKSLAVKEFFSKPKYNHILKPEDCLSEPCTILQLDMRTVQISDLETLRGELRFDIRKAGTLHGFTAWFSVHFQSLQEGQPPQVLSTGPFHPTTHWKQTLFMMDDPVPVHTGDVVTGSVVLQRNPVWRRHMSVALSWAVTSRQDPTSQKVGEKVFPIWR
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Histone_L-arginine
+  name: Histone L-arginine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_S-Adenosyl-L-methionine
+  name: S-Adenosyl-L-methionine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Histone_N_omega_
+  name: Histone N(omega)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N_omega_-dimethyl-L-arginine
+  name: N(omega)-dimethyl-L-arginine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_S-Adenosyl-L-homocysteine
+  name: S-Adenosyl-L-homocysteine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_16327_EC2_1_1_319_Homo_sapiens_P55345_Histone_L-arginine
+  name: Reaction catalyzed by type I protein arginine methyltransferase on Histone
+    L-arginine
+  equation: S-Adenosyl-L-methionine + Histone L-arginine = S-Adenosyl-L-homocysteine
+    + Histone N(omega),N(omega)-dimethyl-L-arginine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Histone_L-arginine
+  - species_id: substrate_S-Adenosyl-L-methionine
+  products:
+  - species_id: product_Histone_N_omega_
+  - species_id: product_N_omega_-dimethyl-L-arginine
+  - species_id: product_S-Adenosyl-L-homocysteine
+  modifiers:
+  - species_id: protein_2_1_1_319_P55345_p75085
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:22036; CHEBI:12760; CHEBI:12742; CHEBI:59789; CHEBI:67009;
+    CHEBI:45495; CHEBI:142094; CHEBI:8945; CHEBI:67040; CHEBI:45607; CHEBI:33442;
+    CHEBI:15414; CHEBI:10833; CHEBI:12761; CHEBI:12741; CHEBI:57856; CHEBI:16680;
+    CHEBI:12759; CHEBI:8946; CHEBI:22034; CHEBI:527887; CHEBI:10786; CHEBI:12757
+
+    KEGG IDs: KEGG:C00021; KEGG:C05206; KEGG:C00019'
+- id: sabiork_16327_EC2_1_1_319_Homo_sapiens_P55345_S-Adenosyl-L-methionine
+  name: Reaction catalyzed by type I protein arginine methyltransferase on S-Adenosyl-L-methionine
+  equation: S-Adenosyl-L-methionine + Histone L-arginine = S-Adenosyl-L-homocysteine
+    + Histone N(omega),N(omega)-dimethyl-L-arginine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_S-Adenosyl-L-methionine
+  - species_id: substrate_Histone_L-arginine
+  products:
+  - species_id: product_Histone_N_omega_
+  - species_id: product_N_omega_-dimethyl-L-arginine
+  - species_id: product_S-Adenosyl-L-homocysteine
+  modifiers:
+  - species_id: protein_2_1_1_319_P55345_p75084
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:22036; CHEBI:12760; CHEBI:12742; CHEBI:59789; CHEBI:67009;
+    CHEBI:45495; CHEBI:142094; CHEBI:8945; CHEBI:67040; CHEBI:45607; CHEBI:33442;
+    CHEBI:15414; CHEBI:10833; CHEBI:12761; CHEBI:12741; CHEBI:57856; CHEBI:16680;
+    CHEBI:12759; CHEBI:8946; CHEBI:22034; CHEBI:527887; CHEBI:10786; CHEBI:12757
+
+    KEGG IDs: KEGG:C00021; KEGG:C05206; KEGG:C00019'
+measurements:
+- id: measurement_2_1_1_319_Homo_sapiens_P55345_Histone_L-arginine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_1_1_319_Homo_sapiens_P55345_S-Adenosyl-L-methionine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_1_1_319_Homo_sapiens_P55345_Histone_L-arginine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.3e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Histone_L-arginine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19405910'
+- id: 2_1_1_319_Homo_sapiens_P55345_Histone_L-arginine_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.6e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Histone_L-arginine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19405910'
+- id: 2_1_1_319_Homo_sapiens_P55345_Histone_L-arginine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 560000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Histone_L-arginine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19405910'
+- id: 2_1_1_319_Homo_sapiens_P55345_Histone_L-arginine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.5e-11
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Histone_L-arginine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19405910'
+- id: 2_1_1_319_Homo_sapiens_P55345_Histone_L-arginine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.8
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Histone_L-arginine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19405910'
+- id: 2_1_1_319_Homo_sapiens_P55345_S-Adenosyl-L-methionine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 700000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19405910'
+- id: 2_1_1_319_Homo_sapiens_P55345_S-Adenosyl-L-methionine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.8
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19405910'
+- id: 2_1_1_319_Homo_sapiens_P55345_S-Adenosyl-L-methionine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.333333e-11
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19405910'
+- id: 2_1_1_319_Homo_sapiens_P55345_S-Adenosyl-L-methionine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.6e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19405910'
+- id: 2_1_1_319_Homo_sapiens_P55345_S-Adenosyl-L-methionine_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.3e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19405910'
+buffer:
+  buffer: 50 mM Hepes, 10 mM NaCl, 1 mM DTT
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 75085
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/19405910/
+  pubmed_id: '19405910'
+  doi: null
+name: Merged entry for P55345 wildtype
+description: 'Merged from 2 files: SABIO_EC2.1.1.319_Homo_sapiens__P55345_s_Histone.yaml,
+  SABIO_EC2.1.1.319_Homo_sapiens__P55345_s_S-Adenosyl-L-methion.yaml'

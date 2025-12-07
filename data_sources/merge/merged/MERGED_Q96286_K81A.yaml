@@ -1,0 +1,307 @@
+version: '2.0'
+created: '2025-11-20T13:41:27.605008'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_1_1_50_Q96286_p48216
+  name: arginine decarboxylase
+  ecnumber: 4.1.1.50
+  organism: Arabidopsis thaliana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: K81A
+  uniprotid: Q96286
+  wildtype_sequence: MALSAIGFEGYEKRLEVTFFEPSIFQDSKGLGLRALTKSQLDEILTPAACTIVSSLSNDQLDSYVLSESSFFVYPYKVIIKTCGTTKLLLSIPPLLKLAGELSLSVKSVKYTRGSFLCPGGQPFPHRSFSEEVSVLDGHFTQLGLNSVAYLMGNDDETKKWHVYAASAQDSSNCNNNVYTLEMCMTGLDREKAAVFYKDEADKTGSMTDNSGIRKILPKSEICDFEFEPCGYSMNSIEGDAISTIHVTPEDGFSYASFEAVGYDFNTLDLSQLVTRVLSCFEPKQFSVAVHSSVGANSYKPEITVDLEDYGCRERTFESLGEESGTVMYQTFEKLGKYCGSPRSTLKCEWSSNNSCSSEDEKDEGI
+  mutant_sequence: MALSAIGFEGYEKRLEVTFFEPSIFQDSKGLGLRALTKSQLDEILTPAACTIVSSLSNDQLDSYVLSESSFFVYPYKVIIATCGTTKLLLSIPPLLKLAGELSLSVKSVKYTRGSFLCPGGQPFPHRSFSEEVSVLDGHFTQLGLNSVAYLMGNDDETKKWHVYAASAQDSSNCNNNVYTLEMCMTGLDREKAAVFYKDEADKTGSMTDNSGIRKILPKSEICDFEFEPCGYSMNSIEGDAISTIHVTPEDGFSYASFEAVGYDFNTLDLSQLVTRVLSCFEPKQFSVAVHSSVGANSYKPEITVDLEDYGCRERTFESLGEESGTVMYQTFEKLGKYCGSPRSTLKCEWSSNNSCSSEDEKDEGI
+complexes: null
+small_molecules:
+- id: substrate_L-Lysine
+  name: L-Lysine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Cadaverine
+  name: Cadaverine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_S-Adenosyl-L-methionine
+  name: S-Adenosyl-L-methionine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_S-Adenosylmethioninamine
+  name: S-Adenosylmethioninamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_899_EC4_1_1_50_Arabidopsis_thaliana_Q96286_L-Lysine
+  name: Reaction catalyzed by arginine decarboxylase on L-Lysine
+  equation: L-Lysine = CO2 + Cadaverine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Lysine
+  products:
+  - species_id: product_Cadaverine
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_4_1_1_50_Q96286_p48216
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 22352;22353;22354;22355
+  KEGGid: R00462
+  notes: 'ChEBI IDs: CHEBI:44370; CHEBI:32565; CHEBI:6264; CHEBI:139538; CHEBI:13135;
+    CHEBI:29967; CHEBI:32563; CHEBI:3283; CHEBI:32552; CHEBI:13928; CHEBI:43950; CHEBI:18019;
+    CHEBI:23011; CHEBI:13285; CHEBI:13282; CHEBI:18127; CHEBI:3288; CHEBI:32564; CHEBI:133538;
+    CHEBI:21351; CHEBI:13283; CHEBI:58384; CHEBI:13284; CHEBI:22974; CHEBI:16526;
+    CHEBI:32550; CHEBI:48829; CHEBI:25094; CHEBI:32551
+
+    KEGG IDs: KEGG:C00011; KEGG:C16440; KEGG:C01672; KEGG:C00047'
+- id: sabiork_731_EC4_1_1_50_Arabidopsis_thaliana_Q96286_S-Adenosyl-L-methionine
+  name: Reaction catalyzed by adenosylmethionine decarboxylase on S-Adenosyl-L-methionine
+  equation: S-Adenosyl-L-methionine = CO2 + S-Adenosylmethioninamine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_S-Adenosyl-L-methionine
+  products:
+  - species_id: product_CO2
+  - species_id: product_S-Adenosylmethioninamine
+  modifiers:
+  - species_id: protein_4_1_1_50_Q96286_p48219
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 15981;15982;15983;15984
+  KEGGid: R00178
+  notes: 'ChEBI IDs: CHEBI:22036; CHEBI:12760; CHEBI:22035; CHEBI:12742; CHEBI:59789;
+    CHEBI:8947; CHEBI:139538; CHEBI:12762; CHEBI:142094; CHEBI:67040; CHEBI:3283;
+    CHEBI:45607; CHEBI:33442; CHEBI:15414; CHEBI:10833; CHEBI:10906; CHEBI:23011;
+    CHEBI:15625; CHEBI:13285; CHEBI:13282; CHEBI:13283; CHEBI:8946; CHEBI:57443; CHEBI:12743;
+    CHEBI:13284; CHEBI:16526; CHEBI:527887; CHEBI:48829; CHEBI:10786; CHEBI:12757
+
+    KEGG IDs: KEGG:C01137; KEGG:C00011; KEGG:C00019'
+measurements:
+- id: measurement_4_1_1_50_Arabidopsis_thaliana_Q96286_L-Lysine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_4_1_1_50_Arabidopsis_thaliana_Q96286_S-Adenosyl-L-methionine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 4_1_1_50_Arabidopsis_thaliana_Q96286_L-Lysine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.733333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Lysine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10578049'
+- id: 4_1_1_50_Arabidopsis_thaliana_Q96286_L-Lysine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 4916.667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Lysine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10578049'
+- id: 4_1_1_50_Arabidopsis_thaliana_Q96286_L-Lysine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000352
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Lysine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10578049'
+- id: 4_1_1_50_Arabidopsis_thaliana_Q96286_L-Lysine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1g-1
+  initial_value: 6.2e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Lysine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10578049'
+- id: 4_1_1_50_Arabidopsis_thaliana_Q96286_S-Adenosyl-L-methionine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0002523
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10578049'
+- id: 4_1_1_50_Arabidopsis_thaliana_Q96286_S-Adenosyl-L-methionine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 108333.3
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10578049'
+- id: 4_1_1_50_Arabidopsis_thaliana_Q96286_S-Adenosyl-L-methionine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1g-1
+  initial_value: 0.000986667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10578049'
+- id: 4_1_1_50_Arabidopsis_thaliana_Q96286_S-Adenosyl-L-methionine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 27.33333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10578049'
+buffer:
+  buffer: 25 mM Phosphate, 2.5 mM Dithiothreitol, 0.1 mM EDTA
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 48216
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10578049/
+  pubmed_id: '10578049'
+  doi: null
+name: Merged entry for Q96286 K81A
+description: 'Merged from 2 files: SABIO_EC4.1.1.50_Arabidopsis_thaliana__Q96286_K81A_s_L-Lysine.yaml,
+  SABIO_EC4.1.1.50_Arabidopsis_thaliana__Q96286_K81A_s_S-Adenosyl-L-methion.yaml'

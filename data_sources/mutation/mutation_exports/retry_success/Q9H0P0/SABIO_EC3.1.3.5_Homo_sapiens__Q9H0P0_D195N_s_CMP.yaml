@@ -1,0 +1,168 @@
+name: SABIO-RK Entry 45504
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 45504
+created: '2025-10-28T15:34:21.109686'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_1_3_5_Q9H0P0_p45504
+  name: 5'-nucleotidase
+  ecnumber: 3.1.3.5
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: D195N
+  uniprotid: Q9H0P0
+  wildtype_sequence: MRAPSMDRAAVARVGAVASASVCALVAGVVLAQYIFTLKRKTGRKTKIIEMMPEFQKSSVRIKNPTRVEEIICGLIKGGAAKLQIITDFDMTLSRFSYKGKRCPTCHNIIDNCKLVTDECRKKLLQLKEKYYAIEVDPVLTVEEKYPYMVEWYTKSHGLLVQQALPKAKLKEIVAESDVMLKEGYENFFDKLQQHSIPVFIFSAGIGDVLEEVIRQAGVYHPNVKVVSNFMDFDETGVLKGFKGELIHVFNKHDGALRNTEYFNQLKDNSNIILLGDSQGDLRMADGVANVEHILKIGYLNDRVDELLEKYMDSYDIVLVQDESLEVANSILQKIL
+  mutant_sequence: MRAPSMDRAAVARVGAVASASVCALVAGVVLAQYIFTLKRKTGRKTKIIEMMPEFQKSSVRIKNPTRVEEIICGLIKGGAAKLQIITDFDMTLSRFSYKGKRCPTCHNIIDNCKLVTDECRKKLLQLKEKYYAIEVDPVLTVEEKYPYMVEWYTKSHGLLVQQALPKAKLKEIVAESDVMLKEGYENFFNKLQQHSIPVFIFSAGIGDVLEEVIRQAGVYHPNVKVVSNFMDFDETGVLKGFKGELIHVFNKHDGALRNTEYFNQLKDNSNIILLGDSQGDLRMADGVANVEHILKIGYLNDRVDELLEKYMDSYDIVLVQDESLEVANSILQKIL
+  position_offset: -5
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_CMP
+  name: CMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Cytidine
+  name: Cytidine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Phosphate
+  name: Phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_211_EC3_1_3_5_Homo_sapiens_Q9H0P0_CMP
+  name: Reaction catalyzed by 5'-nucleotidase on CMP
+  equation: H2O + CMP = Cytidine + Phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_CMP
+  products:
+  - species_id: product_Cytidine
+  - species_id: product_Phosphate
+  modifiers:
+  - species_id: protein_3_1_3_5_Q9H0P0_p45504
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 29367;29368;29369;29370
+  KEGGid: R00511
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:29375; CHEBI:43470; CHEBI:44819; CHEBI:18367;
+    CHEBI:41981; CHEBI:35780; CHEBI:26020; CHEBI:26078; CHEBI:17361; CHEBI:41649;
+    CHEBI:42857; CHEBI:41979; CHEBI:23515; CHEBI:41319; CHEBI:29139; CHEBI:47362;
+    CHEBI:41691; CHEBI:41704; CHEBI:39739; CHEBI:42043; CHEBI:50308; CHEBI:33813;
+    CHEBI:33811; CHEBI:27313; CHEBI:15377; CHEBI:39745; CHEBI:13274; CHEBI:41686;
+    CHEBI:13352; CHEBI:7793; CHEBI:41312; CHEBI:60377; CHEBI:43228; CHEBI:23520; CHEBI:17562;
+    CHEBI:44292; CHEBI:14063; CHEBI:3275; CHEBI:33806; CHEBI:45024; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:4053; CHEBI:58120; CHEBI:41666; CHEBI:43474; CHEBI:29137; CHEBI:29373;
+    CHEBI:44701; CHEBI:48799
+
+    KEGG IDs: KEGG:C00475; KEGG:C00001; KEGG:C00009; KEGG:C00055'
+measurements:
+- id: measurement_3_1_3_5_Homo_sapiens_Q9H0P0_CMP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 3_1_3_5_Homo_sapiens_Q9H0P0_CMP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000516667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CMP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15968458'
+- id: 3_1_3_5_Homo_sapiens_Q9H0P0_CMP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000107
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CMP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15968458'
+buffer:
+  buffer: 50 mM Tris/HCl, 1 mM MgCl2, 1 mM Dithiothreitol
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 45504
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15968458/
+  pubmed_id: '15968458'
+  doi: null

@@ -1,0 +1,149 @@
+name: SABIO-RK Entry 7227
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 7227
+created: '2025-10-28T13:51:37.532066'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_5_3_1_9_P13375_P13376_p7227
+  name: glucose-6-phosphate isomerase
+  sequence: null
+  ecnumber: 5.3.1.9
+  organism: Geobacillus stearothermophilus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P13375; P13376
+complexes: null
+small_molecules:
+- id: substrate_D-Glucose_6-phosphate
+  name: D-Glucose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Fructose_6-phosphate
+  name: D-Fructose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1123_EC5_3_1_9_Geobacillus_stearothermophilus_P13375_P13376_D-Glucose_6-phosphate
+  name: Reaction catalyzed by glucose-6-phosphate isomerase on D-Glucose 6-phosphate
+  equation: D-Glucose 6-phosphate = D-Fructose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Glucose_6-phosphate
+  products:
+  - species_id: product_D-Fructose_6-phosphate
+  modifiers:
+  - species_id: protein_5_3_1_9_P13375_P13376_p7227
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00771
+  notes: 'ChEBI IDs: CHEBI:15946; CHEBI:15954; CHEBI:10245; CHEBI:42406; CHEBI:20935;
+    CHEBI:58225; CHEBI:4124; CHEBI:14314; CHEBI:42748; CHEBI:12926; CHEBI:4170; CHEBI:12321;
+    CHEBI:17665; CHEBI:57579; CHEBI:22389
+
+    KEGG IDs: KEGG:C00668; KEGG:C00085; KEGG:C00092'
+measurements:
+- id: measurement_5_3_1_9_Geobacillus_stearothermophilus_P13375_P13376_D-Glucose_6-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 65.0
+  temperature_unit: °C
+parameters:
+- id: 5_3_1_9_Geobacillus_stearothermophilus_P13375_P13376_D-Glucose_6-phosphate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 7.73333e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose_6-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '5117529'
+- id: 5_3_1_9_Geobacillus_stearothermophilus_P13375_P13376_D-Glucose_6-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000368
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose_6-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '5117529'
+buffer:
+  buffer: 45 mM Tris-acetate
+  buffer_concentration: 45 mM
+references:
+- title: Reference for SABIO-RK entry 7227
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/5117529/
+  pubmed_id: '5117529'
+  doi: null

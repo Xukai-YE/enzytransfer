@@ -1,0 +1,281 @@
+version: '2.0'
+created: '2025-11-20T13:40:57.561289'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_1_27_3_P00651_p8198
+  name: ribonuclease T1
+  ecnumber: 3.1.27.3
+  organism: Aspergillus oryzae
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P00651
+  wildtype_sequence: MMYSKLLTLTTLLLPTALALPSLVERACDYTCGSNCYSSSDVSTAQAAGYQLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNFVECT
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Adenylyl-3_
+  name: Adenylyl-3'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_5_-cytidine
+  name: 5'-cytidine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Cytosine
+  name: Cytosine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Adenosine_3_-phosphate
+  name: Adenosine 3'-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Guanylyl-3_
+  name: Guanylyl-3'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Guanosine_3_-phosphate
+  name: Guanosine 3'-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7822_EC3_1_27_3_Aspergillus_oryzae_P00651_Adenylyl-3_
+  name: Reaction catalyzed by ribonuclease T1 on Adenylyl-3'
+  equation: Adenylyl-3',5'-cytidine = Cytosine + Adenosine 3'-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Adenylyl-3_
+  - species_id: substrate_5_-cytidine
+  products:
+  - species_id: product_Cytosine
+  - species_id: product_Adenosine_3_-phosphate
+  modifiers:
+  - species_id: protein_3_1_27_3_P00651_p8198
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:60880; CHEBI:41732; CHEBI:40872; CHEBI:14066; CHEBI:4072;
+    CHEBI:28931; CHEBI:1333; CHEBI:16040; CHEBI:22241; CHEBI:23531
+
+    KEGG IDs: KEGG:C01367; KEGG:C00380'
+- id: sabiork_7813_EC3_1_27_3_Aspergillus_oryzae_P00651_Guanylyl-3_
+  name: Reaction catalyzed by ribonuclease T1 on Guanylyl-3'
+  equation: Guanylyl-3',5'-cytidine = Cytosine + Guanosine 3'-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Guanylyl-3_
+  - species_id: substrate_5_-cytidine
+  products:
+  - species_id: product_Guanosine_3_-phosphate
+  - species_id: product_Cytosine
+  modifiers:
+  - species_id: protein_3_1_27_3_P00651_p8197
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:134204; CHEBI:39948; CHEBI:42888; CHEBI:41732; CHEBI:24447;
+    CHEBI:60732; CHEBI:4072; CHEBI:14066; CHEBI:136671; CHEBI:16040; CHEBI:23531;
+    CHEBI:5567; CHEBI:28072
+
+    KEGG IDs: KEGG:C06193; KEGG:C00380'
+measurements:
+- id: measurement_3_1_27_3_Aspergillus_oryzae_P00651_Adenylyl-3_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_3_1_27_3_Aspergillus_oryzae_P00651_Guanylyl-3_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_1_27_3_Aspergillus_oryzae_P00651_Adenylyl-3__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 332.0833
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Adenylyl-3_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15005620'
+- id: 3_1_27_3_Aspergillus_oryzae_P00651_Adenylyl-3__kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.2666667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Adenylyl-3_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15005620'
+- id: 3_1_27_3_Aspergillus_oryzae_P00651_Adenylyl-3__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000803
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Adenylyl-3_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15005620'
+- id: 3_1_27_3_Aspergillus_oryzae_P00651_Guanylyl-3__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 5.45
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Guanylyl-3_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15005620'
+- id: 3_1_27_3_Aspergillus_oryzae_P00651_Guanylyl-3__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 13041.67
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Guanylyl-3_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 6.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15005620'
+- id: 3_1_27_3_Aspergillus_oryzae_P00651_Guanylyl-3__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000418
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Guanylyl-3_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15005620'
+buffer:
+  buffer: 100 mM MES, 100 mM NaCl, 2 mM EDTA
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 8198
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15005620/
+  pubmed_id: '15005620'
+  doi: null
+name: Merged entry for P00651 wildtype
+description: 'Merged from 2 files: SABIO_EC3.1.27.3_Aspergillus_oryzae__P00651_s_Adenylyl-3_.yaml,
+  SABIO_EC3.1.27.3_Aspergillus_oryzae__P00651_s_Guanylyl-3_.yaml'

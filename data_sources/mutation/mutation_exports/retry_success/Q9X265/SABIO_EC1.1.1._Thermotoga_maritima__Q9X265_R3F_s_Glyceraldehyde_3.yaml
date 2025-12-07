@@ -1,0 +1,174 @@
+name: SABIO-RK Entry 44133
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 44133
+created: '2025-10-28T15:29:52.204918'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1__Q9X265_p44133
+  name: aldehyde reductase
+  ecnumber: 1.1.1.
+  organism: Thermotoga maritima
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: R3F
+  uniprotid: Q9X265
+  wildtype_sequence: MLYKELGRTGEEIPALGLGTWGIGGFETPDYSRDEEMVELLKTAIKMGYTHIDTAEYYGGGHTEELIGKAIKDFRREDLFIVSKVWPTHLRRDDLLRSLENTLKRLDTDYVDLYLIHWPNPEIPLEETLSAMAEGVRQGLIRYIGVSNFDRRLLEEAISKSQEPIVCDQVKYNIEDRDPERDGLLEFCQKNGVTLVAYSPLRRTLLSEKTKRTLEEIAKNHGATIYQIMLAWLLAKPNVVAIPKAGRVEHLRENLKATEIKLSEEEMKLLDSLG
+  mutant_sequence: MLYKELGFTGEEIPALGLGTWGIGGFETPDYSRDEEMVELLKTAIKMGYTHIDTAEYYGGGHTEELIGKAIKDFRREDLFIVSKVWPTHLRRDDLLRSLENTLKRLDTDYVDLYLIHWPNPEIPLEETLSAMAEGVRQGLIRYIGVSNFDRRLLEEAISKSQEPIVCDQVKYNIEDRDPERDGLLEFCQKNGVTLVAYSPLRRTLLSEKTKRTLEEIAKNHGATIYQIMLAWLLAKPNVVAIPKAGRVEHLRENLKATEIKLSEEEMKLLDSLG
+  position_offset: 5
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Glyceraldehyde
+  name: Glyceraldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Glycerol
+  name: Glycerol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_6774_EC1_1_1__Thermotoga_maritima_Q9X265_Glyceraldehyde
+  name: Reaction catalyzed by aldehyde reductase on Glyceraldehyde
+  equation: NADH + Glyceraldehyde + H+ = Glycerol + NAD+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Glyceraldehyde
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_NAD_
+  - species_id: product_Glycerol
+  modifiers:
+  - species_id: protein_1_1_1__Q9X265_p44133
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:24351; CHEBI:17754; CHEBI:24343; CHEBI:17378; CHEBI:44281;
+    CHEBI:387614; CHEBI:13393; CHEBI:131422; CHEBI:15846; CHEBI:14334; CHEBI:5445;
+    CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:44214; CHEBI:13394; CHEBI:57945;
+    CHEBI:44216; CHEBI:42998; CHEBI:5448; CHEBI:57540; CHEBI:7423; CHEBI:13389; CHEBI:13395;
+    CHEBI:44215; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00003; KEGG:C02154; KEGG:C00116; KEGG:C00004'
+measurements:
+- id: measurement_1_1_1__Thermotoga_maritima_Q9X265_Glyceraldehyde
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1__Thermotoga_maritima_Q9X265_Glyceraldehyde_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 4.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glyceraldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16813561'
+- id: 1_1_1__Thermotoga_maritima_Q9X265_Glyceraldehyde_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.052
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glyceraldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16813561'
+buffer:
+  buffer: 50 mM K2HPO4, 10 mM KCl, 0.5 mM EDTA
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 44133
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16813561/
+  pubmed_id: '16813561'
+  doi: null

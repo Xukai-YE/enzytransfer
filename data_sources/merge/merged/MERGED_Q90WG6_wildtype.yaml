@@ -1,0 +1,769 @@
+version: '2.0'
+created: '2025-11-20T13:40:47.808949'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_7_43_Q90WG6_p54288
+  name: N-acylneuraminate cytidylyltransferase
+  ecnumber: 2.7.7.43
+  organism: Oncorhynchus mykiss
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q90WG6
+  wildtype_sequence: MAAAKKRTQSDIEDVRDRKAKVIKDSGEKRHIAALILARGGSKGIPLKNIKVLAGVPLIGWVLRAAVDSKQFDSVWVSTDHDDIEKVAKTWGAQVHRRSPEVSKDSSSSLDTIQEFARLNPEVDVICHIQATSPCLHPFHLKEALEMITKQGFTSVFSVVRRHHFRWQEVKKGGSVATQPLNLDPCNRPRRQDWDGELCENGSFYIYTRATIERGLQGGKWAYYEMLPEYSVDIDVDIDWPVAEQRVLRFGYFGLDKPEVVRLLLCNVSGCLTDGRVLISVSGEEMVSVNTRDTMGIRMLQREGVEVILISSSEDLLTKALADNLSQRTGCEVRQLGKDIQGEVIAMMDDKDLDWKEVAYMGNDAPDVDCLNLAGLSAVPRDAPVVAINAAKYSCHSAAGLGAVREFSEHILLLKKKAKSQMEQDRIHRNTF
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_CTP
+  name: CTP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Deaminoneuraminate
+  name: Deaminoneuraminate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mg2_
+  name: Mg2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CMP-Deaminoneuraminate
+  name: CMP-Deaminoneuraminate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_N-Acetylneuraminate
+  name: N-Acetylneuraminate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CMP-N-acetylneuraminate
+  name: CMP-N-acetylneuraminate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_2-Keto-3-deoxy-D-glycero-D-galacto-nononic_acid
+  name: 2-Keto-3-deoxy-D-glycero-D-galacto-nononic acid
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CMP-2-keto-3-deoxy-D-glycero-D-galacto-nononic_acid
+  name: CMP-2-keto-3-deoxy-D-glycero-D-galacto-nononic acid
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_N-Glycoloyl-neuraminate
+  name: N-Glycoloyl-neuraminate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CMP-N-glycoloylneuraminate
+  name: CMP-N-glycoloylneuraminate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_13880_EC2_7_7_43_Oncorhynchus_mykiss_Q90WG6_CTP
+  name: Reaction catalyzed by N-acylneuraminate cytidylyltransferase on CTP
+  equation: CTP + Deaminoneuraminate = Diphosphate + CMP-Deaminoneuraminate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_CTP
+  - species_id: substrate_Deaminoneuraminate
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_CMP-Deaminoneuraminate
+  modifiers:
+  - species_id: protein_2_7_7_43_Q90WG6_p54288
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:17677; CHEBI:58231; CHEBI:8683; CHEBI:13379; CHEBI:23522;
+    CHEBI:6635; CHEBI:13286; CHEBI:33019; CHEBI:3285; CHEBI:45067; CHEBI:29888; CHEBI:35782;
+    CHEBI:49736; CHEBI:41675; CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:45208;
+    CHEBI:71429; CHEBI:18420; CHEBI:25112; CHEBI:37563; CHEBI:45212; CHEBI:42009;
+    CHEBI:39127; CHEBI:33018
+
+    KEGG IDs: KEGG:C00305; KEGG:C00013; KEGG:C00063; KEGG:C20934'
+- id: sabiork_1376_EC2_7_7_43_Oncorhynchus_mykiss_Q90WG6_CTP
+  name: Reaction catalyzed by N-acylneuraminate cytidylyltransferase on CTP
+  equation: CTP + N-Acetylneuraminate = Diphosphate + CMP-N-acetylneuraminate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_CTP
+  - species_id: substrate_N-Acetylneuraminate
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_CMP-N-acetylneuraminate
+  modifiers:
+  - species_id: protein_2_7_7_43_Q90WG6_p54726
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01117
+  notes: 'ChEBI IDs: CHEBI:17677; CHEBI:58231; CHEBI:8683; CHEBI:23522; CHEBI:13286;
+    CHEBI:33019; CHEBI:49025; CHEBI:3285; CHEBI:45067; CHEBI:29888; CHEBI:35782; CHEBI:21619;
+    CHEBI:41675; CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:17012; CHEBI:45208;
+    CHEBI:35418; CHEBI:45493; CHEBI:16556; CHEBI:58770; CHEBI:37563; CHEBI:45212;
+    CHEBI:42009; CHEBI:49026; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00270; KEGG:C00128; KEGG:C19909; KEGG:C00063'
+- id: sabiork_13911_EC2_7_7_43_Oncorhynchus_mykiss_Q90WG6_CTP
+  name: Reaction catalyzed by N-acylneuraminate cytidylyltransferase on CTP
+  equation: CTP + 2-Keto-3-deoxy-D-glycero-D-galacto-nononic acid = Diphosphate +
+    CMP-2-keto-3-deoxy-D-glycero-D-galacto-nononic acid
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_CTP
+  - species_id: substrate_2-Keto-3-deoxy-D-glycero-D-galacto-nononic_acid
+  products:
+  - species_id: product_CMP-2-keto-3-deoxy-D-glycero-D-galacto-nononic_acid
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_2_7_7_43_Q90WG6_p54725
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 49220;49221;49222;49223
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:17677; CHEBI:58231; CHEBI:8683; CHEBI:23522; CHEBI:131596;
+    CHEBI:13286; CHEBI:33019; CHEBI:3285; CHEBI:45067; CHEBI:29888; CHEBI:35782; CHEBI:41675;
+    CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:131593; CHEBI:45208; CHEBI:90989;
+    CHEBI:37563; CHEBI:45212; CHEBI:42009; CHEBI:33018
+
+    KEGG IDs: KEGG:C21384; KEGG:C00063; KEGG:C00013'
+- id: sabiork_13880_EC2_7_7_43_Oncorhynchus_mykiss_Q90WG6_Deaminoneuraminate
+  name: Reaction catalyzed by N-acylneuraminate cytidylyltransferase on Deaminoneuraminate
+  equation: CTP + Deaminoneuraminate = Diphosphate + CMP-Deaminoneuraminate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Deaminoneuraminate
+  - species_id: substrate_CTP
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_CMP-Deaminoneuraminate
+  modifiers:
+  - species_id: protein_2_7_7_43_Q90WG6_p54291
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:17677; CHEBI:58231; CHEBI:8683; CHEBI:13379; CHEBI:23522;
+    CHEBI:6635; CHEBI:13286; CHEBI:33019; CHEBI:3285; CHEBI:45067; CHEBI:29888; CHEBI:35782;
+    CHEBI:49736; CHEBI:41675; CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:45208;
+    CHEBI:71429; CHEBI:18420; CHEBI:25112; CHEBI:37563; CHEBI:45212; CHEBI:42009;
+    CHEBI:39127; CHEBI:33018
+
+    KEGG IDs: KEGG:C00305; KEGG:C00013; KEGG:C00063; KEGG:C20934'
+- id: sabiork_3928_EC2_7_7_43_Oncorhynchus_mykiss_Q90WG6_N-Glycoloyl-neuraminate
+  name: Reaction catalyzed by N-acylneuraminate cytidylyltransferase on N-Glycoloyl-neuraminate
+  equation: CTP + N-Glycoloyl-neuraminate = CMP-N-glycoloylneuraminate + Diphosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N-Glycoloyl-neuraminate
+  - species_id: substrate_CTP
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_CMP-N-glycoloylneuraminate
+  modifiers:
+  - species_id: protein_2_7_7_43_Q90WG6_p54290
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R04215
+  notes: 'ChEBI IDs: CHEBI:17677; CHEBI:58231; CHEBI:146193; CHEBI:8683; CHEBI:13379;
+    CHEBI:23522; CHEBI:29025; CHEBI:6635; CHEBI:13286; CHEBI:33019; CHEBI:3285; CHEBI:45067;
+    CHEBI:29888; CHEBI:35782; CHEBI:21729; CHEBI:49736; CHEBI:41675; CHEBI:13420;
+    CHEBI:18361; CHEBI:33017; CHEBI:45208; CHEBI:7286; CHEBI:18420; CHEBI:62269; CHEBI:25112;
+    CHEBI:37563; CHEBI:18098; CHEBI:45212; CHEBI:42009; CHEBI:39127; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C03691; KEGG:C00305; KEGG:C03410; KEGG:C00063'
+- id: sabiork_1376_EC2_7_7_43_Oncorhynchus_mykiss_Q90WG6_N-Acetylneuraminate
+  name: Reaction catalyzed by N-acylneuraminate cytidylyltransferase on N-Acetylneuraminate
+  equation: CTP + N-Acetylneuraminate = Diphosphate + CMP-N-acetylneuraminate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N-Acetylneuraminate
+  - species_id: substrate_CTP
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_CMP-N-acetylneuraminate
+  modifiers:
+  - species_id: protein_2_7_7_43_Q90WG6_p54289
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01117
+  notes: 'ChEBI IDs: CHEBI:17677; CHEBI:58231; CHEBI:8683; CHEBI:13379; CHEBI:23522;
+    CHEBI:6635; CHEBI:13286; CHEBI:33019; CHEBI:49025; CHEBI:3285; CHEBI:45067; CHEBI:29888;
+    CHEBI:35782; CHEBI:49736; CHEBI:21619; CHEBI:41675; CHEBI:13420; CHEBI:18361;
+    CHEBI:33017; CHEBI:17012; CHEBI:45208; CHEBI:45493; CHEBI:35418; CHEBI:18420;
+    CHEBI:16556; CHEBI:58770; CHEBI:25112; CHEBI:37563; CHEBI:45212; CHEBI:42009;
+    CHEBI:39127; CHEBI:49026; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00270; KEGG:C00128; KEGG:C00305; KEGG:C19909; KEGG:C00063'
+- id: sabiork_1376_EC2_7_7_43_Oncorhynchus_mykiss_Q90WG6_N-Acetylneuraminate
+  name: Reaction catalyzed by N-acylneuraminate cytidylyltransferase on N-Acetylneuraminate
+  equation: CTP + N-Acetylneuraminate = Diphosphate + CMP-N-acetylneuraminate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N-Acetylneuraminate
+  - species_id: substrate_CTP
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_CMP-N-acetylneuraminate
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_2_7_7_43_Q90WG6_p54292
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01117
+  notes: 'ChEBI IDs: CHEBI:17677; CHEBI:58231; CHEBI:8683; CHEBI:13379; CHEBI:23522;
+    CHEBI:6635; CHEBI:13286; CHEBI:33019; CHEBI:49025; CHEBI:3285; CHEBI:45067; CHEBI:29888;
+    CHEBI:35782; CHEBI:49736; CHEBI:21619; CHEBI:41675; CHEBI:13420; CHEBI:18361;
+    CHEBI:33017; CHEBI:17012; CHEBI:45208; CHEBI:45493; CHEBI:35418; CHEBI:18420;
+    CHEBI:16556; CHEBI:58770; CHEBI:25112; CHEBI:37563; CHEBI:45212; CHEBI:42009;
+    CHEBI:39127; CHEBI:49026; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00270; KEGG:C00128; KEGG:C00305; KEGG:C19909; KEGG:C00063'
+- id: sabiork_3928_EC2_7_7_43_Oncorhynchus_mykiss_Q90WG6_N-Glycoloyl-neuraminate
+  name: Reaction catalyzed by N-acylneuraminate cytidylyltransferase on N-Glycoloyl-neuraminate
+  equation: CTP + N-Glycoloyl-neuraminate = CMP-N-glycoloylneuraminate + Diphosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N-Glycoloyl-neuraminate
+  - species_id: substrate_CTP
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_CMP-N-glycoloylneuraminate
+  modifiers:
+  - species_id: protein_2_7_7_43_Q90WG6_p54293
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R04215
+  notes: 'ChEBI IDs: CHEBI:17677; CHEBI:58231; CHEBI:146193; CHEBI:8683; CHEBI:13379;
+    CHEBI:23522; CHEBI:29025; CHEBI:6635; CHEBI:13286; CHEBI:33019; CHEBI:3285; CHEBI:45067;
+    CHEBI:29888; CHEBI:35782; CHEBI:21729; CHEBI:49736; CHEBI:41675; CHEBI:13420;
+    CHEBI:18361; CHEBI:33017; CHEBI:45208; CHEBI:7286; CHEBI:18420; CHEBI:62269; CHEBI:25112;
+    CHEBI:37563; CHEBI:18098; CHEBI:45212; CHEBI:42009; CHEBI:39127; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C03691; KEGG:C00305; KEGG:C03410; KEGG:C00063'
+measurements:
+- id: measurement_2_7_7_43_Oncorhynchus_mykiss_Q90WG6_CTP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_7_7_43_Oncorhynchus_mykiss_Q90WG6_CTP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_7_7_43_Oncorhynchus_mykiss_Q90WG6_CTP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_7_7_43_Oncorhynchus_mykiss_Q90WG6_Deaminoneuraminate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_7_7_43_Oncorhynchus_mykiss_Q90WG6_N-Glycoloyl-neuraminate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_7_7_43_Oncorhynchus_mykiss_Q90WG6_N-Acetylneuraminate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_7_7_43_Oncorhynchus_mykiss_Q90WG6_N-Acetylneuraminate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_7_7_43_Oncorhynchus_mykiss_Q90WG6_N-Glycoloyl-neuraminate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_7_43_Oncorhynchus_mykiss_Q90WG6_CTP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0041
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8381411'
+- id: 2_7_7_43_Oncorhynchus_mykiss_Q90WG6_CTP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1
+  initial_value: 3.0e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8381411'
+- id: 2_7_7_43_Oncorhynchus_mykiss_Q90WG6_CTP_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.33333e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8381411'
+- id: 2_7_7_43_Oncorhynchus_mykiss_Q90WG6_CTP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0028
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11479279'
+- id: 2_7_7_43_Oncorhynchus_mykiss_Q90WG6_CTP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1
+  initial_value: 3.16667e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11479279'
+- id: 2_7_7_43_Oncorhynchus_mykiss_Q90WG6_CTP_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.01133333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11479279'
+- id: 2_7_7_43_Oncorhynchus_mykiss_Q90WG6_CTP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.003
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11479279'
+- id: 2_7_7_43_Oncorhynchus_mykiss_Q90WG6_CTP_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.01833333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11479279'
+- id: 2_7_7_43_Oncorhynchus_mykiss_Q90WG6_CTP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1
+  initial_value: 5.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11479279'
+- id: 2_7_7_43_Oncorhynchus_mykiss_Q90WG6_Deaminoneuraminate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1
+  initial_value: 2.333333e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Deaminoneuraminate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8381411'
+- id: 2_7_7_43_Oncorhynchus_mykiss_Q90WG6_Deaminoneuraminate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0026
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Deaminoneuraminate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8381411'
+- id: 2_7_7_43_Oncorhynchus_mykiss_Q90WG6_N-Glycoloyl-neuraminate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0083
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Glycoloyl-neuraminate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8381411'
+- id: 2_7_7_43_Oncorhynchus_mykiss_Q90WG6_N-Glycoloyl-neuraminate_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Glycoloyl-neuraminate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8381411'
+- id: 2_7_7_43_Oncorhynchus_mykiss_Q90WG6_N-Glycoloyl-neuraminate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1
+  initial_value: 2.5e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Glycoloyl-neuraminate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8381411'
+- id: 2_7_7_43_Oncorhynchus_mykiss_Q90WG6_N-Acetylneuraminate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.83333e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Acetylneuraminate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8381411'
+- id: 2_7_7_43_Oncorhynchus_mykiss_Q90WG6_N-Acetylneuraminate_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0074
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Acetylneuraminate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8381411'
+- id: 2_7_7_43_Oncorhynchus_mykiss_Q90WG6_N-Acetylneuraminate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1
+  initial_value: 2.833333e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Acetylneuraminate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8381411'
+- id: 2_7_7_43_Oncorhynchus_mykiss_Q90WG6_N-Acetylneuraminate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1
+  initial_value: 2.166667e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Acetylneuraminate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8381411'
+- id: 2_7_7_43_Oncorhynchus_mykiss_Q90WG6_N-Acetylneuraminate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0027
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Acetylneuraminate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8381411'
+- id: 2_7_7_43_Oncorhynchus_mykiss_Q90WG6_N-Glycoloyl-neuraminate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0017
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Glycoloyl-neuraminate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8381411'
+- id: 2_7_7_43_Oncorhynchus_mykiss_Q90WG6_N-Glycoloyl-neuraminate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1
+  initial_value: 1.616667e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Glycoloyl-neuraminate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8381411'
+buffer:
+  buffer: 100 mM Tris-acetic acid; 0.1 M Tris-HCl, 20 mM MgCl2, 0.1 mM sodium vanadate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 54288
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/8381411/
+  pubmed_id: '8381411'
+  doi: null
+- title: Reference for SABIO-RK entry 54726
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11479279/
+  pubmed_id: '11479279'
+  doi: null
+name: Merged entry for Q90WG6 wildtype
+description: 'Merged from 8 files: SABIO_EC2.7.7.43_Oncorhynchus_mykiss__Q90WG6_s_CTP.yaml,
+  SABIO_EC2.7.7.43_Oncorhynchus_mykiss__Q90WG6_s_CTP_3.yaml, SABIO_EC2.7.7.43_Oncorhynchus_mykiss__Q90WG6_s_CTP_2.yaml,
+  SABIO_EC2.7.7.43_Oncorhynchus_mykiss__Q90WG6_s_Deaminoneuraminate.yaml, SABIO_EC2.7.7.43_Oncorhynchus_mykiss__Q90WG6_s_N-Glycoloyl-neuramin.yaml,
+  SABIO_EC2.7.7.43_Oncorhynchus_mykiss__Q90WG6_s_N-Acetylneuraminate.yaml, SABIO_EC2.7.7.43_Oncorhynchus_mykiss__Q90WG6_s_N-Acetylneuraminate_2.yaml,
+  SABIO_EC2.7.7.43_Oncorhynchus_mykiss__Q90WG6_s_N-Glycoloyl-neuramin_2.yaml'

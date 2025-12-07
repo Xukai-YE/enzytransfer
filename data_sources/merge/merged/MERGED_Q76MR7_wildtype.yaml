@@ -1,0 +1,376 @@
+version: '2.0'
+created: '2025-11-20T13:40:10.474520'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_4_1_253_Q76MR7_p60048
+  name: baicalein 7-O-glucuronosyltransferase
+  ecnumber: 2.4.1.253
+  organism: Scutellaria baicalensis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q76MR7
+  wildtype_sequence: MAVLAKFISKNHPSVPIIIISNAPESAAASVAAIPSISYHRLPLPEIPPDMTTDRVELFFELPRLSNPNLLTALQQISQKTRIRAVILDFFCNAAFEVPTSLNIPTYYYFSAGTPTAILTLYFETIDETIPVDLQDLNDYVDIPGLPPIHCLDIPVALSPRKSLVYKSSVDISKNLRRSAGILVNGFDALEFRAIGSHSQRPMHFKGPTPPVYFIGPLVGDVDTKAGSEEHECLRWLDTQPSKSVVFLCFGRRGVFSAKQLKETAAALENSGHRFLWSVRNPPELKKATGSDEPDLDELLPEGFLERTKDRGFVIKSWAPQKEVLAHDSVGGFVTHCGRSSVSEGVWFGVPMIGWPVDAELRLNRAVMVDDLQVALPLEEEAGGFVTAAELEKRVRELMETKAGKAVRQRVTELKLSARAAVAENGSSLNDLKKFLHATRD
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Baicalein
+  name: Baicalein
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_UDP-D-glucuronate
+  name: UDP-D-glucuronate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Baicalin
+  name: Baicalin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_UDP
+  name: UDP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Scutellarein
+  name: Scutellarein
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Scutellarin
+  name: Scutellarin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Wogonin
+  name: Wogonin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Oroxindin
+  name: Oroxindin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_14553_EC2_4_1_253_Scutellaria_baicalensis_Q76MR7_Baicalein
+  name: Reaction catalyzed by baicalein 7-O-glucuronosyltransferase on Baicalein
+  equation: Baicalein + UDP-D-glucuronate = UDP + Baicalin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Baicalein
+  - species_id: substrate_UDP-D-glucuronate
+  products:
+  - species_id: product_Baicalin
+  - species_id: product_UDP
+  modifiers:
+  - species_id: protein_2_4_1_253_Q76MR7_p60048
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 28314;28315;28316;28317
+  KEGGid: R09529
+  notes: 'ChEBI IDs: CHEBI:78324; CHEBI:2979; CHEBI:27230; CHEBI:58223; CHEBI:13445;
+    CHEBI:17200; CHEBI:61283; CHEBI:46402; CHEBI:13506; CHEBI:9846; CHEBI:2981; CHEBI:58052;
+    CHEBI:17659; CHEBI:9802; CHEBI:22104; CHEBI:13489; CHEBI:46309
+
+    KEGG IDs: KEGG:C00015; KEGG:C00167; KEGG:C10025; KEGG:C10023'
+- id: sabiork_14554_EC2_4_1_253_Scutellaria_baicalensis_Q76MR7_UDP-D-glucuronate
+  name: Reaction catalyzed by baicalein 7-O-glucuronosyltransferase on UDP-D-glucuronate
+  equation: Scutellarein + UDP-D-glucuronate = UDP + Scutellarin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_UDP-D-glucuronate
+  - species_id: substrate_Scutellarein
+  products:
+  - species_id: product_UDP
+  - species_id: product_Scutellarin
+  modifiers:
+  - species_id: protein_2_4_1_253_Q76MR7_p60049
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 28318;28319;28320;28321
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:27230; CHEBI:58223; CHEBI:13445; CHEBI:9062; CHEBI:17200;
+    CHEBI:78328; CHEBI:46402; CHEBI:61278; CHEBI:13506; CHEBI:9846; CHEBI:58052; CHEBI:17659;
+    CHEBI:9802; CHEBI:22104; CHEBI:13489; CHEBI:46309
+
+    KEGG IDs: KEGG:C00015; KEGG:C00167; KEGG:C10184'
+- id: sabiork_14555_EC2_4_1_253_Scutellaria_baicalensis_Q76MR7_Wogonin
+  name: Reaction catalyzed by baicalein 7-O-glucuronosyltransferase on Wogonin
+  equation: Wogonin + UDP-D-glucuronate = UDP + Oroxindin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Wogonin
+  - species_id: substrate_UDP-D-glucuronate
+  products:
+  - species_id: product_UDP
+  - species_id: product_Oroxindin
+  modifiers:
+  - species_id: protein_2_4_1_253_Q76MR7_p60050
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 28322;28323;28324;28325
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:27230; CHEBI:58223; CHEBI:13445; CHEBI:17200; CHEBI:9802;
+    CHEBI:46402; CHEBI:13506; CHEBI:9846; CHEBI:58052; CHEBI:17659; CHEBI:10043; CHEBI:78338;
+    CHEBI:22104; CHEBI:13489; CHEBI:46309
+
+    KEGG IDs: KEGG:C10197; KEGG:C00167; KEGG:C00015'
+measurements:
+- id: measurement_2_4_1_253_Scutellaria_baicalensis_Q76MR7_Baicalein
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_4_1_253_Scutellaria_baicalensis_Q76MR7_UDP-D-glucuronate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_4_1_253_Scutellaria_baicalensis_Q76MR7_Wogonin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_4_1_253_Scutellaria_baicalensis_Q76MR7_Baicalein_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.24e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Baicalein
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10724177'
+- id: 2_4_1_253_Scutellaria_baicalensis_Q76MR7_Baicalein_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.9
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Baicalein
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10724177'
+- id: 2_4_1_253_Scutellaria_baicalensis_Q76MR7_Baicalein_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.000257
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Baicalein
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10724177'
+- id: 2_4_1_253_Scutellaria_baicalensis_Q76MR7_UDP-D-glucuronate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katl-1
+  initial_value: 0.00029
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDP-D-glucuronate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10724177'
+- id: 2_4_1_253_Scutellaria_baicalensis_Q76MR7_UDP-D-glucuronate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.67
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDP-D-glucuronate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10724177'
+- id: 2_4_1_253_Scutellaria_baicalensis_Q76MR7_UDP-D-glucuronate_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000109
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDP-D-glucuronate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10724177'
+- id: 2_4_1_253_Scutellaria_baicalensis_Q76MR7_Wogonin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0001065
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Wogonin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10724177'
+- id: 2_4_1_253_Scutellaria_baicalensis_Q76MR7_Wogonin_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.71
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Wogonin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10724177'
+- id: 2_4_1_253_Scutellaria_baicalensis_Q76MR7_Wogonin_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katl-1
+  initial_value: 0.000182
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Wogonin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10724177'
+buffer:
+  buffer: 50 mM Tris-HCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 60048
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10724177/
+  pubmed_id: '10724177'
+  doi: null
+name: Merged entry for Q76MR7 wildtype
+description: 'Merged from 3 files: SABIO_EC2.4.1.253_Scutellaria_baicalensis__Q76MR7_s_Baicalein.yaml,
+  SABIO_EC2.4.1.253_Scutellaria_baicalensis__Q76MR7_s_UDP-D-glucuronate.yaml, SABIO_EC2.4.1.253_Scutellaria_baicalensis__Q76MR7_s_Wogonin.yaml'

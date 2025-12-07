@@ -1,0 +1,172 @@
+name: SABIO-RK Entry 13428
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 13428
+created: '2025-10-28T14:02:53.585987'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_2_1_22_Q9BH24_Q9BKB2_p13428
+  name: cystathionine beta-synthase
+  sequence: null
+  ecnumber: 4.2.1.22
+  organism: bovine
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9BH24; Q9BKB2
+complexes: null
+small_molecules:
+- id: substrate_2-Mercaptoethanol
+  name: 2-Mercaptoethanol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_L-Cysteine
+  name: L-Cysteine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Hydrogen_sulfide
+  name: Hydrogen sulfide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_S-_2-Hydroxyethyl_-L-cysteine
+  name: S-(2-Hydroxyethyl)-L-cysteine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_9652_EC4_2_1_22_bovine_Q9BH24_Q9BKB2_2-Mercaptoethanol
+  name: Reaction catalyzed by cystathionine beta-synthase on 2-Mercaptoethanol
+  equation: L-Cysteine + 2-Mercaptoethanol = Hydrogen sulfide + S-(2-Hydroxyethyl)-L-cysteine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2-Mercaptoethanol
+  - species_id: substrate_L-Cysteine
+  products:
+  - species_id: product_Hydrogen_sulfide
+  - species_id: product_S-_2-Hydroxyethyl_-L-cysteine
+  modifiers:
+  - species_id: protein_4_2_1_22_Q9BH24_Q9BKB2_p13428
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:43058; CHEBI:41781; CHEBI:13095; CHEBI:32442; CHEBI:6766;
+    CHEBI:30488; CHEBI:21261; CHEBI:41700; CHEBI:41811; CHEBI:5787; CHEBI:41215; CHEBI:41218;
+    CHEBI:32443; CHEBI:41768; CHEBI:29950; CHEBI:13356; CHEBI:24639; CHEBI:29919;
+    CHEBI:14414; CHEBI:6207; CHEBI:35235; CHEBI:45489; CHEBI:32445; CHEBI:16136; CHEBI:17561;
+    CHEBI:41227
+
+    KEGG IDs: KEGG:C00283; KEGG:C00928; KEGG:C00097'
+measurements:
+- id: measurement_4_2_1_22_bovine_Q9BH24_Q9BKB2_2-Mercaptoethanol
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: null
+  temperature_unit: null
+parameters:
+- id: 4_2_1_22_bovine_Q9BH24_Q9BKB2_2-Mercaptoethanol_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0024
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Mercaptoethanol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11106665'
+- id: 4_2_1_22_bovine_Q9BH24_Q9BKB2_2-Mercaptoethanol_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.026
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Mercaptoethanol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11106665'
+buffer:
+  buffer: 50 mM Tris-HCl, 0.1 mM pyridoxal phosphate, 0.075 mM lead acetate, 0.1 mg/ml
+    bovine serum albumin
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 13428
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11106665/
+  pubmed_id: '11106665'
+  doi: null

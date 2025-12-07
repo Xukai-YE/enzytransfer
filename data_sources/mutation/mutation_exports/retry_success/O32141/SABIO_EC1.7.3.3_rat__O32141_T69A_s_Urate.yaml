@@ -1,0 +1,169 @@
+name: SABIO-RK Entry 5346
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 5346
+created: '2025-10-28T13:49:12.718462'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_7_3_3_O32141_p5346
+  name: factor-independent urate hydroxylase
+  ecnumber: 1.7.3.3
+  organism: rat
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: T69A
+  uniprotid: O32141
+  wildtype_sequence: MFTMDDLNQMDTQTLTDTLGSIFEHSSWIAERSAALRPFSSLSDLHRKMTGIVKAADRETQLDLIKKHPRLGTKKTMSDDSVREQQNAGLGKLEQQEYEEFLMLNEHYYDRFGFPFILAVKGKTKQDIHQALLARLESERETEFQQALIEIYRIARFRLADIITEKGETQMKRTMSYGKGNVFAYRTYLKPLTGVKQIPESSFAGRDNTVVGVDVTCEIGGEAFLPSFTDGDNTLVVATDSMKNFIQRHLASYEGTTTEGFLHYVAHRFLDTYSHMDTITLTGEDIPFEAMPAYEEKELSTSRLVFRRSRNERSRSVLKAERSGNTITITEQYSEIMDLQLVKVSGNSFVGFIRDEYTTLPEDGNRPLFVYLNISWQYENTNDSYASDPARYVAAEQVRDLASTVFHELETPSIQNLIYHIGCRILARFPQLTDVSFQSQNHTWDTVVEEIPGSKGKVYTEPRPPYGFQHFTVTREDAEKEKQKAAEKCRSLKA
+  mutant_sequence: MFTMDDLNQMDTQTLTDTLGSIFEHSSWIAERSAALRPFSSLSDLHRKMTGIVKAADREAQLDLIKKHPRLGTKKTMSDDSVREQQNAGLGKLEQQEYEEFLMLNEHYYDRFGFPFILAVKGKTKQDIHQALLARLESERETEFQQALIEIYRIARFRLADIITEKGETQMKRTMSYGKGNVFAYRTYLKPLTGVKQIPESSFAGRDNTVVGVDVTCEIGGEAFLPSFTDGDNTLVVATDSMKNFIQRHLASYEGTTTEGFLHYVAHRFLDTYSHMDTITLTGEDIPFEAMPAYEEKELSTSRLVFRRSRNERSRSVLKAERSGNTITITEQYSEIMDLQLVKVSGNSFVGFIRDEYTTLPEDGNRPLFVYLNISWQYENTNDSYASDPARYVAAEQVRDLASTVFHELETPSIQNLIYHIGCRILARFPQLTDVSFQSQNHTWDTVVEEIPGSKGKVYTEPRPPYGFQHFTVTREDAEKEKQKAAEKCRSLKA
+  position_offset: -9
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Urate
+  name: Urate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_5-Hydroxyisourate
+  name: 5-Hydroxyisourate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_197_EC1_7_3_3_rat_O32141_Urate
+  name: Reaction catalyzed by factor-independent urate hydroxylase on Urate
+  equation: H2O + Urate + O2 = 5-Hydroxyisourate + H2O2
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Urate
+  - species_id: substrate_O2
+  products:
+  - species_id: product_5-Hydroxyisourate
+  modifiers:
+  - species_id: protein_1_7_3_3_O32141_p5346
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 21368;21369;21370;21371
+  KEGGid: R02106
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:20588; CHEBI:44819; CHEBI:13354;
+    CHEBI:41981; CHEBI:29192; CHEBI:24637; CHEBI:30848; CHEBI:46821; CHEBI:46817;
+    CHEBI:17775; CHEBI:46825; CHEBI:26689; CHEBI:42857; CHEBI:41979; CHEBI:46811;
+    CHEBI:16240; CHEBI:46823; CHEBI:46824; CHEBI:2074; CHEBI:23833; CHEBI:13416; CHEBI:13355;
+    CHEBI:27226; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377;
+    CHEBI:13352; CHEBI:15379; CHEBI:9885; CHEBI:46826; CHEBI:46814; CHEBI:46455; CHEBI:43228;
+    CHEBI:62585; CHEBI:44292; CHEBI:30491; CHEBI:33806; CHEBI:46822; CHEBI:10743;
+    CHEBI:29374; CHEBI:5585; CHEBI:44742; CHEBI:25366; CHEBI:44812; CHEBI:29793; CHEBI:7860;
+    CHEBI:18072; CHEBI:10745; CHEBI:5586; CHEBI:62589; CHEBI:29373; CHEBI:44701; CHEBI:12137;
+    CHEBI:59562
+
+    KEGG IDs: KEGG:C11821; KEGG:C00001; KEGG:C00027; KEGG:C00704; KEGG:C00007; KEGG:C00366'
+measurements:
+- id: measurement_1_7_3_3_rat_O32141_Urate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: null
+  temperature_unit: null
+parameters:
+- id: 1_7_3_3_rat_O32141_Urate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000547
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Urate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '12680763'
+- id: 1_7_3_3_rat_O32141_Urate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.036
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Urate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '12680763'
+buffer:
+  buffer: 50 mM Tris, air-saturated
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 5346
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12680763/
+  pubmed_id: '12680763'
+  doi: null

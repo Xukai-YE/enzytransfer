@@ -1,0 +1,240 @@
+version: '2.0'
+created: '2025-11-20T13:41:30.687727'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_2_1_113_P51981_p51296
+  name: o-succinylbenzoate synthase
+  ecnumber: 4.2.1.113
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: I19F
+  uniprotid: P51981
+  wildtype_sequence: MRTVKVFEEAWPLHTPFVIARGSRSEARVVVVELEEEGIKGTGECTPYPRYGESDASVMAQIMSVVPQLEKGLTREELQKILPAGAARNALDCALWDLAARRQQQSLADLIGITLPETVITAQTVVIGTPDQMANSASTLWQAGAKLLKVKLDNHLISERMVAIRTAVPDATLIVDANESWRAEGLAARCQLLADLGVAMLEQPLPAQDDAALENFIHPLPICADESCHTRSNLKALKGRYEMVNIKLDKTGGLTEALALATEARAQGFSLMLGCMLCTSRAISAALPLVPQVSFADLDGPTWLAVDVEPALQFTTGELHL
+  mutant_sequence: MRTVKVFEEAWPLHTPFVFARGSRSEARVVVVELEEEGIKGTGECTPYPRYGESDASVMAQIMSVVPQLEKGLTREELQKILPAGAARNALDCALWDLAARRQQQSLADLIGITLPETVITAQTVVIGTPDQMANSASTLWQAGAKLLKVKLDNHLISERMVAIRTAVPDATLIVDANESWRAEGLAARCQLLADLGVAMLEQPLPAQDDAALENFIHPLPICADESCHTRSNLKALKGRYEMVNIKLDKTGGLTEALALATEARAQGFSLMLGCMLCTSRAISAALPLVPQVSFADLDGPTWLAVDVEPALQFTTGELHL
+complexes: null
+small_molecules:
+- id: substrate_2-Succinyl-6-hydroxy-2
+  name: 2-Succinyl-6-hydroxy-2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_4-cyclohexadiene-1-carboxylate
+  name: 4-cyclohexadiene-1-carboxylate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Succinylbenzoate
+  name: 2-Succinylbenzoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_L-Alanyl-D-glutamate
+  name: L-Alanyl-D-glutamate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Alanyl-L-glutamate
+  name: L-Alanyl-L-glutamate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_3766_EC4_2_1_113_Escherichia_coli_P51981_2-Succinyl-6-hydroxy-2
+  name: Reaction catalyzed by o-succinylbenzoate synthase on 2-Succinyl-6-hydroxy-2
+  equation: H2O + 2-Succinylbenzoate = 2-Succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2-Succinyl-6-hydroxy-2
+  - species_id: substrate_4-cyclohexadiene-1-carboxylate
+  products:
+  - species_id: product_2-Succinylbenzoate
+  modifiers:
+  - species_id: protein_4_2_1_113_P51981_p51296
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 10196;10197;10198;10199
+  KEGGid: R04031
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44787; CHEBI:18325; CHEBI:44819; CHEBI:41981;
+    CHEBI:42857; CHEBI:12835; CHEBI:41979; CHEBI:42043; CHEBI:19778; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:1278; CHEBI:44788; CHEBI:43228;
+    CHEBI:44292; CHEBI:37026; CHEBI:33806; CHEBI:29373; CHEBI:58689; CHEBI:29374;
+    CHEBI:5585; CHEBI:10743; CHEBI:39564; CHEBI:44701
+
+    KEGG IDs: KEGG:C02730; KEGG:C00001; KEGG:C05817'
+- id: sabiork_7810_EC5_1_1__Escherichia_coli_P51981_L-Alanyl-D-glutamate
+  name: Reaction catalyzed by Acting on amino acids and derivatives on L-Alanyl-D-glutamate
+  equation: L-Alanyl-D-glutamate = L-Alanyl-L-glutamate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Alanyl-D-glutamate
+  products:
+  - species_id: product_L-Alanyl-L-glutamate
+  modifiers:
+  - species_id: protein_5_1_1__P51981_p51306
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 28394;28395;28396;28397
+  KEGGid: R10938
+  notes: 'ChEBI IDs: CHEBI:61395; CHEBI:61566; CHEBI:61565; CHEBI:61396
+
+    KEGG IDs: KEGG:C20957; KEGG:C20958'
+measurements:
+- id: measurement_4_2_1_113_Escherichia_coli_P51981_2-Succinyl-6-hydroxy-2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_5_1_1__Escherichia_coli_P51981_L-Alanyl-D-glutamate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 4_2_1_113_Escherichia_coli_P51981_2-Succinyl-6-hydroxy-2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00034
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Succinyl-6-hydroxy-2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16128573'
+- id: 4_2_1_113_Escherichia_coli_P51981_2-Succinyl-6-hydroxy-2_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 90.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Succinyl-6-hydroxy-2
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16128573'
+- id: 4_2_1_113_Escherichia_coli_P51981_2-Succinyl-6-hydroxy-2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.031
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Succinyl-6-hydroxy-2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16128573'
+- id: 5_1_1__Escherichia_coli_P51981_L-Alanyl-D-glutamate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 0.0097
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Alanyl-D-glutamate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16128573'
+buffer:
+  buffer: 50 mM Tris, 1.5 mM NAD+, 1.5 mM p-iodonitrotetrazolium violet, 1.33 units/ml
+    diaphorase, 4.67 units/ml L-alanine dehydrogenase, 67 ¦ÌM CoCl2, purified PepD;
+    50 mM sodium HEPES, 0.1 mM MnCl2
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 51296
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16128573/
+  pubmed_id: '16128573'
+  doi: null
+name: Merged entry for P51981 I19F
+description: 'Merged from 2 files: SABIO_EC4.2.1.113_Escherichia_coli__P51981_I19F_s_2-Succinyl-6-hydroxy.yaml,
+  SABIO_EC5.1.1._Escherichia_coli__P51981_I19F_s_L-Alanyl-D-glutamate.yaml'

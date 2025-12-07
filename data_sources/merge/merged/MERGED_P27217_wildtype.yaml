@@ -1,0 +1,244 @@
+version: '2.0'
+created: '2025-11-20T13:41:06.368613'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_2_1_26_P27217_p48070
+  name: alpha-glucosidase
+  ecnumber: 3.2.1.26
+  organism: Klebsiella pneumoniae
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P27217
+  wildtype_sequence: MSLPSRLPAILQAVMQGQPQALADSHYPQWHLAPVNGLLNDPNGFCQVAGRYHLFYQWNPLACDHTYKCWGHWSSADLLHWRHEPIALMPDEEYDRNGCYSGSAVEFEGALTLCYTGNVKFPDGGRTAWQCLATENADGTFRKLGPVLPLPEGYTGHVRDPKVWRQDGRWYMVLGAQDVQQRGKVLLFTASDLREWRLVGEIAGHDVNGLANAGYMWECPDLFPLADTHLLICCPQGLAREAQRFLNTYPAVWMAGRFDAERGIFDHGPLHELDSGFEFYAPQTMQADDGRRLLVGWMGVPDGDEMHQPTRAQGWIHQMTCVRELEWQAGTLYQRPLRELVALRGEAQGWCGQTLPLAPMELAFDLSPDSTLGLDFAGALQLTVNRDGLRLSRRGLQTAEMHHRYWRGEARRLRIFIDRSSVEIFINDGEGVMSSRFFPGYPGQLIFSGATPVAFCRWLLRPCMVE
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Sucrose
+  name: Sucrose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_alpha-D-Glucose
+  name: alpha-D-Glucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_beta-D-Fructose
+  name: beta-D-Fructose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Sucrose_6-phosphate
+  name: Sucrose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_alpha-D-Glucose_6-phosphate
+  name: alpha-D-Glucose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1147_EC3_2_1_26_Klebsiella_pneumoniae_P27217_Sucrose
+  name: Reaction catalyzed by alpha-glucosidase on Sucrose
+  equation: Sucrose + H2O = alpha-D-Glucose + beta-D-Fructose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Sucrose
+  products:
+  - species_id: product_alpha-D-Glucose
+  - species_id: product_beta-D-Fructose
+  modifiers:
+  - species_id: protein_3_2_1_26_P27217_p48070
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 33795;33796;33797;33798
+  KEGGid: R00802
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:88300; CHEBI:42857;
+    CHEBI:41979; CHEBI:28645; CHEBI:42802; CHEBI:10242; CHEBI:37720; CHEBI:12318;
+    CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:22386;
+    CHEBI:13352; CHEBI:17992; CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743;
+    CHEBI:29374; CHEBI:5585; CHEBI:40557; CHEBI:17925; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00267; KEGG:C00001; KEGG:C00089; KEGG:C02336'
+- id: sabiork_3666_EC3_2_1_26_Klebsiella_pneumoniae_P27217_Sucrose_6-phosphate
+  name: Reaction catalyzed by beta-fructofuranosidase on Sucrose 6-phosphate
+  equation: H2O + Sucrose 6-phosphate = beta-D-Fructose + alpha-D-Glucose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Sucrose_6-phosphate
+  products:
+  - species_id: product_beta-D-Fructose
+  - species_id: product_alpha-D-Glucose_6-phosphate
+  modifiers:
+  - species_id: protein_3_2_1_26_P27217_p48071
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03921
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42748; CHEBI:42857;
+    CHEBI:41979; CHEBI:28645; CHEBI:16308; CHEBI:37720; CHEBI:58225; CHEBI:42043;
+    CHEBI:12321; CHEBI:17665; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377;
+    CHEBI:13352; CHEBI:10245; CHEBI:43228; CHEBI:44292; CHEBI:22389; CHEBI:33806;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00668; KEGG:C00001; KEGG:C16688; KEGG:C02336; KEGG:C02591'
+measurements:
+- id: measurement_3_2_1_26_Klebsiella_pneumoniae_P27217_Sucrose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_3_2_1_26_Klebsiella_pneumoniae_P27217_Sucrose_6-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 3_2_1_26_Klebsiella_pneumoniae_P27217_Sucrose_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.00052
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Sucrose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11473129'
+- id: 3_2_1_26_Klebsiella_pneumoniae_P27217_Sucrose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0203
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Sucrose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11473129'
+- id: 3_2_1_26_Klebsiella_pneumoniae_P27217_Sucrose_6-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 8.53e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Sucrose_6-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11473129'
+- id: 3_2_1_26_Klebsiella_pneumoniae_P27217_Sucrose_6-phosphate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000673333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Sucrose_6-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11473129'
+buffer:
+  buffer: 0.1 M HEPES, 1 mM MgCl2, 1 mM NADP+, 1 mM ATP, 2 units/ml Glucose 6-phosphate
+    dehydrogenase/hexokinase
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 48070
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11473129/
+  pubmed_id: '11473129'
+  doi: null
+name: Merged entry for P27217 wildtype
+description: 'Merged from 2 files: SABIO_EC3.2.1.26_Klebsiella_pneumoniae__P27217_s_Sucrose.yaml,
+  SABIO_EC3.2.1.26_Klebsiella_pneumoniae__P27217_s_Sucrose_2.yaml'

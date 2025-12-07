@@ -1,0 +1,237 @@
+version: '2.0'
+created: '2025-11-20T13:41:38.272769'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_4_1_11_O15564_p69092
+  name: methionine gamma-lyase
+  ecnumber: 4.4.1.11
+  organism: Trichomonas vaginalis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: O15564
+  wildtype_sequence: MSHERMTPATACIHANPQKDQFGAAIPPIYQTSTFVFDNCQQGGNRFAGQESGYIYTRLGNPTVSNLEGKIAFLEKTEACVATSSGMGAIAATVLTILKAGDHLISDECLYGCTHALFEHALTKFGIQVDFINTAIPGEVKKHMKPNTKIVYFETPANPTLKIIDMERVCKDAHSQEGVLVIADNTFCSPMITNPVDFGVDVVVHSATKYINGHTDVVAGLICGKADLLQQIRMVGIKDITGSVISPHDAWLITRGLSTLNIRMKAESENAMKVAEYLKSHPAVEKVYYPGFEDHEGHDIAKKQMRMSGSMITFILKSGFEGAKKLLDNLKLITLAVSLGGCESLIQHPASMTHAVVPKEEREAAGITDGMIRLSVGIEDADELIADFKQGLDALL
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_L-Methionine
+  name: L-Methionine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NH3
+  name: NH3
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Oxobutyrate
+  name: 2-Oxobutyrate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Methanethiol
+  name: Methanethiol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Pyridoxal_phosphate
+  name: Pyridoxal phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Trifluoromethionine
+  name: Trifluoromethionine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Trifluoromethanethiol
+  name: Trifluoromethanethiol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1038_EC4_4_1_11_Trichomonas_vaginalis_O15564_L-Methionine
+  name: Reaction catalyzed by methionine gamma-lyase on L-Methionine
+  equation: L-Methionine + H2O = NH3 + Methanethiol + 2-Oxobutyrate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Methionine
+  products:
+  - species_id: product_NH3
+  - species_id: product_2-Oxobutyrate
+  - species_id: product_Methanethiol
+  modifiers:
+  - species_id: protein_4_4_1_11_O15564_p69092
+    role: BIOCATALYST
+  - species_id: activator_Pyridoxal_phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 23800;23801;23802;23803
+  KEGGid: R00654
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44284; CHEBI:19741; CHEBI:44819; CHEBI:13141;
+    CHEBI:41981; CHEBI:16134; CHEBI:21360; CHEBI:13405; CHEBI:7434; CHEBI:32632; CHEBI:25225;
+    CHEBI:49038; CHEBI:358848; CHEBI:42857; CHEBI:16007; CHEBI:41979; CHEBI:14586;
+    CHEBI:13407; CHEBI:19743; CHEBI:26424; CHEBI:8668; CHEBI:6814; CHEBI:16044; CHEBI:42043;
+    CHEBI:30831; CHEBI:144836; CHEBI:18405; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:22534; CHEBI:135980; CHEBI:15377; CHEBI:7435; CHEBI:49783; CHEBI:39748;
+    CHEBI:22533; CHEBI:13352; CHEBI:597326; CHEBI:44404; CHEBI:13771; CHEBI:16643;
+    CHEBI:43228; CHEBI:44269; CHEBI:234571; CHEBI:44292; CHEBI:13406; CHEBI:1250;
+    CHEBI:45145; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:49037; CHEBI:32631;
+    CHEBI:28938; CHEBI:6271; CHEBI:57844; CHEBI:14977; CHEBI:16763; CHEBI:43990; CHEBI:11636;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00073; KEGG:C00409; KEGG:C00018; KEGG:C00109; KEGG:C00014; KEGG:C01342;
+    KEGG:C00001'
+- id: sabiork_15756_EC4_4_1_11_Trichomonas_vaginalis_O15564_Trifluoromethionine
+  name: Reaction catalyzed by methionine gamma-lyase on Trifluoromethionine
+  equation: H2O + Trifluoromethionine = NH3 + 2-Oxobutyrate + Trifluoromethanethiol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Trifluoromethionine
+  products:
+  - species_id: product_NH3
+  - species_id: product_2-Oxobutyrate
+  - species_id: product_Trifluoromethanethiol
+  modifiers:
+  - species_id: protein_4_4_1_11_O15564_p69093
+    role: BIOCATALYST
+  - species_id: activator_Pyridoxal_phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44284; CHEBI:19741; CHEBI:44819; CHEBI:16134;
+    CHEBI:41981; CHEBI:13405; CHEBI:7434; CHEBI:358848; CHEBI:42857; CHEBI:41979;
+    CHEBI:13407; CHEBI:19743; CHEBI:26424; CHEBI:8668; CHEBI:42043; CHEBI:144836;
+    CHEBI:30831; CHEBI:18405; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:22534;
+    CHEBI:135980; CHEBI:15377; CHEBI:7435; CHEBI:49783; CHEBI:39748; CHEBI:22533;
+    CHEBI:13352; CHEBI:597326; CHEBI:44404; CHEBI:13771; CHEBI:43228; CHEBI:44269;
+    CHEBI:234571; CHEBI:44292; CHEBI:13406; CHEBI:1250; CHEBI:45145; CHEBI:33806;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:28938; CHEBI:14977; CHEBI:16763; CHEBI:11636;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00018; KEGG:C00109; KEGG:C00014; KEGG:C01342; KEGG:C00001'
+measurements:
+- id: measurement_4_4_1_11_Trichomonas_vaginalis_O15564_L-Methionine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_4_4_1_11_Trichomonas_vaginalis_O15564_Trifluoromethionine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 4_4_1_11_Trichomonas_vaginalis_O15564_L-Methionine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0043
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11353620'
+- id: 4_4_1_11_Trichomonas_vaginalis_O15564_Trifluoromethionine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00032
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Trifluoromethionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11353620'
+buffer:
+  buffer: 0.1 M potassium phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 69092
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11353620/
+  pubmed_id: '11353620'
+  doi: null
+name: Merged entry for O15564 wildtype
+description: 'Merged from 2 files: SABIO_EC4.4.1.11_Trichomonas_vaginalis__O15564_s_L-Methionine.yaml,
+  SABIO_EC4.4.1.11_Trichomonas_vaginalis__O15564_s_Trifluoromethionine.yaml'

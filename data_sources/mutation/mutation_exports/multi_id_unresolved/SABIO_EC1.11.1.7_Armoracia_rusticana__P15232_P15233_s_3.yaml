@@ -1,0 +1,177 @@
+name: SABIO-RK Entry 3735
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 3735
+created: '2025-10-28T13:47:15.788141'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_11_1_7_P15232_P15233_p3735
+  name: peroxidase
+  sequence: null
+  ecnumber: 1.11.1.7
+  organism: Armoracia rusticana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P15232; P15233
+complexes: null
+small_molecules:
+- id: substrate_3
+  name: '3'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_4-Dimethoxyphenol
+  name: 4-Dimethoxyphenol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Oxidized_donor
+  name: Oxidized donor
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7078_EC1_11_1_7_Armoracia_rusticana_P15232_P15233_3
+  name: Reaction catalyzed by peroxidase on 3
+  equation: 3,4-Dimethoxyphenol + H2O2 = H2O + Oxidized donor
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3
+  - species_id: substrate_4-Dimethoxyphenol
+  products:
+  - species_id: product_Oxidized_donor
+  modifiers:
+  - species_id: protein_1_11_1_7_P15232_P15233_p3735
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:13354; CHEBI:44819; CHEBI:41981; CHEBI:29192;
+    CHEBI:24637; CHEBI:42857; CHEBI:41979; CHEBI:16240; CHEBI:13355; CHEBI:42043;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:43228;
+    CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:44812; CHEBI:5585; CHEBI:29374; CHEBI:17654;
+    CHEBI:5586; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00028; KEGG:C00001; KEGG:C00027'
+measurements:
+- id: measurement_1_11_1_7_Armoracia_rusticana_P15232_P15233_3
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: null
+  temperature_unit: null
+parameters:
+- id: 1_11_1_7_Armoracia_rusticana_P15232_P15233_3_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000108
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15493874'
+- id: 1_11_1_7_Armoracia_rusticana_P15232_P15233_3_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1800.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15493874'
+- id: 1_11_1_7_Armoracia_rusticana_P15232_P15233_3_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0014
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15493874'
+buffer:
+  buffer: 30 mM sodium phosphate
+  buffer_concentration: 30 mM
+references:
+- title: Reference for SABIO-RK entry 3735
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15493874/
+  pubmed_id: '15493874'
+  doi: null

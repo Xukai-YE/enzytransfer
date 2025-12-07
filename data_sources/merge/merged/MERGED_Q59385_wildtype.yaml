@@ -1,0 +1,299 @@
+version: '2.0'
+created: '2025-11-20T13:41:55.833300'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_7_2_2_8_Q59385_p49545
+  name: Cu2+-exporting ATPase
+  ecnumber: 7.2.2.8
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q59385
+  wildtype_sequence: MSQTIDLTLDGLSCGHCVKRVKESLEQRPDVEQADVSITEAHVTGTASAEQLIETIKQAGYDASVSHPKAKPLAESSIPSEALTAVSEALPAATADDDDSQQLLLSGMSCASCVTRVQNALQSVPGVTQARVNLAERTALVMGSASPQDLVQAVEKAGYGAEAIEDDAKRRERQQETAVATMKRFRWQAIVALAVGIPVMVWGMIGDNMMVTADNRSLWLVIGLITLAVMVFAGGHFYRSAWKSLLNGAATMDTLVALGTGVAWLYSMSVNLWPQWFPMEARHLYYEASAMIIGLINLGHMLEARARQRSSKALEKLLDLTPPTARLVTDEGEKSVPLAEVQPGMLLRLTTGDRVPVDGEITQGEAWLDEAMLTGEPIPQQKGEGDSVHAGTVVQDGSVLFRASAVGSHTTLSRIIRMVRQAQSSKPEIGQLADKISAVFVPVVVVIALVSAAIWYFFGPAPQIVYTLVIATTVLIIACPCALGLATPMSIISGVGRAAEFGVLVRDADALQRASTLDTVVFDKTGTLTEGKPQVVAVKTFADVDEAQALRLAAALEQGSSHPLARAILDKAGDMQLPQVNGFRTLRGLGVSGEAEGHALLLGNQALLNEQQVGTKAIEAEITAQASQGATPVLLAVDGKAVALLAVRDPLRSDSVAALQRLHKAGYRLVMLTGDNPTTANAIAKEAGIDEVIAGVLPDGKAEAIKHLQSEGRQVAMVGDGINDAPALAQADVGIAMGGGSDVAIETAAITLMRHSLMGVADALAISRATLHNMKQNLLGAFIYNSIGIPVAAGILWPFTGTLLNPVVAGAAMALSSITVVSNANRLLRFKPKE
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Cu_
+  name: Cu+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Cu_
+  name: Cu+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Phosphate
+  name: Phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Cu2_
+  name: Cu2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_12237_EC7_2_2_8_Escherichia_coli_Q59385_ATP
+  name: Reaction catalyzed by Cu2+-exporting ATPase on ATP
+  equation: H2O + ATP + Cu+ = Phosphate + ADP + Cu+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: product_Cu_
+  products:
+  - species_id: product_Cu_
+  - species_id: product_Phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_7_2_2_8_Q59385_p49545
+    role: BIOCATALYST
+  - species_id: activator_Cu2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 25792;25792;25793;25793;25794;25794;25795;25795
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:29375; CHEBI:14791; CHEBI:43470;
+    CHEBI:44819; CHEBI:18367; CHEBI:10789; CHEBI:57299; CHEBI:41981; CHEBI:35780;
+    CHEBI:16761; CHEBI:26020; CHEBI:40553; CHEBI:26078; CHEBI:49550; CHEBI:42857;
+    CHEBI:41979; CHEBI:13236; CHEBI:29139; CHEBI:39739; CHEBI:42043; CHEBI:10841;
+    CHEBI:2359; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:87518; CHEBI:15377; CHEBI:39745;
+    CHEBI:40938; CHEBI:13352; CHEBI:7793; CHEBI:456216; CHEBI:23379; CHEBI:43228;
+    CHEBI:22249; CHEBI:49551; CHEBI:2342; CHEBI:44292; CHEBI:15422; CHEBI:45024; CHEBI:33806;
+    CHEBI:20882; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:29036; CHEBI:49552; CHEBI:43474;
+    CHEBI:13222; CHEBI:22244; CHEBI:29137; CHEBI:29373; CHEBI:44701; CHEBI:23380
+
+    KEGG IDs: KEGG:C00070; KEGG:C00002; KEGG:C00001; KEGG:C00009; KEGG:C00008'
+- id: sabiork_12237_EC7_2_2_8_Escherichia_coli_Q59385_ATP
+  name: Reaction catalyzed by Cu2+-exporting ATPase on ATP
+  equation: H2O + ATP + Cu+ = Phosphate + ADP + Cu+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: product_Cu_
+  products:
+  - species_id: product_ADP
+  - species_id: product_Cu_
+  - species_id: product_Phosphate
+  modifiers:
+  - species_id: protein_7_2_2_8_Q59385_p49544
+    role: BIOCATALYST
+  - species_id: activator_Cu2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 25792;25792;25793;25793;25794;25794;25795;25795
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:29375; CHEBI:14791; CHEBI:43470;
+    CHEBI:44819; CHEBI:16761; CHEBI:10789; CHEBI:41981; CHEBI:57299; CHEBI:35780;
+    CHEBI:18367; CHEBI:40553; CHEBI:26020; CHEBI:26078; CHEBI:49550; CHEBI:42857;
+    CHEBI:41979; CHEBI:13236; CHEBI:29139; CHEBI:39739; CHEBI:42043; CHEBI:10841;
+    CHEBI:2359; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:87518; CHEBI:15377; CHEBI:39745;
+    CHEBI:40938; CHEBI:13352; CHEBI:7793; CHEBI:456216; CHEBI:23379; CHEBI:43228;
+    CHEBI:22249; CHEBI:49551; CHEBI:2342; CHEBI:44292; CHEBI:15422; CHEBI:45024; CHEBI:33806;
+    CHEBI:20882; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:29036; CHEBI:49552; CHEBI:43474;
+    CHEBI:13222; CHEBI:22244; CHEBI:29137; CHEBI:29373; CHEBI:44701; CHEBI:23380
+
+    KEGG IDs: KEGG:C00070; KEGG:C00002; KEGG:C00001; KEGG:C00009; KEGG:C00008'
+- id: sabiork_12237_EC7_2_2_8_Escherichia_coli_Q59385_Cu_
+  name: Reaction catalyzed by Cu2+-exporting ATPase on Cu+
+  equation: H2O + ATP + Cu+ = Phosphate + ADP + Cu+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: product_Cu_
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_Phosphate
+  - species_id: product_ADP
+  - species_id: product_Cu_
+  modifiers:
+  - species_id: protein_7_2_2_8_Q59385_p49542
+    role: BIOCATALYST
+  - species_id: activator_Cu2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 25792;25792;25793;25793;25794;25794;25795;25795
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:29375; CHEBI:14791; CHEBI:43470;
+    CHEBI:44819; CHEBI:18367; CHEBI:10789; CHEBI:57299; CHEBI:41981; CHEBI:35780;
+    CHEBI:16761; CHEBI:26020; CHEBI:40553; CHEBI:26078; CHEBI:49550; CHEBI:42857;
+    CHEBI:41979; CHEBI:13236; CHEBI:29139; CHEBI:39739; CHEBI:42043; CHEBI:10841;
+    CHEBI:2359; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:87518; CHEBI:15377; CHEBI:39745;
+    CHEBI:40938; CHEBI:13352; CHEBI:7793; CHEBI:456216; CHEBI:23379; CHEBI:43228;
+    CHEBI:49551; CHEBI:22249; CHEBI:2342; CHEBI:44292; CHEBI:15422; CHEBI:45024; CHEBI:33806;
+    CHEBI:20882; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:29036; CHEBI:49552; CHEBI:43474;
+    CHEBI:13222; CHEBI:22244; CHEBI:29137; CHEBI:29373; CHEBI:44701; CHEBI:23380
+
+    KEGG IDs: KEGG:C00070; KEGG:C00002; KEGG:C00001; KEGG:C00009; KEGG:C00008'
+measurements:
+- id: measurement_7_2_2_8_Escherichia_coli_Q59385_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.8
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_7_2_2_8_Escherichia_coli_Q59385_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.8
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_7_2_2_8_Escherichia_coli_Q59385_Cu_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.8
+  temperature_opt: 22.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 7_2_2_8_Escherichia_coli_Q59385_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 3.166667e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12351646'
+- id: 7_2_2_8_Escherichia_coli_Q59385_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00052
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12351646'
+- id: 7_2_2_8_Escherichia_coli_Q59385_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 8.4e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.8
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12351646'
+- id: 7_2_2_8_Escherichia_coli_Q59385_Cu__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.5e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_Cu_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.8
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12351646'
+buffer:
+  buffer: 40 mM Histidine, 50 mM KCl, 10% Glycerol, 0.1% Dodecyl maltoside, 0.25 mM
+    NADH, 1.25 mM Phosphoenolpyruvate, 17.5 units/ml Pyruvate kinase, 25 units/ml
+    Lactate dehydrogenase, 5 mM MgCl2, 1 mM DTT; 40 mM Histidine, 0.2 M KCl, 0.25
+    M Sucrose, 5 mM MgCl2
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 49545
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12351646/
+  pubmed_id: '12351646'
+  doi: null
+name: Merged entry for Q59385 wildtype
+description: 'Merged from 3 files: SABIO_EC7.2.2.8_Escherichia_coli__Q59385_s_ATP_2.yaml,
+  SABIO_EC7.2.2.8_Escherichia_coli__Q59385_s_ATP.yaml, SABIO_EC7.2.2.8_Escherichia_coli__Q59385_s_Cu_.yaml'

@@ -1,0 +1,260 @@
+version: '2.0'
+created: '2025-11-20T13:39:30.699487'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_13_11_1_P86029_p43699
+  name: catechol 1,2-dioxygenase
+  ecnumber: 1.13.11.1
+  organism: Candida albicans
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P86029
+  wildtype_sequence: MSQAFTESVKTSLGPNATPRAKKLIASLVQHVHDFARENHLTTEDWLWGVDFINRIGQMSDSRRNEGILVCDIIGLETLVDALTNESEQSNHTSSAILGPFYLPDSPVYPNGGSIVQKAIPTDVKCFVRGKVTDTEGKPLGGAQLEVWQCNSAGFYSQQADHDGPEFNLRGTFITDDEGNYSFECLRPTSYPIPYDGPAGDLLKIMDRHPNRPSHIHWRVSHPGYHTLITQIYDAECPYTNNDSVYAVKDDIIVHFEKVDNKDKDLVGKVEYKLDYDISLATESSIQEARAAAKARQDAEIKL
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Catechol
+  name: Catechol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_cis
+  name: cis
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_cis-Muconate
+  name: cis-Muconate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_4-Methylcatechol
+  name: 4-Methylcatechol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3-Methyl-cis
+  name: 3-Methyl-cis
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_cis-hexadienedioate
+  name: cis-hexadienedioate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1160_EC1_13_11_1_Candida_albicans_P86029_O2
+  name: Reaction catalyzed by catechol 1,2-dioxygenase on O2
+  equation: O2 + Catechol = cis,cis-Muconate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_Catechol
+  products:
+  - species_id: product_cis
+  - species_id: product_cis-Muconate
+  modifiers:
+  - species_id: protein_1_13_11_1_P86029_p43699
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 23852;23853;23854;23855
+  KEGGid: R00817
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:23054; CHEBI:13950; CHEBI:32379; CHEBI:26689;
+    CHEBI:18135; CHEBI:23833; CHEBI:13416; CHEBI:135158; CHEBI:41441; CHEBI:15379;
+    CHEBI:16508; CHEBI:30491; CHEBI:25366; CHEBI:44742; CHEBI:32402; CHEBI:29793;
+    CHEBI:7860; CHEBI:10745; CHEBI:3467; CHEBI:50524
+
+    KEGG IDs: KEGG:C15571; KEGG:C01785; KEGG:C00090; KEGG:C02480; KEGG:C00704; KEGG:C00007'
+- id: sabiork_4908_EC1_13_11_1_Candida_albicans_P86029_4-Methylcatechol
+  name: Reaction catalyzed by catechol 1,2-dioxygenase on 4-Methylcatechol
+  equation: O2 + 4-Methylcatechol = 3-Methyl-cis,cis-hexadienedioate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_4-Methylcatechol
+  - species_id: substrate_O2
+  products:
+  - species_id: product_3-Methyl-cis
+  - species_id: product_cis-hexadienedioate
+  modifiers:
+  - species_id: protein_1_13_11_1_P86029_p43700
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R05299
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:1897; CHEBI:17254; CHEBI:26689; CHEBI:43962;
+    CHEBI:12025; CHEBI:28958; CHEBI:23833; CHEBI:13416; CHEBI:1586; CHEBI:15379; CHEBI:30491;
+    CHEBI:25366; CHEBI:44742; CHEBI:29793; CHEBI:7860; CHEBI:10745; CHEBI:20442; CHEBI:20119
+
+    KEGG IDs: KEGG:C06730; KEGG:C00007; KEGG:C04112; KEGG:C00704'
+measurements:
+- id: measurement_1_13_11_1_Candida_albicans_P86029_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.3
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_13_11_1_Candida_albicans_P86029_4-Methylcatechol
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.3
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_13_11_1_Candida_albicans_P86029_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 9.3e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.3
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17089147'
+- id: 1_13_11_1_Candida_albicans_P86029_O2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 28.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.3
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17089147'
+- id: 1_13_11_1_Candida_albicans_P86029_4-Methylcatechol_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.16e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_4-Methylcatechol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.3
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17089147'
+- id: 1_13_11_1_Candida_albicans_P86029_4-Methylcatechol_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 5.6
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_4-Methylcatechol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.3
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17089147'
+buffer:
+  buffer: 50 mM Tris-HCl, 5 mM beta-mercaptoethanol, 20 ¦ÌM FeSO4
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 43699
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/17089147/
+  pubmed_id: '17089147'
+  doi: null
+name: Merged entry for P86029 wildtype
+description: 'Merged from 2 files: SABIO_EC1.13.11.1_Candida_albicans__P86029_s_O2.yaml,
+  SABIO_EC1.13.11.1_Candida_albicans__P86029_s_4-Methylcatechol.yaml'

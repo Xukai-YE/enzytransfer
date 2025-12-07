@@ -1,0 +1,154 @@
+name: SABIO-RK Entry 29442
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 29442
+created: '2025-10-28T14:37:45.536305'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_1_2_13_P09972_p29442
+  name: fructose-bisphosphate aldolase
+  ecnumber: 4.1.2.13
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: Y363S
+  uniprotid: P09972
+  wildtype_sequence: MPHSYPALSAEQKKELSDIALRIVAPGKGILAADESVGSMAKRLSQIGVENTEENRRLYRQVLFSADDRVKKCIGGVIFFHETLYQKDDNGVPFVRTIQDKGIVVGIKVDKGVVPLAGTDGETTTQGLDGLSERCAQYKKDGADFAKWRCVLKISERTPSALAILENANVLARYASICQQNGIVPIVEPEILPDGDHDLKRCQYVTEKVLAAVYKALSDHHVYLEGTLLKPNMVTPGHACPIKYTPEEIAMATVTALRRTVPPAVPGVTFLSGGQSEEEASFNLNAINRCPLPRPWALTFSYGRALQASALNAWRGQRDNAGAATEEFIKRAEVNGLAAQGKYEGSGEDGGAAAQSLYIANHAY
+  mutant_sequence: MPHSYPALSAEQKKELSDIALRIVAPGKGILAADESVGSMAKRLSQIGVENTEENRRLYRQVLFSADDRVKKCIGGVIFFHETLYQKDDNGVPFVRTIQDKGIVVGIKVDKGVVPLAGTDGETTTQGLDGLSERCAQYKKDGADFAKWRCVLKISERTPSALAILENANVLARYASICQQNGIVPIVEPEILPDGDHDLKRCQYVTEKVLAAVYKALSDHHVYLEGTLLKPNMVTPGHACPIKYTPEEIAMATVTALRRTVPPAVPGVTFLSGGQSEEEASFNLNAINRCPLPRPWALTFSYGRALQASALNAWRGQRDNAGAATEEFIKRAEVNGLAAQGKYEGSGEDGGAAAQSLSIANHAY
+  position_offset: -5
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_D-Fructose_1-phosphate
+  name: D-Fructose 1-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Glycerone_phosphate
+  name: Glycerone phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Glyceraldehyde
+  name: D-Glyceraldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_274_EC4_1_2_13_Homo_sapiens_P09972_D-Fructose_1-phosphate
+  name: Reaction catalyzed by fructose-bisphosphate aldolase on D-Fructose 1-phosphate
+  equation: D-Fructose 1-phosphate = Glycerone phosphate + D-Glyceraldehyde
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Fructose_1-phosphate
+  products:
+  - species_id: product_Glycerone_phosphate
+  - species_id: product_D-Glyceraldehyde
+  modifiers:
+  - species_id: protein_4_1_2_13_P09972_p29442
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 30851;30852;30853;30854
+  KEGGid: R02568
+  notes: 'ChEBI IDs: CHEBI:4186; CHEBI:18105; CHEBI:37515; CHEBI:5174; CHEBI:39973;
+    CHEBI:58674; CHEBI:21025; CHEBI:138881; CHEBI:12982; CHEBI:17378; CHEBI:20930;
+    CHEBI:16108; CHEBI:139419
+
+    KEGG IDs: KEGG:C00577; KEGG:C00111; KEGG:C01094'
+measurements: null
+parameters:
+- id: 4_1_2_13_Homo_sapiens_P09972_D-Fructose_1-phosphate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.75
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Fructose_1-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '7982900'
+- id: 4_1_2_13_Homo_sapiens_P09972_D-Fructose_1-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.017
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Fructose_1-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '7982900'
+buffer: null
+references:
+- title: Reference for SABIO-RK entry 29442
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/7982900/
+  pubmed_id: '7982900'
+  doi: null

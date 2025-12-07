@@ -1,0 +1,215 @@
+name: SABIO-RK Entry 48120
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 48120
+created: '2025-10-28T15:43:34.820967'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_50_P17516_p48120
+  name: carbonyl reductase (NADPH)
+  ecnumber: 1.1.1.50
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: R1C
+  uniprotid: P17516
+  wildtype_sequence: MDPKYQRVELNDGHFMPVLGFGTYAPPEVPRNRAVEVTKLAIEAGFRHIDSAYLYNNEEQVGLAIRSKIADGSVKREDIFYTSKLWCTFFQPQMVQPALESSLKKLQLDYVDLYLLHFPMALKPGETPLPKDENGKVIFDTVDLSATWEVMEKCKDAGLAKSIGVSNFNCRQLEMILNKPGLKYKPVCNQVECHPYLNQSKLLDFCKSKDIVLVAHSALGTQRHKLWVDPNSPVLLEDPVLCALAKKHKQTPALIALRYQLQRGVVVLAKSYNEQRIRENIQVFEFQLTSEDMKVLDGLNRNYRYVVMDFLMDHPDYPFSDEY
+  mutant_sequence: MDPKYQCVELNDGHFMPVLGFGTYAPPEVPRNRAVEVTKLAIEAGFRHIDSAYLYNNEEQVGLAIRSKIADGSVKREDIFYTSKLWCTFFQPQMVQPALESSLKKLQLDYVDLYLLHFPMALKPGETPLPKDENGKVIFDTVDLSATWEVMEKCKDAGLAKSIGVSNFNCRQLEMILNKPGLKYKPVCNQVECHPYLNQSKLLDFCKSKDIVLVAHSALGTQRHKLWVDPNSPVLLEDPVLCALAKKHKQTPALIALRYQLQRGVVVLAKSYNEQRIRENIQVFEFQLTSEDMKVLDGLNRNYRYVVMDFLMDHPDYPFSDEY
+  position_offset: 6
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_5alpha-Androstane-3alpha
+  name: 5alpha-Androstane-3alpha
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_17beta-diol
+  name: 17beta-diol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_5alpha-Androstane-17beta-ol-3-one
+  name: 5alpha-Androstane-17beta-ol-3-one
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7911_EC1_1_1_50_Homo_sapiens_P17516_5alpha-Androstane-3alpha
+  name: Reaction catalyzed by carbonyl reductase (NADPH) on 5alpha-Androstane-3alpha
+  equation: H+ + NADPH + 5alpha-Androstane-17beta-ol-3-one = NADP+ + 5alpha-Androstane-3alpha,17beta-diol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_5alpha-Androstane-3alpha
+  - species_id: substrate_17beta-diol
+  - species_id: substrate_NADP_
+  products:
+  - species_id: product_5alpha-Androstane-17beta-ol-3-one
+  - species_id: product_NADPH
+  modifiers:
+  - species_id: protein_1_1_1_50_P17516_p48120
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 42116;42117;42118;42119
+  KEGGid: R08963
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:7424; CHEBI:36713; CHEBI:21903;
+    CHEBI:44405; CHEBI:7425; CHEBI:29234; CHEBI:25523; CHEBI:13357; CHEBI:24636; CHEBI:29233;
+    CHEBI:5584; CHEBI:13399; CHEBI:16330; CHEBI:16474; CHEBI:44286; CHEBI:21904; CHEBI:44409;
+    CHEBI:15378; CHEBI:18009; CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C03917; KEGG:C11037'
+measurements:
+- id: measurement_1_1_1_50_Homo_sapiens_P17516_5alpha-Androstane-3alpha
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1_50_Homo_sapiens_P17516_5alpha-Androstane-3alpha_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 3333.333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_5alpha-Androstane-3alpha
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10998348'
+- id: 1_1_1_50_Homo_sapiens_P17516_5alpha-Androstane-3alpha_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.035
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_5alpha-Androstane-3alpha
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10998348'
+- id: 1_1_1_50_Homo_sapiens_P17516_5alpha-Androstane-3alpha_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.05e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_5alpha-Androstane-3alpha
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10998348'
+- id: 1_1_1_50_Homo_sapiens_P17516_5alpha-Androstane-3alpha_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 9.25e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_5alpha-Androstane-3alpha
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10998348'
+buffer:
+  buffer: 100 mM Potassium phosphate
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 48120
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10998348/
+  pubmed_id: '10998348'
+  doi: null

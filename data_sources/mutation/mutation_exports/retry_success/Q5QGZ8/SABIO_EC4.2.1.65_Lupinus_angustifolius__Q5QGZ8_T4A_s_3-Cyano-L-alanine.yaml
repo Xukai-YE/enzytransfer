@@ -1,0 +1,155 @@
+name: SABIO-RK Entry 63989
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 63989
+created: '2025-10-28T16:47:26.934093'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_2_1_65_Q5QGZ8_p63989
+  name: 3-cyanoalanine hydratase
+  ecnumber: 4.2.1.65
+  organism: Lupinus angustifolius
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: T4A
+  uniprotid: Q5QGZ8
+  wildtype_sequence: MALVTTPTVNDGPLFAEVNMSSDFNAPTVRATVVQASTIFYDTPATLDKAERLLAEAASYGAQIVVFPEAFIGGYPRGSNFGVSIGNRTAKGKEDFRKYHSAAIDVPGPEVDRLAALAGKYKVYLVMGVIERDGYTLYCTVLFFGAQGRYLGKHRKLMPTALERIIWGFGDGSTIPVFETPIGKIGAAICWENKMPLLRTAMYAKGVEIYCAPTADSREVWQASMTHIALEGGCFVLSANQFCRRRDYPPPPEYVFEGTEENLTPDSVVCAGGSVIISPSGAVLAGPSYEGEALISADLDLGEIARAKFDFDVVGHYSRPEVLSLVVKDHPTNPVTFTSASTKIEDKTK
+  mutant_sequence: MALVATPTVNDGPLFAEVNMSSDFNAPTVRATVVQASTIFYDTPATLDKAERLLAEAASYGAQIVVFPEAFIGGYPRGSNFGVSIGNRTAKGKEDFRKYHSAAIDVPGPEVDRLAALAGKYKVYLVMGVIERDGYTLYCTVLFFGAQGRYLGKHRKLMPTALERIIWGFGDGSTIPVFETPIGKIGAAICWENKMPLLRTAMYAKGVEIYCAPTADSREVWQASMTHIALEGGCFVLSANQFCRRRDYPPPPEYVFEGTEENLTPDSVVCAGGSVIISPSGAVLAGPSYEGEALISADLDLGEIARAKFDFDVVGHYSRPEVLSLVVKDHPTNPVTFTSASTKIEDKTK
+  position_offset: 1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_3-Cyano-L-alanine
+  name: 3-Cyano-L-alanine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Asparagine
+  name: L-Asparagine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1484_EC4_2_1_65_Lupinus_angustifolius_Q5QGZ8_3-Cyano-L-alanine
+  name: Reaction catalyzed by 3-cyanoalanine hydratase on 3-Cyano-L-alanine
+  equation: L-Asparagine = H2O + 3-Cyano-L-alanine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3-Cyano-L-alanine
+  products:
+  - species_id: product_L-Asparagine
+  modifiers:
+  - species_id: protein_4_2_1_65_Q5QGZ8_p63989
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 15385;15386;15387;15388
+  KEGGid: R01267
+  notes: 'ChEBI IDs: CHEBI:6191; CHEBI:29375; CHEBI:1477; CHEBI:11773; CHEBI:44819;
+    CHEBI:41981; CHEBI:16934; CHEBI:32650; CHEBI:42857; CHEBI:41979; CHEBI:17196;
+    CHEBI:58048; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377;
+    CHEBI:13061; CHEBI:13352; CHEBI:40902; CHEBI:77860; CHEBI:13083; CHEBI:43228;
+    CHEBI:44292; CHEBI:33806; CHEBI:19989; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:11772;
+    CHEBI:50347; CHEBI:57954; CHEBI:21242; CHEBI:32651; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C02512; KEGG:C00001; KEGG:C00152'
+measurements:
+- id: measurement_4_2_1_65_Lupinus_angustifolius_Q5QGZ8_3-Cyano-L-alanine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 4_2_1_65_Lupinus_angustifolius_Q5QGZ8_3-Cyano-L-alanine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00118
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Cyano-L-alanine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16786295'
+- id: 4_2_1_65_Lupinus_angustifolius_Q5QGZ8_3-Cyano-L-alanine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.0023
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Cyano-L-alanine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16786295'
+buffer:
+  buffer: 50 mM potassium phosphate, 1 mM DTT
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 63989
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16786295/
+  pubmed_id: '16786295'
+  doi: null

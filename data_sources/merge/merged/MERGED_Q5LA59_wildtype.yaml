@@ -1,0 +1,358 @@
+version: '2.0'
+created: '2025-11-20T13:39:14.314776'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_159_Q5LA59_p16007
+  name: 3alpha-hydroxysteroid dehydrogenase (B-specific)
+  ecnumber: 1.1.1.159
+  organism: Bacteroides fragilis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q5LA59
+  wildtype_sequence: MNRFENKIIIITGAAGGIGASTTRRIVSEGGKVVIADYSREKADQFAAELSNSGADVRPVYFSATELKSCKELITFTMKEYGQIDVLVNNVGGTNPRRDTNIETLDMDYFDEAFHLNLSCTMYLSQLVIPIMSTQGGGNIVNVASISGITADSNGTLYGASKAGVINLTKYIATQTGKKNIRCNAVAPGLILTPAALNNLNEEVRKIFLGQCATPYLGEPQDVAATIAFLASEDARYITGQTIVVDGGLTIHNPTINLV
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_3alpha
+  name: 3alpha
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_7alpha
+  name: 7alpha
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_12alpha-Trihydroxy-5beta-cholanate
+  name: 12alpha-Trihydroxy-5beta-cholanate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3alpha
+  name: 3alpha
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_12alpha-Dihydroxy-7-oxo-5beta-cholanate
+  name: 12alpha-Dihydroxy-7-oxo-5beta-cholanate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Chenodeoxycholate
+  name: Chenodeoxycholate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3alpha-Hydroxy-7-oxo-5beta-cholanate
+  name: 3alpha-Hydroxy-7-oxo-5beta-cholanate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2666_EC1_1_1_159_Bacteroides_fragilis_Q5LA59_3alpha
+  name: Reaction catalyzed by 3alpha-hydroxysteroid dehydrogenase (B-specific) on
+    3alpha
+  equation: NAD+ + 3alpha,7alpha,12alpha-Trihydroxy-5beta-cholanate = NADH + 3alpha,12alpha-Dihydroxy-7-oxo-5beta-cholanate
+    + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: product_3alpha
+  - species_id: substrate_7alpha
+  - species_id: substrate_12alpha-Trihydroxy-5beta-cholanate
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_3alpha
+  - species_id: product_12alpha-Dihydroxy-7-oxo-5beta-cholanate
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_1_1_159_Q5LA59_p16007
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 19409;19410;19411;19412
+  KEGGid: R02792
+  notes: 'ChEBI IDs: CHEBI:16359; CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846;
+    CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636; CHEBI:44214;
+    CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:57945; CHEBI:44216; CHEBI:11893; CHEBI:29747;
+    CHEBI:57540; CHEBI:7423; CHEBI:13389; CHEBI:15378; CHEBI:13395; CHEBI:16390; CHEBI:44215;
+    CHEBI:10744; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00695; KEGG:C00080; KEGG:C00003; KEGG:C04643; KEGG:C00004'
+- id: sabiork_2666_EC1_1_1_159_Bacteroides_fragilis_Q5LA59_3alpha
+  name: Reaction catalyzed by 3alpha-hydroxysteroid dehydrogenase (B-specific) on
+    3alpha
+  equation: NAD+ + 3alpha,7alpha,12alpha-Trihydroxy-5beta-cholanate = NADH + 3alpha,12alpha-Dihydroxy-7-oxo-5beta-cholanate
+    + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: product_3alpha
+  - species_id: substrate_7alpha
+  - species_id: substrate_12alpha-Trihydroxy-5beta-cholanate
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_NADH
+  - species_id: product_3alpha
+  - species_id: product_12alpha-Dihydroxy-7-oxo-5beta-cholanate
+  modifiers:
+  - species_id: protein_1_1_1_159_Q5LA59_p16019
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 19409;19410;19411;19412
+  KEGGid: R02792
+  notes: 'ChEBI IDs: CHEBI:16359; CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846;
+    CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636; CHEBI:44214;
+    CHEBI:29233; CHEBI:13394; CHEBI:5584; CHEBI:57945; CHEBI:44216; CHEBI:11893; CHEBI:29747;
+    CHEBI:57540; CHEBI:7423; CHEBI:13389; CHEBI:13395; CHEBI:15378; CHEBI:16390; CHEBI:44215;
+    CHEBI:10744; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00695; KEGG:C00080; KEGG:C00003; KEGG:C04643; KEGG:C00004'
+- id: sabiork_9929_EC1_1_1_159_Bacteroides_fragilis_Q5LA59_Chenodeoxycholate
+  name: Reaction catalyzed by 7alpha-hydroxysteroid dehydrogenase on Chenodeoxycholate
+  equation: Chenodeoxycholate + NAD+ = H+ + 3alpha-Hydroxy-7-oxo-5beta-cholanate +
+    NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Chenodeoxycholate
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_3alpha-Hydroxy-7-oxo-5beta-cholanate
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_1_1_159_Q5LA59_p16008
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 42036;42037;42038;42039
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:78605; CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846;
+    CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636; CHEBI:44214;
+    CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:36234; CHEBI:57945; CHEBI:44216; CHEBI:57540;
+    CHEBI:7423; CHEBI:16755; CHEBI:13389; CHEBI:15378; CHEBI:82679; CHEBI:13395; CHEBI:44215;
+    CHEBI:10744; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00003; KEGG:C02528; KEGG:C00004; KEGG:C00080'
+- id: sabiork_2666_EC1_1_1_159_Bacteroides_fragilis_Q5LA59_NAD_
+  name: Reaction catalyzed by 3alpha-hydroxysteroid dehydrogenase (B-specific) on
+    NAD+
+  equation: NAD+ + 3alpha,7alpha,12alpha-Trihydroxy-5beta-cholanate = NADH + 3alpha,12alpha-Dihydroxy-7-oxo-5beta-cholanate
+    + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: product_3alpha
+  - species_id: substrate_7alpha
+  - species_id: substrate_12alpha-Trihydroxy-5beta-cholanate
+  products:
+  - species_id: product_3alpha
+  - species_id: product_12alpha-Dihydroxy-7-oxo-5beta-cholanate
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_1_1_159_Q5LA59_p16014
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 19409;19410;19411;19412
+  KEGGid: R02792
+  notes: 'ChEBI IDs: CHEBI:16359; CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846;
+    CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636; CHEBI:44214;
+    CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:57945; CHEBI:44216; CHEBI:11893; CHEBI:29747;
+    CHEBI:57540; CHEBI:7423; CHEBI:13389; CHEBI:15378; CHEBI:13395; CHEBI:16390; CHEBI:44215;
+    CHEBI:10744; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00695; KEGG:C00080; KEGG:C00003; KEGG:C04643; KEGG:C00004'
+measurements:
+- id: measurement_1_1_1_159_Bacteroides_fragilis_Q5LA59_3alpha
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.8
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_1_1_1_159_Bacteroides_fragilis_Q5LA59_3alpha
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.5
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_1_1_1_159_Bacteroides_fragilis_Q5LA59_Chenodeoxycholate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.8
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_1_1_1_159_Bacteroides_fragilis_Q5LA59_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 22.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1_159_Bacteroides_fragilis_Q5LA59_3alpha_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0003
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_3alpha
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.8
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '4392598'
+- id: 1_1_1_159_Bacteroides_fragilis_Q5LA59_3alpha_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00025
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_3alpha
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.5
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '4392598'
+- id: 1_1_1_159_Bacteroides_fragilis_Q5LA59_Chenodeoxycholate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.4e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Chenodeoxycholate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.8
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '4392598'
+- id: 1_1_1_159_Bacteroides_fragilis_Q5LA59_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00057
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '4392598'
+buffer:
+  buffer: 0.05 M disodium phosphate; 200 mM sodium pyrophosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 16007
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/4392598/
+  pubmed_id: '4392598'
+  doi: null
+name: Merged entry for Q5LA59 wildtype
+description: 'Merged from 4 files: SABIO_EC1.1.1.159_Bacteroides_fragilis__Q5LA59_s_3alpha.yaml,
+  SABIO_EC1.1.1.159_Bacteroides_fragilis__Q5LA59_s_3alpha_2.yaml, SABIO_EC1.1.1.159_Bacteroides_fragilis__Q5LA59_s_Chenodeoxycholate.yaml,
+  SABIO_EC1.1.1.159_Bacteroides_fragilis__Q5LA59_s_NAD_.yaml'

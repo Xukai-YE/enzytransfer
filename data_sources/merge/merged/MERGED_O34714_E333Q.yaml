@@ -1,0 +1,211 @@
+version: '2.0'
+created: '2025-11-20T13:41:26.905828'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_1_1_2_O34714_p40173
+  name: oxalate decarboxylase
+  ecnumber: 4.1.1.2
+  organism: Bacillus subtilis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: E333Q
+  uniprotid: O34714
+  wildtype_sequence: MKKQNDIPQPIRGDKGATVKIPRNIERDRQNPDMLVPPETDHGTVSNMKFSFSDTHNRLEKGGYAREVTVRELPISENLASVNMRLKPGAIRELHWHKEAEWAYMIYGSARVTIVDEKGRSFIDDVGEGDLWYFPSGLPHSIQALEEGAEFLLVFDDGSFSENSTFQLTDWLAHTPKEVIAANFGVTKEEISNLPGKEKYIFENQLPGSLKDDIVEGPNGEVPYPFTYRLLEQEPIESEGGKVYIADSTNFKVSKTIASALVTVEPGAMRELHWHPNTHEWQYYISGKARMTVFASDGHARTFNYQAGDVGYVPFAMGHYVENIGDEPLVFLEIFKDDHYADVSLNQWLAMLPETFVQAHLDLGKDFTDVLSKEKHPVVKKKCSK
+  mutant_sequence: MKKQNDIPQPIRGDKGATVKIPRNIERDRQNPDMLVPPETDHGTVSNMKFSFSDTHNRLEKGGYAREVTVRELPISENLASVNMRLKPGAIRELHWHKEAEWAYMIYGSARVTIVDEKGRSFIDDVGEGDLWYFPSGLPHSIQALEEGAEFLLVFDDGSFSENSTFQLTDWLAHTPKEVIAANFGVTKEEISNLPGKEKYIFENQLPGSLKDDIVEGPNGEVPYPFTYRLLEQEPIESEGGKVYIADSTNFKVSKTIASALVTVEPGAMRELHWHPNTHEWQYYISGKARMTVFASDGHARTFNYQAGDVGYVPFAMGHYVENIGDEPLVFLQIFKDDHYADVSLNQWLAMLPETFVQAHLDLGKDFTDVLSKEKHPVVKKKCSK
+complexes: null
+small_molecules:
+- id: substrate_Oxalate
+  name: Oxalate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mn2_
+  name: Mn2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Formate
+  name: Formate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_941_EC4_1_1_2_Bacillus_subtilis_O34714_Oxalate
+  name: Reaction catalyzed by oxalate decarboxylase on Oxalate
+  equation: Oxalate = Formate + CO2
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxalate
+  - species_id: cofactor_Mn2_
+  products:
+  - species_id: product_CO2
+  - species_id: product_Formate
+  modifiers:
+  - species_id: protein_4_1_1_2_O34714_p40173
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 16509;16510;16511;16512
+  KEGGid: R00522
+  notes: 'ChEBI IDs: CHEBI:29035; CHEBI:25730; CHEBI:46904; CHEBI:30623; CHEBI:44583;
+    CHEBI:7811; CHEBI:139538; CHEBI:49749; CHEBI:15740; CHEBI:14702; CHEBI:3283; CHEBI:25729;
+    CHEBI:24082; CHEBI:24081; CHEBI:25156; CHEBI:23011; CHEBI:14276; CHEBI:13285;
+    CHEBI:13282; CHEBI:5145; CHEBI:42460; CHEBI:16995; CHEBI:44820; CHEBI:30751; CHEBI:13283;
+    CHEBI:13284; CHEBI:16526; CHEBI:48829; CHEBI:132952; CHEBI:21435
+
+    KEGG IDs: KEGG:C00034; KEGG:C00209; KEGG:C00011; KEGG:C00058; KEGG:C19610'
+- id: sabiork_941_EC4_1_1_2_rat_O34714_Oxalate
+  name: Reaction catalyzed by oxalate decarboxylase on Oxalate
+  equation: Oxalate = Formate + CO2
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxalate
+  products:
+  - species_id: product_Formate
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_4_1_1_2_O34714_p1091
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 16509;16510;16511;16512
+  KEGGid: R00522
+  notes: 'ChEBI IDs: CHEBI:25730; CHEBI:46904; CHEBI:30623; CHEBI:44583; CHEBI:7811;
+    CHEBI:139538; CHEBI:15740; CHEBI:14702; CHEBI:3283; CHEBI:25729; CHEBI:24082;
+    CHEBI:24081; CHEBI:23011; CHEBI:14276; CHEBI:13285; CHEBI:5145; CHEBI:13282; CHEBI:42460;
+    CHEBI:16995; CHEBI:44820; CHEBI:30751; CHEBI:13283; CHEBI:13284; CHEBI:16526;
+    CHEBI:48829; CHEBI:132952
+
+    KEGG IDs: KEGG:C00011; KEGG:C00058; KEGG:C00209'
+measurements:
+- id: measurement_4_1_1_2_Bacillus_subtilis_O34714_Oxalate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 4.2
+  temperature_opt: 23.0
+  temperature_unit: °C
+- id: measurement_4_1_1_2_rat_O34714_Oxalate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 4.0
+  temperature_opt: 26.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 4_1_1_2_Bacillus_subtilis_O34714_Oxalate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0017
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxalate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 4.2
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17459326'
+- id: 4_1_1_2_rat_O34714_Oxalate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.5e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxalate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 4.0
+  temperature: 26.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14871895'
+buffer:
+  buffer: 50 mM Potassium acetate, 0.2% Triton X-100, 0.5 mM o-Phenylenediamine; 100
+    mM sodium citrate, 300 ¦ÌM o-Phenylenediamine, 10 ¦ÌM BSA
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 40173
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/17459326/
+  pubmed_id: '17459326'
+  doi: null
+- title: Reference for SABIO-RK entry 1091
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/14871895/
+  pubmed_id: '14871895'
+  doi: null
+name: Merged entry for O34714 E333Q
+description: 'Merged from 2 files: SABIO_EC4.1.1.2_Bacillus_subtilis__O34714_E333Q_s_Oxalate.yaml,
+  SABIO_EC4.1.1.2_rat__O34714_E333Q_s_Oxalate.yaml'

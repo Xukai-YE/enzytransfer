@@ -1,0 +1,179 @@
+name: SABIO-RK Entry 2863
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 2863
+created: '2025-10-28T13:46:24.880779'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_4_1_1_Q73KL7_p2863
+  name: cystathionine gamma-lyase
+  ecnumber: 4.4.1.1
+  organism: Treponema denticola
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: K238R
+  uniprotid: Q73KL7
+  wildtype_sequence: MNRKELEKLGFASKQIHAGSIKNKYGALATPIYQTSTFAFDSAEQGGRRFALEEEGYIYTRLGNPTTTVVEEKLACLENGEACMSASSGIGAVTSCIWSIVNAGDHIVAGKTLYGCTFAFLNHGLSRFGVDVTFVDTRDPENVKKALKPNTKIVYLETPANPNMYLCDIAAVSKIAHAHNPECKVIVDNTYMTPYLQRPLDLGADVVLHSATKYLNGHGDVIAGFVVGKKEFIDQVRFVGVKDMTGSTLGPFEAYLIGRGMKTLDIRMEKHCANAQKVAEFLEKHPAVESIAFPGLKSFPQYELAKKQMKLCGAMIAFTVKGGLEAGKTLINSVKFATIAVSLGDAETLIQHPASMTHSPYTPEERAASDIAEGLVRLSVGLEDAEDIIADLKQALDKLVK
+  mutant_sequence: MNRKELEKLGFASKQIHAGSIKNKYGALATPIYQTSTFAFDSAEQGGRRFALEEEGYIYTRLGNPTTTVVEEKLACLENGEACMSASSGIGAVTSCIWSIVNAGDHIVAGKTLYGCTFAFLNHGLSRFGVDVTFVDTRDPENVKKALKPNTKIVYLETPANPNMYLCDIAAVSKIAHAHNPECKVIVDNTYMTPYLQRPLDLGADVVLHSATKYLNGHGDVIAGFVVGRKEFIDQVRFVGVKDMTGSTLGPFEAYLIGRGMKTLDIRMEKHCANAQKVAEFLEKHPAVESIAFPGLKSFPQYELAKKQMKLCGAMIAFTVKGGLEAGKTLINSVKFATIAVSLGDAETLIQHPASMTHSPYTPEERAASDIAEGLVRLSVGLEDAEDIIADLKQALDKLVK
+  position_offset: -9
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_3-Chloro-L-alanine
+  name: 3-Chloro-L-alanine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Cl-
+  name: Cl-
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Pyruvate
+  name: Pyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NH3
+  name: NH3
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1320_EC4_4_1_1_Treponema_denticola_Q73KL7_3-Chloro-L-alanine
+  name: Reaction catalyzed by cystathionine gamma-lyase on 3-Chloro-L-alanine
+  equation: NH3 + Pyruvate + Cl- = H2O + 3-Chloro-L-alanine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3-Chloro-L-alanine
+  products:
+  - species_id: product_Cl-
+  - species_id: product_Pyruvate
+  - species_id: product_NH3
+  modifiers:
+  - species_id: protein_4_4_1_1_Q73KL7_p2863
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01032
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:3616; CHEBI:44284; CHEBI:44819; CHEBI:17996;
+    CHEBI:41981; CHEBI:16134; CHEBI:13405; CHEBI:7434; CHEBI:14987; CHEBI:5590; CHEBI:42857;
+    CHEBI:41979; CHEBI:3731; CHEBI:1471; CHEBI:58132; CHEBI:13407; CHEBI:17403; CHEBI:15361;
+    CHEBI:13364; CHEBI:42043; CHEBI:17883; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:22534; CHEBI:13291; CHEBI:15377; CHEBI:7435; CHEBI:49783; CHEBI:135980;
+    CHEBI:22533; CHEBI:13352; CHEBI:26466; CHEBI:44404; CHEBI:13771; CHEBI:26462;
+    CHEBI:13970; CHEBI:43228; CHEBI:44269; CHEBI:44292; CHEBI:19979; CHEBI:13406;
+    CHEBI:8685; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:24635; CHEBI:32816;
+    CHEBI:11770; CHEBI:48804; CHEBI:28938; CHEBI:45253; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00698; KEGG:C00014; KEGG:C01327; KEGG:C00022; KEGG:C00001; KEGG:C01342;
+    KEGG:C02635'
+measurements:
+- id: measurement_4_4_1_1_Treponema_denticola_Q73KL7_3-Chloro-L-alanine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 4_4_1_1_Treponema_denticola_Q73KL7_3-Chloro-L-alanine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0019
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Chloro-L-alanine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12882978'
+- id: 4_4_1_1_Treponema_denticola_Q73KL7_3-Chloro-L-alanine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.1133333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Chloro-L-alanine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12882978'
+buffer:
+  buffer: 20 mM potassium phosphate
+  buffer_concentration: 20 mM
+references:
+- title: Reference for SABIO-RK entry 2863
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12882978/
+  pubmed_id: '12882978'
+  doi: null

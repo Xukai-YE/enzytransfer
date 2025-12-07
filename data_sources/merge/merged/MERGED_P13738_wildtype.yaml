@@ -1,0 +1,226 @@
+version: '2.0'
+created: '2025-11-20T13:41:56.159926'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_unknown_P13738_p74109
+  name: protein#74109
+  ecnumber: null
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P13738
+  wildtype_sequence: MKHLHRFFSSDASGGIILIIAAILAMIMANSGATSGWYHDFLETPVQLRVGSLEINKNMLLWINDALMAVFFLLVGLEVKRELMQGSLASLRQAAFPVIAAIGGMIVPALLYLAFNYADPITREGWAIPAATDIAFALGVLALLGSRVPLALKIFLMALAIIDDLGAIIIIALFYTNDLSMASLGVAAVAIAVLAVLNLCGARRTGVYILVGVVLWTAVLKSGVHATLAGVIVGFFIPLKEKHGRSPAKRLEHVLHPWVAYLILPLFAFANAGVSLQGVTLDGLTSILPLGIIAGLLIGKPLGISLFCWLALRLKLAHLPEGTTYQQIMVVGILCGIGFTMSIFIASLAFGSVDPELINWAKLGILVGSISSAVIGYSWLRVRLRPSV
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Li_
+  name: Li+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Li_
+  name: Li+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Na_
+  name: Na+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Na_
+  name: Na+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_16200_ECunknown_Escherichia_coli_P13738_Li_
+  name: Reaction catalyzed by enzyme on Li+
+  equation: H+ + Li+ = H+ + Li+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: product_Li_
+  products:
+  - species_id: product_Li_
+  modifiers:
+  - species_id: protein_unknown_P13738_p74109
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29234; CHEBI:15378; CHEBI:13357; CHEBI:24636; CHEBI:10744;
+    CHEBI:29233; CHEBI:5584; CHEBI:49713
+
+    KEGG IDs: KEGG:C00080'
+- id: sabiork_14625_ECunknown_Escherichia_coli_P13738_Na_
+  name: Reaction catalyzed by enzyme on Na+
+  equation: Na+ + H+ = Na+ + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: product_Na_
+  products:
+  - species_id: product_Na_
+  modifiers:
+  - species_id: protein_unknown_P13738_p74106
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29234; CHEBI:15378; CHEBI:13357; CHEBI:29101; CHEBI:24636;
+    CHEBI:49766; CHEBI:10744; CHEBI:26717; CHEBI:29233; CHEBI:5584; CHEBI:9175
+
+    KEGG IDs: KEGG:C01330; KEGG:C00080'
+measurements:
+- id: measurement_unknown_Escherichia_coli_P13738_Li_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_unknown_Escherichia_coli_P13738_Na_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: unknown_Escherichia_coli_P13738_Li__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0003
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_Li_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11157951'
+- id: unknown_Escherichia_coli_P13738_Li__Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katdivsg
+  initial_value: 0.700014
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_Li_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11157951'
+- id: unknown_Escherichia_coli_P13738_Na__Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katdivsg
+  initial_value: 0.700014
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_Na_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11157951'
+- id: unknown_Escherichia_coli_P13738_Na__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0002
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_Na_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11157951'
+buffer:
+  buffer: 10 mM Tris-MES, 140 mM choline chloride, 5 mM MgCl2, 1 mM acridine orange,
+    2 mM Tris-D-lactate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 74109
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11157951/
+  pubmed_id: '11157951'
+  doi: null
+name: Merged entry for P13738 wildtype
+description: 'Merged from 2 files: SABIO_Escherichia_coli__P13738_s_Li_.yaml, SABIO_Escherichia_coli__P13738_s_Na_.yaml'

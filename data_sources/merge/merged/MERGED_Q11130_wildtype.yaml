@@ -1,0 +1,311 @@
+version: '2.0'
+created: '2025-11-20T13:40:12.425938'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_4_1__Q11130_p54065
+  name: Hexosyltransferases
+  ecnumber: 2.4.1.
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q11130
+  wildtype_sequence: MNNAGHGPTRRLRGLGVLAGVALLAALWLLWLLGSAPRGTPAPQPTITILVWHWPFTDQPPELPSDTCTRYGIARCHLSANRSLLASADAVVFHHRELQTRRSHLPLAQRPRGQPWVWASMESPSHTHGLSHLRGIFNWVLSYRRDSDIFVPYGRLEPHWGPSPPLPAKSRVAAWVVSNFQERQLRARLYRQLAPHLRVDVFGRANGRPLCASCLVPTVAQYRFYLSFENSQHRDYITEKFWRNALVAGTVPVVLGPPRATYEAFVPADAFVHVDDFGSARELAAFLTGMNESRYQRFFAWRDRLRVRLFTDWRERFCAICDRYPHLPRSQVYEDLEGWFQA
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_GDP-L-fucose
+  name: GDP-L-fucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_alpha-2
+  name: alpha-2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_3-Sialyl-lacto-N-neotetraose
+  name: 3-Sialyl-lacto-N-neotetraose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_GDP
+  name: GDP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NeuAc-alpha-2
+  name: NeuAc-alpha-2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3-Gal-beta1-4_Fuc-alpha1-3_-GlcNAc-beta1-3-Gal-beta1-4-Glc
+  name: 3-Gal-beta1-4(Fuc-alpha1-3)-GlcNAc-beta1-3-Gal-beta1-4-Glc
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_13829_EC2_4_1__Homo_sapiens_Q11130_GDP-L-fucose
+  name: Reaction catalyzed by Hexosyltransferases on GDP-L-fucose
+  equation: GDP-L-fucose + alpha-2,3-Sialyl-lacto-N-neotetraose = GDP + NeuAc-alpha-2,3-Gal-beta1-4(Fuc-alpha1-3)-GlcNAc-beta1-3-Gal-beta1-4-Glc
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_GDP-L-fucose
+  - species_id: substrate_alpha-2
+  - species_id: substrate_3-Sialyl-lacto-N-neotetraose
+  products:
+  - species_id: product_GDP
+  - species_id: product_NeuAc-alpha-2
+  - species_id: product_3-Gal-beta1-4_Fuc-alpha1-3_-GlcNAc-beta1-3-Gal-beta1-4-Glc
+  modifiers:
+  - species_id: protein_2_4_1__Q11130_p54065
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:65180; CHEBI:17009; CHEBI:24448; CHEBI:58189; CHEBI:13327;
+    CHEBI:14379; CHEBI:17552; CHEBI:5212; CHEBI:42738
+
+    KEGG IDs: KEGG:C00035; KEGG:C00325'
+- id: sabiork_13829_EC2_4_1__Homo_sapiens_Q11130_alpha-2
+  name: Reaction catalyzed by Hexosyltransferases on alpha-2
+  equation: GDP-L-fucose + alpha-2,3-Sialyl-lacto-N-neotetraose = GDP + NeuAc-alpha-2,3-Gal-beta1-4(Fuc-alpha1-3)-GlcNAc-beta1-3-Gal-beta1-4-Glc
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_alpha-2
+  - species_id: substrate_3-Sialyl-lacto-N-neotetraose
+  - species_id: substrate_GDP-L-fucose
+  products:
+  - species_id: product_GDP
+  - species_id: product_NeuAc-alpha-2
+  - species_id: product_3-Gal-beta1-4_Fuc-alpha1-3_-GlcNAc-beta1-3-Gal-beta1-4-Glc
+  modifiers:
+  - species_id: protein_2_4_1__Q11130_p54066
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:65180; CHEBI:17009; CHEBI:24448; CHEBI:58189; CHEBI:13327;
+    CHEBI:14379; CHEBI:17552; CHEBI:5212; CHEBI:42738
+
+    KEGG IDs: KEGG:C00035; KEGG:C00325'
+- id: sabiork_13829_EC2_4_1__Homo_sapiens_Q11130_GDP-L-fucose
+  name: Reaction catalyzed by Hexosyltransferases on GDP-L-fucose
+  equation: GDP-L-fucose + alpha-2,3-Sialyl-lacto-N-neotetraose = GDP + NeuAc-alpha-2,3-Gal-beta1-4(Fuc-alpha1-3)-GlcNAc-beta1-3-Gal-beta1-4-Glc
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_GDP-L-fucose
+  - species_id: substrate_alpha-2
+  - species_id: substrate_3-Sialyl-lacto-N-neotetraose
+  products:
+  - species_id: product_NeuAc-alpha-2
+  - species_id: product_3-Gal-beta1-4_Fuc-alpha1-3_-GlcNAc-beta1-3-Gal-beta1-4-Glc
+  - species_id: product_GDP
+  modifiers:
+  - species_id: protein_2_4_1__Q11130_p54067
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:65180; CHEBI:17009; CHEBI:24448; CHEBI:58189; CHEBI:13327;
+    CHEBI:14379; CHEBI:17552; CHEBI:5212; CHEBI:42738
+
+    KEGG IDs: KEGG:C00035; KEGG:C00325'
+- id: sabiork_13829_EC2_4_1__Homo_sapiens_Q11130_alpha-2
+  name: Reaction catalyzed by Hexosyltransferases on alpha-2
+  equation: GDP-L-fucose + alpha-2,3-Sialyl-lacto-N-neotetraose = GDP + NeuAc-alpha-2,3-Gal-beta1-4(Fuc-alpha1-3)-GlcNAc-beta1-3-Gal-beta1-4-Glc
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_alpha-2
+  - species_id: substrate_3-Sialyl-lacto-N-neotetraose
+  - species_id: substrate_GDP-L-fucose
+  products:
+  - species_id: product_NeuAc-alpha-2
+  - species_id: product_3-Gal-beta1-4_Fuc-alpha1-3_-GlcNAc-beta1-3-Gal-beta1-4-Glc
+  - species_id: product_GDP
+  modifiers:
+  - species_id: protein_2_4_1__Q11130_p54064
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:65180; CHEBI:17009; CHEBI:24448; CHEBI:58189; CHEBI:13327;
+    CHEBI:14379; CHEBI:17552; CHEBI:5212; CHEBI:42738
+
+    KEGG IDs: KEGG:C00035; KEGG:C00325'
+measurements:
+- id: measurement_2_4_1__Homo_sapiens_Q11130_GDP-L-fucose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.8
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_4_1__Homo_sapiens_Q11130_alpha-2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.8
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_4_1__Homo_sapiens_Q11130_GDP-L-fucose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.8
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_4_1__Homo_sapiens_Q11130_alpha-2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.8
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_4_1__Homo_sapiens_Q11130_GDP-L-fucose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00013
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_GDP-L-fucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9268686'
+- id: 2_4_1__Homo_sapiens_Q11130_alpha-2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.015
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_alpha-2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9268686'
+- id: 2_4_1__Homo_sapiens_Q11130_GDP-L-fucose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.016
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_GDP-L-fucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9268686'
+- id: 2_4_1__Homo_sapiens_Q11130_alpha-2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_alpha-2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9268686'
+buffer:
+  buffer: 0.1 M cacodylate-NaOH, 25 mM MnCl2
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 54065
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9268686/
+  pubmed_id: '9268686'
+  doi: null
+name: Merged entry for Q11130 wildtype
+description: 'Merged from 4 files: SABIO_EC2.4.1._Homo_sapiens__Q11130_s_GDP-L-fucose.yaml,
+  SABIO_EC2.4.1._Homo_sapiens__Q11130_s_alpha-2_2.yaml, SABIO_EC2.4.1._Homo_sapiens__Q11130_s_GDP-L-fucose_2.yaml,
+  SABIO_EC2.4.1._Homo_sapiens__Q11130_s_alpha-2.yaml'

@@ -1,0 +1,259 @@
+version: '2.0'
+created: '2025-11-20T13:40:13.719002'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_4_2_12_Q80Z29_p47304
+  name: nicotinamide phosphoribosyltransferase
+  ecnumber: 2.4.2.12
+  organism: Rattus norvegicus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q80Z29
+  wildtype_sequence: MNAAAEAEFNILLATDSYKVTHYKQYPPNTSKVYSYFECREKKTENSKVRKVKYEETVFYGLQYILNKYLKGKVVTKEKIQEAKEVYREHFQDDVFNERGWNYILEKYDGHLPIEVKAVPEGSVIPRGNVLFTVENTDPECYWLTNWIETILVQSWYPITVATNSREQKKILAKYLLETSGNLDGLEYKLHDFGYRGVSSQETAGIGASAHLVNFKGTDTVAGIALIKKYYGTKDPVPGYSVPAAEHSTITAWGKDHEKDAFEHIVTQFSSVPVSVVSDSYDIYNACEKIWGEDLRHLIVSRSTEAPLIIRPDSGNPLDTVLKVLDILGKKFPVSENSKGYKLLPPYLRVIQGDGVDINTLQEIVEGMKQKKWSIENVSFGSGGALLQKLTRDLLNCSFKCSYVVTNGLGVNVFKDPVADPNKRSKKGRLSLHRTPAGTFVTLEEGKGDLEEYGHDLLHTVFKNGKVTKSYSFDEVRKNAQLNMEQDVAPH
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Nicotinamide
+  name: Nicotinamide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_5-Phospho-alpha-D-ribose_1-diphosphate
+  name: 5-Phospho-alpha-D-ribose 1-diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mg2_
+  name: Mg2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Nicotinamide_nucleotide
+  name: Nicotinamide nucleotide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1488_EC2_4_2_12_Rattus_norvegicus_Q80Z29_Nicotinamide
+  name: Reaction catalyzed by nicotinamide phosphoribosyltransferase on Nicotinamide
+  equation: Diphosphate + Nicotinamide nucleotide = 5-Phospho-alpha-D-ribose 1-diphosphate
+    + Nicotinamide
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Nicotinamide
+  - species_id: substrate_5-Phospho-alpha-D-ribose_1-diphosphate
+  - species_id: cofactor_ATP
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Nicotinamide_nucleotide
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_2_4_2_12_Q80Z29_p47304
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 16149;16150;16151;16152
+  KEGGid: R01271
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:14645; CHEBI:14646; CHEBI:7557;
+    CHEBI:8683; CHEBI:13409; CHEBI:57299; CHEBI:10789; CHEBI:13379; CHEBI:6635; CHEBI:22850;
+    CHEBI:33019; CHEBI:17111; CHEBI:13236; CHEBI:45067; CHEBI:12160; CHEBI:12159;
+    CHEBI:14648; CHEBI:29888; CHEBI:10841; CHEBI:45139; CHEBI:2359; CHEBI:17154; CHEBI:14649;
+    CHEBI:25521; CHEBI:10433; CHEBI:35782; CHEBI:49736; CHEBI:44258; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:16171; CHEBI:33017; CHEBI:25522; CHEBI:2121; CHEBI:45208;
+    CHEBI:7556; CHEBI:22249; CHEBI:15422; CHEBI:18420; CHEBI:12397; CHEBI:20625; CHEBI:14647;
+    CHEBI:25112; CHEBI:58017; CHEBI:45212; CHEBI:42009; CHEBI:50383; CHEBI:39127;
+    CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00305; KEGG:C00002; KEGG:C00153; KEGG:C00119; KEGG:C00455'
+- id: sabiork_1488_EC2_4_2_12_Rattus_norvegicus_Q80Z29_Nicotinamide
+  name: Reaction catalyzed by nicotinamide phosphoribosyltransferase on Nicotinamide
+  equation: Diphosphate + Nicotinamide nucleotide = 5-Phospho-alpha-D-ribose 1-diphosphate
+    + Nicotinamide
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Nicotinamide
+  - species_id: substrate_5-Phospho-alpha-D-ribose_1-diphosphate
+  - species_id: cofactor_ATP
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_Nicotinamide_nucleotide
+  modifiers:
+  - species_id: protein_2_4_2_12_Q80Z29_p47305
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 16149;16150;16151;16152
+  KEGGid: R01271
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:14645; CHEBI:14646; CHEBI:8683;
+    CHEBI:7557; CHEBI:13409; CHEBI:57299; CHEBI:10789; CHEBI:13379; CHEBI:6635; CHEBI:22850;
+    CHEBI:33019; CHEBI:17111; CHEBI:13236; CHEBI:45067; CHEBI:12160; CHEBI:12159;
+    CHEBI:14648; CHEBI:29888; CHEBI:10841; CHEBI:45139; CHEBI:2359; CHEBI:35782; CHEBI:17154;
+    CHEBI:25521; CHEBI:14649; CHEBI:10433; CHEBI:49736; CHEBI:44258; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:16171; CHEBI:33017; CHEBI:25522; CHEBI:2121; CHEBI:45208;
+    CHEBI:7556; CHEBI:22249; CHEBI:15422; CHEBI:18420; CHEBI:12397; CHEBI:20625; CHEBI:14647;
+    CHEBI:25112; CHEBI:58017; CHEBI:45212; CHEBI:42009; CHEBI:50383; CHEBI:39127;
+    CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00305; KEGG:C00002; KEGG:C00153; KEGG:C00119; KEGG:C00455'
+measurements:
+- id: measurement_2_4_2_12_Rattus_norvegicus_Q80Z29_Nicotinamide
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.8
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_4_2_12_Rattus_norvegicus_Q80Z29_Nicotinamide
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.8
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_4_2_12_Rattus_norvegicus_Q80Z29_Nicotinamide_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.7e-08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Nicotinamide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '4344987'
+- id: 2_4_2_12_Rattus_norvegicus_Q80Z29_Nicotinamide_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.777778e-09
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Nicotinamide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '4344987'
+- id: 2_4_2_12_Rattus_norvegicus_Q80Z29_Nicotinamide_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.8e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Nicotinamide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '4344987'
+- id: 2_4_2_12_Rattus_norvegicus_Q80Z29_Nicotinamide_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.777778e-09
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Nicotinamide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '4344987'
+buffer:
+  buffer: 30 mM Tris-HCl, 1 mM EDTA
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 47304
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/4344987/
+  pubmed_id: '4344987'
+  doi: null
+name: Merged entry for Q80Z29 wildtype
+description: 'Merged from 2 files: SABIO_EC2.4.2.12_Rattus_norvegicus__Q80Z29_s_Nicotinamide.yaml,
+  SABIO_EC2.4.2.12_Rattus_norvegicus__Q80Z29_s_Nicotinamide_2.yaml'

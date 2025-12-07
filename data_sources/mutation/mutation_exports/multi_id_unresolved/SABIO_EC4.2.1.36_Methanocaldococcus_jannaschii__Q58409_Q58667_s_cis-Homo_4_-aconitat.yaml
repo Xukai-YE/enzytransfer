@@ -1,0 +1,182 @@
+name: SABIO-RK Entry 35956
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 35956
+created: '2025-10-28T14:57:37.494192'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_2_1_36_Q58409_Q58667_p35956
+  name: homoaconitate hydratase
+  sequence: null
+  ecnumber: 4.2.1.36
+  organism: Methanocaldococcus jannaschii
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q58409; Q58667
+complexes: null
+small_molecules:
+- id: substrate_cis-Homo_4_-aconitate
+  name: cis-Homo(4)-aconitate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Homo_4_-citrate
+  name: Homo(4)-citrate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_11850_EC4_2_1_36_Methanocaldococcus_jannaschii_Q58409_Q58667_cis-Homo_4_-aconitate
+  name: Reaction catalyzed by homoaconitate hydratase on cis-Homo(4)-aconitate
+  equation: H2O + cis-Homo(4)-aconitate = Homo(4)-citrate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_cis-Homo_4_-aconitate
+  products:
+  - species_id: product_Homo_4_-citrate
+  modifiers:
+  - species_id: protein_4_2_1_36_Q58409_Q58667_p35956
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:41979;
+    CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352;
+    CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C00001'
+measurements:
+- id: measurement_4_2_1_36_Methanocaldococcus_jannaschii_Q58409_Q58667_cis-Homo_4_-aconitate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 60.0
+  temperature_unit: °C
+parameters:
+- id: 4_2_1_36_Methanocaldococcus_jannaschii_Q58409_Q58667_cis-Homo_4_-aconitate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000175
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_cis-Homo_4_-aconitate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18765671'
+- id: 4_2_1_36_Methanocaldococcus_jannaschii_Q58409_Q58667_cis-Homo_4_-aconitate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 32000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_cis-Homo_4_-aconitate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 9.0
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18765671'
+- id: 4_2_1_36_Methanocaldococcus_jannaschii_Q58409_Q58667_cis-Homo_4_-aconitate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 5.6
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_cis-Homo_4_-aconitate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18765671'
+- id: 4_2_1_36_Methanocaldococcus_jannaschii_Q58409_Q58667_cis-Homo_4_-aconitate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 8.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_cis-Homo_4_-aconitate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18765671'
+buffer:
+  buffer: 50 mM CHES-KOH, 200 mM KCl
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 35956
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/18765671/
+  pubmed_id: '18765671'
+  doi: null

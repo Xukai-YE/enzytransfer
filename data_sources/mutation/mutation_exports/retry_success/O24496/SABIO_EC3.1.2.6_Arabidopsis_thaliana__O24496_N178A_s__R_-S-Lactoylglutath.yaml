@@ -1,0 +1,166 @@
+name: SABIO-RK Entry 23553
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 23553
+created: '2025-10-28T14:22:31.920494'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_1_2_6_O24496_p23553
+  name: hydroxyacylglutathione hydrolase
+  ecnumber: 3.1.2.6
+  organism: Arabidopsis thaliana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: N178A
+  uniprotid: O24496
+  wildtype_sequence: MKIFHVPCLQDNYSYLIIDESTGDAAVVDPVDPEKVIASAEKHQAKIKFVLTTHHHWDHAGGNEKIKQLVPDIKVYGGSLDKVKGCTDAVDNGDKLTLGQDINILALHTPCHTKGHISYYVNGKEGENPAVFTGDTLFVAGCGKFFEGTAEQMYQSLCVTLAALPKPTQVYCGHEYTVKNLEFALTVEPNNGKIQQKLAWARQQRQADLPTIPSTLEEELETNPFMRVDKPEIQEKLGCKSPIDTMREVRNKKDQWRG
+  mutant_sequence: MKIFHVPCLQDNYSYLIIDESTGDAAVVDPVDPEKVIASAEKHQAKIKFVLTTHHHWDHAGGNEKIKQLVPDIKVYGGSLDKVKGCTDAVDNGDKLTLGQDINILALHTPCHTKGHISYYVNGKEGENPAVFTGDTLFVAGCGKFFEGTAEQMYQSLCVTLAALPKPTQVYCGHEYTVKALEFALTVEPNNGKIQQKLAWARQQRQADLPTIPSTLEEELETNPFMRVDKPEIQEKLGCKSPIDTMREVRNKKDQWRG
+  position_offset: 2
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate__R_-S-Lactoylglutathione
+  name: (R)-S-Lactoylglutathione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Lactate
+  name: D-Lactate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Reduced_glutathione
+  name: Reduced glutathione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_283_EC3_1_2_6_Arabidopsis_thaliana_O24496__R_-S-Lactoylglutathione
+  name: Reaction catalyzed by hydroxyacylglutathione hydrolase on (R)-S-Lactoylglutathione
+  equation: H2O + (R)-S-Lactoylglutathione = Reduced glutathione + D-Lactate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate__R_-S-Lactoylglutathione
+  products:
+  - species_id: product_D-Lactate
+  - species_id: product_Reduced_glutathione
+  modifiers:
+  - species_id: protein_3_1_2_6_O24496_p23553
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 25245;25246;25247;25248
+  KEGGid: R01736
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:12402; CHEBI:44819; CHEBI:41981; CHEBI:18684;
+    CHEBI:15694; CHEBI:11001; CHEBI:355; CHEBI:16856; CHEBI:5437; CHEBI:42105; CHEBI:42857;
+    CHEBI:41979; CHEBI:24334; CHEBI:14327; CHEBI:16004; CHEBI:42043; CHEBI:18678;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:43701;
+    CHEBI:43228; CHEBI:44292; CHEBI:43049; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:42111; CHEBI:341; CHEBI:42873; CHEBI:57925; CHEBI:29373; CHEBI:44701;
+    CHEBI:57474; CHEBI:11014
+
+    KEGG IDs: KEGG:C00051; KEGG:C03451; KEGG:C00001; KEGG:C00256'
+measurements:
+- id: measurement_3_1_2_6_Arabidopsis_thaliana_O24496__R_-S-Lactoylglutathione
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 3_1_2_6_Arabidopsis_thaliana_O24496__R_-S-Lactoylglutathione_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 9.8e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__R_-S-Lactoylglutathione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11085979'
+- id: 3_1_2_6_Arabidopsis_thaliana_O24496__R_-S-Lactoylglutathione_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1190.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__R_-S-Lactoylglutathione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11085979'
+buffer:
+  buffer: 30 mM MOPS
+  buffer_concentration: 30 mM
+references:
+- title: Reference for SABIO-RK entry 23553
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11085979/
+  pubmed_id: '11085979'
+  doi: null

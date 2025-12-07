@@ -1,0 +1,266 @@
+version: '2.0'
+created: '2025-11-20T13:39:43.623474'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_3_1_124_Q9NUI1_p71764
+  name: 2,4-dienoyl-CoA reductase [(3E)-enoyl-CoA-producing]
+  ecnumber: 1.3.1.124
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9NUI1
+  wildtype_sequence: MAQPPPDVEGDDCLPAYRHLFCPDLLRDKVAFITGGGSGIGFRIAEIFMRHGCHTVIASRSLPRVLTAARKLAGATGRRCLPLSMDVRAPPAVMAAVDQALKEFGRIDILINCAAGNFLCPAGALSFNAFKTVMDIDTSGTFNVSRVLYEKFFRDHGGVIVNITATLGNRGQALQVHAGSAKAAVDAMTRHLAVEWGPQNIRVNSLAPGPISGTEGLRRLGGPQASLSTKVTASPLQRLGNKTEIAHSVLYLASPLASYVTGAVLVADGGAWLTFPNGVKGLPDFASFSAKL
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_trans-2
+  name: trans-2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_trans-4-Hexadienoyl-CoA
+  name: trans-4-Hexadienoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_trans-3-Hexenoyl-CoA
+  name: trans-3-Hexenoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_trans-4-Decadienoyl-CoA
+  name: trans-4-Decadienoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_trans-3-Decenoyl-CoA
+  name: trans-3-Decenoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7148_EC1_3_1_124_Homo_sapiens_Q9NUI1_NADPH
+  name: Reaction catalyzed by 2,4-dienoyl-CoA reductase [(3E)-enoyl-CoA-producing]
+    on NADPH
+  equation: NADPH + trans-2,trans-4-Hexadienoyl-CoA + H+ = NADP+ + trans-3-Hexenoyl-CoA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_trans-2
+  - species_id: substrate_trans-4-Hexadienoyl-CoA
+  products:
+  - species_id: product_trans-3-Hexenoyl-CoA
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_3_1_124_Q9NUI1_p71764
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:7424; CHEBI:44405; CHEBI:21903;
+    CHEBI:7425; CHEBI:29234; CHEBI:13357; CHEBI:25523; CHEBI:24636; CHEBI:84790; CHEBI:29233;
+    CHEBI:5584; CHEBI:13399; CHEBI:16474; CHEBI:44286; CHEBI:21904; CHEBI:44409; CHEBI:15378;
+    CHEBI:85442; CHEBI:18009; CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:10744;
+    CHEBI:85889; CHEBI:85415
+
+    KEGG IDs: KEGG:C00006; KEGG:C00005; KEGG:C11037; KEGG:C00080'
+- id: sabiork_13530_EC1_3_1_124_Homo_sapiens_Q9NUI1_trans-2
+  name: Reaction catalyzed by 2,4-dienoyl-CoA reductase [(3E)-enoyl-CoA-producing]
+    on trans-2
+  equation: H+ + NADPH + trans-2,trans-4-Decadienoyl-CoA = NADP+ + trans-3-Decenoyl-CoA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_trans-2
+  - species_id: substrate_trans-4-Decadienoyl-CoA
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_NADP_
+  - species_id: product_trans-3-Decenoyl-CoA
+  modifiers:
+  - species_id: protein_1_3_1_124_Q9NUI1_p71765
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:7424; CHEBI:44405; CHEBI:21903;
+    CHEBI:7425; CHEBI:29234; CHEBI:13357; CHEBI:25523; CHEBI:24636; CHEBI:29233; CHEBI:5584;
+    CHEBI:13399; CHEBI:16474; CHEBI:44286; CHEBI:29126; CHEBI:21904; CHEBI:44409;
+    CHEBI:15378; CHEBI:18009; CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00006; KEGG:C00005; KEGG:C11037; KEGG:C00080'
+measurements:
+- id: measurement_1_3_1_124_Homo_sapiens_Q9NUI1_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_1_3_1_124_Homo_sapiens_Q9NUI1_trans-2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 22.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_3_1_124_Homo_sapiens_Q9NUI1_NADPH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.91667e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22745130'
+- id: 1_3_1_124_Homo_sapiens_Q9NUI1_NADPH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.16e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22745130'
+- id: 1_3_1_124_Homo_sapiens_Q9NUI1_trans-2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.27e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_trans-2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22745130'
+- id: 1_3_1_124_Homo_sapiens_Q9NUI1_trans-2_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.28333e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_trans-2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22745130'
+buffer:
+  buffer: 50 mM PBS, 100 ¦ÌM EDTA
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 71764
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/22745130/
+  pubmed_id: '22745130'
+  doi: null
+name: Merged entry for Q9NUI1 wildtype
+description: 'Merged from 2 files: SABIO_EC1.3.1.124_Homo_sapiens__Q9NUI1_s_NADPH.yaml,
+  SABIO_EC1.3.1.124_Homo_sapiens__Q9NUI1_s_trans-2.yaml'

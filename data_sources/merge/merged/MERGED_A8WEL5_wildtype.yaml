@@ -1,0 +1,232 @@
+version: '2.0'
+created: '2025-11-20T13:41:47.187239'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_5_5_1_4_A8WEL5_p51645
+  name: inositol-3-phosphate synthase
+  ecnumber: 5.5.1.4
+  organism: Vigna radiata
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: A8WEL5
+  wildtype_sequence: MFIENFKVECPNVRYTETEIQSVYNYETTELVHENRNGTYQWIVKPKSVKYEFKTDTHVPKLGVMLVGWGGNNGSTLTGGVIANREGISWATKDKIQQANYFGSLTQASAIRVGSFQGEEIYAPFKSLLPMVNPDDIVFGGWDISNMNLADAMGRAKVFDIDLQKQLRPYMESMVPLPGIYDPDFIAANQEERANNVIKGTKKEQVQQIIKDIKEFKAATKVDKVVVLWTANTERYSNLVVGLNDTSENLLAALDRNEAEISPSTLYAIACVMENVPFINGSPQNTFVPGLIDFAIEKNSLIGGDDFKSGQTKMKSVLVDFLVGAGIKPTSIVSYNHLGNNDGMNLSAPQTFRSKEISKSNVVDDMVNSNAILFEPGEHPDHVVVIKYVPYVGDSKRAMDEYTSEIFMGGKNTIVLHNTCEDSLLAAPIILDLVLLAELSTRIQFKAENEGKFHLFHPVATILSYLTKAPLVPPGTPVVNALSKQRAMLENILRACVGLAPENNMILEYK
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_1D-myo-Inositol_3-phosphate
+  name: 1D-myo-Inositol 3-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Glucose_6-phosphate
+  name: D-Glucose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Glucose_6-phosphate
+  name: D-Glucose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_1D-myo-Inositol_3-phosphate
+  name: 1D-myo-Inositol 3-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1181_EC5_5_1_4_Vigna_radiata_A8WEL5_1D-myo-Inositol_3-phosphate
+  name: Reaction catalyzed by inositol-3-phosphate synthase on 1D-myo-Inositol 3-phosphate
+  equation: 1D-myo-Inositol 3-phosphate = D-Glucose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_1D-myo-Inositol_3-phosphate
+  - species_id: cofactor_NAD_
+  products:
+  - species_id: product_D-Glucose_6-phosphate
+  modifiers:
+  - species_id: protein_5_5_1_4_A8WEL5_p51645
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 10716;10717;10718;10719
+  KEGGid: R07324
+  notes: 'ChEBI IDs: CHEBI:42748; CHEBI:44281; CHEBI:13393; CHEBI:15846; CHEBI:19196;
+    CHEBI:58225; CHEBI:11365; CHEBI:21901; CHEBI:4170; CHEBI:12321; CHEBI:44214; CHEBI:17665;
+    CHEBI:13394; CHEBI:814; CHEBI:15954; CHEBI:10245; CHEBI:14314; CHEBI:57540; CHEBI:22389;
+    CHEBI:13389; CHEBI:18169; CHEBI:44215; CHEBI:58401; CHEBI:7422
+
+    KEGG IDs: KEGG:C00003; KEGG:C00668; KEGG:C04006; KEGG:C00092'
+- id: sabiork_1181_EC5_5_1_4_Vigna_radiata_A8WEL5_D-Glucose_6-phosphate
+  name: Reaction catalyzed by inositol-3-phosphate synthase on D-Glucose 6-phosphate
+  equation: 1D-myo-Inositol 3-phosphate = D-Glucose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Glucose_6-phosphate
+  - species_id: cofactor_NAD_
+  products:
+  - species_id: product_1D-myo-Inositol_3-phosphate
+  modifiers:
+  - species_id: protein_5_5_1_4_A8WEL5_p51646
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 10716;10717;10718;10719
+  KEGGid: R07324
+  notes: 'ChEBI IDs: CHEBI:42748; CHEBI:44281; CHEBI:13393; CHEBI:15846; CHEBI:19196;
+    CHEBI:58225; CHEBI:11365; CHEBI:21901; CHEBI:4170; CHEBI:12321; CHEBI:44214; CHEBI:17665;
+    CHEBI:13394; CHEBI:814; CHEBI:15954; CHEBI:10245; CHEBI:14314; CHEBI:57540; CHEBI:22389;
+    CHEBI:13389; CHEBI:18169; CHEBI:44215; CHEBI:58401; CHEBI:7422
+
+    KEGG IDs: KEGG:C00003; KEGG:C00668; KEGG:C04006; KEGG:C00092'
+measurements:
+- id: measurement_5_5_1_4_Vigna_radiata_A8WEL5_1D-myo-Inositol_3-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_5_5_1_4_Vigna_radiata_A8WEL5_D-Glucose_6-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 5_5_1_4_Vigna_radiata_A8WEL5_1D-myo-Inositol_3-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00285
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1D-myo-Inositol_3-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12223840'
+- id: 5_5_1_4_Vigna_radiata_A8WEL5_1D-myo-Inositol_3-phosphate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: moldivs
+  initial_value: 3.333333e-10
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1D-myo-Inositol_3-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12223840'
+- id: 5_5_1_4_Vigna_radiata_A8WEL5_D-Glucose_6-phosphate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: moldivs
+  initial_value: 3.333333e-10
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose_6-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12223840'
+- id: 5_5_1_4_Vigna_radiata_A8WEL5_D-Glucose_6-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00026
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose_6-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12223840'
+buffer:
+  buffer: 50 mM Tris-acetate, EDTA, 1.0 mM Ammonium acetate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 51645
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12223840/
+  pubmed_id: '12223840'
+  doi: null
+name: Merged entry for A8WEL5 wildtype
+description: 'Merged from 2 files: SABIO_EC5.5.1.4_Vigna_radiata__A8WEL5_s_1D-myo-Inositol.yaml,
+  SABIO_EC5.5.1.4_Vigna_radiata__A8WEL5_s_D-Glucose.yaml'

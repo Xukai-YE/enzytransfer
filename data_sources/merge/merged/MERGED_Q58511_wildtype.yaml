@@ -1,0 +1,215 @@
+version: '2.0'
+created: '2025-11-20T13:40:48.677194'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_7_72_Q58511_p47383
+  name: CCA tRNA nucleotidyltransferase
+  ecnumber: 2.7.7.72
+  organism: Methanocaldococcus jannaschii
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q58511
+  wildtype_sequence: MIVLTIEEILKEVLNEIKPSKEDMEKLQLKANEIIDKIWEIVRENSYPILEVLLVGSSARNTNLKDDYDIDIFVLFDKSVSEDELEEIGLKIGTEAIKRLNGSYNINYASHPYVNGEVDGYEVDIVPCYKIDFGEKIISAVDRTPLHHKFLISRLNERLCDEVRLLKAFLKSLGLYGSDVKTKGFSGYLCELLILHYGSFINLLKEAQNWRIGKKIILKDIFEIYKDVDINKLKKFDEPFIVYDPVDLNRNVASPLSKDNFCRFIFYSRQFLKNPSIEFFKDYAKKLEEILENREHGYRLILKIPRENVVDDIIYPQMEKLQKSINKVIVKNEFVILNSKCFADDNYCYLYWEFLVYELPKIALREGPPVFEKERAERFLKKYGKVFIRDCKLFAYTEREYSHIIDLFKDIVNGNLQNISIPKYVNPRNGKIIELNSHGEHKQFNKECQ
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_CTP
+  name: CTP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_tRNA_precursor
+  name: tRNA precursor
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_tRNA_with_a_3_CCA_end
+  name: tRNA with a 3' CCA end
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_13137_EC2_7_7_72_Methanocaldococcus_jannaschii_Q58511_CTP
+  name: Reaction catalyzed by CCA tRNA nucleotidyltransferase on CTP
+  equation: ATP + CTP + tRNA precursor = Diphosphate + tRNA with a 3' CCA end
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_CTP
+  - species_id: substrate_tRNA_precursor
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_tRNA_with_a_3_CCA_end
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_2_7_7_72_Q58511_p47383
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R09382
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:17677; CHEBI:58231; CHEBI:10789;
+    CHEBI:57299; CHEBI:8683; CHEBI:23522; CHEBI:13286; CHEBI:33019; CHEBI:13236; CHEBI:3285;
+    CHEBI:45067; CHEBI:10841; CHEBI:29888; CHEBI:2359; CHEBI:35782; CHEBI:41675; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:82208; CHEBI:45208; CHEBI:22249;
+    CHEBI:15422; CHEBI:10668; CHEBI:37563; CHEBI:45212; CHEBI:42009; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C19085; KEGG:C02211; KEGG:C00002; KEGG:C01522; KEGG:C00063'
+- id: sabiork_13137_EC2_7_7_72_Methanocaldococcus_jannaschii_Q58511_tRNA_precursor
+  name: Reaction catalyzed by CCA tRNA nucleotidyltransferase on tRNA precursor
+  equation: ATP + CTP + tRNA precursor = Diphosphate + tRNA with a 3' CCA end
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_tRNA_precursor
+  - species_id: substrate_ATP
+  - species_id: substrate_CTP
+  products:
+  - species_id: product_tRNA_with_a_3_CCA_end
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_2_7_7_72_Q58511_p47382
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R09382
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:17677; CHEBI:58231; CHEBI:10789;
+    CHEBI:57299; CHEBI:8683; CHEBI:23522; CHEBI:13286; CHEBI:33019; CHEBI:13236; CHEBI:3285;
+    CHEBI:45067; CHEBI:10841; CHEBI:29888; CHEBI:2359; CHEBI:35782; CHEBI:40938; CHEBI:41675;
+    CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:82208; CHEBI:45208; CHEBI:22249;
+    CHEBI:15422; CHEBI:10668; CHEBI:37563; CHEBI:45212; CHEBI:42009; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C19085; KEGG:C02211; KEGG:C00002; KEGG:C01522; KEGG:C00063'
+measurements:
+- id: measurement_2_7_7_72_Methanocaldococcus_jannaschii_Q58511_CTP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.4
+  temperature_opt: 70.0
+  temperature_unit: °C
+- id: measurement_2_7_7_72_Methanocaldococcus_jannaschii_Q58511_tRNA_precursor
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.4
+  temperature_opt: 70.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_7_72_Methanocaldococcus_jannaschii_Q58511_CTP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.1e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.4
+  temperature: 70.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12866049'
+- id: 2_7_7_72_Methanocaldococcus_jannaschii_Q58511_tRNA_precursor_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.8e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_precursor
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.4
+  temperature: 70.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12866049'
+buffer:
+  buffer: 50 mM Glycine, 10-20 mM MgCl2, 1 mM DTT
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 47383
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12866049/
+  pubmed_id: '12866049'
+  doi: null
+name: Merged entry for Q58511 wildtype
+description: 'Merged from 2 files: SABIO_EC2.7.7.72_Methanocaldococcus_jannaschii__Q58511_s_CTP.yaml,
+  SABIO_EC2.7.7.72_Methanocaldococcus_jannaschii__Q58511_s_tRNA.yaml'

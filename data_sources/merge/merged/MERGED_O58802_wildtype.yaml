@@ -1,0 +1,212 @@
+version: '2.0'
+created: '2025-11-20T13:42:01.617168'
+modified: null
+creators:
+- given_name: SKiD
+  family_name: Database
+  mail: skid@database.org
+vessels: null
+proteins:
+- id: protein_O58802
+  name: Pyrococcus horikoshii
+  ecnumber: 1.1.1.3
+  organism: Pyrococcus horikoshii
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: null
+  uniprotid: O58802
+  wildtype_sequence: MKVNISIFGFGTVGRALAEIIAEKSRIFGVELNVISITDRSGTIWGDFDLLEAKEVKESTGKLSNIGDYEVYNFSPQELVEEVKPNILVDVSSWDEAHEMYKVALGEGISVVTSNKPPIANYYDELMNLAKENNAGIFFESTVMAGTPIIGVLRENLLGENIKRIDAVVNASTTFILTKMSEGKTLDDAIEEAKSLGILEEDPSKDIDGIDAYYKAKILHWVSYGEPPEEEERLGIREVRDARNVRLVAQVSKGKISVKPRKLSSDNPLLVEGVQNAAVIRTNNLGEVILKGPGGGGRVTASGVFTDIIKATLKFPNLR
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N
+  inchi: InChI=1S/C21H27N7O14P2/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(32)14(30)11(41-21)6-39-44(36,37)42-43(34,35)38-5-10-13(29)15(31)20(40-10)27-3-1-2-9(4-27)18(23)33/h1-4,7-8,10-11,13-16,20-21,29-32H,5-6H2,(H5-,22,23,24,25,33,34,35,36,37)
+  inchikey: BAWFJGJZGIEFAR-UHFFFAOYSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/5892
+- id: product
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_L-homoserine
+  name: L-homoserine
+  canonical_smiles: N[C@@H](CCO)C(=O)O
+  inchi: InChI=1S/C4H9NO3/c5-3(1-2-6)4(7)8/h3,6H,1-2,5H2,(H,7,8)/t3-/m0/s1
+  inchikey: UKAUYVFTDYCKQA-VKHMYHEASA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/12647
+reactions:
+- id: reaction_O58802_NAD_
+  name: Reaction catalyzed by enzyme on NAD+
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_O58802
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_O58802_L-homoserine
+  name: Reaction catalyzed by enzyme on L-homoserine
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-homoserine
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_O58802
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+measurements:
+- id: measurement_0
+  name: Experimental conditions (pH=9.0, T=50.0°C)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 50.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=9.0, T=50.0°C)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 50.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: O58802_NAD__kcat_306
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 70.1
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 50.0
+  temperature_unit: °C
+  notes: 'Source: kcat'
+  pubmed_id: '26154028'
+- id: O58802_NAD__Km_11410
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.32
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 50.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '26154028'
+- id: O58802_L-homoserine_Km_11411
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 6.1
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_L-homoserine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 50.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '26154028'
+buffer:
+  buffer: null
+  buffer_concentration: null
+references:
+- title: H.
+  authors: Hayashi, J., Inoue, S., Kim, K., Yoneda, K., Kawarabayasi, Y., Ohshima,
+    T., Sakuraba
+  year: '2015'
+  journal: Crystal structures of a hyperthermophilic archaeal homoserine dehydrogenase
+    suggest a novel cofactor binding mode for oxidoreductases. Sci
+  uri: null
+  pubmed_id: '26154028'
+  doi: null
+  id: '42'
+  pages: '11674'
+  volume: '5'
+  citation: 'Hayashi, J.,Inoue, S.,Kim, K.,Yoneda, K.,Kawarabayasi, Y.,Ohshima, T.,Sakuraba,
+    H., Crystal structures of a hyperthermophilic archaeal homoserine dehydrogenase
+    suggest a novel cofactor binding mode for oxidoreductases. Sci, Rep., 2015, 11674,
+    5, PMID: 26154028'
+name: Merged entry for O58802 wildtype
+description: 'Merged from 2 files: SKID_EC1.1.1.3_Pyrococcus_O58802_NAD_.yaml, SKID_EC1.1.1.3_Pyrococcus_O58802_L-homoserine.yaml'

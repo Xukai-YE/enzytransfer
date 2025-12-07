@@ -1,0 +1,889 @@
+version: '2.0'
+created: '2025-11-20T13:40:04.265978'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_3_1_30_P0A9D4_p8247
+  name: serine O-acetyltransferase
+  ecnumber: 2.3.1.30
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P0A9D4
+  wildtype_sequence: MSCEELEIVWNNIKAEARTLADCEPMLASFYHATLLKHENLGSALSYMLANKLSSPIMPAIAIREVVEEAYAADPEMIASAACDIQAVRTRDPAVDKYSTPLLYLKGFHALQAYRIGHWLWNQGRRALAIFLQNQVSVTFQVDIHPAAKIGRGIMLDHATGIVVGETAVIENDVSILQSVTLGGTGKSGGDRHPKIREGVMIGAGAKILGNIEVGRGAKIGAGSVVLQPVPPHTTAAGVPARIVGKPDSDKPSMDMDQHFNGINHTFEYGDGI
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Acetyl-CoA
+  name: Acetyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_L-Serine
+  name: L-Serine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_O-Acetyl-L-serine
+  name: O-Acetyl-L-serine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_L-Cysteine
+  name: L-Cysteine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_O-Acetyl-L-serine
+  name: O-Acetyl-L-serine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Acetyl-CoA
+  name: Acetyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Serine
+  name: L-Serine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_986_EC2_3_1_30_Escherichia_coli_P0A9D4_Acetyl-CoA
+  name: Reaction catalyzed by serine O-acetyltransferase on Acetyl-CoA
+  equation: L-Serine + Acetyl-CoA = Coenzyme A + O-Acetyl-L-serine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Acetyl-CoA
+  - species_id: substrate_L-Serine
+  products:
+  - species_id: product_O-Acetyl-L-serine
+  - species_id: product_Coenzyme_A
+  modifiers:
+  - species_id: protein_2_3_1_30_P0A9D4_p8247
+    role: BIOCATALYST
+  - species_id: activator_L-Cysteine
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 24560;24561;24562;24563
+  KEGGid: R00586
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:7668; CHEBI:32836; CHEBI:15346; CHEBI:23355;
+    CHEBI:12685; CHEBI:17981; CHEBI:32837; CHEBI:12724; CHEBI:41781; CHEBI:13095;
+    CHEBI:57288; CHEBI:41631; CHEBI:32442; CHEBI:13167; CHEBI:45451; CHEBI:21938;
+    CHEBI:13712; CHEBI:21261; CHEBI:41700; CHEBI:45440; CHEBI:13295; CHEBI:45590;
+    CHEBI:41811; CHEBI:12710; CHEBI:41597; CHEBI:58340; CHEBI:29999; CHEBI:32443;
+    CHEBI:33384; CHEBI:41768; CHEBI:29950; CHEBI:57287; CHEBI:13294; CHEBI:45597;
+    CHEBI:40470; CHEBI:17115; CHEBI:6207; CHEBI:35235; CHEBI:21387; CHEBI:2408; CHEBI:44568;
+    CHEBI:3771; CHEBI:32445; CHEBI:6301; CHEBI:741566; CHEBI:17561; CHEBI:45677; CHEBI:41227;
+    CHEBI:13298; CHEBI:15351
+
+    KEGG IDs: KEGG:C00065; KEGG:C00010; KEGG:C00979; KEGG:C00097; KEGG:C00024'
+- id: sabiork_986_EC2_3_1_30_Escherichia_coli_P0A9D4_Acetyl-CoA
+  name: Reaction catalyzed by serine O-acetyltransferase on Acetyl-CoA
+  equation: L-Serine + Acetyl-CoA = Coenzyme A + O-Acetyl-L-serine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Acetyl-CoA
+  - species_id: substrate_L-Serine
+  products:
+  - species_id: product_Coenzyme_A
+  - species_id: product_O-Acetyl-L-serine
+  modifiers:
+  - species_id: protein_2_3_1_30_P0A9D4_p8248
+    role: BIOCATALYST
+  - species_id: activator_L-Cysteine
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 24560;24561;24562;24563
+  KEGGid: R00586
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:15346; CHEBI:32836; CHEBI:23355; CHEBI:7668;
+    CHEBI:12685; CHEBI:17981; CHEBI:32837; CHEBI:12724; CHEBI:41781; CHEBI:13095;
+    CHEBI:57288; CHEBI:41631; CHEBI:32442; CHEBI:13167; CHEBI:45451; CHEBI:21938;
+    CHEBI:13712; CHEBI:21261; CHEBI:41700; CHEBI:45440; CHEBI:13295; CHEBI:45590;
+    CHEBI:41811; CHEBI:12710; CHEBI:41597; CHEBI:58340; CHEBI:29999; CHEBI:32443;
+    CHEBI:33384; CHEBI:41768; CHEBI:29950; CHEBI:57287; CHEBI:13294; CHEBI:45597;
+    CHEBI:40470; CHEBI:17115; CHEBI:6207; CHEBI:35235; CHEBI:21387; CHEBI:2408; CHEBI:44568;
+    CHEBI:3771; CHEBI:32445; CHEBI:6301; CHEBI:741566; CHEBI:17561; CHEBI:45677; CHEBI:41227;
+    CHEBI:13298; CHEBI:15351
+
+    KEGG IDs: KEGG:C00065; KEGG:C00010; KEGG:C00979; KEGG:C00097; KEGG:C00024'
+- id: sabiork_986_EC2_3_1_30_Escherichia_coli_P0A9D4_Coenzyme_A
+  name: Reaction catalyzed by serine O-acetyltransferase on Coenzyme A
+  equation: L-Serine + Acetyl-CoA = Coenzyme A + O-Acetyl-L-serine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Coenzyme_A
+  - species_id: substrate_O-Acetyl-L-serine
+  products:
+  - species_id: product_Acetyl-CoA
+  - species_id: product_L-Serine
+  modifiers:
+  - species_id: protein_2_3_1_30_P0A9D4_p8254
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 24560;24561;24562;24563
+  KEGGid: R00586
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:15346; CHEBI:23355; CHEBI:7668; CHEBI:32836;
+    CHEBI:12685; CHEBI:17981; CHEBI:32837; CHEBI:12724; CHEBI:57288; CHEBI:41631;
+    CHEBI:45451; CHEBI:13167; CHEBI:21938; CHEBI:13712; CHEBI:13295; CHEBI:45440;
+    CHEBI:45590; CHEBI:12710; CHEBI:41597; CHEBI:58340; CHEBI:29999; CHEBI:33384;
+    CHEBI:57287; CHEBI:13294; CHEBI:45597; CHEBI:40470; CHEBI:17115; CHEBI:21387;
+    CHEBI:2408; CHEBI:44568; CHEBI:3771; CHEBI:6301; CHEBI:741566; CHEBI:45677; CHEBI:13298;
+    CHEBI:15351
+
+    KEGG IDs: KEGG:C00979; KEGG:C00065; KEGG:C00024; KEGG:C00010'
+- id: sabiork_986_EC2_3_1_30_Escherichia_coli_P0A9D4_L-Serine
+  name: Reaction catalyzed by serine O-acetyltransferase on L-Serine
+  equation: L-Serine + Acetyl-CoA = Coenzyme A + O-Acetyl-L-serine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Serine
+  - species_id: substrate_Acetyl-CoA
+  products:
+  - species_id: product_Coenzyme_A
+  - species_id: product_O-Acetyl-L-serine
+  modifiers:
+  - species_id: protein_2_3_1_30_P0A9D4_p8253
+    role: BIOCATALYST
+  - species_id: activator_L-Cysteine
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 24560;24561;24562;24563
+  KEGGid: R00586
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:15346; CHEBI:32836; CHEBI:23355; CHEBI:7668;
+    CHEBI:12685; CHEBI:17981; CHEBI:32837; CHEBI:12724; CHEBI:41781; CHEBI:13095;
+    CHEBI:57288; CHEBI:41631; CHEBI:32442; CHEBI:13167; CHEBI:45451; CHEBI:21938;
+    CHEBI:13712; CHEBI:21261; CHEBI:41700; CHEBI:45440; CHEBI:13295; CHEBI:45590;
+    CHEBI:41811; CHEBI:12710; CHEBI:41597; CHEBI:58340; CHEBI:29999; CHEBI:32443;
+    CHEBI:33384; CHEBI:41768; CHEBI:29950; CHEBI:57287; CHEBI:13294; CHEBI:45597;
+    CHEBI:40470; CHEBI:17115; CHEBI:6207; CHEBI:35235; CHEBI:21387; CHEBI:2408; CHEBI:44568;
+    CHEBI:3771; CHEBI:32445; CHEBI:6301; CHEBI:741566; CHEBI:17561; CHEBI:45677; CHEBI:41227;
+    CHEBI:13298; CHEBI:15351
+
+    KEGG IDs: KEGG:C00010; KEGG:C00065; KEGG:C00979; KEGG:C00097; KEGG:C00024'
+- id: sabiork_986_EC2_3_1_30_Escherichia_coli_P0A9D4_O-Acetyl-L-serine
+  name: Reaction catalyzed by serine O-acetyltransferase on O-Acetyl-L-serine
+  equation: L-Serine + Acetyl-CoA = Coenzyme A + O-Acetyl-L-serine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O-Acetyl-L-serine
+  - species_id: substrate_Coenzyme_A
+  products:
+  - species_id: product_L-Serine
+  - species_id: product_Acetyl-CoA
+  modifiers:
+  - species_id: protein_2_3_1_30_P0A9D4_p8255
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 24560;24561;24562;24563
+  KEGGid: R00586
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:7668; CHEBI:15346; CHEBI:23355; CHEBI:32836;
+    CHEBI:12685; CHEBI:17981; CHEBI:32837; CHEBI:12724; CHEBI:57288; CHEBI:41631;
+    CHEBI:45451; CHEBI:13167; CHEBI:21938; CHEBI:13712; CHEBI:13295; CHEBI:45440;
+    CHEBI:45590; CHEBI:12710; CHEBI:41597; CHEBI:58340; CHEBI:29999; CHEBI:33384;
+    CHEBI:57287; CHEBI:13294; CHEBI:45597; CHEBI:40470; CHEBI:17115; CHEBI:21387;
+    CHEBI:2408; CHEBI:44568; CHEBI:3771; CHEBI:6301; CHEBI:741566; CHEBI:45677; CHEBI:13298;
+    CHEBI:15351
+
+    KEGG IDs: KEGG:C00979; KEGG:C00024; KEGG:C00065; KEGG:C00010'
+- id: sabiork_986_EC2_3_1_30_Escherichia_coli_P0A9D4_L-Serine
+  name: Reaction catalyzed by serine O-acetyltransferase on L-Serine
+  equation: L-Serine + Acetyl-CoA = Coenzyme A + O-Acetyl-L-serine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Serine
+  - species_id: substrate_Acetyl-CoA
+  products:
+  - species_id: product_Coenzyme_A
+  - species_id: product_O-Acetyl-L-serine
+  modifiers:
+  - species_id: protein_2_3_1_30_P0A9D4_p8252
+    role: BIOCATALYST
+  - species_id: activator_L-Cysteine
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 24560;24561;24562;24563
+  KEGGid: R00586
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:15346; CHEBI:32836; CHEBI:23355; CHEBI:7668;
+    CHEBI:12685; CHEBI:17981; CHEBI:32837; CHEBI:12724; CHEBI:41781; CHEBI:13095;
+    CHEBI:57288; CHEBI:41631; CHEBI:32442; CHEBI:13167; CHEBI:45451; CHEBI:21938;
+    CHEBI:13712; CHEBI:21261; CHEBI:41700; CHEBI:45440; CHEBI:13295; CHEBI:45590;
+    CHEBI:41811; CHEBI:12710; CHEBI:41597; CHEBI:58340; CHEBI:29999; CHEBI:32443;
+    CHEBI:33384; CHEBI:41768; CHEBI:29950; CHEBI:57287; CHEBI:13294; CHEBI:45597;
+    CHEBI:40470; CHEBI:17115; CHEBI:6207; CHEBI:35235; CHEBI:21387; CHEBI:2408; CHEBI:44568;
+    CHEBI:3771; CHEBI:32445; CHEBI:6301; CHEBI:741566; CHEBI:17561; CHEBI:45677; CHEBI:41227;
+    CHEBI:13298; CHEBI:15351
+
+    KEGG IDs: KEGG:C00010; KEGG:C00065; KEGG:C00979; KEGG:C00097; KEGG:C00024'
+- id: sabiork_986_EC2_3_1_30_Escherichia_coli_P0A9D4_L-Serine
+  name: Reaction catalyzed by serine O-acetyltransferase on L-Serine
+  equation: L-Serine + Acetyl-CoA = Coenzyme A + O-Acetyl-L-serine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Serine
+  - species_id: substrate_Acetyl-CoA
+  products:
+  - species_id: product_O-Acetyl-L-serine
+  - species_id: product_Coenzyme_A
+  modifiers:
+  - species_id: protein_2_3_1_30_P0A9D4_p8246
+    role: BIOCATALYST
+  - species_id: activator_L-Cysteine
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 24560;24561;24562;24563
+  KEGGid: R00586
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:7668; CHEBI:32836; CHEBI:15346; CHEBI:23355;
+    CHEBI:12685; CHEBI:17981; CHEBI:32837; CHEBI:12724; CHEBI:41781; CHEBI:13095;
+    CHEBI:57288; CHEBI:41631; CHEBI:32442; CHEBI:13167; CHEBI:45451; CHEBI:21938;
+    CHEBI:13712; CHEBI:21261; CHEBI:41700; CHEBI:45440; CHEBI:13295; CHEBI:45590;
+    CHEBI:41811; CHEBI:12710; CHEBI:41597; CHEBI:58340; CHEBI:29999; CHEBI:32443;
+    CHEBI:33384; CHEBI:41768; CHEBI:29950; CHEBI:57287; CHEBI:13294; CHEBI:45597;
+    CHEBI:40470; CHEBI:17115; CHEBI:6207; CHEBI:35235; CHEBI:21387; CHEBI:2408; CHEBI:44568;
+    CHEBI:3771; CHEBI:32445; CHEBI:6301; CHEBI:741566; CHEBI:17561; CHEBI:45677; CHEBI:41227;
+    CHEBI:13298; CHEBI:15351
+
+    KEGG IDs: KEGG:C00010; KEGG:C00065; KEGG:C00979; KEGG:C00097; KEGG:C00024'
+- id: sabiork_986_EC2_3_1_30_Escherichia_coli_P0A9D4_L-Serine
+  name: Reaction catalyzed by serine O-acetyltransferase on L-Serine
+  equation: L-Serine + Acetyl-CoA = Coenzyme A + O-Acetyl-L-serine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Serine
+  - species_id: substrate_Acetyl-CoA
+  products:
+  - species_id: product_Coenzyme_A
+  - species_id: product_O-Acetyl-L-serine
+  modifiers:
+  - species_id: protein_2_3_1_30_P0A9D4_p8251
+    role: BIOCATALYST
+  - species_id: activator_L-Cysteine
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 24560;24561;24562;24563
+  KEGGid: R00586
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:15346; CHEBI:32836; CHEBI:23355; CHEBI:7668;
+    CHEBI:12685; CHEBI:17981; CHEBI:32837; CHEBI:12724; CHEBI:41781; CHEBI:13095;
+    CHEBI:57288; CHEBI:41631; CHEBI:32442; CHEBI:13167; CHEBI:45451; CHEBI:21938;
+    CHEBI:13712; CHEBI:21261; CHEBI:41700; CHEBI:45440; CHEBI:13295; CHEBI:45590;
+    CHEBI:41811; CHEBI:12710; CHEBI:41597; CHEBI:58340; CHEBI:29999; CHEBI:32443;
+    CHEBI:33384; CHEBI:41768; CHEBI:29950; CHEBI:57287; CHEBI:13294; CHEBI:45597;
+    CHEBI:40470; CHEBI:17115; CHEBI:6207; CHEBI:35235; CHEBI:21387; CHEBI:2408; CHEBI:44568;
+    CHEBI:3771; CHEBI:32445; CHEBI:6301; CHEBI:741566; CHEBI:17561; CHEBI:45677; CHEBI:41227;
+    CHEBI:13298; CHEBI:15351
+
+    KEGG IDs: KEGG:C00010; KEGG:C00065; KEGG:C00979; KEGG:C00097; KEGG:C00024'
+measurements:
+- id: measurement_2_3_1_30_Escherichia_coli_P0A9D4_Acetyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_3_1_30_Escherichia_coli_P0A9D4_Acetyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_3_1_30_Escherichia_coli_P0A9D4_Coenzyme_A
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_3_1_30_Escherichia_coli_P0A9D4_L-Serine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_3_1_30_Escherichia_coli_P0A9D4_O-Acetyl-L-serine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_3_1_30_Escherichia_coli_P0A9D4_L-Serine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_3_1_30_Escherichia_coli_P0A9D4_L-Serine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_3_1_30_Escherichia_coli_P0A9D4_L-Serine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_3_1_30_Escherichia_coli_P0A9D4_Acetyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0023
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993149'
+- id: 2_3_1_30_Escherichia_coli_P0A9D4_Acetyl-CoA_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2480.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993149'
+- id: 2_3_1_30_Escherichia_coli_P0A9D4_Acetyl-CoA_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00051
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993149'
+- id: 2_3_1_30_Escherichia_coli_P0A9D4_Acetyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.002
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993149'
+- id: 2_3_1_30_Escherichia_coli_P0A9D4_Acetyl-CoA_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00063
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993149'
+- id: 2_3_1_30_Escherichia_coli_P0A9D4_Acetyl-CoA_Km_3
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0074
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993149'
+- id: 2_3_1_30_Escherichia_coli_P0A9D4_Acetyl-CoA_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2480.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993149'
+- id: 2_3_1_30_Escherichia_coli_P0A9D4_Acetyl-CoA_Km_4
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0011
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993149'
+- id: 2_3_1_30_Escherichia_coli_P0A9D4_Coenzyme_A_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00069
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Coenzyme_A
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993149'
+- id: 2_3_1_30_Escherichia_coli_P0A9D4_Coenzyme_A_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0073
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Coenzyme_A
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993149'
+- id: 2_3_1_30_Escherichia_coli_P0A9D4_Coenzyme_A_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1100.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Coenzyme_A
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993149'
+- id: 2_3_1_30_Escherichia_coli_P0A9D4_L-Serine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.002
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Serine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993149'
+- id: 2_3_1_30_Escherichia_coli_P0A9D4_L-Serine_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00063
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Serine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993149'
+- id: 2_3_1_30_Escherichia_coli_P0A9D4_L-Serine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2480.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Serine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993149'
+- id: 2_3_1_30_Escherichia_coli_P0A9D4_O-Acetyl-L-serine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0011
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O-Acetyl-L-serine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993149'
+- id: 2_3_1_30_Escherichia_coli_P0A9D4_O-Acetyl-L-serine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1180.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O-Acetyl-L-serine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993149'
+- id: 2_3_1_30_Escherichia_coli_P0A9D4_O-Acetyl-L-serine_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0074
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O-Acetyl-L-serine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993149'
+- id: 2_3_1_30_Escherichia_coli_P0A9D4_L-Serine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2480.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Serine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993149'
+- id: 2_3_1_30_Escherichia_coli_P0A9D4_L-Serine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0023
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Serine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993149'
+- id: 2_3_1_30_Escherichia_coli_P0A9D4_L-Serine_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00051
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Serine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993149'
+- id: 2_3_1_30_Escherichia_coli_P0A9D4_L-Serine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00058
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Serine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993149'
+- id: 2_3_1_30_Escherichia_coli_P0A9D4_L-Serine_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0073
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Serine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993149'
+- id: 2_3_1_30_Escherichia_coli_P0A9D4_L-Serine_Km_3
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00069
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Serine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993149'
+- id: 2_3_1_30_Escherichia_coli_P0A9D4_L-Serine_Km_4
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0019
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Serine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993149'
+- id: 2_3_1_30_Escherichia_coli_P0A9D4_L-Serine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2480.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Serine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993149'
+- id: 2_3_1_30_Escherichia_coli_P0A9D4_L-Serine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2480.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Serine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993149'
+- id: 2_3_1_30_Escherichia_coli_P0A9D4_L-Serine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0019
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Serine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993149'
+- id: 2_3_1_30_Escherichia_coli_P0A9D4_L-Serine_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00058
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Serine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10993149'
+buffer:
+  buffer: 50 mM potassium phosphate, 1 mM EDTA, 0.5 mM DTNB, 0.1 mM Pyridoxal 5-phosphate;
+    50 mM potassium phosphate, 1 mM EDTA, 0.5 mM DTNB
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 8247
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10993149/
+  pubmed_id: '10993149'
+  doi: null
+name: Merged entry for P0A9D4 wildtype
+description: 'Merged from 8 files: SABIO_EC2.3.1.30_Escherichia_coli__P0A9D4_s_Acetyl-CoA.yaml,
+  SABIO_EC2.3.1.30_Escherichia_coli__P0A9D4_s_Acetyl-CoA_2.yaml, SABIO_EC2.3.1.30_Escherichia_coli__P0A9D4_s_Coenzyme.yaml,
+  SABIO_EC2.3.1.30_Escherichia_coli__P0A9D4_s_L-Serine_4.yaml, SABIO_EC2.3.1.30_Escherichia_coli__P0A9D4_s_O-Acetyl-L-serine.yaml,
+  SABIO_EC2.3.1.30_Escherichia_coli__P0A9D4_s_L-Serine_3.yaml, SABIO_EC2.3.1.30_Escherichia_coli__P0A9D4_s_L-Serine.yaml,
+  SABIO_EC2.3.1.30_Escherichia_coli__P0A9D4_s_L-Serine_2.yaml'

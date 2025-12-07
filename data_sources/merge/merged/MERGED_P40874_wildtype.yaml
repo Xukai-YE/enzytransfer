@@ -1,0 +1,556 @@
+version: '2.0'
+created: '2025-11-20T13:39:53.072866'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_5_3__P40874_p5514
+  name: With oxygen as acceptor
+  ecnumber: 1.5.3.
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P40874
+  wildtype_sequence: MKYDLIIIGSGSVGAAAGYYATRAGLNVLMTDAHMPPHQHGSHHGDTRLIRHAYGEGEKYVPLVLRAQTLWDELSRHNEEDPIFVRSGVINLGPADSTFLANVAHSAEQWQLNVEKLDAQGIMARWPEIRVPDNYIGLFETDSGFLRSELAIKTWIQLAKEAGCAQLFNCPVTAIRHDDDGVTIETADGEYQAKKAIVCAGTWVKDLLPELPVQPVRKVFAWYQADGRYSVKNKFPAFTGELPNGDQYYGFPAENDALKIGKHNGGQVIHSADERVPFAEVASDGSEAFPFLRNVLPGIGCCLYGAACTYDNSPDEDFIIDTLPGHDNTLLITGLSGHGFKFASVLGEIAADFAQDKKSDFDLTPFRLSRFQ
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Sarcosine
+  name: Sarcosine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Formaldehyde
+  name: Formaldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Glycine
+  name: Glycine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_N-Methyl-L-tryptophan
+  name: N-Methyl-L-tryptophan
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Tryptophan
+  name: L-Tryptophan
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1001_EC1_5_3__Escherichia_coli_P40874_Sarcosine
+  name: Reaction catalyzed by With oxygen as acceptor on Sarcosine
+  equation: H2O + Sarcosine + O2 = Glycine + Formaldehyde + H2O2
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Sarcosine
+  - species_id: substrate_O2
+  products:
+  - species_id: product_Formaldehyde
+  - species_id: product_Glycine
+  modifiers:
+  - species_id: protein_1_5_3__P40874_p5514
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 13313;13314;13315;13316
+  KEGGid: R00610
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:13354; CHEBI:32508;
+    CHEBI:41981; CHEBI:5142; CHEBI:45442; CHEBI:29192; CHEBI:15065; CHEBI:24637; CHEBI:16842;
+    CHEBI:45531; CHEBI:26689; CHEBI:32507; CHEBI:57305; CHEBI:42857; CHEBI:132194;
+    CHEBI:41979; CHEBI:42964; CHEBI:15611; CHEBI:16240; CHEBI:14344; CHEBI:24077;
+    CHEBI:23833; CHEBI:13416; CHEBI:13355; CHEBI:42043; CHEBI:46915; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:337763; CHEBI:10876; CHEBI:15377; CHEBI:10792;
+    CHEBI:13352; CHEBI:24368; CHEBI:57433; CHEBI:46842; CHEBI:15379; CHEBI:15428;
+    CHEBI:12609; CHEBI:43228; CHEBI:45381; CHEBI:44292; CHEBI:30491; CHEBI:45614;
+    CHEBI:9029; CHEBI:33806; CHEBI:14274; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:21765;
+    CHEBI:44742; CHEBI:25366; CHEBI:44812; CHEBI:29793; CHEBI:29947; CHEBI:7860; CHEBI:10745;
+    CHEBI:5586; CHEBI:5460; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00213; KEGG:C00037; KEGG:C00001; KEGG:C00027; KEGG:C00704; KEGG:C00007;
+    KEGG:C00067'
+- id: sabiork_1001_EC1_5_3__Escherichia_coli_P40874_Sarcosine
+  name: Reaction catalyzed by With oxygen as acceptor on Sarcosine
+  equation: H2O + Sarcosine + O2 = Glycine + Formaldehyde + H2O2
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Sarcosine
+  - species_id: substrate_O2
+  products:
+  - species_id: product_Glycine
+  - species_id: product_Formaldehyde
+  modifiers:
+  - species_id: protein_1_5_3__P40874_p5516
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 13313;13314;13315;13316
+  KEGGid: R00610
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:13354; CHEBI:32508;
+    CHEBI:41981; CHEBI:29192; CHEBI:45442; CHEBI:24637; CHEBI:15065; CHEBI:5142; CHEBI:16842;
+    CHEBI:45531; CHEBI:26689; CHEBI:32507; CHEBI:57305; CHEBI:42857; CHEBI:132194;
+    CHEBI:41979; CHEBI:42964; CHEBI:15611; CHEBI:16240; CHEBI:14344; CHEBI:24077;
+    CHEBI:23833; CHEBI:13416; CHEBI:13355; CHEBI:42043; CHEBI:46915; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:337763; CHEBI:10876; CHEBI:15377; CHEBI:10792;
+    CHEBI:13352; CHEBI:24368; CHEBI:57433; CHEBI:46842; CHEBI:15379; CHEBI:15428;
+    CHEBI:12609; CHEBI:43228; CHEBI:45381; CHEBI:44292; CHEBI:30491; CHEBI:45614;
+    CHEBI:9029; CHEBI:33806; CHEBI:14274; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:21765;
+    CHEBI:44742; CHEBI:25366; CHEBI:44812; CHEBI:29793; CHEBI:29947; CHEBI:7860; CHEBI:10745;
+    CHEBI:5586; CHEBI:5460; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00213; KEGG:C00037; KEGG:C00001; KEGG:C00027; KEGG:C00704; KEGG:C00007;
+    KEGG:C00067'
+- id: sabiork_1001_EC1_5_3__Escherichia_coli_P40874_Sarcosine
+  name: Reaction catalyzed by With oxygen as acceptor on Sarcosine
+  equation: H2O + Sarcosine + O2 = Glycine + Formaldehyde + H2O2
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Sarcosine
+  - species_id: substrate_O2
+  products:
+  - species_id: product_Glycine
+  - species_id: product_Formaldehyde
+  modifiers:
+  - species_id: protein_1_5_3__P40874_p5515
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 13313;13314;13315;13316
+  KEGGid: R00610
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:13354; CHEBI:32508;
+    CHEBI:41981; CHEBI:29192; CHEBI:45442; CHEBI:24637; CHEBI:15065; CHEBI:5142; CHEBI:16842;
+    CHEBI:45531; CHEBI:26689; CHEBI:32507; CHEBI:57305; CHEBI:42857; CHEBI:132194;
+    CHEBI:41979; CHEBI:42964; CHEBI:15611; CHEBI:16240; CHEBI:14344; CHEBI:24077;
+    CHEBI:23833; CHEBI:13416; CHEBI:13355; CHEBI:42043; CHEBI:46915; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:337763; CHEBI:10876; CHEBI:15377; CHEBI:10792;
+    CHEBI:13352; CHEBI:24368; CHEBI:57433; CHEBI:15379; CHEBI:15428; CHEBI:12609;
+    CHEBI:43228; CHEBI:45381; CHEBI:44292; CHEBI:30491; CHEBI:45614; CHEBI:9029; CHEBI:33806;
+    CHEBI:29373; CHEBI:21765; CHEBI:44742; CHEBI:25366; CHEBI:5585; CHEBI:29374; CHEBI:10743;
+    CHEBI:44812; CHEBI:29793; CHEBI:14274; CHEBI:29947; CHEBI:7860; CHEBI:10745; CHEBI:5586;
+    CHEBI:5460; CHEBI:46842; CHEBI:44701
+
+    KEGG IDs: KEGG:C00213; KEGG:C00037; KEGG:C00001; KEGG:C00027; KEGG:C00704; KEGG:C00007;
+    KEGG:C00067'
+- id: sabiork_7294_EC1_5_3__rat_P40874_O2
+  name: Reaction catalyzed by With oxygen as acceptor on O2
+  equation: O2 + H2O + N-Methyl-L-tryptophan = L-Tryptophan + Formaldehyde + H2O2
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_N-Methyl-L-tryptophan
+  products:
+  - species_id: product_Formaldehyde
+  - species_id: product_L-Tryptophan
+  modifiers:
+  - species_id: protein_1_5_3__P40874_p5513
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 28006;28007;28008;28009
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:46125; CHEBI:44819; CHEBI:13354;
+    CHEBI:41981; CHEBI:5142; CHEBI:29192; CHEBI:24637; CHEBI:32702; CHEBI:16842; CHEBI:46225;
+    CHEBI:26689; CHEBI:13178; CHEBI:45988; CHEBI:6310; CHEBI:42857; CHEBI:29954; CHEBI:41979;
+    CHEBI:16240; CHEBI:15334; CHEBI:24077; CHEBI:23833; CHEBI:13416; CHEBI:57912;
+    CHEBI:21407; CHEBI:42043; CHEBI:13355; CHEBI:337763; CHEBI:33811; CHEBI:33813;
+    CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:32704; CHEBI:46086; CHEBI:15379;
+    CHEBI:43228; CHEBI:16828; CHEBI:184633; CHEBI:44292; CHEBI:30491; CHEBI:33806;
+    CHEBI:14274; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:44742; CHEBI:25366; CHEBI:44812;
+    CHEBI:6166; CHEBI:29793; CHEBI:13058; CHEBI:7860; CHEBI:21207; CHEBI:57283; CHEBI:10745;
+    CHEBI:5586; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C16831; KEGG:C00078; KEGG:C00001; KEGG:C00027; KEGG:C00704; KEGG:C02983;
+    KEGG:C00007; KEGG:C00067'
+- id: sabiork_1001_EC1_5_3__rat_P40874_Sarcosine
+  name: Reaction catalyzed by With oxygen as acceptor on Sarcosine
+  equation: H2O + Sarcosine + O2 = Glycine + Formaldehyde + H2O2
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Sarcosine
+  - species_id: substrate_O2
+  products:
+  - species_id: product_Glycine
+  - species_id: product_Formaldehyde
+  modifiers:
+  - species_id: protein_1_5_3__P40874_p5512
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 13313;13314;13315;13316
+  KEGGid: R00610
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:13354; CHEBI:32508;
+    CHEBI:41981; CHEBI:29192; CHEBI:45442; CHEBI:24637; CHEBI:15065; CHEBI:5142; CHEBI:16842;
+    CHEBI:45531; CHEBI:26689; CHEBI:32507; CHEBI:57305; CHEBI:42857; CHEBI:132194;
+    CHEBI:41979; CHEBI:42964; CHEBI:15611; CHEBI:16240; CHEBI:14344; CHEBI:24077;
+    CHEBI:23833; CHEBI:13416; CHEBI:13355; CHEBI:42043; CHEBI:46915; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:337763; CHEBI:10876; CHEBI:15377; CHEBI:10792;
+    CHEBI:13352; CHEBI:24368; CHEBI:57433; CHEBI:15379; CHEBI:15428; CHEBI:12609;
+    CHEBI:43228; CHEBI:45381; CHEBI:44292; CHEBI:30491; CHEBI:45614; CHEBI:9029; CHEBI:33806;
+    CHEBI:29373; CHEBI:21765; CHEBI:44742; CHEBI:25366; CHEBI:5585; CHEBI:29374; CHEBI:10743;
+    CHEBI:44812; CHEBI:29793; CHEBI:14274; CHEBI:29947; CHEBI:7860; CHEBI:10745; CHEBI:5586;
+    CHEBI:5460; CHEBI:46842; CHEBI:44701
+
+    KEGG IDs: KEGG:C00213; KEGG:C00037; KEGG:C00001; KEGG:C00027; KEGG:C00704; KEGG:C00007;
+    KEGG:C00067'
+measurements:
+- id: measurement_1_5_3__Escherichia_coli_P40874_Sarcosine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.4
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_5_3__Escherichia_coli_P40874_Sarcosine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.4
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_5_3__Escherichia_coli_P40874_Sarcosine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.4
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_5_3__rat_P40874_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_5_3__rat_P40874_Sarcosine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_5_3__Escherichia_coli_P40874_Sarcosine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 833333.3
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Sarcosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15723552'
+- id: 1_5_3__Escherichia_coli_P40874_Sarcosine_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 4.183333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Sarcosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15723552'
+- id: 1_5_3__Escherichia_coli_P40874_Sarcosine_kcat_3
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 41666.67
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Sarcosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15723552'
+- id: 1_5_3__Escherichia_coli_P40874_Sarcosine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 250000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Sarcosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15723552'
+- id: 1_5_3__Escherichia_coli_P40874_Sarcosine_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 46666.67
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Sarcosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15723552'
+- id: 1_5_3__Escherichia_coli_P40874_Sarcosine_kcat_3
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 3.883333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Sarcosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15723552'
+- id: 1_5_3__Escherichia_coli_P40874_Sarcosine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 4.366667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Sarcosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15723552'
+- id: 1_5_3__Escherichia_coli_P40874_Sarcosine_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 550000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Sarcosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15723552'
+- id: 1_5_3__Escherichia_coli_P40874_Sarcosine_kcat_3
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 38333.33
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Sarcosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15723552'
+- id: 1_5_3__rat_P40874_O2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 19.83333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15723552'
+- id: 1_5_3__rat_P40874_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00025
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15723552'
+- id: 1_5_3__rat_P40874_O2_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 78333.33
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15723552'
+- id: 1_5_3__rat_P40874_Sarcosine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 8.5
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Sarcosine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15723552'
+- id: 1_5_3__rat_P40874_Sarcosine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.3833333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Sarcosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15723552'
+- id: 1_5_3__rat_P40874_Sarcosine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.044
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Sarcosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15723552'
+buffer:
+  buffer: air-saturated 0.1 mM potassium phosphate, 1 mM EDTA; 0.1 M ACES, 52 mM Tris,
+    52 mM ethanolamine-HCl, 1 M KCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 5514
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15723552/
+  pubmed_id: '15723552'
+  doi: null
+name: Merged entry for P40874 wildtype
+description: 'Merged from 5 files: SABIO_EC1.5.3._Escherichia_coli__P40874_s_Sarcosine.yaml,
+  SABIO_EC1.5.3._Escherichia_coli__P40874_s_Sarcosine_3.yaml, SABIO_EC1.5.3._Escherichia_coli__P40874_s_Sarcosine_2.yaml,
+  SABIO_EC1.5.3._rat__P40874_s_O2.yaml, SABIO_EC1.5.3._rat__P40874_s_Sarcosine.yaml'

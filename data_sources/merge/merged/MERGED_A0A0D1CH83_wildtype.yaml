@@ -1,0 +1,353 @@
+version: '2.0'
+created: '2025-11-20T13:41:45.690484'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_5_4_2_12_A0A0D1CH83_p57217
+  name: phosphoglycerate mutase (2,3-diphosphoglycerate-independent)
+  ecnumber: 5.4.2.12
+  organism: Ustilago maydis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: A0A0D1CH83
+  wildtype_sequence: MVGTLVLTRHGQSEWNKLNLFTGWKDPALTELGREEALTGAKRVAATGIKFDVAFTSALQRAQTTLGIQLKEIGQEDIPIHKDQALNERDYGELSGLNKDDARKKWGEDQVHIWRRSYDIPPPGGESLKLTAERVWPYYHKEILPLVKQGKNVIVAAHGNSLRAMIKDIENISDDDIVGLELATGVPILYKLDSDGKVVSKEILQG
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_3-Phospho-D-glycerate
+  name: 3-Phospho-D-glycerate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Phospho-D-glycerate
+  name: 2-Phospho-D-glycerate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_2_3-Bisphosphoglycerate
+  name: 2,3-Bisphosphoglycerate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7641_EC5_4_2_12_Ustilago_maydis_A0A0D1CH83_3-Phospho-D-glycerate
+  name: Reaction catalyzed by phosphoglycerate mutase (2,3-diphosphoglycerate-independent)
+    on 3-Phospho-D-glycerate
+  equation: 3-Phospho-D-glycerate = 2-Phospho-D-glycerate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3-Phospho-D-glycerate
+  products:
+  - species_id: product_2-Phospho-D-glycerate
+  modifiers:
+  - species_id: protein_5_4_2_12_A0A0D1CH83_p57217
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 15901;15902;15903;15904
+  KEGGid: R01518
+  notes: 'ChEBI IDs: CHEBI:1657; CHEBI:24344; CHEBI:11880; CHEBI:12987; CHEBI:11882;
+    CHEBI:88352; CHEBI:17835; CHEBI:21028; CHEBI:11651; CHEBI:1267; CHEBI:57998; CHEBI:58272;
+    CHEBI:58289; CHEBI:88005; CHEBI:39868; CHEBI:12986; CHEBI:24345; CHEBI:17050;
+    CHEBI:17794; CHEBI:1659; CHEBI:40016; CHEBI:21029; CHEBI:11879; CHEBI:88350
+
+    KEGG IDs: KEGG:C00197; KEGG:C00631; KEGG:C00597'
+- id: sabiork_7641_EC5_4_2_12_Ustilago_maydis_A0A0D1CH83_3-Phospho-D-glycerate
+  name: Reaction catalyzed by phosphoglycerate mutase (2,3-diphosphoglycerate-independent)
+    on 3-Phospho-D-glycerate
+  equation: 3-Phospho-D-glycerate = 2-Phospho-D-glycerate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3-Phospho-D-glycerate
+  products:
+  - species_id: product_2-Phospho-D-glycerate
+  modifiers:
+  - species_id: protein_5_4_2_12_A0A0D1CH83_p57219
+    role: BIOCATALYST
+  - species_id: activator_2_3-Bisphosphoglycerate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 15901;15902;15903;15904
+  KEGGid: R01518
+  notes: 'ChEBI IDs: CHEBI:17720; CHEBI:1657; CHEBI:24344; CHEBI:19325; CHEBI:11880;
+    CHEBI:12987; CHEBI:11882; CHEBI:41885; CHEBI:88352; CHEBI:28907; CHEBI:17835;
+    CHEBI:21028; CHEBI:11651; CHEBI:1267; CHEBI:57998; CHEBI:19324; CHEBI:58272; CHEBI:19306;
+    CHEBI:58289; CHEBI:873; CHEBI:88005; CHEBI:58248; CHEBI:39868; CHEBI:12986; CHEBI:19307;
+    CHEBI:24345; CHEBI:17050; CHEBI:872; CHEBI:17794; CHEBI:1659; CHEBI:40016; CHEBI:21029;
+    CHEBI:11417; CHEBI:11879; CHEBI:88350
+
+    KEGG IDs: KEGG:C00597; KEGG:C03339; KEGG:C00631; KEGG:C00197; KEGG:C01159'
+- id: sabiork_7641_EC5_4_2_12_Ustilago_maydis_A0A0D1CH83_3-Phospho-D-glycerate
+  name: Reaction catalyzed by phosphoglycerate mutase (2,3-diphosphoglycerate-independent)
+    on 3-Phospho-D-glycerate
+  equation: 3-Phospho-D-glycerate = 2-Phospho-D-glycerate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3-Phospho-D-glycerate
+  products:
+  - species_id: product_2-Phospho-D-glycerate
+  modifiers:
+  - species_id: protein_5_4_2_12_A0A0D1CH83_p57218
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 15901;15902;15903;15904
+  KEGGid: R01518
+  notes: 'ChEBI IDs: CHEBI:1657; CHEBI:24344; CHEBI:11880; CHEBI:12987; CHEBI:11882;
+    CHEBI:88352; CHEBI:17835; CHEBI:21028; CHEBI:11651; CHEBI:1267; CHEBI:57998; CHEBI:58272;
+    CHEBI:58289; CHEBI:88005; CHEBI:39868; CHEBI:12986; CHEBI:24345; CHEBI:17050;
+    CHEBI:17794; CHEBI:1659; CHEBI:40016; CHEBI:21029; CHEBI:11879; CHEBI:88350
+
+    KEGG IDs: KEGG:C00197; KEGG:C00631; KEGG:C00597'
+- id: sabiork_7641_EC5_4_2_12_Ustilago_maydis_A0A0D1CH83_3-Phospho-D-glycerate
+  name: Reaction catalyzed by phosphoglycerate mutase (2,3-diphosphoglycerate-independent)
+    on 3-Phospho-D-glycerate
+  equation: 3-Phospho-D-glycerate = 2-Phospho-D-glycerate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3-Phospho-D-glycerate
+  products:
+  - species_id: product_2-Phospho-D-glycerate
+  modifiers:
+  - species_id: protein_5_4_2_12_A0A0D1CH83_p57220
+    role: BIOCATALYST
+  - species_id: activator_2_3-Bisphosphoglycerate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 15901;15902;15903;15904
+  KEGGid: R01518
+  notes: 'ChEBI IDs: CHEBI:17720; CHEBI:1657; CHEBI:24344; CHEBI:19325; CHEBI:11880;
+    CHEBI:12987; CHEBI:11882; CHEBI:41885; CHEBI:88352; CHEBI:28907; CHEBI:17835;
+    CHEBI:21028; CHEBI:11651; CHEBI:1267; CHEBI:57998; CHEBI:19324; CHEBI:58272; CHEBI:19306;
+    CHEBI:58289; CHEBI:873; CHEBI:88005; CHEBI:58248; CHEBI:39868; CHEBI:12986; CHEBI:19307;
+    CHEBI:24345; CHEBI:17050; CHEBI:872; CHEBI:17794; CHEBI:1659; CHEBI:40016; CHEBI:21029;
+    CHEBI:11417; CHEBI:11879; CHEBI:88350
+
+    KEGG IDs: KEGG:C00597; KEGG:C03339; KEGG:C00631; KEGG:C00197; KEGG:C01159'
+measurements:
+- id: measurement_5_4_2_12_Ustilago_maydis_A0A0D1CH83_3-Phospho-D-glycerate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.4
+  temperature_opt: 28.0
+  temperature_unit: °C
+- id: measurement_5_4_2_12_Ustilago_maydis_A0A0D1CH83_3-Phospho-D-glycerate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.4
+  temperature_opt: 28.0
+  temperature_unit: °C
+- id: measurement_5_4_2_12_Ustilago_maydis_A0A0D1CH83_3-Phospho-D-glycerate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.4
+  temperature_opt: 28.0
+  temperature_unit: °C
+- id: measurement_5_4_2_12_Ustilago_maydis_A0A0D1CH83_3-Phospho-D-glycerate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.4
+  temperature_opt: 28.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 5_4_2_12_Ustilago_maydis_A0A0D1CH83_3-Phospho-D-glycerate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000433333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Phospho-D-glycerate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.4
+  temperature: 28.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18803552'
+- id: 5_4_2_12_Ustilago_maydis_A0A0D1CH83_3-Phospho-D-glycerate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 6.66667e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Phospho-D-glycerate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.4
+  temperature: 28.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18803552'
+- id: 5_4_2_12_Ustilago_maydis_A0A0D1CH83_3-Phospho-D-glycerate_Vmax_2
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 4.33333e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Phospho-D-glycerate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.4
+  temperature: 28.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18803552'
+- id: 5_4_2_12_Ustilago_maydis_A0A0D1CH83_3-Phospho-D-glycerate_Vmax_3
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 7.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Phospho-D-glycerate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.4
+  temperature: 28.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18803552'
+- id: 5_4_2_12_Ustilago_maydis_A0A0D1CH83_3-Phospho-D-glycerate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 4.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Phospho-D-glycerate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.4
+  temperature: 28.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18803552'
+- id: 5_4_2_12_Ustilago_maydis_A0A0D1CH83_3-Phospho-D-glycerate_Vmax_2
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 5.66667e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Phospho-D-glycerate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.4
+  temperature: 28.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18803552'
+- id: 5_4_2_12_Ustilago_maydis_A0A0D1CH83_3-Phospho-D-glycerate_Vmax_3
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 6.16667e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Phospho-D-glycerate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.4
+  temperature: 28.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18803552'
+- id: 5_4_2_12_Ustilago_maydis_A0A0D1CH83_3-Phospho-D-glycerate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.0004
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Phospho-D-glycerate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.4
+  temperature: 28.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18803552'
+buffer:
+  buffer: 50 mM imidazole, 10 mM acetate, 10 mM MES, 10 mM TRIS, 5 mM MgCl2, 0.15
+    mM NADH, 1.2 mM ADP, 1 U PYK, 2.5 U LDH, 2.5 U EhENO
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 57217
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/18803552/
+  pubmed_id: '18803552'
+  doi: null
+name: Merged entry for A0A0D1CH83 wildtype
+description: 'Merged from 4 files: SABIO_EC5.4.2.12_Ustilago_maydis__A0A0D1CH83_s_3-Phospho-D-glycerat.yaml,
+  SABIO_EC5.4.2.12_Ustilago_maydis__A0A0D1CH83_s_3-Phospho-D-glycerat_3.yaml, SABIO_EC5.4.2.12_Ustilago_maydis__A0A0D1CH83_s_3-Phospho-D-glycerat_2.yaml,
+  SABIO_EC5.4.2.12_Ustilago_maydis__A0A0D1CH83_s_3-Phospho-D-glycerat_4.yaml'

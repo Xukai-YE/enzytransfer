@@ -1,0 +1,331 @@
+version: '2.0'
+created: '2025-11-20T13:41:59.917560'
+modified: null
+creators:
+- given_name: SKiD
+  family_name: Database
+  mail: skid@database.org
+vessels: null
+proteins:
+- id: protein_P9WKI7
+  name: Mycobacterium tuberculosis
+  ecnumber: 1.1.1.205
+  organism: Mycobacterium tuberculosis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: null
+  uniprotid: P9WKI7
+  wildtype_sequence: MSRGMSGLEDSSDLVVSPYVRMGGLTTDPVPTGGDDPHKVAMLGLTFDDVLLLPAASDVVPATADTSSQLTKKIRLKVPLVSSAMDTVTESRMAIAMARAGGMGVLHRNLPVAEQAGQVEMVKRSEAGMVTDPVTCRPDNTLAQVDALCARFRISGLPVVDDDGALVGIITNRDMRFEVDQSKQVAEVMTKAPLITAQEGVSASAALGLLRRNKIEKLPVVDGRGRLTGLITVKDFVKTEQHPLATKDSDGRLLVGAAVGVGGDAWVRAMMLVDAGVDVLVVDTAHAHNRLVLDMVGKLKSEVGDRVEVVGGNVATRSAAAALVDAGADAVKVGVGPGSICTTRVVAGVGAPQITAILEAVAACRPAGVPVIADGGLQYSGDIAKALAAGASTAMLGSLLAGTAEAPGELIFVNGKQYKSYRGMGSLGAMRGRGGATSYSKDRYFADDALSEDKLVPEGIEGRVPFRGPLSSVIHQLTGGLRAAMGYTGSPTIEVLQQAQFVRITPAGLKESHPHDVAMTVEAPNYYAR
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N
+  inchi: InChI=1S/C21H27N7O14P2/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(32)14(30)11(41-21)6-39-44(36,37)42-43(34,35)38-5-10-13(29)15(31)20(40-10)27-3-1-2-9(4-27)18(23)33/h1-4,7-8,10-11,13-16,20-21,29-32H,5-6H2,(H5-,22,23,24,25,33,34,35,36,37)
+  inchikey: BAWFJGJZGIEFAR-UHFFFAOYSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/5892
+- id: product
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_IMP
+  name: IMP
+  canonical_smiles: C1=NC2=C(C(=O)N1)N=CN2C3C(C(C(O3)COP(=O)(O)O)O)O
+  inchi: InChI=1S/C10H13N4O8P/c15-6-4(1-21-23(18,19)20)22-10(7(6)16)14-3-13-5-8(14)11-2-12-9(5)17/h2-4,6-7,10,15-16H,1H2,(H,11,12,17)(H2,18,19,20)
+  inchikey: GRSZFWQUAKGDAV-UHFFFAOYSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/135398640
+reactions:
+- id: reaction_P9WKI7_NAD_
+  name: Reaction catalyzed by enzyme on NAD+
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_P9WKI7
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_P9WKI7_IMP
+  name: Reaction catalyzed by enzyme on IMP
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_IMP
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_P9WKI7
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+measurements:
+- id: measurement_0
+  name: Experimental conditions (pH=8.0, T=22.0°C)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_1
+  name: Experimental conditions (pH=8.5, T=37.0°C)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2
+  name: Experimental conditions (pH=8.0, T=25.0°C)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=8.0, T=22.0°C)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 22.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: P9WKI7_NAD__kcat_161
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.53
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: 'Source: kcat'
+  pubmed_id: '26440283'
+- id: P9WKI7_NAD__kcat_163
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 3.1
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: 'Source: kcat'
+  pubmed_id: null
+- id: P9WKI7_NAD__Km_11203
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.887
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: null
+- id: P9WKI7_NAD__Km_11210
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 1.005
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '20491506'
+- id: P9WKI7_NAD__Km_11211
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 1.005
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '20491506'
+- id: P9WKI7_IMP_kcat_162
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.53
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_IMP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: 'Source: kcat'
+  pubmed_id: '26440283'
+- id: P9WKI7_IMP_Km_11202
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.078
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_IMP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '26440283'
+buffer:
+  buffer: null
+  buffer_concentration: null
+references:
+- title: Mycobacterium tuberculosis IMPDH in complexes with substrates
+  authors: Makowska-Grzyska, M., Kim, Y., Gorla, S.K., Wei, Y., Mandapati, K., Zhang,
+    M., Maltseva, N., Modi, G., Boshoff, H.I., Gu, M., Aldrich, C., Cuny, G.D., Hedstrom,
+    L., Joachimiak, A.
+  year: '2015'
+  journal: products and antitubercular compounds
+  uri: null
+  pubmed_id: '26440283'
+  doi: null
+  id: '152'
+  pages: e0138976
+  volume: '10'
+  citation: 'Makowska-Grzyska, M.,Kim, Y.,Gorla, S.K.,Wei, Y.,Mandapati, K.,Zhang,
+    M.,Maltseva, N.,Modi, G.,Boshoff, H.I.,Gu, M.,Aldrich, C.,Cuny, G.D.,Hedstrom,
+    L.,Joachimiak, A., Mycobacterium tuberculosis IMPDH in complexes with substrates,
+    products and antitubercular compounds, PLoS ONE, 2015, e0138976, 10, PMID: 26440283'
+- title: 'Biochemical characterization of Mycobacterium tuberculosis IMP dehydrogenase:
+    kinetic mechanism'
+  authors: Rostirolla, D., Milech De Assuncao, T., Bizarro, C., Basso, L., Santos,
+    D.
+  year: '2014'
+  journal: metal activation and evidence of a cooperative system
+  uri: null
+  pubmed_id: null
+  doi: null
+  id: '153'
+  pages: 26271-26287
+  volume: '4'
+  citation: 'Rostirolla, D.,Milech De Assuncao, T.,Bizarro, C.,Basso, L.,Santos, D.,
+    Biochemical characterization of Mycobacterium tuberculosis IMP dehydrogenase:
+    kinetic mechanism, metal activation and evidence of a cooperative system, RSC
+    Adv., 2014, 26271-26287, 4'
+- title: K.W.
+  authors: Chen, L., Wilson, D.J., Xu, Y., Aldrich, C.C., Felczak, K., Sham, Y.Y.,
+    Pankiewicz
+  year: '2010'
+  journal: Triazole-linked inhibitors of inosine monophosphate dehydrogenase from
+    human and Mycobacterium tuberculosis. J. Med
+  uri: null
+  pubmed_id: '20491506'
+  doi: null
+  id: '125'
+  pages: 4768-4778
+  volume: '53'
+  citation: 'Chen, L.,Wilson, D.J.,Xu, Y.,Aldrich, C.C.,Felczak, K.,Sham, Y.Y.,Pankiewicz,
+    K.W., Triazole-linked inhibitors of inosine monophosphate dehydrogenase from human
+    and Mycobacterium tuberculosis. J. Med, Chem., 2010, 4768-4778, 53, PMID: 20491506'
+name: Merged entry for P9WKI7 wildtype
+description: 'Merged from 2 files: SKID_EC1.1.1.205_Mycobacter_P9WKI7_NAD_.yaml, SKID_EC1.1.1.205_Mycobacter_P9WKI7_IMP.yaml'

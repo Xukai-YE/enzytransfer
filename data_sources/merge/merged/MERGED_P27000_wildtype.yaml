@@ -1,0 +1,266 @@
+version: '2.0'
+created: '2025-11-20T13:41:48.573757'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_6_1_1_17_P27000_p63500
+  name: glutamate---tRNA ligase
+  ecnumber: 6.1.1.17
+  organism: Thermus thermophilus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P27000
+  wildtype_sequence: MVVTRIAPSPTGDPHVGTAYIALFNYAWARRNGGRFIVRIEDTDRARYVPGAEERILAALKWLGLSYDEGPDVGGPHGPYRQSERLPLYQKYAEELLKRGWAYRAFETPEELEQIRKEKGGYDGRARNIPPEEAEERARRGEPHVIRLKVPRPGTTEVKDELRGVVVYDNQEIPDVVLLKSDGYPTYHLANVVDDHLMGVTDVIRAEEWLVSTPIHVLLYRAFGWEAPRFYHMPLLRNPDKTKISKRKSHTSLDWYKAEGFLPEALRNYLCLMGFSMPDGREIFTLEEFIQAFTWERVSLGGPVFDLEKLRWMNGKYIREVLSLEEVAERVKPFLREAGLSWESEAYLRRAVELMRPRFDTLKEFPEKARYLFTEDYPVSEKAQRKLEEGLPLLKELYPRLRAQEEWTEAALEALLRGFAAEKGVKLGQVAQPLRAALTGSLETPGLFEILALLGKERALRRLERALA
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_L-Glutamate
+  name: L-Glutamate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_tRNA_Glu_
+  name: tRNA(Glu)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_AMP
+  name: AMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Glutamyl-tRNA_Glu_
+  name: L-Glutamyl-tRNA(Glu)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_5179_EC6_1_1_17_Thermus_thermophilus_P27000_ATP
+  name: Reaction catalyzed by glutamate---tRNA ligase on ATP
+  equation: ATP + L-Glutamate + tRNA(Glu) = Diphosphate + AMP + L-Glutamyl-tRNA(Glu)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_L-Glutamate
+  - species_id: substrate_tRNA_Glu_
+  products:
+  - species_id: product_AMP
+  - species_id: product_L-Glutamyl-tRNA_Glu_
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_6_1_1_17_P27000_p63500
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R05578
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:29175; CHEBI:10789; CHEBI:57299;
+    CHEBI:42825; CHEBI:40726; CHEBI:22245; CHEBI:8683; CHEBI:40510; CHEBI:22242; CHEBI:13736;
+    CHEBI:47222; CHEBI:10680; CHEBI:33019; CHEBI:456215; CHEBI:13236; CHEBI:29157;
+    CHEBI:40786; CHEBI:45067; CHEBI:40826; CHEBI:29972; CHEBI:16027; CHEBI:2356; CHEBI:21301;
+    CHEBI:10841; CHEBI:29888; CHEBI:2359; CHEBI:35782; CHEBI:40938; CHEBI:6224; CHEBI:13420;
+    CHEBI:18361; CHEBI:33017; CHEBI:13107; CHEBI:45208; CHEBI:16015; CHEBI:22249;
+    CHEBI:15422; CHEBI:21304; CHEBI:13740; CHEBI:13234; CHEBI:15175; CHEBI:29985;
+    CHEBI:29988; CHEBI:40721; CHEBI:45212; CHEBI:42009; CHEBI:13235; CHEBI:12056;
+    CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C01641; KEGG:C00002; KEGG:C00025; KEGG:C02987; KEGG:C00020'
+- id: sabiork_5179_EC6_1_1_17_Thermus_thermophilus_P27000_L-Glutamate
+  name: Reaction catalyzed by glutamate---tRNA ligase on L-Glutamate
+  equation: ATP + L-Glutamate + tRNA(Glu) = Diphosphate + AMP + L-Glutamyl-tRNA(Glu)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Glutamate
+  - species_id: substrate_tRNA_Glu_
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_L-Glutamyl-tRNA_Glu_
+  - species_id: product_Diphosphate
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_6_1_1_17_P27000_p63499
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R05578
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:29175; CHEBI:10789; CHEBI:42825;
+    CHEBI:57299; CHEBI:8683; CHEBI:40726; CHEBI:22245; CHEBI:40510; CHEBI:22242; CHEBI:13736;
+    CHEBI:47222; CHEBI:10680; CHEBI:33019; CHEBI:456215; CHEBI:13236; CHEBI:29157;
+    CHEBI:45067; CHEBI:40786; CHEBI:40826; CHEBI:29972; CHEBI:16027; CHEBI:2356; CHEBI:21301;
+    CHEBI:10841; CHEBI:29888; CHEBI:2359; CHEBI:35782; CHEBI:40938; CHEBI:6224; CHEBI:13420;
+    CHEBI:18361; CHEBI:33017; CHEBI:13107; CHEBI:45208; CHEBI:16015; CHEBI:22249;
+    CHEBI:15422; CHEBI:21304; CHEBI:13740; CHEBI:13234; CHEBI:15175; CHEBI:29985;
+    CHEBI:29988; CHEBI:40721; CHEBI:45212; CHEBI:42009; CHEBI:13235; CHEBI:12056;
+    CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C01641; KEGG:C00002; KEGG:C00025; KEGG:C02987; KEGG:C00020'
+measurements:
+- id: measurement_6_1_1_17_Thermus_thermophilus_P27000_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 65.0
+  temperature_unit: °C
+- id: measurement_6_1_1_17_Thermus_thermophilus_P27000_L-Glutamate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 65.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 6_1_1_17_Thermus_thermophilus_P27000_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.18
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11224561'
+- id: 6_1_1_17_Thermus_thermophilus_P27000_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.3e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11224561'
+- id: 6_1_1_17_Thermus_thermophilus_P27000_L-Glutamate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.7e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Glutamate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11224561'
+- id: 6_1_1_17_Thermus_thermophilus_P27000_L-Glutamate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2.1
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Glutamate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11224561'
+buffer:
+  buffer: 50 mM Hepes/NaOH, 20 mM MgCl2
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 63500
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11224561/
+  pubmed_id: '11224561'
+  doi: null
+name: Merged entry for P27000 wildtype
+description: 'Merged from 2 files: SABIO_EC6.1.1.17_Thermus_thermophilus__P27000_s_ATP.yaml,
+  SABIO_EC6.1.1.17_Thermus_thermophilus__P27000_s_L-Glutamate.yaml'

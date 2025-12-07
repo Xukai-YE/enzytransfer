@@ -1,0 +1,158 @@
+name: SABIO-RK Entry 35117
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 35117
+created: '2025-10-28T14:55:05.421649'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_40_P30615_P30616_p35117
+  name: protein#35117
+  sequence: null
+  ecnumber: 2.7.1.40
+  organism: Trypanosoma brucei
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P30615; P30616
+complexes: null
+small_molecules:
+- id: substrate_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Phosphoenolpyruvate
+  name: Phosphoenolpyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Pyruvate
+  name: Pyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_9_EC2_7_1_40_Trypanosoma_brucei_P30615_P30616_ADP
+  name: Reaction catalyzed by enzyme on ADP
+  equation: ADP; Phosphoenolpyruvate <=> ATP; Pyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ADP
+  - species_id: substrate_Phosphoenolpyruvate
+  products:
+  - species_id: product_ATP
+  - species_id: product_Pyruvate
+  modifiers:
+  - species_id: protein_2_7_1_40_P30615_P30616_p35117
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: 'HTTPSConnectionPool(host=''sabiork.h-its.org'', port=443): Read timed out.
+    (read timeout=10)'
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:40553; CHEBI:14987; CHEBI:44894; CHEBI:58702; CHEBI:26055; CHEBI:18021;
+    CHEBI:8147; CHEBI:13236; CHEBI:15361; CHEBI:10841; CHEBI:2359; CHEBI:87518; CHEBI:40938;
+    CHEBI:26466; CHEBI:26054; CHEBI:456216; CHEBI:26462; CHEBI:2342; CHEBI:22249;
+    CHEBI:15422; CHEBI:8685; CHEBI:44897; CHEBI:32816; CHEBI:13222; CHEBI:22244; CHEBI:14812;
+    CHEBI:45253
+
+    KEGG IDs: KEGG:C00008; KEGG:C00022; KEGG:C00074; KEGG:C00002'
+measurements:
+- id: measurement_2_7_1_40_Trypanosoma_brucei_P30615_P30616_ADP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 22.0
+  temperature_unit: °C
+parameters:
+- id: 2_7_1_40_Trypanosoma_brucei_P30615_P30616_ADP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.002733333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ADP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '3185619'
+buffer:
+  buffer: 100 mM KCl, 50 mM Tris-Cl, 0.5 mM EDTA, 0.2 mM NADH, 9 U/ml Lactate dehydrogenase,
+    25 mM MgCl2
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 35117
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/3185619/
+  pubmed_id: '3185619'
+  doi: null

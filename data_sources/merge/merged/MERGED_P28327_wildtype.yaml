@@ -1,0 +1,310 @@
+version: '2.0'
+created: '2025-11-20T13:40:37.471458'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_11_14_P28327_p4371
+  name: rhodopsin kinase
+  ecnumber: 2.7.11.14
+  organism: Bos taurus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P28327
+  wildtype_sequence: MDFGSLETVVANSAFIAARGSFDASSGPASRDRKYLARLKLPPLSKCEALRESLDLGFEGMCLEQPIGKRLFQQFLRTHEQHGPALQLWKDIEDYDTADDALRPQKAQALRAAYLEPQAQLFCSFLDAETVARARAGAGDGLFQPLLRAVLAHLGQAPFQEFLDSLYFLRFLQWKWLEAQPMGEDWFLDFRVLGRGGFGEVFACQMKATGKLYACKKLNKKRLKKRKGYQGAMVEKKILAKVHSRFIVSLAYAFETKTDLCLVMTIMNGGDIRYHIYNVDEDNPGFQEPRAIFYTAQIVSGLEHLHQRNIIYRDLKPENVLLDDDGNVRISDLGLAVELKAGQTKTKGYAGTPGFMAPELLLGEEYDFSVDYFALGVTLYEMIAARGPFRARGEKVENKELKQRVLEQAVTYPDKFSPASKDFCEALLQKDPEKRLGFRDGSCDGLRTHPLFRDISWRQLEAGMLTPPFVPDSRTVYAKNIQDVGAFSTVKGVAFEKADTEFFQEFASGTCPIPWQEEMIETGVFGDLNVWRPDGQMPDDMKGVSGQEAAPSSKSGMCVLS
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Rhodopsin
+  name: Rhodopsin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Phosphorhodopsin
+  name: Phosphorhodopsin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Iodopsin
+  name: Iodopsin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Phosphoiodopsin
+  name: Phosphoiodopsin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2763_EC2_7_11_14_Bos_taurus_P28327_ATP
+  name: Reaction catalyzed by rhodopsin kinase on ATP
+  equation: ATP + Rhodopsin = ADP + Phosphorhodopsin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Rhodopsin
+  products:
+  - species_id: product_ADP
+  - species_id: product_Phosphorhodopsin
+  modifiers:
+  - species_id: protein_2_7_11_14_P28327_p4371
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02903
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:40938; CHEBI:16761; CHEBI:2359;
+    CHEBI:10789; CHEBI:57299; CHEBI:13236; CHEBI:456216; CHEBI:40553; CHEBI:13222;
+    CHEBI:10841; CHEBI:22249; CHEBI:2342; CHEBI:22244; CHEBI:15422; CHEBI:87518
+
+    KEGG IDs: KEGG:C00778; KEGG:C00002; KEGG:C00008; KEGG:C02456'
+- id: sabiork_7170_EC2_7_11_14_Bos_taurus_P28327_Iodopsin
+  name: Reaction catalyzed by rhodopsin kinase on Iodopsin
+  equation: ATP + Iodopsin = ADP + Phosphoiodopsin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Iodopsin
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_Phosphoiodopsin
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_11_14_P28327_p4372
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:40938; CHEBI:16761; CHEBI:2359;
+    CHEBI:10789; CHEBI:57299; CHEBI:13236; CHEBI:456216; CHEBI:40553; CHEBI:13222;
+    CHEBI:10841; CHEBI:22249; CHEBI:2342; CHEBI:22244; CHEBI:15422; CHEBI:87518
+
+    KEGG IDs: KEGG:C00002; KEGG:C00008; KEGG:C05917'
+- id: sabiork_2763_EC2_7_11_14_Bos_taurus_P28327_Rhodopsin
+  name: Reaction catalyzed by rhodopsin kinase on Rhodopsin
+  equation: ATP + Rhodopsin = ADP + Phosphorhodopsin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Rhodopsin
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_Phosphorhodopsin
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_11_14_P28327_p4370
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02903
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:40938; CHEBI:16761; CHEBI:2359;
+    CHEBI:10789; CHEBI:57299; CHEBI:13236; CHEBI:456216; CHEBI:40553; CHEBI:13222;
+    CHEBI:10841; CHEBI:22249; CHEBI:2342; CHEBI:22244; CHEBI:15422; CHEBI:87518
+
+    KEGG IDs: KEGG:C00778; KEGG:C00008; KEGG:C00002; KEGG:C02456'
+measurements:
+- id: measurement_2_7_11_14_Bos_taurus_P28327_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_2_7_11_14_Bos_taurus_P28327_Iodopsin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_2_7_11_14_Bos_taurus_P28327_Rhodopsin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_11_14_Bos_taurus_P28327_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.3e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2271641'
+- id: 2_7_11_14_Bos_taurus_P28327_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 6.0e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2271641'
+- id: 2_7_11_14_Bos_taurus_P28327_Iodopsin_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.833333e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Iodopsin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2271641'
+- id: 2_7_11_14_Bos_taurus_P28327_Iodopsin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.1e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Iodopsin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2271641'
+- id: 2_7_11_14_Bos_taurus_P28327_Rhodopsin_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 4.75e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Rhodopsin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2271641'
+- id: 2_7_11_14_Bos_taurus_P28327_Rhodopsin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.2e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Rhodopsin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2271641'
+buffer:
+  buffer: 10 mM MOPS/NaOH, 140 mM KCl, 1 mM DTT, 2 mM Mg-(OAc)2, 5% adonitol
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 4371
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/2271641/
+  pubmed_id: '2271641'
+  doi: null
+name: Merged entry for P28327 wildtype
+description: 'Merged from 3 files: SABIO_EC2.7.11.14_Bos_taurus__P28327_s_ATP.yaml,
+  SABIO_EC2.7.11.14_Bos_taurus__P28327_s_Iodopsin.yaml, SABIO_EC2.7.11.14_Bos_taurus__P28327_s_Rhodopsin.yaml'

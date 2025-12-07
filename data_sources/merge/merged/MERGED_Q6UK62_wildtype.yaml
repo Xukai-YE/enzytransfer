@@ -1,0 +1,241 @@
+version: '2.0'
+created: '2025-11-20T13:39:55.760312'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_8_1_7_Q6UK62_p26639
+  name: protein-disulfide reductase (glutathione)
+  ecnumber: 1.8.1.7
+  organism: Sus scrofa
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q6UK62
+  wildtype_sequence: VHSEFMHDHVDYGFQSCESKFNWRVIKEKRDAYVSRLNTIYQNNLTKSHIEIIHGHAAFTSDPQPTVEVNGKKYTAPHILIATGGVPSVPPESQIPGASLGITSDGFFQLEELPSRSVIVGAGYIAVEIAGILSALGSKTSLMI
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Oxidized_glutathione
+  name: Oxidized glutathione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Reduced_glutathione
+  name: Reduced glutathione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_695_EC1_8_1_7_Sus_scrofa_Q6UK62_NADPH
+  name: Reaction catalyzed by protein-disulfide reductase (glutathione) on NADPH
+  equation: Reduced glutathione + NADP+ = NADPH + Oxidized glutathione + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_Oxidized_glutathione
+  products:
+  - species_id: product_NADP_
+  - species_id: product_Reduced_glutathione
+  modifiers:
+  - species_id: protein_1_8_1_7_Q6UK62_p26639
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 11740;11741;11742;11743
+  KEGGid: R00115
+  notes: 'ChEBI IDs: CHEBI:7840; CHEBI:12402; CHEBI:14328; CHEBI:13398; CHEBI:13397;
+    CHEBI:16856; CHEBI:5437; CHEBI:7424; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234;
+    CHEBI:13357; CHEBI:25523; CHEBI:24334; CHEBI:24336; CHEBI:14327; CHEBI:24636;
+    CHEBI:58297; CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:16474; CHEBI:44286; CHEBI:14720;
+    CHEBI:17858; CHEBI:21904; CHEBI:43049; CHEBI:44409; CHEBI:42832; CHEBI:15378;
+    CHEBI:42873; CHEBI:18009; CHEBI:58349; CHEBI:57925; CHEBI:13400; CHEBI:57783;
+    CHEBI:10744
+
+    KEGG IDs: KEGG:C00051; KEGG:C00005; KEGG:C00127; KEGG:C00080; KEGG:C00006; KEGG:C11037'
+- id: sabiork_695_EC1_8_1_7_Sus_scrofa_Q6UK62_Oxidized_glutathione
+  name: Reaction catalyzed by protein-disulfide reductase (glutathione) on Oxidized
+    glutathione
+  equation: Reduced glutathione + NADP+ = NADPH + Oxidized glutathione + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxidized_glutathione
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_Reduced_glutathione
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_8_1_7_Q6UK62_p26638
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 11740;11741;11742;11743
+  KEGGid: R00115
+  notes: 'ChEBI IDs: CHEBI:7840; CHEBI:12402; CHEBI:14328; CHEBI:13398; CHEBI:13397;
+    CHEBI:16856; CHEBI:5437; CHEBI:7424; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234;
+    CHEBI:13357; CHEBI:24334; CHEBI:14327; CHEBI:24336; CHEBI:25523; CHEBI:24636;
+    CHEBI:58297; CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:16474; CHEBI:44286; CHEBI:14720;
+    CHEBI:17858; CHEBI:21904; CHEBI:43049; CHEBI:44409; CHEBI:42832; CHEBI:15378;
+    CHEBI:42873; CHEBI:18009; CHEBI:58349; CHEBI:57925; CHEBI:13400; CHEBI:57783;
+    CHEBI:10744
+
+    KEGG IDs: KEGG:C00051; KEGG:C00005; KEGG:C00127; KEGG:C00080; KEGG:C00006; KEGG:C11037'
+measurements:
+- id: measurement_1_8_1_7_Sus_scrofa_Q6UK62_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_8_1_7_Sus_scrofa_Q6UK62_Oxidized_glutathione
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_8_1_7_Sus_scrofa_Q6UK62_NADPH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000231
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '31912'
+- id: 1_8_1_7_Sus_scrofa_Q6UK62_NADPH_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.1e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '31912'
+- id: 1_8_1_7_Sus_scrofa_Q6UK62_Oxidized_glutathione_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.1e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_glutathione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '31912'
+- id: 1_8_1_7_Sus_scrofa_Q6UK62_Oxidized_glutathione_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.6e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_glutathione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '31912'
+buffer:
+  buffer: potassium phosphate, 0.2 M KCl, 1 mM EDTA
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 26639
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/31912/
+  pubmed_id: '31912'
+  doi: null
+name: Merged entry for Q6UK62 wildtype
+description: 'Merged from 2 files: SABIO_EC1.8.1.7_Sus_scrofa__Q6UK62_s_NADPH.yaml,
+  SABIO_EC1.8.1.7_Sus_scrofa__Q6UK62_s_Oxidized.yaml'

@@ -1,0 +1,159 @@
+name: SABIO-RK Entry 16282
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 16282
+created: '2025-10-28T14:08:56.381180'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_5_3_1_5_Q9CFG7_p16282
+  name: xylose isomerase
+  ecnumber: 5.3.1.5
+  organism: Lactococcus lactis subsp. lactis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: S388T
+  uniprotid: Q9CFG7
+  wildtype_sequence: MAYFNDIAPIKYEGTKTKNMFAFRHYNPEEVVAGKTMEEQLHFALAFWHTITMDGSDPFGGATMERPWDLEGGSELDRAHRRVDAFFEIAEKLGVKYYCFHDIDIAPTGNSLKEFYANLDEITDHLLEKQKATGIKLLWNTANMFSNPRYMNGVSTSNRAEVFAYGAAQVKKGLELSKKLGGENYVFWGGREGYESLLNTDRGLEMDHMAKFFHLAIDYAKSINHLPIFLIEPKPKEPMTHQYDFDAATALAFLQKYDLDKYFKLNLETNHAWLVGHTFEHELNTARTFNALGSIDANQGNYLLGWDTDEFPTLVIDITLAMHQILLNGGLGKGGINFDAKVRRTSFKAEDLILAHIAGMDTYARALKGAAAIIEDKFLSDIVDERYTSYKNTEVGQSIENGTATFESLAAFALEHGDDIELDSNHLEYIKSVLNDYLV
+  mutant_sequence: MAYFNDIAPIKYEGTKTKNMFAFRHYNPEEVVAGKTMEEQLHFALAFWHTITMDGSDPFGGATMERPWDLEGGSELDRAHRRVDAFFEIAEKLGVKYYCFHDIDIAPTGNSLKEFYANLDEITDHLLEKQKATGIKLLWNTANMFSNPRYMNGVSTSNRAEVFAYGAAQVKKGLELSKKLGGENYVFWGGREGYESLLNTDRGLEMDHMAKFFHLAIDYAKSINHLPIFLIEPKPKEPMTHQYDFDAATALAFLQKYDLDKYFKLNLETNHAWLVGHTFEHELNTARTFNALGSIDANQGNYLLGWDTDEFPTLVIDITLAMHQILLNGGLGKGGINFDAKVRRTSFKAEDLILAHIAGMDTYARALKGAAAIIEDKFLTDIVDERYTSYKNTEVGQSIENGTATFESLAAFALEHGDDIELDSNHLEYIKSVLNDYLV
+  position_offset: -8
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_D-Xylose
+  name: D-Xylose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Xylulose
+  name: D-Xylulose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1617_EC5_3_1_5_Lactococcus_lactis_Q9CFG7_D-Xylose
+  name: Reaction catalyzed by xylose isomerase on D-Xylose
+  equation: D-Xylose = D-Xylulose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Xylose
+  products:
+  - species_id: product_D-Xylulose
+  modifiers:
+  - species_id: protein_5_3_1_5_Q9CFG7_p16282
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01432
+  notes: 'ChEBI IDs: CHEBI:57574; CHEBI:4268; CHEBI:4265; CHEBI:13035; CHEBI:17140;
+    CHEBI:13033; CHEBI:46514; CHEBI:21120; CHEBI:15936; CHEBI:21118
+
+    KEGG IDs: KEGG:C00181; KEGG:C00310'
+measurements: null
+parameters:
+- id: 5_3_1_5_Lactococcus_lactis_Q9CFG7_D-Xylose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 124.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Xylose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15240315'
+- id: 5_3_1_5_Lactococcus_lactis_Q9CFG7_D-Xylose_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1
+  initial_value: 1.0e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Xylose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15240315'
+- id: 5_3_1_5_Lactococcus_lactis_Q9CFG7_D-Xylose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0044
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Xylose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15240315'
+buffer: null
+references:
+- title: Reference for SABIO-RK entry 16282
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15240315/
+  pubmed_id: '15240315'
+  doi: null

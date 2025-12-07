@@ -1,0 +1,425 @@
+version: '2.0'
+created: '2025-11-20T13:39:40.087960'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_2_1_11_P9WNX5_p63226
+  name: aspartate-semialdehyde dehydrogenase
+  ecnumber: 1.2.1.11
+  organism: Mycobacterium tuberculosis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P9WNX5
+  wildtype_sequence: MGLSIGIVGATGQVGQVMRTLLDERDFPASAVRFFASARSQGRKLAFRGQEIEVEDAETADPSGLDIALFSAGSAMSKVQAPRFAAAGVTVIDNSSAWRKDPDVPLVVSEVNFERDAHRRPKGIIANPNCTTMAAMPVLKVLHDEARLVRLVVSSYQAVSGSGLAGVAELAEQARAVIGGAEQLVYDGGALEFPPPNTYVAPIAFNVVPLAGSLVDDGSGETDEDQKLRFESRKILGIPDLLVSGTCVRVPVFTGHSLSINAEFAQPLSPERARELLDGATGVQLVDVPTPLAAAGVDESLVGRIRRDPGVPDGRGLALFVSGDNLRKGAALNTIQIAELLTADL
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_L-Aspartate_4-semialdehyde
+  name: L-Aspartate 4-semialdehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Phosphate
+  name: Phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4-Phospho-L-aspartate
+  name: 4-Phospho-L-aspartate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2255_EC1_2_1_11_Mycobacterium_tuberculosis_P9WNX5_L-Aspartate_4-semialdehyde
+  name: Reaction catalyzed by aspartate-semialdehyde dehydrogenase on L-Aspartate
+    4-semialdehyde
+  equation: NADP+ + Phosphate + L-Aspartate 4-semialdehyde = NADPH + 4-Phospho-L-aspartate
+    + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Aspartate_4-semialdehyde
+  - species_id: substrate_NADP_
+  - species_id: substrate_Phosphate
+  products:
+  - species_id: product_NADPH
+  - species_id: product_4-Phospho-L-aspartate
+  modifiers:
+  - species_id: protein_1_2_1_11_P9WNX5_p63226
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 24284;24285;24286;24287
+  KEGGid: R02291
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:20471; CHEBI:43470; CHEBI:18367; CHEBI:15836;
+    CHEBI:35780; CHEBI:13397; CHEBI:13398; CHEBI:26020; CHEBI:26078; CHEBI:7424; CHEBI:21903;
+    CHEBI:44405; CHEBI:30407; CHEBI:7425; CHEBI:29234; CHEBI:21246; CHEBI:25523; CHEBI:29139;
+    CHEBI:13357; CHEBI:57535; CHEBI:13087; CHEBI:39739; CHEBI:24636; CHEBI:29233;
+    CHEBI:40847; CHEBI:5584; CHEBI:537519; CHEBI:13399; CHEBI:1925; CHEBI:20472; CHEBI:39745;
+    CHEBI:6194; CHEBI:13062; CHEBI:7793; CHEBI:16474; CHEBI:44286; CHEBI:12042; CHEBI:18051;
+    CHEBI:21904; CHEBI:45024; CHEBI:44409; CHEBI:13086; CHEBI:15378; CHEBI:18009;
+    CHEBI:58349; CHEBI:43474; CHEBI:13400; CHEBI:57783; CHEBI:21245; CHEBI:29137;
+    CHEBI:10744
+
+    KEGG IDs: KEGG:C03082; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00009; KEGG:C11037;
+    KEGG:C00441'
+- id: sabiork_2255_EC1_2_1_11_Mycobacterium_tuberculosis_P9WNX5_NADP_
+  name: Reaction catalyzed by aspartate-semialdehyde dehydrogenase on NADP+
+  equation: NADP+ + Phosphate + L-Aspartate 4-semialdehyde = NADPH + 4-Phospho-L-aspartate
+    + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADP_
+  - species_id: substrate_L-Aspartate_4-semialdehyde
+  - species_id: substrate_Phosphate
+  products:
+  - species_id: product_4-Phospho-L-aspartate
+  - species_id: product_NADPH
+  modifiers:
+  - species_id: protein_1_2_1_11_P9WNX5_p63225
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 24284;24285;24286;24287
+  KEGGid: R02291
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:20471; CHEBI:43470; CHEBI:18367; CHEBI:15836;
+    CHEBI:35780; CHEBI:13397; CHEBI:13398; CHEBI:26020; CHEBI:26078; CHEBI:7424; CHEBI:21903;
+    CHEBI:44405; CHEBI:30407; CHEBI:7425; CHEBI:29234; CHEBI:21246; CHEBI:25523; CHEBI:29139;
+    CHEBI:13357; CHEBI:57535; CHEBI:13087; CHEBI:39739; CHEBI:24636; CHEBI:29233;
+    CHEBI:40847; CHEBI:13399; CHEBI:537519; CHEBI:1925; CHEBI:5584; CHEBI:20472; CHEBI:39745;
+    CHEBI:6194; CHEBI:13062; CHEBI:7793; CHEBI:16474; CHEBI:44286; CHEBI:12042; CHEBI:18051;
+    CHEBI:21904; CHEBI:45024; CHEBI:44409; CHEBI:13086; CHEBI:15378; CHEBI:18009;
+    CHEBI:58349; CHEBI:43474; CHEBI:13400; CHEBI:57783; CHEBI:21245; CHEBI:29137;
+    CHEBI:10744
+
+    KEGG IDs: KEGG:C03082; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00009; KEGG:C11037;
+    KEGG:C00441'
+- id: sabiork_2255_EC1_2_1_11_Mycobacterium_tuberculosis_P9WNX5_NADP_
+  name: Reaction catalyzed by aspartate-semialdehyde dehydrogenase on NADP+
+  equation: NADP+ + Phosphate + L-Aspartate 4-semialdehyde = NADPH + 4-Phospho-L-aspartate
+    + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADP_
+  - species_id: substrate_Phosphate
+  - species_id: substrate_L-Aspartate_4-semialdehyde
+  products:
+  - species_id: product_4-Phospho-L-aspartate
+  - species_id: product_NADPH
+  modifiers:
+  - species_id: protein_1_2_1_11_P9WNX5_p63227
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 24284;24285;24286;24287
+  KEGGid: R02291
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:20471; CHEBI:43470; CHEBI:18367; CHEBI:15836;
+    CHEBI:35780; CHEBI:13397; CHEBI:13398; CHEBI:26020; CHEBI:26078; CHEBI:7424; CHEBI:21903;
+    CHEBI:44405; CHEBI:30407; CHEBI:7425; CHEBI:29234; CHEBI:21246; CHEBI:25523; CHEBI:29139;
+    CHEBI:13357; CHEBI:57535; CHEBI:13087; CHEBI:39739; CHEBI:24636; CHEBI:29233;
+    CHEBI:40847; CHEBI:13399; CHEBI:537519; CHEBI:1925; CHEBI:5584; CHEBI:20472; CHEBI:39745;
+    CHEBI:6194; CHEBI:13062; CHEBI:7793; CHEBI:16474; CHEBI:44286; CHEBI:12042; CHEBI:18051;
+    CHEBI:21904; CHEBI:45024; CHEBI:44409; CHEBI:13086; CHEBI:15378; CHEBI:18009;
+    CHEBI:58349; CHEBI:43474; CHEBI:13400; CHEBI:57783; CHEBI:21245; CHEBI:29137;
+    CHEBI:10744
+
+    KEGG IDs: KEGG:C03082; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00009; KEGG:C11037;
+    KEGG:C00441'
+measurements:
+- id: measurement_1_2_1_11_Mycobacterium_tuberculosis_P9WNX5_L-Aspartate_4-semialdehyde
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_2_1_11_Mycobacterium_tuberculosis_P9WNX5_NADP_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_2_1_11_Mycobacterium_tuberculosis_P9WNX5_NADP_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_2_1_11_Mycobacterium_tuberculosis_P9WNX5_L-Aspartate_4-semialdehyde_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Aspartate_4-semialdehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15752328'
+- id: 1_2_1_11_Mycobacterium_tuberculosis_P9WNX5_L-Aspartate_4-semialdehyde_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 131000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Aspartate_4-semialdehyde
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 9.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15752328'
+- id: 1_2_1_11_Mycobacterium_tuberculosis_P9WNX5_L-Aspartate_4-semialdehyde_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 8.49
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Aspartate_4-semialdehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15752328'
+- id: 1_2_1_11_Mycobacterium_tuberculosis_P9WNX5_L-Aspartate_4-semialdehyde_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000729167
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Aspartate_4-semialdehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15752328'
+- id: 1_2_1_11_Mycobacterium_tuberculosis_P9WNX5_NADP__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000955
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15752328'
+- id: 1_2_1_11_Mycobacterium_tuberculosis_P9WNX5_NADP__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 8890.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 9.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15752328'
+- id: 1_2_1_11_Mycobacterium_tuberculosis_P9WNX5_NADP__Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000864
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15752328'
+- id: 1_2_1_11_Mycobacterium_tuberculosis_P9WNX5_NADP__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 8.49
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15752328'
+- id: 1_2_1_11_Mycobacterium_tuberculosis_P9WNX5_NADP__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.01139
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15752328'
+- id: 1_2_1_11_Mycobacterium_tuberculosis_P9WNX5_NADP__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 745.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 9.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15752328'
+- id: 1_2_1_11_Mycobacterium_tuberculosis_P9WNX5_NADP__Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000734
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15752328'
+- id: 1_2_1_11_Mycobacterium_tuberculosis_P9WNX5_NADP__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 8.49
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15752328'
+buffer:
+  buffer: 200 mM CHES, 1 mM EDTA, 1 mM DTT
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 63226
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15752328/
+  pubmed_id: '15752328'
+  doi: null
+name: Merged entry for P9WNX5 wildtype
+description: 'Merged from 3 files: SABIO_EC1.2.1.11_Mycobacterium_tuberculosis__P9WNX5_s_L-Aspartate.yaml,
+  SABIO_EC1.2.1.11_Mycobacterium_tuberculosis__P9WNX5_s_NADP_.yaml, SABIO_EC1.2.1.11_Mycobacterium_tuberculosis__P9WNX5_s_NADP__2.yaml'

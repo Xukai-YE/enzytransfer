@@ -1,0 +1,513 @@
+version: '2.0'
+created: '2025-11-20T13:39:25.071673'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_79_F4I907_p52346
+  name: glyoxylate reductase (NADP+)
+  ecnumber: 1.1.1.79
+  organism: Arabidopsis thaliana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: F4I907
+  wildtype_sequence: MPLVSLSFASSSSKAMALCSICPRIPLRFRPKPISPFLSKPQICLAYRVYSSLQSTTPSTRDELGTVSIGFLGMGIMGSPMAQNLIKAGCDVTVWNRTKSKCDPLVGLGAKYKSSPEEVTATCDLTFAMLADPESAIDVACGKNGAIFGISSGKGYVDVSTVDVASSILISKQIKDTGALFLEAPVSGSKKPAEDGQLIFLTAGDKPLYEKAAPFLDIMGKSKFYLGEVGNGAAMKLVVNMIMGSMMASFAEGILLSQKVGLDPNVLVEVVSQGAINAPMYSLKGPSMIKSVYPTAFPLKHQQKDMRLALGLAESVSQSTPIAAAANELYKVAKSYGLSDEDFSAVIEALKAAKSREA
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Glyoxylate
+  name: Glyoxylate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Glycolate
+  name: Glycolate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Succinate_semialdehyde
+  name: Succinate semialdehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4-Hydroxybutanoate
+  name: 4-Hydroxybutanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_159_EC1_1_1_79_Arabidopsis_thaliana_F4I907_NADPH
+  name: Reaction catalyzed by glyoxylate reductase (NADP+) on NADPH
+  equation: NADP+ + Glycolate = NADPH + Glyoxylate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_Glyoxylate
+  products:
+  - species_id: product_Glycolate
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_1_1_79_F4I907_p52346
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 10992;10993;10994;10995
+  KEGGid: R00465
+  notes: 'ChEBI IDs: CHEBI:24390; CHEBI:13398; CHEBI:13397; CHEBI:14348; CHEBI:35977;
+    CHEBI:24421; CHEBI:16891; CHEBI:7424; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234;
+    CHEBI:13357; CHEBI:25523; CHEBI:36655; CHEBI:24636; CHEBI:29233; CHEBI:5584; CHEBI:13399;
+    CHEBI:5475; CHEBI:16474; CHEBI:44286; CHEBI:29805; CHEBI:24420; CHEBI:21904; CHEBI:44409;
+    CHEBI:15378; CHEBI:17497; CHEBI:18009; CHEBI:58349; CHEBI:42767; CHEBI:13400;
+    CHEBI:57783; CHEBI:42865; CHEBI:24388; CHEBI:10744; CHEBI:14368; CHEBI:5509
+
+    KEGG IDs: KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00160; KEGG:C00048; KEGG:C11037'
+- id: sabiork_159_EC1_1_1_79_Arabidopsis_thaliana_F4I907_NADPH
+  name: Reaction catalyzed by glyoxylate reductase (NADP+) on NADPH
+  equation: NADP+ + Glycolate = NADPH + Glyoxylate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_Glyoxylate
+  products:
+  - species_id: product_NADP_
+  - species_id: product_Glycolate
+  modifiers:
+  - species_id: protein_1_1_1_79_F4I907_p52347
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 10992;10993;10994;10995
+  KEGGid: R00465
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:24390; CHEBI:14348; CHEBI:35977;
+    CHEBI:24421; CHEBI:16891; CHEBI:7424; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234;
+    CHEBI:13357; CHEBI:25523; CHEBI:36655; CHEBI:24636; CHEBI:29233; CHEBI:5584; CHEBI:13399;
+    CHEBI:5475; CHEBI:16474; CHEBI:44286; CHEBI:29805; CHEBI:24420; CHEBI:21904; CHEBI:44409;
+    CHEBI:15378; CHEBI:17497; CHEBI:18009; CHEBI:58349; CHEBI:42767; CHEBI:13400;
+    CHEBI:57783; CHEBI:42865; CHEBI:24388; CHEBI:10744; CHEBI:14368; CHEBI:5509
+
+    KEGG IDs: KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00160; KEGG:C00048; KEGG:C11037'
+- id: sabiork_10705_EC1_1_1__Arabidopsis_thaliana_F4I907_Succinate_semialdehyde
+  name: Reaction catalyzed by alcohol dehydrogenase (NADP+) on Succinate semialdehyde
+  equation: H+ + Succinate semialdehyde + NADPH = 4-Hydroxybutanoate + NADP+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Succinate_semialdehyde
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_NADP_
+  - species_id: product_4-Hydroxybutanoate
+  modifiers:
+  - species_id: protein_1_1_1__F4I907_p52348
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 26381;26382;26383;26384
+  KEGGid: R09281
+  notes: 'ChEBI IDs: CHEBI:12006; CHEBI:16724; CHEBI:13397; CHEBI:13398; CHEBI:20401;
+    CHEBI:7424; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357; CHEBI:25523;
+    CHEBI:24636; CHEBI:386065; CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:30830;
+    CHEBI:16474; CHEBI:1860; CHEBI:44286; CHEBI:26805; CHEBI:20402; CHEBI:21904; CHEBI:26804;
+    CHEBI:44409; CHEBI:15378; CHEBI:15126; CHEBI:18009; CHEBI:58349; CHEBI:9305; CHEBI:57706;
+    CHEBI:57783; CHEBI:13400; CHEBI:10744; CHEBI:16265
+
+    KEGG IDs: KEGG:C00232; KEGG:C00005; KEGG:C00080; KEGG:C01991; KEGG:C00006; KEGG:C00989;
+    KEGG:C11037'
+- id: sabiork_10705_EC1_1_1__Arabidopsis_thaliana_F4I907_Succinate_semialdehyde
+  name: Reaction catalyzed by alcohol dehydrogenase (NADP+) on Succinate semialdehyde
+  equation: H+ + Succinate semialdehyde + NADPH = 4-Hydroxybutanoate + NADP+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Succinate_semialdehyde
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_NADP_
+  - species_id: product_4-Hydroxybutanoate
+  modifiers:
+  - species_id: protein_1_1_1__F4I907_p52349
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 26381;26382;26383;26384
+  KEGGid: R09281
+  notes: 'ChEBI IDs: CHEBI:12006; CHEBI:16724; CHEBI:13397; CHEBI:13398; CHEBI:20401;
+    CHEBI:7424; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357; CHEBI:25523;
+    CHEBI:24636; CHEBI:386065; CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:30830;
+    CHEBI:16474; CHEBI:1860; CHEBI:44286; CHEBI:26805; CHEBI:20402; CHEBI:21904; CHEBI:26804;
+    CHEBI:44409; CHEBI:15378; CHEBI:15126; CHEBI:18009; CHEBI:58349; CHEBI:9305; CHEBI:57706;
+    CHEBI:57783; CHEBI:13400; CHEBI:10744; CHEBI:16265
+
+    KEGG IDs: KEGG:C00232; KEGG:C00005; KEGG:C00080; KEGG:C01991; KEGG:C00006; KEGG:C00989;
+    KEGG:C11037'
+measurements:
+- id: measurement_1_1_1_79_Arabidopsis_thaliana_F4I907_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_79_Arabidopsis_thaliana_F4I907_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1__Arabidopsis_thaliana_F4I907_Succinate_semialdehyde
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1__Arabidopsis_thaliana_F4I907_Succinate_semialdehyde
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1_79_Arabidopsis_thaliana_F4I907_NADPH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000676667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18495639'
+- id: 1_1_1_79_Arabidopsis_thaliana_F4I907_NADPH_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 660000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.6
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18495639'
+- id: 1_1_1_79_Arabidopsis_thaliana_F4I907_NADPH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 22.5
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18495639'
+- id: 1_1_1_79_Arabidopsis_thaliana_F4I907_NADPH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.4e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18495639'
+- id: 1_1_1_79_Arabidopsis_thaliana_F4I907_NADPH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.4e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18495639'
+- id: 1_1_1_79_Arabidopsis_thaliana_F4I907_NADPH_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 8550000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.6
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18495639'
+- id: 1_1_1_79_Arabidopsis_thaliana_F4I907_NADPH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 12.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18495639'
+- id: 1_1_1_79_Arabidopsis_thaliana_F4I907_NADPH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000383333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18495639'
+- id: 1_1_1__Arabidopsis_thaliana_F4I907_Succinate_semialdehyde_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00896
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Succinate_semialdehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18495639'
+- id: 1_1_1__Arabidopsis_thaliana_F4I907_Succinate_semialdehyde_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000511667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Succinate_semialdehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18495639'
+- id: 1_1_1__Arabidopsis_thaliana_F4I907_Succinate_semialdehyde_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 17.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Succinate_semialdehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18495639'
+- id: 1_1_1__Arabidopsis_thaliana_F4I907_Succinate_semialdehyde_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1890.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Succinate_semialdehyde
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.6
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18495639'
+- id: 1_1_1__Arabidopsis_thaliana_F4I907_Succinate_semialdehyde_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.2e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Succinate_semialdehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18495639'
+- id: 1_1_1__Arabidopsis_thaliana_F4I907_Succinate_semialdehyde_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 9180000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Succinate_semialdehyde
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.6
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18495639'
+- id: 1_1_1__Arabidopsis_thaliana_F4I907_Succinate_semialdehyde_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000321667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Succinate_semialdehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18495639'
+- id: 1_1_1__Arabidopsis_thaliana_F4I907_Succinate_semialdehyde_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 10.7
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Succinate_semialdehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18495639'
+buffer:
+  buffer: 50 mM HEPES, 20 % sorbitol
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 52346
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/18495639/
+  pubmed_id: '18495639'
+  doi: null
+name: Merged entry for F4I907 wildtype
+description: 'Merged from 4 files: SABIO_EC1.1.1.79_Arabidopsis_thaliana__F4I907_s_NADPH.yaml,
+  SABIO_EC1.1.1.79_Arabidopsis_thaliana__F4I907_s_NADPH_2.yaml, SABIO_EC1.1.1._Arabidopsis_thaliana__F4I907_s_Succinate.yaml,
+  SABIO_EC1.1.1._Arabidopsis_thaliana__F4I907_s_Succinate_2.yaml'

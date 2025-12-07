@@ -1,0 +1,222 @@
+name: SABIO-RK Entry 63345
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 63345
+created: '2025-10-28T16:43:44.171597'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_405_Q2G1C4_Q2G2C4_p63345
+  name: ribitol-5-phosphate 2-dehydrogenase (NADP+)
+  sequence: null
+  ecnumber: 1.1.1.405
+  organism: Staphylococcus aureus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q2G1C4; Q2G2C4
+complexes: null
+small_molecules:
+- id: substrate_D-Ribulose_5-phosphate
+  name: D-Ribulose 5-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Ribitol_5-phosphate
+  name: D-Ribitol 5-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1694_EC1_1_1_405_Staphylococcus_aureus_Q2G1C4_Q2G2C4_D-Ribulose_5-phosphate
+  name: Reaction catalyzed by ribitol-5-phosphate 2-dehydrogenase (NADP+) on D-Ribulose
+    5-phosphate
+  equation: NADP+ + D-Ribitol 5-phosphate = NADPH + H+ + D-Ribulose 5-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Ribulose_5-phosphate
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_D-Ribitol_5-phosphate
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_1_1_405_Q2G1C4_Q2G2C4_p63345
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 19921;19922;19923;19924
+  KEGGid: R01525
+  notes: 'ChEBI IDs: CHEBI:26572; CHEBI:13397; CHEBI:13009; CHEBI:13398; CHEBI:4243;
+    CHEBI:7424; CHEBI:44405; CHEBI:21903; CHEBI:21088; CHEBI:7425; CHEBI:29234; CHEBI:21075;
+    CHEBI:13357; CHEBI:25523; CHEBI:40192; CHEBI:13018; CHEBI:45310; CHEBI:57695;
+    CHEBI:24636; CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:13040; CHEBI:37455; CHEBI:16246;
+    CHEBI:16474; CHEBI:44286; CHEBI:21904; CHEBI:4231; CHEBI:44409; CHEBI:15378; CHEBI:18009;
+    CHEBI:44693; CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:10744; CHEBI:17363;
+    CHEBI:58121
+
+    KEGG IDs: KEGG:C01068; KEGG:C00199; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C11037'
+measurements:
+- id: measurement_1_1_1_405_Staphylococcus_aureus_Q2G1C4_Q2G2C4_D-Ribulose_5-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 22.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1_405_Staphylococcus_aureus_Q2G1C4_Q2G2C4_D-Ribulose_5-phosphate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.41
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Ribulose_5-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18556787'
+- id: 1_1_1_405_Staphylococcus_aureus_Q2G1C4_Q2G2C4_D-Ribulose_5-phosphate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 37300.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Ribulose_5-phosphate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.2
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18556787'
+- id: 1_1_1_405_Staphylococcus_aureus_Q2G1C4_Q2G2C4_D-Ribulose_5-phosphate_kcat_Km_2
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 66000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Ribulose_5-phosphate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.2
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18556787'
+- id: 1_1_1_405_Staphylococcus_aureus_Q2G1C4_Q2G2C4_D-Ribulose_5-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.1e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Ribulose_5-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18556787'
+- id: 1_1_1_405_Staphylococcus_aureus_Q2G1C4_Q2G2C4_D-Ribulose_5-phosphate_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.21e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Ribulose_5-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18556787'
+buffer:
+  buffer: 25 mM HEPES, 1 mM Dithiothreitol, 1 ¦ÌM ZnCl2, 0.01 mg/ml BSA
+  buffer_concentration: 25 mM
+references:
+- title: Reference for SABIO-RK entry 63345
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/18556787/
+  pubmed_id: '18556787'
+  doi: null

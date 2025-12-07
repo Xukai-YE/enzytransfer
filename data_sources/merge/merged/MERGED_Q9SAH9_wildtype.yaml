@@ -1,0 +1,403 @@
+version: '2.0'
+created: '2025-11-20T13:39:42.019420'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_2_1_44_Q9SAH9_p51139
+  name: cinnamoyl-CoA reductase
+  ecnumber: 1.2.1.44
+  organism: Arabidopsis thaliana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9SAH9
+  wildtype_sequence: MLVDGKLVCVTGAGGYIASWIVKLLLERGYTVRGTVRNPTDPKNNHLRELQGAKERLTLHSADLLDYEALCATIDGCDGVFHTASPMTDDPETMLEPAVNGAKFVIDAAAKAKVKRVVFTSSIGAVYMNPNRDTQAIVDENCWSDLDFCKNTKNWYCYGKMLAEQSAWETAKAKGVDLVVLNPVLVLGPPLQSAINASLVHILKYLTGSAKTYANLTQVYVDVRDVALGHVLVYEAPSASGRYILAETALHRGEVVEILAKFFPEYPLPTKCSDEKNPRAKPYKFTTQKIKDLGLEFKPIKQSLYESVKSLQEKGHLPLPQDSNQNEVIIES
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Sinapoyl-CoA
+  name: Sinapoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Sinapoyl_aldehyde
+  name: Sinapoyl aldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Feruloyl-CoA
+  name: Feruloyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Coniferaldehyde
+  name: Coniferaldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Caffeoyl-CoA
+  name: Caffeoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Caffeic_aldehyde
+  name: Caffeic aldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2192_EC1_2_1_44_Arabidopsis_thaliana_Q9SAH9_NADPH
+  name: Reaction catalyzed by cinnamoyl-CoA reductase on NADPH
+  equation: NADP+ + Coenzyme A + Sinapoyl aldehyde = NADPH + Sinapoyl-CoA + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_Sinapoyl-CoA
+  products:
+  - species_id: product_Sinapoyl_aldehyde
+  - species_id: product_Coenzyme_A
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_2_1_44_Q9SAH9_p51139
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02220
+  notes: 'ChEBI IDs: CHEBI:15346; CHEBI:23355; CHEBI:57393; CHEBI:9155; CHEBI:27949;
+    CHEBI:26684; CHEBI:13398; CHEBI:13397; CHEBI:15540; CHEBI:41631; CHEBI:7424; CHEBI:44405;
+    CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:15087; CHEBI:13357; CHEBI:25523; CHEBI:13295;
+    CHEBI:41597; CHEBI:24636; CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:57287; CHEBI:13294;
+    CHEBI:16474; CHEBI:44286; CHEBI:21904; CHEBI:44409; CHEBI:15378; CHEBI:18009;
+    CHEBI:3771; CHEBI:26686; CHEBI:741566; CHEBI:58349; CHEBI:13400; CHEBI:57783;
+    CHEBI:10744; CHEBI:9153; CHEBI:13298
+
+    KEGG IDs: KEGG:C00010; KEGG:C00005; KEGG:C00411; KEGG:C00080; KEGG:C00006; KEGG:C11037;
+    KEGG:C05610'
+- id: sabiork_2166_EC1_2_1_44_Arabidopsis_thaliana_Q9SAH9_Feruloyl-CoA
+  name: Reaction catalyzed by cinnamoyl-CoA reductase on Feruloyl-CoA
+  equation: NADP+ + Coenzyme A + Coniferaldehyde = NADPH + H+ + Feruloyl-CoA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Feruloyl-CoA
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_NADP_
+  - species_id: product_Coniferaldehyde
+  - species_id: product_Coenzyme_A
+  modifiers:
+  - species_id: protein_1_2_1_44_Q9SAH9_p51138
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02193
+  notes: 'ChEBI IDs: CHEBI:15346; CHEBI:23355; CHEBI:15511; CHEBI:13397; CHEBI:13398;
+    CHEBI:7424; CHEBI:41631; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:24033;
+    CHEBI:13357; CHEBI:5047; CHEBI:25523; CHEBI:13295; CHEBI:41597; CHEBI:24636; CHEBI:29233;
+    CHEBI:5584; CHEBI:13399; CHEBI:87305; CHEBI:57287; CHEBI:14018; CHEBI:3859; CHEBI:23372;
+    CHEBI:16474; CHEBI:13294; CHEBI:44286; CHEBI:12881; CHEBI:14261; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:57276; CHEBI:18009; CHEBI:3771; CHEBI:58349; CHEBI:741566;
+    CHEBI:13400; CHEBI:57783; CHEBI:16547; CHEBI:10744; CHEBI:13298
+
+    KEGG IDs: KEGG:C00010; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C02666; KEGG:C11037;
+    KEGG:C00406'
+- id: sabiork_1994_EC1_2_1_44_Arabidopsis_thaliana_Q9SAH9_NADPH
+  name: Reaction catalyzed by cinnamoyl-CoA reductase on NADPH
+  equation: NADP+ + Coenzyme A + Caffeic aldehyde = H+ + NADPH + Caffeoyl-CoA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_Caffeoyl-CoA
+  products:
+  - species_id: product_NADP_
+  - species_id: product_Coenzyme_A
+  - species_id: product_Caffeic_aldehyde
+  modifiers:
+  - species_id: protein_1_2_1_44_Q9SAH9_p51140
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01941
+  notes: 'ChEBI IDs: CHEBI:15346; CHEBI:23355; CHEBI:13397; CHEBI:13398; CHEBI:3294;
+    CHEBI:7424; CHEBI:41631; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13930;
+    CHEBI:13357; CHEBI:25523; CHEBI:57372; CHEBI:13295; CHEBI:15518; CHEBI:87449;
+    CHEBI:41597; CHEBI:24636; CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:22981; CHEBI:75315;
+    CHEBI:57287; CHEBI:13294; CHEBI:16474; CHEBI:87136; CHEBI:44286; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:3296; CHEBI:18009; CHEBI:3771; CHEBI:22983; CHEBI:58349;
+    CHEBI:13400; CHEBI:57783; CHEBI:741566; CHEBI:10744; CHEBI:13298; CHEBI:28323
+
+    KEGG IDs: KEGG:C00010; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C10945; KEGG:C11037;
+    KEGG:C00323'
+measurements:
+- id: measurement_1_2_1_44_Arabidopsis_thaliana_Q9SAH9_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.25
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_2_1_44_Arabidopsis_thaliana_Q9SAH9_Feruloyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.25
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_2_1_44_Arabidopsis_thaliana_Q9SAH9_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.25
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_2_1_44_Arabidopsis_thaliana_Q9SAH9_NADPH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.07e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.25
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11430991'
+- id: 1_2_1_44_Arabidopsis_thaliana_Q9SAH9_NADPH_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1833.333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 6.25
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11430991'
+- id: 1_2_1_44_Arabidopsis_thaliana_Q9SAH9_NADPH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.05833333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.25
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11430991'
+- id: 1_2_1_44_Arabidopsis_thaliana_Q9SAH9_Feruloyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.7e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Feruloyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.25
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11430991'
+- id: 1_2_1_44_Arabidopsis_thaliana_Q9SAH9_Feruloyl-CoA_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 7833.333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Feruloyl-CoA
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 6.25
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11430991'
+- id: 1_2_1_44_Arabidopsis_thaliana_Q9SAH9_Feruloyl-CoA_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.03716667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Feruloyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.25
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11430991'
+- id: 1_2_1_44_Arabidopsis_thaliana_Q9SAH9_NADPH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.16e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.25
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11430991'
+- id: 1_2_1_44_Arabidopsis_thaliana_Q9SAH9_NADPH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.0145
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.25
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11430991'
+- id: 1_2_1_44_Arabidopsis_thaliana_Q9SAH9_NADPH_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 2833.333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 6.25
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11430991'
+buffer:
+  buffer: 100 mM Sodium/Potassium phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 51139
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11430991/
+  pubmed_id: '11430991'
+  doi: null
+name: Merged entry for Q9SAH9 wildtype
+description: 'Merged from 3 files: SABIO_EC1.2.1.44_Arabidopsis_thaliana__Q9SAH9_s_NADPH.yaml,
+  SABIO_EC1.2.1.44_Arabidopsis_thaliana__Q9SAH9_s_Feruloyl-CoA.yaml, SABIO_EC1.2.1.44_Arabidopsis_thaliana__Q9SAH9_s_NADPH_2.yaml'

@@ -1,0 +1,195 @@
+version: '2.0'
+created: '2025-11-20T13:41:46.612800'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_5_4_99_18_P0AG18_p71624
+  name: 5-(carboxyamino)imidazole ribonucleotide mutase
+  ecnumber: 5.4.99.18
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: H45N
+  uniprotid: P0AG18
+  wildtype_sequence: MSSRNNPARVAIVMGSKSDWATMQFAAEIFEILNVPHHVEVVSAHRTPDKLFSFAESAEENGYQVIIAGAGGAAHLPGMIAAKTLVPVLGVPVQSAALSGVDSLYSIVQMPRGIPVGTLAIGKAGAANAALLAAQILATHDKELHQRLNDWRKAQTDEVLENPDPRGAA
+  mutant_sequence: MSSRNNPARVAIVMGSKSDWATMQFAAEIFEILNVPHHVEVVSANRTPDKLFSFAESAEENGYQVIIAGAGGAAHLPGMIAAKTLVPVLGVPVQSAALSGVDSLYSIVQMPRGIPVGTLAIGKAGAANAALLAAQILATHDKELHQRLNDWRKAQTDEVLENPDPRGAA
+complexes: null
+small_molecules:
+- id: substrate_1-_5-Phospho-D-ribosyl_-5-amino-4-imidazolecarboxylate
+  name: 1-(5-Phospho-D-ribosyl)-5-amino-4-imidazolecarboxylate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_5-carboxyamino-1-_5-phospho-D-ribosyl_imidazole
+  name: 5-carboxyamino-1-(5-phospho-D-ribosyl)imidazole
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_5-carboxyamino-1-_5-phospho-D-ribosyl_imidazole
+  name: 5-carboxyamino-1-(5-phospho-D-ribosyl)imidazole
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_1-_5-Phospho-D-ribosyl_-5-amino-4-imidazolecarboxylate
+  name: 1-(5-Phospho-D-ribosyl)-5-amino-4-imidazolecarboxylate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_9083_EC5_4_99_18_Escherichia_coli_P0AG18_1-_5-Phospho-D-ribosyl_-5-amino-4-imidazolecarboxylate
+  name: Reaction catalyzed by 5-(carboxyamino)imidazole ribonucleotide mutase on 1-(5-Phospho-D-ribosyl)-5-amino-4-imidazolecarboxylate
+  equation: 5-carboxyamino-1-(5-phospho-D-ribosyl)imidazole = 1-(5-Phospho-D-ribosyl)-5-amino-4-imidazolecarboxylate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_1-_5-Phospho-D-ribosyl_-5-amino-4-imidazolecarboxylate
+  products:
+  - species_id: product_5-carboxyamino-1-_5-phospho-D-ribosyl_imidazole
+  modifiers:
+  - species_id: protein_5_4_99_18_P0AG18_p71624
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 13193;13194;13195;13196
+  KEGGid: R07405
+  notes: 'ChEBI IDs: CHEBI:58564; CHEBI:12103; CHEBI:28413; CHEBI:77657; CHEBI:48000;
+    CHEBI:18968; CHEBI:575; CHEBI:58730
+
+    KEGG IDs: KEGG:C15667; KEGG:C04751'
+- id: sabiork_9083_EC5_4_99_18_Escherichia_coli_P0AG18_5-carboxyamino-1-_5-phospho-D-ribosyl_imidazole
+  name: Reaction catalyzed by 5-(carboxyamino)imidazole ribonucleotide mutase on 5-carboxyamino-1-(5-phospho-D-ribosyl)imidazole
+  equation: 5-carboxyamino-1-(5-phospho-D-ribosyl)imidazole = 1-(5-Phospho-D-ribosyl)-5-amino-4-imidazolecarboxylate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_5-carboxyamino-1-_5-phospho-D-ribosyl_imidazole
+  products:
+  - species_id: product_1-_5-Phospho-D-ribosyl_-5-amino-4-imidazolecarboxylate
+  modifiers:
+  - species_id: protein_5_4_99_18_P0AG18_p71625
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 13193;13194;13195;13196
+  KEGGid: R07405
+  notes: 'ChEBI IDs: CHEBI:12103; CHEBI:28413; CHEBI:77657; CHEBI:18968; CHEBI:575;
+    CHEBI:58564; CHEBI:48000; CHEBI:58730
+
+    KEGG IDs: KEGG:C15667; KEGG:C04751'
+measurements:
+- id: measurement_5_4_99_18_Escherichia_coli_P0AG18_1-_5-Phospho-D-ribosyl_-5-amino-4-imidazolecarboxylate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_5_4_99_18_Escherichia_coli_P0AG18_5-carboxyamino-1-_5-phospho-D-ribosyl_imidazole
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 23.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 5_4_99_18_Escherichia_coli_P0AG18_1-_5-Phospho-D-ribosyl_-5-amino-4-imidazolecarboxylate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 4.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1-_5-Phospho-D-ribosyl_-5-amino-4-imidazolecarboxylate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17298082'
+- id: 5_4_99_18_Escherichia_coli_P0AG18_5-carboxyamino-1-_5-phospho-D-ribosyl_imidazole_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.00015
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_5-carboxyamino-1-_5-phospho-D-ribosyl_imidazole
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17298082'
+buffer:
+  buffer: 100 mM Tris; 50 mM HEPES, 10 mM MgCl2, 2 mM PEP, 0.5 mM ATP, 10 mM L-aspartate,
+    2 U/ml pyruvate kinase, 4.2 U/ml EcPurK, 3.3 U/ml EcPurC, 37 Î¼M AIR
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 71624
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/17298082/
+  pubmed_id: '17298082'
+  doi: null
+name: Merged entry for P0AG18 H45N
+description: 'Merged from 2 files: SABIO_EC5.4.99.18_Escherichia_coli__P0AG18_H45N_s_1-_5-Phospho-D-ribos.yaml,
+  SABIO_EC5.4.99.18_Escherichia_coli__P0AG18_H45N_s_5-carboxyamino-1-_5-.yaml'

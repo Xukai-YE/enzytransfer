@@ -1,0 +1,132 @@
+name: SABIO-RK Entry 47870
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 47870
+created: '2025-10-28T15:42:40.525014'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_2_2_27_P13051_p47870
+  name: uracil-DNA glycosylase
+  ecnumber: 3.2.2.27
+  organism: bovine
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: H268N
+  uniprotid: P13051
+  wildtype_sequence: MIGQKTLYSFFSPSPARKRHAPSPEPAVQGTGVAGVPEESGDAAAIPAKKAPAGQEEPGTPPSSPLSAEQLDRIQRNKAAALLRLAARNVPVGFGESWKKHLSGEFGKPYFIKLMGFVAEERKHYTVYPPPHQVFTWTQMCDIKDVKVVILGQDPYHGPNQAHGLCFSVQRPVPPPPSLENIYKELSTDIEDFVHPGHGDLSGWAKQGVLLLNAVLTVRAHQANSHKERGWEQFTDAVVSWLNQNSNGLVFLLWGSYAQKKGSAIDRKRHHVLQTAHPSPLSVYRGFFGCRHFSKTNELLQKSGKKPIDWKEL
+  mutant_sequence: MIGQKTLYSFFSPSPARKRHAPSPEPAVQGTGVAGVPEESGDAAAIPAKKAPAGQEEPGTPPSSPLSAEQLDRIQRNKAAALLRLAARNVPVGFGESWKKHLSGEFGKPYFIKLMGFVAEERKHYTVYPPPHQVFTWTQMCDIKDVKVVILGQDPYHGPNQAHGLCFSVQRPVPPPPSLENIYKELSTDIEDFVHPGHGDLSGWAKQGVLLLNAVLTVRAHQANSHKERGWEQFTDAVVSWLNQNSNGLVFLLWGSYAQKKGSAIDRKRNHVLQTAHPSPLSVYRGFFGCRHFSKTNELLQKSGKKPIDWKEL
+  position_offset: 2
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_DNA
+  name: DNA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Apyrimidinic_site_in_DNA
+  name: Apyrimidinic site in DNA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Uracil
+  name: Uracil
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_13245_EC3_2_2_27_bovine_P13051_DNA
+  name: Reaction catalyzed by uracil-DNA glycosylase on DNA
+  equation: H2O + DNA = Uracil + Apyrimidinic site in DNA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_DNA
+  products:
+  - species_id: product_Apyrimidinic_site_in_DNA
+  - species_id: product_Uracil
+  modifiers:
+  - species_id: protein_3_2_2_27_P13051_p47870
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:21123; CHEBI:44819; CHEBI:41981; CHEBI:13302;
+    CHEBI:27210; CHEBI:42857; CHEBI:41979; CHEBI:4291; CHEBI:33698; CHEBI:42043; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:16991; CHEBI:43228;
+    CHEBI:44292; CHEBI:33806; CHEBI:43254; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:17568;
+    CHEBI:15288; CHEBI:9882; CHEBI:29373; CHEBI:44701; CHEBI:46375
+
+    KEGG IDs: KEGG:C00106; KEGG:C00001; KEGG:C00039; KEGG:C03484'
+measurements:
+- id: measurement_3_2_2_27_bovine_P13051_DNA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 50 mM Tris-HCl, 1 mM EDTA, 50 mM NaCl, 0.1 mg/ml bovine serum albumin
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 47870
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16306042/
+  pubmed_id: '16306042'
+  doi: null

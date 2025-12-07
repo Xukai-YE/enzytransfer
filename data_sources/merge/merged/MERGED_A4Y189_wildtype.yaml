@@ -1,0 +1,253 @@
+version: '2.0'
+created: '2025-11-20T13:41:30.784726'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_2_1_116_A4Y189_p47704
+  name: 3-hydroxypropionyl-CoA dehydratase
+  ecnumber: 4.2.1.116
+  organism: Metallosphaera sedula
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: A4Y189
+  wildtype_sequence: MQQLNPSEISEIIKQRIESLDVTAQARNEGTIVSVSDGIVRIYGLADVMYGEMIEFPGGVYGMALNLEQDSVGAVVLGSYLTLAEGMSAKCTGRILEVPVGPELLGRVVDALGNPIDGKGPINAAASDAVEKVAPGVIWRKSVDQPVQTGYKSVDAMIPVGRGQRELIIGDRQIGKTALAVDAIINQKDSGIRCVYVAIGQKQSTIANVVRKLEEAGALANTIVVAASASESAALQFLAPYAGCTMGEYFRDRGEDALIVYDDLSKQAVAYRQISLLLRRPPGREAYPGDVFYLHSRLLERASRVSEEYVEKFTNGAVKGKTGSLTALPIIETQAGDVSAFVPTNVISITDGQIFLESAMFNSGIRPAVNAGISVSRVGGAAQTKIIKKLSGGIRTALAQYRELAAFAQFASDLDEATRKQLEHGQRVTELMKQKQYAPMSIAEMSVSLYAAERGFLQDVEVAKVISFEQALIAFFKRDHADLMAKINEKGDFNDEIDAGLKAGIEKFKATQTW
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_3-Hydroxypropanoyl-CoA
+  name: 3-Hydroxypropanoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Acryloyl-CoA
+  name: Acryloyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate__S_-3-Hydroxybutanoyl-CoA
+  name: (S)-3-Hydroxybutanoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Crotonoyl-CoA
+  name: Crotonoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2892_EC4_2_1_116_Metallosphaera_sedula_A4Y189_3-Hydroxypropanoyl-CoA
+  name: Reaction catalyzed by 3-hydroxypropionyl-CoA dehydratase on 3-Hydroxypropanoyl-CoA
+  equation: 3-Hydroxypropanoyl-CoA = H2O + Acryloyl-CoA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3-Hydroxypropanoyl-CoA
+  products:
+  - species_id: product_Acryloyl-CoA
+  modifiers:
+  - species_id: protein_4_2_1_116_A4Y189_p47704
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 26518;26519;26520;26521
+  KEGGid: R03045
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:15513; CHEBI:44819; CHEBI:41981; CHEBI:26301;
+    CHEBI:42857; CHEBI:41979; CHEBI:57367; CHEBI:27762; CHEBI:42043; CHEBI:33811;
+    CHEBI:20080; CHEBI:1554; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:13722;
+    CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:8488;
+    CHEBI:58528; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00894; KEGG:C00001; KEGG:C05668; KEGG:C04047'
+- id: sabiork_2876_EC4_2_1_116_Metallosphaera_sedula_A4Y189__S_-3-Hydroxybutanoyl-CoA
+  name: Reaction catalyzed by 3-hydroxypropionyl-CoA dehydratase on (S)-3-Hydroxybutanoyl-CoA
+  equation: (S)-3-Hydroxybutanoyl-CoA = H2O + Crotonoyl-CoA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate__S_-3-Hydroxybutanoyl-CoA
+  products:
+  - species_id: product_Crotonoyl-CoA
+  modifiers:
+  - species_id: protein_4_2_1_116_A4Y189_p47705
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 26558;26559;26560;26561
+  KEGGid: R03026
+  notes: 'ChEBI IDs: CHEBI:57316; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:18749;
+    CHEBI:11531; CHEBI:42857; CHEBI:41979; CHEBI:57332; CHEBI:42043; CHEBI:15473;
+    CHEBI:23408; CHEBI:33811; CHEBI:36926; CHEBI:33813; CHEBI:27313; CHEBI:15377;
+    CHEBI:13352; CHEBI:394; CHEBI:15453; CHEBI:14032; CHEBI:43228; CHEBI:14031; CHEBI:44292;
+    CHEBI:33806; CHEBI:13921; CHEBI:58669; CHEBI:29374; CHEBI:5585; CHEBI:10743; CHEBI:11048;
+    CHEBI:3928; CHEBI:41612; CHEBI:39978; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00877; KEGG:C01144; KEGG:C00001'
+measurements:
+- id: measurement_4_2_1_116_Metallosphaera_sedula_A4Y189_3-Hydroxypropanoyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.6
+  temperature_opt: 65.0
+  temperature_unit: °C
+- id: measurement_4_2_1_116_Metallosphaera_sedula_A4Y189__S_-3-Hydroxybutanoyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.7
+  temperature_opt: 40.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 4_2_1_116_Metallosphaera_sedula_A4Y189_3-Hydroxypropanoyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Hydroxypropanoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.6
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19429610'
+- id: 4_2_1_116_Metallosphaera_sedula_A4Y189_3-Hydroxypropanoyl-CoA_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.0031
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Hydroxypropanoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.6
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19429610'
+- id: 4_2_1_116_Metallosphaera_sedula_A4Y189_3-Hydroxypropanoyl-CoA_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 96.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Hydroxypropanoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.6
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19429610'
+- id: 4_2_1_116_Metallosphaera_sedula_A4Y189__S_-3-Hydroxybutanoyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__S_-3-Hydroxybutanoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.7
+  temperature: 40.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19429610'
+- id: 4_2_1_116_Metallosphaera_sedula_A4Y189__S_-3-Hydroxybutanoyl-CoA_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000566667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__S_-3-Hydroxybutanoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.7
+  temperature: 40.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19429610'
+buffer:
+  buffer: 100 mM MOPS-NaOH, 20 mM MgCl2, 0.5 mM NADPH, 30 mM NaHCO3, 10 U/ml recombinant
+    Crotonyl-CoA carboxylase/reductase from Rhodobacter sphaeroides; 100 mM Tris-HCl,
+    20 mM MgCl2, 3 mM ATP, 0.1 mM CoA, 0.5 mM NADPH, 1 mM 3-Hydroxypropionate, 0.2
+    U/ml recombinant 3-Hydroxypropionyl-CoA synthetase, 0.4 U/ml recombinant Acryloyl-CoA
+    reductase
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 47704
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/19429610/
+  pubmed_id: '19429610'
+  doi: null
+name: Merged entry for A4Y189 wildtype
+description: 'Merged from 2 files: SABIO_EC4.2.1.116_Metallosphaera_sedula__A4Y189_s_3-Hydroxypropanoyl-C.yaml,
+  SABIO_EC4.2.1.116_Metallosphaera_sedula__A4Y189_s__S_-3-Hydroxybutanoy.yaml'

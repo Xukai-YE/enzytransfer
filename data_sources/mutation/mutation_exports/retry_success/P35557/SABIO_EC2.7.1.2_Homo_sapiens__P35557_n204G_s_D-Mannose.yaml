@@ -1,0 +1,159 @@
+name: SABIO-RK Entry 8778
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 8778
+created: '2025-10-28T13:54:37.876723'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_2_P35557_p8778
+  name: hexokinase
+  sequence: null
+  ecnumber: 2.7.1.2
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: n204G
+  uniprotid: P35557
+  mutant_sequence: MLDDRARMEAAKKEKVEQILAEFQLQEEDLKKVMRRMQKEMDRGLRLETHEEASVKMLPTYVRSTPEGSEVGDFLSLDLGGTNFRVMLVKVGEGEEGQWSVKTKHQMYSIPEDAMTGTAEMLFDYISECISDFLDKHQMKHKKLPLGFTFSFPVRHEDIDKGILLNWTKGFKASGAEGNNVVGLLRDAIKRRGDFEMDVVAMVGDTVATMISCYYEDHQCEVGMIVGTGCNACYMEEMQNVELVEGDEGRMCVNTEWGAFGDSGELDEFLLEYDRLVDESSANPGQQLYEKLIGGKYMGELVRLVLLRLVDENLLFHGEASEQLRTRGAFETRFVSQVESDTGDRKQIYNILSTLGLRPSTTDCDIVRRACESVSTRAAHMCSAGLAGVINRMRESRSEDVMRITVGVDGSVYKLHPSFKERFHASVRRLTPSCEITFIESEEGSGRGAALVSAVACKKACMLGQ
+  position_offset: 0
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_D-Mannose
+  name: D-Mannose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Mannose_6-phosphate
+  name: D-Mannose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_575_EC2_7_1_2_Homo_sapiens_P35557_D-Mannose
+  name: Reaction catalyzed by hexokinase on D-Mannose
+  equation: D-Mannose + ATP = ADP + D-Mannose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Mannose
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_D-Mannose_6-phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_2_P35557_p8778
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01326
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:40553; CHEBI:10260; CHEBI:28729; CHEBI:13236; CHEBI:10841; CHEBI:2359; CHEBI:22403;
+    CHEBI:87518; CHEBI:40938; CHEBI:17369; CHEBI:37684; CHEBI:456216; CHEBI:60332;
+    CHEBI:4208; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:12328; CHEBI:43894; CHEBI:48066;
+    CHEBI:16024; CHEBI:43896; CHEBI:43805; CHEBI:13222; CHEBI:22244
+
+    KEGG IDs: KEGG:C00936; KEGG:C00002; KEGG:C00159; KEGG:C00008; KEGG:C00275'
+measurements:
+- id: measurement_2_7_1_2_Homo_sapiens_P35557_D-Mannose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 2_7_1_2_Homo_sapiens_P35557_D-Mannose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 5.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Mannose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7961659'
+buffer:
+  buffer: 100 mM Tris HCl, 100 mM KCl, 20 mM MgCl2, 0.6 mM phosphoenolpyruvate, 0.6
+    mM NADH, 1.76 units/ml lactate dehydrogenase, 1.4 units/ml pyruvate kinase
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 8778
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/7961659/
+  pubmed_id: '7961659'
+  doi: null

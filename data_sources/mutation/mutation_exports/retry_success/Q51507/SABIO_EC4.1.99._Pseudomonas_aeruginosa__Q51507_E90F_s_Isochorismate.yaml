@@ -1,0 +1,163 @@
+name: SABIO-RK Entry 5792
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 5792
+created: '2025-10-28T13:49:48.530785'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_1_99__Q51507_p5792
+  name: Other carbon-carbon lyases
+  ecnumber: 4.1.99.
+  organism: Pseudomonas aeruginosa
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: E90F
+  uniprotid: Q51507
+  wildtype_sequence: MKTPEDCTGLADIREAIDRIDLDIVQALGRRMDYVKAASRFKASEAAIPAPERVAAMLPERARWAEENGLDAPFVEGLFAQIIHWYIAEQIKYWRQTRGAA
+  mutant_sequence: MKTPEDCTGLADIREAIDRIDLDIVQALGRRMDYVKAASRFKASEAAIPAPERVAAMLPERARWAEENGLDAPFVEGLFAQIIHWYIAFQIKYWRQTRGAA
+  position_offset: -1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Isochorismate
+  name: Isochorismate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Pyruvate
+  name: Pyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Salicylate
+  name: Salicylate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_6177_EC4_1_99__Pseudomonas_aeruginosa_Q51507_Isochorismate
+  name: Reaction catalyzed by Other carbon-carbon lyases on Isochorismate
+  equation: Isochorismate = Pyruvate + Salicylate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Isochorismate
+  products:
+  - species_id: product_Pyruvate
+  - species_id: product_Salicylate
+  modifiers:
+  - species_id: protein_4_1_99__Q51507_p5792
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 27874;27875;27876;27877
+  KEGGid: R06602
+  notes: 'ChEBI IDs: CHEBI:30762; CHEBI:45521; CHEBI:5997; CHEBI:26597; CHEBI:14987;
+    CHEBI:15061; CHEBI:29780; CHEBI:15361; CHEBI:17582; CHEBI:24883; CHEBI:26466;
+    CHEBI:16914; CHEBI:14464; CHEBI:26462; CHEBI:8685; CHEBI:26595; CHEBI:32816; CHEBI:9006;
+    CHEBI:45253
+
+    KEGG IDs: KEGG:C00022; KEGG:C00805; KEGG:C00885'
+measurements:
+- id: measurement_4_1_99__Pseudomonas_aeruginosa_Q51507_Isochorismate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 4_1_99__Pseudomonas_aeruginosa_Q51507_Isochorismate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.39
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Isochorismate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16036918'
+- id: 4_1_99__Pseudomonas_aeruginosa_Q51507_Isochorismate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 300000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Isochorismate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16036918'
+buffer:
+  buffer: 50 mM potassium phosphate
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 5792
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16036918/
+  pubmed_id: '16036918'
+  doi: null

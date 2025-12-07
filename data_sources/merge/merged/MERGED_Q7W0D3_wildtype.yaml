@@ -1,0 +1,242 @@
+version: '2.0'
+created: '2025-11-20T13:41:36.653624'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_2_99__Q7W0D3_p73521
+  name: Other carbon-oxygen lyases
+  ecnumber: 4.2.99.
+  organism: Bordetella pertussis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q7W0D3
+  wildtype_sequence: MNQVEMTEFPVGKPEEALYGVASTPDGALWFTLAKGNAIGRLSPDGEVSRFPLPHADGQPTTITCGPDGRPWFTLSSANAVGRLSPDGALRMFELPRPASRPFGIAAGHDGCLWFAEMAGDRIGRITIDGDIEEYDLPVKGGYPSCMAAGRDGLMWFTLNQAGAIGSISATAAPRIFPLGAADAAPVGIASDAQGALWIAQAGNGAIARFDAGGRITEFPLHSRAARPHALAADAAGNLWFTEWGANRIGRISEAGDTAGYELAAPGSEPHGIAIDPHGCVWAALETGSLVRLQASPRD
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Quinupristin
+  name: Quinupristin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mg2_
+  name: Mg2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_linearized_Quinupristin
+  name: linearized Quinupristin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_16131_EC4_2_99__Bordetella_pertussis_Q7W0D3_Quinupristin
+  name: Reaction catalyzed by Other carbon-oxygen lyases on Quinupristin
+  equation: Quinupristin = linearized Quinupristin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Quinupristin
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_linearized_Quinupristin
+  modifiers:
+  - species_id: protein_4_2_99__Q7W0D3_p73521
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:49736; CHEBI:13379; CHEBI:25112; CHEBI:6635; CHEBI:39127;
+    CHEBI:18420
+
+    KEGG IDs: KEGG:C08032; KEGG:C00305'
+- id: sabiork_16131_EC4_2_99__Bordetella_pertussis_Q7W0D3_Quinupristin
+  name: Reaction catalyzed by Other carbon-oxygen lyases on Quinupristin
+  equation: Quinupristin = linearized Quinupristin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Quinupristin
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_linearized_Quinupristin
+  modifiers:
+  - species_id: protein_4_2_99__Q7W0D3_p73522
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:49736; CHEBI:13379; CHEBI:25112; CHEBI:6635; CHEBI:39127;
+    CHEBI:18420
+
+    KEGG IDs: KEGG:C08032; KEGG:C00305'
+measurements:
+- id: measurement_4_2_99__Bordetella_pertussis_Q7W0D3_Quinupristin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_4_2_99__Bordetella_pertussis_Q7W0D3_Quinupristin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 4_2_99__Bordetella_pertussis_Q7W0D3_Quinupristin_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.3
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Quinupristin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11467949'
+- id: 4_2_99__Bordetella_pertussis_Q7W0D3_Quinupristin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.1e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Quinupristin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11467949'
+- id: 4_2_99__Bordetella_pertussis_Q7W0D3_Quinupristin_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 9600.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Quinupristin
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11467949'
+- id: 4_2_99__Bordetella_pertussis_Q7W0D3_Quinupristin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.3e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Quinupristin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11467949'
+- id: 4_2_99__Bordetella_pertussis_Q7W0D3_Quinupristin_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 5700.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Quinupristin
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11467949'
+- id: 4_2_99__Bordetella_pertussis_Q7W0D3_Quinupristin_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.2
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Quinupristin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11467949'
+buffer:
+  buffer: 50 mM HEPES
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 73521
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11467949/
+  pubmed_id: '11467949'
+  doi: null
+name: Merged entry for Q7W0D3 wildtype
+description: 'Merged from 2 files: SABIO_EC4.2.99._Bordetella_pertussis__Q7W0D3_s_Quinupristin.yaml,
+  SABIO_EC4.2.99._Bordetella_pertussis__Q7W0D3_s_Quinupristin_2.yaml'

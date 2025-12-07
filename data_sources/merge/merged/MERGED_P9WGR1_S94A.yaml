@@ -1,0 +1,238 @@
+version: '2.0'
+created: '2025-11-20T13:39:45.024074'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_3_1_9_P9WGR1_p20666
+  name: enoyl-[acyl-carrier-protein] reductase (NADH)
+  ecnumber: 1.3.1.9
+  organism: Mycobacterium tuberculosis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: S94A
+  uniprotid: P9WGR1
+  wildtype_sequence: MTGLLDGKRILVSGIITDSSIAFHIARVAQEQGAQLVLTGFDRLRLIQRITDRLPAKAPLLELDVQNEEHLASLAGRVTEAIGAGNKLDGVVHSIGFMPQTGMGINPFFDAPYADVSKGIHISAYSYASMAKALLPIMNPGGSIVGMDFDPSRAMPAYNWMTVAKSALESVNRFVAREAGKYGVRSNLVAAGPIRTLAMSAIVGGALGEEAGAQIQLLEEGWDQRAPIGWNMKDATPVAKTVCALLSDWLPATTGDIIYADGGAHTQLL
+  mutant_sequence: MTGLLDGKRILVSGIITDSSIAFHIARVAQEQGAQLVLTGFDRLRLIQRITDRLPAKAPLLELDVQNEEHLASLAGRVTEAIGAGNKLDGVVHAIGFMPQTGMGINPFFDAPYADVSKGIHISAYSYASMAKALLPIMNPGGSIVGMDFDPSRAMPAYNWMTVAKSALESVNRFVAREAGKYGVRSNLVAAGPIRTLAMSAIVGGALGEEAGAQIQLLEEGWDQRAPIGWNMKDATPVAKTVCALLSDWLPATTGDIIYADGGAHTQLL
+complexes: null
+small_molecules:
+- id: substrate_2-trans-Dodecenoyl-CoA
+  name: 2-trans-Dodecenoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Isoniazid-NAD
+  name: Isoniazid-NAD
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Lauroyl-CoA
+  name: Lauroyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7035_EC1_3_1_9_Mycobacterium_tuberculosis_P9WGR1_2-trans-Dodecenoyl-CoA
+  name: Reaction catalyzed by enoyl-[acyl-carrier-protein] reductase (NADH) on 2-trans-Dodecenoyl-CoA
+  equation: H+ + NADH + 2-trans-Dodecenoyl-CoA = NAD+ + Lauroyl-CoA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2-trans-Dodecenoyl-CoA
+  - species_id: substrate_NADH
+  - species_id: cofactor_Isoniazid-NAD
+  products:
+  - species_id: product_NAD_
+  - species_id: product_Lauroyl-CoA
+  modifiers:
+  - species_id: protein_1_3_1_9_P9WGR1_p20666
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 45408;45409;45410;45411
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:57375; CHEBI:44281; CHEBI:15471; CHEBI:13393; CHEBI:29234;
+    CHEBI:15846; CHEBI:14501; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901;
+    CHEBI:15521; CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:25014; CHEBI:5584; CHEBI:13394;
+    CHEBI:57945; CHEBI:14188; CHEBI:44216; CHEBI:57540; CHEBI:7423; CHEBI:13389; CHEBI:15378;
+    CHEBI:13395; CHEBI:41874; CHEBI:6392; CHEBI:10744; CHEBI:44215; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C03221; KEGG:C00003; KEGG:C01832; KEGG:C00004'
+- id: sabiork_7035_EC1_3_1_9_Mycobacterium_tuberculosis_P9WGR1_2-trans-Dodecenoyl-CoA
+  name: Reaction catalyzed by enoyl-[acyl-carrier-protein] reductase (NADH) on 2-trans-Dodecenoyl-CoA
+  equation: H+ + NADH + 2-trans-Dodecenoyl-CoA = NAD+ + Lauroyl-CoA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2-trans-Dodecenoyl-CoA
+  - species_id: substrate_NADH
+  - species_id: cofactor_Isoniazid-NAD
+  products:
+  - species_id: product_Lauroyl-CoA
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_3_1_9_P9WGR1_p20663
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 45408;45409;45410;45411
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:57375; CHEBI:44281; CHEBI:15471; CHEBI:13393; CHEBI:29234;
+    CHEBI:15846; CHEBI:14501; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901;
+    CHEBI:15521; CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:25014; CHEBI:5584; CHEBI:13394;
+    CHEBI:57945; CHEBI:14188; CHEBI:44216; CHEBI:57540; CHEBI:7423; CHEBI:13389; CHEBI:15378;
+    CHEBI:13395; CHEBI:41874; CHEBI:6392; CHEBI:10744; CHEBI:44215; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C03221; KEGG:C00003; KEGG:C01832; KEGG:C00004'
+measurements:
+- id: measurement_1_3_1_9_Mycobacterium_tuberculosis_P9WGR1_2-trans-Dodecenoyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_3_1_9_Mycobacterium_tuberculosis_P9WGR1_2-trans-Dodecenoyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_3_1_9_Mycobacterium_tuberculosis_P9WGR1_2-trans-Dodecenoyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000104
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-trans-Dodecenoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14623976'
+- id: 1_3_1_9_Mycobacterium_tuberculosis_P9WGR1_2-trans-Dodecenoyl-CoA_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00025
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-trans-Dodecenoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14623976'
+- id: 1_3_1_9_Mycobacterium_tuberculosis_P9WGR1_2-trans-Dodecenoyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00025
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-trans-Dodecenoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14623976'
+- id: 1_3_1_9_Mycobacterium_tuberculosis_P9WGR1_2-trans-Dodecenoyl-CoA_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000104
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-trans-Dodecenoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14623976'
+buffer:
+  buffer: 100 mM Na2HPO4
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 20666
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/14623976/
+  pubmed_id: '14623976'
+  doi: null
+name: Merged entry for P9WGR1 S94A
+description: 'Merged from 2 files: SABIO_EC1.3.1.9_Mycobacterium_tuberculosis__P9WGR1_S94A_s_2-trans-Dodecenoyl-C_2.yaml,
+  SABIO_EC1.3.1.9_Mycobacterium_tuberculosis__P9WGR1_S94A_s_2-trans-Dodecenoyl-C.yaml'

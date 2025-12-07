@@ -1,0 +1,138 @@
+name: SABIO-RK Entry 21180
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 21180
+created: '2025-10-28T14:17:34.703302'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_5_2_6_P00809_p21180
+  name: beta-lactamase
+  ecnumber: 3.5.2.6
+  organism: Bacillus cereus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: E166C
+  uniprotid: P00809
+  wildtype_sequence: MILKNKRMLKIGICVGILGLSITSLEAFTGESLQVEAKEKTGQVKHKNQATHKEFSQLEKKFDARLGVYAIDTGTNQTISYRPNERFAFASTYKALAAGVLLQQNSIDSLNEVITYTKEDLVDYSPVTEKHVDTGMKLGEIAEAAVRSSDNTAGNILFNKIGGPKGYEKALRHMGDRITMSNRFETELNEAIPGDIRDTSTAKAIATNLKAFTVGNALPAEKRKILTEWMKGNATGDKLIRAGIPTDWVVGDKSGAGSYGTRNDIAVVWPPNSAPIIVLISSKDEKEAIYNDQLIAEATKVIVKGS
+  mutant_sequence: MILKNKRMLKIGICVGILGLSITSLEAFTGESLQVEAKEKTGQVKHKNQATHKEFSQLEKKFDARLGVYAIDTGTNQTISYRPNERFAFASTYKALAAGVLLQQNSIDSLNEVITYTKEDLVDYSPVTEKHVDTGMKLGEIAEAAVRSSDNTAGNILFNKIGGPKGYCKALRHMGDRITMSNRFETELNEAIPGDIRDTSTAKAIATNLKAFTVGNALPAEKRKILTEWMKGNATGDKLIRAGIPTDWVVGDKSGAGSYGTRNDIAVVWPPNSAPIIVLISSKDEKEAIYNDQLIAEATKVIVKGS
+  position_offset: 2
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_6-Aminopenicillanate
+  name: 6-Aminopenicillanate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Substituted_beta-amino_acid
+  name: Substituted beta-amino acid
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_9896_EC3_5_2_6_Bacillus_cereus_P00809_6-Aminopenicillanate
+  name: Reaction catalyzed by beta-lactamase on 6-Aminopenicillanate
+  equation: 6-Aminopenicillanate + H2O = Substituted beta-amino acid
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_6-Aminopenicillanate
+  products:
+  - species_id: product_Substituted_beta-amino_acid
+  modifiers:
+  - species_id: protein_3_5_2_6_P00809_p21180
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:41979;
+    CHEBI:57869; CHEBI:42043; CHEBI:16705; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:13352; CHEBI:13690; CHEBI:30938; CHEBI:2172; CHEBI:43228; CHEBI:44292;
+    CHEBI:20704; CHEBI:20705; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:12207;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C02954; KEGG:C00001; KEGG:C03806'
+measurements:
+- id: measurement_3_5_2_6_Bacillus_cereus_P00809_6-Aminopenicillanate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 20.0
+  temperature_unit: °C
+parameters:
+- id: 3_5_2_6_Bacillus_cereus_P00809_6-Aminopenicillanate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000127
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_6-Aminopenicillanate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7910734'
+buffer:
+  buffer: 50 mM sodium phosphate, 0.5 M NaCl, 0.1 mM EDTA
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 21180
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/7910734/
+  pubmed_id: '7910734'
+  doi: null

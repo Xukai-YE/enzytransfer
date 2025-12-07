@@ -1,0 +1,305 @@
+version: '2.0'
+created: '2025-11-20T13:40:47.517384'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_7_24_P26393_p28974
+  name: glucose-1-phosphate thymidylyltransferase
+  ecnumber: 2.7.7.24
+  organism: Salmonella typhimurium
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P26393
+  wildtype_sequence: MKTRKGIILAGGSGTRLYPVTMAVSKQLLPIYDKPMIYYPLSTLMLAGIRDILIISTPQDTPRFQQLLGDGSQWGLNLQYKVQPSPDGLAQAFIIGEEFIGHDDCALVLGDNIFYGHDLPKLMEAAVNKESGATVFAYHVNDPERYGVVEFDQKGTAVSLEEKPLQPKSNYAVTGLYFYDNSVVEMAKNLKPSARGELEITDINRIYMEQGRLSVAMMGRGYAWLDTGTHQSLIEASNFIATIEERQGLKVSCPEEIAFRKNFINAQQVIELAGPLSKNDYGKYLLKMVKGL
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_dTDP-D-glucose
+  name: dTDP-D-glucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_dTTP
+  name: dTTP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_alpha-D-Glucose_1-phosphate
+  name: alpha-D-Glucose 1-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_alpha-D-Glucose_1-phosphate
+  name: alpha-D-Glucose 1-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_dTTP
+  name: dTTP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_dTDP-D-glucose
+  name: dTDP-D-glucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_8935_EC2_7_7_24_Salmonella_typhimurium_P26393_dTDP-D-glucose
+  name: Reaction catalyzed by glucose-1-phosphate thymidylyltransferase on dTDP-D-glucose
+  equation: alpha-D-Glucose 1-phosphate + dTTP = Diphosphate + dTDP-D-glucose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_dTDP-D-glucose
+  - species_id: substrate_Diphosphate
+  products:
+  - species_id: product_dTTP
+  - species_id: product_alpha-D-Glucose_1-phosphate
+  modifiers:
+  - species_id: protein_2_7_7_24_P26393_p28974
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02328
+  notes: 'ChEBI IDs: CHEBI:8683; CHEBI:10246; CHEBI:21004; CHEBI:37568; CHEBI:10530;
+    CHEBI:58601; CHEBI:42623; CHEBI:33019; CHEBI:35248; CHEBI:12970; CHEBI:45067;
+    CHEBI:14093; CHEBI:29888; CHEBI:46175; CHEBI:35782; CHEBI:18077; CHEBI:13420;
+    CHEBI:18361; CHEBI:12320; CHEBI:33017; CHEBI:27000; CHEBI:45208; CHEBI:18284;
+    CHEBI:58370; CHEBI:29042; CHEBI:45212; CHEBI:42009; CHEBI:33018
+
+    KEGG IDs: KEGG:C00103; KEGG:C00013; KEGG:C00842; KEGG:C00459'
+- id: sabiork_8935_EC2_7_7_24_Salmonella_typhimurium_P26393_alpha-D-Glucose_1-phosphate
+  name: Reaction catalyzed by glucose-1-phosphate thymidylyltransferase on alpha-D-Glucose
+    1-phosphate
+  equation: alpha-D-Glucose 1-phosphate + dTTP = Diphosphate + dTDP-D-glucose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_alpha-D-Glucose_1-phosphate
+  - species_id: substrate_dTTP
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_dTDP-D-glucose
+  modifiers:
+  - species_id: protein_2_7_7_24_P26393_p28975
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02328
+  notes: 'ChEBI IDs: CHEBI:8683; CHEBI:10246; CHEBI:21004; CHEBI:37568; CHEBI:10530;
+    CHEBI:58601; CHEBI:42623; CHEBI:33019; CHEBI:35248; CHEBI:12970; CHEBI:14093;
+    CHEBI:45067; CHEBI:29888; CHEBI:46175; CHEBI:35782; CHEBI:18077; CHEBI:13420;
+    CHEBI:12320; CHEBI:18361; CHEBI:33017; CHEBI:27000; CHEBI:18284; CHEBI:45208;
+    CHEBI:58370; CHEBI:29042; CHEBI:45212; CHEBI:42009; CHEBI:33018
+
+    KEGG IDs: KEGG:C00842; KEGG:C00459; KEGG:C00103; KEGG:C00013'
+measurements:
+- id: measurement_2_7_7_24_Salmonella_typhimurium_P26393_dTDP-D-glucose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_7_7_24_Salmonella_typhimurium_P26393_alpha-D-Glucose_1-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_7_24_Salmonella_typhimurium_P26393_dTDP-D-glucose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00015
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_dTDP-D-glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8382158'
+- id: 2_7_7_24_Salmonella_typhimurium_P26393_dTDP-D-glucose_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 8.3e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_dTDP-D-glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8382158'
+- id: 2_7_7_24_Salmonella_typhimurium_P26393_dTDP-D-glucose_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.005483333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_dTDP-D-glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8382158'
+- id: 2_7_7_24_Salmonella_typhimurium_P26393_alpha-D-Glucose_1-phosphate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000911667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_alpha-D-Glucose_1-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8382158'
+- id: 2_7_7_24_Salmonella_typhimurium_P26393_alpha-D-Glucose_1-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_alpha-D-Glucose_1-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8382158'
+- id: 2_7_7_24_Salmonella_typhimurium_P26393_alpha-D-Glucose_1-phosphate_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00011
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_alpha-D-Glucose_1-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8382158'
+buffer:
+  buffer: 50 mM Tris-HCl, 12 mM MgCl2
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 28974
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/8382158/
+  pubmed_id: '8382158'
+  doi: null
+name: Merged entry for P26393 wildtype
+description: 'Merged from 2 files: SABIO_EC2.7.7.24_Salmonella_typhimurium__P26393_s_dTDP-D-glucose.yaml,
+  SABIO_EC2.7.7.24_Salmonella_typhimurium__P26393_s_alpha-D-Glucose.yaml'

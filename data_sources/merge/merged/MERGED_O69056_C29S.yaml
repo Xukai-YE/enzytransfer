@@ -1,0 +1,265 @@
+version: '2.0'
+created: '2025-11-20T13:39:49.292659'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_4_1_8_O69056_p36822
+  name: phenylalanine dehydrogenase
+  ecnumber: 1.4.1.8
+  organism: Streptomyces albus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: C29S
+  uniprotid: O69056
+  wildtype_sequence: MTDVTGAPADVLHTLFHSDQGGHEQVVLCQDRASGLKAVIALHSTALGPALGGTRFYPYANEAEAVADALNLARGMSYKNAMAGLEHGGGKAVIIGDPEQIKSEELLLAYGRFVASLGGRYVTACDVGTYVADMDVVARECRWTTGRSPENGGAGDSSVLTSFGVYQGMRAAAQHLWGDPTLRDRTVGIAGVGKVGHHLVEHLLAEGAHVVVTDVRKDVVRSLTERHPSVVAVADTDALIRVENLDIYAPCALGGALNDETVPVLTAKVVCGAANNQLAHPGVEKDLADRGILYAPDYVVNAGGVIQVADELHGFDFDRCKAKAAKIYDTTLAIFARAKEDGIPPAAAADRIAEQRMAEARARR
+  mutant_sequence: MTDVTGAPADVLHTLFHSDQGGHEQVVLSQDRASGLKAVIALHSTALGPALGGTRFYPYANEAEAVADALNLARGMSYKNAMAGLEHGGGKAVIIGDPEQIKSEELLLAYGRFVASLGGRYVTACDVGTYVADMDVVARECRWTTGRSPENGGAGDSSVLTSFGVYQGMRAAAQHLWGDPTLRDRTVGIAGVGKVGHHLVEHLLAEGAHVVVTDVRKDVVRSLTERHPSVVAVADTDALIRVENLDIYAPCALGGALNDETVPVLTAKVVCGAANNQLAHPGVEKDLADRGILYAPDYVVNAGGVIQVADELHGFDFDRCKAKAAKIYDTTLAIFARAKEDGIPPAAAADRIAEQRMAEARARR
+complexes: null
+small_molecules:
+- id: substrate_L-Valine
+  name: L-Valine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NH3
+  name: NH3
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_alpha-Ketovaline
+  name: alpha-Ketovaline
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1619_EC1_4_1_8_Streptomyces_albus_O69056_L-Valine
+  name: Reaction catalyzed by phenylalanine dehydrogenase on L-Valine
+  equation: H2O + L-Valine + NAD+ = NH3 + NADH + alpha-Ketovaline + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Valine
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_NH3
+  - species_id: product_NADH
+  - species_id: product_alpha-Ketovaline
+  modifiers:
+  - species_id: protein_1_4_1_8_O69056_p36822
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 30763;30764;30765;30766
+  KEGGid: R01434
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:16134; CHEBI:7434; CHEBI:46282; CHEBI:16414;
+    CHEBI:13396; CHEBI:21901; CHEBI:27266; CHEBI:87977; CHEBI:135980; CHEBI:5584;
+    CHEBI:32852; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:15378; CHEBI:44284;
+    CHEBI:44819; CHEBI:41981; CHEBI:32859; CHEBI:13405; CHEBI:13393; CHEBI:29234;
+    CHEBI:13357; CHEBI:42043; CHEBI:33811; CHEBI:15377; CHEBI:7435; CHEBI:49783; CHEBI:32860;
+    CHEBI:44404; CHEBI:57540; CHEBI:43228; CHEBI:44269; CHEBI:20115; CHEBI:13395;
+    CHEBI:29373; CHEBI:44701; CHEBI:44281; CHEBI:1584; CHEBI:30015; CHEBI:42857; CHEBI:41979;
+    CHEBI:44214; CHEBI:29233; CHEBI:22534; CHEBI:13394; CHEBI:27313; CHEBI:57762;
+    CHEBI:13771; CHEBI:16530; CHEBI:44292; CHEBI:13406; CHEBI:44215; CHEBI:46376;
+    CHEBI:10744; CHEBI:7422; CHEBI:16908; CHEBI:6321; CHEBI:46484; CHEBI:13407; CHEBI:15846;
+    CHEBI:21902; CHEBI:11851; CHEBI:24636; CHEBI:33813; CHEBI:22533; CHEBI:13352;
+    CHEBI:57945; CHEBI:44216; CHEBI:7423; CHEBI:13389; CHEBI:5585; CHEBI:21417; CHEBI:46418;
+    CHEBI:28938; CHEBI:43714; CHEBI:13186; CHEBI:32851
+
+    KEGG IDs: KEGG:C00141; KEGG:C00183; KEGG:C00014; KEGG:C00080; KEGG:C00001; KEGG:C01342;
+    KEGG:C16436; KEGG:C00003; KEGG:C00004'
+- id: sabiork_1619_EC1_4_1_8_Streptomyces_albus_O69056_NAD_
+  name: Reaction catalyzed by phenylalanine dehydrogenase on NAD+
+  equation: H2O + L-Valine + NAD+ = NH3 + NADH + alpha-Ketovaline + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_L-Valine
+  products:
+  - species_id: product_alpha-Ketovaline
+  - species_id: product_NH3
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_4_1_8_O69056_p36818
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 30763;30764;30765;30766
+  KEGGid: R01434
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:16134; CHEBI:7434; CHEBI:46282; CHEBI:16414;
+    CHEBI:13396; CHEBI:21901; CHEBI:27266; CHEBI:87977; CHEBI:135980; CHEBI:5584;
+    CHEBI:32852; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:15378; CHEBI:44284;
+    CHEBI:44819; CHEBI:41981; CHEBI:32859; CHEBI:13405; CHEBI:13393; CHEBI:29234;
+    CHEBI:13357; CHEBI:42043; CHEBI:33811; CHEBI:15377; CHEBI:7435; CHEBI:49783; CHEBI:32860;
+    CHEBI:44404; CHEBI:57540; CHEBI:43228; CHEBI:44269; CHEBI:20115; CHEBI:13395;
+    CHEBI:29373; CHEBI:44701; CHEBI:44281; CHEBI:1584; CHEBI:30015; CHEBI:42857; CHEBI:41979;
+    CHEBI:44214; CHEBI:29233; CHEBI:22534; CHEBI:13394; CHEBI:27313; CHEBI:57762;
+    CHEBI:16530; CHEBI:13771; CHEBI:44292; CHEBI:13406; CHEBI:44215; CHEBI:46376;
+    CHEBI:10744; CHEBI:7422; CHEBI:16908; CHEBI:6321; CHEBI:46484; CHEBI:13407; CHEBI:15846;
+    CHEBI:21902; CHEBI:11851; CHEBI:24636; CHEBI:33813; CHEBI:22533; CHEBI:13352;
+    CHEBI:57945; CHEBI:44216; CHEBI:7423; CHEBI:13389; CHEBI:5585; CHEBI:21417; CHEBI:46418;
+    CHEBI:28938; CHEBI:43714; CHEBI:13186; CHEBI:32851
+
+    KEGG IDs: KEGG:C00141; KEGG:C00183; KEGG:C00080; KEGG:C00014; KEGG:C00001; KEGG:C01342;
+    KEGG:C16436; KEGG:C00003; KEGG:C00004'
+measurements:
+- id: measurement_1_4_1_8_Streptomyces_albus_O69056_L-Valine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 10.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_4_1_8_Streptomyces_albus_O69056_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 10.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_4_1_8_Streptomyces_albus_O69056_L-Valine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 6.12
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Valine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 10.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16554717'
+- id: 1_4_1_8_Streptomyces_albus_O69056_L-Valine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 9.1e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Valine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 10.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16554717'
+- id: 1_4_1_8_Streptomyces_albus_O69056_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0008
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 10.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16554717'
+- id: 1_4_1_8_Streptomyces_albus_O69056_NAD__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 6.12
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 10.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16554717'
+buffer:
+  buffer: 100 mM Glycine-NaOH
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 36822
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16554717/
+  pubmed_id: '16554717'
+  doi: null
+name: Merged entry for O69056 C29S
+description: 'Merged from 2 files: SABIO_EC1.4.1.8_Streptomyces_albus__O69056_C29S_s_L-Valine.yaml,
+  SABIO_EC1.4.1.8_Streptomyces_albus__O69056_C29S_s_NAD_.yaml'

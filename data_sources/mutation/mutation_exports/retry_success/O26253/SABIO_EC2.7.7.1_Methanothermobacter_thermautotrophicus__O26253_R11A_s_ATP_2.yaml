@@ -1,0 +1,192 @@
+name: SABIO-RK Entry 8759
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 8759
+created: '2025-10-28T13:54:36.059089'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_7_1_O26253_p8759
+  name: nicotinamide-nucleotide adenylyltransferase
+  ecnumber: 2.7.7.1
+  organism: Methanothermobacter thermautotrophicus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: R11A
+  uniprotid: O26253
+  wildtype_sequence: MRGLLVGRMQPFHRGHLQVIKSILEEVDELIICIGSAQLSHSIRDPFTAGERVMMLTKALSENGIPASRYYIIPVQDIECNALWVGHIKMLTPPFDRVYSGNPLVQRLFSEDGYEVTAPPLFYRDRYSGTEVRRRMLDDGDWRSLLPESVVEVIDEINGVERIKHLAKKEVSELGGIS
+  mutant_sequence: MAGLLVGRMQPFHRGHLQVIKSILEEVDELIICIGSAQLSHSIRDPFTAGERVMMLTKALSENGIPASRYYIIPVQDIECNALWVGHIKMLTPPFDRVYSGNPLVQRLFSEDGYEVTAPPLFYRDRYSGTEVRRRMLDDGDWRSLLPESVVEVIDEINGVERIKHLAKKEVSELGGIS
+  position_offset: -9
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Nicotinamide_nucleotide
+  name: Nicotinamide nucleotide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_706_EC2_7_7_1_Methanothermobacter_thermautotrophicus_O26253_ATP
+  name: Reaction catalyzed by nicotinamide-nucleotide adenylyltransferase on ATP
+  equation: ATP + Nicotinamide nucleotide = NAD+ + Diphosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Nicotinamide_nucleotide
+  products:
+  - species_id: product_NAD_
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_2_7_7_1_O26253_p8759
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 21360;21361;21362;21363
+  KEGGid: R00137
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:14646; CHEBI:10789; CHEBI:57299;
+    CHEBI:7557; CHEBI:13409; CHEBI:8683; CHEBI:44281; CHEBI:22850; CHEBI:13393; CHEBI:33019;
+    CHEBI:15846; CHEBI:13236; CHEBI:45067; CHEBI:21901; CHEBI:14648; CHEBI:10841;
+    CHEBI:29888; CHEBI:44214; CHEBI:2359; CHEBI:35782; CHEBI:14649; CHEBI:10433; CHEBI:13394;
+    CHEBI:40938; CHEBI:13420; CHEBI:18361; CHEBI:16171; CHEBI:33017; CHEBI:25522;
+    CHEBI:45208; CHEBI:57540; CHEBI:22249; CHEBI:15422; CHEBI:13389; CHEBI:12397;
+    CHEBI:14647; CHEBI:45212; CHEBI:44215; CHEBI:42009; CHEBI:50383; CHEBI:7422; CHEBI:33018
+
+    KEGG IDs: KEGG:C00002; KEGG:C00013; KEGG:C00455; KEGG:C00003'
+measurements:
+- id: measurement_2_7_7_1_Methanothermobacter_thermautotrophicus_O26253_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 65.0
+  temperature_unit: °C
+parameters:
+- id: 2_7_7_1_Methanothermobacter_thermautotrophicus_O26253_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 3600.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12810729'
+- id: 2_7_7_1_Methanothermobacter_thermautotrophicus_O26253_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.5
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12810729'
+- id: 2_7_7_1_Methanothermobacter_thermautotrophicus_O26253_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00014
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12810729'
+buffer:
+  buffer: 50 mM Hepes, 5 mM MgCl2
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 8759
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12810729/
+  pubmed_id: '12810729'
+  doi: null

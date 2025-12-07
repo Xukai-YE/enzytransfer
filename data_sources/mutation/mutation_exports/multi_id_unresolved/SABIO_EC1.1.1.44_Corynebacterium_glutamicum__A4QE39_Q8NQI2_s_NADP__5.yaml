@@ -1,0 +1,180 @@
+name: SABIO-RK Entry 5202
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 5202
+created: '2025-10-28T13:49:03.774158'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_44_A4QE39_Q8NQI2_p5202
+  name: phosphogluconate dehydrogenase (decarboxylating)
+  sequence: null
+  ecnumber: 1.1.1.44
+  organism: Corynebacterium glutamicum
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: A4QE39; Q8NQI2
+complexes: null
+small_molecules:
+- id: substrate_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_6-Phospho-D-gluconate
+  name: 6-Phospho-D-gluconate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_AMP
+  name: AMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Ribulose_5-phosphate
+  name: D-Ribulose 5-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_108_EC1_1_1_44_Corynebacterium_glutamicum_A4QE39_Q8NQI2_NADP_
+  name: Reaction catalyzed by phosphogluconate dehydrogenase (decarboxylating) on
+    NADP+
+  equation: NADP+ + 6-Phospho-D-gluconate = CO2 + H+ + NADPH + D-Ribulose 5-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADP_
+  - species_id: substrate_6-Phospho-D-gluconate
+  - species_id: cofactor_ADP
+  - species_id: cofactor_AMP
+  - species_id: cofactor_ATP
+  products:
+  - species_id: product_NADPH
+  - species_id: product_D-Ribulose_5-phosphate
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_1_1_1_44_A4QE39_Q8NQI2_p5202
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 10116;10117;10118;10119
+  KEGGid: R01528
+  notes: 'ChEBI IDs: CHEBI:40510; CHEBI:47222; CHEBI:40786; CHEBI:5584; CHEBI:58759;
+    CHEBI:13285; CHEBI:456216; CHEBI:44286; CHEBI:15378; CHEBI:12232; CHEBI:13284;
+    CHEBI:13234; CHEBI:58349; CHEBI:57783; CHEBI:13235; CHEBI:12056; CHEBI:58121;
+    CHEBI:16761; CHEBI:26572; CHEBI:22242; CHEBI:13736; CHEBI:29234; CHEBI:3283; CHEBI:25523;
+    CHEBI:13357; CHEBI:40192; CHEBI:2356; CHEBI:13399; CHEBI:40938; CHEBI:13283; CHEBI:15422;
+    CHEBI:44409; CHEBI:48829; CHEBI:22244; CHEBI:30616; CHEBI:2231; CHEBI:10789; CHEBI:57299;
+    CHEBI:13397; CHEBI:13398; CHEBI:40553; CHEBI:4243; CHEBI:21903; CHEBI:44405; CHEBI:7425;
+    CHEBI:456215; CHEBI:40826; CHEBI:10841; CHEBI:29233; CHEBI:87518; CHEBI:13040;
+    CHEBI:13282; CHEBI:21904; CHEBI:18009; CHEBI:13400; CHEBI:10744; CHEBI:237958;
+    CHEBI:40726; CHEBI:22245; CHEBI:139538; CHEBI:7424; CHEBI:21088; CHEBI:16863;
+    CHEBI:13236; CHEBI:13018; CHEBI:16027; CHEBI:24636; CHEBI:2359; CHEBI:23011; CHEBI:37455;
+    CHEBI:33851; CHEBI:40282; CHEBI:16474; CHEBI:48928; CHEBI:2342; CHEBI:22249; CHEBI:13740;
+    CHEBI:16526; CHEBI:40721; CHEBI:13222; CHEBI:17363
+
+    KEGG IDs: KEGG:C00199; KEGG:C00005; KEGG:C00080; KEGG:C00002; KEGG:C00006; KEGG:C00011;
+    KEGG:C00008; KEGG:C00020; KEGG:C11037; KEGG:C00345'
+measurements:
+- id: measurement_1_1_1_44_Corynebacterium_glutamicum_A4QE39_Q8NQI2_NADP_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 50 mM Tes/KOH, 200 mM potassium glutamate
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 5202
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10848959/
+  pubmed_id: '10848959'
+  doi: null

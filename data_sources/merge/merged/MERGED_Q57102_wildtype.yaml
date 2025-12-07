@@ -1,0 +1,249 @@
+version: '2.0'
+created: '2025-11-20T13:40:02.961100'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_3_1_190_Q57102_p49500
+  name: acetoin dehydrogenase
+  ecnumber: 2.3.1.190
+  organism: Pelobacter carbinolicus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q57102
+  wildtype_sequence: MKTQLSKEDLLKAYRKMREIREFEDRVHVEFAKGTLPGFVHLYSGEEAVAVGVCSHLNDLDRIASTHRGHGHCIAKGVELEGMMAEIYGKKTGTCGGKGGSMHIADLDKGMMGANGIVGAGPPLIAGAALASKLRKDGSVGVVFFGDGASNQGTNFESMNFAVTLDLPMIFVLENNGYAESTSPKYSAKVGSDNIADRARGFGMPAVTVDGNDFFAVYEAAGEAIERARKGGGPTFIECKTMRYFGHFEGDAQTYRPKNEVKDARANDCPLKRFADAAISAGLVEAADIEAIDKDVLAQVEKAVKDAEVAPQPDMEALMADVYVSY
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_2
+  name: '2'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_6-Dichloroindophenol
+  name: 6-Dichloroindophenol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Acetoin
+  name: Acetoin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Acetate
+  name: Acetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Reduced_2
+  name: Reduced 2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_6-dichlorophenolindophenol
+  name: 6-dichlorophenolindophenol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Acetaldehyde
+  name: Acetaldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Thiamine_diphosphate
+  name: Thiamine diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_13431_EC2_3_1_190_Pelobacter_carbinolicus_Q57102_2
+  name: Reaction catalyzed by acetoin dehydrogenase on 2
+  equation: H2O + Acetoin + 2,6-Dichloroindophenol = Acetate + Acetaldehyde + Reduced
+    2,6-dichlorophenolindophenol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2
+  - species_id: substrate_6-Dichloroindophenol
+  - species_id: substrate_Acetoin
+  products:
+  - species_id: product_Acetate
+  - species_id: product_Reduced_2
+  - species_id: product_6-dichlorophenolindophenol
+  - species_id: product_Acetaldehyde
+  modifiers:
+  - species_id: protein_2_3_1_190_Q57102_p49500
+    role: BIOCATALYST
+  - species_id: activator_Thiamine_diphosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:40480; CHEBI:44819; CHEBI:41981; CHEBI:15688;
+    CHEBI:11831; CHEBI:13704; CHEBI:15366; CHEBI:42857; CHEBI:41979; CHEBI:40486;
+    CHEBI:13707; CHEBI:22169; CHEBI:2387; CHEBI:945; CHEBI:42043; CHEBI:30089; CHEBI:40533;
+    CHEBI:2383; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:9532; CHEBI:15377; CHEBI:15343;
+    CHEBI:13352; CHEBI:13703; CHEBI:49939; CHEBI:22165; CHEBI:2397; CHEBI:43228; CHEBI:22158;
+    CHEBI:45930; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:45931;
+    CHEBI:22181; CHEBI:58937; CHEBI:29373; CHEBI:44701; CHEBI:15229
+
+    KEGG IDs: KEGG:C05720; KEGG:C00084; KEGG:C00466; KEGG:C00102; KEGG:C00001; KEGG:C00033;
+    KEGG:C00068'
+- id: sabiork_13431_EC2_3_1_190_Pelobacter_carbinolicus_Q57102_2
+  name: Reaction catalyzed by acetoin dehydrogenase on 2
+  equation: H2O + Acetoin + 2,6-Dichloroindophenol = Acetate + Acetaldehyde + Reduced
+    2,6-dichlorophenolindophenol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2
+  - species_id: substrate_6-Dichloroindophenol
+  - species_id: substrate_Acetoin
+  products:
+  - species_id: product_Acetate
+  - species_id: product_Acetaldehyde
+  - species_id: product_Reduced_2
+  - species_id: product_6-dichlorophenolindophenol
+  modifiers:
+  - species_id: protein_2_3_1_190_Q57102_p49499
+    role: BIOCATALYST
+  - species_id: activator_Thiamine_diphosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:40480; CHEBI:44819; CHEBI:41981; CHEBI:15688;
+    CHEBI:11831; CHEBI:13704; CHEBI:15366; CHEBI:42857; CHEBI:41979; CHEBI:40486;
+    CHEBI:13707; CHEBI:22169; CHEBI:2387; CHEBI:945; CHEBI:42043; CHEBI:30089; CHEBI:40533;
+    CHEBI:2383; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:9532; CHEBI:15377; CHEBI:15343;
+    CHEBI:13352; CHEBI:13703; CHEBI:49939; CHEBI:22165; CHEBI:2397; CHEBI:43228; CHEBI:22158;
+    CHEBI:45930; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:45931;
+    CHEBI:22181; CHEBI:58937; CHEBI:29373; CHEBI:44701; CHEBI:15229
+
+    KEGG IDs: KEGG:C05720; KEGG:C00084; KEGG:C00466; KEGG:C00102; KEGG:C00001; KEGG:C00033;
+    KEGG:C00068'
+measurements:
+- id: measurement_2_3_1_190_Pelobacter_carbinolicus_Q57102_2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: null
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_2_3_1_190_Pelobacter_carbinolicus_Q57102_2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: null
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_3_1_190_Pelobacter_carbinolicus_Q57102_2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.05e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1898934'
+- id: 2_3_1_190_Pelobacter_carbinolicus_Q57102_2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.7e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1898934'
+buffer:
+  buffer: null
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 49500
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/1898934/
+  pubmed_id: '1898934'
+  doi: null
+name: Merged entry for Q57102 wildtype
+description: 'Merged from 2 files: SABIO_EC2.3.1.190_Pelobacter_carbinolicus__Q57102_s_2_2.yaml,
+  SABIO_EC2.3.1.190_Pelobacter_carbinolicus__Q57102_s_2.yaml'

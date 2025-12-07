@@ -1,0 +1,191 @@
+name: SABIO-RK Entry 6747
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 6747
+created: '2025-10-28T13:50:56.569106'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_8_1_1_P97532_p6747
+  name: thiosulfate sulfurtransferase
+  ecnumber: 2.8.1.1
+  organism: Rattus norvegicus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: R196G
+  uniprotid: P97532
+  wildtype_sequence: MAAPQLFRALVSAQWVAEALKSPRASQPLKLLDASWYLPKLGRDARREFEERHIPGAAFFDIDRCSDHTSPYDHMLPSATHFADYAGSLGVSAATHVVIYDGSDQGLYSAPRVWWMFRAFGHHSVSLLDGGFRYWLSQNLPISSGKSPSEPAEFCAQLDPSFIKTHEDILENLDARRFQVVDARAAGRFQGTQPEPRDGIEPGHIPGSVNIPFTEFLTSEGLEKSPEEIQRLFQEKKVDLSKPLVATCGSGVTACHVVLGAFLCGKPDVPVYDGSWVEWYMRAQPEHVISQGRGKTL
+  mutant_sequence: MAAPQLFRALVSAQWVAEALKSPRASQPLKLLDASWYLPKLGRDARREFEERHIPGAAFFDIDRCSDHTSPYDHMLPSATHFADYAGSLGVSAATHVVIYDGSDQGLYSAPRVWWMFRAFGHHSVSLLDGGFRYWLSQNLPISSGKSPSEPAEFCAQLDPSFIKTHEDILENLDARRFQVVDARAAGGFQGTQPEPRDGIEPGHIPGSVNIPFTEFLTSEGLEKSPEEIQRLFQEKKVDLSKPLVATCGSGVTACHVVLGAFLCGKPDVPVYDGSWVEWYMRAQPEHVISQGRGKTL
+  position_offset: -8
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Cyanide
+  name: Cyanide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Thiosulfate
+  name: Thiosulfate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Sulfite
+  name: Sulfite
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Thiocyanate
+  name: Thiocyanate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7692_EC2_8_1_1_Rattus_norvegicus_P97532_Cyanide
+  name: Reaction catalyzed by thiosulfate sulfurtransferase on Cyanide
+  equation: Thiosulfate + Cyanide = Sulfite + Thiocyanate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Cyanide
+  - species_id: substrate_Thiosulfate
+  products:
+  - species_id: product_Sulfite
+  - species_id: product_Thiocyanate
+  modifiers:
+  - species_id: protein_2_8_1_1_P97532_p6747
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 16881;16882;16883;16884
+  KEGGid: R01931
+  notes: 'ChEBI IDs: CHEBI:16094; CHEBI:15242; CHEBI:13367; CHEBI:48854; CHEBI:9344;
+    CHEBI:14038; CHEBI:5587; CHEBI:18407; CHEBI:33542; CHEBI:17514; CHEBI:29279; CHEBI:45922;
+    CHEBI:17359; CHEBI:45576; CHEBI:26956; CHEBI:15139; CHEBI:9569; CHEBI:41780; CHEBI:36826;
+    CHEBI:29200; CHEBI:5598; CHEBI:24926; CHEBI:9550; CHEBI:15234; CHEBI:26837; CHEBI:3969;
+    CHEBI:26954; CHEBI:33539; CHEBI:17137; CHEBI:48819; CHEBI:18022; CHEBI:45548
+
+    KEGG IDs: KEGG:C01326; KEGG:C11481; KEGG:C00320; KEGG:C00177; KEGG:C01755; KEGG:C05529;
+    KEGG:C00094'
+measurements:
+- id: measurement_2_8_1_1_Rattus_norvegicus_P97532_Cyanide
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 5.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 2_8_1_1_Rattus_norvegicus_P97532_Cyanide_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 30.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cyanide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8910318'
+- id: 2_8_1_1_Rattus_norvegicus_P97532_Cyanide_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.064
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cyanide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8910318'
+- id: 2_8_1_1_Rattus_norvegicus_P97532_Cyanide_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 466.6667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cyanide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8910318'
+buffer:
+  buffer: 40 mM NaH2PO4
+  buffer_concentration: 40 mM
+references:
+- title: Reference for SABIO-RK entry 6747
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/8910318/
+  pubmed_id: '8910318'
+  doi: null

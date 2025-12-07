@@ -1,0 +1,437 @@
+version: '2.0'
+created: '2025-11-20T13:40:00.074736'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_1_1__A0A6C0WW36_p77939
+  name: Methyltransferases
+  ecnumber: 2.1.1.
+  organism: Camellia assamica
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: A0A6C0WW36
+  wildtype_sequence: MELATRGKVKEVLFMNTGEGESSYVQNSSFTEKVASMAMPALENAVETLFSKDFHLFQAINAADLGCATGPNTFAVISTIKRMMEKKCRELNCQTLELQVYMNDLFGNDFNTLFKGLSSKVIGNKCEEVSCYVMGVPGSFHGRLFPRNSLHLVHSSYSVHWLTQAPKGLTSREGLALNKGRIYISKTSPPVVREAYLSQFHEDFTMFLNARSQEVVPNGCMVLILRGRQSSDPSDMQSCFIWELLAIAIAELVSQGLIDEDKLDTFNIPCYFPSLEEVKDIVERDGSFTIDHMEGFELDSLQMQENDKWVRGEKFAKIVRAFTEPIISNQFGHEIMDKLYDKFTHIVVSDLEAKLPKTTSIILVLSKIVG
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_1
+  name: '1'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_3
+  name: '3'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_7-Trimethyluric_acid
+  name: 7-Trimethyluric acid
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_S-Adenosyl-L-methionine
+  name: S-Adenosyl-L-methionine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Theacrine
+  name: Theacrine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_S-Adenosyl-L-homocysteine
+  name: S-Adenosyl-L-homocysteine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_7-Methylxanthine
+  name: 7-Methylxanthine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Theobromine
+  name: Theobromine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_16888_EC2_1_1__Camellia_assamica_A0A6C0WW36_1
+  name: Reaction catalyzed by Methyltransferases on 1
+  equation: S-Adenosyl-L-methionine + 1,3,7-Trimethyluric acid = S-Adenosyl-L-homocysteine
+    + Theacrine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_1
+  - species_id: substrate_3
+  - species_id: substrate_7-Trimethyluric_acid
+  - species_id: substrate_S-Adenosyl-L-methionine
+  products:
+  - species_id: product_Theacrine
+  - species_id: product_S-Adenosyl-L-homocysteine
+  modifiers:
+  - species_id: protein_2_1_1__A0A6C0WW36_p77939
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:22036; CHEBI:12760; CHEBI:12742; CHEBI:59789; CHEBI:67009;
+    CHEBI:45495; CHEBI:142094; CHEBI:8945; CHEBI:67040; CHEBI:45607; CHEBI:69162;
+    CHEBI:33442; CHEBI:15414; CHEBI:10833; CHEBI:12761; CHEBI:12741; CHEBI:57856;
+    CHEBI:16680; CHEBI:12759; CHEBI:8946; CHEBI:22034; CHEBI:139388; CHEBI:527887;
+    CHEBI:10786; CHEBI:12757
+
+    KEGG IDs: KEGG:C16361; KEGG:C00021; KEGG:C00019'
+- id: sabiork_14237_EC2_1_1__Camellia_assamica_A0A6C0WW36_7-Methylxanthine
+  name: Reaction catalyzed by caffeine synthase on 7-Methylxanthine
+  equation: S-Adenosyl-L-methionine + 7-Methylxanthine = S-Adenosyl-L-homocysteine
+    + Theobromine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_7-Methylxanthine
+  - species_id: substrate_S-Adenosyl-L-methionine
+  products:
+  - species_id: product_S-Adenosyl-L-homocysteine
+  - species_id: product_Theobromine
+  modifiers:
+  - species_id: protein_2_1_1__A0A6C0WW36_p77940
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 24604;24605;24606;24607
+  KEGGid: R07919
+  notes: 'ChEBI IDs: CHEBI:22036; CHEBI:12760; CHEBI:12742; CHEBI:59789; CHEBI:39914;
+    CHEBI:67009; CHEBI:45495; CHEBI:9521; CHEBI:28946; CHEBI:142094; CHEBI:8945; CHEBI:67040;
+    CHEBI:45607; CHEBI:33442; CHEBI:15414; CHEBI:10833; CHEBI:12761; CHEBI:12741;
+    CHEBI:57856; CHEBI:16680; CHEBI:12759; CHEBI:48991; CHEBI:26939; CHEBI:8946; CHEBI:22034;
+    CHEBI:527887; CHEBI:10786; CHEBI:12757
+
+    KEGG IDs: KEGG:C00021; KEGG:C07480; KEGG:C16353; KEGG:C00019'
+- id: sabiork_16888_EC2_1_1__Camellia_assamica_A0A6C0WW36_S-Adenosyl-L-methionine
+  name: Reaction catalyzed by Methyltransferases on S-Adenosyl-L-methionine
+  equation: S-Adenosyl-L-methionine + 1,3,7-Trimethyluric acid = S-Adenosyl-L-homocysteine
+    + Theacrine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_S-Adenosyl-L-methionine
+  - species_id: substrate_1
+  - species_id: substrate_3
+  - species_id: substrate_7-Trimethyluric_acid
+  products:
+  - species_id: product_S-Adenosyl-L-homocysteine
+  - species_id: product_Theacrine
+  modifiers:
+  - species_id: protein_2_1_1__A0A6C0WW36_p77941
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:22036; CHEBI:12760; CHEBI:12742; CHEBI:59789; CHEBI:67009;
+    CHEBI:45495; CHEBI:142094; CHEBI:8945; CHEBI:67040; CHEBI:45607; CHEBI:69162;
+    CHEBI:33442; CHEBI:15414; CHEBI:10833; CHEBI:12761; CHEBI:12741; CHEBI:57856;
+    CHEBI:16680; CHEBI:12759; CHEBI:8946; CHEBI:22034; CHEBI:139388; CHEBI:527887;
+    CHEBI:10786; CHEBI:12757
+
+    KEGG IDs: KEGG:C16361; KEGG:C00021; KEGG:C00019'
+measurements:
+- id: measurement_2_1_1__Camellia_assamica_A0A6C0WW36_1
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 27.0
+  temperature_unit: °C
+- id: measurement_2_1_1__Camellia_assamica_A0A6C0WW36_7-Methylxanthine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 27.0
+  temperature_unit: °C
+- id: measurement_2_1_1__Camellia_assamica_A0A6C0WW36_S-Adenosyl-L-methionine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 27.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_1_1__Camellia_assamica_A0A6C0WW36_1_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.853833e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 27.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '32193380'
+- id: 2_1_1__Camellia_assamica_A0A6C0WW36_1_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.68e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 27.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '32193380'
+- id: 2_1_1__Camellia_assamica_A0A6C0WW36_1_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 2440.17
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 27.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '32193380'
+- id: 2_1_1__Camellia_assamica_A0A6C0WW36_1_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.01142
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 27.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '32193380'
+- id: 2_1_1__Camellia_assamica_A0A6C0WW36_7-Methylxanthine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0002262
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_7-Methylxanthine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 27.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '32193380'
+- id: 2_1_1__Camellia_assamica_A0A6C0WW36_7-Methylxanthine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.00607
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_7-Methylxanthine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 27.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '32193380'
+- id: 2_1_1__Camellia_assamica_A0A6C0WW36_7-Methylxanthine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.518167e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_7-Methylxanthine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 27.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '32193380'
+- id: 2_1_1__Camellia_assamica_A0A6C0WW36_7-Methylxanthine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 26.83
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_7-Methylxanthine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 27.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '32193380'
+- id: 2_1_1__Camellia_assamica_A0A6C0WW36_S-Adenosyl-L-methionine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.1861
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 27.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '32193380'
+- id: 2_1_1__Camellia_assamica_A0A6C0WW36_S-Adenosyl-L-methionine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 4.652583e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 27.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '32193380'
+- id: 2_1_1__Camellia_assamica_A0A6C0WW36_S-Adenosyl-L-methionine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1699.54
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 27.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '32193380'
+- id: 2_1_1__Camellia_assamica_A0A6C0WW36_S-Adenosyl-L-methionine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0001095
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 27.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '32193380'
+buffer:
+  buffer: 100 mM Tris-HCl, 200 ¦ÌM MgCl2
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 77939
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/32193380/
+  pubmed_id: '32193380'
+  doi: null
+name: Merged entry for A0A6C0WW36 wildtype
+description: 'Merged from 3 files: SABIO_EC2.1.1._Camellia_assamica__A0A6C0WW36_s_1.yaml,
+  SABIO_EC2.1.1._Camellia_assamica__A0A6C0WW36_s_7-Methylxanthine.yaml, SABIO_EC2.1.1._Camellia_assamica__A0A6C0WW36_s_S-Adenosyl-L-methion.yaml'

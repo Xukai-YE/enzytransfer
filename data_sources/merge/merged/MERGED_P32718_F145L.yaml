@@ -1,0 +1,415 @@
+version: '2.0'
+created: '2025-11-20T13:40:35.597986'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_55_P32718_p40796
+  name: allose kinase
+  ecnumber: 2.7.1.55
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: F145L
+  uniprotid: P32718
+  wildtype_sequence: MQKQHNVVAGVDMGATHIRFCLRTAEGETLHCEKKRTAEVIAPGLVSGIGEMIDEQLRRFNARCHGLVMGFPALVSKDKRTIISTPNLPLTAADLYDLADKLENTLNCPVEFSRDVNLQLSWDVVENRLTQQLVLAAYLGTGMGFAVWMNGAPWTGAHGVAGELGHIPLGDMTQHCACGNPGCLETNCSGMALRRWYEQQPRNYPLRDLFVHAENAPFVQSLLENAARAIATSINLFDPDAVILGGGVMDMPAFPRETLVAMTQKYLRRPLPHQVVRFIAASSSDFNGAQGAAILAHQRFLPQFCAKAP
+  mutant_sequence: MQKQHNVVAGVDMGATHIRFCLRTAEGETLHCEKKRTAEVIAPGLVSGIGEMIDEQLRRFNARCHGLVMGFPALVSKDKRTIISTPNLPLTAADLYDLADKLENTLNCPVEFSRDVNLQLSWDVVENRLTQQLVLAAYLGTGMGLAVWMNGAPWTGAHGVAGELGHIPLGDMTQHCACGNPGCLETNCSGMALRRWYEQQPRNYPLRDLFVHAENAPFVQSLLENAARAIATSINLFDPDAVILGGGVMDMPAFPRETLVAMTQKYLRRPLPHQVVRFIAASSSDFNGAQGAAILAHQRFLPQFCAKAP
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Allose
+  name: D-Allose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Allose_6-phosphate
+  name: D-Allose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Glucose
+  name: D-Glucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Glucose_6-phosphate
+  name: D-Glucose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_3359_EC2_7_1_55_Escherichia_coli_P32718_ATP
+  name: Reaction catalyzed by allose kinase on ATP
+  equation: ATP + D-Allose = D-Allose 6-phosphate + ADP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_D-Allose
+  products:
+  - species_id: product_D-Allose_6-phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_55_P32718_p40796
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 14805;14806;14807;14808
+  KEGGid: R03576
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:40553; CHEBI:40822; CHEBI:13236; CHEBI:17393; CHEBI:10841; CHEBI:2359; CHEBI:87518;
+    CHEBI:40938; CHEBI:40819; CHEBI:58328; CHEBI:456216; CHEBI:22249; CHEBI:2342;
+    CHEBI:15422; CHEBI:4093; CHEBI:12907; CHEBI:4094; CHEBI:17942; CHEBI:13222; CHEBI:37689;
+    CHEBI:22244; CHEBI:20901
+
+    KEGG IDs: KEGG:C00002; KEGG:C00008; KEGG:C01487; KEGG:C02962'
+- id: sabiork_793_EC2_7_1_55_Escherichia_coli_P32718_ATP
+  name: Reaction catalyzed by glucokinase on ATP
+  equation: D-Glucose + ATP = ADP + D-Glucose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_D-Glucose
+  products:
+  - species_id: product_ADP
+  - species_id: product_D-Glucose_6-phosphate
+  modifiers:
+  - species_id: protein_2_7_1_55_P32718_p40797
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17825;17826;17827;17828;36495;36496;36497;36498
+  KEGGid: R00299
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:40553; CHEBI:42748; CHEBI:42802; CHEBI:13236; CHEBI:10242; CHEBI:58225;
+    CHEBI:4167; CHEBI:12318; CHEBI:17634; CHEBI:10841; CHEBI:4170; CHEBI:12321; CHEBI:2359;
+    CHEBI:17665; CHEBI:87518; CHEBI:40938; CHEBI:22386; CHEBI:15954; CHEBI:10245;
+    CHEBI:456216; CHEBI:14314; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:22389;
+    CHEBI:13222; CHEBI:22244; CHEBI:40557; CHEBI:17925; CHEBI:88300
+
+    KEGG IDs: KEGG:C00267; KEGG:C00668; KEGG:C00092; KEGG:C00002; KEGG:C00008; KEGG:C00031'
+- id: sabiork_3359_EC2_7_1_55_Escherichia_coli_P32718_D-Allose
+  name: Reaction catalyzed by allose kinase on D-Allose
+  equation: ATP + D-Allose = D-Allose 6-phosphate + ADP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Allose
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_D-Allose_6-phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_55_P32718_p40795
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 14805;14806;14807;14808
+  KEGGid: R03576
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:40553; CHEBI:40822; CHEBI:13236; CHEBI:17393; CHEBI:10841; CHEBI:2359; CHEBI:87518;
+    CHEBI:40938; CHEBI:40819; CHEBI:58328; CHEBI:456216; CHEBI:22249; CHEBI:2342;
+    CHEBI:15422; CHEBI:4093; CHEBI:12907; CHEBI:4094; CHEBI:17942; CHEBI:13222; CHEBI:37689;
+    CHEBI:22244; CHEBI:20901
+
+    KEGG IDs: KEGG:C00002; KEGG:C00008; KEGG:C01487; KEGG:C02962'
+- id: sabiork_793_EC2_7_1_55_Escherichia_coli_P32718_ATP
+  name: Reaction catalyzed by glucokinase on ATP
+  equation: D-Glucose + ATP = ADP + D-Glucose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_D-Glucose
+  products:
+  - species_id: product_ADP
+  - species_id: product_D-Glucose_6-phosphate
+  modifiers:
+  - species_id: protein_2_7_1_55_P32718_p40798
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17825;17826;17827;17828;36495;36496;36497;36498
+  KEGGid: R00299
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:40553; CHEBI:42748; CHEBI:42802; CHEBI:13236; CHEBI:10242; CHEBI:58225;
+    CHEBI:4167; CHEBI:12318; CHEBI:17634; CHEBI:10841; CHEBI:4170; CHEBI:12321; CHEBI:2359;
+    CHEBI:17665; CHEBI:87518; CHEBI:40938; CHEBI:22386; CHEBI:15954; CHEBI:10245;
+    CHEBI:456216; CHEBI:14314; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:22389;
+    CHEBI:13222; CHEBI:22244; CHEBI:40557; CHEBI:17925; CHEBI:88300
+
+    KEGG IDs: KEGG:C00267; KEGG:C00668; KEGG:C00092; KEGG:C00002; KEGG:C00008; KEGG:C00031'
+measurements:
+- id: measurement_2_7_1_55_Escherichia_coli_P32718_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_7_1_55_Escherichia_coli_P32718_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_7_1_55_Escherichia_coli_P32718_D-Allose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_7_1_55_Escherichia_coli_P32718_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_1_55_Escherichia_coli_P32718_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 49.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17979299'
+- id: 2_7_1_55_Escherichia_coli_P32718_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00014
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17979299'
+- id: 2_7_1_55_Escherichia_coli_P32718_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 3900.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17979299'
+- id: 2_7_1_55_Escherichia_coli_P32718_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 28.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17979299'
+- id: 2_7_1_55_Escherichia_coli_P32718_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0072
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17979299'
+- id: 2_7_1_55_Escherichia_coli_P32718_D-Allose_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 320000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Allose
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17979299'
+- id: 2_7_1_55_Escherichia_coli_P32718_D-Allose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00015
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Allose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17979299'
+- id: 2_7_1_55_Escherichia_coli_P32718_D-Allose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 49.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Allose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17979299'
+- id: 2_7_1_55_Escherichia_coli_P32718_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00096
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17979299'
+- id: 2_7_1_55_Escherichia_coli_P32718_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 28.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17979299'
+buffer:
+  buffer: 0.2 M Tris, 0.5 mM NADH, 1 mM DTT, 5 mM phosphoenolpyruvate, 6-26 mM MgCl2,
+    5 mM KCl, 15 units Pyruvate kinase, 25 units Lactate dehydrogenase; 0.2 M Tris,
+    0.5 mM NADP+, 1 mM DTT, 8.5 mM MgCl2, 7.5 units Glucose 6-phosphate dehydrogenase
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 40796
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/17979299/
+  pubmed_id: '17979299'
+  doi: null
+name: Merged entry for P32718 F145L
+description: 'Merged from 4 files: SABIO_EC2.7.1.55_Escherichia_coli__P32718_F145L_s_ATP.yaml,
+  SABIO_EC2.7.1.55_Escherichia_coli__P32718_F145L_s_ATP_2.yaml, SABIO_EC2.7.1.55_Escherichia_coli__P32718_F145L_s_D-Allose.yaml,
+  SABIO_EC2.7.1.55_Escherichia_coli__P32718_F145L_s_ATP_3.yaml'

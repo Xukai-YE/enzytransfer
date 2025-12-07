@@ -1,0 +1,137 @@
+name: SABIO-RK Entry 32304
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 32304
+created: '2025-10-28T14:45:13.031740'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_5_2_6_Q6SJ61_p32304
+  name: beta-lactamase
+  ecnumber: 3.5.2.6
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: S235A
+  uniprotid: Q6SJ61
+  wildtype_sequence: MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYIELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRVDAGQEQLGRRIHYSQNDLVEYSPVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRWEPELNEAIPNDERDTTMPAAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSALPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGASLIKHW
+  mutant_sequence: MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYIELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRVDAGQEQLGRRIHYSQNDLVEYSPVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRWEPELNEAIPNDERDTTMPAAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSALPAGWFIADKAGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGASLIKHW
+  position_offset: -2
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Cephalexin
+  name: Cephalexin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Substituted_beta-amino_acid
+  name: Substituted beta-amino acid
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_9726_EC3_5_2_6_Escherichia_coli_Q6SJ61_Cephalexin
+  name: Reaction catalyzed by beta-lactamase on Cephalexin
+  equation: Cephalexin + H2O = Substituted beta-amino acid
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Cephalexin
+  products:
+  - species_id: product_Substituted_beta-amino_acid
+  modifiers:
+  - species_id: protein_3_5_2_6_Q6SJ61_p32304
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:41979;
+    CHEBI:59392; CHEBI:3535; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377;
+    CHEBI:13352; CHEBI:13690; CHEBI:43228; CHEBI:3534; CHEBI:44292; CHEBI:33806; CHEBI:10743;
+    CHEBI:29374; CHEBI:5585; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00001; KEGG:C06895; KEGG:C08099; KEGG:C03806'
+measurements:
+- id: measurement_3_5_2_6_Escherichia_coli_Q6SJ61_Cephalexin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 3_5_2_6_Escherichia_coli_Q6SJ61_Cephalexin_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 149.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cephalexin
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8042993'
+buffer:
+  buffer: 50 mM sodium phosphate
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 32304
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/8042993/
+  pubmed_id: '8042993'
+  doi: null

@@ -1,0 +1,182 @@
+name: SABIO-RK Entry 51821
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 51821
+created: '2025-10-28T15:58:23.271254'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_6_1__P32056_p51821
+  name: In phosphorous-containing anhydrides
+  ecnumber: 3.6.1.
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: R65K
+  uniprotid: P32056
+  wildtype_sequence: MFLRQEDFATVVRSTPLVSLDFIVENSRGEFLLGKRTNRPAQGYWFVPGGRVQKDETLEAAFERLTMAELGLRLPITAGQFYGVWQHFYDDNFSGTDFTTHYVVLGFRFRVSEEELLLPDEQHDDYRWLTSDALLASDNVHANSRAYFLAEKRTGVPGL
+  mutant_sequence: MFLRQEDFATVVRSTPLVSLDFIVENSRGEFLLGKRTNRPAQGYWFVPGGRVQKDETLEAAFEKLTMAELGLRLPITAGQFYGVWQHFYDDNFSGTDFTTHYVVLGFRFRVSEEELLLPDEQHDDYRWLTSDALLASDNVHANSRAYFLAEKRTGVPGL
+  position_offset: -1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_GDP-alpha-D-mannose
+  name: GDP-alpha-D-mannose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_beta-D-Mannose
+  name: beta-D-Mannose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_GDP
+  name: GDP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_13590_EC3_6_1__Escherichia_coli_P32056_GDP-alpha-D-mannose
+  name: Reaction catalyzed by In phosphorous-containing anhydrides on GDP-alpha-D-mannose
+  equation: H2O + GDP-alpha-D-mannose = GDP + beta-D-Mannose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_GDP-alpha-D-mannose
+  products:
+  - species_id: product_beta-D-Mannose
+  - species_id: product_GDP
+  modifiers:
+  - species_id: protein_3_6_1__P32056_p51821
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:13327; CHEBI:14379;
+    CHEBI:17552; CHEBI:42857; CHEBI:13328; CHEBI:41979; CHEBI:65180; CHEBI:21159;
+    CHEBI:24448; CHEBI:42729; CHEBI:42043; CHEBI:15820; CHEBI:33811; CHEBI:33813;
+    CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:5225; CHEBI:57527; CHEBI:43228; CHEBI:44292;
+    CHEBI:5212; CHEBI:33806; CHEBI:10406; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:13340;
+    CHEBI:58189; CHEBI:13333; CHEBI:22807; CHEBI:28563; CHEBI:41167; CHEBI:29373;
+    CHEBI:44701; CHEBI:42738
+
+    KEGG IDs: KEGG:C00001; KEGG:C00096; KEGG:C02209; KEGG:C00035'
+measurements:
+- id: measurement_3_6_1__Escherichia_coli_P32056_GDP-alpha-D-mannose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.3
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 3_6_1__Escherichia_coli_P32056_GDP-alpha-D-mannose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0011
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_GDP-alpha-D-mannose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.3
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12196023'
+- id: 3_6_1__Escherichia_coli_P32056_GDP-alpha-D-mannose_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 3.00006e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_GDP-alpha-D-mannose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.3
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12196023'
+- id: 3_6_1__Escherichia_coli_P32056_GDP-alpha-D-mannose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_GDP-alpha-D-mannose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.3
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12196023'
+buffer:
+  buffer: 80 mM Glycine, 20 mM MgCl2, 0.2 U/ml calf intestinal phosphatase
+  buffer_concentration: 80 mM
+references:
+- title: Reference for SABIO-RK entry 51821
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12196023/
+  pubmed_id: '12196023'
+  doi: null

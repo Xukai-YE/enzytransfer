@@ -1,0 +1,690 @@
+version: '2.0'
+created: '2025-11-20T13:41:18.417418'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_5_2_6_E9NWK5_p64192
+  name: beta-lactamase
+  ecnumber: 3.5.2.6
+  organism: Klebsiella pneumoniae
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: L209F
+  uniprotid: E9NWK5
+  wildtype_sequence: MELPNIMHPVAKLSTALAAALMLSGCMPGEIRPTIGQQMETGDQRFGDLVFRQLAPNVWQHTSYLDMPGFGAVASNGLIVRDGGRVLVVDTAWTDDQTAQILNWIKQEINLPVALAVVTHAHQDKMGGMDALHAAGIATYANALSNQLAPQEGMVAAQHSLTFAANGWVEPATAPNFGPLKVFYPGPGHTSDNITVGIDGTDIAFGGCLIKDSKAKSLGNLGDADTEHYAASARAFGAAFPKASMIVMSHSAPDSRAAITHTARMADKLR
+  mutant_sequence: MELPNIMHPVAKLSTALAAALMLSGCMPGEIRPTIGQQMETGDQRFGDLVFRQLAPNVWQHTSYLDMPGFGAVASNGLIVRDGGRVLVVDTAWTDDQTAQILNWIKQEINLPVALAVVTHAHQDKMGGMDALHAAGIATYANALSNQLAPQEGMVAAQHSLTFAANGWVEPATAPNFGPLKVFYPGPGHTSDNITVGIDGTDIAFGGCFIKDSKAKSLGNLGDADTEHYAASARAFGAAFPKASMIVMSHSAPDSRAAITHTARMADKLR
+complexes: null
+small_molecules:
+- id: substrate_Biapenem
+  name: Biapenem
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Zn2_
+  name: Zn2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Substituted_beta-amino_acid
+  name: Substituted beta-amino acid
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Carbenicillin
+  name: Carbenicillin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Cefazolin
+  name: Cefazolin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Imipenem
+  name: Imipenem
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Loracarbef
+  name: Loracarbef
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Meropenem
+  name: Meropenem
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Penicillin_G
+  name: Penicillin G
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_6489_EC3_5_2_6_Klebsiella_pneumoniae_E9NWK5_Biapenem
+  name: Reaction catalyzed by beta-lactamase on Biapenem
+  equation: H2O + Biapenem = Substituted beta-amino acid
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Biapenem
+  - species_id: cofactor_Zn2_
+  products:
+  - species_id: product_Substituted_beta-amino_acid
+  modifiers:
+  - species_id: protein_3_5_2_6_E9NWK5_p64192
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29105; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:10113;
+    CHEBI:42857; CHEBI:41979; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:13352; CHEBI:13690; CHEBI:43228; CHEBI:49972; CHEBI:44292;
+    CHEBI:3089; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:49982; CHEBI:27368;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00038; KEGG:C00001; KEGG:C11268; KEGG:C03806'
+- id: sabiork_6598_EC3_5_2_6_Klebsiella_pneumoniae_E9NWK5_Carbenicillin
+  name: Reaction catalyzed by beta-lactamase on Carbenicillin
+  equation: H2O + Carbenicillin = Substituted beta-amino acid
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Carbenicillin
+  - species_id: cofactor_Zn2_
+  products:
+  - species_id: product_Substituted_beta-amino_acid
+  modifiers:
+  - species_id: protein_3_5_2_6_E9NWK5_p64196
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29105; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:10113;
+    CHEBI:42857; CHEBI:41979; CHEBI:3393; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:13352; CHEBI:13690; CHEBI:43228; CHEBI:49972; CHEBI:44292;
+    CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:49982; CHEBI:27368; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C00038; KEGG:C00001; KEGG:C06869; KEGG:C03806'
+- id: sabiork_9662_EC3_5_2_6_Klebsiella_pneumoniae_E9NWK5_Cefazolin
+  name: Reaction catalyzed by beta-lactamase on Cefazolin
+  equation: Cefazolin + H2O = Substituted beta-amino acid
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Cefazolin
+  - species_id: cofactor_Zn2_
+  products:
+  - species_id: product_Substituted_beta-amino_acid
+  modifiers:
+  - species_id: protein_3_5_2_6_E9NWK5_p64193
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29105; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:10113;
+    CHEBI:53657; CHEBI:42857; CHEBI:3482; CHEBI:41979; CHEBI:42043; CHEBI:33811; CHEBI:33813;
+    CHEBI:474053; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:13690; CHEBI:43228;
+    CHEBI:49972; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:49982;
+    CHEBI:27368; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00038; KEGG:C00001; KEGG:C03806; KEGG:C06880'
+- id: sabiork_6516_EC3_5_2_6_Klebsiella_pneumoniae_E9NWK5_Imipenem
+  name: Reaction catalyzed by beta-lactamase on Imipenem
+  equation: H2O + Imipenem = Substituted beta-amino acid
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Imipenem
+  - species_id: cofactor_Zn2_
+  products:
+  - species_id: product_Substituted_beta-amino_acid
+  modifiers:
+  - species_id: protein_3_5_2_6_E9NWK5_p64190
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29105; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:10113;
+    CHEBI:42857; CHEBI:41979; CHEBI:51799; CHEBI:42043; CHEBI:33811; CHEBI:33813;
+    CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:13690; CHEBI:43228; CHEBI:49972;
+    CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:49982; CHEBI:27368;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00038; KEGG:C00001; KEGG:C06665; KEGG:C03806'
+- id: sabiork_9921_EC3_5_2_6_Klebsiella_pneumoniae_E9NWK5_Loracarbef
+  name: Reaction catalyzed by beta-lactamase on Loracarbef
+  equation: Loracarbef + H2O = Substituted beta-amino acid
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Loracarbef
+  - species_id: cofactor_Zn2_
+  products:
+  - species_id: product_Substituted_beta-amino_acid
+  modifiers:
+  - species_id: protein_3_5_2_6_E9NWK5_p64194
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29105; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:10113;
+    CHEBI:42857; CHEBI:41979; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:13352; CHEBI:13690; CHEBI:214480; CHEBI:43228; CHEBI:49972;
+    CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:47544; CHEBI:49982;
+    CHEBI:27368; CHEBI:29373; CHEBI:44701; CHEBI:281056
+
+    KEGG IDs: KEGG:C00038; KEGG:C00001; KEGG:C03806'
+- id: sabiork_6525_EC3_5_2_6_Klebsiella_pneumoniae_E9NWK5_Meropenem
+  name: Reaction catalyzed by beta-lactamase on Meropenem
+  equation: H2O + Meropenem = Substituted beta-amino acid
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Meropenem
+  - species_id: cofactor_Zn2_
+  products:
+  - species_id: product_Substituted_beta-amino_acid
+  modifiers:
+  - species_id: protein_3_5_2_6_E9NWK5_p64191
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29105; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:10113;
+    CHEBI:42857; CHEBI:41979; CHEBI:43968; CHEBI:42043; CHEBI:33811; CHEBI:33813;
+    CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:13690; CHEBI:43228; CHEBI:49972;
+    CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:49982; CHEBI:27368;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00038; KEGG:C00001; KEGG:C03806'
+- id: sabiork_4016_EC3_5_2_6_Klebsiella_pneumoniae_E9NWK5_Penicillin_G
+  name: Reaction catalyzed by beta-lactamase on Penicillin G
+  equation: Penicillin G + H2O = Substituted beta-amino acid
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Penicillin_G
+  - species_id: cofactor_Zn2_
+  products:
+  - species_id: product_Substituted_beta-amino_acid
+  modifiers:
+  - species_id: protein_3_5_2_6_E9NWK5_p64195
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29105; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:10113;
+    CHEBI:18208; CHEBI:42857; CHEBI:41979; CHEBI:45073; CHEBI:42043; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:13690; CHEBI:25866;
+    CHEBI:51354; CHEBI:43228; CHEBI:49972; CHEBI:44292; CHEBI:33806; CHEBI:10743;
+    CHEBI:29374; CHEBI:5585; CHEBI:14743; CHEBI:49982; CHEBI:27368; CHEBI:7962; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C05551; KEGG:C00001; KEGG:C03806; KEGG:C00038'
+measurements:
+- id: measurement_3_5_2_6_Klebsiella_pneumoniae_E9NWK5_Biapenem
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_3_5_2_6_Klebsiella_pneumoniae_E9NWK5_Carbenicillin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_3_5_2_6_Klebsiella_pneumoniae_E9NWK5_Cefazolin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_3_5_2_6_Klebsiella_pneumoniae_E9NWK5_Imipenem
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_3_5_2_6_Klebsiella_pneumoniae_E9NWK5_Loracarbef
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_3_5_2_6_Klebsiella_pneumoniae_E9NWK5_Meropenem
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_3_5_2_6_Klebsiella_pneumoniae_E9NWK5_Penicillin_G
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_5_2_6_Klebsiella_pneumoniae_E9NWK5_Biapenem_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000109
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Biapenem
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29293526'
+- id: 3_5_2_6_Klebsiella_pneumoniae_E9NWK5_Biapenem_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.52
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Biapenem
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29293526'
+- id: 3_5_2_6_Klebsiella_pneumoniae_E9NWK5_Biapenem_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 4700.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Biapenem
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29293526'
+- id: 3_5_2_6_Klebsiella_pneumoniae_E9NWK5_Carbenicillin_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 70000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Carbenicillin
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29293526'
+- id: 3_5_2_6_Klebsiella_pneumoniae_E9NWK5_Carbenicillin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Carbenicillin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29293526'
+- id: 3_5_2_6_Klebsiella_pneumoniae_E9NWK5_Carbenicillin_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.4
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Carbenicillin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29293526'
+- id: 3_5_2_6_Klebsiella_pneumoniae_E9NWK5_Cefazolin_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 21000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cefazolin
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29293526'
+- id: 3_5_2_6_Klebsiella_pneumoniae_E9NWK5_Cefazolin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.6e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cefazolin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29293526'
+- id: 3_5_2_6_Klebsiella_pneumoniae_E9NWK5_Cefazolin_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.34
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cefazolin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29293526'
+- id: 3_5_2_6_Klebsiella_pneumoniae_E9NWK5_Imipenem_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 17000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Imipenem
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29293526'
+- id: 3_5_2_6_Klebsiella_pneumoniae_E9NWK5_Imipenem_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.55
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Imipenem
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29293526'
+- id: 3_5_2_6_Klebsiella_pneumoniae_E9NWK5_Imipenem_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.3e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Imipenem
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29293526'
+- id: 3_5_2_6_Klebsiella_pneumoniae_E9NWK5_Loracarbef_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 39000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Loracarbef
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29293526'
+- id: 3_5_2_6_Klebsiella_pneumoniae_E9NWK5_Loracarbef_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Loracarbef
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29293526'
+- id: 3_5_2_6_Klebsiella_pneumoniae_E9NWK5_Loracarbef_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.78
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Loracarbef
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29293526'
+- id: 3_5_2_6_Klebsiella_pneumoniae_E9NWK5_Meropenem_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.86
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Meropenem
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29293526'
+- id: 3_5_2_6_Klebsiella_pneumoniae_E9NWK5_Meropenem_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 17000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Meropenem
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29293526'
+- id: 3_5_2_6_Klebsiella_pneumoniae_E9NWK5_Meropenem_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Meropenem
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29293526'
+- id: 3_5_2_6_Klebsiella_pneumoniae_E9NWK5_Penicillin_G_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 140000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Penicillin_G
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29293526'
+- id: 3_5_2_6_Klebsiella_pneumoniae_E9NWK5_Penicillin_G_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Penicillin_G
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29293526'
+- id: 3_5_2_6_Klebsiella_pneumoniae_E9NWK5_Penicillin_G_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.0e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Penicillin_G
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29293526'
+buffer:
+  buffer: 20 mM Hepes
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 64192
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/29293526/
+  pubmed_id: '29293526'
+  doi: null
+name: Merged entry for E9NWK5 L209F
+description: 'Merged from 7 files: SABIO_EC3.5.2.6_Klebsiella_pneumoniae__E9NWK5_L209F_s_Biapenem.yaml,
+  SABIO_EC3.5.2.6_Klebsiella_pneumoniae__E9NWK5_L209F_s_Carbenicillin.yaml, SABIO_EC3.5.2.6_Klebsiella_pneumoniae__E9NWK5_L209F_s_Cefazolin.yaml,
+  SABIO_EC3.5.2.6_Klebsiella_pneumoniae__E9NWK5_L209F_s_Imipenem.yaml, SABIO_EC3.5.2.6_Klebsiella_pneumoniae__E9NWK5_L209F_s_Loracarbef.yaml,
+  SABIO_EC3.5.2.6_Klebsiella_pneumoniae__E9NWK5_L209F_s_Meropenem.yaml, SABIO_EC3.5.2.6_Klebsiella_pneumoniae__E9NWK5_L209F_s_Penicillin.yaml'

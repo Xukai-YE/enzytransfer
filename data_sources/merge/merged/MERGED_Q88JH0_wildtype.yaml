@@ -1,0 +1,391 @@
+version: '2.0'
+created: '2025-11-20T13:39:27.065695'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_2_8_Q88JH0_p73418
+  name: alcohol dehydrogenase (cytochrome c)
+  ecnumber: 1.1.2.8
+  organism: Pseudomonas putida
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q88JH0
+  wildtype_sequence: MTRSPRRPLFAVSLVLSAMLLAGAAHAAVSNEEILQDPKNPQQIVTNGLGVQGQRYSPLDLLNVNNVKELRPVWAFSFGGEKQRGQQAQPLIKDGVMYLTGSYSRVFAVDARTGKKLWQYDARLPDDIRPCCDVINRGVALYGNLVFFGTLDAKLVALNKDTGKVVWSKKVADHKEGYSISAAPMIVNGKLITGVAGGEFGVVGKIQAYNPENGELLWMRPTVEGHMGYVYKDGKAIENGISGGEAGKTWPGDLWKTGGAAPWLGGYYDPETNLILFGTGNPAPWNSHLRPGDNLYSSSRLALNPDDGTIKWHFQSTPHDGWDFDGVNELISFNYKDGGKEVKAAATADRNGFFYVLDRTNGKFIRGFPFVDKITWATGLDKDGRPIYNDASRPGAPGSEAKGSSVFVAPAFLGAKNWMPMAYNKDTGLFYVPSNEWGMDIWNEGIAYKKGAAFLGAGFTIKPLNEDYIGVLRAIDPVSGKEVWRHKNYAPLWGGVLTTKGNLVFTGTPEGFLQAFNAKTGDKVWEFQTGSGVLGSPVTWEMDGEQYVSVVSGWGGAVPLWGGEVAKRVKDFNQGGMLWTFKLPKQLQQTASVKP
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_PQQ
+  name: PQQ
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Phenylethyl_alcohol
+  name: Phenylethyl alcohol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Phenylacetaldehyde
+  name: Phenylacetaldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_PQQH2
+  name: PQQH2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Pr3_
+  name: Pr3+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Ethanol
+  name: Ethanol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Acetaldehyde
+  name: Acetaldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Acetaldehyde
+  name: Acetaldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Acetate
+  name: Acetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_16146_EC1_1_2_8_Pseudomonas_putida_Q88JH0_PQQ
+  name: Reaction catalyzed by alcohol dehydrogenase (cytochrome c) on PQQ
+  equation: PQQ + Phenylethyl alcohol = Phenylacetaldehyde + PQQH2
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_PQQ
+  - species_id: substrate_Phenylethyl_alcohol
+  products:
+  - species_id: product_Phenylacetaldehyde
+  - species_id: product_PQQH2
+  modifiers:
+  - species_id: protein_1_1_2_8_Q88JH0_p73418
+    role: BIOCATALYST
+  - species_id: activator_Pr3_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:49082; CHEBI:58442; CHEBI:49000; CHEBI:15030; CHEBI:16424;
+    CHEBI:44780; CHEBI:7882; CHEBI:8084; CHEBI:43163; CHEBI:8096; CHEBI:14986; CHEBI:26526;
+    CHEBI:14778; CHEBI:18356; CHEBI:18315; CHEBI:77660; CHEBI:58459; CHEBI:45251;
+    CHEBI:7881; CHEBI:25972; CHEBI:26460
+
+    KEGG IDs: KEGG:C05853; KEGG:C00113; KEGG:C01359; KEGG:C00601'
+- id: sabiork_4810_EC1_1_2_8_Pseudomonas_putida_Q88JH0_Ethanol
+  name: Reaction catalyzed by With other acceptors on Ethanol
+  equation: Ethanol + PQQ = Acetaldehyde + PQQH2
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Ethanol
+  - species_id: substrate_PQQ
+  products:
+  - species_id: product_PQQH2
+  - species_id: product_Acetaldehyde
+  modifiers:
+  - species_id: protein_1_1_2_8_Q88JH0_p73420
+    role: BIOCATALYST
+  - species_id: activator_Pr3_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:49082; CHEBI:16236; CHEBI:58442; CHEBI:23978; CHEBI:30880;
+    CHEBI:15030; CHEBI:2383; CHEBI:7882; CHEBI:40533; CHEBI:15343; CHEBI:14222; CHEBI:14986;
+    CHEBI:26526; CHEBI:13703; CHEBI:44594; CHEBI:18356; CHEBI:22158; CHEBI:18315;
+    CHEBI:42377; CHEBI:77660; CHEBI:58459; CHEBI:30878; CHEBI:45251; CHEBI:7881; CHEBI:4879;
+    CHEBI:26460
+
+    KEGG IDs: KEGG:C00084; KEGG:C00469; KEGG:C00113; KEGG:C01359'
+- id: sabiork_1308_EC1_1_2_8_Pseudomonas_putida_Q88JH0_PQQ
+  name: Reaction catalyzed by With other acceptors on PQQ
+  equation: Acetaldehyde + H2O + PQQ = PQQH2 + Acetate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_PQQ
+  - species_id: substrate_Acetaldehyde
+  products:
+  - species_id: product_Acetate
+  - species_id: product_PQQH2
+  modifiers:
+  - species_id: protein_1_1_2_8_Q88JH0_p73419
+    role: BIOCATALYST
+  - species_id: activator_Pr3_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01019
+  notes: 'ChEBI IDs: CHEBI:49082; CHEBI:29375; CHEBI:58442; CHEBI:44819; CHEBI:40480;
+    CHEBI:41981; CHEBI:13704; CHEBI:15366; CHEBI:15030; CHEBI:42857; CHEBI:41979;
+    CHEBI:40486; CHEBI:22169; CHEBI:2387; CHEBI:2383; CHEBI:42043; CHEBI:40533; CHEBI:30089;
+    CHEBI:7882; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:15343; CHEBI:14986;
+    CHEBI:13352; CHEBI:26526; CHEBI:13703; CHEBI:22165; CHEBI:18356; CHEBI:22158;
+    CHEBI:18315; CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:77660; CHEBI:58459; CHEBI:45251; CHEBI:7881; CHEBI:26460; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C00084; KEGG:C01359; KEGG:C00001; KEGG:C00113; KEGG:C00033'
+measurements:
+- id: measurement_1_1_2_8_Pseudomonas_putida_Q88JH0_PQQ
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_2_8_Pseudomonas_putida_Q88JH0_Ethanol
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_2_8_Pseudomonas_putida_Q88JH0_PQQ
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_2_8_Pseudomonas_putida_Q88JH0_PQQ_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.000196671
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_PQQ
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '28655819'
+- id: 1_1_2_8_Pseudomonas_putida_Q88JH0_PQQ_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 38000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_PQQ
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '28655819'
+- id: 1_1_2_8_Pseudomonas_putida_Q88JH0_PQQ_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000329
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_PQQ
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '28655819'
+- id: 1_1_2_8_Pseudomonas_putida_Q88JH0_Ethanol_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 66000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Ethanol
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '28655819'
+- id: 1_1_2_8_Pseudomonas_putida_Q88JH0_Ethanol_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.00017667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Ethanol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '28655819'
+- id: 1_1_2_8_Pseudomonas_putida_Q88JH0_Ethanol_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000177
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Ethanol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '28655819'
+- id: 1_1_2_8_Pseudomonas_putida_Q88JH0_PQQ_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 4100.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_PQQ
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '28655819'
+- id: 1_1_2_8_Pseudomonas_putida_Q88JH0_PQQ_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.002261
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_PQQ
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '28655819'
+- id: 1_1_2_8_Pseudomonas_putida_Q88JH0_PQQ_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.000140003
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_PQQ
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '28655819'
+buffer:
+  buffer: 100 mM Tris HCl, 500 ¦ÌM phenazine methosulfate, 150 ¦ÌM 2,6-dichlorophenol
+    indophenol, 25 mM imidazole
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 73418
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/28655819/
+  pubmed_id: '28655819'
+  doi: null
+name: Merged entry for Q88JH0 wildtype
+description: 'Merged from 3 files: SABIO_EC1.1.2.8_Pseudomonas_putida__Q88JH0_s_PQQ.yaml,
+  SABIO_EC1.1.2.8_Pseudomonas_putida__Q88JH0_s_Ethanol.yaml, SABIO_EC1.1.2.8_Pseudomonas_putida__Q88JH0_s_PQQ_2.yaml'

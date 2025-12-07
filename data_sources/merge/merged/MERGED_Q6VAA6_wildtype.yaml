@@ -1,0 +1,277 @@
+version: '2.0'
+created: '2025-11-20T13:40:12.616530'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_4_1__Q6VAA6_p77102
+  name: Hexosyltransferases
+  ecnumber: 2.4.1.
+  organism: Stevia rebaudiana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q6VAA6
+  wildtype_sequence: MAEQQKIKKSPHVLLIPFPLQGHINPFIQFGKRLISKGVKTTLVTTIHTLNSTLNHSNTTTTSIEIQAISDGCDEGGFMSAGESYLETFKQVGSKSLADLIKKLQSEGTTIDAIIYDSMTEWVLDVAIEFGIDGGSFFTQACVVNSLYYHVHKGLISLPLGETVSVPGFPVLQRWETPLILQNHEQIQSPWSQMLFGQFANIDQARWVFTNSFYKLEEEVIEWTRKIWNLKVIGPTLPSMYLDKRLDDDKDNGFNLYKANHHECMNWLDDKPKESVVYVAFGSLVKHGPEQVEEITRALIDSDVNFLWVIKHKEEGKLPENLSEVIKTGKGLIVAWCKQLDVLAHESVGCFVTHCGFNSTLEAISLGVPVVAMPQFSDQTTNAKLLDEILGVGVRVKADENGIVRRGNLASCIKMIMEEERGVIIRKNAVKWKDLAKVAVHEGGSSDNDIVEFVSELIKA
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Steviolbioside
+  name: Steviolbioside
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_UDPglucose
+  name: UDPglucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Stevioside
+  name: Stevioside
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_UDP
+  name: UDP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Steviol
+  name: Steviol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_19-O-beta-Glucopyranosyl-steviol
+  name: 19-O-beta-Glucopyranosyl-steviol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Steviolmonoside
+  name: Steviolmonoside
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Rubusoside
+  name: Rubusoside
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_16728_EC2_4_1__Stevia_rebaudiana_Q6VAA6_Steviolbioside
+  name: Reaction catalyzed by Hexosyltransferases on Steviolbioside
+  equation: UDPglucose + Steviolbioside = UDP + Stevioside
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Steviolbioside
+  - species_id: substrate_UDPglucose
+  products:
+  - species_id: product_Stevioside
+  - species_id: product_UDP
+  modifiers:
+  - species_id: protein_2_4_1__Q6VAA6_p77102
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:27230; CHEBI:58223; CHEBI:13445; CHEBI:46402; CHEBI:18066;
+    CHEBI:17659; CHEBI:9802; CHEBI:145030
+
+    KEGG IDs: KEGG:C00015; KEGG:C00029; KEGG:C09189'
+- id: sabiork_16726_EC2_4_1__Stevia_rebaudiana_Q6VAA6_UDPglucose
+  name: Reaction catalyzed by Hexosyltransferases on UDPglucose
+  equation: UDPglucose + Steviol = UDP + 19-O-beta-Glucopyranosyl-steviol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_UDPglucose
+  - species_id: substrate_Steviol
+  products:
+  - species_id: product_19-O-beta-Glucopyranosyl-steviol
+  - species_id: product_UDP
+  modifiers:
+  - species_id: protein_2_4_1__Q6VAA6_p77100
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:27230; CHEBI:58223; CHEBI:13445; CHEBI:46402; CHEBI:18066;
+    CHEBI:17659; CHEBI:9802
+
+    KEGG IDs: KEGG:C00015; KEGG:C00029'
+- id: sabiork_16727_EC2_4_1__Stevia_rebaudiana_Q6VAA6_UDPglucose
+  name: Reaction catalyzed by Hexosyltransferases on UDPglucose
+  equation: UDPglucose + Steviolmonoside = UDP + Rubusoside
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_UDPglucose
+  - species_id: substrate_Steviolmonoside
+  products:
+  - species_id: product_UDP
+  - species_id: product_Rubusoside
+  modifiers:
+  - species_id: protein_2_4_1__Q6VAA6_p77101
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:27230; CHEBI:58223; CHEBI:13445; CHEBI:46402; CHEBI:145021;
+    CHEBI:18066; CHEBI:17659; CHEBI:9802; CHEBI:145029
+
+    KEGG IDs: KEGG:C00015; KEGG:C00029'
+measurements:
+- id: measurement_2_4_1__Stevia_rebaudiana_Q6VAA6_Steviolbioside
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_2_4_1__Stevia_rebaudiana_Q6VAA6_UDPglucose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_2_4_1__Stevia_rebaudiana_Q6VAA6_UDPglucose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 2_4_1__Stevia_rebaudiana_Q6VAA6_Steviolbioside_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.64e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Steviolbioside
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15610349'
+- id: 2_4_1__Stevia_rebaudiana_Q6VAA6_UDPglucose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0001475
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDPglucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15610349'
+- id: 2_4_1__Stevia_rebaudiana_Q6VAA6_UDPglucose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.84e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDPglucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15610349'
+buffer:
+  buffer: 50 mM potassium phosphate, 3 mM MgCl2, 10 ¦Ìg/ml BSA
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 77102
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15610349/
+  pubmed_id: '15610349'
+  doi: null
+name: Merged entry for Q6VAA6 wildtype
+description: 'Merged from 3 files: SABIO_EC2.4.1._Stevia_rebaudiana__Q6VAA6_s_Steviolbioside.yaml,
+  SABIO_EC2.4.1._Stevia_rebaudiana__Q6VAA6_s_UDPglucose.yaml, SABIO_EC2.4.1._Stevia_rebaudiana__Q6VAA6_s_UDPglucose_2.yaml'

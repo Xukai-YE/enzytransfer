@@ -1,0 +1,175 @@
+name: SABIO-RK Entry 31104
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 31104
+created: '2025-10-28T14:41:47.440063'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_27_P07195_p31104
+  name: D-lactate dehydrogenase
+  ecnumber: 1.1.1.27
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: S163L
+  uniprotid: P07195
+  wildtype_sequence: MATLKEKLIAPVAEEEATVPNNKITVVGVGQVGMACAISILGKSLADELALVDVLEDKLKGEMMDLQHGSLFLQTPKIVADKDYSVTANSKIVVVTAGVRQQEGESRLNLVQRNVNVFKFIIPQIVKYSPDCIIIVVSNPVDILTYVTWKLSGLPKHRVIGSGCNLDSARFRYLMAEKLGIHPSSCHGWILGEHGDSSVAVWSGVNVAGVSLQELNPEMGTDNDSENWKEVHKMVVESAYEVIKLKGYTNWAIGLSVADLIESMLKNLSRIHPVSTMVKGMYGIENEVFLSLPCILNARGLTSVINQKLKDDEVAQLKKSADTLWDIQKDLKDL
+  mutant_sequence: MATLKEKLIAPVAEEEATVPNNKITVVGVGQVGMACAISILGKSLADELALVDVLEDKLKGEMMDLQHGSLFLQTPKIVADKDYSVTANSKIVVVTAGVRQQEGESRLNLVQRNVNVFKFIIPQIVKYSPDCIIIVVSNPVDILTYVTWKLSGLPKHRVIGLGCNLDSARFRYLMAEKLGIHPSSCHGWILGEHGDSSVAVWSGVNVAGVSLQELNPEMGTDNDSENWKEVHKMVVESAYEVIKLKGYTNWAIGLSVADLIESMLKNLSRIHPVSTMVKGMYGIENEVFLSLPCILNARGLTSVINQKLKDDEVAQLKKSADTLWDIQKDLKDL
+  position_offset: -1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Pyruvate
+  name: Pyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Lactate
+  name: D-Lactate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_155_EC1_1_1_27_Homo_sapiens_P07195_Pyruvate
+  name: Reaction catalyzed by D-lactate dehydrogenase on Pyruvate
+  equation: D-Lactate + NAD+ = NADH + H+ + Pyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Pyruvate
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_D-Lactate
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_1_1_27_P07195_p31104
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 16369;16370;16371;16372
+  KEGGid: R00704
+  notes: 'ChEBI IDs: CHEBI:18684; CHEBI:14987; CHEBI:11001; CHEBI:42105; CHEBI:44281;
+    CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:15361;
+    CHEBI:13396; CHEBI:21901; CHEBI:16004; CHEBI:24636; CHEBI:44214; CHEBI:29233;
+    CHEBI:5584; CHEBI:13394; CHEBI:26466; CHEBI:57945; CHEBI:44216; CHEBI:43701; CHEBI:26462;
+    CHEBI:57540; CHEBI:7423; CHEBI:8685; CHEBI:13389; CHEBI:15378; CHEBI:13395; CHEBI:42111;
+    CHEBI:341; CHEBI:32816; CHEBI:10744; CHEBI:44215; CHEBI:45253; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00256; KEGG:C00080; KEGG:C00022; KEGG:C00003; KEGG:C00004'
+measurements:
+- id: measurement_1_1_1_27_Homo_sapiens_P07195_Pyruvate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1_27_Homo_sapiens_P07195_Pyruvate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 80.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Pyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10388846'
+- id: 1_1_1_27_Homo_sapiens_P07195_Pyruvate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0122
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Pyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10388846'
+buffer:
+  buffer: 20 mM Bis-Tris, 50 mM KCl
+  buffer_concentration: 20 mM
+references:
+- title: Reference for SABIO-RK entry 31104
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10388846/
+  pubmed_id: '10388846'
+  doi: null

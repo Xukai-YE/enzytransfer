@@ -1,0 +1,200 @@
+version: '2.0'
+created: '2025-11-20T13:40:12.040386'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_4_1_41_Q8NCW6_p48356
+  name: polypeptide N-acetylgalactosaminyltransferase
+  ecnumber: 2.4.1.41
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q8NCW6
+  wildtype_sequence: MGSVTVRYFCYGCLFTSATWTVLLFVYFNFSEVTQPLKNVPVKGSGPHGPSPKKFYPRFTRGPSRVLEPQFKANKIDDVIDSRVEDPEEGHLKFSSELGMIFNERDQELRDLGYQKHAFNMLISDRLGYHRDVPDTRNAACKEKFYPPDLPAASVVICFYNEAFSALLRTVHSVIDRTPAHLLHEIILVDDDSDFDDLKGELDEYVQKYLPGKIKVIRNTKREGLIRGRMIGAAHATGEVLVFLDSHCEVNVMWLQPLLAAIREDRHTVVCPVIDIISADTLAYSSSPVVRGGFNWGLHFKWDLVPLSELGRAEGATAPIKSPTMAGGLFAMNRQYFHELGQYDSGMDIWGGENLEISFRIWMCGGKLFIIPCSRVGHIFRKRRPYGSPEGQDTMTHNSLRLAHVWLDEYKEQYFSLRPDLKTKSYGNISERVELRKKLGCKSFKWYLDNVYPEMQISGSHAKPQQPIFVNRGPKRPKVLQRGRLYHLQTNKCLVAQGRPSQKGGLVVLKACDYSDPNQIWIYNEEHELVLNSLLCLDMSETRSSDPPRLMKCHGSGGSQQWTFGKNNRLYQVSVGQCLRAVDPLGQKGSVAMAICDGSSSQQWHLEG
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_UDP-N-acetyl-D-galactosamine
+  name: UDP-N-acetyl-D-galactosamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Polypeptide
+  name: Polypeptide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_UDP
+  name: UDP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N-Acetyl-D-galactosaminyl-polypeptide
+  name: N-Acetyl-D-galactosaminyl-polypeptide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2156_EC2_4_1_41_Homo_sapiens_Q8NCW6_UDP-N-acetyl-D-galactosamine
+  name: Reaction catalyzed by polypeptide N-acetylgalactosaminyltransferase on UDP-N-acetyl-D-galactosamine
+  equation: Polypeptide + UDP-N-acetyl-D-galactosamine = UDP + N-Acetyl-D-galactosaminyl-polypeptide
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_UDP-N-acetyl-D-galactosamine
+  - species_id: substrate_Polypeptide
+  products:
+  - species_id: product_UDP
+  - species_id: product_N-Acetyl-D-galactosaminyl-polypeptide
+  modifiers:
+  - species_id: protein_2_4_1_41_Q8NCW6_p48356
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02183
+  notes: 'ChEBI IDs: CHEBI:27230; CHEBI:58223; CHEBI:17659; CHEBI:13445; CHEBI:27138;
+    CHEBI:15841; CHEBI:16650; CHEBI:9802; CHEBI:46402; CHEBI:47923; CHEBI:9820; CHEBI:13470;
+    CHEBI:22112; CHEBI:13455; CHEBI:9742; CHEBI:57847
+
+    KEGG IDs: KEGG:C00015; KEGG:C00203; KEGG:C04387; KEGG:C00403'
+- id: sabiork_2156_EC2_4_1_41_Homo_sapiens_Q8NCW6_Polypeptide
+  name: Reaction catalyzed by polypeptide N-acetylgalactosaminyltransferase on Polypeptide
+  equation: Polypeptide + UDP-N-acetyl-D-galactosamine = UDP + N-Acetyl-D-galactosaminyl-polypeptide
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Polypeptide
+  - species_id: substrate_UDP-N-acetyl-D-galactosamine
+  products:
+  - species_id: product_N-Acetyl-D-galactosaminyl-polypeptide
+  - species_id: product_UDP
+  modifiers:
+  - species_id: protein_2_4_1_41_Q8NCW6_p48355
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02183
+  notes: 'ChEBI IDs: CHEBI:27230; CHEBI:58223; CHEBI:17659; CHEBI:13445; CHEBI:27138;
+    CHEBI:15841; CHEBI:16650; CHEBI:9802; CHEBI:46402; CHEBI:47923; CHEBI:9820; CHEBI:13470;
+    CHEBI:22112; CHEBI:13455; CHEBI:9742; CHEBI:57847
+
+    KEGG IDs: KEGG:C00015; KEGG:C00203; KEGG:C04387; KEGG:C00403'
+measurements:
+- id: measurement_2_4_1_41_Homo_sapiens_Q8NCW6_UDP-N-acetyl-D-galactosamine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_2_4_1_41_Homo_sapiens_Q8NCW6_Polypeptide
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 2_4_1_41_Homo_sapiens_Q8NCW6_UDP-N-acetyl-D-galactosamine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00067
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDP-N-acetyl-D-galactosamine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11925450'
+- id: 2_4_1_41_Homo_sapiens_Q8NCW6_Polypeptide_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.53e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Polypeptide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11925450'
+buffer:
+  buffer: 25 mM cacodylate, 10 mM MnCl2, 0.25% Triton X-100
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 48356
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11925450/
+  pubmed_id: '11925450'
+  doi: null
+name: Merged entry for Q8NCW6 wildtype
+description: 'Merged from 2 files: SABIO_EC2.4.1.41_Homo_sapiens__Q8NCW6_s_UDP-N-acetyl-D-galac.yaml,
+  SABIO_EC2.4.1.41_Homo_sapiens__Q8NCW6_s_Polypeptide.yaml'

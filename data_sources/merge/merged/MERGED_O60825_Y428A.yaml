@@ -1,0 +1,255 @@
+version: '2.0'
+created: '2025-11-20T13:40:25.934502'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_105_O60825_p64088
+  name: 6-phosphofructokinase
+  ecnumber: 2.7.1.105
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: Y428A
+  uniprotid: O60825
+  wildtype_sequence: MSGASSSEQNNNSYETKTPNLRMSEKKCSWASYMTNSPTLIVMIGLPARGKTYVSKKLTRYLNWIGVPTKVFNLGVYRREAVKSYKSYDFFRHDNEEAMKIRKQCALVALEDVKAYLTEENGQIAVFDATNTTRERRDMILNFAEQNSFKVFFVESVCDDPDVIAANILEVKVSSPDYPERNRENVMEDFLKRIECYKVTYRPLDPDNYDKDLSFIKVINVGQRFLVNRVQDYIQSKIVYYLMNIHVQPRTIYLCRHGESEFNLLGKIGGDSGLSVRGKQFAQALRKFLEEQEITDLKVWTSQLKRTIQTAESLGVPYEQWKILNEIDAGVCEEMTYAEIEKRYPEEFALRDQEKYLYRYPGGESYQDLVQRLEPVIMELERQGNVLVISHQAVMRCLLAYFLDKGADELPYLRCPLHTIFKLTPVAYGCKVETIKLNVEAVNTHRDKPTNNFPKNQTPVRMRRNSFTPLSSSNTIRRPRNYSVGSRPLKPLSPLRAQDMQEGAD
+  mutant_sequence: MSGASSSEQNNNSYETKTPNLRMSEKKCSWASYMTNSPTLIVMIGLPARGKTYVSKKLTRYLNWIGVPTKVFNLGVYRREAVKSYKSYDFFRHDNEEAMKIRKQCALVALEDVKAYLTEENGQIAVFDATNTTRERRDMILNFAEQNSFKVFFVESVCDDPDVIAANILEVKVSSPDYPERNRENVMEDFLKRIECYKVTYRPLDPDNYDKDLSFIKVINVGQRFLVNRVQDYIQSKIVYYLMNIHVQPRTIYLCRHGESEFNLLGKIGGDSGLSVRGKQFAQALRKFLEEQEITDLKVWTSQLKRTIQTAESLGVPYEQWKILNEIDAGVCEEMTYAEIEKRYPEEFALRDQEKYLYRYPGGESYQDLVQRLEPVIMELERQGNVLVISHQAVMRCLLAYFLDKGADELPYLRCPLHTIFKLTPVAAGCKVETIKLNVEAVNTHRDKPTNNFPKNQTPVRMRRNSFTPLSSSNTIRRPRNYSVGSRPLKPLSPLRAQDMQEGAD
+complexes: null
+small_molecules:
+- id: substrate_Fructose_6-phosphate
+  name: Fructose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Fructose_1
+  name: Fructose 1
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_6-bisphosphate
+  name: 6-bisphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Citrate
+  name: Citrate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_12923_EC2_7_1_105_Homo_sapiens_O60825_Fructose_6-phosphate
+  name: Reaction catalyzed by 6-phosphofructokinase on Fructose 6-phosphate
+  equation: ATP + Fructose 6-phosphate = ADP + Fructose 1,6-bisphosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Fructose_6-phosphate
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_ADP
+  - species_id: product_Fructose_1
+  - species_id: product_6-bisphosphate
+  modifiers:
+  - species_id: protein_2_7_1_105_O60825_p64088
+    role: BIOCATALYST
+  - species_id: activator_Citrate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:15946; CHEBI:30616; CHEBI:237958; CHEBI:16761; CHEBI:32968;
+    CHEBI:10789; CHEBI:57299; CHEBI:23322; CHEBI:12926; CHEBI:40553; CHEBI:3727; CHEBI:35806;
+    CHEBI:20935; CHEBI:76049; CHEBI:16947; CHEBI:41523; CHEBI:13236; CHEBI:23321;
+    CHEBI:10841; CHEBI:13999; CHEBI:2359; CHEBI:87518; CHEBI:40938; CHEBI:40591; CHEBI:42406;
+    CHEBI:42563; CHEBI:35810; CHEBI:456216; CHEBI:35802; CHEBI:22249; CHEBI:2342;
+    CHEBI:15422; CHEBI:57579; CHEBI:40595; CHEBI:4124; CHEBI:30769; CHEBI:35809; CHEBI:13222;
+    CHEBI:32967; CHEBI:22244
+
+    KEGG IDs: KEGG:C00002; KEGG:C00008; KEGG:C00158'
+- id: sabiork_12923_EC2_7_1_105_Homo_sapiens_O60825_Fructose_6-phosphate
+  name: Reaction catalyzed by 6-phosphofructokinase on Fructose 6-phosphate
+  equation: ATP + Fructose 6-phosphate = ADP + Fructose 1,6-bisphosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Fructose_6-phosphate
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_ADP
+  - species_id: product_Fructose_1
+  - species_id: product_6-bisphosphate
+  modifiers:
+  - species_id: protein_2_7_1_105_O60825_p64089
+    role: BIOCATALYST
+  - species_id: activator_Citrate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:15946; CHEBI:30616; CHEBI:237958; CHEBI:16761; CHEBI:32968;
+    CHEBI:10789; CHEBI:57299; CHEBI:23322; CHEBI:12926; CHEBI:40553; CHEBI:3727; CHEBI:35806;
+    CHEBI:20935; CHEBI:76049; CHEBI:16947; CHEBI:41523; CHEBI:13236; CHEBI:23321;
+    CHEBI:10841; CHEBI:13999; CHEBI:2359; CHEBI:87518; CHEBI:40938; CHEBI:40591; CHEBI:42406;
+    CHEBI:42563; CHEBI:35810; CHEBI:456216; CHEBI:35802; CHEBI:22249; CHEBI:2342;
+    CHEBI:15422; CHEBI:57579; CHEBI:40595; CHEBI:4124; CHEBI:30769; CHEBI:35809; CHEBI:13222;
+    CHEBI:32967; CHEBI:22244
+
+    KEGG IDs: KEGG:C00002; KEGG:C00008; KEGG:C00158'
+measurements:
+- id: measurement_2_7_1_105_Homo_sapiens_O60825_Fructose_6-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_7_1_105_Homo_sapiens_O60825_Fructose_6-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_1_105_Homo_sapiens_O60825_Fructose_6-phosphate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.5
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Fructose_6-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27802586'
+- id: 2_7_1_105_Homo_sapiens_O60825_Fructose_6-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 40.7
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Fructose_6-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27802586'
+- id: 2_7_1_105_Homo_sapiens_O60825_Fructose_6-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 13.8
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Fructose_6-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27802586'
+- id: 2_7_1_105_Homo_sapiens_O60825_Fructose_6-phosphate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.5
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Fructose_6-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27802586'
+buffer:
+  buffer: 20 mM TES, 1 mM DTT, 2 mM MgCl2, 0.5% Tween
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 64088
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/27802586/
+  pubmed_id: '27802586'
+  doi: null
+name: Merged entry for O60825 Y428A
+description: 'Merged from 2 files: SABIO_EC2.7.1.105_Homo_sapiens__O60825_Y428A_s_Fructose.yaml,
+  SABIO_EC2.7.1.105_Homo_sapiens__O60825_Y428A_s_Fructose_2.yaml'

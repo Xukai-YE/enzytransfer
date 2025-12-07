@@ -1,0 +1,159 @@
+name: SABIO-RK Entry 4059
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 4059
+created: '2025-10-28T13:47:40.030211'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_6_1_19_P50457_P22256_p4059
+  name: 4-aminobutyrate transaminase
+  sequence: null
+  ecnumber: 2.6.1.19
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P50457; P22256
+complexes: null
+small_molecules:
+- id: substrate_4-Aminobutanoate
+  name: 4-Aminobutanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_2-Oxoglutarate
+  name: 2-Oxoglutarate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Succinate_semialdehyde
+  name: Succinate semialdehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Glutamate
+  name: L-Glutamate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Aminooxyacetate
+  name: Aminooxyacetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1785_EC2_6_1_19_Escherichia_coli_P50457_P22256_4-Aminobutanoate
+  name: Reaction catalyzed by 4-aminobutyrate transaminase on 4-Aminobutanoate
+  equation: 4-Aminobutanoate + 2-Oxoglutarate = L-Glutamate + Succinate semialdehyde
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_4-Aminobutanoate
+  - species_id: substrate_2-Oxoglutarate
+  products:
+  - species_id: product_Succinate_semialdehyde
+  - species_id: product_L-Glutamate
+  modifiers:
+  - species_id: protein_2_6_1_19_P50457_P22256_p4059
+    role: BIOCATALYST
+  - species_id: activator_Aminooxyacetate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 23352;23353;23354;23355
+  KEGGid: R01648
+  notes: 'ChEBI IDs: CHEBI:30566; CHEBI:42825; CHEBI:20318; CHEBI:11638; CHEBI:1253;
+    CHEBI:19748; CHEBI:16865; CHEBI:193777; CHEBI:40483; CHEBI:1786; CHEBI:29972;
+    CHEBI:59888; CHEBI:21301; CHEBI:16810; CHEBI:40661; CHEBI:6224; CHEBI:30916; CHEBI:11961;
+    CHEBI:13107; CHEBI:19749; CHEBI:26805; CHEBI:16015; CHEBI:21304; CHEBI:26804;
+    CHEBI:15126; CHEBI:30915; CHEBI:29985; CHEBI:9305; CHEBI:57706; CHEBI:29988; CHEBI:16265;
+    CHEBI:20317
+
+    KEGG IDs: KEGG:C00025; KEGG:C00334; KEGG:C00232; KEGG:C00026'
+measurements:
+- id: measurement_2_6_1_19_Escherichia_coli_P50457_P22256_4-Aminobutanoate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.8
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 2_6_1_19_Escherichia_coli_P50457_P22256_4-Aminobutanoate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 47.4
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_4-Aminobutanoate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.8
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15723541'
+buffer:
+  buffer: 100 mM TAE-HCl, 5 mM DTT, 1 mM EDTA, 100 ¦ÌM pyridoxal 5&apos;-phosphate,
+    100 mM KCl
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 4059
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15723541/
+  pubmed_id: '15723541'
+  doi: null

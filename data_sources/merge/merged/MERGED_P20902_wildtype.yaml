@@ -1,0 +1,449 @@
+version: '2.0'
+created: '2025-11-20T13:40:07.367656'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_3_3_16_P20902_p75763
+  name: citrate (Si)-synthase
+  ecnumber: 2.3.3.16
+  organism: Acinetobacter calcoaceticus (subsp. anitratus)
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P20902
+  wildtype_sequence: MSEATGKKAVLHLDGKEIELPIYSGTLGPDVIDVKDVLASGHFTFDPGFMATASCESKITFIDGDKGILLHRGYPIDQLATQADYLETCYLLLNGELPTAEQKVEFDAKVRAHTMVHDQVSRFFNGFRRDAHPMAIMVGVVGALSAFYHNNLDIEDINHREITAIRLIAKIPTLAAWSYKYTVGQPFIYPRNDLNYAENFLHMMFATPADRDYKVNPVLARAMDRIFTLHADHEQNASTSTVRLAGSTGANPYACISAGISALWGPAHGGANEAVLKMLDEIGSVENVAEFMEKVKRKEVKLMGFGHRVYKNFDPRAKVMKQTCDEVLEALGINDPQLALAMELERIALNDPYFVERKLYPNVDFYSGIILKAIGIPTEMFTVIFALARTVGWISHWLEMHSGPYKIGRPRQLYTGEVQRDIKR
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Acetyl-CoA
+  name: Acetyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Oxaloacetate
+  name: Oxaloacetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Citrate
+  name: Citrate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_KCl
+  name: KCl
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_267_EC2_3_3_16_Acinetobacter_calcoaceticus_P20902_Acetyl-CoA
+  name: Reaction catalyzed by citrate (Si)-synthase on Acetyl-CoA
+  equation: Coenzyme A + Citrate = Acetyl-CoA + Oxaloacetate + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Acetyl-CoA
+  - species_id: substrate_Oxaloacetate
+  products:
+  - species_id: product_Citrate
+  - species_id: product_Coenzyme_A
+  modifiers:
+  - species_id: protein_2_3_3_16_P20902_p75763
+    role: BIOCATALYST
+  - species_id: activator_KCl
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 16845;16846;16847;16848
+  KEGGid: R00351
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:29375; CHEBI:24959; CHEBI:15346; CHEBI:44819;
+    CHEBI:23322; CHEBI:23355; CHEBI:41981; CHEBI:32588; CHEBI:57288; CHEBI:41631;
+    CHEBI:3727; CHEBI:16452; CHEBI:35806; CHEBI:13712; CHEBI:42857; CHEBI:41979; CHEBI:76049;
+    CHEBI:16947; CHEBI:41523; CHEBI:13295; CHEBI:12820; CHEBI:23321; CHEBI:41597;
+    CHEBI:42043; CHEBI:13999; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:14703;
+    CHEBI:15377; CHEBI:57287; CHEBI:13352; CHEBI:25734; CHEBI:42563; CHEBI:35810;
+    CHEBI:13294; CHEBI:25731; CHEBI:40470; CHEBI:35802; CHEBI:43228; CHEBI:30744;
+    CHEBI:44292; CHEBI:33806; CHEBI:2408; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:7812;
+    CHEBI:3771; CHEBI:30769; CHEBI:35809; CHEBI:24958; CHEBI:741566; CHEBI:29373;
+    CHEBI:44701; CHEBI:13298; CHEBI:15351
+
+    KEGG IDs: KEGG:C00010; KEGG:C00001; KEGG:C00158; KEGG:C00036; KEGG:C00024'
+- id: sabiork_267_EC2_3_3_16_Acinetobacter_calcoaceticus_P20902_Oxaloacetate
+  name: Reaction catalyzed by citrate (Si)-synthase on Oxaloacetate
+  equation: Coenzyme A + Citrate = Acetyl-CoA + Oxaloacetate + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxaloacetate
+  - species_id: substrate_Acetyl-CoA
+  products:
+  - species_id: product_Citrate
+  - species_id: product_Coenzyme_A
+  modifiers:
+  - species_id: protein_2_3_3_16_P20902_p75762
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 16845;16846;16847;16848
+  KEGGid: R00351
+  notes: 'ChEBI IDs: CHEBI:24959; CHEBI:29375; CHEBI:22192; CHEBI:15346; CHEBI:44819;
+    CHEBI:23322; CHEBI:23355; CHEBI:41981; CHEBI:57288; CHEBI:41631; CHEBI:3727; CHEBI:16452;
+    CHEBI:35806; CHEBI:13712; CHEBI:42857; CHEBI:41979; CHEBI:76049; CHEBI:16947;
+    CHEBI:41523; CHEBI:13295; CHEBI:12820; CHEBI:23321; CHEBI:41597; CHEBI:42043;
+    CHEBI:13999; CHEBI:14703; CHEBI:33813; CHEBI:33811; CHEBI:27313; CHEBI:15377;
+    CHEBI:57287; CHEBI:13352; CHEBI:25734; CHEBI:42563; CHEBI:35810; CHEBI:13294;
+    CHEBI:25731; CHEBI:40470; CHEBI:35802; CHEBI:43228; CHEBI:30744; CHEBI:44292;
+    CHEBI:33806; CHEBI:2408; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:7812; CHEBI:3771;
+    CHEBI:30769; CHEBI:35809; CHEBI:24958; CHEBI:741566; CHEBI:29373; CHEBI:44701;
+    CHEBI:13298; CHEBI:15351
+
+    KEGG IDs: KEGG:C00010; KEGG:C00001; KEGG:C00158; KEGG:C00036; KEGG:C00024'
+- id: sabiork_267_EC2_3_3_16_rat_P20902_Acetyl-CoA
+  name: Reaction catalyzed by citrate (Si)-synthase on Acetyl-CoA
+  equation: Coenzyme A + Citrate = Acetyl-CoA + Oxaloacetate + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Acetyl-CoA
+  - species_id: substrate_Oxaloacetate
+  products:
+  - species_id: product_Citrate
+  - species_id: product_Coenzyme_A
+  modifiers:
+  - species_id: protein_2_3_3_16_P20902_p54295
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 16845;16846;16847;16848
+  KEGGid: R00351
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:24959; CHEBI:29375; CHEBI:15346; CHEBI:44819;
+    CHEBI:23322; CHEBI:23355; CHEBI:41981; CHEBI:57288; CHEBI:41631; CHEBI:3727; CHEBI:16452;
+    CHEBI:35806; CHEBI:13712; CHEBI:42857; CHEBI:41979; CHEBI:76049; CHEBI:16947;
+    CHEBI:41523; CHEBI:13295; CHEBI:12820; CHEBI:23321; CHEBI:41597; CHEBI:42043;
+    CHEBI:13999; CHEBI:14703; CHEBI:33813; CHEBI:33811; CHEBI:27313; CHEBI:15377;
+    CHEBI:57287; CHEBI:13352; CHEBI:25734; CHEBI:42563; CHEBI:35810; CHEBI:13294;
+    CHEBI:25731; CHEBI:40470; CHEBI:35802; CHEBI:43228; CHEBI:30744; CHEBI:44292;
+    CHEBI:33806; CHEBI:2408; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:7812; CHEBI:3771;
+    CHEBI:30769; CHEBI:35809; CHEBI:24958; CHEBI:741566; CHEBI:29373; CHEBI:44701;
+    CHEBI:13298; CHEBI:15351
+
+    KEGG IDs: KEGG:C00010; KEGG:C00001; KEGG:C00158; KEGG:C00036; KEGG:C00024'
+- id: sabiork_267_EC2_3_3_16_rat_P20902_Oxaloacetate
+  name: Reaction catalyzed by citrate (Si)-synthase on Oxaloacetate
+  equation: Coenzyme A + Citrate = Acetyl-CoA + Oxaloacetate + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxaloacetate
+  - species_id: substrate_Acetyl-CoA
+  products:
+  - species_id: product_Citrate
+  - species_id: product_Coenzyme_A
+  modifiers:
+  - species_id: protein_2_3_3_16_P20902_p54298
+    role: BIOCATALYST
+  - species_id: activator_KCl
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 16845;16846;16847;16848
+  KEGGid: R00351
+  notes: 'ChEBI IDs: CHEBI:24959; CHEBI:29375; CHEBI:22192; CHEBI:15346; CHEBI:44819;
+    CHEBI:23322; CHEBI:23355; CHEBI:41981; CHEBI:32588; CHEBI:57288; CHEBI:41631;
+    CHEBI:3727; CHEBI:16452; CHEBI:35806; CHEBI:13712; CHEBI:42857; CHEBI:41979; CHEBI:76049;
+    CHEBI:16947; CHEBI:41523; CHEBI:13295; CHEBI:12820; CHEBI:23321; CHEBI:41597;
+    CHEBI:42043; CHEBI:13999; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:14703;
+    CHEBI:15377; CHEBI:57287; CHEBI:13352; CHEBI:25734; CHEBI:42563; CHEBI:35810;
+    CHEBI:13294; CHEBI:25731; CHEBI:40470; CHEBI:35802; CHEBI:43228; CHEBI:30744;
+    CHEBI:44292; CHEBI:33806; CHEBI:2408; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:7812;
+    CHEBI:3771; CHEBI:30769; CHEBI:35809; CHEBI:24958; CHEBI:741566; CHEBI:29373;
+    CHEBI:44701; CHEBI:13298; CHEBI:15351
+
+    KEGG IDs: KEGG:C00010; KEGG:C00001; KEGG:C00158; KEGG:C00036; KEGG:C00024'
+measurements:
+- id: measurement_2_3_3_16_Acinetobacter_calcoaceticus_P20902_Acetyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.8
+  temperature_opt: 21.0
+  temperature_unit: °C
+- id: measurement_2_3_3_16_Acinetobacter_calcoaceticus_P20902_Oxaloacetate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.8
+  temperature_opt: 21.0
+  temperature_unit: °C
+- id: measurement_2_3_3_16_rat_P20902_Acetyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.8
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_2_3_3_16_rat_P20902_Oxaloacetate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.8
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_3_3_16_Acinetobacter_calcoaceticus_P20902_Acetyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.8
+  temperature: 21.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1524432'
+- id: 2_3_3_16_Acinetobacter_calcoaceticus_P20902_Acetyl-CoA_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 78.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.8
+  temperature: 21.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1524432'
+- id: 2_3_3_16_Acinetobacter_calcoaceticus_P20902_Acetyl-CoA_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.2e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.8
+  temperature: 21.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1524432'
+- id: 2_3_3_16_Acinetobacter_calcoaceticus_P20902_Oxaloacetate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00011
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxaloacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.8
+  temperature: 21.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1524432'
+- id: 2_3_3_16_Acinetobacter_calcoaceticus_P20902_Oxaloacetate_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.05e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxaloacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.8
+  temperature: 21.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1524432'
+- id: 2_3_3_16_Acinetobacter_calcoaceticus_P20902_Oxaloacetate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 74.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxaloacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.8
+  temperature: 21.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1524432'
+- id: 2_3_3_16_rat_P20902_Acetyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0001
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.8
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '4211224'
+- id: 2_3_3_16_rat_P20902_Acetyl-CoA_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 941.6667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.8
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '4211224'
+- id: 2_3_3_16_rat_P20902_Acetyl-CoA_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0001
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.8
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '4211224'
+- id: 2_3_3_16_rat_P20902_Oxaloacetate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0001
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxaloacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.8
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '4211224'
+- id: 2_3_3_16_rat_P20902_Oxaloacetate_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxaloacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.8
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '4211224'
+buffer:
+  buffer: 20 mM Tris-Cl; 0.01 M Tris, 0.1 mM EDTA, 1.0 mM sodium citrate, 0.1 mM DTNB
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 75763
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/1524432/
+  pubmed_id: '1524432'
+  doi: null
+- title: Reference for SABIO-RK entry 54295
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/4211224/
+  pubmed_id: '4211224'
+  doi: null
+name: Merged entry for P20902 wildtype
+description: 'Merged from 4 files: SABIO_EC2.3.3.16_Acinetobacter_calcoaceticus__P20902_s_Acetyl-CoA.yaml,
+  SABIO_EC2.3.3.16_Acinetobacter_calcoaceticus__P20902_s_Oxaloacetate.yaml, SABIO_EC2.3.3.16_rat__P20902_s_Acetyl-CoA.yaml,
+  SABIO_EC2.3.3.16_rat__P20902_s_Oxaloacetate.yaml'

@@ -1,0 +1,176 @@
+name: SABIO-RK Entry 68650
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 68650
+created: '2025-10-28T17:09:27.714971'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_4_22__K9N7C7_K9N638_p68650
+  name: protein#68650
+  sequence: null
+  ecnumber: 3.4.22.
+  organism: Middle East respiratory syndrome-related coronavirus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: K9N7C7; K9N638
+complexes: null
+small_molecules:
+- id: substrate_ISG15-AMC
+  name: ISG15-AMC
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ISG15
+  name: ISG15
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_7-Amino-4-methylcoumarin
+  name: 7-Amino-4-methylcoumarin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_15675_EC3_4_22__Middle_East_K9N7C7_K9N638_ISG15-AMC
+  name: Reaction catalyzed by enzyme on ISG15-AMC
+  equation: H2O + ISG15-AMC = 7-Amino-4-methylcoumarin + ISG15
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ISG15-AMC
+  products:
+  - species_id: product_ISG15
+  - species_id: product_7-Amino-4-methylcoumarin
+  modifiers:
+  - species_id: protein_3_4_22__K9N7C7_K9N638_p68650
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:41979;
+    CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352;
+    CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:29373;
+    CHEBI:44701; CHEBI:51771
+
+    KEGG IDs: KEGG:C01386; KEGG:C00001'
+measurements:
+- id: measurement_3_4_22__Middle_East_K9N7C7_K9N638_ISG15-AMC
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 3_4_22__Middle_East_K9N7C7_K9N638_ISG15-AMC_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 223333.3
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ISG15-AMC
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '28079137'
+- id: 3_4_22__Middle_East_K9N7C7_K9N638_ISG15-AMC_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.6e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ISG15-AMC
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '28079137'
+- id: 3_4_22__Middle_East_K9N7C7_K9N638_ISG15-AMC_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.3533333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ISG15-AMC
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '28079137'
+buffer:
+  buffer: 50 mM HEPES, 0.1 mg/ml BSA, 150 mM NaCl, 2.5 mM DTT
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 68650
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/28079137/
+  pubmed_id: '28079137'
+  doi: null

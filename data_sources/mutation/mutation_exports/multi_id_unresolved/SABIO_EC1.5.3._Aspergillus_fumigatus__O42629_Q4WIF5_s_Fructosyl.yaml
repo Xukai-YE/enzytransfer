@@ -1,0 +1,187 @@
+name: SABIO-RK Entry 8196
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 8196
+created: '2025-10-28T13:52:58.189331'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_5_3__O42629_Q4WIF5_p8196
+  name: With oxygen as acceptor
+  sequence: null
+  ecnumber: 1.5.3.
+  organism: Aspergillus fumigatus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: O42629; Q4WIF5
+complexes: null
+small_molecules:
+- id: substrate_Fructosyl_propylamine
+  name: Fructosyl propylamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Propylamine
+  name: Propylamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Glucosone
+  name: Glucosone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7815_EC1_5_3__Aspergillus_fumigatus_O42629_Q4WIF5_Fructosyl_propylamine
+  name: Reaction catalyzed by With oxygen as acceptor on Fructosyl propylamine
+  equation: O2 + Fructosyl propylamine = H2O2 + Propylamine + Glucosone
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Fructosyl_propylamine
+  - species_id: substrate_O2
+  products:
+  - species_id: product_Propylamine
+  - species_id: product_Glucosone
+  modifiers:
+  - species_id: protein_1_5_3__O42629_Q4WIF5_p8196
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:13354; CHEBI:566825; CHEBI:29192; CHEBI:24637;
+    CHEBI:26689; CHEBI:52417; CHEBI:16240; CHEBI:23833; CHEBI:13416; CHEBI:13355;
+    CHEBI:38938; CHEBI:39870; CHEBI:15379; CHEBI:30491; CHEBI:25366; CHEBI:44742;
+    CHEBI:44812; CHEBI:39865; CHEBI:29793; CHEBI:7860; CHEBI:10745; CHEBI:5586
+
+    KEGG IDs: KEGG:C00007; KEGG:C00027; KEGG:C00704'
+measurements:
+- id: measurement_1_5_3__Aspergillus_fumigatus_O42629_Q4WIF5_Fructosyl_propylamine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_5_3__Aspergillus_fumigatus_O42629_Q4WIF5_Fructosyl_propylamine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 3.5
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Fructosyl_propylamine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15629109'
+- id: 1_5_3__Aspergillus_fumigatus_O42629_Q4WIF5_Fructosyl_propylamine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.1e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Fructosyl_propylamine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15629109'
+- id: 1_5_3__Aspergillus_fumigatus_O42629_Q4WIF5_Fructosyl_propylamine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 325000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Fructosyl_propylamine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15629109'
+buffer:
+  buffer: 8.25 mM Hepes, 0.02 mg/ml peroxidase, 2 mg/ml 2,2&apos;-azino-di(3-ethyl-benzthiazoline-6-sulphonic
+    acid)
+  buffer_concentration: 8.25 mM
+references:
+- title: Reference for SABIO-RK entry 8196
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15629109/
+  pubmed_id: '15629109'
+  doi: null

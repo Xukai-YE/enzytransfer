@@ -1,0 +1,169 @@
+name: SABIO-RK Entry 30550
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 30550
+created: '2025-10-28T14:40:33.272886'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_5_4_2_3_O95394_p30550
+  name: phosphoacetylglucosamine mutase
+  ecnumber: 5.4.2.3
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: R498A
+  uniprotid: O95394
+  wildtype_sequence: MDLGAITKYSALHAKPNGLILQYGTAGFRTKAEHLDHVMFRMGLLAVLRSKQTKSTIGVMVTASHNPEEDNGVKLVDPLGEMLAPSWEEHATCLANAEEQDMQRVLIDISEKEAVNLQQDAFVVIGRDTRPSSEKLSQSVIDGVTVLGGQFHDYGLLTTPQLHYMVYCRNTGGRYGKATIEGYYQKLSKAFVELTKQASCSGDEYRSLKVDCANGIGALKLREMEHYFSQGLSVQLFNDGSKGKLNHLCGADFVKSHQKPPQGMEIKSNERCCSFDGDADRIVYYYHDADGHFHLIDGDKIATLISSFLKELLVEIGESLNIGVVQTAYANGSSTRYLEEVMKVPVYCTKTGVKHLHHKAQEFDIGVYFEANGHGTALFSTAVEMKIKQSAEQLEDKKRKAAKMLENIIDLFNQAAGDAISDMLVIEAILALKGLTVQQWDALYTDLPNRQLKVQVADRRVISTTDAERQAVTPPGLQEAINDLVKKYKLSRAFVRPSGTEDVVRVYAEADSQESADHLAHEVSLAVFQLAGGIGERPQPGF
+  mutant_sequence: MDLGAITKYSALHAKPNGLILQYGTAGFRTKAEHLDHVMFRMGLLAVLRSKQTKSTIGVMVTASHNPEEDNGVKLVDPLGEMLAPSWEEHATCLANAEEQDMQRVLIDISEKEAVNLQQDAFVVIGRDTRPSSEKLSQSVIDGVTVLGGQFHDYGLLTTPQLHYMVYCRNTGGRYGKATIEGYYQKLSKAFVELTKQASCSGDEYRSLKVDCANGIGALKLREMEHYFSQGLSVQLFNDGSKGKLNHLCGADFVKSHQKPPQGMEIKSNERCCSFDGDADRIVYYYHDADGHFHLIDGDKIATLISSFLKELLVEIGESLNIGVVQTAYANGSSTRYLEEVMKVPVYCTKTGVKHLHHKAQEFDIGVYFEANGHGTALFSTAVEMKIKQSAEQLEDKKRKAAKMLENIIDLFNQAAGDAISDMLVIEAILALKGLTVQQWDALYTDLPNRQLKVQVADRRVISTTDAERQAVTPPGLQEAINDLVKKYKLSAAFVRPSGTEDVVRVYAEADSQESADHLAHEVSLAVFQLAGGIGERPQPGF
+  position_offset: -6
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_N-Acetylglucosamine_6-phosphate
+  name: N-Acetylglucosamine 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N-Acetylglucosamine_1-phosphate
+  name: N-Acetylglucosamine 1-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_11321_EC5_4_2_3_Homo_sapiens_O95394_N-Acetylglucosamine_6-phosphate
+  name: Reaction catalyzed by phosphoacetylglucosamine mutase on N-Acetylglucosamine
+    6-phosphate
+  equation: N-Acetylglucosamine 6-phosphate = N-Acetylglucosamine 1-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N-Acetylglucosamine_6-phosphate
+  products:
+  - species_id: product_N-Acetylglucosamine_1-phosphate
+  modifiers:
+  - species_id: protein_5_4_2_3_O95394_p30550
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:57513; CHEBI:15784; CHEBI:12456; CHEBI:7125; CHEBI:16446;
+    CHEBI:7127; CHEBI:21521; CHEBI:12564
+
+    KEGG IDs: KEGG:C00357'
+measurements:
+- id: measurement_5_4_2_3_Homo_sapiens_O95394_N-Acetylglucosamine_6-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.3
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 5_4_2_3_Homo_sapiens_O95394_N-Acetylglucosamine_6-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.03e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Acetylglucosamine_6-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.3
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11004509'
+- id: 5_4_2_3_Homo_sapiens_O95394_N-Acetylglucosamine_6-phosphate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 8166.667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Acetylglucosamine_6-phosphate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.3
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11004509'
+- id: 5_4_2_3_Homo_sapiens_O95394_N-Acetylglucosamine_6-phosphate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.1648333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Acetylglucosamine_6-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.3
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11004509'
+buffer:
+  buffer: 50 mM Tris-HCl, 5 mM MgCl2, 200 ¦ÌM UTP, 10% (v/v) glycerol, 0.4 U/ml pyrophosphatase,
+    10 ¦Ìg/ml ScUap1p
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 30550
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11004509/
+  pubmed_id: '11004509'
+  doi: null

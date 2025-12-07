@@ -1,0 +1,270 @@
+version: '2.0'
+created: '2025-11-20T13:39:25.222056'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_83_Q58130_p40864
+  name: D-malate dehydrogenase (decarboxylating)
+  ecnumber: 1.1.1.83
+  organism: Methanocaldococcus jannaschii
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q58130
+  wildtype_sequence: MHKICVIEGDGIGKEVVPATIQVLEATGLPFEFVYAEAGDEVYKRTGKALPEETIETALDCDAVLFGAAGETAADVIVKLRHILDTYANIRPVKAYKGVKCLRPDIDYVIVRENTEGLYKGIEAEIDEGITIATRVITEKACERIFRFAFNLARERKKMGKEGKVTCAHKANVLKLTDGLFKKIFYKVAEEYDDIKAEDYYIDAMNMYIITKPQVFDVVVTSNLFGDILSDGAAGTVGGLGLAPSANIGDEHGLFEPVHGSAPDIAGKKIANPTATILSAVLMLRYLGEYEAADKVEKALEEVLALGLTTPDLGGNLNTFEMAEEVAKRVREE
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_D-Malate
+  name: D-Malate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Pyruvate
+  name: Pyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_3-Isopropylmalate
+  name: 3-Isopropylmalate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4-Methyl-2-oxopentanoate
+  name: 4-Methyl-2-oxopentanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_744_EC1_1_1_83_Methanocaldococcus_jannaschii_Q58130_D-Malate
+  name: Reaction catalyzed by D-malate dehydrogenase (decarboxylating) on D-Malate
+  equation: NAD+ + D-Malate = CO2 + Pyruvate + H+ + NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Malate
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_CO2
+  - species_id: product_NADH
+  - species_id: product_Pyruvate
+  modifiers:
+  - species_id: protein_1_1_1_83_Q58130_p40864
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 18365;18366;18367;18368
+  KEGGid: R00215
+  notes: 'ChEBI IDs: CHEBI:14987; CHEBI:139538; CHEBI:44281; CHEBI:342; CHEBI:13393;
+    CHEBI:30796; CHEBI:29234; CHEBI:15846; CHEBI:3283; CHEBI:13357; CHEBI:15588; CHEBI:21902;
+    CHEBI:15361; CHEBI:42060; CHEBI:13396; CHEBI:18685; CHEBI:21901; CHEBI:24636;
+    CHEBI:18686; CHEBI:44214; CHEBI:29233; CHEBI:13394; CHEBI:23011; CHEBI:5584; CHEBI:26466;
+    CHEBI:57945; CHEBI:44216; CHEBI:11002; CHEBI:13285; CHEBI:13282; CHEBI:44073;
+    CHEBI:26462; CHEBI:57540; CHEBI:7423; CHEBI:13283; CHEBI:8685; CHEBI:13389; CHEBI:13395;
+    CHEBI:13284; CHEBI:15378; CHEBI:32816; CHEBI:16526; CHEBI:48829; CHEBI:44215;
+    CHEBI:10744; CHEBI:45253; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C00497; KEGG:C00022; KEGG:C00011; KEGG:C00003; KEGG:C00004'
+- id: sabiork_12393_EC1_1_1_85_Methanocaldococcus_jannaschii_Q58130_3-Isopropylmalate
+  name: Reaction catalyzed by 3-isopropylmalate dehydrogenase on 3-Isopropylmalate
+  equation: 3-Isopropylmalate + NAD+ = 4-Methyl-2-oxopentanoate + CO2 + H+ + NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3-Isopropylmalate
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_CO2
+  - species_id: product_4-Methyl-2-oxopentanoate
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_1_1_85_Q58130_p40863
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 32271;32272;32273;32274
+  KEGGid: R10052
+  notes: 'ChEBI IDs: CHEBI:1565; CHEBI:35122; CHEBI:139538; CHEBI:44281; CHEBI:48430;
+    CHEBI:13393; CHEBI:43465; CHEBI:29234; CHEBI:15846; CHEBI:3283; CHEBI:13357; CHEBI:21902;
+    CHEBI:13396; CHEBI:20438; CHEBI:21901; CHEBI:24636; CHEBI:44214; CHEBI:29233;
+    CHEBI:5584; CHEBI:13394; CHEBI:23011; CHEBI:57945; CHEBI:44216; CHEBI:13285; CHEBI:13282;
+    CHEBI:35121; CHEBI:57540; CHEBI:12020; CHEBI:7423; CHEBI:13283; CHEBI:13389; CHEBI:17865;
+    CHEBI:43468; CHEBI:15378; CHEBI:13284; CHEBI:41619; CHEBI:1891; CHEBI:13395; CHEBI:16526;
+    CHEBI:15592; CHEBI:35120; CHEBI:48829; CHEBI:44215; CHEBI:10744; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C04411; KEGG:C00080; KEGG:C00233; KEGG:C00011; KEGG:C00003; KEGG:C00004'
+measurements:
+- id: measurement_1_1_1_83_Methanocaldococcus_jannaschii_Q58130_D-Malate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 60.0
+  temperature_unit: °C
+- id: measurement_1_1_1_85_Methanocaldococcus_jannaschii_Q58130_3-Isopropylmalate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 60.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1_83_Methanocaldococcus_jannaschii_Q58130_D-Malate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00041
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Malate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17449626'
+- id: 1_1_1_83_Methanocaldococcus_jannaschii_Q58130_D-Malate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 14000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Malate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.5
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17449626'
+- id: 1_1_1_85_Methanocaldococcus_jannaschii_Q58130_3-Isopropylmalate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.4e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Isopropylmalate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17449626'
+- id: 1_1_1_85_Methanocaldococcus_jannaschii_Q58130_3-Isopropylmalate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 88000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Isopropylmalate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.5
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17449626'
+buffer:
+  buffer: 50 mM TAPS-KOH, 200 mM KCl, 10 mM MgCl2
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 40864
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/17449626/
+  pubmed_id: '17449626'
+  doi: null
+name: Merged entry for Q58130 wildtype
+description: 'Merged from 2 files: SABIO_EC1.1.1.83_Methanocaldococcus_jannaschii__Q58130_s_D-Malate.yaml,
+  SABIO_EC1.1.1.85_Methanocaldococcus_jannaschii__Q58130_s_3-Isopropylmalate.yaml'

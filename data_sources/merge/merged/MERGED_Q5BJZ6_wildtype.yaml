@@ -1,0 +1,270 @@
+version: '2.0'
+created: '2025-11-20T13:39:57.958304'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_1_1_22_Q5BJZ6_p60305
+  name: carnosine N-methyltransferase
+  ecnumber: 2.1.1.22
+  organism: Rattus norvegicus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q5BJZ6
+  wildtype_sequence: MQRRRRAPPASQPAQDSGHSEEVEVQFSAGRLGSAAPAGPPVRGTAEDEERLEREHFWKVINAFRYYGTSMHERVNRTERQFRSLPDNQQKLLPQFPLHLDKIRKCVDHNQEILLTIVNDCIHMFENKEYGEDANGKIMPASTFDMDKLKSTLKQFVRDWSGTGKAERDACYKPIIKEIIKNFPKERWDPSKVNILVPGAGLGRLAWEIAMLGYACQGNEWSFFMLFSSNFVLNRCSEVDKYKLYPWIHQFSNNRRSADQIRPIFFPDVDPHSLPPGSNFSMTAGDFQEIYSECNTWDCIATCFFIDTAHNVIDYIDTIWRILKPGGIWINLGPLLYHFENLANELSIELSYEDIKNVVLQYGFQLEVEKESVLSTYTVNDLSMMKYYYECVLFVVRKPQ
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Carnosine
+  name: Carnosine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_S-Adenosyl-L-methionine
+  name: S-Adenosyl-L-methionine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_beta-Alanyl-N_pai_-methyl-L-histidine
+  name: beta-Alanyl-N(pai)-methyl-L-histidine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_S-Adenosyl-L-homocysteine
+  name: S-Adenosyl-L-homocysteine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2129_EC2_1_1_22_Rattus_norvegicus_Q5BJZ6_Carnosine
+  name: Reaction catalyzed by carnosine N-methyltransferase on Carnosine
+  equation: S-Adenosyl-L-methionine + Carnosine = S-Adenosyl-L-homocysteine + beta-Alanyl-N(pai)-methyl-L-histidine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Carnosine
+  - species_id: substrate_S-Adenosyl-L-methionine
+  products:
+  - species_id: product_beta-Alanyl-N_pai_-methyl-L-histidine
+  - species_id: product_S-Adenosyl-L-homocysteine
+  modifiers:
+  - species_id: protein_2_1_1_22_Q5BJZ6_p60305
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 14205;14206;14207;14208
+  KEGGid: R02144
+  notes: 'ChEBI IDs: CHEBI:66874; CHEBI:13948; CHEBI:22036; CHEBI:12760; CHEBI:15727;
+    CHEBI:12742; CHEBI:18323; CHEBI:59789; CHEBI:67009; CHEBI:45495; CHEBI:3428; CHEBI:57485;
+    CHEBI:142094; CHEBI:8945; CHEBI:67040; CHEBI:45607; CHEBI:33442; CHEBI:15414;
+    CHEBI:10833; CHEBI:12761; CHEBI:10349; CHEBI:12741; CHEBI:57856; CHEBI:58445;
+    CHEBI:16680; CHEBI:23040; CHEBI:12759; CHEBI:8946; CHEBI:22034; CHEBI:527887;
+    CHEBI:13836; CHEBI:10786; CHEBI:22828; CHEBI:12757
+
+    KEGG IDs: KEGG:C00021; KEGG:C01262; KEGG:C00019; KEGG:C00386'
+- id: sabiork_2129_EC2_1_1_22_Rattus_norvegicus_Q5BJZ6_S-Adenosyl-L-methionine
+  name: Reaction catalyzed by carnosine N-methyltransferase on S-Adenosyl-L-methionine
+  equation: S-Adenosyl-L-methionine + Carnosine = S-Adenosyl-L-homocysteine + beta-Alanyl-N(pai)-methyl-L-histidine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_S-Adenosyl-L-methionine
+  - species_id: substrate_Carnosine
+  products:
+  - species_id: product_S-Adenosyl-L-homocysteine
+  - species_id: product_beta-Alanyl-N_pai_-methyl-L-histidine
+  modifiers:
+  - species_id: protein_2_1_1_22_Q5BJZ6_p60306
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 14205;14206;14207;14208
+  KEGGid: R02144
+  notes: 'ChEBI IDs: CHEBI:66874; CHEBI:13948; CHEBI:22036; CHEBI:12760; CHEBI:12742;
+    CHEBI:15727; CHEBI:18323; CHEBI:59789; CHEBI:67009; CHEBI:45495; CHEBI:3428; CHEBI:57485;
+    CHEBI:142094; CHEBI:8945; CHEBI:67040; CHEBI:45607; CHEBI:33442; CHEBI:15414;
+    CHEBI:10833; CHEBI:12761; CHEBI:10349; CHEBI:12741; CHEBI:57856; CHEBI:58445;
+    CHEBI:16680; CHEBI:23040; CHEBI:12759; CHEBI:8946; CHEBI:22034; CHEBI:527887;
+    CHEBI:13836; CHEBI:10786; CHEBI:22828; CHEBI:12757
+
+    KEGG IDs: KEGG:C00021; KEGG:C01262; KEGG:C00019; KEGG:C00386'
+measurements:
+- id: measurement_2_1_1_22_Rattus_norvegicus_Q5BJZ6_Carnosine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 40.0
+  temperature_unit: °C
+- id: measurement_2_1_1_22_Rattus_norvegicus_Q5BJZ6_S-Adenosyl-L-methionine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 40.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_1_1_22_Rattus_norvegicus_Q5BJZ6_Carnosine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.2e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Carnosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 40.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26001783'
+- id: 2_1_1_22_Rattus_norvegicus_Q5BJZ6_Carnosine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.575e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Carnosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 40.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26001783'
+- id: 2_1_1_22_Rattus_norvegicus_Q5BJZ6_Carnosine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.07816667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Carnosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 40.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26001783'
+- id: 2_1_1_22_Rattus_norvegicus_Q5BJZ6_S-Adenosyl-L-methionine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.003333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 40.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26001783'
+- id: 2_1_1_22_Rattus_norvegicus_Q5BJZ6_S-Adenosyl-L-methionine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.0025
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 40.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26001783'
+- id: 2_1_1_22_Rattus_norvegicus_Q5BJZ6_S-Adenosyl-L-methionine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 4.883333e-08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 40.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26001783'
+buffer:
+  buffer: 50 mM Hepes, 10 mM KCl, 1 mM EGTA, 1 mM MgCl2, 1 mM DTT
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 60305
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/26001783/
+  pubmed_id: '26001783'
+  doi: null
+name: Merged entry for Q5BJZ6 wildtype
+description: 'Merged from 2 files: SABIO_EC2.1.1.22_Rattus_norvegicus__Q5BJZ6_s_Carnosine.yaml,
+  SABIO_EC2.1.1.22_Rattus_norvegicus__Q5BJZ6_s_S-Adenosyl-L-methion.yaml'

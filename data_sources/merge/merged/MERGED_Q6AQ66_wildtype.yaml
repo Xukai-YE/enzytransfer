@@ -1,0 +1,243 @@
+version: '2.0'
+created: '2025-11-20T13:42:01.702169'
+modified: null
+creators:
+- given_name: SKiD
+  family_name: Database
+  mail: skid@database.org
+vessels: null
+proteins:
+- id: protein_Q6AQ66
+  name: Desulfotalea psychrophila
+  ecnumber: 1.1.1.42
+  organism: Desulfotalea psychrophila
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: null
+  uniprotid: Q6AQ66
+  wildtype_sequence: MKIQMKTPLVELDGDEMTRVLWPLIKDKLLLPFIDLQTEYYDLGIEERDRTNDQITIDAAEAIKKYGVGVKNATITPNQDRVEEYGLKEQWKSPNATVRAMLDGTVFRKPIMVKNIKPSVRSWQKPIVVGRHAYGDFYKNAEIFAEAGGKLEIVVTDKNGKETRQTIMEVDEPAIVQGIHNTVASIGHFARACFEYSLDQKIDCWFATKDTISKQYDQRFKIIFEEIFAQEYKEKFAAAGIEYFYTLIDDVVARMMKTEGGMLWACKNYDGDVMSDMVASAFGSLAMMSSVLVSPYGYFEYEAAHGTVQRHYYQHLKGERTSTNPVALIYAWTGALRKRGELDGTPDLCAFCDSLEAITIECIESGYMTGDLARICEPAAIKVLDSIEFIDELGKRLQQLNK
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NADP_
+  name: NADP+
+  canonical_smiles: C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)(O)O)O)O)O)C(=O)N
+  inchi: InChI=1S/C21H28N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1-4,7-8,10-11,13-16,20-21,29-31H,5-6H2,(H7-,22,23,24,25,32,33,34,35,36,37,38,39)/p+1
+  inchikey: XJLXINKUBYWONI-UHFFFAOYSA-O
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/5886
+- id: product
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_isocitrate
+  name: isocitrate
+  canonical_smiles: C(C(O)C(C(=O)[O-])CC(=O)[O-])(=O)[O-]
+  inchi: InChI=1S/C6H8O7/c7-3(8)1-2(5(10)11)4(9)6(12)13/h2,4,9H,1H2,(H,7,8)(H,10,11)(H,12,13)/p-3
+  inchikey: ODBLHEXUDAPZAU-UHFFFAOYSA-K
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/1198
+reactions:
+- id: reaction_Q6AQ66_NADP_
+  name: Reaction catalyzed by enzyme on NADP+
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADP_
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_Q6AQ66
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_Q6AQ66_isocitrate
+  name: Reaction catalyzed by enzyme on isocitrate
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_isocitrate
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_Q6AQ66
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+measurements:
+- id: measurement_0
+  name: Experimental conditions (pH=None, T=5.0°C)
+  species_data: null
+  ph_opt: null
+  temperature_opt: 5.0
+  temperature_unit: °C
+- id: measurement_1
+  name: Experimental conditions (pH=None, T=25.0°C)
+  species_data: null
+  ph_opt: null
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=None, T=5.0°C)
+  species_data: null
+  ph_opt: null
+  temperature_opt: 5.0
+  temperature_unit: °C
+- id: measurement_1
+  name: Experimental conditions (pH=None, T=25.0°C)
+  species_data: null
+  ph_opt: null
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: Q6AQ66_NADP__kcat_403
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 4.5
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 5.0
+  temperature_unit: °C
+  notes: 'Source: kcat'
+  pubmed_id: '17632124'
+- id: Q6AQ66_NADP__kcat_405
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 31.4
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 25.0
+  temperature_unit: °C
+  notes: 'Source: kcat'
+  pubmed_id: '17632124'
+- id: Q6AQ66_isocitrate_kcat_404
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 4.5
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_isocitrate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 5.0
+  temperature_unit: °C
+  notes: 'Source: kcat'
+  pubmed_id: '17632124'
+- id: Q6AQ66_isocitrate_kcat_406
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 31.4
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_isocitrate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 25.0
+  temperature_unit: °C
+  notes: 'Source: kcat'
+  pubmed_id: '17632124'
+buffer:
+  buffer: null
+  buffer_concentration: null
+references:
+- title: I.H.
+  authors: Fedoy, A.E., Yang, N., Martinez, A., Leiros, H.K., Steen
+  year: '2007'
+  journal: Structural and functional properties of isocitrate dehydrogenase from the
+    psychrophilic bacterium Desulfotalea psychrophila reveal a cold-active enzyme
+    with an unusual high thermal stability. J. Mol
+  uri: null
+  pubmed_id: '17632124'
+  doi: null
+  id: '84'
+  pages: 130-149
+  volume: '372'
+  citation: 'Fedoy, A.E.,Yang, N.,Martinez, A.,Leiros, H.K.,Steen, I.H., Structural
+    and functional properties of isocitrate dehydrogenase from the psychrophilic bacterium
+    Desulfotalea psychrophila reveal a cold-active enzyme with an unusual high thermal
+    stability. J. Mol, Biol., 2007, 130-149, 372, PMID: 17632124'
+name: Merged entry for Q6AQ66 wildtype
+description: 'Merged from 2 files: SKID_EC1.1.1.42_Desulfotal_Q6AQ66_NADP_.yaml, SKID_EC1.1.1.42_Desulfotal_Q6AQ66_isocitrate.yaml'

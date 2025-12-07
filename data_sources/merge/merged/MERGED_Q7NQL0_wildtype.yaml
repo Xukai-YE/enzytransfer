@@ -1,0 +1,263 @@
+version: '2.0'
+created: '2025-11-20T13:42:01.168420'
+modified: null
+creators:
+- given_name: SKiD
+  family_name: Database
+  mail: skid@database.org
+vessels: null
+proteins:
+- id: protein_Q7NQL0
+  name: Chromobacterium violaceum
+  ecnumber: 1.1.1.335
+  organism: Chromobacterium violaceum
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: null
+  uniprotid: Q7NQL0
+  wildtype_sequence: MIVIPPITDRKIRFALVGCGRIANNHFGALEKHADRAELIDVCDIDPAALKAAVERTGARGHASLTDMLAQTDADIVILTTPSGLHPTQSIECSEAGFHVMTEKPMATRWEDGLEMVKAADKAKKHLFVVKQNRRNATLQLLKRAMQEKRFGRIYMVNVNVFWTRPQEYYDAAGWRGTWEFDGGAFMNQASHYVDLLDWLIGPVESVQAYTATLARNIEVEDTGTVSVKWRSGALGSMNVTMLTYPKNLEGSITILGEKGSVRVGGVAVNEIQHWEFSEPHAMDEEIKDASYATTSVYGFGHPLYYDNVIKTMRGEATPETDGREGLKSLELLIAMYLSARDGRRVSLPLDY
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_UDP-alpha-D-glucuronate
+  name: UDP-alpha-D-glucuronate
+  canonical_smiles: C1=CN(C(=O)NC1=O)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OC3C(C(C(C(O3)C(=O)O)O)O)O)O)O
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N
+  inchi: InChI=1S/C21H27N7O14P2/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(32)14(30)11(41-21)6-39-44(36,37)42-43(34,35)38-5-10-13(29)15(31)20(40-10)27-3-1-2-9(4-27)18(23)33/h1-4,7-8,10-11,13-16,20-21,29-32H,5-6H2,(H5-,22,23,24,25,33,34,35,36,37)
+  inchikey: BAWFJGJZGIEFAR-UHFFFAOYSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/5892
+- id: substrate_UDP-2-acetamido-2-deoxy-alpha-D-glucuronate
+  name: UDP-2-acetamido-2-deoxy-alpha-D-glucuronate
+  canonical_smiles: CC(=O)N[C@@H]1[C@H](OC([C@H](C1O)O)CO)O
+  inchi: InChI=1S/C8H15NO6/c1-3(11)9-5-7(13)6(12)4(2-10)15-8(5)14/h4-8,10,12-14H,2H2,1H3,(H,9,11)/t4?,5-,6+,7?,8-/m0/s1
+  inchikey: OVRNDRQMDRJTHS-HZKFEDBQSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: CSID:23361532
+reactions:
+- id: reaction_Q7NQL0_UDP-alpha-D-glucuronate
+  name: Reaction catalyzed by enzyme on UDP-alpha-D-glucuronate
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_UDP-alpha-D-glucuronate
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_Q7NQL0
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_Q7NQL0_NAD_
+  name: Reaction catalyzed by enzyme on NAD+
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_Q7NQL0
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_Q7NQL0_UDP-2-acetamido-2-deoxy-alpha-D-glucuronate
+  name: Reaction catalyzed by enzyme on UDP-2-acetamido-2-deoxy-alpha-D-glucuronate
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_UDP-2-acetamido-2-deoxy-alpha-D-glucuronate
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_Q7NQL0
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+measurements:
+- id: measurement_0
+  name: Experimental conditions (pH=8.5, T=25.0°C)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=8.5, T=25.0°C)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=8.5, T=25.0°C)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: Q7NQL0_UDP-alpha-D-glucuronate_Km_11438
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.2
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_UDP-alpha-D-glucuronate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '21241053'
+- id: Q7NQL0_NAD__Km_11439
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.47
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '21241053'
+- id: Q7NQL0_UDP-2-acetamido-2-deoxy-alpha-D-glucuronate_kcat_323
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.00031
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_UDP-2-acetamido-2-deoxy-alpha-D-glucuronate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: 'Source: kcat'
+  pubmed_id: '21241053'
+- id: Q7NQL0_UDP-2-acetamido-2-deoxy-alpha-D-glucuronate_Km_11440
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 1.1
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_UDP-2-acetamido-2-deoxy-alpha-D-glucuronate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '21241053'
+buffer:
+  buffer: null
+  buffer_concentration: null
+references:
+- title: 3-diacetamido-2
+  authors: 'Thoden, J., Holden, H., Biochemical and structural characterization of
+    WlbA from Bordetella pertussis and Chromobacterium violaceum: Enzymes required
+    for the biosynthesis of 2'
+  year: '2011'
+  journal: 3-dideoxy-D-mannuronic acid
+  uri: null
+  pubmed_id: '21241053'
+  doi: null
+  id: '4'
+  pages: 1483-1491
+  volume: '50'
+  citation: 'Thoden, J.,Holden, H., Biochemical and structural characterization of
+    WlbA from Bordetella pertussis and Chromobacterium violaceum: Enzymes required
+    for the biosynthesis of 2,3-diacetamido-2,3-dideoxy-D-mannuronic acid, Biochemistry,
+    2011, 1483-1491, 50, PMID: 21241053'
+name: Merged entry for Q7NQL0 wildtype
+description: 'Merged from 3 files: SKID_EC1.1.1.335_Chromobact_Q7NQL0_UDP-alpha-D-glu.yaml,
+  SKID_EC1.1.1.335_Chromobact_Q7NQL0_NAD_.yaml, SKID_EC1.1.1.335_Chromobact_Q7NQL0_UDP-2-acetamido.yaml'

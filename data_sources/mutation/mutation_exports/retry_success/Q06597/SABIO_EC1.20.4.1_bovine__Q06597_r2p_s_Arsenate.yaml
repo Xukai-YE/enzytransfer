@@ -1,0 +1,173 @@
+name: SABIO-RK Entry 40971
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 40971
+created: '2025-10-28T15:19:03.779124'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_20_4_1_Q06597_p40971
+  name: arsenate reductase (glutaredoxin)
+  sequence: null
+  ecnumber: 1.20.4.1
+  organism: bovine
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: r2p
+  uniprotid: Q06597
+  mutant_sequence: MVSFITSPQLKGLIENQRKDFQVVDLRREDFARDHITNAWHVPVTAQITEKQLNQLIKGLSDTFSSSQFVKVIFHCTGSKNRGPKVAAKFETYLQEEDITSKFESCILVGGFYAWETHCRESNLKLIVSG
+  position_offset: 6
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Arsenate
+  name: Arsenate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Reduced_glutaredoxin
+  name: Reduced glutaredoxin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Reduced_glutathione
+  name: Reduced glutathione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Glutaredoxin-glutathione_disulfide
+  name: Glutaredoxin-glutathione disulfide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Arsenite
+  name: Arsenite
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_5340_EC1_20_4_1_bovine_Q06597_Arsenate
+  name: Reaction catalyzed by arsenate reductase (glutaredoxin) on Arsenate
+  equation: Reduced glutaredoxin + Arsenate + Reduced glutathione + H+ = Arsenite
+    + Glutaredoxin-glutathione disulfide + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Arsenate
+  - species_id: substrate_Reduced_glutaredoxin
+  - species_id: substrate_Reduced_glutathione
+  products:
+  - species_id: product_Glutaredoxin-glutathione_disulfide
+  - species_id: product_Arsenite
+  modifiers:
+  - species_id: protein_1_20_4_1_Q06597_p40971
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: '22016'
+  KEGGid: R05747
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:18231; CHEBI:12402; CHEBI:44819; CHEBI:41981;
+    CHEBI:14324; CHEBI:13856; CHEBI:16856; CHEBI:5437; CHEBI:29125; CHEBI:42857; CHEBI:41979;
+    CHEBI:29234; CHEBI:29866; CHEBI:13357; CHEBI:24334; CHEBI:14327; CHEBI:42043;
+    CHEBI:24636; CHEBI:44701; CHEBI:29233; CHEBI:33811; CHEBI:5584; CHEBI:33813; CHEBI:2846;
+    CHEBI:27313; CHEBI:15377; CHEBI:13857; CHEBI:13352; CHEBI:43228; CHEBI:48597;
+    CHEBI:8795; CHEBI:44292; CHEBI:2844; CHEBI:43049; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:15378; CHEBI:42873; CHEBI:22629; CHEBI:22631; CHEBI:2843; CHEBI:57925;
+    CHEBI:10744; CHEBI:29373; CHEBI:48600
+
+    KEGG IDs: KEGG:C00051; KEGG:C01478; KEGG:C00080; KEGG:C06697; KEGG:C00001; KEGG:C11215'
+measurements:
+- id: measurement_1_20_4_1_bovine_Q06597_Arsenate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: null
+  temperature_unit: null
+parameters:
+- id: 1_20_4_1_bovine_Q06597_Arsenate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 5.616667e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Arsenate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '11461905'
+buffer:
+  buffer: 50 mM MES, 50 mM MOPS, 0.1 mg/ml Bovine serum albumin, 0.4 mM NADPH, 15
+    nM Yeast glutathione reductase
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 40971
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11461905/
+  pubmed_id: '11461905'
+  doi: null

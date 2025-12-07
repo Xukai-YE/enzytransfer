@@ -1,0 +1,218 @@
+version: '2.0'
+created: '2025-11-20T13:41:00.189998'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_1_3__P83576_p55908
+  name: acid phosphatase
+  ecnumber: 3.1.3.
+  organism: Arthrobacter sp.
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P83576
+  wildtype_sequence: SIPASQKANLGNQMIMAVACYQN
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Phosphate
+  name: Phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_10707_EC3_1_3__Arthrobacter_sp._P83576_NADPH
+  name: Reaction catalyzed by acid phosphatase on NADPH
+  equation: H2O + NADPH = NADH + Phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_NADH
+  - species_id: product_Phosphate
+  modifiers:
+  - species_id: protein_3_1_3__P83576_p55908
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 60664;60665;60666;60667
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:29375; CHEBI:43470; CHEBI:44819; CHEBI:18367;
+    CHEBI:41981; CHEBI:35780; CHEBI:26020; CHEBI:26078; CHEBI:42857; CHEBI:41979;
+    CHEBI:7425; CHEBI:29139; CHEBI:21902; CHEBI:13396; CHEBI:39739; CHEBI:42043; CHEBI:33811;
+    CHEBI:33813; CHEBI:13399; CHEBI:27313; CHEBI:15377; CHEBI:39745; CHEBI:13352;
+    CHEBI:57945; CHEBI:44216; CHEBI:16474; CHEBI:7793; CHEBI:44286; CHEBI:43228; CHEBI:7423;
+    CHEBI:44292; CHEBI:21904; CHEBI:45024; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:13395; CHEBI:43474; CHEBI:13400; CHEBI:57783; CHEBI:29137; CHEBI:29373;
+    CHEBI:44701; CHEBI:16908
+
+    KEGG IDs: KEGG:C00001; KEGG:C00005; KEGG:C00004; KEGG:C00009'
+- id: sabiork_697_EC3_1_3__Arthrobacter_sp._P83576_NADP_
+  name: Reaction catalyzed by Phosphoric monoester hydrolases on NADP+
+  equation: H2O + NADP+ = Phosphate + NAD+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADP_
+  products:
+  - species_id: product_NAD_
+  - species_id: product_Phosphate
+  modifiers:
+  - species_id: protein_3_1_3__P83576_p55907
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 28050;28051;28052;28053
+  KEGGid: R00118
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:29375; CHEBI:43470; CHEBI:44819; CHEBI:18367;
+    CHEBI:41981; CHEBI:35780; CHEBI:13397; CHEBI:13398; CHEBI:26020; CHEBI:26078;
+    CHEBI:7424; CHEBI:44281; CHEBI:21903; CHEBI:44405; CHEBI:42857; CHEBI:41979; CHEBI:13393;
+    CHEBI:15846; CHEBI:25523; CHEBI:29139; CHEBI:21901; CHEBI:39739; CHEBI:42043;
+    CHEBI:44214; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:13394; CHEBI:15377;
+    CHEBI:39745; CHEBI:13352; CHEBI:7793; CHEBI:57540; CHEBI:43228; CHEBI:44292; CHEBI:45024;
+    CHEBI:33806; CHEBI:13389; CHEBI:44409; CHEBI:29374; CHEBI:5585; CHEBI:10743; CHEBI:18009;
+    CHEBI:58349; CHEBI:43474; CHEBI:44215; CHEBI:29137; CHEBI:29373; CHEBI:44701;
+    CHEBI:7422
+
+    KEGG IDs: KEGG:C00001; KEGG:C00006; KEGG:C00009; KEGG:C00003; KEGG:C11037'
+measurements:
+- id: measurement_3_1_3__Arthrobacter_sp._P83576_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_3_1_3__Arthrobacter_sp._P83576_NADP_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_1_3__Arthrobacter_sp._P83576_NADPH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00143
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15162392'
+- id: 3_1_3__Arthrobacter_sp._P83576_NADP__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00111
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15162392'
+buffer:
+  buffer: 100 mM Tris/HCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 55908
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15162392/
+  pubmed_id: '15162392'
+  doi: null
+name: Merged entry for P83576 wildtype
+description: 'Merged from 2 files: SABIO_EC3.1.3._Arthrobacter_sp.__P83576_s_NADPH.yaml,
+  SABIO_EC3.1.3._Arthrobacter_sp.__P83576_s_NADP_.yaml'

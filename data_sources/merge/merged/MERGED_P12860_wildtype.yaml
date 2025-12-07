@@ -1,0 +1,443 @@
+version: '2.0'
+created: '2025-11-20T13:39:40.920017'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_2_1_13_P12860_p48916
+  name: glyceraldehyde-3-phosphate dehydrogenase (NADP+) (phosphorylating)
+  ecnumber: 1.2.1.13
+  organism: rat
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P12860
+  wildtype_sequence: MASHAALAPSRIPASTRLASKASQQYSFLTQCSFKRLDVADFSGLRSSNSVTFTREASFHDVIAAQLTTKPTGAAPVRGETVAKLKVAINGFGRIGRNFLRCWHGRKDSPLDVVVVNDSGGVKSATHLLKYDSILGTFKADVKIIDNETFSIDGKPIKVVSNRDPLKLPWAELGIDIVIEGTGVFVDGPGAGKHIQAGAKKVIITAPAKGSDIPTYVVGVNEKDYGHDVANIISNASCTTNCLAPFVKVLDEELGIVKGTMTTTHSYTGDQRLLDASHRDLRRARAAALNIVPTSTGAAKAVSLVLPQLKGKLNGIALRVPTPNVSVVDLVVNIEKVGVTAEDVNNAFRKAAAGPLKGVLDVCDIPLVSVDFRCSDFSSTIDSSLTMVMGGDMVKVVAWYDNEWGYSQRVVDLADLVANKWPGLEGSVASGDPLEDFCKDNPADEECKLYE
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_3-Phospho-D-glyceroyl_phosphate
+  name: 3-Phospho-D-glyceroyl phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Glyceraldehyde_3-phosphate
+  name: D-Glyceraldehyde 3-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Phosphate
+  name: Phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7845_EC1_2_1_13_rat_P12860_3-Phospho-D-glyceroyl_phosphate
+  name: Reaction catalyzed by glyceraldehyde-3-phosphate dehydrogenase (NADP+) (phosphorylating)
+    on 3-Phospho-D-glyceroyl phosphate
+  equation: H+ + 3-Phospho-D-glyceroyl phosphate + NADPH = D-Glyceraldehyde 3-phosphate
+    + Phosphate + NADP+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3-Phospho-D-glyceroyl_phosphate
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_D-Glyceraldehyde_3-phosphate
+  - species_id: product_NADP_
+  - species_id: product_Phosphate
+  modifiers:
+  - species_id: protein_1_2_1_13_P12860_p48916
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 10296;10297;10298;10299
+  KEGGid: R01063
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:43470; CHEBI:18367; CHEBI:35780; CHEBI:13397;
+    CHEBI:13398; CHEBI:26020; CHEBI:26078; CHEBI:7424; CHEBI:29052; CHEBI:44405; CHEBI:21903;
+    CHEBI:7425; CHEBI:29234; CHEBI:12984; CHEBI:13357; CHEBI:1658; CHEBI:25523; CHEBI:29139;
+    CHEBI:39739; CHEBI:24636; CHEBI:11881; CHEBI:12983; CHEBI:16001; CHEBI:181; CHEBI:29233;
+    CHEBI:21026; CHEBI:5584; CHEBI:13399; CHEBI:39745; CHEBI:16474; CHEBI:7793; CHEBI:44286;
+    CHEBI:59776; CHEBI:57604; CHEBI:21904; CHEBI:45024; CHEBI:44409; CHEBI:15378;
+    CHEBI:18009; CHEBI:18324; CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:43474;
+    CHEBI:10744; CHEBI:29137; CHEBI:20189
+
+    KEGG IDs: KEGG:C00236; KEGG:C00005; KEGG:C00118; KEGG:C00080; KEGG:C00006; KEGG:C00009;
+    KEGG:C11037'
+- id: sabiork_7845_EC1_2_1_13_rat_P12860_NADPH
+  name: Reaction catalyzed by glyceraldehyde-3-phosphate dehydrogenase (NADP+) (phosphorylating)
+    on NADPH
+  equation: H+ + 3-Phospho-D-glyceroyl phosphate + NADPH = D-Glyceraldehyde 3-phosphate
+    + Phosphate + NADP+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_3-Phospho-D-glyceroyl_phosphate
+  products:
+  - species_id: product_D-Glyceraldehyde_3-phosphate
+  - species_id: product_NADP_
+  - species_id: product_Phosphate
+  modifiers:
+  - species_id: protein_1_2_1_13_P12860_p48917
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 10296;10297;10298;10299
+  KEGGid: R01063
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:43470; CHEBI:18367; CHEBI:35780; CHEBI:13397;
+    CHEBI:13398; CHEBI:26020; CHEBI:26078; CHEBI:7424; CHEBI:29052; CHEBI:44405; CHEBI:21903;
+    CHEBI:7425; CHEBI:29234; CHEBI:12984; CHEBI:1658; CHEBI:13357; CHEBI:25523; CHEBI:29139;
+    CHEBI:39739; CHEBI:11881; CHEBI:24636; CHEBI:12983; CHEBI:16001; CHEBI:181; CHEBI:29233;
+    CHEBI:21026; CHEBI:5584; CHEBI:13399; CHEBI:39745; CHEBI:16474; CHEBI:7793; CHEBI:44286;
+    CHEBI:59776; CHEBI:57604; CHEBI:21904; CHEBI:45024; CHEBI:44409; CHEBI:15378;
+    CHEBI:18009; CHEBI:18324; CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:43474;
+    CHEBI:10744; CHEBI:29137; CHEBI:20189
+
+    KEGG IDs: KEGG:C00236; KEGG:C00005; KEGG:C00118; KEGG:C00080; KEGG:C00006; KEGG:C00009;
+    KEGG:C11037'
+- id: sabiork_7845_EC1_2_1_13_rat_P12860_NADPH
+  name: Reaction catalyzed by glyceraldehyde-3-phosphate dehydrogenase (NADP+) (phosphorylating)
+    on NADPH
+  equation: H+ + 3-Phospho-D-glyceroyl phosphate + NADPH = D-Glyceraldehyde 3-phosphate
+    + Phosphate + NADP+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_3-Phospho-D-glyceroyl_phosphate
+  products:
+  - species_id: product_D-Glyceraldehyde_3-phosphate
+  - species_id: product_Phosphate
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_2_1_13_P12860_p48919
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 10296;10297;10298;10299
+  KEGGid: R01063
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:43470; CHEBI:18367; CHEBI:35780; CHEBI:13397;
+    CHEBI:13398; CHEBI:26020; CHEBI:26078; CHEBI:7424; CHEBI:29052; CHEBI:44405; CHEBI:21903;
+    CHEBI:7425; CHEBI:29234; CHEBI:12984; CHEBI:13357; CHEBI:1658; CHEBI:29139; CHEBI:25523;
+    CHEBI:39739; CHEBI:24636; CHEBI:11881; CHEBI:12983; CHEBI:16001; CHEBI:181; CHEBI:29233;
+    CHEBI:21026; CHEBI:5584; CHEBI:13399; CHEBI:39745; CHEBI:16474; CHEBI:7793; CHEBI:44286;
+    CHEBI:59776; CHEBI:57604; CHEBI:21904; CHEBI:45024; CHEBI:44409; CHEBI:15378;
+    CHEBI:18009; CHEBI:18324; CHEBI:43474; CHEBI:13400; CHEBI:57783; CHEBI:58349;
+    CHEBI:10744; CHEBI:29137; CHEBI:20189
+
+    KEGG IDs: KEGG:C00236; KEGG:C00005; KEGG:C00118; KEGG:C00080; KEGG:C00009; KEGG:C00006;
+    KEGG:C11037'
+- id: sabiork_7845_EC1_2_1_13_rat_P12860_NADPH
+  name: Reaction catalyzed by glyceraldehyde-3-phosphate dehydrogenase (NADP+) (phosphorylating)
+    on NADPH
+  equation: H+ + 3-Phospho-D-glyceroyl phosphate + NADPH = D-Glyceraldehyde 3-phosphate
+    + Phosphate + NADP+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_3-Phospho-D-glyceroyl_phosphate
+  products:
+  - species_id: product_Phosphate
+  - species_id: product_D-Glyceraldehyde_3-phosphate
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_2_1_13_P12860_p48928
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 10296;10297;10298;10299
+  KEGGid: R01063
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:43470; CHEBI:18367; CHEBI:35780; CHEBI:13397;
+    CHEBI:13398; CHEBI:26020; CHEBI:26078; CHEBI:7424; CHEBI:29052; CHEBI:44405; CHEBI:21903;
+    CHEBI:7425; CHEBI:29234; CHEBI:12984; CHEBI:1658; CHEBI:13357; CHEBI:29139; CHEBI:25523;
+    CHEBI:39739; CHEBI:11881; CHEBI:24636; CHEBI:12983; CHEBI:16001; CHEBI:181; CHEBI:29233;
+    CHEBI:21026; CHEBI:5584; CHEBI:13399; CHEBI:39745; CHEBI:16474; CHEBI:7793; CHEBI:44286;
+    CHEBI:59776; CHEBI:57604; CHEBI:21904; CHEBI:45024; CHEBI:44409; CHEBI:15378;
+    CHEBI:18009; CHEBI:43474; CHEBI:18324; CHEBI:13400; CHEBI:57783; CHEBI:58349;
+    CHEBI:10744; CHEBI:29137; CHEBI:20189
+
+    KEGG IDs: KEGG:C00236; KEGG:C00005; KEGG:C00118; KEGG:C00080; KEGG:C00009; KEGG:C00006;
+    KEGG:C11037'
+- id: sabiork_7845_EC1_2_1_13_rat_P12860_NADPH
+  name: Reaction catalyzed by glyceraldehyde-3-phosphate dehydrogenase (NADP+) (phosphorylating)
+    on NADPH
+  equation: H+ + 3-Phospho-D-glyceroyl phosphate + NADPH = D-Glyceraldehyde 3-phosphate
+    + Phosphate + NADP+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_3-Phospho-D-glyceroyl_phosphate
+  products:
+  - species_id: product_NADP_
+  - species_id: product_D-Glyceraldehyde_3-phosphate
+  - species_id: product_Phosphate
+  modifiers:
+  - species_id: protein_1_2_1_13_P12860_p48918
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 10296;10297;10298;10299
+  KEGGid: R01063
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:43470; CHEBI:18367; CHEBI:35780; CHEBI:13397;
+    CHEBI:13398; CHEBI:26020; CHEBI:26078; CHEBI:7424; CHEBI:29052; CHEBI:44405; CHEBI:21903;
+    CHEBI:7425; CHEBI:29234; CHEBI:12984; CHEBI:13357; CHEBI:1658; CHEBI:25523; CHEBI:29139;
+    CHEBI:39739; CHEBI:24636; CHEBI:11881; CHEBI:12983; CHEBI:16001; CHEBI:181; CHEBI:29233;
+    CHEBI:21026; CHEBI:5584; CHEBI:13399; CHEBI:39745; CHEBI:16474; CHEBI:7793; CHEBI:44286;
+    CHEBI:59776; CHEBI:57604; CHEBI:21904; CHEBI:45024; CHEBI:44409; CHEBI:15378;
+    CHEBI:18009; CHEBI:58349; CHEBI:18324; CHEBI:13400; CHEBI:57783; CHEBI:43474;
+    CHEBI:10744; CHEBI:29137; CHEBI:20189
+
+    KEGG IDs: KEGG:C00236; KEGG:C00005; KEGG:C00118; KEGG:C00080; KEGG:C00006; KEGG:C00009;
+    KEGG:C11037'
+- id: sabiork_7845_EC1_2_1_13_rat_P12860_3-Phospho-D-glyceroyl_phosphate
+  name: Reaction catalyzed by glyceraldehyde-3-phosphate dehydrogenase (NADP+) (phosphorylating)
+    on 3-Phospho-D-glyceroyl phosphate
+  equation: H+ + 3-Phospho-D-glyceroyl phosphate + NADPH = D-Glyceraldehyde 3-phosphate
+    + Phosphate + NADP+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3-Phospho-D-glyceroyl_phosphate
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_D-Glyceraldehyde_3-phosphate
+  - species_id: product_Phosphate
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_2_1_13_P12860_p48929
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 10296;10297;10298;10299
+  KEGGid: R01063
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:43470; CHEBI:18367; CHEBI:35780; CHEBI:13397;
+    CHEBI:13398; CHEBI:26020; CHEBI:26078; CHEBI:7424; CHEBI:29052; CHEBI:44405; CHEBI:21903;
+    CHEBI:7425; CHEBI:29234; CHEBI:12984; CHEBI:1658; CHEBI:13357; CHEBI:29139; CHEBI:25523;
+    CHEBI:39739; CHEBI:11881; CHEBI:24636; CHEBI:12983; CHEBI:16001; CHEBI:181; CHEBI:29233;
+    CHEBI:21026; CHEBI:5584; CHEBI:13399; CHEBI:39745; CHEBI:16474; CHEBI:7793; CHEBI:44286;
+    CHEBI:59776; CHEBI:57604; CHEBI:21904; CHEBI:45024; CHEBI:44409; CHEBI:15378;
+    CHEBI:18009; CHEBI:18324; CHEBI:43474; CHEBI:13400; CHEBI:57783; CHEBI:58349;
+    CHEBI:10744; CHEBI:29137; CHEBI:20189
+
+    KEGG IDs: KEGG:C00236; KEGG:C00005; KEGG:C00118; KEGG:C00080; KEGG:C00009; KEGG:C00006;
+    KEGG:C11037'
+measurements:
+- id: measurement_1_2_1_13_rat_P12860_3-Phospho-D-glyceroyl_phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.9
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_2_1_13_rat_P12860_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.9
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_2_1_13_rat_P12860_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.9
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_2_1_13_rat_P12860_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.9
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_2_1_13_rat_P12860_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.9
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_2_1_13_rat_P12860_3-Phospho-D-glyceroyl_phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.9
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_2_1_13_rat_P12860_3-Phospho-D-glyceroyl_phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Phospho-D-glyceroyl_phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.9
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055685'
+- id: 1_2_1_13_rat_P12860_NADPH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.8e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.9
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055685'
+- id: 1_2_1_13_rat_P12860_NADPH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.9
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055685'
+- id: 1_2_1_13_rat_P12860_NADPH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.9e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.9
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055685'
+- id: 1_2_1_13_rat_P12860_NADPH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.9
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055685'
+- id: 1_2_1_13_rat_P12860_3-Phospho-D-glyceroyl_phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.2e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Phospho-D-glyceroyl_phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.9
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055685'
+buffer:
+  buffer: 50 mM Tris-HCl, 1 mM EDTA, 5 mM MgCl2, 3 mM 3-Phosphoglycerate, 2 mM ATP,
+    5 U/ml Phosphoglycerate kinase; 50 mM Tris-HCl, 1 mM EDTA, 5 mM MgCl2, 0.05 mM
+    - 4 mM 3-Phosphoglycerate, 2 mM ATP, 5 U/ml Phosphoglycerate kinase
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 48916
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16055685/
+  pubmed_id: '16055685'
+  doi: null
+name: Merged entry for P12860 wildtype
+description: 'Merged from 6 files: SABIO_EC1.2.1.13_rat__P12860_s_3-Phospho-D-glyceroy.yaml,
+  SABIO_EC1.2.1.13_rat__P12860_s_NADPH.yaml, SABIO_EC1.2.1.13_rat__P12860_s_NADPH_3.yaml,
+  SABIO_EC1.2.1.13_rat__P12860_s_NADPH_4.yaml, SABIO_EC1.2.1.13_rat__P12860_s_NADPH_2.yaml,
+  SABIO_EC1.2.1.13_rat__P12860_s_3-Phospho-D-glyceroy_2.yaml'

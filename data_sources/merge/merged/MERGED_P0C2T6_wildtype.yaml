@@ -1,0 +1,564 @@
+version: '2.0'
+created: '2025-11-20T13:39:18.859693'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_27_P0C2T6_p18110
+  name: With NAD(+) or NADP(+) as acceptor
+  ecnumber: 1.1.1.27
+  organism: Lactococcus lactis subsp. cremoris
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P0C2T6
+  wildtype_sequence: MKITSRKVVVIGTGFVGTSIAYSMINQGLVNELVLIDVNQDKAEGEALDLLDGISWAQENVIVRAGNYKDCENADIVVITAGVNQKPGQSRLDLVNTNAKIMRSIVTQVMDSGFDGIFVIASNPVDILTYVAWETSGLDQSRIVGTGTTLDTTRFRKELATKLEIDPRSVHGYIIGEHGDSEVAVWSHTTIGGKPILEFIVKNKKIGLEDLSNLSNKVKNAAYEIIDKKQATYYGIGMSTARIVKAILNNEQVILPVSAYLRGEYGQEGVFTGVPSVVNQNGVREIIELNIDAYEMKQFEKSVSQLKEVIESIK
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Pyruvate
+  name: Pyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Lactate
+  name: L-Lactate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Tagatose_1_6-bisphosphate
+  name: Tagatose 1,6-bisphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_D-Fructose_1_6-bisphosphate
+  name: D-Fructose 1,6-bisphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Fructose_1_6-bisphosphate
+  name: Fructose 1,6-bisphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_61_EC1_1_1_27_Lactococcus_lactis_P0C2T6_NADH
+  name: Reaction catalyzed by With NAD(+) or NADP(+) as acceptor on NADH
+  equation: L-Lactate + NAD+ = NADH + H+ + Pyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  - species_id: substrate_Pyruvate
+  products:
+  - species_id: product_NAD_
+  - species_id: product_L-Lactate
+  modifiers:
+  - species_id: protein_1_1_1_27_P0C2T6_p18110
+    role: BIOCATALYST
+  - species_id: activator_Tagatose_1_6-bisphosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 23444;23445;23446;23447
+  KEGGid: R00703
+  notes: 'ChEBI IDs: CHEBI:18783; CHEBI:14987; CHEBI:422; CHEBI:12411; CHEBI:44281;
+    CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:15361;
+    CHEBI:13396; CHEBI:21901; CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:5584; CHEBI:13394;
+    CHEBI:26466; CHEBI:57945; CHEBI:44216; CHEBI:11065; CHEBI:26462; CHEBI:57540;
+    CHEBI:7423; CHEBI:16651; CHEBI:8685; CHEBI:13389; CHEBI:13395; CHEBI:15378; CHEBI:32816;
+    CHEBI:10744; CHEBI:44215; CHEBI:45253; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00186; KEGG:C00080; KEGG:C00022; KEGG:C00003; KEGG:C00004'
+- id: sabiork_61_EC1_1_1_27_Lactococcus_lactis_P0C2T6_NADH
+  name: Reaction catalyzed by With NAD(+) or NADP(+) as acceptor on NADH
+  equation: L-Lactate + NAD+ = NADH + H+ + Pyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  - species_id: substrate_Pyruvate
+  products:
+  - species_id: product_L-Lactate
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_1_1_27_P0C2T6_p18112
+    role: BIOCATALYST
+  - species_id: activator_Tagatose_1_6-bisphosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 23444;23445;23446;23447
+  KEGGid: R00703
+  notes: 'ChEBI IDs: CHEBI:18783; CHEBI:14987; CHEBI:422; CHEBI:12411; CHEBI:44281;
+    CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:15361;
+    CHEBI:13396; CHEBI:21901; CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:5584; CHEBI:13394;
+    CHEBI:26466; CHEBI:57945; CHEBI:44216; CHEBI:11065; CHEBI:26462; CHEBI:57540;
+    CHEBI:7423; CHEBI:16651; CHEBI:8685; CHEBI:13389; CHEBI:15378; CHEBI:13395; CHEBI:32816;
+    CHEBI:10744; CHEBI:44215; CHEBI:45253; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00186; KEGG:C00080; KEGG:C00022; KEGG:C00003; KEGG:C00004'
+- id: sabiork_61_EC1_1_1_27_Lactococcus_lactis_P0C2T6_Pyruvate
+  name: Reaction catalyzed by With NAD(+) or NADP(+) as acceptor on Pyruvate
+  equation: L-Lactate + NAD+ = NADH + H+ + Pyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Pyruvate
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_L-Lactate
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_1_1_27_P0C2T6_p18114
+    role: BIOCATALYST
+  - species_id: activator_Tagatose_1_6-bisphosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 23444;23445;23446;23447
+  KEGGid: R00703
+  notes: 'ChEBI IDs: CHEBI:18783; CHEBI:14987; CHEBI:422; CHEBI:12411; CHEBI:44281;
+    CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:15361;
+    CHEBI:13396; CHEBI:21901; CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:5584; CHEBI:13394;
+    CHEBI:26466; CHEBI:57945; CHEBI:44216; CHEBI:11065; CHEBI:26462; CHEBI:57540;
+    CHEBI:7423; CHEBI:16651; CHEBI:8685; CHEBI:13389; CHEBI:13395; CHEBI:15378; CHEBI:32816;
+    CHEBI:10744; CHEBI:44215; CHEBI:45253; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00186; KEGG:C00080; KEGG:C00022; KEGG:C00003; KEGG:C00004'
+- id: sabiork_61_EC1_1_1_27_Lactococcus_lactis_P0C2T6_Pyruvate
+  name: Reaction catalyzed by With NAD(+) or NADP(+) as acceptor on Pyruvate
+  equation: L-Lactate + NAD+ = NADH + H+ + Pyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Pyruvate
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_L-Lactate
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_1_1_27_P0C2T6_p18113
+    role: BIOCATALYST
+  - species_id: activator_Tagatose_1_6-bisphosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 23444;23445;23446;23447
+  KEGGid: R00703
+  notes: 'ChEBI IDs: CHEBI:18783; CHEBI:14987; CHEBI:422; CHEBI:12411; CHEBI:44281;
+    CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:15361;
+    CHEBI:13396; CHEBI:21901; CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:5584; CHEBI:13394;
+    CHEBI:26466; CHEBI:57945; CHEBI:44216; CHEBI:11065; CHEBI:26462; CHEBI:57540;
+    CHEBI:7423; CHEBI:16651; CHEBI:8685; CHEBI:13389; CHEBI:15378; CHEBI:13395; CHEBI:32816;
+    CHEBI:10744; CHEBI:44215; CHEBI:45253; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00186; KEGG:C00080; KEGG:C00022; KEGG:C00003; KEGG:C00004'
+- id: sabiork_61_EC1_1_1_27_Lactococcus_lactis_P0C2T6_NADH
+  name: Reaction catalyzed by With NAD(+) or NADP(+) as acceptor on NADH
+  equation: L-Lactate + NAD+ = NADH + H+ + Pyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  - species_id: substrate_Pyruvate
+  products:
+  - species_id: product_L-Lactate
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_1_1_27_P0C2T6_p18116
+    role: BIOCATALYST
+  - species_id: activator_D-Fructose_1_6-bisphosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 23444;23445;23446;23447
+  KEGGid: R00703
+  notes: 'ChEBI IDs: CHEBI:18783; CHEBI:14987; CHEBI:422; CHEBI:12411; CHEBI:32966;
+    CHEBI:44281; CHEBI:13393; CHEBI:28013; CHEBI:29234; CHEBI:15846; CHEBI:37736;
+    CHEBI:13357; CHEBI:10374; CHEBI:21902; CHEBI:15361; CHEBI:13396; CHEBI:21901;
+    CHEBI:24636; CHEBI:41014; CHEBI:44214; CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:26466;
+    CHEBI:57945; CHEBI:44216; CHEBI:11065; CHEBI:26462; CHEBI:57540; CHEBI:22767;
+    CHEBI:7423; CHEBI:16651; CHEBI:8685; CHEBI:42553; CHEBI:13389; CHEBI:16905; CHEBI:15378;
+    CHEBI:13395; CHEBI:32816; CHEBI:10744; CHEBI:44215; CHEBI:45253; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00186; KEGG:C00080; KEGG:C00022; KEGG:C05378; KEGG:C00003; KEGG:C00354;
+    KEGG:C00004'
+- id: sabiork_61_EC1_1_1_27_Lactococcus_lactis_P0C2T6_Pyruvate
+  name: Reaction catalyzed by With NAD(+) or NADP(+) as acceptor on Pyruvate
+  equation: L-Lactate + NAD+ = NADH + H+ + Pyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Pyruvate
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_L-Lactate
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_1_1_27_P0C2T6_p18117
+    role: BIOCATALYST
+  - species_id: activator_D-Fructose_1_6-bisphosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 23444;23445;23446;23447
+  KEGGid: R00703
+  notes: 'ChEBI IDs: CHEBI:18783; CHEBI:14987; CHEBI:422; CHEBI:12411; CHEBI:32966;
+    CHEBI:44281; CHEBI:13393; CHEBI:28013; CHEBI:29234; CHEBI:15846; CHEBI:37736;
+    CHEBI:13357; CHEBI:10374; CHEBI:21902; CHEBI:15361; CHEBI:13396; CHEBI:21901;
+    CHEBI:24636; CHEBI:41014; CHEBI:44214; CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:26466;
+    CHEBI:57945; CHEBI:44216; CHEBI:11065; CHEBI:26462; CHEBI:57540; CHEBI:22767;
+    CHEBI:7423; CHEBI:16651; CHEBI:8685; CHEBI:42553; CHEBI:13389; CHEBI:16905; CHEBI:15378;
+    CHEBI:13395; CHEBI:32816; CHEBI:10744; CHEBI:44215; CHEBI:45253; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00186; KEGG:C00080; KEGG:C00022; KEGG:C05378; KEGG:C00003; KEGG:C00354;
+    KEGG:C00004'
+- id: sabiork_61_EC1_1_1_27_Lactococcus_lactis_P0C2T6_Pyruvate
+  name: Reaction catalyzed by With NAD(+) or NADP(+) as acceptor on Pyruvate
+  equation: L-Lactate + NAD+ = NADH + H+ + Pyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Pyruvate
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_NAD_
+  - species_id: product_L-Lactate
+  modifiers:
+  - species_id: protein_1_1_1_27_P0C2T6_p18111
+    role: BIOCATALYST
+  - species_id: activator_Fructose_1_6-bisphosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 23444;23445;23446;23447
+  KEGGid: R00703
+  notes: 'ChEBI IDs: CHEBI:32968; CHEBI:18783; CHEBI:14987; CHEBI:422; CHEBI:12411;
+    CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:13357; CHEBI:21902;
+    CHEBI:15361; CHEBI:13396; CHEBI:21901; CHEBI:24636; CHEBI:44214; CHEBI:29233;
+    CHEBI:5584; CHEBI:13394; CHEBI:26466; CHEBI:57945; CHEBI:40591; CHEBI:44216; CHEBI:11065;
+    CHEBI:26462; CHEBI:57540; CHEBI:7423; CHEBI:16651; CHEBI:8685; CHEBI:40595; CHEBI:13389;
+    CHEBI:15378; CHEBI:13395; CHEBI:32816; CHEBI:32967; CHEBI:10744; CHEBI:44215;
+    CHEBI:45253; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00186; KEGG:C00080; KEGG:C00022; KEGG:C00003; KEGG:C00004'
+- id: sabiork_61_EC1_1_1_27_Lactococcus_lactis_P0C2T6_Pyruvate
+  name: Reaction catalyzed by With NAD(+) or NADP(+) as acceptor on Pyruvate
+  equation: L-Lactate + NAD+ = NADH + H+ + Pyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Pyruvate
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_NAD_
+  - species_id: product_L-Lactate
+  modifiers:
+  - species_id: protein_1_1_1_27_P0C2T6_p18115
+    role: BIOCATALYST
+  - species_id: activator_D-Fructose_1_6-bisphosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 23444;23445;23446;23447
+  KEGGid: R00703
+  notes: 'ChEBI IDs: CHEBI:18783; CHEBI:14987; CHEBI:422; CHEBI:12411; CHEBI:32966;
+    CHEBI:44281; CHEBI:13393; CHEBI:28013; CHEBI:29234; CHEBI:15846; CHEBI:37736;
+    CHEBI:13357; CHEBI:10374; CHEBI:21902; CHEBI:15361; CHEBI:13396; CHEBI:21901;
+    CHEBI:24636; CHEBI:41014; CHEBI:44214; CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:26466;
+    CHEBI:57945; CHEBI:44216; CHEBI:11065; CHEBI:26462; CHEBI:57540; CHEBI:22767;
+    CHEBI:7423; CHEBI:16651; CHEBI:8685; CHEBI:42553; CHEBI:13389; CHEBI:16905; CHEBI:15378;
+    CHEBI:13395; CHEBI:32816; CHEBI:10744; CHEBI:44215; CHEBI:45253; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00186; KEGG:C00080; KEGG:C00022; KEGG:C05378; KEGG:C00003; KEGG:C00354;
+    KEGG:C00004'
+measurements:
+- id: measurement_1_1_1_27_Lactococcus_lactis_P0C2T6_NADH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_1_1_27_Lactococcus_lactis_P0C2T6_NADH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_1_1_27_Lactococcus_lactis_P0C2T6_Pyruvate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_1_1_27_Lactococcus_lactis_P0C2T6_Pyruvate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_1_1_27_Lactococcus_lactis_P0C2T6_NADH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_1_1_27_Lactococcus_lactis_P0C2T6_Pyruvate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_1_1_27_Lactococcus_lactis_P0C2T6_Pyruvate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_1_1_27_Lactococcus_lactis_P0C2T6_Pyruvate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1_27_Lactococcus_lactis_P0C2T6_NADH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00256
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '805590'
+- id: 1_1_1_27_Lactococcus_lactis_P0C2T6_NADH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.006633466
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '805590'
+- id: 1_1_1_27_Lactococcus_lactis_P0C2T6_NADH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.005083435
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '805590'
+- id: 1_1_1_27_Lactococcus_lactis_P0C2T6_Pyruvate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.001583365
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Pyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '805590'
+- id: 1_1_1_27_Lactococcus_lactis_P0C2T6_Pyruvate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.003150063
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Pyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '805590'
+- id: 1_1_1_27_Lactococcus_lactis_P0C2T6_NADH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.003116729
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '805590'
+- id: 1_1_1_27_Lactococcus_lactis_P0C2T6_Pyruvate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.001400028
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Pyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '805590'
+- id: 1_1_1_27_Lactococcus_lactis_P0C2T6_Pyruvate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.006300126
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Pyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '805590'
+- id: 1_1_1_27_Lactococcus_lactis_P0C2T6_Pyruvate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00307
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Pyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '805590'
+- id: 1_1_1_27_Lactococcus_lactis_P0C2T6_Pyruvate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.005150103
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Pyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '805590'
+buffer:
+  buffer: 50 mM triethanolamine-HCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 18110
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/805590/
+  pubmed_id: '805590'
+  doi: null
+name: Merged entry for P0C2T6 wildtype
+description: 'Merged from 8 files: SABIO_EC1.1.1.27_Lactococcus_lactis__P0C2T6_s_NADH.yaml,
+  SABIO_EC1.1.1.27_Lactococcus_lactis__P0C2T6_s_NADH_2.yaml, SABIO_EC1.1.1.27_Lactococcus_lactis__P0C2T6_s_Pyruvate_3.yaml,
+  SABIO_EC1.1.1.27_Lactococcus_lactis__P0C2T6_s_Pyruvate_2.yaml, SABIO_EC1.1.1.27_Lactococcus_lactis__P0C2T6_s_NADH_3.yaml,
+  SABIO_EC1.1.1.27_Lactococcus_lactis__P0C2T6_s_Pyruvate_5.yaml, SABIO_EC1.1.1.27_Lactococcus_lactis__P0C2T6_s_Pyruvate.yaml,
+  SABIO_EC1.1.1.27_Lactococcus_lactis__P0C2T6_s_Pyruvate_4.yaml'

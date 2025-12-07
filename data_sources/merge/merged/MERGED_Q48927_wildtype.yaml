@@ -1,0 +1,270 @@
+version: '2.0'
+created: '2025-11-20T13:39:58.090304'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_1_1_246_Q48927_p74313
+  name: methylated monomethylamine-specific corrinoid protein:CoM methyltransferase
+  ecnumber: 2.1.1.246
+  organism: Methanosarcina barkeri
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q48927
+  wildtype_sequence: MSEFTLKTRLLAALEGKPVDKVPVCSVTQTGIVELMDEVGAAWPEAHTNPELMAKLAIANYELSGLEAVRLPYCLTVLGEAMGCEINMGTKNRQPSVTASPYPKNLDGAAVPADLLQRNRIPAVLEAIKIVREKVGPDVPIIGGMEGPVTLASDLISVKSFMKWSIKKTDLFEQALDISTEAAIAYANAMVEAGADVIAIADPVASPDLMSPDTFRQFLQSRLQKFSASVNSVTVLHICGKVNAILSDMADCGFEGLSVEEKIGDAAEGKKVIGDRARLVGNISSPFTLLPGPIDKIKAEAKVALEGGIDVLAPGCGIAPMTPLENIKALVAARDEYYA
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_2-Mercaptoethanesulfonate
+  name: 2-Mercaptoethanesulfonate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Methylcobalamin
+  name: Methylcobalamin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Zn2_
+  name: Zn2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Cob_I_alamin
+  name: Cob(I)alamin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-_Methylthio_ethanesulfonate
+  name: 2-(Methylthio)ethanesulfonate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_3-Mercaptopropionate
+  name: 3-Mercaptopropionate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3-_Methylthio_propionic_acid
+  name: 3-(Methylthio)propionic acid
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_14562_EC2_1_1_246_Methanosarcina_barkeri_Q48927_2-Mercaptoethanesulfonate
+  name: Reaction catalyzed by methylated monomethylamine-specific corrinoid protein:CoM
+    methyltransferase on 2-Mercaptoethanesulfonate
+  equation: 2-Mercaptoethanesulfonate + Methylcobalamin = Cob(I)alamin + 2-(Methylthio)ethanesulfonate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2-Mercaptoethanesulfonate
+  - species_id: substrate_Methylcobalamin
+  - species_id: cofactor_Zn2_
+  products:
+  - species_id: product_Cob_I_alamin
+  - species_id: product_2-_Methylthio_ethanesulfonate
+  modifiers:
+  - species_id: protein_2_1_1_246_Q48927_p74313
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:975; CHEBI:29105; CHEBI:15982; CHEBI:10113; CHEBI:58286;
+    CHEBI:19673; CHEBI:19421; CHEBI:41549; CHEBI:28911; CHEBI:11608; CHEBI:28115;
+    CHEBI:11478; CHEBI:17905; CHEBI:49972; CHEBI:58319; CHEBI:49982; CHEBI:27368;
+    CHEBI:1185; CHEBI:17827; CHEBI:13366; CHEBI:14011
+
+    KEGG IDs: KEGG:C06453; KEGG:C03576; KEGG:C03920; KEGG:C00038; KEGG:C00853'
+- id: sabiork_16210_EC2_1_1_246_Methanosarcina_barkeri_Q48927_3-Mercaptopropionate
+  name: Reaction catalyzed by methylated monomethylamine-specific corrinoid protein:CoM
+    methyltransferase on 3-Mercaptopropionate
+  equation: Methylcobalamin + 3-Mercaptopropionate = Cob(I)alamin + 3-(Methylthio)propionic
+    acid
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3-Mercaptopropionate
+  - species_id: substrate_Methylcobalamin
+  - species_id: cofactor_Zn2_
+  products:
+  - species_id: product_3-_Methylthio_propionic_acid
+  - species_id: product_Cob_I_alamin
+  modifiers:
+  - species_id: protein_2_1_1_246_Q48927_p74315
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29105; CHEBI:49982; CHEBI:27368; CHEBI:28115; CHEBI:44111;
+    CHEBI:15982; CHEBI:10113; CHEBI:86386; CHEBI:49972; CHEBI:28911; CHEBI:1438
+
+    KEGG IDs: KEGG:C00038; KEGG:C06453; KEGG:C08276; KEGG:C00853'
+- id: sabiork_14562_EC2_1_1_246_Methanosarcina_barkeri_Q48927_Methylcobalamin
+  name: Reaction catalyzed by methylated monomethylamine-specific corrinoid protein:CoM
+    methyltransferase on Methylcobalamin
+  equation: 2-Mercaptoethanesulfonate + Methylcobalamin = Cob(I)alamin + 2-(Methylthio)ethanesulfonate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Methylcobalamin
+  - species_id: substrate_2-Mercaptoethanesulfonate
+  - species_id: cofactor_Zn2_
+  products:
+  - species_id: product_Cob_I_alamin
+  - species_id: product_2-_Methylthio_ethanesulfonate
+  modifiers:
+  - species_id: protein_2_1_1_246_Q48927_p74317
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:975; CHEBI:29105; CHEBI:15982; CHEBI:10113; CHEBI:58286;
+    CHEBI:19673; CHEBI:19421; CHEBI:41549; CHEBI:28911; CHEBI:11608; CHEBI:28115;
+    CHEBI:11478; CHEBI:17905; CHEBI:49972; CHEBI:58319; CHEBI:49982; CHEBI:27368;
+    CHEBI:1185; CHEBI:17827; CHEBI:13366; CHEBI:14011
+
+    KEGG IDs: KEGG:C06453; KEGG:C03576; KEGG:C03920; KEGG:C00038; KEGG:C00853'
+measurements:
+- id: measurement_2_1_1_246_Methanosarcina_barkeri_Q48927_2-Mercaptoethanesulfonate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_1_1_246_Methanosarcina_barkeri_Q48927_3-Mercaptopropionate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_1_1_246_Methanosarcina_barkeri_Q48927_Methylcobalamin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_1_1_246_Methanosarcina_barkeri_Q48927_2-Mercaptoethanesulfonate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Mercaptoethanesulfonate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8702528'
+- id: 2_1_1_246_Methanosarcina_barkeri_Q48927_3-Mercaptopropionate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.01
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Mercaptopropionate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8702528'
+- id: 2_1_1_246_Methanosarcina_barkeri_Q48927_Methylcobalamin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.014
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Methylcobalamin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8702528'
+buffer:
+  buffer: 50 mM MOPS, 1 mM DTT
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 74313
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/8702528/
+  pubmed_id: '8702528'
+  doi: null
+name: Merged entry for Q48927 wildtype
+description: 'Merged from 3 files: SABIO_EC2.1.1.246_Methanosarcina_barkeri__Q48927_s_2-Mercaptoethanesulf.yaml,
+  SABIO_EC2.1.1.246_Methanosarcina_barkeri__Q48927_s_3-Mercaptopropionate.yaml, SABIO_EC2.1.1.246_Methanosarcina_barkeri__Q48927_s_Methylcobalamin.yaml'

@@ -1,0 +1,268 @@
+version: '2.0'
+created: '2025-11-20T13:41:29.398926'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_1_2_47_P52705_p66711
+  name: (S)-hydroxynitrile lyase
+  ecnumber: 4.1.2.47
+  organism: Manihot esculenta
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: W128A
+  uniprotid: P52705
+  wildtype_sequence: MVTAHFVLIHTICHGAWIWHKLKPALERAGHKVTALDMAASGIDPRQIEQINSFDEYSEPLLTFLEKLPQGEKVIIVGESCAGLNIAIAADRYVDKIAAGVFHNSLLPDTVHSPSYTVEKLLESFPDWRDTEYFTFTNITGETITTMKLGFVLLRENLFTKCTDGEYELAKMVMRKGSLFQNVLAQRPKFTEKGYGSIKKVYIWTDQDKIFLPDFQRWQIANYKPDKVYQVQGGDHKLQLTKTEEVAHILQEVADAYA
+  mutant_sequence: MVTAHFVLIHTICHGAWIWHKLKPALERAGHKVTALDMAASGIDPRQIEQINSFDEYSEPLLTFLEKLPQGEKVIIVGESCAGLNIAIAADRYVDKIAAGVFHNSLLPDTVHSPSYTVEKLLESFPDARDTEYFTFTNITGETITTMKLGFVLLRENLFTKCTDGEYELAKMVMRKGSLFQNVLAQRPKFTEKGYGSIKKVYIWTDQDKIFLPDFQRWQIANYKPDKVYQVQGGDHKLQLTKTEEVAHILQEVADAYA
+complexes: null
+small_molecules:
+- id: substrate_Acetone_cyanohydrin
+  name: Acetone cyanohydrin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Cyanide
+  name: Cyanide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Acetone
+  name: Acetone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_4-Hydroxymandelonitrile
+  name: 4-Hydroxymandelonitrile
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4-Hydroxybenzaldehyde
+  name: 4-Hydroxybenzaldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Mandelonitrile
+  name: Mandelonitrile
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Benzaldehyde
+  name: Benzaldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1710_EC4_1_2_47_Manihot_esculenta_P52705_Acetone_cyanohydrin
+  name: Reaction catalyzed by (S)-hydroxynitrile lyase on Acetone cyanohydrin
+  equation: Acetone cyanohydrin = Acetone + Cyanide
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Acetone_cyanohydrin
+  products:
+  - species_id: product_Cyanide
+  - species_id: product_Acetone
+  modifiers:
+  - species_id: protein_4_1_2_47_P52705_p66711
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01553
+  notes: 'ChEBI IDs: CHEBI:41780; CHEBI:22182; CHEBI:40571; CHEBI:3969; CHEBI:36826;
+    CHEBI:14038; CHEBI:13708; CHEBI:15348; CHEBI:2398; CHEBI:48819; CHEBI:78217; CHEBI:18407;
+    CHEBI:15347; CHEBI:17514
+
+    KEGG IDs: KEGG:C02659; KEGG:C00207; KEGG:C01326; KEGG:C00177'
+- id: sabiork_2571_EC4_1_2_47_Manihot_esculenta_P52705_4-Hydroxymandelonitrile
+  name: Reaction catalyzed by (S)-hydroxynitrile lyase on 4-Hydroxymandelonitrile
+  equation: 4-Hydroxymandelonitrile = Cyanide + 4-Hydroxybenzaldehyde
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_4-Hydroxymandelonitrile
+  products:
+  - species_id: product_4-Hydroxybenzaldehyde
+  - species_id: product_Cyanide
+  modifiers:
+  - species_id: protein_4_1_2_47_P52705_p66714
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:17597; CHEBI:41780; CHEBI:20396; CHEBI:18407; CHEBI:3969;
+    CHEBI:36826; CHEBI:14038; CHEBI:1870; CHEBI:20411; CHEBI:1857; CHEBI:12002; CHEBI:43009;
+    CHEBI:48819; CHEBI:12009; CHEBI:17514; CHEBI:18115
+
+    KEGG IDs: KEGG:C00650; KEGG:C00633; KEGG:C01326; KEGG:C00177'
+- id: sabiork_1865_EC4_1_2_47_Manihot_esculenta_P52705_Mandelonitrile
+  name: Reaction catalyzed by (R)-mandelonitrile lyase on Mandelonitrile
+  equation: Mandelonitrile = Cyanide + Benzaldehyde
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Mandelonitrile
+  products:
+  - species_id: product_Cyanide
+  - species_id: product_Benzaldehyde
+  modifiers:
+  - species_id: protein_4_1_2_47_P52705_p66713
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01767
+  notes: 'ChEBI IDs: CHEBI:41780; CHEBI:14573; CHEBI:18407; CHEBI:22697; CHEBI:3969;
+    CHEBI:17169; CHEBI:36826; CHEBI:14038; CHEBI:6680; CHEBI:13875; CHEBI:3019; CHEBI:48819;
+    CHEBI:16910; CHEBI:18450; CHEBI:17514; CHEBI:25151
+
+    KEGG IDs: KEGG:C00193; KEGG:C01326; KEGG:C00261; KEGG:C00177; KEGG:C00561'
+measurements:
+- id: measurement_4_1_2_47_Manihot_esculenta_P52705_Acetone_cyanohydrin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 5.2
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_4_1_2_47_Manihot_esculenta_P52705_4-Hydroxymandelonitrile
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 5.2
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_4_1_2_47_Manihot_esculenta_P52705_Mandelonitrile
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 5.2
+  temperature_opt: 22.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 4_1_2_47_Manihot_esculenta_P52705_Acetone_cyanohydrin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.15
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetone_cyanohydrin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.2
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11742123'
+- id: 4_1_2_47_Manihot_esculenta_P52705_4-Hydroxymandelonitrile_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000625
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_4-Hydroxymandelonitrile
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.2
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11742123'
+- id: 4_1_2_47_Manihot_esculenta_P52705_Mandelonitrile_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0045
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Mandelonitrile
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.2
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11742123'
+buffer:
+  buffer: 100 mM sodium acetate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 66711
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11742123/
+  pubmed_id: '11742123'
+  doi: null
+name: Merged entry for P52705 W128A
+description: 'Merged from 3 files: SABIO_EC4.1.2.47_Manihot_esculenta__P52705_W128A_s_Acetone.yaml,
+  SABIO_EC4.1.2.47_Manihot_esculenta__P52705_W128A_s_4-Hydroxymandelonitr.yaml, SABIO_EC4.1.2.47_Manihot_esculenta__P52705_W128A_s_Mandelonitrile.yaml'

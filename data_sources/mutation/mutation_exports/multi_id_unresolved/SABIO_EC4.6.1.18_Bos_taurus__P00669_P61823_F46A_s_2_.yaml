@@ -1,0 +1,177 @@
+name: SABIO-RK Entry 262
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 262
+created: '2025-10-28T13:44:31.724185'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_6_1_18_P00669_P61823_p262
+  name: pancreatic ribonuclease
+  sequence: null
+  ecnumber: 4.6.1.18
+  organism: Bos taurus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: F46A
+  uniprotid: P00669; P61823
+complexes: null
+small_molecules:
+- id: substrate_2_
+  name: 2'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_3_-Cyclic_CMP
+  name: 3'-Cyclic CMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Cytidine_3_-phosphate
+  name: Cytidine 3'-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_518_EC4_6_1_18_Bos_taurus_P00669_P61823_2_
+  name: Reaction catalyzed by pancreatic ribonuclease on 2'
+  equation: H2O + 2',3'-Cyclic CMP = Cytidine 3'-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2_
+  - species_id: substrate_3_-Cyclic_CMP
+  products:
+  - species_id: product_Cytidine_3_-phosphate
+  modifiers:
+  - species_id: protein_4_6_1_18_P00669_P61823_p262
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 27882;27883;27884;27885
+  KEGGid: R03929
+  notes: 'ChEBI IDs: CHEBI:19213; CHEBI:29375; CHEBI:44819; CHEBI:60875; CHEBI:41981;
+    CHEBI:824; CHEBI:42857; CHEBI:41979; CHEBI:28929; CHEBI:23517; CHEBI:27652; CHEBI:1335;
+    CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:53013; CHEBI:15377;
+    CHEBI:13352; CHEBI:41345; CHEBI:43228; CHEBI:44292; CHEBI:60877; CHEBI:33806;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:41615; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C02354; KEGG:C00001; KEGG:C05822'
+measurements:
+- id: measurement_4_6_1_18_Bos_taurus_P00669_P61823_2_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 5.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 4_6_1_18_Bos_taurus_P00669_P61823_2__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2590.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12962489'
+- id: 4_6_1_18_Bos_taurus_P00669_P61823_2__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00041
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12962489'
+- id: 4_6_1_18_Bos_taurus_P00669_P61823_2__kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12962489'
+buffer:
+  buffer: 0.2 M sodium acetate
+  buffer_concentration: 0.2 M
+references:
+- title: Reference for SABIO-RK entry 262
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12962489/
+  pubmed_id: '12962489'
+  doi: null

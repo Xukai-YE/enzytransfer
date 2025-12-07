@@ -1,0 +1,225 @@
+name: SABIO-RK Entry 25261
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 25261
+created: '2025-10-28T14:26:26.573161'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_5_1_6_P0A817_p25261
+  name: methionine adenosyltransferase
+  ecnumber: 2.5.1.6
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: K265A
+  uniprotid: P0A817
+  wildtype_sequence: MAKHLFTSESVSEGHPDKIADQISDAVLDAILEQDPKARVACETYVKTGMVLVGGEITTSAWVDIEEITRNTVREIGYVHSDMGFDANSCAVLSAIGKQSPDINQGVDRADPLEQGAGDQGLMFGYATNETDVLMPAPITYAHRLVQRQAEVRKNGTLPWLRPDAKSQVTFQYDDGKIVGIDAVVLSTQHSEEIDQKSLQEAVMEEIIKPILPAEWLTSATKFFINPTGRFVIGGPMGDCGLTGRKIIVDTYGGMARHGGGAFSGKDPSKVDRSAAYAARYVAKNIVAAGLADRCEIQVSYAIGVAEPTSIMVETFGTEKVPSEQLTLLVREFFDLRPYGLIQMLDLLHPIYKETAAYGHFGREHFPWEKTDKAQLLRDAAGLK
+  mutant_sequence: MAKHLFTSESVSEGHPDKIADQISDAVLDAILEQDPKARVACETYVKTGMVLVGGEITTSAWVDIEEITRNTVREIGYVHSDMGFDANSCAVLSAIGKQSPDINQGVDRADPLEQGAGDQGLMFGYATNETDVLMPAPITYAHRLVQRQAEVRKNGTLPWLRPDAKSQVTFQYDDGKIVGIDAVVLSTQHSEEIDQKSLQEAVMEEIIKPILPAEWLTSATKFFINPTGRFVIGGPMGDCGLTGRKIIVDTYGGMARHGGGAFSGADPSKVDRSAAYAARYVAKNIVAAGLADRCEIQVSYAIGVAEPTSIMVETFGTEKVPSEQLTLLVREFFDLRPYGLIQMLDLLHPIYKETAAYGHFGREHFPWEKTDKAQLLRDAAGLK
+  position_offset: 1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_L-Methionine
+  name: L-Methionine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Phosphate
+  name: Phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_S-Adenosyl-L-methionine
+  name: S-Adenosyl-L-methionine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_96_EC2_5_1_6_Escherichia_coli_P0A817_ATP
+  name: Reaction catalyzed by methionine adenosyltransferase on ATP
+  equation: S-Adenosyl-L-methionine + Phosphate + Diphosphate = L-Methionine + ATP
+    + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_L-Methionine
+  products:
+  - species_id: product_Phosphate
+  - species_id: product_Diphosphate
+  - species_id: product_S-Adenosyl-L-methionine
+  modifiers:
+  - species_id: protein_2_5_1_6_P0A817_p25261
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 21080;21081;21082;21083
+  KEGGid: R00177
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:43470; CHEBI:12760; CHEBI:8683; CHEBI:26020;
+    CHEBI:26078; CHEBI:33019; CHEBI:29139; CHEBI:10833; CHEBI:13420; CHEBI:16643;
+    CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:527887; CHEBI:43474; CHEBI:14791;
+    CHEBI:22036; CHEBI:44819; CHEBI:18367; CHEBI:13141; CHEBI:41981; CHEBI:59789;
+    CHEBI:32632; CHEBI:45607; CHEBI:33442; CHEBI:42043; CHEBI:35782; CHEBI:33811;
+    CHEBI:15377; CHEBI:39745; CHEBI:40938; CHEBI:18361; CHEBI:45208; CHEBI:43228;
+    CHEBI:15422; CHEBI:8946; CHEBI:32631; CHEBI:10786; CHEBI:29373; CHEBI:44701; CHEBI:12757;
+    CHEBI:30616; CHEBI:10789; CHEBI:57299; CHEBI:35780; CHEBI:12742; CHEBI:42857;
+    CHEBI:41979; CHEBI:45067; CHEBI:39739; CHEBI:16044; CHEBI:10841; CHEBI:27313;
+    CHEBI:44292; CHEBI:45024; CHEBI:42009; CHEBI:49038; CHEBI:33018; CHEBI:237958;
+    CHEBI:21360; CHEBI:142094; CHEBI:67040; CHEBI:13236; CHEBI:15414; CHEBI:29888;
+    CHEBI:2359; CHEBI:33813; CHEBI:13352; CHEBI:33017; CHEBI:7793; CHEBI:22249; CHEBI:5585;
+    CHEBI:49037; CHEBI:6271; CHEBI:57844; CHEBI:45212; CHEBI:29137; CHEBI:43990
+
+    KEGG IDs: KEGG:C00013; KEGG:C00073; KEGG:C00002; KEGG:C00001; KEGG:C00009; KEGG:C00019'
+measurements:
+- id: measurement_2_5_1_6_Escherichia_coli_P0A817_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: null
+  temperature_unit: null
+parameters:
+- id: 2_5_1_6_Escherichia_coli_P0A817_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00054
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '10660564'
+- id: 2_5_1_6_Escherichia_coli_P0A817_ATP_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0052
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '10660564'
+- id: 2_5_1_6_Escherichia_coli_P0A817_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 0.037
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '10660564'
+- id: 2_5_1_6_Escherichia_coli_P0A817_ATP_kcat_Km_2
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 0.37
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '10660564'
+buffer:
+  buffer: 50 mM Hepes*(CH3)4N+, 50 mM KCl, 50 mM MgCl2
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 25261
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10660564/
+  pubmed_id: '10660564'
+  doi: null

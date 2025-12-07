@@ -1,0 +1,194 @@
+name: SABIO-RK Entry 74984
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 74984
+created: '2025-10-28T17:42:48.257534'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_1_1_1_Q88QS0_O33407_p74984
+  name: Carboxylic ester hydrolases
+  sequence: null
+  ecnumber: 3.1.1.1
+  organism: Pseudomonas aeruginosa
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q88QS0; O33407
+complexes: null
+small_molecules:
+- id: substrate_p-Nitrophenyl_butyrate
+  name: p-Nitrophenyl butyrate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Butanoate
+  name: Butanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_p-Nitrophenol
+  name: p-Nitrophenol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_9766_EC3_1_1_1_Pseudomonas_aeruginosa_Q88QS0_O33407_p-Nitrophenyl_butyrate
+  name: Reaction catalyzed by Carboxylic ester hydrolases on p-Nitrophenyl butyrate
+  equation: H2O + p-Nitrophenyl butyrate = Butanoate + p-Nitrophenol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_p-Nitrophenyl_butyrate
+  products:
+  - species_id: product_Butanoate
+  - species_id: product_p-Nitrophenol
+  modifiers:
+  - species_id: protein_3_1_1_1_Q88QS0_O33407_p74984
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:20457; CHEBI:44390;
+    CHEBI:22946; CHEBI:30772; CHEBI:3234; CHEBI:42857; CHEBI:16836; CHEBI:41979; CHEBI:12034;
+    CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352;
+    CHEBI:43228; CHEBI:13924; CHEBI:44292; CHEBI:57917; CHEBI:33806; CHEBI:22948;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:41208; CHEBI:85867; CHEBI:113450;
+    CHEBI:1913; CHEBI:29373; CHEBI:44701; CHEBI:17968
+
+    KEGG IDs: KEGG:C00870; KEGG:C00001; KEGG:C00246'
+measurements:
+- id: measurement_3_1_1_1_Pseudomonas_aeruginosa_Q88QS0_O33407_p-Nitrophenyl_butyrate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: null
+  temperature_unit: null
+parameters:
+- id: 3_1_1_1_Pseudomonas_aeruginosa_Q88QS0_O33407_p-Nitrophenyl_butyrate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0005
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_p-Nitrophenyl_butyrate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '20931591'
+- id: 3_1_1_1_Pseudomonas_aeruginosa_Q88QS0_O33407_p-Nitrophenyl_butyrate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000716667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_p-Nitrophenyl_butyrate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '20931591'
+- id: 3_1_1_1_Pseudomonas_aeruginosa_Q88QS0_O33407_p-Nitrophenyl_butyrate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 94000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_p-Nitrophenyl_butyrate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.2
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '20931591'
+- id: 3_1_1_1_Pseudomonas_aeruginosa_Q88QS0_O33407_p-Nitrophenyl_butyrate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 47.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_p-Nitrophenyl_butyrate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '20931591'
+buffer:
+  buffer: 50 mM sodium phosphate, 0.33% gum arabic, 1% dioxane
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 74984
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/20931591/
+  pubmed_id: '20931591'
+  doi: null

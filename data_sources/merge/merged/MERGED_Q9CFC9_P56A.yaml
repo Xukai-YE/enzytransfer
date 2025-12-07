@@ -1,0 +1,253 @@
+version: '2.0'
+created: '2025-11-20T13:39:47.404664'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_3_98_1_Q9CFC9_p3765
+  name: dihydroorotate dehydrogenase (fumarate)
+  ecnumber: 1.3.98.1
+  organism: Lactococcus lactis subsp. lactis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: P56A
+  uniprotid: Q9CFC9
+  wildtype_sequence: MLKTTFANAEFANPFMNASGVHCMTTEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKEKAQEAPIFFSIAGMSAAENIAMLKKIQESNFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDSEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIKIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMDKKGYQSIADFHGKLKSL
+  mutant_sequence: MLKTTFANAEFANPFMNASGVHCMTTEDLEELKASQAGAYITKSSTLEKREGNPLARYVDLELGSINSMGLPNLGFDYYLDYVLKNQKEKAQEAPIFFSIAGMSAAENIAMLKKIQESNFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDSEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIKIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMDKKGYQSIADFHGKLKSL
+complexes: null
+small_molecules:
+- id: substrate_Fumarate
+  name: Fumarate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_L-Dihydroorotate
+  name: L-Dihydroorotate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Succinate
+  name: Succinate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Orotate
+  name: Orotate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7103_EC1_3_98_1_Lactococcus_lactis_Q9CFC9_Fumarate
+  name: Reaction catalyzed by dihydroorotate dehydrogenase (fumarate) on Fumarate
+  equation: L-Dihydroorotate + Fumarate = Succinate + Orotate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Fumarate
+  - species_id: substrate_L-Dihydroorotate
+  products:
+  - species_id: product_Succinate
+  - species_id: product_Orotate
+  modifiers:
+  - species_id: protein_1_3_98_1_Q9CFC9_p3765
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 30059;30060;30061;30062
+  KEGGid: R01867
+  notes: 'ChEBI IDs: CHEBI:26807; CHEBI:42743; CHEBI:30839; CHEBI:42511; CHEBI:15125;
+    CHEBI:14698; CHEBI:26803; CHEBI:24124; CHEBI:417; CHEBI:22943; CHEBI:25720; CHEBI:18777;
+    CHEBI:25719; CHEBI:29806; CHEBI:45639; CHEBI:9304; CHEBI:17025; CHEBI:132287;
+    CHEBI:90372; CHEBI:16742; CHEBI:42132; CHEBI:11063; CHEBI:24122; CHEBI:30031;
+    CHEBI:18012; CHEBI:14284; CHEBI:22941; CHEBI:30779; CHEBI:18778; CHEBI:15741;
+    CHEBI:5190; CHEBI:7787; CHEBI:30864; CHEBI:37154; CHEBI:44781
+
+    KEGG IDs: KEGG:C00122; KEGG:C00295; KEGG:C00042; KEGG:C00337'
+- id: sabiork_7103_EC1_3_98_1_Lactococcus_lactis_Q9CFC9_Fumarate
+  name: Reaction catalyzed by dihydroorotate dehydrogenase (fumarate) on Fumarate
+  equation: L-Dihydroorotate + Fumarate = Succinate + Orotate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Fumarate
+  - species_id: substrate_L-Dihydroorotate
+  products:
+  - species_id: product_Orotate
+  - species_id: product_Succinate
+  modifiers:
+  - species_id: protein_1_3_98_1_Q9CFC9_p3776
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 30059;30060;30061;30062
+  KEGGid: R01867
+  notes: 'ChEBI IDs: CHEBI:26807; CHEBI:42743; CHEBI:30839; CHEBI:42511; CHEBI:15125;
+    CHEBI:14698; CHEBI:26803; CHEBI:24124; CHEBI:417; CHEBI:25720; CHEBI:22943; CHEBI:18777;
+    CHEBI:25719; CHEBI:29806; CHEBI:45639; CHEBI:17025; CHEBI:9304; CHEBI:132287;
+    CHEBI:90372; CHEBI:16742; CHEBI:42132; CHEBI:11063; CHEBI:24122; CHEBI:30031;
+    CHEBI:18012; CHEBI:14284; CHEBI:22941; CHEBI:30779; CHEBI:18778; CHEBI:15741;
+    CHEBI:5190; CHEBI:7787; CHEBI:30864; CHEBI:37154; CHEBI:44781
+
+    KEGG IDs: KEGG:C00122; KEGG:C00295; KEGG:C00042; KEGG:C00337'
+- id: sabiork_7103_EC1_3_98_1_Lactococcus_lactis_Q9CFC9_L-Dihydroorotate
+  name: Reaction catalyzed by dihydroorotate dehydrogenase (fumarate) on L-Dihydroorotate
+  equation: L-Dihydroorotate + Fumarate = Succinate + Orotate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Dihydroorotate
+  - species_id: substrate_Fumarate
+  products:
+  - species_id: product_Orotate
+  - species_id: product_Succinate
+  modifiers:
+  - species_id: protein_1_3_98_1_Q9CFC9_p3756
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 30059;30060;30061;30062
+  KEGGid: R01867
+  notes: 'ChEBI IDs: CHEBI:26807; CHEBI:42743; CHEBI:30839; CHEBI:42511; CHEBI:15125;
+    CHEBI:14698; CHEBI:26803; CHEBI:24124; CHEBI:417; CHEBI:25720; CHEBI:22943; CHEBI:18777;
+    CHEBI:25719; CHEBI:29806; CHEBI:45639; CHEBI:17025; CHEBI:9304; CHEBI:132287;
+    CHEBI:90372; CHEBI:16742; CHEBI:42132; CHEBI:11063; CHEBI:24122; CHEBI:30031;
+    CHEBI:18012; CHEBI:14284; CHEBI:22941; CHEBI:30779; CHEBI:18778; CHEBI:15741;
+    CHEBI:5190; CHEBI:7787; CHEBI:30864; CHEBI:37154; CHEBI:44781
+
+    KEGG IDs: KEGG:C00337; KEGG:C00295; KEGG:C00042; KEGG:C00122'
+measurements:
+- id: measurement_1_3_98_1_Lactococcus_lactis_Q9CFC9_Fumarate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_3_98_1_Lactococcus_lactis_Q9CFC9_Fumarate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_3_98_1_Lactococcus_lactis_Q9CFC9_L-Dihydroorotate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_3_98_1_Lactococcus_lactis_Q9CFC9_Fumarate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Fumarate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12732650'
+- id: 1_3_98_1_Lactococcus_lactis_Q9CFC9_Fumarate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 6.5e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Fumarate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12732650'
+- id: 1_3_98_1_Lactococcus_lactis_Q9CFC9_L-Dihydroorotate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.6e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Dihydroorotate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12732650'
+buffer:
+  buffer: 0.1 M Tris-HCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 3765
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12732650/
+  pubmed_id: '12732650'
+  doi: null
+name: Merged entry for Q9CFC9 P56A
+description: 'Merged from 3 files: SABIO_EC1.3.98.1_Lactococcus_lactis__Q9CFC9_P56A_s_Fumarate.yaml,
+  SABIO_EC1.3.98.1_Lactococcus_lactis__Q9CFC9_P56A_s_Fumarate_2.yaml, SABIO_EC1.3.98.1_Lactococcus_lactis__Q9CFC9_P56A_s_L-Dihydroorotate.yaml'

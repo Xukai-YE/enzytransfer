@@ -1,0 +1,399 @@
+version: '2.0'
+created: '2025-11-20T13:39:18.054139'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_244_P31005_p62720
+  name: methanol dehydrogenase
+  ecnumber: 1.1.1.244
+  organism: Bacillus methanolicus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: G95A
+  uniprotid: P31005
+  wildtype_sequence: MTNFFIPPASVIGRGAVKEVGTRLKQIGAKKALIVTDAFLHSTGLSEEVAKNIREAGLDVAIFPKAQPDPADTQVHEGVDVFKQENCDALVSIGGGSSHDTAKAIGLVAANGGRINDYQGVNSVEKPVVPVVAITTTAGTGSETTSLAVITDSARKVKMPVIDEKITPTVAIVDPELMVKKPAGLTIATGMDALSHAIEAYVAKGATPVTDAFAIQAMKLINEYLPKAVANGEDIEAREAMAYAQYMAGVAFNNGGLGLVHSISHQVGGVYKLQHGICNSVNMPHVCAFNLIAKTERFAHIAELLGENVSGLSTAAAAERAIVALERYNKNFGIPSGYAEMGVKEEDIELLAKNAFEDVCTQSNPRVATVQDIAQIIKNAL
+  mutant_sequence: MTNFFIPPASVIGRGAVKEVGTRLKQIGAKKALIVTDAFLHSTGLSEEVAKNIREAGLDVAIFPKAQPDPADTQVHEGVDVFKQENCDALVSIGAGSSHDTAKAIGLVAANGGRINDYQGVNSVEKPVVPVVAITTTAGTGSETTSLAVITDSARKVKMPVIDEKITPTVAIVDPELMVKKPAGLTIATGMDALSHAIEAYVAKGATPVTDAFAIQAMKLINEYLPKAVANGEDIEAREAMAYAQYMAGVAFNNGGLGLVHSISHQVGGVYKLQHGICNSVNMPHVCAFNLIAKTERFAHIAELLGENVSGLSTAAAAERAIVALERYNKNFGIPSGYAEMGVKEEDIELLAKNAFEDVCTQSNPRVATVQDIAQIIKNAL
+complexes: null
+small_molecules:
+- id: substrate_Formaldehyde
+  name: Formaldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mg2_
+  name: Mg2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Zn2_
+  name: Zn2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Methanol
+  name: Methanol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Methanol
+  name: Methanol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Formaldehyde
+  name: Formaldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_997_EC1_1_1_244_Bacillus_methanolicus_P31005_Formaldehyde
+  name: Reaction catalyzed by methanol dehydrogenase on Formaldehyde
+  equation: Methanol + NAD+ = NADH + Formaldehyde + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Formaldehyde
+  - species_id: substrate_NADH
+  - species_id: cofactor_Mg2_
+  - species_id: cofactor_Zn2_
+  products:
+  - species_id: product_Methanol
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_1_1_244_P31005_p62720
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 19401;19402;19403;19404
+  KEGGid: R00605
+  notes: 'ChEBI IDs: CHEBI:29105; CHEBI:13379; CHEBI:10113; CHEBI:5142; CHEBI:16842;
+    CHEBI:25227; CHEBI:44281; CHEBI:6635; CHEBI:13393; CHEBI:6816; CHEBI:29234; CHEBI:44553;
+    CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:24077; CHEBI:21901;
+    CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:337763; CHEBI:5584; CHEBI:14588;
+    CHEBI:13394; CHEBI:49736; CHEBI:57945; CHEBI:44216; CHEBI:17790; CHEBI:57540;
+    CHEBI:49972; CHEBI:7423; CHEBI:44080; CHEBI:13389; CHEBI:14274; CHEBI:18420; CHEBI:49982;
+    CHEBI:27368; CHEBI:15378; CHEBI:13395; CHEBI:25112; CHEBI:10744; CHEBI:44215;
+    CHEBI:39127; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00305; KEGG:C00080; KEGG:C00132; KEGG:C00003; KEGG:C00038; KEGG:C00067;
+    KEGG:C00004'
+- id: sabiork_997_EC1_1_1_244_Bacillus_methanolicus_P31005_Formaldehyde
+  name: Reaction catalyzed by methanol dehydrogenase on Formaldehyde
+  equation: Methanol + NAD+ = NADH + Formaldehyde + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Formaldehyde
+  - species_id: substrate_NADH
+  - species_id: cofactor_Mg2_
+  - species_id: cofactor_Zn2_
+  products:
+  - species_id: product_NAD_
+  - species_id: product_Methanol
+  modifiers:
+  - species_id: protein_1_1_1_244_P31005_p62723
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 19401;19402;19403;19404
+  KEGGid: R00605
+  notes: 'ChEBI IDs: CHEBI:29105; CHEBI:13379; CHEBI:10113; CHEBI:5142; CHEBI:16842;
+    CHEBI:25227; CHEBI:44281; CHEBI:6635; CHEBI:13393; CHEBI:6816; CHEBI:29234; CHEBI:44553;
+    CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:24077; CHEBI:21901;
+    CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:337763; CHEBI:5584; CHEBI:13394;
+    CHEBI:14588; CHEBI:49736; CHEBI:57945; CHEBI:44216; CHEBI:17790; CHEBI:57540;
+    CHEBI:49972; CHEBI:7423; CHEBI:44080; CHEBI:13389; CHEBI:14274; CHEBI:18420; CHEBI:49982;
+    CHEBI:27368; CHEBI:13395; CHEBI:15378; CHEBI:25112; CHEBI:10744; CHEBI:44215;
+    CHEBI:39127; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00305; KEGG:C00080; KEGG:C00132; KEGG:C00003; KEGG:C00038; KEGG:C00067;
+    KEGG:C00004'
+- id: sabiork_997_EC1_1_1_244_Bacillus_methanolicus_P31005_NAD_
+  name: Reaction catalyzed by methanol dehydrogenase on NAD+
+  equation: Methanol + NAD+ = NADH + Formaldehyde + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_Methanol
+  - species_id: cofactor_Mg2_
+  - species_id: cofactor_Zn2_
+  products:
+  - species_id: product_Formaldehyde
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_1_1_244_P31005_p62711
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 19401;19402;19403;19404
+  KEGGid: R00605
+  notes: 'ChEBI IDs: CHEBI:29105; CHEBI:13379; CHEBI:10113; CHEBI:5142; CHEBI:16842;
+    CHEBI:25227; CHEBI:44281; CHEBI:6635; CHEBI:13393; CHEBI:6816; CHEBI:44553; CHEBI:29234;
+    CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:24077; CHEBI:21901;
+    CHEBI:24636; CHEBI:44214; CHEBI:337763; CHEBI:29233; CHEBI:14588; CHEBI:13394;
+    CHEBI:5584; CHEBI:49736; CHEBI:57945; CHEBI:44216; CHEBI:17790; CHEBI:57540; CHEBI:49972;
+    CHEBI:7423; CHEBI:44080; CHEBI:13389; CHEBI:14274; CHEBI:18420; CHEBI:49982; CHEBI:27368;
+    CHEBI:13395; CHEBI:15378; CHEBI:25112; CHEBI:44215; CHEBI:10744; CHEBI:39127;
+    CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00305; KEGG:C00080; KEGG:C00132; KEGG:C00003; KEGG:C00038; KEGG:C00067;
+    KEGG:C00004'
+- id: sabiork_997_EC1_1_1_244_Bacillus_methanolicus_P31005_NAD_
+  name: Reaction catalyzed by methanol dehydrogenase on NAD+
+  equation: Methanol + NAD+ = NADH + Formaldehyde + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_Methanol
+  - species_id: cofactor_Mg2_
+  - species_id: cofactor_Zn2_
+  products:
+  - species_id: product_Formaldehyde
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_1_1_244_P31005_p62714
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 19401;19402;19403;19404
+  KEGGid: R00605
+  notes: 'ChEBI IDs: CHEBI:29105; CHEBI:13379; CHEBI:10113; CHEBI:5142; CHEBI:16842;
+    CHEBI:25227; CHEBI:44281; CHEBI:6635; CHEBI:13393; CHEBI:6816; CHEBI:44553; CHEBI:29234;
+    CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:24077; CHEBI:21901;
+    CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:337763; CHEBI:5584; CHEBI:14588;
+    CHEBI:13394; CHEBI:49736; CHEBI:57945; CHEBI:44216; CHEBI:17790; CHEBI:57540;
+    CHEBI:49972; CHEBI:7423; CHEBI:44080; CHEBI:13389; CHEBI:14274; CHEBI:18420; CHEBI:49982;
+    CHEBI:27368; CHEBI:15378; CHEBI:13395; CHEBI:25112; CHEBI:44215; CHEBI:10744;
+    CHEBI:39127; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00305; KEGG:C00080; KEGG:C00132; KEGG:C00003; KEGG:C00038; KEGG:C00067;
+    KEGG:C00004'
+measurements:
+- id: measurement_1_1_1_244_Bacillus_methanolicus_P31005_Formaldehyde
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.7
+  temperature_opt: 50.0
+  temperature_unit: °C
+- id: measurement_1_1_1_244_Bacillus_methanolicus_P31005_Formaldehyde
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.7
+  temperature_opt: 50.0
+  temperature_unit: °C
+- id: measurement_1_1_1_244_Bacillus_methanolicus_P31005_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.5
+  temperature_opt: 50.0
+  temperature_unit: °C
+- id: measurement_1_1_1_244_Bacillus_methanolicus_P31005_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.5
+  temperature_opt: 50.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1_244_Bacillus_methanolicus_P31005_Formaldehyde_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00011
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Formaldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.7
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12351635'
+- id: 1_1_1_244_Bacillus_methanolicus_P31005_Formaldehyde_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 1.53336e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Formaldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.7
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12351635'
+- id: 1_1_1_244_Bacillus_methanolicus_P31005_Formaldehyde_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 3.83341e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Formaldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.7
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12351635'
+- id: 1_1_1_244_Bacillus_methanolicus_P31005_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00051
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.5
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12351635'
+- id: 1_1_1_244_Bacillus_methanolicus_P31005_NAD__Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 1.6667e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.5
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12351635'
+- id: 1_1_1_244_Bacillus_methanolicus_P31005_NAD__Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 3.66674e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.5
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12351635'
+buffer:
+  buffer: 100 mM glycine/ KOH, 5 mM MgSO4, 5 mM beta-mercaptoethanol; 50 mM potassium
+    phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 62720
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12351635/
+  pubmed_id: '12351635'
+  doi: null
+name: Merged entry for P31005 G95A
+description: 'Merged from 4 files: SABIO_EC1.1.1.244_Bacillus_methanolicus__P31005_G95A_s_Formaldehyde.yaml,
+  SABIO_EC1.1.1.244_Bacillus_methanolicus__P31005_G95A_s_Formaldehyde_2.yaml, SABIO_EC1.1.1.244_Bacillus_methanolicus__P31005_G95A_s_NAD_.yaml,
+  SABIO_EC1.1.1.244_Bacillus_methanolicus__P31005_G95A_s_NAD__2.yaml'

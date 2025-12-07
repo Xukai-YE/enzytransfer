@@ -1,0 +1,220 @@
+version: '2.0'
+created: '2025-11-20T13:40:47.670383'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_7_31_P04053_p23169
+  name: DNA-directed DNA polymerase
+  ecnumber: 2.7.7.31
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: D343E
+  uniprotid: P04053
+  wildtype_sequence: MDPPRASHLSPRKKRPRQTGALMASSPQDIKFQDLVVFILEKKMGTTRRAFLMELARRKGFRVENELSDSVTHIVAENNSGSDVLEWLQAQKVQVSSQPELLDVSWLIECIRAGKPVEMTGKHQLVVRRDYSDSTNPGPPKTPPIAVQKISQYACQRRTTLNNCNQIFTDAFDILAENCEFRENEDSCVTFMRAASVLKSLPFTIISMKDTEGIPCLGSKVKGIIEEIIEDGESSEVKAVLNDERYQSFKLFTSVFGVGLKTSEKWFRMGFRTLSKVRSDKSLKFTRMQKAGFLYYEDLVSCVTRAEAEAVSVLVKEAVWAFLPDAFVTMTGGFRRGKKMGHDVDFLITSPGSTEDEEQLLQKVMNLWEKKGLLLYYDLVESTFEKLRLPSRKVDALDHFQKCFLIFKLPRQRVDSDQSSWQEGKTWKAIRVDLVLCPYERRAFALLGWTGSRQFERDLRRYATHERKMILDNHALYDKTKRIFLKAESEEEIFAHLGLDYIEPWERNA
+  mutant_sequence: MDPPRASHLSPRKKRPRQTGALMASSPQDIKFQDLVVFILEKKMGTTRRAFLMELARRKGFRVENELSDSVTHIVAENNSGSDVLEWLQAQKVQVSSQPELLDVSWLIECIRAGKPVEMTGKHQLVVRRDYSDSTNPGPPKTPPIAVQKISQYACQRRTTLNNCNQIFTDAFDILAENCEFRENEDSCVTFMRAASVLKSLPFTIISMKDTEGIPCLGSKVKGIIEEIIEDGESSEVKAVLNDERYQSFKLFTSVFGVGLKTSEKWFRMGFRTLSKVRSDKSLKFTRMQKAGFLYYEDLVSCVTRAEAEAVSVLVKEAVWAFLPDAFVTMTGGFRRGKKMGHEVDFLITSPGSTEDEEQLLQKVMNLWEKKGLLLYYDLVESTFEKLRLPSRKVDALDHFQKCFLIFKLPRQRVDSDQSSWQEGKTWKAIRVDLVLCPYERRAFALLGWTGSRQFERDLRRYATHERKMILDNHALYDKTKRIFLKAESEEEIFAHLGLDYIEPWERNA
+complexes: null
+small_molecules:
+- id: substrate_dATP
+  name: dATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_n_1_n_DNA
+  name: n+1 n DNA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_n_1_n_DNA
+  name: n+1 n DNA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_185_EC2_7_7_31_Homo_sapiens_P04053_dATP
+  name: Reaction catalyzed by DNA-directed DNA polymerase on dATP
+  equation: dATP + DNA = DNA + Diphosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_dATP
+  - species_id: product_n_1_n_DNA
+  products:
+  - species_id: product_n_1_n_DNA
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_2_7_7_31_P04053_p23169
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00375
+  notes: 'ChEBI IDs: CHEBI:21123; CHEBI:8683; CHEBI:13302; CHEBI:10491; CHEBI:16284;
+    CHEBI:33019; CHEBI:4291; CHEBI:33698; CHEBI:45067; CHEBI:495505; CHEBI:29888;
+    CHEBI:35782; CHEBI:13420; CHEBI:18361; CHEBI:16991; CHEBI:33017; CHEBI:45208;
+    CHEBI:61404; CHEBI:42290; CHEBI:14069; CHEBI:45212; CHEBI:42009; CHEBI:19238;
+    CHEBI:33018
+
+    KEGG IDs: KEGG:C00131; KEGG:C00013; KEGG:C00039'
+- id: sabiork_185_EC2_7_7_31_Homo_sapiens_P04053_n_1_n_DNA
+  name: Reaction catalyzed by DNA-directed DNA polymerase on n+1 n DNA
+  equation: dATP + DNA = DNA + Diphosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: product_n_1_n_DNA
+  - species_id: substrate_dATP
+  products:
+  - species_id: product_n_1_n_DNA
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_2_7_7_31_P04053_p23174
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00375
+  notes: 'ChEBI IDs: CHEBI:21123; CHEBI:8683; CHEBI:13302; CHEBI:10491; CHEBI:16284;
+    CHEBI:33019; CHEBI:4291; CHEBI:33698; CHEBI:45067; CHEBI:495505; CHEBI:29888;
+    CHEBI:35782; CHEBI:13420; CHEBI:18361; CHEBI:16991; CHEBI:33017; CHEBI:45208;
+    CHEBI:61404; CHEBI:42290; CHEBI:14069; CHEBI:45212; CHEBI:42009; CHEBI:19238;
+    CHEBI:33018
+
+    KEGG IDs: KEGG:C00131; KEGG:C00013; KEGG:C00039'
+measurements:
+- id: measurement_2_7_7_31_Homo_sapiens_P04053_dATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 35.0
+  temperature_unit: °C
+- id: measurement_2_7_7_31_Homo_sapiens_P04053_n_1_n_DNA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 35.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_7_31_Homo_sapiens_P04053_dATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 62.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_dATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 35.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8163485'
+- id: 2_7_7_31_Homo_sapiens_P04053_dATP_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 5100.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_dATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 35.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8163485'
+- id: 2_7_7_31_Homo_sapiens_P04053_n_1_n_DNA_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 62.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_n_1_n_DNA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 35.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8163485'
+buffer:
+  buffer: 200 mM potassium cacodylate, 8 mM MgCl2, 1 mM beta-mercaptoethanol
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 23169
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/8163485/
+  pubmed_id: '8163485'
+  doi: null
+name: Merged entry for P04053 D343E
+description: 'Merged from 2 files: SABIO_EC2.7.7.31_Homo_sapiens__P04053_D343E_s_dATP.yaml,
+  SABIO_EC2.7.7.31_Homo_sapiens__P04053_D343E_s_n_1.yaml'

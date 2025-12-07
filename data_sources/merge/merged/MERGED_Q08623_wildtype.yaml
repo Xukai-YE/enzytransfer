@@ -1,0 +1,805 @@
+version: '2.0'
+created: '2025-11-20T13:40:59.874719'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_1_3_96_Q08623_p74880
+  name: fructose-bisphosphatase
+  ecnumber: 3.1.3.96
+  organism: bovine
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q08623
+  wildtype_sequence: MAAPPQPVTHLIFDMDGLLLDTERLYSVVFQEICNRYDKKYSWDVKSLVMGKKALEAAQIIIDVLQLPMSKEELVEESQTKLKEVFPTAALMPGAEKLIIHLRKHGIPFALATSSGSASFDMKTSRHKEFFSLFSHIVLGDDPEVQHGKPDPDIFLACAKRFSPPPAMEKCLVFEDAPNGVEAALAAGMQVVMVPDGNLSRDLTTKATLVLNSLQDFQPELFGLPSYE
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Fructose_1
+  name: Fructose 1
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_6-bisphosphate
+  name: 6-bisphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mg2_
+  name: Mg2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Fructose_6-phosphate
+  name: Fructose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Phosphate
+  name: Phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Adenosine_3_-phosphate
+  name: Adenosine 3'-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Adenosine
+  name: Adenosine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Fructose_6-phosphate
+  name: Fructose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Fructose
+  name: Fructose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Pseudouridine_5_-phosphate
+  name: Pseudouridine 5'-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Pseudouridine
+  name: Pseudouridine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Riboflavin-5-phosphate
+  name: Riboflavin-5-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Riboflavin
+  name: Riboflavin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_UMP
+  name: UMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Uridine
+  name: Uridine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_10378_EC3_1_3_96_bovine_Q08623_Fructose_1
+  name: Reaction catalyzed by fructose-bisphosphatase on Fructose 1
+  equation: H2O + Fructose 1,6-bisphosphate = Phosphate + Fructose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Fructose_1
+  - species_id: substrate_6-bisphosphate
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Fructose_6-phosphate
+  - species_id: product_Phosphate
+  modifiers:
+  - species_id: protein_3_1_3_96_Q08623_p74880
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:15946; CHEBI:14791; CHEBI:29375; CHEBI:43470; CHEBI:32968;
+    CHEBI:44819; CHEBI:18367; CHEBI:41981; CHEBI:35780; CHEBI:13379; CHEBI:12926;
+    CHEBI:26020; CHEBI:26078; CHEBI:20935; CHEBI:6635; CHEBI:39127; CHEBI:42857; CHEBI:41979;
+    CHEBI:29139; CHEBI:39739; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:49736; CHEBI:39745; CHEBI:40591; CHEBI:13352; CHEBI:42406;
+    CHEBI:7793; CHEBI:43228; CHEBI:44292; CHEBI:40595; CHEBI:57579; CHEBI:45024; CHEBI:33806;
+    CHEBI:18420; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:4124; CHEBI:25112; CHEBI:43474;
+    CHEBI:32967; CHEBI:29137; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00305; KEGG:C00001; KEGG:C00009'
+- id: sabiork_305_EC3_1_3_96_bovine_Q08623_Adenosine_3_-phosphate
+  name: Reaction catalyzed by 3'-nucleotidase on Adenosine 3'-phosphate
+  equation: H2O + Adenosine 3'-phosphate = Phosphate + Adenosine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Adenosine_3_-phosphate
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Adenosine
+  - species_id: product_Phosphate
+  modifiers:
+  - species_id: protein_3_1_3_96_Q08623_p74879
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 27898;27899;27900;27901
+  KEGGid: R01562
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:29375; CHEBI:40906; CHEBI:43470; CHEBI:44819;
+    CHEBI:18367; CHEBI:29137; CHEBI:41981; CHEBI:35780; CHEBI:13379; CHEBI:40558;
+    CHEBI:40872; CHEBI:26020; CHEBI:28931; CHEBI:26078; CHEBI:6635; CHEBI:39127; CHEBI:2472;
+    CHEBI:42857; CHEBI:41979; CHEBI:29139; CHEBI:39739; CHEBI:42043; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:49736; CHEBI:39745; CHEBI:13352;
+    CHEBI:60880; CHEBI:7793; CHEBI:43228; CHEBI:22241; CHEBI:44292; CHEBI:45024; CHEBI:33806;
+    CHEBI:18420; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:16335; CHEBI:25112; CHEBI:43474;
+    CHEBI:13734; CHEBI:22237; CHEBI:1333; CHEBI:40825; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00305; KEGG:C01367; KEGG:C00001; KEGG:C00009; KEGG:C00212'
+- id: sabiork_9956_EC3_1_3_96_bovine_Q08623_Fructose_6-phosphate
+  name: Reaction catalyzed by sugar-phosphatase on Fructose 6-phosphate
+  equation: Fructose 6-phosphate + H2O = Fructose + Phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Fructose_6-phosphate
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Phosphate
+  - species_id: product_Fructose
+  modifiers:
+  - species_id: protein_3_1_3_96_Q08623_p74881
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:15946; CHEBI:14791; CHEBI:29375; CHEBI:43470; CHEBI:44819;
+    CHEBI:18367; CHEBI:41981; CHEBI:35780; CHEBI:13379; CHEBI:12926; CHEBI:26020;
+    CHEBI:26078; CHEBI:20935; CHEBI:6635; CHEBI:39127; CHEBI:42857; CHEBI:41979; CHEBI:28645;
+    CHEBI:29139; CHEBI:28757; CHEBI:37720; CHEBI:39739; CHEBI:42043; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:49736; CHEBI:39745; CHEBI:13352;
+    CHEBI:42406; CHEBI:7793; CHEBI:43228; CHEBI:44292; CHEBI:57579; CHEBI:45024; CHEBI:33806;
+    CHEBI:18420; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:4124; CHEBI:25112; CHEBI:43474;
+    CHEBI:29137; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C01496; KEGG:C00305; KEGG:C00001; KEGG:C00009; KEGG:C02336'
+- id: sabiork_16281_EC3_1_3_96_bovine_Q08623_Pseudouridine_5_-phosphate
+  name: Reaction catalyzed by pseudouridine 5'-phosphatase on Pseudouridine 5'-phosphate
+  equation: H2O + Pseudouridine 5'-phosphate = Phosphate + Pseudouridine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Pseudouridine_5_-phosphate
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Pseudouridine
+  - species_id: product_Phosphate
+  modifiers:
+  - species_id: protein_3_1_3_96_Q08623_p74878
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:29375; CHEBI:43470; CHEBI:44819; CHEBI:18367;
+    CHEBI:41981; CHEBI:35780; CHEBI:17802; CHEBI:13379; CHEBI:18116; CHEBI:26020;
+    CHEBI:26078; CHEBI:6635; CHEBI:39127; CHEBI:42857; CHEBI:41979; CHEBI:29139; CHEBI:39739;
+    CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:49736;
+    CHEBI:39745; CHEBI:13352; CHEBI:7793; CHEBI:43228; CHEBI:44292; CHEBI:45024; CHEBI:33806;
+    CHEBI:18420; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:25112; CHEBI:43474; CHEBI:29137;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C02067; KEGG:C00305; KEGG:C00001; KEGG:C00009; KEGG:C01168'
+- id: sabiork_16281_EC3_1_3_96_bovine_Q08623_Pseudouridine_5_-phosphate
+  name: Reaction catalyzed by pseudouridine 5'-phosphatase on Pseudouridine 5'-phosphate
+  equation: H2O + Pseudouridine 5'-phosphate = Phosphate + Pseudouridine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Pseudouridine_5_-phosphate
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Phosphate
+  - species_id: product_Pseudouridine
+  modifiers:
+  - species_id: protein_3_1_3_96_Q08623_p74885
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:29375; CHEBI:43470; CHEBI:44819; CHEBI:18367;
+    CHEBI:41981; CHEBI:35780; CHEBI:17802; CHEBI:13379; CHEBI:18116; CHEBI:26020;
+    CHEBI:26078; CHEBI:6635; CHEBI:39127; CHEBI:42857; CHEBI:41979; CHEBI:29139; CHEBI:39739;
+    CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:49736;
+    CHEBI:39745; CHEBI:13352; CHEBI:7793; CHEBI:43228; CHEBI:44292; CHEBI:45024; CHEBI:33806;
+    CHEBI:18420; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:25112; CHEBI:43474; CHEBI:29137;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C02067; KEGG:C00305; KEGG:C00001; KEGG:C00009; KEGG:C01168'
+- id: sabiork_16281_EC3_1_3_96_bovine_Q08623_Pseudouridine_5_-phosphate
+  name: Reaction catalyzed by pseudouridine 5'-phosphatase on Pseudouridine 5'-phosphate
+  equation: H2O + Pseudouridine 5'-phosphate = Phosphate + Pseudouridine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Pseudouridine_5_-phosphate
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Pseudouridine
+  - species_id: product_Phosphate
+  modifiers:
+  - species_id: protein_3_1_3_96_Q08623_p74884
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:29375; CHEBI:43470; CHEBI:44819; CHEBI:18367;
+    CHEBI:41981; CHEBI:35780; CHEBI:17802; CHEBI:13379; CHEBI:18116; CHEBI:26020;
+    CHEBI:26078; CHEBI:6635; CHEBI:39127; CHEBI:42857; CHEBI:41979; CHEBI:29139; CHEBI:39739;
+    CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:49736;
+    CHEBI:39745; CHEBI:13352; CHEBI:7793; CHEBI:43228; CHEBI:44292; CHEBI:45024; CHEBI:33806;
+    CHEBI:18420; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:25112; CHEBI:43474; CHEBI:29137;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C02067; KEGG:C00305; KEGG:C00001; KEGG:C00009; KEGG:C01168'
+- id: sabiork_964_EC3_1_3_96_bovine_Q08623_Riboflavin-5-phosphate
+  name: Reaction catalyzed by acid phosphatase on Riboflavin-5-phosphate
+  equation: Riboflavin-5-phosphate + H2O = Phosphate + Riboflavin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Riboflavin-5-phosphate
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Phosphate
+  - species_id: product_Riboflavin
+  modifiers:
+  - species_id: protein_3_1_3_96_Q08623_p74883
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00548
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:29375; CHEBI:8843; CHEBI:43470; CHEBI:44819;
+    CHEBI:18367; CHEBI:45214; CHEBI:41981; CHEBI:17621; CHEBI:35780; CHEBI:15044;
+    CHEBI:13379; CHEBI:26020; CHEBI:17015; CHEBI:26078; CHEBI:57986; CHEBI:6635; CHEBI:39127;
+    CHEBI:42857; CHEBI:41979; CHEBI:4960; CHEBI:29139; CHEBI:39739; CHEBI:27299; CHEBI:42043;
+    CHEBI:21127; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:49736;
+    CHEBI:39745; CHEBI:13352; CHEBI:42587; CHEBI:7793; CHEBI:13317; CHEBI:43228; CHEBI:24041;
+    CHEBI:44292; CHEBI:45024; CHEBI:33806; CHEBI:18420; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:25112; CHEBI:43474; CHEBI:529204; CHEBI:29137; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C00305; KEGG:C00255; KEGG:C00061; KEGG:C00001; KEGG:C00009'
+- id: sabiork_210_EC3_1_3_96_bovine_Q08623_UMP
+  name: Reaction catalyzed by enzyme on UMP
+  equation: UMP + H2O = Uridine + Phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_UMP
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Uridine
+  - species_id: product_Phosphate
+  modifiers:
+  - species_id: protein_3_1_3_96_Q08623_p74882
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 29359;29360;29361;29362
+  KEGGid: R00963
+  notes: 'ChEBI IDs: CHEBI:13508; CHEBI:14791; CHEBI:29375; CHEBI:43470; CHEBI:44819;
+    CHEBI:18367; CHEBI:41981; CHEBI:35780; CHEBI:13379; CHEBI:26020; CHEBI:16695;
+    CHEBI:26078; CHEBI:15296; CHEBI:27231; CHEBI:46381; CHEBI:6635; CHEBI:39127; CHEBI:42857;
+    CHEBI:41979; CHEBI:29139; CHEBI:9893; CHEBI:39739; CHEBI:42043; CHEBI:46362; CHEBI:46386;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:57865; CHEBI:39745;
+    CHEBI:49736; CHEBI:13352; CHEBI:47721; CHEBI:27227; CHEBI:46460; CHEBI:7793; CHEBI:43228;
+    CHEBI:44292; CHEBI:45024; CHEBI:33806; CHEBI:46382; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:13509; CHEBI:46391; CHEBI:18420; CHEBI:9849; CHEBI:25112; CHEBI:43474;
+    CHEBI:29137; CHEBI:16704; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00105; KEGG:C00305; KEGG:C00009; KEGG:C00001; KEGG:C00299'
+measurements:
+- id: measurement_3_1_3_96_bovine_Q08623_Fructose_1
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.1
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_3_1_3_96_bovine_Q08623_Adenosine_3_-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.1
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_3_1_3_96_bovine_Q08623_Fructose_6-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.1
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_3_1_3_96_bovine_Q08623_Pseudouridine_5_-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.1
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_3_1_3_96_bovine_Q08623_Pseudouridine_5_-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.1
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_3_1_3_96_bovine_Q08623_Pseudouridine_5_-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.1
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_3_1_3_96_bovine_Q08623_Riboflavin-5-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.1
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_3_1_3_96_bovine_Q08623_UMP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.1
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_1_3_96_bovine_Q08623_Fructose_1_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 186.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Fructose_1
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.1
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20722631'
+- id: 3_1_3_96_bovine_Q08623_Fructose_1_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0059
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Fructose_1
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.1
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20722631'
+- id: 3_1_3_96_bovine_Q08623_Fructose_1_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.09
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Fructose_1
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.1
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20722631'
+- id: 3_1_3_96_bovine_Q08623_Adenosine_3_-phosphate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 4.71
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Adenosine_3_-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.1
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20722631'
+- id: 3_1_3_96_bovine_Q08623_Adenosine_3_-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0015
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Adenosine_3_-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.1
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20722631'
+- id: 3_1_3_96_bovine_Q08623_Adenosine_3_-phosphate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 3250.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Adenosine_3_-phosphate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.1
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20722631'
+- id: 3_1_3_96_bovine_Q08623_Fructose_6-phosphate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 152.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Fructose_6-phosphate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.1
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20722631'
+- id: 3_1_3_96_bovine_Q08623_Fructose_6-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0069
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Fructose_6-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.1
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20722631'
+- id: 3_1_3_96_bovine_Q08623_Fructose_6-phosphate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Fructose_6-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.1
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20722631'
+- id: 3_1_3_96_bovine_Q08623_Pseudouridine_5_-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.8e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Pseudouridine_5_-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.1
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20722631'
+- id: 3_1_3_96_bovine_Q08623_Pseudouridine_5_-phosphate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 4200000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Pseudouridine_5_-phosphate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.1
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20722631'
+- id: 3_1_3_96_bovine_Q08623_Pseudouridine_5_-phosphate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.59
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Pseudouridine_5_-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.1
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20722631'
+- id: 3_1_3_96_bovine_Q08623_Pseudouridine_5_-phosphate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.166667e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Pseudouridine_5_-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.1
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20722631'
+- id: 3_1_3_96_bovine_Q08623_Pseudouridine_5_-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 8.0e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Pseudouridine_5_-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.1
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20722631'
+- id: 3_1_3_96_bovine_Q08623_Pseudouridine_5_-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.0e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Pseudouridine_5_-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.1
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20722631'
+- id: 3_1_3_96_bovine_Q08623_Riboflavin-5-phosphate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.04
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Riboflavin-5-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.1
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20722631'
+- id: 3_1_3_96_bovine_Q08623_Riboflavin-5-phosphate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 133.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Riboflavin-5-phosphate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.1
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20722631'
+- id: 3_1_3_96_bovine_Q08623_Riboflavin-5-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0003
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Riboflavin-5-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.1
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20722631'
+- id: 3_1_3_96_bovine_Q08623_UMP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 44.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UMP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.1
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20722631'
+- id: 3_1_3_96_bovine_Q08623_UMP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.41
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UMP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.1
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20722631'
+- id: 3_1_3_96_bovine_Q08623_UMP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0094
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UMP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.1
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20722631'
+buffer:
+  buffer: 25 mM Hepes, 25 mM KCl, 1 mM ditiothreitol, 0.1 mg/ml bovine serum albumin
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 74880
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/20722631/
+  pubmed_id: '20722631'
+  doi: null
+name: Merged entry for Q08623 wildtype
+description: 'Merged from 8 files: SABIO_EC3.1.3.96_bovine__Q08623_s_Fructose.yaml,
+  SABIO_EC3.1.3.96_bovine__Q08623_s_Adenosine.yaml, SABIO_EC3.1.3.96_bovine__Q08623_s_Fructose_2.yaml,
+  SABIO_EC3.1.3.96_bovine__Q08623_s_Pseudouridine.yaml, SABIO_EC3.1.3.96_bovine__Q08623_s_Pseudouridine_3.yaml,
+  SABIO_EC3.1.3.96_bovine__Q08623_s_Pseudouridine_2.yaml, SABIO_EC3.1.3.96_bovine__Q08623_s_Riboflavin-5-phospha.yaml,
+  SABIO_EC3.1.3.96_bovine__Q08623_s_UMP.yaml'

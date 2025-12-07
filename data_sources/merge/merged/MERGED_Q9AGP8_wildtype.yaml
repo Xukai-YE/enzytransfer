@@ -1,0 +1,260 @@
+version: '2.0'
+created: '2025-11-20T13:39:52.941751'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_5_3_10_Q9AGP8_p51917
+  name: dimethylglycine oxidase
+  ecnumber: 1.5.3.10
+  organism: Arthrobacter globiformis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9AGP8
+  wildtype_sequence: MASTPRIVIIGAGIVGTNLADELVTRGWNNITVLDQGPLNMPGGSTSHAPGLVFQTNPSKTMASFAKYTVEKLLSLTEDGVSCFNQVGGLEVATTETRLADLKRKLGYAAAWGIEGRLLSPAECQELYPLLDGENILGGLHVPSDGLASAARAVQLLIKRTESAGVTYRGSTTVTGIEQSGGRVTGVQTADGVIPADIVVSCAGFWGAKIGAMIGMAVPLLPLAHQYVKTTPVPAQQGRNDQPNGARLPILRHQDQDLYYREHGDRYGIGSYAHRPMPVDVDTLGAYAPETVSEHHMPSRLDFTLEDFLPAWEATKQLLPALADSEIEDGFNGIFSFTPDGGPLLGESKELDGFYVAEAVWVTHSAGVAKAMAELLTTGRSETDLGECDITRFEDVQLTPEYVSETSQQNFVEIYDVLHPLQPRLSPRNLRVSPFHARHKELGAFFLEAGGWERPYWFEANAALLKEMPAEWLPPARDAWSGMFSSPIAAAEAWKTRTAVAMYDMTPLKRLEVSGPGALKLLQELTTADLAKKPGAVTYTLLLDHAGGVRSDITVARLSEDTFQLGANGNIDTAYFERAARHQTQSGSATDWVQVRDTTGGTCCIGLWGPLARDLVSKVSDDDFTNDGLKYFRAKNVVIGGIPVTAMRLSYVGELGWELYTSADNGQRLWDALWQAGQPFGVIAAGRAAFSSLRLEKGYRSWGTDMTTEHDPFEAGLGFAVKMAKESFIGKGALEGRTEEASARRLRCLTIDDGRSIVLGKEPVFYKEQAVGYVTSAAYGYTVAKPIAYSYLPGTVSVGDSVDIEYFGRRITATVTEDPLYDPKMTRLRG
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_N
+  name: N
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_N-Dimethylglycine
+  name: N-Dimethylglycine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Formaldehyde
+  name: Formaldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Sarcosine
+  name: Sarcosine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1717_EC1_5_3_10_Arthrobacter_globiformis_Q9AGP8_N
+  name: Reaction catalyzed by dimethylglycine oxidase on N
+  equation: H2O + N,N-Dimethylglycine + O2 = Sarcosine + H2O2 + Formaldehyde
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N
+  - species_id: substrate_N-Dimethylglycine
+  - species_id: substrate_O2
+  products:
+  - species_id: product_Formaldehyde
+  - species_id: product_Sarcosine
+  modifiers:
+  - species_id: protein_1_5_3_10_Q9AGP8_p51917
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17077;17078;17079;17080
+  KEGGid: R01564
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:21455; CHEBI:44819; CHEBI:13354;
+    CHEBI:17724; CHEBI:41981; CHEBI:29192; CHEBI:7077; CHEBI:24637; CHEBI:5142; CHEBI:45442;
+    CHEBI:15065; CHEBI:16842; CHEBI:41993; CHEBI:45531; CHEBI:26689; CHEBI:58251;
+    CHEBI:42857; CHEBI:41979; CHEBI:15611; CHEBI:16240; CHEBI:24077; CHEBI:23833;
+    CHEBI:13416; CHEBI:13355; CHEBI:12426; CHEBI:42043; CHEBI:337763; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:46915; CHEBI:10876; CHEBI:15377; CHEBI:13352;
+    CHEBI:57433; CHEBI:46842; CHEBI:15379; CHEBI:12609; CHEBI:43228; CHEBI:45381;
+    CHEBI:44292; CHEBI:14173; CHEBI:30491; CHEBI:45614; CHEBI:9029; CHEBI:33806; CHEBI:14274;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:44742; CHEBI:25366; CHEBI:44812; CHEBI:21765;
+    CHEBI:29793; CHEBI:7860; CHEBI:10745; CHEBI:5586; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00213; KEGG:C00001; KEGG:C00027; KEGG:C00704; KEGG:C01026; KEGG:C00007;
+    KEGG:C00067'
+- id: sabiork_1717_EC1_5_3_10_Arthrobacter_globiformis_Q9AGP8_N
+  name: Reaction catalyzed by dimethylglycine oxidase on N
+  equation: H2O + N,N-Dimethylglycine + O2 = Sarcosine + H2O2 + Formaldehyde
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N
+  - species_id: substrate_N-Dimethylglycine
+  - species_id: substrate_O2
+  products:
+  - species_id: product_Sarcosine
+  - species_id: product_Formaldehyde
+  modifiers:
+  - species_id: protein_1_5_3_10_Q9AGP8_p51918
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17077;17078;17079;17080
+  KEGGid: R01564
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:21455; CHEBI:44819; CHEBI:13354;
+    CHEBI:41981; CHEBI:17724; CHEBI:5142; CHEBI:7077; CHEBI:45442; CHEBI:15065; CHEBI:29192;
+    CHEBI:24637; CHEBI:16842; CHEBI:41993; CHEBI:45531; CHEBI:26689; CHEBI:58251;
+    CHEBI:42857; CHEBI:41979; CHEBI:15611; CHEBI:16240; CHEBI:24077; CHEBI:23833;
+    CHEBI:13416; CHEBI:13355; CHEBI:12426; CHEBI:42043; CHEBI:46915; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:337763; CHEBI:10876; CHEBI:15377; CHEBI:13352;
+    CHEBI:57433; CHEBI:46842; CHEBI:15379; CHEBI:12609; CHEBI:43228; CHEBI:45381;
+    CHEBI:44292; CHEBI:14173; CHEBI:30491; CHEBI:45614; CHEBI:9029; CHEBI:33806; CHEBI:14274;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:44742; CHEBI:25366; CHEBI:21765; CHEBI:44812;
+    CHEBI:29793; CHEBI:7860; CHEBI:10745; CHEBI:5586; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00213; KEGG:C00001; KEGG:C00027; KEGG:C00704; KEGG:C01026; KEGG:C00007;
+    KEGG:C00067'
+measurements:
+- id: measurement_1_5_3_10_Arthrobacter_globiformis_Q9AGP8_N
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_5_3_10_Arthrobacter_globiformis_Q9AGP8_N
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_5_3_10_Arthrobacter_globiformis_Q9AGP8_N_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0024
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11926836'
+- id: 1_5_3_10_Arthrobacter_globiformis_Q9AGP8_N_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 10.6
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11926836'
+- id: 1_5_3_10_Arthrobacter_globiformis_Q9AGP8_N_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.1e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11926836'
+- id: 1_5_3_10_Arthrobacter_globiformis_Q9AGP8_N_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 10.6
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11926836'
+buffer:
+  buffer: 10 mM sodium pyrophosphate, 100 mM KCl, 0.05 % o-dianisidine, 40 IU horseradish
+    peroxidase
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 51917
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11926836/
+  pubmed_id: '11926836'
+  doi: null
+name: Merged entry for Q9AGP8 wildtype
+description: 'Merged from 2 files: SABIO_EC1.5.3.10_Arthrobacter_globiformis__Q9AGP8_s_N.yaml,
+  SABIO_EC1.5.3.10_Arthrobacter_globiformis__Q9AGP8_s_N_2.yaml'

@@ -1,0 +1,271 @@
+version: '2.0'
+created: '2025-11-20T13:42:01.408286'
+modified: null
+creators:
+- given_name: SKiD
+  family_name: Database
+  mail: skid@database.org
+vessels: null
+proteins:
+- id: protein_O08349
+  name: Archaeoglobus fulgidus
+  ecnumber: 1.1.1.37
+  organism: Archaeoglobus fulgidus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: null
+  uniprotid: O08349
+  wildtype_sequence: MKLGFVGAGRVGSTSAFTCLLNLDVDEIALVDIAEDLAVGEAMDLAHAAAGIDKYPKIVGGADYSLLKGSEIIVVTAGLARKPGMTRLDLAHKNAGIIKDIAKKIVENAPESKILVVTNPMDVMTYIMWKESGKPRNEVFGMGNQLDSQRLKERLYNAGARNIRRAWIIGEHGDSMFVAKSLADFDGEVDWEAVENDVRFVAAEVIKRKGATIFGPAVAIYRMVKAVVEDTGEIIPTSMILQGEYGIENVAVGVPAKLGKNGAEVADIKLSDEEIEKLRNSAKILRERLEELGY
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O
+  inchi: InChI=1S/C21H29N7O14P2/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(32)14(30)11(41-21)6-39-44(36,37)42-43(34,35)38-5-10-13(29)15(31)20(40-10)27-3-1-2-9(4-27)18(23)33/h1,3-4,7-8,10-11,13-16,20-21,29-32H,2,5-6H2,(H2,23,33)(H,34,35)(H,36,37)(H2,22,24,25)
+  inchikey: BOPGDPNILDQYTO-UHFFFAOYSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/439153
+- id: product
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_oxaloacetate
+  name: oxaloacetate
+  canonical_smiles: C(=O)(C(=O)O)CC(=O)[O-]
+  inchi: InChI=1S/C4H4O5/c5-2(4(8)9)1-3(6)7/h1H2,(H,6,7)(H,8,9)/p-1
+  inchikey: KHPXUQMNIQBQEV-UHFFFAOYSA-M
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/970
+reactions:
+- id: reaction_O08349_NADH
+  name: Reaction catalyzed by enzyme on NADH
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_O08349
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_O08349_oxaloacetate
+  name: Reaction catalyzed by enzyme on oxaloacetate
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_oxaloacetate
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_O08349
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+measurements:
+- id: measurement_0
+  name: Experimental conditions (pH=8.0, T=65.0°C)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 65.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=8.0, T=65.0°C)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 65.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: O08349_NADH_Km_11503
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.024
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: null
+  temperature_unit: null
+  notes: 'Source: Km'
+  pubmed_id: '15194233'
+- id: O08349_NADH_Km_11505
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.024
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 65.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '15194233'
+- id: O08349_oxaloacetate_Km_11504
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.043
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_oxaloacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: null
+  temperature_unit: null
+  notes: 'Source: Km'
+  pubmed_id: '9269720'
+- id: O08349_oxaloacetate_Km_11506
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.043
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_oxaloacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 65.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '9269720'
+buffer:
+  buffer: null
+  buffer_concentration: null
+references:
+- title: G.
+  authors: Madern, D., Zaccai
+  year: '2004'
+  journal: 'Molecular adaptation: the malate dehydrogenase from the extreme halophilic
+    bacterium Salinibacter ruber behaves like a non-halophilic protein'
+  uri: null
+  pubmed_id: '15194233'
+  doi: null
+  id: '52'
+  pages: 295-303
+  volume: '86'
+  citation: 'Madern, D.,Zaccai, G., Molecular adaptation: the malate dehydrogenase
+    from the extreme halophilic bacterium Salinibacter ruber behaves like a non-halophilic
+    protein, Biochimie, 2004, 295-303, 86, PMID: 15194233'
+- title: T.
+  authors: Langelandsvik, A.S., Steen, I.H., Birkeland, N.K., Lien
+  year: '1997'
+  journal: Properties and primary structure of a thermostable L-malate dehydrogenase
+    from Archaeoglobus fulgidus. Arch
+  uri: null
+  pubmed_id: '9211715'
+  doi: null
+  id: '117'
+  pages: 59-67
+  volume: '168'
+  citation: 'Langelandsvik, A.S.,Steen, I.H.,Birkeland, N.K.,Lien, T., Properties
+    and primary structure of a thermostable L-malate dehydrogenase from Archaeoglobus
+    fulgidus. Arch, Microbiol., 1997, 59-67, 168, PMID: 9211715'
+- title: crystallization
+  authors: Takahashi-Iniguez, T., Aburto-Rodriguez, N., Vilchis-Gonzalez, A., Flores,
+    M., Function, kinetic properties
+  year: '2016'
+  journal: and regulation of microbial malate dehydrogenase. J. Zhejiang Univ. Sci
+  uri: null
+  pubmed_id: null
+  doi: null
+  id: '139'
+  pages: 247-261
+  volume: '17'
+  citation: Takahashi-Iniguez, T.,Aburto-Rodriguez, N.,Vilchis-Gonzalez, A.,Flores,
+    M., Function, kinetic properties, crystallization, and regulation of microbial
+    malate dehydrogenase. J. Zhejiang Univ. Sci, B, 2016, 247-261, 17
+- title: J.
+  authors: Drmota, T., Tachezy, J., Kulda
+  year: '1997'
+  journal: Isolation and characterization of cytosolic malate dehydrogenase from Trichomonas
+    vaginalis
+  uri: null
+  pubmed_id: '9269720'
+  doi: null
+  id: '45'
+  pages: 103-108
+  volume: '44'
+  citation: 'Drmota, T.,Tachezy, J.,Kulda, J., Isolation and characterization of cytosolic
+    malate dehydrogenase from Trichomonas vaginalis, Folia Parasitol., 1997, 103-108,
+    44, PMID: 9269720'
+name: Merged entry for O08349 wildtype
+description: 'Merged from 2 files: SKID_EC1.1.1.37_Archaeoglo_O08349_NADH.yaml, SKID_EC1.1.1.37_Archaeoglo_O08349_oxaloacetate.yaml'

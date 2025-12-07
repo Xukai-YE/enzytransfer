@@ -1,0 +1,265 @@
+version: '2.0'
+created: '2025-11-20T13:39:14.528776'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_175_B8H1Z0_p63240
+  name: glucose 1-dehydrogenase
+  ecnumber: 1.1.1.175
+  organism: Caulobacter vibrioides
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: B8H1Z0
+  wildtype_sequence: MSSAIYPSLKGKRVVITGGGSGIGAGLTAGFARQGAEVIFLDIADEDSRALEAELAGSPIPPVYKRCDLMNLEAIKAVFAEIGDVDVLVNNAGNDDRHKLADVTGAYWDERINVNLRHMLFCTQAVAPGMKKRGGGAVINFGSISWHLGLEDLVLYETAKAGIEGMTRALARELGPDDIRVTCVVPGNVKTKRQEKWYTPEGEAQIVAAQCLKGRIVPENVAALVLFLASDDASLCTGHEYWIDAGWR
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_D-Xylose
+  name: D-Xylose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Xylonolactone
+  name: D-Xylonolactone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_L-Arabinose
+  name: L-Arabinose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Arabinono-1
+  name: L-Arabinono-1
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4-lactone
+  name: 4-lactone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1614_EC1_1_1_175_Caulobacter_vibrioides_B8H1Z0_D-Xylose
+  name: Reaction catalyzed by glucose 1-dehydrogenase on D-Xylose
+  equation: D-Xylose + NAD+ = NADH + D-Xylonolactone + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Xylose
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_NADH
+  - species_id: product_D-Xylonolactone
+  modifiers:
+  - species_id: protein_1_1_1_175_B8H1Z0_p63240
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01429
+  notes: 'ChEBI IDs: CHEBI:57574; CHEBI:15867; CHEBI:44281; CHEBI:13393; CHEBI:29234;
+    CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636;
+    CHEBI:44214; CHEBI:29233; CHEBI:13031; CHEBI:13394; CHEBI:5584; CHEBI:57945; CHEBI:44216;
+    CHEBI:13033; CHEBI:57540; CHEBI:7423; CHEBI:21116; CHEBI:13389; CHEBI:13395; CHEBI:15378;
+    CHEBI:4265; CHEBI:4264; CHEBI:44215; CHEBI:10744; CHEBI:15936; CHEBI:21118; CHEBI:7422;
+    CHEBI:16908
+
+    KEGG IDs: KEGG:C00181; KEGG:C00080; KEGG:C02266; KEGG:C00003; KEGG:C00004'
+- id: sabiork_1856_EC1_1_1_175_Caulobacter_vibrioides_B8H1Z0_NAD_
+  name: Reaction catalyzed by L-arabinose 1-dehydrogenase [NAD(P)+] on NAD+
+  equation: NAD+ + L-Arabinose = H+ + NADH + L-Arabinono-1,4-lactone
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_L-Arabinose
+  products:
+  - species_id: product_NADH
+  - species_id: product_L-Arabinono-1
+  - species_id: product_4-lactone
+  modifiers:
+  - species_id: protein_1_1_1_175_B8H1Z0_p63241
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01757
+  notes: 'ChEBI IDs: CHEBI:17100; CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846;
+    CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:6180; CHEBI:21901; CHEBI:24636; CHEBI:44214;
+    CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:57945; CHEBI:44216; CHEBI:30849; CHEBI:57540;
+    CHEBI:6182; CHEBI:7423; CHEBI:21231; CHEBI:13389; CHEBI:15378; CHEBI:13395; CHEBI:17535;
+    CHEBI:44215; CHEBI:10744; CHEBI:7422; CHEBI:13075; CHEBI:16908
+
+    KEGG IDs: KEGG:C00259; KEGG:C01114; KEGG:C00080; KEGG:C11476; KEGG:C00003; KEGG:C00004'
+measurements:
+- id: measurement_1_1_1_175_Caulobacter_vibrioides_B8H1Z0_D-Xylose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_1_1_1_175_Caulobacter_vibrioides_B8H1Z0_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 1_1_1_175_Caulobacter_vibrioides_B8H1Z0_D-Xylose_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000458333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Xylose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '17172333'
+- id: 1_1_1_175_Caulobacter_vibrioides_B8H1Z0_D-Xylose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00076
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Xylose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '17172333'
+- id: 1_1_1_175_Caulobacter_vibrioides_B8H1Z0_NAD__Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000341667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '17172333'
+- id: 1_1_1_175_Caulobacter_vibrioides_B8H1Z0_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.166
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '17172333'
+buffer:
+  buffer: 50 mM phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 63240
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/17172333/
+  pubmed_id: '17172333'
+  doi: null
+name: Merged entry for B8H1Z0 wildtype
+description: 'Merged from 2 files: SABIO_EC1.1.1.175_Caulobacter_vibrioides__B8H1Z0_s_D-Xylose.yaml,
+  SABIO_EC1.1.1.175_Caulobacter_vibrioides__B8H1Z0_s_NAD_.yaml'

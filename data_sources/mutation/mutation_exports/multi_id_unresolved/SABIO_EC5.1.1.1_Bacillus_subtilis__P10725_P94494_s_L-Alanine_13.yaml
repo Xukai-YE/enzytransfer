@@ -1,0 +1,121 @@
+name: SABIO-RK Entry 21044
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 21044
+created: '2025-10-28T14:17:20.478621'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_5_1_1_1_P10725_P94494_p21044
+  name: alanine racemase
+  sequence: null
+  ecnumber: 5.1.1.1
+  organism: Bacillus subtilis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P10725; P94494
+complexes: null
+small_molecules:
+- id: substrate_L-Alanine
+  name: L-Alanine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Alanine
+  name: D-Alanine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Hydroxylamine
+  name: Hydroxylamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_862_EC5_1_1_1_Bacillus_subtilis_P10725_P94494_L-Alanine
+  name: Reaction catalyzed by alanine racemase on L-Alanine
+  equation: L-Alanine = D-Alanine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Alanine
+  products:
+  - species_id: product_D-Alanine
+  modifiers:
+  - species_id: protein_5_1_1_1_P10725_P94494_p21044
+    role: BIOCATALYST
+  - species_id: activator_Hydroxylamine
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 20249;20250;20251;20252
+  KEGGid: R00401
+  notes: 'ChEBI IDs: CHEBI:46217; CHEBI:32432; CHEBI:32435; CHEBI:12899; CHEBI:13069;
+    CHEBI:41798; CHEBI:76050; CHEBI:20893; CHEBI:10840; CHEBI:29949; CHEBI:32436;
+    CHEBI:15570; CHEBI:41756; CHEBI:32431; CHEBI:10793; CHEBI:43221; CHEBI:4087; CHEBI:41877;
+    CHEBI:16977; CHEBI:21216; CHEBI:57416; CHEBI:40734; CHEBI:6171; CHEBI:41848; CHEBI:24708;
+    CHEBI:15429; CHEBI:46308; CHEBI:57972; CHEBI:14421; CHEBI:5806; CHEBI:40735
+
+    KEGG IDs: KEGG:C00041; KEGG:C00192; KEGG:C00133'
+measurements:
+- id: measurement_5_1_1_1_Bacillus_subtilis_P10725_P94494_L-Alanine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 35 mM CHES-NaOH, 1.5 mM Diphenylamine
+  buffer_concentration: 35 mM
+references:
+- title: Reference for SABIO-RK entry 21044
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10949920/
+  pubmed_id: '10949920'
+  doi: null

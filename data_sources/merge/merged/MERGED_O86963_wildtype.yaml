@@ -1,0 +1,252 @@
+version: '2.0'
+created: '2025-11-20T13:39:27.413335'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_3_21_O86963_p54130
+  name: glycerol-3-phosphate oxidase
+  ecnumber: 1.1.3.21
+  organism: Enterococcus casseliflavus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: O86963
+  wildtype_sequence: MTFSQKDRKETIQETAKTTYDVLIIGGGITGAGVAVQTAAAGMKTVLLEMQDFAEGTSSRSTKLVHGGIRYLKTFDVEVVADTVRERAIVQQIAPHIPKPDPMLLPIYDEPGATFSLFSVKVAMDLYDRLANVTGSKYENYLLTKEEVLAREPQLQAENLVGGGVYLDFRNNDARLVIENIKRAQADGAAMISKAKVVGILHDEQGIINGVEVEDQLTNERFEVHAKVVINTTGPWSDIVRQLDKNDELPPQMRPTKGVHLVVDREKLKVPQPTYFDTGKNDGRMVFVVPRENKTYFGTTDTDYTGDFAHPTVTQEDVDYLLTIVNERFPHAQITLDDIEASWAGLRPLITNNGGSDYNGGGKGKLSDESFEQIVESVKEYLADERQRPVVEKAVKQAQERVEASKVDPSQVSRGSSLERSKDGLLTLAGGKITDYRLMAEGAVKRINELLQESGASFELVDSTTYPVSGGELDAANVEEELAKLADQAQTAGFNEAAATYLAHLYGSNLPQVLNYKTKFEGLDEKESTALNYSLHEEMVLTPVDYLLRRTNHILFMRDTLDDVKAGVVAAMTDFFGWSEEEKAAHVLELNQVIAESDLTALKGGKKDE
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_sn-Glycerol_3-phosphate
+  name: sn-Glycerol 3-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_FAD
+  name: FAD
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Glycerone_phosphate
+  name: Glycerone phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Enzyme-FAD
+  name: Enzyme-FAD
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Enzyme-FADH2
+  name: Enzyme-FADH2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1186_EC1_1_3_21_Enterococcus_casseliflavus_O86963_O2
+  name: Reaction catalyzed by glycerol-3-phosphate oxidase on O2
+  equation: sn-Glycerol 3-phosphate + O2 = Glycerone phosphate + H2O2
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_sn-Glycerol_3-phosphate
+  - species_id: cofactor_FAD
+  products:
+  - species_id: product_Glycerone_phosphate
+  modifiers:
+  - species_id: protein_1_1_3_21_O86963_p54130
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 18369;18370;18371;18372
+  KEGGid: R00846
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:16238; CHEBI:13354; CHEBI:29192; CHEBI:24637;
+    CHEBI:15978; CHEBI:26689; CHEBI:16240; CHEBI:24040; CHEBI:23833; CHEBI:13416;
+    CHEBI:13355; CHEBI:12848; CHEBI:21125; CHEBI:10648; CHEBI:12843; CHEBI:15379;
+    CHEBI:13315; CHEBI:42388; CHEBI:57597; CHEBI:30491; CHEBI:25366; CHEBI:44742;
+    CHEBI:44812; CHEBI:29793; CHEBI:7860; CHEBI:10745; CHEBI:5586; CHEBI:4956; CHEBI:26705;
+    CHEBI:42793; CHEBI:16108
+
+    KEGG IDs: KEGG:C00111; KEGG:C00027; KEGG:C00704; KEGG:C00016; KEGG:C00007; KEGG:C00093'
+- id: sabiork_13833_EC1_1_3_21_Enterococcus_casseliflavus_O86963_sn-Glycerol_3-phosphate
+  name: Reaction catalyzed by glycerol-3-phosphate oxidase on sn-Glycerol 3-phosphate
+  equation: sn-Glycerol 3-phosphate + Enzyme-FAD = Glycerone phosphate + Enzyme-FADH2
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_sn-Glycerol_3-phosphate
+  - species_id: substrate_Enzyme-FAD
+  products:
+  - species_id: product_Glycerone_phosphate
+  - species_id: product_Enzyme-FADH2
+  modifiers:
+  - species_id: protein_1_1_3_21_O86963_p54131
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:10648; CHEBI:12843; CHEBI:15978; CHEBI:26705; CHEBI:42793;
+    CHEBI:12848; CHEBI:57597; CHEBI:16108
+
+    KEGG IDs: KEGG:C00111; KEGG:C00093'
+measurements:
+- id: measurement_1_1_3_21_Enterococcus_casseliflavus_O86963_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 5.0
+  temperature_unit: °C
+- id: measurement_1_1_3_21_Enterococcus_casseliflavus_O86963_sn-Glycerol_3-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 5.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_3_21_Enterococcus_casseliflavus_O86963_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.024
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 5.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9726992'
+- id: 1_1_3_21_Enterococcus_casseliflavus_O86963_O2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 37.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 5.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9726992'
+- id: 1_1_3_21_Enterococcus_casseliflavus_O86963_O2_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 5.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9726992'
+- id: 1_1_3_21_Enterococcus_casseliflavus_O86963_sn-Glycerol_3-phosphate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 48.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_sn-Glycerol_3-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 5.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9726992'
+buffer:
+  buffer: 0.1 M phosphate, 0.6 mM EDTA; 0.1 M phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 54130
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9726992/
+  pubmed_id: '9726992'
+  doi: null
+name: Merged entry for O86963 wildtype
+description: 'Merged from 2 files: SABIO_EC1.1.3.21_Enterococcus_casseliflavus__O86963_s_O2.yaml,
+  SABIO_EC1.1.3.21_Enterococcus_casseliflavus__O86963_s_sn-Glycerol.yaml'

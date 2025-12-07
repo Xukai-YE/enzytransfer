@@ -1,0 +1,202 @@
+name: SABIO-RK Entry 54083
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 54083
+created: '2025-10-28T16:06:56.809019'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_5_1_30_P31112_P31114_p54083
+  name: heptaprenyl diphosphate synthase
+  sequence: null
+  ecnumber: 2.5.1.30
+  organism: Bacillus subtilis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: Y104S
+  uniprotid: P31112; P31114
+  mutant_sequence: MQDIYGTLANLNTKLKQKLSHPYLAKHISAPKIDEDKLLLFHALFEEADIKNNDRENYIVTAMLVQSALDTHDEVTTARVIKRDENKNRQLTVLAGDYFSGLYSSLLSEMKDIYMIRTLATAIKEINEHKIRLYDRSFKDENDFFESVGIVESALFHRVAEHFNLPRWKKLSSDFFVFKRLMNGNDAFLDVIGSFIQLGKTKEEILEDCFKKAKNSIESLLPLNSPIQNILINRLKTISQDQTYHQKVEEG
+  position_offset: 0
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Isopentenyl_diphosphate
+  name: Isopentenyl diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_trans
+  name: trans
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_trans-Farnesyl_diphosphate
+  name: trans-Farnesyl diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_All-trans-Heptaprenyl_diphosphate
+  name: All-trans-Heptaprenyl diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_13830_EC2_5_1_30_Bacillus_subtilis_P31112_P31114_Isopentenyl_diphosphate
+  name: Reaction catalyzed by heptaprenyl diphosphate synthase on Isopentenyl diphosphate
+  equation: Isopentenyl diphosphate + trans,trans-Farnesyl diphosphate = Diphosphate
+    + All-trans-Heptaprenyl diphosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Isopentenyl_diphosphate
+  - species_id: substrate_trans
+  - species_id: substrate_trans-Farnesyl_diphosphate
+  products:
+  - species_id: product_All-trans-Heptaprenyl_diphosphate
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_2_5_1_30_P31112_P31114_p54083
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 27794;27795;27796;27797
+  KEGGid: R09247
+  notes: 'ChEBI IDs: CHEBI:8683; CHEBI:128769; CHEBI:19789; CHEBI:6037; CHEBI:10700;
+    CHEBI:33019; CHEBI:45067; CHEBI:12854; CHEBI:16584; CHEBI:29888; CHEBI:35782;
+    CHEBI:14473; CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:175763; CHEBI:11488;
+    CHEBI:45208; CHEBI:50277; CHEBI:12874; CHEBI:42496; CHEBI:24016; CHEBI:17613;
+    CHEBI:11491; CHEBI:14231; CHEBI:17407; CHEBI:45212; CHEBI:42009; CHEBI:24907;
+    CHEBI:33018
+
+    KEGG IDs: KEGG:C00129; KEGG:C04216; KEGG:C00448; KEGG:C00013'
+measurements:
+- id: measurement_2_5_1_30_Bacillus_subtilis_P31112_P31114_Isopentenyl_diphosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 2_5_1_30_Bacillus_subtilis_P31112_P31114_Isopentenyl_diphosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.67e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Isopentenyl_diphosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10545188'
+- id: 2_5_1_30_Bacillus_subtilis_P31112_P31114_Isopentenyl_diphosphate_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Isopentenyl_diphosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10545188'
+- id: 2_5_1_30_Bacillus_subtilis_P31112_P31114_Isopentenyl_diphosphate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1mol-1
+  initial_value: 3.583333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Isopentenyl_diphosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10545188'
+buffer:
+  buffer: 25 mM Tris-HCl, 25 mM NH4Cl, 10 mM 2-mercaptoethanol, 1 mM MgCl2
+  buffer_concentration: 25 mM
+references:
+- title: Reference for SABIO-RK entry 54083
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10545188/
+  pubmed_id: '10545188'
+  doi: null

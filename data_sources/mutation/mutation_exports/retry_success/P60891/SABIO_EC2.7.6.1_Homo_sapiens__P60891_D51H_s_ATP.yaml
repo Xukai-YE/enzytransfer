@@ -1,0 +1,166 @@
+name: SABIO-RK Entry 76354
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 76354
+created: '2025-10-28T17:49:47.213393'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_6_1_P60891_p76354
+  name: ribose-phosphate diphosphokinase
+  ecnumber: 2.7.6.1
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: D51H
+  uniprotid: P60891
+  wildtype_sequence: MPNIKIFSGSSHQDLSQKIADRLGLELGKVVTKKFSNQETCVEIGESVRGEDVYIVQSGCGEINDNLMELLIMINACKIASASRVTAVIPCFPYARQDKKDKSRAPISAKLVANMLSVAGADHIITMDLHASQIQGFFDIPVDNLYAEPAVLKWIRENISEWRNCTIVSPDAGGAKRVTSIADRLNVDFALIHKERKKANEVDRMVLVGDVKDRVAILVDDMADTCGTICHAADKLLSAGATRVYAILTHGIFSGPAISRINNACFEAVVVTNTIPQEDKMKHCSKIQVIDISMILAEAIRRTHNGESVSYLFSHVPL
+  mutant_sequence: MPNIKIFSGSSHQDLSQKIADRLGLELGKVVTKKFSNQETCVEIGESVRGEHVYIVQSGCGEINDNLMELLIMINACKIASASRVTAVIPCFPYARQDKKDKSRAPISAKLVANMLSVAGADHIITMDLHASQIQGFFDIPVDNLYAEPAVLKWIRENISEWRNCTIVSPDAGGAKRVTSIADRLNVDFALIHKERKKANEVDRMVLVGDVKDRVAILVDDMADTCGTICHAADKLLSAGATRVYAILTHGIFSGPAISRINNACFEAVVVTNTIPQEDKMKHCSKIQVIDISMILAEAIRRTHNGESVSYLFSHVPL
+  position_offset: 1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Ribose_5-phosphate
+  name: D-Ribose 5-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mg2_
+  name: Mg2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_AMP
+  name: AMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_5-Phospho-alpha-D-ribose_1-diphosphate
+  name: 5-Phospho-alpha-D-ribose 1-diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Phosphate
+  name: Phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_66_EC2_7_6_1_Homo_sapiens_P60891_ATP
+  name: Reaction catalyzed by ribose-phosphate diphosphokinase on ATP
+  equation: ATP + D-Ribose 5-phosphate = AMP + 5-Phospho-alpha-D-ribose 1-diphosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_D-Ribose_5-phosphate
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_AMP
+  - species_id: product_5-Phospho-alpha-D-ribose_1-diphosphate
+  modifiers:
+  - species_id: protein_2_7_6_1_P60891_p76354
+    role: BIOCATALYST
+  - species_id: activator_Phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01049
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:14791; CHEBI:43470; CHEBI:18367;
+    CHEBI:10789; CHEBI:57299; CHEBI:40726; CHEBI:22245; CHEBI:13379; CHEBI:35780;
+    CHEBI:26020; CHEBI:58273; CHEBI:26078; CHEBI:40510; CHEBI:4238; CHEBI:6635; CHEBI:22242;
+    CHEBI:13736; CHEBI:47222; CHEBI:15048; CHEBI:456215; CHEBI:17111; CHEBI:13236;
+    CHEBI:21083; CHEBI:29139; CHEBI:40786; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:12160;
+    CHEBI:12159; CHEBI:10841; CHEBI:39739; CHEBI:45139; CHEBI:2359; CHEBI:49736; CHEBI:39745;
+    CHEBI:40938; CHEBI:2121; CHEBI:7793; CHEBI:22249; CHEBI:15422; CHEBI:45024; CHEBI:17797;
+    CHEBI:13740; CHEBI:18420; CHEBI:20625; CHEBI:13234; CHEBI:25112; CHEBI:40721;
+    CHEBI:58017; CHEBI:13013; CHEBI:43474; CHEBI:29137; CHEBI:13235; CHEBI:12056;
+    CHEBI:39127
+
+    KEGG IDs: KEGG:C00117; KEGG:C00305; KEGG:C00002; KEGG:C00009; KEGG:C00119; KEGG:C00020'
+measurements:
+- id: measurement_2_7_6_1_Homo_sapiens_P60891_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: null
+  temperature_unit: null
+parameters:
+- id: 2_7_6_1_Homo_sapiens_P60891_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.2e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '7593598'
+buffer:
+  buffer: 50 mM Tris-HCl, 1 mM DTT, 1 mM EDTA, 0.1 mM PMSF, 1 mg/ml BSA
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 76354
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/7593598/
+  pubmed_id: '7593598'
+  doi: null

@@ -1,0 +1,240 @@
+version: '2.0'
+created: '2025-11-20T13:40:21.226055'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_5_1_7_P9WJM1_p74262
+  name: UDP-N-acetylglucosamine 1-carboxyvinyltransferase
+  ecnumber: 2.5.1.7
+  organism: Mycobacterium tuberculosis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P9WJM1
+  wildtype_sequence: MAERFVVTGGNRLSGEVAVGGAKNSVLKLMAATLLAEGTSTITNCPDILDVPLMAEVLRGLGATVELDGDVARITAPDEPKYDADFAAVRQFRASVCVLGPLVGRCKRARVALPGGDAIGSRPLDMHQAGLRQLGAHCNIEHGCVVARAETLRGAEIQLEFPSVGATENILMAAVVAEGVTTIHNAAREPDVVDLCTMLNQMGAQVEGAGSPTMTITGVPRLHPTEHRVIGDRIVAATWGIAAAMTRGDISVAGVDPAHLQLVLHKLHDAGATVTQTDASFRVTQYERPKAVNVATLPFPGFPTDLQPMAIALASIADGTSMITENVFEARFRFVEEMIRLGADARTDGHHAVVRGLPQLSSAPVWCSDIRAGAGLVLAGLVADGDTEVHDVFHIDRGYPLFVENLVSLGAEIERVCC
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Phosphoenolpyruvate
+  name: Phosphoenolpyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_UDP-N-acetyl-D-glucosamine
+  name: UDP-N-acetyl-D-glucosamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Phosphate
+  name: Phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_UDP-N-acetyl-3-_1-carboxyvinyl_-D-glucosamine
+  name: UDP-N-acetyl-3-(1-carboxyvinyl)-D-glucosamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1042_EC2_5_1_7_Mycobacterium_tuberculosis_P9WJM1_Phosphoenolpyruvate
+  name: Reaction catalyzed by UDP-N-acetylglucosamine 1-carboxyvinyltransferase on
+    Phosphoenolpyruvate
+  equation: Phosphoenolpyruvate + UDP-N-acetyl-D-glucosamine = Phosphate + UDP-N-acetyl-3-(1-carboxyvinyl)-D-glucosamine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Phosphoenolpyruvate
+  - species_id: substrate_UDP-N-acetyl-D-glucosamine
+  products:
+  - species_id: product_Phosphate
+  - species_id: product_UDP-N-acetyl-3-_1-carboxyvinyl_-D-glucosamine
+  modifiers:
+  - species_id: protein_2_5_1_7_P9WJM1_p74262
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00660
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:13475; CHEBI:43470; CHEBI:18367; CHEBI:35780;
+    CHEBI:26020; CHEBI:26078; CHEBI:44894; CHEBI:58702; CHEBI:26055; CHEBI:18021;
+    CHEBI:16264; CHEBI:8147; CHEBI:68507; CHEBI:29139; CHEBI:39739; CHEBI:16435; CHEBI:39745;
+    CHEBI:26054; CHEBI:13456; CHEBI:7793; CHEBI:22115; CHEBI:13476; CHEBI:13473; CHEBI:45024;
+    CHEBI:44897; CHEBI:43474; CHEBI:57705; CHEBI:46243; CHEBI:14812; CHEBI:29137;
+    CHEBI:9823
+
+    KEGG IDs: KEGG:C00043; KEGG:C00009; KEGG:C00074; KEGG:C04631'
+- id: sabiork_1042_EC2_5_1_7_Mycobacterium_tuberculosis_P9WJM1_UDP-N-acetyl-D-glucosamine
+  name: Reaction catalyzed by UDP-N-acetylglucosamine 1-carboxyvinyltransferase on
+    UDP-N-acetyl-D-glucosamine
+  equation: Phosphoenolpyruvate + UDP-N-acetyl-D-glucosamine = Phosphate + UDP-N-acetyl-3-(1-carboxyvinyl)-D-glucosamine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_UDP-N-acetyl-D-glucosamine
+  - species_id: substrate_Phosphoenolpyruvate
+  products:
+  - species_id: product_Phosphate
+  - species_id: product_UDP-N-acetyl-3-_1-carboxyvinyl_-D-glucosamine
+  modifiers:
+  - species_id: protein_2_5_1_7_P9WJM1_p74261
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00660
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:13475; CHEBI:43470; CHEBI:18367; CHEBI:35780;
+    CHEBI:26020; CHEBI:26078; CHEBI:44894; CHEBI:58702; CHEBI:26055; CHEBI:18021;
+    CHEBI:16264; CHEBI:8147; CHEBI:68507; CHEBI:29139; CHEBI:39739; CHEBI:16435; CHEBI:39745;
+    CHEBI:13456; CHEBI:26054; CHEBI:7793; CHEBI:22115; CHEBI:13476; CHEBI:13473; CHEBI:45024;
+    CHEBI:44897; CHEBI:43474; CHEBI:57705; CHEBI:46243; CHEBI:14812; CHEBI:29137;
+    CHEBI:9823
+
+    KEGG IDs: KEGG:C00043; KEGG:C00009; KEGG:C00074; KEGG:C04631'
+measurements:
+- id: measurement_2_5_1_7_Mycobacterium_tuberculosis_P9WJM1_Phosphoenolpyruvate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_5_1_7_Mycobacterium_tuberculosis_P9WJM1_UDP-N-acetyl-D-glucosamine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_5_1_7_Mycobacterium_tuberculosis_P9WJM1_Phosphoenolpyruvate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0005278
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Phosphoenolpyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27734910'
+- id: 2_5_1_7_Mycobacterium_tuberculosis_P9WJM1_Phosphoenolpyruvate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1
+  initial_value: 2.883333e-09
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Phosphoenolpyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27734910'
+- id: 2_5_1_7_Mycobacterium_tuberculosis_P9WJM1_UDP-N-acetyl-D-glucosamine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1
+  initial_value: 6.383333e-09
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDP-N-acetyl-D-glucosamine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27734910'
+- id: 2_5_1_7_Mycobacterium_tuberculosis_P9WJM1_UDP-N-acetyl-D-glucosamine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.002048
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDP-N-acetyl-D-glucosamine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27734910'
+buffer:
+  buffer: 50 mM Bis-tris propane
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 74262
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/27734910/
+  pubmed_id: '27734910'
+  doi: null
+name: Merged entry for P9WJM1 wildtype
+description: 'Merged from 2 files: SABIO_EC2.5.1.7_Mycobacterium_tuberculosis__P9WJM1_s_Phosphoenolpyruvate.yaml,
+  SABIO_EC2.5.1.7_Mycobacterium_tuberculosis__P9WJM1_s_UDP-N-acetyl-D-gluco.yaml'

@@ -1,0 +1,183 @@
+name: SABIO-RK Entry 45831
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 45831
+created: '2025-10-28T15:35:22.292501'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_3_1_1_P0AC38_p45831
+  name: aspartate ammonia-lyase
+  ecnumber: 4.3.1.1
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: K326R
+  uniprotid: P0AC38
+  wildtype_sequence: MSNNIRIEEDLLGTREVPADAYYGVHTLRAIENFYISNNKISDIPEFVRGMVMVKKAAAMANKELQTIPKSVANAIIAACDEVLNNGKCMDQFPVDVYQGGAGTSVNMNTNEVLANIGLELMGHQKGEYQYLNPNDHVNKCQSTNDAYPTGFRIAVYSSLIKLVDAINQLREGFERKAVEFQDILKMGRTQLQDAVPMTLGQEFRAFSILLKEEVKNIQRTAELLLEVNLGATAIGTGLNTPKEYSPLAVKKLAEVTGFPCVPAEDLIEATSDCGAYVMVHGALKRLAVKMSKICNDLRLLSSGPRAGLNEINLPELQAGSSIMPAKVNPVVPEVVNQVCFKVIGNDTTVTMAAEAGQLQLNVMEPVIGQAMFESVHILTNACYNLLEKCINGITANKEVCEGYVYNSIGIVTYLNPFIGHHNGDIVGKICAETGKSVREVVLERGLLTEAELDDIFSVQNLMHPAYKAKRYTDESEQ
+  mutant_sequence: MSNNIRIEEDLLGTREVPADAYYGVHTLRAIENFYISNNKISDIPEFVRGMVMVKKAAAMANKELQTIPKSVANAIIAACDEVLNNGKCMDQFPVDVYQGGAGTSVNMNTNEVLANIGLELMGHQKGEYQYLNPNDHVNKCQSTNDAYPTGFRIAVYSSLIKLVDAINQLREGFERKAVEFQDILKMGRTQLQDAVPMTLGQEFRAFSILLKEEVKNIQRTAELLLEVNLGATAIGTGLNTPKEYSPLAVKKLAEVTGFPCVPAEDLIEATSDCGAYVMVHGALKRLAVKMSKICNDLRLLSSGPRAGLNEINLPELQAGSSIMPARVNPVVPEVVNQVCFKVIGNDTTVTMAAEAGQLQLNVMEPVIGQAMFESVHILTNACYNLLEKCINGITANKEVCEGYVYNSIGIVTYLNPFIGHHNGDIVGKICAETGKSVREVVLERGLLTEAELDDIFSVQNLMHPAYKAKRYTDESEQ
+  position_offset: 1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_L-Aspartate
+  name: L-Aspartate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mg2_
+  name: Mg2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Fumarate
+  name: Fumarate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NH3
+  name: NH3
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_922_EC4_3_1_1_Escherichia_coli_P0AC38_L-Aspartate
+  name: Reaction catalyzed by aspartate ammonia-lyase on L-Aspartate
+  equation: L-Aspartate = NH3 + Fumarate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Aspartate
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Fumarate
+  - species_id: product_NH3
+  modifiers:
+  - species_id: protein_4_3_1_1_P0AC38_p45831
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 16601;16602;16603;16604
+  KEGGid: R00490
+  notes: 'ChEBI IDs: CHEBI:44284; CHEBI:42743; CHEBI:16134; CHEBI:29991; CHEBI:21247;
+    CHEBI:13379; CHEBI:13405; CHEBI:42511; CHEBI:21244; CHEBI:7434; CHEBI:6193; CHEBI:29993;
+    CHEBI:17053; CHEBI:6635; CHEBI:13407; CHEBI:24124; CHEBI:40900; CHEBI:13085; CHEBI:40942;
+    CHEBI:29806; CHEBI:40913; CHEBI:29958; CHEBI:22534; CHEBI:135980; CHEBI:7435;
+    CHEBI:49783; CHEBI:49736; CHEBI:22533; CHEBI:44404; CHEBI:13771; CHEBI:44269;
+    CHEBI:40853; CHEBI:24122; CHEBI:13406; CHEBI:18012; CHEBI:18420; CHEBI:14284;
+    CHEBI:28938; CHEBI:5190; CHEBI:25112; CHEBI:37154; CHEBI:39127
+
+    KEGG IDs: KEGG:C00122; KEGG:C00305; KEGG:C00049; KEGG:C00014; KEGG:C01342'
+measurements:
+- id: measurement_4_3_1_1_Escherichia_coli_P0AC38_L-Aspartate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 4_3_1_1_Escherichia_coli_P0AC38_L-Aspartate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.003333333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Aspartate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8119980'
+- id: 4_3_1_1_Escherichia_coli_P0AC38_L-Aspartate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 0.15
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Aspartate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8119980'
+- id: 4_3_1_1_Escherichia_coli_P0AC38_L-Aspartate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0238
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Aspartate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8119980'
+buffer:
+  buffer: 30 mM HEPES
+  buffer_concentration: 30 mM
+references:
+- title: Reference for SABIO-RK entry 45831
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/8119980/
+  pubmed_id: '8119980'
+  doi: null

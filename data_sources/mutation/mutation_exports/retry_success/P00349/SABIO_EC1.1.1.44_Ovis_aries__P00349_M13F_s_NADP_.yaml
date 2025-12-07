@@ -1,0 +1,157 @@
+name: SABIO-RK Entry 459
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 459
+created: '2025-10-28T13:44:37.387643'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_44_P00349_p459
+  name: phosphogluconate dehydrogenase (decarboxylating)
+  ecnumber: 1.1.1.44
+  organism: Ovis aries
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: M13F
+  uniprotid: P00349
+  wildtype_sequence: MAQADIALIGLAVMGQNLILNMNDHGFVVCAFNRTVSKVDDFLANEAKGTKVLGAHSLEEMVSKLKKPRRIILLVKAGQAVDNFIEKLVPLLDIGDIIIDGGNSEYRDTMRRCRDLKDKGILFVGSGVSGGEDGARYGPSLMPGGNKEAWPHIKAIFQGIAAKVGTGEPCCDWVGDDGAGHFVKMVHNGIEYGDMQLICEAYHLMKDVLGLGHKEMAKAFEEWNKTELDSFLIEITASILKFQDADGKHLLPKIRDSAGQKGTGKWTAISALEYGVPVTLIGEAVFARCLSSLKDERIQASKKLKGPQNIPFEGDKKSFLEDIRKALYASKIISYAQGFMLLRQAATEFGWTLNYGGIALMWRGGCIIRSVFLGKIKDAFDRNPGLQNLLLDDFFKSAVENCQDSWRRAISTGVQAGIPMPCFTTALSFYDGYRHAMLPANLIQAQRDYFGAHTYELLAKPGQFIHTNWTGHGGSVSSSSYNA
+  mutant_sequence: MAQADIALIGLAVFGQNLILNMNDHGFVVCAFNRTVSKVDDFLANEAKGTKVLGAHSLEEMVSKLKKPRRIILLVKAGQAVDNFIEKLVPLLDIGDIIIDGGNSEYRDTMRRCRDLKDKGILFVGSGVSGGEDGARYGPSLMPGGNKEAWPHIKAIFQGIAAKVGTGEPCCDWVGDDGAGHFVKMVHNGIEYGDMQLICEAYHLMKDVLGLGHKEMAKAFEEWNKTELDSFLIEITASILKFQDADGKHLLPKIRDSAGQKGTGKWTAISALEYGVPVTLIGEAVFARCLSSLKDERIQASKKLKGPQNIPFEGDKKSFLEDIRKALYASKIISYAQGFMLLRQAATEFGWTLNYGGIALMWRGGCIIRSVFLGKIKDAFDRNPGLQNLLLDDFFKSAVENCQDSWRRAISTGVQAGIPMPCFTTALSFYDGYRHAMLPANLIQAQRDYFGAHTYELLAKPGQFIHTNWTGHGGSVSSSSYNA
+  position_offset: 1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_6-Phospho-D-gluconate
+  name: 6-Phospho-D-gluconate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Ribulose_5-phosphate
+  name: D-Ribulose 5-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_108_EC1_1_1_44_Ovis_aries_P00349_NADP_
+  name: Reaction catalyzed by phosphogluconate dehydrogenase (decarboxylating) on
+    NADP+
+  equation: NADP+ + 6-Phospho-D-gluconate = CO2 + H+ + NADPH + D-Ribulose 5-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADP_
+  - species_id: substrate_6-Phospho-D-gluconate
+  products:
+  - species_id: product_D-Ribulose_5-phosphate
+  - species_id: product_CO2
+  - species_id: product_NADPH
+  modifiers:
+  - species_id: protein_1_1_1_44_P00349_p459
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 10116;10117;10118;10119
+  KEGGid: R01528
+  notes: 'ChEBI IDs: CHEBI:2231; CHEBI:26572; CHEBI:13397; CHEBI:13398; CHEBI:4243;
+    CHEBI:139538; CHEBI:7424; CHEBI:21903; CHEBI:44405; CHEBI:21088; CHEBI:7425; CHEBI:16863;
+    CHEBI:29234; CHEBI:3283; CHEBI:25523; CHEBI:13357; CHEBI:40192; CHEBI:13018; CHEBI:24636;
+    CHEBI:29233; CHEBI:13399; CHEBI:23011; CHEBI:5584; CHEBI:58759; CHEBI:37455; CHEBI:13040;
+    CHEBI:33851; CHEBI:40282; CHEBI:13285; CHEBI:13282; CHEBI:16474; CHEBI:44286;
+    CHEBI:48928; CHEBI:13283; CHEBI:21904; CHEBI:44409; CHEBI:15378; CHEBI:12232;
+    CHEBI:13284; CHEBI:18009; CHEBI:16526; CHEBI:58349; CHEBI:48829; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744; CHEBI:17363; CHEBI:58121
+
+    KEGG IDs: KEGG:C00199; KEGG:C00005; KEGG:C00080; KEGG:C00011; KEGG:C00006; KEGG:C11037;
+    KEGG:C00345'
+measurements:
+- id: measurement_1_1_1_44_Ovis_aries_P00349_NADP_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: null
+  temperature_unit: null
+parameters: null
+buffer:
+  buffer: 100 mM Hepes
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 459
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15709755/
+  pubmed_id: '15709755'
+  doi: null

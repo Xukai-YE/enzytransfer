@@ -1,0 +1,391 @@
+version: '2.0'
+created: '2025-11-20T13:41:16.486641'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_5_1_23_Q13510_p53824
+  name: ceramidase
+  ecnumber: 3.5.1.23
+  organism: rat
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q13510
+  wildtype_sequence: MPGRSCVALVLLAAAVSCAVAQHAPPWTEDCRKSTYPPSGPTYRGAVPWYTINLDLPPYKRWHELMLDKAPVLKVIVNSLKNMINTFVPSGKIMQVVDEKLPGLLGNFPGPFEEEMKGIAAVTDIPLGEIISFNIFYELFTICTSIVAEDKKGHLIHGRNMDFGVFLGWNINNDTWVITEQLKPLTVNLDFQRNNKTVFKASSFAGYVGMLTGFKPGLFSLTLNERFSINGGYLGILEWILGKKDVMWIGFLTRTVLENSTSYEEAKNLLTKTKILAPAYFILGGNQSGEGCVITRDRKESLDVYELDAKQGRWYVVQTNYDRWKHPFFLDDRRTPAKMCLNRTSQENISFETMYDVLSTKPVLNKLTVYTTLIDVTKGQFETYLRDCPDPCIGW
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_N-Dodecanoylsphingosine
+  name: N-Dodecanoylsphingosine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Sphingosine
+  name: Sphingosine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Dodecanoate
+  name: Dodecanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Sphingosine
+  name: Sphingosine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Dodecanoate
+  name: Dodecanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N-Dodecanoylsphingosine
+  name: N-Dodecanoylsphingosine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7029_EC3_5_1_23_rat_Q13510_N-Dodecanoylsphingosine
+  name: Reaction catalyzed by ceramidase on N-Dodecanoylsphingosine
+  equation: Sphingosine + Dodecanoate = H2O + N-Dodecanoylsphingosine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N-Dodecanoylsphingosine
+  products:
+  - species_id: product_Sphingosine
+  - species_id: product_Dodecanoate
+  modifiers:
+  - species_id: protein_3_5_1_23_Q13510_p53824
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 41291;41292;41293;41294
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:26741; CHEBI:41981; CHEBI:30805;
+    CHEBI:23865; CHEBI:42857; CHEBI:41979; CHEBI:57756; CHEBI:16393; CHEBI:41882;
+    CHEBI:45719; CHEBI:42043; CHEBI:15102; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:26738; CHEBI:15377; CHEBI:207585; CHEBI:13352; CHEBI:14187; CHEBI:4680;
+    CHEBI:23863; CHEBI:43228; CHEBI:18262; CHEBI:23864; CHEBI:44292; CHEBI:33806;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:72956; CHEBI:26743; CHEBI:35785; CHEBI:29373;
+    CHEBI:44701; CHEBI:9224
+
+    KEGG IDs: KEGG:C00319; KEGG:C02679; KEGG:C00001'
+- id: sabiork_7029_EC3_5_1_23_rat_Q13510_Sphingosine
+  name: Reaction catalyzed by ceramidase on Sphingosine
+  equation: Sphingosine + Dodecanoate = H2O + N-Dodecanoylsphingosine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Sphingosine
+  - species_id: substrate_Dodecanoate
+  products:
+  - species_id: product_N-Dodecanoylsphingosine
+  modifiers:
+  - species_id: protein_3_5_1_23_Q13510_p3397
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 41291;41292;41293;41294
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:26741; CHEBI:41981; CHEBI:30805;
+    CHEBI:23865; CHEBI:42857; CHEBI:41979; CHEBI:57756; CHEBI:16393; CHEBI:41882;
+    CHEBI:45719; CHEBI:42043; CHEBI:15102; CHEBI:26738; CHEBI:33813; CHEBI:33811;
+    CHEBI:27313; CHEBI:15377; CHEBI:207585; CHEBI:13352; CHEBI:14187; CHEBI:4680;
+    CHEBI:23863; CHEBI:18262; CHEBI:43228; CHEBI:23864; CHEBI:44292; CHEBI:33806;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:72956; CHEBI:26743; CHEBI:35785; CHEBI:29373;
+    CHEBI:44701; CHEBI:9224
+
+    KEGG IDs: KEGG:C00319; KEGG:C00001; KEGG:C02679'
+- id: sabiork_7029_EC3_5_1_23_rat_Q13510_N-Dodecanoylsphingosine
+  name: Reaction catalyzed by ceramidase on N-Dodecanoylsphingosine
+  equation: Sphingosine + Dodecanoate = H2O + N-Dodecanoylsphingosine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N-Dodecanoylsphingosine
+  products:
+  - species_id: product_Sphingosine
+  - species_id: product_Dodecanoate
+  modifiers:
+  - species_id: protein_3_5_1_23_Q13510_p53825
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 41291;41292;41293;41294
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:26741; CHEBI:41981; CHEBI:30805;
+    CHEBI:23865; CHEBI:42857; CHEBI:41979; CHEBI:57756; CHEBI:16393; CHEBI:41882;
+    CHEBI:45719; CHEBI:42043; CHEBI:15102; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:26738; CHEBI:15377; CHEBI:207585; CHEBI:13352; CHEBI:14187; CHEBI:4680;
+    CHEBI:23863; CHEBI:43228; CHEBI:18262; CHEBI:23864; CHEBI:44292; CHEBI:33806;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:72956; CHEBI:26743; CHEBI:35785; CHEBI:29373;
+    CHEBI:44701; CHEBI:9224
+
+    KEGG IDs: KEGG:C00319; KEGG:C02679; KEGG:C00001'
+- id: sabiork_7029_EC3_5_1_23_rat_Q13510_Sphingosine
+  name: Reaction catalyzed by ceramidase on Sphingosine
+  equation: Sphingosine + Dodecanoate = H2O + N-Dodecanoylsphingosine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Sphingosine
+  - species_id: substrate_Dodecanoate
+  products:
+  - species_id: product_N-Dodecanoylsphingosine
+  modifiers:
+  - species_id: protein_3_5_1_23_Q13510_p3398
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 41291;41292;41293;41294
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:26741; CHEBI:41981; CHEBI:30805;
+    CHEBI:23865; CHEBI:42857; CHEBI:41979; CHEBI:57756; CHEBI:16393; CHEBI:41882;
+    CHEBI:45719; CHEBI:42043; CHEBI:15102; CHEBI:26738; CHEBI:33813; CHEBI:33811;
+    CHEBI:27313; CHEBI:15377; CHEBI:207585; CHEBI:13352; CHEBI:14187; CHEBI:4680;
+    CHEBI:23863; CHEBI:18262; CHEBI:43228; CHEBI:23864; CHEBI:44292; CHEBI:33806;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:72956; CHEBI:26743; CHEBI:35785; CHEBI:29373;
+    CHEBI:44701; CHEBI:9224
+
+    KEGG IDs: KEGG:C00319; KEGG:C00001; KEGG:C02679'
+measurements:
+- id: measurement_3_5_1_23_rat_Q13510_N-Dodecanoylsphingosine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 4.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_3_5_1_23_rat_Q13510_Sphingosine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_3_5_1_23_rat_Q13510_N-Dodecanoylsphingosine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 4.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_3_5_1_23_rat_Q13510_Sphingosine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_5_1_23_rat_Q13510_N-Dodecanoylsphingosine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 7.716111e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Dodecanoylsphingosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 4.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12815059'
+- id: 3_5_1_23_rat_Q13510_N-Dodecanoylsphingosine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000389
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Dodecanoylsphingosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 4.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12815059'
+- id: 3_5_1_23_rat_Q13510_Sphingosine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 5.786111e-08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Sphingosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12764132'
+- id: 3_5_1_23_rat_Q13510_Sphingosine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.375e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Sphingosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12764132'
+- id: 3_5_1_23_rat_Q13510_N-Dodecanoylsphingosine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0004132
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Dodecanoylsphingosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 4.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12815059'
+- id: 3_5_1_23_rat_Q13510_N-Dodecanoylsphingosine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 5.555556e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Dodecanoylsphingosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 4.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12815059'
+- id: 3_5_1_23_rat_Q13510_Sphingosine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.376e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Sphingosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12764132'
+- id: 3_5_1_23_rat_Q13510_Sphingosine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 6.458333e-08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Sphingosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12764132'
+buffer:
+  buffer: 0.1 M citrate/phosphate, 150 mM NaCl, 0.05% BSA, 0.1% Igepal CA-630; 0.1
+    M citrate-phosphate, 0.05 % Triton X-100, 150 mM NaCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 53824
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12815059/
+  pubmed_id: '12815059'
+  doi: null
+- title: Reference for SABIO-RK entry 3397
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12764132/
+  pubmed_id: '12764132'
+  doi: null
+name: Merged entry for Q13510 wildtype
+description: 'Merged from 4 files: SABIO_EC3.5.1.23_rat__Q13510_s_N-Dodecanoylsphingos.yaml,
+  SABIO_EC3.5.1.23_rat__Q13510_s_Sphingosine.yaml, SABIO_EC3.5.1.23_rat__Q13510_s_N-Dodecanoylsphingos_2.yaml,
+  SABIO_EC3.5.1.23_rat__Q13510_s_Sphingosine_2.yaml'

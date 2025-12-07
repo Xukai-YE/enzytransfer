@@ -1,0 +1,165 @@
+name: SABIO-RK Entry 7218
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 7218
+created: '2025-10-28T13:51:36.640519'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_205_P50097_p7218
+  name: IMP dehydrogenase
+  sequence: null
+  ecnumber: 1.1.1.205
+  organism: Tritrichomonas foetus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: r419P
+  uniprotid: P50097
+  mutant_sequence: MAKYYNEPCHTFNEYLLIPGLSTVDCIPSNVNLSTPLVKFQKGQQSEINLKIPLVSAIMQSVSGEKMAIALAREGGISFIFGSQSIESQAAMVHAVKNFKAGFVVSDSNVKPDQTFADVLAISQRTTHNTVAVTDDGTPHGVLLGLVTQRDYPIDLTQTETKVSDMMTPFSKLVTAHQDTKLSEANKIIWEKKLNALPIIDDDQHLRYIVFRKDYDRSQVCHNELVDSQKRYLVGAGINTRDFRERVPALVEAGADVLCIDSSDGFSEWQKITIGWIREKYGDKVKVGAGNIVDGEGFRYLADAGADFIKIGIGGGSICITREQKGIGRGQATAVIDVVAERNKYFEETGIYIPVCSDGGIVYDYHMTLALAMGADFIMLGRYFARFEESPTRKVTINGSVMKEYWGEGSSPARNWQRYDLGGKQKLSFEEGVDSYVPYAGKLKDNVEASLNKVKSTMCNCGALTIPQLQSKAKITLVSSVSIVEGGAHDVIVKDRINDYHPK
+  position_offset: -7
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_IMP
+  name: IMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_XMP
+  name: XMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Tiazofurin
+  name: Tiazofurin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_128_EC1_1_1_205_Tritrichomonas_foetus_P50097_IMP
+  name: Reaction catalyzed by IMP dehydrogenase on IMP
+  equation: NAD+ + H2O + IMP = H+ + NADH + XMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_IMP
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_NADH
+  - species_id: product_XMP
+  modifiers:
+  - species_id: protein_1_1_1_205_P50097_p7218
+    role: BIOCATALYST
+  - species_id: activator_Tiazofurin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 11708;11709;11710;11711
+  KEGGid: R01130
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:43418; CHEBI:44819; CHEBI:41981; CHEBI:15652;
+    CHEBI:19271; CHEBI:15324; CHEBI:44281; CHEBI:43524; CHEBI:43475; CHEBI:42857;
+    CHEBI:41979; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:13357; CHEBI:21902;
+    CHEBI:27328; CHEBI:13396; CHEBI:10938; CHEBI:10067; CHEBI:21901; CHEBI:58053;
+    CHEBI:13373; CHEBI:42043; CHEBI:24636; CHEBI:57464; CHEBI:44214; CHEBI:14457;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:13394; CHEBI:5584; CHEBI:15377; CHEBI:29233;
+    CHEBI:43563; CHEBI:5849; CHEBI:13352; CHEBI:12063; CHEBI:57945; CHEBI:44216; CHEBI:47501;
+    CHEBI:57540; CHEBI:43228; CHEBI:7423; CHEBI:44292; CHEBI:33806; CHEBI:13389; CHEBI:10743;
+    CHEBI:29374; CHEBI:5585; CHEBI:13395; CHEBI:15378; CHEBI:13372; CHEBI:43611; CHEBI:17202;
+    CHEBI:12057; CHEBI:44215; CHEBI:10744; CHEBI:29373; CHEBI:44701; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C00001; KEGG:C00130; KEGG:C00003; KEGG:C00655; KEGG:C00004'
+measurements:
+- id: measurement_1_1_1_205_Tritrichomonas_foetus_P50097_IMP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1_205_Tritrichomonas_foetus_P50097_IMP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.22
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_IMP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15078097'
+buffer:
+  buffer: 50 mM Tris, 100 mM KCl, 3 mM EDTA, 1 mM DTT
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 7218
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15078097/
+  pubmed_id: '15078097'
+  doi: null

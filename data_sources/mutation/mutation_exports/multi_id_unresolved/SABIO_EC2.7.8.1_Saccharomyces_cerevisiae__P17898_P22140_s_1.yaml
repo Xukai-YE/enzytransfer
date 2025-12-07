@@ -1,0 +1,185 @@
+name: SABIO-RK Entry 60836
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 60836
+created: '2025-10-28T16:31:20.246500'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_8_1_P17898_P22140_p60836
+  name: ethanolaminephosphotransferase
+  sequence: null
+  ecnumber: 2.7.8.1
+  organism: Saccharomyces cerevisiae
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P17898; P22140
+complexes: null
+small_molecules:
+- id: substrate_1
+  name: '1'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_2-Diacyl-sn-glycerol
+  name: 2-Diacyl-sn-glycerol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_CDPethanolamine
+  name: CDPethanolamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mg2_
+  name: Mg2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Phosphatidylethanolamine
+  name: Phosphatidylethanolamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CMP
+  name: CMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Dioleoylphosphatidylcholine
+  name: Dioleoylphosphatidylcholine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2074_EC2_7_8_1_Saccharomyces_cerevisiae_P17898_P22140_1
+  name: Reaction catalyzed by ethanolaminephosphotransferase on 1
+  equation: CDPethanolamine + 1,2-Diacyl-sn-glycerol = CMP + Phosphatidylethanolamine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_1
+  - species_id: substrate_2-Diacyl-sn-glycerol
+  - species_id: substrate_CDPethanolamine
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Phosphatidylethanolamine
+  - species_id: product_CMP
+  modifiers:
+  - species_id: protein_2_7_8_1_P17898_P22140_p60836
+    role: BIOCATALYST
+  - species_id: activator_Dioleoylphosphatidylcholine
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02057
+  notes: 'ChEBI IDs: CHEBI:13379; CHEBI:8129; CHEBI:17815; CHEBI:14803; CHEBI:17361;
+    CHEBI:45210; CHEBI:52360; CHEBI:6635; CHEBI:12701; CHEBI:41319; CHEBI:26030; CHEBI:47362;
+    CHEBI:16038; CHEBI:57613; CHEBI:49172; CHEBI:20869; CHEBI:41691; CHEBI:50308;
+    CHEBI:26031; CHEBI:49736; CHEBI:13274; CHEBI:13257; CHEBI:13270; CHEBI:41312;
+    CHEBI:60377; CHEBI:23520; CHEBI:3270; CHEBI:57876; CHEBI:3275; CHEBI:18420; CHEBI:60428;
+    CHEBI:58120; CHEBI:41666; CHEBI:25112; CHEBI:16732; CHEBI:39127; CHEBI:7661; CHEBI:48799
+
+    KEGG IDs: KEGG:C00305; KEGG:C00570; KEGG:C00350; KEGG:C00641; KEGG:C00055'
+measurements:
+- id: measurement_2_7_8_1_Saccharomyces_cerevisiae_P17898_P22140_1
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 2_7_8_1_Saccharomyces_cerevisiae_P17898_P22140_1_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.1e-08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1847919'
+- id: 2_7_8_1_Saccharomyces_cerevisiae_P17898_P22140_1_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1847919'
+buffer:
+  buffer: 50 mM MOPS/NaOH, 0.45% (6.5 mM) Triton X-100
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 60836
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/1847919/
+  pubmed_id: '1847919'
+  doi: null

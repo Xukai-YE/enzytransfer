@@ -1,0 +1,264 @@
+version: '2.0'
+created: '2025-11-20T13:40:08.200998'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_4_1_170_A6BM07_p26874
+  name: isoflavone 7-O-glucosyltransferase
+  ecnumber: 2.4.1.170
+  organism: Glycine max
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: H15A
+  uniprotid: A6BM07
+  wildtype_sequence: MKDTIVLYPNLGRGHLVSMVELGKLILTHHPSLSITILILTPPTTPSTTTTTLACDSNAQYIATVTATTPSITFHRVPLAALPFNTPFLPPHLLSLELTRHSTQNIAVALQTLAKASNLKAIVIDFMNFNDPKALTENLNNNVPTYFYYTSGASTLALLLYYPTIHPTLIEKKDTDQPLQIQIPGLSTITADDFPNECKDPLSYACQVFLQIAETMMGGAGIIVNTFEAIEEEAIRALSEDATVPPPLFCVGPVISAPYGEEDKGCLSWLNLQPSQSVVLLCFGSMGRFSRAQLKEIAIGLEKSEQRFLWVVRTELGGADDSAEELSLDELLPEGFLERTKEKGMVVRDWAPQAAILSHDSVGGFVTHCGWNSVLEAVCEGVPMVAWPLYAEQKMNRMVMVKEMKVALAVNENKDGFVSSTELGDRVRELMESDKGKEIRQRIFKMKMSAAEAMAEGGTSRASLDKLAKLWKQS
+  mutant_sequence: MKDTIVLYPNLGRGALVSMVELGKLILTHHPSLSITILILTPPTTPSTTTTTLACDSNAQYIATVTATTPSITFHRVPLAALPFNTPFLPPHLLSLELTRHSTQNIAVALQTLAKASNLKAIVIDFMNFNDPKALTENLNNNVPTYFYYTSGASTLALLLYYPTIHPTLIEKKDTDQPLQIQIPGLSTITADDFPNECKDPLSYACQVFLQIAETMMGGAGIIVNTFEAIEEEAIRALSEDATVPPPLFCVGPVISAPYGEEDKGCLSWLNLQPSQSVVLLCFGSMGRFSRAQLKEIAIGLEKSEQRFLWVVRTELGGADDSAEELSLDELLPEGFLERTKEKGMVVRDWAPQAAILSHDSVGGFVTHCGWNSVLEAVCEGVPMVAWPLYAEQKMNRMVMVKEMKVALAVNENKDGFVSSTELGDRVRELMESDKGKEIRQRIFKMKMSAAEAMAEGGTSRASLDKLAKLWKQS
+complexes: null
+small_molecules:
+- id: substrate_Genistein
+  name: Genistein
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_UDPglucose
+  name: UDPglucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Genistein_7-O-beta-D-glucoside
+  name: Genistein 7-O-beta-D-glucoside
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_UDP
+  name: UDP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2791_EC2_4_1_170_Glycine_max_A6BM07_Genistein
+  name: Reaction catalyzed by isoflavone 7-O-glucosyltransferase on Genistein
+  equation: UDPglucose + Genistein = UDP + Genistein 7-O-beta-D-glucoside
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Genistein
+  - species_id: substrate_UDPglucose
+  products:
+  - species_id: product_Genistein_7-O-beta-D-glucoside
+  - species_id: product_UDP
+  modifiers:
+  - species_id: protein_2_4_1_170_A6BM07_p26874
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02932
+  notes: 'ChEBI IDs: CHEBI:5303; CHEBI:27230; CHEBI:24204; CHEBI:58223; CHEBI:13445;
+    CHEBI:5302; CHEBI:140305; CHEBI:46402; CHEBI:18066; CHEBI:74224; CHEBI:28088;
+    CHEBI:17659; CHEBI:24205; CHEBI:42763; CHEBI:27514; CHEBI:9802
+
+    KEGG IDs: KEGG:C00015; KEGG:C06563; KEGG:C09126; KEGG:C00029'
+- id: sabiork_2791_EC2_4_1_170_Glycine_max_A6BM07_UDPglucose
+  name: Reaction catalyzed by isoflavone 7-O-glucosyltransferase on UDPglucose
+  equation: UDPglucose + Genistein = UDP + Genistein 7-O-beta-D-glucoside
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_UDPglucose
+  - species_id: substrate_Genistein
+  products:
+  - species_id: product_Genistein_7-O-beta-D-glucoside
+  - species_id: product_UDP
+  modifiers:
+  - species_id: protein_2_4_1_170_A6BM07_p26873
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02932
+  notes: 'ChEBI IDs: CHEBI:5303; CHEBI:27230; CHEBI:24204; CHEBI:58223; CHEBI:13445;
+    CHEBI:5302; CHEBI:140305; CHEBI:46402; CHEBI:18066; CHEBI:74224; CHEBI:28088;
+    CHEBI:17659; CHEBI:24205; CHEBI:42763; CHEBI:27514; CHEBI:9802
+
+    KEGG IDs: KEGG:C06563; KEGG:C00029; KEGG:C09126; KEGG:C00015'
+measurements:
+- id: measurement_2_4_1_170_Glycine_max_A6BM07_Genistein
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_2_4_1_170_Glycine_max_A6BM07_UDPglucose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_4_1_170_Glycine_max_A6BM07_Genistein_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.6e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Genistein
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17565994'
+- id: 2_4_1_170_Glycine_max_A6BM07_Genistein_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 8000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Genistein
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17565994'
+- id: 2_4_1_170_Glycine_max_A6BM07_Genistein_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.13
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Genistein
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17565994'
+- id: 2_4_1_170_Glycine_max_A6BM07_UDPglucose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.7e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDPglucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17565994'
+- id: 2_4_1_170_Glycine_max_A6BM07_UDPglucose_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 4800.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDPglucose
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17565994'
+- id: 2_4_1_170_Glycine_max_A6BM07_UDPglucose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.13
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDPglucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17565994'
+buffer:
+  buffer: 50 mM Tris-HCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 26874
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/17565994/
+  pubmed_id: '17565994'
+  doi: null
+name: Merged entry for A6BM07 H15A
+description: 'Merged from 2 files: SABIO_EC2.4.1.170_Glycine_max__A6BM07_H15A_s_Genistein.yaml,
+  SABIO_EC2.4.1.170_Glycine_max__A6BM07_H15A_s_UDPglucose.yaml'

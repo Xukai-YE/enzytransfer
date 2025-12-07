@@ -1,0 +1,265 @@
+version: '2.0'
+created: '2025-11-20T13:39:43.283477'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_20_1_1_O69054_p3237
+  name: phosphonate dehydrogenase
+  ecnumber: 1.20.1.1
+  organism: Pseudomonas stutzeri
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: A176R
+  uniprotid: O69054
+  wildtype_sequence: MLPKLVITHRVHDEILQLLAPHCELMTNQTDSTLTREEILRRCRDAQAMMAFMPDRVDADFLQACPELRVVGCALKGFDNFDVDACTARGVWLTFVPDLLTVPTAELAIGLAVGLGRHLRAADAFVRSGEFQGWQPQFYGTGLDNATVGILGMGAIGLAMADRLQGWGATLQYHEAKALDTQTEQRLGLRQVACSELFASSDFILLALPLNADTQHLVNAELLALVRPGALLVNPCRGSVVDEAAVLAALERGQLGGYAADVFEMEDWARADRPRLIDPALLAHPNTLFTPHIGSAVRAVRLEIERCAAQNIIQVLAGARPINAANRLPKAEPAAC
+  mutant_sequence: MLPKLVITHRVHDEILQLLAPHCELMTNQTDSTLTREEILRRCRDAQAMMAFMPDRVDADFLQACPELRVVGCALKGFDNFDVDACTARGVWLTFVPDLLTVPTAELAIGLAVGLGRHLRAADAFVRSGEFQGWQPQFYGTGLDNATVGILGMGAIGLAMADRLQGWGATLQYHERKALDTQTEQRLGLRQVACSELFASSDFILLALPLNADTQHLVNAELLALVRPGALLVNPCRGSVVDEAAVLAALERGQLGGYAADVFEMEDWARADRPRLIDPALLAHPNTLFTPHIGSAVRAVRLEIERCAAQNIIQVLAGARPINAANRLPKAEPAAC
+complexes: null
+small_molecules:
+- id: substrate_Phosphonate
+  name: Phosphonate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Phosphate
+  name: Phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7047_EC1_20_1_1_Pseudomonas_stutzeri_O69054_Phosphonate
+  name: Reaction catalyzed by phosphonate dehydrogenase on Phosphonate
+  equation: NADP+ + H2O + Phosphonate = Phosphate + H+ + NADPH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Phosphonate
+  - species_id: substrate_NADP_
+  products:
+  - species_id: product_Phosphate
+  - species_id: product_NADPH
+  modifiers:
+  - species_id: protein_1_20_1_1_O69054_p3237
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:29375; CHEBI:43470; CHEBI:44819; CHEBI:18367;
+    CHEBI:41981; CHEBI:35780; CHEBI:13397; CHEBI:13398; CHEBI:26020; CHEBI:26081;
+    CHEBI:26078; CHEBI:7424; CHEBI:44405; CHEBI:21903; CHEBI:42857; CHEBI:41979; CHEBI:7425;
+    CHEBI:29234; CHEBI:25523; CHEBI:29139; CHEBI:13357; CHEBI:39739; CHEBI:42043;
+    CHEBI:24636; CHEBI:29233; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:5584; CHEBI:13399;
+    CHEBI:15377; CHEBI:39745; CHEBI:13352; CHEBI:36361; CHEBI:7793; CHEBI:16474; CHEBI:44286;
+    CHEBI:43228; CHEBI:44292; CHEBI:29196; CHEBI:16215; CHEBI:45024; CHEBI:33806;
+    CHEBI:21904; CHEBI:10743; CHEBI:44976; CHEBI:5585; CHEBI:29374; CHEBI:44409; CHEBI:15378;
+    CHEBI:18009; CHEBI:58349; CHEBI:43474; CHEBI:13400; CHEBI:57783; CHEBI:10744;
+    CHEBI:29137; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C06701; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00001; KEGG:C00009;
+    KEGG:C11037'
+- id: sabiork_5339_EC1_20_1_1_Pseudomonas_stutzeri_O69054_Phosphonate
+  name: Reaction catalyzed by phosphonate dehydrogenase on Phosphonate
+  equation: NAD+ + H2O + Phosphonate = NADH + Phosphate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Phosphonate
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_NADH
+  - species_id: product_Phosphate
+  modifiers:
+  - species_id: protein_1_20_1_1_O69054_p3234
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 13173;13174;13175;13176
+  KEGGid: R05746
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:29375; CHEBI:29137; CHEBI:43470; CHEBI:44819;
+    CHEBI:18367; CHEBI:41981; CHEBI:35780; CHEBI:26020; CHEBI:26081; CHEBI:26078;
+    CHEBI:44281; CHEBI:42857; CHEBI:13393; CHEBI:41979; CHEBI:29234; CHEBI:15846;
+    CHEBI:13357; CHEBI:29139; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:39739;
+    CHEBI:42043; CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:33811; CHEBI:13394;
+    CHEBI:33813; CHEBI:27313; CHEBI:5584; CHEBI:15377; CHEBI:39745; CHEBI:13352; CHEBI:36361;
+    CHEBI:57945; CHEBI:44216; CHEBI:7793; CHEBI:57540; CHEBI:43228; CHEBI:7423; CHEBI:44292;
+    CHEBI:29196; CHEBI:16215; CHEBI:45024; CHEBI:13389; CHEBI:33806; CHEBI:10743;
+    CHEBI:44976; CHEBI:5585; CHEBI:29374; CHEBI:15378; CHEBI:13395; CHEBI:43474; CHEBI:44215;
+    CHEBI:10744; CHEBI:29373; CHEBI:44701; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C06701; KEGG:C00080; KEGG:C00001; KEGG:C00009; KEGG:C00003; KEGG:C00004'
+measurements:
+- id: measurement_1_20_1_1_Pseudomonas_stutzeri_O69054_Phosphonate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.25
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_20_1_1_Pseudomonas_stutzeri_O69054_Phosphonate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.25
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_20_1_1_Pseudomonas_stutzeri_O69054_Phosphonate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 28333.33
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Phosphonate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.25
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14529270'
+- id: 1_20_1_1_Pseudomonas_stutzeri_O69054_Phosphonate_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2.18
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Phosphonate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.25
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14529270'
+- id: 1_20_1_1_Pseudomonas_stutzeri_O69054_Phosphonate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 71666.67
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Phosphonate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.25
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14529270'
+- id: 1_20_1_1_Pseudomonas_stutzeri_O69054_Phosphonate_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 4.28
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Phosphonate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.25
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14529270'
+buffer:
+  buffer: 50 mM MOPS
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 3237
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/14529270/
+  pubmed_id: '14529270'
+  doi: null
+name: Merged entry for O69054 A176R
+description: 'Merged from 2 files: SABIO_EC1.20.1.1_Pseudomonas_stutzeri__O69054_A176R_s_Phosphonate_2.yaml,
+  SABIO_EC1.20.1.1_Pseudomonas_stutzeri__O69054_A176R_s_Phosphonate.yaml'

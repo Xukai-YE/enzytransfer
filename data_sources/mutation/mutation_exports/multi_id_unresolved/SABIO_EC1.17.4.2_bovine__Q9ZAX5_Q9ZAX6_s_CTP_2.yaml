@@ -1,0 +1,156 @@
+name: SABIO-RK Entry 22709
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 22709
+created: '2025-10-28T14:20:40.243584'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_17_4_2_Q9ZAX5_Q9ZAX6_p22709
+  name: ribonucleoside-triphosphate reductase
+  sequence: null
+  ecnumber: 1.17.4.2
+  organism: bovine
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9ZAX5; Q9ZAX6
+complexes: null
+small_molecules:
+- id: substrate_CTP
+  name: CTP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Reduced_thioredoxin
+  name: Reduced thioredoxin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_dATP
+  name: dATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_dCTP
+  name: dCTP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Oxidized_thioredoxin
+  name: Oxidized thioredoxin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_491_EC1_17_4_2_bovine_Q9ZAX5_Q9ZAX6_CTP
+  name: Reaction catalyzed by ribonucleoside-triphosphate reductase on CTP
+  equation: Oxidized thioredoxin + H2O + dCTP = Reduced thioredoxin + CTP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_CTP
+  - species_id: substrate_Reduced_thioredoxin
+  - species_id: cofactor_ATP
+  - species_id: cofactor_dATP
+  products:
+  - species_id: product_dCTP
+  - species_id: product_Oxidized_thioredoxin
+  modifiers:
+  - species_id: protein_1_17_4_2_Q9ZAX5_Q9ZAX6_p22709
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02022
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:29375; CHEBI:17677; CHEBI:58231;
+    CHEBI:44819; CHEBI:10789; CHEBI:41981; CHEBI:57299; CHEBI:23522; CHEBI:57724;
+    CHEBI:10491; CHEBI:15033; CHEBI:13286; CHEBI:42857; CHEBI:16284; CHEBI:41979;
+    CHEBI:15967; CHEBI:13236; CHEBI:3285; CHEBI:42043; CHEBI:10841; CHEBI:495505;
+    CHEBI:2359; CHEBI:19243; CHEBI:33813; CHEBI:33811; CHEBI:27313; CHEBI:15377; CHEBI:41675;
+    CHEBI:40938; CHEBI:13352; CHEBI:61481; CHEBI:43228; CHEBI:22249; CHEBI:16311;
+    CHEBI:44292; CHEBI:15422; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:61404;
+    CHEBI:42290; CHEBI:14069; CHEBI:37563; CHEBI:10494; CHEBI:14072; CHEBI:19238;
+    CHEBI:18191; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00342; KEGG:C00458; KEGG:C00002; KEGG:C00001; KEGG:C00131; KEGG:C00343;
+    KEGG:C00063'
+measurements:
+- id: measurement_1_17_4_2_bovine_Q9ZAX5_Q9ZAX6_CTP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 22.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 30 mM Tris-HCl, 0.2 mg/ml bovine serum albumin, 5 mM DTT, 20 ¦ÌM DAF, 0.6
+    mM AdoMet, 12.5 mM sodium formate, 75 mM KCl, 15 mM MgCl2
+  buffer_concentration: 30 mM
+references:
+- title: Reference for SABIO-RK entry 22709
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10644700/
+  pubmed_id: '10644700'
+  doi: null

@@ -1,0 +1,413 @@
+version: '2.0'
+created: '2025-11-20T13:40:07.337654'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_3_3_14_P05342_p73560
+  name: homocitrate synthase
+  ecnumber: 2.3.3.14
+  organism: Azotobacter vinelandii
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P05342
+  wildtype_sequence: MASVIIDDTTLRDGEQSAGVAFNADEKIAIARALAELGVPELEIGIPSMGEEEREVMHAIAGLGLSSRLLAWCRLCDVDLAAARSTGVTMVDLSLPVSDLMLHHKLNRDRDWALREVARLVGEARMAGLEVCLGCEDASRADLEFVVQVGEVAQAAGARRLRFADTVGVMEPFGMLDRFRFLSRRLDMELEVHAHDDFGLATANTLAAVMGGATHINTTVNGLGERAGNAALEECVLALKNLHGIDTGIDTRGIPAISALVERASGRQVAWQKSVVGAGVFTHEAGIHVDGLLKHRRNYEGLNPDELGRSHSLVLGKHSGAHMVRNTYRDLGIELADWQSQALLGRIRAFSTRTKRRSPQPAELQDFYRQLCEQGNPELAAGGMA
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_3-Oxoadipate
+  name: 3-Oxoadipate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Acetyl-CoA
+  name: Acetyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3-Hydroxy-3-carboxymethyl_adipic_acid
+  name: 3-Hydroxy-3-carboxymethyl adipic acid
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_2-Oxoglutarate
+  name: 2-Oxoglutarate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Homocitrate
+  name: Homocitrate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Oxaloacetate
+  name: Oxaloacetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Citrate
+  name: Citrate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_16153_EC2_3_3_14_Azotobacter_vinelandii_P05342_3-Oxoadipate
+  name: Reaction catalyzed by homocitrate synthase on 3-Oxoadipate
+  equation: H2O + Acetyl-CoA + 3-Oxoadipate = Coenzyme A + 3-Hydroxy-3-carboxymethyl
+    adipic acid
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3-Oxoadipate
+  - species_id: substrate_Acetyl-CoA
+  products:
+  - species_id: product_3-Hydroxy-3-carboxymethyl_adipic_acid
+  - species_id: product_Coenzyme_A
+  modifiers:
+  - species_id: protein_2_3_3_14_P05342_p73560
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:29375; CHEBI:15346; CHEBI:44819; CHEBI:23355;
+    CHEBI:15775; CHEBI:41981; CHEBI:20162; CHEBI:57288; CHEBI:41631; CHEBI:13712;
+    CHEBI:42857; CHEBI:89858; CHEBI:41979; CHEBI:13295; CHEBI:37440; CHEBI:41597;
+    CHEBI:42043; CHEBI:11870; CHEBI:33813; CHEBI:33811; CHEBI:27313; CHEBI:15377;
+    CHEBI:57287; CHEBI:13352; CHEBI:13294; CHEBI:40470; CHEBI:43228; CHEBI:44292;
+    CHEBI:33806; CHEBI:2408; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:3771; CHEBI:741566;
+    CHEBI:1631; CHEBI:29373; CHEBI:44701; CHEBI:13298; CHEBI:15351
+
+    KEGG IDs: KEGG:C00001; KEGG:C00846; KEGG:C00010; KEGG:C00024'
+- id: sabiork_532_EC2_3_3_14_Azotobacter_vinelandii_P05342_Acetyl-CoA
+  name: Reaction catalyzed by homocitrate synthase on Acetyl-CoA
+  equation: Coenzyme A + Homocitrate = Acetyl-CoA + 2-Oxoglutarate + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Acetyl-CoA
+  - species_id: substrate_2-Oxoglutarate
+  products:
+  - species_id: product_Homocitrate
+  - species_id: product_Coenzyme_A
+  modifiers:
+  - species_id: protein_2_3_3_14_P05342_p73557
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 12929;12930;12931;12932
+  KEGGid: R00271
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:29375; CHEBI:15346; CHEBI:44819; CHEBI:23355;
+    CHEBI:41981; CHEBI:24608; CHEBI:11638; CHEBI:17852; CHEBI:57288; CHEBI:1253; CHEBI:11593;
+    CHEBI:41631; CHEBI:58884; CHEBI:13712; CHEBI:42857; CHEBI:19748; CHEBI:41979;
+    CHEBI:13295; CHEBI:41597; CHEBI:42043; CHEBI:16810; CHEBI:40661; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:57287; CHEBI:13352; CHEBI:30916;
+    CHEBI:13294; CHEBI:40470; CHEBI:1147; CHEBI:19749; CHEBI:43228; CHEBI:44292; CHEBI:33806;
+    CHEBI:2408; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:36457; CHEBI:3771; CHEBI:24609;
+    CHEBI:30915; CHEBI:741566; CHEBI:52222; CHEBI:29373; CHEBI:44701; CHEBI:13298;
+    CHEBI:15351
+
+    KEGG IDs: KEGG:C01251; KEGG:C00010; KEGG:C00026; KEGG:C00001; KEGG:C00024'
+- id: sabiork_532_EC2_3_3_14_Azotobacter_vinelandii_P05342_Acetyl-CoA
+  name: Reaction catalyzed by homocitrate synthase on Acetyl-CoA
+  equation: Coenzyme A + Homocitrate = Acetyl-CoA + 2-Oxoglutarate + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Acetyl-CoA
+  - species_id: substrate_2-Oxoglutarate
+  products:
+  - species_id: product_Homocitrate
+  - species_id: product_Coenzyme_A
+  modifiers:
+  - species_id: protein_2_3_3_14_P05342_p73558
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 12929;12930;12931;12932
+  KEGGid: R00271
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:29375; CHEBI:15346; CHEBI:44819; CHEBI:23355;
+    CHEBI:41981; CHEBI:24608; CHEBI:11638; CHEBI:17852; CHEBI:57288; CHEBI:1253; CHEBI:11593;
+    CHEBI:41631; CHEBI:58884; CHEBI:13712; CHEBI:42857; CHEBI:19748; CHEBI:41979;
+    CHEBI:13295; CHEBI:41597; CHEBI:42043; CHEBI:16810; CHEBI:40661; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:57287; CHEBI:13352; CHEBI:30916;
+    CHEBI:13294; CHEBI:40470; CHEBI:1147; CHEBI:19749; CHEBI:43228; CHEBI:44292; CHEBI:33806;
+    CHEBI:2408; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:36457; CHEBI:3771; CHEBI:24609;
+    CHEBI:30915; CHEBI:741566; CHEBI:52222; CHEBI:29373; CHEBI:44701; CHEBI:13298;
+    CHEBI:15351
+
+    KEGG IDs: KEGG:C01251; KEGG:C00010; KEGG:C00026; KEGG:C00001; KEGG:C00024'
+- id: sabiork_267_EC2_3_3_14_Azotobacter_vinelandii_P05342_Oxaloacetate
+  name: Reaction catalyzed by citrate (Si)-synthase on Oxaloacetate
+  equation: Coenzyme A + Citrate = Acetyl-CoA + Oxaloacetate + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxaloacetate
+  - species_id: substrate_Acetyl-CoA
+  products:
+  - species_id: product_Citrate
+  - species_id: product_Coenzyme_A
+  modifiers:
+  - species_id: protein_2_3_3_14_P05342_p73559
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 16845;16846;16847;16848
+  KEGGid: R00351
+  notes: 'ChEBI IDs: CHEBI:24959; CHEBI:29375; CHEBI:22192; CHEBI:15346; CHEBI:44819;
+    CHEBI:23322; CHEBI:23355; CHEBI:41981; CHEBI:57288; CHEBI:41631; CHEBI:3727; CHEBI:16452;
+    CHEBI:35806; CHEBI:13712; CHEBI:42857; CHEBI:41979; CHEBI:76049; CHEBI:16947;
+    CHEBI:41523; CHEBI:13295; CHEBI:12820; CHEBI:23321; CHEBI:41597; CHEBI:42043;
+    CHEBI:13999; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:14703; CHEBI:15377;
+    CHEBI:57287; CHEBI:13352; CHEBI:25734; CHEBI:42563; CHEBI:35810; CHEBI:13294;
+    CHEBI:25731; CHEBI:40470; CHEBI:35802; CHEBI:43228; CHEBI:30744; CHEBI:44292;
+    CHEBI:33806; CHEBI:2408; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:7812; CHEBI:3771;
+    CHEBI:30769; CHEBI:35809; CHEBI:24958; CHEBI:741566; CHEBI:29373; CHEBI:44701;
+    CHEBI:13298; CHEBI:15351
+
+    KEGG IDs: KEGG:C00010; KEGG:C00001; KEGG:C00158; KEGG:C00036; KEGG:C00024'
+measurements:
+- id: measurement_2_3_3_14_Azotobacter_vinelandii_P05342_3-Oxoadipate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_2_3_3_14_Azotobacter_vinelandii_P05342_Acetyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_2_3_3_14_Azotobacter_vinelandii_P05342_Acetyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_2_3_3_14_Azotobacter_vinelandii_P05342_Oxaloacetate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 2_3_3_14_Azotobacter_vinelandii_P05342_3-Oxoadipate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00124
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Oxoadipate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '9294461'
+- id: 2_3_3_14_Azotobacter_vinelandii_P05342_3-Oxoadipate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 6.333333e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Oxoadipate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '9294461'
+- id: 2_3_3_14_Azotobacter_vinelandii_P05342_Acetyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '9294461'
+- id: 2_3_3_14_Azotobacter_vinelandii_P05342_Acetyl-CoA_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.21667e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '9294461'
+- id: 2_3_3_14_Azotobacter_vinelandii_P05342_Acetyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00224
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '9294461'
+- id: 2_3_3_14_Azotobacter_vinelandii_P05342_Acetyl-CoA_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.25e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '9294461'
+- id: 2_3_3_14_Azotobacter_vinelandii_P05342_Oxaloacetate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 5.833333e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxaloacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '9294461'
+- id: 2_3_3_14_Azotobacter_vinelandii_P05342_Oxaloacetate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00283
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxaloacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '9294461'
+buffer:
+  buffer: 10 mM HEPES, 1 mM DTNB, 5 mM MgCl2
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 73560
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9294461/
+  pubmed_id: '9294461'
+  doi: null
+name: Merged entry for P05342 wildtype
+description: 'Merged from 4 files: SABIO_EC2.3.3.14_Azotobacter_vinelandii__P05342_s_3-Oxoadipate.yaml,
+  SABIO_EC2.3.3.14_Azotobacter_vinelandii__P05342_s_Acetyl-CoA.yaml, SABIO_EC2.3.3.14_Azotobacter_vinelandii__P05342_s_Acetyl-CoA_2.yaml,
+  SABIO_EC2.3.3.14_Azotobacter_vinelandii__P05342_s_Oxaloacetate.yaml'

@@ -1,0 +1,288 @@
+version: '2.0'
+created: '2025-11-20T13:40:33.701008'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_35_P39610_p68191
+  name: pyridoxal kinase
+  ecnumber: 2.7.1.35
+  organism: Bacillus subtilis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P39610
+  wildtype_sequence: MSMHKALTIAGSDSSGGAGIQADLKTFQEKNVYGMTALTVIVAMDPNNSWNHQVFPIDTDTIRAQLATITDGIGVDAMKTGMLPTVDIIELAAKTIKEKQLKNVVIDPVMVCKGANEVLYPEHAQALREQLAPLATVITPNLFEASQLSGMDELKTVDDMIEAAKKIHALGAQYVVITGGGKLKHEKAVDVLYDGETAEVLESEMIDTPYTHGAGCTFSAAVTAELAKGAEVKEAIYAAKEFITAAIKESFPLNQYVGPTKHSALRLNQQS
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Pyridoxal
+  name: Pyridoxal
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Pyridoxal_phosphate
+  name: Pyridoxal phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_4-Amino-5-hydroxymethyl-2-methylpyrimidine
+  name: 4-Amino-5-hydroxymethyl-2-methylpyrimidine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4-Amino-2-methyl-5-phosphomethylpyrimidine
+  name: 4-Amino-2-methyl-5-phosphomethylpyrimidine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_729_EC2_7_1_35_Bacillus_subtilis_P39610_ATP
+  name: Reaction catalyzed by pyridoxal kinase on ATP
+  equation: ATP + Pyridoxal = ADP + Pyridoxal phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Pyridoxal
+  products:
+  - species_id: product_Pyridoxal_phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_35_P39610_p68191
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 10224;10225;10226;10227
+  KEGGid: R00174
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:17310; CHEBI:16761; CHEBI:10789;
+    CHEBI:57299; CHEBI:40553; CHEBI:8667; CHEBI:26423; CHEBI:358848; CHEBI:14976;
+    CHEBI:13236; CHEBI:26424; CHEBI:8668; CHEBI:10841; CHEBI:18405; CHEBI:2359; CHEBI:87518;
+    CHEBI:40938; CHEBI:597326; CHEBI:456216; CHEBI:22249; CHEBI:234571; CHEBI:2342;
+    CHEBI:15422; CHEBI:45112; CHEBI:45145; CHEBI:14977; CHEBI:13222; CHEBI:131530;
+    CHEBI:22244
+
+    KEGG IDs: KEGG:C00002; KEGG:C00008; KEGG:C00018; KEGG:C00250'
+- id: sabiork_3265_EC2_7_1_49_Bacillus_subtilis_P39610_ATP
+  name: Reaction catalyzed by hydroxymethylpyrimidine kinase on ATP
+  equation: ATP + 4-Amino-5-hydroxymethyl-2-methylpyrimidine = ADP + 4-Amino-2-methyl-5-phosphomethylpyrimidine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_4-Amino-5-hydroxymethyl-2-methylpyrimidine
+  products:
+  - species_id: product_4-Amino-2-methyl-5-phosphomethylpyrimidine
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_49_P39610_p68190
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 23096;23097;23098;23099
+  KEGGid: R03471
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:11954; CHEBI:20309; CHEBI:16761;
+    CHEBI:10789; CHEBI:57299; CHEBI:40553; CHEBI:11957; CHEBI:16892; CHEBI:43206;
+    CHEBI:58354; CHEBI:13236; CHEBI:18032; CHEBI:10841; CHEBI:2359; CHEBI:87518; CHEBI:40938;
+    CHEBI:11958; CHEBI:456216; CHEBI:1781; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:20312;
+    CHEBI:13222; CHEBI:22244; CHEBI:1779
+
+    KEGG IDs: KEGG:C00002; KEGG:C01279; KEGG:C00008; KEGG:C04556'
+measurements:
+- id: measurement_2_7_1_35_Bacillus_subtilis_P39610_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_7_1_49_Bacillus_subtilis_P39610_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_1_35_Bacillus_subtilis_P39610_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.66e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14973012'
+- id: 2_7_1_35_Bacillus_subtilis_P39610_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 690.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14973012'
+- id: 2_7_1_35_Bacillus_subtilis_P39610_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.032
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14973012'
+- id: 2_7_1_49_Bacillus_subtilis_P39610_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.36
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14973012'
+- id: 2_7_1_49_Bacillus_subtilis_P39610_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00203
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14973012'
+- id: 2_7_1_49_Bacillus_subtilis_P39610_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 180.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14973012'
+buffer:
+  buffer: 50 mM Tris-HCl, 10 mM MgCl2, 50 mM KCl, 0.2 mM NADH, 1 mM phosphoenolpyruvate,
+    8 U/ml pyruvate kinase, 10 U/ml lactate dehydrogenase
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 68191
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/14973012/
+  pubmed_id: '14973012'
+  doi: null
+name: Merged entry for P39610 wildtype
+description: 'Merged from 2 files: SABIO_EC2.7.1.35_Bacillus_subtilis__P39610_s_ATP.yaml,
+  SABIO_EC2.7.1.49_Bacillus_subtilis__P39610_s_ATP.yaml'

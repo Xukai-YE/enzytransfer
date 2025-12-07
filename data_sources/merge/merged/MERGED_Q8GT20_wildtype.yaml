@@ -1,0 +1,202 @@
+version: '2.0'
+created: '2025-11-20T13:40:03.311973'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_3_1_196_Q8GT20_p61752
+  name: benzyl alcohol O-benzoyltransferase
+  ecnumber: 2.3.1.196
+  organism: Nicotiana tabacum
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q8GT20
+  wildtype_sequence: MDSKQSSELVFTVRRQKPELIAPAKPTPREIKFLSDIDDQEGLRFQIPVIQFYHKDSSMGRKDPVKVIKKAIAETLVFYYPFAGRLREGNGRKLMVDCTGEGIMFVEADADVTLEQFGDELQPPFPCLEELLYDVPDSAGVLNCPLLLIQVTRLRCGGFIFALRLNHTMSDAPGLVQFMTAVGEMARGASAPSILPVWCRELLNARNPPQVTCTHHEYDEVRDTKGTIIPLDDMVHKSFFFGPSEVSALRRFVPHHLRKCSTFELLTAVLWRCRTMSLKPDPEEEVRALCIVNARSRFNPPLPTGYYGNAFAFPVAVTTAAKLSKNPLGYALELVKKTKSDVTEEYMKSVADLMVLKGRPHFTVVRTFLVSDVTRGGFGEVDFGWGKAVYGGPAKGGVGAIPGVASFYIPFKNKKGENGIVVPICLPGFAMETFVKELDGMLKVDAPLDNSNYAIIRPAL
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Benzoyl-CoA
+  name: Benzoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Benzyl_alcohol
+  name: Benzyl alcohol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Benzyl_benzoate
+  name: Benzyl benzoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_14186_EC2_3_1_196_Nicotiana_tabacum_Q8GT20_Benzoyl-CoA
+  name: Reaction catalyzed by benzyl alcohol O-benzoyltransferase on Benzoyl-CoA
+  equation: Benzoyl-CoA + Benzyl alcohol = Coenzyme A + Benzyl benzoate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Benzoyl-CoA
+  - species_id: substrate_Benzyl_alcohol
+  products:
+  - species_id: product_Coenzyme_A
+  - species_id: product_Benzyl_benzoate
+  modifiers:
+  - species_id: protein_2_3_1_196_Q8GT20_p61752
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 30411;30412;30413;30414
+  KEGGid: R09528
+  notes: 'ChEBI IDs: CHEBI:15346; CHEBI:23355; CHEBI:17987; CHEBI:41237; CHEBI:41230;
+    CHEBI:8952; CHEBI:41631; CHEBI:3053; CHEBI:13295; CHEBI:41597; CHEBI:13888; CHEBI:22735;
+    CHEBI:57287; CHEBI:13883; CHEBI:22742; CHEBI:13294; CHEBI:31267; CHEBI:25399;
+    CHEBI:13882; CHEBI:3771; CHEBI:15515; CHEBI:741566; CHEBI:13298; CHEBI:57369
+
+    KEGG IDs: KEGG:C00556; KEGG:C03485; KEGG:C12537; KEGG:C00010; KEGG:C00512'
+- id: sabiork_14186_EC2_3_1_196_Nicotiana_tabacum_Q8GT20_Benzyl_alcohol
+  name: Reaction catalyzed by benzyl alcohol O-benzoyltransferase on Benzyl alcohol
+  equation: Benzoyl-CoA + Benzyl alcohol = Coenzyme A + Benzyl benzoate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Benzyl_alcohol
+  - species_id: substrate_Benzoyl-CoA
+  products:
+  - species_id: product_Benzyl_benzoate
+  - species_id: product_Coenzyme_A
+  modifiers:
+  - species_id: protein_2_3_1_196_Q8GT20_p61751
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 30411;30412;30413;30414
+  KEGGid: R09528
+  notes: 'ChEBI IDs: CHEBI:41237; CHEBI:41230; CHEBI:15346; CHEBI:23355; CHEBI:8952;
+    CHEBI:41631; CHEBI:3053; CHEBI:13295; CHEBI:41597; CHEBI:13888; CHEBI:22735; CHEBI:57287;
+    CHEBI:22742; CHEBI:13883; CHEBI:13294; CHEBI:13298; CHEBI:25399; CHEBI:13882;
+    CHEBI:3771; CHEBI:15515; CHEBI:741566; CHEBI:57369; CHEBI:17987; CHEBI:31267
+
+    KEGG IDs: KEGG:C00556; KEGG:C03485; KEGG:C12537; KEGG:C00010; KEGG:C00512'
+measurements:
+- id: measurement_2_3_1_196_Nicotiana_tabacum_Q8GT20_Benzoyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.7
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_2_3_1_196_Nicotiana_tabacum_Q8GT20_Benzyl_alcohol
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.7
+  temperature_opt: 22.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_3_1_196_Nicotiana_tabacum_Q8GT20_Benzoyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Benzoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.7
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12226525'
+- id: 2_3_1_196_Nicotiana_tabacum_Q8GT20_Benzyl_alcohol_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.9e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Benzyl_alcohol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.7
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12226525'
+buffer:
+  buffer: 50 mM Bis-Tris propane
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 61752
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12226525/
+  pubmed_id: '12226525'
+  doi: null
+name: Merged entry for Q8GT20 wildtype
+description: 'Merged from 2 files: SABIO_EC2.3.1.196_Nicotiana_tabacum__Q8GT20_s_Benzoyl-CoA.yaml,
+  SABIO_EC2.3.1.196_Nicotiana_tabacum__Q8GT20_s_Benzyl.yaml'

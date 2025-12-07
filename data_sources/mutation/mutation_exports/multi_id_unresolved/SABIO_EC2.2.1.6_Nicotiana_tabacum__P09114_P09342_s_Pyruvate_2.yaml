@@ -1,0 +1,179 @@
+name: SABIO-RK Entry 3816
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 3816
+created: '2025-10-28T13:47:21.287541'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_2_1_6_P09114_P09342_p3816
+  name: acetolactate synthase
+  sequence: null
+  ecnumber: 2.2.1.6
+  organism: Nicotiana tabacum
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P09114; P09342
+complexes: null
+small_molecules:
+- id: substrate_Pyruvate
+  name: Pyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Acetolactate
+  name: 2-Acetolactate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_6473_EC2_2_1_6_Nicotiana_tabacum_P09114_P09342_Pyruvate
+  name: Reaction catalyzed by acetolactate synthase on Pyruvate
+  equation: CO2 + 2-Acetolactate = Pyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Pyruvate
+  products:
+  - species_id: product_CO2
+  - species_id: product_2-Acetolactate
+  modifiers:
+  - species_id: protein_2_2_1_6_P09114_P09342_p3816
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 20501;20502;20503;20504;25249;25250;25251;25252
+  KEGGid: R00226
+  notes: 'ChEBI IDs: CHEBI:11495; CHEBI:57774; CHEBI:14987; CHEBI:374; CHEBI:139538;
+    CHEBI:3283; CHEBI:15361; CHEBI:11033; CHEBI:58476; CHEBI:23011; CHEBI:19433; CHEBI:983;
+    CHEBI:18731; CHEBI:26466; CHEBI:16444; CHEBI:13285; CHEBI:18409; CHEBI:13282;
+    CHEBI:26462; CHEBI:13283; CHEBI:8685; CHEBI:13284; CHEBI:32816; CHEBI:16526; CHEBI:48829;
+    CHEBI:45253
+
+    KEGG IDs: KEGG:C06010; KEGG:C00900; KEGG:C00022; KEGG:C00011'
+measurements:
+- id: measurement_2_2_1_6_Nicotiana_tabacum_P09114_P09342_Pyruvate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 2_2_1_6_Nicotiana_tabacum_P09114_P09342_Pyruvate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 8.65
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Pyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14644413'
+- id: 2_2_1_6_Nicotiana_tabacum_P09114_P09342_Pyruvate_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.83
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Pyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14644413'
+- id: 2_2_1_6_Nicotiana_tabacum_P09114_P09342_Pyruvate_Km_3
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 10.5
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Pyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14644413'
+buffer:
+  buffer: 100 mM 2-(N-Morpholino)ethanesulfonic acid at pH 6.0-6.5, 100 mM 4-Morpholinopropanesulfonic
+    acid at pH 6.5-8.0, 100 mM 3-[[Tris(hydroxymethyl)methyl]amino]propanesulfonic
+    acid at pH 8.0-9.5, 1 mM ThDP, 10 mM MgCl2, 20 ¦ÌM FAD, D2O
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 3816
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/14644413/
+  pubmed_id: '14644413'
+  doi: null

@@ -1,0 +1,566 @@
+version: '2.0'
+created: '2025-11-20T13:39:17.771366'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_21_P07943_p19607
+  name: aldehyde reductase
+  ecnumber: 1.1.1.21
+  organism: Rattus norvegicus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P07943
+  wildtype_sequence: MASHLELNNGTKMPTLGLGTWKSPPGQVTEAVKVAIDMGYRHIDCAQVYQNEKEVGVALQEKLKEQVVKRQDLFIVSKLWCTFHDQSMVKGACQKTLSDLQLDYLDLYLIHWPTGFKPGPDYFPLDASGNVIPSDTDFVDTWTAMEQLVDEGLVKAIGVSNFNPLQIERILNKPGLKYKPAVNQIECHPYLTQEKLIEYCHCKGIVVTAYSPLGSPDRPWAKPEDPSLLEDPRIKEIAAKYNKTTAQVLIRFPIQRNLVVIPKSVTPARIAENFKVFDFELSNEDMATLLSYNRNWRVCALMSCAKHKDYPFHAEV
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_D-Xylose
+  name: D-Xylose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Xylitol
+  name: Xylitol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Glyceraldehyde
+  name: Glyceraldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Glycerol
+  name: Glycerol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Methylglyoxal
+  name: Methylglyoxal
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Lactaldehyde
+  name: Lactaldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1616_EC1_1_1_21_Rattus_norvegicus_P07943_D-Xylose
+  name: Reaction catalyzed by aldehyde reductase on D-Xylose
+  equation: NADP+ + Xylitol = D-Xylose + H+ + NADPH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Xylose
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_Xylitol
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_1_1_21_P07943_p19607
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01431
+  notes: 'ChEBI IDs: CHEBI:57574; CHEBI:13397; CHEBI:13398; CHEBI:17151; CHEBI:46522;
+    CHEBI:7424; CHEBI:44405; CHEBI:21903; CHEBI:10078; CHEBI:7425; CHEBI:29234; CHEBI:60939;
+    CHEBI:13357; CHEBI:25523; CHEBI:24636; CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:27339;
+    CHEBI:15328; CHEBI:16474; CHEBI:44286; CHEBI:13033; CHEBI:253147; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:18009; CHEBI:4265; CHEBI:58349; CHEBI:13400; CHEBI:57783;
+    CHEBI:10744; CHEBI:15936; CHEBI:21118
+
+    KEGG IDs: KEGG:C00379; KEGG:C00181; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C11037'
+- id: sabiork_6749_EC1_1_1_21_Rattus_norvegicus_P07943_Glyceraldehyde
+  name: Reaction catalyzed by L-xylulose reductase on Glyceraldehyde
+  equation: Glyceraldehyde + H+ + NADPH = NADP+ + Glycerol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Glyceraldehyde
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_NADP_
+  - species_id: product_Glycerol
+  modifiers:
+  - species_id: protein_1_1_1_21_P07943_p15635
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:24351; CHEBI:17754; CHEBI:13397; CHEBI:13398; CHEBI:24343;
+    CHEBI:7424; CHEBI:17378; CHEBI:387614; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234;
+    CHEBI:131422; CHEBI:14334; CHEBI:13357; CHEBI:25523; CHEBI:5445; CHEBI:24636;
+    CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:42998; CHEBI:16474; CHEBI:5448; CHEBI:44286;
+    CHEBI:21904; CHEBI:44409; CHEBI:15378; CHEBI:18009; CHEBI:58349; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00116; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C02154; KEGG:C11037'
+- id: sabiork_6749_EC1_1_1_21_Rattus_norvegicus_P07943_Glyceraldehyde
+  name: Reaction catalyzed by L-xylulose reductase on Glyceraldehyde
+  equation: Glyceraldehyde + H+ + NADPH = NADP+ + Glycerol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Glyceraldehyde
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_NADP_
+  - species_id: product_Glycerol
+  modifiers:
+  - species_id: protein_1_1_1_21_P07943_p19604
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:24351; CHEBI:17754; CHEBI:13397; CHEBI:13398; CHEBI:24343;
+    CHEBI:7424; CHEBI:17378; CHEBI:387614; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234;
+    CHEBI:131422; CHEBI:14334; CHEBI:13357; CHEBI:25523; CHEBI:5445; CHEBI:24636;
+    CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:42998; CHEBI:16474; CHEBI:5448; CHEBI:44286;
+    CHEBI:21904; CHEBI:44409; CHEBI:15378; CHEBI:18009; CHEBI:58349; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00116; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C02154; KEGG:C11037'
+- id: sabiork_6749_EC1_1_1_21_Rattus_norvegicus_P07943_Glyceraldehyde
+  name: Reaction catalyzed by L-xylulose reductase on Glyceraldehyde
+  equation: Glyceraldehyde + H+ + NADPH = NADP+ + Glycerol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Glyceraldehyde
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_NADP_
+  - species_id: product_Glycerol
+  modifiers:
+  - species_id: protein_1_1_1_21_P07943_p19605
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:24351; CHEBI:17754; CHEBI:13397; CHEBI:13398; CHEBI:24343;
+    CHEBI:7424; CHEBI:17378; CHEBI:387614; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234;
+    CHEBI:131422; CHEBI:14334; CHEBI:13357; CHEBI:25523; CHEBI:5445; CHEBI:24636;
+    CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:42998; CHEBI:16474; CHEBI:5448; CHEBI:44286;
+    CHEBI:21904; CHEBI:44409; CHEBI:15378; CHEBI:18009; CHEBI:58349; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00116; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C02154; KEGG:C11037'
+- id: sabiork_9214_EC1_1_1_21_Rattus_norvegicus_P07943_Methylglyoxal
+  name: Reaction catalyzed by aldehyde reductase on Methylglyoxal
+  equation: Lactaldehyde + NADP+ = Methylglyoxal + H+ + NADPH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Methylglyoxal
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_Lactaldehyde
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_1_1_21_P07943_p15636
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R07139
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:14599; CHEBI:13398; CHEBI:7424; CHEBI:44405;
+    CHEBI:21903; CHEBI:11643; CHEBI:7425; CHEBI:29234; CHEBI:6875; CHEBI:25303; CHEBI:13357;
+    CHEBI:25523; CHEBI:18419; CHEBI:24636; CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:16474;
+    CHEBI:44286; CHEBI:21904; CHEBI:44409; CHEBI:15378; CHEBI:18009; CHEBI:17158;
+    CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00546; KEGG:C05999; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C11037'
+- id: sabiork_1616_EC1_1_1_21_Rattus_norvegicus_P07943_NADPH
+  name: Reaction catalyzed by aldehyde reductase on NADPH
+  equation: NADP+ + Xylitol = D-Xylose + H+ + NADPH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_D-Xylose
+  products:
+  - species_id: product_NADP_
+  - species_id: product_Xylitol
+  modifiers:
+  - species_id: protein_1_1_1_21_P07943_p19606
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01431
+  notes: 'ChEBI IDs: CHEBI:57574; CHEBI:13397; CHEBI:13398; CHEBI:17151; CHEBI:46522;
+    CHEBI:7424; CHEBI:44405; CHEBI:21903; CHEBI:10078; CHEBI:7425; CHEBI:29234; CHEBI:60939;
+    CHEBI:13357; CHEBI:25523; CHEBI:24636; CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:27339;
+    CHEBI:15328; CHEBI:16474; CHEBI:44286; CHEBI:13033; CHEBI:253147; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:18009; CHEBI:4265; CHEBI:58349; CHEBI:13400; CHEBI:57783;
+    CHEBI:10744; CHEBI:15936; CHEBI:21118
+
+    KEGG IDs: KEGG:C00379; KEGG:C00181; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C11037'
+measurements:
+- id: measurement_1_1_1_21_Rattus_norvegicus_P07943_D-Xylose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.2
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_1_1_21_Rattus_norvegicus_P07943_Glyceraldehyde
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.1
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_1_1_21_Rattus_norvegicus_P07943_Glyceraldehyde
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.2
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_1_1_21_Rattus_norvegicus_P07943_Glyceraldehyde
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.2
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_1_1_21_Rattus_norvegicus_P07943_Methylglyoxal
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.1
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_1_1_21_Rattus_norvegicus_P07943_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.2
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1_21_Rattus_norvegicus_P07943_D-Xylose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.505
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Xylose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.2
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11772943'
+- id: 1_1_1_21_Rattus_norvegicus_P07943_D-Xylose_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 51.66667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Xylose
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 6.2
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11772943'
+- id: 1_1_1_21_Rattus_norvegicus_P07943_D-Xylose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.029
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Xylose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.2
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11772943'
+- id: 1_1_1_21_Rattus_norvegicus_P07943_Glyceraldehyde_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glyceraldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.1
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11716357'
+- id: 1_1_1_21_Rattus_norvegicus_P07943_Glyceraldehyde_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.161667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glyceraldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.2
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11772943'
+- id: 1_1_1_21_Rattus_norvegicus_P07943_Glyceraldehyde_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0002
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glyceraldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.2
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11772943'
+- id: 1_1_1_21_Rattus_norvegicus_P07943_Glyceraldehyde_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 5983.333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glyceraldehyde
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 6.2
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11772943'
+- id: 1_1_1_21_Rattus_norvegicus_P07943_Glyceraldehyde_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.29
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glyceraldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.2
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11772943'
+- id: 1_1_1_21_Rattus_norvegicus_P07943_Glyceraldehyde_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00019
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glyceraldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.2
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11772943'
+- id: 1_1_1_21_Rattus_norvegicus_P07943_Glyceraldehyde_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 7000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glyceraldehyde
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 6.2
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11772943'
+- id: 1_1_1_21_Rattus_norvegicus_P07943_Methylglyoxal_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 8.0e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Methylglyoxal
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.1
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11716357'
+- id: 1_1_1_21_Rattus_norvegicus_P07943_NADPH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.39
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.2
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11772943'
+- id: 1_1_1_21_Rattus_norvegicus_P07943_NADPH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0289
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.2
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11772943'
+- id: 1_1_1_21_Rattus_norvegicus_P07943_NADPH_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 48.33333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 6.2
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11772943'
+buffer:
+  buffer: 0.1 M phosphate; 100 mM potassium phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 19607
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11772943/
+  pubmed_id: '11772943'
+  doi: null
+- title: Reference for SABIO-RK entry 15635
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11716357/
+  pubmed_id: '11716357'
+  doi: null
+name: Merged entry for P07943 wildtype
+description: 'Merged from 6 files: SABIO_EC1.1.1.21_Rattus_norvegicus__P07943_s_D-Xylose.yaml,
+  SABIO_EC1.1.1.21_Rattus_norvegicus__P07943_s_Glyceraldehyde.yaml, SABIO_EC1.1.1.21_Rattus_norvegicus__P07943_s_Glyceraldehyde_2.yaml,
+  SABIO_EC1.1.1.21_Rattus_norvegicus__P07943_s_Glyceraldehyde_3.yaml, SABIO_EC1.1.1.21_Rattus_norvegicus__P07943_s_Methylglyoxal.yaml,
+  SABIO_EC1.1.1.21_Rattus_norvegicus__P07943_s_NADPH.yaml'

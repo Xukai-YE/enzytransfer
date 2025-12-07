@@ -1,0 +1,191 @@
+name: SABIO-RK Entry 47551
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 47551
+created: '2025-10-28T15:41:46.653768'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_8_4_2_P35754_p47551
+  name: protein-disulfide reductase (glutathione)
+  ecnumber: 1.8.4.2
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: P23S
+  uniprotid: P35754
+  wildtype_sequence: MAQEFVNCKIQPGKVVVFIKPTCPYCRRAQEILSQLPIKQGLLEFVDITATNHTNEIQDYLQQLTGARTVPRVFIGKDCIGGCSDLVSLQQSGELLTRLKQIGALQ
+  mutant_sequence: MAQEFVNCKIQPGKVVVFIKSTCPYCRRAQEILSQLPIKQGLLEFVDITATNHTNEIQDYLQQLTGARTVPRVFIGKDCIGGCSDLVSLQQSGELLTRLKQIGALQ
+  position_offset: -2
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Reduced_glutathione
+  name: Reduced glutathione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Glutathionylated_RNase_A
+  name: Glutathionylated RNase A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_RNase_A
+  name: RNase A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Oxidized_glutathione
+  name: Oxidized glutathione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_13197_EC1_8_4_2_Homo_sapiens_P35754_Reduced_glutathione
+  name: Reaction catalyzed by protein-disulfide reductase (glutathione) on Reduced
+    glutathione
+  equation: Reduced glutathione + Glutathionylated RNase A = Oxidized glutathione
+    + RNase A
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Reduced_glutathione
+  - species_id: substrate_Glutathionylated_RNase_A
+  products:
+  - species_id: product_RNase_A
+  - species_id: product_Oxidized_glutathione
+  modifiers:
+  - species_id: protein_1_8_4_2_P35754_p47551
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:42832; CHEBI:12402; CHEBI:7840; CHEBI:42873; CHEBI:24334;
+    CHEBI:14327; CHEBI:24336; CHEBI:14328; CHEBI:57925; CHEBI:16856; CHEBI:5437; CHEBI:17858;
+    CHEBI:14720; CHEBI:58297; CHEBI:43049
+
+    KEGG IDs: KEGG:C00051; KEGG:C00127'
+measurements:
+- id: measurement_1_8_4_2_Homo_sapiens_P35754_Reduced_glutathione
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: null
+  temperature_unit: null
+parameters:
+- id: 1_8_4_2_Homo_sapiens_P35754_Reduced_glutathione_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2.25
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Reduced_glutathione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '14676218'
+- id: 1_8_4_2_Homo_sapiens_P35754_Reduced_glutathione_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 3690000000000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Reduced_glutathione
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '14676218'
+- id: 1_8_4_2_Homo_sapiens_P35754_Reduced_glutathione_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.1e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Reduced_glutathione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '14676218'
+buffer:
+  buffer: 100 mM potassium phosphate, 1 mM EDTA, 0.1 mg/ml BSA, 240 ¦ÌM NADPH, 6 ¦Ìg/ml
+    yeast glutathione reductase
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 47551
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/14676218/
+  pubmed_id: '14676218'
+  doi: null

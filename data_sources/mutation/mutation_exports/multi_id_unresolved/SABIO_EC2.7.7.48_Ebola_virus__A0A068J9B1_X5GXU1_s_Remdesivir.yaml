@@ -1,0 +1,186 @@
+name: SABIO-RK Entry 72820
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 72820
+created: '2025-10-28T17:31:15.684705'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_7_48_A0A068J9B1_X5GXU1_p72820
+  name: RNA-directed RNA polymerase
+  sequence: null
+  ecnumber: 2.7.7.48
+  organism: Ebola virus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: A0A068J9B1; X5GXU1
+complexes: null
+small_molecules:
+- id: substrate_Remdesivir_triphosphate
+  name: Remdesivir triphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_RNA
+  name: RNA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_RNA
+  name: RNA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_16062_EC2_7_7_48_Ebola_virus_A0A068J9B1_X5GXU1_Remdesivir_triphosphate
+  name: Reaction catalyzed by RNA-directed RNA polymerase on Remdesivir triphosphate
+  equation: RNA + Remdesivir triphosphate = Diphosphate + RNA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Remdesivir_triphosphate
+  - species_id: product_RNA
+  products:
+  - species_id: product_RNA
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_2_7_7_48_A0A068J9B1_X5GXU1_p72820
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:18273; CHEBI:8755; CHEBI:33019; CHEBI:13420; CHEBI:18361;
+    CHEBI:8683; CHEBI:33017; CHEBI:150869; CHEBI:45067; CHEBI:45208; CHEBI:33697;
+    CHEBI:29888; CHEBI:45212; CHEBI:42009; CHEBI:35782; CHEBI:11126; CHEBI:33018
+
+    KEGG IDs: KEGG:C00046; KEGG:C00013'
+measurements:
+- id: measurement_2_7_7_48_Ebola_virus_A0A068J9B1_X5GXU1_Remdesivir_triphosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 2_7_7_48_Ebola_virus_A0A068J9B1_X5GXU1_Remdesivir_triphosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.28
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Remdesivir_triphosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '32284326'
+- id: 2_7_7_48_Ebola_virus_A0A068J9B1_X5GXU1_Remdesivir_triphosphate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: null
+  initial_value: 0.7
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Remdesivir_triphosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '32284326'
+- id: 2_7_7_48_Ebola_virus_A0A068J9B1_X5GXU1_Remdesivir_triphosphate_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.5e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Remdesivir_triphosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '32284326'
+buffer:
+  buffer: 25 mM Tris-HCl, 200 ¦ÌM RNA primer, 2 ¦ÌM RNA template, 0.1 ¦ÌM [alpha-32P]GTP,
+    0.1 ¦ÌM NTP, 5 mM MgCl2
+  buffer_concentration: 25 mM
+references:
+- title: Reference for SABIO-RK entry 72820
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/32284326/
+  pubmed_id: '32284326'
+  doi: null

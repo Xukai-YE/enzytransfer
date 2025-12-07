@@ -1,0 +1,280 @@
+version: '2.0'
+created: '2025-11-20T13:41:23.372645'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_6_1_9_Q9NV35_p60218
+  name: ATP diphosphatase
+  ecnumber: 3.6.1.9
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9NV35
+  wildtype_sequence: MTASAQPRGRRPGVGVGVVVTSCKHPRCVLLGKRKGSVGAGSFQLPGGHLEFGETWEECAQRETWEEAALHLKNVHFASVVNSFIEKENYHYVTILMKGEVDVTHDSEPKNVEPEKNESWEWVPWEELPPLDQLFWGLRCLKEQGYDPFKEDLNHLVGYKGNHL
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_8-oxo-dGTP
+  name: 8-oxo-dGTP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_8-oxo-dGMP
+  name: 8-oxo-dGMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_dGTP
+  name: dGTP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_dGMP
+  name: dGMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_10417_EC3_6_1_9_Homo_sapiens_Q9NV35_8-oxo-dGTP
+  name: Reaction catalyzed by ATP diphosphatase on 8-oxo-dGTP
+  equation: H2O + 8-oxo-dGTP = Diphosphate + 8-oxo-dGMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_8-oxo-dGTP
+  products:
+  - species_id: product_8-oxo-dGMP
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_3_6_1_9_Q9NV35_p60218
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 31575;31576;31577;31578
+  KEGGid: R09832
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:63222; CHEBI:41981; CHEBI:8683;
+    CHEBI:42857; CHEBI:41979; CHEBI:33019; CHEBI:45067; CHEBI:42043; CHEBI:29888;
+    CHEBI:77896; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:35782; CHEBI:15377;
+    CHEBI:63224; CHEBI:13420; CHEBI:13352; CHEBI:18361; CHEBI:33017; CHEBI:63220;
+    CHEBI:45208; CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:63223; CHEBI:45212; CHEBI:42009; CHEBI:29373; CHEBI:44701; CHEBI:33018
+
+    KEGG IDs: KEGG:C19968; KEGG:C00001; KEGG:C19967; KEGG:C00013'
+- id: sabiork_302_EC3_6_1_9_Homo_sapiens_Q9NV35_dGTP
+  name: Reaction catalyzed by ATP diphosphatase on dGTP
+  equation: H2O + dGTP = dGMP + Diphosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_dGTP
+  products:
+  - species_id: product_dGMP
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_3_6_1_9_Q9NV35_p60217
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 28362;28363;28364;28365
+  KEGGid: R01855
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:8683; CHEBI:41981; CHEBI:42726;
+    CHEBI:10496; CHEBI:47449; CHEBI:16497; CHEBI:57794; CHEBI:42857; CHEBI:41979;
+    CHEBI:19246; CHEBI:33019; CHEBI:10497; CHEBI:16192; CHEBI:45067; CHEBI:14074;
+    CHEBI:61429; CHEBI:42733; CHEBI:42043; CHEBI:29888; CHEBI:14076; CHEBI:35782;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13420; CHEBI:13352;
+    CHEBI:18361; CHEBI:19247; CHEBI:33017; CHEBI:45208; CHEBI:43228; CHEBI:44292;
+    CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:41902; CHEBI:33018; CHEBI:57673;
+    CHEBI:45212; CHEBI:42009; CHEBI:41939; CHEBI:29373; CHEBI:44701; CHEBI:42676
+
+    KEGG IDs: KEGG:C00286; KEGG:C00001; KEGG:C00362; KEGG:C00013'
+measurements:
+- id: measurement_3_6_1_9_Homo_sapiens_Q9NV35_8-oxo-dGTP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_3_6_1_9_Homo_sapiens_Q9NV35_dGTP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 22.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_6_1_9_Homo_sapiens_Q9NV35_8-oxo-dGTP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 3600.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_8-oxo-dGTP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26238318'
+- id: 3_6_1_9_Homo_sapiens_Q9NV35_8-oxo-dGTP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00045
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_8-oxo-dGTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26238318'
+- id: 3_6_1_9_Homo_sapiens_Q9NV35_8-oxo-dGTP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.6
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_8-oxo-dGTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26238318'
+- id: 3_6_1_9_Homo_sapiens_Q9NV35_dGTP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.2e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_dGTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26238318'
+- id: 3_6_1_9_Homo_sapiens_Q9NV35_dGTP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 32400.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_dGTP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26238318'
+- id: 3_6_1_9_Homo_sapiens_Q9NV35_dGTP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.4
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_dGTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26238318'
+buffer:
+  buffer: 0.1 M Tris-acetate, 40 mM NaCl, 10 mM MgAc, 1 mM dithiothreitol, 0.005%
+    Tween-20
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 60218
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/26238318/
+  pubmed_id: '26238318'
+  doi: null
+name: Merged entry for Q9NV35 wildtype
+description: 'Merged from 2 files: SABIO_EC3.6.1.9_Homo_sapiens__Q9NV35_s_8-oxo-dGTP.yaml,
+  SABIO_EC3.6.1.9_Homo_sapiens__Q9NV35_s_dGTP.yaml'

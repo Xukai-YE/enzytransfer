@@ -1,0 +1,168 @@
+name: SABIO-RK Entry 67178
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 67178
+created: '2025-10-28T17:01:44.552280'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_68_P70181_p67178
+  name: 1-phosphatidylinositol-4-phosphate 5-kinase
+  ecnumber: 2.7.1.68
+  organism: Mus musculus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: P5K
+  uniprotid: P70181
+  wildtype_sequence: MSSTAENGDAVPGKQNEEKTYKKTASSAIKGAIQLGIGYTVGNLTSKPERDVLMQDFYVVESVFLPSEGSNLTPAHHYPDFRFKTYAPLAFRYFRELFGIKPDDYLYSICSEPLIELSNPGASGSLFFLTSDDEFIIKTVQHKEAEFLQKLLPGYYMNLNQNPRTLLPKFYGLYCMQSGGINIRIVVMNNVLPRAMRMHLTYDLKGSTYKRRASRKEREKPNPTFKDLDFLQDMHEGLYFDTETYNALMKTLQRDCRVLESFKIMDYSLLLGIHILDHSLKDKEEEPLQNVPDAKRPGMQKVLYSTAMESIQGPGKSADGIIAENPDTMGGIPAKSHKGEKLLLFMGIIDILQSYRLMKKLEHSWKALVYDGDTVSVHRPSFYADRFLKFMNSRVFKKIQALKASPSKKRCNSIAALKATSQEIVSSISQEWKDEKRDLLTEGQSFSSLDEEALGSRHRPDLVPSTPSLFEAASLATTISSSSLYVGEHYPHDRTTLYSNSKGLPSSSTFTLEEGTIYLTAEPNTLDLQDDASVLDVYL
+  mutant_sequence: MSSTAENGDAVKGKQNEEKTYKKTASSAIKGAIQLGIGYTVGNLTSKPERDVLMQDFYVVESVFLPSEGSNLTPAHHYPDFRFKTYAPLAFRYFRELFGIKPDDYLYSICSEPLIELSNPGASGSLFFLTSDDEFIIKTVQHKEAEFLQKLLPGYYMNLNQNPRTLLPKFYGLYCMQSGGINIRIVVMNNVLPRAMRMHLTYDLKGSTYKRRASRKEREKPNPTFKDLDFLQDMHEGLYFDTETYNALMKTLQRDCRVLESFKIMDYSLLLGIHILDHSLKDKEEEPLQNVPDAKRPGMQKVLYSTAMESIQGPGKSADGIIAENPDTMGGIPAKSHKGEKLLLFMGIIDILQSYRLMKKLEHSWKALVYDGDTVSVHRPSFYADRFLKFMNSRVFKKIQALKASPSKKRCNSIAALKATSQEIVSSISQEWKDEKRDLLTEGQSFSSLDEEALGSRHRPDLVPSTPSLFEAASLATTISSSSLYVGEHYPHDRTTLYSNSKGLPSSSTFTLEEGTIYLTAEPNTLDLQDDASVLDVYL
+  position_offset: 7
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_1-Phosphatidyl-1D-myo-inositol_4-phosphate
+  name: 1-Phosphatidyl-1D-myo-inositol 4-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_1-Phosphatidyl-D-myo-inositol_4
+  name: 1-Phosphatidyl-D-myo-inositol 4
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_5-bisphosphate
+  name: 5-bisphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_3263_EC2_7_1_68_Mus_musculus_P70181_ATP
+  name: Reaction catalyzed by 1-phosphatidylinositol-4-phosphate 5-kinase on ATP
+  equation: ATP + 1-Phosphatidyl-1D-myo-inositol 4-phosphate = ADP + 1-Phosphatidyl-D-myo-inositol
+    4,5-bisphosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_1-Phosphatidyl-1D-myo-inositol_4-phosphate
+  products:
+  - species_id: product_ADP
+  - species_id: product_1-Phosphatidyl-D-myo-inositol_4
+  - species_id: product_5-bisphosphate
+  modifiers:
+  - species_id: protein_2_7_1_68_P70181_p67178
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 14425;14426;14427;14428
+  KEGGid: R03469
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:17526; CHEBI:10789;
+    CHEBI:57299; CHEBI:40553; CHEBI:18348; CHEBI:13236; CHEBI:28910; CHEBI:10841;
+    CHEBI:2359; CHEBI:87518; CHEBI:40938; CHEBI:456216; CHEBI:22249; CHEBI:2342; CHEBI:15422;
+    CHEBI:13222; CHEBI:22244
+
+    KEGG IDs: KEGG:C01277; KEGG:C00002; KEGG:C04021; KEGG:C00008; KEGG:C04637'
+measurements:
+- id: measurement_2_7_1_68_Mus_musculus_P70181_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: null
+  temperature_unit: null
+parameters:
+- id: 2_7_1_68_Mus_musculus_P70181_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.3e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '9535851'
+buffer:
+  buffer: 50 mM Tris/HCl, 100 mM NaCl, 15 mM MgCl2, 1 mM EGTA
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 67178
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9535851/
+  pubmed_id: '9535851'
+  doi: null

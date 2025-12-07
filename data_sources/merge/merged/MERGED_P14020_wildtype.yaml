@@ -1,0 +1,299 @@
+version: '2.0'
+created: '2025-11-20T13:40:12.229384'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_4_1_83_P14020_p47587
+  name: dolichyl-phosphate beta-D-mannosyltransferase
+  ecnumber: 2.4.1.83
+  organism: Saccharomyces cerevisiae
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P14020
+  wildtype_sequence: MSIEYSVIVPAYHEKLNIKPLTTRLFAGMSPEMAKKTELIFVDDNSQDGSVEEVDALAHQGYNVRIIVRTNERGLSSAVLKGFYEAKGQYLVCMDADLQHPPETVPKLFESLHDHAFTLGTRYAPGVGIDKDWPMYRRVISSTARMMARPLTIASDPMSGFFGLQKKYLENCNPRDINSQGFKIALELLAKLPLPRDPRVAIGEVPFTFGVRTEGESKLSGKVIIQYLQQLKELYVFKFGANNLILFITFWSILFFYVCYQLYHLVF
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_GDPmannose
+  name: GDPmannose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Dolichyl_phosphate
+  name: Dolichyl phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Dolichyl_phosphate_D-mannose
+  name: Dolichyl phosphate D-mannose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_GDP
+  name: GDP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1301_EC2_4_1_83_Saccharomyces_cerevisiae_P14020_GDPmannose
+  name: Reaction catalyzed by dolichyl-phosphate beta-D-mannosyltransferase on GDPmannose
+  equation: GDPmannose + Dolichyl phosphate = GDP + Dolichyl phosphate D-mannose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_GDPmannose
+  - species_id: substrate_Dolichyl_phosphate
+  products:
+  - species_id: product_Dolichyl_phosphate_D-mannose
+  - species_id: product_GDP
+  modifiers:
+  - species_id: protein_2_4_1_83_P14020_p47587
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01009
+  notes: 'ChEBI IDs: CHEBI:15809; CHEBI:13327; CHEBI:14379; CHEBI:16214; CHEBI:17552;
+    CHEBI:13328; CHEBI:65180; CHEBI:21159; CHEBI:24448; CHEBI:42729; CHEBI:15820;
+    CHEBI:5225; CHEBI:21168; CHEBI:57527; CHEBI:5212; CHEBI:13340; CHEBI:58189; CHEBI:13333;
+    CHEBI:42738
+
+    KEGG IDs: KEGG:C03862; KEGG:C00096; KEGG:C00035; KEGG:C00110'
+- id: sabiork_1301_EC2_4_1_83_Saccharomyces_cerevisiae_P14020_GDPmannose
+  name: Reaction catalyzed by dolichyl-phosphate beta-D-mannosyltransferase on GDPmannose
+  equation: GDPmannose + Dolichyl phosphate = GDP + Dolichyl phosphate D-mannose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_GDPmannose
+  - species_id: substrate_Dolichyl_phosphate
+  products:
+  - species_id: product_GDP
+  - species_id: product_Dolichyl_phosphate_D-mannose
+  modifiers:
+  - species_id: protein_2_4_1_83_P14020_p47586
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01009
+  notes: 'ChEBI IDs: CHEBI:15809; CHEBI:13327; CHEBI:14379; CHEBI:16214; CHEBI:17552;
+    CHEBI:13328; CHEBI:65180; CHEBI:21159; CHEBI:24448; CHEBI:42729; CHEBI:15820;
+    CHEBI:5225; CHEBI:21168; CHEBI:57527; CHEBI:5212; CHEBI:13340; CHEBI:58189; CHEBI:13333;
+    CHEBI:42738
+
+    KEGG IDs: KEGG:C03862; KEGG:C00096; KEGG:C00035; KEGG:C00110'
+measurements:
+- id: measurement_2_4_1_83_Saccharomyces_cerevisiae_P14020_GDPmannose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_4_1_83_Saccharomyces_cerevisiae_P14020_GDPmannose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_4_1_83_Saccharomyces_cerevisiae_P14020_GDPmannose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 12.1
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_GDPmannose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15548536'
+- id: 2_4_1_83_Saccharomyces_cerevisiae_P14020_GDPmannose_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 10000000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_GDPmannose
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15548536'
+- id: 2_4_1_83_Saccharomyces_cerevisiae_P14020_GDPmannose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.2e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_GDPmannose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15548536'
+- id: 2_4_1_83_Saccharomyces_cerevisiae_P14020_GDPmannose_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 4.058333e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_GDPmannose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15548536'
+- id: 2_4_1_83_Saccharomyces_cerevisiae_P14020_GDPmannose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.1e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_GDPmannose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15548536'
+- id: 2_4_1_83_Saccharomyces_cerevisiae_P14020_GDPmannose_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.3541665e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_GDPmannose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15548536'
+- id: 2_4_1_83_Saccharomyces_cerevisiae_P14020_GDPmannose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 70.9
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_GDPmannose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15548536'
+- id: 2_4_1_83_Saccharomyces_cerevisiae_P14020_GDPmannose_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 64000000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_GDPmannose
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15548536'
+buffer:
+  buffer: 30 mM Hepes, 150 ¦ÌM EDTA, 30 ¦ÌM dithiothreitol, 3% glycerol, 90 mM NaCl,
+    0.25% Triton X-100, 10 mM MnCl2, 1% Me2SO
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 47587
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15548536/
+  pubmed_id: '15548536'
+  doi: null
+name: Merged entry for P14020 wildtype
+description: 'Merged from 2 files: SABIO_EC2.4.1.83_Saccharomyces_cerevisiae__P14020_s_GDPmannose_2.yaml,
+  SABIO_EC2.4.1.83_Saccharomyces_cerevisiae__P14020_s_GDPmannose.yaml'

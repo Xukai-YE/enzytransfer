@@ -1,0 +1,166 @@
+name: SABIO-RK Entry 59136
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 59136
+created: '2025-10-28T16:25:41.103300'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_2_1_21_Q1XIR9_Q1XH05_Q1XH04_D5MTF8_p59136
+  name: beta-glucosidase
+  sequence: null
+  ecnumber: 3.2.1.21
+  organism: rat
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q1XIR9; Q1XH05; Q1XH04; D5MTF8
+complexes: null
+small_molecules:
+- id: substrate_7-O-beta-D-Glucosyl-5
+  name: 7-O-beta-D-Glucosyl-5
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_7
+  name: '7'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_4_-trihydroxyflavone
+  name: 4'-trihydroxyflavone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Apigenin
+  name: Apigenin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_beta-D-Glucose
+  name: beta-D-Glucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_12345_EC3_2_1_21_rat_Q1XIR9_Q1XH05_Q1XH04_D5MTF8_7-O-beta-D-Glucosyl-5
+  name: Reaction catalyzed by beta-glucosidase on 7-O-beta-D-Glucosyl-5
+  equation: 7-O-beta-D-Glucosyl-5,7,4'-trihydroxyflavone + H2O = Apigenin + beta-D-Glucose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_7-O-beta-D-Glucosyl-5
+  - species_id: substrate_7
+  - species_id: substrate_4_-trihydroxyflavone
+  products:
+  - species_id: product_Apigenin
+  - species_id: product_beta-D-Glucose
+  modifiers:
+  - species_id: protein_3_2_1_21_Q1XIR9_Q1XH05_Q1XH04_D5MTF8_p59136
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:10397; CHEBI:12252;
+    CHEBI:12373; CHEBI:12084; CHEBI:22795; CHEBI:42857; CHEBI:41979; CHEBI:77722;
+    CHEBI:22588; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:18388;
+    CHEBI:15377; CHEBI:13352; CHEBI:43228; CHEBI:44292; CHEBI:58470; CHEBI:33806;
+    CHEBI:2768; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:41140; CHEBI:20780; CHEBI:15903;
+    CHEBI:2282; CHEBI:16778; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00001; KEGG:C04608; KEGG:C01477; KEGG:C00221'
+measurements:
+- id: measurement_3_2_1_21_rat_Q1XIR9_Q1XH05_Q1XH04_D5MTF8_7-O-beta-D-Glucosyl-5
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 5.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 3_2_1_21_rat_Q1XIR9_Q1XH05_Q1XH04_D5MTF8_7-O-beta-D-Glucosyl-5_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 3.9e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_7-O-beta-D-Glucosyl-5
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10750901'
+buffer:
+  buffer: 100 mM citrate, 200 mM phosphate (McIlvaine)
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 59136
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10750901/
+  pubmed_id: '10750901'
+  doi: null

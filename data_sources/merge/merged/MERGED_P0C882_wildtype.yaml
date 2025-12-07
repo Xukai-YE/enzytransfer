@@ -1,0 +1,359 @@
+version: '2.0'
+created: '2025-11-20T13:40:19.469707'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_5_1_41_P0C882_p49150
+  name: phosphoglycerol geranylgeranyltransferase
+  ecnumber: 2.5.1.41
+  organism: Methanothermobacter marburgensis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P0C882
+  wildtype_sequence: MKVEDYFHDILGERKIHLTLIDPEEQTPEEAVEIAEAAIRGGTDGIMLGGSTTDSSELDATAGALRENIDVPIILFPGNTTGVSRHADAIFFMSLLNSNNPYWIIGAQALGAPAVKKMGIEALPMGYLVVEPGGTVGWVGDTKPVPRNKPDIAAAYAMAAEFLGMRLFYLEAGSGAPQHVPEEMISLVKRCTDQILIVGGGIRTGADAARVAGAGADIIVTGTVVENSSNVEDKIREIVEGMGSL
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_sn-Glyceryl_phosphate
+  name: sn-Glyceryl phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Geranylgeranyl_diphosphate
+  name: Geranylgeranyl diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_sn-3-O-_Geranylgeranyl_glycerol_1-phosphate
+  name: sn-3-O-(Geranylgeranyl)glycerol 1-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_3878_EC2_5_1_41_Methanothermobacter_marburgensis_P0C882_sn-Glyceryl_phosphate
+  name: Reaction catalyzed by phosphoglycerol geranylgeranyltransferase on sn-Glyceryl
+    phosphate
+  equation: Geranylgeranyl diphosphate + sn-Glyceryl phosphate = sn-3-O-(Geranylgeranyl)glycerol
+    1-phosphate + Diphosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_sn-Glyceryl_phosphate
+  - species_id: substrate_Geranylgeranyl_diphosphate
+  products:
+  - species_id: product_sn-3-O-_Geranylgeranyl_glycerol_1-phosphate
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_2_5_1_41_P0C882_p49150
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:33019; CHEBI:35782; CHEBI:13420; CHEBI:18361; CHEBI:8683;
+    CHEBI:33017; CHEBI:45067; CHEBI:15831; CHEBI:45208; CHEBI:48861; CHEBI:29888;
+    CHEBI:45212; CHEBI:42009; CHEBI:231935; CHEBI:14336; CHEBI:16890; CHEBI:16206;
+    CHEBI:33018
+
+    KEGG IDs: KEGG:C04590; KEGG:C00353; KEGG:C00013; KEGG:C03189'
+- id: sabiork_3878_EC2_5_1_41_Methanothermobacter_marburgensis_P0C882_Geranylgeranyl_diphosphate
+  name: Reaction catalyzed by phosphoglycerol geranylgeranyltransferase on Geranylgeranyl
+    diphosphate
+  equation: Geranylgeranyl diphosphate + sn-Glyceryl phosphate = sn-3-O-(Geranylgeranyl)glycerol
+    1-phosphate + Diphosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Geranylgeranyl_diphosphate
+  - species_id: substrate_sn-Glyceryl_phosphate
+  products:
+  - species_id: product_sn-3-O-_Geranylgeranyl_glycerol_1-phosphate
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_2_5_1_41_P0C882_p49151
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:33019; CHEBI:35782; CHEBI:13420; CHEBI:18361; CHEBI:8683;
+    CHEBI:33017; CHEBI:45067; CHEBI:15831; CHEBI:45208; CHEBI:48861; CHEBI:29888;
+    CHEBI:45212; CHEBI:42009; CHEBI:231935; CHEBI:14336; CHEBI:16890; CHEBI:16206;
+    CHEBI:33018
+
+    KEGG IDs: KEGG:C04590; KEGG:C00353; KEGG:C00013; KEGG:C03189'
+- id: sabiork_3878_EC2_5_1_41_bovine_P0C882_sn-Glyceryl_phosphate
+  name: Reaction catalyzed by phosphoglycerol geranylgeranyltransferase on sn-Glyceryl
+    phosphate
+  equation: Geranylgeranyl diphosphate + sn-Glyceryl phosphate = sn-3-O-(Geranylgeranyl)glycerol
+    1-phosphate + Diphosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_sn-Glyceryl_phosphate
+  - species_id: substrate_Geranylgeranyl_diphosphate
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_sn-3-O-_Geranylgeranyl_glycerol_1-phosphate
+  modifiers:
+  - species_id: protein_2_5_1_41_P0C882_p36812
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:33019; CHEBI:35782; CHEBI:13420; CHEBI:18361; CHEBI:8683;
+    CHEBI:33017; CHEBI:45067; CHEBI:15831; CHEBI:45208; CHEBI:48861; CHEBI:29888;
+    CHEBI:45212; CHEBI:42009; CHEBI:231935; CHEBI:14336; CHEBI:16890; CHEBI:16206;
+    CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00353; KEGG:C04590; KEGG:C03189'
+measurements:
+- id: measurement_2_5_1_41_Methanothermobacter_marburgensis_P0C882_sn-Glyceryl_phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 55.0
+  temperature_unit: °C
+- id: measurement_2_5_1_41_Methanothermobacter_marburgensis_P0C882_Geranylgeranyl_diphosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 55.0
+  temperature_unit: °C
+- id: measurement_2_5_1_41_bovine_P0C882_sn-Glyceryl_phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 60.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_5_1_41_Methanothermobacter_marburgensis_P0C882_sn-Glyceryl_phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.35e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_sn-Glyceryl_phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 55.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11732904'
+- id: 2_5_1_41_Methanothermobacter_marburgensis_P0C882_sn-Glyceryl_phosphate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.34
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_sn-Glyceryl_phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 55.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11732904'
+- id: 2_5_1_41_Methanothermobacter_marburgensis_P0C882_sn-Glyceryl_phosphate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 6.66667e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_sn-Glyceryl_phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 55.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11732904'
+- id: 2_5_1_41_Methanothermobacter_marburgensis_P0C882_Geranylgeranyl_diphosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.06e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Geranylgeranyl_diphosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 55.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11732904'
+- id: 2_5_1_41_Methanothermobacter_marburgensis_P0C882_Geranylgeranyl_diphosphate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 6.66667e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Geranylgeranyl_diphosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 55.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11732904'
+- id: 2_5_1_41_Methanothermobacter_marburgensis_P0C882_Geranylgeranyl_diphosphate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.34
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Geranylgeranyl_diphosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 55.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11732904'
+- id: 2_5_1_41_bovine_P0C882_sn-Glyceryl_phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.1e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_sn-Glyceryl_phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8408023'
+- id: 2_5_1_41_bovine_P0C882_sn-Glyceryl_phosphate_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.1e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_sn-Glyceryl_phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8408023'
+- id: 2_5_1_41_bovine_P0C882_sn-Glyceryl_phosphate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 6.83333e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_sn-Glyceryl_phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8408023'
+buffer:
+  buffer: 50 mM bicyclo[2.2.1]hept-5-ene-2,3-dicarboxylic anhydride, 10 mM 2-mercaptoethanol,
+    3 mM MgCl2, 0.1 mg/ml bovine serum albumin; 50 mM Tris, 10 mM MgCl2, 5 mM BME,
+    0.2% Tween 80
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 49150
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11732904/
+  pubmed_id: '11732904'
+  doi: null
+- title: Reference for SABIO-RK entry 36812
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/8408023/
+  pubmed_id: '8408023'
+  doi: null
+name: Merged entry for P0C882 wildtype
+description: 'Merged from 3 files: SABIO_EC2.5.1.41_Methanothermobacter_marburgensis__P0C882_s_sn-Glyceryl.yaml,
+  SABIO_EC2.5.1.41_Methanothermobacter_marburgensis__P0C882_s_Geranylgeranyl.yaml,
+  SABIO_EC2.5.1.41_bovine__P0C882_s_sn-Glyceryl.yaml'

@@ -1,0 +1,216 @@
+name: SABIO-RK Entry 63004
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 63004
+created: '2025-10-28T16:41:52.262253'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_6_1_1_15_O26708_O27552_p63004
+  name: proline---tRNA ligase
+  sequence: null
+  ecnumber: 6.1.1.15
+  organism: rat
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: O26708; O27552
+complexes: null
+small_molecules:
+- id: substrate_tRNA_Pro_
+  name: tRNA(Pro)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_L-Proline
+  name: L-Proline
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Prolyl-tRNA_Pro_
+  name: L-Prolyl-tRNA(Pro)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_AMP
+  name: AMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Bovine_serum_albumin
+  name: Bovine serum albumin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_404_EC6_1_1_15_rat_O26708_O27552_tRNA_Pro_
+  name: Reaction catalyzed by proline---tRNA ligase on tRNA(Pro)
+  equation: ATP + L-Proline + tRNA(Pro) = Diphosphate + AMP + L-Prolyl-tRNA(Pro)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_tRNA_Pro_
+  - species_id: substrate_ATP
+  - species_id: substrate_L-Proline
+  products:
+  - species_id: product_L-Prolyl-tRNA_Pro_
+  - species_id: product_Diphosphate
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_6_1_1_15_O26708_O27552_p63004
+    role: BIOCATALYST
+  - species_id: activator_Bovine_serum_albumin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03661
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:10789; CHEBI:57299; CHEBI:8683;
+    CHEBI:29177; CHEBI:40726; CHEBI:22245; CHEBI:13154; CHEBI:29154; CHEBI:10688;
+    CHEBI:40510; CHEBI:42067; CHEBI:58054; CHEBI:22242; CHEBI:15184; CHEBI:47222;
+    CHEBI:45159; CHEBI:13736; CHEBI:32862; CHEBI:33019; CHEBI:17203; CHEBI:456215;
+    CHEBI:26271; CHEBI:13236; CHEBI:45067; CHEBI:40786; CHEBI:40826; CHEBI:16027;
+    CHEBI:2356; CHEBI:10841; CHEBI:29888; CHEBI:2359; CHEBI:35782; CHEBI:6286; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:32864; CHEBI:33017; CHEBI:45040; CHEBI:45208;
+    CHEBI:22249; CHEBI:32871; CHEBI:15422; CHEBI:32872; CHEBI:21373; CHEBI:184637;
+    CHEBI:60039; CHEBI:13740; CHEBI:13234; CHEBI:40721; CHEBI:50342; CHEBI:45100;
+    CHEBI:45212; CHEBI:42009; CHEBI:13235; CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C16435; KEGG:C00013; KEGG:C01649; KEGG:C00148; KEGG:C02702; KEGG:C00002;
+    KEGG:C00020'
+measurements:
+- id: measurement_6_1_1_15_rat_O26708_O27552_tRNA_Pro_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 50.0
+  temperature_unit: °C
+parameters:
+- id: 6_1_1_15_rat_O26708_O27552_tRNA_Pro__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.1e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Pro_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15917221'
+- id: 6_1_1_15_rat_O26708_O27552_tRNA_Pro__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 6.9
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Pro_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15917221'
+- id: 6_1_1_15_rat_O26708_O27552_tRNA_Pro__Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.4e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Pro_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15917221'
+buffer:
+  buffer: 100 mM Hepes, 125 mM dipotassium glutarate, 250 mM KCl, 10 mM MgCl2, 10
+    mM dithiothreitol
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 63004
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15917221/
+  pubmed_id: '15917221'
+  doi: null

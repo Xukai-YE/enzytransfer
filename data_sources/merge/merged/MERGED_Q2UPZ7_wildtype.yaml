@@ -1,0 +1,229 @@
+version: '2.0'
+created: '2025-11-20T13:41:10.381232'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_4_11_21_Q2UPZ7_p43400
+  name: aspartyl aminopeptidase
+  ecnumber: 3.4.11.21
+  organism: Aspergillus oryzae
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q2UPZ7
+  wildtype_sequence: MTSKIAQNLKQPALDFLSFVNASPTPFHAVQSAKELLSKAGFQEIKEKDSWSSTCRPGGKYYLTRNSSTIVAFAIGKKWKPGNPISMIGAHTDSPVLRIKPVSNKRGEGFVQVGVETYGGGIWHTWFDRDLGVAGRAMVRTGDGSIVQKLVKIDRPILRIPTLAIHLDRQETFAFNKETQLFPIAGLVAAELNRTADSTATGEKTAANNETEKGDFAPLKSVTERHHPYLVELIAAEAGVKPDDILDFEMILFDTQKSCLGGLLEEFVFSPRLDNLNSSFCATVGLIDSVADASALDDEPSIRLIALFDHEEIGSRTAQGADSNVLPAIIRRLSVLPSSTSGNEDLATAFEETLSTSFLLSADMAHAVHPNYAAKYENDHRPEINKGPVIKINANARYATNSPGIVLLQEVARKAAEDGGEGVPLQLFVVRNDSSCGSTIGPMLSAALGARTLDLGNPQLSMHSIRETGGTYDVGHSIRLFTSFFKHYSNTSKTIFVD
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Angiotensin_II
+  name: Angiotensin II
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Angiotensin_III
+  name: Angiotensin III
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Aspartate
+  name: L-Aspartate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Aspartic_acid-p-nitroanilide
+  name: Aspartic acid-p-nitroanilide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4-Nitroaniline
+  name: 4-Nitroaniline
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_12820_EC3_4_11_21_Aspergillus_oryzae_Q2UPZ7_Angiotensin_II
+  name: Reaction catalyzed by aspartyl aminopeptidase on Angiotensin II
+  equation: H2O + Angiotensin II = L-Aspartate + Angiotensin III
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Angiotensin_II
+  products:
+  - species_id: product_Angiotensin_III
+  - species_id: product_L-Aspartate
+  modifiers:
+  - species_id: protein_3_4_11_21_Q2UPZ7_p43400
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:29991; CHEBI:21247;
+    CHEBI:21244; CHEBI:6193; CHEBI:29993; CHEBI:17053; CHEBI:42857; CHEBI:41979; CHEBI:40900;
+    CHEBI:13085; CHEBI:40942; CHEBI:42043; CHEBI:40913; CHEBI:131170; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:2719; CHEBI:29958; CHEBI:15377; CHEBI:13352; CHEBI:58506;
+    CHEBI:43228; CHEBI:40853; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:29373; CHEBI:44701; CHEBI:48432
+
+    KEGG IDs: KEGG:C15848; KEGG:C00001; KEGG:C02135; KEGG:C00049'
+- id: sabiork_12819_EC3_4_11_21_Aspergillus_oryzae_Q2UPZ7_Aspartic_acid-p-nitroanilide
+  name: Reaction catalyzed by aspartyl aminopeptidase on Aspartic acid-p-nitroanilide
+  equation: H2O + Aspartic acid-p-nitroanilide = L-Aspartate + 4-Nitroaniline
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Aspartic_acid-p-nitroanilide
+  products:
+  - species_id: product_4-Nitroaniline
+  - species_id: product_L-Aspartate
+  modifiers:
+  - species_id: protein_3_4_11_21_Q2UPZ7_p43399
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:44545; CHEBI:29991;
+    CHEBI:21247; CHEBI:21244; CHEBI:20455; CHEBI:6193; CHEBI:29993; CHEBI:17053; CHEBI:42857;
+    CHEBI:41979; CHEBI:40900; CHEBI:13085; CHEBI:40942; CHEBI:42043; CHEBI:40913;
+    CHEBI:29958; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:12032; CHEBI:15377;
+    CHEBI:13352; CHEBI:43228; CHEBI:40853; CHEBI:44292; CHEBI:33806; CHEBI:10743;
+    CHEBI:29374; CHEBI:5585; CHEBI:1910; CHEBI:17064; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00001; KEGG:C02126; KEGG:C00049'
+measurements:
+- id: measurement_3_4_11_21_Aspergillus_oryzae_Q2UPZ7_Angiotensin_II
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_3_4_11_21_Aspergillus_oryzae_Q2UPZ7_Aspartic_acid-p-nitroanilide
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_4_11_21_Aspergillus_oryzae_Q2UPZ7_Angiotensin_II_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.8e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Angiotensin_II
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18828788'
+- id: 3_4_11_21_Aspergillus_oryzae_Q2UPZ7_Aspartic_acid-p-nitroanilide_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00078
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Aspartic_acid-p-nitroanilide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18828788'
+- id: 3_4_11_21_Aspergillus_oryzae_Q2UPZ7_Aspartic_acid-p-nitroanilide_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 7.4e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Aspartic_acid-p-nitroanilide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18828788'
+buffer:
+  buffer: 20 mM Tris-HCl, 10% (w/v) glycerol
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 43400
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/18828788/
+  pubmed_id: '18828788'
+  doi: null
+name: Merged entry for Q2UPZ7 wildtype
+description: 'Merged from 2 files: SABIO_EC3.4.11.21_Aspergillus_oryzae__Q2UPZ7_s_Angiotensin.yaml,
+  SABIO_EC3.4.11.21_Aspergillus_oryzae__Q2UPZ7_s_Aspartic.yaml'

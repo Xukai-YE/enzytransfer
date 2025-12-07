@@ -1,0 +1,272 @@
+version: '2.0'
+created: '2025-11-20T13:41:02.670255'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_2_1_14_B2VQD9_p44808
+  name: chitinase
+  ecnumber: 3.2.1.14
+  organism: Trichoderma harzianum
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: B2VQD9
+  wildtype_sequence: MTRLLDASFLLLPVIASTLFGTASAQSTCATKGKPAGKVLQGYWENWDGSANGVHPGFGWTPIENPVIAQNGYNVINAANSXQPRLIVRLCGKMAWMLLLKLRHQPKCARPKQLAPLSSCLLEVLPLASTSALVLSPTSSTASIGPGLKQYNFDGIDIDIETGLVGSGSIGTLSTSQANLIRIIDGVLAQMPSNFGLTMAPETAYVTGGSVVYGSIWGSYLPIIKKYVDNGRLWWLNMQYYNGDMYGCSGDSYAAGTVQGFTAQTDCLNNGITIQGTTIKVPYSMQVPGLPAQSGAGGGYMTPSLVGQAWDHYNGALKGLMTWSINWDGSKNWTFADNLLTRI
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Chitin
+  name: Chitin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N-Acetyl-D-glucosamine
+  name: N-Acetyl-D-glucosamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Chitin
+  name: Chitin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_p-Nitrophenyl-N
+  name: p-Nitrophenyl-N
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_N_-diacetylchitobiose
+  name: N'-diacetylchitobiose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_p-Nitrophenol
+  name: p-Nitrophenol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N
+  name: N
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N_-Diacetylchitobiose
+  name: N'-Diacetylchitobiose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1440_EC3_2_1_14_Trichoderma_harzianum_B2VQD9_Chitin
+  name: Reaction catalyzed by chitinase on Chitin
+  equation: H2O + Chitin = N-Acetyl-D-glucosamine + Chitin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: product_Chitin
+  products:
+  - species_id: product_N-Acetyl-D-glucosamine
+  - species_id: product_Chitin
+  modifiers:
+  - species_id: protein_3_2_1_14_B2VQD9_p44808
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01206
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:12563; CHEBI:17411;
+    CHEBI:21517; CHEBI:42857; CHEBI:41979; CHEBI:12455; CHEBI:42043; CHEBI:17029;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:43228;
+    CHEBI:7123; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:58134;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00140; KEGG:C00001; KEGG:C00461'
+- id: sabiork_12922_EC3_2_1_14_Trichoderma_harzianum_B2VQD9_p-Nitrophenyl-N
+  name: Reaction catalyzed by chitinase on p-Nitrophenyl-N
+  equation: H2O + p-Nitrophenyl-N,N'-diacetylchitobiose = p-Nitrophenol + N,N'-Diacetylchitobiose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_p-Nitrophenyl-N
+  - species_id: substrate_N_-diacetylchitobiose
+  products:
+  - species_id: product_p-Nitrophenol
+  - species_id: product_N
+  - species_id: product_N_-Diacetylchitobiose
+  modifiers:
+  - species_id: protein_3_2_1_14_B2VQD9_p44810
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:20457; CHEBI:44390;
+    CHEBI:3597; CHEBI:28681; CHEBI:42857; CHEBI:16836; CHEBI:41979; CHEBI:12034; CHEBI:42043;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:43228;
+    CHEBI:44292; CHEBI:57917; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:701011;
+    CHEBI:50672; CHEBI:1913; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00870; KEGG:C00001; KEGG:C01674'
+measurements:
+- id: measurement_3_2_1_14_Trichoderma_harzianum_B2VQD9_Chitin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_3_2_1_14_Trichoderma_harzianum_B2VQD9_p-Nitrophenyl-N
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_2_1_14_Trichoderma_harzianum_B2VQD9_Chitin_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 8.66667e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_Chitin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1606968'
+- id: 3_2_1_14_Trichoderma_harzianum_B2VQD9_Chitin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.5
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_Chitin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1606968'
+- id: 3_2_1_14_Trichoderma_harzianum_B2VQD9_p-Nitrophenyl-N_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000285
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_p-Nitrophenyl-N
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1606968'
+- id: 3_2_1_14_Trichoderma_harzianum_B2VQD9_p-Nitrophenyl-N_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0007
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_p-Nitrophenyl-N
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1606968'
+buffer:
+  buffer: 50 mM Phosphate/KOH; 6.36 mM Phosphate/KOH
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 44808
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/1606968/
+  pubmed_id: '1606968'
+  doi: null
+name: Merged entry for B2VQD9 wildtype
+description: 'Merged from 2 files: SABIO_EC3.2.1.14_Trichoderma_harzianum__B2VQD9_s_Chitin.yaml,
+  SABIO_EC3.2.1.14_Trichoderma_harzianum__B2VQD9_s_p-Nitrophenyl-N.yaml'

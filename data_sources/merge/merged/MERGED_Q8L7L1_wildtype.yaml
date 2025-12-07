@@ -1,0 +1,484 @@
+version: '2.0'
+created: '2025-11-20T13:40:36.866181'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_91_Q8L7L1_p71909
+  name: sphinganine kinase
+  ecnumber: 2.7.1.91
+  organism: Arabidopsis thaliana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q8L7L1
+  wildtype_sequence: MDRQPERENDELPSPAIISDRVLVNGVVTPLTLTAEGELRSTESGRRKSTLAKEILSFVVEGNKVRVKTLVEKGGGICCRGSAGDYARNDFVFEPLSDESRKLWSDKFHQHLVSLGRPKKLLVFVNPFGGKKTARKIFQEEVKPLFEDANIQLEIQETKYQLHAKEIVRSMDVSKYDGIVCVSGDGILVEVVNGLLEREDWKTAIKLPIGMVPAGSGNGMIKSLLEPVGLPCSATSATISIIRGRTRSLDVATISQGTTKFFSVLMLAWGLVADIDIESEKFRWMGSARFDIYGLQRIICLRQYHGRILFVPAPGFESYGQRASCSIDKEPSGSDKTLVYQGPDSKLENLDWREMKGPFVSVWLHNVPWGAENTLAAPDAKFSDGFLDLIVMKDCPKLALLSLMTKLSDGTHVQSPYASYLKVKAFVLEPGARIDEPDKEGIIDSDGEVLARGRKSYKCDQKALMSYDKLQISVDQGLATLFSPE
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Phytosphingosine
+  name: Phytosphingosine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mg2_
+  name: Mg2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Phytosphingosine_1-phosphate
+  name: Phytosphingosine 1-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Triton_X-100
+  name: Triton X-100
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_1_2-Diacyl-sn-glycerol_3-phosphate_Triton_X-100
+  name: 1,2-Diacyl-sn-glycerol 3-phosphate; Triton X-100
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_15958_EC2_7_1_91_Arabidopsis_thaliana_Q8L7L1_ATP
+  name: Reaction catalyzed by sphinganine kinase on ATP
+  equation: ATP + Phytosphingosine = ADP + Phytosphingosine 1-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Phytosphingosine
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_ADP
+  - species_id: product_Phytosphingosine_1-phosphate
+  modifiers:
+  - species_id: protein_2_7_1_91_Q8L7L1_p71909
+    role: BIOCATALYST
+  - species_id: activator_Triton_X-100
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:46970; CHEBI:13379; CHEBI:40553; CHEBI:6635; CHEBI:13236; CHEBI:10841; CHEBI:2359;
+    CHEBI:87518; CHEBI:49736; CHEBI:40938; CHEBI:456216; CHEBI:9750; CHEBI:22249;
+    CHEBI:2342; CHEBI:15422; CHEBI:18420; CHEBI:46961; CHEBI:25112; CHEBI:13222; CHEBI:22244;
+    CHEBI:39127
+
+    KEGG IDs: KEGG:C12144; KEGG:C00305; KEGG:C00002; KEGG:C11623; KEGG:C00008'
+- id: sabiork_15958_EC2_7_1_91_Arabidopsis_thaliana_Q8L7L1_ATP
+  name: Reaction catalyzed by sphinganine kinase on ATP
+  equation: ATP + Phytosphingosine = ADP + Phytosphingosine 1-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Phytosphingosine
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_ADP
+  - species_id: product_Phytosphingosine_1-phosphate
+  modifiers:
+  - species_id: protein_2_7_1_91_Q8L7L1_p71912
+    role: BIOCATALYST
+  - species_id: activator_1_2-Diacyl-sn-glycerol_3-phosphate_Triton_X-100
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:46970; CHEBI:13379; CHEBI:40553; CHEBI:6635; CHEBI:13236; CHEBI:10841; CHEBI:2359;
+    CHEBI:87518; CHEBI:57739; CHEBI:49736; CHEBI:40938; CHEBI:16337; CHEBI:456216;
+    CHEBI:9750; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:18420; CHEBI:46961; CHEBI:25112;
+    CHEBI:13222; CHEBI:29089; CHEBI:22244; CHEBI:39127
+
+    KEGG IDs: KEGG:C12144; KEGG:C00305; KEGG:C00002; KEGG:C00416; KEGG:C11623; KEGG:C00008'
+- id: sabiork_15958_EC2_7_1_91_Arabidopsis_thaliana_Q8L7L1_Phytosphingosine
+  name: Reaction catalyzed by sphinganine kinase on Phytosphingosine
+  equation: ATP + Phytosphingosine = ADP + Phytosphingosine 1-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Phytosphingosine
+  - species_id: substrate_ATP
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_ADP
+  - species_id: product_Phytosphingosine_1-phosphate
+  modifiers:
+  - species_id: protein_2_7_1_91_Q8L7L1_p71910
+    role: BIOCATALYST
+  - species_id: activator_Triton_X-100
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:46970; CHEBI:13379; CHEBI:40553; CHEBI:6635; CHEBI:13236; CHEBI:10841; CHEBI:2359;
+    CHEBI:87518; CHEBI:49736; CHEBI:40938; CHEBI:456216; CHEBI:9750; CHEBI:22249;
+    CHEBI:2342; CHEBI:15422; CHEBI:18420; CHEBI:46961; CHEBI:25112; CHEBI:13222; CHEBI:22244;
+    CHEBI:39127
+
+    KEGG IDs: KEGG:C12144; KEGG:C00305; KEGG:C00002; KEGG:C11623; KEGG:C00008'
+- id: sabiork_15958_EC2_7_1_91_Arabidopsis_thaliana_Q8L7L1_ATP
+  name: Reaction catalyzed by sphinganine kinase on ATP
+  equation: ATP + Phytosphingosine = ADP + Phytosphingosine 1-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Phytosphingosine
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Phytosphingosine_1-phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_91_Q8L7L1_p71914
+    role: BIOCATALYST
+  - species_id: activator_1_2-Diacyl-sn-glycerol_3-phosphate_Triton_X-100
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:46970; CHEBI:13379; CHEBI:40553; CHEBI:6635; CHEBI:13236; CHEBI:10841; CHEBI:2359;
+    CHEBI:87518; CHEBI:57739; CHEBI:49736; CHEBI:40938; CHEBI:16337; CHEBI:456216;
+    CHEBI:9750; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:18420; CHEBI:46961; CHEBI:25112;
+    CHEBI:13222; CHEBI:29089; CHEBI:22244; CHEBI:39127
+
+    KEGG IDs: KEGG:C12144; KEGG:C00305; KEGG:C00002; KEGG:C00416; KEGG:C11623; KEGG:C00008'
+- id: sabiork_15958_EC2_7_1_91_Arabidopsis_thaliana_Q8L7L1_Phytosphingosine
+  name: Reaction catalyzed by sphinganine kinase on Phytosphingosine
+  equation: ATP + Phytosphingosine = ADP + Phytosphingosine 1-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Phytosphingosine
+  - species_id: substrate_ATP
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Phytosphingosine_1-phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_91_Q8L7L1_p71913
+    role: BIOCATALYST
+  - species_id: activator_1_2-Diacyl-sn-glycerol_3-phosphate_Triton_X-100
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:46970; CHEBI:13379; CHEBI:40553; CHEBI:6635; CHEBI:13236; CHEBI:10841; CHEBI:2359;
+    CHEBI:87518; CHEBI:57739; CHEBI:49736; CHEBI:40938; CHEBI:16337; CHEBI:456216;
+    CHEBI:9750; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:18420; CHEBI:46961; CHEBI:25112;
+    CHEBI:13222; CHEBI:29089; CHEBI:22244; CHEBI:39127
+
+    KEGG IDs: KEGG:C12144; KEGG:C00305; KEGG:C00002; KEGG:C00416; KEGG:C11623; KEGG:C00008'
+- id: sabiork_15958_EC2_7_1_91_Arabidopsis_thaliana_Q8L7L1_Phytosphingosine
+  name: Reaction catalyzed by sphinganine kinase on Phytosphingosine
+  equation: ATP + Phytosphingosine = ADP + Phytosphingosine 1-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Phytosphingosine
+  - species_id: substrate_ATP
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_ADP
+  - species_id: product_Phytosphingosine_1-phosphate
+  modifiers:
+  - species_id: protein_2_7_1_91_Q8L7L1_p71911
+    role: BIOCATALYST
+  - species_id: activator_1_2-Diacyl-sn-glycerol_3-phosphate_Triton_X-100
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:46970; CHEBI:13379; CHEBI:40553; CHEBI:6635; CHEBI:13236; CHEBI:10841; CHEBI:2359;
+    CHEBI:87518; CHEBI:57739; CHEBI:49736; CHEBI:40938; CHEBI:16337; CHEBI:456216;
+    CHEBI:9750; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:18420; CHEBI:46961; CHEBI:25112;
+    CHEBI:13222; CHEBI:29089; CHEBI:22244; CHEBI:39127
+
+    KEGG IDs: KEGG:C12144; KEGG:C00305; KEGG:C00002; KEGG:C00416; KEGG:C11623; KEGG:C00008'
+measurements:
+- id: measurement_2_7_1_91_Arabidopsis_thaliana_Q8L7L1_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_7_1_91_Arabidopsis_thaliana_Q8L7L1_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_7_1_91_Arabidopsis_thaliana_Q8L7L1_Phytosphingosine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_7_1_91_Arabidopsis_thaliana_Q8L7L1_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_7_1_91_Arabidopsis_thaliana_Q8L7L1_Phytosphingosine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_7_1_91_Arabidopsis_thaliana_Q8L7L1_Phytosphingosine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_1_91_Arabidopsis_thaliana_Q8L7L1_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00549
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '21330371'
+- id: 2_7_1_91_Arabidopsis_thaliana_Q8L7L1_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.156667e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '21330371'
+- id: 2_7_1_91_Arabidopsis_thaliana_Q8L7L1_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.046667e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '21330371'
+- id: 2_7_1_91_Arabidopsis_thaliana_Q8L7L1_Phytosphingosine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.153333e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Phytosphingosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '21330371'
+- id: 2_7_1_91_Arabidopsis_thaliana_Q8L7L1_Phytosphingosine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0049
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Phytosphingosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '21330371'
+- id: 2_7_1_91_Arabidopsis_thaliana_Q8L7L1_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.002
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '21330371'
+- id: 2_7_1_91_Arabidopsis_thaliana_Q8L7L1_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.613667e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '21330371'
+- id: 2_7_1_91_Arabidopsis_thaliana_Q8L7L1_Phytosphingosine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0022
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Phytosphingosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '21330371'
+- id: 2_7_1_91_Arabidopsis_thaliana_Q8L7L1_Phytosphingosine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.402667e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Phytosphingosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '21330371'
+- id: 2_7_1_91_Arabidopsis_thaliana_Q8L7L1_Phytosphingosine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.486667e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Phytosphingosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '21330371'
+buffer:
+  buffer: 20 mM Tris, 20% glycerol, 1 mM mercaptoethanol, 1 mM EDTA, 1 mM sodium orthovanadate,
+    40 mM beta-glycerophosphate, 15 mM NaF, 10 mg/ml leupeptin, 10 mg/ml aprotinin,
+    10 mg/ml soybean trypsin inhibitor, 1 mM phenylmethylsulfonyl fluoride, 0.5 mM
+    4-deoxypyridoxine
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 71909
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/21330371/
+  pubmed_id: '21330371'
+  doi: null
+name: Merged entry for Q8L7L1 wildtype
+description: 'Merged from 6 files: SABIO_EC2.7.1.91_Arabidopsis_thaliana__Q8L7L1_s_ATP.yaml,
+  SABIO_EC2.7.1.91_Arabidopsis_thaliana__Q8L7L1_s_ATP_2.yaml, SABIO_EC2.7.1.91_Arabidopsis_thaliana__Q8L7L1_s_Phytosphingosine.yaml,
+  SABIO_EC2.7.1.91_Arabidopsis_thaliana__Q8L7L1_s_ATP_3.yaml, SABIO_EC2.7.1.91_Arabidopsis_thaliana__Q8L7L1_s_Phytosphingosine_3.yaml,
+  SABIO_EC2.7.1.91_Arabidopsis_thaliana__Q8L7L1_s_Phytosphingosine_2.yaml'

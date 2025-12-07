@@ -1,0 +1,180 @@
+name: SABIO-RK Entry 52574
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 52574
+created: '2025-10-28T16:01:11.184417'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_6_1_1_20_P08312_P07395_p52574
+  name: phenylalanine---tRNA ligase
+  sequence: null
+  ecnumber: 6.1.1.20
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P08312; P07395
+complexes: null
+small_molecules:
+- id: substrate_tRNA_Phe_
+  name: tRNA(Phe)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_L-Phenylalanine
+  name: L-Phenylalanine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Phenylalanyl-tRNA_Phe_
+  name: L-Phenylalanyl-tRNA(Phe)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_AMP
+  name: AMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_409_EC6_1_1_20_Escherichia_coli_P08312_P07395_tRNA_Phe_
+  name: Reaction catalyzed by phenylalanine---tRNA ligase on tRNA(Phe)
+  equation: ATP + L-Phenylalanine + tRNA(Phe) = Diphosphate + AMP + L-Phenylalanyl-tRNA(Phe)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_tRNA_Phe_
+  - species_id: substrate_ATP
+  - species_id: substrate_L-Phenylalanine
+  products:
+  - species_id: product_L-Phenylalanyl-tRNA_Phe_
+  - species_id: product_Diphosphate
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_6_1_1_20_P08312_P07395_p52574
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03660
+  notes: 'ChEBI IDs: CHEBI:29184; CHEBI:30616; CHEBI:237958; CHEBI:45079; CHEBI:29153;
+    CHEBI:10789; CHEBI:57299; CHEBI:29997; CHEBI:8683; CHEBI:40726; CHEBI:6282; CHEBI:22245;
+    CHEBI:40510; CHEBI:22242; CHEBI:13736; CHEBI:32487; CHEBI:21370; CHEBI:47222;
+    CHEBI:33019; CHEBI:456215; CHEBI:15183; CHEBI:13236; CHEBI:45067; CHEBI:40786;
+    CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841; CHEBI:29888; CHEBI:2359; CHEBI:35782;
+    CHEBI:17295; CHEBI:40938; CHEBI:13420; CHEBI:13151; CHEBI:18361; CHEBI:10687;
+    CHEBI:33017; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:58095; CHEBI:44885;
+    CHEBI:13740; CHEBI:44851; CHEBI:13234; CHEBI:32486; CHEBI:40721; CHEBI:45212;
+    CHEBI:42009; CHEBI:13235; CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C01648; KEGG:C00013; KEGG:C00079; KEGG:C00002; KEGG:C03511; KEGG:C00020'
+measurements:
+- id: measurement_6_1_1_20_Escherichia_coli_P08312_P07395_tRNA_Phe_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 22.0
+  temperature_unit: °C
+parameters:
+- id: 6_1_1_20_Escherichia_coli_P08312_P07395_tRNA_Phe__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.9e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Phe_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14742205'
+buffer:
+  buffer: 180 mM HEPES, 20 mM Magnesium acetate, 10 mM Glutathione, 1% Dimethyl sulfoxide,
+    2 mM CTP
+  buffer_concentration: 180 mM
+references:
+- title: Reference for SABIO-RK entry 52574
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/14742205/
+  pubmed_id: '14742205'
+  doi: null

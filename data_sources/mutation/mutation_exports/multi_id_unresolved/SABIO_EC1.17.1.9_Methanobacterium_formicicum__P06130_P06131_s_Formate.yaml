@@ -1,0 +1,172 @@
+name: SABIO-RK Entry 31232
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 31232
+created: '2025-10-28T14:42:04.653538'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_17_1_9_P06130_P06131_p31232
+  name: formate dehydrogenase
+  sequence: null
+  ecnumber: 1.17.1.9
+  organism: Methanobacterium formicicum
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P06130; P06131
+complexes: null
+small_molecules:
+- id: substrate_Formate
+  name: Formate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Coenzyme_F420
+  name: Coenzyme F420
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_8-Cl-FAD
+  name: 8-Cl-FAD
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Reduced_coenzyme_F420
+  name: Reduced coenzyme F420
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_11359_EC1_17_1_9_Methanobacterium_formicicum_P06130_P06131_Formate
+  name: Reaction catalyzed by formate dehydrogenase on Formate
+  equation: Formate + Coenzyme F420 = CO2 + Reduced coenzyme F420
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Formate
+  - species_id: substrate_Coenzyme_F420
+  - species_id: cofactor_8-Cl-FAD
+  products:
+  - species_id: product_Reduced_coenzyme_F420
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_1_17_1_9_P06130_P06131_p31232
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 42764;42765;42766;42767
+  KEGGid: R10797
+  notes: 'ChEBI IDs: CHEBI:15021; CHEBI:139538; CHEBI:15740; CHEBI:3283; CHEBI:14010;
+    CHEBI:15020; CHEBI:57530; CHEBI:14008; CHEBI:24082; CHEBI:24081; CHEBI:15823;
+    CHEBI:23011; CHEBI:14276; CHEBI:8788; CHEBI:13285; CHEBI:59541; CHEBI:5145; CHEBI:13282;
+    CHEBI:42460; CHEBI:3807; CHEBI:30751; CHEBI:13283; CHEBI:13284; CHEBI:23351; CHEBI:16526;
+    CHEBI:48829; CHEBI:16848; CHEBI:26524
+
+    KEGG IDs: KEGG:C00011; KEGG:C00058; KEGG:C01080; KEGG:C00876'
+measurements:
+- id: measurement_1_17_1_9_Methanobacterium_formicicum_P06130_P06131_Formate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: null
+  temperature_unit: null
+parameters:
+- id: 1_17_1_9_Methanobacterium_formicicum_P06130_P06131_Formate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Formate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '3801411'
+- id: 1_17_1_9_Methanobacterium_formicicum_P06130_P06131_Formate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.000185004
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Formate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '3801411'
+buffer:
+  buffer: 60 mM Potassium phosphate, 20 mM 2-Mercaptoethanol, 20 mM Metyl viologen
+  buffer_concentration: 60 mM
+references:
+- title: Reference for SABIO-RK entry 31232
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/3801411/
+  pubmed_id: '3801411'
+  doi: null

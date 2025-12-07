@@ -1,0 +1,172 @@
+name: SABIO-RK Entry 10411
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 10411
+created: '2025-10-28T13:57:21.935230'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_5_3_3_1_P14060_p10411
+  name: glutathione transferase
+  ecnumber: 5.3.3.1
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: D265N
+  uniprotid: P14060
+  wildtype_sequence: MTGWSCLVTGAGGFLGQRIIRLLVKEKELKEIRVLDKAFGPELREEFSKLQNKTKLTVLEGDILDEPFLKRACQDVSVIIHTACIIDVFGVTHRESIMNVNVKGTQLLLEACVQASVPVFIYTSSIEVAGPNSYKEIIQNGHEEEPLENTWPAPYPHSKKLAEKAVLAANGWNLKNGGTLYTCALRPMYIYGEGSRFLSASINEALNNNGILSSVGKFSTVNPVYVGNVAWAHILALRALQDPKKAPSIRGQFYYISDDTPHQSYDNLNYTLSKEFGLRLDSRWSFPLSLMYWIGFLLEIVSFLLRPIYTYRPPFNRHIVTLSNSVFTFSYKKAQRDLAYKPLYSWEEAKQKTVEWVGSLVDRHKETLKSKTQ
+  mutant_sequence: MTGWSCLVTGAGGFLGQRIIRLLVKEKELKEIRVLDKAFGPELREEFSKLQNKTKLTVLEGDILDEPFLKRACQDVSVIIHTACIIDVFGVTHRESIMNVNVKGTQLLLEACVQASVPVFIYTSSIEVAGPNSYKEIIQNGHEEEPLENTWPAPYPHSKKLAEKAVLAANGWNLKNGGTLYTCALRPMYIYGEGSRFLSASINEALNNNGILSSVGKFSTVNPVYVGNVAWAHILALRALQDPKKAPSIRGQFYYISNDTPHQSYDNLNYTLSKEFGLRLDSRWSFPLSLMYWIGFLLEIVSFLLRPIYTYRPPFNRHIVTLSNSVFTFSYKKAQRDLAYKPLYSWEEAKQKTVEWVGSLVDRHKETLKSKTQ
+  position_offset: -7
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Androst-5-ene-3
+  name: Androst-5-ene-3
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_17-dione
+  name: 17-dione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Androst-4-ene-3
+  name: Androst-4-ene-3
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_17-dione
+  name: 17-dione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7930_EC5_3_3_1_Homo_sapiens_P14060_Androst-5-ene-3
+  name: Reaction catalyzed by glutathione transferase on Androst-5-ene-3
+  equation: Androst-5-ene-3,17-dione = Androst-4-ene-3,17-dione
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Androst-5-ene-3
+  - species_id: product_17-dione
+  - species_id: cofactor_NADH
+  products:
+  - species_id: product_Androst-4-ene-3
+  - species_id: product_17-dione
+  modifiers:
+  - species_id: protein_5_3_3_1_P14060_p10411
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 43936;43937;43938;43939
+  KEGGid: R09955
+  notes: 'ChEBI IDs: CHEBI:13395; CHEBI:57945; CHEBI:83865; CHEBI:16422; CHEBI:44216;
+    CHEBI:21902; CHEBI:13396; CHEBI:7423; CHEBI:16908
+
+    KEGG IDs: KEGG:C20252; KEGG:C00004; KEGG:C00280'
+measurements:
+- id: measurement_5_3_3_1_Homo_sapiens_P14060_Androst-5-ene-3
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 27.0
+  temperature_unit: °C
+parameters:
+- id: 5_3_3_1_Homo_sapiens_P14060_Androst-5-ene-3_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.4e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Androst-5-ene-3
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 27.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12832414'
+- id: 5_3_3_1_Homo_sapiens_P14060_Androst-5-ene-3_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.2416667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Androst-5-ene-3
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 27.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12832414'
+buffer:
+  buffer: 0.02 M potassium phosphate
+  buffer_concentration: 0.02 M
+references:
+- title: Reference for SABIO-RK entry 10411
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12832414/
+  pubmed_id: '12832414'
+  doi: null

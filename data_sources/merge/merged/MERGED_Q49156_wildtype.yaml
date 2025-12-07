@@ -1,0 +1,283 @@
+version: '2.0'
+created: '2025-11-20T13:40:42.490739'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_2__Q49156_p21409
+  name: Phosphotransferases with a carboxyl group as acceptor
+  ecnumber: 2.7.2.
+  organism: Methanothermus fervidus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q49156
+  wildtype_sequence: MILVEGKVAGKKYREPFSKGVLARSLTRSGMDPTDAYLLAAEVESYLKKEKKKIVTIDELVKIVYNKLKEKDEKIAEKYIRWRKIREYKEPLILLIAGASGVGTSSIAFEVANRLGIRNMISTDMIREVMRKMISKELIPSLHESTFTAYKSLRTPAPVEFDEVLVGFRDHVNVVTVGIEAVIERALTEGISIVIEGAHLVPGFIREELINKNNVAMFVLTVPDEKMHRSRFYSRCRQKWARRPLERYLKYFWAIRRIHDYIEMQARKHNIPIIENIDVVTTIDSIVKSLTEDLVHKDVGKYKG
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_2-Phospho-D-glycerate
+  name: 2-Phospho-D-glycerate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2
+  name: '2'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3-Bisphospho-D-glycerate
+  name: 3-Bisphospho-D-glycerate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2560_EC2_7_2__Methanothermus_fervidus_Q49156_2-Phospho-D-glycerate
+  name: Reaction catalyzed by Phosphotransferases with a carboxyl group as acceptor
+    on 2-Phospho-D-glycerate
+  equation: ATP + 2-Phospho-D-glycerate = ADP + 2,3-Bisphospho-D-glycerate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2-Phospho-D-glycerate
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_2
+  - species_id: product_3-Bisphospho-D-glycerate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_2__Q49156_p21409
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 42408;42409;42410;42411
+  KEGGid: R02664
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:17720; CHEBI:16761; CHEBI:10789;
+    CHEBI:57299; CHEBI:40553; CHEBI:24344; CHEBI:19325; CHEBI:41885; CHEBI:28907;
+    CHEBI:13236; CHEBI:17835; CHEBI:21028; CHEBI:1267; CHEBI:11651; CHEBI:10841; CHEBI:19324;
+    CHEBI:2359; CHEBI:87518; CHEBI:19306; CHEBI:40938; CHEBI:58289; CHEBI:873; CHEBI:456216;
+    CHEBI:58248; CHEBI:39868; CHEBI:12986; CHEBI:22249; CHEBI:19307; CHEBI:15422;
+    CHEBI:872; CHEBI:2342; CHEBI:13222; CHEBI:22244; CHEBI:11417; CHEBI:88350
+
+    KEGG IDs: KEGG:C03339; KEGG:C00002; KEGG:C00631; KEGG:C00008; KEGG:C01159'
+- id: sabiork_2560_EC2_7_2__Methanothermus_fervidus_Q49156_ATP
+  name: Reaction catalyzed by Phosphotransferases with a carboxyl group as acceptor
+    on ATP
+  equation: ATP + 2-Phospho-D-glycerate = ADP + 2,3-Bisphospho-D-glycerate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_2-Phospho-D-glycerate
+  products:
+  - species_id: product_2
+  - species_id: product_3-Bisphospho-D-glycerate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_2__Q49156_p21408
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 42408;42409;42410;42411
+  KEGGid: R02664
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:17720; CHEBI:16761; CHEBI:10789;
+    CHEBI:57299; CHEBI:40553; CHEBI:24344; CHEBI:19325; CHEBI:41885; CHEBI:28907;
+    CHEBI:13236; CHEBI:17835; CHEBI:21028; CHEBI:11651; CHEBI:1267; CHEBI:10841; CHEBI:19324;
+    CHEBI:2359; CHEBI:87518; CHEBI:19306; CHEBI:40938; CHEBI:58289; CHEBI:873; CHEBI:456216;
+    CHEBI:58248; CHEBI:39868; CHEBI:22249; CHEBI:12986; CHEBI:19307; CHEBI:15422;
+    CHEBI:872; CHEBI:2342; CHEBI:13222; CHEBI:22244; CHEBI:11417; CHEBI:88350
+
+    KEGG IDs: KEGG:C03339; KEGG:C00002; KEGG:C00631; KEGG:C00008; KEGG:C01159'
+measurements:
+- id: measurement_2_7_2__Methanothermus_fervidus_Q49156_2-Phospho-D-glycerate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 75.0
+  temperature_unit: °C
+- id: measurement_2_7_2__Methanothermus_fervidus_Q49156_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 75.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_2__Methanothermus_fervidus_Q49156_2-Phospho-D-glycerate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.0033334
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Phospho-D-glycerate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 75.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2226838'
+- id: 2_7_2__Methanothermus_fervidus_Q49156_2-Phospho-D-glycerate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0027
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Phospho-D-glycerate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 75.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2226838'
+- id: 2_7_2__Methanothermus_fervidus_Q49156_2-Phospho-D-glycerate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 108.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Phospho-D-glycerate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 75.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2226838'
+- id: 2_7_2__Methanothermus_fervidus_Q49156_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0005
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 75.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2226838'
+- id: 2_7_2__Methanothermus_fervidus_Q49156_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 108.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 75.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2226838'
+- id: 2_7_2__Methanothermus_fervidus_Q49156_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.0033334
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 75.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2226838'
+buffer:
+  buffer: 50 mM N-tris(hydroxymethyl)methyl-2-aminoethanesulfonic acid, 10 mM MgCl2
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 21409
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/2226838/
+  pubmed_id: '2226838'
+  doi: null
+name: Merged entry for Q49156 wildtype
+description: 'Merged from 2 files: SABIO_EC2.7.2._Methanothermus_fervidus__Q49156_s_2-Phospho-D-glycerat.yaml,
+  SABIO_EC2.7.2._Methanothermus_fervidus__Q49156_s_ATP.yaml'

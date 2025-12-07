@@ -1,0 +1,190 @@
+name: SABIO-RK Entry 9911
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 9911
+created: '2025-10-28T13:56:29.349354'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_184_Q9Z245_p9911
+  name: carbonyl reductase (NADPH)
+  sequence: null
+  ecnumber: 1.1.1.184
+  organism: Mesocricetus auratus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: P56h
+  uniprotid: Q9Z245
+  mutant_sequence: MKLNFTGLRALVTGAGRGIGRGTAKALHASGAKVVAVSLINEDLVSLAKECPGIEHVCVDLGDWEATEKALGRIGPVDLLVNNAAVALVQPFIQSTKEVFDRSFNVNVRSVLQVSQMVAKGMINRGVAGSIVNISSMVAYVTFPGLATYSSTKGAITMLTKAMAMELGPYKIRVNSVNPTVVLTDMGKKVSADPEFAKKLKERHPLRKFAEVEDVVNSILFLLSDSSASTSGSGILVDAGYLAS
+  position_offset: 0
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Cyclohex-2-enone
+  name: Cyclohex-2-enone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Cyclohex-2-en-1-ol
+  name: Cyclohex-2-en-1-ol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7934_EC1_1_1_184_Mesocricetus_auratus_Q9Z245_NADH
+  name: Reaction catalyzed by carbonyl reductase (NADPH) on NADH
+  equation: NADH + H+ + Cyclohex-2-enone = Cyclohex-2-en-1-ol + NAD+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  - species_id: substrate_Cyclohex-2-enone
+  products:
+  - species_id: product_Cyclohex-2-en-1-ol
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_1_1_184_Q9Z245_p9911
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:23463; CHEBI:14047; CHEBI:44281; CHEBI:13393; CHEBI:29234;
+    CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636;
+    CHEBI:15977; CHEBI:44214; CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:57945; CHEBI:44216;
+    CHEBI:57540; CHEBI:7423; CHEBI:13389; CHEBI:13395; CHEBI:15378; CHEBI:4007; CHEBI:10744;
+    CHEBI:44215; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00003; KEGG:C00004; KEGG:C00080; KEGG:C02395'
+measurements:
+- id: measurement_1_1_1_184_Mesocricetus_auratus_Q9Z245_NADH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1_184_Mesocricetus_auratus_Q9Z245_NADH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.2533384
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11141073'
+- id: 1_1_1_184_Mesocricetus_auratus_Q9Z245_NADH_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00019
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11141073'
+- id: 1_1_1_184_Mesocricetus_auratus_Q9Z245_NADH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 4.96677e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11141073'
+buffer:
+  buffer: 0.1 M potassium phosphate
+  buffer_concentration: 0.1 M
+references:
+- title: Reference for SABIO-RK entry 9911
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11141073/
+  pubmed_id: '11141073'
+  doi: null

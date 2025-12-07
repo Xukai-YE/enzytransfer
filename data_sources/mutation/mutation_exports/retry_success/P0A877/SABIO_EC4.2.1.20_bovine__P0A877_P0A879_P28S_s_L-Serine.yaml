@@ -1,0 +1,185 @@
+name: SABIO-RK Entry 16143
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 16143
+created: '2025-10-28T14:08:43.993751'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_2_1_20_P0A877_P0A879_p16143
+  name: tryptophan synthase
+  sequence: null
+  ecnumber: 4.2.1.20
+  organism: bovine
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: P28S
+  uniprotid: P0A877; P0A879
+  mutant_sequence: MERYESLFAQLKERKEGAFVPFVTLGDSGIEQSLKIIDTLIEAGADALELGIPFSDPLADGPTIQNATLRAFAAGVTPAQCFEMLALIRQKHPTIPIGLLMYANLVFNKGIDEFYAQCEKVGVDSVLVADVPVEESAPFRQAALRHNVAPIFICPPNADDDLLRQIASYGRGYTYLLSRAGVTGAENRAALPLNHLVAKLKEYNAAPPLQGFGISAPDQVKAAIDAGAAGAISGSAIVKIIEQHINEPEKMLAALKVFVQPMKAATRS
+  position_offset: 0
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_L-Serine
+  name: L-Serine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Indole
+  name: Indole
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Tryptophan
+  name: L-Tryptophan
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1054_EC4_2_1_20_bovine_P0A877_P0A879_L-Serine
+  name: Reaction catalyzed by tryptophan synthase on L-Serine
+  equation: L-Serine + Indole = H2O + L-Tryptophan
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Serine
+  - species_id: substrate_Indole
+  products:
+  - species_id: product_L-Tryptophan
+  modifiers:
+  - species_id: protein_4_2_1_20_P0A877_P0A879_p16143
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 26434;26435;26436;26437
+  KEGGid: R00674
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:46125; CHEBI:32836; CHEBI:44819; CHEBI:41981;
+    CHEBI:32702; CHEBI:32837; CHEBI:5900; CHEBI:46225; CHEBI:13178; CHEBI:13167; CHEBI:45451;
+    CHEBI:45988; CHEBI:6310; CHEBI:24794; CHEBI:29954; CHEBI:42857; CHEBI:41979; CHEBI:45440;
+    CHEBI:45590; CHEBI:21407; CHEBI:57912; CHEBI:16881; CHEBI:42043; CHEBI:29999;
+    CHEBI:33384; CHEBI:33813; CHEBI:33811; CHEBI:27313; CHEBI:15377; CHEBI:32704;
+    CHEBI:13352; CHEBI:46086; CHEBI:45597; CHEBI:17115; CHEBI:16828; CHEBI:184633;
+    CHEBI:43228; CHEBI:44292; CHEBI:21387; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:43537; CHEBI:14444; CHEBI:6301; CHEBI:45677; CHEBI:35581; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C00463; KEGG:C00001; KEGG:C00078; KEGG:C00065'
+measurements:
+- id: measurement_4_2_1_20_bovine_P0A877_P0A879_L-Serine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.8
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 4_2_1_20_bovine_P0A877_P0A879_L-Serine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 278600.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Serine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1939081'
+- id: 4_2_1_20_bovine_P0A877_P0A879_L-Serine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.4e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Serine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1939081'
+- id: 4_2_1_20_bovine_P0A877_P0A879_L-Serine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 9.47
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Serine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1939081'
+buffer:
+  buffer: Tris-Cl, 0.5 mg/ml bovine serum albumine, 0.2 mM dithioerythritol, 4 mM
+    EDTA
+  buffer_concentration: 0.5 m
+references:
+- title: Reference for SABIO-RK entry 16143
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/1939081/
+  pubmed_id: '1939081'
+  doi: null

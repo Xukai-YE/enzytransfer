@@ -1,0 +1,171 @@
+name: SABIO-RK Entry 45788
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 45788
+created: '2025-10-28T15:35:15.160468'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_8_3_12_Q59111_Q59112_p45788
+  name: glutaconate CoA-transferase
+  sequence: null
+  ecnumber: 2.8.3.12
+  organism: Acidaminococcus fermentans
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q59111; Q59112
+complexes: null
+small_molecules:
+- id: substrate_Glutaryl-CoA
+  name: Glutaryl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate__E_-Glutaconate
+  name: (E)-Glutaconate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Glutarate
+  name: Glutarate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Glutaconyl-1-CoA
+  name: Glutaconyl-1-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_13018_EC2_8_3_12_Acidaminococcus_fermentans_Q59111_Q59112_Glutaryl-CoA
+  name: Reaction catalyzed by glutaconate CoA-transferase on Glutaryl-CoA
+  equation: Glutaryl-CoA + (E)-Glutaconate = Glutarate + Glutaconyl-1-CoA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Glutaryl-CoA
+  - species_id: substrate__E_-Glutaconate
+  products:
+  - species_id: product_Glutarate
+  - species_id: product_Glutaconyl-1-CoA
+  modifiers:
+  - species_id: protein_2_8_3_12_Q59111_Q59112_p45788
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:30922; CHEBI:15670; CHEBI:43097; CHEBI:36460; CHEBI:57378;
+    CHEBI:24327; CHEBI:14322; CHEBI:24309; CHEBI:18631; CHEBI:30921; CHEBI:5434; CHEBI:24332;
+    CHEBI:15497; CHEBI:280; CHEBI:18630; CHEBI:35907; CHEBI:57353; CHEBI:17859; CHEBI:24310;
+    CHEBI:24330; CHEBI:10957; CHEBI:35906; CHEBI:14326; CHEBI:5436; CHEBI:5430; CHEBI:24329;
+    CHEBI:15524; CHEBI:11969; CHEBI:14320
+
+    KEGG IDs: KEGG:C00489; KEGG:C00527; KEGG:C02411; KEGG:C02214'
+measurements:
+- id: measurement_2_8_3_12_Acidaminococcus_fermentans_Q59111_Q59112_Glutaryl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 2_8_3_12_Acidaminococcus_fermentans_Q59111_Q59112_Glutaryl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 8.0e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glutaryl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2422028'
+- id: 2_8_3_12_Acidaminococcus_fermentans_Q59111_Q59112_Glutaryl-CoA_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 4.16667e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glutaryl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2422028'
+buffer:
+  buffer: 50 mM Potassium phosphate
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 45788
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/2422028/
+  pubmed_id: '2422028'
+  doi: null

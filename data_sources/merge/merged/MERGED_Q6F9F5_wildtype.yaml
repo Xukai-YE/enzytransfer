@@ -1,0 +1,359 @@
+version: '2.0'
+created: '2025-11-20T13:39:51.593752'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_5_1_36_Q6F9F5_p75610
+  name: FMN reductase [NAD(P)H]
+  ecnumber: 1.5.1.36
+  organism: Acinetobacter baylyi
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q6F9F5
+  wildtype_sequence: MSEMDAVNKIRELRDAFGSFMTGVTVVTTCKDDGTPLGFTANSFASVSLDPALLLVSIAKTSSNYHNFADASHFAINILAEEQKDVSNIFARPSDDRFAQLVWAKSEYQNPLIDGVSAWFDCTTYQVVDAGDHAILIGKVENFTSAGFAGLGYYRGAYFTPAKSSTDVISSMKVMMMALIGHENKILLEQTADHKWALPHLMVEKDGAEKALEKIFATYQPEASPSFIYSVYDDVTTQQQYIAFLCNTPVPTAHKGQFVDLNDLEKLTFTDSALQSMLMRYRKENYLKTYGVYYGNHTSGTVRQIVKEGV
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Riboflavin-5-phosphate
+  name: Riboflavin-5-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Reduced_FMN
+  name: Reduced FMN
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_N-Methylnicotinate
+  name: N-Methylnicotinate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_FAD
+  name: FAD
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_FADH2
+  name: FADH2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_5301_EC1_5_1_36_Acinetobacter_baylyi_Q6F9F5_NADH
+  name: Reaction catalyzed by FMN reductase [NAD(P)H] on NADH
+  equation: NAD+ + Reduced FMN = NADH + H+ + Riboflavin-5-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  - species_id: substrate_Riboflavin-5-phosphate
+  products:
+  - species_id: product_Reduced_FMN
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_5_1_36_Q6F9F5_p75610
+    role: BIOCATALYST
+  - species_id: activator_N-Methylnicotinate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R05705
+  notes: 'ChEBI IDs: CHEBI:17621; CHEBI:8782; CHEBI:21128; CHEBI:18123; CHEBI:16048;
+    CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:4960; CHEBI:13357; CHEBI:21902;
+    CHEBI:13396; CHEBI:15017; CHEBI:21901; CHEBI:24636; CHEBI:44214; CHEBI:21127;
+    CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:57945; CHEBI:13318; CHEBI:44216; CHEBI:42587;
+    CHEBI:57618; CHEBI:13317; CHEBI:57540; CHEBI:7423; CHEBI:24041; CHEBI:13389; CHEBI:13395;
+    CHEBI:15378; CHEBI:42517; CHEBI:10744; CHEBI:44215; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C00061; KEGG:C01847; KEGG:C00003; KEGG:C00004; KEGG:C01004'
+- id: sabiork_5301_EC1_5_1_36_Acinetobacter_baylyi_Q6F9F5_NADH
+  name: Reaction catalyzed by FMN reductase [NAD(P)H] on NADH
+  equation: NAD+ + Reduced FMN = NADH + H+ + Riboflavin-5-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  - species_id: substrate_Riboflavin-5-phosphate
+  products:
+  - species_id: product_NAD_
+  - species_id: product_Reduced_FMN
+  modifiers:
+  - species_id: protein_1_5_1_36_Q6F9F5_p75612
+    role: BIOCATALYST
+  - species_id: activator_N-Methylnicotinate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R05705
+  notes: 'ChEBI IDs: CHEBI:17621; CHEBI:8782; CHEBI:21128; CHEBI:18123; CHEBI:16048;
+    CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:4960; CHEBI:13357; CHEBI:21902;
+    CHEBI:13396; CHEBI:15017; CHEBI:21901; CHEBI:24636; CHEBI:44214; CHEBI:29233;
+    CHEBI:21127; CHEBI:5584; CHEBI:13394; CHEBI:57945; CHEBI:13318; CHEBI:44216; CHEBI:42587;
+    CHEBI:57618; CHEBI:13317; CHEBI:57540; CHEBI:7423; CHEBI:24041; CHEBI:13389; CHEBI:13395;
+    CHEBI:15378; CHEBI:42517; CHEBI:10744; CHEBI:44215; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C00061; KEGG:C01847; KEGG:C00003; KEGG:C00004; KEGG:C01004'
+- id: sabiork_7290_EC1_5_1_36_Acinetobacter_baylyi_Q6F9F5_NADH
+  name: Reaction catalyzed by FAD reductase (NADH) on NADH
+  equation: H+ + NADH + FAD = NAD+ + FADH2
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  - species_id: substrate_FAD
+  products:
+  - species_id: product_NAD_
+  - species_id: product_FADH2
+  modifiers:
+  - species_id: protein_1_5_1_36_Q6F9F5_p75613
+    role: BIOCATALYST
+  - species_id: activator_N-Methylnicotinate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 30147;30148;30149;30150
+  KEGGid: R09748
+  notes: 'ChEBI IDs: CHEBI:16238; CHEBI:18123; CHEBI:44281; CHEBI:13393; CHEBI:17877;
+    CHEBI:29234; CHEBI:15846; CHEBI:13357; CHEBI:24040; CHEBI:21902; CHEBI:13396;
+    CHEBI:21901; CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:21125;
+    CHEBI:57945; CHEBI:44216; CHEBI:13315; CHEBI:42427; CHEBI:42388; CHEBI:57540;
+    CHEBI:7423; CHEBI:13389; CHEBI:13395; CHEBI:15378; CHEBI:4957; CHEBI:21126; CHEBI:4956;
+    CHEBI:58307; CHEBI:10744; CHEBI:44215; CHEBI:13316; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C01352; KEGG:C00003; KEGG:C00080; KEGG:C00016; KEGG:C00004; KEGG:C01004'
+- id: sabiork_5301_EC1_5_1_36_Acinetobacter_baylyi_Q6F9F5_Riboflavin-5-phosphate
+  name: Reaction catalyzed by FMN reductase [NAD(P)H] on Riboflavin-5-phosphate
+  equation: NAD+ + Reduced FMN = NADH + H+ + Riboflavin-5-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Riboflavin-5-phosphate
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_NAD_
+  - species_id: product_Reduced_FMN
+  modifiers:
+  - species_id: protein_1_5_1_36_Q6F9F5_p75611
+    role: BIOCATALYST
+  - species_id: activator_N-Methylnicotinate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R05705
+  notes: 'ChEBI IDs: CHEBI:17621; CHEBI:8782; CHEBI:21128; CHEBI:18123; CHEBI:16048;
+    CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:4960; CHEBI:13357; CHEBI:21902;
+    CHEBI:13396; CHEBI:15017; CHEBI:21901; CHEBI:24636; CHEBI:44214; CHEBI:29233;
+    CHEBI:21127; CHEBI:5584; CHEBI:13394; CHEBI:57945; CHEBI:13318; CHEBI:44216; CHEBI:42587;
+    CHEBI:57618; CHEBI:13317; CHEBI:57540; CHEBI:24041; CHEBI:7423; CHEBI:13389; CHEBI:13395;
+    CHEBI:15378; CHEBI:42517; CHEBI:10744; CHEBI:44215; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C00061; KEGG:C01847; KEGG:C00003; KEGG:C00004; KEGG:C01004'
+measurements:
+- id: measurement_1_5_1_36_Acinetobacter_baylyi_Q6F9F5_NADH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_5_1_36_Acinetobacter_baylyi_Q6F9F5_NADH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_5_1_36_Acinetobacter_baylyi_Q6F9F5_NADH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_5_1_36_Acinetobacter_baylyi_Q6F9F5_Riboflavin-5-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_5_1_36_Acinetobacter_baylyi_Q6F9F5_NADH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.4e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29686076'
+- id: 1_5_1_36_Acinetobacter_baylyi_Q6F9F5_NADH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 72.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29686076'
+- id: 1_5_1_36_Acinetobacter_baylyi_Q6F9F5_NADH_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 970000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29686076'
+- id: 1_5_1_36_Acinetobacter_baylyi_Q6F9F5_NADH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 75.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29686076'
+- id: 1_5_1_36_Acinetobacter_baylyi_Q6F9F5_NADH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 75.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29686076'
+- id: 1_5_1_36_Acinetobacter_baylyi_Q6F9F5_Riboflavin-5-phosphate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 65.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Riboflavin-5-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29686076'
+buffer:
+  buffer: 50 mM Tris-HCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 75610
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/29686076/
+  pubmed_id: '29686076'
+  doi: null
+name: Merged entry for Q6F9F5 wildtype
+description: 'Merged from 4 files: SABIO_EC1.5.1.36_Acinetobacter_baylyi__Q6F9F5_s_NADH.yaml,
+  SABIO_EC1.5.1.36_Acinetobacter_baylyi__Q6F9F5_s_NADH_2.yaml, SABIO_EC1.5.1.36_Acinetobacter_baylyi__Q6F9F5_s_NADH_3.yaml,
+  SABIO_EC1.5.1.36_Acinetobacter_baylyi__Q6F9F5_s_Riboflavin-5-phospha.yaml'

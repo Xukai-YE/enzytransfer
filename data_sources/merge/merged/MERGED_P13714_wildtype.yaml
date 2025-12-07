@@ -1,0 +1,225 @@
+version: '2.0'
+created: '2025-11-20T13:39:18.719028'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_27_P13714_p50120
+  name: With NAD(+) or NADP(+) as acceptor
+  ecnumber: 1.1.1.27
+  organism: Bacillus subtilis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P13714
+  wildtype_sequence: MNKHVNKVALIGAGFVGSSYAFALINQGITDELVVIDVNKEKAMGDVMDLNHGKAFAPQPVKTSYGTYEDCKDADIVCICAGANQKPGETRLELVEKNLKIFKGIVSEVMASGFDGIFLVATNPVDILTYATWKFSGLPKERVIGSGTTLDSARFRFMLSEYFGAAPQNVHAHIIGEHGDTELPVWSHANVGGVPVSELVEKNDAYKQEELDQIVDDVKNAAYHIIEKKGATYYGVAMSLARITKAILHNENSILTVSTYLDGQYGADDVYIGVPAVVNRGGIAGITELNLNEKEKEQFLHSAGVLKNILKPHFAEQKVN
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Pyruvate
+  name: Pyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Lactate
+  name: L-Lactate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_61_EC1_1_1_27_Bacillus_subtilis_P13714_Pyruvate
+  name: Reaction catalyzed by With NAD(+) or NADP(+) as acceptor on Pyruvate
+  equation: L-Lactate + NAD+ = NADH + H+ + Pyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Pyruvate
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_L-Lactate
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_1_1_27_P13714_p50120
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 23444;23445;23446;23447
+  KEGGid: R00703
+  notes: 'ChEBI IDs: CHEBI:18783; CHEBI:14987; CHEBI:422; CHEBI:12411; CHEBI:44281;
+    CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:15361;
+    CHEBI:13396; CHEBI:21901; CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:5584; CHEBI:13394;
+    CHEBI:26466; CHEBI:57945; CHEBI:44216; CHEBI:11065; CHEBI:26462; CHEBI:57540;
+    CHEBI:7423; CHEBI:16651; CHEBI:8685; CHEBI:13389; CHEBI:15378; CHEBI:13395; CHEBI:32816;
+    CHEBI:10744; CHEBI:44215; CHEBI:45253; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00186; KEGG:C00080; KEGG:C00022; KEGG:C00003; KEGG:C00004'
+- id: sabiork_10181_EC1_1_1_27_Bacillus_subtilis_P13714_NADPH
+  name: Reaction catalyzed by malate dehydrogenase (oxaloacetate-decarboxylating)
+    (NADP+) on NADPH
+  equation: Pyruvate + H+ + NADPH = L-Lactate + NADP+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_Pyruvate
+  products:
+  - species_id: product_L-Lactate
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_1_1_27_P13714_p50121
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:18783; CHEBI:14987; CHEBI:422;
+    CHEBI:12411; CHEBI:7424; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357;
+    CHEBI:25523; CHEBI:15361; CHEBI:24636; CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:26466;
+    CHEBI:11065; CHEBI:16474; CHEBI:44286; CHEBI:26462; CHEBI:16651; CHEBI:8685; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:32816; CHEBI:18009; CHEBI:58349; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744; CHEBI:45253
+
+    KEGG IDs: KEGG:C00005; KEGG:C00186; KEGG:C00080; KEGG:C00022; KEGG:C00006; KEGG:C11037'
+measurements:
+- id: measurement_1_1_1_27_Bacillus_subtilis_P13714_Pyruvate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 4.3
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_27_Bacillus_subtilis_P13714_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 4.3
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1_27_Bacillus_subtilis_P13714_Pyruvate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.3e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Pyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 4.3
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17586670'
+- id: 1_1_1_27_Bacillus_subtilis_P13714_NADPH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000288
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 4.3
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17586670'
+buffer:
+  buffer: 0.087 M Tris-maleate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 50120
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/17586670/
+  pubmed_id: '17586670'
+  doi: null
+name: Merged entry for P13714 wildtype
+description: 'Merged from 2 files: SABIO_EC1.1.1.27_Bacillus_subtilis__P13714_s_Pyruvate.yaml,
+  SABIO_EC1.1.1.27_Bacillus_subtilis__P13714_s_NADPH.yaml'

@@ -1,0 +1,191 @@
+name: SABIO-RK Entry 25885
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 25885
+created: '2025-10-28T14:27:49.025774'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_2_P14550_p25885
+  name: L-xylulose reductase
+  ecnumber: 1.1.1.2
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: R308A
+  uniprotid: P14550
+  wildtype_sequence: MAASCVLLHTGQKMPLIGLGTWKSEPGQVKAAVKYALSVGYRHIDCAAIYGNEPEIGEALKEDVGPGKAVPREELFVTSKLWNTKHHPEDVEPALRKTLADLQLEYLDLYLMHWPYAFERGDNPFPKNADGTICYDSTHYKETWKALEALVAKGLVQALGLSNFNSRQIDDILSVASVRPAVLQVECHPYLAQNELIAHCQARGLEVTAYSPLGSSDRAWRDPDEPVLLEEPVVLALAEKYGRSPAQILLRWQVQRKVICIPKSITPSRILQNIKVFDFTFSPEEMKQLNALNKNWRYIVPMLTVDGKRVPRDAGHPLYPFNDPY
+  mutant_sequence: MAASCVLLHTGQKMPLIGLGTWKSEPGQVKAAVKYALSVGYRHIDCAAIYGNEPEIGEALKEDVGPGKAVPREELFVTSKLWNTKHHPEDVEPALRKTLADLQLEYLDLYLMHWPYAFERGDNPFPKNADGTICYDSTHYKETWKALEALVAKGLVQALGLSNFNSRQIDDILSVASVRPAVLQVECHPYLAQNELIAHCQARGLEVTAYSPLGSSDRAWRDPDEPVLLEEPVVLALAEKYGRSPAQILLRWQVQRKVICIPKSITPSRILQNIKVFDFTFSPEEMKQLNALNKNWRYIVPMLTVDGKAVPRDAGHPLYPFNDPY
+  position_offset: 1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Glyceraldehyde
+  name: Glyceraldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Glycerol
+  name: Glycerol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_6749_EC1_1_1_2_Homo_sapiens_P14550_Glyceraldehyde
+  name: Reaction catalyzed by L-xylulose reductase on Glyceraldehyde
+  equation: Glyceraldehyde + H+ + NADPH = NADP+ + Glycerol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Glyceraldehyde
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_NADP_
+  - species_id: product_Glycerol
+  modifiers:
+  - species_id: protein_1_1_1_2_P14550_p25885
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:24351; CHEBI:17754; CHEBI:13397; CHEBI:13398; CHEBI:24343;
+    CHEBI:7424; CHEBI:17378; CHEBI:387614; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234;
+    CHEBI:131422; CHEBI:14334; CHEBI:13357; CHEBI:25523; CHEBI:5445; CHEBI:24636;
+    CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:42998; CHEBI:16474; CHEBI:5448; CHEBI:44286;
+    CHEBI:21904; CHEBI:44409; CHEBI:15378; CHEBI:18009; CHEBI:58349; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00116; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C02154; KEGG:C11037'
+measurements:
+- id: measurement_1_1_1_2_Homo_sapiens_P14550_Glyceraldehyde
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1_2_Homo_sapiens_P14550_Glyceraldehyde_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 795.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glyceraldehyde
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8916913'
+- id: 1_1_1_2_Homo_sapiens_P14550_Glyceraldehyde_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.8
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glyceraldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8916913'
+- id: 1_1_1_2_Homo_sapiens_P14550_Glyceraldehyde_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0023
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glyceraldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8916913'
+buffer:
+  buffer: 100 mM Phosphate, 0.1 mM EDTA
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 25885
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/8916913/
+  pubmed_id: '8916913'
+  doi: null

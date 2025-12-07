@@ -1,0 +1,230 @@
+version: '2.0'
+created: '2025-11-20T13:42:01.080825'
+modified: null
+creators:
+- given_name: SKiD
+  family_name: Database
+  mail: skid@database.org
+vessels: null
+proteins:
+- id: protein_D3U1D9
+  name: Klebsiella oxytoca
+  ecnumber: 1.1.1.313
+  organism: Klebsiella oxytoca
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: null
+  uniprotid: D3U1D9
+  wildtype_sequence: MATSKVVFITGATSGFGEAAAQVFADAGWSLVLSGRRFERLKTLQDKLASQVPVHIIELDVRDSDSVAAAVAALPADFADITTLINNAGLALSPQPAQKVDLDDWKTMIDTNVTGLVNVTHALLPTLINHGAGASIINIGSIAGQWPYPGSHVYGASKAFVKQFSYNLRCDLLGTGVRVTDLAPGIAETEFTLVRTKGDQAASDNLYRGTTPLSARDIAEQMFYIATLPDHMNINRVEVMPVRQAWQPFAIDRD
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NADP_
+  name: NADP+
+  canonical_smiles: C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)(O)O)O)O)O)C(=O)N
+  inchi: InChI=1S/C21H28N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1-4,7-8,10-11,13-16,20-21,29-31H,5-6H2,(H7-,22,23,24,25,32,33,34,35,36,37,38,39)/p+1
+  inchikey: XJLXINKUBYWONI-UHFFFAOYSA-O
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/5886
+- id: product
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_isethionate
+  name: isethionate
+  canonical_smiles: S(=O)(=O)([O-])CCO
+  inchi: InChI=1S/C2H6O4S/c3-1-2-7(4,5)6/h3H,1-2H2,(H,4,5,6)/p-1
+  inchikey: SUMDYPCJJOFFON-UHFFFAOYSA-M
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/3955599
+reactions:
+- id: reaction_D3U1D9_NADP_
+  name: Reaction catalyzed by enzyme on NADP+
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADP_
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_D3U1D9
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_D3U1D9_isethionate
+  name: Reaction catalyzed by enzyme on isethionate
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_isethionate
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_D3U1D9
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+measurements:
+- id: measurement_0
+  name: Experimental conditions (pH=10.0, T=22.0°C)
+  species_data: null
+  ph_opt: 10.0
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=10.0, T=22.0°C)
+  species_data: null
+  ph_opt: 10.0
+  temperature_opt: 22.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: D3U1D9_NADP__kcat_319
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.15
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 10.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: 'Source: kcat'
+  pubmed_id: '30718306'
+- id: D3U1D9_NADP__Km_11433
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.0116
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 10.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '30718306'
+- id: D3U1D9_isethionate_kcat_320
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.15
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_isethionate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 10.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: 'Source: kcat'
+  pubmed_id: '30718306'
+- id: D3U1D9_isethionate_Km_11434
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 50.8
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_isethionate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 10.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '30718306'
+buffer:
+  buffer: null
+  buffer_concentration: null
+references:
+- title: Y.
+  authors: Zhou, Y., Wei, Y., Lin, L., Xu, T., Ang, E.L., Zhao, H., Yuchi, Z., Zhang
+  year: '2019'
+  journal: Biochemical and structural investigation of sulfoacetaldehyde reductase
+    from Klebsiella oxytoca. Biochem
+  uri: null
+  pubmed_id: '30718306'
+  doi: null
+  id: '2'
+  pages: 733-746
+  volume: '476'
+  citation: 'Zhou, Y.,Wei, Y.,Lin, L.,Xu, T.,Ang, E.L.,Zhao, H.,Yuchi, Z.,Zhang, Y.,
+    Biochemical and structural investigation of sulfoacetaldehyde reductase from Klebsiella
+    oxytoca. Biochem, J., 2019, 733-746, 476, PMID: 30718306'
+name: Merged entry for D3U1D9 wildtype
+description: 'Merged from 2 files: SKID_EC1.1.1.313_Klebsiella_D3U1D9_NADP_.yaml,
+  SKID_EC1.1.1.313_Klebsiella_D3U1D9_isethionate.yaml'

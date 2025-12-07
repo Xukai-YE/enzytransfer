@@ -1,0 +1,225 @@
+version: '2.0'
+created: '2025-11-20T13:40:06.950983'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_3_2_15_Q9S7Z3_p51309
+  name: glutathione gamma-glutamylcysteinyltransferase
+  ecnumber: 2.3.2.15
+  organism: Arabidopsis thaliana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9S7Z3
+  wildtype_sequence: MAMASLYRRSLPSPPAIDFSSAEGKLIFNEALQKGTMEGFFRLISYFQTQSEPAYCGLASLSVVLNALSIDPGRKWKGPWRWFDESMLDCCEPLEVVKEKGISFGKVVCLAHCSGAKVEAFRTSQSTIDDFRKFVVKCTSSENCHMISTYHRGVFKQTGTGHFSPIGGYNAERDMALILDVARFKYPPHWVPLKLLWEAMDSIDQSTGKRRGFMLISRPHREPGLLYTLSCKDESWIEIAKYLKEDVPRLVSSQHVDSVEKIISVVFKSLPSNFNQFIRWVAEIRITEDSNQNLSAEEKSRLKLKQLVLKEVHETELFKHINKFLSTVGYEDSLTYAAAKACCQGAEILSGSPSKEFCCRETCVKCIKGPDDSEGTVVTGVVVRDGNEQKVDLLVPSTQTECECGPEATYPAGNDVFTALLLALPPQTWSGIKDQALMHEMKQLISMASLPTLLQEEVLHLRRQLQLLKRCQENKEEDDLAAPAY
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate__Glu_-Cys_n-Gly
+  name: '[Glu(-Cys)]n-Gly'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_S-_Gluthathionyl_-bimane
+  name: S-(Gluthathionyl)-bimane
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_S-Bimane-_Glu_-Cys_n_1-Gly
+  name: S-Bimane-[Glu(-Cys)]n+1-Gly
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Glycine
+  name: Glycine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Cd2_
+  name: Cd2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Reduced_glutathione
+  name: Reduced glutathione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product__Glu_-Cys_n_1-Gly
+  name: '[Glu(-Cys)]n+1-Gly'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_13578_EC2_3_2_15_Arabidopsis_thaliana_Q9S7Z3__Glu_-Cys_n-Gly
+  name: Reaction catalyzed by glutathione gamma-glutamylcysteinyltransferase on [Glu(-Cys)]n-Gly
+  equation: '[Glu(-Cys)]n-Gly + S-(Gluthathionyl)-bimane = Glycine + S-Bimane-[Glu(-Cys)]n+1-Gly'
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate__Glu_-Cys_n-Gly
+  - species_id: substrate_S-_Gluthathionyl_-bimane
+  products:
+  - species_id: product_S-Bimane-_Glu_-Cys_n_1-Gly
+  - species_id: product_Glycine
+  modifiers:
+  - species_id: protein_2_3_2_15_Q9S7Z3_p51309
+    role: BIOCATALYST
+  - species_id: activator_Cd2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:42964; CHEBI:10792; CHEBI:24368; CHEBI:32508; CHEBI:29947;
+    CHEBI:14344; CHEBI:15428; CHEBI:48773; CHEBI:13526; CHEBI:3290; CHEBI:5460; CHEBI:131728;
+    CHEBI:48775; CHEBI:132194; CHEBI:32507; CHEBI:57305
+
+    KEGG IDs: KEGG:C00037; KEGG:C01413; KEGG:C02471'
+- id: sabiork_3695_EC2_3_2_15_Arabidopsis_thaliana_Q9S7Z3_Reduced_glutathione
+  name: Reaction catalyzed by glutathione gamma-glutamylcysteinyltransferase on Reduced
+    glutathione
+  equation: Reduced glutathione + [Glu(-Cys)]n-Gly = Glycine + [Glu(-Cys)]n+1-Gly
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Reduced_glutathione
+  - species_id: substrate__Glu_-Cys_n-Gly
+  products:
+  - species_id: product_Glycine
+  - species_id: product__Glu_-Cys_n_1-Gly
+  modifiers:
+  - species_id: protein_2_3_2_15_Q9S7Z3_p51310
+    role: BIOCATALYST
+  - species_id: activator_Cd2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03956
+  notes: 'ChEBI IDs: CHEBI:64744; CHEBI:12402; CHEBI:32508; CHEBI:16856; CHEBI:5437;
+    CHEBI:48775; CHEBI:48773; CHEBI:32507; CHEBI:57305; CHEBI:132194; CHEBI:42964;
+    CHEBI:24334; CHEBI:14327; CHEBI:14344; CHEBI:3290; CHEBI:131728; CHEBI:10792;
+    CHEBI:24368; CHEBI:15428; CHEBI:43049; CHEBI:42873; CHEBI:29947; CHEBI:13526;
+    CHEBI:57925; CHEBI:5460
+
+    KEGG IDs: KEGG:C01413; KEGG:C00051; KEGG:C00037; KEGG:C02755; KEGG:C02471'
+measurements:
+- id: measurement_2_3_2_15_Arabidopsis_thaliana_Q9S7Z3__Glu_-Cys_n-Gly
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.2
+  temperature_opt: 35.0
+  temperature_unit: °C
+- id: measurement_2_3_2_15_Arabidopsis_thaliana_Q9S7Z3_Reduced_glutathione
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.2
+  temperature_opt: 35.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_3_2_15_Arabidopsis_thaliana_Q9S7Z3__Glu_-Cys_n-Gly_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 3.9e-12
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__Glu_-Cys_n-Gly
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.2
+  temperature: 35.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12620355'
+- id: 2_3_2_15_Arabidopsis_thaliana_Q9S7Z3_Reduced_glutathione_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.8e-12
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Reduced_glutathione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.2
+  temperature: 35.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12620355'
+buffer:
+  buffer: 100 mM Tris-HCl, 1 mM DTT
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 51309
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12620355/
+  pubmed_id: '12620355'
+  doi: null
+name: Merged entry for Q9S7Z3 wildtype
+description: 'Merged from 2 files: SABIO_EC2.3.2.15_Arabidopsis_thaliana__Q9S7Z3_s__Glu_-Cys_n-Gly.yaml,
+  SABIO_EC2.3.2.15_Arabidopsis_thaliana__Q9S7Z3_s_Reduced.yaml'

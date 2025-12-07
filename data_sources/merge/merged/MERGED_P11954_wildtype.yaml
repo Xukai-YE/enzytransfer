@@ -1,0 +1,276 @@
+version: '2.0'
+created: '2025-11-20T13:41:37.215196'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_3_1_19_P11954_p62229
+  name: L-serine ammonia-lyase
+  ecnumber: 4.3.1.19
+  organism: Salmonella typhimurium
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P11954
+  wildtype_sequence: MHITYDLPVAIEDILEAKKRLAGKIYKTGMPRSNYFSERCKGEIFLKFENMQRTGSFKIRGAFNKLSSLTEAEKRKGVVACSAGNHAQGVSLSCAMLGIDGKVVMPKGAPKSKVAATCDYSAEVVLHGDNFNDTIAKVSEIVETEGRIFIPPYDDPKVIAGQGTIGLEIMEDLYDVDNVIVPIGGGGLIAGIAIAIKSINPTIKVIGVQAENVHGMAASYYTGEITTHRTTGTLADGCDVSRPGNLTYEIVRELVDDIVLVSEDEIRNSMIALIQRNKVITEGAGALACAALLSGKLDSHIQNRKTVSIISGGNIDLSRVSQITGLVDA
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_L-Threonine
+  name: L-Threonine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Oxobutyrate
+  name: 2-Oxobutyrate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NH3
+  name: NH3
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Pyridoxal_phosphate
+  name: Pyridoxal phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_AMP
+  name: AMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_CMP_Pyridoxal_phosphate
+  name: CMP; Pyridoxal phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1290_EC4_3_1_19_Salmonella_typhimurium_P11954_L-Threonine
+  name: Reaction catalyzed by L-serine ammonia-lyase on L-Threonine
+  equation: L-Threonine = NH3 + 2-Oxobutyrate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Threonine
+  products:
+  - species_id: product_2-Oxobutyrate
+  - species_id: product_NH3
+  modifiers:
+  - species_id: protein_4_3_1_19_P11954_p62229
+    role: BIOCATALYST
+  - species_id: activator_Pyridoxal_phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 22108;22109;22110;22111
+  KEGGid: R00996
+  notes: 'ChEBI IDs: CHEBI:19741; CHEBI:44284; CHEBI:16134; CHEBI:32833; CHEBI:13405;
+    CHEBI:7434; CHEBI:16857; CHEBI:358848; CHEBI:45983; CHEBI:19743; CHEBI:26986;
+    CHEBI:13407; CHEBI:21403; CHEBI:26424; CHEBI:8668; CHEBI:6308; CHEBI:144836; CHEBI:30831;
+    CHEBI:32822; CHEBI:18405; CHEBI:22534; CHEBI:135980; CHEBI:39748; CHEBI:7435;
+    CHEBI:49783; CHEBI:22533; CHEBI:597326; CHEBI:44404; CHEBI:13771; CHEBI:44269;
+    CHEBI:234571; CHEBI:32820; CHEBI:1250; CHEBI:13406; CHEBI:30013; CHEBI:45145;
+    CHEBI:57926; CHEBI:28938; CHEBI:42083; CHEBI:32832; CHEBI:14977; CHEBI:16763;
+    CHEBI:11636; CHEBI:45843; CHEBI:13175
+
+    KEGG IDs: KEGG:C00188; KEGG:C00018; KEGG:C00109; KEGG:C00014; KEGG:C01342'
+- id: sabiork_1290_EC4_3_1_19_Salmonella_typhimurium_P11954_L-Threonine
+  name: Reaction catalyzed by L-serine ammonia-lyase on L-Threonine
+  equation: L-Threonine = NH3 + 2-Oxobutyrate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Threonine
+  - species_id: cofactor_AMP
+  products:
+  - species_id: product_NH3
+  - species_id: product_2-Oxobutyrate
+  modifiers:
+  - species_id: protein_4_3_1_19_P11954_p62230
+    role: BIOCATALYST
+  - species_id: activator_Pyridoxal_phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 22108;22109;22110;22111
+  KEGGid: R00996
+  notes: 'ChEBI IDs: CHEBI:19741; CHEBI:44284; CHEBI:16134; CHEBI:40726; CHEBI:22245;
+    CHEBI:32833; CHEBI:13405; CHEBI:7434; CHEBI:40510; CHEBI:16857; CHEBI:358848;
+    CHEBI:22242; CHEBI:13736; CHEBI:47222; CHEBI:45983; CHEBI:13407; CHEBI:26986;
+    CHEBI:19743; CHEBI:21403; CHEBI:456215; CHEBI:26424; CHEBI:40786; CHEBI:8668;
+    CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:6308; CHEBI:144836; CHEBI:30831; CHEBI:32822;
+    CHEBI:18405; CHEBI:22534; CHEBI:135980; CHEBI:7435; CHEBI:49783; CHEBI:39748;
+    CHEBI:22533; CHEBI:597326; CHEBI:44404; CHEBI:13771; CHEBI:44269; CHEBI:234571;
+    CHEBI:32820; CHEBI:13406; CHEBI:1250; CHEBI:30013; CHEBI:45145; CHEBI:13740; CHEBI:57926;
+    CHEBI:28938; CHEBI:42083; CHEBI:32832; CHEBI:14977; CHEBI:13234; CHEBI:40721;
+    CHEBI:16763; CHEBI:12056; CHEBI:13235; CHEBI:11636; CHEBI:45843; CHEBI:13175
+
+    KEGG IDs: KEGG:C00188; KEGG:C00018; KEGG:C00109; KEGG:C00014; KEGG:C01342; KEGG:C00020'
+- id: sabiork_1290_EC4_3_1_19_Salmonella_typhimurium_P11954_L-Threonine
+  name: Reaction catalyzed by L-serine ammonia-lyase on L-Threonine
+  equation: L-Threonine = NH3 + 2-Oxobutyrate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Threonine
+  products:
+  - species_id: product_NH3
+  - species_id: product_2-Oxobutyrate
+  modifiers:
+  - species_id: protein_4_3_1_19_P11954_p62231
+    role: BIOCATALYST
+  - species_id: activator_CMP_Pyridoxal_phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 22108;22109;22110;22111
+  KEGGid: R00996
+  notes: 'ChEBI IDs: CHEBI:19741; CHEBI:44284; CHEBI:16134; CHEBI:32833; CHEBI:13405;
+    CHEBI:7434; CHEBI:17361; CHEBI:16857; CHEBI:358848; CHEBI:45983; CHEBI:13407;
+    CHEBI:26986; CHEBI:19743; CHEBI:21403; CHEBI:41319; CHEBI:26424; CHEBI:47362;
+    CHEBI:8668; CHEBI:41691; CHEBI:6308; CHEBI:144836; CHEBI:30831; CHEBI:32822; CHEBI:18405;
+    CHEBI:22534; CHEBI:135980; CHEBI:50308; CHEBI:7435; CHEBI:49783; CHEBI:39748;
+    CHEBI:22533; CHEBI:13274; CHEBI:597326; CHEBI:48799; CHEBI:44404; CHEBI:13771;
+    CHEBI:41312; CHEBI:60377; CHEBI:44269; CHEBI:23520; CHEBI:234571; CHEBI:32820;
+    CHEBI:13406; CHEBI:1250; CHEBI:30013; CHEBI:3275; CHEBI:45145; CHEBI:57926; CHEBI:58120;
+    CHEBI:28938; CHEBI:42083; CHEBI:41666; CHEBI:32832; CHEBI:14977; CHEBI:16763;
+    CHEBI:11636; CHEBI:45843; CHEBI:13175
+
+    KEGG IDs: KEGG:C00188; KEGG:C00018; KEGG:C00109; KEGG:C00014; KEGG:C01342; KEGG:C00055'
+measurements:
+- id: measurement_4_3_1_19_Salmonella_typhimurium_P11954_L-Threonine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_4_3_1_19_Salmonella_typhimurium_P11954_L-Threonine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_4_3_1_19_Salmonella_typhimurium_P11954_L-Threonine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 4_3_1_19_Salmonella_typhimurium_P11954_L-Threonine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.123
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Threonine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17046821'
+- id: 4_3_1_19_Salmonella_typhimurium_P11954_L-Threonine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.016
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Threonine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17046821'
+- id: 4_3_1_19_Salmonella_typhimurium_P11954_L-Threonine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.032
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Threonine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17046821'
+buffer:
+  buffer: 100 ¦ÌM potassium phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 62229
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/17046821/
+  pubmed_id: '17046821'
+  doi: null
+name: Merged entry for P11954 wildtype
+description: 'Merged from 3 files: SABIO_EC4.3.1.19_Salmonella_typhimurium__P11954_s_L-Threonine.yaml,
+  SABIO_EC4.3.1.19_Salmonella_typhimurium__P11954_s_L-Threonine_2.yaml, SABIO_EC4.3.1.19_Salmonella_typhimurium__P11954_s_L-Threonine_3.yaml'

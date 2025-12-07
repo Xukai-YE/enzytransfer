@@ -1,0 +1,191 @@
+version: '2.0'
+created: '2025-11-20T13:42:00.768825'
+modified: null
+creators:
+- given_name: SKiD
+  family_name: Database
+  mail: skid@database.org
+vessels: null
+proteins:
+- id: protein_P07864
+  name: Homo sapiens
+  ecnumber: 1.1.1.27
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: null
+  uniprotid: P07864
+  wildtype_sequence: MSTVKEQLIEKLIEDDENSQCKITIVGTGAVGMACAISILLKDLADELALVDVALDKLKGEMMDLQHGSLFFSTSKITSGKDYSVSANSRIVIVTAGARQQEGETRLALVQRNVAIMKSIIPAIVHYSPDCKILVVSNPVDILTYIVWKISGLPVTRVIGSGCNLDSARFRYLIGEKLGVHPTSCHGWIIGEHGDSSVPLWSGVNVAGVALKTLDPKLGTDSDKEHWKNIHKQVIQSAYEIIKLKGYTSWAIGLSVMDLVGSILKNLRRVHPVSTMVKGLYGIKEELFLSIPCVLGRNGVSDVVKINLNSEEEALFKKSAETLWNIQKDLIF
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N
+  inchi: InChI=1S/C21H27N7O14P2/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(32)14(30)11(41-21)6-39-44(36,37)42-43(34,35)38-5-10-13(29)15(31)20(40-10)27-3-1-2-9(4-27)18(23)33/h1-4,7-8,10-11,13-16,20-21,29-32H,5-6H2,(H5-,22,23,24,25,33,34,35,36,37)
+  inchikey: BAWFJGJZGIEFAR-UHFFFAOYSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/5892
+- id: product
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate__S_-lactate
+  name: (S)-lactate
+  canonical_smiles: C([C@@H](O)C)(=O)[O-]
+  inchi: InChI=1S/C3H6O3/c1-2(4)3(5)6/h2,4H,1H3,(H,5,6)/p-1/t2-/m0/s1
+  inchikey: JVTAAEKCZFNVCJ-REOHCLBHSA-M
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/107689
+reactions:
+- id: reaction_P07864_NAD_
+  name: Reaction catalyzed by enzyme on NAD+
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_P07864
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_P07864__S_-lactate
+  name: Reaction catalyzed by enzyme on (S)-lactate
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate__S_-lactate
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_P07864
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+measurements:
+- id: measurement_0
+  name: Experimental conditions (pH=8.0, T=None°C)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_0
+  name: Experimental conditions (pH=8.0, T=None°C)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: P07864_NAD__Km_11354
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.703562363973514
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: 'Source: Km'
+  pubmed_id: '25705126'
+- id: P07864__S_-lactate_Km_11355
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 21.78
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate__S_-lactate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: 'Source: Km'
+  pubmed_id: '25705126'
+buffer:
+  buffer: null
+  buffer_concentration: null
+references:
+- title: S.
+  authors: Talaiezadeh, A., Shahriari, A., Tabandeh, M.R., Fathizadeh, P., Mansouri
+  year: '2015'
+  journal: Kinetic characterization of lactate dehydrogenase in normal and malignant
+    human breast tissues
+  uri: null
+  pubmed_id: '25705126'
+  doi: null
+  id: '124'
+  pages: '19'
+  volume: '15'
+  citation: 'Talaiezadeh, A.,Shahriari, A.,Tabandeh, M.R.,Fathizadeh, P.,Mansouri,
+    S., Kinetic characterization of lactate dehydrogenase in normal and malignant
+    human breast tissues, Cancer Cell Int., 2015, 19, 15, PMID: 25705126'
+name: Merged entry for P07864 wildtype
+description: 'Merged from 2 files: SKID_EC1.1.1.27_Homo_P07864_NAD_.yaml, SKID_EC1.1.1.27_Homo_P07864__S_-lactate.yaml'

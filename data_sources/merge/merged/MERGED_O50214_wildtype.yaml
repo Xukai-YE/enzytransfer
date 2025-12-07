@@ -1,0 +1,290 @@
+version: '2.0'
+created: '2025-11-20T13:39:33.239119'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_14_13__O50214_p40259
+  name: With NADH or NADPH as one donor, and incorporation of one atom of oxygen
+  ecnumber: 1.14.13.
+  organism: Pseudomonas sp.
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: O50214
+  wildtype_sequence: MKKRIGIVGAGTAGLHLGLFLRQHDVDVTVYTDRKPDEYSGLRLLNTVAHNAVTVQREVALDVNEWPSEEFGYFGHYYYVGGPQPMRFYGDLKAPSRAVDYRLYQPMLMRALEARGGKFCYDAVSAEDLEGLSEQYDLLVVCTGKYALGKVFEKQSENSPFEKPQRALCVGLFKGIKEAPIRAVTMSFSPGHGELIEIPTLSFNGMSTALVLENHIGSDLEVLAHTKYDDDPRAFLDLMLEKLGKHHPSVAERIDPAEFDLANSSLDILQGGVVPAFRDGHATLNNGKTIIGLGDIQATVDPVLGQGANMASYAAWILGEEILAHSVYDLRFSEHLERRRQDRVLCATRWTNFTLSALSALPPEFLAFLQILSQSREMADEFTDNFNYPERQWDRFSSPERIGQWCSQFAPTIAA
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Styrene
+  name: Styrene
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_FAD
+  name: FAD
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product__S_-Styrene_oxide
+  name: (S)-Styrene oxide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_FADH2
+  name: FADH2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_12324_EC1_14_13__Pseudomonas_sp._O50214_O2
+  name: Reaction catalyzed by With NADH or NADPH as one donor, and incorporation of
+    one atom of oxygen on O2
+  equation: Styrene + FAD + O2 + H+ + NADH = (S)-Styrene oxide + FADH2 + H2O + NAD+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_Styrene
+  - species_id: substrate_FAD
+  - species_id: substrate_NADH
+  products:
+  - species_id: product__S_-Styrene_oxide
+  - species_id: product_FADH2
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_14_13__O50214_p40259
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:16238; CHEBI:29375; CHEBI:44819; CHEBI:41981;
+    CHEBI:15124; CHEBI:26689; CHEBI:44281; CHEBI:42857; CHEBI:41979; CHEBI:17877;
+    CHEBI:27452; CHEBI:29234; CHEBI:9298; CHEBI:15846; CHEBI:13393; CHEBI:13357; CHEBI:24040;
+    CHEBI:21902; CHEBI:13396; CHEBI:23833; CHEBI:26798; CHEBI:13416; CHEBI:17907;
+    CHEBI:21901; CHEBI:42043; CHEBI:24636; CHEBI:44701; CHEBI:44214; CHEBI:29233;
+    CHEBI:33811; CHEBI:5584; CHEBI:33813; CHEBI:51014; CHEBI:27313; CHEBI:21125; CHEBI:15377;
+    CHEBI:13394; CHEBI:13352; CHEBI:57945; CHEBI:44216; CHEBI:15379; CHEBI:13315;
+    CHEBI:9296; CHEBI:42427; CHEBI:42388; CHEBI:43228; CHEBI:7423; CHEBI:57540; CHEBI:44292;
+    CHEBI:30491; CHEBI:33806; CHEBI:13389; CHEBI:25366; CHEBI:44742; CHEBI:5585; CHEBI:29374;
+    CHEBI:26796; CHEBI:13395; CHEBI:15378; CHEBI:29793; CHEBI:4957; CHEBI:10743; CHEBI:7860;
+    CHEBI:10745; CHEBI:21126; CHEBI:4956; CHEBI:58307; CHEBI:10744; CHEBI:44215; CHEBI:29373;
+    CHEBI:13316; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C01352; KEGG:C00080; KEGG:C00003; KEGG:C20782; KEGG:C00001; KEGG:C02083;
+    KEGG:C00704; KEGG:C07083; KEGG:C00016; KEGG:C00007; KEGG:C00004'
+- id: sabiork_12324_EC1_14_13__Pseudomonas_sp._O50214_O2
+  name: Reaction catalyzed by With NADH or NADPH as one donor, and incorporation of
+    one atom of oxygen on O2
+  equation: Styrene + FAD + O2 + H+ + NADH = (S)-Styrene oxide + FADH2 + H2O + NAD+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_NADH
+  - species_id: substrate_FAD
+  - species_id: substrate_Styrene
+  products:
+  - species_id: product_FADH2
+  - species_id: product__S_-Styrene_oxide
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_14_13__O50214_p40260
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:16238; CHEBI:29375; CHEBI:44819; CHEBI:41981;
+    CHEBI:15124; CHEBI:26689; CHEBI:44281; CHEBI:42857; CHEBI:41979; CHEBI:17877;
+    CHEBI:29234; CHEBI:27452; CHEBI:9298; CHEBI:15846; CHEBI:13393; CHEBI:13357; CHEBI:24040;
+    CHEBI:21902; CHEBI:13396; CHEBI:23833; CHEBI:26798; CHEBI:13416; CHEBI:17907;
+    CHEBI:21901; CHEBI:42043; CHEBI:24636; CHEBI:44701; CHEBI:44214; CHEBI:29233;
+    CHEBI:33811; CHEBI:5584; CHEBI:33813; CHEBI:51014; CHEBI:27313; CHEBI:21125; CHEBI:15377;
+    CHEBI:13394; CHEBI:13352; CHEBI:57945; CHEBI:44216; CHEBI:15379; CHEBI:13315;
+    CHEBI:9296; CHEBI:42427; CHEBI:42388; CHEBI:43228; CHEBI:7423; CHEBI:57540; CHEBI:44292;
+    CHEBI:30491; CHEBI:33806; CHEBI:13389; CHEBI:25366; CHEBI:44742; CHEBI:5585; CHEBI:29374;
+    CHEBI:15378; CHEBI:13395; CHEBI:26796; CHEBI:29793; CHEBI:4957; CHEBI:10743; CHEBI:7860;
+    CHEBI:10745; CHEBI:21126; CHEBI:4956; CHEBI:58307; CHEBI:10744; CHEBI:44215; CHEBI:29373;
+    CHEBI:13316; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C01352; KEGG:C00080; KEGG:C00003; KEGG:C20782; KEGG:C00001; KEGG:C02083;
+    KEGG:C00704; KEGG:C07083; KEGG:C00016; KEGG:C00007; KEGG:C00004'
+measurements:
+- id: measurement_1_14_13__Pseudomonas_sp._O50214_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_14_13__Pseudomonas_sp._O50214_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_14_13__Pseudomonas_sp._O50214_O2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.6
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15292130'
+- id: 1_14_13__Pseudomonas_sp._O50214_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00045
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15292130'
+- id: 1_14_13__Pseudomonas_sp._O50214_O2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.6
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15292130'
+- id: 1_14_13__Pseudomonas_sp._O50214_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00038
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15292130'
+buffer:
+  buffer: 20 mM Tris/HCl, 1 mM DTT, 5% glycerol, 650 U/ml catalase, 150 mM sodium
+    formate, 0.5 U/ml formate dehydrogenase, 3 ¦ÌM StyB; 20 mM Tris/HCl, 1 mM DTT,
+    5% glycerol, 650 U/ml catalase, 150 mM sodium formate, 0.5 U/ml formate dehydrogenase,3
+    ¦ÌM StyB
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 40259
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15292130/
+  pubmed_id: '15292130'
+  doi: null
+name: Merged entry for O50214 wildtype
+description: 'Merged from 2 files: SABIO_EC1.14.13._Pseudomonas_sp.__O50214_s_O2.yaml,
+  SABIO_EC1.14.13._Pseudomonas_sp.__O50214_s_O2_2.yaml'

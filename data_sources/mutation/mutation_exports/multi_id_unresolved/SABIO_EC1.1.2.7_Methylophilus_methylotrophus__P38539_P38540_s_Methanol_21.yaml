@@ -1,0 +1,157 @@
+name: SABIO-RK Entry 24072
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 24072
+created: '2025-10-28T14:23:46.947655'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_2_7_P38539_P38540_p24072
+  name: methanol dehydrogenase (cytochrome c)
+  sequence: null
+  ecnumber: 1.1.2.7
+  organism: Methylophilus methylotrophus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P38539; P38540
+complexes: null
+small_molecules:
+- id: substrate_Methanol
+  name: Methanol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_PQQ
+  name: PQQ
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_PQQH2
+  name: PQQH2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Formaldehyde
+  name: Formaldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Cyanide_Glycine_ethyl_ester
+  name: Cyanide; Glycine ethyl ester
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1387_EC1_1_2_7_Methylophilus_methylotrophus_P38539_P38540_Methanol
+  name: Reaction catalyzed by methanol dehydrogenase (cytochrome c) on Methanol
+  equation: Methanol + PQQ = PQQH2 + Formaldehyde
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Methanol
+  - species_id: substrate_PQQ
+  products:
+  - species_id: product_PQQH2
+  - species_id: product_Formaldehyde
+  modifiers:
+  - species_id: protein_1_1_2_7_P38539_P38540_p24072
+    role: BIOCATALYST
+  - species_id: activator_Cyanide_Glycine_ethyl_ester
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:49082; CHEBI:58442; CHEBI:5142; CHEBI:16842; CHEBI:25227;
+    CHEBI:14038; CHEBI:18407; CHEBI:15030; CHEBI:17514; CHEBI:6816; CHEBI:44553; CHEBI:24077;
+    CHEBI:7882; CHEBI:337763; CHEBI:14588; CHEBI:41780; CHEBI:14986; CHEBI:26526;
+    CHEBI:36826; CHEBI:17790; CHEBI:18356; CHEBI:18315; CHEBI:44080; CHEBI:14274;
+    CHEBI:3969; CHEBI:77660; CHEBI:58459; CHEBI:45251; CHEBI:7881; CHEBI:48819; CHEBI:26460
+
+    KEGG IDs: KEGG:C01326; KEGG:C01359; KEGG:C00113; KEGG:C00177; KEGG:C00132; KEGG:C00067'
+measurements:
+- id: measurement_1_1_2_7_Methylophilus_methylotrophus_P38539_P38540_Methanol
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_2_7_Methylophilus_methylotrophus_P38539_P38540_Methanol_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 4.27
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Methanol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15617516'
+buffer:
+  buffer: 0.1 M CHES, 1 mM phenazine ethosulfate, 0.04 mM dichlorophenol indophenol
+  buffer_concentration: 0.1 M
+references:
+- title: Reference for SABIO-RK entry 24072
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15617516/
+  pubmed_id: '15617516'
+  doi: null

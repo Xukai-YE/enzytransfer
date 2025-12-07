@@ -1,0 +1,528 @@
+version: '2.0'
+created: '2025-11-20T13:39:57.171305'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_1_1_165_O80562_p74711
+  name: methyl halide transferase
+  ecnumber: 2.1.1.165
+  organism: Arabidopsis thaliana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: O80562
+  wildtype_sequence: MAEEQQNSSYSIGGNILPTPEEAATFQPQVVAEGGWDKCWEDGVTPWDQGRATPLILHLLDSSALPLGRTLVPGCGGGHDVVAMASPERFVVGLDISDKALNKANETYGSSPKAEYFSFVKEDVFTWRPNELFDLIFDYVFFCAIEPEMRPAWGKSMHELLKPDGELITLMYPMTDHEGGAPYKVALSSYEDVLVPVGFKAVSVEENPDSIPTRKGKEKLARWKKIN
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Cl-
+  name: Cl-
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_S-Adenosyl-L-methionine
+  name: S-Adenosyl-L-methionine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Methyl_chloride
+  name: Methyl chloride
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_S-Adenosyl-L-homocysteine
+  name: S-Adenosyl-L-homocysteine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Thiocyanate
+  name: Thiocyanate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Methyl_thiocyanate
+  name: Methyl thiocyanate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Hydrosulfide
+  name: Hydrosulfide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Methanethiol
+  name: Methanethiol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_16261_EC2_1_1_165_Arabidopsis_thaliana_O80562_Cl-
+  name: Reaction catalyzed by methyl halide transferase on Cl-
+  equation: Cl- + S-Adenosyl-L-methionine = S-Adenosyl-L-homocysteine + Methyl chloride
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Cl-
+  - species_id: substrate_S-Adenosyl-L-methionine
+  products:
+  - species_id: product_Methyl_chloride
+  - species_id: product_S-Adenosyl-L-homocysteine
+  modifiers:
+  - species_id: protein_2_1_1_165_O80562_p74711
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:3616; CHEBI:22036; CHEBI:12760; CHEBI:17996; CHEBI:12742;
+    CHEBI:59789; CHEBI:67009; CHEBI:45495; CHEBI:5590; CHEBI:3731; CHEBI:142094; CHEBI:8945;
+    CHEBI:67040; CHEBI:45607; CHEBI:13364; CHEBI:33442; CHEBI:15414; CHEBI:17883;
+    CHEBI:10833; CHEBI:12761; CHEBI:13291; CHEBI:12741; CHEBI:57856; CHEBI:16680;
+    CHEBI:13970; CHEBI:12759; CHEBI:8946; CHEBI:22034; CHEBI:24635; CHEBI:48804; CHEBI:527887;
+    CHEBI:10786; CHEBI:36014; CHEBI:12757
+
+    KEGG IDs: KEGG:C19446; KEGG:C00698; KEGG:C01327; KEGG:C00021; KEGG:C00019'
+- id: sabiork_16260_EC2_1_1_165_Arabidopsis_thaliana_O80562_S-Adenosyl-L-methionine
+  name: Reaction catalyzed by methyl halide transferase on S-Adenosyl-L-methionine
+  equation: S-Adenosyl-L-methionine + Thiocyanate = S-Adenosyl-L-homocysteine + Methyl
+    thiocyanate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_S-Adenosyl-L-methionine
+  - species_id: substrate_Thiocyanate
+  products:
+  - species_id: product_S-Adenosyl-L-homocysteine
+  - species_id: product_Methyl_thiocyanate
+  modifiers:
+  - species_id: protein_2_1_1_165_O80562_p74708
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:22036; CHEBI:12760; CHEBI:12742; CHEBI:59789; CHEBI:67009;
+    CHEBI:45495; CHEBI:142094; CHEBI:8945; CHEBI:67040; CHEBI:45576; CHEBI:61112;
+    CHEBI:45607; CHEBI:26956; CHEBI:33442; CHEBI:15414; CHEBI:10833; CHEBI:12761;
+    CHEBI:12741; CHEBI:57856; CHEBI:29200; CHEBI:16680; CHEBI:12759; CHEBI:24926;
+    CHEBI:8946; CHEBI:9550; CHEBI:15234; CHEBI:22034; CHEBI:26954; CHEBI:527887; CHEBI:10786;
+    CHEBI:18022; CHEBI:12757
+
+    KEGG IDs: KEGG:C00021; KEGG:C01755; KEGG:C00019'
+- id: sabiork_16262_EC2_1_1_165_Arabidopsis_thaliana_O80562_S-Adenosyl-L-methionine
+  name: Reaction catalyzed by methyl halide transferase on S-Adenosyl-L-methionine
+  equation: S-Adenosyl-L-methionine + Hydrosulfide = S-Adenosyl-L-homocysteine + Methanethiol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_S-Adenosyl-L-methionine
+  - species_id: substrate_Hydrosulfide
+  products:
+  - species_id: product_S-Adenosyl-L-homocysteine
+  - species_id: product_Methanethiol
+  modifiers:
+  - species_id: protein_2_1_1_165_O80562_p74713
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:22036; CHEBI:12760; CHEBI:12742; CHEBI:59789; CHEBI:67009;
+    CHEBI:45495; CHEBI:25225; CHEBI:14586; CHEBI:16007; CHEBI:142094; CHEBI:8945;
+    CHEBI:67040; CHEBI:45607; CHEBI:6814; CHEBI:33442; CHEBI:15414; CHEBI:10833; CHEBI:12761;
+    CHEBI:12741; CHEBI:57856; CHEBI:16680; CHEBI:29919; CHEBI:12759; CHEBI:8946; CHEBI:22034;
+    CHEBI:527887; CHEBI:10786; CHEBI:12757
+
+    KEGG IDs: KEGG:C00021; KEGG:C00409; KEGG:C00019'
+- id: sabiork_16262_EC2_1_1_165_Arabidopsis_thaliana_O80562_Hydrosulfide
+  name: Reaction catalyzed by methyl halide transferase on Hydrosulfide
+  equation: S-Adenosyl-L-methionine + Hydrosulfide = S-Adenosyl-L-homocysteine + Methanethiol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Hydrosulfide
+  - species_id: substrate_S-Adenosyl-L-methionine
+  products:
+  - species_id: product_Methanethiol
+  - species_id: product_S-Adenosyl-L-homocysteine
+  modifiers:
+  - species_id: protein_2_1_1_165_O80562_p74716
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:22036; CHEBI:12760; CHEBI:12742; CHEBI:59789; CHEBI:67009;
+    CHEBI:45495; CHEBI:25225; CHEBI:14586; CHEBI:16007; CHEBI:142094; CHEBI:8945;
+    CHEBI:67040; CHEBI:45607; CHEBI:6814; CHEBI:33442; CHEBI:15414; CHEBI:10833; CHEBI:12761;
+    CHEBI:12741; CHEBI:57856; CHEBI:16680; CHEBI:29919; CHEBI:12759; CHEBI:8946; CHEBI:22034;
+    CHEBI:527887; CHEBI:10786; CHEBI:12757
+
+    KEGG IDs: KEGG:C00021; KEGG:C00409; KEGG:C00019'
+measurements:
+- id: measurement_2_1_1_165_Arabidopsis_thaliana_O80562_Cl-
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_1_1_165_Arabidopsis_thaliana_O80562_S-Adenosyl-L-methionine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_1_1_165_Arabidopsis_thaliana_O80562_S-Adenosyl-L-methionine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_1_1_165_Arabidopsis_thaliana_O80562_Hydrosulfide
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_1_1_165_Arabidopsis_thaliana_O80562_Cl-_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.036
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cl-
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19419967'
+- id: 2_1_1_165_Arabidopsis_thaliana_O80562_Cl-_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 150000000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cl-
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19419967'
+- id: 2_1_1_165_Arabidopsis_thaliana_O80562_Cl-_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 5400000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cl-
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19419967'
+- id: 2_1_1_165_Arabidopsis_thaliana_O80562_Cl-_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.0002
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cl-
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19419967'
+- id: 2_1_1_165_Arabidopsis_thaliana_O80562_S-Adenosyl-L-methionine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 3800000000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19419967'
+- id: 2_1_1_165_Arabidopsis_thaliana_O80562_S-Adenosyl-L-methionine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.00026
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19419967'
+- id: 2_1_1_165_Arabidopsis_thaliana_O80562_S-Adenosyl-L-methionine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 7000000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19419967'
+- id: 2_1_1_165_Arabidopsis_thaliana_O80562_S-Adenosyl-L-methionine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0018
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19419967'
+- id: 2_1_1_165_Arabidopsis_thaliana_O80562_S-Adenosyl-L-methionine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 12000000000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19419967'
+- id: 2_1_1_165_Arabidopsis_thaliana_O80562_S-Adenosyl-L-methionine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.00052
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19419967'
+- id: 2_1_1_165_Arabidopsis_thaliana_O80562_S-Adenosyl-L-methionine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 14000000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19419967'
+- id: 2_1_1_165_Arabidopsis_thaliana_O80562_S-Adenosyl-L-methionine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0011
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19419967'
+- id: 2_1_1_165_Arabidopsis_thaliana_O80562_Hydrosulfide_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 110000000000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Hydrosulfide
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19419967'
+- id: 2_1_1_165_Arabidopsis_thaliana_O80562_Hydrosulfide_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.9e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Hydrosulfide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19419967'
+- id: 2_1_1_165_Arabidopsis_thaliana_O80562_Hydrosulfide_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.0002
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Hydrosulfide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19419967'
+- id: 2_1_1_165_Arabidopsis_thaliana_O80562_Hydrosulfide_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 5300000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Hydrosulfide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19419967'
+buffer:
+  buffer: 0.1 M Tris-acetate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 74711
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/19419967/
+  pubmed_id: '19419967'
+  doi: null
+name: Merged entry for O80562 wildtype
+description: 'Merged from 4 files: SABIO_EC2.1.1.165_Arabidopsis_thaliana__O80562_s_Cl-.yaml,
+  SABIO_EC2.1.1.165_Arabidopsis_thaliana__O80562_s_S-Adenosyl-L-methion.yaml, SABIO_EC2.1.1.165_Arabidopsis_thaliana__O80562_s_S-Adenosyl-L-methion_2.yaml,
+  SABIO_EC2.1.1.165_Arabidopsis_thaliana__O80562_s_Hydrosulfide.yaml'

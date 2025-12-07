@@ -1,0 +1,170 @@
+name: SABIO-RK Entry 39784
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 39784
+created: '2025-10-28T15:14:17.546361'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_2_1_21_Q75I93_p39784
+  name: glucan 1,4-beta-glucosidase
+  ecnumber: 3.2.1.21
+  organism: Oryza sativa
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: N245V
+  uniprotid: Q75I93
+  wildtype_sequence: MAARRANCALVLVLALALLAARDAGAAAVPKPNWLGGLSRAAFPKRFVFGTATSAYQVEGMAASGGRGPSIWDAFAHTPGNVAGNQNGDVATDQYHRYKEDVNLMKSLNFDAYRFSISWSRIFPDGEGRVNQEGVAYYNNLINYLLQKGITPYVNLYHYDLPLALEKKYGGWLNAKMADLFTEYADFCFKTFGNRVKHWFTFNEPRIVALLGYDQGTNPPKRCTKCAAGGNSATEPYIVAHNFLLSHAAAVARYRTKYQAAQQGKVGIVLDFNWYEALSNSTEDQAAAQRARDFHIGWYLDPLINGHYPQIMQDLVKDRLPKFTPEQARLVKGSADYIGINQYTASYMKGQQLMQQTPTSYSADWQVTYVFAKNGKPIGPQANSNWLYIVPWGMYGCVNYIKQKYGNPTVVITENGMDQPANLSRDQYLRDTTRVHFYRSYLTQLKKAIDEGANVAGYFAWSLLDNFEWLSGYTSKFGIVYVDFNTLERHPKASAYWFRDMLKH
+  mutant_sequence: MAARRANCALVLVLALALLAARDAGAAAVPKPNWLGGLSRAAFPKRFVFGTATSAYQVEGMAASGGRGPSIWDAFAHTPGNVAGNQNGDVATDQYHRYKEDVNLMKSLNFDAYRFSISWSRIFPDGEGRVNQEGVAYYNNLINYLLQKGITPYVNLYHYDLPLALEKKYGGWLNAKMADLFTEYADFCFKTFGNRVKHWFTFNEPRIVALLGYDQGTNPPKRCTKCAAGGNSATEPYIVAHVFLLSHAAAVARYRTKYQAAQQGKVGIVLDFNWYEALSNSTEDQAAAQRARDFHIGWYLDPLINGHYPQIMQDLVKDRLPKFTPEQARLVKGSADYIGINQYTASYMKGQQLMQQTPTSYSADWQVTYVFAKNGKPIGPQANSNWLYIVPWGMYGCVNYIKQKYGNPTVVITENGMDQPANLSRDQYLRDTTRVHFYRSYLTQLKKAIDEGANVAGYFAWSLLDNFEWLSGYTSKFGIVYVDFNTLERHPKASAYWFRDMLKH
+  position_offset: -3
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Cellobiose
+  name: Cellobiose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_beta-D-Glucose
+  name: beta-D-Glucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_618_EC3_2_1_21_Oryza_sativa_Q75I93_Cellobiose
+  name: Reaction catalyzed by glucan 1,4-beta-glucosidase on Cellobiose
+  equation: Cellobiose + H2O = beta-D-Glucose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Cellobiose
+  products:
+  - species_id: product_beta-D-Glucose
+  modifiers:
+  - species_id: protein_3_2_1_21_Q75I93_p39784
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00026
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41353; CHEBI:41981; CHEBI:10397;
+    CHEBI:12373; CHEBI:22795; CHEBI:42857; CHEBI:41979; CHEBI:42043; CHEBI:22836;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:35462;
+    CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:41140;
+    CHEBI:10358; CHEBI:15903; CHEBI:17057; CHEBI:29373; CHEBI:44701; CHEBI:36217
+
+    KEGG IDs: KEGG:C06422; KEGG:C00001; KEGG:C00185; KEGG:C00221'
+measurements:
+- id: measurement_3_2_1_21_Oryza_sativa_Q75I93_Cellobiose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 5.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 3_2_1_21_Oryza_sativa_Q75I93_Cellobiose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0744
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cellobiose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18308333'
+- id: 3_2_1_21_Oryza_sativa_Q75I93_Cellobiose_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 100.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cellobiose
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 5.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18308333'
+- id: 3_2_1_21_Oryza_sativa_Q75I93_Cellobiose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 7.17
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cellobiose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18308333'
+buffer:
+  buffer: 50 mM Sodium acetate
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 39784
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/18308333/
+  pubmed_id: '18308333'
+  doi: null

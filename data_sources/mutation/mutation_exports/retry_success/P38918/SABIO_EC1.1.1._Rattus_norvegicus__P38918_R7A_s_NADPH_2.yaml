@@ -1,0 +1,147 @@
+name: SABIO-RK Entry 46940
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 46940
+created: '2025-10-28T15:39:26.980799'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1__P38918_p46940
+  name: alcohol dehydrogenase (NADP+)
+  ecnumber: 1.1.1.
+  organism: Rattus norvegicus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: R7A
+  uniprotid: P38918
+  wildtype_sequence: MSQARPATVLGAMEMGRRMDVTSSSASVRAFLQRGHTEIDTAFVYANGQSETILGDLGLGLGRSGCKVKIATKAAPMFGKTLKPADVRFQLETSLKRLQCPRVDLFYLHFPDHGTPIEETLQACHQLHQEGKFVELGLSNYVSWEVAEICTLCKKNGWIMPTVYQGMYNAITRQVETELFPCLRHFGLRFYAFNPLAGGLLTGRYKYQDKDGKNPESRFFGNPFSQLYMDRYWKEEHFNGIALVEKALKTTYGPTAPSMISAAVRWMYHHSQLKGTQGDAVILGMSSLEQLEQNLALVEEGPLEPAVVDAFDQAWNLVAHECPNYFR
+  mutant_sequence: MSQAAPATVLGAMEMGRRMDVTSSSASVRAFLQRGHTEIDTAFVYANGQSETILGDLGLGLGRSGCKVKIATKAAPMFGKTLKPADVRFQLETSLKRLQCPRVDLFYLHFPDHGTPIEETLQACHQLHQEGKFVELGLSNYVSWEVAEICTLCKKNGWIMPTVYQGMYNAITRQVETELFPCLRHFGLRFYAFNPLAGGLLTGRYKYQDKDGKNPESRFFGNPFSQLYMDRYWKEEHFNGIALVEKALKTTYGPTAPSMISAAVRWMYHHSQLKGTQGDAVILGMSSLEQLEQNLALVEEGPLEPAVVDAFDQAWNLVAHECPNYFR
+  position_offset: -2
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Succinate_semialdehyde
+  name: Succinate semialdehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4-Hydroxybutanoate
+  name: 4-Hydroxybutanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Tartrate
+  name: Tartrate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_10705_EC1_1_1__Rattus_norvegicus_P38918_NADPH
+  name: Reaction catalyzed by alcohol dehydrogenase (NADP+) on NADPH
+  equation: H+ + Succinate semialdehyde + NADPH = 4-Hydroxybutanoate + NADP+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_Succinate_semialdehyde
+  products:
+  - species_id: product_4-Hydroxybutanoate
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_1_1__P38918_p46940
+    role: BIOCATALYST
+  - species_id: activator_Tartrate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 26381;26382;26383;26384
+  KEGGid: R09281
+  notes: 'ChEBI IDs: CHEBI:12006; CHEBI:16724; CHEBI:13397; CHEBI:13398; CHEBI:20401;
+    CHEBI:15674; CHEBI:7424; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357;
+    CHEBI:25523; CHEBI:24636; CHEBI:386065; CHEBI:29233; CHEBI:5584; CHEBI:13399;
+    CHEBI:30830; CHEBI:16474; CHEBI:1860; CHEBI:44286; CHEBI:26805; CHEBI:26849; CHEBI:20402;
+    CHEBI:21904; CHEBI:26804; CHEBI:44409; CHEBI:15193; CHEBI:15378; CHEBI:15126;
+    CHEBI:18009; CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:9305; CHEBI:57706; CHEBI:10744;
+    CHEBI:16265
+
+    KEGG IDs: KEGG:C00232; KEGG:C00005; KEGG:C00080; KEGG:C00898; KEGG:C01991; KEGG:C00989;
+    KEGG:C00006; KEGG:C11037'
+measurements:
+- id: measurement_1_1_1__Rattus_norvegicus_P38918_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.6
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 100 mM Sodium phosphate
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 46940
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16460003/
+  pubmed_id: '16460003'
+  doi: null

@@ -1,0 +1,325 @@
+version: '2.0'
+created: '2025-11-20T13:41:43.065155'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_5_1_99_7_P0AC19_p68726
+  name: dihydroneopterin triphosphate 2'-epimerase
+  ecnumber: 5.1.99.7
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P0AC19
+  wildtype_sequence: MAQPAAIIRIKNLRLRTFIGIKEEEINNRQDIVINVTIHYPADKARTSEDINDALNYRTVTKNIIQHVENNRFSLLEKLTQDVLDIAREHHWVTYAEVEIDKLHALRYADSVSMTLSWQR
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_7
+  name: '7'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_8-Dihydroneopterin_3_-triphosphate
+  name: 8-Dihydroneopterin 3'-triphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_7
+  name: '7'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_8-Dihydromonapterin_3_-triphosphate
+  name: 8-Dihydromonapterin 3'-triphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_8-Dihydromonapterin
+  name: 8-Dihydromonapterin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_8-Dihydroneopterin
+  name: 8-Dihydroneopterin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_8-Dihydroneopterin
+  name: 8-Dihydroneopterin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_8-Dihydromonapterin
+  name: 8-Dihydromonapterin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_15713_EC5_1_99_7_Escherichia_coli_P0AC19_7
+  name: Reaction catalyzed by dihydroneopterin triphosphate 2'-epimerase on 7
+  equation: 7,8-Dihydroneopterin 3'-triphosphate = 7,8-Dihydromonapterin 3'-triphosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: product_7
+  - species_id: substrate_8-Dihydroneopterin_3_-triphosphate
+  products:
+  - species_id: product_7
+  - species_id: product_8-Dihydromonapterin_3_-triphosphate
+  modifiers:
+  - species_id: protein_5_1_99_7_P0AC19_p68726
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R11082
+  notes: 'ChEBI IDs: CHEBI:58462; CHEBI:18372; CHEBI:1002; CHEBI:28069; CHEBI:20684;
+    CHEBI:19455; CHEBI:12201; CHEBI:11509; CHEBI:61186
+
+    KEGG IDs: KEGG:C04895; KEGG:C21094'
+- id: sabiork_15711_EC5_1_99_7_Escherichia_coli_P0AC19_7
+  name: Reaction catalyzed by 7,8-dihydroneopterin epimerase on 7
+  equation: 7,8-Dihydroneopterin = 7,8-Dihydromonapterin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: product_7
+  - species_id: substrate_8-Dihydromonapterin
+  products:
+  - species_id: product_7
+  - species_id: product_8-Dihydroneopterin
+  modifiers:
+  - species_id: protein_5_1_99_7_P0AC19_p68728
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R11073
+  notes: 'ChEBI IDs: CHEBI:71175; CHEBI:19454; CHEBI:17001; CHEBI:30567; CHEBI:11510;
+    CHEBI:44427; CHEBI:1001
+
+    KEGG IDs: KEGG:C04874; KEGG:C21008'
+- id: sabiork_15711_EC5_1_99_7_Escherichia_coli_P0AC19_7
+  name: Reaction catalyzed by 7,8-dihydroneopterin epimerase on 7
+  equation: 7,8-Dihydroneopterin = 7,8-Dihydromonapterin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: product_7
+  - species_id: substrate_8-Dihydroneopterin
+  products:
+  - species_id: product_7
+  - species_id: product_8-Dihydromonapterin
+  modifiers:
+  - species_id: protein_5_1_99_7_P0AC19_p68727
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R11073
+  notes: 'ChEBI IDs: CHEBI:71175; CHEBI:19454; CHEBI:17001; CHEBI:11510; CHEBI:30567;
+    CHEBI:44427; CHEBI:1001
+
+    KEGG IDs: KEGG:C04874; KEGG:C21008'
+measurements:
+- id: measurement_5_1_99_7_Escherichia_coli_P0AC19_7
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.2
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_5_1_99_7_Escherichia_coli_P0AC19_7
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.2
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_5_1_99_7_Escherichia_coli_P0AC19_7
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.2
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 5_1_99_7_Escherichia_coli_P0AC19_7_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000133333
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_7
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9651328'
+- id: 5_1_99_7_Escherichia_coli_P0AC19_7_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.3e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_7
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9651328'
+- id: 5_1_99_7_Escherichia_coli_P0AC19_7_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.861111e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_7
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9651328'
+- id: 5_1_99_7_Escherichia_coli_P0AC19_7_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.6e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_7
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9651328'
+- id: 5_1_99_7_Escherichia_coli_P0AC19_7_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000149
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_7
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9651328'
+- id: 5_1_99_7_Escherichia_coli_P0AC19_7_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.638889e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_7
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9651328'
+buffer:
+  buffer: 80 mM PIPES, 8 mM MgCl2
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 68726
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9651328/
+  pubmed_id: '9651328'
+  doi: null
+name: Merged entry for P0AC19 wildtype
+description: 'Merged from 3 files: SABIO_EC5.1.99.7_Escherichia_coli__P0AC19_s_7.yaml,
+  SABIO_EC5.1.99.7_Escherichia_coli__P0AC19_s_7_3.yaml, SABIO_EC5.1.99.7_Escherichia_coli__P0AC19_s_7_2.yaml'

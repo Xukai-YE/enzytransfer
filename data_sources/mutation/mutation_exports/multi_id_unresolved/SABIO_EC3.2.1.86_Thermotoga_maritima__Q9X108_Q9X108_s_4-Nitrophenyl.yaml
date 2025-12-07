@@ -1,0 +1,164 @@
+name: SABIO-RK Entry 1764
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 1764
+created: '2025-10-28T13:45:20.363896'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_2_1_86_Q9X108_Q9X108_p1764
+  name: 6-phospho-beta-galactosidase
+  sequence: null
+  ecnumber: 3.2.1.86
+  organism: Thermotoga maritima
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9X108; Q9X108
+complexes: null
+small_molecules:
+- id: substrate_4-Nitrophenyl_beta-D-glucopyranoside_6-phosphate
+  name: 4-Nitrophenyl beta-D-glucopyranoside 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Glucose_6-phosphate
+  name: D-Glucose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_p-Nitrophenol
+  name: p-Nitrophenol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_6847_EC3_2_1_86_Thermotoga_maritima_Q9X108_Q9X108_4-Nitrophenyl_beta-D-glucopyranoside_6-phosphate
+  name: Reaction catalyzed by 6-phospho-beta-galactosidase on 4-Nitrophenyl beta-D-glucopyranoside
+    6-phosphate
+  equation: H2O + 4-Nitrophenyl beta-D-glucopyranoside 6-phosphate = D-Glucose 6-phosphate
+    + p-Nitrophenol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_4-Nitrophenyl_beta-D-glucopyranoside_6-phosphate
+  products:
+  - species_id: product_D-Glucose_6-phosphate
+  - species_id: product_p-Nitrophenol
+  modifiers:
+  - species_id: protein_3_2_1_86_Q9X108_Q9X108_p1764
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:20457; CHEBI:44390;
+    CHEBI:42748; CHEBI:42857; CHEBI:16836; CHEBI:41979; CHEBI:58225; CHEBI:12034;
+    CHEBI:42043; CHEBI:4170; CHEBI:12321; CHEBI:17665; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:13352; CHEBI:15954; CHEBI:10245; CHEBI:14314; CHEBI:43228;
+    CHEBI:44292; CHEBI:57917; CHEBI:22389; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:1913; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00870; KEGG:C00668; KEGG:C00001; KEGG:C00092'
+measurements:
+- id: measurement_3_2_1_86_Thermotoga_maritima_Q9X108_Q9X108_4-Nitrophenyl_beta-D-glucopyranoside_6-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 50.0
+  temperature_unit: °C
+parameters:
+- id: 3_2_1_86_Thermotoga_maritima_Q9X108_Q9X108_4-Nitrophenyl_beta-D-glucopyranoside_6-phosphate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.9
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_4-Nitrophenyl_beta-D-glucopyranoside_6-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15670594'
+- id: 3_2_1_86_Thermotoga_maritima_Q9X108_Q9X108_4-Nitrophenyl_beta-D-glucopyranoside_6-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.1e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_4-Nitrophenyl_beta-D-glucopyranoside_6-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15670594'
+buffer:
+  buffer: 50 mM Hepes, 1 mM MnCl2, 1 ¦ÌM NAD+, 10 mM mercaptothanol, 0.1 % BSA
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 1764
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15670594/
+  pubmed_id: '15670594'
+  doi: null

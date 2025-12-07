@@ -1,0 +1,145 @@
+name: SABIO-RK Entry 75532
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 75532
+created: '2025-10-28T17:45:23.642029'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_39_P00547_p75532
+  name: homoserine kinase
+  ecnumber: 2.7.1.39
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: H202L
+  uniprotid: P00547
+  wildtype_sequence: MVKVYAPASSANMSVGFDVLGAAVTPVDGALLGDVVTVEAAETFSLNNLGRFADKLPSEPRENIVYQCWERFCQELGKQIPVAMTLEKNMPIGSGLGSSACSVVAALMAMNEHCGKPLNDTRLLALMGELEGRISGSIHYDNVAPCFLGGMQLMIEENDIISQQVPGFDEWLWVLAYPGIKVSTAEARAILPAQYRRQDCIAHGRHLAGFIHACYSRQPELAAKLMKDVIAEPYRERLLPGFRQARQAVAEIGAVASGISGSGPTLFALCDKPETAQRVADWLGKNYLQNQEGFVHICRLDTAGARVLEN
+  mutant_sequence: MVKVYAPASSANMSVGFDVLGAAVTPVDGALLGDVVTVEAAETFSLNNLGRFADKLPSEPRENIVYQCWERFCQELGKQIPVAMTLEKNMPIGSGLGSSACSVVAALMAMNEHCGKPLNDTRLLALMGELEGRISGSIHYDNVAPCFLGGMQLMIEENDIISQQVPGFDEWLWVLAYPGIKVSTAEARAILPAQYRRQDCIALGRHLAGFIHACYSRQPELAAKLMKDVIAEPYRERLLPGFRQARQAVAEIGAVASGISGSGPTLFALCDKPETAQRVADWLGKNYLQNQEGFVHICRLDTAGARVLEN
+  position_offset: 1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_L-Homoserine
+  name: L-Homoserine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_O-Phospho-L-homoserine
+  name: O-Phospho-L-homoserine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_L-Homoserine
+  name: L-Homoserine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1866_EC2_7_1_39_Escherichia_coli_P00547_ATP
+  name: Reaction catalyzed by homoserine kinase on ATP
+  equation: ATP + L-Homoserine = ADP + O-Phospho-L-homoserine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: activator_L-Homoserine
+  products:
+  - species_id: product_ADP
+  - species_id: product_O-Phospho-L-homoserine
+  modifiers:
+  - species_id: protein_2_7_1_39_P00547_p75532
+    role: BIOCATALYST
+  - species_id: activator_L-Homoserine
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 13985;13986;13987;13988
+  KEGGid: R01771
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:40553; CHEBI:21330; CHEBI:7697; CHEBI:13236; CHEBI:21969; CHEBI:10841; CHEBI:2359;
+    CHEBI:13123; CHEBI:15699; CHEBI:12717; CHEBI:87518; CHEBI:21965; CHEBI:40938;
+    CHEBI:456216; CHEBI:22249; CHEBI:43131; CHEBI:2342; CHEBI:15422; CHEBI:57476;
+    CHEBI:6246; CHEBI:7691; CHEBI:12693; CHEBI:13222; CHEBI:22244; CHEBI:15961; CHEBI:57590
+
+    KEGG IDs: KEGG:C01102; KEGG:C05702; KEGG:C00002; KEGG:C00263; KEGG:C00008'
+measurements:
+- id: measurement_2_7_1_39_Escherichia_coli_P00547_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 100 mM Hepes/Tris, 100 mM KCl, 10 mM Mg(OAc)2, 0.7 mM PEP, 0.1 mM NADH,
+    20 U pyruvate kinase, 20 U lactate dehydrogenase
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 75532
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/8973190/
+  pubmed_id: '8973190'
+  doi: null

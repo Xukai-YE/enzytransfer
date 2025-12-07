@@ -1,0 +1,205 @@
+name: SABIO-RK Entry 35963
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 35963
+created: '2025-10-28T14:57:38.701042'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_2_1_36_Q58409_Q58667_p35963
+  name: homoaconitate hydratase
+  sequence: null
+  ecnumber: 4.2.1.36
+  organism: rat
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q58409; Q58667
+complexes: null
+small_molecules:
+- id: substrate_But-1-ene-1
+  name: But-1-ene-1
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_2
+  name: '2'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_4-tricarboxylate
+  name: 4-tricarboxylate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Homoisocitrate
+  name: Homoisocitrate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_4067_EC4_2_1_36_rat_Q58409_Q58667_But-1-ene-1
+  name: Reaction catalyzed by homoaconitate hydratase on But-1-ene-1
+  equation: Homoisocitrate = H2O + But-1-ene-1,2,4-tricarboxylate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_But-1-ene-1
+  - species_id: substrate_2
+  - species_id: substrate_4-tricarboxylate
+  products:
+  - species_id: product_Homoisocitrate
+  modifiers:
+  - species_id: protein_4_2_1_36_Q58409_Q58667_p35963
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 15485;15486;15487;15488
+  KEGGid: R04371
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:15404; CHEBI:41981; CHEBI:58174;
+    CHEBI:29094; CHEBI:42857; CHEBI:41979; CHEBI:5756; CHEBI:13920; CHEBI:30904; CHEBI:19972;
+    CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:22935; CHEBI:18469;
+    CHEBI:15377; CHEBI:13352; CHEBI:17516; CHEBI:24618; CHEBI:24617; CHEBI:43228;
+    CHEBI:44292; CHEBI:10767; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:36456;
+    CHEBI:11761; CHEBI:36455; CHEBI:30903; CHEBI:29373; CHEBI:44701; CHEBI:3226
+
+    KEGG IDs: KEGG:C05662; KEGG:C00001; KEGG:C04002'
+measurements:
+- id: measurement_4_2_1_36_rat_Q58409_Q58667_But-1-ene-1
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 60.0
+  temperature_unit: °C
+parameters:
+- id: 4_2_1_36_rat_Q58409_Q58667_But-1-ene-1_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_But-1-ene-1
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18765671'
+- id: 4_2_1_36_rat_Q58409_Q58667_But-1-ene-1_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 59000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_But-1-ene-1
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.5
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18765671'
+- id: 4_2_1_36_rat_Q58409_Q58667_But-1-ene-1_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.33333e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_But-1-ene-1
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18765671'
+- id: 4_2_1_36_rat_Q58409_Q58667_But-1-ene-1_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.5
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_But-1-ene-1
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18765671'
+buffer:
+  buffer: 50 mM TAPS-KOH, 50 mM KCl, 5 mM MgCl2, 20 mM beta-Mercaptoethanol, 1 mM
+    NAD+, 30 ¦Ìg/ml Homoisocitrate dehydrogenase
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 35963
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/18765671/
+  pubmed_id: '18765671'
+  doi: null

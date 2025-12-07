@@ -1,0 +1,225 @@
+version: '2.0'
+created: '2025-11-20T13:40:14.349621'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_4_2_28_A0QR54_p62928
+  name: S-methyl-5'-thioadenosine phosphorylase
+  ecnumber: 2.4.2.28
+  organism: Mycobacterium smegmatis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: A0QR54
+  wildtype_sequence: MMLGVIGGSGFYTFFGSDARAVSVETPYGPPSAPITVGTVGDHEVAFLPRHGVKHEFSPHTVPYRANLWALRSLGVRRVFAPCAVGSLTPDLGPGSIVVPDQLVDRTSGRDDTYFDSGGIHVAFADPYCPTLRAAATGLPGVVDGGTMVVIQGPRFSTRAESRWFASQGFTLVNMTGYPEAVLARELEMCYAAVALVTDLDAGIEVGSGVRAVDVFAEFERNMPPFKKLVFEALEAVEVERTCTHCLTHSGVQLPFELP
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_5_-Deoxy-5_-_methylthio_adenosine
+  name: 5'-Deoxy-5'-(methylthio)adenosine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Phosphate
+  name: Phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Adenine
+  name: Adenine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_5-Methylthio-D-ribose_1-phosphate
+  name: 5-Methylthio-D-ribose 1-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Adenosine
+  name: Adenosine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_alpha-D-Ribose_1-phosphate
+  name: alpha-D-Ribose 1-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1594_EC2_4_2_28_Mycobacterium_smegmatis_A0QR54_5_-Deoxy-5_-_methylthio_adenosine
+  name: Reaction catalyzed by S-methyl-5'-thioadenosine phosphorylase on 5'-Deoxy-5'-(methylthio)adenosine
+  equation: Phosphate + 5'-Deoxy-5'-(methylthio)adenosine = 5-Methylthio-D-ribose
+    1-phosphate + Adenine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_5_-Deoxy-5_-_methylthio_adenosine
+  - species_id: substrate_Phosphate
+  products:
+  - species_id: product_Adenine
+  - species_id: product_5-Methylthio-D-ribose_1-phosphate
+  modifiers:
+  - species_id: protein_2_4_2_28_A0QR54_p62928
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 11852;11853;11854;11855
+  KEGGid: R01402
+  notes: 'ChEBI IDs: CHEBI:20494; CHEBI:14791; CHEBI:43470; CHEBI:18367; CHEBI:13733;
+    CHEBI:35780; CHEBI:26020; CHEBI:12771; CHEBI:17509; CHEBI:26078; CHEBI:2102; CHEBI:12770;
+    CHEBI:1966; CHEBI:20616; CHEBI:20614; CHEBI:29139; CHEBI:58533; CHEBI:39739; CHEBI:12767;
+    CHEBI:16708; CHEBI:2470; CHEBI:12769; CHEBI:1986; CHEBI:39745; CHEBI:30309; CHEBI:40579;
+    CHEBI:14605; CHEBI:7793; CHEBI:30310; CHEBI:20491; CHEBI:22236; CHEBI:44181; CHEBI:27859;
+    CHEBI:45024; CHEBI:12055; CHEBI:43474; CHEBI:29137; CHEBI:12064
+
+    KEGG IDs: KEGG:C04188; KEGG:C00009; KEGG:C00170; KEGG:C00147'
+- id: sabiork_133_EC2_4_2_28_Mycobacterium_smegmatis_A0QR54_Adenosine
+  name: Reaction catalyzed by purine-nucleoside phosphorylase on Adenosine
+  equation: Phosphate + Adenosine = alpha-D-Ribose 1-phosphate + Adenine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Adenosine
+  - species_id: substrate_Phosphate
+  products:
+  - species_id: product_Adenine
+  - species_id: product_alpha-D-Ribose_1-phosphate
+  modifiers:
+  - species_id: protein_2_4_2_28_A0QR54_p62929
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 27642;27643;27644;27645
+  KEGGid: R01561
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:40906; CHEBI:43470; CHEBI:18367; CHEBI:13733;
+    CHEBI:35780; CHEBI:40558; CHEBI:26020; CHEBI:26078; CHEBI:16300; CHEBI:2472; CHEBI:22412;
+    CHEBI:29139; CHEBI:10269; CHEBI:39739; CHEBI:16708; CHEBI:45429; CHEBI:2470; CHEBI:57720;
+    CHEBI:39745; CHEBI:40579; CHEBI:7793; CHEBI:22236; CHEBI:45024; CHEBI:12329; CHEBI:16335;
+    CHEBI:43474; CHEBI:13734; CHEBI:22237; CHEBI:29137; CHEBI:12330; CHEBI:40825;
+    CHEBI:45482
+
+    KEGG IDs: KEGG:C00212; KEGG:C00009; KEGG:C00620; KEGG:C00147'
+measurements:
+- id: measurement_2_4_2_28_Mycobacterium_smegmatis_A0QR54_5_-Deoxy-5_-_methylthio_adenosine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.3
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_4_2_28_Mycobacterium_smegmatis_A0QR54_Adenosine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.3
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_4_2_28_Mycobacterium_smegmatis_A0QR54_5_-Deoxy-5_-_methylthio_adenosine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.6e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_5_-Deoxy-5_-_methylthio_adenosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.3
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '21821769'
+- id: 2_4_2_28_Mycobacterium_smegmatis_A0QR54_Adenosine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00031
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Adenosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.3
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '21821769'
+buffer:
+  buffer: 50 mM HEPES
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 62928
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/21821769/
+  pubmed_id: '21821769'
+  doi: null
+name: Merged entry for A0QR54 wildtype
+description: 'Merged from 2 files: SABIO_EC2.4.2.28_Mycobacterium_smegmatis__A0QR54_s_5_-Deoxy-5_-_methylt.yaml,
+  SABIO_EC2.4.2.28_Mycobacterium_smegmatis__A0QR54_s_Adenosine.yaml'

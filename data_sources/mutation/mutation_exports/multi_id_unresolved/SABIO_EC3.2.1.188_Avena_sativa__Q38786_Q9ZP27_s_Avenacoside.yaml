@@ -1,0 +1,146 @@
+name: SABIO-RK Entry 70445
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 70445
+created: '2025-10-28T17:17:13.447535'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_2_1_188_Q38786_Q9ZP27_p70445
+  name: avenacosidase
+  sequence: null
+  ecnumber: 3.2.1.188
+  organism: Avena sativa
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q38786; Q9ZP27
+complexes: null
+small_molecules:
+- id: substrate_Avenacoside
+  name: Avenacoside
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_26-Desgluco-avenacoside
+  name: 26-Desgluco-avenacoside
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Glucose
+  name: D-Glucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_15835_EC3_2_1_188_Avena_sativa_Q38786_Q9ZP27_Avenacoside
+  name: Reaction catalyzed by avenacosidase on Avenacoside
+  equation: H2O + Avenacoside = D-Glucose + 26-Desgluco-avenacoside
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Avenacoside
+  products:
+  - species_id: product_26-Desgluco-avenacoside
+  - species_id: product_D-Glucose
+  modifiers:
+  - species_id: protein_3_2_1_188_Q38786_Q9ZP27_p70445
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:88300; CHEBI:42857;
+    CHEBI:41979; CHEBI:42802; CHEBI:10242; CHEBI:4167; CHEBI:12318; CHEBI:42043; CHEBI:17634;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:22386; CHEBI:13352;
+    CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:40557;
+    CHEBI:17925; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00267; KEGG:C00001; KEGG:C00031'
+measurements:
+- id: measurement_3_2_1_188_Avena_sativa_Q38786_Q9ZP27_Avenacoside
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 3_2_1_188_Avena_sativa_Q38786_Q9ZP27_Avenacoside_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.2e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Avenacoside
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '24226684'
+buffer:
+  buffer: 0.2 M Na2HPO4, 0.1 M citric acid, 0.7 mg/ml NADP, 1.5 mg/ml ATP, 1 mg/ml
+    MgSO4, 2 U/ml hexokinase, 1 U/ml glucose 6-phosphate dehydrogenase
+  buffer_concentration: 0.2 M
+references:
+- title: Reference for SABIO-RK entry 70445
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/24226684/
+  pubmed_id: '24226684'
+  doi: null

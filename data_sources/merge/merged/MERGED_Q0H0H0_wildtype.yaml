@@ -1,0 +1,432 @@
+version: '2.0'
+created: '2025-11-20T13:40:36.338180'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_76_Q0H0H0_p29523
+  name: adenosine kinase
+  ecnumber: 2.7.1.76
+  organism: Staphylococcus aureus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q0H0H0
+  wildtype_sequence: MNNYGIPQNAIITIAGTVGVGKSTLTQALADKLNFKTSFENVEHNPYLDKFYSDFERWSFHLQIYFLAERFKEQKRMFEYGGGFVQDRSIYEDVDIFAKMHEEEGTMSKEDFKTYSDLFNAMVMTPYFPKPDVMIYLECNYDEVIDRIIERGREMEINTDPEYWKKLFKRYDDWINSFNACPVVRININEYDIHKDPESLNPMINKIARIIQTYRQVDTR
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_2_-Deoxycytidine
+  name: 2'-Deoxycytidine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_dCMP
+  name: dCMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Deoxyadenosine
+  name: Deoxyadenosine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_dAMP
+  name: dAMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Gemcitabine
+  name: Gemcitabine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Gemcitabine_monophosphate
+  name: Gemcitabine monophosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_481_EC2_7_1_76_Staphylococcus_aureus_Q0H0H0_2_-Deoxycytidine
+  name: Reaction catalyzed by adenosine kinase on 2'-Deoxycytidine
+  equation: ATP + 2'-Deoxycytidine = dCMP + ADP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2_-Deoxycytidine
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_ADP
+  - species_id: product_dCMP
+  modifiers:
+  - species_id: protein_2_7_1_76_Q0H0H0_p29523
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 46040;46041;46042;46043
+  KEGGid: R01666
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:19242; CHEBI:40553; CHEBI:41430; CHEBI:14115; CHEBI:41875; CHEBI:13236;
+    CHEBI:10841; CHEBI:2359; CHEBI:15918; CHEBI:87518; CHEBI:40938; CHEBI:57566; CHEBI:41806;
+    CHEBI:456216; CHEBI:4407; CHEBI:41417; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:41838;
+    CHEBI:14071; CHEBI:13222; CHEBI:19240; CHEBI:22244; CHEBI:10493; CHEBI:15698;
+    CHEBI:14070
+
+    KEGG IDs: KEGG:C00002; KEGG:C00881; KEGG:C00008; KEGG:C00239'
+- id: sabiork_279_EC2_7_1_76_Staphylococcus_aureus_Q0H0H0_Deoxyadenosine
+  name: Reaction catalyzed by deoxyadenosine kinase on Deoxyadenosine
+  equation: ATP + Deoxyadenosine = dAMP + ADP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Deoxyadenosine
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_dAMP
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_76_Q0H0H0_p29522
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 23452;23453;23454;23455
+  KEGGid: R02089
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:39863; CHEBI:40560; CHEBI:16761;
+    CHEBI:10789; CHEBI:57299; CHEBI:58245; CHEBI:40553; CHEBI:19234; CHEBI:40419;
+    CHEBI:17256; CHEBI:13236; CHEBI:17713; CHEBI:40607; CHEBI:10841; CHEBI:19236;
+    CHEBI:2359; CHEBI:40499; CHEBI:87518; CHEBI:40544; CHEBI:40938; CHEBI:456216;
+    CHEBI:22249; CHEBI:40505; CHEBI:2342; CHEBI:15422; CHEBI:14112; CHEBI:4405; CHEBI:14068;
+    CHEBI:10490; CHEBI:41864; CHEBI:41815; CHEBI:13222; CHEBI:22244; CHEBI:40535
+
+    KEGG IDs: KEGG:C00002; KEGG:C00008; KEGG:C00559; KEGG:C00360'
+- id: sabiork_11222_EC2_7_1_76_Staphylococcus_aureus_Q0H0H0_Gemcitabine
+  name: Reaction catalyzed by deoxyadenosine kinase on Gemcitabine
+  equation: ATP + Gemcitabine = ADP + Gemcitabine monophosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Gemcitabine
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_Gemcitabine_monophosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_76_Q0H0H0_p29524
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:5295;
+    CHEBI:57299; CHEBI:40553; CHEBI:13236; CHEBI:175901; CHEBI:10841; CHEBI:2359;
+    CHEBI:87518; CHEBI:40938; CHEBI:456216; CHEBI:22249; CHEBI:2342; CHEBI:15422;
+    CHEBI:42752; CHEBI:13222; CHEBI:22244
+
+    KEGG IDs: KEGG:C00002; KEGG:C00008; KEGG:C07650'
+measurements:
+- id: measurement_2_7_1_76_Staphylococcus_aureus_Q0H0H0_2_-Deoxycytidine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_2_7_1_76_Staphylococcus_aureus_Q0H0H0_Deoxyadenosine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_2_7_1_76_Staphylococcus_aureus_Q0H0H0_Gemcitabine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 2_7_1_76_Staphylococcus_aureus_Q0H0H0_2_-Deoxycytidine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.44e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2_-Deoxycytidine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '17526755'
+- id: 2_7_1_76_Staphylococcus_aureus_Q0H0H0_2_-Deoxycytidine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 16200.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2_-Deoxycytidine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '17526755'
+- id: 2_7_1_76_Staphylococcus_aureus_Q0H0H0_2_-Deoxycytidine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.16667e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2_-Deoxycytidine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '17526755'
+- id: 2_7_1_76_Staphylococcus_aureus_Q0H0H0_2_-Deoxycytidine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.56
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2_-Deoxycytidine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '17526755'
+- id: 2_7_1_76_Staphylococcus_aureus_Q0H0H0_Deoxyadenosine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 6.83333e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Deoxyadenosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '17526755'
+- id: 2_7_1_76_Staphylococcus_aureus_Q0H0H0_Deoxyadenosine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.82
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Deoxyadenosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '17526755'
+- id: 2_7_1_76_Staphylococcus_aureus_Q0H0H0_Deoxyadenosine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 62200.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Deoxyadenosine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '17526755'
+- id: 2_7_1_76_Staphylococcus_aureus_Q0H0H0_Deoxyadenosine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.92e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Deoxyadenosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '17526755'
+- id: 2_7_1_76_Staphylococcus_aureus_Q0H0H0_Gemcitabine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 7.166667e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Gemcitabine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '17526755'
+- id: 2_7_1_76_Staphylococcus_aureus_Q0H0H0_Gemcitabine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.19
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Gemcitabine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '17526755'
+- id: 2_7_1_76_Staphylococcus_aureus_Q0H0H0_Gemcitabine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000192
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Gemcitabine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '17526755'
+- id: 2_7_1_76_Staphylococcus_aureus_Q0H0H0_Gemcitabine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 981.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Gemcitabine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '17526755'
+buffer:
+  buffer: 50 mM Tris-HCl, 10 mM DTT, 2.5 mM ATP, 2.5 mM MgCl2, 3 mg/ml BSA, 0.5 mM
+    CHAPS; 50 mM Tris-HCl, 10 mM DTT, 2.5 mM MgCl2, 3 mg/ml BSA, 0.5 mM CHAPS
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 29523
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/17526755/
+  pubmed_id: '17526755'
+  doi: null
+name: Merged entry for Q0H0H0 wildtype
+description: 'Merged from 3 files: SABIO_EC2.7.1.76_Staphylococcus_aureus__Q0H0H0_s_2_-Deoxycytidine.yaml,
+  SABIO_EC2.7.1.76_Staphylococcus_aureus__Q0H0H0_s_Deoxyadenosine.yaml, SABIO_EC2.7.1.76_Staphylococcus_aureus__Q0H0H0_s_Gemcitabine.yaml'

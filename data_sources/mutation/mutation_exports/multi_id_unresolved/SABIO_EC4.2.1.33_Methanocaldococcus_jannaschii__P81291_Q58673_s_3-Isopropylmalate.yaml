@@ -1,0 +1,183 @@
+name: SABIO-RK Entry 40865
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 40865
+created: '2025-10-28T15:18:46.601713'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_2_1_33_P81291_Q58673_p40865
+  name: 3-isopropylmalate dehydratase
+  sequence: null
+  ecnumber: 4.2.1.33
+  organism: Methanocaldococcus jannaschii
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P81291; Q58673
+complexes: null
+small_molecules:
+- id: substrate_3-Isopropylmalate
+  name: 3-Isopropylmalate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Isopropylmaleate
+  name: 2-Isopropylmaleate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_3736_EC4_2_1_33_Methanocaldococcus_jannaschii_P81291_Q58673_3-Isopropylmalate
+  name: Reaction catalyzed by 3-isopropylmalate dehydratase on 3-Isopropylmalate
+  equation: 3-Isopropylmalate = 2-Isopropylmaleate + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3-Isopropylmalate
+  products:
+  - species_id: product_2-Isopropylmaleate
+  modifiers:
+  - species_id: protein_4_2_1_33_P81291_Q58673_p40865
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 10676;10677;10678;10679
+  KEGGid: R04001
+  notes: 'ChEBI IDs: CHEBI:1565; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:58085;
+    CHEBI:35122; CHEBI:42857; CHEBI:41979; CHEBI:43465; CHEBI:1179; CHEBI:42043; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:35121; CHEBI:19668;
+    CHEBI:43228; CHEBI:44292; CHEBI:17275; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:43468; CHEBI:15592; CHEBI:35120; CHEBI:29373; CHEBI:44701; CHEBI:11604
+
+    KEGG IDs: KEGG:C02631; KEGG:C00001; KEGG:C04411'
+measurements:
+- id: measurement_4_2_1_33_Methanocaldococcus_jannaschii_P81291_Q58673_3-Isopropylmalate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 60.0
+  temperature_unit: °C
+parameters:
+- id: 4_2_1_33_Methanocaldococcus_jannaschii_P81291_Q58673_3-Isopropylmalate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 3.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Isopropylmalate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17449626'
+- id: 4_2_1_33_Methanocaldococcus_jannaschii_P81291_Q58673_3-Isopropylmalate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 50000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Isopropylmalate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17449626'
+- id: 4_2_1_33_Methanocaldococcus_jannaschii_P81291_Q58673_3-Isopropylmalate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.9
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Isopropylmalate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17449626'
+- id: 4_2_1_33_Methanocaldococcus_jannaschii_P81291_Q58673_3-Isopropylmalate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.9e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Isopropylmalate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17449626'
+buffer:
+  buffer: 50 mM TES-KOH, 300 mM KCl, 10 mM MgCl2
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 40865
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/17449626/
+  pubmed_id: '17449626'
+  doi: null

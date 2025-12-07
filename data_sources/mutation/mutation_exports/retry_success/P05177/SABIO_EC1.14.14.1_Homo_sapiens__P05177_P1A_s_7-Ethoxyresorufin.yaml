@@ -1,0 +1,214 @@
+name: SABIO-RK Entry 17200
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 17200
+created: '2025-10-28T14:10:35.902271'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_14_14_1_P05177_p17200
+  name: unspecific monooxygenase
+  ecnumber: 1.14.14.1
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: P1A
+  uniprotid: P05177
+  wildtype_sequence: MALSQSVPFSATELLLASAIFCLVFWVLKGLRPRVPKGLKSPPEPWGWPLLGHVLTLGKNPHLALSRMSQRYGDVLQIRIGSTPVLVLSRLDTIRQALVRQGDDFKGRPDLYTSTLITDGQSLTFSTDSGPVWAARRRLAQNALNTFSIASDPASSSSCYLEEHVSKEAKALISRLQELMAGPGHFDPYNQVVVSVANVIGAMCFGQHFPESSDEMLSLVKNTHEFVETASSGNPLDFFPILRYLPNPALQRFKAFNQRFLWFLQKTVQEHYQDFDKNSVRDITGALFKHSKKGPRASGNLIPQEKIVNLVNDIFGAGFDTVTTAISWSLMYLVTKPEIQRKIQKELDTVIGRERRPRLSDRPQLPYLEAFILETFRHSSFLPFTIPHSTTRDTTLNGFYIPKKCCVFVNQWQVNHDPELWEDPSEFRPERFLTADGTAINKPLSEKMMLFGMGKRRCIGEVLAKWEIFLFLAILLQQLEFSVPPGVKVDLTPIYGLTMKHARCEHVQARLRFSIN
+  mutant_sequence: MALSQSVAFSATELLLASAIFCLVFWVLKGLRPRVPKGLKSPPEPWGWPLLGHVLTLGKNPHLALSRMSQRYGDVLQIRIGSTPVLVLSRLDTIRQALVRQGDDFKGRPDLYTSTLITDGQSLTFSTDSGPVWAARRRLAQNALNTFSIASDPASSSSCYLEEHVSKEAKALISRLQELMAGPGHFDPYNQVVVSVANVIGAMCFGQHFPESSDEMLSLVKNTHEFVETASSGNPLDFFPILRYLPNPALQRFKAFNQRFLWFLQKTVQEHYQDFDKNSVRDITGALFKHSKKGPRASGNLIPQEKIVNLVNDIFGAGFDTVTTAISWSLMYLVTKPEIQRKIQKELDTVIGRERRPRLSDRPQLPYLEAFILETFRHSSFLPFTIPHSTTRDTTLNGFYIPKKCCVFVNQWQVNHDPELWEDPSEFRPERFLTADGTAINKPLSEKMMLFGMGKRRCIGEVLAKWEIFLFLAILLQQLEFSVPPGVKVDLTPIYGLTMKHARCEHVQARLRFSIN
+  position_offset: 7
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_7-Ethoxyresorufin
+  name: 7-Ethoxyresorufin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Ethanol
+  name: Ethanol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Resorufin
+  name: Resorufin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_9982_EC1_14_14_1_Homo_sapiens_P05177_7-Ethoxyresorufin
+  name: Reaction catalyzed by unspecific monooxygenase on 7-Ethoxyresorufin
+  equation: O2 + NADPH + H+ + 7-Ethoxyresorufin = NADP+ + Ethanol + Resorufin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_7-Ethoxyresorufin
+  - species_id: substrate_O2
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_NADP_
+  - species_id: product_Ethanol
+  - species_id: product_Resorufin
+  modifiers:
+  - species_id: protein_1_14_14_1_P05177_p17200
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:16236; CHEBI:13397; CHEBI:13398; CHEBI:23978;
+    CHEBI:7424; CHEBI:26689; CHEBI:30880; CHEBI:34480; CHEBI:44405; CHEBI:21903; CHEBI:7425;
+    CHEBI:29234; CHEBI:13357; CHEBI:25523; CHEBI:23833; CHEBI:13416; CHEBI:24636;
+    CHEBI:29233; CHEBI:13399; CHEBI:5584; CHEBI:51602; CHEBI:14222; CHEBI:15379; CHEBI:16474;
+    CHEBI:44594; CHEBI:44286; CHEBI:30491; CHEBI:21904; CHEBI:25366; CHEBI:44742;
+    CHEBI:44409; CHEBI:42377; CHEBI:15378; CHEBI:29793; CHEBI:18009; CHEBI:7860; CHEBI:30878;
+    CHEBI:10745; CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:10744; CHEBI:4879
+
+    KEGG IDs: KEGG:C00469; KEGG:C00007; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00704;
+    KEGG:C13630; KEGG:C11037'
+measurements:
+- id: measurement_1_14_14_1_Homo_sapiens_P05177_7-Ethoxyresorufin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 1_14_14_1_Homo_sapiens_P05177_7-Ethoxyresorufin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 9.23e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_7-Ethoxyresorufin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15681899'
+- id: 1_14_14_1_Homo_sapiens_P05177_7-Ethoxyresorufin_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.0185
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_7-Ethoxyresorufin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15681899'
+- id: 1_14_14_1_Homo_sapiens_P05177_7-Ethoxyresorufin_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 22000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_7-Ethoxyresorufin
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15681899'
+buffer:
+  buffer: 100 mM Tris-HCl, 40 ¦Ìg/ml dilauroylphosphatidylcholine, 0.21 U/ml NADPH-P450
+    reductase, 10 ¦ÌM dicumarol
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 17200
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15681899/
+  pubmed_id: '15681899'
+  doi: null

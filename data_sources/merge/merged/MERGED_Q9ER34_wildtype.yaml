@@ -1,0 +1,193 @@
+version: '2.0'
+created: '2025-11-20T13:41:33.147980'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_2_1_3_Q9ER34_p72255
+  name: aconitate hydratase
+  ecnumber: 4.2.1.3
+  organism: Rattus norvegicus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9ER34
+  wildtype_sequence: MAPYSLLVTRLQKALGVRQYHVASALCQRAKVAMSHFEPSEYIRYDLLEKNINIVRKRLNRPLTLSEKIVYGHLDDPANQEIERGKTYLRLRPDRVAMQDATAQMAMLQFISSGLPKVAVPSTIHCDHLIEAQLGGEKDLRRAKDINQEVYNFLATAGAKYGVGFWRPGSGIIHQIILENYAYPGVLLIGTDSHTPNGGGLGGICIGVGGADAVDVMAGIPWELKCPKVIGVKLTGTLSGWTSPKDVILKVAGILTVKGGTGAIVEYHGPGVDSISCTGMATICNMGAEIGATTSVFPYNHRMKKYLSKTGRADIANLAEEFKDHLVPDPGCQYDQVIEINLNELKPHINGPFTPDLAHPVADVGTVAEKEGWPLDIRVGLIGSCTNSSYEDMGRSAAVAKQALAHGLKCKSQFTITPGSEQIRATIERDGYAQILRDVGGIVLANACGPCIGQWDRKDIKKGEKNTIVTSYNRNFTGRNDANPETHAFVTSPEIVTALAIAGTLKFNPETDFLTGKDGKKFKLEAPDADELPRSDFDPGQDTYQHPPKDSSGQRVDVSPTSQRLQLLEPFDKWDGKDLEDLQILIKVKGKCTTDHISAAGPWLKFRGHLDNISNNLLIGAINIENGKANSVRNAVTQEFGPVPDTARYYKKHGIRWVVIGDENYGEGSSREHAALEPRHLGGRAIITKSFARIHETNLKKQGLLPLTFADPSDYNKIHPVDKLTIQGLKDFAPGKPLNCIIKHPNGTQETILLNHTFNETQIEWFRAGSALNRMKELQQ
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Citrate
+  name: Citrate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_cis-Aconitate
+  name: cis-Aconitate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Isocitrate
+  name: D-Isocitrate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_268_EC4_2_1_3_Rattus_norvegicus_Q9ER34_Citrate
+  name: Reaction catalyzed by aconitate hydratase on Citrate
+  equation: Citrate = H2O + cis-Aconitate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Citrate
+  products:
+  - species_id: product_cis-Aconitate
+  modifiers:
+  - species_id: protein_4_2_1_3_Q9ER34_p72255
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 10228;10229;10230;10231
+  KEGGid: R01325
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:23322; CHEBI:44819; CHEBI:41981; CHEBI:3727;
+    CHEBI:35806; CHEBI:23306; CHEBI:10482; CHEBI:42857; CHEBI:76049; CHEBI:41979;
+    CHEBI:16947; CHEBI:41523; CHEBI:23321; CHEBI:42043; CHEBI:13999; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:12798; CHEBI:35810; CHEBI:42563;
+    CHEBI:23308; CHEBI:13352; CHEBI:35802; CHEBI:43228; CHEBI:44292; CHEBI:33806;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:32805; CHEBI:30769; CHEBI:16383; CHEBI:35809;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00001; KEGG:C00158; KEGG:C00417'
+- id: sabiork_16004_EC4_2_1_3_Rattus_norvegicus_Q9ER34_D-Isocitrate
+  name: Reaction catalyzed by aconitate hydratase on D-Isocitrate
+  equation: D-Isocitrate = H2O + cis-Aconitate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Isocitrate
+  products:
+  - species_id: product_cis-Aconitate
+  modifiers:
+  - species_id: protein_4_2_1_3_Q9ER34_p72258
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:23306;
+    CHEBI:41979; CHEBI:10482; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:12798; CHEBI:13352; CHEBI:23308; CHEBI:43228; CHEBI:44292;
+    CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:32805; CHEBI:16383; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C00001; KEGG:C00417'
+measurements:
+- id: measurement_4_2_1_3_Rattus_norvegicus_Q9ER34_Citrate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_4_2_1_3_Rattus_norvegicus_Q9ER34_D-Isocitrate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 4_2_1_3_Rattus_norvegicus_Q9ER34_Citrate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00048
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Citrate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '4736701'
+- id: 4_2_1_3_Rattus_norvegicus_Q9ER34_D-Isocitrate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00012
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Isocitrate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '4736701'
+buffer:
+  buffer: 0.05 M potassium phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 72255
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/4736701/
+  pubmed_id: '4736701'
+  doi: null
+name: Merged entry for Q9ER34 wildtype
+description: 'Merged from 2 files: SABIO_EC4.2.1.3_Rattus_norvegicus__Q9ER34_s_Citrate.yaml,
+  SABIO_EC4.2.1.3_Rattus_norvegicus__Q9ER34_s_D-Isocitrate.yaml'

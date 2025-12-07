@@ -1,0 +1,185 @@
+name: SABIO-RK Entry 34718
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 34718
+created: '2025-10-28T14:53:33.968932'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_21_P06478_P08333_Q9QNF7_p34718
+  name: thymidine kinase
+  sequence: null
+  ecnumber: 2.7.1.21
+  organism: Human herpesvirus 1
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P06478; P08333; Q9QNF7
+complexes: null
+small_molecules:
+- id: substrate_Acyclovir
+  name: Acyclovir
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Acyclovir_monophosphate
+  name: Acyclovir monophosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_8110_EC2_7_1_21_Human_herpesvirus_P06478_P08333_Q9QNF7_Acyclovir
+  name: Reaction catalyzed by thymidine kinase on Acyclovir
+  equation: Acyclovir + ATP = ADP + Acyclovir monophosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Acyclovir
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_ADP
+  - species_id: product_Acyclovir_monophosphate
+  modifiers:
+  - species_id: protein_2_7_1_21_P06478_P08333_Q9QNF7_p34718
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:40553; CHEBI:13236; CHEBI:10841; CHEBI:2359; CHEBI:87518; CHEBI:40938; CHEBI:456216;
+    CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:40459; CHEBI:2453; CHEBI:13222; CHEBI:22244
+
+    KEGG IDs: KEGG:C00002; KEGG:C00008; KEGG:C06810'
+measurements:
+- id: measurement_2_7_1_21_Human_herpesvirus_P06478_P08333_Q9QNF7_Acyclovir
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 2_7_1_21_Human_herpesvirus_P06478_P08333_Q9QNF7_Acyclovir_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 4.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acyclovir
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 6.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10467366'
+- id: 2_7_1_21_Human_herpesvirus_P06478_P08333_Q9QNF7_Acyclovir_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.0019
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acyclovir
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10467366'
+- id: 2_7_1_21_Human_herpesvirus_P06478_P08333_Q9QNF7_Acyclovir_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000455
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acyclovir
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10467366'
+buffer:
+  buffer: 100 mM Sodium phosphate, 25 ¦ÌM Magnesium acetate
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 34718
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10467366/
+  pubmed_id: '10467366'
+  doi: null

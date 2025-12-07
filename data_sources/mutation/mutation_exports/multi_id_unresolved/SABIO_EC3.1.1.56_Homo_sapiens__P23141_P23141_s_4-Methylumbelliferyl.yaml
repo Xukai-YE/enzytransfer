@@ -1,0 +1,162 @@
+name: SABIO-RK Entry 74467
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 74467
+created: '2025-10-28T17:40:39.999073'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_1_1_56_P23141_P23141_p74467
+  name: carboxylesterase
+  sequence: null
+  ecnumber: 3.1.1.56
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P23141; P23141
+complexes: null
+small_molecules:
+- id: substrate_4-Methylumbelliferyl_acetate
+  name: 4-Methylumbelliferyl acetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4-Methylumbelliferone
+  name: 4-Methylumbelliferone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Acetate
+  name: Acetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_3862_EC3_1_1_56_Homo_sapiens_P23141_P23141_4-Methylumbelliferyl_acetate
+  name: Reaction catalyzed by carboxylesterase on 4-Methylumbelliferyl acetate
+  equation: H2O + 4-Methylumbelliferyl acetate = Acetate + 4-Methylumbelliferone
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_4-Methylumbelliferyl_acetate
+  products:
+  - species_id: product_4-Methylumbelliferone
+  - species_id: product_Acetate
+  modifiers:
+  - species_id: protein_3_1_1_56_P23141_P23141_p74467
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 12208;12209;12210;12211
+  KEGGid: R04141
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:40480; CHEBI:44819; CHEBI:17763; CHEBI:41981;
+    CHEBI:1903; CHEBI:20453; CHEBI:13704; CHEBI:15366; CHEBI:17224; CHEBI:110551;
+    CHEBI:42857; CHEBI:41979; CHEBI:40486; CHEBI:22169; CHEBI:2387; CHEBI:42043; CHEBI:30089;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:22165;
+    CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:29373; CHEBI:12031; CHEBI:29374;
+    CHEBI:5585; CHEBI:10743; CHEBI:20452; CHEBI:12030; CHEBI:1906; CHEBI:44701; CHEBI:110550
+
+    KEGG IDs: KEGG:C03837; KEGG:C00001; KEGG:C00033; KEGG:C03081'
+measurements:
+- id: measurement_3_1_1_56_Homo_sapiens_P23141_P23141_4-Methylumbelliferyl_acetate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 3_1_1_56_Homo_sapiens_P23141_P23141_4-Methylumbelliferyl_acetate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 33333.33
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_4-Methylumbelliferyl_acetate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9169443'
+- id: 3_1_1_56_Homo_sapiens_P23141_P23141_4-Methylumbelliferyl_acetate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0008
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_4-Methylumbelliferyl_acetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9169443'
+buffer:
+  buffer: 50 mM NaH2PO4, 1 mM benzamidine, 1 mM EDTA, 1 mM dithiothreitol
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 74467
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9169443/
+  pubmed_id: '9169443'
+  doi: null

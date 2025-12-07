@@ -1,0 +1,236 @@
+version: '2.0'
+created: '2025-11-20T13:39:24.127312'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_47_P39482_p24277
+  name: glucose 1-dehydrogenase
+  ecnumber: 1.1.1.47
+  organism: Bacillus megaterium
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P39482
+  wildtype_sequence: MYKDLEGKVVVITGSSTGLGKAMAIRFATEKAKVVVNYRSKEEEANSVLEEIKKVGGEAIAVKGDVTVESDVINLVQSSIKEFGKLDVMINNAGMENPVSSHEMSLSDWNKVIDTNLTGAFLGSREAIKYFVENDIKGTVINMSSVHEKIPWPLFVHYAASKGGMKLMTETLALEYAPKGIRVNNIGPGAINTPINAEKFADPEQRADVESMIPMGYIGEPEEIAAVAAWLASSEASYVTGITLFADGGMTQYPSFQAGRG
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_D-Glucose
+  name: D-Glucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Glucono-1
+  name: D-Glucono-1
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_5-lactone
+  name: 5-lactone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_19_EC1_1_1_47_Bacillus_megaterium_P39482_D-Glucose
+  name: Reaction catalyzed by glucose 1-dehydrogenase on D-Glucose
+  equation: D-Glucose + NAD+ = D-Glucono-1,5-lactone + H+ + NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Glucose
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_NADH
+  - species_id: product_D-Glucono-1
+  - species_id: product_5-lactone
+  modifiers:
+  - species_id: protein_1_1_1_47_P39482_p24277
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 14293;14294;14295;14296
+  KEGGid: R00300
+  notes: 'ChEBI IDs: CHEBI:43753; CHEBI:44281; CHEBI:13393; CHEBI:42802; CHEBI:29234;
+    CHEBI:15846; CHEBI:13357; CHEBI:10242; CHEBI:21902; CHEBI:13396; CHEBI:4167; CHEBI:21901;
+    CHEBI:12318; CHEBI:17634; CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:13394;
+    CHEBI:5584; CHEBI:22386; CHEBI:57945; CHEBI:44216; CHEBI:12957; CHEBI:57540; CHEBI:7423;
+    CHEBI:16217; CHEBI:74105; CHEBI:4159; CHEBI:13389; CHEBI:20988; CHEBI:13395; CHEBI:15378;
+    CHEBI:44215; CHEBI:40557; CHEBI:10744; CHEBI:17925; CHEBI:88300; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00267; KEGG:C00198; KEGG:C00080; KEGG:C00003; KEGG:C00031; KEGG:C00004'
+- id: sabiork_7782_EC1_1_1_47_Bacillus_megaterium_P39482_D-Glucose
+  name: Reaction catalyzed by glucose 1-dehydrogenase (NADP+) on D-Glucose
+  equation: NADP+ + D-Glucose = D-Glucono-1,5-lactone + H+ + NADPH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Glucose
+  - species_id: substrate_NADP_
+  products:
+  - species_id: product_D-Glucono-1
+  - species_id: product_5-lactone
+  - species_id: product_NADPH
+  modifiers:
+  - species_id: protein_1_1_1_47_P39482_p24281
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 14405;14406;14407;14408
+  KEGGid: R07147
+  notes: 'ChEBI IDs: CHEBI:43753; CHEBI:17925; CHEBI:13397; CHEBI:13398; CHEBI:7424;
+    CHEBI:21903; CHEBI:44405; CHEBI:7425; CHEBI:42802; CHEBI:29234; CHEBI:25523; CHEBI:10242;
+    CHEBI:13357; CHEBI:4167; CHEBI:12318; CHEBI:17634; CHEBI:24636; CHEBI:29233; CHEBI:5584;
+    CHEBI:13399; CHEBI:22386; CHEBI:16474; CHEBI:44286; CHEBI:12957; CHEBI:74105;
+    CHEBI:4159; CHEBI:21904; CHEBI:20988; CHEBI:44409; CHEBI:15378; CHEBI:18009; CHEBI:58349;
+    CHEBI:13400; CHEBI:57783; CHEBI:10744; CHEBI:40557; CHEBI:16217; CHEBI:88300
+
+    KEGG IDs: KEGG:C00267; KEGG:C00198; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00031;
+    KEGG:C11037'
+measurements:
+- id: measurement_1_1_1_47_Bacillus_megaterium_P39482_D-Glucose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_47_Bacillus_megaterium_P39482_D-Glucose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1_47_Bacillus_megaterium_P39482_D-Glucose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 190.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1629157'
+- id: 1_1_1_47_Bacillus_megaterium_P39482_D-Glucose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 120.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1629157'
+buffer:
+  buffer: 75 mM Tris-HCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 24277
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/1629157/
+  pubmed_id: '1629157'
+  doi: null
+name: Merged entry for P39482 wildtype
+description: 'Merged from 2 files: SABIO_EC1.1.1.47_Bacillus_megaterium__P39482_s_D-Glucose.yaml,
+  SABIO_EC1.1.1.47_Bacillus_megaterium__P39482_s_D-Glucose_2.yaml'

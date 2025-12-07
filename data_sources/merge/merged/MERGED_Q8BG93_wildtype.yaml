@@ -1,0 +1,219 @@
+version: '2.0'
+created: '2025-11-20T13:41:23.475647'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_6_1_9_Q8BG93_p61802
+  name: ATP diphosphatase
+  ecnumber: 3.6.1.9
+  organism: bovine
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q8BG93
+  wildtype_sequence: MAANAEPRRRPGVGVGVVVLSCEHPRCVLLGKRKGSFGAGSFQLPGGHLEFGETWEECAQRETWEEAGLHLKNVCFASVVNSFVEKENYHYVTILMKGEVDMTHDSEPRNMEPEKNESWEWVPWEEFPPLDQLFWALRCLKEQGYDPFKEDLNHLEGYRGEHLERTTKTP
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_dGTP
+  name: dGTP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mg2_
+  name: Mg2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_dGMP
+  name: dGMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_8-oxo-dGTP
+  name: 8-oxo-dGTP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_8-oxo-dGMP
+  name: 8-oxo-dGMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_302_EC3_6_1_9_bovine_Q8BG93_dGTP
+  name: Reaction catalyzed by ATP diphosphatase on dGTP
+  equation: H2O + dGTP = dGMP + Diphosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_dGTP
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_dGMP
+  modifiers:
+  - species_id: protein_3_6_1_9_Q8BG93_p61802
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 28362;28363;28364;28365
+  KEGGid: R01855
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:8683; CHEBI:41981; CHEBI:13379;
+    CHEBI:42726; CHEBI:10496; CHEBI:47449; CHEBI:16497; CHEBI:57794; CHEBI:6635; CHEBI:39127;
+    CHEBI:42857; CHEBI:41979; CHEBI:19246; CHEBI:33019; CHEBI:10497; CHEBI:16192;
+    CHEBI:45067; CHEBI:14074; CHEBI:61429; CHEBI:42733; CHEBI:42043; CHEBI:29888;
+    CHEBI:14076; CHEBI:35782; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377;
+    CHEBI:49736; CHEBI:13420; CHEBI:13352; CHEBI:18361; CHEBI:42676; CHEBI:19247;
+    CHEBI:33017; CHEBI:45208; CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:18420;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:41902; CHEBI:57673; CHEBI:25112; CHEBI:45212;
+    CHEBI:42009; CHEBI:41939; CHEBI:29373; CHEBI:44701; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00305; KEGG:C00362; KEGG:C00286; KEGG:C00001'
+- id: sabiork_10417_EC3_6_1_9_bovine_Q8BG93_8-oxo-dGTP
+  name: Reaction catalyzed by ATP diphosphatase on 8-oxo-dGTP
+  equation: H2O + 8-oxo-dGTP = Diphosphate + 8-oxo-dGMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_8-oxo-dGTP
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_8-oxo-dGMP
+  modifiers:
+  - species_id: protein_3_6_1_9_Q8BG93_p61801
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 31575;31576;31577;31578
+  KEGGid: R09832
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:63222; CHEBI:41981; CHEBI:8683;
+    CHEBI:13379; CHEBI:6635; CHEBI:39127; CHEBI:42857; CHEBI:41979; CHEBI:33019; CHEBI:45067;
+    CHEBI:42043; CHEBI:29888; CHEBI:77896; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:35782; CHEBI:15377; CHEBI:63224; CHEBI:49736; CHEBI:13420; CHEBI:13352;
+    CHEBI:18361; CHEBI:33017; CHEBI:63220; CHEBI:45208; CHEBI:43228; CHEBI:44292;
+    CHEBI:33806; CHEBI:18420; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:63223; CHEBI:25112;
+    CHEBI:45212; CHEBI:42009; CHEBI:29373; CHEBI:44701; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00305; KEGG:C00001; KEGG:C19968; KEGG:C19967'
+measurements:
+- id: measurement_3_6_1_9_bovine_Q8BG93_dGTP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_3_6_1_9_bovine_Q8BG93_8-oxo-dGTP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_6_1_9_bovine_Q8BG93_dGTP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_dGTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12767940'
+- id: 3_6_1_9_bovine_Q8BG93_8-oxo-dGTP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.2e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_8-oxo-dGTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12767940'
+buffer:
+  buffer: 20 mM Tris-HCl, 80 ¦Ìg/ml bovine serum albumin, 40 mM NaCl, 5 mM DTT, 2
+    % glycerol
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 61802
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12767940/
+  pubmed_id: '12767940'
+  doi: null
+name: Merged entry for Q8BG93 wildtype
+description: 'Merged from 2 files: SABIO_EC3.6.1.9_bovine__Q8BG93_s_dGTP.yaml, SABIO_EC3.6.1.9_bovine__Q8BG93_s_8-oxo-dGTP.yaml'

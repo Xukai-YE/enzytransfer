@@ -1,0 +1,173 @@
+name: SABIO-RK Entry 25270
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 25270
+created: '2025-10-28T14:26:27.585613'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_5_1_6_P0A817_p25270
+  name: methionine adenosyltransferase
+  ecnumber: 2.5.1.6
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: K265A
+  uniprotid: P0A817
+  wildtype_sequence: MAKHLFTSESVSEGHPDKIADQISDAVLDAILEQDPKARVACETYVKTGMVLVGGEITTSAWVDIEEITRNTVREIGYVHSDMGFDANSCAVLSAIGKQSPDINQGVDRADPLEQGAGDQGLMFGYATNETDVLMPAPITYAHRLVQRQAEVRKNGTLPWLRPDAKSQVTFQYDDGKIVGIDAVVLSTQHSEEIDQKSLQEAVMEEIIKPILPAEWLTSATKFFINPTGRFVIGGPMGDCGLTGRKIIVDTYGGMARHGGGAFSGKDPSKVDRSAAYAARYVAKNIVAAGLADRCEIQVSYAIGVAEPTSIMVETFGTEKVPSEQLTLLVREFFDLRPYGLIQMLDLLHPIYKETAAYGHFGREHFPWEKTDKAQLLRDAAGLK
+  mutant_sequence: MAKHLFTSESVSEGHPDKIADQISDAVLDAILEQDPKARVACETYVKTGMVLVGGEITTSAWVDIEEITRNTVREIGYVHSDMGFDANSCAVLSAIGKQSPDINQGVDRADPLEQGAGDQGLMFGYATNETDVLMPAPITYAHRLVQRQAEVRKNGTLPWLRPDAKSQVTFQYDDGKIVGIDAVVLSTQHSEEIDQKSLQEAVMEEIIKPILPAEWLTSATKFFINPTGRFVIGGPMGDCGLTGRKIIVDTYGGMARHGGGAFSGADPSKVDRSAAYAARYVAKNIVAAGLADRCEIQVSYAIGVAEPTSIMVETFGTEKVPSEQLTLLVREFFDLRPYGLIQMLDLLHPIYKETAAYGHFGREHFPWEKTDKAQLLRDAAGLK
+  position_offset: 1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Triphosphate
+  name: Triphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Phosphate
+  name: Phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_S-Adenosyl-L-methionine
+  name: S-Adenosyl-L-methionine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_707_EC2_5_1_6_Escherichia_coli_P0A817_Triphosphate
+  name: Reaction catalyzed by methionine adenosyltransferase on Triphosphate
+  equation: H2O + Triphosphate = Phosphate + Diphosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Triphosphate
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_Phosphate
+  modifiers:
+  - species_id: protein_2_5_1_6_P0A817_p25270
+    role: BIOCATALYST
+  - species_id: activator_S-Adenosyl-L-methionine
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 14157;14158;14159;14160
+  KEGGid: R00138
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:29375; CHEBI:29137; CHEBI:43470; CHEBI:44819;
+    CHEBI:18367; CHEBI:8683; CHEBI:41981; CHEBI:35780; CHEBI:59789; CHEBI:22036; CHEBI:12760;
+    CHEBI:26020; CHEBI:12742; CHEBI:48316; CHEBI:26078; CHEBI:48314; CHEBI:42857;
+    CHEBI:41979; CHEBI:142094; CHEBI:33019; CHEBI:39942; CHEBI:67040; CHEBI:29139;
+    CHEBI:45067; CHEBI:45607; CHEBI:39739; CHEBI:33442; CHEBI:15414; CHEBI:42043;
+    CHEBI:29888; CHEBI:48313; CHEBI:35782; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:10833; CHEBI:15377; CHEBI:39745; CHEBI:13420; CHEBI:13352; CHEBI:18361;
+    CHEBI:33017; CHEBI:7793; CHEBI:45208; CHEBI:9744; CHEBI:43228; CHEBI:18036; CHEBI:15266;
+    CHEBI:44292; CHEBI:45024; CHEBI:33806; CHEBI:8946; CHEBI:10743; CHEBI:29374; CHEBI:5585;
+    CHEBI:12757; CHEBI:33018; CHEBI:5926; CHEBI:48315; CHEBI:527887; CHEBI:43474;
+    CHEBI:10786; CHEBI:45212; CHEBI:42009; CHEBI:29373; CHEBI:44701; CHEBI:29203;
+    CHEBI:39949
+
+    KEGG IDs: KEGG:C00536; KEGG:C00013; KEGG:C00001; KEGG:C00009; KEGG:C00019'
+measurements:
+- id: measurement_2_5_1_6_Escherichia_coli_P0A817_Triphosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.8
+  temperature_opt: null
+  temperature_unit: null
+parameters:
+- id: 2_5_1_6_Escherichia_coli_P0A817_Triphosphate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.25
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Triphosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.8
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '10660564'
+- id: 2_5_1_6_Escherichia_coli_P0A817_Triphosphate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 8100.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Triphosphate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.8
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '10660564'
+buffer:
+  buffer: 50 mM Hepes*(CH3)4N+, 10 mM KCl, 10 mM MgCl2
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 25270
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10660564/
+  pubmed_id: '10660564'
+  doi: null

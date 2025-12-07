@@ -1,0 +1,301 @@
+version: '2.0'
+created: '2025-11-20T13:41:33.549761'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_2_1_40_P0AES2_p13910
+  name: glucarate dehydratase
+  ecnumber: 4.2.1.40
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: N341L
+  uniprotid: P0AES2
+  wildtype_sequence: MSSQFTTPVVTEMQVIPVAGHDSMLMNLSGAHAPFFTRNIVIIKDNSGHTGVGEIPGGEKIRKTLEDAIPLVVGKTLGEYKNVLTLVRNTFADRDAGGRGLQTFDLRTTIHVVTGIEAAMLDLLGQHLGVNVASLLGDGQQRSEVEMLGYLFFVGNRKATPLPYQSQPDDSCDWYRLRHEEAMTPDAVVRLAEAAYEKYGFNDFKLKGGVLAGEEEAESIVALAQRFPQARITLDPNGAWSLNEAIKIGKYLKGSLAYAEDPCGAEQGFSGREVMAEFRRATGLPTATNMIATDWRQMGHTLSLQSVDIPLADPHFWTMQGSVRVAQMCHEFGLTWGSHSNNHFDISLAMFTHVAAAAPGKITAIDTHWIWQEGNQRLTKEPFEIKGGLVQVPEKPGLGVEIDMDQVMKAHELYQKHGLGARDDAMGMQYLIPGWTFDNKRPCMVR
+  mutant_sequence: MSSQFTTPVVTEMQVIPVAGHDSMLMNLSGAHAPFFTRNIVIIKDNSGHTGVGEIPGGEKIRKTLEDAIPLVVGKTLGEYKNVLTLVRNTFADRDAGGRGLQTFDLRTTIHVVTGIEAAMLDLLGQHLGVNVASLLGDGQQRSEVEMLGYLFFVGNRKATPLPYQSQPDDSCDWYRLRHEEAMTPDAVVRLAEAAYEKYGFNDFKLKGGVLAGEEEAESIVALAQRFPQARITLDPNGAWSLNEAIKIGKYLKGSLAYAEDPCGAEQGFSGREVMAEFRRATGLPTATNMIATDWRQMGHTLSLQSVDIPLADPHFWTMQGSVRVAQMCHEFGLTWGSHSLNHFDISLAMFTHVAAAAPGKITAIDTHWIWQEGNQRLTKEPFEIKGGLVQVPEKPGLGVEIDMDQVMKAHELYQKHGLGARDDAMGMQYLIPGWTFDNKRPCMVR
+complexes: null
+small_molecules:
+- id: substrate_4-Deoxy-4-fluoro-D-glucarate
+  name: 4-Deoxy-4-fluoro-D-glucarate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_HF
+  name: HF
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_5-Dehydro-4-deoxy-D-glucarate
+  name: 5-Dehydro-4-deoxy-D-glucarate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Glucarate
+  name: D-Glucarate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_L-Idarate
+  name: L-Idarate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_9686_EC4_2_1_40_Escherichia_coli_P0AES2_4-Deoxy-4-fluoro-D-glucarate
+  name: Reaction catalyzed by glucarate dehydratase on 4-Deoxy-4-fluoro-D-glucarate
+  equation: 4-Deoxy-4-fluoro-D-glucarate = 5-Dehydro-4-deoxy-D-glucarate + HF
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_4-Deoxy-4-fluoro-D-glucarate
+  products:
+  - species_id: product_HF
+  - species_id: product_5-Dehydro-4-deoxy-D-glucarate
+  modifiers:
+  - species_id: protein_4_2_1_40_P0AES2_p13910
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:14271; CHEBI:35454; CHEBI:20561; CHEBI:2048; CHEBI:33343;
+    CHEBI:16369; CHEBI:49593; CHEBI:42815; CHEBI:43704; CHEBI:17051; CHEBI:29228;
+    CHEBI:5113; CHEBI:35453; CHEBI:12117; CHEBI:42819
+
+    KEGG IDs: KEGG:C16487; KEGG:C00742; KEGG:C00679'
+- id: sabiork_2632_EC4_2_1_40_Escherichia_coli_P0AES2_D-Glucarate
+  name: Reaction catalyzed by glucarate dehydratase on D-Glucarate
+  equation: D-Glucarate = H2O + 5-Dehydro-4-deoxy-D-glucarate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Glucarate
+  products:
+  - species_id: product_5-Dehydro-4-deoxy-D-glucarate
+  modifiers:
+  - species_id: protein_4_2_1_40_P0AES2_p13904
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 14573;14574;14575;14576
+  KEGGid: R02752
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:20982; CHEBI:41981; CHEBI:12117;
+    CHEBI:42731; CHEBI:42819; CHEBI:42857; CHEBI:41979; CHEBI:16002; CHEBI:2048; CHEBI:42043;
+    CHEBI:4155; CHEBI:35453; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352;
+    CHEBI:30612; CHEBI:35454; CHEBI:42815; CHEBI:43228; CHEBI:12953; CHEBI:44292;
+    CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:20561; CHEBI:16369; CHEBI:20980;
+    CHEBI:29373; CHEBI:44701; CHEBI:43704
+
+    KEGG IDs: KEGG:C00679; KEGG:C00001; KEGG:C00818'
+- id: sabiork_8031_EC4_2_1_40_Escherichia_coli_P0AES2_L-Idarate
+  name: Reaction catalyzed by glucarate dehydratase on L-Idarate
+  equation: L-Idarate = H2O + 5-Dehydro-4-deoxy-D-glucarate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Idarate
+  products:
+  - species_id: product_5-Dehydro-4-deoxy-D-glucarate
+  modifiers:
+  - species_id: protein_4_2_1_40_P0AES2_p13906
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:12117; CHEBI:42819;
+    CHEBI:42857; CHEBI:41979; CHEBI:21332; CHEBI:2048; CHEBI:42043; CHEBI:35453; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:35454; CHEBI:42815;
+    CHEBI:43228; CHEBI:44292; CHEBI:21333; CHEBI:33806; CHEBI:35387; CHEBI:29374;
+    CHEBI:5585; CHEBI:10743; CHEBI:20561; CHEBI:16369; CHEBI:29373; CHEBI:44701; CHEBI:43704
+
+    KEGG IDs: KEGG:C00001; KEGG:C00679'
+measurements:
+- id: measurement_4_2_1_40_Escherichia_coli_P0AES2_4-Deoxy-4-fluoro-D-glucarate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_4_2_1_40_Escherichia_coli_P0AES2_D-Glucarate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_4_2_1_40_Escherichia_coli_P0AES2_L-Idarate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 22.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 4_2_1_40_Escherichia_coli_P0AES2_4-Deoxy-4-fluoro-D-glucarate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2.7
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_4-Deoxy-4-fluoro-D-glucarate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11513584'
+- id: 4_2_1_40_Escherichia_coli_P0AES2_4-Deoxy-4-fluoro-D-glucarate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 11500.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_4-Deoxy-4-fluoro-D-glucarate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11513584'
+- id: 4_2_1_40_Escherichia_coli_P0AES2_D-Glucarate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.004
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucarate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11513584'
+- id: 4_2_1_40_Escherichia_coli_P0AES2_D-Glucarate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 27.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucarate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11513584'
+- id: 4_2_1_40_Escherichia_coli_P0AES2_L-Idarate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.036
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Idarate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11513584'
+- id: 4_2_1_40_Escherichia_coli_P0AES2_L-Idarate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 45.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Idarate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11513584'
+buffer:
+  buffer: 50 mM Tris-HCl, 5 mM MgCl2
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 13910
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11513584/
+  pubmed_id: '11513584'
+  doi: null
+name: Merged entry for P0AES2 N341L
+description: 'Merged from 3 files: SABIO_EC4.2.1.40_Escherichia_coli__P0AES2_N341L_s_4-Deoxy-4-fluoro-D-g.yaml,
+  SABIO_EC4.2.1.40_Escherichia_coli__P0AES2_N341L_s_D-Glucarate.yaml, SABIO_EC4.2.1.40_Escherichia_coli__P0AES2_N341L_s_L-Idarate.yaml'

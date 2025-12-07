@@ -1,0 +1,133 @@
+name: SABIO-RK Entry 71930
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 71930
+created: '2025-10-28T17:25:59.543114'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_1_1_2_P22862_p71930
+  name: carboxylesterase
+  ecnumber: 3.1.1.2
+  organism: Pseudomonas fluorescens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: L29P
+  uniprotid: P22862
+  wildtype_sequence: MSTFVAKDGTQIYFKDWGSGKPVLFSHGWLLDADMWEYQMEYLSSRGYRTIAFDRRGFGRSDQPWTGNDYDTFADDIAQLIEHLDLKEVTLVGFSMGGGDVARYIARHGSARVAGLVLLGAVTPLFGQKPDYPQGVPLDVFARFKTELLKDRAQFISDFNAPFYGINKGQVVSQGVQTQTLQIALLASLKATVDCVTAFAETDFRPDMAKIDVPTLVIHGDGDQIVPFETTGKVAAELIKGAELKVYKDAPHGFAVTHAQQLNEDLLAFLKR
+  mutant_sequence: MSTFVAKDGTQIYFKDWGSGKPVPFSHGWLLDADMWEYQMEYLSSRGYRTIAFDRRGFGRSDQPWTGNDYDTFADDIAQLIEHLDLKEVTLVGFSMGGGDVARYIARHGSARVAGLVLLGAVTPLFGQKPDYPQGVPLDVFARFKTELLKDRAQFISDFNAPFYGINKGQVVSQGVQTQTLQIALLASLKATVDCVTAFAETDFRPDMAKIDVPTLVIHGDGDQIVPFETTGKVAAELIKGAELKVYKDAPHGFAVTHAQQLNEDLLAFLKR
+  position_offset: -5
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Ethyl_propionate
+  name: Ethyl propionate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Propanoate
+  name: Propanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Ethanol
+  name: Ethanol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_10555_EC3_1_1_2_Pseudomonas_fluorescens_P22862_Ethyl_propionate
+  name: Reaction catalyzed by carboxylesterase on Ethyl propionate
+  equation: Ethyl propionate + H2O = Ethanol + Propanoate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Ethyl_propionate
+  products:
+  - species_id: product_Propanoate
+  - species_id: product_Ethanol
+  modifiers:
+  - species_id: protein_3_1_1_2_P22862_p71930
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:16236; CHEBI:44819; CHEBI:41981; CHEBI:17272;
+    CHEBI:45227; CHEBI:23978; CHEBI:30880; CHEBI:42857; CHEBI:41979; CHEBI:41330;
+    CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:14222;
+    CHEBI:87418; CHEBI:13352; CHEBI:8476; CHEBI:44594; CHEBI:43228; CHEBI:26290; CHEBI:44292;
+    CHEBI:33806; CHEBI:14903; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:42377; CHEBI:30878;
+    CHEBI:30768; CHEBI:26304; CHEBI:4879; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00469; KEGG:C00001; KEGG:C00163'
+measurements:
+- id: measurement_3_1_1_2_Pseudomonas_fluorescens_P22862_Ethyl_propionate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 5 mM BES, 0.51 mM p-nitrophenol
+  buffer_concentration: 5 mM
+references:
+- title: Reference for SABIO-RK entry 71930
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15803517/
+  pubmed_id: '15803517'
+  doi: null

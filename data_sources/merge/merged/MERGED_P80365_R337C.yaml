@@ -1,0 +1,254 @@
+version: '2.0'
+created: '2025-11-20T13:39:26.733691'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1__P80365_p60158
+  name: With NAD(+) or NADP(+) as acceptor
+  ecnumber: 1.1.1.
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: R337C
+  uniprotid: P80365
+  wildtype_sequence: MERWPWPSGGAWLLVAARALLQLLRSDLRLGRPLLAALALLAALDWLCQRLLPPPAALAVLAAAGWIALSRLARPQRLPVATRAVLITGCDSGFGKETAKKLDSMGFTVLATVLELNSPGAIELRTCCSPRLRLLQMDLTKPGDISRVLEFTKAHTTSTGLWGLVNNAGHNEVVADAELSPVATFRSCMEVNFFGALELTKGLLPLLRSSRGRIVTVGSPAGDMPYPCLGAYGTSKAAVALLMDTFSCELLPWGVKVSIIQPGCFKTESVRNVGQWEKRKQLLLANLPQELLQAYGKDYIEHLHGQFLHSLRLAMSDLTPVVDAITDALLAARPRRRYYPGQGLGLMYFIHYYLPEGLRRRFLQAFFISHCLPRALQPGQPGTTPPQDAAQDPNLSPGPSPAVAR
+  mutant_sequence: MERWPWPSGGAWLLVAARALLQLLRSDLRLGRPLLAALALLAALDWLCQRLLPPPAALAVLAAAGWIALSRLARPQRLPVATRAVLITGCDSGFGKETAKKLDSMGFTVLATVLELNSPGAIELRTCCSPRLRLLQMDLTKPGDISRVLEFTKAHTTSTGLWGLVNNAGHNEVVADAELSPVATFRSCMEVNFFGALELTKGLLPLLRSSRGRIVTVGSPAGDMPYPCLGAYGTSKAAVALLMDTFSCELLPWGVKVSIIQPGCFKTESVRNVGQWEKRKQLLLANLPQELLQAYGKDYIEHLHGQFLHSLRLAMSDLTPVVDAITDALLAARPRRCYYPGQGLGLMYFIHYYLPEGLRRRFLQAFFISHCLPRALQPGQPGTTPPQDAAQDPNLSPGPSPAVAR
+complexes: null
+small_molecules:
+- id: substrate_Corticosterone
+  name: Corticosterone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_11-Dehydrocorticosterone
+  name: 11-Dehydrocorticosterone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Cortisol
+  name: Cortisol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Cortisone
+  name: Cortisone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_3598_EC1_1_1__Homo_sapiens_P80365_Corticosterone
+  name: Reaction catalyzed by With NAD(+) or NADP(+) as acceptor on Corticosterone
+  equation: NAD+ + Corticosterone = NADH + H+ + 11-Dehydrocorticosterone
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Corticosterone
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_NADH
+  - species_id: product_11-Dehydrocorticosterone
+  modifiers:
+  - species_id: protein_1_1_1__P80365_p60158
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:16827; CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846;
+    CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636; CHEBI:44214;
+    CHEBI:29233; CHEBI:13394; CHEBI:5584; CHEBI:57945; CHEBI:44216; CHEBI:711; CHEBI:57540;
+    CHEBI:7423; CHEBI:78600; CHEBI:13389; CHEBI:13395; CHEBI:15378; CHEBI:44215; CHEBI:10744;
+    CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C05490; KEGG:C02140; KEGG:C00080; KEGG:C00003; KEGG:C00004'
+- id: sabiork_2700_EC1_1_1__Homo_sapiens_P80365_Cortisol
+  name: Reaction catalyzed by With NAD(+) or NADP(+) as acceptor on Cortisol
+  equation: NAD+ + Cortisol = NADH + H+ + Cortisone
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Cortisol
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_Cortisone
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_1_1__P80365_p60161
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 50208;50209;50210;50211
+  KEGGid: R02834
+  notes: 'ChEBI IDs: CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:13357;
+    CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636; CHEBI:44214; CHEBI:29233;
+    CHEBI:5584; CHEBI:13394; CHEBI:17650; CHEBI:57945; CHEBI:44216; CHEBI:57540; CHEBI:16962;
+    CHEBI:7423; CHEBI:13389; CHEBI:15378; CHEBI:13395; CHEBI:44215; CHEBI:10744; CHEBI:7422;
+    CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C00735; KEGG:C00762; KEGG:C00003; KEGG:C00004'
+measurements:
+- id: measurement_1_1_1__Homo_sapiens_P80365_Corticosterone
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: null
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_1_1__Homo_sapiens_P80365_Cortisol
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: null
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1__Homo_sapiens_P80365_Corticosterone_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.1e-08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Corticosterone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17314322'
+- id: 1_1_1__Homo_sapiens_P80365_Corticosterone_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.075e-08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Corticosterone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17314322'
+- id: 1_1_1__Homo_sapiens_P80365_Cortisol_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.986111e-08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cortisol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17314322'
+- id: 1_1_1__Homo_sapiens_P80365_Cortisol_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.056e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cortisol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17314322'
+buffer:
+  buffer: medium
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 60158
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/17314322/
+  pubmed_id: '17314322'
+  doi: null
+name: Merged entry for P80365 R337C
+description: 'Merged from 2 files: SABIO_EC1.1.1._Homo_sapiens__P80365_R337C_s_Corticosterone.yaml,
+  SABIO_EC1.1.1._Homo_sapiens__P80365_R337C_s_Cortisol.yaml'

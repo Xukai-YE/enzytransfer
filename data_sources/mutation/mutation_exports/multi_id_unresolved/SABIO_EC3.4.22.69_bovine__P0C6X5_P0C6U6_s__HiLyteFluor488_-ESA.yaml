@@ -1,0 +1,125 @@
+name: SABIO-RK Entry 70992
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 70992
+created: '2025-10-28T17:19:39.031160'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_4_22_69_P0C6X5_P0C6U6_p70992
+  name: SARS coronavirus main proteinase
+  sequence: null
+  ecnumber: 3.4.22.69
+  organism: bovine
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P0C6X5; P0C6U6
+complexes: null
+small_molecules:
+- id: substrate__HiLyteFluor488_-ESATLQSGLRKAK-_QXL520_-NH2
+  name: (HiLyteFluor488)-ESATLQSGLRKAK-(QXL520)-NH2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product__HiLyteFluor488_-ESATLQ
+  name: (HiLyteFluor488)-ESATLQ
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_SGLRKAK-_QXL520_-NH2
+  name: SGLRKAK-(QXL520)-NH2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Telaprevir
+  name: Telaprevir
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_15877_EC3_4_22_69_bovine_P0C6X5_P0C6U6__HiLyteFluor488_-ESATLQSGLRKAK-_QXL520_-NH2
+  name: Reaction catalyzed by SARS coronavirus main proteinase on (HiLyteFluor488)-ESATLQSGLRKAK-(QXL520)-NH2
+  equation: H2O + (HiLyteFluor488)-ESATLQSGLRKAK-(QXL520)-NH2 = SGLRKAK-(QXL520)-NH2
+    + (HiLyteFluor488)-ESATLQ
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate__HiLyteFluor488_-ESATLQSGLRKAK-_QXL520_-NH2
+  products:
+  - species_id: product__HiLyteFluor488_-ESATLQ
+  - species_id: product_SGLRKAK-_QXL520_-NH2
+  modifiers:
+  - species_id: protein_3_4_22_69_P0C6X5_P0C6U6_p70992
+    role: BIOCATALYST
+  - species_id: activator_Telaprevir
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:41979;
+    CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352;
+    CHEBI:43228; CHEBI:44292; CHEBI:68595; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00001'
+measurements:
+- id: measurement_3_4_22_69_bovine_P0C6X5_P0C6U6__HiLyteFluor488_-ESATLQSGLRKAK-_QXL520_-NH2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 50 mM HEPES, 0.1 mg/ml bovine serum albumin, 0.01% Triton X-100, 2 mM DTT,
+    1% DMSO
+  buffer_concentration: 50 mM
+references: null

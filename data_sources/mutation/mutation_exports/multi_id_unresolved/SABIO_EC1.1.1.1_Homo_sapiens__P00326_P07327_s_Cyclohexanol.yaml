@@ -1,0 +1,188 @@
+name: SABIO-RK Entry 13178
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 13178
+created: '2025-10-28T14:02:20.934947'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_1_P00326_P07327_p13178
+  name: carbonyl reductase (NADPH)
+  sequence: null
+  ecnumber: 1.1.1.1
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P00326; P07327
+complexes: null
+small_molecules:
+- id: substrate_Cyclohexanol
+  name: Cyclohexanol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Cyclohexanone
+  name: Cyclohexanone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_8784_EC1_1_1_1_Homo_sapiens_P00326_P07327_Cyclohexanol
+  name: Reaction catalyzed by carbonyl reductase (NADPH) on Cyclohexanol
+  equation: NAD+ + Cyclohexanol = Cyclohexanone + NADH + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Cyclohexanol
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_Cyclohexanone
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_1_1_1_P00326_P07327_p13178
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 10044;10045;10046;10047
+  KEGGid: R02229
+  notes: 'ChEBI IDs: CHEBI:23471; CHEBI:23481; CHEBI:4014; CHEBI:44281; CHEBI:41739;
+    CHEBI:41770; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:13357; CHEBI:18099;
+    CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636; CHEBI:44214; CHEBI:14052;
+    CHEBI:29233; CHEBI:13394; CHEBI:5584; CHEBI:14051; CHEBI:57945; CHEBI:44216; CHEBI:4013;
+    CHEBI:17854; CHEBI:57540; CHEBI:7423; CHEBI:13389; CHEBI:13395; CHEBI:15378; CHEBI:44215;
+    CHEBI:10744; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C00854; KEGG:C00003; KEGG:C00414; KEGG:C00004'
+measurements:
+- id: measurement_1_1_1_1_Homo_sapiens_P00326_P07327_Cyclohexanol
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 10.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1_1_Homo_sapiens_P00326_P07327_Cyclohexanol_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 3.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cyclohexanol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 10.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '6342669'
+- id: 1_1_1_1_Homo_sapiens_P00326_P07327_Cyclohexanol_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 8.0e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cyclohexanol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 10.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '6342669'
+- id: 1_1_1_1_Homo_sapiens_P00326_P07327_Cyclohexanol_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 383333.3
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cyclohexanol
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 10.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '6342669'
+buffer:
+  buffer: 0.1 M glycine
+  buffer_concentration: 0.1 M
+references:
+- title: Reference for SABIO-RK entry 13178
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/6342669/
+  pubmed_id: '6342669'
+  doi: null

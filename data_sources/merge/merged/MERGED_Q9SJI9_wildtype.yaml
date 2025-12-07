@@ -1,0 +1,287 @@
+version: '2.0'
+created: '2025-11-20T13:39:30.774487'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_13_11_20_Q9SJI9_p73537
+  name: cysteine dioxygenase
+  ecnumber: 1.13.11.20
+  organism: Arabidopsis thaliana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9SJI9
+  wildtype_sequence: MPYFAQRLYNTCKASFSSDGPITEDALEKVRNVLEKIKPSDVGIEQDAQLARSRSGPLNERNGSNQSPPAIKYLHLHECDSFSIGIFCMPPSSMIPLHNHPGMTVLSKLVYGSMHVKSYDWLEPQLTEPEDPSQARPAKLVKDTEMTAQSPVTTLYPKSGGNIHCFKAITHCAILDILAPPYSSEHDRHCTYFRKSRREDLPGELEVDGEVVTDVTWLEEFQPPDDFVIRRIPYRGPVIRT
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_L-Cysteine
+  name: L-Cysteine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Fe2_
+  name: Fe2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3-Sulfino-L-alanine
+  name: 3-Sulfino-L-alanine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_L-Ascorbate
+  name: L-Ascorbate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1216_EC1_13_11_20_Arabidopsis_thaliana_Q9SJI9_L-Cysteine
+  name: Reaction catalyzed by cysteine dioxygenase on L-Cysteine
+  equation: L-Cysteine + O2 = 3-Sulfino-L-alanine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Cysteine
+  - species_id: substrate_O2
+  - species_id: cofactor_Fe2_
+  products:
+  - species_id: product_3-Sulfino-L-alanine
+  modifiers:
+  - species_id: protein_1_13_11_20_Q9SJI9_p73537
+    role: BIOCATALYST
+  - species_id: activator_L-Ascorbate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 20441;20442;20443;20444
+  KEGGid: R00893
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:21271; CHEBI:61085; CHEBI:29033; CHEBI:43473;
+    CHEBI:41781; CHEBI:11889; CHEBI:13095; CHEBI:34754; CHEBI:32442; CHEBI:21240;
+    CHEBI:26689; CHEBI:13082; CHEBI:21129; CHEBI:21241; CHEBI:40892; CHEBI:21261;
+    CHEBI:41700; CHEBI:41811; CHEBI:23833; CHEBI:13416; CHEBI:224037; CHEBI:1664;
+    CHEBI:32443; CHEBI:41618; CHEBI:22651; CHEBI:41768; CHEBI:29950; CHEBI:13319;
+    CHEBI:13861; CHEBI:15379; CHEBI:38290; CHEBI:11888; CHEBI:24876; CHEBI:6207; CHEBI:35235;
+    CHEBI:2868; CHEBI:30491; CHEBI:25366; CHEBI:44742; CHEBI:29073; CHEBI:29793; CHEBI:7860;
+    CHEBI:32445; CHEBI:16345; CHEBI:10745; CHEBI:17561; CHEBI:13321; CHEBI:8973; CHEBI:22652;
+    CHEBI:41227; CHEBI:49599
+
+    KEGG IDs: KEGG:C14818; KEGG:C00606; KEGG:C00097; KEGG:C00704; KEGG:C00072; KEGG:C00007'
+- id: sabiork_1216_EC1_13_11_20_Arabidopsis_thaliana_Q9SJI9_O2
+  name: Reaction catalyzed by cysteine dioxygenase on O2
+  equation: L-Cysteine + O2 = 3-Sulfino-L-alanine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_L-Cysteine
+  - species_id: cofactor_Fe2_
+  products:
+  - species_id: product_3-Sulfino-L-alanine
+  modifiers:
+  - species_id: protein_1_13_11_20_Q9SJI9_p73542
+    role: BIOCATALYST
+  - species_id: activator_L-Ascorbate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 20441;20442;20443;20444
+  KEGGid: R00893
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:21271; CHEBI:61085; CHEBI:29033; CHEBI:43473;
+    CHEBI:41781; CHEBI:11889; CHEBI:13095; CHEBI:34754; CHEBI:32442; CHEBI:21240;
+    CHEBI:26689; CHEBI:13082; CHEBI:21129; CHEBI:21241; CHEBI:40892; CHEBI:21261;
+    CHEBI:41700; CHEBI:41811; CHEBI:23833; CHEBI:13416; CHEBI:224037; CHEBI:1664;
+    CHEBI:32443; CHEBI:41618; CHEBI:22651; CHEBI:41768; CHEBI:29950; CHEBI:13319;
+    CHEBI:13861; CHEBI:15379; CHEBI:38290; CHEBI:11888; CHEBI:24876; CHEBI:6207; CHEBI:35235;
+    CHEBI:2868; CHEBI:30491; CHEBI:25366; CHEBI:44742; CHEBI:29073; CHEBI:29793; CHEBI:7860;
+    CHEBI:32445; CHEBI:16345; CHEBI:10745; CHEBI:17561; CHEBI:13321; CHEBI:8973; CHEBI:22652;
+    CHEBI:41227; CHEBI:49599
+
+    KEGG IDs: KEGG:C14818; KEGG:C00606; KEGG:C00097; KEGG:C00704; KEGG:C00072; KEGG:C00007'
+measurements:
+- id: measurement_1_13_11_20_Arabidopsis_thaliana_Q9SJI9_L-Cysteine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_13_11_20_Arabidopsis_thaliana_Q9SJI9_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_13_11_20_Arabidopsis_thaliana_Q9SJI9_L-Cysteine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00069
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Cysteine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29848548'
+- id: 1_13_11_20_Arabidopsis_thaliana_Q9SJI9_L-Cysteine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 31.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Cysteine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29848548'
+- id: 1_13_11_20_Arabidopsis_thaliana_Q9SJI9_L-Cysteine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.001056667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Cysteine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29848548'
+- id: 1_13_11_20_Arabidopsis_thaliana_Q9SJI9_O2_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.00081
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29848548'
+- id: 1_13_11_20_Arabidopsis_thaliana_Q9SJI9_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.173
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29848548'
+- id: 1_13_11_20_Arabidopsis_thaliana_Q9SJI9_O2_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 16500.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29848548'
+- id: 1_13_11_20_Arabidopsis_thaliana_Q9SJI9_O2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 23.8
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29848548'
+buffer:
+  buffer: 50 mM Bis tris propane, 50 mM NaCl, 5 mM TCEP
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 73537
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/29848548/
+  pubmed_id: '29848548'
+  doi: null
+name: Merged entry for Q9SJI9 wildtype
+description: 'Merged from 2 files: SABIO_EC1.13.11.20_Arabidopsis_thaliana__Q9SJI9_s_L-Cysteine.yaml,
+  SABIO_EC1.13.11.20_Arabidopsis_thaliana__Q9SJI9_s_O2.yaml'

@@ -1,0 +1,347 @@
+version: '2.0'
+created: '2025-11-20T13:41:51.591846'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_6_2_1_33_A5JTM6_p46701
+  name: 4-chlorobenzoate---CoA ligase
+  ecnumber: 6.2.1.33
+  organism: Pseudomonas sp.
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: K169M
+  uniprotid: A5JTM6
+  wildtype_sequence: MQTVHEMLRRAVSRVPHRWAIVDAARSTFDICRTGETSRNEGSATARLWPQPARPLAVVSGNSVEAVIAVLALHRLQAVPALMNPRLKPAEISELVARGEMARAVVANDAGVMEAIRTRVPSVCVLALDDLVSGSRVPEVAGKSLPPPPCEPEQAGFVFYTSGTTGLPKGAVIPQRAAESRVLFMATQAGLRHGSHNVVLGLMPLYHTIGFFAVLVAAMAFDGTYVVVEEFDAGNVLKLIERERVTAMFATPTHLDALTTAVEQAGARLESLEHVTFAGATMPDTVLERVNRFIPGEKVNIYGTTEAMNSLYMRAVRIAGTVMRPGFFSEVRIVRVGGDVDDGCPTVKRASWRWRRRMRPFQATLTNLRLLQKSFRKAGTGRAICVRDGSGNIVVLGRVDDMIISGGENIHPSEVERILAAAPGVAEVVVIGVKDERWGQSVVACVVLQPGASASAERLDAFCRASALADFKRPRRYVFLDELPKSAMNKVLRRQLMQHVSATSSAAVVPAPAVKQRTYAPSGRAIAR
+  mutant_sequence: MQTVHEMLRRAVSRVPHRWAIVDAARSTFDICRTGETSRNEGSATARLWPQPARPLAVVSGNSVEAVIAVLALHRLQAVPALMNPRLKPAEISELVARGEMARAVVANDAGVMEAIRTRVPSVCVLALDDLVSGSRVPEVAGKSLPPPPCEPEQAGFVFYTSGTTGLPMGAVIPQRAAESRVLFMATQAGLRHGSHNVVLGLMPLYHTIGFFAVLVAAMAFDGTYVVVEEFDAGNVLKLIERERVTAMFATPTHLDALTTAVEQAGARLESLEHVTFAGATMPDTVLERVNRFIPGEKVNIYGTTEAMNSLYMRAVRIAGTVMRPGFFSEVRIVRVGGDVDDGCPTVKRASWRWRRRMRPFQATLTNLRLLQKSFRKAGTGRAICVRDGSGNIVVLGRVDDMIISGGENIHPSEVERILAAAPGVAEVVVIGVKDERWGQSVVACVVLQPGASASAERLDAFCRASALADFKRPRRYVFLDELPKSAMNKVLRRQLMQHVSATSSAAVVPAPAVKQRTYAPSGRAIAR
+complexes: null
+small_molecules:
+- id: substrate_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_4-Chlorobenzoate
+  name: 4-Chlorobenzoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mg2_
+  name: Mg2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_AMP
+  name: AMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4-Chlorobenzoyl-CoA
+  name: 4-Chlorobenzoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_3673_EC6_2_1_33_Pseudomonas_sp._A5JTM6_Coenzyme_A
+  name: Reaction catalyzed by 4-chlorobenzoate---CoA ligase on Coenzyme A
+  equation: ATP + Coenzyme A + 4-Chlorobenzoate = Diphosphate + AMP + 4-Chlorobenzoyl-CoA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Coenzyme_A
+  - species_id: substrate_4-Chlorobenzoate
+  - species_id: substrate_ATP
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_AMP
+  - species_id: product_Diphosphate
+  - species_id: product_4-Chlorobenzoyl-CoA
+  modifiers:
+  - species_id: protein_6_2_1_33_A5JTM6_p46701
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 23220;23221;23222;23223
+  KEGGid: R03932
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:15346; CHEBI:23355; CHEBI:10789;
+    CHEBI:57299; CHEBI:40726; CHEBI:22245; CHEBI:8683; CHEBI:57354; CHEBI:1804; CHEBI:13379;
+    CHEBI:40510; CHEBI:20333; CHEBI:49369; CHEBI:41631; CHEBI:11973; CHEBI:22242;
+    CHEBI:13736; CHEBI:47222; CHEBI:6635; CHEBI:33019; CHEBI:1803; CHEBI:456215; CHEBI:13236;
+    CHEBI:13295; CHEBI:40786; CHEBI:45067; CHEBI:40826; CHEBI:41597; CHEBI:16027;
+    CHEBI:2356; CHEBI:10841; CHEBI:29888; CHEBI:2359; CHEBI:35782; CHEBI:49736; CHEBI:11974;
+    CHEBI:40938; CHEBI:57287; CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:13294;
+    CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:18420; CHEBI:13740; CHEBI:15498;
+    CHEBI:20334; CHEBI:3771; CHEBI:13234; CHEBI:741566; CHEBI:40721; CHEBI:42009;
+    CHEBI:25112; CHEBI:30747; CHEBI:45212; CHEBI:17861; CHEBI:13235; CHEBI:12056;
+    CHEBI:39127; CHEBI:20335; CHEBI:13298; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00010; KEGG:C00305; KEGG:C00002; KEGG:C02370; KEGG:C06387;
+    KEGG:C00020'
+- id: sabiork_3673_EC6_2_1_33_Pseudomonas_sp._A5JTM6_ATP
+  name: Reaction catalyzed by 4-chlorobenzoate---CoA ligase on ATP
+  equation: ATP + Coenzyme A + 4-Chlorobenzoate = Diphosphate + AMP + 4-Chlorobenzoyl-CoA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_4-Chlorobenzoate
+  - species_id: substrate_Coenzyme_A
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_AMP
+  - species_id: product_Diphosphate
+  - species_id: product_4-Chlorobenzoyl-CoA
+  modifiers:
+  - species_id: protein_6_2_1_33_A5JTM6_p46702
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 23220;23221;23222;23223
+  KEGGid: R03932
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:15346; CHEBI:23355; CHEBI:10789;
+    CHEBI:57299; CHEBI:40726; CHEBI:22245; CHEBI:8683; CHEBI:57354; CHEBI:1804; CHEBI:13379;
+    CHEBI:40510; CHEBI:20333; CHEBI:49369; CHEBI:41631; CHEBI:11973; CHEBI:22242;
+    CHEBI:13736; CHEBI:47222; CHEBI:6635; CHEBI:33019; CHEBI:1803; CHEBI:456215; CHEBI:13236;
+    CHEBI:13295; CHEBI:40786; CHEBI:45067; CHEBI:40826; CHEBI:41597; CHEBI:16027;
+    CHEBI:2356; CHEBI:10841; CHEBI:29888; CHEBI:2359; CHEBI:35782; CHEBI:49736; CHEBI:11974;
+    CHEBI:40938; CHEBI:57287; CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:13294;
+    CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:18420; CHEBI:13740; CHEBI:15498;
+    CHEBI:20334; CHEBI:3771; CHEBI:13234; CHEBI:741566; CHEBI:40721; CHEBI:42009;
+    CHEBI:25112; CHEBI:30747; CHEBI:45212; CHEBI:17861; CHEBI:13235; CHEBI:12056;
+    CHEBI:39127; CHEBI:20335; CHEBI:13298; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00010; KEGG:C00305; KEGG:C00002; KEGG:C02370; KEGG:C06387;
+    KEGG:C00020'
+- id: sabiork_3673_EC6_2_1_33_Pseudomonas_sp._A5JTM6_ATP
+  name: Reaction catalyzed by 4-chlorobenzoate---CoA ligase on ATP
+  equation: ATP + Coenzyme A + 4-Chlorobenzoate = Diphosphate + AMP + 4-Chlorobenzoyl-CoA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_4-Chlorobenzoate
+  - species_id: substrate_Coenzyme_A
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_4-Chlorobenzoyl-CoA
+  - species_id: product_AMP
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_6_2_1_33_A5JTM6_p46703
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 23220;23221;23222;23223
+  KEGGid: R03932
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:15346; CHEBI:23355; CHEBI:10789;
+    CHEBI:57299; CHEBI:1804; CHEBI:40726; CHEBI:57354; CHEBI:22245; CHEBI:8683; CHEBI:13379;
+    CHEBI:40510; CHEBI:20333; CHEBI:49369; CHEBI:41631; CHEBI:11973; CHEBI:22242;
+    CHEBI:13736; CHEBI:47222; CHEBI:6635; CHEBI:33019; CHEBI:1803; CHEBI:456215; CHEBI:13236;
+    CHEBI:13295; CHEBI:40786; CHEBI:45067; CHEBI:40826; CHEBI:41597; CHEBI:16027;
+    CHEBI:2356; CHEBI:10841; CHEBI:29888; CHEBI:2359; CHEBI:35782; CHEBI:49736; CHEBI:11974;
+    CHEBI:40938; CHEBI:57287; CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:13294;
+    CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:18420; CHEBI:13740; CHEBI:15498;
+    CHEBI:20334; CHEBI:3771; CHEBI:13234; CHEBI:741566; CHEBI:40721; CHEBI:42009;
+    CHEBI:25112; CHEBI:30747; CHEBI:45212; CHEBI:17861; CHEBI:13235; CHEBI:12056;
+    CHEBI:39127; CHEBI:20335; CHEBI:13298; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00010; KEGG:C00305; KEGG:C00002; KEGG:C02370; KEGG:C06387;
+    KEGG:C00020'
+measurements:
+- id: measurement_6_2_1_33_Pseudomonas_sp._A5JTM6_Coenzyme_A
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_6_2_1_33_Pseudomonas_sp._A5JTM6_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_6_2_1_33_Pseudomonas_sp._A5JTM6_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 6_2_1_33_Pseudomonas_sp._A5JTM6_Coenzyme_A_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 9.8
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Coenzyme_A
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9398293'
+- id: 6_2_1_33_Pseudomonas_sp._A5JTM6_Coenzyme_A_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Coenzyme_A
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9398293'
+- id: 6_2_1_33_Pseudomonas_sp._A5JTM6_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 16.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9398293'
+- id: 6_2_1_33_Pseudomonas_sp._A5JTM6_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00083
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9398293'
+- id: 6_2_1_33_Pseudomonas_sp._A5JTM6_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.6e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9398293'
+- id: 6_2_1_33_Pseudomonas_sp._A5JTM6_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 9.4
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9398293'
+buffer:
+  buffer: 50 mM K+Hepes, 1 mM DTT, 0.2 mM NADH, 3 mM PEP, 5 mM KCl, 11 U/ml myokinase,
+    9 U/ml pyruvate kinase, 9 U/ml lactate dehydrogenase
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 46701
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9398293/
+  pubmed_id: '9398293'
+  doi: null
+name: Merged entry for A5JTM6 K169M
+description: 'Merged from 3 files: SABIO_EC6.2.1.33_Pseudomonas_sp.__A5JTM6_K169M_s_Coenzyme.yaml,
+  SABIO_EC6.2.1.33_Pseudomonas_sp.__A5JTM6_K169M_s_ATP.yaml, SABIO_EC6.2.1.33_Pseudomonas_sp.__A5JTM6_K169M_s_ATP_2.yaml'

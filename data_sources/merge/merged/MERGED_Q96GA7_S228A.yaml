@@ -1,0 +1,284 @@
+version: '2.0'
+created: '2025-11-20T13:41:37.084141'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_3_1_17_Q96GA7_p66311
+  name: cystathionine beta-synthase
+  ecnumber: 4.3.1.17
+  organism: rat
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: S228A
+  uniprotid: Q96GA7
+  wildtype_sequence: MDGPVAEHAKQEPFHVVTPLLESWALSQVAGMPVFLKCENVQPSGSFKIRGIGHFCQEMAKKGCRHLVCSSGGNAGIAAAYAARKLGIPATIVLPESTSLQVVQRLQGEGAEVQLTGKVWDEANLRAQELAKRDGWENVPPFDHPLIWKGHASLVQELKAVLRTPPGALVLAVGGGGLLAGVVAGLLEVGWQHVPIIAMETHGAHCFNAAITAGKLVTLPDITSVAKSLGAKTVAARALECMQVCKIHSEVVEDTEAVSAVQQLLDDERMLVEPACGAALAAIYSGLLRRLQAEGCLPPSLTSVVVIVCGGNNINSRELQALKTHLGQV
+  mutant_sequence: MDGPVAEHAKQEPFHVVTPLLESWALSQVAGMPVFLKCENVQPSGSFKIRGIGHFCQEMAKKGCRHLVCSSGGNAGIAAAYAARKLGIPATIVLPESTSLQVVQRLQGEGAEVQLTGKVWDEANLRAQELAKRDGWENVPPFDHPLIWKGHASLVQELKAVLRTPPGALVLAVGGGGLLAGVVAGLLEVGWQHVPIIAMETHGAHCFNAAITAGKLVTLPDITSVAKALGAKTVAARALECMQVCKIHSEVVEDTEAVSAVQQLLDDERMLVEPACGAALAAIYSGLLRRLQAEGCLPPSLTSVVVIVCGGNNINSRELQALKTHLGQV
+complexes: null
+small_molecules:
+- id: substrate_L-Serine
+  name: L-Serine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Pyruvate
+  name: Pyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NH3
+  name: NH3
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Pyridoxal_phosphate
+  name: Pyridoxal phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_L-Threonine
+  name: L-Threonine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Oxobutyrate
+  name: 2-Oxobutyrate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_745_EC4_3_1_17_rat_Q96GA7_L-Serine
+  name: Reaction catalyzed by cystathionine beta-synthase on L-Serine
+  equation: L-Serine = Pyruvate + NH3
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Serine
+  products:
+  - species_id: product_Pyruvate
+  - species_id: product_NH3
+  modifiers:
+  - species_id: protein_4_3_1_17_Q96GA7_p66311
+    role: BIOCATALYST
+  - species_id: activator_Pyridoxal_phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 19169;19170;19171;19172
+  KEGGid: R00220
+  notes: 'ChEBI IDs: CHEBI:44284; CHEBI:32836; CHEBI:16134; CHEBI:13405; CHEBI:7434;
+    CHEBI:14987; CHEBI:32837; CHEBI:358848; CHEBI:13167; CHEBI:45451; CHEBI:13407;
+    CHEBI:26424; CHEBI:45440; CHEBI:15361; CHEBI:45590; CHEBI:8668; CHEBI:29999; CHEBI:18405;
+    CHEBI:33384; CHEBI:22534; CHEBI:135980; CHEBI:7435; CHEBI:49783; CHEBI:22533;
+    CHEBI:26466; CHEBI:597326; CHEBI:44404; CHEBI:13771; CHEBI:26462; CHEBI:45597;
+    CHEBI:17115; CHEBI:44269; CHEBI:234571; CHEBI:13406; CHEBI:8685; CHEBI:21387;
+    CHEBI:45145; CHEBI:32816; CHEBI:28938; CHEBI:14977; CHEBI:6301; CHEBI:45677; CHEBI:45253
+
+    KEGG IDs: KEGG:C00018; KEGG:C00065; KEGG:C00014; KEGG:C00022; KEGG:C01342'
+- id: sabiork_1290_EC4_3_1_19_rat_Q96GA7_L-Threonine
+  name: Reaction catalyzed by L-serine ammonia-lyase on L-Threonine
+  equation: L-Threonine = NH3 + 2-Oxobutyrate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Threonine
+  products:
+  - species_id: product_NH3
+  - species_id: product_2-Oxobutyrate
+  modifiers:
+  - species_id: protein_4_3_1_19_Q96GA7_p66312
+    role: BIOCATALYST
+  - species_id: activator_Pyridoxal_phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 22108;22109;22110;22111
+  KEGGid: R00996
+  notes: 'ChEBI IDs: CHEBI:19741; CHEBI:44284; CHEBI:16134; CHEBI:32833; CHEBI:13405;
+    CHEBI:7434; CHEBI:16857; CHEBI:358848; CHEBI:45983; CHEBI:13407; CHEBI:26986;
+    CHEBI:19743; CHEBI:21403; CHEBI:26424; CHEBI:8668; CHEBI:6308; CHEBI:144836; CHEBI:30831;
+    CHEBI:32822; CHEBI:18405; CHEBI:22534; CHEBI:135980; CHEBI:7435; CHEBI:49783;
+    CHEBI:39748; CHEBI:22533; CHEBI:597326; CHEBI:44404; CHEBI:13771; CHEBI:44269;
+    CHEBI:234571; CHEBI:32820; CHEBI:13406; CHEBI:1250; CHEBI:30013; CHEBI:45145;
+    CHEBI:57926; CHEBI:28938; CHEBI:42083; CHEBI:32832; CHEBI:14977; CHEBI:16763;
+    CHEBI:11636; CHEBI:45843; CHEBI:13175
+
+    KEGG IDs: KEGG:C00188; KEGG:C00018; KEGG:C00109; KEGG:C00014; KEGG:C01342'
+measurements:
+- id: measurement_4_3_1_17_rat_Q96GA7_L-Serine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.3
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_4_3_1_19_rat_Q96GA7_L-Threonine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.3
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 4_3_1_17_rat_Q96GA7_L-Serine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.033
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Serine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.3
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '18342636'
+- id: 4_3_1_17_rat_Q96GA7_L-Serine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.5
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Serine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.3
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '18342636'
+- id: 4_3_1_17_rat_Q96GA7_L-Serine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 46.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Serine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.3
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '18342636'
+- id: 4_3_1_19_rat_Q96GA7_L-Threonine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.019
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Threonine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.3
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '18342636'
+- id: 4_3_1_19_rat_Q96GA7_L-Threonine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.3
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Threonine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.3
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '18342636'
+- id: 4_3_1_19_rat_Q96GA7_L-Threonine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 15.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Threonine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.3
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '18342636'
+buffer:
+  buffer: 50 mM borate-KOH
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 66311
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/18342636/
+  pubmed_id: '18342636'
+  doi: null
+name: Merged entry for Q96GA7 S228A
+description: 'Merged from 2 files: SABIO_EC4.3.1.17_rat__Q96GA7_S228A_s_L-Serine.yaml,
+  SABIO_EC4.3.1.19_rat__Q96GA7_S228A_s_L-Threonine.yaml'

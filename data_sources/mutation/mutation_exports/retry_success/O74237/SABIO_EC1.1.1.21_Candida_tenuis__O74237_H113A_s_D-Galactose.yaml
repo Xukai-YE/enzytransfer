@@ -1,0 +1,175 @@
+name: SABIO-RK Entry 26321
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 26321
+created: '2025-10-28T14:28:59.527709'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_21_O74237_p26321
+  name: aldehyde reductase
+  ecnumber: 1.1.1.21
+  organism: Candida tenuis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: H113A
+  uniprotid: O74237
+  wildtype_sequence: MSASIPDIKLSSGHLMPSIGFGCWKLANATAGEQVYQAIKAGYRLFDGAEDYGNEKEVGDGVKRAIDEGLVKREEIFLTSKLWNNYHDPKNVETALNKTLADLKVDYVDLFLIHFPIAFKFVPIEEKYPPGFYCGDGNNFVYEDVPILETWKALEKLVAAGKIKSIGVSNFPGALLLDLLRGATIKPAVLQVEHHPYLQQPKLIEFAQKAGVTITAYSSFGPQSFVEMNQGRALNTPTLFAHDTIKAIAAKYNKTPAEVLLRWAAQRGIAVIPKSNLPERLVQNRSFNTFDLTKEDFEEIAKLDIGLRFNDPWDWDNIPIFV
+  mutant_sequence: MSASIPDIKLSSGHLMPSIGFGCWKLANATAGEQVYQAIKAGYRLFDGAEDYGNEKEVGDGVKRAIDEGLVKREEIFLTSKLWNNYHDPKNVETALNKTLADLKVDYVDLFLIAFPIAFKFVPIEEKYPPGFYCGDGNNFVYEDVPILETWKALEKLVAAGKIKSIGVSNFPGALLLDLLRGATIKPAVLQVEHHPYLQQPKLIEFAQKAGVTITAYSSFGPQSFVEMNQGRALNTPTLFAHDTIKAIAAKYNKTPAEVLLRWAAQRGIAVIPKSNLPERLVQNRSFNTFDLTKEDFEEIAKLDIGLRFNDPWDWDNIPIFV
+  position_offset: 1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_D-Galactose
+  name: D-Galactose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Galactitol
+  name: Galactitol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1355_EC1_1_1_21_Candida_tenuis_O74237_D-Galactose
+  name: Reaction catalyzed by aldehyde reductase on D-Galactose
+  equation: NADH + D-Galactose + H+ = NAD+ + Galactitol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Galactose
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_NAD_
+  - species_id: product_Galactitol
+  modifiers:
+  - species_id: protein_1_1_1_21_O74237_p26321
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 37963;37964;37965;37966
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:12936; CHEBI:24139; CHEBI:44281; CHEBI:13393; CHEBI:29234;
+    CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:14286; CHEBI:13396; CHEBI:21901;
+    CHEBI:16813; CHEBI:24636; CHEBI:44214; CHEBI:42741; CHEBI:29233; CHEBI:5584; CHEBI:13394;
+    CHEBI:57945; CHEBI:44216; CHEBI:28061; CHEBI:10231; CHEBI:57540; CHEBI:7423; CHEBI:53575;
+    CHEBI:4139; CHEBI:13389; CHEBI:15378; CHEBI:13395; CHEBI:5251; CHEBI:22373; CHEBI:10744;
+    CHEBI:44215; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00984; KEGG:C00124; KEGG:C00080; KEGG:C01697; KEGG:C00003; KEGG:C00004'
+measurements:
+- id: measurement_1_1_1_21_Candida_tenuis_O74237_D-Galactose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1_21_Candida_tenuis_O74237_D-Galactose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.016
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Galactose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15109252'
+- id: 1_1_1_21_Candida_tenuis_O74237_D-Galactose_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 0.056
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Galactose
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15109252'
+buffer:
+  buffer: 50 mM Potassium phosphate
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 26321
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15109252/
+  pubmed_id: '15109252'
+  doi: null

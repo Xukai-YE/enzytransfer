@@ -1,0 +1,250 @@
+version: '2.0'
+created: '2025-11-20T13:40:07.511365'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_3_3_3_P0DO96_p68559
+  name: citrate (Si)-synthase
+  ecnumber: 2.3.3.3
+  organism: Dehalococcoides mccartyi
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P0DO96
+  wildtype_sequence: MGKIFIIDVTNRDGVQTARLGLSKLEKTLINIYLDEMGIFQSEFGFPTTKHERGYVEANLELAKMGVIKNLRLEGWIRAIVADVDLAFRRAPSLKHLNLSISTSEQMINGKFQGRKVFKDIIEDMTIAVNAAYAKGAETVGVNAEDASRTSIVNLIEFGKAAKEVGATRLRYCDTLGYDNPFTIYETARTLAEKVGMPIEIHCHGDLGMAIGNSLAGAKGVIDGGQDVYVNTTVNGIGERAGNADLVAFLLAILKSKGFGEKYQLGHEVDLSKAWKIARFASYAFDVEIPINQPGVGRNCFAHASGIHADGVIKDSQNYELYGYEELGRGEALMVETGREICAGQYSGISGFRHVMGNMSVELPEDKDEANKILELVRYANVEAHKPLVEDELIFIAKYPEISRRLLTLTPLMND
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Acetyl-CoA
+  name: Acetyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Oxaloacetate
+  name: Oxaloacetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mn2_
+  name: Mn2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Citrate
+  name: Citrate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_267_EC2_3_3_3_Dehalococcoides_mccartyi_P0DO96_Acetyl-CoA
+  name: Reaction catalyzed by citrate (Si)-synthase on Acetyl-CoA
+  equation: Coenzyme A + Citrate = Acetyl-CoA + Oxaloacetate + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Acetyl-CoA
+  - species_id: substrate_Oxaloacetate
+  - species_id: cofactor_Mn2_
+  products:
+  - species_id: product_Citrate
+  - species_id: product_Coenzyme_A
+  modifiers:
+  - species_id: protein_2_3_3_3_P0DO96_p68559
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 16845;16846;16847;16848
+  KEGGid: R00351
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:29375; CHEBI:24959; CHEBI:15346; CHEBI:44819;
+    CHEBI:23322; CHEBI:23355; CHEBI:41981; CHEBI:29035; CHEBI:21435; CHEBI:57288;
+    CHEBI:41631; CHEBI:3727; CHEBI:16452; CHEBI:35806; CHEBI:13712; CHEBI:42857; CHEBI:49749;
+    CHEBI:41979; CHEBI:76049; CHEBI:16947; CHEBI:41523; CHEBI:13295; CHEBI:12820;
+    CHEBI:23321; CHEBI:41597; CHEBI:42043; CHEBI:13999; CHEBI:25156; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:14703; CHEBI:15377; CHEBI:57287; CHEBI:13352;
+    CHEBI:25734; CHEBI:42563; CHEBI:35810; CHEBI:13294; CHEBI:25731; CHEBI:40470;
+    CHEBI:35802; CHEBI:43228; CHEBI:30744; CHEBI:44292; CHEBI:33806; CHEBI:2408; CHEBI:10743;
+    CHEBI:29374; CHEBI:5585; CHEBI:7812; CHEBI:3771; CHEBI:30769; CHEBI:35809; CHEBI:24958;
+    CHEBI:741566; CHEBI:29373; CHEBI:44701; CHEBI:13298; CHEBI:15351
+
+    KEGG IDs: KEGG:C00010; KEGG:C00034; KEGG:C00001; KEGG:C00158; KEGG:C19610; KEGG:C00036;
+    KEGG:C00024'
+- id: sabiork_267_EC2_3_3_3_Dehalococcoides_mccartyi_P0DO96_Oxaloacetate
+  name: Reaction catalyzed by citrate (Si)-synthase on Oxaloacetate
+  equation: Coenzyme A + Citrate = Acetyl-CoA + Oxaloacetate + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxaloacetate
+  - species_id: substrate_Acetyl-CoA
+  - species_id: cofactor_Mn2_
+  products:
+  - species_id: product_Citrate
+  - species_id: product_Coenzyme_A
+  modifiers:
+  - species_id: protein_2_3_3_3_P0DO96_p68558
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 16845;16846;16847;16848
+  KEGGid: R00351
+  notes: 'ChEBI IDs: CHEBI:24959; CHEBI:29375; CHEBI:22192; CHEBI:15346; CHEBI:44819;
+    CHEBI:23322; CHEBI:23355; CHEBI:41981; CHEBI:29035; CHEBI:21435; CHEBI:57288;
+    CHEBI:41631; CHEBI:3727; CHEBI:16452; CHEBI:35806; CHEBI:13712; CHEBI:42857; CHEBI:49749;
+    CHEBI:41979; CHEBI:76049; CHEBI:16947; CHEBI:41523; CHEBI:13295; CHEBI:12820;
+    CHEBI:23321; CHEBI:41597; CHEBI:42043; CHEBI:13999; CHEBI:25156; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:14703; CHEBI:15377; CHEBI:57287; CHEBI:13352;
+    CHEBI:25734; CHEBI:42563; CHEBI:35810; CHEBI:13294; CHEBI:25731; CHEBI:40470;
+    CHEBI:35802; CHEBI:43228; CHEBI:30744; CHEBI:44292; CHEBI:33806; CHEBI:2408; CHEBI:10743;
+    CHEBI:29374; CHEBI:5585; CHEBI:7812; CHEBI:3771; CHEBI:30769; CHEBI:35809; CHEBI:24958;
+    CHEBI:741566; CHEBI:29373; CHEBI:44701; CHEBI:13298; CHEBI:15351
+
+    KEGG IDs: KEGG:C00010; KEGG:C00034; KEGG:C00001; KEGG:C00158; KEGG:C19610; KEGG:C00036;
+    KEGG:C00024'
+measurements:
+- id: measurement_2_3_3_3_Dehalococcoides_mccartyi_P0DO96_Acetyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_2_3_3_3_Dehalococcoides_mccartyi_P0DO96_Oxaloacetate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 2_3_3_3_Dehalococcoides_mccartyi_P0DO96_Acetyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '21784924'
+- id: 2_3_3_3_Dehalococcoides_mccartyi_P0DO96_Acetyl-CoA_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1
+  initial_value: 1.12e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '21784924'
+- id: 2_3_3_3_Dehalococcoides_mccartyi_P0DO96_Oxaloacetate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1
+  initial_value: 9.1e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxaloacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '21784924'
+- id: 2_3_3_3_Dehalococcoides_mccartyi_P0DO96_Oxaloacetate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxaloacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '21784924'
+buffer:
+  buffer: 0.1 M Tris-HCl, 0.2 mM DTNB
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 68559
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/21784924/
+  pubmed_id: '21784924'
+  doi: null
+name: Merged entry for P0DO96 wildtype
+description: 'Merged from 2 files: SABIO_EC2.3.3.3_Dehalococcoides_mccartyi__P0DO96_s_Acetyl-CoA.yaml,
+  SABIO_EC2.3.3.3_Dehalococcoides_mccartyi__P0DO96_s_Oxaloacetate.yaml'

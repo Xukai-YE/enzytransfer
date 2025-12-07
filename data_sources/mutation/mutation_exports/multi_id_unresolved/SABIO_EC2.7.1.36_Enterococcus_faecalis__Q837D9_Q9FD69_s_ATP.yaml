@@ -1,0 +1,204 @@
+name: SABIO-RK Entry 590
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 590
+created: '2025-10-28T13:44:42.595885'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_36_Q837D9_Q9FD69_p590
+  name: mevalonate kinase
+  sequence: null
+  ecnumber: 2.7.1.36
+  organism: Enterococcus faecalis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q837D9; Q9FD69
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate__R_-Mevalonate
+  name: (R)-Mevalonate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mg2_
+  name: Mg2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product__R_-5-Phosphomevalonate
+  name: (R)-5-Phosphomevalonate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2215_EC2_7_1_36_Enterococcus_faecalis_Q837D9_Q9FD69_ATP
+  name: Reaction catalyzed by mevalonate kinase on ATP
+  equation: ATP + (R)-Mevalonate = ADP + (R)-5-Phosphomevalonate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate__R_-Mevalonate
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product__R_-5-Phosphomevalonate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_36_Q837D9_Q9FD69_p590
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17065;17066;17067;17068
+  KEGGid: R02245
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:13379; CHEBI:40553; CHEBI:6635; CHEBI:18790; CHEBI:17710; CHEBI:13236; CHEBI:10841;
+    CHEBI:17436; CHEBI:2359; CHEBI:87518; CHEBI:49736; CHEBI:40938; CHEBI:456216;
+    CHEBI:428; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:18420; CHEBI:36464; CHEBI:25112;
+    CHEBI:28880; CHEBI:13222; CHEBI:18791; CHEBI:22244; CHEBI:39127
+
+    KEGG IDs: KEGG:C00418; KEGG:C00305; KEGG:C00002; KEGG:C01107; KEGG:C00008; KEGG:C02104'
+measurements:
+- id: measurement_2_7_1_36_Enterococcus_faecalis_Q837D9_Q9FD69_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 10.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 2_7_1_36_Enterococcus_faecalis_Q837D9_Q9FD69_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0033
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 10.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14767074'
+- id: 2_7_1_36_Enterococcus_faecalis_Q837D9_Q9FD69_ATP_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00033
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 10.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14767074'
+- id: 2_7_1_36_Enterococcus_faecalis_Q837D9_Q9FD69_ATP_Km_3
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0011
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 10.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14767074'
+- id: 2_7_1_36_Enterococcus_faecalis_Q837D9_Q9FD69_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.00019
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 10.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14767074'
+buffer:
+  buffer: 1.0 mM dithiothreitol, 210 mM KCl, 70 mM CAPS
+  buffer_concentration: 1.0 mM
+references:
+- title: Reference for SABIO-RK entry 590
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/14767074/
+  pubmed_id: '14767074'
+  doi: null

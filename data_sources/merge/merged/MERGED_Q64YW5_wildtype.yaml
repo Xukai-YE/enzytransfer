@@ -1,0 +1,561 @@
+version: '2.0'
+created: '2025-11-20T13:40:27.935204'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_1_Q64YW5_p4300
+  name: hexokinase
+  ecnumber: 2.7.1.1
+  organism: Bacteroides fragilis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q64YW5
+  wildtype_sequence: MNSSMEKPYVVGIDIGGTNTVFGIVDARGTIIASGAVKTQVYPTVEEYADEVCKNLLPLIIANGGVDKIKGIGIGAPNGNYYTGTIEFAPNLPWKGVLPLASMFEERLGIPTALTNDANAAAVGEMTYGAARGMKDFIMITLGTGVGSGIVINGQVVYGHDGFAGELGHVIVRRDGRICGCGRKGCLETYCSATGVARTAREFLAARTDASLLRNIPAESIVSKDVYDAAVQGDKLAQEIFEFTGNILGEALADAIAFSSPEAIILFGGLAKSGDYIMKPIMKAMENNLLNIYKGKAKLLVSELKDSDAAVLGASALAWELKDLRD
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_N-Acetyl-D-glucosamine
+  name: N-Acetyl-D-glucosamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N-Acetyl-D-glucosamine_6-phosphate
+  name: N-Acetyl-D-glucosamine 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Glucose
+  name: D-Glucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Glucose_6-phosphate
+  name: D-Glucose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_2-Deoxy-D-glucose
+  name: 2-Deoxy-D-glucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Deoxy-D-glucose_6-phosphate
+  name: 2-Deoxy-D-glucose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Fructose
+  name: D-Fructose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Fructose_6-phosphate
+  name: D-Fructose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Mannose
+  name: D-Mannose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Mannose_6-phosphate
+  name: D-Mannose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1435_EC2_7_1_1_Bacteroides_fragilis_Q64YW5_ATP
+  name: Reaction catalyzed by hexokinase on ATP
+  equation: N-Acetyl-D-glucosamine + ATP = ADP + N-Acetyl-D-glucosamine 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_N-Acetyl-D-glucosamine
+  products:
+  - species_id: product_ADP
+  - species_id: product_N-Acetyl-D-glucosamine_6-phosphate
+  modifiers:
+  - species_id: protein_2_7_1_1_Q64YW5_p4300
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17417;17418;17419;17420
+  KEGGid: R01201
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:40553; CHEBI:12563; CHEBI:17411; CHEBI:21517; CHEBI:12455; CHEBI:57513;
+    CHEBI:13236; CHEBI:7127; CHEBI:10841; CHEBI:2359; CHEBI:87518; CHEBI:12564; CHEBI:40938;
+    CHEBI:456216; CHEBI:12456; CHEBI:22249; CHEBI:7123; CHEBI:2342; CHEBI:15422; CHEBI:21521;
+    CHEBI:58134; CHEBI:13222; CHEBI:22244; CHEBI:15784
+
+    KEGG IDs: KEGG:C00002; KEGG:C00357; KEGG:C00140; KEGG:C00008'
+- id: sabiork_793_EC2_7_1_1_Bacteroides_fragilis_Q64YW5_ATP
+  name: Reaction catalyzed by glucokinase on ATP
+  equation: D-Glucose + ATP = ADP + D-Glucose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_D-Glucose
+  products:
+  - species_id: product_ADP
+  - species_id: product_D-Glucose_6-phosphate
+  modifiers:
+  - species_id: protein_2_7_1_1_Q64YW5_p4282
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17825;17826;17827;17828;36495;36496;36497;36498
+  KEGGid: R00299
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:40553; CHEBI:42748; CHEBI:42802; CHEBI:13236; CHEBI:10242; CHEBI:58225;
+    CHEBI:4167; CHEBI:12318; CHEBI:17634; CHEBI:10841; CHEBI:4170; CHEBI:12321; CHEBI:2359;
+    CHEBI:17665; CHEBI:87518; CHEBI:40938; CHEBI:22386; CHEBI:15954; CHEBI:10245;
+    CHEBI:456216; CHEBI:14314; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:22389;
+    CHEBI:13222; CHEBI:22244; CHEBI:40557; CHEBI:17925; CHEBI:88300
+
+    KEGG IDs: KEGG:C00267; KEGG:C00668; KEGG:C00092; KEGG:C00002; KEGG:C00008; KEGG:C00031'
+- id: sabiork_6641_EC2_7_1_1_Bacteroides_fragilis_Q64YW5_ATP
+  name: Reaction catalyzed by hexokinase on ATP
+  equation: 2-Deoxy-D-glucose + ATP = 2-Deoxy-D-glucose 6-phosphate + ADP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_2-Deoxy-D-glucose
+  products:
+  - species_id: product_2-Deoxy-D-glucose_6-phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_1_Q64YW5_p4299
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:40553; CHEBI:19554; CHEBI:11570; CHEBI:57615; CHEBI:13236; CHEBI:125684;
+    CHEBI:15866; CHEBI:10841; CHEBI:2359; CHEBI:11569; CHEBI:87518; CHEBI:40938; CHEBI:11565;
+    CHEBI:456216; CHEBI:22249; CHEBI:19553; CHEBI:2342; CHEBI:1078; CHEBI:15422; CHEBI:16043;
+    CHEBI:57546; CHEBI:1079; CHEBI:90760; CHEBI:84755; CHEBI:13222; CHEBI:22244
+
+    KEGG IDs: KEGG:C00002; KEGG:C00008; KEGG:C00586; KEGG:C06369'
+- id: sabiork_1116_EC2_7_1_1_Bacteroides_fragilis_Q64YW5_D-Fructose
+  name: Reaction catalyzed by hexokinase on D-Fructose
+  equation: ATP + D-Fructose = ADP + D-Fructose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Fructose
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_D-Fructose_6-phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_1_Q64YW5_p4281
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00760
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:15946; CHEBI:16761; CHEBI:10789;
+    CHEBI:57299; CHEBI:12926; CHEBI:40553; CHEBI:20935; CHEBI:13236; CHEBI:15824;
+    CHEBI:10841; CHEBI:2359; CHEBI:87518; CHEBI:40938; CHEBI:42406; CHEBI:456216;
+    CHEBI:47424; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:57579; CHEBI:37721; CHEBI:4119;
+    CHEBI:4124; CHEBI:13222; CHEBI:22244; CHEBI:48095
+
+    KEGG IDs: KEGG:C00002; KEGG:C10906; KEGG:C00095; KEGG:C00085; KEGG:C00008'
+- id: sabiork_575_EC2_7_1_1_Bacteroides_fragilis_Q64YW5_D-Mannose
+  name: Reaction catalyzed by hexokinase on D-Mannose
+  equation: D-Mannose + ATP = ADP + D-Mannose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Mannose
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_ADP
+  - species_id: product_D-Mannose_6-phosphate
+  modifiers:
+  - species_id: protein_2_7_1_1_Q64YW5_p4280
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01326
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:40553; CHEBI:10260; CHEBI:28729; CHEBI:13236; CHEBI:10841; CHEBI:2359; CHEBI:22403;
+    CHEBI:87518; CHEBI:40938; CHEBI:17369; CHEBI:37684; CHEBI:456216; CHEBI:60332;
+    CHEBI:4208; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:12328; CHEBI:43894; CHEBI:48066;
+    CHEBI:16024; CHEBI:43896; CHEBI:43805; CHEBI:13222; CHEBI:22244
+
+    KEGG IDs: KEGG:C00936; KEGG:C00002; KEGG:C00159; KEGG:C00008; KEGG:C00275'
+- id: sabiork_793_EC2_7_1_1_Bacteroides_fragilis_Q64YW5_D-Glucose
+  name: Reaction catalyzed by glucokinase on D-Glucose
+  equation: D-Glucose + ATP = ADP + D-Glucose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Glucose
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_ADP
+  - species_id: product_D-Glucose_6-phosphate
+  modifiers:
+  - species_id: protein_2_7_1_1_Q64YW5_p4279
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17825;17826;17827;17828;36495;36496;36497;36498
+  KEGGid: R00299
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:40553; CHEBI:42748; CHEBI:42802; CHEBI:10242; CHEBI:13236; CHEBI:58225;
+    CHEBI:4167; CHEBI:12318; CHEBI:17634; CHEBI:10841; CHEBI:4170; CHEBI:12321; CHEBI:2359;
+    CHEBI:17665; CHEBI:87518; CHEBI:40938; CHEBI:22386; CHEBI:15954; CHEBI:10245;
+    CHEBI:456216; CHEBI:14314; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:22389;
+    CHEBI:13222; CHEBI:22244; CHEBI:40557; CHEBI:17925; CHEBI:88300
+
+    KEGG IDs: KEGG:C00267; KEGG:C00668; KEGG:C00092; KEGG:C00002; KEGG:C00008; KEGG:C00031'
+measurements:
+- id: measurement_2_7_1_1_Bacteroides_fragilis_Q64YW5_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_2_7_1_1_Bacteroides_fragilis_Q64YW5_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_2_7_1_1_Bacteroides_fragilis_Q64YW5_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_2_7_1_1_Bacteroides_fragilis_Q64YW5_D-Fructose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_2_7_1_1_Bacteroides_fragilis_Q64YW5_D-Mannose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_2_7_1_1_Bacteroides_fragilis_Q64YW5_D-Glucose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 2_7_1_1_Bacteroides_fragilis_Q64YW5_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000616667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15659667'
+- id: 2_7_1_1_Bacteroides_fragilis_Q64YW5_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00085
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15659667'
+- id: 2_7_1_1_Bacteroides_fragilis_Q64YW5_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.00115
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15659667'
+- id: 2_7_1_1_Bacteroides_fragilis_Q64YW5_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00023
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15659667'
+- id: 2_7_1_1_Bacteroides_fragilis_Q64YW5_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00182
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15659667'
+- id: 2_7_1_1_Bacteroides_fragilis_Q64YW5_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.33333e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15659667'
+- id: 2_7_1_1_Bacteroides_fragilis_Q64YW5_D-Fructose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0445
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Fructose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15659667'
+- id: 2_7_1_1_Bacteroides_fragilis_Q64YW5_D-Fructose_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 4.83333e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Fructose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15659667'
+- id: 2_7_1_1_Bacteroides_fragilis_Q64YW5_D-Mannose_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000833333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Mannose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15659667'
+- id: 2_7_1_1_Bacteroides_fragilis_Q64YW5_D-Mannose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00175
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Mannose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15659667'
+- id: 2_7_1_1_Bacteroides_fragilis_Q64YW5_D-Glucose_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.00115
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15659667'
+- id: 2_7_1_1_Bacteroides_fragilis_Q64YW5_D-Glucose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00058
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15659667'
+buffer:
+  buffer: 0.1 M Tris-HCl, 0.01 M MgCl2, 0.6 mM NADH, 5 mM Phosphoenolpyruvate, excess
+    Pyruvate kinase, lactate dehydrogenase
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 4300
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15659667/
+  pubmed_id: '15659667'
+  doi: null
+name: Merged entry for Q64YW5 wildtype
+description: 'Merged from 6 files: SABIO_EC2.7.1.1_Bacteroides_fragilis__Q64YW5_s_ATP_3.yaml,
+  SABIO_EC2.7.1.1_Bacteroides_fragilis__Q64YW5_s_ATP.yaml, SABIO_EC2.7.1.1_Bacteroides_fragilis__Q64YW5_s_ATP_2.yaml,
+  SABIO_EC2.7.1.1_Bacteroides_fragilis__Q64YW5_s_D-Fructose.yaml, SABIO_EC2.7.1.1_Bacteroides_fragilis__Q64YW5_s_D-Mannose.yaml,
+  SABIO_EC2.7.1.1_Bacteroides_fragilis__Q64YW5_s_D-Glucose.yaml'

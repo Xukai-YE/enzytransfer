@@ -1,0 +1,272 @@
+version: '2.0'
+created: '2025-11-20T13:41:44.220578'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_5_3_1_5_P19148_p33605
+  name: xylose isomerase
+  ecnumber: 5.3.1.5
+  organism: Thermoanaerobacterium thermosulfurigenes
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: H71F
+  uniprotid: P19148
+  wildtype_sequence: MNKYFENVSKIKYEGPKSNNPYSFKFYNPEEVIDGKTMEEHLRFSIAYWHTFTADGTDQFGKATMQRPWNHYTDPMDIAKARVEAAFEFFDKINAPYFCFHDRDIAPEGDTLRETNKNLDTIVAMIKDYLKTSKTKVLWGTANLFSNPRFVHGASTSCNADVFAYSAAQVKKALEITKELGGENYVFWGGREGYETLLNTDMEFELDNFARFLHMAVDYAKEIGFEGQFLIEPKPKEPTKHQYDFDVANVLAFLRKYDLDKYFKVNIEANHATLAFHDFQHELRYARINGVLGSIDANTGDMLLGWDTDQFPTDIRMTTLAMYEVIKMGGFDKGGLNFDAKVRRASFEPEDLFLGHIAGMDAFAKGFKVAYKLVKDRVFDKFIEERYASYKDGIGADIVSGKADFRSLEKYALERSQIVNKSGRQELLESILNQYLFAE
+  mutant_sequence: MNKYFENVSKIKYEGPKSNNPYSFKFYNPEEVIDGKTMEEHLRFSIAYWHTFTADGTDQFGKATMQRPWNFYTDPMDIAKARVEAAFEFFDKINAPYFCFHDRDIAPEGDTLRETNKNLDTIVAMIKDYLKTSKTKVLWGTANLFSNPRFVHGASTSCNADVFAYSAAQVKKALEITKELGGENYVFWGGREGYETLLNTDMEFELDNFARFLHMAVDYAKEIGFEGQFLIEPKPKEPTKHQYDFDVANVLAFLRKYDLDKYFKVNIEANHATLAFHDFQHELRYARINGVLGSIDANTGDMLLGWDTDQFPTDIRMTTLAMYEVIKMGGFDKGGLNFDAKVRRASFEPEDLFLGHIAGMDAFAKGFKVAYKLVKDRVFDKFIEERYASYKDGIGADIVSGKADFRSLEKYALERSQIVNKSGRQELLESILNQYLFAE
+complexes: null
+small_molecules:
+- id: substrate_D-Fructose
+  name: D-Fructose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Glucose
+  name: D-Glucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Xylose
+  name: D-Xylose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Xylulose
+  name: D-Xylulose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Glucose
+  name: D-Glucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Fructose
+  name: D-Fructose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_800_EC5_3_1_5_Thermoanaerobacterium_thermosulfurigenes_P19148_D-Fructose
+  name: Reaction catalyzed by xylose isomerase on D-Fructose
+  equation: D-Glucose = D-Fructose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Fructose
+  products:
+  - species_id: product_D-Glucose
+  modifiers:
+  - species_id: protein_5_3_1_5_P19148_p33605
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:42802; CHEBI:4119; CHEBI:22386; CHEBI:10242; CHEBI:4167;
+    CHEBI:47424; CHEBI:12318; CHEBI:15824; CHEBI:17634; CHEBI:88300; CHEBI:40557;
+    CHEBI:17925; CHEBI:48095; CHEBI:37721
+
+    KEGG IDs: KEGG:C00267; KEGG:C00031; KEGG:C10906; KEGG:C00095'
+- id: sabiork_1617_EC5_3_1_5_Thermoanaerobacterium_thermosulfurigenes_P19148_D-Xylose
+  name: Reaction catalyzed by xylose isomerase on D-Xylose
+  equation: D-Xylose = D-Xylulose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Xylose
+  products:
+  - species_id: product_D-Xylulose
+  modifiers:
+  - species_id: protein_5_3_1_5_P19148_p33601
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01432
+  notes: 'ChEBI IDs: CHEBI:57574; CHEBI:4268; CHEBI:4265; CHEBI:13035; CHEBI:17140;
+    CHEBI:13033; CHEBI:46514; CHEBI:21120; CHEBI:15936; CHEBI:21118
+
+    KEGG IDs: KEGG:C00181; KEGG:C00310'
+- id: sabiork_800_EC5_3_1_5_Thermoanaerobacterium_thermosulfurigenes_P19148_D-Glucose
+  name: Reaction catalyzed by xylose isomerase on D-Glucose
+  equation: D-Glucose = D-Fructose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Glucose
+  products:
+  - species_id: product_D-Fructose
+  modifiers:
+  - species_id: protein_5_3_1_5_P19148_p33594
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:42802; CHEBI:22386; CHEBI:4119; CHEBI:48095; CHEBI:10242;
+    CHEBI:4167; CHEBI:47424; CHEBI:12318; CHEBI:17634; CHEBI:15824; CHEBI:40557; CHEBI:17925;
+    CHEBI:88300; CHEBI:37721
+
+    KEGG IDs: KEGG:C00267; KEGG:C00031; KEGG:C10906; KEGG:C00095'
+measurements:
+- id: measurement_5_3_1_5_Thermoanaerobacterium_thermosulfurigenes_P19148_D-Fructose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 65.0
+  temperature_unit: °C
+- id: measurement_5_3_1_5_Thermoanaerobacterium_thermosulfurigenes_P19148_D-Xylose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 65.0
+  temperature_unit: °C
+- id: measurement_5_3_1_5_Thermoanaerobacterium_thermosulfurigenes_P19148_D-Glucose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 65.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 5_3_1_5_Thermoanaerobacterium_thermosulfurigenes_P19148_D-Fructose_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 5.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Fructose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2229064'
+- id: 5_3_1_5_Thermoanaerobacterium_thermosulfurigenes_P19148_D-Xylose_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000248333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Xylose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2229064'
+- id: 5_3_1_5_Thermoanaerobacterium_thermosulfurigenes_P19148_D-Glucose_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 9.16667e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2229064'
+- id: 5_3_1_5_Thermoanaerobacterium_thermosulfurigenes_P19148_D-Glucose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.13
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2229064'
+buffer:
+  buffer: 100 mM MOPS, 10 mM MgSO4, 1 mM CoCl2; 100 mM MOPS, 10 mM MnSO4
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 33605
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/2229064/
+  pubmed_id: '2229064'
+  doi: null
+name: Merged entry for P19148 H71F
+description: 'Merged from 3 files: SABIO_EC5.3.1.5_Thermoanaerobacterium_thermosulfurigenes__P19148_H71F_s_D-Fructose.yaml,
+  SABIO_EC5.3.1.5_Thermoanaerobacterium_thermosulfurigenes__P19148_H71F_s_D-Xylose.yaml,
+  SABIO_EC5.3.1.5_Thermoanaerobacterium_thermosulfurigenes__P19148_H71F_s_D-Glucose.yaml'

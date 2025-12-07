@@ -1,0 +1,337 @@
+version: '2.0'
+created: '2025-11-20T13:40:39.127718'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_2_15_O06961_p68679
+  name: acetate kinase
+  ecnumber: 2.7.2.15
+  organism: Salmonella typhimurium
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: O06961
+  wildtype_sequence: MNEFPVVLVINCGSSSIKFSVLDVATCDVLMAGIADGMNTENAFLSINGDKPINLAHSNYEDALKAIAFELEKRDLTDSVALIGHRIAHGGELFTQSVIITDEIIDNIRRVSPLAPLHNYANLSGIDAARHLFPAVRQVAVFDTSFHQTLAPEAYLYGLPWEYFSSLGVRRYGFHGTSHRYVSRRAYELLDLDEKDSGLIVAHLGNGASICAVRNGQSVDTSMGMTPLEGLMMGTRSGDVDFGAMAWIAKETGQTLSDLERVVNKESGLLGISGLSSDLRVLEKAWHEGHERARLAIKTFVHRIARHIAGHAASLHRLDGIIFTGGIGENSVLIRQLVIEHLGVLGLTLDVEMNKQPNSHGERIISANPSQVICAVIPTNEEKMIALDAIHLGNVKAPVEFA
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Acetate
+  name: Acetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mg2_
+  name: Mg2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Acetyl_phosphate
+  name: Acetyl phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Propanoate
+  name: Propanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Propanoyl_phosphate
+  name: Propanoyl phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_71_EC2_7_2_15_Salmonella_typhimurium_O06961_ATP
+  name: Reaction catalyzed by acetate kinase on ATP
+  equation: ATP + Acetate = ADP + Acetyl phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Acetate
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_ADP
+  - species_id: product_Acetyl_phosphate
+  modifiers:
+  - species_id: protein_2_7_2_15_O06961_p68679
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 11352;11353;11354;11355
+  KEGGid: R00315
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:40480; CHEBI:16761; CHEBI:10789;
+    CHEBI:57299; CHEBI:13379; CHEBI:40553; CHEBI:13704; CHEBI:15366; CHEBI:6635; CHEBI:40486;
+    CHEBI:22169; CHEBI:13236; CHEBI:2387; CHEBI:10841; CHEBI:30089; CHEBI:2359; CHEBI:87518;
+    CHEBI:49736; CHEBI:40938; CHEBI:13711; CHEBI:22165; CHEBI:456216; CHEBI:2407;
+    CHEBI:15350; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:22191; CHEBI:18420; CHEBI:25112;
+    CHEBI:46262; CHEBI:13222; CHEBI:22244; CHEBI:39127
+
+    KEGG IDs: KEGG:C00033; KEGG:C00305; KEGG:C00002; KEGG:C00008; KEGG:C00227'
+- id: sabiork_1558_EC2_7_2_15_Salmonella_typhimurium_O06961_Propanoate
+  name: Reaction catalyzed by propionate kinase on Propanoate
+  equation: ATP + Propanoate = ADP + Propanoyl phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Propanoate
+  - species_id: substrate_ATP
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_ADP
+  - species_id: product_Propanoyl_phosphate
+  modifiers:
+  - species_id: protein_2_7_2_15_O06961_p68678
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 23148;23149;23150;23151
+  KEGGid: R01353
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:13379; CHEBI:40553; CHEBI:17272; CHEBI:45227; CHEBI:6635; CHEBI:13236; CHEBI:10841;
+    CHEBI:2359; CHEBI:87518; CHEBI:49736; CHEBI:40938; CHEBI:58933; CHEBI:8476; CHEBI:456216;
+    CHEBI:22249; CHEBI:2342; CHEBI:26290; CHEBI:15422; CHEBI:18420; CHEBI:14903; CHEBI:25112;
+    CHEBI:13222; CHEBI:30768; CHEBI:22244; CHEBI:26304; CHEBI:8478; CHEBI:39127
+
+    KEGG IDs: KEGG:C02876; KEGG:C00305; KEGG:C00163; KEGG:C00002; KEGG:C00008'
+- id: sabiork_1558_EC2_7_2_15_Salmonella_typhimurium_O06961_Propanoate
+  name: Reaction catalyzed by propionate kinase on Propanoate
+  equation: ATP + Propanoate = ADP + Propanoyl phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Propanoate
+  - species_id: substrate_ATP
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_ADP
+  - species_id: product_Propanoyl_phosphate
+  modifiers:
+  - species_id: protein_2_7_2_15_O06961_p68677
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 23148;23149;23150;23151
+  KEGGid: R01353
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:13379; CHEBI:40553; CHEBI:17272; CHEBI:45227; CHEBI:6635; CHEBI:13236; CHEBI:10841;
+    CHEBI:2359; CHEBI:87518; CHEBI:49736; CHEBI:40938; CHEBI:58933; CHEBI:8476; CHEBI:456216;
+    CHEBI:22249; CHEBI:2342; CHEBI:26290; CHEBI:15422; CHEBI:18420; CHEBI:14903; CHEBI:25112;
+    CHEBI:13222; CHEBI:30768; CHEBI:22244; CHEBI:26304; CHEBI:8478; CHEBI:39127
+
+    KEGG IDs: KEGG:C02876; KEGG:C00305; KEGG:C00163; KEGG:C00002; KEGG:C00008'
+measurements:
+- id: measurement_2_7_2_15_Salmonella_typhimurium_O06961_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_7_2_15_Salmonella_typhimurium_O06961_Propanoate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_7_2_15_Salmonella_typhimurium_O06961_Propanoate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_2_15_Salmonella_typhimurium_O06961_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 42910.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16139298'
+- id: 2_7_2_15_Salmonella_typhimurium_O06961_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 125.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16139298'
+- id: 2_7_2_15_Salmonella_typhimurium_O06961_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.02692
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16139298'
+- id: 2_7_2_15_Salmonella_typhimurium_O06961_Propanoate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00233
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Propanoate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16139298'
+- id: 2_7_2_15_Salmonella_typhimurium_O06961_Propanoate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 4640.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Propanoate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16139298'
+- id: 2_7_2_15_Salmonella_typhimurium_O06961_Propanoate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 100.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Propanoate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16139298'
+- id: 2_7_2_15_Salmonella_typhimurium_O06961_Propanoate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000112
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Propanoate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16139298'
+buffer:
+  buffer: 50 mM Hepes-NaOH, 3 mM phosphoenolpyruvate, 0.25 mM NADH, 2.5 U/ml lactate
+    dehydrogenase, 2 U/ml pyruvate kinase
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 68679
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16139298/
+  pubmed_id: '16139298'
+  doi: null
+name: Merged entry for O06961 wildtype
+description: 'Merged from 3 files: SABIO_EC2.7.2.15_Salmonella_typhimurium__O06961_s_ATP.yaml,
+  SABIO_EC2.7.2.15_Salmonella_typhimurium__O06961_s_Propanoate_2.yaml, SABIO_EC2.7.2.15_Salmonella_typhimurium__O06961_s_Propanoate.yaml'

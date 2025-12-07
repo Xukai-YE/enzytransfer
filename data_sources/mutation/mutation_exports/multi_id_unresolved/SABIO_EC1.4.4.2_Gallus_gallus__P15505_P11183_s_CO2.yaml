@@ -1,0 +1,157 @@
+name: SABIO-RK Entry 74946
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 74946
+created: '2025-10-28T17:42:37.664426'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_4_4_2_P15505_P11183_p74946
+  name: glycine dehydrogenase (decarboxylating)
+  sequence: null
+  ecnumber: 1.4.4.2
+  organism: Gallus gallus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P15505; P11183
+complexes: null
+small_molecules:
+- id: substrate_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_S-Aminomethyldihydrolipoylprotein
+  name: S-Aminomethyldihydrolipoylprotein
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Glycine
+  name: Glycine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Lipoylprotein
+  name: Lipoylprotein
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Pyridoxal_phosphate
+  name: Pyridoxal phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_3223_EC1_4_4_2_Gallus_gallus_P15505_P11183_CO2
+  name: Reaction catalyzed by glycine dehydrogenase (decarboxylating) on CO2
+  equation: Glycine + Lipoylprotein = CO2 + S-Aminomethyldihydrolipoylprotein
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_CO2
+  - species_id: substrate_S-Aminomethyldihydrolipoylprotein
+  products:
+  - species_id: product_Glycine
+  - species_id: product_Lipoylprotein
+  modifiers:
+  - species_id: protein_1_4_4_2_P15505_P11183_p74946
+    role: BIOCATALYST
+  - species_id: activator_Pyridoxal_phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03425
+  notes: 'ChEBI IDs: CHEBI:16882; CHEBI:32508; CHEBI:139538; CHEBI:358848; CHEBI:32507;
+    CHEBI:57305; CHEBI:132194; CHEBI:42964; CHEBI:3283; CHEBI:26424; CHEBI:14344;
+    CHEBI:8668; CHEBI:18405; CHEBI:23011; CHEBI:10792; CHEBI:597326; CHEBI:24368;
+    CHEBI:13285; CHEBI:13282; CHEBI:15428; CHEBI:234571; CHEBI:13283; CHEBI:45145;
+    CHEBI:13284; CHEBI:29947; CHEBI:16526; CHEBI:14977; CHEBI:48829; CHEBI:5460; CHEBI:15804
+
+    KEGG IDs: KEGG:C00018; KEGG:C01242; KEGG:C00037; KEGG:C00011; KEGG:C02051'
+measurements:
+- id: measurement_1_4_4_2_Gallus_gallus_P15505_P11183_CO2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.6
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 1_4_4_2_Gallus_gallus_P15505_P11183_CO2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.034
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CO2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7440563'
+buffer:
+  buffer: 50 mM potassium phosphate, 1 mM dithiothreitol
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 74946
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/7440563/
+  pubmed_id: '7440563'
+  doi: null

@@ -1,0 +1,211 @@
+version: '2.0'
+created: '2025-11-20T13:40:52.955531'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_1_1_13_P38571_p21507
+  name: sterol esterase
+  ecnumber: 3.1.1.13
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P38571
+  wildtype_sequence: MKMRFLGLVVCLVLWTLHSEGSGGKLTAVDPETNMNVSEIISYWGFPSEEYLVETEDGYILCLNRIPHGRKNHSDKGPKPVVFLQHGLLADSSNWVTNLANSSLGFILADAGFDVWMGNSRGNTWSRKHKTLSVSQDEFWAFSYDEMAKYDLPASINFILNKTGQEQVYYVGHSQGTTIGFIAFSQIPELAKRIKMFFALGPVASVAFCTSPMAKLGRLPDHLIKDLFGDKEFLPQSAFLKWLGTHVCTHVILKELCGNLCFLLCGFNERNLNMSRVDVYTTHSPAGTSVQNMLHWSQAVKFQKFQAFDWGSSAKNYFHYNQSYPPTYNVKDMLVPTAVWSGGHDWLADVYDVNILLTQITNLVFHESIPEWEHLDFIWGLDAPWRLYNKIINLMRKYQ
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Cholesteryl_oleate
+  name: Cholesteryl oleate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Cholesterol
+  name: Cholesterol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Oleate
+  name: Oleate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Trioleoylglycerol
+  name: Trioleoylglycerol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Dioleoylglycerol
+  name: Dioleoylglycerol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_10294_EC3_1_1_13_Homo_sapiens_P38571_Cholesteryl_oleate
+  name: Reaction catalyzed by sterol esterase on Cholesteryl oleate
+  equation: H2O + Cholesteryl oleate = Oleate + Cholesterol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Cholesteryl_oleate
+  products:
+  - species_id: product_Cholesterol
+  - species_id: product_Oleate
+  modifiers:
+  - species_id: protein_3_1_1_13_P38571_p21507
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 33875;33876;33877;33878
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:46898; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:23903;
+    CHEBI:42857; CHEBI:41979; CHEBI:42043; CHEBI:16196; CHEBI:33811; CHEBI:33813;
+    CHEBI:27313; CHEBI:30823; CHEBI:15377; CHEBI:13352; CHEBI:16113; CHEBI:42209;
+    CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:27997;
+    CHEBI:10546; CHEBI:30825; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00712; KEGG:C00187; KEGG:C00001; KEGG:C14641; KEGG:C01712'
+- id: sabiork_10309_EC3_1_1_13_Homo_sapiens_P38571_Trioleoylglycerol
+  name: Reaction catalyzed by Carboxylic ester hydrolases on Trioleoylglycerol
+  equation: H2O + Trioleoylglycerol = Oleate + Dioleoylglycerol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Trioleoylglycerol
+  products:
+  - species_id: product_Dioleoylglycerol
+  - species_id: product_Oleate
+  modifiers:
+  - species_id: protein_3_1_1_13_P38571_p21508
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 38575;38576;38577;38578
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:53753; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:75945;
+    CHEBI:23903; CHEBI:53759; CHEBI:42857; CHEBI:41979; CHEBI:42043; CHEBI:16196;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:30823; CHEBI:15377; CHEBI:13352;
+    CHEBI:42209; CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:27997; CHEBI:10546; CHEBI:30825; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00001; KEGG:C01712; KEGG:C00712'
+measurements:
+- id: measurement_3_1_1_13_Homo_sapiens_P38571_Cholesteryl_oleate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 5.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_3_1_1_13_Homo_sapiens_P38571_Trioleoylglycerol
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 5.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_1_1_13_Homo_sapiens_P38571_Cholesteryl_oleate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000142
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cholesteryl_oleate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8112342'
+- id: 3_1_1_13_Homo_sapiens_P38571_Trioleoylglycerol_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000138
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Trioleoylglycerol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8112342'
+buffer:
+  buffer: 100 mM sodium acetate, 0.25% Triton X-100
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 21507
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/8112342/
+  pubmed_id: '8112342'
+  doi: null
+name: Merged entry for P38571 wildtype
+description: 'Merged from 2 files: SABIO_EC3.1.1.13_Homo_sapiens__P38571_s_Cholesteryl.yaml,
+  SABIO_EC3.1.1.13_Homo_sapiens__P38571_s_Trioleoylglycerol.yaml'

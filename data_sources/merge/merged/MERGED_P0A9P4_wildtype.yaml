@@ -1,0 +1,493 @@
+version: '2.0'
+created: '2025-11-20T13:39:55.772312'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_8_1_9_P0A9P4_p2435
+  name: thioredoxin-disulfide reductase
+  ecnumber: 1.8.1.9
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P0A9P4
+  wildtype_sequence: MGTTKHSKLLILGSGPAGYTAAVYAARANLQPVLITGMEKGGQLTTTTEVENWPGDPNDLTGPLLMERMHEHATKFETEIIFDHINKVDLQNRPFRLNGDNGEYTCDALIIATGASARYLGLPSEEAFKGRGVSACATCDGFFYRNQKVAVIGGGNTAVEEALYLSNIASEVHLIHRRDGFRAEKILIKRLMDKVENGNIILHTNRTLEEVTGDQMGVTGVRLRDTQNSDNIESLDVAGLFVAIGHSPNTAIFEGQLELENGYIKVQSGIHGNATQTSIPGVFAAGDVMDHIYRQAITSAGTGCMAALDAERYLDGLADAK
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Oxidized_thioredoxin
+  name: Oxidized thioredoxin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Reduced_thioredoxin
+  name: Reduced thioredoxin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_2-Amino-2-deoxy-D-gluconate
+  name: 2-Amino-2-deoxy-D-gluconate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Dehydro-3-deoxy-D-gluconate
+  name: 2-Dehydro-3-deoxy-D-gluconate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NH3
+  name: NH3
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Pyridoxal_phosphate
+  name: Pyridoxal phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_489_EC1_8_1_9_Escherichia_coli_P0A9P4_Oxidized_thioredoxin
+  name: Reaction catalyzed by thioredoxin-disulfide reductase on Oxidized thioredoxin
+  equation: NADP+ + Reduced thioredoxin = Oxidized thioredoxin + NADPH + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxidized_thioredoxin
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_Reduced_thioredoxin
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_8_1_9_P0A9P4_p2435
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02016
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:7424; CHEBI:15033; CHEBI:44405;
+    CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357; CHEBI:15967; CHEBI:25523; CHEBI:24636;
+    CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:16474; CHEBI:44286; CHEBI:21904; CHEBI:44409;
+    CHEBI:15378; CHEBI:18009; CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:10744;
+    CHEBI:18191
+
+    KEGG IDs: KEGG:C00342; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00343; KEGG:C11037'
+- id: sabiork_489_EC1_8_1_9_Escherichia_coli_P0A9P4_NADPH
+  name: Reaction catalyzed by thioredoxin-disulfide reductase on NADPH
+  equation: NADP+ + Reduced thioredoxin = Oxidized thioredoxin + NADPH + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_Oxidized_thioredoxin
+  products:
+  - species_id: product_NADP_
+  - species_id: product_Reduced_thioredoxin
+  modifiers:
+  - species_id: protein_1_8_1_9_P0A9P4_p2436
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02016
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:7424; CHEBI:15033; CHEBI:44405;
+    CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357; CHEBI:25523; CHEBI:15967; CHEBI:24636;
+    CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:16474; CHEBI:44286; CHEBI:21904; CHEBI:44409;
+    CHEBI:15378; CHEBI:18009; CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:10744;
+    CHEBI:18191
+
+    KEGG IDs: KEGG:C00342; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00343; KEGG:C11037'
+- id: sabiork_489_EC1_8_1_9_bovine_P0A9P4_NADPH
+  name: Reaction catalyzed by thioredoxin-disulfide reductase on NADPH
+  equation: NADP+ + Reduced thioredoxin = Oxidized thioredoxin + NADPH + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_Oxidized_thioredoxin
+  products:
+  - species_id: product_NADP_
+  - species_id: product_Reduced_thioredoxin
+  modifiers:
+  - species_id: protein_1_8_1_9_P0A9P4_p47589
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02016
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:7424; CHEBI:15033; CHEBI:44405;
+    CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357; CHEBI:25523; CHEBI:15967; CHEBI:24636;
+    CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:16474; CHEBI:44286; CHEBI:21904; CHEBI:44409;
+    CHEBI:15378; CHEBI:18009; CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:10744;
+    CHEBI:18191
+
+    KEGG IDs: KEGG:C00342; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00343; KEGG:C11037'
+- id: sabiork_1708_EC4_3_1_9_Escherichia_coli_P0A9P4_2-Amino-2-deoxy-D-gluconate
+  name: Reaction catalyzed by glucosaminate ammonia-lyase on 2-Amino-2-deoxy-D-gluconate
+  equation: 2-Amino-2-deoxy-D-gluconate = NH3 + 2-Dehydro-3-deoxy-D-gluconate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2-Amino-2-deoxy-D-gluconate
+  products:
+  - species_id: product_2-Dehydro-3-deoxy-D-gluconate
+  - species_id: product_NH3
+  modifiers:
+  - species_id: protein_4_3_1_9_P0A9P4_p66275
+    role: BIOCATALYST
+  - species_id: activator_Pyridoxal_phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01544
+  notes: 'ChEBI IDs: CHEBI:44284; CHEBI:16134; CHEBI:13405; CHEBI:7434; CHEBI:19530;
+    CHEBI:57990; CHEBI:358848; CHEBI:13407; CHEBI:26424; CHEBI:8668; CHEBI:18405;
+    CHEBI:135980; CHEBI:22534; CHEBI:7435; CHEBI:49783; CHEBI:22533; CHEBI:597326;
+    CHEBI:17784; CHEBI:44404; CHEBI:13771; CHEBI:1059; CHEBI:44269; CHEBI:33805; CHEBI:234571;
+    CHEBI:13406; CHEBI:45145; CHEBI:17032; CHEBI:28938; CHEBI:14977; CHEBI:11550
+
+    KEGG IDs: KEGG:C00018; KEGG:C00204; KEGG:C00014; KEGG:C01342; KEGG:C03752'
+- id: sabiork_1708_EC4_3_1_9_Escherichia_coli_P0A9P4_2-Amino-2-deoxy-D-gluconate
+  name: Reaction catalyzed by glucosaminate ammonia-lyase on 2-Amino-2-deoxy-D-gluconate
+  equation: 2-Amino-2-deoxy-D-gluconate = NH3 + 2-Dehydro-3-deoxy-D-gluconate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2-Amino-2-deoxy-D-gluconate
+  products:
+  - species_id: product_2-Dehydro-3-deoxy-D-gluconate
+  - species_id: product_NH3
+  modifiers:
+  - species_id: protein_4_3_1_9_P0A9P4_p66276
+    role: BIOCATALYST
+  - species_id: activator_Pyridoxal_phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01544
+  notes: 'ChEBI IDs: CHEBI:44284; CHEBI:16134; CHEBI:13405; CHEBI:7434; CHEBI:19530;
+    CHEBI:57990; CHEBI:358848; CHEBI:13407; CHEBI:26424; CHEBI:8668; CHEBI:18405;
+    CHEBI:135980; CHEBI:22534; CHEBI:7435; CHEBI:49783; CHEBI:22533; CHEBI:597326;
+    CHEBI:17784; CHEBI:44404; CHEBI:13771; CHEBI:1059; CHEBI:44269; CHEBI:33805; CHEBI:234571;
+    CHEBI:13406; CHEBI:45145; CHEBI:17032; CHEBI:28938; CHEBI:14977; CHEBI:11550
+
+    KEGG IDs: KEGG:C00018; KEGG:C00204; KEGG:C00014; KEGG:C01342; KEGG:C03752'
+measurements:
+- id: measurement_1_8_1_9_Escherichia_coli_P0A9P4_Oxidized_thioredoxin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_8_1_9_Escherichia_coli_P0A9P4_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_8_1_9_bovine_P0A9P4_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_4_3_1_9_Escherichia_coli_P0A9P4_2-Amino-2-deoxy-D-gluconate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_4_3_1_9_Escherichia_coli_P0A9P4_2-Amino-2-deoxy-D-gluconate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_8_1_9_Escherichia_coli_P0A9P4_Oxidized_thioredoxin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.5e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_thioredoxin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14744138'
+- id: 1_8_1_9_Escherichia_coli_P0A9P4_Oxidized_thioredoxin_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 20.83333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_thioredoxin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14744138'
+- id: 1_8_1_9_Escherichia_coli_P0A9P4_Oxidized_thioredoxin_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 13883330.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_thioredoxin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14744138'
+- id: 1_8_1_9_Escherichia_coli_P0A9P4_NADPH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.6e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14744138'
+- id: 1_8_1_9_Escherichia_coli_P0A9P4_NADPH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 4950000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14744138'
+- id: 1_8_1_9_Escherichia_coli_P0A9P4_NADPH_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 17.83333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14744138'
+- id: 1_8_1_9_bovine_P0A9P4_NADPH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2176490'
+- id: 4_3_1_9_Escherichia_coli_P0A9P4_2-Amino-2-deoxy-D-gluconate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0137
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Amino-2-deoxy-D-gluconate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12686150'
+- id: 4_3_1_9_Escherichia_coli_P0A9P4_2-Amino-2-deoxy-D-gluconate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.000821683
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Amino-2-deoxy-D-gluconate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12686150'
+- id: 4_3_1_9_Escherichia_coli_P0A9P4_2-Amino-2-deoxy-D-gluconate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.000821683
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Amino-2-deoxy-D-gluconate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12686150'
+- id: 4_3_1_9_Escherichia_coli_P0A9P4_2-Amino-2-deoxy-D-gluconate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00079
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Amino-2-deoxy-D-gluconate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12686150'
+buffer:
+  buffer: 0.1 M sodium phosphate, 2 mM EDTA, 0.1 mg/ml BSA, 0.5 mM 5,5&apos;-dithiobis(2-nitrobenzoic
+    acid); 120 mM potassium phosphate; 0.12 M Tris-Cl, 1 mM EDTA, 0.24 mM DTNB, 0.24
+    mg/ml bovine serum albumin
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 2435
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/14744138/
+  pubmed_id: '14744138'
+  doi: null
+- title: Reference for SABIO-RK entry 47589
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/2176490/
+  pubmed_id: '2176490'
+  doi: null
+- title: Reference for SABIO-RK entry 66275
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12686150/
+  pubmed_id: '12686150'
+  doi: null
+name: Merged entry for P0A9P4 wildtype
+description: 'Merged from 5 files: SABIO_EC1.8.1.9_Escherichia_coli__P0A9P4_s_Oxidized.yaml,
+  SABIO_EC1.8.1.9_Escherichia_coli__P0A9P4_s_NADPH.yaml, SABIO_EC1.8.1.9_bovine__P0A9P4_s_NADPH.yaml,
+  SABIO_EC4.3.1.9_Escherichia_coli__P0A9P4_s_2-Amino-2-deoxy-D-gl.yaml, SABIO_EC4.3.1.9_Escherichia_coli__P0A9P4_s_2-Amino-2-deoxy-D-gl_2.yaml'

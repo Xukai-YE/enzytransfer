@@ -1,0 +1,399 @@
+version: '2.0'
+created: '2025-11-20T13:39:46.855771'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_3_8_4_Q9FS87_p54287
+  name: isovaleryl-CoA dehydrogenase
+  ecnumber: 1.3.8.4
+  organism: Solanum tuberosum
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9FS87
+  wildtype_sequence: MHKLFVARSVKSALFRIKNHQKPQFAAFSTSLLFDDTQKQFKESVAQFAQENIAPHAEKIDRTNYFPQDVNLWKLMGNFNLLGITVPEEYGGLGLGYLYHCIAMEEISRASGSVGLSYGAHTNLCINQLVRNGTHEQKQKYLPKLISGEHVGALAMSEPNAGSDVVSMKCKADRVEGGYVLNGNKMWCTNGPTAQTLVVYAKTDVTAGSKGITAFIIEKGMTGFSTAQKLDKLGMRGSDTCELVFENCFVPEENVLGQVGRGVYVLMSGLDLERLVLASGPVGIMQACLDVVLPYVKQREQFGRPIGEFQFVQGKVADMYTSMQSSRSYLYSVARECDSGTINTKDCAGVILSAAERATQVALQAIQCLGGNGYVNEYPTGRFLRDAKLYEIGAGTSEIRRMIIGRELFKEQ
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_2-Methylpropanoyl-CoA
+  name: 2-Methylpropanoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Electron-transferring_flavoprotein
+  name: Electron-transferring flavoprotein
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Reduced_electron-transferring_flavoprotein
+  name: Reduced electron-transferring flavoprotein
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Methylprop-2-enoyl-CoA
+  name: 2-Methylprop-2-enoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_3-Methylbutanoyl-CoA
+  name: 3-Methylbutanoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3-Methylcrotonyl-CoA
+  name: 3-Methylcrotonyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_11527_EC1_3_8_4_Solanum_tuberosum_Q9FS87_2-Methylpropanoyl-CoA
+  name: Reaction catalyzed by isovaleryl-CoA dehydrogenase on 2-Methylpropanoyl-CoA
+  equation: 2-Methylpropanoyl-CoA + Electron-transferring flavoprotein = 2-Methylprop-2-enoyl-CoA
+    + Reduced electron-transferring flavoprotein
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2-Methylpropanoyl-CoA
+  - species_id: substrate_Electron-transferring_flavoprotein
+  products:
+  - species_id: product_Reduced_electron-transferring_flavoprotein
+  - species_id: product_2-Methylprop-2-enoyl-CoA
+  modifiers:
+  - species_id: protein_1_3_8_4_Q9FS87_p54287
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:1214; CHEBI:27754; CHEBI:12754; CHEBI:1208; CHEBI:19706;
+    CHEBI:57338; CHEBI:11629; CHEBI:41634; CHEBI:19712; CHEBI:15479; CHEBI:62500
+
+    KEGG IDs: KEGG:C03460; KEGG:C04253; KEGG:C00630; KEGG:C04570'
+- id: sabiork_10472_EC1_3_8_4_Solanum_tuberosum_Q9FS87_Electron-transferring_flavoprotein
+  name: Reaction catalyzed by isovaleryl-CoA dehydrogenase on Electron-transferring
+    flavoprotein
+  equation: Electron-transferring flavoprotein + 3-Methylbutanoyl-CoA = Reduced electron-transferring
+    flavoprotein + 3-Methylcrotonyl-CoA + CO2
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Electron-transferring_flavoprotein
+  - species_id: substrate_3-Methylbutanoyl-CoA
+  products:
+  - species_id: product_CO2
+  - species_id: product_3-Methylcrotonyl-CoA
+  - species_id: product_Reduced_electron-transferring_flavoprotein
+  modifiers:
+  - species_id: protein_1_3_8_4_Q9FS87_p54286
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:14481; CHEBI:57345; CHEBI:1598; CHEBI:57344; CHEBI:4615;
+    CHEBI:139538; CHEBI:3283; CHEBI:23802; CHEBI:23011; CHEBI:20128; CHEBI:15487;
+    CHEBI:13285; CHEBI:13282; CHEBI:11856; CHEBI:20126; CHEBI:13283; CHEBI:1599; CHEBI:13284;
+    CHEBI:16526; CHEBI:11858; CHEBI:48829; CHEBI:15486; CHEBI:11853
+
+    KEGG IDs: KEGG:C02939; KEGG:C04253; KEGG:C00011; KEGG:C03069; KEGG:C04570'
+- id: sabiork_10472_EC1_3_8_4_Solanum_tuberosum_Q9FS87_3-Methylbutanoyl-CoA
+  name: Reaction catalyzed by isovaleryl-CoA dehydrogenase on 3-Methylbutanoyl-CoA
+  equation: Electron-transferring flavoprotein + 3-Methylbutanoyl-CoA = Reduced electron-transferring
+    flavoprotein + 3-Methylcrotonyl-CoA + CO2
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3-Methylbutanoyl-CoA
+  - species_id: substrate_Electron-transferring_flavoprotein
+  products:
+  - species_id: product_Reduced_electron-transferring_flavoprotein
+  - species_id: product_CO2
+  - species_id: product_3-Methylcrotonyl-CoA
+  modifiers:
+  - species_id: protein_1_3_8_4_Q9FS87_p51896
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:14481; CHEBI:57345; CHEBI:1598; CHEBI:57344; CHEBI:4615;
+    CHEBI:139538; CHEBI:3283; CHEBI:23802; CHEBI:23011; CHEBI:20128; CHEBI:15487;
+    CHEBI:13285; CHEBI:13282; CHEBI:11856; CHEBI:20126; CHEBI:13283; CHEBI:1599; CHEBI:13284;
+    CHEBI:16526; CHEBI:11858; CHEBI:48829; CHEBI:15486; CHEBI:11853
+
+    KEGG IDs: KEGG:C02939; KEGG:C04253; KEGG:C00011; KEGG:C03069; KEGG:C04570'
+measurements:
+- id: measurement_1_3_8_4_Solanum_tuberosum_Q9FS87_2-Methylpropanoyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_3_8_4_Solanum_tuberosum_Q9FS87_Electron-transferring_flavoprotein
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_3_8_4_Solanum_tuberosum_Q9FS87_3-Methylbutanoyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 32.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_3_8_4_Solanum_tuberosum_Q9FS87_2-Methylpropanoyl-CoA_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Methylpropanoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11231285'
+- id: 1_3_8_4_Solanum_tuberosum_Q9FS87_2-Methylpropanoyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00079
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Methylpropanoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11231285'
+- id: 1_3_8_4_Solanum_tuberosum_Q9FS87_2-Methylpropanoyl-CoA_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.03166667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Methylpropanoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11231285'
+- id: 1_3_8_4_Solanum_tuberosum_Q9FS87_Electron-transferring_flavoprotein_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.15e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Electron-transferring_flavoprotein
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11231285'
+- id: 1_3_8_4_Solanum_tuberosum_Q9FS87_Electron-transferring_flavoprotein_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 4.1666665e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Electron-transferring_flavoprotein
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11231285'
+- id: 1_3_8_4_Solanum_tuberosum_Q9FS87_Electron-transferring_flavoprotein_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.125
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Electron-transferring_flavoprotein
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11231285'
+- id: 1_3_8_4_Solanum_tuberosum_Q9FS87_3-Methylbutanoyl-CoA_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.98
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Methylbutanoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 32.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15574432'
+- id: 1_3_8_4_Solanum_tuberosum_Q9FS87_3-Methylbutanoyl-CoA_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: moldivs
+  initial_value: 2.083333e-08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Methylbutanoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 32.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15574432'
+- id: 1_3_8_4_Solanum_tuberosum_Q9FS87_3-Methylbutanoyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.3e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Methylbutanoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 32.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15574432'
+- id: 1_3_8_4_Solanum_tuberosum_Q9FS87_3-Methylbutanoyl-CoA_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 730000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Methylbutanoyl-CoA
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 32.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15574432'
+buffer:
+  buffer: 50 mM HEPES KOH, 1 mM KCN, 1 mM salicylhydroxamic acid, 50 ¦ÌM FAD, 100
+    ¦Ìg/ml phenazine methosulfate; 38 mM Tris, 0.38 % glucose, 40 U/ml glucose oxidase,
+    1 U/ml catalase
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 54287
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11231285/
+  pubmed_id: '11231285'
+  doi: null
+- title: Reference for SABIO-RK entry 51896
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15574432/
+  pubmed_id: '15574432'
+  doi: null
+name: Merged entry for Q9FS87 wildtype
+description: 'Merged from 3 files: SABIO_EC1.3.8.4_Solanum_tuberosum__Q9FS87_s_2-Methylpropanoyl-Co.yaml,
+  SABIO_EC1.3.8.4_Solanum_tuberosum__Q9FS87_s_Electron-transferrin.yaml, SABIO_EC1.3.8.4_Solanum_tuberosum__Q9FS87_s_3-Methylbutanoyl-CoA.yaml'

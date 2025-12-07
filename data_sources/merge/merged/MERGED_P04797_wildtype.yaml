@@ -1,0 +1,372 @@
+version: '2.0'
+created: '2025-11-20T13:39:40.766963'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_2_1_12_P04797_p3469
+  name: glyceraldehyde-3-phosphate dehydrogenase (phosphorylating)
+  ecnumber: 1.2.1.12
+  organism: Rattus norvegicus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P04797
+  wildtype_sequence: MVKVGVNGFGRIGRLVTRAAFSCDKVDIVAINDPFIDLNYMVYMFQYDSTHGKFNGTVKAENGKLVINGKPITIFQERDPANIKWGDAGAEYVVESTGVFTTMEKAGAHLKGGAKRVIISAPSADAPMFVMGVNHEKYDNSLKIVSNASCTTNCLAPLAKVIHDNFGIVEGLMTTVHAITATQKTVDGPSGKLWRDGRGAAQNIIPASTGAAKAVGKVIPELNGKLTGMAFRVPTPNVSVVDLTCRLEKPAKYDDIKKVVKQAAEGPLKGILGYTEDQVVSCDFNSNSHSSTFDAGAGIALNDNFVKLISWYDNEYGYSNRVVDLMAYMASKE
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_D-Glyceraldehyde_3-phosphate
+  name: D-Glyceraldehyde 3-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Phosphate
+  name: Phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Glycerate_1
+  name: Glycerate 1
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3-bisphosphate
+  name: 3-bisphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3-Phospho-D-glyceroyl_phosphate
+  name: 3-Phospho-D-glyceroyl phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_5_EC1_2_1_12_Rattus_norvegicus_P04797_D-Glyceraldehyde_3-phosphate
+  name: Reaction catalyzed by glyceraldehyde-3-phosphate dehydrogenase (phosphorylating)
+    on D-Glyceraldehyde 3-phosphate
+  equation: D-Glyceraldehyde 3-phosphate + Phosphate + NAD+ = H+ + NADH + Glycerate
+    1,3-bisphosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Glyceraldehyde_3-phosphate
+  - species_id: substrate_NAD_
+  - species_id: substrate_Phosphate
+  products:
+  - species_id: product_NADH
+  - species_id: product_Glycerate_1
+  - species_id: product_3-bisphosphate
+  modifiers:
+  - species_id: protein_1_2_1_12_P04797_p3469
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:43470; CHEBI:18367; CHEBI:35780; CHEBI:26020;
+    CHEBI:26078; CHEBI:29052; CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:12984;
+    CHEBI:15846; CHEBI:13357; CHEBI:29139; CHEBI:21902; CHEBI:13396; CHEBI:21901;
+    CHEBI:39739; CHEBI:24636; CHEBI:12983; CHEBI:44214; CHEBI:181; CHEBI:29233; CHEBI:21026;
+    CHEBI:13394; CHEBI:5584; CHEBI:39745; CHEBI:57945; CHEBI:44216; CHEBI:7793; CHEBI:59776;
+    CHEBI:57540; CHEBI:7423; CHEBI:45024; CHEBI:13389; CHEBI:89363; CHEBI:15378; CHEBI:13395;
+    CHEBI:18324; CHEBI:43474; CHEBI:44215; CHEBI:29137; CHEBI:10744; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00118; KEGG:C00080; KEGG:C00009; KEGG:C00003; KEGG:C00004'
+- id: sabiork_7844_EC1_2_1_12_Rattus_norvegicus_P04797_D-Glyceraldehyde_3-phosphate
+  name: Reaction catalyzed by glyceraldehyde-3-phosphate dehydrogenase (phosphorylating)
+    on D-Glyceraldehyde 3-phosphate
+  equation: NAD+ + D-Glyceraldehyde 3-phosphate + Phosphate = NADH + H+ + 3-Phospho-D-glyceroyl
+    phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Glyceraldehyde_3-phosphate
+  - species_id: substrate_NAD_
+  - species_id: substrate_Phosphate
+  products:
+  - species_id: product_NADH
+  - species_id: product_3-Phospho-D-glyceroyl_phosphate
+  modifiers:
+  - species_id: protein_1_2_1_12_P04797_p27456
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 10300;10301;10302;10303
+  KEGGid: R01061
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:43470; CHEBI:18367; CHEBI:35780; CHEBI:26020;
+    CHEBI:26078; CHEBI:29052; CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:12984;
+    CHEBI:15846; CHEBI:1658; CHEBI:29139; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901;
+    CHEBI:39739; CHEBI:11881; CHEBI:24636; CHEBI:12983; CHEBI:44214; CHEBI:181; CHEBI:16001;
+    CHEBI:21026; CHEBI:13394; CHEBI:5584; CHEBI:29233; CHEBI:39745; CHEBI:57945; CHEBI:44216;
+    CHEBI:7793; CHEBI:59776; CHEBI:57540; CHEBI:7423; CHEBI:57604; CHEBI:45024; CHEBI:13389;
+    CHEBI:13395; CHEBI:15378; CHEBI:18324; CHEBI:43474; CHEBI:44215; CHEBI:29137;
+    CHEBI:10744; CHEBI:7422; CHEBI:20189; CHEBI:16908
+
+    KEGG IDs: KEGG:C00236; KEGG:C00118; KEGG:C00080; KEGG:C00009; KEGG:C00003; KEGG:C00004'
+- id: sabiork_5_EC1_2_1_12_Rattus_norvegicus_P04797_NAD_
+  name: Reaction catalyzed by glyceraldehyde-3-phosphate dehydrogenase (phosphorylating)
+    on NAD+
+  equation: D-Glyceraldehyde 3-phosphate + Phosphate + NAD+ = H+ + NADH + Glycerate
+    1,3-bisphosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_Phosphate
+  - species_id: substrate_D-Glyceraldehyde_3-phosphate
+  products:
+  - species_id: product_Glycerate_1
+  - species_id: product_3-bisphosphate
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_2_1_12_P04797_p3485
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:43470; CHEBI:18367; CHEBI:35780; CHEBI:26020;
+    CHEBI:26078; CHEBI:29052; CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:12984;
+    CHEBI:15846; CHEBI:13357; CHEBI:29139; CHEBI:21902; CHEBI:13396; CHEBI:21901;
+    CHEBI:39739; CHEBI:24636; CHEBI:12983; CHEBI:44214; CHEBI:181; CHEBI:29233; CHEBI:21026;
+    CHEBI:13394; CHEBI:5584; CHEBI:39745; CHEBI:57945; CHEBI:44216; CHEBI:7793; CHEBI:59776;
+    CHEBI:57540; CHEBI:7423; CHEBI:45024; CHEBI:13389; CHEBI:89363; CHEBI:15378; CHEBI:13395;
+    CHEBI:43474; CHEBI:18324; CHEBI:44215; CHEBI:29137; CHEBI:10744; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00118; KEGG:C00080; KEGG:C00009; KEGG:C00003; KEGG:C00004'
+- id: sabiork_5_EC1_2_1_12_Rattus_norvegicus_P04797_NAD_
+  name: Reaction catalyzed by glyceraldehyde-3-phosphate dehydrogenase (phosphorylating)
+    on NAD+
+  equation: D-Glyceraldehyde 3-phosphate + Phosphate + NAD+ = H+ + NADH + Glycerate
+    1,3-bisphosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_Phosphate
+  - species_id: substrate_D-Glyceraldehyde_3-phosphate
+  products:
+  - species_id: product_Glycerate_1
+  - species_id: product_3-bisphosphate
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_2_1_12_P04797_p3486
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:43470; CHEBI:18367; CHEBI:35780; CHEBI:26020;
+    CHEBI:26078; CHEBI:29052; CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:12984;
+    CHEBI:15846; CHEBI:13357; CHEBI:29139; CHEBI:21902; CHEBI:13396; CHEBI:21901;
+    CHEBI:39739; CHEBI:24636; CHEBI:12983; CHEBI:44214; CHEBI:181; CHEBI:29233; CHEBI:21026;
+    CHEBI:13394; CHEBI:5584; CHEBI:39745; CHEBI:57945; CHEBI:44216; CHEBI:7793; CHEBI:59776;
+    CHEBI:57540; CHEBI:7423; CHEBI:45024; CHEBI:13389; CHEBI:89363; CHEBI:13395; CHEBI:15378;
+    CHEBI:43474; CHEBI:18324; CHEBI:44215; CHEBI:29137; CHEBI:10744; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00118; KEGG:C00080; KEGG:C00009; KEGG:C00003; KEGG:C00004'
+measurements:
+- id: measurement_1_2_1_12_Rattus_norvegicus_P04797_D-Glyceraldehyde_3-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 38.0
+  temperature_unit: °C
+- id: measurement_1_2_1_12_Rattus_norvegicus_P04797_D-Glyceraldehyde_3-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_2_1_12_Rattus_norvegicus_P04797_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 38.0
+  temperature_unit: °C
+- id: measurement_1_2_1_12_Rattus_norvegicus_P04797_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 38.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_2_1_12_Rattus_norvegicus_P04797_D-Glyceraldehyde_3-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.2e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glyceraldehyde_3-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 38.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7929251'
+- id: 1_2_1_12_Rattus_norvegicus_P04797_D-Glyceraldehyde_3-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00048
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glyceraldehyde_3-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '5009289'
+- id: 1_2_1_12_Rattus_norvegicus_P04797_D-Glyceraldehyde_3-phosphate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.000600012
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glyceraldehyde_3-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '5009289'
+- id: 1_2_1_12_Rattus_norvegicus_P04797_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.8e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 38.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7929251'
+- id: 1_2_1_12_Rattus_norvegicus_P04797_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00142
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 38.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7929251'
+buffer:
+  buffer: 10 mM K2HPO4/KH2PO4, 20 mM imidazole-HCl, 150 mM KCl, 5 mM MgCl2; 75 mM
+    Tris-HCl, 0.25 mM EDTA, 1.67 mM MgCl2
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 3469
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/7929251/
+  pubmed_id: '7929251'
+  doi: null
+- title: Reference for SABIO-RK entry 27456
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/5009289/
+  pubmed_id: '5009289'
+  doi: null
+name: Merged entry for P04797 wildtype
+description: 'Merged from 4 files: SABIO_EC1.2.1.12_Rattus_norvegicus__P04797_s_D-Glyceraldehyde.yaml,
+  SABIO_EC1.2.1.12_Rattus_norvegicus__P04797_s_D-Glyceraldehyde_2.yaml, SABIO_EC1.2.1.12_Rattus_norvegicus__P04797_s_NAD_.yaml,
+  SABIO_EC1.2.1.12_Rattus_norvegicus__P04797_s_NAD__2.yaml'

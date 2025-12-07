@@ -1,0 +1,144 @@
+name: SABIO-RK Entry 7112
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 7112
+created: '2025-10-28T13:51:26.738629'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_3_2_1_P24057_P24058_p7112
+  name: argininosuccinate lyase
+  sequence: null
+  ecnumber: 4.3.2.1
+  organism: Anas platyrhynchos
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P24057; P24058
+complexes: null
+small_molecules:
+- id: substrate_N_omega_-_L-Arginino_succinate
+  name: N(omega)-(L-Arginino)succinate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Fumarate
+  name: Fumarate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Arginine
+  name: L-Arginine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_573_EC4_3_2_1_Anas_platyrhynchos_P24057_P24058_N_omega_-_L-Arginino_succinate
+  name: Reaction catalyzed by argininosuccinate lyase on N(omega)-(L-Arginino)succinate
+  equation: N(omega)-(L-Arginino)succinate = L-Arginine + Fumarate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N_omega_-_L-Arginino_succinate
+  products:
+  - species_id: product_Fumarate
+  - species_id: product_L-Arginine
+  modifiers:
+  - species_id: protein_4_3_2_1_P24057_P24058_p7112
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 24020;24021;24022;24023
+  KEGGid: R01086
+  notes: 'ChEBI IDs: CHEBI:13077; CHEBI:42743; CHEBI:32683; CHEBI:42511; CHEBI:24124;
+    CHEBI:29952; CHEBI:7098; CHEBI:10960; CHEBI:21475; CHEBI:29806; CHEBI:133495;
+    CHEBI:32681; CHEBI:32682; CHEBI:57472; CHEBI:15682; CHEBI:6185; CHEBI:42927; CHEBI:24122;
+    CHEBI:18012; CHEBI:14284; CHEBI:5190; CHEBI:16467; CHEBI:21235; CHEBI:37154
+
+    KEGG IDs: KEGG:C00122; KEGG:C03406; KEGG:C00062'
+measurements:
+- id: measurement_4_3_2_1_Anas_platyrhynchos_P24057_P24058_N_omega_-_L-Arginino_succinate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: null
+  temperature_opt: 40.0
+  temperature_unit: °C
+parameters:
+- id: 4_3_2_1_Anas_platyrhynchos_P24057_P24058_N_omega_-_L-Arginino_succinate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00013
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N_omega_-_L-Arginino_succinate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 40.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8695641'
+buffer:
+  buffer: 20 mM phosphate
+  buffer_concentration: 20 mM
+references:
+- title: Reference for SABIO-RK entry 7112
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/8695641/
+  pubmed_id: '8695641'
+  doi: null

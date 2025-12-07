@@ -1,0 +1,235 @@
+version: '2.0'
+created: '2025-11-20T13:39:12.780359'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_101_P40471_p36552
+  name: acylglycerone-phosphate reductase
+  ecnumber: 1.1.1.101
+  organism: Saccharomyces cerevisiae
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P40471
+  wildtype_sequence: MSELQSQPKKIAVVTGASGGIGYEVTKELARNGYLVYACARRLEPMAQLAIQFGNDSIKPYKLDISKPEEIVTFSGFLRANLPDGKLDLLYNNAGQSCTFPALDATDAAVEQCFKVNVFGHINMCRELSEFLIKAKGTIVFTGSLAGVVSFPFGSIYSASKAAIHQYARGLHLEMKPFNVRVINAITGGVATDIADKRPLPETSIYNFPEGREAFNSRKTMAKDNKPMPADAYAKQLVKDILSTSDPVDVYRGTFANIMRFVMIFVPYWLLEKGLSKKFKLDKVNNALKSKQKNKDD
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_1-O-Hexadecyl_glycerone_phosphate
+  name: 1-O-Hexadecyl glycerone phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_1-O-Hexadecyl-sn-glycerol_3-phosphate
+  name: 1-O-Hexadecyl-sn-glycerol 3-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_11909_EC1_1_1_101_Saccharomyces_cerevisiae_P40471_NADPH
+  name: Reaction catalyzed by acylglycerone-phosphate reductase on NADPH
+  equation: NADPH + 1-O-Hexadecyl glycerone phosphate = NADP+ + 1-O-Hexadecyl-sn-glycerol
+    3-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_1-O-Hexadecyl_glycerone_phosphate
+  products:
+  - species_id: product_NADP_
+  - species_id: product_1-O-Hexadecyl-sn-glycerol_3-phosphate
+  modifiers:
+  - species_id: protein_1_1_1_101_P40471_p36552
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:44409; CHEBI:7425; CHEBI:21903; CHEBI:77580; CHEBI:25523;
+    CHEBI:18009; CHEBI:13397; CHEBI:16474; CHEBI:13398; CHEBI:63818; CHEBI:44286;
+    CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:44405; CHEBI:7424; CHEBI:13399; CHEBI:21904
+
+    KEGG IDs: KEGG:C00006; KEGG:C00005; KEGG:C11037'
+- id: sabiork_11909_EC1_1_1_101_Saccharomyces_cerevisiae_P40471_1-O-Hexadecyl_glycerone_phosphate
+  name: Reaction catalyzed by acylglycerone-phosphate reductase on 1-O-Hexadecyl glycerone
+    phosphate
+  equation: NADPH + 1-O-Hexadecyl glycerone phosphate = NADP+ + 1-O-Hexadecyl-sn-glycerol
+    3-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_1-O-Hexadecyl_glycerone_phosphate
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_NADP_
+  - species_id: product_1-O-Hexadecyl-sn-glycerol_3-phosphate
+  modifiers:
+  - species_id: protein_1_1_1_101_P40471_p36551
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:44409; CHEBI:7425; CHEBI:21903; CHEBI:77580; CHEBI:25523;
+    CHEBI:18009; CHEBI:13397; CHEBI:16474; CHEBI:13398; CHEBI:63818; CHEBI:44286;
+    CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:44405; CHEBI:7424; CHEBI:13399; CHEBI:21904
+
+    KEGG IDs: KEGG:C00006; KEGG:C00005; KEGG:C11037'
+measurements:
+- id: measurement_1_1_1_101_Saccharomyces_cerevisiae_P40471_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_101_Saccharomyces_cerevisiae_P40471_1-O-Hexadecyl_glycerone_phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1_101_Saccharomyces_cerevisiae_P40471_NADPH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1512203'
+- id: 1_1_1_101_Saccharomyces_cerevisiae_P40471_NADPH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 4.666667e-08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1512203'
+- id: 1_1_1_101_Saccharomyces_cerevisiae_P40471_1-O-Hexadecyl_glycerone_phosphate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 6.333333e-08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1-O-Hexadecyl_glycerone_phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1512203'
+- id: 1_1_1_101_Saccharomyces_cerevisiae_P40471_1-O-Hexadecyl_glycerone_phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1-O-Hexadecyl_glycerone_phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1512203'
+buffer:
+  buffer: 20 mM Tris-HCl, 10 mM NaF, 0.7 mM EDTA
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 36552
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/1512203/
+  pubmed_id: '1512203'
+  doi: null
+name: Merged entry for P40471 wildtype
+description: 'Merged from 2 files: SABIO_EC1.1.1.101_Saccharomyces_cerevisiae__P40471_s_NADPH.yaml,
+  SABIO_EC1.1.1.101_Saccharomyces_cerevisiae__P40471_s_1-O-Hexadecyl.yaml'

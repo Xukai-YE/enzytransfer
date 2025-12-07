@@ -1,0 +1,674 @@
+version: '2.0'
+created: '2025-11-20T13:39:13.692823'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_141_P15428_p9785
+  name: 15-hydroxyprostaglandin dehydrogenase (NAD+)
+  ecnumber: 1.1.1.141
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: Q15R
+  uniprotid: P15428
+  wildtype_sequence: MHVNGKVALVTGAAQGIGRAFAEALLLKGAKVALVDWNLEAGVQCKAALDEQFEPQKTLFIQCDVADQQQLRDTFRKVVDHFGRLDILVNNAGVNNEKNWEKTLQINLVSVISGTYLGLDYMSKQNGGEGGIIINMSSLAGLMPVAQQPVYCASKHGIVGFTRSAALAANLMNSGVRLNAICPGFVNTAILESIEKEENMGQYIEYKDHIKDMIKYYGILDPPLIANGLITLIEDDALNGAIMKITTSKGIHFQDYDTTPFQAKTQ
+  mutant_sequence: MHVNGKVALVTGAARGIGRAFAEALLLKGAKVALVDWNLEAGVQCKAALDEQFEPQKTLFIQCDVADQQQLRDTFRKVVDHFGRLDILVNNAGVNNEKNWEKTLQINLVSVISGTYLGLDYMSKQNGGEGGIIINMSSLAGLMPVAQQPVYCASKHGIVGFTRSAALAANLMNSGVRLNAICPGFVNTAILESIEKEENMGQYIEYKDHIKDMIKYYGILDPPLIANGLITLIEDDALNGAIMKITTSKGIHFQDYDTTPFQAKTQ
+complexes: null
+small_molecules:
+- id: substrate_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Prostaglandin_E2
+  name: Prostaglandin E2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product__5Z
+  name: (5Z
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_13E_-11alpha-Hydroxy-9
+  name: 13E)-11alpha-Hydroxy-9
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_15-dioxoprost-13-enoate
+  name: 15-dioxoprost-13-enoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7998_EC1_1_1_141_Homo_sapiens_P15428_NADP_
+  name: Reaction catalyzed by 15-hydroxyprostaglandin dehydrogenase (NAD+) on NADP+
+  equation: NADP+ + Prostaglandin E2 = H+ + (5Z,13E)-11alpha-Hydroxy-9,15-dioxoprost-13-enoate
+    + NADPH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADP_
+  - species_id: substrate_Prostaglandin_E2
+  products:
+  - species_id: product_NADPH
+  - species_id: product__5Z
+  - species_id: product_13E_-11alpha-Hydroxy-9
+  - species_id: product_15-dioxoprost-13-enoate
+  modifiers:
+  - species_id: protein_1_1_1_141_P15428_p9785
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 63476;63477;63478;63479
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:57400; CHEBI:243; CHEBI:13397; CHEBI:13398; CHEBI:4625;
+    CHEBI:18588; CHEBI:7424; CHEBI:10910; CHEBI:21903; CHEBI:114125; CHEBI:44405;
+    CHEBI:7425; CHEBI:25523; CHEBI:13399; CHEBI:8512; CHEBI:16474; CHEBI:10917; CHEBI:44286;
+    CHEBI:606564; CHEBI:10908; CHEBI:247; CHEBI:21904; CHEBI:44409; CHEBI:18009; CHEBI:10911;
+    CHEBI:15547; CHEBI:58349; CHEBI:13400; CHEBI:26323; CHEBI:57783; CHEBI:15551
+
+    KEGG IDs: KEGG:C04707; KEGG:C00005; KEGG:C00006; KEGG:C00584; KEGG:C11037'
+- id: sabiork_7998_EC1_1_1_141_Homo_sapiens_P15428_NADP_
+  name: Reaction catalyzed by 15-hydroxyprostaglandin dehydrogenase (NAD+) on NADP+
+  equation: NADP+ + Prostaglandin E2 = H+ + (5Z,13E)-11alpha-Hydroxy-9,15-dioxoprost-13-enoate
+    + NADPH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADP_
+  - species_id: substrate_Prostaglandin_E2
+  products:
+  - species_id: product_NADPH
+  - species_id: product__5Z
+  - species_id: product_13E_-11alpha-Hydroxy-9
+  - species_id: product_15-dioxoprost-13-enoate
+  modifiers:
+  - species_id: protein_1_1_1_141_P15428_p9786
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 63476;63477;63478;63479
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:57400; CHEBI:243; CHEBI:13397; CHEBI:13398; CHEBI:4625;
+    CHEBI:18588; CHEBI:7424; CHEBI:10910; CHEBI:21903; CHEBI:114125; CHEBI:44405;
+    CHEBI:7425; CHEBI:25523; CHEBI:13399; CHEBI:8512; CHEBI:16474; CHEBI:10917; CHEBI:44286;
+    CHEBI:606564; CHEBI:10908; CHEBI:247; CHEBI:21904; CHEBI:44409; CHEBI:18009; CHEBI:10911;
+    CHEBI:15547; CHEBI:58349; CHEBI:13400; CHEBI:26323; CHEBI:57783; CHEBI:15551
+
+    KEGG IDs: KEGG:C04707; KEGG:C00005; KEGG:C00006; KEGG:C00584; KEGG:C11037'
+- id: sabiork_2487_EC1_1_1_141_Homo_sapiens_P15428_NAD_
+  name: Reaction catalyzed by 15-hydroxyprostaglandin dehydrogenase (NAD+) on NAD+
+  equation: NAD+ + Prostaglandin E2 = NADH + (5Z,13E)-11alpha-Hydroxy-9,15-dioxoprost-13-enoate
+    + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_Prostaglandin_E2
+  products:
+  - species_id: product__5Z
+  - species_id: product_13E_-11alpha-Hydroxy-9
+  - species_id: product_15-dioxoprost-13-enoate
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_1_1_141_P15428_p9769
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 11876;11877;11878;11879
+  KEGGid: R02580
+  notes: 'ChEBI IDs: CHEBI:57400; CHEBI:243; CHEBI:4625; CHEBI:18588; CHEBI:10910;
+    CHEBI:44281; CHEBI:114125; CHEBI:13393; CHEBI:15846; CHEBI:21902; CHEBI:13396;
+    CHEBI:21901; CHEBI:44214; CHEBI:13394; CHEBI:8512; CHEBI:57945; CHEBI:44216; CHEBI:10917;
+    CHEBI:606564; CHEBI:57540; CHEBI:10908; CHEBI:7423; CHEBI:247; CHEBI:13389; CHEBI:13395;
+    CHEBI:10911; CHEBI:15547; CHEBI:26323; CHEBI:44215; CHEBI:15551; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00003; KEGG:C04707; KEGG:C00004; KEGG:C00584'
+- id: sabiork_2487_EC1_1_1_141_Homo_sapiens_P15428_NAD_
+  name: Reaction catalyzed by 15-hydroxyprostaglandin dehydrogenase (NAD+) on NAD+
+  equation: NAD+ + Prostaglandin E2 = NADH + (5Z,13E)-11alpha-Hydroxy-9,15-dioxoprost-13-enoate
+    + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_Prostaglandin_E2
+  products:
+  - species_id: product_NADH
+  - species_id: product__5Z
+  - species_id: product_13E_-11alpha-Hydroxy-9
+  - species_id: product_15-dioxoprost-13-enoate
+  modifiers:
+  - species_id: protein_1_1_1_141_P15428_p9770
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 11876;11877;11878;11879
+  KEGGid: R02580
+  notes: 'ChEBI IDs: CHEBI:57400; CHEBI:243; CHEBI:4625; CHEBI:18588; CHEBI:10910;
+    CHEBI:44281; CHEBI:114125; CHEBI:13393; CHEBI:15846; CHEBI:21902; CHEBI:13396;
+    CHEBI:21901; CHEBI:44214; CHEBI:13394; CHEBI:8512; CHEBI:57945; CHEBI:44216; CHEBI:10917;
+    CHEBI:606564; CHEBI:57540; CHEBI:10908; CHEBI:7423; CHEBI:247; CHEBI:13389; CHEBI:13395;
+    CHEBI:10911; CHEBI:15547; CHEBI:26323; CHEBI:44215; CHEBI:15551; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00003; KEGG:C04707; KEGG:C00004; KEGG:C00584'
+- id: sabiork_2487_EC1_1_1_141_Homo_sapiens_P15428_NAD_
+  name: Reaction catalyzed by 15-hydroxyprostaglandin dehydrogenase (NAD+) on NAD+
+  equation: NAD+ + Prostaglandin E2 = NADH + (5Z,13E)-11alpha-Hydroxy-9,15-dioxoprost-13-enoate
+    + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_Prostaglandin_E2
+  products:
+  - species_id: product__5Z
+  - species_id: product_13E_-11alpha-Hydroxy-9
+  - species_id: product_15-dioxoprost-13-enoate
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_1_1_141_P15428_p9781
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 11876;11877;11878;11879
+  KEGGid: R02580
+  notes: 'ChEBI IDs: CHEBI:57400; CHEBI:243; CHEBI:4625; CHEBI:18588; CHEBI:10910;
+    CHEBI:44281; CHEBI:114125; CHEBI:13393; CHEBI:15846; CHEBI:21902; CHEBI:13396;
+    CHEBI:21901; CHEBI:44214; CHEBI:13394; CHEBI:8512; CHEBI:57945; CHEBI:44216; CHEBI:10917;
+    CHEBI:606564; CHEBI:57540; CHEBI:10908; CHEBI:7423; CHEBI:247; CHEBI:13389; CHEBI:13395;
+    CHEBI:10911; CHEBI:15547; CHEBI:26323; CHEBI:44215; CHEBI:15551; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00003; KEGG:C04707; KEGG:C00004; KEGG:C00584'
+- id: sabiork_2487_EC1_1_1_141_Homo_sapiens_P15428_Prostaglandin_E2
+  name: Reaction catalyzed by 15-hydroxyprostaglandin dehydrogenase (NAD+) on Prostaglandin
+    E2
+  equation: NAD+ + Prostaglandin E2 = NADH + (5Z,13E)-11alpha-Hydroxy-9,15-dioxoprost-13-enoate
+    + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Prostaglandin_E2
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_NADH
+  - species_id: product__5Z
+  - species_id: product_13E_-11alpha-Hydroxy-9
+  - species_id: product_15-dioxoprost-13-enoate
+  modifiers:
+  - species_id: protein_1_1_1_141_P15428_p9779
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 11876;11877;11878;11879
+  KEGGid: R02580
+  notes: 'ChEBI IDs: CHEBI:57400; CHEBI:243; CHEBI:4625; CHEBI:18588; CHEBI:10910;
+    CHEBI:44281; CHEBI:114125; CHEBI:13393; CHEBI:15846; CHEBI:21902; CHEBI:13396;
+    CHEBI:21901; CHEBI:44214; CHEBI:13394; CHEBI:8512; CHEBI:57945; CHEBI:44216; CHEBI:10917;
+    CHEBI:606564; CHEBI:57540; CHEBI:10908; CHEBI:7423; CHEBI:247; CHEBI:13389; CHEBI:13395;
+    CHEBI:10911; CHEBI:15547; CHEBI:26323; CHEBI:44215; CHEBI:15551; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00003; KEGG:C04707; KEGG:C00004; KEGG:C00584'
+- id: sabiork_2487_EC1_1_1_141_Homo_sapiens_P15428_Prostaglandin_E2
+  name: Reaction catalyzed by 15-hydroxyprostaglandin dehydrogenase (NAD+) on Prostaglandin
+    E2
+  equation: NAD+ + Prostaglandin E2 = NADH + (5Z,13E)-11alpha-Hydroxy-9,15-dioxoprost-13-enoate
+    + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Prostaglandin_E2
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_NADH
+  - species_id: product__5Z
+  - species_id: product_13E_-11alpha-Hydroxy-9
+  - species_id: product_15-dioxoprost-13-enoate
+  modifiers:
+  - species_id: protein_1_1_1_141_P15428_p9780
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 11876;11877;11878;11879
+  KEGGid: R02580
+  notes: 'ChEBI IDs: CHEBI:57400; CHEBI:243; CHEBI:4625; CHEBI:18588; CHEBI:10910;
+    CHEBI:44281; CHEBI:114125; CHEBI:13393; CHEBI:15846; CHEBI:21902; CHEBI:13396;
+    CHEBI:21901; CHEBI:44214; CHEBI:13394; CHEBI:8512; CHEBI:57945; CHEBI:44216; CHEBI:10917;
+    CHEBI:606564; CHEBI:57540; CHEBI:10908; CHEBI:7423; CHEBI:247; CHEBI:13389; CHEBI:13395;
+    CHEBI:10911; CHEBI:15547; CHEBI:26323; CHEBI:44215; CHEBI:15551; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00003; KEGG:C04707; KEGG:C00004; KEGG:C00584'
+- id: sabiork_2487_EC1_1_1_141_Homo_sapiens_P15428_Prostaglandin_E2
+  name: Reaction catalyzed by 15-hydroxyprostaglandin dehydrogenase (NAD+) on Prostaglandin
+    E2
+  equation: NAD+ + Prostaglandin E2 = NADH + (5Z,13E)-11alpha-Hydroxy-9,15-dioxoprost-13-enoate
+    + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Prostaglandin_E2
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_NADH
+  - species_id: product__5Z
+  - species_id: product_13E_-11alpha-Hydroxy-9
+  - species_id: product_15-dioxoprost-13-enoate
+  modifiers:
+  - species_id: protein_1_1_1_141_P15428_p9782
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 11876;11877;11878;11879
+  KEGGid: R02580
+  notes: 'ChEBI IDs: CHEBI:57400; CHEBI:243; CHEBI:4625; CHEBI:18588; CHEBI:10910;
+    CHEBI:44281; CHEBI:114125; CHEBI:13393; CHEBI:15846; CHEBI:21902; CHEBI:13396;
+    CHEBI:21901; CHEBI:44214; CHEBI:13394; CHEBI:8512; CHEBI:57945; CHEBI:44216; CHEBI:10917;
+    CHEBI:606564; CHEBI:57540; CHEBI:10908; CHEBI:7423; CHEBI:247; CHEBI:13389; CHEBI:13395;
+    CHEBI:10911; CHEBI:15547; CHEBI:26323; CHEBI:44215; CHEBI:15551; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00003; KEGG:C04707; KEGG:C00004; KEGG:C00584'
+measurements:
+- id: measurement_1_1_1_141_Homo_sapiens_P15428_NADP_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_1_1_141_Homo_sapiens_P15428_NADP_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_1_1_141_Homo_sapiens_P15428_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_1_1_141_Homo_sapiens_P15428_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_1_1_141_Homo_sapiens_P15428_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_1_1_141_Homo_sapiens_P15428_Prostaglandin_E2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_1_1_141_Homo_sapiens_P15428_Prostaglandin_E2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_1_1_141_Homo_sapiens_P15428_Prostaglandin_E2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1_141_Homo_sapiens_P15428_NADP__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.73e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14592457'
+- id: 1_1_1_141_Homo_sapiens_P15428_NADP__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 3.993333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14592457'
+- id: 1_1_1_141_Homo_sapiens_P15428_NADP__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0008922
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14592457'
+- id: 1_1_1_141_Homo_sapiens_P15428_NADP__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 0.1133333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14592457'
+- id: 1_1_1_141_Homo_sapiens_P15428_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.3e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14592457'
+- id: 1_1_1_141_Homo_sapiens_P15428_NAD__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 10.88
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14592457'
+- id: 1_1_1_141_Homo_sapiens_P15428_NAD__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1.7
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14592457'
+- id: 1_1_1_141_Homo_sapiens_P15428_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.21e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14592457'
+- id: 1_1_1_141_Homo_sapiens_P15428_NAD__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 15.96333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14592457'
+- id: 1_1_1_141_Homo_sapiens_P15428_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.4e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14592457'
+- id: 1_1_1_141_Homo_sapiens_P15428_Prostaglandin_E2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.8e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Prostaglandin_E2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14592457'
+- id: 1_1_1_141_Homo_sapiens_P15428_Prostaglandin_E2_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 13.11667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Prostaglandin_E2
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14592457'
+- id: 1_1_1_141_Homo_sapiens_P15428_Prostaglandin_E2_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1.96
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Prostaglandin_E2
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14592457'
+- id: 1_1_1_141_Homo_sapiens_P15428_Prostaglandin_E2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.8e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Prostaglandin_E2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14592457'
+- id: 1_1_1_141_Homo_sapiens_P15428_Prostaglandin_E2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.01e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Prostaglandin_E2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14592457'
+- id: 1_1_1_141_Homo_sapiens_P15428_Prostaglandin_E2_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 2.243333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Prostaglandin_E2
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14592457'
+buffer:
+  buffer: 50 mM Tris/HCl, 0.1 mM dithiothreitol
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 9785
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/14592457/
+  pubmed_id: '14592457'
+  doi: null
+name: Merged entry for P15428 Q15R
+description: 'Merged from 8 files: SABIO_EC1.1.1.141_Homo_sapiens__P15428_Q15R_s_NADP_.yaml,
+  SABIO_EC1.1.1.141_Homo_sapiens__P15428_Q15R_s_NADP__2.yaml, SABIO_EC1.1.1.141_Homo_sapiens__P15428_Q15R_s_NAD_.yaml,
+  SABIO_EC1.1.1.141_Homo_sapiens__P15428_Q15R_s_NAD__2.yaml, SABIO_EC1.1.1.141_Homo_sapiens__P15428_Q15R_s_NAD__3.yaml,
+  SABIO_EC1.1.1.141_Homo_sapiens__P15428_Q15R_s_Prostaglandin.yaml, SABIO_EC1.1.1.141_Homo_sapiens__P15428_Q15R_s_Prostaglandin_2.yaml,
+  SABIO_EC1.1.1.141_Homo_sapiens__P15428_Q15R_s_Prostaglandin_3.yaml'

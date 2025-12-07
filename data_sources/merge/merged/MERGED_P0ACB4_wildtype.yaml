@@ -1,0 +1,249 @@
+version: '2.0'
+created: '2025-11-20T13:39:46.651767'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_3_5_3_P0ACB4_p70703
+  name: protoporphyrinogen IX dehydrogenase (menaquinone)
+  ecnumber: 1.3.5.3
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P0ACB4
+  wildtype_sequence: MKTLILFSTRDGQTREIASYLASELKELGIQADVANVHRIEEPQWENYDRVVIGASIRYGHYHSAFQEFVKKHATRLNSMPSAFYSVNLVARKPEKRTPQTNSYARKFLMNSQWRPDRCAVIAGALRYPRYRWYDRFMIKLIMKMSGGETDTRKEVVYTDWEQVANFAREIAHLTDKPTLK
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Menadione
+  name: Menadione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Protoporphyrinogen_IX
+  name: Protoporphyrinogen IX
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Protoporphyrin
+  name: Protoporphyrin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Menadiol
+  name: Menadiol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Riboflavin-5-phosphate
+  name: Riboflavin-5-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Menadiol
+  name: Menadiol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_15860_EC1_3_5_3_Escherichia_coli_P0ACB4_Menadione
+  name: Reaction catalyzed by protoporphyrinogen IX dehydrogenase (menaquinone) on
+    Menadione
+  equation: Protoporphyrinogen IX + Menadione = Protoporphyrin + Menadiol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Menadione
+  - species_id: substrate_Protoporphyrinogen_IX
+  products:
+  - species_id: product_Protoporphyrin
+  - species_id: product_Menadiol
+  modifiers:
+  - species_id: protein_1_3_5_3_P0ACB4_p70703
+    role: BIOCATALYST
+  - species_id: activator_Riboflavin-5-phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:28869; CHEBI:14962; CHEBI:8593; CHEBI:6746; CHEBI:17621;
+    CHEBI:26358; CHEBI:15430; CHEBI:4960; CHEBI:6747; CHEBI:8592; CHEBI:21127; CHEBI:15435;
+    CHEBI:14959; CHEBI:26360; CHEBI:57306; CHEBI:42587; CHEBI:46306; CHEBI:13317;
+    CHEBI:24041; CHEBI:57307; CHEBI:14960; CHEBI:14961; CHEBI:27304; CHEBI:26359
+
+    KEGG IDs: KEGG:C02191; KEGG:C05377; KEGG:C07126; KEGG:C00061; KEGG:C01079'
+- id: sabiork_15861_EC1_3_5_3_Escherichia_coli_P0ACB4_Menadiol
+  name: Reaction catalyzed by protoporphyrinogen IX dehydrogenase (menaquinone) on
+    Menadiol
+  equation: Protoporphyrinogen IX + Menadione + Menadiol = Protoporphyrin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Menadiol
+  - species_id: substrate_Menadione
+  - species_id: substrate_Protoporphyrinogen_IX
+  products:
+  - species_id: product_Protoporphyrin
+  modifiers:
+  - species_id: protein_1_3_5_3_P0ACB4_p70704
+    role: BIOCATALYST
+  - species_id: activator_Riboflavin-5-phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:28869; CHEBI:14962; CHEBI:8593; CHEBI:6746; CHEBI:17621;
+    CHEBI:26358; CHEBI:15430; CHEBI:4960; CHEBI:6747; CHEBI:8592; CHEBI:21127; CHEBI:15435;
+    CHEBI:14959; CHEBI:26360; CHEBI:57306; CHEBI:42587; CHEBI:46306; CHEBI:13317;
+    CHEBI:24041; CHEBI:57307; CHEBI:14960; CHEBI:14961; CHEBI:27304; CHEBI:26359
+
+    KEGG IDs: KEGG:C02191; KEGG:C05377; KEGG:C07126; KEGG:C00061; KEGG:C01079'
+measurements:
+- id: measurement_1_3_5_3_Escherichia_coli_P0ACB4_Menadione
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_3_5_3_Escherichia_coli_P0ACB4_Menadiol
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_3_5_3_Escherichia_coli_P0ACB4_Menadione_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.292
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Menadione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19583219'
+- id: 1_3_5_3_Escherichia_coli_P0ACB4_Menadione_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.0e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Menadione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19583219'
+- id: 1_3_5_3_Escherichia_coli_P0ACB4_Menadiol_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.76e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Menadiol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19583219'
+- id: 1_3_5_3_Escherichia_coli_P0ACB4_Menadiol_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.2811667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Menadiol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19583219'
+buffer:
+  buffer: 50 mM NaH2PO4, 0.2% (w/v) Tween 20, 2.5 mM glutathione
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 70703
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/19583219/
+  pubmed_id: '19583219'
+  doi: null
+name: Merged entry for P0ACB4 wildtype
+description: 'Merged from 2 files: SABIO_EC1.3.5.3_Escherichia_coli__P0ACB4_s_Menadione.yaml,
+  SABIO_EC1.3.5.3_Escherichia_coli__P0ACB4_s_Menadiol.yaml'

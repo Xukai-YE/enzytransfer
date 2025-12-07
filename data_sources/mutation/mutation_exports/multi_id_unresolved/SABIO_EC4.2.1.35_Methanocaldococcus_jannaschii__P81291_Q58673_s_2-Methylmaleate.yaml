@@ -1,0 +1,186 @@
+name: SABIO-RK Entry 40869
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 40869
+created: '2025-10-28T15:18:47.037177'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_2_1_35_P81291_Q58673_p40869
+  name: (R)-2-methylmalate dehydratase
+  sequence: null
+  ecnumber: 4.2.1.35
+  organism: Methanocaldococcus jannaschii
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P81291; Q58673
+complexes: null
+small_molecules:
+- id: substrate_2-Methylmaleate
+  name: 2-Methylmaleate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Citramalate
+  name: D-Citramalate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_3641_EC4_2_1_35_Methanocaldococcus_jannaschii_P81291_Q58673_2-Methylmaleate
+  name: Reaction catalyzed by (R)-2-methylmalate dehydratase on 2-Methylmaleate
+  equation: D-Citramalate = H2O + 2-Methylmaleate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2-Methylmaleate
+  products:
+  - species_id: product_D-Citramalate
+  modifiers:
+  - species_id: protein_4_2_1_35_P81291_Q58673_p40869
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 22332;22333;22334;22335
+  KEGGid: R03896
+  notes: 'ChEBI IDs: CHEBI:15584; CHEBI:29375; CHEBI:44819; CHEBI:385; CHEBI:41981;
+    CHEBI:30934; CHEBI:13997; CHEBI:42857; CHEBI:41979; CHEBI:18776; CHEBI:19704;
+    CHEBI:10889; CHEBI:23319; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:11039; CHEBI:15377; CHEBI:13352; CHEBI:29003; CHEBI:15586; CHEBI:11623;
+    CHEBI:18775; CHEBI:43228; CHEBI:415; CHEBI:3725; CHEBI:44292; CHEBI:30937; CHEBI:18570;
+    CHEBI:33806; CHEBI:1207; CHEBI:29374; CHEBI:5585; CHEBI:10743; CHEBI:30936; CHEBI:18569;
+    CHEBI:30719; CHEBI:17626; CHEBI:29373; CHEBI:44701; CHEBI:19703
+
+    KEGG IDs: KEGG:C02226; KEGG:C00815; KEGG:C02614; KEGG:C00001; KEGG:C02612'
+measurements:
+- id: measurement_4_2_1_35_Methanocaldococcus_jannaschii_P81291_Q58673_2-Methylmaleate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 60.0
+  temperature_unit: °C
+parameters:
+- id: 4_2_1_35_Methanocaldococcus_jannaschii_P81291_Q58673_2-Methylmaleate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 14.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Methylmaleate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17449626'
+- id: 4_2_1_35_Methanocaldococcus_jannaschii_P81291_Q58673_2-Methylmaleate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Methylmaleate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17449626'
+- id: 4_2_1_35_Methanocaldococcus_jannaschii_P81291_Q58673_2-Methylmaleate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 350000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Methylmaleate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17449626'
+- id: 4_2_1_35_Methanocaldococcus_jannaschii_P81291_Q58673_2-Methylmaleate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.00025
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Methylmaleate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17449626'
+buffer:
+  buffer: 50 mM TES-KOH, 300 mM KCl, 10 mM MgCl2, 5 mM NAD+, 30 ¦Ìg/ml Isopropylmalate
+    dehydrogenase from Methanococcus jannaschii
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 40869
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/17449626/
+  pubmed_id: '17449626'
+  doi: null

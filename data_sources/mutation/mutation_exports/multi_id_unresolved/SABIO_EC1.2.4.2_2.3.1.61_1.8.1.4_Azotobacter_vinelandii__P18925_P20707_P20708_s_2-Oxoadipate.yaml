@@ -1,0 +1,181 @@
+name: SABIO-RK Entry 11897
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 11897
+created: '2025-10-28T13:59:53.418305'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_2_4_2; 2_3_1_61; 1_8_1_4_P18925_P20707_P20708_p11897
+  name: dihydrolipoyl dehydrogenase
+  sequence: null
+  ecnumber: 1.2.4.2; 2.3.1.61; 1.8.1.4
+  organism: Azotobacter vinelandii
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P18925; P20707; P20708
+complexes: null
+small_molecules:
+- id: substrate_2-Oxoadipate
+  name: 2-Oxoadipate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Glutaryl-CoA
+  name: Glutaryl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1987_EC1_2_4_2; 2_3_1_61; 1_8_1_4_Azotobacter_vinelandii_P18925_P20707_P20708_2-Oxoadipate
+  name: Reaction catalyzed by dihydrolipoyl dehydrogenase on 2-Oxoadipate
+  equation: Coenzyme A + NAD+ + 2-Oxoadipate = H+ + CO2 + NADH + Glutaryl-CoA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2-Oxoadipate
+  - species_id: substrate_NAD_
+  - species_id: substrate_Coenzyme_A
+  products:
+  - species_id: product_Glutaryl-CoA
+  - species_id: product_CO2
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_2_4_2; 2_3_1_61; 1_8_1_4_P18925_P20707_P20708_p11897
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 30795;30796;30797;30798
+  KEGGid: R01933
+  notes: 'ChEBI IDs: CHEBI:15346; CHEBI:23355; CHEBI:11635; CHEBI:1247; CHEBI:139538;
+    CHEBI:41631; CHEBI:57378; CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846;
+    CHEBI:3283; CHEBI:13357; CHEBI:21902; CHEBI:13295; CHEBI:13396; CHEBI:21901; CHEBI:41597;
+    CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:13394; CHEBI:24332; CHEBI:23011;
+    CHEBI:5584; CHEBI:57287; CHEBI:57945; CHEBI:44216; CHEBI:13285; CHEBI:13294; CHEBI:13282;
+    CHEBI:57540; CHEBI:7423; CHEBI:13283; CHEBI:57499; CHEBI:14326; CHEBI:13389; CHEBI:13395;
+    CHEBI:13284; CHEBI:15378; CHEBI:5436; CHEBI:3771; CHEBI:16526; CHEBI:15753; CHEBI:741566;
+    CHEBI:15524; CHEBI:48829; CHEBI:19737; CHEBI:44215; CHEBI:10744; CHEBI:7422; CHEBI:13298;
+    CHEBI:16908
+
+    KEGG IDs: KEGG:C00004; KEGG:C00010; KEGG:C00527; KEGG:C00080; KEGG:C00011; KEGG:C00003;
+    KEGG:C00322'
+measurements:
+- id: measurement_1_2_4_2; 2_3_1_61; 1_8_1_4_Azotobacter_vinelandii_P18925_P20707_P20708_2-Oxoadipate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_2_4_2; 2_3_1_61; 1_8_1_4_Azotobacter_vinelandii_P18925_P20707_P20708_2-Oxoadipate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.2e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Oxoadipate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10848975'
+buffer:
+  buffer: 0.1 M potassium phosphate, 1 mM MgCl2, 1 mM thiamin diphosphate, 0.1 mM
+    dithiothreitol
+  buffer_concentration: 0.1 M
+references:
+- title: Reference for SABIO-RK entry 11897
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10848975/
+  pubmed_id: '10848975'
+  doi: null

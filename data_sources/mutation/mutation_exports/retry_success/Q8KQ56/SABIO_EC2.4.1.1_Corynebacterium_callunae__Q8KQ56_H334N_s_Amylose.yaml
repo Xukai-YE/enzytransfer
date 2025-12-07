@@ -1,0 +1,173 @@
+name: SABIO-RK Entry 964
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 964
+created: '2025-10-28T13:44:53.680944'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_4_1_1_Q8KQ56_p964
+  name: phosphorylase
+  ecnumber: 2.4.1.1
+  organism: Corynebacterium callunae
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: H334N
+  uniprotid: Q8KQ56
+  wildtype_sequence: MSPEKQPLPAALVGSHVRAAAGTPADLATDRKFWTGLSRAVQERIADDWERTREAYGAARQQHYFSAEFLMGRALLNNLTNLGLVDEAAAATRELGHELTDILEIENDAALGNGGLGRLAACFLDSAVTQDYPVTGYGLLYRFGLFRQSFNEGFQVEKPDPWREEEYPFTIRRASDQLVVCFDDMKTRAIPYDMPITGYGTHNVGTLRLWKAEPWEEFDYDAFNSQRFTDAIIERERVSDICRVLYPNDTTYEGKKLRVRQQYFFTSASLQAMIQDHLAHHKDLSNFAEFHSVQLNDTHPVLAIPELMRLLMDEHDMGWEESWAIVSKTFAYTNHTVLTEALEQWDEQIFQQLFWRVWEIIAEIDRRFRLERAADGLDEETINRMAPIQHGTVHMAWIACYAAYSINGVAALHTEIIKAETLADWYALWPEKFNNKTNGVTPRRWLRMINPGLSDLLTRLSGSDDWVTDLDELKKLRSYADDKSVLEELRAIKAANKQDFAEWILERQGIEIDPESIFDVQIKRLHEYKRQLMNALYVLDLYFRIKEDGLTDIPARTVIFGAKAAPGYVRAKAIIKLINSIADLVNNDPEVSPLLKVVFVENYNVSPAEHILPASDVSEQISTAGKEASGTSNMKFMMNGALTLGTMDGANVEIVDSVGEENAYIFGARVEELPALRESYKPYELYETVPGLKRALDALDNGTLNDNNSGLFYDLKHSLIHGYGKDASDTYYVLGDFADYRETRDRMAADYASDPLGWARMAWINICESGRFSSDRTIRDYATEIWKLEPTPAVKK
+  mutant_sequence: MSPEKQPLPAALVGSHVRAAAGTPADLATDRKFWTGLSRAVQERIADDWERTREAYGAARQQHYFSAEFLMGRALLNNLTNLGLVDEAAAATRELGHELTDILEIENDAALGNGGLGRLAACFLDSAVTQDYPVTGYGLLYRFGLFRQSFNEGFQVEKPDPWREEEYPFTIRRASDQLVVCFDDMKTRAIPYDMPITGYGTHNVGTLRLWKAEPWEEFDYDAFNSQRFTDAIIERERVSDICRVLYPNDTTYEGKKLRVRQQYFFTSASLQAMIQDHLAHHKDLSNFAEFHSVQLNDTHPVLAIPELMRLLMDEHDMGWEESWAIVSKTFAYTNNTVLTEALEQWDEQIFQQLFWRVWEIIAEIDRRFRLERAADGLDEETINRMAPIQHGTVHMAWIACYAAYSINGVAALHTEIIKAETLADWYALWPEKFNNKTNGVTPRRWLRMINPGLSDLLTRLSGSDDWVTDLDELKKLRSYADDKSVLEELRAIKAANKQDFAEWILERQGIEIDPESIFDVQIKRLHEYKRQLMNALYVLDLYFRIKEDGLTDIPARTVIFGAKAAPGYVRAKAIIKLINSIADLVNNDPEVSPLLKVVFVENYNVSPAEHILPASDVSEQISTAGKEASGTSNMKFMMNGALTLGTMDGANVEIVDSVGEENAYIFGARVEELPALRESYKPYELYETVPGLKRALDALDNGTLNDNNSGLFYDLKHSLIHGYGKDASDTYYVLGDFADYRETRDRMAADYASDPLGWARMAWINICESGRFSSDRTIRDYATEIWKLEPTPAVKK
+  position_offset: 1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Amylose
+  name: Amylose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Glucose_1-phosphate
+  name: D-Glucose 1-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Starch
+  name: Starch
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Phosphate
+  name: Phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2101_EC2_4_1_1_Corynebacterium_callunae_Q8KQ56_Amylose
+  name: Reaction catalyzed by phosphorylase on Amylose
+  equation: Phosphate + Starch = D-Glucose 1-phosphate + Amylose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Amylose
+  - species_id: substrate_D-Glucose_1-phosphate
+  products:
+  - species_id: product_Starch
+  - species_id: product_Phosphate
+  modifiers:
+  - species_id: protein_2_4_1_1_Q8KQ56_p964
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02111
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:29137; CHEBI:43470; CHEBI:18367; CHEBI:26049;
+    CHEBI:35780; CHEBI:26020; CHEBI:57684; CHEBI:16218; CHEBI:26078; CHEBI:28017;
+    CHEBI:16077; CHEBI:8142; CHEBI:28149; CHEBI:29139; CHEBI:39739; CHEBI:39745; CHEBI:12374;
+    CHEBI:7793; CHEBI:45024; CHEBI:10398; CHEBI:22796; CHEBI:43474; CHEBI:28102
+
+    KEGG IDs: KEGG:C00103; KEGG:C00369; KEGG:C00718; KEGG:C00009; KEGG:C00663'
+measurements:
+- id: measurement_2_4_1_1_Corynebacterium_callunae_Q8KQ56_Amylose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 2_4_1_1_Corynebacterium_callunae_Q8KQ56_Amylose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0013
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Amylose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15535798'
+- id: 2_4_1_1_Corynebacterium_callunae_Q8KQ56_Amylose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.27
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Amylose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15535798'
+buffer:
+  buffer: 10 mM sodium acetate, 10 mM potassium sulfate
+  buffer_concentration: 10 mM
+references:
+- title: Reference for SABIO-RK entry 964
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15535798/
+  pubmed_id: '15535798'
+  doi: null

@@ -1,0 +1,191 @@
+version: '2.0'
+created: '2025-11-20T13:42:01.267917'
+modified: null
+creators:
+- given_name: SKiD
+  family_name: Database
+  mail: skid@database.org
+vessels: null
+proteins:
+- id: protein_G5EBD7
+  name: Gluconobacter oxydans
+  ecnumber: 1.1.1.343
+  organism: Gluconobacter oxydans
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: null
+  uniprotid: G5EBD7
+  wildtype_sequence: MRIGIIGLGRMGGNIAVRLTRHGHDVVVHDRTSEVTTSVVGRCEAGRATPADTLADMAKLLEGDEHRVVWVMLPAGAITEDCVQQLGGLLGRGDIIIDGGNTYYKDDVRRSAELAEKGISYVDVGTSGGVWGLERGYCMMFGGTKETAEYIDPILSALAPGIGDVPRTPGRDEAGHDPRAEQGYLHCGPAGSGHFVKMVHNGIEYGMMQAFAEGFDIMKSKNSPILAEKDRFELNMGDIAEVWRRGSVVSSWLLDLTAEALTRSETLNEFSGEVADSGEGRWTIEAAIEEDVPAPVMTAALFTRFRSRSGNNFAEKILSAQRFGFGGHVEKK
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N
+  inchi: InChI=1S/C21H27N7O14P2/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(32)14(30)11(41-21)6-39-44(36,37)42-43(34,35)38-5-10-13(29)15(31)20(40-10)27-3-1-2-9(4-27)18(23)33/h1-4,7-8,10-11,13-16,20-21,29-32H,5-6H2,(H5-,22,23,24,25,33,34,35,36,37)
+  inchikey: BAWFJGJZGIEFAR-UHFFFAOYSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/5892
+- id: product
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_6-phospho-D-gluconate
+  name: 6-phospho-D-gluconate
+  canonical_smiles: P(=O)(O)(O)OC[C@H]([C@H]([C@@H]([C@H](C(=O)[O-])O)O)O)O
+  inchi: InChI=1S/C6H13O10P/c7-2(1-16-17(13,14)15)3(8)4(9)5(10)6(11)12/h2-5,7-10H,1H2,(H,11,12)(H2,13,14,15)/p-1/t2-,3-,4+,5-/m1/s1
+  inchikey: BIRSGZKFKXLSJQ-SQOUGZDYSA-M
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/91493
+reactions:
+- id: reaction_G5EBD7_NAD_
+  name: Reaction catalyzed by enzyme on NAD+
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_G5EBD7
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_G5EBD7_6-phospho-D-gluconate
+  name: Reaction catalyzed by enzyme on 6-phospho-D-gluconate
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_6-phospho-D-gluconate
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_G5EBD7
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+measurements:
+- id: measurement_0
+  name: Experimental conditions (pH=7.0, T=25.0°C)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=7.0, T=25.0°C)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: G5EBD7_NAD__Km_11446
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.064
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '20676631'
+- id: G5EBD7_6-phospho-D-gluconate_Km_11447
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.44
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_6-phospho-D-gluconate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '20676631'
+buffer:
+  buffer: null
+  buffer_concentration: null
+references:
+- title: U.
+  authors: Rauch, B., Pahlke, J., Schweiger, P., Deppenmeier
+  year: '2010'
+  journal: Characterization of enzymes involved in the central metabolism of Gluconobacter
+    oxydans. Appl. Microbiol
+  uri: null
+  pubmed_id: '20676631'
+  doi: null
+  id: '4'
+  pages: 711-718
+  volume: '88'
+  citation: 'Rauch, B.,Pahlke, J.,Schweiger, P.,Deppenmeier, U., Characterization
+    of enzymes involved in the central metabolism of Gluconobacter oxydans. Appl.
+    Microbiol, Biotechnol., 2010, 711-718, 88, PMID: 20676631'
+name: Merged entry for G5EBD7 wildtype
+description: 'Merged from 2 files: SKID_EC1.1.1.343_Gluconobac_G5EBD7_NAD_.yaml, SKID_EC1.1.1.343_Gluconobac_G5EBD7_6-phospho-D-glu.yaml'

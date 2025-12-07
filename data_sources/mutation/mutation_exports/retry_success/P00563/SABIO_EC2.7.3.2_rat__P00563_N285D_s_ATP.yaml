@@ -1,0 +1,145 @@
+name: SABIO-RK Entry 3998
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 3998
+created: '2025-10-28T13:47:34.992147'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_3_2_P00563_p3998
+  name: creatine kinase
+  ecnumber: 2.7.3.2
+  organism: rat
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: N285D
+  uniprotid: P00563
+  wildtype_sequence: MPFGNTHNKYKLNYKSEEEYPDLSKHNNHMAKVLTPDLYKKLRDKETPSGFTLDDVIQTGVDNPGHPFIMTVGCVAGDEESYTVFKDLFDPIIQDRHGGFKPTDKHKTDLNHENLKGGDDLDPHYVLSSRVRTGRSIKGYTLPPHCSRGERRAVEKLSVEALNSLTGEFKGKYYPLKSMTEQEQQQLIDDHFLFDKPVSPLLLASGMARDWPDARGIWHNDNKSFLVWVNEEDHLRVISMEKGGNMKEVFRRFCVGLQKIEEIFKKAGHPFMWNEHLGYVLTCPSNLGTGLRGGVHVKLAHLSKHPKFEEILTRLRLQKRGTGGVDTAAVGSVFDISNADRLGSSEVEQVQLVVDGVKLMVEMEKKLEKGQSIDDMIPAQK
+  mutant_sequence: MPFGNTHNKYKLNYKSEEEYPDLSKHNNHMAKVLTPDLYKKLRDKETPSGFTLDDVIQTGVDNPGHPFIMTVGCVAGDEESYTVFKDLFDPIIQDRHGGFKPTDKHKTDLNHENLKGGDDLDPHYVLSSRVRTGRSIKGYTLPPHCSRGERRAVEKLSVEALNSLTGEFKGKYYPLKSMTEQEQQQLIDDHFLFDKPVSPLLLASGMARDWPDARGIWHNDNKSFLVWVNEEDHLRVISMEKGGNMKEVFRRFCVGLQKIEEIFKKAGHPFMWNEHLGYVLTCPSDLGTGLRGGVHVKLAHLSKHPKFEEILTRLRLQKRGTGGVDTAAVGSVFDISNADRLGSSEVEQVQLVVDGVKLMVEMEKKLEKGQSIDDMIPAQK
+  position_offset: 1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Creatine
+  name: Creatine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Phosphocreatine
+  name: Phosphocreatine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Nitrate
+  name: Nitrate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1941_EC2_7_3_2_rat_P00563_ATP
+  name: Reaction catalyzed by creatine kinase on ATP
+  equation: ATP + Creatine = ADP + Phosphocreatine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Creatine
+  products:
+  - species_id: product_ADP
+  - species_id: product_Phosphocreatine
+  modifiers:
+  - species_id: protein_2_7_3_2_P00563_p3998
+    role: BIOCATALYST
+  - species_id: activator_Nitrate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 17157;17158;17159;17160
+  KEGGid: R01881
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:23404; CHEBI:14028; CHEBI:16761;
+    CHEBI:10789; CHEBI:57299; CHEBI:26053; CHEBI:40553; CHEBI:41678; CHEBI:17632;
+    CHEBI:66924; CHEBI:13236; CHEBI:16919; CHEBI:7580; CHEBI:3909; CHEBI:10841; CHEBI:58092;
+    CHEBI:2359; CHEBI:17287; CHEBI:87518; CHEBI:40938; CHEBI:57947; CHEBI:456216;
+    CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:25545; CHEBI:14813; CHEBI:8145; CHEBI:48107;
+    CHEBI:13222; CHEBI:22244; CHEBI:12526
+
+    KEGG IDs: KEGG:C02305; KEGG:C00300; KEGG:C00002; KEGG:C00244; KEGG:C00008'
+measurements:
+- id: measurement_2_7_3_2_rat_P00563_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.3
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 5 mM Magnesium acetate, 50 mM Sodium X (X = acetate or nitrate), 50 mM Bicine
+  buffer_concentration: 5 mM
+references:
+- title: Reference for SABIO-RK entry 3998
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12592023/
+  pubmed_id: '12592023'
+  doi: null

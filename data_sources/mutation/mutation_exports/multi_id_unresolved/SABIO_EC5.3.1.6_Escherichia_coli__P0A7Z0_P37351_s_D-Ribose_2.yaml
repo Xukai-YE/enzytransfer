@@ -1,0 +1,122 @@
+name: SABIO-RK Entry 54897
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 54897
+created: '2025-10-28T16:10:15.450872'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_5_3_1_6_P0A7Z0_P37351_p54897
+  name: ribose-5-phosphate isomerase
+  sequence: null
+  ecnumber: 5.3.1.6
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P0A7Z0; P37351
+complexes: null
+small_molecules:
+- id: substrate_D-Ribose_5-phosphate
+  name: D-Ribose 5-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Ribulose_5-phosphate
+  name: D-Ribulose 5-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Phosphate
+  name: Phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_65_EC5_3_1_6_Escherichia_coli_P0A7Z0_P37351_D-Ribose_5-phosphate
+  name: Reaction catalyzed by ribose-5-phosphate isomerase on D-Ribose 5-phosphate
+  equation: D-Ribose 5-phosphate = D-Ribulose 5-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Ribose_5-phosphate
+  products:
+  - species_id: product_D-Ribulose_5-phosphate
+  modifiers:
+  - species_id: protein_5_3_1_6_P0A7Z0_P37351_p54897
+    role: BIOCATALYST
+  - species_id: activator_Phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 14657;14658;14659;14660
+  KEGGid: R01056
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:43470; CHEBI:18367; CHEBI:26572; CHEBI:35780;
+    CHEBI:26020; CHEBI:58273; CHEBI:26078; CHEBI:4243; CHEBI:4238; CHEBI:15048; CHEBI:21088;
+    CHEBI:29139; CHEBI:21083; CHEBI:40192; CHEBI:13018; CHEBI:39739; CHEBI:13040;
+    CHEBI:37455; CHEBI:39745; CHEBI:7793; CHEBI:45024; CHEBI:17797; CHEBI:43474; CHEBI:13013;
+    CHEBI:29137; CHEBI:17363; CHEBI:58121
+
+    KEGG IDs: KEGG:C00199; KEGG:C00009; KEGG:C00117'
+measurements:
+- id: measurement_5_3_1_6_Escherichia_coli_P0A7Z0_P37351_D-Ribose_5-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 50 mM Bicine, 40 mM KCl, 10 mM MgCl2, 1 mM ATP, 3 mM PEP, 0.24 mM NADH,
+    2 U/ml phosphoribulose kinase, 4 U/ml pyruvate kinase, 5 U/ml lactate dehydrogenase
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 54897
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10620366/
+  pubmed_id: '10620366'
+  doi: null

@@ -1,0 +1,269 @@
+version: '2.0'
+created: '2025-11-20T13:40:36.088181'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_6_P51570_p26294
+  name: galactokinase
+  ecnumber: 2.7.1.6
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: E43G
+  uniprotid: P51570
+  wildtype_sequence: MAALRQPQVAELLAEARRAFREEFGAEPELAVSAPGRVNLIGEHTDYNQGLVLPMALELMTVLVGSPRKDGLVSLLTTSEGADEPQRLQFPLPTAQRSLEPGTPRWANYVKGVIQYYPAAPLPGFSAVVVSSVPLGGGLSSSASLEVATYTFLQQLCPDSGTIAARAQVCQQAEHSFAGMPCGIMDQFISLMGQKGHALLIDCRSLETSLVPLSDPKLAVLITNSNVRHSLASSEYPVRRRQCEEVARALGKESLREVQLEELEAARDLVSKEGFRRARHVVGEIRRTAQAAAALRRGDYRAFGRLMVESHRSLRDDYEVSCPELDQLVEAALAVPGVYGSRMTGGGFGGCTVTLLEASAAPHAMRHIQEHYGGTATFYLSQAADGAKVLCL
+  mutant_sequence: MAALRQPQVAELLAEARRAFREEFGAEPELAVSAPGRVNLIGGHTDYNQGLVLPMALELMTVLVGSPRKDGLVSLLTTSEGADEPQRLQFPLPTAQRSLEPGTPRWANYVKGVIQYYPAAPLPGFSAVVVSSVPLGGGLSSSASLEVATYTFLQQLCPDSGTIAARAQVCQQAEHSFAGMPCGIMDQFISLMGQKGHALLIDCRSLETSLVPLSDPKLAVLITNSNVRHSLASSEYPVRRRQCEEVARALGKESLREVQLEELEAARDLVSKEGFRRARHVVGEIRRTAQAAAALRRGDYRAFGRLMVESHRSLRDDYEVSCPELDQLVEAALAVPGVYGSRMTGGGFGGCTVTLLEASAAPHAMRHIQEHYGGTATFYLSQAADGAKVLCL
+complexes: null
+small_molecules:
+- id: substrate_D-Galactose
+  name: D-Galactose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_alpha-D-Galactose_1-phosphate
+  name: alpha-D-Galactose 1-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1354_EC2_7_1_6_Homo_sapiens_P51570_D-Galactose
+  name: Reaction catalyzed by galactokinase on D-Galactose
+  equation: D-Galactose + ATP = ADP + alpha-D-Galactose 1-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Galactose
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_alpha-D-Galactose_1-phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_6_P51570_p26294
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 13553;13554;13555;13556
+  KEGGid: R01092
+  notes: 'ChEBI IDs: CHEBI:12936; CHEBI:30616; CHEBI:237958; CHEBI:16761; CHEBI:10789;
+    CHEBI:57299; CHEBI:40553; CHEBI:12306; CHEBI:42878; CHEBI:13236; CHEBI:10232;
+    CHEBI:58336; CHEBI:10841; CHEBI:22374; CHEBI:2359; CHEBI:42741; CHEBI:87518; CHEBI:40938;
+    CHEBI:456216; CHEBI:28061; CHEBI:10231; CHEBI:17973; CHEBI:22249; CHEBI:2342;
+    CHEBI:15422; CHEBI:4139; CHEBI:12305; CHEBI:22373; CHEBI:13222; CHEBI:22244
+
+    KEGG IDs: KEGG:C00446; KEGG:C00984; KEGG:C00124; KEGG:C00002; KEGG:C00008'
+- id: sabiork_1354_EC2_7_1_6_Homo_sapiens_P51570_D-Galactose
+  name: Reaction catalyzed by galactokinase on D-Galactose
+  equation: D-Galactose + ATP = ADP + alpha-D-Galactose 1-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Galactose
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_ADP
+  - species_id: product_alpha-D-Galactose_1-phosphate
+  modifiers:
+  - species_id: protein_2_7_1_6_P51570_p26295
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 13553;13554;13555;13556
+  KEGGid: R01092
+  notes: 'ChEBI IDs: CHEBI:12936; CHEBI:30616; CHEBI:237958; CHEBI:16761; CHEBI:10789;
+    CHEBI:57299; CHEBI:40553; CHEBI:12306; CHEBI:42878; CHEBI:13236; CHEBI:10232;
+    CHEBI:58336; CHEBI:10841; CHEBI:22374; CHEBI:2359; CHEBI:42741; CHEBI:87518; CHEBI:40938;
+    CHEBI:456216; CHEBI:28061; CHEBI:10231; CHEBI:17973; CHEBI:22249; CHEBI:2342;
+    CHEBI:15422; CHEBI:4139; CHEBI:12305; CHEBI:22373; CHEBI:13222; CHEBI:22244
+
+    KEGG IDs: KEGG:C00446; KEGG:C00984; KEGG:C00124; KEGG:C00002; KEGG:C00008'
+measurements:
+- id: measurement_2_7_1_6_Homo_sapiens_P51570_D-Galactose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_7_1_6_Homo_sapiens_P51570_D-Galactose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_1_6_Homo_sapiens_P51570_D-Galactose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00014
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Galactose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14596685'
+- id: 2_7_1_6_Homo_sapiens_P51570_D-Galactose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.9
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Galactose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14596685'
+- id: 2_7_1_6_Homo_sapiens_P51570_D-Galactose_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 6100.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Galactose
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14596685'
+- id: 2_7_1_6_Homo_sapiens_P51570_D-Galactose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.9
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Galactose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14596685'
+- id: 2_7_1_6_Homo_sapiens_P51570_D-Galactose_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 240000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Galactose
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14596685'
+- id: 2_7_1_6_Homo_sapiens_P51570_D-Galactose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.9e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Galactose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14596685'
+buffer:
+  buffer: 20 mM HEPES, 150 mM NaCl, 5 mM MgCl2, 1 mM KCl, 10%(v/v) glycerol, 1 mM
+    NADH, 1 mM DTT, 400 ¦ÌM PEP, 50 U/ml pyruvate kinase, 66.7 U/ml lactate dehydrogenase
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 26294
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/14596685/
+  pubmed_id: '14596685'
+  doi: null
+name: Merged entry for P51570 E43G
+description: 'Merged from 2 files: SABIO_EC2.7.1.6_Homo_sapiens__P51570_E43G_s_D-Galactose.yaml,
+  SABIO_EC2.7.1.6_Homo_sapiens__P51570_E43G_s_D-Galactose_2.yaml'

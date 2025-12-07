@@ -1,0 +1,219 @@
+name: SABIO-RK Entry 63346
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 63346
+created: '2025-10-28T16:43:44.442597'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_7_40_Q2G1C4_Q2G2C4_p63346
+  name: D-ribitol-5-phosphate cytidylyltransferase
+  sequence: null
+  ecnumber: 2.7.7.40
+  organism: Staphylococcus aureus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q2G1C4; Q2G2C4
+complexes: null
+small_molecules:
+- id: substrate_CTP
+  name: CTP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Ribitol_5-phosphate
+  name: D-Ribitol 5-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CDPribitol
+  name: CDPribitol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2780_EC2_7_7_40_Staphylococcus_aureus_Q2G1C4_Q2G2C4_CTP
+  name: Reaction catalyzed by D-ribitol-5-phosphate cytidylyltransferase on CTP
+  equation: CTP + D-Ribitol 5-phosphate = Diphosphate + CDPribitol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_CTP
+  - species_id: substrate_D-Ribitol_5-phosphate
+  products:
+  - species_id: product_CDPribitol
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_2_7_7_40_Q2G1C4_Q2G2C4_p63346
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 12456;12457;12458;12459
+  KEGGid: R02921
+  notes: 'ChEBI IDs: CHEBI:17677; CHEBI:58231; CHEBI:8683; CHEBI:23522; CHEBI:13009;
+    CHEBI:13286; CHEBI:33019; CHEBI:21075; CHEBI:16022; CHEBI:3285; CHEBI:45067; CHEBI:45310;
+    CHEBI:3273; CHEBI:57695; CHEBI:29888; CHEBI:35782; CHEBI:20872; CHEBI:41675; CHEBI:13420;
+    CHEBI:18361; CHEBI:16246; CHEBI:33017; CHEBI:45208; CHEBI:57608; CHEBI:4231; CHEBI:33018;
+    CHEBI:44693; CHEBI:37563; CHEBI:45212; CHEBI:42009; CHEBI:13272
+
+    KEGG IDs: KEGG:C00013; KEGG:C00789; KEGG:C00063; KEGG:C01068'
+measurements:
+- id: measurement_2_7_7_40_Staphylococcus_aureus_Q2G1C4_Q2G2C4_CTP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 22.0
+  temperature_unit: °C
+parameters:
+- id: 2_7_7_40_Staphylococcus_aureus_Q2G1C4_Q2G2C4_CTP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0001022
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18556787'
+- id: 2_7_7_40_Staphylococcus_aureus_Q2G1C4_Q2G2C4_CTP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 653000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CTP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.2
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18556787'
+- id: 2_7_7_40_Staphylococcus_aureus_Q2G1C4_Q2G2C4_CTP_kcat_Km_2
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1720000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CTP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.2
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18556787'
+- id: 2_7_7_40_Staphylococcus_aureus_Q2G1C4_Q2G2C4_CTP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 66.7
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18556787'
+- id: 2_7_7_40_Staphylococcus_aureus_Q2G1C4_Q2G2C4_CTP_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.87e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18556787'
+buffer:
+  buffer: 25 mM HEPES, 1 mM Dithiothreitol, 10 ¦ÌM MgCl2, 0.01% Triton X-100
+  buffer_concentration: 25 mM
+references:
+- title: Reference for SABIO-RK entry 63346
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/18556787/
+  pubmed_id: '18556787'
+  doi: null

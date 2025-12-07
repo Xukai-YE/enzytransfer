@@ -1,0 +1,410 @@
+version: '2.0'
+created: '2025-11-20T13:41:38.063768'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_3_3_6_Q03148_p66332
+  name: pyridoxal 5'-phosphate synthase (glutamine hydrolyzing)
+  ecnumber: 4.3.3.6
+  organism: Saccharomyces cerevisiae
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q03148
+  wildtype_sequence: MTGEDFKIKSGLAQMLKGGVIMDVVTPEQAKIAEKSGACAVMALESIPADMRKSGKVCRMSDPKMIKDIMNSVSIPVMAKVRIGHFVEAQIIEALEVDYIDESEVLTPADWTHHIEKDKFKVPFVCGAKDLGEALRRINEGAAMIRTKGEAGTGDVSEAVKHIRRITEEIKACQQLKSEDDIAKVAEEMRVPVSLLKDVLEKGKLPVVNFAAGGVATPADAALLMQLGCDGVFVGSGIFKSSNPVRLATAVVEATTHFDNPSKLLEVSSDLGELMGGVSIESISHASNGVRLSEIGW
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NH3
+  name: NH3
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Glyceraldehyde_3-phosphate
+  name: Glyceraldehyde 3-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Ribose_5-phosphate
+  name: Ribose 5-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Pyridoxal_phosphate
+  name: Pyridoxal phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Phosphate
+  name: Phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_15392_EC4_3_3_6_Saccharomyces_cerevisiae_Q03148_NH3
+  name: Reaction catalyzed by pyridoxal 5'-phosphate synthase (glutamine hydrolyzing)
+    on NH3
+  equation: NH3 + Ribose 5-phosphate + Glyceraldehyde 3-phosphate = Phosphate + H2O
+    + Pyridoxal phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NH3
+  - species_id: substrate_Glyceraldehyde_3-phosphate
+  - species_id: substrate_Ribose_5-phosphate
+  products:
+  - species_id: product_Pyridoxal_phosphate
+  - species_id: product_Phosphate
+  modifiers:
+  - species_id: protein_4_3_3_6_Q03148_p66332
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R10088
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:29375; CHEBI:44284; CHEBI:43470; CHEBI:44819;
+    CHEBI:18367; CHEBI:16134; CHEBI:41981; CHEBI:35780; CHEBI:13405; CHEBI:26020;
+    CHEBI:7434; CHEBI:58273; CHEBI:26078; CHEBI:358848; CHEBI:4238; CHEBI:42857; CHEBI:15048;
+    CHEBI:41979; CHEBI:13407; CHEBI:29139; CHEBI:21083; CHEBI:14333; CHEBI:26424;
+    CHEBI:8668; CHEBI:39739; CHEBI:58027; CHEBI:42043; CHEBI:18405; CHEBI:135980;
+    CHEBI:22534; CHEBI:33813; CHEBI:33811; CHEBI:27313; CHEBI:15377; CHEBI:7435; CHEBI:49783;
+    CHEBI:39745; CHEBI:22533; CHEBI:13352; CHEBI:597326; CHEBI:44404; CHEBI:13771;
+    CHEBI:7793; CHEBI:44269; CHEBI:5446; CHEBI:43228; CHEBI:234571; CHEBI:44292; CHEBI:13406;
+    CHEBI:17138; CHEBI:45145; CHEBI:17797; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:45024; CHEBI:28938; CHEBI:14977; CHEBI:43474; CHEBI:13013; CHEBI:29137;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00661; KEGG:C00117; KEGG:C00018; KEGG:C00118; KEGG:C00014; KEGG:C01342;
+    KEGG:C00001; KEGG:C00009'
+- id: sabiork_15392_EC4_3_3_6_Saccharomyces_cerevisiae_Q03148_Glyceraldehyde_3-phosphate
+  name: Reaction catalyzed by pyridoxal 5'-phosphate synthase (glutamine hydrolyzing)
+    on Glyceraldehyde 3-phosphate
+  equation: NH3 + Ribose 5-phosphate + Glyceraldehyde 3-phosphate = Phosphate + H2O
+    + Pyridoxal phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Glyceraldehyde_3-phosphate
+  - species_id: substrate_Ribose_5-phosphate
+  - species_id: substrate_NH3
+  products:
+  - species_id: product_Pyridoxal_phosphate
+  - species_id: product_Phosphate
+  modifiers:
+  - species_id: protein_4_3_3_6_Q03148_p66333
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R10088
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:29375; CHEBI:44284; CHEBI:43470; CHEBI:44819;
+    CHEBI:18367; CHEBI:16134; CHEBI:41981; CHEBI:35780; CHEBI:13405; CHEBI:26020;
+    CHEBI:58273; CHEBI:7434; CHEBI:26078; CHEBI:358848; CHEBI:4238; CHEBI:42857; CHEBI:15048;
+    CHEBI:41979; CHEBI:13407; CHEBI:29139; CHEBI:21083; CHEBI:14333; CHEBI:26424;
+    CHEBI:8668; CHEBI:39739; CHEBI:58027; CHEBI:42043; CHEBI:18405; CHEBI:22534; CHEBI:135980;
+    CHEBI:33813; CHEBI:33811; CHEBI:27313; CHEBI:15377; CHEBI:7435; CHEBI:49783; CHEBI:39745;
+    CHEBI:22533; CHEBI:597326; CHEBI:13352; CHEBI:44404; CHEBI:13771; CHEBI:7793;
+    CHEBI:5446; CHEBI:44269; CHEBI:234571; CHEBI:43228; CHEBI:44292; CHEBI:13406;
+    CHEBI:17138; CHEBI:45145; CHEBI:17797; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:45024; CHEBI:28938; CHEBI:14977; CHEBI:43474; CHEBI:13013; CHEBI:29137;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00661; KEGG:C00117; KEGG:C00018; KEGG:C00118; KEGG:C00014; KEGG:C01342;
+    KEGG:C00001; KEGG:C00009'
+- id: sabiork_15392_EC4_3_3_6_Saccharomyces_cerevisiae_Q03148_Ribose_5-phosphate
+  name: Reaction catalyzed by pyridoxal 5'-phosphate synthase (glutamine hydrolyzing)
+    on Ribose 5-phosphate
+  equation: NH3 + Ribose 5-phosphate + Glyceraldehyde 3-phosphate = Phosphate + H2O
+    + Pyridoxal phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Ribose_5-phosphate
+  - species_id: substrate_Glyceraldehyde_3-phosphate
+  - species_id: substrate_NH3
+  products:
+  - species_id: product_Phosphate
+  - species_id: product_Pyridoxal_phosphate
+  modifiers:
+  - species_id: protein_4_3_3_6_Q03148_p66334
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R10088
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:29375; CHEBI:44284; CHEBI:43470; CHEBI:18367;
+    CHEBI:44819; CHEBI:16134; CHEBI:41981; CHEBI:35780; CHEBI:13405; CHEBI:26020;
+    CHEBI:58273; CHEBI:7434; CHEBI:26078; CHEBI:358848; CHEBI:4238; CHEBI:42857; CHEBI:15048;
+    CHEBI:41979; CHEBI:13407; CHEBI:29139; CHEBI:21083; CHEBI:14333; CHEBI:26424;
+    CHEBI:8668; CHEBI:39739; CHEBI:58027; CHEBI:42043; CHEBI:18405; CHEBI:22534; CHEBI:135980;
+    CHEBI:33813; CHEBI:33811; CHEBI:27313; CHEBI:15377; CHEBI:7435; CHEBI:49783; CHEBI:39745;
+    CHEBI:22533; CHEBI:13352; CHEBI:597326; CHEBI:44404; CHEBI:13771; CHEBI:7793;
+    CHEBI:5446; CHEBI:44269; CHEBI:43228; CHEBI:234571; CHEBI:44292; CHEBI:13406;
+    CHEBI:17138; CHEBI:45024; CHEBI:17797; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:45145; CHEBI:28938; CHEBI:14977; CHEBI:43474; CHEBI:13013; CHEBI:29137;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00661; KEGG:C00117; KEGG:C00018; KEGG:C00118; KEGG:C00014; KEGG:C01342;
+    KEGG:C00009; KEGG:C00001'
+- id: sabiork_15392_EC4_3_3_6_Saccharomyces_cerevisiae_Q03148_Ribose_5-phosphate
+  name: Reaction catalyzed by pyridoxal 5'-phosphate synthase (glutamine hydrolyzing)
+    on Ribose 5-phosphate
+  equation: NH3 + Ribose 5-phosphate + Glyceraldehyde 3-phosphate = Phosphate + H2O
+    + Pyridoxal phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Ribose_5-phosphate
+  - species_id: substrate_NH3
+  - species_id: substrate_Glyceraldehyde_3-phosphate
+  products:
+  - species_id: product_Phosphate
+  - species_id: product_Pyridoxal_phosphate
+  modifiers:
+  - species_id: protein_4_3_3_6_Q03148_p66335
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R10088
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:29375; CHEBI:44284; CHEBI:43470; CHEBI:18367;
+    CHEBI:44819; CHEBI:16134; CHEBI:41981; CHEBI:35780; CHEBI:13405; CHEBI:26020;
+    CHEBI:58273; CHEBI:7434; CHEBI:26078; CHEBI:358848; CHEBI:4238; CHEBI:42857; CHEBI:15048;
+    CHEBI:41979; CHEBI:13407; CHEBI:29139; CHEBI:21083; CHEBI:14333; CHEBI:26424;
+    CHEBI:8668; CHEBI:39739; CHEBI:58027; CHEBI:42043; CHEBI:18405; CHEBI:135980;
+    CHEBI:22534; CHEBI:33813; CHEBI:33811; CHEBI:27313; CHEBI:15377; CHEBI:7435; CHEBI:49783;
+    CHEBI:39745; CHEBI:22533; CHEBI:13352; CHEBI:597326; CHEBI:44404; CHEBI:13771;
+    CHEBI:7793; CHEBI:44269; CHEBI:5446; CHEBI:43228; CHEBI:234571; CHEBI:44292; CHEBI:13406;
+    CHEBI:17138; CHEBI:45024; CHEBI:17797; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:45145; CHEBI:28938; CHEBI:14977; CHEBI:43474; CHEBI:13013; CHEBI:29137;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00661; KEGG:C00117; KEGG:C00018; KEGG:C00118; KEGG:C00014; KEGG:C01342;
+    KEGG:C00009; KEGG:C00001'
+measurements:
+- id: measurement_4_3_3_6_Saccharomyces_cerevisiae_Q03148_NH3
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_4_3_3_6_Saccharomyces_cerevisiae_Q03148_Glyceraldehyde_3-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_4_3_3_6_Saccharomyces_cerevisiae_Q03148_Ribose_5-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_4_3_3_6_Saccharomyces_cerevisiae_Q03148_Ribose_5-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 4_3_3_6_Saccharomyces_cerevisiae_Q03148_NH3_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.416667e-08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NH3
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19523954'
+- id: 4_3_3_6_Saccharomyces_cerevisiae_Q03148_NH3_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00011
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NH3
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19523954'
+- id: 4_3_3_6_Saccharomyces_cerevisiae_Q03148_Glyceraldehyde_3-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0003
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glyceraldehyde_3-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19523954'
+- id: 4_3_3_6_Saccharomyces_cerevisiae_Q03148_Glyceraldehyde_3-phosphate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.566667e-08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glyceraldehyde_3-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19523954'
+- id: 4_3_3_6_Saccharomyces_cerevisiae_Q03148_Ribose_5-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00015
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Ribose_5-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19523954'
+- id: 4_3_3_6_Saccharomyces_cerevisiae_Q03148_Ribose_5-phosphate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 6.0e-09
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Ribose_5-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19523954'
+- id: 4_3_3_6_Saccharomyces_cerevisiae_Q03148_Ribose_5-phosphate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 6.833333e-09
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Ribose_5-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19523954'
+- id: 4_3_3_6_Saccharomyces_cerevisiae_Q03148_Ribose_5-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00037
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Ribose_5-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19523954'
+buffer:
+  buffer: 50 mM Tris-HCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 66332
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/19523954/
+  pubmed_id: '19523954'
+  doi: null
+name: Merged entry for Q03148 wildtype
+description: 'Merged from 4 files: SABIO_EC4.3.3.6_Saccharomyces_cerevisiae__Q03148_s_NH3.yaml,
+  SABIO_EC4.3.3.6_Saccharomyces_cerevisiae__Q03148_s_Glyceraldehyde.yaml, SABIO_EC4.3.3.6_Saccharomyces_cerevisiae__Q03148_s_Ribose.yaml,
+  SABIO_EC4.3.3.6_Saccharomyces_cerevisiae__Q03148_s_Ribose_2.yaml'

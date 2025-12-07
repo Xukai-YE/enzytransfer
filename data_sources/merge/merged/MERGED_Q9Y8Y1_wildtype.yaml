@@ -1,0 +1,351 @@
+version: '2.0'
+created: '2025-11-20T13:41:58.750954'
+modified: null
+creators:
+- given_name: SKiD
+  family_name: Database
+  mail: skid@database.org
+vessels: null
+proteins:
+- id: protein_Q9Y8Y1
+  name: Aeropyrum pernix
+  ecnumber: 1.1.1.184
+  organism: Aeropyrum pernix
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: null
+  uniprotid: Q9Y8Y1
+  wildtype_sequence: METTYALVTGGSRGIGRATVLRFAREGWSVVIAYKSRADLAEKTAEEARRLGSPEAYTVRVDVGDPDSVTEMSSRVGELIPHLNVLVNAAGVLQLGGIEETSISEWEETLRVNLTGVYLVTKLLLPLLRKAKWASIVNVASIAGETGNVVAGVAYSASKAGVIGLTKRLAVQLAGYGIRVNAVAPSFVETDMTRSFLDTPEKRERIASLHPLKIILKPEDVAEAILFLADPRRSRGITGHVLSINAGRRT
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)(O)O)O)O)O
+  inchi: InChI=1S/C21H30N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1,3-4,7-8,10-11,13-16,20-21,29-31H,2,5-6H2,(H2,23,32)(H,36,37)(H,38,39)(H2,22,24,25)(H2,33,34,35)
+  inchikey: ACFIXJIJDZMPPO-UHFFFAOYSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/5884
+- id: product
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_p-toluquinone
+  name: p-toluquinone
+  canonical_smiles: CC1=CC(=O)C=CC1=O
+  inchi: InChI=1S/C7H6O2/c1-5-4-6(8)2-3-7(5)9/h2-4H,1H3
+  inchikey: VTWDKFNVVLAELH-UHFFFAOYSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/11122
+- id: substrate_9_10-phenanthrenequinone
+  name: 9,10-phenanthrenequinone
+  canonical_smiles: C1=CC=CC=2C3=CC=CC=C3C(C(C12)=O)=O
+  inchi: InChI=1S/C14H8O2/c15-13-11-7-3-1-5-9(11)10-6-2-4-8-12(10)14(13)16/h1-8H
+  inchikey: YYVYAPXYZVYDHN-UHFFFAOYSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/6763
+- id: substrate_ethyl_4-chloro-3-oxobutanoate
+  name: ethyl 4-chloro-3-oxobutanoate
+  canonical_smiles: ClCC(CC(=O)OCC)=O
+  inchi: InChI=1S/C6H9ClO3/c1-2-10-6(9)3-5(8)4-7/h2-4H2,1H3
+  inchikey: OHLRLMWUFVDREV-UHFFFAOYSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/69484
+reactions:
+- id: reaction_Q9Y8Y1_NADPH
+  name: Reaction catalyzed by enzyme on NADPH
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_Q9Y8Y1
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_Q9Y8Y1_p-toluquinone
+  name: Reaction catalyzed by enzyme on p-toluquinone
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_p-toluquinone
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_Q9Y8Y1
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_Q9Y8Y1_9_10-phenanthrenequinone
+  name: Reaction catalyzed by enzyme on 9,10-phenanthrenequinone
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_9_10-phenanthrenequinone
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_Q9Y8Y1
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_Q9Y8Y1_ethyl_4-chloro-3-oxobutanoate
+  name: Reaction catalyzed by enzyme on ethyl 4-chloro-3-oxobutanoate
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ethyl_4-chloro-3-oxobutanoate
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_Q9Y8Y1
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+measurements:
+- id: measurement_0
+  name: Experimental conditions (pH=6.0, T=50.0°C)
+  species_data: null
+  ph_opt: 6.0
+  temperature_opt: 50.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=6.0, T=50.0°C)
+  species_data: null
+  ph_opt: 6.0
+  temperature_opt: 50.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=6.0, T=50.0°C)
+  species_data: null
+  ph_opt: 6.0
+  temperature_opt: 50.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=6.0, T=50.0°C)
+  species_data: null
+  ph_opt: 6.0
+  temperature_opt: 50.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: Q9Y8Y1_NADPH_Km_11155
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.116
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 50.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '27444325'
+- id: Q9Y8Y1_p-toluquinone_kcat_135
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2.5
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_p-toluquinone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 50.0
+  temperature_unit: °C
+  notes: 'Source: kcat'
+  pubmed_id: '27444325'
+- id: Q9Y8Y1_p-toluquinone_Km_11156
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.176
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_p-toluquinone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 50.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '27444325'
+- id: Q9Y8Y1_9_10-phenanthrenequinone_kcat_137
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.27
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_9_10-phenanthrenequinone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 50.0
+  temperature_unit: °C
+  notes: 'Source: kcat'
+  pubmed_id: '27444325'
+- id: Q9Y8Y1_9_10-phenanthrenequinone_Km_11154
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.0145
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_9_10-phenanthrenequinone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 50.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '27444325'
+- id: Q9Y8Y1_ethyl_4-chloro-3-oxobutanoate_kcat_136
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.05
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_ethyl_4-chloro-3-oxobutanoate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 50.0
+  temperature_unit: °C
+  notes: 'Source: kcat'
+  pubmed_id: '27444325'
+- id: Q9Y8Y1_ethyl_4-chloro-3-oxobutanoate_Km_11153
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.7
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_ethyl_4-chloro-3-oxobutanoate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 50.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '27444325'
+buffer:
+  buffer: null
+  buffer_concentration: null
+references:
+- title: K.
+  authors: Fukuda, Y., Sakuraba, H., Araki, T., Ohshima, T., Yoneda
+  year: '2016'
+  journal: Catalytic properties and crystal structure of thermostable NAD(P)H-dependent
+    carbonyl reductase from the hyperthermophilic archaeon Aeropyrum pernix K1. Enzyme
+    Microb
+  uri: null
+  pubmed_id: '27444325'
+  doi: null
+  id: '98'
+  pages: 17-25
+  volume: '91'
+  citation: 'Fukuda, Y.,Sakuraba, H.,Araki, T.,Ohshima, T.,Yoneda, K., Catalytic properties
+    and crystal structure of thermostable NAD(P)H-dependent carbonyl reductase from
+    the hyperthermophilic archaeon Aeropyrum pernix K1. Enzyme Microb, Technol., 2016,
+    17-25, 91, PMID: 27444325'
+name: Merged entry for Q9Y8Y1 wildtype
+description: 'Merged from 4 files: SKID_EC1.1.1.184_Aeropyrum_Q9Y8Y1_NADPH.yaml, SKID_EC1.1.1.184_Aeropyrum_Q9Y8Y1_p-toluquinone.yaml,
+  SKID_EC1.1.1.184_Aeropyrum_Q9Y8Y1_9_10-phenanthre.yaml, SKID_EC1.1.1.184_Aeropyrum_Q9Y8Y1_ethyl_4-chloro-.yaml'

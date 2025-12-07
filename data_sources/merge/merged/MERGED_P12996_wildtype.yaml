@@ -1,0 +1,407 @@
+version: '2.0'
+created: '2025-11-20T13:40:50.843373'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_8_1_6_P12996_p53350
+  name: biotin synthase
+  ecnumber: 2.8.1.6
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P12996
+  wildtype_sequence: MAHRPRWTLSQVTELFEKPLLDLLFEAQQVHRQHFDPRQVQVSTLLSIKTGACPEDCKYCPQSSRYKTGLEAERLMEVEQVLESARKAKAAGSTRFCMGAAWKNPHERDMPYLEQMVQGVKAMGLEACMTLGTLSESQAQRLANAGLDYYNHNLDTSPEFYGNIITTRTYQERLDTLEKVRDAGIKVCSGGIVGLGETVKDRAGLLLQLANLPTPPESVPINMLVKVKGTPLADNDDVDAFDFIRTIAVARIMMPTSYVRLSAGREQMNEQTQAMCFMAGANSIFYGCKLLTTPNPEEDKDLQLFRKLGLNPQQTAVLAGDNEQQQRLEQALMTPDTDEYYNAAAL
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Dethiobiotin
+  name: Dethiobiotin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_reduced_2Fe-2S_Ferredoxin
+  name: reduced [2Fe-2S] Ferredoxin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Sulfur-_sulfur_carrier_
+  name: Sulfur-(sulfur carrier)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_S-Adenosyl-L-methionine
+  name: S-Adenosyl-L-methionine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Biotin
+  name: Biotin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product__Sulfur_carrier_
+  name: (Sulfur carrier)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Methionine
+  name: L-Methionine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_5_-Deoxyadenosine
+  name: 5'-Deoxyadenosine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_oxidized_2Fe-2S_Ferredoxin
+  name: oxidized [2Fe-2S] Ferredoxin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_13730_EC2_8_1_6_Escherichia_coli_P12996_Dethiobiotin
+  name: Reaction catalyzed by biotin synthase on Dethiobiotin
+  equation: S-Adenosyl-L-methionine + Dethiobiotin + Sulfur-(sulfur carrier) + reduced
+    [2Fe-2S] Ferredoxin = L-Methionine + Biotin + 5'-Deoxyadenosine + (Sulfur carrier)
+    + oxidized [2Fe-2S] Ferredoxin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Dethiobiotin
+  - species_id: substrate_reduced_2Fe-2S_Ferredoxin
+  - species_id: substrate_Sulfur-_sulfur_carrier_
+  - species_id: substrate_S-Adenosyl-L-methionine
+  - species_id: cofactor_NADPH
+  products:
+  - species_id: product_Biotin
+  - species_id: product__Sulfur_carrier_
+  - species_id: product_L-Methionine
+  - species_id: product_5_-Deoxyadenosine
+  - species_id: product_oxidized_2Fe-2S_Ferredoxin
+  modifiers:
+  - species_id: protein_2_8_1_6_P12996_p53350
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:20493; CHEBI:22036; CHEBI:23649; CHEBI:12760; CHEBI:16691;
+    CHEBI:12742; CHEBI:13141; CHEBI:59789; CHEBI:42280; CHEBI:21360; CHEBI:32632;
+    CHEBI:3108; CHEBI:4457; CHEBI:14132; CHEBI:142094; CHEBI:7425; CHEBI:67040; CHEBI:22884;
+    CHEBI:13905; CHEBI:45607; CHEBI:17319; CHEBI:57861; CHEBI:33442; CHEBI:15414;
+    CHEBI:16044; CHEBI:22882; CHEBI:15956; CHEBI:42279; CHEBI:10833; CHEBI:13399;
+    CHEBI:41236; CHEBI:40099; CHEBI:16474; CHEBI:57586; CHEBI:16643; CHEBI:44286;
+    CHEBI:21904; CHEBI:1960; CHEBI:8946; CHEBI:36990; CHEBI:49037; CHEBI:32631; CHEBI:12061;
+    CHEBI:6271; CHEBI:527887; CHEBI:57844; CHEBI:13400; CHEBI:57783; CHEBI:10786;
+    CHEBI:43990; CHEBI:49038; CHEBI:12757
+
+    KEGG IDs: KEGG:C00073; KEGG:C00005; KEGG:C00120; KEGG:C01909; KEGG:C05198; KEGG:C00019'
+- id: sabiork_13730_EC2_8_1_6_Escherichia_coli_P12996_Dethiobiotin
+  name: Reaction catalyzed by biotin synthase on Dethiobiotin
+  equation: S-Adenosyl-L-methionine + Dethiobiotin + Sulfur-(sulfur carrier) + reduced
+    [2Fe-2S] Ferredoxin = L-Methionine + Biotin + 5'-Deoxyadenosine + (Sulfur carrier)
+    + oxidized [2Fe-2S] Ferredoxin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Dethiobiotin
+  - species_id: substrate_S-Adenosyl-L-methionine
+  - species_id: substrate_Sulfur-_sulfur_carrier_
+  - species_id: substrate_reduced_2Fe-2S_Ferredoxin
+  - species_id: cofactor_NADPH
+  products:
+  - species_id: product_L-Methionine
+  - species_id: product_Biotin
+  - species_id: product_5_-Deoxyadenosine
+  - species_id: product__Sulfur_carrier_
+  - species_id: product_oxidized_2Fe-2S_Ferredoxin
+  modifiers:
+  - species_id: protein_2_8_1_6_P12996_p53352
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:20493; CHEBI:22036; CHEBI:23649; CHEBI:12760; CHEBI:16691;
+    CHEBI:12742; CHEBI:13141; CHEBI:59789; CHEBI:42280; CHEBI:21360; CHEBI:32632;
+    CHEBI:3108; CHEBI:4457; CHEBI:14132; CHEBI:142094; CHEBI:7425; CHEBI:67040; CHEBI:22884;
+    CHEBI:13905; CHEBI:45607; CHEBI:17319; CHEBI:57861; CHEBI:33442; CHEBI:15414;
+    CHEBI:16044; CHEBI:22882; CHEBI:15956; CHEBI:42279; CHEBI:10833; CHEBI:13399;
+    CHEBI:41236; CHEBI:40099; CHEBI:16474; CHEBI:16643; CHEBI:57586; CHEBI:44286;
+    CHEBI:21904; CHEBI:1960; CHEBI:8946; CHEBI:36990; CHEBI:49037; CHEBI:32631; CHEBI:12061;
+    CHEBI:6271; CHEBI:527887; CHEBI:57844; CHEBI:13400; CHEBI:57783; CHEBI:10786;
+    CHEBI:43990; CHEBI:49038; CHEBI:12757
+
+    KEGG IDs: KEGG:C00073; KEGG:C00005; KEGG:C00120; KEGG:C01909; KEGG:C05198; KEGG:C00019'
+- id: sabiork_13730_EC2_8_1_6_Escherichia_coli_P12996_S-Adenosyl-L-methionine
+  name: Reaction catalyzed by biotin synthase on S-Adenosyl-L-methionine
+  equation: S-Adenosyl-L-methionine + Dethiobiotin + Sulfur-(sulfur carrier) + reduced
+    [2Fe-2S] Ferredoxin = L-Methionine + Biotin + 5'-Deoxyadenosine + (Sulfur carrier)
+    + oxidized [2Fe-2S] Ferredoxin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_S-Adenosyl-L-methionine
+  - species_id: substrate_Dethiobiotin
+  - species_id: substrate_reduced_2Fe-2S_Ferredoxin
+  - species_id: substrate_Sulfur-_sulfur_carrier_
+  - species_id: cofactor_NADPH
+  products:
+  - species_id: product_Biotin
+  - species_id: product_5_-Deoxyadenosine
+  - species_id: product__Sulfur_carrier_
+  - species_id: product_oxidized_2Fe-2S_Ferredoxin
+  - species_id: product_L-Methionine
+  modifiers:
+  - species_id: protein_2_8_1_6_P12996_p53353
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:20493; CHEBI:22036; CHEBI:12760; CHEBI:23649; CHEBI:12742;
+    CHEBI:16691; CHEBI:13141; CHEBI:59789; CHEBI:42280; CHEBI:21360; CHEBI:32632;
+    CHEBI:3108; CHEBI:4457; CHEBI:14132; CHEBI:142094; CHEBI:7425; CHEBI:67040; CHEBI:22884;
+    CHEBI:13905; CHEBI:45607; CHEBI:17319; CHEBI:57861; CHEBI:33442; CHEBI:15414;
+    CHEBI:16044; CHEBI:22882; CHEBI:15956; CHEBI:42279; CHEBI:10833; CHEBI:13399;
+    CHEBI:41236; CHEBI:40099; CHEBI:16474; CHEBI:57586; CHEBI:16643; CHEBI:44286;
+    CHEBI:21904; CHEBI:1960; CHEBI:8946; CHEBI:36990; CHEBI:49037; CHEBI:32631; CHEBI:12061;
+    CHEBI:6271; CHEBI:527887; CHEBI:57844; CHEBI:13400; CHEBI:57783; CHEBI:10786;
+    CHEBI:43990; CHEBI:49038; CHEBI:12757
+
+    KEGG IDs: KEGG:C00073; KEGG:C00005; KEGG:C00120; KEGG:C01909; KEGG:C05198; KEGG:C00019'
+- id: sabiork_13730_EC2_8_1_6_Escherichia_coli_P12996_reduced_2Fe-2S_Ferredoxin
+  name: Reaction catalyzed by biotin synthase on reduced [2Fe-2S] Ferredoxin
+  equation: S-Adenosyl-L-methionine + Dethiobiotin + Sulfur-(sulfur carrier) + reduced
+    [2Fe-2S] Ferredoxin = L-Methionine + Biotin + 5'-Deoxyadenosine + (Sulfur carrier)
+    + oxidized [2Fe-2S] Ferredoxin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_reduced_2Fe-2S_Ferredoxin
+  - species_id: substrate_Sulfur-_sulfur_carrier_
+  - species_id: substrate_S-Adenosyl-L-methionine
+  - species_id: substrate_Dethiobiotin
+  - species_id: cofactor_NADPH
+  products:
+  - species_id: product__Sulfur_carrier_
+  - species_id: product_Biotin
+  - species_id: product_oxidized_2Fe-2S_Ferredoxin
+  - species_id: product_5_-Deoxyadenosine
+  - species_id: product_L-Methionine
+  modifiers:
+  - species_id: protein_2_8_1_6_P12996_p53351
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:20493; CHEBI:22036; CHEBI:12760; CHEBI:23649; CHEBI:12742;
+    CHEBI:16691; CHEBI:13141; CHEBI:59789; CHEBI:42280; CHEBI:21360; CHEBI:32632;
+    CHEBI:3108; CHEBI:4457; CHEBI:14132; CHEBI:142094; CHEBI:7425; CHEBI:67040; CHEBI:22884;
+    CHEBI:13905; CHEBI:45607; CHEBI:17319; CHEBI:57861; CHEBI:33442; CHEBI:15414;
+    CHEBI:16044; CHEBI:22882; CHEBI:15956; CHEBI:42279; CHEBI:10833; CHEBI:13399;
+    CHEBI:41236; CHEBI:40099; CHEBI:16474; CHEBI:57586; CHEBI:16643; CHEBI:44286;
+    CHEBI:21904; CHEBI:1960; CHEBI:8946; CHEBI:36990; CHEBI:49037; CHEBI:32631; CHEBI:12061;
+    CHEBI:6271; CHEBI:527887; CHEBI:57844; CHEBI:13400; CHEBI:57783; CHEBI:10786;
+    CHEBI:43990; CHEBI:49038; CHEBI:12757
+
+    KEGG IDs: KEGG:C00073; KEGG:C00005; KEGG:C00120; KEGG:C01909; KEGG:C05198; KEGG:C00019'
+measurements:
+- id: measurement_2_8_1_6_Escherichia_coli_P12996_Dethiobiotin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_2_8_1_6_Escherichia_coli_P12996_Dethiobiotin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_2_8_1_6_Escherichia_coli_P12996_S-Adenosyl-L-methionine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_2_8_1_6_Escherichia_coli_P12996_reduced_2Fe-2S_Ferredoxin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 2_8_1_6_Escherichia_coli_P12996_Dethiobiotin_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 130.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Dethiobiotin
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '8142361'
+- id: 2_8_1_6_Escherichia_coli_P12996_Dethiobiotin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.0e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Dethiobiotin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '8142361'
+- id: 2_8_1_6_Escherichia_coli_P12996_Dethiobiotin_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 8.33333e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Dethiobiotin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '8142361'
+- id: 2_8_1_6_Escherichia_coli_P12996_S-Adenosyl-L-methionine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.66667e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '8142361'
+- id: 2_8_1_6_Escherichia_coli_P12996_reduced_2Fe-2S_Ferredoxin_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.000277778
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_reduced_2Fe-2S_Ferredoxin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '8142361'
+buffer:
+  buffer: 100 mM Tris-HCl, 2 mM dithiothreitol, 5 mM fructose 1,6-bisphosphate, 10
+    mM KCl, 5 mM Fe(NH4)2(SO4)2
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 53350
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/8142361/
+  pubmed_id: '8142361'
+  doi: null
+name: Merged entry for P12996 wildtype
+description: 'Merged from 4 files: SABIO_EC2.8.1.6_Escherichia_coli__P12996_s_Dethiobiotin.yaml,
+  SABIO_EC2.8.1.6_Escherichia_coli__P12996_s_Dethiobiotin_2.yaml, SABIO_EC2.8.1.6_Escherichia_coli__P12996_s_S-Adenosyl-L-methion.yaml,
+  SABIO_EC2.8.1.6_Escherichia_coli__P12996_s_reduced.yaml'

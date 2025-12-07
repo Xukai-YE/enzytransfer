@@ -1,0 +1,163 @@
+name: SABIO-RK Entry 24401
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 24401
+created: '2025-10-28T14:24:35.547157'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_5_1_34_P11348_p24401
+  name: 6,7-dihydropteridine reductase
+  ecnumber: 1.5.1.34
+  organism: Rattus norvegicus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: D37I
+  uniprotid: P11348
+  wildtype_sequence: MAASGEARRVLVYGGRGALGSRCVQAFRARNWWVASIDVVENEEASASVIVKMTDSFTEQADQVTAEVGKLLGDQKVDAILCVAGGWAGGNAKSKSLFKNCDLMWKQSIWTSTISSHLATKHLKEGGLLTLAGAKAALDGTPGMIGYGMAKGAVHQLCQSLAGKNSGMPSGAAAIAVLPVTLDTPMNRKSMPEADFSSWTPLEFLVETFHDWITGNKRPNSGSLIQVVTTDGKTELTPAYF
+  mutant_sequence: MAASGEARRVLVYGGRGALGSRCVQAFRARNWWVASIIVVENEEASASVIVKMTDSFTEQADQVTAEVGKLLGDQKVDAILCVAGGWAGGNAKSKSLFKNCDLMWKQSIWTSTISSHLATKHLKEGGLLTLAGAKAALDGTPGMIGYGMAKGAVHQLCQSLAGKNSGMPSGAAAIAVLPVTLDTPMNRKSMPEADFSSWTPLEFLVETFHDWITGNKRPNSGSLIQVVTTDGKTELTPAYF
+  position_offset: 1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Quinonoid_6
+  name: Quinonoid 6
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_7-dimethyl_dihydropteridine
+  name: 7-dimethyl dihydropteridine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_6
+  name: '6'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_7-Dimethyl-tetrahydropteridine
+  name: 7-Dimethyl-tetrahydropteridine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Aminopterin
+  name: Aminopterin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_10507_EC1_5_1_34_Rattus_norvegicus_P11348_NADH
+  name: Reaction catalyzed by 6,7-dihydropteridine reductase on NADH
+  equation: H+ + NADH + Quinonoid 6,7-dimethyl dihydropteridine = NAD+ + 6,7-Dimethyl-tetrahydropteridine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  - species_id: substrate_Quinonoid_6
+  - species_id: substrate_7-dimethyl_dihydropteridine
+  products:
+  - species_id: product_6
+  - species_id: product_7-Dimethyl-tetrahydropteridine
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_5_1_34_P11348_p24401
+    role: BIOCATALYST
+  - species_id: activator_Aminopterin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:13357;
+    CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636; CHEBI:44214; CHEBI:29233;
+    CHEBI:5584; CHEBI:13394; CHEBI:57945; CHEBI:44216; CHEBI:22526; CHEBI:57540; CHEBI:7423;
+    CHEBI:13389; CHEBI:13395; CHEBI:15378; CHEBI:10744; CHEBI:44215; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00003; KEGG:C00004; KEGG:C00080'
+measurements:
+- id: measurement_1_5_1_34_Rattus_norvegicus_P11348_NADH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.8
+  temperature_opt: 22.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 0.05 M Tris chloride, 0.001 M beta-mercaptoethanol
+  buffer_concentration: 0.05 M
+references:
+- title: Reference for SABIO-RK entry 24401
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/1639779/
+  pubmed_id: '1639779'
+  doi: null

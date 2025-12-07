@@ -1,0 +1,259 @@
+version: '2.0'
+created: '2025-11-20T13:41:41.677157'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_5_1_1_8_B9JQV3_p56895
+  name: 4-hydroxyproline epimerase
+  ecnumber: 5.1.1.8
+  organism: Agrobacterium vitis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: B9JQV3
+  wildtype_sequence: MRWKRMMQLLDVHCEGEIGKVAIGGVPKIPGDTVADQLHWLNTDPKGRELRHFLVLEPRGAPIGSVNLLLPAKDSRADAAFIILQPDQAHASSGSNSICVTTALLESGMIEMQEPETVVMLETAAGLVKAVAQCRDGHCDSVTLTMVPSFVHELDAQIATESWGEIRFDLAYGGVFYALVDVRQLGLTIEPGNARRLVEAGMLLKGEINQRIQVVHPDIPAISGVAYVMFRDEDPDGAVRTCTTMWPGRVDRSPCGTGNSANLATLHARGRVKPGDSFLSRSIIGSQFTVGLQGLTTVAGRSAVIPTITGRGFTYGIHQVALDAFDPLGGGFVLTDVWGAAAETIKI
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_trans-4-Hydroxy-L-proline
+  name: trans-4-Hydroxy-L-proline
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_cis-4-Hydroxy-D-proline
+  name: cis-4-Hydroxy-D-proline
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_trans-L-3-Hydroxyproline
+  name: trans-L-3-Hydroxyproline
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_cis-3-Hydroxy-D-proline
+  name: cis-3-Hydroxy-D-proline
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_3114_EC5_1_1_8_Agrobacterium_vitis_B9JQV3_trans-4-Hydroxy-L-proline
+  name: Reaction catalyzed by 4-hydroxyproline epimerase on trans-4-Hydroxy-L-proline
+  equation: trans-4-Hydroxy-L-proline = cis-4-Hydroxy-D-proline
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_trans-4-Hydroxy-L-proline
+  products:
+  - species_id: product_cis-4-Hydroxy-D-proline
+  modifiers:
+  - species_id: protein_5_1_1_8_B9JQV3_p56895
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 21152;21153;21154;21155
+  KEGGid: R03296
+  notes: 'ChEBI IDs: CHEBI:57690; CHEBI:10714; CHEBI:43318; CHEBI:10479; CHEBI:49360;
+    CHEBI:58375; CHEBI:12864; CHEBI:23300; CHEBI:43227; CHEBI:43172; CHEBI:12797;
+    CHEBI:27060; CHEBI:16231; CHEBI:18095; CHEBI:43210
+
+    KEGG IDs: KEGG:C01157; KEGG:C03440'
+- id: sabiork_14136_EC5_1_1_8_Agrobacterium_vitis_B9JQV3_trans-L-3-Hydroxyproline
+  name: Reaction catalyzed by 4-hydroxyproline epimerase on trans-L-3-Hydroxyproline
+  equation: trans-L-3-Hydroxyproline = cis-3-Hydroxy-D-proline
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_trans-L-3-Hydroxyproline
+  products:
+  - species_id: product_cis-3-Hydroxy-D-proline
+  modifiers:
+  - species_id: protein_5_1_1_8_B9JQV3_p56894
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:43308; CHEBI:27067; CHEBI:27055; CHEBI:12868; CHEBI:10730;
+    CHEBI:57938; CHEBI:16889
+
+    KEGG IDs: KEGG:C05147'
+measurements:
+- id: measurement_5_1_1_8_Agrobacterium_vitis_B9JQV3_trans-4-Hydroxy-L-proline
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_5_1_1_8_Agrobacterium_vitis_B9JQV3_trans-L-3-Hydroxyproline
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 5_1_1_8_Agrobacterium_vitis_B9JQV3_trans-4-Hydroxy-L-proline_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 230.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_trans-4-Hydroxy-L-proline
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '24980702'
+- id: 5_1_1_8_Agrobacterium_vitis_B9JQV3_trans-4-Hydroxy-L-proline_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0056
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_trans-4-Hydroxy-L-proline
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '24980702'
+- id: 5_1_1_8_Agrobacterium_vitis_B9JQV3_trans-4-Hydroxy-L-proline_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.3
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_trans-4-Hydroxy-L-proline
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '24980702'
+- id: 5_1_1_8_Agrobacterium_vitis_B9JQV3_trans-L-3-Hydroxyproline_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.75
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_trans-L-3-Hydroxyproline
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '24980702'
+- id: 5_1_1_8_Agrobacterium_vitis_B9JQV3_trans-L-3-Hydroxyproline_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0048
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_trans-L-3-Hydroxyproline
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '24980702'
+- id: 5_1_1_8_Agrobacterium_vitis_B9JQV3_trans-L-3-Hydroxyproline_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 160.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_trans-L-3-Hydroxyproline
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '24980702'
+buffer:
+  buffer: 50 mM Na+-phosphate,1 mM Dithiothreitol
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 56895
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/24980702/
+  pubmed_id: '24980702'
+  doi: null
+name: Merged entry for B9JQV3 wildtype
+description: 'Merged from 2 files: SABIO_EC5.1.1.8_Agrobacterium_vitis__B9JQV3_s_trans-4-Hydroxy-L-pr.yaml,
+  SABIO_EC5.1.1.8_Agrobacterium_vitis__B9JQV3_s_trans-L-3-Hydroxypro.yaml'

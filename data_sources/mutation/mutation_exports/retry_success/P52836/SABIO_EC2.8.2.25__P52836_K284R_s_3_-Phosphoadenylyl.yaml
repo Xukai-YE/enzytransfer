@@ -1,0 +1,193 @@
+name: SABIO-RK Entry 42009
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 42009
+created: '2025-10-28T15:23:11.805110'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_8_2_25_P52836_p42009
+  name: flavonol 3-sulfotransferase
+  ecnumber: 2.8.2.25
+  organism: null
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: K284R
+  uniprotid: P52836
+  wildtype_sequence: MEDIIKTLPQHTCSFLKHRFTLYKYKDAWNHQEFLEGRILSEQKFKAHPNDVFLASYPKSGTTWLKALAFAIITREKFDDSTSPLLTTMPHDCIPLLEKDLEKIQENQRNSLYTPISTHFHYKSLPESARTSNCKIVYIYRNMKDVIVSYYHFLRQIVKLSVEEAPFEEAFDEFCQGISSCGPYWEHIKGYWKASLEKPEIFLFLKYEDMKKDPVPSVKKLADFIGHPFTPKEEEAGVIEDIVKLCSFEKLSSLEVNKSGMHRPEEAHSIENRLYFRKGKDGDWKNYFTDEMTQKIDKLIDEKLGATGLVLK
+  mutant_sequence: MEDIIKTLPQHTCSFLKHRFTLYKYKDAWNHQEFLEGRILSEQKFKAHPNDVFLASYPKSGTTWLKALAFAIITREKFDDSTSPLLTTMPHDCIPLLEKDLEKIQENQRNSLYTPISTHFHYKSLPESARTSNCKIVYIYRNMKDVIVSYYHFLRQIVKLSVEEAPFEEAFDEFCQGISSCGPYWEHIKGYWKASLEKPEIFLFLKYEDMKKDPVPSVKKLADFIGHPFTPKEEEAGVIEDIVKLCSFEKLSSLEVNKSGMHRPEEAHSIENRLYFRRGKDGDWKNYFTDEMTQKIDKLIDEKLGATGLVLK
+  position_offset: -6
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_3_-Phosphoadenylyl_sulfate
+  name: 3'-Phosphoadenylyl sulfate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Quercetin
+  name: Quercetin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Adenosine_3_
+  name: Adenosine 3'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_5_-bisphosphate
+  name: 5'-bisphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Quercetin_3-sulfate
+  name: Quercetin 3-sulfate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2138_EC2_8_2_25_P52836_3_-Phosphoadenylyl_sulfate
+  name: Reaction catalyzed by flavonol 3-sulfotransferase on 3'-Phosphoadenylyl sulfate
+  equation: Quercetin + 3'-Phosphoadenylyl sulfate = Adenosine 3',5'-bisphosphate
+    + Quercetin 3-sulfate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3_-Phosphoadenylyl_sulfate
+  - species_id: substrate_Quercetin
+  products:
+  - species_id: product_Adenosine_3_
+  - species_id: product_5_-bisphosphate
+  - species_id: product_Quercetin_3-sulfate
+  modifiers:
+  - species_id: protein_2_8_2_25_P52836_p42009
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 13453;13454;13455;13456
+  KEGGid: R02159
+  notes: 'ChEBI IDs: CHEBI:58254; CHEBI:1353; CHEBI:26472; CHEBI:13735; CHEBI:11680;
+    CHEBI:17980; CHEBI:2475; CHEBI:58339; CHEBI:57694; CHEBI:17730; CHEBI:8696; CHEBI:11679;
+    CHEBI:8703; CHEBI:19857; CHEBI:22240; CHEBI:45280; CHEBI:17985; CHEBI:58343; CHEBI:26479;
+    CHEBI:14995; CHEBI:16243; CHEBI:11704; CHEBI:14991
+
+    KEGG IDs: KEGG:C00389; KEGG:C00053; KEGG:C00054; KEGG:C00616'
+measurements:
+- id: measurement_2_8_2_25_P52836_3_-Phosphoadenylyl_sulfate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 2_8_2_25_P52836_3_-Phosphoadenylyl_sulfate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.5e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3_-Phosphoadenylyl_sulfate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: null
+- id: 2_8_2_25_P52836_3_-Phosphoadenylyl_sulfate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.61
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3_-Phosphoadenylyl_sulfate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: null
+- id: 2_8_2_25_P52836_3_-Phosphoadenylyl_sulfate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 6400000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3_-Phosphoadenylyl_sulfate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: null
+buffer:
+  buffer: 50 mM Sodium phosphate
+  buffer_concentration: 50 mM
+references: null

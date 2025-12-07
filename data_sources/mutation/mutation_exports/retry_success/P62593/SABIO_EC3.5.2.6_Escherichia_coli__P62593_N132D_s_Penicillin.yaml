@@ -1,0 +1,170 @@
+name: SABIO-RK Entry 17126
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 17126
+created: '2025-10-28T14:10:26.488514'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_5_2_6_P62593_p17126
+  name: beta-lactamase
+  ecnumber: 3.5.2.6
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: N132D
+  uniprotid: P62593
+  wildtype_sequence: MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYIELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRVDAGQEQLGRRIHYSQNDLVEYSPVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRWEPELNEAIPNDERDTTMPAAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSALPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGASLIKHW
+  mutant_sequence: MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYIELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRVDAGQEQLGRRIHYSQNDLVEYSPVTEKHLTDGMTVRELCSAAITMSDDTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRWEPELNEAIPNDERDTTMPAAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSALPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGASLIKHW
+  position_offset: -2
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Penicillin_G
+  name: Penicillin G
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Substituted_beta-amino_acid
+  name: Substituted beta-amino acid
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_4016_EC3_5_2_6_Escherichia_coli_P62593_Penicillin_G
+  name: Reaction catalyzed by beta-lactamase on Penicillin G
+  equation: Penicillin G + H2O = Substituted beta-amino acid
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Penicillin_G
+  products:
+  - species_id: product_Substituted_beta-amino_acid
+  modifiers:
+  - species_id: protein_3_5_2_6_P62593_p17126
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:18208; CHEBI:42857;
+    CHEBI:41979; CHEBI:45073; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:13352; CHEBI:13690; CHEBI:25866; CHEBI:51354; CHEBI:43228;
+    CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:14743; CHEBI:7962;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C05551; KEGG:C00001; KEGG:C03806'
+measurements:
+- id: measurement_3_5_2_6_Escherichia_coli_P62593_Penicillin_G
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 5.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 3_5_2_6_Escherichia_coli_P62593_Penicillin_G_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Penicillin_G
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7822310'
+- id: 3_5_2_6_Escherichia_coli_P62593_Penicillin_G_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 7400000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Penicillin_G
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 5.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7822310'
+- id: 3_5_2_6_Escherichia_coli_P62593_Penicillin_G_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 372.5
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Penicillin_G
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7822310'
+buffer:
+  buffer: 50 mM Sodium Acetate, 0.5 mM KCl
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 17126
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/7822310/
+  pubmed_id: '7822310'
+  doi: null

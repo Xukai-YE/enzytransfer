@@ -1,0 +1,332 @@
+version: '2.0'
+created: '2025-11-20T13:39:14.543775'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_178_O70351_p21323
+  name: 3-hydroxyacyl-CoA dehydrogenase
+  ecnumber: 1.1.1.178
+  organism: Rattus norvegicus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: O70351
+  wildtype_sequence: MAAAVRSVKGLVAVITGGASGLGLSTAKRLVGQGATAVLLDVPNSEGETEAKKLGGNCIFAPANVTSEKEVQAALTLAKEKFGRIDVAVNCAGIAVAIKTYHEKKNQVHTLEDFQRVINVNLIGTFNVIRLVAGVMGQNEPDQGGQRGVIINTASVAAFEGQVGQAAYSASKGGIVGMTLPIARDLAPIGIRVVTIAPGLFATPLLTTLPDKVRNFLASQVPFPSRLGDPAEYAHLVQMVIENPFLNGEVIRLDGAIRMQP
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate__S_-3-Hydroxybutanoyl-CoA
+  name: (S)-3-Hydroxybutanoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Acetoacetyl-CoA
+  name: Acetoacetyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate__2S
+  name: (2S
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_3S_-3-Hydroxy-2-methylbutanoyl-CoA
+  name: 3S)-3-Hydroxy-2-methylbutanoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Methylacetoacetyl-CoA
+  name: 2-Methylacetoacetyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2018_EC1_1_1_178_Rattus_norvegicus_O70351_NAD_
+  name: Reaction catalyzed by 3-hydroxyacyl-CoA dehydrogenase on NAD+
+  equation: NAD+ + (S)-3-Hydroxybutanoyl-CoA = NADH + Acetoacetyl-CoA + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate__S_-3-Hydroxybutanoyl-CoA
+  products:
+  - species_id: product_NADH
+  - species_id: product_Acetoacetyl-CoA
+  modifiers:
+  - species_id: protein_1_1_1_178_O70351_p21323
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 30799;30800;30801;30802
+  KEGGid: R01975
+  notes: 'ChEBI IDs: CHEBI:57316; CHEBI:18749; CHEBI:44281; CHEBI:41333; CHEBI:13393;
+    CHEBI:29234; CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:15345; CHEBI:13396;
+    CHEBI:2392; CHEBI:13706; CHEBI:21901; CHEBI:11756; CHEBI:24636; CHEBI:44214; CHEBI:29233;
+    CHEBI:13394; CHEBI:5584; CHEBI:57945; CHEBI:44216; CHEBI:394; CHEBI:15453; CHEBI:57286;
+    CHEBI:57540; CHEBI:7423; CHEBI:13389; CHEBI:13395; CHEBI:11048; CHEBI:15378; CHEBI:44215;
+    CHEBI:10744; CHEBI:39978; CHEBI:22173; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C01144; KEGG:C00080; KEGG:C00332; KEGG:C00003; KEGG:C00004'
+- id: sabiork_3919_EC1_1_1_178_Rattus_norvegicus_O70351_NAD_
+  name: Reaction catalyzed by 3-hydroxy-2-methylbutyryl-CoA dehydrogenase on NAD+
+  equation: NAD+ + (2S,3S)-3-Hydroxy-2-methylbutanoyl-CoA = 2-Methylacetoacetyl-CoA
+    + H+ + NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate__2S
+  - species_id: substrate_3S_-3-Hydroxy-2-methylbutanoyl-CoA
+  products:
+  - species_id: product_NADH
+  - species_id: product_2-Methylacetoacetyl-CoA
+  modifiers:
+  - species_id: protein_1_1_1_178_O70351_p21324
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 13281;13282;13283;13284
+  KEGGid: R04203
+  notes: 'ChEBI IDs: CHEBI:18552; CHEBI:18553; CHEBI:57312; CHEBI:44281; CHEBI:13393;
+    CHEBI:29234; CHEBI:15846; CHEBI:15449; CHEBI:13357; CHEBI:21902; CHEBI:13396;
+    CHEBI:21901; CHEBI:24636; CHEBI:1195; CHEBI:44214; CHEBI:29233; CHEBI:5584; CHEBI:13394;
+    CHEBI:57335; CHEBI:19687; CHEBI:57945; CHEBI:44216; CHEBI:10871; CHEBI:57540;
+    CHEBI:191; CHEBI:7423; CHEBI:15476; CHEBI:13389; CHEBI:15378; CHEBI:13395; CHEBI:11613;
+    CHEBI:44215; CHEBI:10744; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C03344; KEGG:C00080; KEGG:C00003; KEGG:C00004; KEGG:C04405'
+- id: sabiork_3919_EC1_1_1_178_Rattus_norvegicus_O70351__2S
+  name: Reaction catalyzed by 3-hydroxy-2-methylbutyryl-CoA dehydrogenase on (2S
+  equation: NAD+ + (2S,3S)-3-Hydroxy-2-methylbutanoyl-CoA = 2-Methylacetoacetyl-CoA
+    + H+ + NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate__2S
+  - species_id: substrate_3S_-3-Hydroxy-2-methylbutanoyl-CoA
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_2-Methylacetoacetyl-CoA
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_1_1_178_O70351_p21322
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 13281;13282;13283;13284
+  KEGGid: R04203
+  notes: 'ChEBI IDs: CHEBI:18552; CHEBI:18553; CHEBI:57312; CHEBI:44281; CHEBI:13393;
+    CHEBI:29234; CHEBI:15846; CHEBI:15449; CHEBI:13357; CHEBI:21902; CHEBI:13396;
+    CHEBI:21901; CHEBI:24636; CHEBI:1195; CHEBI:44214; CHEBI:29233; CHEBI:5584; CHEBI:13394;
+    CHEBI:57335; CHEBI:19687; CHEBI:57945; CHEBI:44216; CHEBI:10871; CHEBI:191; CHEBI:57540;
+    CHEBI:15476; CHEBI:7423; CHEBI:13389; CHEBI:15378; CHEBI:13395; CHEBI:11613; CHEBI:44215;
+    CHEBI:10744; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C03344; KEGG:C00080; KEGG:C00003; KEGG:C00004; KEGG:C04405'
+measurements:
+- id: measurement_1_1_1_178_Rattus_norvegicus_O70351_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_1_1_178_Rattus_norvegicus_O70351_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_1_1_178_Rattus_norvegicus_O70351__2S
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1_178_Rattus_norvegicus_O70351_NAD__Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.000283339
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7639524'
+- id: 1_1_1_178_Rattus_norvegicus_O70351_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.9e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7639524'
+- id: 1_1_1_178_Rattus_norvegicus_O70351_NAD__Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.000366674
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7639524'
+- id: 1_1_1_178_Rattus_norvegicus_O70351_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.3e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7639524'
+- id: 1_1_1_178_Rattus_norvegicus_O70351__2S_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.000366674
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__2S
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7639524'
+- id: 1_1_1_178_Rattus_norvegicus_O70351__2S_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.0e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__2S
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7639524'
+buffer:
+  buffer: 50 mM Tris-H3PO4, 150 mM KCl, 0.2 mg/ml BSA, 0.7 U/ml Crotonase
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 21323
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/7639524/
+  pubmed_id: '7639524'
+  doi: null
+name: Merged entry for O70351 wildtype
+description: 'Merged from 3 files: SABIO_EC1.1.1.178_Rattus_norvegicus__O70351_s_NAD_.yaml,
+  SABIO_EC1.1.1.178_Rattus_norvegicus__O70351_s_NAD__2.yaml, SABIO_EC1.1.1.178_Rattus_norvegicus__O70351_s__2S.yaml'

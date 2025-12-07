@@ -1,0 +1,435 @@
+version: '2.0'
+created: '2025-11-20T13:41:38.193768'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_4_1_11_Q86D27_p5960
+  name: cystathionine gamma-lyase
+  ecnumber: 4.4.1.11
+  organism: Entamoeba histolytica
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q86D27
+  wildtype_sequence: MSQLKDLQTRVLHTPSKWGEPLHAHTFPIFQTSTYLFDDTQMGADLFGGKREGHMYSRMGNPTVEYFEELVNSLEGGVGTAAFGSGMGAIHSATMGLLKAGDHLISGDTLYGCTVELFGNRFKDMGVDVSFVNTASDEAVVKAWKPNTKMVYLESPANPTCKVSDIKGIAKICHEKGAILVVDCTFTTPVFLPALELGADVVLHSITKYINGHGDVVGGVVTTKNPELLQKIKAFRKDTGSLMAPMDAFLCIRGVKTLPMRMKVHMENGLKVAKFLEQHPKIKQVNHPGLESFPGHKIAMEQMKGFGSTFSFEMKSFEAAKKLMEHVKLCGLAVSLGTLDTLIEHPASMTHAAVPEHLLKQQGLTRELVRISVGLENPDDIIADLKQALEQC
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_L-Cysteine
+  name: L-Cysteine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NH3
+  name: NH3
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Hydrogen_sulfide
+  name: Hydrogen sulfide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Pyruvate
+  name: Pyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Homocysteine
+  name: Homocysteine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Oxobutyrate
+  name: 2-Oxobutyrate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_O-Acetyl-L-serine
+  name: O-Acetyl-L-serine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Acetate
+  name: Acetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_L-Methionine
+  name: L-Methionine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Methanethiol
+  name: Methanethiol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1131_EC4_4_1_11_Entamoeba_histolytica_Q86D27_L-Cysteine
+  name: Reaction catalyzed by cystathionine gamma-lyase on L-Cysteine
+  equation: H2O + L-Cysteine = NH3 + Hydrogen sulfide + Pyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Cysteine
+  products:
+  - species_id: product_NH3
+  - species_id: product_Hydrogen_sulfide
+  - species_id: product_Pyruvate
+  modifiers:
+  - species_id: protein_4_4_1_11_Q86D27_p5960
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 24931;24932;24933;24934
+  KEGGid: R00782
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44284; CHEBI:44819; CHEBI:16134; CHEBI:41981;
+    CHEBI:13405; CHEBI:43058; CHEBI:7434; CHEBI:14987; CHEBI:41781; CHEBI:13095; CHEBI:32442;
+    CHEBI:30488; CHEBI:42857; CHEBI:41979; CHEBI:21261; CHEBI:13407; CHEBI:41700;
+    CHEBI:41811; CHEBI:15361; CHEBI:42043; CHEBI:5787; CHEBI:32443; CHEBI:33811; CHEBI:33813;
+    CHEBI:27313; CHEBI:22534; CHEBI:135980; CHEBI:15377; CHEBI:41768; CHEBI:29950;
+    CHEBI:7435; CHEBI:49783; CHEBI:13352; CHEBI:22533; CHEBI:26466; CHEBI:44404; CHEBI:13771;
+    CHEBI:13356; CHEBI:26462; CHEBI:24639; CHEBI:29919; CHEBI:14414; CHEBI:43228;
+    CHEBI:44269; CHEBI:6207; CHEBI:35235; CHEBI:44292; CHEBI:13406; CHEBI:8685; CHEBI:33806;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:28938; CHEBI:45489; CHEBI:32816; CHEBI:32445;
+    CHEBI:16136; CHEBI:17561; CHEBI:45253; CHEBI:41227; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00014; KEGG:C00022; KEGG:C01342; KEGG:C00001; KEGG:C00097; KEGG:C00283'
+- id: sabiork_7311_EC4_4_1_11_Entamoeba_histolytica_Q86D27_Homocysteine
+  name: Reaction catalyzed by methionine gamma-lyase on Homocysteine
+  equation: H2O + Homocysteine = NH3 + 2-Oxobutyrate + Hydrogen sulfide
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Homocysteine
+  products:
+  - species_id: product_Hydrogen_sulfide
+  - species_id: product_2-Oxobutyrate
+  - species_id: product_NH3
+  modifiers:
+  - species_id: protein_4_4_1_11_Q86D27_p5959
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 14501;14502;14503;14504
+  KEGGid: R01283
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:19741; CHEBI:44284; CHEBI:44819; CHEBI:16134;
+    CHEBI:41981; CHEBI:66952; CHEBI:13405; CHEBI:43058; CHEBI:7434; CHEBI:58199; CHEBI:30488;
+    CHEBI:14408; CHEBI:17230; CHEBI:42857; CHEBI:41979; CHEBI:19743; CHEBI:13407;
+    CHEBI:58065; CHEBI:42043; CHEBI:5787; CHEBI:30831; CHEBI:144836; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:22534; CHEBI:135980; CHEBI:15377; CHEBI:39748;
+    CHEBI:7435; CHEBI:49783; CHEBI:22533; CHEBI:13352; CHEBI:44404; CHEBI:13356; CHEBI:13771;
+    CHEBI:24639; CHEBI:29919; CHEBI:43117; CHEBI:43228; CHEBI:21329; CHEBI:14414;
+    CHEBI:44269; CHEBI:44292; CHEBI:1250; CHEBI:13406; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:5751; CHEBI:28938; CHEBI:45489; CHEBI:6245; CHEBI:17588; CHEBI:63072;
+    CHEBI:16136; CHEBI:16763; CHEBI:11636; CHEBI:29373; CHEBI:44701; CHEBI:13122
+
+    KEGG IDs: KEGG:C00109; KEGG:C05330; KEGG:C00014; KEGG:C00001; KEGG:C01342; KEGG:C00155;
+    KEGG:C00283'
+- id: sabiork_7310_EC4_4_1_11_Entamoeba_histolytica_Q86D27_O-Acetyl-L-serine
+  name: Reaction catalyzed by methionine gamma-lyase on O-Acetyl-L-serine
+  equation: H2O + O-Acetyl-L-serine = Acetate + NH3 + Pyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O-Acetyl-L-serine
+  products:
+  - species_id: product_Acetate
+  - species_id: product_NH3
+  - species_id: product_Pyruvate
+  modifiers:
+  - species_id: protein_4_4_1_11_Q86D27_p5961
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:40480; CHEBI:7668; CHEBI:44819; CHEBI:44284;
+    CHEBI:16134; CHEBI:41981; CHEBI:12685; CHEBI:13405; CHEBI:17981; CHEBI:7434; CHEBI:14987;
+    CHEBI:12724; CHEBI:13704; CHEBI:15366; CHEBI:21938; CHEBI:42857; CHEBI:41979;
+    CHEBI:40486; CHEBI:22169; CHEBI:13407; CHEBI:2387; CHEBI:15361; CHEBI:12710; CHEBI:58340;
+    CHEBI:42043; CHEBI:30089; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:22534;
+    CHEBI:135980; CHEBI:15377; CHEBI:7435; CHEBI:49783; CHEBI:22533; CHEBI:13352;
+    CHEBI:26466; CHEBI:44404; CHEBI:13771; CHEBI:22165; CHEBI:26462; CHEBI:43228;
+    CHEBI:44269; CHEBI:44292; CHEBI:13406; CHEBI:8685; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:44568; CHEBI:28938; CHEBI:32816; CHEBI:45253; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00014; KEGG:C00979; KEGG:C00022; KEGG:C00001; KEGG:C01342; KEGG:C00033'
+- id: sabiork_1038_EC4_4_1_11_Entamoeba_histolytica_Q86D27_L-Methionine
+  name: Reaction catalyzed by methionine gamma-lyase on L-Methionine
+  equation: L-Methionine + H2O = NH3 + Methanethiol + 2-Oxobutyrate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Methionine
+  products:
+  - species_id: product_2-Oxobutyrate
+  - species_id: product_Methanethiol
+  - species_id: product_NH3
+  modifiers:
+  - species_id: protein_4_4_1_11_Q86D27_p5957
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 23800;23801;23802;23803
+  KEGGid: R00654
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:19741; CHEBI:44284; CHEBI:44819; CHEBI:13141;
+    CHEBI:41981; CHEBI:16134; CHEBI:21360; CHEBI:13405; CHEBI:7434; CHEBI:32632; CHEBI:25225;
+    CHEBI:49038; CHEBI:42857; CHEBI:16007; CHEBI:41979; CHEBI:14586; CHEBI:19743;
+    CHEBI:13407; CHEBI:6814; CHEBI:42043; CHEBI:16044; CHEBI:30831; CHEBI:144836;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:22534; CHEBI:135980; CHEBI:15377;
+    CHEBI:39748; CHEBI:7435; CHEBI:49783; CHEBI:22533; CHEBI:13352; CHEBI:44404; CHEBI:13771;
+    CHEBI:16643; CHEBI:43228; CHEBI:44269; CHEBI:44292; CHEBI:1250; CHEBI:13406; CHEBI:33806;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:49037; CHEBI:32631; CHEBI:28938; CHEBI:6271;
+    CHEBI:57844; CHEBI:16763; CHEBI:43990; CHEBI:11636; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00073; KEGG:C00409; KEGG:C00109; KEGG:C00014; KEGG:C00001; KEGG:C01342'
+measurements:
+- id: measurement_4_4_1_11_Entamoeba_histolytica_Q86D27_L-Cysteine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.8
+  temperature_opt: 36.0
+  temperature_unit: °C
+- id: measurement_4_4_1_11_Entamoeba_histolytica_Q86D27_Homocysteine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.8
+  temperature_opt: 36.0
+  temperature_unit: °C
+- id: measurement_4_4_1_11_Entamoeba_histolytica_Q86D27_O-Acetyl-L-serine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.8
+  temperature_opt: 36.0
+  temperature_unit: °C
+- id: measurement_4_4_1_11_Entamoeba_histolytica_Q86D27_L-Methionine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.8
+  temperature_opt: 36.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 4_4_1_11_Entamoeba_histolytica_Q86D27_L-Cysteine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0023
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Cysteine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.8
+  temperature: 36.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12920135'
+- id: 4_4_1_11_Entamoeba_histolytica_Q86D27_L-Cysteine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.1e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Cysteine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.8
+  temperature: 36.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12920135'
+- id: 4_4_1_11_Entamoeba_histolytica_Q86D27_Homocysteine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00187
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Homocysteine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.8
+  temperature: 36.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12920135'
+- id: 4_4_1_11_Entamoeba_histolytica_Q86D27_Homocysteine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.18333e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Homocysteine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.8
+  temperature: 36.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12920135'
+- id: 4_4_1_11_Entamoeba_histolytica_Q86D27_O-Acetyl-L-serine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00089
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O-Acetyl-L-serine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.8
+  temperature: 36.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12920135'
+- id: 4_4_1_11_Entamoeba_histolytica_Q86D27_O-Acetyl-L-serine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.416667e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O-Acetyl-L-serine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.8
+  temperature: 36.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12920135'
+- id: 4_4_1_11_Entamoeba_histolytica_Q86D27_L-Methionine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0019
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.8
+  temperature: 36.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12920135'
+- id: 4_4_1_11_Entamoeba_histolytica_Q86D27_L-Methionine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 7.333333e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.8
+  temperature: 36.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12920135'
+buffer:
+  buffer: 100 mM sodium phosphate; 100 mM sodium phosphate, Nessler&apos;s reagent,
+    2 N sodiumhydroxide
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 5960
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12920135/
+  pubmed_id: '12920135'
+  doi: null
+name: Merged entry for Q86D27 wildtype
+description: 'Merged from 4 files: SABIO_EC4.4.1.11_Entamoeba_histolytica__Q86D27_s_L-Cysteine.yaml,
+  SABIO_EC4.4.1.11_Entamoeba_histolytica__Q86D27_s_Homocysteine.yaml, SABIO_EC4.4.1.11_Entamoeba_histolytica__Q86D27_s_O-Acetyl-L-serine.yaml,
+  SABIO_EC4.4.1.11_Entamoeba_histolytica__Q86D27_s_L-Methionine.yaml'

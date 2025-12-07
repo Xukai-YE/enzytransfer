@@ -1,0 +1,293 @@
+version: '2.0'
+created: '2025-11-20T13:39:12.920912'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_103_O58389_p4154
+  name: L-threonine 3-dehydrogenase
+  ecnumber: 1.1.1.103
+  organism: Pyrococcus horikoshii
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: O58389
+  wildtype_sequence: MSEKMVAIMKTKPGYGAELVEVDVPKPGPGEVLIKVLATSICGTDLHIYEWNEWAQSRIKPPQIMGHEVAGEVVEIGPGVEGIEVGDYVSVETHIVCGKCYACRRGQYHVCQNTKIFGVDTDGVFAEYAVVPAQNIWKNPKSIPPEYATLQEPLGNAVDTVLAGPISGKSVLITGAGPLGLLGIAVAKASGAYPVIVSEPSDFRRELAKKVGADYVINPFEEDVVKEVMDITDGNGVDVFLEFSGAPKALEQGLQAVTPAGRVSLLGLYPGKVTIDFNNLIIFKALTIYGITGRHLWETWYTVSRLLQSGKLNLDPIITHKYKGFDKYEEAFELMRAGKTGKVVFMLK
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_L-Threonine
+  name: L-Threonine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-2-Amino-3-oxobutanoate
+  name: L-2-Amino-3-oxobutanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1641_EC1_1_1_103_Pyrococcus_horikoshii_O58389_L-Threonine
+  name: Reaction catalyzed by L-threonine 3-dehydrogenase on L-Threonine
+  equation: L-Threonine + NAD+ = NADH + H+ + L-2-Amino-3-oxobutanoate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Threonine
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_L-2-Amino-3-oxobutanoate
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_1_1_103_O58389_p4154
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 13161;13162;13163;13164
+  KEGGid: R01465
+  notes: 'ChEBI IDs: CHEBI:40668; CHEBI:78948; CHEBI:32833; CHEBI:13048; CHEBI:16857;
+    CHEBI:44281; CHEBI:16944; CHEBI:13393; CHEBI:45983; CHEBI:29234; CHEBI:26986;
+    CHEBI:15846; CHEBI:21403; CHEBI:45843; CHEBI:13357; CHEBI:21902; CHEBI:11507;
+    CHEBI:13396; CHEBI:21901; CHEBI:6308; CHEBI:24636; CHEBI:32822; CHEBI:44214; CHEBI:29233;
+    CHEBI:13394; CHEBI:5584; CHEBI:21195; CHEBI:57945; CHEBI:44216; CHEBI:17844; CHEBI:57540;
+    CHEBI:7423; CHEBI:32820; CHEBI:30013; CHEBI:13389; CHEBI:998; CHEBI:57926; CHEBI:15378;
+    CHEBI:13395; CHEBI:42083; CHEBI:32832; CHEBI:6156; CHEBI:40673; CHEBI:44215; CHEBI:10744;
+    CHEBI:35229; CHEBI:7422; CHEBI:13175; CHEBI:16908
+
+    KEGG IDs: KEGG:C00188; KEGG:C03214; KEGG:C00080; KEGG:C00003; KEGG:C03508; KEGG:C00004'
+- id: sabiork_7128_EC1_1_1_103_Pyrococcus_horikoshii_O58389_L-Threonine
+  name: Reaction catalyzed by L-threonine 3-dehydrogenase on L-Threonine
+  equation: NADP+ + L-Threonine = H+ + NADPH + L-2-Amino-3-oxobutanoate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Threonine
+  - species_id: substrate_NADP_
+  products:
+  - species_id: product_L-2-Amino-3-oxobutanoate
+  - species_id: product_NADPH
+  modifiers:
+  - species_id: protein_1_1_1_103_O58389_p4155
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:40668; CHEBI:78948; CHEBI:32833; CHEBI:13397; CHEBI:13398;
+    CHEBI:13048; CHEBI:16857; CHEBI:7424; CHEBI:16944; CHEBI:44405; CHEBI:21903; CHEBI:7425;
+    CHEBI:45983; CHEBI:29234; CHEBI:26986; CHEBI:21403; CHEBI:25523; CHEBI:13357;
+    CHEBI:11507; CHEBI:6308; CHEBI:24636; CHEBI:32822; CHEBI:29233; CHEBI:5584; CHEBI:13399;
+    CHEBI:21195; CHEBI:16474; CHEBI:44286; CHEBI:17844; CHEBI:32820; CHEBI:30013;
+    CHEBI:21904; CHEBI:44409; CHEBI:998; CHEBI:57926; CHEBI:15378; CHEBI:42083; CHEBI:18009;
+    CHEBI:32832; CHEBI:6156; CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:40673; CHEBI:10744;
+    CHEBI:35229; CHEBI:45843; CHEBI:13175
+
+    KEGG IDs: KEGG:C00188; KEGG:C00005; KEGG:C03214; KEGG:C00080; KEGG:C00006; KEGG:C03508;
+    KEGG:C11037'
+measurements:
+- id: measurement_1_1_1_103_Pyrococcus_horikoshii_O58389_L-Threonine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 65.0
+  temperature_unit: °C
+- id: measurement_1_1_1_103_Pyrococcus_horikoshii_O58389_L-Threonine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 65.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1_103_Pyrococcus_horikoshii_O58389_L-Threonine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 54833330.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Threonine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16233775'
+- id: 1_1_1_103_Pyrococcus_horikoshii_O58389_L-Threonine_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 551.6667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Threonine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16233775'
+- id: 1_1_1_103_Pyrococcus_horikoshii_O58389_L-Threonine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.02916725
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Threonine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16233775'
+- id: 1_1_1_103_Pyrococcus_horikoshii_O58389_L-Threonine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.02200044
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Threonine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16233775'
+- id: 1_1_1_103_Pyrococcus_horikoshii_O58389_L-Threonine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 415.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Threonine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16233775'
+- id: 1_1_1_103_Pyrococcus_horikoshii_O58389_L-Threonine_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 603333.3
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Threonine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 65.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16233775'
+buffer:
+  buffer: 25 mM sodium phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 4154
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16233775/
+  pubmed_id: '16233775'
+  doi: null
+name: Merged entry for O58389 wildtype
+description: 'Merged from 2 files: SABIO_EC1.1.1.103_Pyrococcus_horikoshii__O58389_s_L-Threonine.yaml,
+  SABIO_EC1.1.1.103_Pyrococcus_horikoshii__O58389_s_L-Threonine_2.yaml'

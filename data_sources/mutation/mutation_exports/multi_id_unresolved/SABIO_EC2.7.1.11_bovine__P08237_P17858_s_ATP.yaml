@@ -1,0 +1,167 @@
+name: SABIO-RK Entry 46778
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 46778
+created: '2025-10-28T15:38:53.533192'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_11_P08237_P17858_p46778
+  name: 6-phosphofructokinase
+  sequence: null
+  ecnumber: 2.7.1.11
+  organism: bovine
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P08237; P17858
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Fructose_6-phosphate
+  name: D-Fructose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Fructose_1
+  name: D-Fructose 1
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_6-bisphosphate
+  name: 6-bisphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1113_EC2_7_1_11_bovine_P08237_P17858_ATP
+  name: Reaction catalyzed by 6-phosphofructokinase on ATP
+  equation: ATP + D-Fructose 6-phosphate = ADP + D-Fructose 1,6-bisphosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_D-Fructose_6-phosphate
+  products:
+  - species_id: product_ADP
+  - species_id: product_D-Fructose_1
+  - species_id: product_6-bisphosphate
+  modifiers:
+  - species_id: protein_2_7_1_11_P08237_P17858_p46778
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00756
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:15946; CHEBI:16761; CHEBI:10789;
+    CHEBI:57299; CHEBI:12926; CHEBI:40553; CHEBI:32966; CHEBI:20935; CHEBI:28013;
+    CHEBI:37736; CHEBI:13236; CHEBI:10374; CHEBI:10841; CHEBI:41014; CHEBI:2359; CHEBI:87518;
+    CHEBI:40938; CHEBI:42406; CHEBI:456216; CHEBI:22767; CHEBI:22249; CHEBI:2342;
+    CHEBI:15422; CHEBI:57579; CHEBI:42553; CHEBI:16905; CHEBI:4124; CHEBI:13222; CHEBI:22244
+
+    KEGG IDs: KEGG:C00002; KEGG:C05378; KEGG:C00085; KEGG:C00008; KEGG:C00354'
+measurements:
+- id: measurement_2_7_1_11_bovine_P08237_P17858_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 2_7_1_11_bovine_P08237_P17858_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00012
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '4241008'
+buffer:
+  buffer: 40 mM Tris-HCl, 2 mM MgSO4, 1 mM Dithiothreitol, 0.01% Bovine serum albumin,
+    1.7 units/ml Phosphoglucose isomerase, 0.2 units/ml Aldolase, 0.4 units/ml Triosephosphate
+    isomerase, 1.3 units/ml alpha-Gycerophosphate dehydrogenase, 0.1 mM NADH
+  buffer_concentration: 40 mM
+references:
+- title: Reference for SABIO-RK entry 46778
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/4241008/
+  pubmed_id: '4241008'
+  doi: null

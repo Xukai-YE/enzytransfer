@@ -1,0 +1,203 @@
+name: SABIO-RK Entry 70410
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 70410
+created: '2025-10-28T17:17:04.386117'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_5_1_20_P0AEZ1_p70410
+  name: methylenetetrahydrofolate reductase [NAD(P)H]
+  sequence: null
+  ecnumber: 1.5.1.20
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: p120A
+  uniprotid: P0AEZ1
+  mutant_sequence: MSFFHASQRDALNQSLAEVQGQINVSFEFFPPRTSEMEQTLWNSIDRLSSLKPKFVSVTYGANSGERDRTHSIIKGIKDRTGLEAAPHLTCIDATPDELRTIARDYWNNGIRHIVALRGDLAPGSGKPEMYASDLVTLLKEVADFDISVAAYPEVHPEAKSAQADLLNLKRKVDAGANRAITQFFFDVESYLRFRDRCVSAGIDVEIIPGILPVSNFKQAKKFADMTNVRIPAWMAQMFDGLDDDAETRKLVGANIAMDMVKILSREGVKDFHFYTLNRAEMSYAICHTLGVRPGL
+  position_offset: 2
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_5
+  name: '5'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_10-Methylenetetrahydrofolate
+  name: 10-Methylenetetrahydrofolate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_FAD
+  name: FAD
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_5-Methyltetrahydrofolate
+  name: 5-Methyltetrahydrofolate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_9210_EC1_5_1_20_Escherichia_coli_P0AEZ1_5
+  name: Reaction catalyzed by methylenetetrahydrofolate reductase [NAD(P)H] on 5
+  equation: 5-Methyltetrahydrofolate + NAD+ = NADH + H+ + 5,10-Methylenetetrahydrofolate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_5
+  - species_id: substrate_10-Methylenetetrahydrofolate
+  - species_id: substrate_NADH
+  - species_id: cofactor_FAD
+  products:
+  - species_id: product_NAD_
+  - species_id: product_5-Methyltetrahydrofolate
+  modifiers:
+  - species_id: protein_1_5_1_20_P0AEZ1_p70410
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 19821;19822;19823;19824
+  KEGGid: R07168
+  notes: 'ChEBI IDs: CHEBI:18608; CHEBI:16238; CHEBI:10925; CHEBI:15636; CHEBI:44281;
+    CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:13357; CHEBI:24040; CHEBI:21902;
+    CHEBI:13396; CHEBI:21901; CHEBI:136009; CHEBI:12071; CHEBI:24636; CHEBI:44214;
+    CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:12146; CHEBI:21125; CHEBI:57945; CHEBI:18602;
+    CHEBI:44216; CHEBI:13315; CHEBI:2097; CHEBI:57540; CHEBI:1989; CHEBI:7423; CHEBI:42388;
+    CHEBI:15641; CHEBI:13389; CHEBI:15378; CHEBI:13395; CHEBI:4956; CHEBI:10744; CHEBI:44215;
+    CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00440; KEGG:C00080; KEGG:C00016; KEGG:C00003; KEGG:C00143; KEGG:C00004'
+measurements:
+- id: measurement_1_5_1_20_Escherichia_coli_P0AEZ1_5
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_5_1_20_Escherichia_coli_P0AEZ1_5_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.5e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_5
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11371182'
+- id: 1_5_1_20_Escherichia_coli_P0AEZ1_5_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.057
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_5
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11371182'
+- id: 1_5_1_20_Escherichia_coli_P0AEZ1_5_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.7e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_5
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11371182'
+buffer:
+  buffer: 50 mM potassium phosphate, 0.3 mM EDTA, 10% glycerol
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 70410
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11371182/
+  pubmed_id: '11371182'
+  doi: null

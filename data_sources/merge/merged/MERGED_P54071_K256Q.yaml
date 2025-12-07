@@ -1,0 +1,229 @@
+version: '2.0'
+created: '2025-11-20T13:42:01.776169'
+modified: null
+creators:
+- given_name: SKiD
+  family_name: Database
+  mail: skid@database.org
+vessels: null
+proteins:
+- id: protein_P54071
+  name: Mus musculus
+  ecnumber: 1.1.1.42
+  organism: Mus musculus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: K256Q
+  uniprotid: P54071
+  wildtype_sequence: MAGYLRAVSSLCRASGSARTWAPAALTVPSWPEQPRRHYAEKRIKVEKPVVEMDGDEMTRIIWQFIKEKLILPHVDVQLKYFDLGLPNRDQTNDQVTIDSALATQKYSVAVKCATITPDEARVEEFKLKKMWKSPNGTIRNILGGTVFREPIICKNIPRLVPGWTKPITIGRHAHGDQYKATDFVVDRAGTFKLVFTPKDGSSAKEWEVYNFPAGGVGMGMYNTDESISGFAHSCFQYSIQKKWPLYLSTKNTILKAYDGRFKDIFQEIFDKHYKTDFDKNKIWYEHRLIDDMVAQVLKSSGGFVWACKNYDGDVQSDILAQGFGSLGLMTSVLVCPDGKTIEAEAAHGTVTRHYREHQKGRPTSTNPIASIFAWTRGLEHRGKLDGNQDLIRFAQTLEKVCVQTVESGAMTKDLAGCIHGLSNVKLNEHFLNTTDFLDTIKSNLDRALGKQ
+  mutant_sequence: MAGYLRAVSSLCRASGSARTWAPAALTVPSWPEQPRRHYAEKRIKVEKPVVEMDGDEMTRIIWQFIKEKLILPHVDVQLKYFDLGLPNRDQTNDQVTIDSALATQKYSVAVKCATITPDEARVEEFKLKKMWKSPNGTIRNILGGTVFREPIICKNIPRLVPGWTKPITIGRHAHGDQYKATDFVVDRAGTFKLVFTPKDGSSAKEWEVYNFPAGGVGMGMYNTDESISGFAHSCFQYSIQKKWPLYLSTKNTILQAYDGRFKDIFQEIFDKHYKTDFDKNKIWYEHRLIDDMVAQVLKSSGGFVWACKNYDGDVQSDILAQGFGSLGLMTSVLVCPDGKTIEAEAAHGTVTRHYREHQKGRPTSTNPIASIFAWTRGLEHRGKLDGNQDLIRFAQTLEKVCVQTVESGAMTKDLAGCIHGLSNVKLNEHFLNTTDFLDTIKSNLDRALGKQ
+complexes: null
+small_molecules:
+- id: substrate_NADP_
+  name: NADP+
+  canonical_smiles: C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)(O)O)O)O)O)C(=O)N
+  inchi: InChI=1S/C21H28N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1-4,7-8,10-11,13-16,20-21,29-31H,5-6H2,(H7-,22,23,24,25,32,33,34,35,36,37,38,39)/p+1
+  inchikey: XJLXINKUBYWONI-UHFFFAOYSA-O
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/5886
+- id: product
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_isocitrate
+  name: isocitrate
+  canonical_smiles: C(C(O)C(C(=O)[O-])CC(=O)[O-])(=O)[O-]
+  inchi: InChI=1S/C6H8O7/c7-3(8)1-2(5(10)11)4(9)6(12)13/h2,4,9H,1H2,(H,7,8)(H,10,11)(H,12,13)/p-3
+  inchikey: ODBLHEXUDAPZAU-UHFFFAOYSA-K
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/1198
+reactions:
+- id: reaction_P54071_NADP_
+  name: Reaction catalyzed by enzyme on NADP+
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADP_
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_P54071
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_P54071_isocitrate
+  name: Reaction catalyzed by enzyme on isocitrate
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_isocitrate
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_P54071
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+measurements:
+- id: measurement_0
+  name: Experimental conditions (pH=7.4, T=25.0°C)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=7.4, T=25.0°C)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: P54071_NADP__K256Q_kcat_8554
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 3.13
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: 'Mutation: K256Q; Source: kcat'
+  pubmed_id: '28852116'
+- id: P54071_NADP__K256Q_Km_22488
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.0148
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: 'Mutation: K256Q; Source: Km'
+  pubmed_id: '28852116'
+- id: P54071_isocitrate_K256Q_kcat_8555
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2.66
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_isocitrate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: 'Mutation: K256Q; Source: kcat'
+  pubmed_id: '28852116'
+- id: P54071_isocitrate_K256Q_Km_22489
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.0304
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_isocitrate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: 'Mutation: K256Q; Source: Km'
+  pubmed_id: '28852116'
+buffer:
+  buffer: null
+  buffer_concentration: null
+references:
+- title: M.
+  authors: Xu, Y., Liu, L., Nakamura, A., Someya, S., Miyakawa, T., Tanokura
+  year: '2017'
+  journal: Studies on the regulatory mechanism of isocitrate dehydrogenase 2 using
+    acetylation mimics. Sci
+  uri: null
+  pubmed_id: '28852116'
+  doi: null
+  id: '169'
+  pages: '9785'
+  volume: '7'
+  citation: 'Xu, Y.,Liu, L.,Nakamura, A.,Someya, S.,Miyakawa, T.,Tanokura, M., Studies
+    on the regulatory mechanism of isocitrate dehydrogenase 2 using acetylation mimics.
+    Sci, Rep., 2017, 9785, 7, PMID: 28852116'
+name: Merged entry for P54071 K256Q
+description: 'Merged from 2 files: SKID_EC1.1.1.42_Mus_P54071_K256Q_NADP_.yaml, SKID_EC1.1.1.42_Mus_P54071_K256Q_isocitrate.yaml'

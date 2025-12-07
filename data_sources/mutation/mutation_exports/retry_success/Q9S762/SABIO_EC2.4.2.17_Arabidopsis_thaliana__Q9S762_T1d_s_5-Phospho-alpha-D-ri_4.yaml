@@ -1,0 +1,147 @@
+name: SABIO-RK Entry 74698
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 74698
+created: '2025-10-28T17:41:35.329766'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_4_2_17_Q9S762_p74698
+  name: ATP phosphoribosyltransferase
+  sequence: null
+  ecnumber: 2.4.2.17
+  organism: Arabidopsis thaliana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: T1d
+  uniprotid: Q9S762
+  mutant_sequence: MSLLLPDNLQQYPSSSSFPSSTPILSPPPSTAFSVIVPRRRCLRLVTSCVSTVQSSVATNGSSPAPAPAAVVVERDQIRLGLPSKGRMAADAIDLLKDCQLFVKQVNPRQYVAQIPQLPNTEVWFQRPKDIVRKLLSGDLDLGIVGLDTLSEYGQENEDLIIVHEALNFGDCHLSIAIPNYGIFENINSLKELAQMPQWSEERPLRLATGFTYLGPKFMKENGIKHVVFSTADGALEAAPAMGIADAILDLVSSGITLKENNLKEIEGGVVLESQAALVASRRALNERKGALNTVHEILERLEAHLKADGQFTVVANMRGNSAQEVAERVLSQPSLSGLQGPTISPVYCTQNGKVSVDYYAIVICVPKKALYDSVKQLRAAGGSGVLVSPLTYIFDEDTPRWGQLLRNLGI
+  position_offset: 6
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_5-Phospho-alpha-D-ribose_1-diphosphate
+  name: 5-Phospho-alpha-D-ribose 1-diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Phosphoribosyl-ATP
+  name: Phosphoribosyl-ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_L-Histidine
+  name: L-Histidine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1340_EC2_4_2_17_Arabidopsis_thaliana_Q9S762_5-Phospho-alpha-D-ribose_1-diphosphate
+  name: Reaction catalyzed by ATP phosphoribosyltransferase on 5-Phospho-alpha-D-ribose
+    1-diphosphate
+  equation: Diphosphate + Phosphoribosyl-ATP = ATP + 5-Phospho-alpha-D-ribose 1-diphosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_5-Phospho-alpha-D-ribose_1-diphosphate
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_Phosphoribosyl-ATP
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_2_4_2_17_Q9S762_p74698
+    role: BIOCATALYST
+  - species_id: activator_L-Histidine
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01071
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:6240; CHEBI:10789; CHEBI:57299;
+    CHEBI:8683; CHEBI:21324; CHEBI:13117; CHEBI:43048; CHEBI:43114; CHEBI:32510; CHEBI:33019;
+    CHEBI:57595; CHEBI:17111; CHEBI:13236; CHEBI:45067; CHEBI:12160; CHEBI:12159;
+    CHEBI:10841; CHEBI:29888; CHEBI:32512; CHEBI:45139; CHEBI:2359; CHEBI:35782; CHEBI:29979;
+    CHEBI:40938; CHEBI:13420; CHEBI:43239; CHEBI:18361; CHEBI:32513; CHEBI:33017;
+    CHEBI:2121; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:20625; CHEBI:43190; CHEBI:58017;
+    CHEBI:15971; CHEBI:45212; CHEBI:42009; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00002; KEGG:C02739; KEGG:C00135; KEGG:C00119'
+measurements:
+- id: measurement_2_4_2_17_Arabidopsis_thaliana_Q9S762_5-Phospho-alpha-D-ribose_1-diphosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 111.1 mM Tris-HCl , 22.2 mM MgCl2 , 83.3 mM KCl , 1 mM DTT
+  buffer_concentration: 111.1 mM
+references:
+- title: Reference for SABIO-RK entry 74698
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10712555/
+  pubmed_id: '10712555'
+  doi: null

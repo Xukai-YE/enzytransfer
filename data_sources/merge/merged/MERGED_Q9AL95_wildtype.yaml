@@ -1,0 +1,783 @@
+version: '2.0'
+created: '2025-11-20T13:39:39.481618'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_18_1_1_Q9AL95_p66553
+  name: rubredoxin---NAD+ reductase
+  ecnumber: 1.18.1.1
+  organism: Clostridium acetobutylicum
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9AL95
+  wildtype_sequence: MKSTKILILGAGPAGFSAAKAALGKCDDITMINSEKYLPYYRPRLNEIIAKNKSIDDILIKKNDWYEKNNIKVITSEFATSIDPNNKLVTLKSGEKIKYEKLIIASGSIANKIKVPHADEIFSLYSYDDALKIKDECKNKGKAFIIGGGILGIELAQAIIDSGTPASIGIILEYPLERQLDRDGGLFLKDKLDRLGIKIYTNSNFEEMGDLIRSSCVITAVGVKPNLDFIKDTEIASKRGILVNDHMETSIKDIYACGDVAEFYGKNPGLINIANKQGEVAGLNACGEDASYSEIIPSPILKVSGISIISCGDIENNKPSKVFRSTQEDKYIVCMLKENKIDAAAVIGDVSLGTKLKKAIDSSKSFDNISSLDAILNNL
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Oxidized_rubredoxin
+  name: Oxidized rubredoxin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Reduced_rubredoxin
+  name: Reduced rubredoxin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2039_EC1_18_1_1_Clostridium_acetobutylicum_Q9AL95_Oxidized_rubredoxin
+  name: Reaction catalyzed by rubredoxin---NAD+ reductase on Oxidized rubredoxin
+  equation: NAD+ + Reduced rubredoxin = NADH + H+ + Oxidized rubredoxin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxidized_rubredoxin
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_Reduced_rubredoxin
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_18_1_1_Q9AL95_p66553
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02000
+  notes: 'ChEBI IDs: CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:13357;
+    CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636; CHEBI:44214; CHEBI:29233;
+    CHEBI:5584; CHEBI:13394; CHEBI:57945; CHEBI:44216; CHEBI:57540; CHEBI:7423; CHEBI:13389;
+    CHEBI:15378; CHEBI:13395; CHEBI:10744; CHEBI:44215; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C00340; KEGG:C00435; KEGG:C00003; KEGG:C00004'
+- id: sabiork_2039_EC1_18_1_1_Clostridium_acetobutylicum_Q9AL95_NADH
+  name: Reaction catalyzed by rubredoxin---NAD+ reductase on NADH
+  equation: NAD+ + Reduced rubredoxin = NADH + H+ + Oxidized rubredoxin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  - species_id: substrate_Oxidized_rubredoxin
+  products:
+  - species_id: product_Reduced_rubredoxin
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_18_1_1_Q9AL95_p66557
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02000
+  notes: 'ChEBI IDs: CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:13357;
+    CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636; CHEBI:44214; CHEBI:29233;
+    CHEBI:5584; CHEBI:13394; CHEBI:57945; CHEBI:44216; CHEBI:57540; CHEBI:7423; CHEBI:13389;
+    CHEBI:13395; CHEBI:15378; CHEBI:10744; CHEBI:44215; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C00340; KEGG:C00435; KEGG:C00003; KEGG:C00004'
+- id: sabiork_2040_EC1_18_1_1_Clostridium_acetobutylicum_Q9AL95_Oxidized_rubredoxin
+  name: Reaction catalyzed by rubredoxin---NAD+ reductase on Oxidized rubredoxin
+  equation: NADP+ + Reduced rubredoxin = NADPH + H+ + Oxidized rubredoxin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxidized_rubredoxin
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_Reduced_rubredoxin
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_18_1_1_Q9AL95_p66554
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02002
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:7424; CHEBI:44405; CHEBI:21903;
+    CHEBI:7425; CHEBI:29234; CHEBI:13357; CHEBI:25523; CHEBI:24636; CHEBI:29233; CHEBI:5584;
+    CHEBI:13399; CHEBI:16474; CHEBI:44286; CHEBI:21904; CHEBI:44409; CHEBI:15378;
+    CHEBI:18009; CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00005; KEGG:C00080; KEGG:C00340; KEGG:C00006; KEGG:C00435; KEGG:C11037'
+- id: sabiork_2039_EC1_18_1_1_Clostridium_acetobutylicum_Q9AL95_Oxidized_rubredoxin
+  name: Reaction catalyzed by rubredoxin---NAD+ reductase on Oxidized rubredoxin
+  equation: NAD+ + Reduced rubredoxin = NADH + H+ + Oxidized rubredoxin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxidized_rubredoxin
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_Reduced_rubredoxin
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_18_1_1_Q9AL95_p66555
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02000
+  notes: 'ChEBI IDs: CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:13357;
+    CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636; CHEBI:44214; CHEBI:29233;
+    CHEBI:5584; CHEBI:13394; CHEBI:57945; CHEBI:44216; CHEBI:57540; CHEBI:7423; CHEBI:13389;
+    CHEBI:15378; CHEBI:13395; CHEBI:10744; CHEBI:44215; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C00340; KEGG:C00435; KEGG:C00003; KEGG:C00004'
+- id: sabiork_2039_EC1_18_1_1_Clostridium_acetobutylicum_Q9AL95_Oxidized_rubredoxin
+  name: Reaction catalyzed by rubredoxin---NAD+ reductase on Oxidized rubredoxin
+  equation: NAD+ + Reduced rubredoxin = NADH + H+ + Oxidized rubredoxin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxidized_rubredoxin
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_Reduced_rubredoxin
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_18_1_1_Q9AL95_p66556
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02000
+  notes: 'ChEBI IDs: CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:13357;
+    CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636; CHEBI:44214; CHEBI:29233;
+    CHEBI:5584; CHEBI:13394; CHEBI:57945; CHEBI:44216; CHEBI:57540; CHEBI:7423; CHEBI:13389;
+    CHEBI:13395; CHEBI:15378; CHEBI:10744; CHEBI:44215; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C00340; KEGG:C00435; KEGG:C00003; KEGG:C00004'
+- id: sabiork_2039_EC1_18_1_1_Clostridium_acetobutylicum_Q9AL95_Oxidized_rubredoxin
+  name: Reaction catalyzed by rubredoxin---NAD+ reductase on Oxidized rubredoxin
+  equation: NAD+ + Reduced rubredoxin = NADH + H+ + Oxidized rubredoxin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxidized_rubredoxin
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_Reduced_rubredoxin
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_18_1_1_Q9AL95_p66558
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02000
+  notes: 'ChEBI IDs: CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:13357;
+    CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636; CHEBI:44214; CHEBI:29233;
+    CHEBI:5584; CHEBI:13394; CHEBI:57945; CHEBI:44216; CHEBI:57540; CHEBI:7423; CHEBI:13389;
+    CHEBI:15378; CHEBI:13395; CHEBI:10744; CHEBI:44215; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C00340; KEGG:C00435; KEGG:C00003; KEGG:C00004'
+- id: sabiork_2039_EC1_18_1_1_Clostridium_acetobutylicum_Q9AL95_Oxidized_rubredoxin
+  name: Reaction catalyzed by rubredoxin---NAD+ reductase on Oxidized rubredoxin
+  equation: NAD+ + Reduced rubredoxin = NADH + H+ + Oxidized rubredoxin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxidized_rubredoxin
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_Reduced_rubredoxin
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_18_1_1_Q9AL95_p66559
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02000
+  notes: 'ChEBI IDs: CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:13357;
+    CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636; CHEBI:44214; CHEBI:29233;
+    CHEBI:5584; CHEBI:13394; CHEBI:57945; CHEBI:44216; CHEBI:57540; CHEBI:7423; CHEBI:13389;
+    CHEBI:13395; CHEBI:15378; CHEBI:10744; CHEBI:44215; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C00340; KEGG:C00435; KEGG:C00003; KEGG:C00004'
+measurements:
+- id: measurement_1_18_1_1_Clostridium_acetobutylicum_Q9AL95_Oxidized_rubredoxin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_18_1_1_Clostridium_acetobutylicum_Q9AL95_NADH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_18_1_1_Clostridium_acetobutylicum_Q9AL95_Oxidized_rubredoxin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_18_1_1_Clostridium_acetobutylicum_Q9AL95_Oxidized_rubredoxin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_18_1_1_Clostridium_acetobutylicum_Q9AL95_Oxidized_rubredoxin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_18_1_1_Clostridium_acetobutylicum_Q9AL95_Oxidized_rubredoxin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_18_1_1_Clostridium_acetobutylicum_Q9AL95_Oxidized_rubredoxin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_18_1_1_Clostridium_acetobutylicum_Q9AL95_Oxidized_rubredoxin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.74e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_rubredoxin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11444870'
+- id: 1_18_1_1_Clostridium_acetobutylicum_Q9AL95_Oxidized_rubredoxin_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 22988000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_rubredoxin
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11444870'
+- id: 1_18_1_1_Clostridium_acetobutylicum_Q9AL95_Oxidized_rubredoxin_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.00950019
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_rubredoxin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11444870'
+- id: 1_18_1_1_Clostridium_acetobutylicum_Q9AL95_Oxidized_rubredoxin_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 400.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_rubredoxin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11444870'
+- id: 1_18_1_1_Clostridium_acetobutylicum_Q9AL95_NADH_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 171944000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11444870'
+- id: 1_18_1_1_Clostridium_acetobutylicum_Q9AL95_NADH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.6e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11444870'
+- id: 1_18_1_1_Clostridium_acetobutylicum_Q9AL95_NADH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 619.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11444870'
+- id: 1_18_1_1_Clostridium_acetobutylicum_Q9AL95_NADH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.01466696
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11444870'
+- id: 1_18_1_1_Clostridium_acetobutylicum_Q9AL95_Oxidized_rubredoxin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00207
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_rubredoxin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11444870'
+- id: 1_18_1_1_Clostridium_acetobutylicum_Q9AL95_Oxidized_rubredoxin_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 366.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_rubredoxin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11444870'
+- id: 1_18_1_1_Clostridium_acetobutylicum_Q9AL95_Oxidized_rubredoxin_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 177000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_rubredoxin
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11444870'
+- id: 1_18_1_1_Clostridium_acetobutylicum_Q9AL95_Oxidized_rubredoxin_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.00866684
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_rubredoxin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11444870'
+- id: 1_18_1_1_Clostridium_acetobutylicum_Q9AL95_Oxidized_rubredoxin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.0e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_rubredoxin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11444870'
+- id: 1_18_1_1_Clostridium_acetobutylicum_Q9AL95_Oxidized_rubredoxin_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 400.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_rubredoxin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11444870'
+- id: 1_18_1_1_Clostridium_acetobutylicum_Q9AL95_Oxidized_rubredoxin_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.00950019
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_rubredoxin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11444870'
+- id: 1_18_1_1_Clostridium_acetobutylicum_Q9AL95_Oxidized_rubredoxin_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 400000000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_rubredoxin
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11444870'
+- id: 1_18_1_1_Clostridium_acetobutylicum_Q9AL95_Oxidized_rubredoxin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.3e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_rubredoxin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11444870'
+- id: 1_18_1_1_Clostridium_acetobutylicum_Q9AL95_Oxidized_rubredoxin_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 136604000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_rubredoxin
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11444870'
+- id: 1_18_1_1_Clostridium_acetobutylicum_Q9AL95_Oxidized_rubredoxin_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 724.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_rubredoxin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11444870'
+- id: 1_18_1_1_Clostridium_acetobutylicum_Q9AL95_Oxidized_rubredoxin_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.01716701
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_rubredoxin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11444870'
+- id: 1_18_1_1_Clostridium_acetobutylicum_Q9AL95_Oxidized_rubredoxin_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 682.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_rubredoxin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11444870'
+- id: 1_18_1_1_Clostridium_acetobutylicum_Q9AL95_Oxidized_rubredoxin_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.01616699
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_rubredoxin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11444870'
+- id: 1_18_1_1_Clostridium_acetobutylicum_Q9AL95_Oxidized_rubredoxin_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 174872000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_rubredoxin
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11444870'
+- id: 1_18_1_1_Clostridium_acetobutylicum_Q9AL95_Oxidized_rubredoxin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.9e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_rubredoxin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11444870'
+- id: 1_18_1_1_Clostridium_acetobutylicum_Q9AL95_Oxidized_rubredoxin_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 273333000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_rubredoxin
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11444870'
+- id: 1_18_1_1_Clostridium_acetobutylicum_Q9AL95_Oxidized_rubredoxin_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 984.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_rubredoxin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11444870'
+- id: 1_18_1_1_Clostridium_acetobutylicum_Q9AL95_Oxidized_rubredoxin_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.0233338
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_rubredoxin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11444870'
+- id: 1_18_1_1_Clostridium_acetobutylicum_Q9AL95_Oxidized_rubredoxin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.6e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_rubredoxin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11444870'
+buffer:
+  buffer: 100 mM Tris-acetate, 185 ¦ÌM metmyoglobin
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 66553
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11444870/
+  pubmed_id: '11444870'
+  doi: null
+name: Merged entry for Q9AL95 wildtype
+description: 'Merged from 7 files: SABIO_EC1.18.1.1_Clostridium_acetobutylicum__Q9AL95_s_Oxidized.yaml,
+  SABIO_EC1.18.1.1_Clostridium_acetobutylicum__Q9AL95_s_NADH.yaml, SABIO_EC1.18.1.1_Clostridium_acetobutylicum__Q9AL95_s_Oxidized_2.yaml,
+  SABIO_EC1.18.1.1_Clostridium_acetobutylicum__Q9AL95_s_Oxidized_3.yaml, SABIO_EC1.18.1.1_Clostridium_acetobutylicum__Q9AL95_s_Oxidized_4.yaml,
+  SABIO_EC1.18.1.1_Clostridium_acetobutylicum__Q9AL95_s_Oxidized_5.yaml, SABIO_EC1.18.1.1_Clostridium_acetobutylicum__Q9AL95_s_Oxidized_6.yaml'

@@ -1,0 +1,407 @@
+version: '2.0'
+created: '2025-11-20T13:39:49.501662'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_4_3_1_O01739_p62938
+  name: D-aspartate oxidase
+  ecnumber: 1.4.3.1
+  organism: rat
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: O01739
+  wildtype_sequence: MLYALLLLFGGVSTVSSLRVAVVGEGVIGLSTATAILDLAEKRNIPAPEIHIFHHKPFEKILSRHIAGLFRIDSGSEIDRKYGYDTFEKLATLWREYGGLSGVQLVSGHILSDSKTKLDSQRESYGSLVYNYRDLAEPELFGPTSLFDLPRNTTTRGIHYTAYTSEGLRFCPFLKKELMTKGVRFTQRRIGNLEELGAEFDVVVNSAGLLGGVLAGDDAGNMKPIRGVLIRVDAPWQKHFLYRDFSTITIPVIDHVYMGTVKQEGAFGPNNVTSADIQDITSRYVALQPSFKRVHMLSSFVGYRPGRKQVRVEKQIRETNGSKKFTVVHNYGHSGNGFTLGYGSAVHAAHIVLDLPLDAYHGLVPEPLPINATISEWVKYLDD
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_D-Glutamate
+  name: D-Glutamate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_FAD
+  name: FAD
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NH3
+  name: NH3
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Oxoglutarate
+  name: 2-Oxoglutarate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_N-Methyl-D-aspartic_acid
+  name: N-Methyl-D-aspartic acid
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Methylamine
+  name: Methylamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Oxaloacetate
+  name: Oxaloacetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Aspartate
+  name: D-Aspartate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_779_EC1_4_3_1_rat_O01739_D-Glutamate
+  name: Reaction catalyzed by D-aspartate oxidase on D-Glutamate
+  equation: D-Glutamate + O2 + H2O = NH3 + 2-Oxoglutarate + H2O2
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Glutamate
+  - species_id: substrate_O2
+  - species_id: cofactor_FAD
+  products:
+  - species_id: product_NH3
+  - species_id: product_2-Oxoglutarate
+  modifiers:
+  - species_id: protein_1_4_3_1_O01739_p62938
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 10028;10029;10030;10031
+  KEGGid: R00279
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44284; CHEBI:16238; CHEBI:21022;
+    CHEBI:44819; CHEBI:16134; CHEBI:41981; CHEBI:13354; CHEBI:29986; CHEBI:13405;
+    CHEBI:29192; CHEBI:7434; CHEBI:24637; CHEBI:11638; CHEBI:1253; CHEBI:26689; CHEBI:42857;
+    CHEBI:19748; CHEBI:41979; CHEBI:13407; CHEBI:16240; CHEBI:24040; CHEBI:4183; CHEBI:23833;
+    CHEBI:13416; CHEBI:13355; CHEBI:42043; CHEBI:16810; CHEBI:40661; CHEBI:48096;
+    CHEBI:33813; CHEBI:33811; CHEBI:27313; CHEBI:22534; CHEBI:15377; CHEBI:7435; CHEBI:49783;
+    CHEBI:135980; CHEBI:22533; CHEBI:13352; CHEBI:30916; CHEBI:21125; CHEBI:44404;
+    CHEBI:15379; CHEBI:13771; CHEBI:13315; CHEBI:21023; CHEBI:42388; CHEBI:43228;
+    CHEBI:44269; CHEBI:19749; CHEBI:44292; CHEBI:12979; CHEBI:30491; CHEBI:13406;
+    CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:44742; CHEBI:25366; CHEBI:44812;
+    CHEBI:29793; CHEBI:28938; CHEBI:7860; CHEBI:30915; CHEBI:15966; CHEBI:10745; CHEBI:5586;
+    CHEBI:4956; CHEBI:29989; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00014; KEGG:C00026; KEGG:C00001; KEGG:C01342; KEGG:C00027; KEGG:C00704;
+    KEGG:C00016; KEGG:C00007; KEGG:C00217'
+- id: sabiork_9600_EC1_4_3_1_rat_O01739_N-Methyl-D-aspartic_acid
+  name: Reaction catalyzed by D-aspartate oxidase on N-Methyl-D-aspartic acid
+  equation: N-Methyl-D-aspartic acid + O2 + H2O = Oxaloacetate + H2O2 + Methylamine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N-Methyl-D-aspartic_acid
+  - species_id: substrate_O2
+  - species_id: cofactor_FAD
+  products:
+  - species_id: product_Methylamine
+  - species_id: product_Oxaloacetate
+  modifiers:
+  - species_id: protein_1_4_3_1_O01739_p62942
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:24959; CHEBI:29375; CHEBI:16238; CHEBI:44819;
+    CHEBI:13354; CHEBI:41981; CHEBI:31882; CHEBI:29192; CHEBI:24637; CHEBI:16830;
+    CHEBI:57913; CHEBI:6864; CHEBI:26689; CHEBI:164776; CHEBI:16452; CHEBI:25402;
+    CHEBI:42857; CHEBI:41979; CHEBI:16240; CHEBI:24040; CHEBI:12820; CHEBI:23833;
+    CHEBI:13416; CHEBI:6121; CHEBI:13355; CHEBI:42043; CHEBI:14595; CHEBI:33811; CHEBI:33813;
+    CHEBI:27313; CHEBI:14703; CHEBI:15377; CHEBI:21125; CHEBI:13352; CHEBI:25734;
+    CHEBI:59338; CHEBI:44374; CHEBI:15379; CHEBI:13315; CHEBI:25731; CHEBI:42388;
+    CHEBI:43228; CHEBI:30744; CHEBI:44292; CHEBI:30491; CHEBI:33806; CHEBI:25366;
+    CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:44812; CHEBI:29793; CHEBI:7812;
+    CHEBI:7860; CHEBI:10745; CHEBI:24958; CHEBI:5586; CHEBI:4956; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C12269; KEGG:C00001; KEGG:C00218; KEGG:C00704; KEGG:C00027; KEGG:C00016;
+    KEGG:C00036; KEGG:C00007'
+- id: sabiork_828_EC1_4_3_1_rat_O01739_O2
+  name: Reaction catalyzed by D-aspartate oxidase on O2
+  equation: D-Aspartate + H2O + O2 = NH3 + Oxaloacetate + H2O2
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_D-Aspartate
+  - species_id: cofactor_FAD
+  products:
+  - species_id: product_NH3
+  - species_id: product_Oxaloacetate
+  modifiers:
+  - species_id: protein_1_4_3_1_O01739_p62934
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 12512;12513;12514;12515
+  KEGGid: R00359
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:24959; CHEBI:29375; CHEBI:44284; CHEBI:16238;
+    CHEBI:44819; CHEBI:13354; CHEBI:16134; CHEBI:41981; CHEBI:29192; CHEBI:20920;
+    CHEBI:13405; CHEBI:7434; CHEBI:29990; CHEBI:24637; CHEBI:17364; CHEBI:26689; CHEBI:16452;
+    CHEBI:42857; CHEBI:41979; CHEBI:13407; CHEBI:16240; CHEBI:24040; CHEBI:12820;
+    CHEBI:23833; CHEBI:20919; CHEBI:13416; CHEBI:13355; CHEBI:42043; CHEBI:4108; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:22534; CHEBI:135980; CHEBI:15377; CHEBI:7435;
+    CHEBI:49783; CHEBI:14703; CHEBI:22533; CHEBI:13352; CHEBI:25734; CHEBI:21125;
+    CHEBI:44404; CHEBI:12918; CHEBI:29994; CHEBI:15379; CHEBI:13771; CHEBI:13315;
+    CHEBI:25731; CHEBI:42388; CHEBI:43228; CHEBI:44269; CHEBI:30744; CHEBI:44292;
+    CHEBI:13406; CHEBI:30491; CHEBI:33806; CHEBI:25366; CHEBI:44742; CHEBI:5585; CHEBI:29374;
+    CHEBI:10743; CHEBI:44812; CHEBI:29793; CHEBI:28938; CHEBI:7812; CHEBI:7860; CHEBI:10745;
+    CHEBI:24958; CHEBI:5586; CHEBI:4956; CHEBI:48094; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00402; KEGG:C00014; KEGG:C00001; KEGG:C01342; KEGG:C00027; KEGG:C00704;
+    KEGG:C00016; KEGG:C00036; KEGG:C00007'
+measurements:
+- id: measurement_1_4_3_1_rat_O01739_D-Glutamate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.3
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_4_3_1_rat_O01739_N-Methyl-D-aspartic_acid
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.3
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_4_3_1_rat_O01739_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.3
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_4_3_1_rat_O01739_D-Glutamate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1117.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glutamate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.3
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20564561'
+- id: 1_4_3_1_rat_O01739_D-Glutamate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.76
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glutamate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.3
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20564561'
+- id: 1_4_3_1_rat_O01739_D-Glutamate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00068
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glutamate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.3
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20564561'
+- id: 1_4_3_1_rat_O01739_N-Methyl-D-aspartic_acid_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.52
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Methyl-D-aspartic_acid
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.3
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20564561'
+- id: 1_4_3_1_rat_O01739_N-Methyl-D-aspartic_acid_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00887
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Methyl-D-aspartic_acid
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.3
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20564561'
+- id: 1_4_3_1_rat_O01739_N-Methyl-D-aspartic_acid_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 172.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Methyl-D-aspartic_acid
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.3
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20564561'
+- id: 1_4_3_1_rat_O01739_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00381
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.3
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20564561'
+- id: 1_4_3_1_rat_O01739_O2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2.51
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.3
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20564561'
+- id: 1_4_3_1_rat_O01739_O2_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 658.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.3
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20564561'
+buffer:
+  buffer: 40 mM sodium pyrophosphate (air-saturated), 153 U/ml Aspergillus niger catalase
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 62938
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/20564561/
+  pubmed_id: '20564561'
+  doi: null
+name: Merged entry for O01739 wildtype
+description: 'Merged from 3 files: SABIO_EC1.4.3.1_rat__O01739_s_D-Glutamate.yaml,
+  SABIO_EC1.4.3.1_rat__O01739_s_N-Methyl-D-aspartic.yaml, SABIO_EC1.4.3.1_rat__O01739_s_O2.yaml'

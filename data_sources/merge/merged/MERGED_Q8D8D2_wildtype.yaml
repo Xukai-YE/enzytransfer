@@ -1,0 +1,280 @@
+version: '2.0'
+created: '2025-11-20T13:41:28.110858'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_1_1_96_Q8D8D2_p68540
+  name: carboxynorspermidine decarboxylase
+  ecnumber: 4.1.1.96
+  organism: Vibrio vulnificus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q8D8D2
+  wildtype_sequence: MNKEQLKTPFFMIDEAKLIQNLEIAKQLKEISGVKLVLALKCFSTWGVFDIIKPYLDGTTSSGPFEVKLGYEKFGGETHAYSVGYSEDDVREVADLCDKIIFNSQSQLAAHRHIVEGKASIGLRLNPGVSYASQDLANPARQFSRLGVQADHIDPAVFDSINGVMFHMNCENKDVDAFIALLDSISERFGAYLNKLDWVSMGGGVFFTWPGYDVEKLGLALKAFSEKHGVQMYLEPGEAIITKTTDLVVTVVDLVENGMKTAIVDSATEAHRLDTLIYKEPASVLEASENGEHEYVIGSCSCLAGDQFCVAKFDQPLHVGQRLHILDSAGYTMVKLNWFNGLKMPSVYCERTNGEIQKLNEFGYEDFKRSLSLWSVQ
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Carboxynorspermidine
+  name: Carboxynorspermidine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Bis_3-aminopropyl_amine
+  name: Bis(3-aminopropyl)amine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Pyridoxal_phosphate
+  name: Pyridoxal phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Carboxyspermidine
+  name: Carboxyspermidine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Spermidine
+  name: Spermidine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_15691_EC4_1_1_96_Vibrio_vulnificus_Q8D8D2_Carboxynorspermidine
+  name: Reaction catalyzed by carboxynorspermidine decarboxylase on Carboxynorspermidine
+  equation: Carboxynorspermidine = CO2 + Bis(3-aminopropyl)amine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Carboxynorspermidine
+  products:
+  - species_id: product_Bis_3-aminopropyl_amine
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_4_1_1_96_Q8D8D2_p68540
+    role: BIOCATALYST
+  - species_id: activator_Pyridoxal_phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R09082
+  notes: 'ChEBI IDs: CHEBI:57920; CHEBI:139538; CHEBI:358848; CHEBI:3117; CHEBI:22890;
+    CHEBI:3283; CHEBI:26424; CHEBI:65070; CHEBI:8668; CHEBI:18405; CHEBI:23011; CHEBI:597326;
+    CHEBI:13285; CHEBI:13282; CHEBI:16841; CHEBI:234571; CHEBI:13283; CHEBI:67204;
+    CHEBI:45145; CHEBI:13284; CHEBI:16526; CHEBI:14977; CHEBI:48829; CHEBI:13912
+
+    KEGG IDs: KEGG:C00011; KEGG:C18174; KEGG:C03375; KEGG:C00018'
+- id: sabiork_15692_EC4_1_1_96_Vibrio_vulnificus_Q8D8D2_Carboxyspermidine
+  name: Reaction catalyzed by carboxynorspermidine decarboxylase on Carboxyspermidine
+  equation: Carboxyspermidine = CO2 + Spermidine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Carboxyspermidine
+  products:
+  - species_id: product_Spermidine
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_4_1_1_96_Q8D8D2_p68541
+    role: BIOCATALYST
+  - species_id: activator_Pyridoxal_phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R09081
+  notes: 'ChEBI IDs: CHEBI:66868; CHEBI:16610; CHEBI:15095; CHEBI:139538; CHEBI:358848;
+    CHEBI:3283; CHEBI:26424; CHEBI:8668; CHEBI:9218; CHEBI:18405; CHEBI:23011; CHEBI:597326;
+    CHEBI:13285; CHEBI:13282; CHEBI:26732; CHEBI:57834; CHEBI:45647; CHEBI:234571;
+    CHEBI:13283; CHEBI:45145; CHEBI:13284; CHEBI:15097; CHEBI:16526; CHEBI:14977;
+    CHEBI:48829; CHEBI:26733
+
+    KEGG IDs: KEGG:C18172; KEGG:C00011; KEGG:C00315; KEGG:C00018'
+measurements:
+- id: measurement_4_1_1_96_Vibrio_vulnificus_Q8D8D2_Carboxynorspermidine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_4_1_1_96_Vibrio_vulnificus_Q8D8D2_Carboxyspermidine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 4_1_1_96_Vibrio_vulnificus_Q8D8D2_Carboxynorspermidine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00027
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Carboxynorspermidine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19196710'
+- id: 4_1_1_96_Vibrio_vulnificus_Q8D8D2_Carboxynorspermidine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 20.1
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Carboxynorspermidine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19196710'
+- id: 4_1_1_96_Vibrio_vulnificus_Q8D8D2_Carboxynorspermidine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 74000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Carboxynorspermidine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19196710'
+- id: 4_1_1_96_Vibrio_vulnificus_Q8D8D2_Carboxyspermidine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.001
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Carboxyspermidine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19196710'
+- id: 4_1_1_96_Vibrio_vulnificus_Q8D8D2_Carboxyspermidine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 3.2
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Carboxyspermidine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19196710'
+- id: 4_1_1_96_Vibrio_vulnificus_Q8D8D2_Carboxyspermidine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 3200.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Carboxyspermidine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19196710'
+buffer:
+  buffer: 20 mM MOPS, 0.08 mg/ml BSA, 8 mM MgCl2, 0.256 mM NADH, 1.76 mM Phosphoenolpyruvate,
+    0.15% glycerol, 0.77 U/ml malate dehydrogenase, 0.14 U/ml phosphoenolpyruvate
+    carboxykinase, 2.5 mM DTT
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 68540
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/19196710/
+  pubmed_id: '19196710'
+  doi: null
+name: Merged entry for Q8D8D2 wildtype
+description: 'Merged from 2 files: SABIO_EC4.1.1.96_Vibrio_vulnificus__Q8D8D2_s_Carboxynorspermidine.yaml,
+  SABIO_EC4.1.1.96_Vibrio_vulnificus__Q8D8D2_s_Carboxyspermidine.yaml'

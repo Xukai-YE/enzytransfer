@@ -1,0 +1,230 @@
+version: '2.0'
+created: '2025-11-20T13:42:01.059825'
+modified: null
+creators:
+- given_name: SKiD
+  family_name: Database
+  mail: skid@database.org
+vessels: null
+proteins:
+- id: protein_D0VWQ0
+  name: Alcaligenes faecalis
+  ecnumber: 1.1.1.30
+  organism: Alcaligenes faecalis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: null
+  uniprotid: D0VWQ0
+  wildtype_sequence: MLKGKKAVVTGSTSGIGLAMATELAKAGADVVINGFGQPEDIERERSTLESKFGVKAYYLNADLSDAQATRDFIAKAAEALGGLDILVNNAGIQHTAPIEEFPVDKWNAIIALNLSAVFHGTAAALPIMQKQGWGRIINIASAHGLVASVNKSAYVAAKHGVVGLTKVTALENAGKGITCNAICPGWVRTPLVEKQIEAISQQKGIDIEAAARELLAEKQPSLQFVTPEQLGGAAVFLSSAAADQMTGTTLSLDGGWTAR
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_acetoacetate
+  name: acetoacetate
+  canonical_smiles: C(CC(=O)C)(=O)[O-]
+  inchi: InChI=1S/C4H6O3/c1-3(5)2-4(6)7/h2H2,1H3,(H,6,7)/p-1
+  inchikey: WDJHALXBUFZDSR-UHFFFAOYSA-M
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/6971017
+- id: product
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_levulinic_acid
+  name: levulinic acid
+  canonical_smiles: C(CCC(=O)C)(=O)O
+  inchi: InChI=1S/C5H8O3/c1-4(6)2-3-5(7)8/h2-3H2,1H3,(H,7,8)
+  inchikey: JOOXCMJARBKPKM-UHFFFAOYSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/11579
+reactions:
+- id: reaction_D0VWQ0_acetoacetate
+  name: Reaction catalyzed by enzyme on acetoacetate
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_acetoacetate
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_D0VWQ0
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_D0VWQ0_levulinic_acid
+  name: Reaction catalyzed by enzyme on levulinic acid
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_levulinic_acid
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_D0VWQ0
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+measurements:
+- id: measurement_0
+  name: Experimental conditions (pH=6.5, T=30.0°C)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=6.5, T=30.0°C)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: D0VWQ0_acetoacetate_kcat_309
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 97.16
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_acetoacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: 'Source: kcat'
+  pubmed_id: null
+- id: D0VWQ0_acetoacetate_Km_11415
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.17
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_acetoacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: null
+- id: D0VWQ0_levulinic_acid_kcat_310
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.0067882250993908
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_levulinic_acid
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: 'Source: kcat'
+  pubmed_id: null
+- id: D0VWQ0_levulinic_acid_Km_11423
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.78
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_levulinic_acid
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: null
+buffer:
+  buffer: null
+  buffer_concentration: null
+references:
+- title: Y.
+  authors: Yeon, Y., Park, H., Park, H., Yoo
+  year: '2014'
+  journal: Effect of His-tag location on the catalytic activity of 3-hydroxybutyrate
+    dehydrogenase. Biotechnol
+  uri: null
+  pubmed_id: null
+  doi: null
+  id: '55'
+  pages: 798-802
+  volume: '19'
+  citation: Yeon, Y.,Park, H.,Park, H.,Yoo, Y., Effect of His-tag location on the
+    catalytic activity of 3-hydroxybutyrate dehydrogenase. Biotechnol, Bioprocess
+    Eng., 2014, 798-802, 19
+name: Merged entry for D0VWQ0 wildtype
+description: 'Merged from 2 files: SKID_EC1.1.1.30_Alcaligene_D0VWQ0_acetoacetate.yaml,
+  SKID_EC1.1.1.30_Alcaligene_D0VWQ0_levulinic_acid.yaml'

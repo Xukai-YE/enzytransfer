@@ -1,0 +1,403 @@
+version: '2.0'
+created: '2025-11-20T13:39:59.843064'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_1_1_68_Q9XGW0_p63312
+  name: caffeate O-methyltransferase
+  ecnumber: 2.1.1.68
+  organism: Ocimum basilicum
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9XGW0
+  wildtype_sequence: MGSATNTPQINSDEEENFLFAMQLASASVLPMVLKSAIELDLLELIKKSGAGAFVSPVDLAAQLPTTNPDAHVMLDRILRLLTSYAILECRLKTLPDGGVERLYGLAPVCKFLTKNEDGVSMAPLTLMNQDKVLMESWYHLSDAVVDGGIPFNKAYGMTAFEYHGTDPRFNKVFNQGMSNHSTITMKKILETYTGFDGLKTVVDVGGGTGATLNMIVSKYPSIKGINFDLPHVIEDAPSYPGVEHVGGDMFVSVPKGDAIFMKWICHDWSDEHCVKFLKNCYDALPQNGKVILAECVLPEAPDTGLATKNVVHIDVIMLAHNPGGKERTEKEFQGLAKAAGFKQFNKACCAYNTWIMELLK
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_S-Adenosyl-L-methionine
+  name: S-Adenosyl-L-methionine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Caffeate
+  name: Caffeate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Ferulate
+  name: Ferulate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_S-Adenosyl-L-homocysteine
+  name: S-Adenosyl-L-homocysteine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Catechol
+  name: Catechol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Guaiacol
+  name: Guaiacol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_14976_EC2_1_1_68_Ocimum_basilicum_Q9XGW0_S-Adenosyl-L-methionine
+  name: Reaction catalyzed by caffeate O-methyltransferase on S-Adenosyl-L-methionine
+  equation: S-Adenosyl-L-methionine + Caffeate = S-Adenosyl-L-homocysteine + Ferulate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_S-Adenosyl-L-methionine
+  - species_id: substrate_Caffeate
+  products:
+  - species_id: product_Ferulate
+  - species_id: product_S-Adenosyl-L-homocysteine
+  modifiers:
+  - species_id: protein_2_1_1_68_Q9XGW0_p63312
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 20225;20226;20227;20228
+  KEGGid: R03366
+  notes: 'ChEBI IDs: CHEBI:22036; CHEBI:12760; CHEBI:11691; CHEBI:12742; CHEBI:24030;
+    CHEBI:59789; CHEBI:67009; CHEBI:11692; CHEBI:45495; CHEBI:16433; CHEBI:17620;
+    CHEBI:57770; CHEBI:42445; CHEBI:142094; CHEBI:8945; CHEBI:67040; CHEBI:14260;
+    CHEBI:45607; CHEBI:33442; CHEBI:5046; CHEBI:15414; CHEBI:1379; CHEBI:19877; CHEBI:12870;
+    CHEBI:10833; CHEBI:12761; CHEBI:12741; CHEBI:57856; CHEBI:17395; CHEBI:29749;
+    CHEBI:14259; CHEBI:16680; CHEBI:12759; CHEBI:8946; CHEBI:22034; CHEBI:527887;
+    CHEBI:24029; CHEBI:36281; CHEBI:41964; CHEBI:10786; CHEBI:11848; CHEBI:12757
+
+    KEGG IDs: KEGG:C01494; KEGG:C01481; KEGG:C01197; KEGG:C00021; KEGG:C00019'
+- id: sabiork_14976_EC2_1_1_68_Ocimum_basilicum_Q9XGW0_Caffeate
+  name: Reaction catalyzed by caffeate O-methyltransferase on Caffeate
+  equation: S-Adenosyl-L-methionine + Caffeate = S-Adenosyl-L-homocysteine + Ferulate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Caffeate
+  - species_id: substrate_S-Adenosyl-L-methionine
+  products:
+  - species_id: product_Ferulate
+  - species_id: product_S-Adenosyl-L-homocysteine
+  modifiers:
+  - species_id: protein_2_1_1_68_Q9XGW0_p63308
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 20225;20226;20227;20228
+  KEGGid: R03366
+  notes: 'ChEBI IDs: CHEBI:22036; CHEBI:11691; CHEBI:12760; CHEBI:12742; CHEBI:24030;
+    CHEBI:59789; CHEBI:67009; CHEBI:11692; CHEBI:45495; CHEBI:16433; CHEBI:17620;
+    CHEBI:57770; CHEBI:42445; CHEBI:142094; CHEBI:8945; CHEBI:67040; CHEBI:14260;
+    CHEBI:45607; CHEBI:33442; CHEBI:5046; CHEBI:15414; CHEBI:1379; CHEBI:19877; CHEBI:12870;
+    CHEBI:10833; CHEBI:12761; CHEBI:12741; CHEBI:57856; CHEBI:17395; CHEBI:29749;
+    CHEBI:14259; CHEBI:16680; CHEBI:12759; CHEBI:8946; CHEBI:22034; CHEBI:527887;
+    CHEBI:24029; CHEBI:36281; CHEBI:41964; CHEBI:10786; CHEBI:11848; CHEBI:12757
+
+    KEGG IDs: KEGG:C01494; KEGG:C01481; KEGG:C01197; KEGG:C00021; KEGG:C00019'
+- id: sabiork_1168_EC2_1_1_68_Ocimum_basilicum_Q9XGW0_Catechol
+  name: Reaction catalyzed by catechol O-methyltransferase on Catechol
+  equation: S-Adenosyl-L-methionine + Catechol = S-Adenosyl-L-homocysteine + Guaiacol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Catechol
+  - species_id: substrate_S-Adenosyl-L-methionine
+  products:
+  - species_id: product_S-Adenosyl-L-homocysteine
+  - species_id: product_Guaiacol
+  modifiers:
+  - species_id: protein_2_1_1_68_Q9XGW0_p63309
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00827
+  notes: 'ChEBI IDs: CHEBI:23054; CHEBI:22036; CHEBI:12760; CHEBI:13950; CHEBI:12742;
+    CHEBI:59789; CHEBI:67009; CHEBI:45495; CHEBI:5549; CHEBI:18135; CHEBI:142094;
+    CHEBI:8945; CHEBI:67040; CHEBI:45607; CHEBI:33442; CHEBI:135158; CHEBI:15414;
+    CHEBI:10833; CHEBI:12761; CHEBI:41441; CHEBI:12741; CHEBI:57856; CHEBI:16680;
+    CHEBI:12759; CHEBI:24434; CHEBI:8946; CHEBI:32402; CHEBI:22034; CHEBI:28591; CHEBI:527887;
+    CHEBI:3467; CHEBI:10786; CHEBI:50524; CHEBI:12757
+
+    KEGG IDs: KEGG:C01785; KEGG:C15571; KEGG:C00090; KEGG:C15572; KEGG:C01502; KEGG:C00021;
+    KEGG:C00019'
+measurements:
+- id: measurement_2_1_1_68_Ocimum_basilicum_Q9XGW0_S-Adenosyl-L-methionine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_2_1_1_68_Ocimum_basilicum_Q9XGW0_Caffeate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_2_1_1_68_Ocimum_basilicum_Q9XGW0_Catechol
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_1_1_68_Ocimum_basilicum_Q9XGW0_S-Adenosyl-L-methionine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.013
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11884690'
+- id: 2_1_1_68_Ocimum_basilicum_Q9XGW0_S-Adenosyl-L-methionine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 1.95e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11884690'
+- id: 2_1_1_68_Ocimum_basilicum_Q9XGW0_S-Adenosyl-L-methionine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.4e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11884690'
+- id: 2_1_1_68_Ocimum_basilicum_Q9XGW0_Caffeate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 270000000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Caffeate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11884690'
+- id: 2_1_1_68_Ocimum_basilicum_Q9XGW0_Caffeate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.7e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Caffeate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11884690'
+- id: 2_1_1_68_Ocimum_basilicum_Q9XGW0_Caffeate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.013
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Caffeate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11884690'
+- id: 2_1_1_68_Ocimum_basilicum_Q9XGW0_Caffeate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 1.95e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Caffeate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11884690'
+- id: 2_1_1_68_Ocimum_basilicum_Q9XGW0_Catechol_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.0046
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Catechol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11884690'
+- id: 2_1_1_68_Ocimum_basilicum_Q9XGW0_Catechol_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 20000000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Catechol
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11884690'
+- id: 2_1_1_68_Ocimum_basilicum_Q9XGW0_Catechol_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00029
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Catechol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11884690'
+- id: 2_1_1_68_Ocimum_basilicum_Q9XGW0_Catechol_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 6.9e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Catechol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11884690'
+buffer:
+  buffer: 50 mM bis-Tris, 10% glycerol, 5 mM Na2S2O5, 10 mM 2-mercaptoethanol, 1 mM
+    EDTA
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 63312
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11884690/
+  pubmed_id: '11884690'
+  doi: null
+name: Merged entry for Q9XGW0 wildtype
+description: 'Merged from 3 files: SABIO_EC2.1.1.68_Ocimum_basilicum__Q9XGW0_s_S-Adenosyl-L-methion.yaml,
+  SABIO_EC2.1.1.68_Ocimum_basilicum__Q9XGW0_s_Caffeate.yaml, SABIO_EC2.1.1.68_Ocimum_basilicum__Q9XGW0_s_Catechol.yaml'

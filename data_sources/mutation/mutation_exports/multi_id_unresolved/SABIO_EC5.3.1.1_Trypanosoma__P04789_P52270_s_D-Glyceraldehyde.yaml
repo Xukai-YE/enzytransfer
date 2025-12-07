@@ -1,0 +1,148 @@
+name: SABIO-RK Entry 3499
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 3499
+created: '2025-10-28T13:47:01.794822'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_5_3_1_1_P04789_P52270_p3499
+  name: triose-phosphate isomerase
+  sequence: null
+  ecnumber: 5.3.1.1
+  organism: Trypanosoma
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P04789; P52270
+complexes: null
+small_molecules:
+- id: substrate_D-Glyceraldehyde_3-phosphate
+  name: D-Glyceraldehyde 3-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Glycerone_phosphate
+  name: Glycerone phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_4_EC5_3_1_1_Trypanosoma_P04789_P52270_D-Glyceraldehyde_3-phosphate
+  name: Reaction catalyzed by triose-phosphate isomerase on D-Glyceraldehyde 3-phosphate
+  equation: D-Glyceraldehyde 3-phosphate = Glycerone phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Glyceraldehyde_3-phosphate
+  products:
+  - species_id: product_Glycerone_phosphate
+  modifiers:
+  - species_id: protein_5_3_1_1_P04789_P52270_p3499
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 18585;18586;18587;18588
+  KEGGid: R01015
+  notes: 'ChEBI IDs: CHEBI:12984; CHEBI:29052; CHEBI:18324; CHEBI:59776; CHEBI:12983;
+    CHEBI:181; CHEBI:21026; CHEBI:16108
+
+    KEGG IDs: KEGG:C00118; KEGG:C00111'
+measurements:
+- id: measurement_5_3_1_1_Trypanosoma_P04789_P52270_D-Glyceraldehyde_3-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 5_3_1_1_Trypanosoma_P04789_P52270_D-Glyceraldehyde_3-phosphate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 5000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glyceraldehyde_3-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12641463'
+- id: 5_3_1_1_Trypanosoma_P04789_P52270_D-Glyceraldehyde_3-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00031
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glyceraldehyde_3-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12641463'
+buffer:
+  buffer: 100 mM triethanolamine, 10 mM EDTA
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 3499
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12641463/
+  pubmed_id: '12641463'
+  doi: null

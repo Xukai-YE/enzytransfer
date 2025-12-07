@@ -1,0 +1,144 @@
+name: SABIO-RK Entry 29878
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 29878
+created: '2025-10-28T14:39:00.982796'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_1_2_13_P0AB71_p29878
+  name: fructose-bisphosphate aldolase
+  ecnumber: 4.1.2.13
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: N286A
+  uniprotid: P0AB71
+  wildtype_sequence: MSKIFDFVKPGVITGDDVQKVFQVAKENNFALPAVNCVGTDSINAVLETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYGVPVILHTDHCAKKLLPWIDGLLDAGEKHFAATGKPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGCTGGEEDGVDNSHMDASALYTQPEDVDYAYTELSKISPRFTIAASFGNVHGVYKPGNVVLTPTILRDSQEYVSKKHNLPHNSLNFVFHGGSGSTAQEIKDSVSYGVVKMNIDTDTQWATWEGVLNYYKANEAYLQGQLGNPKGEDQPNKKYYDPRVWLRAGQTSMIARLEKAFQELNAIDVL
+  mutant_sequence: MSKIFDFVKPGVITGDDVQKVFQVAKENNFALPAVNCVGTDSINAVLETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYGVPVILHTDHCAKKLLPWIDGLLDAGEKHFAATGKPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGCTGGEEDGVDNSHMDASALYTQPEDVDYAYTELSKISPRFTIAASFGNVHGVYKPGNVVLTPTILRDSQEYVSKKHNLPHNSLNFVFHGGSGSTAQEIKDSVSYGVVKMAIDTDTQWATWEGVLNYYKANEAYLQGQLGNPKGEDQPNKKYYDPRVWLRAGQTSMIARLEKAFQELNAIDVL
+  position_offset: 1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_D-Fructose_1
+  name: D-Fructose 1
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_6-bisphosphate
+  name: 6-bisphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Zn2_
+  name: Zn2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Glyceraldehyde_3-phosphate
+  name: D-Glyceraldehyde 3-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Glycerone_phosphate
+  name: Glycerone phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1338_EC4_1_2_13_Escherichia_coli_P0AB71_D-Fructose_1
+  name: Reaction catalyzed by fructose-bisphosphate aldolase on D-Fructose 1
+  equation: D-Fructose 1,6-bisphosphate = D-Glyceraldehyde 3-phosphate + Glycerone
+    phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Fructose_1
+  - species_id: substrate_6-bisphosphate
+  - species_id: cofactor_Zn2_
+  products:
+  - species_id: product_D-Glyceraldehyde_3-phosphate
+  - species_id: product_Glycerone_phosphate
+  modifiers:
+  - species_id: protein_4_1_2_13_P0AB71_p29878
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 14729;14730;14731;14732
+  KEGGid: R01070
+  notes: 'ChEBI IDs: CHEBI:29105; CHEBI:10113; CHEBI:32966; CHEBI:29052; CHEBI:28013;
+    CHEBI:12984; CHEBI:37736; CHEBI:10374; CHEBI:41014; CHEBI:181; CHEBI:12983; CHEBI:21026;
+    CHEBI:59776; CHEBI:22767; CHEBI:49972; CHEBI:42553; CHEBI:16905; CHEBI:49982;
+    CHEBI:27368; CHEBI:18324; CHEBI:16108
+
+    KEGG IDs: KEGG:C00118; KEGG:C00111; KEGG:C05378; KEGG:C00038; KEGG:C00354'
+measurements:
+- id: measurement_4_1_2_13_Escherichia_coli_P0AB71_D-Fructose_1
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 50 mM Tris-HCl, 5 ¦ÌM Zn2+, 20 mM NADH, 2 ¦Ìl of 10 mg/ml mixture of triosephosphate
+    isomerase/glycerol-3-phosphate dehydrogenase
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 29878
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9878448/
+  pubmed_id: '9878448'
+  doi: null

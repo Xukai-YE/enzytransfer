@@ -1,0 +1,238 @@
+version: '2.0'
+created: '2025-11-20T13:40:49.067256'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_7_7_P04415_p25042
+  name: DNA-directed DNA polymerase
+  ecnumber: 2.7.7.7
+  organism: bovine
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: E114A
+  uniprotid: P04415
+  wildtype_sequence: MKEFYISIETVGNNIVERYIDENGKERTREVEYLPTMFRHCKEESKYKDIYGKNCAPQKFPSMKDARDWMKRMEDIGLEALGMNDFKLAYISDTYGSEIVYDRKFVRVANCDIEVTGDKFPDPMKAEYEIDAITHYDSIDDRFYVFDLLNSMYGSVSKWDAKLAAKLDCEGGDEVPQEILDRVIYMPFDNERDMLMEYINLWEQKRPAIFTGWNIEGFDVPYIMNRVKMILGERSMKRFSPIGRVKSKLIQNMYGSKEIYSIDGVSILDYLDLYKKFAFTNLPSFSLESVAQHETKKGKLPYDGPINKLRETNHQRYISYNIIDVESVQAIDKIRGFIDLVLSMSYYAKMPFSGVMSPIKTWDAIIFNSLKGEHKVIPQQGSHVKQSFPGAFVFEPKPIARRYIMSFDLTSLYPSIIRQVNISPETIRGQFKVHPIHEYIAGTAPKPSDEYSCSPNGWMYDKHQEGIIPKEIAKVFFQRKDWKKKMFAEEMNAEAIKKIIMKGAGSCSTKPEVERYVKFSDDFLNELSNYTESVLNSLIEECEKAATLANTNQLNRKILINSLYGALGNIHFRYYDLRNATAITIFGQVGIQWIARKINEYLNKVCGTNDEDFIAAGDTDSVYVCVDKVIEKVGLDRFKEQNDLVEFMNQFGKKKMEPMIDVAYRELCDYMNNREHLMHMDREAISCPPLGSKGVGGFWKAKKRYALNVYDMEDKRFAEPHLKIMGMETQQSSTPKAVQEALEESIRRILQEGEESVQEYYKNFEKEYRQLDYKVIAEVKTANDIAKYDDKGWPGFKCPFHIRGVLTYRRAVSGLGVAPILDGNKVMVLPLREGNPFGDKCIAWPSGTELPKEIRSDVLSWIDHSTLFQKSFVKPLAGMCESAGMDYEEKASLDFLFG
+  mutant_sequence: MKEFYISIETVGNNIVERYIDENGKERTREVEYLPTMFRHCKEESKYKDIYGKNCAPQKFPSMKDARDWMKRMEDIGLEALGMNDFKLAYISDTYGSEIVYDRKFVRVANCDIAVTGDKFPDPMKAEYEIDAITHYDSIDDRFYVFDLLNSMYGSVSKWDAKLAAKLDCEGGDEVPQEILDRVIYMPFDNERDMLMEYINLWEQKRPAIFTGWNIEGFDVPYIMNRVKMILGERSMKRFSPIGRVKSKLIQNMYGSKEIYSIDGVSILDYLDLYKKFAFTNLPSFSLESVAQHETKKGKLPYDGPINKLRETNHQRYISYNIIDVESVQAIDKIRGFIDLVLSMSYYAKMPFSGVMSPIKTWDAIIFNSLKGEHKVIPQQGSHVKQSFPGAFVFEPKPIARRYIMSFDLTSLYPSIIRQVNISPETIRGQFKVHPIHEYIAGTAPKPSDEYSCSPNGWMYDKHQEGIIPKEIAKVFFQRKDWKKKMFAEEMNAEAIKKIIMKGAGSCSTKPEVERYVKFSDDFLNELSNYTESVLNSLIEECEKAATLANTNQLNRKILINSLYGALGNIHFRYYDLRNATAITIFGQVGIQWIARKINEYLNKVCGTNDEDFIAAGDTDSVYVCVDKVIEKVGLDRFKEQNDLVEFMNQFGKKKMEPMIDVAYRELCDYMNNREHLMHMDREAISCPPLGSKGVGGFWKAKKRYALNVYDMEDKRFAEPHLKIMGMETQQSSTPKAVQEALEESIRRILQEGEESVQEYYKNFEKEYRQLDYKVIAEVKTANDIAKYDDKGWPGFKCPFHIRGVLTYRRAVSGLGVAPILDGNKVMVLPLREGNPFGDKCIAWPSGTELPKEIRSDVLSWIDHSTLFQKSFVKPLAGMCESAGMDYEEKASLDFLFG
+complexes: null
+small_molecules:
+- id: substrate_DNA
+  name: DNA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_dTMP
+  name: dTMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_DNA
+  name: DNA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Deoxynucleoside_5_-phosphate
+  name: Deoxynucleoside 5'-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_10310_EC2_7_7_7_bovine_P04415_DNA
+  name: Reaction catalyzed by DNA-directed DNA polymerase on DNA
+  equation: H2O + DNA = dTMP + DNA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: product_DNA
+  products:
+  - species_id: product_dTMP
+  - species_id: product_DNA
+  modifiers:
+  - species_id: protein_2_7_7_7_P04415_p25042
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:50300; CHEBI:29375; CHEBI:21123; CHEBI:46013; CHEBI:44819;
+    CHEBI:15246; CHEBI:10529; CHEBI:41981; CHEBI:13302; CHEBI:14092; CHEBI:47711;
+    CHEBI:42857; CHEBI:41979; CHEBI:63549; CHEBI:4291; CHEBI:33698; CHEBI:42043; CHEBI:26999;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15245; CHEBI:15377; CHEBI:13352;
+    CHEBI:46036; CHEBI:16991; CHEBI:45926; CHEBI:43228; CHEBI:45759; CHEBI:44292;
+    CHEBI:33806; CHEBI:45772; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:17013; CHEBI:46960;
+    CHEBI:63528; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00364; KEGG:C00001; KEGG:C00039'
+- id: sabiork_10582_EC2_7_7_7_bovine_P04415_DNA
+  name: Reaction catalyzed by exodeoxyribonuclease III on DNA
+  equation: H2O + DNA = Deoxynucleoside 5'-phosphate + DNA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: product_DNA
+  products:
+  - species_id: product_DNA
+  - species_id: product_Deoxynucleoside_5_-phosphate
+  modifiers:
+  - species_id: protein_2_7_7_7_P04415_p25049
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:21123; CHEBI:44819; CHEBI:14120; CHEBI:41981;
+    CHEBI:19253; CHEBI:13302; CHEBI:4425; CHEBI:42857; CHEBI:41979; CHEBI:37016; CHEBI:18241;
+    CHEBI:4291; CHEBI:33698; CHEBI:42043; CHEBI:4423; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:11395; CHEBI:13587; CHEBI:13352; CHEBI:16991; CHEBI:43228;
+    CHEBI:44292; CHEBI:65317; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:23637;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00676; KEGG:C00001; KEGG:C00039; KEGG:C03607'
+measurements:
+- id: measurement_2_7_7_7_bovine_P04415_DNA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.8
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_2_7_7_7_bovine_P04415_DNA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.8
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_7_7_bovine_P04415_DNA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.0e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_DNA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.8
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8987997'
+- id: 2_7_7_7_bovine_P04415_DNA_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_DNA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.8
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8987997'
+- id: 2_7_7_7_bovine_P04415_DNA_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.08
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_DNA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.8
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8987997'
+- id: 2_7_7_7_bovine_P04415_DNA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.0e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_DNA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.8
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8987997'
+buffer:
+  buffer: 66 mM Tris, 17 mM (NH4)2SO4, 10 mM 2-mercaptoethanol, 6.5 mM MgSO4, 166
+    ¦Ìg/ml bovine serum albumin (DNase free)
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 25042
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/8987997/
+  pubmed_id: '8987997'
+  doi: null
+name: Merged entry for P04415 E114A
+description: 'Merged from 2 files: SABIO_EC2.7.7.7_bovine__P04415_E114A_s_DNA.yaml,
+  SABIO_EC2.7.7.7_bovine__P04415_E114A_s_DNA_2.yaml'

@@ -1,0 +1,233 @@
+version: '2.0'
+created: '2025-11-20T13:40:04.119974'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_3_1_288_P9WIK7_p68089
+  name: 2-O-sulfo trehalose long-chain-acyltransferase
+  ecnumber: 2.3.1.288
+  organism: Mycobacterium tuberculosis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P9WIK7
+  wildtype_sequence: MFSITTLRDWTPDPGSIICWHASPTAKAKARQAPISEVPPSYQQAQHLRRYRDHVARGLDMSRLMIFTWDLPGRCNIRAMNYAINAHLRRHDTYHSWFEFDNAEHIVRHTIADPADIEVVQAEHQNMTSAELRHHIATPQPLQWDCFLFGIIQSDDHFTFYASIAHLCVDPMIVGVLFIEIHMMYSALVGGDPPIELPPAGRYDDHCVRQYADTAALTLDSARVRRWVEFAANNDGTLPHFPLPLGDLSVPHTGKLLTETLMDEQQGERFEAACVAAGARFSGGVFACAALAERELTNCETFDVVTTTDTRRTPTELRTTGWFTGLVPITVPVASGLFDSAARVAQISFDSGKDLATVPFDRVLELARPETGLRPPRPGNFVMSFLDASIAPLSTVANSDLNFRIYDEGRVSHQVSMWVNRYQHQTTVTVLFPDNPIASESVANYIAAMKSIYIRTADGTLATLKPGT
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Palmitoyl-CoA
+  name: Palmitoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Trehalose_2-sulfate
+  name: Trehalose 2-sulfate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Trehalose_2-sulfate-2_-palmitate
+  name: Trehalose 2-sulfate-2'-palmitate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_15666_EC2_3_1_288_Mycobacterium_tuberculosis_P9WIK7_Palmitoyl-CoA
+  name: Reaction catalyzed by 2-O-sulfo trehalose long-chain-acyltransferase on Palmitoyl-CoA
+  equation: Palmitoyl-CoA + Trehalose 2-sulfate = Coenzyme A + Trehalose 2-sulfate-2'-palmitate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Palmitoyl-CoA
+  - species_id: substrate_Trehalose_2-sulfate
+  products:
+  - species_id: product_Trehalose_2-sulfate-2_-palmitate
+  - species_id: product_Coenzyme_A
+  modifiers:
+  - species_id: protein_2_3_1_288_P9WIK7_p68089
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R12466
+  notes: 'ChEBI IDs: CHEBI:24543; CHEBI:14732; CHEBI:57287; CHEBI:15346; CHEBI:23355;
+    CHEBI:15525; CHEBI:60092; CHEBI:3771; CHEBI:13295; CHEBI:13294; CHEBI:741566;
+    CHEBI:41597; CHEBI:14397; CHEBI:60114; CHEBI:41631; CHEBI:57379; CHEBI:7898; CHEBI:13298
+
+    KEGG IDs: KEGG:C00154; KEGG:C20985; KEGG:C22176; KEGG:C00010'
+- id: sabiork_15666_EC2_3_1_288_Mycobacterium_tuberculosis_P9WIK7_Trehalose_2-sulfate
+  name: Reaction catalyzed by 2-O-sulfo trehalose long-chain-acyltransferase on Trehalose
+    2-sulfate
+  equation: Palmitoyl-CoA + Trehalose 2-sulfate = Coenzyme A + Trehalose 2-sulfate-2'-palmitate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Trehalose_2-sulfate
+  - species_id: substrate_Palmitoyl-CoA
+  products:
+  - species_id: product_Trehalose_2-sulfate-2_-palmitate
+  - species_id: product_Coenzyme_A
+  modifiers:
+  - species_id: protein_2_3_1_288_P9WIK7_p68090
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R12466
+  notes: 'ChEBI IDs: CHEBI:24543; CHEBI:14732; CHEBI:57287; CHEBI:15346; CHEBI:23355;
+    CHEBI:15525; CHEBI:60092; CHEBI:3771; CHEBI:13295; CHEBI:13294; CHEBI:741566;
+    CHEBI:41597; CHEBI:14397; CHEBI:60114; CHEBI:41631; CHEBI:57379; CHEBI:7898; CHEBI:13298
+
+    KEGG IDs: KEGG:C00154; KEGG:C20985; KEGG:C22176; KEGG:C00010'
+measurements:
+- id: measurement_2_3_1_288_Mycobacterium_tuberculosis_P9WIK7_Palmitoyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_3_1_288_Mycobacterium_tuberculosis_P9WIK7_Trehalose_2-sulfate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_3_1_288_Mycobacterium_tuberculosis_P9WIK7_Palmitoyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0025
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Palmitoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17592143'
+- id: 2_3_1_288_Mycobacterium_tuberculosis_P9WIK7_Palmitoyl-CoA_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.006666667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Palmitoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17592143'
+- id: 2_3_1_288_Mycobacterium_tuberculosis_P9WIK7_Trehalose_2-sulfate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.96e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Trehalose_2-sulfate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17592143'
+- id: 2_3_1_288_Mycobacterium_tuberculosis_P9WIK7_Trehalose_2-sulfate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.003166667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Trehalose_2-sulfate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17592143'
+buffer:
+  buffer: 100 mM sodium phosphate, 1 mM DTT, 10% glycerol
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 68089
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/17592143/
+  pubmed_id: '17592143'
+  doi: null
+name: Merged entry for P9WIK7 wildtype
+description: 'Merged from 2 files: SABIO_EC2.3.1.288_Mycobacterium_tuberculosis__P9WIK7_s_Palmitoyl-CoA.yaml,
+  SABIO_EC2.3.1.288_Mycobacterium_tuberculosis__P9WIK7_s_Trehalose.yaml'

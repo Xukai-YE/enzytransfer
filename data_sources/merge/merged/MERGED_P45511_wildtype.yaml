@@ -1,0 +1,206 @@
+version: '2.0'
+created: '2025-11-20T13:39:24.969672'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_6_P45511_p36808
+  name: glycerol dehydrogenase
+  ecnumber: 1.1.1.6
+  organism: Citrobacter freundii
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P45511
+  wildtype_sequence: MLKVIQSPAKYLQGPDASTLFGQYAKNLADSFFVIADDFVMKLAGEKVLNGLHSHDISCHAERFNGECSHIEINRLIAILKQHGCRGVVGIGGGKTLDTAKAIGYYQKLPVVVIPTIASTDAPTSALSVIYTEAGEFEEYLIYPKNPDMVVMDTAIIAKAPVRLLVAGMGDALSTWFEAKACYDARATSMAGGQSTVAALSLARLCYDTLLAEGEKARFAAQAGVVTDALERIVEANTYLSGIGFESSGLAGAHAIHNGFTILEECHHLYHGEKVAFGTLAQLVLQNSPMEEIETVLNFCQKVGLPVTLAEMGVKDDIDGKIMAVAKATCAEGETIHNMPFSVTPESVHAAILTADLLGQQWLAR
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Glycerol
+  name: Glycerol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Dihydroxyacetone
+  name: Dihydroxyacetone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1322_EC1_1_1_6_Citrobacter_freundii_P45511_Glycerol
+  name: Reaction catalyzed by glycerol dehydrogenase on Glycerol
+  equation: NAD+ + Glycerol = NADH + Dihydroxyacetone + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Glycerol
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_NADH
+  - species_id: product_Dihydroxyacetone
+  modifiers:
+  - species_id: protein_1_1_1_6_P45511_p36808
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 13769;13770;13771;13772
+  KEGGid: R01034
+  notes: 'ChEBI IDs: CHEBI:24351; CHEBI:17754; CHEBI:39809; CHEBI:14340; CHEBI:44281;
+    CHEBI:13393; CHEBI:29234; CHEBI:131422; CHEBI:15846; CHEBI:14334; CHEBI:13357;
+    CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:5453; CHEBI:24636; CHEBI:44214; CHEBI:29233;
+    CHEBI:13394; CHEBI:5584; CHEBI:57945; CHEBI:44216; CHEBI:42998; CHEBI:5448; CHEBI:57540;
+    CHEBI:7423; CHEBI:13389; CHEBI:13395; CHEBI:15378; CHEBI:24354; CHEBI:44215; CHEBI:10744;
+    CHEBI:16016; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00184; KEGG:C00116; KEGG:C00080; KEGG:C00003; KEGG:C00004'
+- id: sabiork_1322_EC1_1_1_6_Citrobacter_freundii_P45511_NAD_
+  name: Reaction catalyzed by glycerol dehydrogenase on NAD+
+  equation: NAD+ + Glycerol = NADH + Dihydroxyacetone + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_Glycerol
+  products:
+  - species_id: product_NADH
+  - species_id: product_Dihydroxyacetone
+  modifiers:
+  - species_id: protein_1_1_1_6_P45511_p36809
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 13769;13770;13771;13772
+  KEGGid: R01034
+  notes: 'ChEBI IDs: CHEBI:24351; CHEBI:17754; CHEBI:39809; CHEBI:14340; CHEBI:44281;
+    CHEBI:13393; CHEBI:29234; CHEBI:131422; CHEBI:15846; CHEBI:14334; CHEBI:13357;
+    CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636; CHEBI:5453; CHEBI:44214; CHEBI:29233;
+    CHEBI:5584; CHEBI:13394; CHEBI:57945; CHEBI:44216; CHEBI:42998; CHEBI:5448; CHEBI:57540;
+    CHEBI:7423; CHEBI:13389; CHEBI:15378; CHEBI:13395; CHEBI:24354; CHEBI:44215; CHEBI:10744;
+    CHEBI:16016; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00184; KEGG:C00116; KEGG:C00080; KEGG:C00003; KEGG:C00004'
+measurements:
+- id: measurement_1_1_1_6_Citrobacter_freundii_P45511_Glycerol
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_6_Citrobacter_freundii_P45511_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1_6_Citrobacter_freundii_P45511_Glycerol_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00127
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glycerol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7635824'
+- id: 1_1_1_6_Citrobacter_freundii_P45511_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.7e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7635824'
+buffer:
+  buffer: 0.1 M potassium carbonate, 30 mM ammonium sulfate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 36808
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/7635824/
+  pubmed_id: '7635824'
+  doi: null
+name: Merged entry for P45511 wildtype
+description: 'Merged from 2 files: SABIO_EC1.1.1.6_Citrobacter_freundii__P45511_s_Glycerol.yaml,
+  SABIO_EC1.1.1.6_Citrobacter_freundii__P45511_s_NAD_.yaml'

@@ -1,0 +1,145 @@
+name: SABIO-RK Entry 11551
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 11551
+created: '2025-10-28T13:59:16.334225'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_1_Q4D3P5_Q4DQ27_p11551
+  name: glucokinase
+  sequence: null
+  ecnumber: 2.7.1.1
+  organism: Trypanosoma cruzi
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q4D3P5; Q4DQ27
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Glucose
+  name: D-Glucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Glucose_6-phosphate
+  name: D-Glucose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_D-Fructose_6-phosphate
+  name: D-Fructose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_793_EC2_7_1_1_Trypanosoma_cruzi_Q4D3P5_Q4DQ27_ATP
+  name: Reaction catalyzed by glucokinase on ATP
+  equation: D-Glucose + ATP = ADP + D-Glucose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_D-Glucose
+  products:
+  - species_id: product_ADP
+  - species_id: product_D-Glucose_6-phosphate
+  modifiers:
+  - species_id: protein_2_7_1_1_Q4D3P5_Q4DQ27_p11551
+    role: BIOCATALYST
+  - species_id: activator_D-Fructose_6-phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 17825;17826;17827;17828;36495;36496;36497;36498
+  KEGGid: R00299
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:15946; CHEBI:16761; CHEBI:10789;
+    CHEBI:57299; CHEBI:12926; CHEBI:40553; CHEBI:42748; CHEBI:20935; CHEBI:42802;
+    CHEBI:13236; CHEBI:10242; CHEBI:58225; CHEBI:4167; CHEBI:12318; CHEBI:17634; CHEBI:10841;
+    CHEBI:4170; CHEBI:12321; CHEBI:2359; CHEBI:17665; CHEBI:87518; CHEBI:40938; CHEBI:22386;
+    CHEBI:15954; CHEBI:10245; CHEBI:42406; CHEBI:456216; CHEBI:14314; CHEBI:22249;
+    CHEBI:2342; CHEBI:15422; CHEBI:57579; CHEBI:22389; CHEBI:4124; CHEBI:13222; CHEBI:22244;
+    CHEBI:40557; CHEBI:17925; CHEBI:88300
+
+    KEGG IDs: KEGG:C00267; KEGG:C00668; KEGG:C00092; KEGG:C00002; KEGG:C00085; KEGG:C00008;
+    KEGG:C00031'
+measurements:
+- id: measurement_2_7_1_1_Trypanosoma_cruzi_Q4D3P5_Q4DQ27_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 50 mM Tris-HCl, 3 mM MgCl2, 5 U/ml D-Glucose 6-phosphate dehydrogenase,
+    0.2 mM NADP, 90 mM KCl, 4 mM Mercaptoethanol, 0.1 mM EGTA
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 11551
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/6235452/
+  pubmed_id: '6235452'
+  doi: null

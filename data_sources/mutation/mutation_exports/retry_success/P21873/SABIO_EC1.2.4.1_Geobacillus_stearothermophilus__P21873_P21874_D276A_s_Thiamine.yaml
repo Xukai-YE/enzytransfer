@@ -1,0 +1,191 @@
+name: SABIO-RK Entry 19444
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 19444
+created: '2025-10-28T14:14:13.532482'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_2_4_1_P21873_P21874_p19444
+  name: pyruvate dehydrogenase (acetyl-transferring)
+  sequence: null
+  ecnumber: 1.2.4.1
+  organism: Geobacillus stearothermophilus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: D276A
+  uniprotid: P21873; P21874
+  mutant_sequence: MGVKTFQFPFAEQLEKVAEQFPTFQILNEEGEVVNEEAMPELSDEQLKELMRRMVYTRILDQRSISLNRQGRLGFYAPTAGQEASQIASHFALEKEDFILPGYRDVPQIIWHGLPLYQAFLFSRGHFHGNQIPEGVNVLPPQIIIGAQYIQAAGVALGLKMRGKKAVAITYTGDGGTSQGDFYEGINFAGAFKAPAIFVVQNNRFAISTPVEKQTVAKTLAQKAVAAGIPGIQVDGMDPLAVYAAVKAARERAINGEGPTLIETLCFRYGPHTMSGADPTRYRSKELENEWAKKDPLVRFRKFLEAKGLWSEEEENNVIEQAKEEIKEAIKKADETPKQKVTDLISIMFEELPFNLKEQYEIYKEKESK
+  position_offset: 1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Thiamine_diphosphate
+  name: Thiamine diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Pyruvate
+  name: Pyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-_alpha-Hydroxyethyl_thiamine_diphosphate
+  name: 2-(alpha-Hydroxyethyl)thiamine diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_6479_EC1_2_4_1_Geobacillus_stearothermophilus_P21873_P21874_Thiamine_diphosphate
+  name: Reaction catalyzed by pyruvate dehydrogenase (acetyl-transferring) on Thiamine
+    diphosphate
+  equation: CO2 + 2-(alpha-Hydroxyethyl)thiamine diphosphate = Thiamine diphosphate
+    + Pyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Thiamine_diphosphate
+  - species_id: substrate_Pyruvate
+  products:
+  - species_id: product_2-_alpha-Hydroxyethyl_thiamine_diphosphate
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_1_2_4_1_P21873_P21874_p19444
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00014
+  notes: 'ChEBI IDs: CHEBI:14987; CHEBI:139538; CHEBI:3283; CHEBI:15361; CHEBI:23011;
+    CHEBI:9532; CHEBI:26466; CHEBI:49939; CHEBI:13285; CHEBI:13282; CHEBI:26462; CHEBI:45930;
+    CHEBI:978; CHEBI:58939; CHEBI:13283; CHEBI:8685; CHEBI:13284; CHEBI:45931; CHEBI:32816;
+    CHEBI:16526; CHEBI:58937; CHEBI:48829; CHEBI:45253; CHEBI:15229
+
+    KEGG IDs: KEGG:C00022; KEGG:C00011; KEGG:C00068; KEGG:C05125'
+measurements:
+- id: measurement_1_2_4_1_Geobacillus_stearothermophilus_P21873_P21874_Thiamine_diphosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 1_2_4_1_Geobacillus_stearothermophilus_P21873_P21874_Thiamine_diphosphate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.71
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Thiamine_diphosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12603319'
+- id: 1_2_4_1_Geobacillus_stearothermophilus_P21873_P21874_Thiamine_diphosphate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 64000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Thiamine_diphosphate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12603319'
+- id: 1_2_4_1_Geobacillus_stearothermophilus_P21873_P21874_Thiamine_diphosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.11e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Thiamine_diphosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12603319'
+buffer:
+  buffer: 100 mM potassium phosphate, 2 mM MgCl2, 50 ¦ÌM 2,6-dichlorophenolindophenol
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 19444
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12603319/
+  pubmed_id: '12603319'
+  doi: null

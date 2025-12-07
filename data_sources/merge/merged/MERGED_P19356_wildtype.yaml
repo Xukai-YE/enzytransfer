@@ -1,0 +1,209 @@
+version: '2.0'
+created: '2025-11-20T13:40:20.946806'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_5_1_61_P19356_p26690
+  name: hydroxymethylbilane synthase
+  ecnumber: 2.5.1.61
+  organism: Rattus norvegicus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P19356
+  wildtype_sequence: MSGNGGAATTAEENGSMMRVIRVGTRKSQLARIQTDTVVAMLKTLYPGIQFEIIAMSTTGDKILDTALSKIGEKSLFTKELENALEKNEVDLVVHSLKDVPTILPPGFTIGAICKRENPCDAVVFHPKFIGKTLETLPEKSAVGTSSLRRVAQLQRKFPHLEFKSIRGNLNTRLRKLDEQLEFSAIILAVAGLQRMGWQNRVGQILHPEECMYAVGQGALAVEVRAKDQDILDLVGVLHDPETLLRCIAERAFLRHLEGGCSVPVAVHTVMKDGQLYLTGGVWSLDGSDSMQETMQATIQVPVQQEDGPEDDPQLVGITARNIPRGAQLAAENLGISLASLLLNKGAKNILDVARQLNDVR
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Porphobilinogen
+  name: Porphobilinogen
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Hydroxymethylbilane
+  name: Hydroxymethylbilane
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NH3
+  name: NH3
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Folate
+  name: Folate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_669_EC2_5_1_61_Rattus_norvegicus_P19356_Porphobilinogen
+  name: Reaction catalyzed by hydroxymethylbilane synthase on Porphobilinogen
+  equation: Porphobilinogen + H2O = Hydroxymethylbilane + NH3
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Porphobilinogen
+  products:
+  - species_id: product_Hydroxymethylbilane
+  - species_id: product_NH3
+  modifiers:
+  - species_id: protein_2_5_1_61_P19356_p26690
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 13185;13186;13187;13188
+  KEGGid: R00084
+  notes: 'ChEBI IDs: CHEBI:26212; CHEBI:29375; CHEBI:24716; CHEBI:44284; CHEBI:44819;
+    CHEBI:16134; CHEBI:41981; CHEBI:58126; CHEBI:13405; CHEBI:7434; CHEBI:42857; CHEBI:41979;
+    CHEBI:13407; CHEBI:16645; CHEBI:44832; CHEBI:57845; CHEBI:5809; CHEBI:14423; CHEBI:42043;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:22534; CHEBI:135980; CHEBI:15377;
+    CHEBI:7435; CHEBI:49783; CHEBI:22533; CHEBI:13352; CHEBI:44404; CHEBI:13771; CHEBI:14867;
+    CHEBI:43228; CHEBI:44269; CHEBI:44292; CHEBI:13406; CHEBI:8335; CHEBI:33806; CHEBI:10743;
+    CHEBI:29374; CHEBI:5585; CHEBI:28938; CHEBI:17381; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C01024; KEGG:C00931; KEGG:C00014; KEGG:C00001; KEGG:C01342'
+- id: sabiork_669_EC2_5_1_61_Rattus_norvegicus_P19356_Porphobilinogen
+  name: Reaction catalyzed by hydroxymethylbilane synthase on Porphobilinogen
+  equation: Porphobilinogen + H2O = Hydroxymethylbilane + NH3
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Porphobilinogen
+  products:
+  - species_id: product_Hydroxymethylbilane
+  - species_id: product_NH3
+  modifiers:
+  - species_id: protein_2_5_1_61_P19356_p26691
+    role: BIOCATALYST
+  - species_id: activator_Folate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 13185;13186;13187;13188
+  KEGGid: R00084
+  notes: 'ChEBI IDs: CHEBI:26212; CHEBI:29375; CHEBI:24716; CHEBI:44284; CHEBI:44819;
+    CHEBI:16134; CHEBI:41981; CHEBI:58126; CHEBI:62501; CHEBI:13405; CHEBI:7434; CHEBI:27470;
+    CHEBI:42857; CHEBI:41979; CHEBI:42610; CHEBI:13407; CHEBI:16645; CHEBI:44832;
+    CHEBI:57845; CHEBI:569217; CHEBI:5809; CHEBI:14423; CHEBI:42043; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:22534; CHEBI:135980; CHEBI:15377; CHEBI:7435;
+    CHEBI:49783; CHEBI:22533; CHEBI:13352; CHEBI:44404; CHEBI:13771; CHEBI:5140; CHEBI:14867;
+    CHEBI:43228; CHEBI:44269; CHEBI:24075; CHEBI:44292; CHEBI:13406; CHEBI:8335; CHEBI:33806;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:28938; CHEBI:17381; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C01024; KEGG:C00504; KEGG:C00931; KEGG:C00014; KEGG:C00001; KEGG:C01342'
+measurements:
+- id: measurement_2_5_1_61_Rattus_norvegicus_P19356_Porphobilinogen
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.2
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_5_1_61_Rattus_norvegicus_P19356_Porphobilinogen
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.2
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_5_1_61_Rattus_norvegicus_P19356_Porphobilinogen_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.2e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Porphobilinogen
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1418238'
+- id: 2_5_1_61_Rattus_norvegicus_P19356_Porphobilinogen_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.2e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Porphobilinogen
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1418238'
+buffer:
+  buffer: 50 mM Tris-HCl, 60 mM NaCl, 12 mM MgCl2
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 26690
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/1418238/
+  pubmed_id: '1418238'
+  doi: null
+name: Merged entry for P19356 wildtype
+description: 'Merged from 2 files: SABIO_EC2.5.1.61_Rattus_norvegicus__P19356_s_Porphobilinogen.yaml,
+  SABIO_EC2.5.1.61_Rattus_norvegicus__P19356_s_Porphobilinogen_2.yaml'

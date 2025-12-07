@@ -1,0 +1,130 @@
+name: SABIO-RK Entry 68610
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 68610
+created: '2025-10-28T17:09:13.721629'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_4_19_12_P0C6X7_P0C6U8_p68610
+  name: ubiquitinyl hydrolase 1
+  sequence: null
+  ecnumber: 3.4.19.12
+  organism: SARS coronavirus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P0C6X7; P0C6U8
+complexes: null
+small_molecules:
+- id: substrate_Ubiquitin-AFC
+  name: Ubiquitin-AFC
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_7-Amino-4-trifluoro-methylcoumarin
+  name: 7-Amino-4-trifluoro-methylcoumarin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Ubiquitin
+  name: Ubiquitin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Disulfaram
+  name: Disulfaram
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_15702_EC3_4_19_12_SARS_coronavirus_P0C6X7_P0C6U8_Ubiquitin-AFC
+  name: Reaction catalyzed by ubiquitinyl hydrolase 1 on Ubiquitin-AFC
+  equation: H2O + Ubiquitin-AFC = Ubiquitin + 7-Amino-4-trifluoro-methylcoumarin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Ubiquitin-AFC
+  products:
+  - species_id: product_7-Amino-4-trifluoro-methylcoumarin
+  - species_id: product_Ubiquitin
+  modifiers:
+  - species_id: protein_3_4_19_12_P0C6X7_P0C6U8_p68610
+    role: BIOCATALYST
+  - species_id: activator_Disulfaram
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:41979;
+    CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352;
+    CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C00496; KEGG:C00001'
+measurements:
+- id: measurement_3_4_19_12_SARS_coronavirus_P0C6X7_P0C6U8_Ubiquitin-AFC
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 20 mM phosphate
+  buffer_concentration: 20 mM
+references:
+- title: Reference for SABIO-RK entry 68610
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/29289665/
+  pubmed_id: '29289665'
+  doi: null

@@ -1,0 +1,274 @@
+version: '2.0'
+created: '2025-11-20T13:39:16.551792'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_1_P10127_p46082
+  name: alcohol dehydrogenase
+  ecnumber: 1.1.1.1
+  organism: Saccharomyces cerevisiae
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P10127
+  wildtype_sequence: MSSVTGFYIPPISFFGEGALEETADYIKNKDYKKALIVTDPGIAAIGLSGRVQKMLEERDLNVAIYDKTQPNPNIANVTAGLKVLKEQNSEIVVSIGGGSAHDNAKAIALLATNGGEIGDYEGVNQSKKAALPLFAINTTAGTASEMTRFTIISNEEKKIKMAIIDNNVTPAVAVNDPSTMFGLPPALTAATGLDALTHCIEAYVSTASNPITDACALKGIDLINESLVAAYKDGKDKKARTDMCYAEYLAGMAFNNASLGYVHALAHQLGGFYHLPHGVCNAVLLPHVQEANMQCPKAKKRLGEIALHFGASQEDPEETIKALHVLNRTMNIPRNLKELGVKTEDFEILAEHAMHDACHLTNPVQFTKEQVVAIIKKAYEY
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Acetaldehyde
+  name: Acetaldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Ethanol
+  name: Ethanol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Ethanol
+  name: Ethanol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Acetaldehyde
+  name: Acetaldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_597_EC1_1_1_1_Saccharomyces_cerevisiae_P10127_Acetaldehyde
+  name: Reaction catalyzed by alcohol dehydrogenase on Acetaldehyde
+  equation: Ethanol + NAD+ = Acetaldehyde + NADH + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Acetaldehyde
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_Ethanol
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_1_1_1_P10127_p46082
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 25290;25291;25292;25293
+  KEGGid: R00754
+  notes: 'ChEBI IDs: CHEBI:16236; CHEBI:23978; CHEBI:30880; CHEBI:44281; CHEBI:13393;
+    CHEBI:29234; CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901;
+    CHEBI:2383; CHEBI:24636; CHEBI:40533; CHEBI:44214; CHEBI:29233; CHEBI:5584; CHEBI:13394;
+    CHEBI:15343; CHEBI:14222; CHEBI:57945; CHEBI:13703; CHEBI:44216; CHEBI:44594;
+    CHEBI:57540; CHEBI:22158; CHEBI:7423; CHEBI:13389; CHEBI:42377; CHEBI:15378; CHEBI:13395;
+    CHEBI:30878; CHEBI:10744; CHEBI:44215; CHEBI:4879; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00084; KEGG:C00469; KEGG:C00080; KEGG:C00003; KEGG:C00004'
+- id: sabiork_597_EC1_1_1_1_Saccharomyces_cerevisiae_P10127_Ethanol
+  name: Reaction catalyzed by alcohol dehydrogenase on Ethanol
+  equation: Ethanol + NAD+ = Acetaldehyde + NADH + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Ethanol
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_NADH
+  - species_id: product_Acetaldehyde
+  modifiers:
+  - species_id: protein_1_1_1_1_P10127_p46081
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 25290;25291;25292;25293
+  KEGGid: R00754
+  notes: 'ChEBI IDs: CHEBI:16236; CHEBI:23978; CHEBI:44281; CHEBI:30880; CHEBI:13393;
+    CHEBI:29234; CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901;
+    CHEBI:2383; CHEBI:24636; CHEBI:40533; CHEBI:44214; CHEBI:29233; CHEBI:13394; CHEBI:5584;
+    CHEBI:15343; CHEBI:14222; CHEBI:57945; CHEBI:13703; CHEBI:44216; CHEBI:44594;
+    CHEBI:57540; CHEBI:22158; CHEBI:7423; CHEBI:13389; CHEBI:42377; CHEBI:13395; CHEBI:15378;
+    CHEBI:30878; CHEBI:44215; CHEBI:10744; CHEBI:4879; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00084; KEGG:C00469; KEGG:C00080; KEGG:C00003; KEGG:C00004'
+measurements:
+- id: measurement_1_1_1_1_Saccharomyces_cerevisiae_P10127_Acetaldehyde
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.3
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_1_Saccharomyces_cerevisiae_P10127_Ethanol
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.3
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1_1_Saccharomyces_cerevisiae_P10127_Acetaldehyde_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00283
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetaldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.3
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '3282541'
+- id: 1_1_1_1_Saccharomyces_cerevisiae_P10127_Acetaldehyde_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000122
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetaldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.3
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '3282541'
+- id: 1_1_1_1_Saccharomyces_cerevisiae_P10127_Ethanol_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0167
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Ethanol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.3
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '3282541'
+- id: 1_1_1_1_Saccharomyces_cerevisiae_P10127_Ethanol_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.9e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Ethanol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.3
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '3282541'
+buffer:
+  buffer: 75 mM sodium diphosphate, 21 mM glycine
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 46082
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/3282541/
+  pubmed_id: '3282541'
+  doi: null
+name: Merged entry for P10127 wildtype
+description: 'Merged from 2 files: SABIO_EC1.1.1.1_Saccharomyces_cerevisiae__P10127_s_Acetaldehyde.yaml,
+  SABIO_EC1.1.1.1_Saccharomyces_cerevisiae__P10127_s_Ethanol.yaml'

@@ -1,0 +1,745 @@
+version: '2.0'
+created: '2025-11-20T13:39:14.998774'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_184_Q9Z245_p9962
+  name: carbonyl reductase (NADPH)
+  ecnumber: 1.1.1.184
+  organism: Mesocricetus auratus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: L39R
+  uniprotid: Q9Z245
+  wildtype_sequence: MKLNFTGLRALVTGAGRGIGRGTAKALHASGAKVVAVSLINEDLVSLAKECPGIEPVCVDLGDWEATEKALGRIGPVDLLVNNAAVALVQPFIQSTKEVFDRSFNVNVRSVLQVSQMVAKGMINRGVAGSIVNISSMVAYVTFPGLATYSSTKGAITMLTKAMAMELGPYKIRVNSVNPTVVLTDMGKKVSADPEFAKKLKERHPLRKFAEVEDVVNSILFLLSDSSASTSGSGILVDAGYLAS
+  mutant_sequence: MKLNFTGLRALVTGAGRGIGRGTAKALHASGAKVVAVSRINEDLVSLAKECPGIEPVCVDLGDWEATEKALGRIGPVDLLVNNAAVALVQPFIQSTKEVFDRSFNVNVRSVLQVSQMVAKGMINRGVAGSIVNISSMVAYVTFPGLATYSSTKGAITMLTKAMAMELGPYKIRVNSVNPTVVLTDMGKKVSADPEFAKKLKERHPLRKFAEVEDVVNSILFLLSDSSASTSGSGILVDAGYLAS
+complexes: null
+small_molecules:
+- id: substrate_Cyclohex-2-en-1-ol
+  name: Cyclohex-2-en-1-ol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Cyclohex-2-enone
+  name: Cyclohex-2-enone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_4-Nitroacetophenone
+  name: 4-Nitroacetophenone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_1-_4-Nitrophenyl_ethanol
+  name: 1-(4-Nitrophenyl)ethanol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7934_EC1_1_1_184_Mesocricetus_auratus_Q9Z245_Cyclohex-2-en-1-ol
+  name: Reaction catalyzed by carbonyl reductase (NADPH) on Cyclohex-2-en-1-ol
+  equation: NADH + H+ + Cyclohex-2-enone = Cyclohex-2-en-1-ol + NAD+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Cyclohex-2-en-1-ol
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_NADH
+  - species_id: product_Cyclohex-2-enone
+  modifiers:
+  - species_id: protein_1_1_1_184_Q9Z245_p9962
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:23463; CHEBI:14047; CHEBI:44281; CHEBI:13393; CHEBI:29234;
+    CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636;
+    CHEBI:15977; CHEBI:44214; CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:57945; CHEBI:44216;
+    CHEBI:57540; CHEBI:7423; CHEBI:13389; CHEBI:13395; CHEBI:15378; CHEBI:4007; CHEBI:44215;
+    CHEBI:10744; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00003; KEGG:C00004; KEGG:C00080; KEGG:C02395'
+- id: sabiork_10140_EC1_1_1_184_Mesocricetus_auratus_Q9Z245_NADH
+  name: Reaction catalyzed by 3alpha-hydroxysteroid dehydrogenase (B-specific) on
+    NADH
+  equation: H+ + NADH + 4-Nitroacetophenone = 1-(4-Nitrophenyl)ethanol + NAD+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  - species_id: substrate_4-Nitroacetophenone
+  products:
+  - species_id: product_1-_4-Nitrophenyl_ethanol
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_1_1_184_Q9Z245_p9976
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:20454; CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846;
+    CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636; CHEBI:44214;
+    CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:57945; CHEBI:44216; CHEBI:57540; CHEBI:7423;
+    CHEBI:13389; CHEBI:13395; CHEBI:15378; CHEBI:1908; CHEBI:28735; CHEBI:10744; CHEBI:44215;
+    CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00003; KEGG:C00004; KEGG:C02803; KEGG:C00080'
+- id: sabiork_7907_EC1_1_1_184_Mesocricetus_auratus_Q9Z245_4-Nitroacetophenone
+  name: Reaction catalyzed by carbonyl reductase (NADPH) on 4-Nitroacetophenone
+  equation: H+ + 4-Nitroacetophenone + NADPH = NADP+ + 1-(4-Nitrophenyl)ethanol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_4-Nitroacetophenone
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_1-_4-Nitrophenyl_ethanol
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_1_1_184_Q9Z245_p9977
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:20454; CHEBI:13397; CHEBI:13398; CHEBI:7424; CHEBI:21903;
+    CHEBI:44405; CHEBI:7425; CHEBI:25523; CHEBI:13399; CHEBI:16474; CHEBI:44286; CHEBI:21904;
+    CHEBI:44409; CHEBI:18009; CHEBI:1908; CHEBI:28735; CHEBI:58349; CHEBI:13400; CHEBI:57783
+
+    KEGG IDs: KEGG:C00006; KEGG:C00005; KEGG:C11037; KEGG:C02803'
+- id: sabiork_10140_EC1_1_1_184_Mesocricetus_auratus_Q9Z245_4-Nitroacetophenone
+  name: Reaction catalyzed by 3alpha-hydroxysteroid dehydrogenase (B-specific) on
+    4-Nitroacetophenone
+  equation: H+ + NADH + 4-Nitroacetophenone = 1-(4-Nitrophenyl)ethanol + NAD+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_4-Nitroacetophenone
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_NAD_
+  - species_id: product_1-_4-Nitrophenyl_ethanol
+  modifiers:
+  - species_id: protein_1_1_1_184_Q9Z245_p9964
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:20454; CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846;
+    CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636; CHEBI:44214;
+    CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:57945; CHEBI:44216; CHEBI:57540; CHEBI:7423;
+    CHEBI:13389; CHEBI:15378; CHEBI:13395; CHEBI:1908; CHEBI:28735; CHEBI:10744; CHEBI:44215;
+    CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00003; KEGG:C00004; KEGG:C00080; KEGG:C02803'
+- id: sabiork_7935_EC1_1_1_184_Mesocricetus_auratus_Q9Z245_NADP_
+  name: Reaction catalyzed by carbonyl reductase (NADPH) on NADP+
+  equation: NADP+ + Cyclohex-2-en-1-ol = H+ + NADPH + Cyclohex-2-enone
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADP_
+  - species_id: substrate_Cyclohex-2-en-1-ol
+  products:
+  - species_id: product_Cyclohex-2-enone
+  - species_id: product_NADPH
+  modifiers:
+  - species_id: protein_1_1_1_184_Q9Z245_p9963
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:23463; CHEBI:13397; CHEBI:13398; CHEBI:14047; CHEBI:7424;
+    CHEBI:21903; CHEBI:44405; CHEBI:7425; CHEBI:29234; CHEBI:25523; CHEBI:13357; CHEBI:24636;
+    CHEBI:15977; CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:16474; CHEBI:44286; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:18009; CHEBI:4007; CHEBI:58349; CHEBI:13400; CHEBI:57783;
+    CHEBI:10744
+
+    KEGG IDs: KEGG:C02395; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C11037'
+- id: sabiork_7907_EC1_1_1_184_Mesocricetus_auratus_Q9Z245_4-Nitroacetophenone
+  name: Reaction catalyzed by carbonyl reductase (NADPH) on 4-Nitroacetophenone
+  equation: H+ + 4-Nitroacetophenone + NADPH = NADP+ + 1-(4-Nitrophenyl)ethanol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_4-Nitroacetophenone
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_NADP_
+  - species_id: product_1-_4-Nitrophenyl_ethanol
+  modifiers:
+  - species_id: protein_1_1_1_184_Q9Z245_p9965
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:20454; CHEBI:13397; CHEBI:13398; CHEBI:7424; CHEBI:21903;
+    CHEBI:44405; CHEBI:7425; CHEBI:25523; CHEBI:13399; CHEBI:16474; CHEBI:44286; CHEBI:21904;
+    CHEBI:44409; CHEBI:18009; CHEBI:1908; CHEBI:28735; CHEBI:58349; CHEBI:13400; CHEBI:57783
+
+    KEGG IDs: KEGG:C00006; KEGG:C00005; KEGG:C11037; KEGG:C02803'
+- id: sabiork_7934_EC1_1_1_184_Mesocricetus_auratus_Q9Z245_NAD_
+  name: Reaction catalyzed by carbonyl reductase (NADPH) on NAD+
+  equation: NADH + H+ + Cyclohex-2-enone = Cyclohex-2-en-1-ol + NAD+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_Cyclohex-2-en-1-ol
+  products:
+  - species_id: product_Cyclohex-2-enone
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_1_1_184_Q9Z245_p9974
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:23463; CHEBI:14047; CHEBI:44281; CHEBI:13393; CHEBI:29234;
+    CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636;
+    CHEBI:15977; CHEBI:44214; CHEBI:29233; CHEBI:13394; CHEBI:5584; CHEBI:57945; CHEBI:44216;
+    CHEBI:57540; CHEBI:7423; CHEBI:13389; CHEBI:13395; CHEBI:15378; CHEBI:4007; CHEBI:44215;
+    CHEBI:10744; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00003; KEGG:C00004; KEGG:C00080; KEGG:C02395'
+- id: sabiork_7935_EC1_1_1_184_Mesocricetus_auratus_Q9Z245_NADP_
+  name: Reaction catalyzed by carbonyl reductase (NADPH) on NADP+
+  equation: NADP+ + Cyclohex-2-en-1-ol = H+ + NADPH + Cyclohex-2-enone
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADP_
+  - species_id: substrate_Cyclohex-2-en-1-ol
+  products:
+  - species_id: product_Cyclohex-2-enone
+  - species_id: product_NADPH
+  modifiers:
+  - species_id: protein_1_1_1_184_Q9Z245_p9975
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:23463; CHEBI:13397; CHEBI:13398; CHEBI:14047; CHEBI:7424;
+    CHEBI:21903; CHEBI:44405; CHEBI:7425; CHEBI:29234; CHEBI:25523; CHEBI:13357; CHEBI:24636;
+    CHEBI:15977; CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:16474; CHEBI:44286; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:18009; CHEBI:4007; CHEBI:58349; CHEBI:13400; CHEBI:57783;
+    CHEBI:10744
+
+    KEGG IDs: KEGG:C02395; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C11037'
+measurements:
+- id: measurement_1_1_1_184_Mesocricetus_auratus_Q9Z245_Cyclohex-2-en-1-ol
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_1_1_184_Mesocricetus_auratus_Q9Z245_NADH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_1_1_184_Mesocricetus_auratus_Q9Z245_4-Nitroacetophenone
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_1_1_184_Mesocricetus_auratus_Q9Z245_4-Nitroacetophenone
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_1_1_184_Mesocricetus_auratus_Q9Z245_NADP_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_1_1_184_Mesocricetus_auratus_Q9Z245_4-Nitroacetophenone
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_1_1_184_Mesocricetus_auratus_Q9Z245_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_1_1_184_Mesocricetus_auratus_Q9Z245_NADP_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1_184_Mesocricetus_auratus_Q9Z245_Cyclohex-2-en-1-ol_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0014
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cyclohex-2-en-1-ol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11141073'
+- id: 1_1_1_184_Mesocricetus_auratus_Q9Z245_Cyclohex-2-en-1-ol_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.000316673
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cyclohex-2-en-1-ol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11141073'
+- id: 1_1_1_184_Mesocricetus_auratus_Q9Z245_Cyclohex-2-en-1-ol_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.233338
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cyclohex-2-en-1-ol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11141073'
+- id: 1_1_1_184_Mesocricetus_auratus_Q9Z245_NADH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.8e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11141073'
+- id: 1_1_1_184_Mesocricetus_auratus_Q9Z245_NADH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 8.50017e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11141073'
+- id: 1_1_1_184_Mesocricetus_auratus_Q9Z245_4-Nitroacetophenone_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.9e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_4-Nitroacetophenone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11141073'
+- id: 1_1_1_184_Mesocricetus_auratus_Q9Z245_4-Nitroacetophenone_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.000165003
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_4-Nitroacetophenone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11141073'
+- id: 1_1_1_184_Mesocricetus_auratus_Q9Z245_4-Nitroacetophenone_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.466796
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_4-Nitroacetophenone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11141073'
+- id: 1_1_1_184_Mesocricetus_auratus_Q9Z245_4-Nitroacetophenone_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.3e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_4-Nitroacetophenone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11141073'
+- id: 1_1_1_184_Mesocricetus_auratus_Q9Z245_4-Nitroacetophenone_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 8.50017e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_4-Nitroacetophenone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11141073'
+- id: 1_1_1_184_Mesocricetus_auratus_Q9Z245_NADP__Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.000366674
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11141073'
+- id: 1_1_1_184_Mesocricetus_auratus_Q9Z245_NADP__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.983353
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11141073'
+- id: 1_1_1_184_Mesocricetus_auratus_Q9Z245_NADP__Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00037
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11141073'
+- id: 1_1_1_184_Mesocricetus_auratus_Q9Z245_4-Nitroacetophenone_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.000165003
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_4-Nitroacetophenone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11141073'
+- id: 1_1_1_184_Mesocricetus_auratus_Q9Z245_4-Nitroacetophenone_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.1e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_4-Nitroacetophenone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11141073'
+- id: 1_1_1_184_Mesocricetus_auratus_Q9Z245_4-Nitroacetophenone_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 14.61696
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_4-Nitroacetophenone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11141073'
+- id: 1_1_1_184_Mesocricetus_auratus_Q9Z245_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.7e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11141073'
+- id: 1_1_1_184_Mesocricetus_auratus_Q9Z245_NAD__Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.000316673
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11141073'
+- id: 1_1_1_184_Mesocricetus_auratus_Q9Z245_NADP__Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 9.00018e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11141073'
+- id: 1_1_1_184_Mesocricetus_auratus_Q9Z245_NADP__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00037
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11141073'
+buffer:
+  buffer: 0.1 M potassium phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 9962
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11141073/
+  pubmed_id: '11141073'
+  doi: null
+name: Merged entry for Q9Z245 L39R
+description: 'Merged from 8 files: SABIO_EC1.1.1.184_Mesocricetus_auratus__Q9Z245_L39R_s_Cyclohex-2-en-1-ol.yaml,
+  SABIO_EC1.1.1.184_Mesocricetus_auratus__Q9Z245_L39R_s_NADH.yaml, SABIO_EC1.1.1.184_Mesocricetus_auratus__Q9Z245_L39R_s_4-Nitroacetophenone_3.yaml,
+  SABIO_EC1.1.1.184_Mesocricetus_auratus__Q9Z245_L39R_s_4-Nitroacetophenone.yaml,
+  SABIO_EC1.1.1.184_Mesocricetus_auratus__Q9Z245_L39R_s_NADP_.yaml, SABIO_EC1.1.1.184_Mesocricetus_auratus__Q9Z245_L39R_s_4-Nitroacetophenone_2.yaml,
+  SABIO_EC1.1.1.184_Mesocricetus_auratus__Q9Z245_L39R_s_NAD_.yaml, SABIO_EC1.1.1.184_Mesocricetus_auratus__Q9Z245_L39R_s_NADP__2.yaml'

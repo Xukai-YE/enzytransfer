@@ -1,0 +1,501 @@
+version: '2.0'
+created: '2025-11-20T13:39:26.214256'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_95_Q9LT69_p63342
+  name: phosphoglycerate dehydrogenase
+  ecnumber: 1.1.1.95
+  organism: Arabidopsis thaliana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9LT69
+  wildtype_sequence: MATSLNLSSIFSSSSRLVTTPSSVFPIRQRRRIILVTSSSSGGGGKPTILVTEKLGQAGIDLLKKYANVDCSYDLSLEELCTKISLCDALIVRSGTKVGRDVFESSRGRLKVVGRAGVGIDNVDLAAATEYGCLVVNAPTANTVAAAEHGIALLTAMARNIAQADASIKAGKWTRNKYVGVSLVGKTLAVLGFGKVGSEVARRARGLGMHVITHDPYAPADRARAIGVELVSFEVAISTADFISLHLPLTAATSKMMNDVTFAMMKKGVRIVNVARGGVIDEEALLRALDSGIVAQAALDVFTVEPPVKDNKLVLHESVTATPHLGASTMEAQEGVSIEVAEAVIGALRGELAATAVNAPMVPLEVLRELKPYVVLAEKLGRLAVQLVTGGSGVNAVKVTYASSRAPDDLDTRLLRAMVIKGIIEPISSVFINLVNSDYIAKQRGVKISEERMVLDGSPENPIEYITVRIANVESRFASALSESGEIKVEGRVKQGVPSLTKVGLFGVDVSLEGSVILCRQVDQPGMIGKVASILGDENVNVSFMSVGRIAPGKQAVMAIGVDEQPSKETLKKIGDIPAIEEFVFLKL
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_3-Phospho-D-glycerate
+  name: 3-Phospho-D-glycerate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3-Phosphohydroxypyruvate
+  name: 3-Phosphohydroxypyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_8970_EC1_1_1_95_Arabidopsis_thaliana_Q9LT69_3-Phospho-D-glycerate
+  name: Reaction catalyzed by phosphoglycerate dehydrogenase on 3-Phospho-D-glycerate
+  equation: NAD+ + 3-Phospho-D-glycerate = NADH + H+ + 3-Phosphohydroxypyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3-Phospho-D-glycerate
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_NADH
+  - species_id: product_3-Phosphohydroxypyruvate
+  modifiers:
+  - species_id: protein_1_1_1_95_Q9LT69_p63342
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 12641;12642;12643;12644
+  KEGGid: R01513
+  notes: 'ChEBI IDs: CHEBI:1657; CHEBI:20191; CHEBI:44281; CHEBI:11880; CHEBI:12987;
+    CHEBI:11882; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:88352; CHEBI:11884;
+    CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:57998; CHEBI:24636;
+    CHEBI:44214; CHEBI:1661; CHEBI:29233; CHEBI:58272; CHEBI:13394; CHEBI:5584; CHEBI:57945;
+    CHEBI:44216; CHEBI:30933; CHEBI:88005; CHEBI:57540; CHEBI:7423; CHEBI:24345; CHEBI:17050;
+    CHEBI:11883; CHEBI:13389; CHEBI:13395; CHEBI:17794; CHEBI:1659; CHEBI:40016; CHEBI:15378;
+    CHEBI:20192; CHEBI:21029; CHEBI:44215; CHEBI:10744; CHEBI:11879; CHEBI:18110;
+    CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00597; KEGG:C03232; KEGG:C00080; KEGG:C00003; KEGG:C00197; KEGG:C00004'
+- id: sabiork_8970_EC1_1_1_95_Arabidopsis_thaliana_Q9LT69_3-Phospho-D-glycerate
+  name: Reaction catalyzed by phosphoglycerate dehydrogenase on 3-Phospho-D-glycerate
+  equation: NAD+ + 3-Phospho-D-glycerate = NADH + H+ + 3-Phosphohydroxypyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3-Phospho-D-glycerate
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_NADH
+  - species_id: product_3-Phosphohydroxypyruvate
+  modifiers:
+  - species_id: protein_1_1_1_95_Q9LT69_p63341
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 12641;12642;12643;12644
+  KEGGid: R01513
+  notes: 'ChEBI IDs: CHEBI:1657; CHEBI:20191; CHEBI:44281; CHEBI:11880; CHEBI:12987;
+    CHEBI:11882; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:88352; CHEBI:11884;
+    CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:57998; CHEBI:24636;
+    CHEBI:44214; CHEBI:1661; CHEBI:29233; CHEBI:58272; CHEBI:13394; CHEBI:5584; CHEBI:57945;
+    CHEBI:44216; CHEBI:30933; CHEBI:88005; CHEBI:57540; CHEBI:7423; CHEBI:24345; CHEBI:17050;
+    CHEBI:11883; CHEBI:13389; CHEBI:13395; CHEBI:17794; CHEBI:1659; CHEBI:40016; CHEBI:15378;
+    CHEBI:20192; CHEBI:21029; CHEBI:44215; CHEBI:10744; CHEBI:11879; CHEBI:18110;
+    CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00597; KEGG:C03232; KEGG:C00080; KEGG:C00003; KEGG:C00197; KEGG:C00004'
+- id: sabiork_8970_EC1_1_1_95_Arabidopsis_thaliana_Q9LT69_NAD_
+  name: Reaction catalyzed by phosphoglycerate dehydrogenase on NAD+
+  equation: NAD+ + 3-Phospho-D-glycerate = NADH + H+ + 3-Phosphohydroxypyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_3-Phospho-D-glycerate
+  products:
+  - species_id: product_NADH
+  - species_id: product_3-Phosphohydroxypyruvate
+  modifiers:
+  - species_id: protein_1_1_1_95_Q9LT69_p63343
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 12641;12642;12643;12644
+  KEGGid: R01513
+  notes: 'ChEBI IDs: CHEBI:1657; CHEBI:20191; CHEBI:44281; CHEBI:11882; CHEBI:12987;
+    CHEBI:11880; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:88352; CHEBI:13357;
+    CHEBI:11884; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:57998; CHEBI:24636;
+    CHEBI:44214; CHEBI:1661; CHEBI:29233; CHEBI:58272; CHEBI:13394; CHEBI:5584; CHEBI:57945;
+    CHEBI:44216; CHEBI:30933; CHEBI:88005; CHEBI:57540; CHEBI:7423; CHEBI:24345; CHEBI:11883;
+    CHEBI:13389; CHEBI:15378; CHEBI:17794; CHEBI:40016; CHEBI:1659; CHEBI:13395; CHEBI:20192;
+    CHEBI:21029; CHEBI:11879; CHEBI:44215; CHEBI:10744; CHEBI:17050; CHEBI:18110;
+    CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00597; KEGG:C03232; KEGG:C00080; KEGG:C00003; KEGG:C00197; KEGG:C00004'
+- id: sabiork_8970_EC1_1_1_95_Arabidopsis_thaliana_Q9LT69_NAD_
+  name: Reaction catalyzed by phosphoglycerate dehydrogenase on NAD+
+  equation: NAD+ + 3-Phospho-D-glycerate = NADH + H+ + 3-Phosphohydroxypyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_3-Phospho-D-glycerate
+  products:
+  - species_id: product_3-Phosphohydroxypyruvate
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_1_1_95_Q9LT69_p63344
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 12641;12642;12643;12644
+  KEGGid: R01513
+  notes: 'ChEBI IDs: CHEBI:1657; CHEBI:20191; CHEBI:44281; CHEBI:11882; CHEBI:12987;
+    CHEBI:11880; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:88352; CHEBI:11884;
+    CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:57998; CHEBI:24636;
+    CHEBI:44214; CHEBI:1661; CHEBI:29233; CHEBI:58272; CHEBI:13394; CHEBI:5584; CHEBI:57945;
+    CHEBI:44216; CHEBI:30933; CHEBI:88005; CHEBI:57540; CHEBI:7423; CHEBI:24345; CHEBI:11883;
+    CHEBI:13389; CHEBI:15378; CHEBI:17794; CHEBI:40016; CHEBI:1659; CHEBI:13395; CHEBI:20192;
+    CHEBI:21029; CHEBI:11879; CHEBI:44215; CHEBI:10744; CHEBI:17050; CHEBI:18110;
+    CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00597; KEGG:C03232; KEGG:C00080; KEGG:C00003; KEGG:C00197; KEGG:C00004'
+measurements:
+- id: measurement_1_1_1_95_Arabidopsis_thaliana_Q9LT69_3-Phospho-D-glycerate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.1
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_1_1_1_95_Arabidopsis_thaliana_Q9LT69_3-Phospho-D-glycerate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.1
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_1_1_1_95_Arabidopsis_thaliana_Q9LT69_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_1_1_1_95_Arabidopsis_thaliana_Q9LT69_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 1_1_1_95_Arabidopsis_thaliana_Q9LT69_3-Phospho-D-glycerate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 595029.1
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Phospho-D-glycerate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.1
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '24368794'
+- id: 1_1_1_95_Arabidopsis_thaliana_Q9LT69_3-Phospho-D-glycerate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.002293379
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Phospho-D-glycerate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.1
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '24368794'
+- id: 1_1_1_95_Arabidopsis_thaliana_Q9LT69_3-Phospho-D-glycerate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000239
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Phospho-D-glycerate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.1
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '24368794'
+- id: 1_1_1_95_Arabidopsis_thaliana_Q9LT69_3-Phospho-D-glycerate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 142.4
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Phospho-D-glycerate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.1
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '24368794'
+- id: 1_1_1_95_Arabidopsis_thaliana_Q9LT69_3-Phospho-D-glycerate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.002293379
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Phospho-D-glycerate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.1
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '24368794'
+- id: 1_1_1_95_Arabidopsis_thaliana_Q9LT69_3-Phospho-D-glycerate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.001006
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Phospho-D-glycerate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.1
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '24368794'
+- id: 1_1_1_95_Arabidopsis_thaliana_Q9LT69_3-Phospho-D-glycerate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 141600.4
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Phospho-D-glycerate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.1
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '24368794'
+- id: 1_1_1_95_Arabidopsis_thaliana_Q9LT69_3-Phospho-D-glycerate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 142.4
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Phospho-D-glycerate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.1
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '24368794'
+- id: 1_1_1_95_Arabidopsis_thaliana_Q9LT69_NAD__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 97.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '24368794'
+- id: 1_1_1_95_Arabidopsis_thaliana_Q9LT69_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.002559
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '24368794'
+- id: 1_1_1_95_Arabidopsis_thaliana_Q9LT69_NAD__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 37914.9
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.2
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '24368794'
+- id: 1_1_1_95_Arabidopsis_thaliana_Q9LT69_NAD__Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.001561698
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '24368794'
+- id: 1_1_1_95_Arabidopsis_thaliana_Q9LT69_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000551
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '24368794'
+- id: 1_1_1_95_Arabidopsis_thaliana_Q9LT69_NAD__Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.001561698
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '24368794'
+- id: 1_1_1_95_Arabidopsis_thaliana_Q9LT69_NAD__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 176151.6
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.2
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '24368794'
+- id: 1_1_1_95_Arabidopsis_thaliana_Q9LT69_NAD__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 97.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '24368794'
+buffer:
+  buffer: 200 mM Tris, 25 mM EDTA, 0.1 mM DTT, 5 mM hydrazine sulfate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 63342
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/24368794/
+  pubmed_id: '24368794'
+  doi: null
+name: Merged entry for Q9LT69 wildtype
+description: 'Merged from 4 files: SABIO_EC1.1.1.95_Arabidopsis_thaliana__Q9LT69_s_3-Phospho-D-glycerat_2.yaml,
+  SABIO_EC1.1.1.95_Arabidopsis_thaliana__Q9LT69_s_3-Phospho-D-glycerat.yaml, SABIO_EC1.1.1.95_Arabidopsis_thaliana__Q9LT69_s_NAD_.yaml,
+  SABIO_EC1.1.1.95_Arabidopsis_thaliana__Q9LT69_s_NAD__2.yaml'

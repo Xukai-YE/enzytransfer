@@ -1,0 +1,194 @@
+name: SABIO-RK Entry 11807
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 11807
+created: '2025-10-28T13:59:39.700286'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_38_P23368_P23368_p11807
+  name: malate dehydrogenase (oxaloacetate-decarboxylating) (NADP+)
+  sequence: null
+  ecnumber: 1.1.1.38
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: R197A
+  uniprotid: P23368
+  wildtype_sequence: MLSRLRVVSTTCTLACRHLHIKEKGKPLMLNPRTNKGMAFTLQERQMLGLQGLLPPKIETQDIQALRFHRNLKKMTSPLEKYIYIMGIQERNEKLFYRILQDDIESLMPIVYTPTVGLACSQYGHIFRRPKGLFISISDRGHVRSIVDNWPENHVKAVVVTDGERILGLGDLGVYGMGIPVGKLCLYTACAGIRPDRCLPVCIDVGTDNIALLKDPFYMGLYQKRDRTQQYDDLIDEFMKAITDRYGRNTLIQFEDFGNHNAFRFLRKYREKYCTFNDDIQGTAAVALAGLLAAQKVISKPISEHKILFLGAGEAALGIANLIVMSMVENGLSEQEAQKKIWMFDKYGLLVKGRKAKIDSYQEPFTHSAPESIPDTFEDAVNILKPSTIIGVAGAGRLFTPDVIRAMASINERPVIFALSNPTAQAECTAEEAYTLTEGRCLFASGSPFGPVKLTDGRVFTPGQGNNVYIFPGVALAVILCNTRHISDSVFLEAAKALTSQLTDEELAQGRLYPPLANIQEVSINIAIKVTEYLYANKMAFRYPEPEDKAKYVKERTWRSEYDSLLPDVYEWPESASSPPVITE
+  mutant_sequence: MLSRLRVVSTTCTLACRHLHIKEKGKPLMLNPRTNKGMAFTLQERQMLGLQGLLPPKIETQDIQALRFHRNLKKMTSPLEKYIYIMGIQERNEKLFYRILQDDIESLMPIVYTPTVGLACSQYGHIFRRPKGLFISISDRGHVRSIVDNWPENHVKAVVVTDGERILGLGDLGVYGMGIPVGKLCLYTACAGIRPDACLPVCIDVGTDNIALLKDPFYMGLYQKRDRTQQYDDLIDEFMKAITDRYGRNTLIQFEDFGNHNAFRFLRKYREKYCTFNDDIQGTAAVALAGLLAAQKVISKPISEHKILFLGAGEAALGIANLIVMSMVENGLSEQEAQKKIWMFDKYGLLVKGRKAKIDSYQEPFTHSAPESIPDTFEDAVNILKPSTIIGVAGAGRLFTPDVIRAMASINERPVIFALSNPTAQAECTAEEAYTLTEGRCLFASGSPFGPVKLTDGRVFTPGQGNNVYIFPGVALAVILCNTRHISDSVFLEAAKALTSQLTDEELAQGRLYPPLANIQEVSINIAIKVTEYLYANKMAFRYPEPEDKAKYVKERTWRSEYDSLLPDVYEWPESASSPPVITE
+  resolution_status: multi_id_resolved
+complexes: null
+small_molecules:
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_L-Malate
+  name: L-Malate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Pyruvate
+  name: Pyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Fumarate
+  name: Fumarate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_141_EC1_1_1_38_Homo_sapiens_P23368_P23368_NAD_
+  name: Reaction catalyzed by malate dehydrogenase (oxaloacetate-decarboxylating)
+    (NADP+) on NAD+
+  equation: NAD+ + L-Malate = CO2 + Pyruvate + H+ + NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_L-Malate
+  - species_id: cofactor_ATP
+  products:
+  - species_id: product_CO2
+  - species_id: product_NADH
+  - species_id: product_Pyruvate
+  modifiers:
+  - species_id: protein_1_1_1_38_P23368_P23368_p11807
+    role: BIOCATALYST
+  - species_id: activator_Fumarate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 12653;12654;12655;12656
+  KEGGid: R00214
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:10789; CHEBI:57299; CHEBI:42743;
+    CHEBI:42511; CHEBI:14987; CHEBI:15589; CHEBI:139538; CHEBI:44281; CHEBI:13393;
+    CHEBI:15846; CHEBI:24124; CHEBI:3283; CHEBI:13236; CHEBI:21902; CHEBI:15361; CHEBI:13396;
+    CHEBI:30797; CHEBI:21901; CHEBI:423; CHEBI:10841; CHEBI:29806; CHEBI:44214; CHEBI:2359;
+    CHEBI:11066; CHEBI:13394; CHEBI:23011; CHEBI:40938; CHEBI:26466; CHEBI:57945;
+    CHEBI:44216; CHEBI:13285; CHEBI:18784; CHEBI:13282; CHEBI:26462; CHEBI:13140;
+    CHEBI:57540; CHEBI:7423; CHEBI:22249; CHEBI:18785; CHEBI:13283; CHEBI:15422; CHEBI:24122;
+    CHEBI:8685; CHEBI:18012; CHEBI:13389; CHEBI:13395; CHEBI:13284; CHEBI:14284; CHEBI:32816;
+    CHEBI:16526; CHEBI:5190; CHEBI:48829; CHEBI:44215; CHEBI:37154; CHEBI:45253; CHEBI:7422;
+    CHEBI:16908
+
+    KEGG IDs: KEGG:C00122; KEGG:C00002; KEGG:C00149; KEGG:C00011; KEGG:C00022; KEGG:C00003;
+    KEGG:C00004'
+measurements:
+- id: measurement_1_1_1_38_Homo_sapiens_P23368_P23368_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1_38_Homo_sapiens_P23368_P23368_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0012
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15182181'
+- id: 1_1_1_38_Homo_sapiens_P23368_P23368_NAD__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 49.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15182181'
+buffer:
+  buffer: 30 mM Tris-HCl, 2 mM MnCl2
+  buffer_concentration: 30 mM
+references:
+- title: Reference for SABIO-RK entry 11807
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15182181/
+  pubmed_id: '15182181'
+  doi: null

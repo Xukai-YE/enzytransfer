@@ -1,0 +1,208 @@
+version: '2.0'
+created: '2025-11-20T13:39:20.398242'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_31_P31937_p46826
+  name: 3-hydroxyisobutyrate dehydrogenase
+  ecnumber: 1.1.1.31
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P31937
+  wildtype_sequence: MAASLRLLGAASGLRYWSRRLRPAAGSFAAVCSRSVASKTPVGFIGLGNMGNPMAKNLMKHGYPLIIYDVFPDACKEFQDAGEQVVSSPADVAEKADRIITMLPTSINAIEAYSGANGILKKVKKGSLLIDSSTIDPAVSKELAKEVEKMGAVFMDAPVSGGVGAARSGNLTFMVGGVEDEFAAAQELLGCMGSNVVYCGAVGTGQAAKICNNMLLAISMIGTAEAMNLGIRLGLDPKLLAKILNMSSGRCWSSDTYNPVPGVMDGVPSANNYQGGFGTTLMAKDLGLAQDSATSTKSPILLGSLAHQIYRMMCAKGYSKKDFSSVFQFLREEETF
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_3-Hydroxy-2-methylpropanoate
+  name: 3-Hydroxy-2-methylpropanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Methyl-3-oxopropanoate
+  name: 2-Methyl-3-oxopropanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2065_EC1_1_1_31_Homo_sapiens_P31937_3-Hydroxy-2-methylpropanoate
+  name: Reaction catalyzed by 3-hydroxyisobutyrate dehydrogenase on 3-Hydroxy-2-methylpropanoate
+  equation: NAD+ + 3-Hydroxy-2-methylpropanoate = 2-Methyl-3-oxopropanoate + H+ +
+    NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3-Hydroxy-2-methylpropanoate
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_2-Methyl-3-oxopropanoate
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_1_1_31_P31937_p46826
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17681;17682;17683;17684
+  KEGGid: R02047
+  notes: 'ChEBI IDs: CHEBI:44281; CHEBI:18064; CHEBI:13393; CHEBI:16256; CHEBI:11805;
+    CHEBI:15846; CHEBI:57700; CHEBI:11609; CHEBI:29234; CHEBI:13357; CHEBI:21902;
+    CHEBI:19682; CHEBI:13396; CHEBI:21901; CHEBI:24636; CHEBI:44214; CHEBI:29233;
+    CHEBI:13394; CHEBI:5584; CHEBI:57945; CHEBI:44216; CHEBI:57540; CHEBI:11610; CHEBI:7423;
+    CHEBI:13389; CHEBI:15378; CHEBI:13395; CHEBI:1193; CHEBI:1516; CHEBI:44215; CHEBI:10744;
+    CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00349; KEGG:C00080; KEGG:C01188; KEGG:C00003; KEGG:C00004'
+- id: sabiork_2065_EC1_1_1_31_Homo_sapiens_P31937_NAD_
+  name: Reaction catalyzed by 3-hydroxyisobutyrate dehydrogenase on NAD+
+  equation: NAD+ + 3-Hydroxy-2-methylpropanoate = 2-Methyl-3-oxopropanoate + H+ +
+    NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_3-Hydroxy-2-methylpropanoate
+  products:
+  - species_id: product_2-Methyl-3-oxopropanoate
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_1_1_31_P31937_p46825
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17681;17682;17683;17684
+  KEGGid: R02047
+  notes: 'ChEBI IDs: CHEBI:44281; CHEBI:13393; CHEBI:18064; CHEBI:16256; CHEBI:11805;
+    CHEBI:15846; CHEBI:57700; CHEBI:11609; CHEBI:29234; CHEBI:13357; CHEBI:21902;
+    CHEBI:19682; CHEBI:13396; CHEBI:21901; CHEBI:24636; CHEBI:44214; CHEBI:29233;
+    CHEBI:13394; CHEBI:5584; CHEBI:57945; CHEBI:44216; CHEBI:57540; CHEBI:11610; CHEBI:7423;
+    CHEBI:13389; CHEBI:13395; CHEBI:15378; CHEBI:1193; CHEBI:1516; CHEBI:44215; CHEBI:10744;
+    CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00349; KEGG:C00080; KEGG:C01188; KEGG:C00003; KEGG:C00004'
+measurements:
+- id: measurement_1_1_1_31_Homo_sapiens_P31937_3-Hydroxy-2-methylpropanoate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.5
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_1_1_1_31_Homo_sapiens_P31937_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.5
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 1_1_1_31_Homo_sapiens_P31937_3-Hydroxy-2-methylpropanoate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0005
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Hydroxy-2-methylpropanoate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '16466957'
+- id: 1_1_1_31_Homo_sapiens_P31937_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00012
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '16466957'
+buffer:
+  buffer: 100 mM Tris-CHES-CAPS. 1 g/L Triton X-100, 100 mM hydrazine
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 46826
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16466957/
+  pubmed_id: '16466957'
+  doi: null
+name: Merged entry for P31937 wildtype
+description: 'Merged from 2 files: SABIO_EC1.1.1.31_Homo_sapiens__P31937_s_3-Hydroxy-2-methylpr.yaml,
+  SABIO_EC1.1.1.31_Homo_sapiens__P31937_s_NAD_.yaml'

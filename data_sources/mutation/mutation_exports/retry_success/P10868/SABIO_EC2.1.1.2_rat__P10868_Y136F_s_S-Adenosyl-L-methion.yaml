@@ -1,0 +1,162 @@
+name: SABIO-RK Entry 13941
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 13941
+created: '2025-10-28T14:03:50.306528'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_1_1_2_P10868_p13941
+  name: guanidinoacetate N-methyltransferase
+  ecnumber: 2.1.1.2
+  organism: rat
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: Y136F
+  uniprotid: P10868
+  wildtype_sequence: MSSSAASPLFAPGEDCGPAWRAAPAAYDTSDTHLQILGKPVMERWETPYMHSLAAAAASRGGRVLEVGFGMAIAASRVQQAPIKEHWIIECNDGVFQRLQNWALKQPHKVVPLKGLWEEEAPTLPDGHFDGILYDTYPLSEETWHTHQFNFIKTHAFRLLKPGGILTYCNLTSWGELMKSKYTDITAMFEETQVPALLEAGFQRENICTEVMALVPPADCRYYAFPQMITPLVTKH
+  mutant_sequence: MSSSAASPLFAPGEDCGPAWRAAPAAYDTSDTHLQILGKPVMERWETPYMHSLAAAAASRGGRVLEVGFGMAIAASRVQQAPIKEHWIIECNDGVFQRLQNWALKQPHKVVPLKGLWEEEAPTLPDGHFDGILFDTYPLSEETWHTHQFNFIKTHAFRLLKPGGILTYCNLTSWGELMKSKYTDITAMFEETQVPALLEAGFQRENICTEVMALVPPADCRYYAFPQMITPLVTKH
+  position_offset: -2
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_S-Adenosyl-L-methionine
+  name: S-Adenosyl-L-methionine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Guanidinoacetate
+  name: Guanidinoacetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Creatine
+  name: Creatine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_S-Adenosyl-L-homocysteine
+  name: S-Adenosyl-L-homocysteine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1943_EC2_1_1_2_rat_P10868_S-Adenosyl-L-methionine
+  name: Reaction catalyzed by guanidinoacetate N-methyltransferase on S-Adenosyl-L-methionine
+  equation: S-Adenosyl-L-methionine + Guanidinoacetate = S-Adenosyl-L-homocysteine
+    + Creatine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_S-Adenosyl-L-methionine
+  - species_id: substrate_Guanidinoacetate
+  products:
+  - species_id: product_Creatine
+  - species_id: product_S-Adenosyl-L-homocysteine
+  modifiers:
+  - species_id: protein_2_1_1_2_P10868_p13941
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 10656;10657;10658;10659
+  KEGGid: R01883
+  notes: 'ChEBI IDs: CHEBI:23404; CHEBI:22036; CHEBI:12760; CHEBI:14028; CHEBI:12742;
+    CHEBI:59789; CHEBI:67009; CHEBI:45495; CHEBI:24438; CHEBI:16344; CHEBI:41678;
+    CHEBI:142094; CHEBI:8945; CHEBI:67040; CHEBI:66924; CHEBI:44474; CHEBI:5560; CHEBI:16919;
+    CHEBI:45607; CHEBI:33442; CHEBI:24440; CHEBI:15414; CHEBI:3909; CHEBI:10833; CHEBI:12761;
+    CHEBI:12741; CHEBI:57742; CHEBI:14369; CHEBI:57856; CHEBI:57947; CHEBI:16680;
+    CHEBI:12759; CHEBI:131444; CHEBI:8946; CHEBI:22034; CHEBI:527887; CHEBI:10786;
+    CHEBI:12757
+
+    KEGG IDs: KEGG:C00021; KEGG:C00581; KEGG:C00300; KEGG:C00019'
+measurements:
+- id: measurement_2_1_1_2_rat_P10868_S-Adenosyl-L-methionine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 2_1_1_2_rat_P10868_S-Adenosyl-L-methionine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.0955
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8119887'
+buffer:
+  buffer: 0.1 M potassium phosphate, recombinant rat S-Adenosyl-L-homocysteine hydrolase,
+    calf intestinal mucosa adenosine deaminase
+  buffer_concentration: 0.1 M
+references:
+- title: Reference for SABIO-RK entry 13941
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/8119887/
+  pubmed_id: '8119887'
+  doi: null

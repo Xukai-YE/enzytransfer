@@ -1,0 +1,190 @@
+name: SABIO-RK Entry 11342
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 11342
+created: '2025-10-28T13:58:58.310709'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_1_P08319_p11342
+  name: alcohol dehydrogenase
+  ecnumber: 1.1.1.1
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: M141L
+  uniprotid: P08319
+  wildtype_sequence: MGTKGKVIKCKAAIAWEAGKPLCIEEVEVAPPKAHEVRIQIIATSLCHTDATVIDSKFEGLAFPVIVGHEAAGIVESIGPGVTNVKPGDKVIPLYAPLCRKCKFCLSPLTNLCGKISNLKSPASDQQLMEDKTSRFTCKGKPVYHFFGTSTFSQYTVVSDINLAKIDDDANLERVCLLGCGFSTGYGAAINNAKVTPGSTCAVFGLGGVGLSAVMGCKAAGASRIIGIDINSEKFVKAKALGATDCLNPRDLHKPIQEVIIELTKGGVDFALDCAGGSETMKAALDCTTAGWGSCTFIGVAAGSKGLTIFPEELIIGRTINGTFFGGWKSVDSIPKLVTDYKNKKFNLDALVTHTLPFDKISEAFDLMNQGKSVRTILIF
+  mutant_sequence: MLVRGPHFELQRCKTHLFSSNYLTQVIKCKAAIAWEAGKPLCIEEVEVAPPKAHEVRIQIIATSLCHTDATVIDSKFEGLAFPVIVGHEAAGIVESIGPGVTNVKPGDKVIPLYAPLCRKCKFCLSPLTNLCGKISNLKSPASDQQLLEDKTSRFTCKGKPVYHFFGTSTFSQYTVVSDINLAKIDDDANLERVCLLGCGFSTGYGAAINNAKVTPGSTCAVFGLGGVGLSAVMGCKAAGASRIIGIDINSEKFVKAKALGATDCLNPRDLHKPIQEVIIELTKGGVDFALDCAGGSETMKAALDCTTAGWGSCTFIGVAAGSKGLTIFPEELIIGRTINGTFFGGWKSVDSIPKLVTDYKNKKFNLDALVTHTLPFDKISEAFDLMNQGKSVRTILIF
+  position_offset: 7
+  retry_status: isoform_2_matched
+  isoform_used: 2
+complexes: null
+small_molecules:
+- id: substrate_1-Hexanol
+  name: 1-Hexanol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Hexanal
+  name: Hexanal
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7706_EC1_1_1_1_Homo_sapiens_P08319_1-Hexanol
+  name: Reaction catalyzed by alcohol dehydrogenase on 1-Hexanol
+  equation: NAD+ + 1-Hexanol = NADH + Hexanal + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_1-Hexanol
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_NADH
+  - species_id: product_Hexanal
+  modifiers:
+  - species_id: protein_1_1_1_1_P08319_p11342
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 60972;60973;60974;60975
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:88528; CHEBI:44281; CHEBI:13393; CHEBI:15846; CHEBI:21902;
+    CHEBI:13396; CHEBI:21901; CHEBI:44214; CHEBI:13394; CHEBI:43057; CHEBI:57945;
+    CHEBI:44216; CHEBI:87439; CHEBI:57540; CHEBI:7423; CHEBI:13389; CHEBI:13395; CHEBI:44215;
+    CHEBI:87393; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00003; KEGG:C00004'
+measurements:
+- id: measurement_1_1_1_1_Homo_sapiens_P08319_1-Hexanol
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1_1_Homo_sapiens_P08319_1-Hexanol_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 152416.7
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1-Hexanol
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15096205'
+- id: 1_1_1_1_Homo_sapiens_P08319_1-Hexanol_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.8e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1-Hexanol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15096205'
+- id: 1_1_1_1_Homo_sapiens_P08319_1-Hexanol_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 7.333333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1-Hexanol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15096205'
+buffer:
+  buffer: 0.1 M sodium phosphate
+  buffer_concentration: 0.1 M
+references:
+- title: Reference for SABIO-RK entry 11342
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15096205/
+  pubmed_id: '15096205'
+  doi: null

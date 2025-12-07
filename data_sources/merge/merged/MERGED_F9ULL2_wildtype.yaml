@@ -1,0 +1,329 @@
+version: '2.0'
+created: '2025-11-20T13:41:28.275039'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_1_1__F9ULL2_p37902
+  name: carboxy-lyases
+  ecnumber: 4.1.1.
+  organism: Lactobacillus plantarum
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: F9ULL2
+  wildtype_sequence: MTKTFKTLDDFLGTHFIYTYDNGWEYEWYAKNDHTVDYRIHGGMVAGRWVTDQKADIVMLTEGIYKISWTEPTGTDVALDFMPNEKKLHGTIFFPKWVEEHPEITVTYQNEHIDLMEQSREKYATYPKLVVPEFANITYMGDAGQNNEDVISEAPYKEMPNDIRNGKYFDQNYHRLNK
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_4-Coumarate
+  name: 4-Coumarate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4-Hydroxystyrene
+  name: 4-Hydroxystyrene
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Ferulate
+  name: Ferulate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4-Vinylguaiacol
+  name: 4-Vinylguaiacol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Caffeate
+  name: Caffeate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3
+  name: '3'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4-Dihydroxystyrene
+  name: 4-Dihydroxystyrene
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2808_EC4_1_1__Lactobacillus_plantarum_F9ULL2_4-Coumarate
+  name: Reaction catalyzed by carboxy-lyases on 4-Coumarate
+  equation: 4-Coumarate = CO2 + 4-Hydroxystyrene
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_4-Coumarate
+  products:
+  - species_id: product_4-Hydroxystyrene
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_4_1_1__F9ULL2_p37902
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 33227;33228;33229;33230
+  KEGGid: R02952
+  notes: 'ChEBI IDs: CHEBI:139538; CHEBI:32374; CHEBI:20348; CHEBI:43108; CHEBI:12876;
+    CHEBI:3283; CHEBI:36090; CHEBI:20405; CHEBI:12007; CHEBI:23011; CHEBI:11978; CHEBI:27061;
+    CHEBI:13285; CHEBI:13282; CHEBI:1812; CHEBI:13283; CHEBI:32373; CHEBI:1883; CHEBI:13284;
+    CHEBI:20347; CHEBI:16526; CHEBI:48829
+
+    KEGG IDs: KEGG:C05627; KEGG:C00011; KEGG:C00811'
+- id: sabiork_12042_EC4_1_1__Lactobacillus_plantarum_F9ULL2_Ferulate
+  name: Reaction catalyzed by carboxy-lyases on Ferulate
+  equation: Ferulate = CO2 + 4-Vinylguaiacol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Ferulate
+  products:
+  - species_id: product_CO2
+  - species_id: product_4-Vinylguaiacol
+  modifiers:
+  - species_id: protein_4_1_1__F9ULL2_p37904
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 33807;33808;33809;33810
+  KEGGid: R11071
+  notes: 'ChEBI IDs: CHEBI:24030; CHEBI:139538; CHEBI:17620; CHEBI:42445; CHEBI:14260;
+    CHEBI:3283; CHEBI:5046; CHEBI:23011; CHEBI:29749; CHEBI:14259; CHEBI:13285; CHEBI:13282;
+    CHEBI:13283; CHEBI:42438; CHEBI:13284; CHEBI:16526; CHEBI:24029; CHEBI:48829;
+    CHEBI:11848
+
+    KEGG IDs: KEGG:C01494; KEGG:C00011; KEGG:C17883'
+- id: sabiork_12041_EC4_1_1__Lactobacillus_plantarum_F9ULL2_Caffeate
+  name: Reaction catalyzed by carboxy-lyases on Caffeate
+  equation: Caffeate = CO2 + 3,4-Dihydroxystyrene
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Caffeate
+  products:
+  - species_id: product_CO2
+  - species_id: product_3
+  - species_id: product_4-Dihydroxystyrene
+  modifiers:
+  - species_id: protein_4_1_1__F9ULL2_p37903
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03367
+  notes: 'ChEBI IDs: CHEBI:11691; CHEBI:11692; CHEBI:139538; CHEBI:16433; CHEBI:57770;
+    CHEBI:3283; CHEBI:1379; CHEBI:19877; CHEBI:12870; CHEBI:1390; CHEBI:23011; CHEBI:17395;
+    CHEBI:13285; CHEBI:13282; CHEBI:13283; CHEBI:13284; CHEBI:16526; CHEBI:36281;
+    CHEBI:48829; CHEBI:41964
+
+    KEGG IDs: KEGG:C06224; KEGG:C00011; KEGG:C01197; KEGG:C01481'
+measurements:
+- id: measurement_4_1_1__Lactobacillus_plantarum_F9ULL2_4-Coumarate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_4_1_1__Lactobacillus_plantarum_F9ULL2_Ferulate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_4_1_1__Lactobacillus_plantarum_F9ULL2_Caffeate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 4_1_1__Lactobacillus_plantarum_F9ULL2_4-Coumarate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.0001975
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_4-Coumarate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18416556'
+- id: 4_1_1__Lactobacillus_plantarum_F9ULL2_4-Coumarate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00112
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_4-Coumarate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18416556'
+- id: 4_1_1__Lactobacillus_plantarum_F9ULL2_Ferulate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 8.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Ferulate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18416556'
+- id: 4_1_1__Lactobacillus_plantarum_F9ULL2_Ferulate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Ferulate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18416556'
+- id: 4_1_1__Lactobacillus_plantarum_F9ULL2_Caffeate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00107
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Caffeate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18416556'
+- id: 4_1_1__Lactobacillus_plantarum_F9ULL2_Caffeate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000206111
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Caffeate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18416556'
+buffer:
+  buffer: 25 mM phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 37902
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/18416556/
+  pubmed_id: '18416556'
+  doi: null
+name: Merged entry for F9ULL2 wildtype
+description: 'Merged from 3 files: SABIO_EC4.1.1._Lactobacillus_plantarum__F9ULL2_s_4-Coumarate.yaml,
+  SABIO_EC4.1.1._Lactobacillus_plantarum__F9ULL2_s_Ferulate.yaml, SABIO_EC4.1.1._Lactobacillus_plantarum__F9ULL2_s_Caffeate.yaml'

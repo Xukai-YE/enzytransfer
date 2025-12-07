@@ -1,0 +1,166 @@
+name: SABIO-RK Entry 3954
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 3954
+created: '2025-10-28T13:47:31.576605'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_8_1__Q9EV84_Q9EV85_p3954
+  name: In C-halide compounds
+  sequence: null
+  ecnumber: 3.8.1.
+  organism: Pseudomonas pavonaceae
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9EV84; Q9EV85
+complexes: null
+small_molecules:
+- id: substrate_2-Oxo-3-pentynoate
+  name: 2-Oxo-3-pentynoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Acetylpyruvate
+  name: Acetylpyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7110_EC3_8_1__Pseudomonas_pavonaceae_Q9EV84_Q9EV85_2-Oxo-3-pentynoate
+  name: Reaction catalyzed by In C-halide compounds on 2-Oxo-3-pentynoate
+  equation: H2O + 2-Oxo-3-pentynoate = Acetylpyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2-Oxo-3-pentynoate
+  products:
+  - species_id: product_Acetylpyruvate
+  modifiers:
+  - species_id: protein_3_8_1__Q9EV84_Q9EV85_p3954
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:2424; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:22202;
+    CHEBI:42857; CHEBI:41979; CHEBI:42043; CHEBI:15360; CHEBI:33811; CHEBI:33813;
+    CHEBI:27313; CHEBI:15377; CHEBI:13718; CHEBI:13352; CHEBI:43228; CHEBI:44292;
+    CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00001; KEGG:C02132'
+measurements:
+- id: measurement_3_8_1__Pseudomonas_pavonaceae_Q9EV84_Q9EV85_2-Oxo-3-pentynoate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 23.0
+  temperature_unit: °C
+parameters:
+- id: 3_8_1__Pseudomonas_pavonaceae_Q9EV84_Q9EV85_2-Oxo-3-pentynoate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 6400.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Oxo-3-pentynoate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12873137'
+- id: 3_8_1__Pseudomonas_pavonaceae_Q9EV84_Q9EV85_2-Oxo-3-pentynoate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00011
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Oxo-3-pentynoate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12873137'
+- id: 3_8_1__Pseudomonas_pavonaceae_Q9EV84_Q9EV85_2-Oxo-3-pentynoate_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.7
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Oxo-3-pentynoate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12873137'
+buffer:
+  buffer: 20 mM Na2HPO4
+  buffer_concentration: 20 mM
+references:
+- title: Reference for SABIO-RK entry 3954
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12873137/
+  pubmed_id: '12873137'
+  doi: null

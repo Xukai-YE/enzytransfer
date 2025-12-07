@@ -1,0 +1,240 @@
+version: '2.0'
+created: '2025-11-20T13:40:27.120205'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_138_Q53H12_p43510
+  name: ceramide kinase
+  ecnumber: 2.7.1.138
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q53H12
+  wildtype_sequence: MTVFFKTLRNHWKKTTAGLCLLTWGGHWLYGKHCDNLLRRAACQEAQVFGNQLIPPNAQVKKATVFLNPAACKGKARTLFEKNAAPILHLSGMDVTIVKTDYEGQAKKLLELMENTDVIIVAGGDGTLQEVVTGVLRRTDEATFSKIPIGFIPLGETSSLSHTLFAESGNKVQHITDATLAIVKGETVPLDVLQIKGEKEQPVFAMTGLRWGSFRDAGVKVSKYWYLGPLKIKAAHFFSTLKEWPQTHQASISYTGPTERPPNEPEETPVQRPSLYRRILRRLASYWAQPQDALSQEVSPEVWKDVQLSTIELSITTRNNQLDPTSKEDFLNICIEPDTISKGDFITIGSRKVRNPKLHVEGTECLQASQCTLLIPEGAGGSFSIDSEEYEAMPVEVKLLPRKLQFFCDPRKREQMLTSPTQ
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_N-Acetyl-D-erythro-sphingosine
+  name: N-Acetyl-D-erythro-sphingosine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mg2_
+  name: Mg2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N-Acetylsphingosine_1-phosphate
+  name: N-Acetylsphingosine 1-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_N-Hexadecanoyl-D-erythro-sphingosine
+  name: N-Hexadecanoyl-D-erythro-sphingosine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N-Hexadecanoylsphingosine_1-Phosphate
+  name: N-Hexadecanoylsphingosine 1-Phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_12829_EC2_7_1_138_Homo_sapiens_Q53H12_N-Acetyl-D-erythro-sphingosine
+  name: Reaction catalyzed by ceramide kinase on N-Acetyl-D-erythro-sphingosine
+  equation: ATP + N-Acetyl-D-erythro-sphingosine = ADP + N-Acetylsphingosine 1-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N-Acetyl-D-erythro-sphingosine
+  - species_id: substrate_ATP
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_ADP
+  - species_id: product_N-Acetylsphingosine_1-phosphate
+  modifiers:
+  - species_id: protein_2_7_1_138_Q53H12_p43510
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:13379; CHEBI:40553; CHEBI:6635; CHEBI:13236; CHEBI:10841; CHEBI:2359; CHEBI:87518;
+    CHEBI:49736; CHEBI:40938; CHEBI:456216; CHEBI:22249; CHEBI:2342; CHEBI:15422;
+    CHEBI:18420; CHEBI:46981; CHEBI:25112; CHEBI:13222; CHEBI:22244; CHEBI:39127
+
+    KEGG IDs: KEGG:C00002; KEGG:C00305; KEGG:C00008'
+- id: sabiork_12828_EC2_7_1_138_Homo_sapiens_Q53H12_N-Hexadecanoyl-D-erythro-sphingosine
+  name: Reaction catalyzed by ceramide kinase on N-Hexadecanoyl-D-erythro-sphingosine
+  equation: ATP + N-Hexadecanoyl-D-erythro-sphingosine = ADP + N-Hexadecanoylsphingosine
+    1-Phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N-Hexadecanoyl-D-erythro-sphingosine
+  - species_id: substrate_ATP
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_N-Hexadecanoylsphingosine_1-Phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_138_Q53H12_p43509
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 46340;46341;46342;46343
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:73145; CHEBI:10789;
+    CHEBI:57299; CHEBI:13379; CHEBI:40553; CHEBI:6635; CHEBI:72963; CHEBI:13236; CHEBI:10841;
+    CHEBI:2359; CHEBI:87518; CHEBI:49736; CHEBI:40938; CHEBI:456216; CHEBI:72959;
+    CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:18420; CHEBI:25112; CHEBI:13222; CHEBI:22244;
+    CHEBI:39127
+
+    KEGG IDs: KEGG:C00002; KEGG:C00305; KEGG:C00008'
+measurements:
+- id: measurement_2_7_1_138_Homo_sapiens_Q53H12_N-Acetyl-D-erythro-sphingosine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_7_1_138_Homo_sapiens_Q53H12_N-Hexadecanoyl-D-erythro-sphingosine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_1_138_Homo_sapiens_Q53H12_N-Acetyl-D-erythro-sphingosine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.2e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Acetyl-D-erythro-sphingosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16269826'
+- id: 2_7_1_138_Homo_sapiens_Q53H12_N-Hexadecanoyl-D-erythro-sphingosine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 5.833333e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Hexadecanoyl-D-erythro-sphingosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16269826'
+- id: 2_7_1_138_Homo_sapiens_Q53H12_N-Hexadecanoyl-D-erythro-sphingosine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Hexadecanoyl-D-erythro-sphingosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16269826'
+buffer:
+  buffer: 50 mM Mops/NaOH, 40 mM NaF, 1 mM DTT, 100 mM othovandate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 43510
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16269826/
+  pubmed_id: '16269826'
+  doi: null
+name: Merged entry for Q53H12 wildtype
+description: 'Merged from 2 files: SABIO_EC2.7.1.138_Homo_sapiens__Q53H12_s_N-Acetyl-D-erythro-s.yaml,
+  SABIO_EC2.7.1.138_Homo_sapiens__Q53H12_s_N-Hexadecanoyl-D-ery.yaml'

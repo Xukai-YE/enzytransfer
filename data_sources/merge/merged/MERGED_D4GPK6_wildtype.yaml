@@ -1,0 +1,567 @@
+version: '2.0'
+created: '2025-11-20T13:39:28.793005'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_10_3_2_D4GPK6_p69673
+  name: laccase
+  ecnumber: 1.10.3.2
+  organism: Halobacterium volcanii
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: D4GPK6
+  wildtype_sequence: MTDWSRRRFLQTGAALGIAGTLPQTTTEVSAASPTLEKFVQPLPIPSVREPDGQRDGADAYEIAVTEFTQQLHPDLPETTVWGFDGSYPGPTIEADAGSPVHVRFDNSGLPSEHLFPVDDRLGGTTAENHPGYDGPVPEVRTVTHFHGLELDPANDGQSDMWTSPGGVEGPRFDSAWQELPMEQGRTTSTYHDHTLGITRLNAYAGLLGLYSITTDAERELGLPSGDYDIPLLLQDKEFNDDGSLHYPEEFVSAFLGDTAVVNGAVWPYVEVEPRRYRFRILNGANHRSFDLQLESESGSGVPTMYQFAPGHGFLESVVPIGPNGDLDSLLLTPFERGELVVDFSDHAGETLTLANGADMGPELTDLVEFRVSDPSTPPEDASADPTSLSLPTPASYDESDARVTREMTLGTEVRNGLITHTLNGHVFGDEDAPVYPQLGATEIWELQNESGGRHPIHLHLVTFRVIGRGPDGTQPPDPNELGPKDTVRVDPGERVRILVTFEGYTGQFPWHCHMLEHEDNKMMIPFVVENPVADYANEENVVDATGLTDAVGDWRNETLETEVLLEVIDQWRSGDEVA
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_2
+  name: '2'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_2_-Azino-bis_3-ethylbenzthiazoline-6-sulfonic_acid_
+  name: 2'-Azino-bis(3-ethylbenzthiazoline-6-sulfonic acid)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Oxidized_2
+  name: Oxidized 2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2_-azino-bis_3-ethylbenzthiazoline-6-sulfonic_acid_
+  name: 2'-azino-bis(3-ethylbenzthiazoline-6-sulfonic acid)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Cu2_
+  name: Cu2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Syringaldazine
+  name: Syringaldazine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Oxidized_syringaldazine
+  name: Oxidized syringaldazine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Bilirubin
+  name: Bilirubin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Biliverdin
+  name: Biliverdin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_12786_EC1_10_3_2_Halobacterium_volcanii_D4GPK6_O2
+  name: Reaction catalyzed by laccase on O2
+  equation: O2 + 2,2'-Azino-bis(3-ethylbenzthiazoline-6-sulfonic acid) = Oxidized
+    2,2'-azino-bis(3-ethylbenzthiazoline-6-sulfonic acid) + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_2
+  - species_id: substrate_2_-Azino-bis_3-ethylbenzthiazoline-6-sulfonic_acid_
+  products:
+  - species_id: product_Oxidized_2
+  - species_id: product_2_-azino-bis_3-ethylbenzthiazoline-6-sulfonic_acid_
+  modifiers:
+  - species_id: protein_1_10_3_2_D4GPK6_p69673
+    role: BIOCATALYST
+  - species_id: activator_Cu2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:49550;
+    CHEBI:26689; CHEBI:42857; CHEBI:41979; CHEBI:23833; CHEBI:13416; CHEBI:42043;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:15379;
+    CHEBI:43228; CHEBI:44292; CHEBI:30491; CHEBI:33806; CHEBI:20882; CHEBI:25366;
+    CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:29793; CHEBI:7860; CHEBI:29036;
+    CHEBI:10745; CHEBI:29373; CHEBI:44701; CHEBI:23380
+
+    KEGG IDs: KEGG:C00070; KEGG:C00001; KEGG:C00007; KEGG:C00704'
+- id: sabiork_12786_EC1_10_3_2_Halobacterium_volcanii_D4GPK6_2
+  name: Reaction catalyzed by laccase on 2
+  equation: O2 + 2,2'-Azino-bis(3-ethylbenzthiazoline-6-sulfonic acid) = Oxidized
+    2,2'-azino-bis(3-ethylbenzthiazoline-6-sulfonic acid) + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2
+  - species_id: substrate_2_-Azino-bis_3-ethylbenzthiazoline-6-sulfonic_acid_
+  - species_id: substrate_O2
+  products:
+  - species_id: product_Oxidized_2
+  - species_id: product_2_-azino-bis_3-ethylbenzthiazoline-6-sulfonic_acid_
+  modifiers:
+  - species_id: protein_1_10_3_2_D4GPK6_p69674
+    role: BIOCATALYST
+  - species_id: activator_Cu2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:49550;
+    CHEBI:26689; CHEBI:42857; CHEBI:41979; CHEBI:23833; CHEBI:13416; CHEBI:42043;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:15379;
+    CHEBI:43228; CHEBI:44292; CHEBI:30491; CHEBI:33806; CHEBI:20882; CHEBI:25366;
+    CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:29793; CHEBI:7860; CHEBI:29036;
+    CHEBI:10745; CHEBI:29373; CHEBI:44701; CHEBI:23380
+
+    KEGG IDs: KEGG:C00070; KEGG:C00001; KEGG:C00007; KEGG:C00704'
+- id: sabiork_12788_EC1_10_3_2_Halobacterium_volcanii_D4GPK6_O2
+  name: Reaction catalyzed by laccase on O2
+  equation: O2 + Syringaldazine = Oxidized syringaldazine + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_Syringaldazine
+  products:
+  - species_id: product_Oxidized_syringaldazine
+  modifiers:
+  - species_id: protein_1_10_3_2_D4GPK6_p69675
+    role: BIOCATALYST
+  - species_id: activator_Cu2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:49550;
+    CHEBI:26689; CHEBI:42857; CHEBI:41979; CHEBI:23833; CHEBI:13416; CHEBI:42043;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:15379;
+    CHEBI:43228; CHEBI:44292; CHEBI:30491; CHEBI:33806; CHEBI:20882; CHEBI:25366;
+    CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:29793; CHEBI:7860; CHEBI:29036;
+    CHEBI:10745; CHEBI:29373; CHEBI:44701; CHEBI:23380
+
+    KEGG IDs: KEGG:C00070; KEGG:C00001; KEGG:C00007; KEGG:C00704'
+- id: sabiork_12788_EC1_10_3_2_Halobacterium_volcanii_D4GPK6_O2
+  name: Reaction catalyzed by laccase on O2
+  equation: O2 + Syringaldazine = Oxidized syringaldazine + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_Syringaldazine
+  products:
+  - species_id: product_Oxidized_syringaldazine
+  modifiers:
+  - species_id: protein_1_10_3_2_D4GPK6_p69676
+    role: BIOCATALYST
+  - species_id: activator_Cu2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:49550;
+    CHEBI:26689; CHEBI:42857; CHEBI:41979; CHEBI:23833; CHEBI:13416; CHEBI:42043;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:15379;
+    CHEBI:43228; CHEBI:44292; CHEBI:30491; CHEBI:33806; CHEBI:20882; CHEBI:25366;
+    CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:29793; CHEBI:7860; CHEBI:29036;
+    CHEBI:10745; CHEBI:29373; CHEBI:44701; CHEBI:23380
+
+    KEGG IDs: KEGG:C00070; KEGG:C00001; KEGG:C00007; KEGG:C00704'
+- id: sabiork_2335_EC1_3_3_5_Halobacterium_volcanii_D4GPK6_Bilirubin
+  name: Reaction catalyzed by laccase on Bilirubin
+  equation: O2 + Bilirubin = Biliverdin + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Bilirubin
+  - species_id: substrate_O2
+  products:
+  - species_id: product_Biliverdin
+  modifiers:
+  - species_id: protein_1_3_3_5_D4GPK6_p69677
+    role: BIOCATALYST
+  - species_id: activator_Cu2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 20980;20981;20982;20983
+  KEGGid: R02394
+  notes: 'ChEBI IDs: CHEBI:13898; CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:57977;
+    CHEBI:41981; CHEBI:49550; CHEBI:26689; CHEBI:42857; CHEBI:13901; CHEBI:3099; CHEBI:41979;
+    CHEBI:3102; CHEBI:23833; CHEBI:13416; CHEBI:17033; CHEBI:42043; CHEBI:57991; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:13902; CHEBI:15379;
+    CHEBI:43228; CHEBI:44292; CHEBI:30491; CHEBI:22875; CHEBI:33806; CHEBI:22870;
+    CHEBI:25366; CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:20882; CHEBI:29793;
+    CHEBI:7860; CHEBI:29036; CHEBI:41124; CHEBI:10745; CHEBI:16990; CHEBI:29373; CHEBI:44701;
+    CHEBI:23380
+
+    KEGG IDs: KEGG:C00486; KEGG:C00070; KEGG:C00500; KEGG:C00001; KEGG:C00704; KEGG:C00007'
+measurements:
+- id: measurement_1_10_3_2_Halobacterium_volcanii_D4GPK6_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.0
+  temperature_opt: 45.0
+  temperature_unit: °C
+- id: measurement_1_10_3_2_Halobacterium_volcanii_D4GPK6_2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.0
+  temperature_opt: 45.0
+  temperature_unit: °C
+- id: measurement_1_10_3_2_Halobacterium_volcanii_D4GPK6_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.4
+  temperature_opt: 45.0
+  temperature_unit: °C
+- id: measurement_1_10_3_2_Halobacterium_volcanii_D4GPK6_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.4
+  temperature_opt: 45.0
+  temperature_unit: °C
+- id: measurement_1_3_3_5_Halobacterium_volcanii_D4GPK6_Bilirubin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.4
+  temperature_opt: 45.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_10_3_2_Halobacterium_volcanii_D4GPK6_O2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 10.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 45.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19966030'
+- id: 1_10_3_2_Halobacterium_volcanii_D4GPK6_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0007
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 45.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19966030'
+- id: 1_10_3_2_Halobacterium_volcanii_D4GPK6_O2_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 14000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 6.0
+  temperature: 45.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19966030'
+- id: 1_10_3_2_Halobacterium_volcanii_D4GPK6_2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000671
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 45.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19966030'
+- id: 1_10_3_2_Halobacterium_volcanii_D4GPK6_2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 9.9
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 45.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19966030'
+- id: 1_10_3_2_Halobacterium_volcanii_D4GPK6_2_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 15000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 6.0
+  temperature: 45.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19966030'
+- id: 1_10_3_2_Halobacterium_volcanii_D4GPK6_O2_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 300000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.4
+  temperature: 45.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19966030'
+- id: 1_10_3_2_Halobacterium_volcanii_D4GPK6_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.7e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.4
+  temperature: 45.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19966030'
+- id: 1_10_3_2_Halobacterium_volcanii_D4GPK6_O2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 19.4
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.4
+  temperature: 45.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19966030'
+- id: 1_10_3_2_Halobacterium_volcanii_D4GPK6_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.4
+  temperature: 45.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19966030'
+- id: 1_10_3_2_Halobacterium_volcanii_D4GPK6_O2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 21.7
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.4
+  temperature: 45.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19966030'
+- id: 1_10_3_2_Halobacterium_volcanii_D4GPK6_O2_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 620000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.4
+  temperature: 45.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19966030'
+- id: 1_3_3_5_Halobacterium_volcanii_D4GPK6_Bilirubin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000236
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Bilirubin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.4
+  temperature: 45.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19966030'
+- id: 1_3_3_5_Halobacterium_volcanii_D4GPK6_Bilirubin_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 120000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Bilirubin
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.4
+  temperature: 45.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19966030'
+- id: 1_3_3_5_Halobacterium_volcanii_D4GPK6_Bilirubin_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 29.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Bilirubin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.4
+  temperature: 45.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19966030'
+buffer:
+  buffer: 200 mM Tris, 185 mM NaCl; 25 mM Tris, 185 mM NaCl; 100 mM sodium acetate,
+    185 mM NaCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 69673
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/19966030/
+  pubmed_id: '19966030'
+  doi: null
+name: Merged entry for D4GPK6 wildtype
+description: 'Merged from 5 files: SABIO_EC1.10.3.2_Halobacterium_volcanii__D4GPK6_s_O2.yaml,
+  SABIO_EC1.10.3.2_Halobacterium_volcanii__D4GPK6_s_2.yaml, SABIO_EC1.10.3.2_Halobacterium_volcanii__D4GPK6_s_O2_2.yaml,
+  SABIO_EC1.10.3.2_Halobacterium_volcanii__D4GPK6_s_O2_3.yaml, SABIO_EC1.3.3.5_Halobacterium_volcanii__D4GPK6_s_Bilirubin.yaml'

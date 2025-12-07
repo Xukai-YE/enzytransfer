@@ -1,0 +1,199 @@
+name: SABIO-RK Entry 11641
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 11641
+created: '2025-10-28T13:59:25.149232'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_8_2_1_P50225_p11641
+  name: aryl sulfotransferase
+  ecnumber: 2.8.2.1
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: T1A
+  uniprotid: P50225
+  wildtype_sequence: MELIQDTSRPPLEYVKGVPLIKYFAEALGPLQSFQARPDDLLISTYPKSGTTWVSQILDMIYQGGDLEKCHRAPIFMRVPFLEFKAPGIPSGMETLKDTPAPRLLKTHLPLALLPQTLLDQKVKVVYVARNAKDVAVSYYHFYHMAKVHPEPGTWDSFLEKFMVGEVSYGSWYQHVQEWWELSRTHPVLYLFYEDMKENPKREIQKILEFVGRSLPEETVDFVVQHTSFKEMKKNPMTNYTTVPQEFMDHSISPFMRKGMAGDWKTTFTVAQNERFDADYAEKMAGCSLSFRSEL
+  mutant_sequence: MELIQDASRPPLEYVKGVPLIKYFAEALGPLQSFQARPDDLLISTYPKSGTTWVSQILDMIYQGGDLEKCHRAPIFMRVPFLEFKAPGIPSGMETLKDTPAPRLLKTHLPLALLPQTLLDQKVKVVYVARNAKDVAVSYYHFYHMAKVHPEPGTWDSFLEKFMVGEVSYGSWYQHVQEWWELSRTHPVLYLFYEDMKENPKREIQKILEFVGRSLPEETVDFVVQHTSFKEMKKNPMTNYTTVPQEFMDHSISPFMRKGMAGDWKTTFTVAQNERFDADYAEKMAGCSLSFRSEL
+  position_offset: 6
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Tyramine
+  name: Tyramine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_3_-Phosphoadenylyl_sulfate
+  name: 3'-Phosphoadenylyl sulfate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Adenosine_3_
+  name: Adenosine 3'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_5_-bisphosphate
+  name: 5'-bisphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Tyramine_sulfate
+  name: Tyramine sulfate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_8127_EC2_8_2_1_Homo_sapiens_P50225_Tyramine
+  name: Reaction catalyzed by aryl sulfotransferase on Tyramine
+  equation: Tyramine + 3'-Phosphoadenylyl sulfate = Tyramine sulfate + Adenosine 3',5'-bisphosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Tyramine
+  - species_id: substrate_3_-Phosphoadenylyl_sulfate
+  products:
+  - species_id: product_Adenosine_3_
+  - species_id: product_5_-bisphosphate
+  - species_id: product_Tyramine_sulfate
+  modifiers:
+  - species_id: protein_2_8_2_1_P50225_p11641
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:1353; CHEBI:27174; CHEBI:15276; CHEBI:13735; CHEBI:11680;
+    CHEBI:17980; CHEBI:2475; CHEBI:58339; CHEBI:15760; CHEBI:327995; CHEBI:125571;
+    CHEBI:9799; CHEBI:11679; CHEBI:19857; CHEBI:22240; CHEBI:133530; CHEBI:17985;
+    CHEBI:58343; CHEBI:133531
+
+    KEGG IDs: KEGG:C00483; KEGG:C00054; KEGG:C00053'
+measurements:
+- id: measurement_2_8_2_1_Homo_sapiens_P50225_Tyramine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 2_8_2_1_Homo_sapiens_P50225_Tyramine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 3.283333e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Tyramine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10441143'
+- id: 2_8_2_1_Homo_sapiens_P50225_Tyramine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.006483
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Tyramine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10441143'
+- id: 2_8_2_1_Homo_sapiens_P50225_Tyramine_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0005
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Tyramine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10441143'
+buffer:
+  buffer: 10 mM Phosphate
+  buffer_concentration: 10 mM
+references:
+- title: Reference for SABIO-RK entry 11641
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10441143/
+  pubmed_id: '10441143'
+  doi: null

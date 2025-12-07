@@ -1,0 +1,174 @@
+name: SABIO-RK Entry 23399
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 23399
+created: '2025-10-28T14:22:09.856552'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_42_P33198_p23399
+  name: isocitrate dehydrogenase (NADP+)
+  ecnumber: 1.1.1.42
+  organism: Sus scrofa
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: R110Q
+  uniprotid: P33198
+  wildtype_sequence: ARAAARHYADQRIKVAKPVVEMDGDEMTRIIWQFIKEKLILPHVDVQLKYFDLGLPNRDQTNDQVTIDSALATQKYSVAVKCATITPDEARVEEFKLKKMWKSPNGTIRNILGGTVFREPIICKNIPRLVPGWTKPITIGRHAHGDQYKATDFVVDRAGTFKIVFTPKDGSSAKQWEVYNFPAGGVGMGMYNTDESISGFAHSCFQYAIQKKWPLYMSTKNTILKAYDGRFKDIFQEIFEKHYKTDFDKYKIWYEHRLIDDMVAQVLKSSGGFVWACKNYDGDVQSDILAQGFGSLGLMTSVLVCPDGKTIEAEAAHGTVTRHYREHQKGRPTSTNPIASIFAWTRGLEHRGKLDGNQDLIRFAQTLEKVCVETVESGAMTKDLAGCIHGLSNVKLNEHFLNTSDFLDTIKSNLDRALGRQ
+  mutant_sequence: ARAAARHYADQRIKVAKPVVEMDGDEMTRIIWQFIKEKLILPHVDVQLKYFDLGLPNRDQTNDQVTIDSALATQKYSVAVKCATITPDEARVEEFKLKKMWKSPNGTIQNILGGTVFREPIICKNIPRLVPGWTKPITIGRHAHGDQYKATDFVVDRAGTFKIVFTPKDGSSAKQWEVYNFPAGGVGMGMYNTDESISGFAHSCFQYAIQKKWPLYMSTKNTILKAYDGRFKDIFQEIFEKHYKTDFDKYKIWYEHRLIDDMVAQVLKSSGGFVWACKNYDGDVQSDILAQGFGSLGLMTSVLVCPDGKTIEAEAAHGTVTRHYREHQKGRPTSTNPIASIFAWTRGLEHRGKLDGNQDLIRFAQTLEKVCVETVESGAMTKDLAGCIHGLSNVKLNEHFLNTSDFLDTIKSNLDRALGRQ
+  position_offset: -1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Isocitrate
+  name: Isocitrate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mn2_
+  name: Mn2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Oxoglutarate
+  name: 2-Oxoglutarate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_269_EC1_1_1_42_Sus_scrofa_P33198_NADP_
+  name: Reaction catalyzed by isocitrate dehydrogenase (NADP+) on NADP+
+  equation: NADP+ + Isocitrate = CO2 + NADPH + 2-Oxoglutarate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADP_
+  - species_id: substrate_Isocitrate
+  - species_id: cofactor_Mn2_
+  products:
+  - species_id: product_CO2
+  - species_id: product_2-Oxoglutarate
+  - species_id: product_NADPH
+  modifiers:
+  - species_id: protein_1_1_1_42_P33198_p23399
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 19629;19630;19631;19632
+  KEGGid: R00267
+  notes: 'ChEBI IDs: CHEBI:29035; CHEBI:13397; CHEBI:13398; CHEBI:11638; CHEBI:139538;
+    CHEBI:7424; CHEBI:1253; CHEBI:14465; CHEBI:21903; CHEBI:44405; CHEBI:49749; CHEBI:24886;
+    CHEBI:19748; CHEBI:7425; CHEBI:29234; CHEBI:3283; CHEBI:25523; CHEBI:13357; CHEBI:24636;
+    CHEBI:36454; CHEBI:16810; CHEBI:40661; CHEBI:29233; CHEBI:25156; CHEBI:5584; CHEBI:23011;
+    CHEBI:13399; CHEBI:30916; CHEBI:13285; CHEBI:13282; CHEBI:16474; CHEBI:44286;
+    CHEBI:16087; CHEBI:5998; CHEBI:19749; CHEBI:13283; CHEBI:21904; CHEBI:44409; CHEBI:15378;
+    CHEBI:13284; CHEBI:151; CHEBI:36453; CHEBI:18009; CHEBI:16526; CHEBI:30915; CHEBI:58349;
+    CHEBI:48829; CHEBI:30887; CHEBI:57783; CHEBI:13400; CHEBI:10744; CHEBI:24884;
+    CHEBI:21435
+
+    KEGG IDs: KEGG:C00034; KEGG:C00005; KEGG:C00080; KEGG:C00026; KEGG:C00011; KEGG:C00006;
+    KEGG:C19610; KEGG:C00311; KEGG:C11037'
+measurements:
+- id: measurement_1_1_1_42_Sus_scrofa_P33198_NADP_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1_42_Sus_scrofa_P33198_NADP__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10681542'
+buffer:
+  buffer: 30 mM triethanolamine chloride
+  buffer_concentration: 30 mM
+references:
+- title: Reference for SABIO-RK entry 23399
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10681542/
+  pubmed_id: '10681542'
+  doi: null

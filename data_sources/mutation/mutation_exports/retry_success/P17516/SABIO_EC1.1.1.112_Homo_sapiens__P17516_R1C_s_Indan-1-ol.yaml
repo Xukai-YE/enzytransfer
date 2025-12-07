@@ -1,0 +1,190 @@
+name: SABIO-RK Entry 29144
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 29144
+created: '2025-10-28T14:36:58.855178'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_112_P17516_p29144
+  name: carbonyl reductase (NADPH)
+  ecnumber: 1.1.1.112
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: R1C
+  uniprotid: P17516
+  wildtype_sequence: MDPKYQRVELNDGHFMPVLGFGTYAPPEVPRNRAVEVTKLAIEAGFRHIDSAYLYNNEEQVGLAIRSKIADGSVKREDIFYTSKLWCTFFQPQMVQPALESSLKKLQLDYVDLYLLHFPMALKPGETPLPKDENGKVIFDTVDLSATWEVMEKCKDAGLAKSIGVSNFNCRQLEMILNKPGLKYKPVCNQVECHPYLNQSKLLDFCKSKDIVLVAHSALGTQRHKLWVDPNSPVLLEDPVLCALAKKHKQTPALIALRYQLQRGVVVLAKSYNEQRIRENIQVFEFQLTSEDMKVLDGLNRNYRYVVMDFLMDHPDYPFSDEY
+  mutant_sequence: MDPKYQCVELNDGHFMPVLGFGTYAPPEVPRNRAVEVTKLAIEAGFRHIDSAYLYNNEEQVGLAIRSKIADGSVKREDIFYTSKLWCTFFQPQMVQPALESSLKKLQLDYVDLYLLHFPMALKPGETPLPKDENGKVIFDTVDLSATWEVMEKCKDAGLAKSIGVSNFNCRQLEMILNKPGLKYKPVCNQVECHPYLNQSKLLDFCKSKDIVLVAHSALGTQRHKLWVDPNSPVLLEDPVLCALAKKHKQTPALIALRYQLQRGVVVLAKSYNEQRIRENIQVFEFQLTSEDMKVLDGLNRNYRYVVMDFLMDHPDYPFSDEY
+  position_offset: 6
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Indan-1-ol
+  name: Indan-1-ol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Indanone
+  name: Indanone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_3366_EC1_1_1_112_Homo_sapiens_P17516_Indan-1-ol
+  name: Reaction catalyzed by carbonyl reductase (NADPH) on Indan-1-ol
+  equation: NADP+ + Indan-1-ol = NADPH + Indanone + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Indan-1-ol
+  - species_id: substrate_NADP_
+  products:
+  - species_id: product_Indanone
+  - species_id: product_NADPH
+  modifiers:
+  - species_id: protein_1_1_1_112_P17516_p29144
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 16321;16322;16323;16324
+  KEGGid: R03583
+  notes: 'ChEBI IDs: CHEBI:38132; CHEBI:13397; CHEBI:13398; CHEBI:7424; CHEBI:21903;
+    CHEBI:44405; CHEBI:7425; CHEBI:29234; CHEBI:14437; CHEBI:25523; CHEBI:13357; CHEBI:24636;
+    CHEBI:29233; CHEBI:13399; CHEBI:5584; CHEBI:53096; CHEBI:16474; CHEBI:44286; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:5891; CHEBI:16697; CHEBI:18009; CHEBI:17404; CHEBI:24788;
+    CHEBI:58349; CHEBI:5892; CHEBI:13400; CHEBI:57783; CHEBI:14436; CHEBI:10744; CHEBI:19056
+
+    KEGG IDs: KEGG:C01710; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C01504; KEGG:C11037'
+measurements:
+- id: measurement_1_1_1_112_Homo_sapiens_P17516_Indan-1-ol
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1_112_Homo_sapiens_P17516_Indan-1-ol_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00017
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Indan-1-ol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15026176'
+- id: 1_1_1_112_Homo_sapiens_P17516_Indan-1-ol_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 933.3333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Indan-1-ol
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15026176'
+- id: 1_1_1_112_Homo_sapiens_P17516_Indan-1-ol_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.1583333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Indan-1-ol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15026176'
+buffer:
+  buffer: 100 mM Potassium phosphate
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 29144
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15026176/
+  pubmed_id: '15026176'
+  doi: null

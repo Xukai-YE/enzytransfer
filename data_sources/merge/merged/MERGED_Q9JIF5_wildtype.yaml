@@ -1,0 +1,297 @@
+version: '2.0'
+created: '2025-11-20T13:39:44.300073'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_3_1_38_Q9JIF5_p33431
+  name: enoyl-[acyl-carrier-protein] reductase (NADPH)
+  ecnumber: 1.3.1.38
+  organism: bovine
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9JIF5
+  wildtype_sequence: MGSWTKCQSCLAPGLLQNRAAIVTGGGTGIGKAIAKELLHLGCNVVIASRKFDRLRAAAEELKATLPPSNKAEVTPIQCNIRKEEEVNNLMKSTLALYGKIDFLVNNGGGQFWSSPEHISSKGWHAVIETNLTGTFYMCKAAYNSWMKEHGGAIVNIIILLNGQPFVAHSGAARGGVYNLTKSLALGWARSGIRINCVAPGTVYSQTAMDNYGDMGKTLFADAFQKIPAKRLGVPEEVSSLVCFLLSPAASFITGQLVNVDGGQSLYCQNHDIPDHDNWPEGVGDLSTVKKMKESFKQKAKL
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_trans-Dec-2-enoyl-CoA
+  name: trans-Dec-2-enoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Decanoyl-CoA
+  name: Decanoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_4409_EC1_3_1_38_bovine_Q9JIF5_trans-Dec-2-enoyl-CoA
+  name: Reaction catalyzed by enoyl-[acyl-carrier-protein] reductase (NADPH) on trans-Dec-2-enoyl-CoA
+  equation: NADP+ + Decanoyl-CoA = NADPH + trans-Dec-2-enoyl-CoA + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_trans-Dec-2-enoyl-CoA
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_Decanoyl-CoA
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_3_1_38_Q9JIF5_p33431
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 44960;44961;44962;44963
+  KEGGid: R04753
+  notes: 'ChEBI IDs: CHEBI:28493; CHEBI:13398; CHEBI:13397; CHEBI:7424; CHEBI:44405;
+    CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357; CHEBI:25523; CHEBI:24636; CHEBI:29233;
+    CHEBI:5584; CHEBI:13399; CHEBI:16474; CHEBI:44286; CHEBI:4348; CHEBI:21904; CHEBI:44409;
+    CHEBI:15378; CHEBI:23575; CHEBI:18009; CHEBI:10723; CHEBI:58349; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744; CHEBI:61430
+
+    KEGG IDs: KEGG:C05274; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C05275; KEGG:C11037'
+- id: sabiork_4409_EC1_3_1_38_bovine_Q9JIF5_trans-Dec-2-enoyl-CoA
+  name: Reaction catalyzed by enoyl-[acyl-carrier-protein] reductase (NADPH) on trans-Dec-2-enoyl-CoA
+  equation: NADP+ + Decanoyl-CoA = NADPH + trans-Dec-2-enoyl-CoA + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_trans-Dec-2-enoyl-CoA
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_NADP_
+  - species_id: product_Decanoyl-CoA
+  modifiers:
+  - species_id: protein_1_3_1_38_Q9JIF5_p33429
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 44960;44961;44962;44963
+  KEGGid: R04753
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:28493; CHEBI:7424; CHEBI:44405;
+    CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357; CHEBI:25523; CHEBI:24636; CHEBI:29233;
+    CHEBI:5584; CHEBI:13399; CHEBI:16474; CHEBI:44286; CHEBI:4348; CHEBI:21904; CHEBI:44409;
+    CHEBI:15378; CHEBI:18009; CHEBI:23575; CHEBI:10723; CHEBI:58349; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744; CHEBI:61430
+
+    KEGG IDs: KEGG:C05274; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C05275; KEGG:C11037'
+- id: sabiork_4409_EC1_3_1_38_bovine_Q9JIF5_NADPH
+  name: Reaction catalyzed by enoyl-[acyl-carrier-protein] reductase (NADPH) on NADPH
+  equation: NADP+ + Decanoyl-CoA = NADPH + trans-Dec-2-enoyl-CoA + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_trans-Dec-2-enoyl-CoA
+  products:
+  - species_id: product_NADP_
+  - species_id: product_Decanoyl-CoA
+  modifiers:
+  - species_id: protein_1_3_1_38_Q9JIF5_p33428
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 44960;44961;44962;44963
+  KEGGid: R04753
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:28493; CHEBI:7424; CHEBI:44405;
+    CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357; CHEBI:25523; CHEBI:24636; CHEBI:29233;
+    CHEBI:5584; CHEBI:13399; CHEBI:16474; CHEBI:44286; CHEBI:4348; CHEBI:21904; CHEBI:44409;
+    CHEBI:15378; CHEBI:18009; CHEBI:23575; CHEBI:10723; CHEBI:58349; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744; CHEBI:61430
+
+    KEGG IDs: KEGG:C05274; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C05275; KEGG:C11037'
+- id: sabiork_4409_EC1_3_1_38_bovine_Q9JIF5_trans-Dec-2-enoyl-CoA
+  name: Reaction catalyzed by enoyl-[acyl-carrier-protein] reductase (NADPH) on trans-Dec-2-enoyl-CoA
+  equation: NADP+ + Decanoyl-CoA = NADPH + trans-Dec-2-enoyl-CoA + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_trans-Dec-2-enoyl-CoA
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_NADP_
+  - species_id: product_Decanoyl-CoA
+  modifiers:
+  - species_id: protein_1_3_1_38_Q9JIF5_p33430
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 44960;44961;44962;44963
+  KEGGid: R04753
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:28493; CHEBI:7424; CHEBI:44405;
+    CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357; CHEBI:25523; CHEBI:24636; CHEBI:29233;
+    CHEBI:5584; CHEBI:13399; CHEBI:16474; CHEBI:44286; CHEBI:4348; CHEBI:21904; CHEBI:44409;
+    CHEBI:15378; CHEBI:18009; CHEBI:23575; CHEBI:10723; CHEBI:58349; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744; CHEBI:61430
+
+    KEGG IDs: KEGG:C05274; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C05275; KEGG:C11037'
+measurements:
+- id: measurement_1_3_1_38_bovine_Q9JIF5_trans-Dec-2-enoyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_3_1_38_bovine_Q9JIF5_trans-Dec-2-enoyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_3_1_38_bovine_Q9JIF5_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_3_1_38_bovine_Q9JIF5_trans-Dec-2-enoyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_3_1_38_bovine_Q9JIF5_trans-Dec-2-enoyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.3e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_trans-Dec-2-enoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10811639'
+- id: 1_3_1_38_bovine_Q9JIF5_trans-Dec-2-enoyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.8e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_trans-Dec-2-enoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10811639'
+- id: 1_3_1_38_bovine_Q9JIF5_NADPH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.1e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10811639'
+- id: 1_3_1_38_bovine_Q9JIF5_trans-Dec-2-enoyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.8e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_trans-Dec-2-enoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10811639'
+buffer:
+  buffer: 50 mM Potassium phosphate, 2 mg/ml Bovine serum albumin
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 33431
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10811639/
+  pubmed_id: '10811639'
+  doi: null
+name: Merged entry for Q9JIF5 wildtype
+description: 'Merged from 4 files: SABIO_EC1.3.1.38_bovine__Q9JIF5_s_trans-Dec-2-enoyl-Co_3.yaml,
+  SABIO_EC1.3.1.38_bovine__Q9JIF5_s_trans-Dec-2-enoyl-Co.yaml, SABIO_EC1.3.1.38_bovine__Q9JIF5_s_NADPH.yaml,
+  SABIO_EC1.3.1.38_bovine__Q9JIF5_s_trans-Dec-2-enoyl-Co_2.yaml'

@@ -1,0 +1,431 @@
+version: '2.0'
+created: '2025-11-20T13:39:14.693775'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_183_Q2KNL6_p45364
+  name: cinnamyl-alcohol dehydrogenase
+  ecnumber: 1.1.1.183
+  organism: Ocimum basilicum
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q2KNL6
+  wildtype_sequence: MAKSPETEHPVKALGWAATDNSGTFSPFNFSRRATGERDVQFRVLYCGVCHSDLHMVKNEWGVTHYPIVPGHEIVGIVTEVGSKVEKVKIGDKVGVGVLVGSCRQCDQCSNDLENYCYKQILTYGAPYLDGTIARGGYSDIMVADEHFIIRWPENFPLDAGAPLLCAGITTYSPLKYFGLDKPGLRVGVNGLGGLGHVAVKFAKAFGTKVTVISTSLSKKEEAMQHLGVDEFVVSTDPQQMQAAVGTLDGIIDTVSAPHPIVPLLSLLKPHGKLIVVGLPDKPLQLPVFPLIQGRRTIAGSGIGGLKETQEMIDFAAKNNIVADVEVIPIDYINTAMDRLLKSDVKYRFVIDVEKSLKPQ
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Cinnamyl_alcohol
+  name: Cinnamyl alcohol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Cinnamaldehyde
+  name: Cinnamaldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Geraniol
+  name: Geraniol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Geranial
+  name: Geranial
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Nerol
+  name: Nerol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_cis-Citral
+  name: cis-Citral
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2900_EC1_1_1_183_Ocimum_basilicum_Q2KNL6_Cinnamyl_alcohol
+  name: Reaction catalyzed by cinnamyl-alcohol dehydrogenase on Cinnamyl alcohol
+  equation: NADPH + Cinnamaldehyde + H+ = NADP+ + Cinnamyl alcohol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Cinnamyl_alcohol
+  - species_id: substrate_NADP_
+  products:
+  - species_id: product_NADPH
+  - species_id: product_Cinnamaldehyde
+  modifiers:
+  - species_id: protein_1_1_1_183_Q2KNL6_p45364
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 10392;10393;10394;10395
+  KEGGid: R03054
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:142921; CHEBI:7424; CHEBI:21903;
+    CHEBI:44405; CHEBI:7425; CHEBI:29234; CHEBI:16731; CHEBI:25523; CHEBI:13357; CHEBI:23255;
+    CHEBI:24636; CHEBI:29233; CHEBI:3709; CHEBI:5584; CHEBI:13399; CHEBI:33227; CHEBI:13996;
+    CHEBI:16474; CHEBI:44286; CHEBI:3714; CHEBI:17177; CHEBI:21904; CHEBI:44409; CHEBI:15378;
+    CHEBI:181858; CHEBI:18009; CHEBI:58349; CHEBI:13994; CHEBI:13400; CHEBI:57783;
+    CHEBI:10744; CHEBI:23244; CHEBI:23254
+
+    KEGG IDs: KEGG:C02394; KEGG:C00903; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C11037'
+- id: sabiork_3364_EC1_1_1_183_Ocimum_basilicum_Q2KNL6_NADP_
+  name: Reaction catalyzed by cinnamyl-alcohol dehydrogenase on NADP+
+  equation: NADP+ + Geraniol = NADPH + Geranial + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADP_
+  - species_id: substrate_Geraniol
+  products:
+  - species_id: product_Geranial
+  - species_id: product_NADPH
+  modifiers:
+  - species_id: protein_1_1_1_183_Q2KNL6_p45362
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 14521;14522;14523;14524
+  KEGGid: R03581
+  notes: 'ChEBI IDs: CHEBI:16980; CHEBI:17447; CHEBI:13397; CHEBI:13398; CHEBI:7424;
+    CHEBI:5329; CHEBI:21903; CHEBI:44405; CHEBI:7425; CHEBI:29234; CHEBI:25523; CHEBI:13357;
+    CHEBI:23316; CHEBI:24636; CHEBI:14297; CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:24219;
+    CHEBI:16474; CHEBI:5327; CHEBI:44286; CHEBI:21904; CHEBI:44409; CHEBI:24218; CHEBI:14296;
+    CHEBI:15378; CHEBI:18009; CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C01499; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C01500; KEGG:C11037'
+- id: sabiork_12960_EC1_1_1_183_Ocimum_basilicum_Q2KNL6_NADP_
+  name: Reaction catalyzed by With NAD(+) or NADP(+) as acceptor on NADP+
+  equation: NADP+ + Nerol = H+ + NADPH + cis-Citral
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADP_
+  - species_id: substrate_Nerol
+  products:
+  - species_id: product_NADPH
+  - species_id: product_cis-Citral
+  modifiers:
+  - species_id: protein_1_1_1_183_Q2KNL6_p45363
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R08083
+  notes: 'ChEBI IDs: CHEBI:29020; CHEBI:29452; CHEBI:13397; CHEBI:13398; CHEBI:24220;
+    CHEBI:10483; CHEBI:7424; CHEBI:21903; CHEBI:44405; CHEBI:7425; CHEBI:29234; CHEBI:25523;
+    CHEBI:13357; CHEBI:7523; CHEBI:24636; CHEBI:29233; CHEBI:13399; CHEBI:5584; CHEBI:16474;
+    CHEBI:44286; CHEBI:21904; CHEBI:44409; CHEBI:25502; CHEBI:15378; CHEBI:18009;
+    CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C09871; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C09847; KEGG:C11037'
+measurements:
+- id: measurement_1_1_1_183_Ocimum_basilicum_Q2KNL6_Cinnamyl_alcohol
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_1_1_183_Ocimum_basilicum_Q2KNL6_NADP_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_1_1_183_Ocimum_basilicum_Q2KNL6_NADP_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1_183_Ocimum_basilicum_Q2KNL6_Cinnamyl_alcohol_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 2700.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cinnamyl_alcohol
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 9.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16150417'
+- id: 1_1_1_183_Ocimum_basilicum_Q2KNL6_Cinnamyl_alcohol_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 2.3e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cinnamyl_alcohol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16150417'
+- id: 1_1_1_183_Ocimum_basilicum_Q2KNL6_Cinnamyl_alcohol_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000655
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cinnamyl_alcohol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16150417'
+- id: 1_1_1_183_Ocimum_basilicum_Q2KNL6_Cinnamyl_alcohol_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.8
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cinnamyl_alcohol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16150417'
+- id: 1_1_1_183_Ocimum_basilicum_Q2KNL6_NADP__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16150417'
+- id: 1_1_1_183_Ocimum_basilicum_Q2KNL6_NADP__Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 1.3e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16150417'
+- id: 1_1_1_183_Ocimum_basilicum_Q2KNL6_NADP__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 33000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 9.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16150417'
+- id: 1_1_1_183_Ocimum_basilicum_Q2KNL6_NADP__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16150417'
+- id: 1_1_1_183_Ocimum_basilicum_Q2KNL6_NADP__Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 1.9e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16150417'
+- id: 1_1_1_183_Ocimum_basilicum_Q2KNL6_NADP__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 40000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 9.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16150417'
+- id: 1_1_1_183_Ocimum_basilicum_Q2KNL6_NADP__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.5
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16150417'
+- id: 1_1_1_183_Ocimum_basilicum_Q2KNL6_NADP__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.7e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16150417'
+buffer:
+  buffer: 100 mM Glycine-NaOH
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 45364
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16150417/
+  pubmed_id: '16150417'
+  doi: null
+name: Merged entry for Q2KNL6 wildtype
+description: 'Merged from 3 files: SABIO_EC1.1.1.183_Ocimum_basilicum__Q2KNL6_s_Cinnamyl.yaml,
+  SABIO_EC1.1.1.183_Ocimum_basilicum__Q2KNL6_s_NADP_.yaml, SABIO_EC1.1.1.183_Ocimum_basilicum__Q2KNL6_s_NADP__2.yaml'

@@ -1,0 +1,155 @@
+name: SABIO-RK Entry 12484
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 12484
+created: '2025-10-28T14:00:57.371880'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_1_P27881_P27926_p12484
+  name: allose kinase
+  sequence: null
+  ecnumber: 2.7.1.1
+  organism: Rattus norvegicus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P27881; P27926
+complexes: null
+small_molecules:
+- id: substrate_D-Allose
+  name: D-Allose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Allose_6-phosphate
+  name: D-Allose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_3359_EC2_7_1_1_Rattus_norvegicus_P27881_P27926_D-Allose
+  name: Reaction catalyzed by allose kinase on D-Allose
+  equation: ATP + D-Allose = D-Allose 6-phosphate + ADP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Allose
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_ADP
+  - species_id: product_D-Allose_6-phosphate
+  modifiers:
+  - species_id: protein_2_7_1_1_P27881_P27926_p12484
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 14805;14806;14807;14808
+  KEGGid: R03576
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:40553; CHEBI:40822; CHEBI:13236; CHEBI:17393; CHEBI:10841; CHEBI:2359; CHEBI:87518;
+    CHEBI:40938; CHEBI:40819; CHEBI:58328; CHEBI:456216; CHEBI:22249; CHEBI:2342;
+    CHEBI:15422; CHEBI:4093; CHEBI:12907; CHEBI:4094; CHEBI:17942; CHEBI:13222; CHEBI:37689;
+    CHEBI:22244; CHEBI:20901
+
+    KEGG IDs: KEGG:C00002; KEGG:C00008; KEGG:C01487; KEGG:C02962'
+measurements:
+- id: measurement_2_7_1_1_Rattus_norvegicus_P27881_P27926_D-Allose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 2_7_1_1_Rattus_norvegicus_P27881_P27926_D-Allose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0035
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Allose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '13758791'
+buffer:
+  buffer: 0.02 M MgCl2, 0.002 M EDTA, 0.02 M potassium fluoride
+  buffer_concentration: 0.02 M
+references:
+- title: Reference for SABIO-RK entry 12484
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/13758791/
+  pubmed_id: '13758791'
+  doi: null

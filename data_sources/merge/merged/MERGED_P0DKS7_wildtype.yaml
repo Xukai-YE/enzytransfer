@@ -1,0 +1,323 @@
+version: '2.0'
+created: '2025-11-20T13:40:52.523536'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_8_4_2_P0DKS7_p66404
+  name: arsenate-mycothiol transferase
+  ecnumber: 2.8.4.2
+  organism: Corynebacterium glutamicum
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P0DKS7
+  wildtype_sequence: MKSVLFVCVGNGGKSQMAAALAQKYASDSVEIHSAGTKPAQGLNQLSVESIAEVGADMSQGIPKAIDPELLRTVDRVVILGDDAQVDMPESAQGALERWSIEEPDAQGMERMRIVRDQIDNRVQALLAG
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Arsenate
+  name: Arsenate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Mycothiol
+  name: Mycothiol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Arseno-mycothiol
+  name: Arseno-mycothiol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_15412_EC2_8_4_2_Corynebacterium_glutamicum_P0DKS7_Arsenate
+  name: Reaction catalyzed by arsenate-mycothiol transferase on Arsenate
+  equation: Mycothiol + Arsenate = H2O + Arseno-mycothiol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Arsenate
+  - species_id: substrate_Mycothiol
+  products:
+  - species_id: product_Arseno-mycothiol
+  modifiers:
+  - species_id: protein_2_8_4_2_P0DKS7_p66404
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:18231; CHEBI:44819; CHEBI:41981; CHEBI:14626;
+    CHEBI:13856; CHEBI:16768; CHEBI:48600; CHEBI:29125; CHEBI:42857; CHEBI:41979;
+    CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352;
+    CHEBI:25440; CHEBI:43228; CHEBI:48597; CHEBI:44292; CHEBI:2844; CHEBI:33806; CHEBI:10743;
+    CHEBI:29374; CHEBI:5585; CHEBI:7040; CHEBI:22629; CHEBI:22631; CHEBI:2843; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C06717; KEGG:C11215; KEGG:C01478; KEGG:C00001'
+- id: sabiork_15412_EC2_8_4_2_Corynebacterium_glutamicum_P0DKS7_Arsenate
+  name: Reaction catalyzed by arsenate-mycothiol transferase on Arsenate
+  equation: Mycothiol + Arsenate = H2O + Arseno-mycothiol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Arsenate
+  - species_id: substrate_Mycothiol
+  products:
+  - species_id: product_Arseno-mycothiol
+  modifiers:
+  - species_id: protein_2_8_4_2_P0DKS7_p66403
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:18231; CHEBI:44819; CHEBI:41981; CHEBI:14626;
+    CHEBI:13856; CHEBI:16768; CHEBI:48600; CHEBI:29125; CHEBI:42857; CHEBI:41979;
+    CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352;
+    CHEBI:25440; CHEBI:43228; CHEBI:48597; CHEBI:44292; CHEBI:2844; CHEBI:33806; CHEBI:10743;
+    CHEBI:29374; CHEBI:5585; CHEBI:7040; CHEBI:22629; CHEBI:22631; CHEBI:2843; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C06717; KEGG:C11215; KEGG:C01478; KEGG:C00001'
+- id: sabiork_15412_EC2_8_4_2_Corynebacterium_glutamicum_P0DKS7_Mycothiol
+  name: Reaction catalyzed by arsenate-mycothiol transferase on Mycothiol
+  equation: Mycothiol + Arsenate = H2O + Arseno-mycothiol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Mycothiol
+  - species_id: substrate_Arsenate
+  products:
+  - species_id: product_Arseno-mycothiol
+  modifiers:
+  - species_id: protein_2_8_4_2_P0DKS7_p66405
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:18231; CHEBI:44819; CHEBI:41981; CHEBI:14626;
+    CHEBI:16768; CHEBI:13856; CHEBI:48600; CHEBI:29125; CHEBI:42857; CHEBI:41979;
+    CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352;
+    CHEBI:25440; CHEBI:43228; CHEBI:48597; CHEBI:44292; CHEBI:2844; CHEBI:33806; CHEBI:10743;
+    CHEBI:29374; CHEBI:5585; CHEBI:7040; CHEBI:22629; CHEBI:22631; CHEBI:2843; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C11215; KEGG:C06717; KEGG:C01478; KEGG:C00001'
+measurements:
+- id: measurement_2_8_4_2_Corynebacterium_glutamicum_P0DKS7_Arsenate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_8_4_2_Corynebacterium_glutamicum_P0DKS7_Arsenate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_8_4_2_Corynebacterium_glutamicum_P0DKS7_Mycothiol
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_8_4_2_Corynebacterium_glutamicum_P0DKS7_Arsenate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.036
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Arsenate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19286650'
+- id: 2_8_4_2_Corynebacterium_glutamicum_P0DKS7_Arsenate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.1666667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Arsenate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19286650'
+- id: 2_8_4_2_Corynebacterium_glutamicum_P0DKS7_Arsenate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 4.6
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Arsenate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19286650'
+- id: 2_8_4_2_Corynebacterium_glutamicum_P0DKS7_Arsenate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.082
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Arsenate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19286650'
+- id: 2_8_4_2_Corynebacterium_glutamicum_P0DKS7_Arsenate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 3.4
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Arsenate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19286650'
+- id: 2_8_4_2_Corynebacterium_glutamicum_P0DKS7_Arsenate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.2833333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Arsenate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19286650'
+- id: 2_8_4_2_Corynebacterium_glutamicum_P0DKS7_Mycothiol_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.1166667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Mycothiol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19286650'
+- id: 2_8_4_2_Corynebacterium_glutamicum_P0DKS7_Mycothiol_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 3.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Mycothiol
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19286650'
+buffer:
+  buffer: 50 mM Hepes, 100 mM sodium phosphate, 10 ¦ÌM Mrx1, 3 ¦ÌM MTR, 250 ¦ÌM NADPH;
+    50 mM Hepes, 10 ¦ÌM Mrx1, 3 ¦ÌM MTR, 250 ¦ÌM NADPH; 50 mM Hepes, 100 mM K2SO4,
+    10 ¦ÌM Mrx1, 3 ¦ÌM MTR, 250 ¦ÌM NADPH
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 66404
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/19286650/
+  pubmed_id: '19286650'
+  doi: null
+name: Merged entry for P0DKS7 wildtype
+description: 'Merged from 3 files: SABIO_EC2.8.4.2_Corynebacterium_glutamicum__P0DKS7_s_Arsenate_2.yaml,
+  SABIO_EC2.8.4.2_Corynebacterium_glutamicum__P0DKS7_s_Arsenate.yaml, SABIO_EC2.8.4.2_Corynebacterium_glutamicum__P0DKS7_s_Mycothiol.yaml'

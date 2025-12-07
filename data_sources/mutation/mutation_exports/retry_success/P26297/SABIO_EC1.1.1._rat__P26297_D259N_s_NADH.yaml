@@ -1,0 +1,190 @@
+name: SABIO-RK Entry 43937
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 43937
+created: '2025-10-28T15:29:21.279381'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1__P26297_p43937
+  name: With NAD(+) or NADP(+) as acceptor
+  ecnumber: 1.1.1.
+  organism: rat
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: D259N
+  uniprotid: P26297
+  wildtype_sequence: MTKIFAYAIREDEKPFLKEWEDAHKDVEVEYTDKLLTPETVALAKGADGVVVYQQLDYTAETLQALADNGITKMSLRNVGVDNIDMAKAKELGFQITNVPVYSPNAIAEHAAIQAARILRQDKAMDEKVARHDLRWAPTIGREVRDQVVGVIGTGHIGQVFMQIMEGFGAKVIAYDIFRNPELEKKGYYVDSLDDLYKQADVISLHVPDVPANVHMINDESIAKMKQDVVIVNVSRGPLVDTDAVIRGLDSGKIFGYAMDVYEGEVGIFNEDWEGKEFPDARLADLIARPNVLVTPHTAFYTTHAVRNMVVKAFDNNLELVEGKEAETPVKVG
+  mutant_sequence: MTKIFAYAIREDEKPFLKEWEDAHKDVEVEYTDKLLTPETVALAKGADGVVVYQQLDYTAETLQALADNGITKMSLRNVGVDNIDMAKAKELGFQITNVPVYSPNAIAEHAAIQAARILRQDKAMDEKVARHDLRWAPTIGREVRDQVVGVIGTGHIGQVFMQIMEGFGAKVIAYDIFRNPELEKKGYYVDSLDDLYKQADVISLHVPDVPANVHMINDESIAKMKQDVVIVNVSRGPLVDTDAVIRGLNSGKIFGYAMDVYEGEVGIFNEDWEGKEFPDARLADLIARPNVLVTPHTAFYTTHAVRNMVVKAFDNNLELVEGKEAETPVKVG
+  position_offset: -9
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_4-Methyl-2-oxopentanoate
+  name: 4-Methyl-2-oxopentanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-2-Hydroxyisocaproate
+  name: D-2-Hydroxyisocaproate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_12853_EC1_1_1__rat_P26297_NADH
+  name: Reaction catalyzed by With NAD(+) or NADP(+) as acceptor on NADH
+  equation: NADH + H+ + 4-Methyl-2-oxopentanoate = NAD+ + D-2-Hydroxyisocaproate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  - species_id: substrate_4-Methyl-2-oxopentanoate
+  products:
+  - species_id: product_NAD_
+  - species_id: product_D-2-Hydroxyisocaproate
+  modifiers:
+  - species_id: protein_1_1_1__P26297_p43937
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:48430; CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846;
+    CHEBI:13357; CHEBI:55534; CHEBI:21902; CHEBI:13396; CHEBI:20438; CHEBI:21901;
+    CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:57945; CHEBI:44216;
+    CHEBI:57540; CHEBI:12020; CHEBI:7423; CHEBI:13389; CHEBI:17865; CHEBI:13395; CHEBI:41619;
+    CHEBI:1891; CHEBI:15378; CHEBI:55535; CHEBI:10744; CHEBI:44215; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C03264; KEGG:C00233; KEGG:C00003; KEGG:C00004'
+measurements:
+- id: measurement_1_1_1__rat_P26297_NADH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 5.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1__rat_P26297_NADH_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 9400.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 5.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9063466'
+- id: 1_1_1__rat_P26297_NADH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0017
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9063466'
+- id: 1_1_1__rat_P26297_NADH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 16.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9063466'
+buffer:
+  buffer: 50 mM Sodium citrate
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 43937
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9063466/
+  pubmed_id: '9063466'
+  doi: null

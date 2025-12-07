@@ -1,0 +1,166 @@
+name: SABIO-RK Entry 57018
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 57018
+created: '2025-10-28T16:18:03.182894'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_1_1_39_Q9ZI34_Q9ZI33_p57018
+  name: ribulose-bisphosphate carboxylase
+  sequence: null
+  ecnumber: 4.1.1.39
+  organism: Bradyrhizobium diazoefficiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9ZI34; Q9ZI33
+complexes: null
+small_molecules:
+- id: substrate_D-Ribulose_1
+  name: D-Ribulose 1
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_5-bisphosphate
+  name: 5-bisphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Phosphoglycolate
+  name: 2-Phosphoglycolate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3-Phospho-D-glycerate
+  name: 3-Phospho-D-glycerate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_8708_EC4_1_1_39_Bradyrhizobium_diazoefficiens_Q9ZI34_Q9ZI33_D-Ribulose_1
+  name: Reaction catalyzed by ribulose-bisphosphate carboxylase on D-Ribulose 1
+  equation: O2 + D-Ribulose 1,5-bisphosphate = 2-Phosphoglycolate + 3-Phospho-D-glycerate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Ribulose_1
+  - species_id: substrate_5-bisphosphate
+  - species_id: substrate_O2
+  products:
+  - species_id: product_2-Phosphoglycolate
+  - species_id: product_3-Phospho-D-glycerate
+  modifiers:
+  - species_id: protein_4_1_1_39_Q9ZI34_Q9ZI33_p57018
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 36631;36632;36633;36634
+  KEGGid: R03140
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:1657; CHEBI:13017; CHEBI:45480; CHEBI:26689;
+    CHEBI:11652; CHEBI:11882; CHEBI:12987; CHEBI:11880; CHEBI:57870; CHEBI:1268; CHEBI:88352;
+    CHEBI:16710; CHEBI:4242; CHEBI:23833; CHEBI:13416; CHEBI:57998; CHEBI:58272; CHEBI:21087;
+    CHEBI:44849; CHEBI:15379; CHEBI:88005; CHEBI:24345; CHEBI:17050; CHEBI:30491;
+    CHEBI:58033; CHEBI:19764; CHEBI:25366; CHEBI:44742; CHEBI:17794; CHEBI:1659; CHEBI:29793;
+    CHEBI:7860; CHEBI:17150; CHEBI:10745; CHEBI:21029; CHEBI:19763; CHEBI:11879; CHEBI:40016
+
+    KEGG IDs: KEGG:C00988; KEGG:C00597; KEGG:C01182; KEGG:C00704; KEGG:C00197; KEGG:C00007'
+measurements:
+- id: measurement_4_1_1_39_Bradyrhizobium_diazoefficiens_Q9ZI34_Q9ZI33_D-Ribulose_1
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 4_1_1_39_Bradyrhizobium_diazoefficiens_Q9ZI34_Q9ZI33_D-Ribulose_1_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000707
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Ribulose_1
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9882445'
+buffer:
+  buffer: 64 mM MOPS-KOH, 10 mM magnesium acetate, 1 mM EDTA, 1 or 20 mM NaHCO3
+  buffer_concentration: 64 mM
+references:
+- title: Reference for SABIO-RK entry 57018
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9882445/
+  pubmed_id: '9882445'
+  doi: null

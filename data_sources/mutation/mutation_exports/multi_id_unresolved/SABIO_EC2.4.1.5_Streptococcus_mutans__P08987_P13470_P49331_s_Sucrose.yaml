@@ -1,0 +1,136 @@
+name: SABIO-RK Entry 24543
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 24543
+created: '2025-10-28T14:25:00.249402'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_4_1_5_P08987_P13470_P49331_p24543
+  name: dextransucrase
+  sequence: null
+  ecnumber: 2.4.1.5
+  organism: Streptococcus mutans
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P08987; P13470; P49331
+complexes: null
+small_molecules:
+- id: substrate_Sucrose
+  name: Sucrose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Dextran
+  name: Dextran
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Fructose
+  name: D-Fructose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Dextran
+  name: Dextran
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2110_EC2_4_1_5_Streptococcus_mutans_P08987_P13470_P49331_Sucrose
+  name: Reaction catalyzed by dextransucrase on Sucrose
+  equation: Sucrose + Dextran = D-Fructose + Dextran
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Sucrose
+  - species_id: product_Dextran
+  products:
+  - species_id: product_D-Fructose
+  - species_id: product_Dextran
+  modifiers:
+  - species_id: protein_2_4_1_5_P08987_P13470_P49331_p24543
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:4119; CHEBI:18269; CHEBI:27649; CHEBI:47424; CHEBI:17992;
+    CHEBI:15824; CHEBI:48095; CHEBI:37721
+
+    KEGG IDs: KEGG:C00089; KEGG:C00095; KEGG:C00372; KEGG:C10906'
+measurements:
+- id: measurement_2_4_1_5_Streptococcus_mutans_P08987_P13470_P49331_Sucrose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 5.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 50 mM sodium acetate, 7 mM NaF
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 24543
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/4821094/
+  pubmed_id: '4821094'
+  doi: null

@@ -1,0 +1,226 @@
+version: '2.0'
+created: '2025-11-20T13:41:28.918062'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_1_2_13_Q8J308_p39699
+  name: fructose-bisphosphate aldolase
+  ecnumber: 4.1.2.13
+  organism: Thermococcus kodakaraensis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q8J308
+  wildtype_sequence: MDAYQSVGIRRRLKRFFRRDGRALIFAMDHGFEHGPTDFEPVWEHVNPRIIIRKVVRAGVDGVMMLPGIVRMAGDELKPDTGLMIKLTSKTELRPKEEQLLQSQLGYVEDAIKLGADAIAATVYWGSPQEDVMMRQFAEIASYAHDLGFPVVQFAYPRGPYINEKYGKKEDYRVVMYGARAAAETGADMIKTYWTGSKETFAKVVDAAAGVPVLLSGGAKTDNPVDFLKVVWDVIEAGGAGAVVGRNIFQRENPEPMIKALIRVIHRNEDPEEAAKAEGLI
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_D-Fructose_1-phosphate
+  name: D-Fructose 1-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Glyceraldehyde
+  name: D-Glyceraldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Glycerone_phosphate
+  name: Glycerone phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Citrate
+  name: Citrate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Fructose_1
+  name: D-Fructose 1
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_6-bisphosphate
+  name: 6-bisphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Glyceraldehyde_3-phosphate
+  name: D-Glyceraldehyde 3-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_274_EC4_1_2_13_Thermococcus_kodakaraensis_Q8J308_D-Fructose_1-phosphate
+  name: Reaction catalyzed by fructose-bisphosphate aldolase on D-Fructose 1-phosphate
+  equation: D-Fructose 1-phosphate = Glycerone phosphate + D-Glyceraldehyde
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Fructose_1-phosphate
+  products:
+  - species_id: product_D-Glyceraldehyde
+  - species_id: product_Glycerone_phosphate
+  modifiers:
+  - species_id: protein_4_1_2_13_Q8J308_p39699
+    role: BIOCATALYST
+  - species_id: activator_Citrate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 30851;30852;30853;30854
+  KEGGid: R02568
+  notes: 'ChEBI IDs: CHEBI:4186; CHEBI:23322; CHEBI:58674; CHEBI:3727; CHEBI:17378;
+    CHEBI:35806; CHEBI:20930; CHEBI:18105; CHEBI:76049; CHEBI:37515; CHEBI:16947;
+    CHEBI:41523; CHEBI:23321; CHEBI:13999; CHEBI:12982; CHEBI:35810; CHEBI:5174; CHEBI:42563;
+    CHEBI:35802; CHEBI:138881; CHEBI:139419; CHEBI:30769; CHEBI:39973; CHEBI:35809;
+    CHEBI:21025; CHEBI:16108
+
+    KEGG IDs: KEGG:C00577; KEGG:C00158; KEGG:C00111; KEGG:C01094'
+- id: sabiork_1338_EC4_1_2_13_Thermococcus_kodakaraensis_Q8J308_D-Fructose_1
+  name: Reaction catalyzed by fructose-bisphosphate aldolase on D-Fructose 1
+  equation: D-Fructose 1,6-bisphosphate = D-Glyceraldehyde 3-phosphate + Glycerone
+    phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Fructose_1
+  - species_id: substrate_6-bisphosphate
+  products:
+  - species_id: product_D-Glyceraldehyde_3-phosphate
+  - species_id: product_Glycerone_phosphate
+  modifiers:
+  - species_id: protein_4_1_2_13_Q8J308_p39698
+    role: BIOCATALYST
+  - species_id: activator_Citrate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 14729;14730;14731;14732
+  KEGGid: R01070
+  notes: 'ChEBI IDs: CHEBI:23322; CHEBI:32966; CHEBI:29052; CHEBI:3727; CHEBI:35806;
+    CHEBI:28013; CHEBI:76049; CHEBI:12984; CHEBI:37736; CHEBI:16947; CHEBI:41523;
+    CHEBI:10374; CHEBI:23321; CHEBI:13999; CHEBI:41014; CHEBI:181; CHEBI:12983; CHEBI:21026;
+    CHEBI:35810; CHEBI:42563; CHEBI:59776; CHEBI:35802; CHEBI:22767; CHEBI:42553;
+    CHEBI:16905; CHEBI:30769; CHEBI:18324; CHEBI:35809; CHEBI:16108
+
+    KEGG IDs: KEGG:C00118; KEGG:C00111; KEGG:C05378; KEGG:C00158; KEGG:C00354'
+measurements:
+- id: measurement_4_1_2_13_Thermococcus_kodakaraensis_Q8J308_D-Fructose_1-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: 70.0
+  temperature_unit: °C
+- id: measurement_4_1_2_13_Thermococcus_kodakaraensis_Q8J308_D-Fructose_1
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: 70.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 4_1_2_13_Thermococcus_kodakaraensis_Q8J308_D-Fructose_1-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00437
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Fructose_1-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 70.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16233297'
+- id: 4_1_2_13_Thermococcus_kodakaraensis_Q8J308_D-Fructose_1_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.3e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Fructose_1
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 70.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16233297'
+buffer:
+  buffer: 20 mM MES
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 39699
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16233297/
+  pubmed_id: '16233297'
+  doi: null
+name: Merged entry for Q8J308 wildtype
+description: 'Merged from 2 files: SABIO_EC4.1.2.13_Thermococcus_kodakaraensis__Q8J308_s_D-Fructose_2.yaml,
+  SABIO_EC4.1.2.13_Thermococcus_kodakaraensis__Q8J308_s_D-Fructose.yaml'

@@ -1,0 +1,191 @@
+name: SABIO-RK Entry 31320
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 31320
+created: '2025-10-28T14:42:20.283486'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1__P0A0C2_p31320
+  name: Phosphotransferases with an alcohol group as acceptor
+  sequence: null
+  ecnumber: 2.7.1.
+  organism: Enterococcus faecalis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: s52A
+  uniprotid: P0A0C2
+  mutant_sequence: MNIVENEICIRTLIDDDFPLMLKWLTDERVLEFYGGRDKKYTLEALKKHYTEPWEDEVFRVIIEYNNVPIGYGQIYKMYDELYTDYHYPKTDEIVYGMDQFIGEPNYWSKGIGTRYIKLIFEFLKKERNANAVILDPHKNNPRAIRAYQKSGFRIIEDLPEHELHEGKKEDCYLMEYRYDDNATNVKAMKYLIEHYFDNFKVDSIEIIGSGYDSVAYLVNNEYIFKTKFSTNKKKGYAKEKAIYNFLNTNLETNVKIPNIEYSYISDELSILGYKEIKGTFLTPEIYSTMSEEEQNLLKRDIASFLRQMHGLDYTDISECTIDNKQNVLEEYILLRETIYNDLTDIEKDYIESFMERLNATTVFEGKKCLCHNDFSCNHLLLDGNNRLTGIIDFGDSGIIDEYCDFIYLLEDSEEEIGTNFGEDILRMYGNIDIEKAKEYQDIVEEYYPIETIVYGIKNIKQEFIENGRKEIYKRTYKD
+  position_offset: -7
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Kanamycin_A
+  name: Kanamycin A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Kanamycin_A_phosphate
+  name: Kanamycin A phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_11252_EC2_7_1__Enterococcus_faecalis_P0A0C2_Kanamycin_A
+  name: Reaction catalyzed by Phosphotransferases with an alcohol group as acceptor
+    on Kanamycin A
+  equation: ATP + Kanamycin A = ADP + Kanamycin A phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Kanamycin_A
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_ADP
+  - species_id: product_Kanamycin_A_phosphate
+  modifiers:
+  - species_id: protein_2_7_1__P0A0C2_p31320
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:58214; CHEBI:24945; CHEBI:16761;
+    CHEBI:10789; CHEBI:57299; CHEBI:40553; CHEBI:6106; CHEBI:13236; CHEBI:10841; CHEBI:2359;
+    CHEBI:87518; CHEBI:24947; CHEBI:14487; CHEBI:40938; CHEBI:456216; CHEBI:17630;
+    CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:43482; CHEBI:13222; CHEBI:22244
+
+    KEGG IDs: KEGG:C00002; KEGG:C00008; KEGG:C01822'
+measurements:
+- id: measurement_2_7_1__Enterococcus_faecalis_P0A0C2_Kanamycin_A
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 36.0
+  temperature_unit: °C
+parameters:
+- id: 2_7_1__Enterococcus_faecalis_P0A0C2_Kanamycin_A_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000227
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Kanamycin_A
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 36.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11514228'
+- id: 2_7_1__Enterococcus_faecalis_P0A0C2_Kanamycin_A_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 66.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Kanamycin_A
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 36.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11514228'
+- id: 2_7_1__Enterococcus_faecalis_P0A0C2_Kanamycin_A_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.015
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Kanamycin_A
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 36.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11514228'
+buffer:
+  buffer: 50 mM Hepes, 10 mM MgCl2, 40 mM KCl, 0.5 mg/ml NADH, 2.5 mM phosphoenolpyruvate,
+    pyruvate kinase, lactate dehydrogenase
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 31320
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11514228/
+  pubmed_id: '11514228'
+  doi: null

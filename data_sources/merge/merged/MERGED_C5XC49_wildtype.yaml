@@ -1,0 +1,368 @@
+version: '2.0'
+created: '2025-11-20T13:41:59.050611'
+modified: null
+creators:
+- given_name: SKiD
+  family_name: Database
+  mail: skid@database.org
+vessels: null
+proteins:
+- id: protein_C5XC49
+  name: Sorghum bicolor
+  ecnumber: 1.1.1.195
+  organism: Sorghum bicolor
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: null
+  uniprotid: C5XC49
+  wildtype_sequence: MDMEQGCKTAHGWAARDASGHLSPYSFSARIQGDADVTIKVLFCGICHTDLHVIKNEWGNAMYPVVPGHEVVGVVTDVGHGVTKFKAGDTVGVGYFVDSCRTCESCSTGHENYCPDLVLTSNGVDHHHHGATTKGGFSDVLVVSQDFVVRVPESLPLDGAAPLLCAGVTVYSPMAQYALNEPGKHLGVVGLGGLGHMAVKFAKAFGMTVTVISSSPGKRDEALGRLGADAFLVSHDAAQMKAAAATLDGIIDTVSAGHQIVPLLALLKPMGQMVVVGAPSTPLELPAYAIITGGKRVAGNGVGSVADCQAMLDFAGEHGVTADIEVVQMDYVNTAIERLEKNDVRYRFVIDVAGSKMEETVA
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_4-coumaryl_aldehyde
+  name: 4-coumaryl aldehyde
+  canonical_smiles: C(\C=C\C1=CC=C(C=C1)O)=O
+  inchi: InChI=1S/C9H8O2/c10-7-1-2-8-3-5-9(11)6-4-8/h1-7,11H/b2-1+
+  inchikey: CJXMVKYNVIGQBS-OWOJBTEDSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: OPSIN
+- id: product
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_coniferyl_alcohol
+  name: coniferyl alcohol
+  canonical_smiles: C(\C=C\C1=CC(OC)=C(O)C=C1)O
+  inchi: InChI=1S/C10H12O3/c1-13-10-7-8(3-2-6-11)4-5-9(10)12/h2-5,7,11-12H,6H2,1H3/b3-2+
+  inchikey: JMFRWRFFLBVWSI-NSCUHMNNSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/1549095
+- id: substrate_coniferyl_aldehyde
+  name: coniferyl aldehyde
+  canonical_smiles: COC1=C(C=CC(=C1)C=CC=O)O
+  inchi: InChI=1S/C10H10O3/c1-13-10-7-8(3-2-6-11)4-5-9(10)12/h2-7,12H,1H3
+  inchikey: DKZBBWMURDFHNE-UHFFFAOYSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/5280536
+- id: substrate_sinapyl_aldehyde
+  name: sinapyl aldehyde
+  canonical_smiles: COC1=CC(=CC(=C1O)OC)C=CC=O
+  inchi: InChI=1S/C11H12O4/c1-14-9-6-8(4-3-5-12)7-10(15-2)11(9)13/h3-7,13H,1-2H3
+  inchikey: CDICDSOGTRCHMG-UHFFFAOYSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/5280802
+reactions:
+- id: reaction_C5XC49_4-coumaryl_aldehyde
+  name: Reaction catalyzed by enzyme on 4-coumaryl aldehyde
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_4-coumaryl_aldehyde
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_C5XC49
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_C5XC49_coniferyl_alcohol
+  name: Reaction catalyzed by enzyme on coniferyl alcohol
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_coniferyl_alcohol
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_C5XC49
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_C5XC49_coniferyl_aldehyde
+  name: Reaction catalyzed by enzyme on coniferyl aldehyde
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_coniferyl_aldehyde
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_C5XC49
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_C5XC49_sinapyl_aldehyde
+  name: Reaction catalyzed by enzyme on sinapyl aldehyde
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_sinapyl_aldehyde
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_C5XC49
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+measurements:
+- id: measurement_0
+  name: Experimental conditions (pH=6.5, T=30.0°C)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=8.8, T=None°C)
+  species_data: null
+  ph_opt: 8.8
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_0
+  name: Experimental conditions (pH=6.5, T=30.0°C)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=6.5, T=30.0°C)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: C5XC49_4-coumaryl_aldehyde_kcat_143
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2.17
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_4-coumaryl_aldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: 'Source: kcat'
+  pubmed_id: '28606901'
+- id: C5XC49_4-coumaryl_aldehyde_Km_11184
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 4.63
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_4-coumaryl_aldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '28606901'
+- id: C5XC49_coniferyl_alcohol_Km_11182
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.117
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_coniferyl_alcohol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.8
+  temperature: null
+  temperature_unit: null
+  notes: 'Source: Km'
+  pubmed_id: '19363091'
+- id: C5XC49_coniferyl_aldehyde_kcat_144
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 20.28
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_coniferyl_aldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: 'Source: kcat'
+  pubmed_id: '28606901'
+- id: C5XC49_coniferyl_aldehyde_Km_11183
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.233
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_coniferyl_aldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '28606901'
+- id: C5XC49_sinapyl_aldehyde_kcat_145
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 12.54
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_sinapyl_aldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: 'Source: kcat'
+  pubmed_id: '28606901'
+- id: C5XC49_sinapyl_aldehyde_Km_11181
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.033
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_sinapyl_aldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '28606901'
+buffer:
+  buffer: null
+  buffer_concentration: null
+references:
+- title: The enzyme activity and substrate specificity of two major cinnamyl alcohol
+    dehydrogenases in sorghum (Sorghum bicolor)
+  authors: Jun, S.Y., Walker, A.M., Kim, H., Ralph, J., Vermerris, W., Sattler, S.E.,
+    Kang, C.
+  year: '2017'
+  journal: SbCAD2 and SbCAD4
+  uri: null
+  pubmed_id: '28606901'
+  doi: null
+  id: '96'
+  pages: 2128-2145
+  volume: '174'
+  citation: 'Jun, S.Y.,Walker, A.M.,Kim, H.,Ralph, J.,Vermerris, W.,Sattler, S.E.,Kang,
+    C., The enzyme activity and substrate specificity of two major cinnamyl alcohol
+    dehydrogenases in sorghum (Sorghum bicolor), SbCAD2 and SbCAD4, Plant Physiol.,
+    2017, 2128-2145, 174, PMID: 28606901'
+- title: J.F.
+  authors: Sattler, S.E., Saathoff, A.J., Haas, E.J., Palmer, N.A., Funnell-Harris,
+    D.L., Sarath, G., Pedersen
+  year: '2009'
+  journal: A nonsense mutation in a cinnamyl alcohol dehydrogenase gene is responsible
+    for the Sorghum brown midrib6 phenotype
+  uri: null
+  pubmed_id: '19363091'
+  doi: null
+  id: '56'
+  pages: 584-595
+  volume: '150'
+  citation: 'Sattler, S.E.,Saathoff, A.J.,Haas, E.J.,Palmer, N.A.,Funnell-Harris,
+    D.L.,Sarath, G.,Pedersen, J.F., A nonsense mutation in a cinnamyl alcohol dehydrogenase
+    gene is responsible for the Sorghum brown midrib6 phenotype, Plant Physiol., 2009,
+    584-595, 150, PMID: 19363091'
+name: Merged entry for C5XC49 wildtype
+description: 'Merged from 4 files: SKID_EC1.1.1.195_Sorghum_C5XC49_4-coumaryl_alde.yaml,
+  SKID_EC1.1.1.195_Sorghum_C5XC49_coniferyl_alcoh.yaml, SKID_EC1.1.1.195_Sorghum_C5XC49_coniferyl_aldeh.yaml,
+  SKID_EC1.1.1.195_Sorghum_C5XC49_sinapyl_aldehyd.yaml'

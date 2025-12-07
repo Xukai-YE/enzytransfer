@@ -1,0 +1,379 @@
+version: '2.0'
+created: '2025-11-20T13:40:42.797334'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_3_2_P12277_p23663
+  name: creatine kinase
+  ecnumber: 2.7.3.2
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P12277
+  wildtype_sequence: MPFSNSHNALKLRFPAEDEFPDLSAHNNHMAKVLTPELYAELRAKSTPSGFTLDDVIQTGVDNPGHPYIMTVGCVAGDEESYEVFKDLFDPIIEDRHGGYKPSDEHKTDLNPDNLQGGDDLDPNYVLSSRVRTGRSIRGFCLPPHCSRGERRAIEKLAVEALSSLDGDLAGRYYALKSMTEAEQQQLIDDHFLFDKPVSPLLLASGMARDWPDARGIWHNDNKTFLVWVNEEDHLRVISMQKGGNMKEVFTRFCTGLTQIETLFKSKDYEFMWNPHLGYILTCPSNLGTGLRAGVHIKLPNLGKHEKFSEVLKRLRLQKRGTGGVDTAAVGGVFDVSNADRLGFSEVELVQMVVDGVKLLIEMEQRLEQGQAIDDLMPAQK
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_CDP
+  name: CDP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Phosphocreatine
+  name: Phosphocreatine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Creatine
+  name: Creatine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CTP
+  name: CTP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_dCDP
+  name: dCDP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_dCTP
+  name: dCTP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Cidofovir_monophosphate
+  name: Cidofovir monophosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Cidofovir_diphosphate
+  name: Cidofovir diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_10481_EC2_7_3_2_Homo_sapiens_P12277_CDP
+  name: Reaction catalyzed by creatine kinase on CDP
+  equation: CDP + Phosphocreatine = CTP + Creatine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_CDP
+  - species_id: substrate_Phosphocreatine
+  products:
+  - species_id: product_Creatine
+  - species_id: product_CTP
+  modifiers:
+  - species_id: protein_2_7_3_2_P12277_p23663
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:23404; CHEBI:17677; CHEBI:14028; CHEBI:58231; CHEBI:26053;
+    CHEBI:23522; CHEBI:13286; CHEBI:41678; CHEBI:66924; CHEBI:3285; CHEBI:16919; CHEBI:3909;
+    CHEBI:58092; CHEBI:17287; CHEBI:41675; CHEBI:57947; CHEBI:3611; CHEBI:17239; CHEBI:14813;
+    CHEBI:8145; CHEBI:37563; CHEBI:12526
+
+    KEGG IDs: KEGG:C00063; KEGG:C00300; KEGG:C02305; KEGG:C00112'
+- id: sabiork_10474_EC2_7_3_2_Homo_sapiens_P12277_dCDP
+  name: Reaction catalyzed by creatine kinase on dCDP
+  equation: dCDP + Phosphocreatine = dCTP + Creatine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_dCDP
+  - species_id: substrate_Phosphocreatine
+  products:
+  - species_id: product_Creatine
+  - species_id: product_dCTP
+  modifiers:
+  - species_id: protein_2_7_3_2_P12277_p23662
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:23404; CHEBI:14028; CHEBI:26053; CHEBI:57724; CHEBI:28846;
+    CHEBI:49966; CHEBI:41678; CHEBI:66924; CHEBI:16919; CHEBI:3909; CHEBI:58092; CHEBI:17287;
+    CHEBI:19243; CHEBI:61481; CHEBI:57947; CHEBI:16311; CHEBI:19241; CHEBI:10492;
+    CHEBI:14813; CHEBI:58593; CHEBI:8145; CHEBI:10494; CHEBI:14072; CHEBI:12526
+
+    KEGG IDs: KEGG:C00458; KEGG:C00705; KEGG:C02305; KEGG:C00300'
+- id: sabiork_10461_EC2_7_3_2_Homo_sapiens_P12277_Cidofovir_monophosphate
+  name: Reaction catalyzed by creatine kinase on Cidofovir monophosphate
+  equation: Cidofovir monophosphate + Phosphocreatine = Cidofovir diphosphate + Creatine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Cidofovir_monophosphate
+  - species_id: substrate_Phosphocreatine
+  products:
+  - species_id: product_Cidofovir_diphosphate
+  - species_id: product_Creatine
+  modifiers:
+  - species_id: protein_2_7_3_2_P12277_p23664
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:23404; CHEBI:14028; CHEBI:66924; CHEBI:26053; CHEBI:14813;
+    CHEBI:16919; CHEBI:57947; CHEBI:8145; CHEBI:3909; CHEBI:58092; CHEBI:17287; CHEBI:12526;
+    CHEBI:41678
+
+    KEGG IDs: KEGG:C02305; KEGG:C00300'
+measurements:
+- id: measurement_2_7_3_2_Homo_sapiens_P12277_CDP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_7_3_2_Homo_sapiens_P12277_dCDP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_7_3_2_Homo_sapiens_P12277_Cidofovir_monophosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_3_2_Homo_sapiens_P12277_CDP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.9e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CDP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8967971'
+- id: 2_7_3_2_Homo_sapiens_P12277_CDP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00388
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CDP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8967971'
+- id: 2_7_3_2_Homo_sapiens_P12277_CDP_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00075
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CDP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8967971'
+- id: 2_7_3_2_Homo_sapiens_P12277_dCDP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 5.666667e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_dCDP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8967971'
+- id: 2_7_3_2_Homo_sapiens_P12277_dCDP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00344
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_dCDP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8967971'
+- id: 2_7_3_2_Homo_sapiens_P12277_dCDP_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000161667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_dCDP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8967971'
+- id: 2_7_3_2_Homo_sapiens_P12277_Cidofovir_monophosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 8.5e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cidofovir_monophosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8967971'
+- id: 2_7_3_2_Homo_sapiens_P12277_Cidofovir_monophosphate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 6.666667e-08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cidofovir_monophosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8967971'
+- id: 2_7_3_2_Homo_sapiens_P12277_Cidofovir_monophosphate_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00777
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cidofovir_monophosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8967971'
+buffer:
+  buffer: 50 mM Tris-HCl, 5 mM MgCl2, 10 mM DTT, 1 mg/ml BSA; 50 mM Tris-HCl, 5 mM
+    MgCl2, 2 mM DTT, 1 mg/ml BSA
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 23663
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/8967971/
+  pubmed_id: '8967971'
+  doi: null
+name: Merged entry for P12277 wildtype
+description: 'Merged from 3 files: SABIO_EC2.7.3.2_Homo_sapiens__P12277_s_CDP.yaml,
+  SABIO_EC2.7.3.2_Homo_sapiens__P12277_s_dCDP.yaml, SABIO_EC2.7.3.2_Homo_sapiens__P12277_s_Cidofovir.yaml'

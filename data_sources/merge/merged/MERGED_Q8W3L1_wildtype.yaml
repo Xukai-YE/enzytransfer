@@ -1,0 +1,337 @@
+version: '2.0'
+created: '2025-11-20T13:39:39.604729'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_18_1_6_Q8W3L1_p69220
+  name: adrenodoxin-NADP+ reductase
+  ecnumber: 1.18.1.6
+  organism: Arabidopsis thaliana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q8W3L1
+  wildtype_sequence: MSRYLARYMVSRYFSSASSRPLHVCIVGSGPAGFYTADKVLKAHEGAHVDIIDRLPTPFGLVRSGVAPDHPETKIAINQFSRVAQHERCSFIGNVKLGSDLSLSELRDLYHVVVLAYGAESDKDLGIPGESLSGIYSAREFVWWYNGHPDYSSLKPDLKTSDSAVILGQGNVALDVARILLRPTTELASTDIATHALSALKESSIRKVYLIGRRGPVQAALTAKELREVLGIKNLHIRIKQTDLSVTPADEEEMKTSRARKRIYELLSKAAAAAKTSEADPDQRELHFVFFRQPDQFLESDERKGHVSGVNLQKTILESVGTGKQIAVGTGEFEDLNCSMVLKAIGYKSVPVNGLPFDHKKGVVPNVKGRVVSHTSGDISQTEPGLYVCGWLKRGPVGIIATNLYCAEETVGSISEDIEEGVWKSSKAGSKGLMQLLEKRKVKKVEFSGWEKIDAKEKQMGIERNKPREKLVTWEDLLAAAAN
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Oxidized_adrenal_ferredoxin
+  name: Oxidized adrenal ferredoxin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_FAD
+  name: FAD
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Reduced_adrenal_ferredoxin
+  name: Reduced adrenal ferredoxin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_15758_EC1_18_1_6_Arabidopsis_thaliana_Q8W3L1_Oxidized_adrenal_ferredoxin
+  name: Reaction catalyzed by adrenodoxin-NADP+ reductase on Oxidized adrenal ferredoxin
+  equation: H+ + NADPH + Oxidized adrenal ferredoxin = NADP+ + Reduced adrenal ferredoxin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxidized_adrenal_ferredoxin
+  - species_id: substrate_NADPH
+  - species_id: cofactor_FAD
+  products:
+  - species_id: product_Reduced_adrenal_ferredoxin
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_18_1_6_Q8W3L1_p69220
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R10159
+  notes: 'ChEBI IDs: CHEBI:16238; CHEBI:13397; CHEBI:13398; CHEBI:7424; CHEBI:14714;
+    CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357; CHEBI:25523; CHEBI:24040;
+    CHEBI:8786; CHEBI:15019; CHEBI:24636; CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:21125;
+    CHEBI:13315; CHEBI:16474; CHEBI:16341; CHEBI:44286; CHEBI:42388; CHEBI:16906;
+    CHEBI:21904; CHEBI:44409; CHEBI:15378; CHEBI:18009; CHEBI:58349; CHEBI:13400;
+    CHEBI:57783; CHEBI:4956; CHEBI:10744; CHEBI:7832
+
+    KEGG IDs: KEGG:C00662; KEGG:C00005; KEGG:C00667; KEGG:C00080; KEGG:C00006; KEGG:C00016;
+    KEGG:C11037'
+- id: sabiork_15759_EC1_18_1_6_Arabidopsis_thaliana_Q8W3L1_Oxidized_adrenal_ferredoxin
+  name: Reaction catalyzed by adrenodoxin-NADP+ reductase on Oxidized adrenal ferredoxin
+  equation: NADH + H+ + Oxidized adrenal ferredoxin = NAD+ + Reduced adrenal ferredoxin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxidized_adrenal_ferredoxin
+  - species_id: substrate_NADH
+  - species_id: cofactor_FAD
+  products:
+  - species_id: product_Reduced_adrenal_ferredoxin
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_18_1_6_Q8W3L1_p69221
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:16238; CHEBI:14714; CHEBI:44281; CHEBI:13393; CHEBI:29234;
+    CHEBI:15846; CHEBI:13357; CHEBI:24040; CHEBI:21902; CHEBI:13396; CHEBI:8786; CHEBI:15019;
+    CHEBI:21901; CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:21125;
+    CHEBI:57945; CHEBI:44216; CHEBI:13315; CHEBI:16341; CHEBI:57540; CHEBI:42388;
+    CHEBI:7423; CHEBI:16906; CHEBI:13389; CHEBI:15378; CHEBI:13395; CHEBI:4956; CHEBI:10744;
+    CHEBI:44215; CHEBI:7832; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00662; KEGG:C00667; KEGG:C00080; KEGG:C00016; KEGG:C00003; KEGG:C00004'
+- id: sabiork_15758_EC1_18_1_6_Arabidopsis_thaliana_Q8W3L1_Oxidized_adrenal_ferredoxin
+  name: Reaction catalyzed by adrenodoxin-NADP+ reductase on Oxidized adrenal ferredoxin
+  equation: H+ + NADPH + Oxidized adrenal ferredoxin = NADP+ + Reduced adrenal ferredoxin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxidized_adrenal_ferredoxin
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_Reduced_adrenal_ferredoxin
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_18_1_6_Q8W3L1_p73562
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R10159
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:7424; CHEBI:14714; CHEBI:44405;
+    CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357; CHEBI:25523; CHEBI:8786; CHEBI:15019;
+    CHEBI:24636; CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:16474; CHEBI:16341; CHEBI:44286;
+    CHEBI:16906; CHEBI:21904; CHEBI:44409; CHEBI:15378; CHEBI:18009; CHEBI:58349;
+    CHEBI:13400; CHEBI:57783; CHEBI:10744; CHEBI:7832
+
+    KEGG IDs: KEGG:C00662; KEGG:C00005; KEGG:C00667; KEGG:C00080; KEGG:C00006; KEGG:C11037'
+- id: sabiork_15759_EC1_18_1_6_Arabidopsis_thaliana_Q8W3L1_Oxidized_adrenal_ferredoxin
+  name: Reaction catalyzed by adrenodoxin-NADP+ reductase on Oxidized adrenal ferredoxin
+  equation: NADH + H+ + Oxidized adrenal ferredoxin = NAD+ + Reduced adrenal ferredoxin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxidized_adrenal_ferredoxin
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_Reduced_adrenal_ferredoxin
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_18_1_6_Q8W3L1_p73561
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:14714; CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846;
+    CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:8786; CHEBI:15019; CHEBI:21901; CHEBI:24636;
+    CHEBI:44214; CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:57945; CHEBI:44216; CHEBI:16341;
+    CHEBI:57540; CHEBI:7423; CHEBI:16906; CHEBI:13389; CHEBI:15378; CHEBI:13395; CHEBI:10744;
+    CHEBI:44215; CHEBI:7832; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00662; KEGG:C00667; KEGG:C00080; KEGG:C00003; KEGG:C00004'
+measurements:
+- id: measurement_1_18_1_6_Arabidopsis_thaliana_Q8W3L1_Oxidized_adrenal_ferredoxin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_1_18_1_6_Arabidopsis_thaliana_Q8W3L1_Oxidized_adrenal_ferredoxin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_1_18_1_6_Arabidopsis_thaliana_Q8W3L1_Oxidized_adrenal_ferredoxin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_18_1_6_Arabidopsis_thaliana_Q8W3L1_Oxidized_adrenal_ferredoxin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_18_1_6_Arabidopsis_thaliana_Q8W3L1_Oxidized_adrenal_ferredoxin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.4e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_adrenal_ferredoxin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '12714594'
+- id: 1_18_1_6_Arabidopsis_thaliana_Q8W3L1_Oxidized_adrenal_ferredoxin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.001
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_adrenal_ferredoxin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '12714594'
+- id: 1_18_1_6_Arabidopsis_thaliana_Q8W3L1_Oxidized_adrenal_ferredoxin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.13e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_adrenal_ferredoxin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '13677469'
+- id: 1_18_1_6_Arabidopsis_thaliana_Q8W3L1_Oxidized_adrenal_ferredoxin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000123
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_adrenal_ferredoxin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '13677469'
+buffer:
+  buffer: 50 mM potassium phosphate, 200 ¦ÌM potassium ferricyanide; 50 mM Tris-HCl,
+    50 ¦ÌM cytochrome c
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 69220
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12714594/
+  pubmed_id: '12714594'
+  doi: null
+- title: Reference for SABIO-RK entry 73562
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/13677469/
+  pubmed_id: '13677469'
+  doi: null
+name: Merged entry for Q8W3L1 wildtype
+description: 'Merged from 4 files: SABIO_EC1.18.1.6_Arabidopsis_thaliana__Q8W3L1_s_Oxidized.yaml,
+  SABIO_EC1.18.1.6_Arabidopsis_thaliana__Q8W3L1_s_Oxidized_2.yaml, SABIO_EC1.18.1.6_Arabidopsis_thaliana__Q8W3L1_s_Oxidized_4.yaml,
+  SABIO_EC1.18.1.6_Arabidopsis_thaliana__Q8W3L1_s_Oxidized_3.yaml'

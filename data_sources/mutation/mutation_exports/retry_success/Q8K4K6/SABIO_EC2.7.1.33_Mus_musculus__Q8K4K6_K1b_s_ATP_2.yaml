@@ -1,0 +1,146 @@
+name: SABIO-RK Entry 6931
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 6931
+created: '2025-10-28T13:51:10.859296'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_33_Q8K4K6_p6931
+  name: pantothenate kinase
+  sequence: null
+  ecnumber: 2.7.1.33
+  organism: Mus musculus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: K1b
+  uniprotid: Q8K4K6
+  mutant_sequence: MBLVNGRKQTFPWFGMDIGGTLVKLVYFEPKDITAEEEQEEVENLKSIRKYLTSNTAYGKTGIRDVHLELKNLTMCGRKGNLHFIRFPTCAMHLFIQMGSEKNFSSLHTTLCATGGGAFKFEEDFRMIADLQLHKLDELDCLIQGLLYVDSVGFNGKPECYYFENPTNPELCQKKPYCLDNPYPMLLVNMGSGVSILAVYSKDNYKRVTGTSLGGGTFLGLCCLLTGCETFEEALDMAAKGDSTNVDKLVKDIYGGDYERFGLQGSAVASSFGNMMSKEKRESISKEDLARATLVTITNNIGSIARMCALNENIDRVVFVGNFLRINMVSMKLLAYAMDFWSKGQLKALFLEHEGYFGAVGALLELFKMTDTQ
+  position_offset: 1
+  retry_status: isoform_2_matched
+  isoform_used: 2
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate__R_-Pantothenate
+  name: (R)-Pantothenate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-4_-Phosphopantothenate
+  name: D-4'-Phosphopantothenate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Malonyl-CoA
+  name: Malonyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2868_EC2_7_1_33_Mus_musculus_Q8K4K6_ATP
+  name: Reaction catalyzed by pantothenate kinase on ATP
+  equation: ATP + (R)-Pantothenate = ADP + D-4'-Phosphopantothenate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate__R_-Pantothenate
+  products:
+  - species_id: product_D-4_-Phosphopantothenate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_33_Q8K4K6_p6931
+    role: BIOCATALYST
+  - species_id: activator_Malonyl-CoA
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 16373;16374;16375;16376
+  KEGGid: R03018
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:25135; CHEBI:12886; CHEBI:7916;
+    CHEBI:16761; CHEBI:10789; CHEBI:57299; CHEBI:43979; CHEBI:40553; CHEBI:20891;
+    CHEBI:46905; CHEBI:15531; CHEBI:4082; CHEBI:57384; CHEBI:13236; CHEBI:11008; CHEBI:6661;
+    CHEBI:10841; CHEBI:2359; CHEBI:29032; CHEBI:87518; CHEBI:40938; CHEBI:10986; CHEBI:18701;
+    CHEBI:15905; CHEBI:456216; CHEBI:22249; CHEBI:18700; CHEBI:2342; CHEBI:15422;
+    CHEBI:14565; CHEBI:16454; CHEBI:13222; CHEBI:22244; CHEBI:18702; CHEBI:44679
+
+    KEGG IDs: KEGG:C00864; KEGG:C00083; KEGG:C00002; KEGG:C03492; KEGG:C00008'
+measurements:
+- id: measurement_2_7_1_33_Mus_musculus_Q8K4K6_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 0.1 M TrisHCl, 10 mM MgCl2
+  buffer_concentration: 0.1 M
+references:
+- title: Reference for SABIO-RK entry 6931
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16040613/
+  pubmed_id: '16040613'
+  doi: null

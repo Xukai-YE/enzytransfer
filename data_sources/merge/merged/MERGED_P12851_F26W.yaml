@@ -1,0 +1,259 @@
+version: '2.0'
+created: '2025-11-20T13:41:44.031294'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_5_3_1_5_P12851_p34543
+  name: xylose isomerase
+  ecnumber: 5.3.1.5
+  organism: Actinoplanes missouriensis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: F26W
+  uniprotid: P12851
+  wildtype_sequence: MSVQATREDKFSFGLWTVGWQARDAFGDATRTALDPVEAVHKLAEIGAYGITFHDDDLVPFGSDAQTRDGIIAGFKKALDETGLIVPMVTTNLFTHPVFKDGGFTSNDRSVRRYAIRKVLRQMDLGAELGAKTLVLWGGREGAEYDSAKDVSAALDRYREALNLLAQYSEDRGYGLRFAIEPKPNEPRGDILLPTAGHAIAFVQELERPELFGINPETGHEQMSNLNFTQGIAQALWHKKLFHIDLNGQHGPKFDQDLVFGHGDLLNAFSLVDLLENGPDGAPAYDGPRHFDYKPSRTEDYDGVWESAKANIRMYLLLKERAKAFRADPEVQEALAASKVAELKTPTLNPGEGYAELLADRSAFEDYDADAVGAKGFGFVKLNQLAIEHLLGAR
+  mutant_sequence: MSVQATREDKFSFGLWTVGWQARDAWGDATRTALDPVEAVHKLAEIGAYGITFHDDDLVPFGSDAQTRDGIIAGFKKALDETGLIVPMVTTNLFTHPVFKDGGFTSNDRSVRRYAIRKVLRQMDLGAELGAKTLVLWGGREGAEYDSAKDVSAALDRYREALNLLAQYSEDRGYGLRFAIEPKPNEPRGDILLPTAGHAIAFVQELERPELFGINPETGHEQMSNLNFTQGIAQALWHKKLFHIDLNGQHGPKFDQDLVFGHGDLLNAFSLVDLLENGPDGAPAYDGPRHFDYKPSRTEDYDGVWESAKANIRMYLLLKERAKAFRADPEVQEALAASKVAELKTPTLNPGEGYAELLADRSAFEDYDADAVGAKGFGFVKLNQLAIEHLLGAR
+complexes: null
+small_molecules:
+- id: substrate_D-Glucose
+  name: D-Glucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Fructose
+  name: D-Fructose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_L-Arabinose
+  name: L-Arabinose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Ribulose
+  name: L-Ribulose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_800_EC5_3_1_5_Actinoplanes_missouriensis_P12851_D-Glucose
+  name: Reaction catalyzed by xylose isomerase on D-Glucose
+  equation: D-Glucose = D-Fructose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Glucose
+  products:
+  - species_id: product_D-Fructose
+  modifiers:
+  - species_id: protein_5_3_1_5_P12851_p34543
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:42802; CHEBI:22386; CHEBI:4119; CHEBI:48095; CHEBI:10242;
+    CHEBI:4167; CHEBI:47424; CHEBI:12318; CHEBI:17634; CHEBI:15824; CHEBI:40557; CHEBI:17925;
+    CHEBI:88300; CHEBI:37721
+
+    KEGG IDs: KEGG:C00267; KEGG:C00031; KEGG:C10906; KEGG:C00095'
+- id: sabiork_1860_EC5_3_1_5_Actinoplanes_missouriensis_P12851_L-Arabinose
+  name: Reaction catalyzed by L-arabinose isomerase on L-Arabinose
+  equation: L-Arabinose = L-Ribulose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Arabinose
+  products:
+  - species_id: product_L-Ribulose
+  modifiers:
+  - species_id: protein_5_3_1_5_P12851_p34540
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 14821;14822;14823;14824
+  KEGGid: R01761
+  notes: 'ChEBI IDs: CHEBI:21382; CHEBI:30849; CHEBI:17535; CHEBI:16880; CHEBI:6182;
+    CHEBI:13163; CHEBI:6295
+
+    KEGG IDs: KEGG:C00508; KEGG:C00259; KEGG:C05052; KEGG:C11476'
+measurements:
+- id: measurement_5_3_1_5_Actinoplanes_missouriensis_P12851_D-Glucose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 60.0
+  temperature_unit: °C
+- id: measurement_5_3_1_5_Actinoplanes_missouriensis_P12851_L-Arabinose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 60.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 5_3_1_5_Actinoplanes_missouriensis_P12851_D-Glucose_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 12.7
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15713782'
+- id: 5_3_1_5_Actinoplanes_missouriensis_P12851_D-Glucose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 20.5
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15713782'
+- id: 5_3_1_5_Actinoplanes_missouriensis_P12851_D-Glucose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.6
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15713782'
+- id: 5_3_1_5_Actinoplanes_missouriensis_P12851_L-Arabinose_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 0.11
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Arabinose
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15713782'
+- id: 5_3_1_5_Actinoplanes_missouriensis_P12851_L-Arabinose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.4
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Arabinose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15713782'
+- id: 5_3_1_5_Actinoplanes_missouriensis_P12851_L-Arabinose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.155
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Arabinose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15713782'
+buffer:
+  buffer: 25 mM Maleic acid, 20 mM MgSO4, 1 mM CoCl2
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 34543
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15713782/
+  pubmed_id: '15713782'
+  doi: null
+name: Merged entry for P12851 F26W
+description: 'Merged from 2 files: SABIO_EC5.3.1.5_Actinoplanes_missouriensis__P12851_F26W_s_D-Glucose.yaml,
+  SABIO_EC5.3.1.5_Actinoplanes_missouriensis__P12851_F26W_s_L-Arabinose.yaml'

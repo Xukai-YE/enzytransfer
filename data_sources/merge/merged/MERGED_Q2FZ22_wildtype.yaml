@@ -1,0 +1,219 @@
+version: '2.0'
+created: '2025-11-20T13:40:43.760726'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_4_22_Q2FZ22_p40417
+  name: UMP/CMP kinase
+  ecnumber: 2.7.4.22
+  organism: Staphylococcus aureus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q2FZ22
+  wildtype_sequence: MAQISKYKRVVLKLSGEALAGEKGFGINPVIIKSVAEQVAEVAKMDCEIAVIVGGGNIWRGKTGSDLGMDRGTADYMGMLATVMNALALQDSLEQLDCDTRVLTSIEMKQVAEPYIRRRAIRHLEKKRVVIFAAGIGNPYFSTDTTAALRAAEVEADVILMGKNNVDGVYSADPKVNKDAVKYEHLTHIQMLQEGLQVMDSTASSFCMDNNIPLTVFSIMEEGNIKRAVMGEKIGTLITK
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_UMP
+  name: UMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_UDP
+  name: UDP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_GTP
+  name: GTP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_201_EC2_7_4_22_Staphylococcus_aureus_Q2FZ22_ATP
+  name: Reaction catalyzed by UMP/CMP kinase on ATP
+  equation: ATP + UMP = UDP + ADP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_UMP
+  products:
+  - species_id: product_UDP
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_4_22_Q2FZ22_p40417
+    role: BIOCATALYST
+  - species_id: activator_GTP
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 24400;24401;24402;24403
+  KEGGid: R00158
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:13508; CHEBI:16761; CHEBI:10789;
+    CHEBI:57299; CHEBI:57600; CHEBI:40553; CHEBI:46402; CHEBI:16695; CHEBI:27231;
+    CHEBI:46381; CHEBI:13445; CHEBI:13236; CHEBI:5234; CHEBI:46362; CHEBI:10841; CHEBI:2359;
+    CHEBI:87518; CHEBI:57865; CHEBI:40938; CHEBI:47721; CHEBI:58223; CHEBI:27230;
+    CHEBI:456216; CHEBI:22249; CHEBI:2342; CHEBI:17659; CHEBI:15422; CHEBI:15996;
+    CHEBI:24451; CHEBI:37565; CHEBI:13509; CHEBI:46382; CHEBI:9849; CHEBI:42934; CHEBI:13222;
+    CHEBI:22244; CHEBI:9802; CHEBI:13342
+
+    KEGG IDs: KEGG:C00105; KEGG:C00044; KEGG:C00002; KEGG:C00015; KEGG:C00008'
+- id: sabiork_201_EC2_7_4_22_Staphylococcus_aureus_Q2FZ22_UMP
+  name: Reaction catalyzed by UMP/CMP kinase on UMP
+  equation: ATP + UMP = UDP + ADP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_UMP
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_ADP
+  - species_id: product_UDP
+  modifiers:
+  - species_id: protein_2_7_4_22_Q2FZ22_p40416
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 24400;24401;24402;24403
+  KEGGid: R00158
+  notes: 'ChEBI IDs: CHEBI:13508; CHEBI:30616; CHEBI:237958; CHEBI:16761; CHEBI:10789;
+    CHEBI:57299; CHEBI:40553; CHEBI:46402; CHEBI:16695; CHEBI:27231; CHEBI:46381;
+    CHEBI:13445; CHEBI:13236; CHEBI:46362; CHEBI:10841; CHEBI:2359; CHEBI:87518; CHEBI:57865;
+    CHEBI:40938; CHEBI:47721; CHEBI:58223; CHEBI:27230; CHEBI:456216; CHEBI:22249;
+    CHEBI:2342; CHEBI:17659; CHEBI:15422; CHEBI:13509; CHEBI:46382; CHEBI:9849; CHEBI:13222;
+    CHEBI:22244; CHEBI:9802
+
+    KEGG IDs: KEGG:C00015; KEGG:C00002; KEGG:C00008; KEGG:C00105'
+measurements:
+- id: measurement_2_7_4_22_Staphylococcus_aureus_Q2FZ22_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_2_7_4_22_Staphylococcus_aureus_Q2FZ22_UMP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_4_22_Staphylococcus_aureus_Q2FZ22_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000636667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17210578'
+- id: 2_7_4_22_Staphylococcus_aureus_Q2FZ22_UMP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000643333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UMP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17210578'
+buffer:
+  buffer: 50 m Tris-HCl, 50 mM KCl, 1 mM phosphoenolpyruvate, 0.2 mM NADH, 4 U/ml
+    lactate dehydrogenase, 4 U/ml pyruvate kinase, 4 U/ml NDP kinase, MgCl2
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 40417
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/17210578/
+  pubmed_id: '17210578'
+  doi: null
+name: Merged entry for Q2FZ22 wildtype
+description: 'Merged from 2 files: SABIO_EC2.7.4.22_Staphylococcus_aureus__Q2FZ22_s_ATP.yaml,
+  SABIO_EC2.7.4.22_Staphylococcus_aureus__Q2FZ22_s_UMP.yaml'

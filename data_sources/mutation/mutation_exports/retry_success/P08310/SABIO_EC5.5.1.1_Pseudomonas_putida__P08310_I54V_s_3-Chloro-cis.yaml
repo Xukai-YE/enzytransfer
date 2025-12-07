@@ -1,0 +1,201 @@
+name: SABIO-RK Entry 23295
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 23295
+created: '2025-10-28T14:21:57.596942'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_5_5_1_1_P08310_p23295
+  name: muconate cycloisomerase
+  ecnumber: 5.5.1.1
+  organism: Pseudomonas putida
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: I54V
+  uniprotid: P08310
+  wildtype_sequence: MTSVLIERIEAIIVHDLPTIRPPHKLAMHTMQTQTLVLIRVRCSDGVEGIGEATTIGGLAYGYESPEGIKANIDAHLAPALVGLPADNINAAMLKLDKLAKGNTFAKSGIESALLDAQGKRLGLPVSELLGGRVRDSLEVAWTLASGDTARDIAEAQHMLEIRRHRVFKLKIGANPLAQDLKHVVAIKRELGDSASVRVDVNQYWDESQAIRACQVLGDNGIDLIEQPISRINRSGQVRLNQRSPAPIMADESIESVEDAFSLAADGAASIFALKIAKNGGPRAVLRTAQIAEAAGIALYGGTMLEGSIGTLASAHAFLTLRQLTWGTELFGPLLLTEEIVNEPPQYRDFQLHIPRTPGLGLTLDEQRLARFARR
+  mutant_sequence: MTSVLIERIEAIIVHDLPTIRPPHKLAMHTMQTQTLVLIRVRCSDGVEGVGEATTIGGLAYGYESPEGIKANIDAHLAPALVGLPADNINAAMLKLDKLAKGNTFAKSGIESALLDAQGKRLGLPVSELLGGRVRDSLEVAWTLASGDTARDIAEAQHMLEIRRHRVFKLKIGANPLAQDLKHVVAIKRELGDSASVRVDVNQYWDESQAIRACQVLGDNGIDLIEQPISRINRSGQVRLNQRSPAPIMADESIESVEDAFSLAADGAASIFALKIAKNGGPRAVLRTAQIAEAAGIALYGGTMLEGSIGTLASAHAFLTLRQLTWGTELFGPLLLTEEIVNEPPQYRDFQLHIPRTPGLGLTLDEQRLARFARR
+  position_offset: -4
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_3-Chloro-cis
+  name: 3-Chloro-cis
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_cis-muconate
+  name: cis-muconate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Protoanemonin
+  name: Protoanemonin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_HCl
+  name: HCl
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_4996_EC5_5_1_1_Pseudomonas_putida_P08310_3-Chloro-cis
+  name: Reaction catalyzed by muconate cycloisomerase on 3-Chloro-cis
+  equation: 3-Chloro-cis,cis-muconate = CO2 + Protoanemonin + HCl
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3-Chloro-cis
+  - species_id: substrate_cis-muconate
+  products:
+  - species_id: product_Protoanemonin
+  - species_id: product_HCl
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_5_5_1_1_P08310_p23295
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R05390
+  notes: 'ChEBI IDs: CHEBI:20447; CHEBI:3616; CHEBI:17996; CHEBI:1472; CHEBI:5590;
+    CHEBI:139538; CHEBI:19980; CHEBI:3731; CHEBI:28906; CHEBI:3283; CHEBI:8585; CHEBI:13364;
+    CHEBI:17883; CHEBI:17589; CHEBI:23011; CHEBI:13291; CHEBI:13285; CHEBI:13282;
+    CHEBI:13970; CHEBI:11768; CHEBI:13283; CHEBI:24635; CHEBI:13284; CHEBI:48804;
+    CHEBI:16526; CHEBI:48829
+
+    KEGG IDs: KEGG:C07090; KEGG:C03585; KEGG:C00698; KEGG:C01327; KEGG:C00011'
+measurements:
+- id: measurement_5_5_1_1_Pseudomonas_putida_P08310_3-Chloro-cis
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 5_5_1_1_Pseudomonas_putida_P08310_3-Chloro-cis_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Chloro-cis
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9726873'
+- id: 5_5_1_1_Pseudomonas_putida_P08310_3-Chloro-cis_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 73333.33
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Chloro-cis
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9726873'
+- id: 5_5_1_1_Pseudomonas_putida_P08310_3-Chloro-cis_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 3.333333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Chloro-cis
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9726873'
+buffer:
+  buffer: 30 mM Tris-HCl, 1 mM MnSO4, Dienelactone hydrolase (partially purified from
+    R.eutropha JMP134) in excess
+  buffer_concentration: 30 mM
+references:
+- title: Reference for SABIO-RK entry 23295
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9726873/
+  pubmed_id: '9726873'
+  doi: null

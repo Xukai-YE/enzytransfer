@@ -1,0 +1,155 @@
+name: SABIO-RK Entry 12478
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 12478
+created: '2025-10-28T14:00:56.765303'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_1_P27881_P27926_p12478
+  name: hexokinase
+  sequence: null
+  ecnumber: 2.7.1.1
+  organism: Rattus norvegicus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P27881; P27926
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_2-Deoxyglucose
+  name: 2-Deoxyglucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Deoxyglucose_6-phosphate
+  name: 2-Deoxyglucose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_6883_EC2_7_1_1_Rattus_norvegicus_P27881_P27926_ATP
+  name: Reaction catalyzed by hexokinase on ATP
+  equation: ATP + 2-Deoxyglucose = ADP + 2-Deoxyglucose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_2-Deoxyglucose
+  products:
+  - species_id: product_ADP
+  - species_id: product_2-Deoxyglucose_6-phosphate
+  modifiers:
+  - species_id: protein_2_7_1_1_P27881_P27926_p12478
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:40553; CHEBI:19554; CHEBI:11570; CHEBI:57615; CHEBI:13236; CHEBI:125684;
+    CHEBI:15866; CHEBI:10841; CHEBI:2359; CHEBI:11569; CHEBI:87518; CHEBI:40938; CHEBI:11565;
+    CHEBI:456216; CHEBI:22249; CHEBI:19553; CHEBI:2342; CHEBI:1078; CHEBI:15422; CHEBI:16043;
+    CHEBI:57546; CHEBI:1079; CHEBI:90760; CHEBI:84755; CHEBI:13222; CHEBI:22244
+
+    KEGG IDs: KEGG:C00002; KEGG:C00008; KEGG:C00586'
+measurements:
+- id: measurement_2_7_1_1_Rattus_norvegicus_P27881_P27926_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 2_7_1_1_Rattus_norvegicus_P27881_P27926_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '13758791'
+buffer:
+  buffer: 0.02 M MgCl2, 0.002 M EDTA, 0.02 M potassium fluoride
+  buffer_concentration: 0.02 M
+references:
+- title: Reference for SABIO-RK entry 12478
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/13758791/
+  pubmed_id: '13758791'
+  doi: null

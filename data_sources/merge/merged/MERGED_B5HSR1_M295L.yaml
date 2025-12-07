@@ -1,0 +1,298 @@
+version: '2.0'
+created: '2025-11-20T13:39:29.210523'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_10_3_2_B5HSR1_p69922
+  name: laccase
+  ecnumber: 1.10.3.2
+  organism: Streptomyces sviceus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: M295L
+  uniprotid: B5HSR1
+  wildtype_sequence: MGALDRRGFNRRVLLGGAAVATSLSLAPEARSDAGPAQAAPGGEVRRIKLYAERLADGQMGYGLEKGRATIPGPLIELNEGDTLHIEFENTMDVRASLHVHGLDYEVSSDGTTLNKSDVEPGGTRTYTWRTHAPGRRSDGTWRAGSAGYWHYHDHVVGTEHGTGGIRKGLYGPVIVRRKGDVLPDATHTIVFNDMLINNRPAHSGPNFEATVGDRVEFVMITHGEYYHTFHMHGHRWADNRTGMLTGPDDPSQVVDNKIVGPADSFGFQVIAGEGVGAGAWMYHCHVQSHSDMGMVGLFLVKKTDGTIPGYEPHEHSGQRAEHHH
+  mutant_sequence: MGALDRRGFNRRVLLGGAAVATSLSLAPEARSDAGPAQAAPGGEVRRIKLYAERLADGQMGYGLEKGRATIPGPLIELNEGDTLHIEFENTMDVRASLHVHGLDYEVSSDGTTLNKSDVEPGGTRTYTWRTHAPGRRSDGTWRAGSAGYWHYHDHVVGTEHGTGGIRKGLYGPVIVRRKGDVLPDATHTIVFNDMLINNRPAHSGPNFEATVGDRVEFVMITHGEYYHTFHMHGHRWADNRTGMLTGPDDPSQVVDNKIVGPADSFGFQVIAGEGVGAGAWMYHCHVQSHSDMGLVGLFLVKKTDGTIPGYEPHEHSGQRAEHHH
+complexes: null
+small_molecules:
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Syringaldazine
+  name: Syringaldazine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Oxidized_syringaldazine
+  name: Oxidized syringaldazine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Cu2_
+  name: Cu2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_2
+  name: '2'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_6-Dimethoxyphenol
+  name: 6-Dimethoxyphenol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Oxidized_donor
+  name: Oxidized donor
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_12788_EC1_10_3_2_Streptomyces_sviceus_B5HSR1_O2
+  name: Reaction catalyzed by laccase on O2
+  equation: O2 + Syringaldazine = Oxidized syringaldazine + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_Syringaldazine
+  products:
+  - species_id: product_Oxidized_syringaldazine
+  modifiers:
+  - species_id: protein_1_10_3_2_B5HSR1_p69922
+    role: BIOCATALYST
+  - species_id: activator_Cu2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:49550;
+    CHEBI:26689; CHEBI:42857; CHEBI:41979; CHEBI:23833; CHEBI:13416; CHEBI:42043;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:15379;
+    CHEBI:43228; CHEBI:44292; CHEBI:30491; CHEBI:33806; CHEBI:20882; CHEBI:25366;
+    CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:29793; CHEBI:7860; CHEBI:29036;
+    CHEBI:10745; CHEBI:29373; CHEBI:44701; CHEBI:23380
+
+    KEGG IDs: KEGG:C00070; KEGG:C00001; KEGG:C00007; KEGG:C00704'
+- id: sabiork_12789_EC1_10_3_2_Streptomyces_sviceus_B5HSR1_2
+  name: Reaction catalyzed by laccase on 2
+  equation: O2 + 2,6-Dimethoxyphenol = Oxidized donor + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2
+  - species_id: substrate_6-Dimethoxyphenol
+  - species_id: substrate_O2
+  products:
+  - species_id: product_Oxidized_donor
+  modifiers:
+  - species_id: protein_1_10_3_2_B5HSR1_p69412
+    role: BIOCATALYST
+  - species_id: activator_Cu2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:49550;
+    CHEBI:26689; CHEBI:42857; CHEBI:41979; CHEBI:23833; CHEBI:13416; CHEBI:42043;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:15379;
+    CHEBI:955; CHEBI:43228; CHEBI:44292; CHEBI:30491; CHEBI:33806; CHEBI:20882; CHEBI:25366;
+    CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:29793; CHEBI:7860; CHEBI:17654;
+    CHEBI:29036; CHEBI:10745; CHEBI:29373; CHEBI:44701; CHEBI:23380
+
+    KEGG IDs: KEGG:C10787; KEGG:C00070; KEGG:C00001; KEGG:C00704; KEGG:C00007; KEGG:C00028'
+measurements:
+- id: measurement_1_10_3_2_Streptomyces_sviceus_B5HSR1_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_10_3_2_Streptomyces_sviceus_B5HSR1_2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 22.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_10_3_2_Streptomyces_sviceus_B5HSR1_O2_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 8016.667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '31536948'
+- id: 1_10_3_2_Streptomyces_sviceus_B5HSR1_O2_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1
+  initial_value: 1.173333e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '31536948'
+- id: 1_10_3_2_Streptomyces_sviceus_B5HSR1_O2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.2166667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '31536948'
+- id: 1_10_3_2_Streptomyces_sviceus_B5HSR1_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.7e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '31536948'
+- id: 1_10_3_2_Streptomyces_sviceus_B5HSR1_2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00071
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '24548692'
+- id: 1_10_3_2_Streptomyces_sviceus_B5HSR1_2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.02333333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '24548692'
+buffer:
+  buffer: 50 mM glycine/sodium hydroxide; 50 mM potassium phosphate, 10% (v/v) DMSO
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 69922
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/31536948/
+  pubmed_id: '31536948'
+  doi: null
+- title: Reference for SABIO-RK entry 69412
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/24548692/
+  pubmed_id: '24548692'
+  doi: null
+name: Merged entry for B5HSR1 M295L
+description: 'Merged from 2 files: SABIO_EC1.10.3.2_Streptomyces_sviceus__B5HSR1_M295L_s_O2.yaml,
+  SABIO_EC1.10.3.2_Streptomyces_sviceus__B5HSR1_M295L_s_2.yaml'

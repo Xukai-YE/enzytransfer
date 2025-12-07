@@ -1,0 +1,204 @@
+name: SABIO-RK Entry 40265
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 40265
+created: '2025-10-28T15:16:29.315940'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_1_1_83_Q84F16_Q84F15_p40265
+  name: 4-hydroxyphenylacetate decarboxylase
+  sequence: null
+  ecnumber: 4.1.1.83
+  organism: Clostridium difficile
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q84F16; Q84F15
+complexes: null
+small_molecules:
+- id: substrate_3
+  name: '3'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_4-Dihydroxyphenylacetate
+  name: 4-Dihydroxyphenylacetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4-Methylcatechol
+  name: 4-Methylcatechol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_12325_EC4_1_1_83_Clostridium_difficile_Q84F16_Q84F15_3
+  name: Reaction catalyzed by 4-hydroxyphenylacetate decarboxylase on 3
+  equation: 3,4-Dihydroxyphenylacetate + H+ = 4-Methylcatechol + CO2
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3
+  - species_id: substrate_4-Dihydroxyphenylacetate
+  products:
+  - species_id: product_4-Methylcatechol
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_4_1_1_83_Q84F16_Q84F15_p40265
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 62556;62557;62558;62559
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:17612; CHEBI:1897; CHEBI:41936; CHEBI:17254; CHEBI:139538;
+    CHEBI:43962; CHEBI:29234; CHEBI:3283; CHEBI:13357; CHEBI:19889; CHEBI:12025; CHEBI:24636;
+    CHEBI:29233; CHEBI:5584; CHEBI:23011; CHEBI:11697; CHEBI:13285; CHEBI:13282; CHEBI:13283;
+    CHEBI:41941; CHEBI:11696; CHEBI:15378; CHEBI:13284; CHEBI:16526; CHEBI:48829;
+    CHEBI:1386; CHEBI:10744; CHEBI:20442
+
+    KEGG IDs: KEGG:C00011; KEGG:C06730; KEGG:C01161; KEGG:C00080'
+measurements:
+- id: measurement_4_1_1_83_Clostridium_difficile_Q84F16_Q84F15_3
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 4_1_1_83_Clostridium_difficile_Q84F16_Q84F15_3_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00041
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16878993'
+- id: 4_1_1_83_Clostridium_difficile_Q84F16_Q84F15_3_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 159000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16878993'
+- id: 4_1_1_83_Clostridium_difficile_Q84F16_Q84F15_3_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.000147003
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16878993'
+- id: 4_1_1_83_Clostridium_difficile_Q84F16_Q84F15_3_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 65.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16878993'
+buffer:
+  buffer: 100 mM Tris-HCl, 40 mM NaCl, 5 mM MgCl2, 5 mM (NH4)2SO4, 5 mM Cysteine,
+    5 mM Dithiothreitol
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 40265
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16878993/
+  pubmed_id: '16878993'
+  doi: null

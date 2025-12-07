@@ -1,0 +1,185 @@
+name: SABIO-RK Entry 77977
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 77977
+created: '2025-10-28T17:58:07.629895'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_4_1__O82381_O82382_p77977
+  name: Hexosyltransferases
+  sequence: null
+  ecnumber: 2.4.1.
+  organism: Arabidopsis thaliana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: T71C
+  uniprotid: O82381; O82382
+complexes: null
+small_molecules:
+- id: substrate_4-Hydroxy-3-methoxy-benzaldehyde
+  name: 4-Hydroxy-3-methoxy-benzaldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_UDP-D-glucose
+  name: UDP-D-glucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_UDP
+  name: UDP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Vanillin_beta-D-glucoside
+  name: Vanillin beta-D-glucoside
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_16894_EC2_4_1__Arabidopsis_thaliana_O82381_O82382_4-Hydroxy-3-methoxy-benzaldehyde
+  name: Reaction catalyzed by Hexosyltransferases on 4-Hydroxy-3-methoxy-benzaldehyde
+  equation: UDP-D-glucose + 4-Hydroxy-3-methoxy-benzaldehyde = UDP + Vanillin beta-D-glucoside
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_4-Hydroxy-3-methoxy-benzaldehyde
+  - species_id: substrate_UDP-D-glucose
+  products:
+  - species_id: product_UDP
+  - species_id: product_Vanillin_beta-D-glucoside
+  modifiers:
+  - species_id: protein_2_4_1__O82381_O82382_p77977
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:1842; CHEBI:48387; CHEBI:27230; CHEBI:58223; CHEBI:13445;
+    CHEBI:18346; CHEBI:46402; CHEBI:15302; CHEBI:18066; CHEBI:20380; CHEBI:17659;
+    CHEBI:9802
+
+    KEGG IDs: KEGG:C00015; KEGG:C00755; KEGG:C00029'
+measurements:
+- id: measurement_2_4_1__Arabidopsis_thaliana_O82381_O82382_4-Hydroxy-3-methoxy-benzaldehyde
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 2_4_1__Arabidopsis_thaliana_O82381_O82382_4-Hydroxy-3-methoxy-benzaldehyde_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.866667e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_4-Hydroxy-3-methoxy-benzaldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19261311'
+- id: 2_4_1__Arabidopsis_thaliana_O82381_O82382_4-Hydroxy-3-methoxy-benzaldehyde_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.09833333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_4-Hydroxy-3-methoxy-benzaldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19261311'
+- id: 2_4_1__Arabidopsis_thaliana_O82381_O82382_4-Hydroxy-3-methoxy-benzaldehyde_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00063
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_4-Hydroxy-3-methoxy-benzaldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19261311'
+buffer:
+  buffer: 100 mM Tris-HCl, 1 mM MgCl2, 0.1 U/¦Ìl calf intestine phosphatase
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 77977
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/19261311/
+  pubmed_id: '19261311'
+  doi: null

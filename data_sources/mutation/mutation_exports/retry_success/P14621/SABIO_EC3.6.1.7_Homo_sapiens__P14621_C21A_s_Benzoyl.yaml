@@ -1,0 +1,150 @@
+name: SABIO-RK Entry 47842
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 47842
+created: '2025-10-28T15:42:36.272000'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_6_1_7_P14621_p47842
+  name: acylphosphatase
+  ecnumber: 3.6.1.7
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: C21A
+  uniprotid: P14621
+  wildtype_sequence: MSTAQSLKSVDYEVFGRVQGVCFRMYTEDEARKIGVVGWVKNTSKGTVTGQVQGPEDKVNSMKSWLSKVGSPSSRIDRTNFSNEKTISKLEYSNFSIRY
+  mutant_sequence: MSTAQSLKSVDYEVFGRVQGVAFRMYTEDEARKIGVVGWVKNTSKGTVTGQVQGPEDKVNSMKSWLSKVGSPSSRIDRTNFSNEKTISKLEYSNFSIRY
+  position_offset: 1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Benzoyl_phosphate
+  name: Benzoyl phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Benzoate
+  name: Benzoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Phosphate
+  name: Phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1608_EC3_6_1_7_Homo_sapiens_P14621_Benzoyl_phosphate
+  name: Reaction catalyzed by acylphosphatase on Benzoyl phosphate
+  equation: H2O + Benzoyl phosphate = Phosphate + Benzoate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Benzoyl_phosphate
+  products:
+  - species_id: product_Benzoate
+  - species_id: product_Phosphate
+  modifiers:
+  - species_id: protein_3_6_1_7_P14621_p47842
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01421
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:29375; CHEBI:43470; CHEBI:44819; CHEBI:18367;
+    CHEBI:41981; CHEBI:35780; CHEBI:26020; CHEBI:26078; CHEBI:30746; CHEBI:3038; CHEBI:42857;
+    CHEBI:41979; CHEBI:29139; CHEBI:39739; CHEBI:42043; CHEBI:41051; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:16150; CHEBI:15377; CHEBI:39745; CHEBI:13352;
+    CHEBI:22722; CHEBI:7793; CHEBI:43228; CHEBI:44292; CHEBI:45024; CHEBI:33806; CHEBI:10743;
+    CHEBI:29374; CHEBI:5585; CHEBI:13879; CHEBI:43474; CHEBI:22717; CHEBI:29137; CHEBI:3029;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00539; KEGG:C00180; KEGG:C00001; KEGG:C00009; KEGG:C06206'
+measurements:
+- id: measurement_3_6_1_7_Homo_sapiens_P14621_Benzoyl_phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 5.3
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 3_6_1_7_Homo_sapiens_P14621_Benzoyl_phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0004
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Benzoyl_phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.3
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8838587'
+buffer:
+  buffer: 0.1 M Acetate
+  buffer_concentration: 0.1 M
+references:
+- title: Reference for SABIO-RK entry 47842
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/8838587/
+  pubmed_id: '8838587'
+  doi: null

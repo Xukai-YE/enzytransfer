@@ -1,0 +1,193 @@
+name: SABIO-RK Entry 40266
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 40266
+created: '2025-10-28T15:16:29.465941'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_1_1_83_Q38HX4_Q38HX3_p40266
+  name: 4-hydroxyphenylacetate decarboxylase
+  sequence: null
+  ecnumber: 4.1.1.83
+  organism: Clostridium scatologenes
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q38HX4; Q38HX3
+complexes: null
+small_molecules:
+- id: substrate_4-Hydroxyphenylacetate
+  name: 4-Hydroxyphenylacetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4-Cresol
+  name: 4-Cresol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_8613_EC4_1_1_83_Clostridium_scatologenes_Q38HX4_Q38HX3_4-Hydroxyphenylacetate
+  name: Reaction catalyzed by 4-hydroxyphenylacetate decarboxylase on 4-Hydroxyphenylacetate
+  equation: 4-Hydroxyphenylacetate + H+ = 4-Cresol + CO2
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_4-Hydroxyphenylacetate
+  products:
+  - species_id: product_CO2
+  - species_id: product_4-Cresol
+  modifiers:
+  - species_id: protein_4_1_1_83_Q38HX4_Q38HX3_p40266
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R07312
+  notes: 'ChEBI IDs: CHEBI:17847; CHEBI:1816; CHEBI:139538; CHEBI:44726; CHEBI:29234;
+    CHEBI:3283; CHEBI:13357; CHEBI:18101; CHEBI:24636; CHEBI:29233; CHEBI:5584; CHEBI:23011;
+    CHEBI:31128; CHEBI:13285; CHEBI:13282; CHEBI:20352; CHEBI:13283; CHEBI:15378;
+    CHEBI:13284; CHEBI:16526; CHEBI:48829; CHEBI:11981; CHEBI:10744
+
+    KEGG IDs: KEGG:C13636; KEGG:C00080; KEGG:C00011; KEGG:C01468; KEGG:C00642'
+measurements:
+- id: measurement_4_1_1_83_Clostridium_scatologenes_Q38HX4_Q38HX3_4-Hydroxyphenylacetate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 4_1_1_83_Clostridium_scatologenes_Q38HX4_Q38HX3_4-Hydroxyphenylacetate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.000307506
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_4-Hydroxyphenylacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16878993'
+- id: 4_1_1_83_Clostridium_scatologenes_Q38HX4_Q38HX3_4-Hydroxyphenylacetate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000358
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_4-Hydroxyphenylacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16878993'
+- id: 4_1_1_83_Clostridium_scatologenes_Q38HX4_Q38HX3_4-Hydroxyphenylacetate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 377000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_4-Hydroxyphenylacetate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16878993'
+- id: 4_1_1_83_Clostridium_scatologenes_Q38HX4_Q38HX3_4-Hydroxyphenylacetate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 135.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_4-Hydroxyphenylacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16878993'
+buffer:
+  buffer: 100 mM Tris-HCl, 40 mM NaCl, 5 mM MgCl2, 5 mM (NH4)2SO4, 5 mM Cysteine,
+    5 mM Dithiothreitol
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 40266
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16878993/
+  pubmed_id: '16878993'
+  doi: null

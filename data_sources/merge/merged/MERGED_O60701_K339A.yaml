@@ -1,0 +1,311 @@
+version: '2.0'
+created: '2025-11-20T13:39:17.906141'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+- given_name: SKiD
+  family_name: Database
+  mail: skid@database.org
+vessels: null
+proteins:
+- id: protein_1_1_1_22_O60701_p26898
+  name: UDP-glucose 6-dehydrogenase
+  ecnumber: 1.1.1.22
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: K339A
+  uniprotid: O60701
+  wildtype_sequence: MFEIKKICCIGAGYVGGPTCSVIAHMCPEIRVTVVDVNESRINAWNSPTLPIYEPGLKEVVESCRGKNLFFSTNIDDAIKEADLVFISVNTPTKTYGMGKGRAADLKYIEACARRIVQNSNGYKIVTEKSTVPVRAAESIRRIFDANTKPNLNLQVLSNPEFLAEGTAIKDLKNPDRVLIGGDETPEGQRAVQALCAVYEHWVPREKILTTNTWSSELSKLAANAFLAQRISSINSISALCEATGADVEEVATAIGMDQRIGNKFLKASVGFGGSCFQKDVLNLVYLCEALNLPEVARYWQQVIDMNDYQRRRFASRIIDSLFNTVTDKKIAILGFAFKKDTGDTRESSSIYISKYLMDEGAHLHIYDPKVPREQIVVDLSHPGVSEDDQVSRLVTISKDPYEACDGAHAVVICTEWDMFKELDYERIHKKMLKPAFIFDGRRVLDGLHNELQTIGFQIETIGKKVSSKRIPYAPSGEIPKFSLQDPPNKKPKV
+  mutant_sequence: MFEIKKICCIGAGYVGGPTCSVIAHMCPEIRVTVVDVNESRINAWNSPTLPIYEPGLKEVVESCRGKNLFFSTNIDDAIKEADLVFISVNTPTKTYGMGKGRAADLKYIEACARRIVQNSNGYKIVTEKSTVPVRAAESIRRIFDANTKPNLNLQVLSNPEFLAEGTAIKDLKNPDRVLIGGDETPEGQRAVQALCAVYEHWVPREKILTTNTWSSELSKLAANAFLAQRISSINSISALCEATGADVEEVATAIGMDQRIGNKFLKASVGFGGSCFQKDVLNLVYLCEALNLPEVARYWQQVIDMNDYQRRRFASRIIDSLFNTVTDKKIAILGFAFAKDTGDTRESSSIYISKYLMDEGAHLHIYDPKVPREQIVVDLSHPGVSEDDQVSRLVTISKDPYEACDGAHAVVICTEWDMFKELDYERIHKKMLKPAFIFDGRRVLDGLHNELQTIGFQIETIGKKVSSKRIPYAPSGEIPKFSLQDPPNKKPKV
+complexes: null
+small_molecules:
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_UDPglucose
+  name: UDPglucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_UDPglucuronate
+  name: UDPglucuronate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_784_EC1_1_1_22_Homo_sapiens_O60701_NAD_
+  name: Reaction catalyzed by UDP-glucose 6-dehydrogenase on NAD+
+  equation: UDPglucose + NAD+ + H2O = H+ + NADH + UDPglucuronate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_UDPglucose
+  products:
+  - species_id: product_NADH
+  - species_id: product_UDPglucuronate
+  modifiers:
+  - species_id: protein_1_1_1_22_O60701_p26898
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 23596;23597;23598;23599
+  KEGGid: R00286
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:13506; CHEBI:44281;
+    CHEBI:22104; CHEBI:42857; CHEBI:46309; CHEBI:13393; CHEBI:41979; CHEBI:29234;
+    CHEBI:13489; CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:17200; CHEBI:13396;
+    CHEBI:21901; CHEBI:18066; CHEBI:9846; CHEBI:42043; CHEBI:24636; CHEBI:58052; CHEBI:44214;
+    CHEBI:29233; CHEBI:33811; CHEBI:13394; CHEBI:33813; CHEBI:27313; CHEBI:5584; CHEBI:15377;
+    CHEBI:13352; CHEBI:57945; CHEBI:44216; CHEBI:57540; CHEBI:43228; CHEBI:7423; CHEBI:44292;
+    CHEBI:13389; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:15378; CHEBI:13395;
+    CHEBI:44215; CHEBI:10744; CHEBI:29373; CHEBI:44701; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00167; KEGG:C00080; KEGG:C00001; KEGG:C00003; KEGG:C00029; KEGG:C00004'
+- id: sabiork_784_EC1_1_1_22_Homo_sapiens_O60701_UDPglucose
+  name: Reaction catalyzed by UDP-glucose 6-dehydrogenase on UDPglucose
+  equation: UDPglucose + NAD+ + H2O = H+ + NADH + UDPglucuronate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_UDPglucose
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_NADH
+  - species_id: product_UDPglucuronate
+  modifiers:
+  - species_id: protein_1_1_1_22_O60701_p26899
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 23596;23597;23598;23599
+  KEGGid: R00286
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:13506; CHEBI:44281;
+    CHEBI:22104; CHEBI:42857; CHEBI:46309; CHEBI:13393; CHEBI:41979; CHEBI:29234;
+    CHEBI:13489; CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:17200; CHEBI:13396;
+    CHEBI:21901; CHEBI:18066; CHEBI:9846; CHEBI:42043; CHEBI:24636; CHEBI:58052; CHEBI:44214;
+    CHEBI:29233; CHEBI:33811; CHEBI:13394; CHEBI:33813; CHEBI:27313; CHEBI:5584; CHEBI:15377;
+    CHEBI:13352; CHEBI:57945; CHEBI:44216; CHEBI:57540; CHEBI:43228; CHEBI:7423; CHEBI:44292;
+    CHEBI:13389; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:15378; CHEBI:13395;
+    CHEBI:44215; CHEBI:10744; CHEBI:29373; CHEBI:44701; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00167; KEGG:C00080; KEGG:C00001; KEGG:C00003; KEGG:C00029; KEGG:C00004'
+- id: reaction_O60701_NAD_
+  name: Reaction catalyzed by enzyme on NAD+
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_O60701
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+measurements:
+- id: measurement_1_1_1_22_Homo_sapiens_O60701_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_1_1_1_22_Homo_sapiens_O60701_UDPglucose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=7.4, T=22.0°C)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 22.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1_22_Homo_sapiens_O60701_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0015
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17209547'
+- id: 1_1_1_22_Homo_sapiens_O60701_NAD__Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.4e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17209547'
+- id: 1_1_1_22_Homo_sapiens_O60701_UDPglucose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0021
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDPglucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17209547'
+- id: 1_1_1_22_Homo_sapiens_O60701_UDPglucose_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.56667e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDPglucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17209547'
+- id: O60701_NAD__K339A_Km_18382
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.53
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 22.0
+  temperature_unit: °C
+  notes: 'Mutation: K339A; Source: Km'
+  pubmed_id: '17209547'
+buffer:
+  buffer: 0.1 M sodium phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 26898
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/17209547/
+  pubmed_id: '17209547'
+  doi: null
+- title: C.
+  authors: Rocha, J., Popescu, A.O., Borges, P., Mil-Homens, D., Moreira, L.M., Sa-Correia,
+    I., Fialho, A.M., Frazao
+  year: '2011'
+  journal: Structure of Burkholderia cepacia UDP-glucose dehydrogenase (UGD) BceC
+    and role of Tyr10 in final hydrolysis of UGD thioester intermediate. J
+  uri: null
+  pubmed_id: '21602353'
+  doi: null
+  id: '57'
+  pages: 3978-3987
+  volume: '193'
+  citation: 'Rocha, J.,Popescu, A.O.,Borges, P.,Mil-Homens, D.,Moreira, L.M.,Sa-Correia,
+    I.,Fialho, A.M.,Frazao, C., Structure of Burkholderia cepacia UDP-glucose dehydrogenase
+    (UGD) BceC and role of Tyr10 in final hydrolysis of UGD thioester intermediate.
+    J, Bacteriol., 2011, 3978-3987, 193, PMID: 21602353'
+name: Merged entry for O60701 K339A
+description: 'Merged from 3 files: SABIO_EC1.1.1.22_Homo_sapiens__O60701_K339A_s_NAD_.yaml,
+  SABIO_EC1.1.1.22_Homo_sapiens__O60701_K339A_s_UDPglucose.yaml, SKID_EC1.1.1.22_Homo_O60701_K339A_NAD_.yaml'

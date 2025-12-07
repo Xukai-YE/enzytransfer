@@ -1,0 +1,122 @@
+name: SABIO-RK Entry 13455
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 13455
+created: '2025-10-28T14:02:58.484834'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_2_1_11_P00924_P00925_p13455
+  name: phosphopyruvate hydratase
+  sequence: null
+  ecnumber: 4.2.1.11
+  organism: Saccharomyces cerevisiae
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P00924; P00925
+complexes: null
+small_molecules:
+- id: substrate_2-Phospho-D-glycerate
+  name: 2-Phospho-D-glycerate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Phosphoenolpyruvate
+  name: Phosphoenolpyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_2-Phospho_3-butynoate
+  name: 2-Phospho 3-butynoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_8_EC4_2_1_11_Saccharomyces_cerevisiae_P00924_P00925_2-Phospho-D-glycerate
+  name: Reaction catalyzed by phosphopyruvate hydratase on 2-Phospho-D-glycerate
+  equation: 2-Phospho-D-glycerate = H2O + Phosphoenolpyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2-Phospho-D-glycerate
+  products:
+  - species_id: product_Phosphoenolpyruvate
+  modifiers:
+  - species_id: protein_4_2_1_11_P00924_P00925_p13455
+    role: BIOCATALYST
+  - species_id: activator_2-Phospho_3-butynoate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 10164;10165;10166;10167
+  KEGGid: R00658
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:24344; CHEBI:44894;
+    CHEBI:58702; CHEBI:26055; CHEBI:42857; CHEBI:41979; CHEBI:18021; CHEBI:8147; CHEBI:17835;
+    CHEBI:21028; CHEBI:1267; CHEBI:11651; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:58289; CHEBI:13352; CHEBI:26054; CHEBI:39868; CHEBI:12986;
+    CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:44897;
+    CHEBI:14812; CHEBI:29373; CHEBI:44701; CHEBI:88350
+
+    KEGG IDs: KEGG:C00001; KEGG:C00631; KEGG:C00074'
+measurements:
+- id: measurement_4_2_1_11_Saccharomyces_cerevisiae_P00924_P00925_2-Phospho-D-glycerate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.8
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 0.1 M Tris, 5 mM Mg(OAc)2, 0.01 mM EDTA, 0.4 M KCl
+  buffer_concentration: 0.1 M
+references:
+- title: Reference for SABIO-RK entry 13455
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/7006686/
+  pubmed_id: '7006686'
+  doi: null

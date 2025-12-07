@@ -1,0 +1,644 @@
+version: '2.0'
+created: '2025-11-20T13:41:16.857638'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_5_1_88_Q9FUZ2_p50632
+  name: peptide deformylase
+  ecnumber: 3.5.1.88
+  organism: Arabidopsis thaliana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9FUZ2
+  wildtype_sequence: MAVCNCFLQAPPLSRILLPVLSRRATTLSAGYGRLKSTVTFCSTVNRTSPLTSSVRAEVKRVSRKDDKVASATDVQFETPLKIVEYPDPILRAKNKRIDIFDENLKNLVDAMFDVMYKTDGIGLSAPQVGLNVQLMVFNPAGEPGEGKEIVLVNPKIKKYSDKLVPFDEGCLSFPGIYAEVVRPQSVKIDARDITGERFSISLSRLPARIFQHEYDHLEGVLFFDRMTDQVLDSIREELEALEKKYEEKTGLPSPERVEARQKRKAGVGFGKR
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_N-Formyl-Met-Ala-Ser
+  name: N-Formyl-Met-Ala-Ser
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Met-Ala-Ser
+  name: Met-Ala-Ser
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Formate
+  name: Formate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_N-Formyl-Met-Leu-p-nitroanilide
+  name: N-Formyl-Met-Leu-p-nitroanilide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Met-Leu-p-nitroanilide
+  name: Met-Leu-p-nitroanilide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_N-Formyl-Met-Thr-Ala
+  name: N-Formyl-Met-Thr-Ala
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Met-Thr-Ala
+  name: Met-Thr-Ala
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_13546_EC3_5_1_88_Arabidopsis_thaliana_Q9FUZ2_N-Formyl-Met-Ala-Ser
+  name: Reaction catalyzed by peptide deformylase on N-Formyl-Met-Ala-Ser
+  equation: H2O + N-Formyl-Met-Ala-Ser = Formate + Met-Ala-Ser
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N-Formyl-Met-Ala-Ser
+  products:
+  - species_id: product_Met-Ala-Ser
+  - species_id: product_Formate
+  modifiers:
+  - species_id: protein_3_5_1_88_Q9FUZ2_p50632
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:15740;
+    CHEBI:41979; CHEBI:42043; CHEBI:24082; CHEBI:24081; CHEBI:33811; CHEBI:33813;
+    CHEBI:27313; CHEBI:15377; CHEBI:14276; CHEBI:13352; CHEBI:5145; CHEBI:42460; CHEBI:43228;
+    CHEBI:30751; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C00001; KEGG:C00058'
+- id: sabiork_12285_EC3_5_1_88_Arabidopsis_thaliana_Q9FUZ2_N-Formyl-Met-Leu-p-nitroanilide
+  name: Reaction catalyzed by peptide deformylase on N-Formyl-Met-Leu-p-nitroanilide
+  equation: N-Formyl-Met-Leu-p-nitroanilide + H2O = Met-Leu-p-nitroanilide + Formate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N-Formyl-Met-Leu-p-nitroanilide
+  products:
+  - species_id: product_Met-Leu-p-nitroanilide
+  - species_id: product_Formate
+  modifiers:
+  - species_id: protein_3_5_1_88_Q9FUZ2_p39853
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:15740;
+    CHEBI:41979; CHEBI:42043; CHEBI:24082; CHEBI:24081; CHEBI:33811; CHEBI:33813;
+    CHEBI:27313; CHEBI:15377; CHEBI:14276; CHEBI:13352; CHEBI:5145; CHEBI:42460; CHEBI:43228;
+    CHEBI:30751; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C00001; KEGG:C00058'
+- id: sabiork_12285_EC3_5_1_88_Arabidopsis_thaliana_Q9FUZ2_N-Formyl-Met-Leu-p-nitroanilide
+  name: Reaction catalyzed by peptide deformylase on N-Formyl-Met-Leu-p-nitroanilide
+  equation: N-Formyl-Met-Leu-p-nitroanilide + H2O = Met-Leu-p-nitroanilide + Formate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N-Formyl-Met-Leu-p-nitroanilide
+  products:
+  - species_id: product_Met-Leu-p-nitroanilide
+  - species_id: product_Formate
+  modifiers:
+  - species_id: protein_3_5_1_88_Q9FUZ2_p39852
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:15740;
+    CHEBI:41979; CHEBI:42043; CHEBI:24082; CHEBI:24081; CHEBI:33811; CHEBI:33813;
+    CHEBI:27313; CHEBI:15377; CHEBI:14276; CHEBI:13352; CHEBI:5145; CHEBI:42460; CHEBI:43228;
+    CHEBI:30751; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C00001; KEGG:C00058'
+- id: sabiork_12285_EC3_5_1_88_Arabidopsis_thaliana_Q9FUZ2_N-Formyl-Met-Leu-p-nitroanilide
+  name: Reaction catalyzed by peptide deformylase on N-Formyl-Met-Leu-p-nitroanilide
+  equation: N-Formyl-Met-Leu-p-nitroanilide + H2O = Met-Leu-p-nitroanilide + Formate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N-Formyl-Met-Leu-p-nitroanilide
+  products:
+  - species_id: product_Met-Leu-p-nitroanilide
+  - species_id: product_Formate
+  modifiers:
+  - species_id: protein_3_5_1_88_Q9FUZ2_p50631
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:15740;
+    CHEBI:41979; CHEBI:42043; CHEBI:24082; CHEBI:24081; CHEBI:33811; CHEBI:33813;
+    CHEBI:27313; CHEBI:15377; CHEBI:14276; CHEBI:13352; CHEBI:5145; CHEBI:42460; CHEBI:43228;
+    CHEBI:30751; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C00001; KEGG:C00058'
+- id: sabiork_12285_EC3_5_1_88_Arabidopsis_thaliana_Q9FUZ2_N-Formyl-Met-Leu-p-nitroanilide
+  name: Reaction catalyzed by peptide deformylase on N-Formyl-Met-Leu-p-nitroanilide
+  equation: N-Formyl-Met-Leu-p-nitroanilide + H2O = Met-Leu-p-nitroanilide + Formate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N-Formyl-Met-Leu-p-nitroanilide
+  products:
+  - species_id: product_Met-Leu-p-nitroanilide
+  - species_id: product_Formate
+  modifiers:
+  - species_id: protein_3_5_1_88_Q9FUZ2_p39854
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:15740;
+    CHEBI:41979; CHEBI:42043; CHEBI:24082; CHEBI:24081; CHEBI:33811; CHEBI:33813;
+    CHEBI:27313; CHEBI:15377; CHEBI:14276; CHEBI:13352; CHEBI:5145; CHEBI:42460; CHEBI:43228;
+    CHEBI:30751; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C00001; KEGG:C00058'
+- id: sabiork_12286_EC3_5_1_88_Arabidopsis_thaliana_Q9FUZ2_N-Formyl-Met-Thr-Ala
+  name: Reaction catalyzed by peptide deformylase on N-Formyl-Met-Thr-Ala
+  equation: N-Formyl-Met-Thr-Ala + H2O = Met-Thr-Ala + Formate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N-Formyl-Met-Thr-Ala
+  products:
+  - species_id: product_Formate
+  - species_id: product_Met-Thr-Ala
+  modifiers:
+  - species_id: protein_3_5_1_88_Q9FUZ2_p39855
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:15740;
+    CHEBI:41979; CHEBI:42043; CHEBI:24082; CHEBI:24081; CHEBI:33811; CHEBI:33813;
+    CHEBI:27313; CHEBI:15377; CHEBI:14276; CHEBI:13352; CHEBI:5145; CHEBI:42460; CHEBI:43228;
+    CHEBI:30751; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C00001; KEGG:C00058'
+measurements:
+- id: measurement_3_5_1_88_Arabidopsis_thaliana_Q9FUZ2_N-Formyl-Met-Ala-Ser
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_3_5_1_88_Arabidopsis_thaliana_Q9FUZ2_N-Formyl-Met-Leu-p-nitroanilide
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 23.0
+  temperature_unit: °C
+- id: measurement_3_5_1_88_Arabidopsis_thaliana_Q9FUZ2_N-Formyl-Met-Leu-p-nitroanilide
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 23.0
+  temperature_unit: °C
+- id: measurement_3_5_1_88_Arabidopsis_thaliana_Q9FUZ2_N-Formyl-Met-Leu-p-nitroanilide
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_3_5_1_88_Arabidopsis_thaliana_Q9FUZ2_N-Formyl-Met-Leu-p-nitroanilide
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 23.0
+  temperature_unit: °C
+- id: measurement_3_5_1_88_Arabidopsis_thaliana_Q9FUZ2_N-Formyl-Met-Thr-Ala
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 23.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_5_1_88_Arabidopsis_thaliana_Q9FUZ2_N-Formyl-Met-Ala-Ser_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0032
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Formyl-Met-Ala-Ser
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11553738'
+- id: 3_5_1_88_Arabidopsis_thaliana_Q9FUZ2_N-Formyl-Met-Ala-Ser_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.54
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Formyl-Met-Ala-Ser
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11553738'
+- id: 3_5_1_88_Arabidopsis_thaliana_Q9FUZ2_N-Formyl-Met-Ala-Ser_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.16667e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Formyl-Met-Ala-Ser
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11553738'
+- id: 3_5_1_88_Arabidopsis_thaliana_Q9FUZ2_N-Formyl-Met-Ala-Ser_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 170.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Formyl-Met-Ala-Ser
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11553738'
+- id: 3_5_1_88_Arabidopsis_thaliana_Q9FUZ2_N-Formyl-Met-Leu-p-nitroanilide_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 7.66667e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Formyl-Met-Leu-p-nitroanilide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18412546'
+- id: 3_5_1_88_Arabidopsis_thaliana_Q9FUZ2_N-Formyl-Met-Leu-p-nitroanilide_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000118
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Formyl-Met-Leu-p-nitroanilide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18412546'
+- id: 3_5_1_88_Arabidopsis_thaliana_Q9FUZ2_N-Formyl-Met-Leu-p-nitroanilide_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.7
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Formyl-Met-Leu-p-nitroanilide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18412546'
+- id: 3_5_1_88_Arabidopsis_thaliana_Q9FUZ2_N-Formyl-Met-Leu-p-nitroanilide_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 8.6
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Formyl-Met-Leu-p-nitroanilide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18412546'
+- id: 3_5_1_88_Arabidopsis_thaliana_Q9FUZ2_N-Formyl-Met-Leu-p-nitroanilide_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00013
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Formyl-Met-Leu-p-nitroanilide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18412546'
+- id: 3_5_1_88_Arabidopsis_thaliana_Q9FUZ2_N-Formyl-Met-Leu-p-nitroanilide_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000333333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Formyl-Met-Leu-p-nitroanilide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18412546'
+- id: 3_5_1_88_Arabidopsis_thaliana_Q9FUZ2_N-Formyl-Met-Leu-p-nitroanilide_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00013
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Formyl-Met-Leu-p-nitroanilide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11553738'
+- id: 3_5_1_88_Arabidopsis_thaliana_Q9FUZ2_N-Formyl-Met-Leu-p-nitroanilide_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 68000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Formyl-Met-Leu-p-nitroanilide
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11553738'
+- id: 3_5_1_88_Arabidopsis_thaliana_Q9FUZ2_N-Formyl-Met-Leu-p-nitroanilide_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 8.7
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Formyl-Met-Leu-p-nitroanilide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11553738'
+- id: 3_5_1_88_Arabidopsis_thaliana_Q9FUZ2_N-Formyl-Met-Leu-p-nitroanilide_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000333333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Formyl-Met-Leu-p-nitroanilide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11553738'
+- id: 3_5_1_88_Arabidopsis_thaliana_Q9FUZ2_N-Formyl-Met-Leu-p-nitroanilide_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.8e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Formyl-Met-Leu-p-nitroanilide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18412546'
+- id: 3_5_1_88_Arabidopsis_thaliana_Q9FUZ2_N-Formyl-Met-Leu-p-nitroanilide_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000983333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Formyl-Met-Leu-p-nitroanilide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18412546'
+- id: 3_5_1_88_Arabidopsis_thaliana_Q9FUZ2_N-Formyl-Met-Leu-p-nitroanilide_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 22.6
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Formyl-Met-Leu-p-nitroanilide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18412546'
+- id: 3_5_1_88_Arabidopsis_thaliana_Q9FUZ2_N-Formyl-Met-Thr-Ala_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0092
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Formyl-Met-Thr-Ala
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18412546'
+- id: 3_5_1_88_Arabidopsis_thaliana_Q9FUZ2_N-Formyl-Met-Thr-Ala_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 9600.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Formyl-Met-Thr-Ala
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18412546'
+- id: 3_5_1_88_Arabidopsis_thaliana_Q9FUZ2_N-Formyl-Met-Thr-Ala_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 88.5
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Formyl-Met-Thr-Ala
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18412546'
+buffer:
+  buffer: 50 MES, 50 mM bis-tris propane, 200 ¦ÌM NiSO4, 1.0 unit Aeromonas proteolytica
+    aminopeptidase; 50 mM Potassium phosphate, 100 ¦ÌM EGTA; 50 MES, 50 mM bis-tris
+    propane, 12.0 mM beta-NAD+, 1.2 unit formate dehydrogenase
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 50632
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11553738/
+  pubmed_id: '11553738'
+  doi: null
+- title: Reference for SABIO-RK entry 39853
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/18412546/
+  pubmed_id: '18412546'
+  doi: null
+name: Merged entry for Q9FUZ2 wildtype
+description: 'Merged from 6 files: SABIO_EC3.5.1.88_Arabidopsis_thaliana__Q9FUZ2_s_N-Formyl-Met-Ala-Ser.yaml,
+  SABIO_EC3.5.1.88_Arabidopsis_thaliana__Q9FUZ2_s_N-Formyl-Met-Leu-p-n_2.yaml, SABIO_EC3.5.1.88_Arabidopsis_thaliana__Q9FUZ2_s_N-Formyl-Met-Leu-p-n.yaml,
+  SABIO_EC3.5.1.88_Arabidopsis_thaliana__Q9FUZ2_s_N-Formyl-Met-Leu-p-n_4.yaml, SABIO_EC3.5.1.88_Arabidopsis_thaliana__Q9FUZ2_s_N-Formyl-Met-Leu-p-n_3.yaml,
+  SABIO_EC3.5.1.88_Arabidopsis_thaliana__Q9FUZ2_s_N-Formyl-Met-Thr-Ala.yaml'

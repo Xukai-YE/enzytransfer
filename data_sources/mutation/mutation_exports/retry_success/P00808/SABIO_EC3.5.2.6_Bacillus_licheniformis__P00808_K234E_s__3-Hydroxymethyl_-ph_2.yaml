@@ -1,0 +1,156 @@
+name: SABIO-RK Entry 53241
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 53241
+created: '2025-10-28T16:03:22.264347'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_5_2_6_P00808_p53241
+  name: beta-lactamase
+  ecnumber: 3.5.2.6
+  organism: Bacillus licheniformis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: K234E
+  uniprotid: P00808
+  wildtype_sequence: MKLWFSTLKLKKAAAVLLFSCVALAGCANNQTNASQPAEKNEKTEMKDDFAKLEEQFDAKLGIFALDTGTNRTVAYRPDERFAFASTIKALTVGVLLQQKSIEDLNQRITYTRDDLVNYNPITEKHVDTGMTLKELADASLRYSDNAAQNLILKQIGGPESLKKELRKIGDEVTNPERFEPELNEVNPGETQDTSTARALVTSLRAFALEDKLPSEKRELLIDWMKRNTTGDALIRAGVPDGWEVADKTGAASYGTRNDIAIIWPPKGDPVVLAVLSSRDKKDAKYDDKLIAEATKVVMKALNMNGK
+  mutant_sequence: MKLWFSTLKLKKAAAVLLFSCVALAGCANNQTNASQPAEKNEKTEMKDDFAKLEEQFDAKLGIFALDTGTNRTVAYRPDERFAFASTIKALTVGVLLQQKSIEDLNQRITYTRDDLVNYNPITEKHVDTGMTLKELADASLRYSDNAAQNLILKQIGGPESLKKELRKIGDEVTNPERFEPELNEVNPGETQDTSTARALVTSLRAFALEDKLPSEKRELLIDWMERNTTGDALIRAGVPDGWEVADKTGAASYGTRNDIAIIWPPKGDPVVLAVLSSRDKKDAKYDDKLIAEATKVVMKALNMNGK
+  position_offset: -8
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate__3-Hydroxymethyl_-phenoxymethylpenicillin
+  name: (3-Hydroxymethyl)-phenoxymethylpenicillin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Substituted_beta-amino_acid
+  name: Substituted beta-amino acid
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_KCl
+  name: KCl
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_11347_EC3_5_2_6_Bacillus_licheniformis_P00808__3-Hydroxymethyl_-phenoxymethylpenicillin
+  name: Reaction catalyzed by beta-lactamase on (3-Hydroxymethyl)-phenoxymethylpenicillin
+  equation: H2O + (3-Hydroxymethyl)-phenoxymethylpenicillin = Substituted beta-amino
+    acid
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate__3-Hydroxymethyl_-phenoxymethylpenicillin
+  products:
+  - species_id: product_Substituted_beta-amino_acid
+  modifiers:
+  - species_id: protein_3_5_2_6_P00808_p53241
+    role: BIOCATALYST
+  - species_id: activator_KCl
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:32588; CHEBI:42857;
+    CHEBI:41979; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377;
+    CHEBI:13352; CHEBI:13690; CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743;
+    CHEBI:29374; CHEBI:5585; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00001; KEGG:C03806'
+measurements:
+- id: measurement_3_5_2_6_Bacillus_licheniformis_P00808__3-Hydroxymethyl_-phenoxymethylpenicillin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 5.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 3_5_2_6_Bacillus_licheniformis_P00808__3-Hydroxymethyl_-phenoxymethylpenicillin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0007
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__3-Hydroxymethyl_-phenoxymethylpenicillin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1974463'
+- id: 3_5_2_6_Bacillus_licheniformis_P00808__3-Hydroxymethyl_-phenoxymethylpenicillin_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 4.1
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__3-Hydroxymethyl_-phenoxymethylpenicillin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1974463'
+buffer:
+  buffer: 40 mM sodium acetate, 20% methanol
+  buffer_concentration: 40 mM
+references:
+- title: Reference for SABIO-RK entry 53241
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/1974463/
+  pubmed_id: '1974463'
+  doi: null

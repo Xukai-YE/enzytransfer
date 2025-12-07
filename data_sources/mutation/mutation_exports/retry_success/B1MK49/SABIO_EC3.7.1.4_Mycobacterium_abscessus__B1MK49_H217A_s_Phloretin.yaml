@@ -1,0 +1,181 @@
+name: SABIO-RK Entry 75442
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 75442
+created: '2025-10-28T17:44:57.268956'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_7_1_4_B1MK49_p75442
+  name: phloretin hydrolase
+  ecnumber: 3.7.1.4
+  organism: Mycobacterium abscessus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: H217A
+  uniprotid: B1MK49
+  wildtype_sequence: MHPITYYPVDTQRLVRSNAERIRHKPYAHYFNPDVAVPEEVFAALKAPLEPEQVLGTSSTELNRLLEPGYLEGETGYCGLPDGAGYTSSLVRFPGATPEMFRWWFWWHSFEPERYSLWHPWCHADIWRTDPETETAPNLTDEQRYVGSTHHINEYIGQDPLDIEITFIDPARWGFDADGFAAAGIGAHACGSVLMKGSHMRLATMVHLARITDDGFELRSRYWIADRAEPRHDPVAGIAQLTTVPGFSGERQAYEQLVHDQTEFNHLATFLPDIYQEFGPR
+  mutant_sequence: MHPITYYPVDTQRLVRSNAERIRHKPYAHYFNPDVAVPEEVFAALKAPLEPEQVLGTSSTELNRLLEPGYLEGETGYCGLPDGAGYTSSLVRFPGATPEMFRWWFWWHSFEPERYSLWHPWCHADIWRTDPETETAPNLTDEQRYVGSTHHINEYIGQDPLDIEITFIDPARWGFDADGFAAAGIGAHACGSVLMKGSHMRLATMVALARITDDGFELRSRYWIADRAEPRHDPVAGIAQLTTVPGFSGERQAYEQLVHDQTEFNHLATFLPDIYQEFGPR
+  position_offset: -10
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Phloretin
+  name: Phloretin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Phloroglucinol
+  name: Phloroglucinol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Phloretate
+  name: Phloretate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2761_EC3_7_1_4_Mycobacterium_abscessus_B1MK49_Phloretin
+  name: Reaction catalyzed by phloretin hydrolase on Phloretin
+  equation: H2O + Phloretin = Phloroglucinol + Phloretate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Phloretin
+  products:
+  - species_id: product_Phloroglucinol
+  - species_id: product_Phloretate
+  modifiers:
+  - species_id: protein_3_7_1_4_B1MK49_p75442
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02901
+  notes: 'ChEBI IDs: CHEBI:42649; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:16331;
+    CHEBI:26014; CHEBI:42857; CHEBI:41979; CHEBI:17276; CHEBI:19933; CHEBI:16204;
+    CHEBI:42043; CHEBI:14787; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:32980;
+    CHEBI:15377; CHEBI:13352; CHEBI:8111; CHEBI:43228; CHEBI:43113; CHEBI:44292; CHEBI:33806;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:19934; CHEBI:8110; CHEBI:14786; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C00001; KEGG:C02183; KEGG:C00774; KEGG:C01744'
+measurements:
+- id: measurement_3_7_1_4_Mycobacterium_abscessus_B1MK49_Phloretin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 3_7_1_4_Mycobacterium_abscessus_B1MK49_Phloretin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000289
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Phloretin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '30784195'
+- id: 3_7_1_4_Mycobacterium_abscessus_B1MK49_Phloretin_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.13
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Phloretin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '30784195'
+- id: 3_7_1_4_Mycobacterium_abscessus_B1MK49_Phloretin_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 450.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Phloretin
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 6.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '30784195'
+buffer:
+  buffer: 100 mM NaH2PO4/Na2HPO4
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 75442
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/30784195/
+  pubmed_id: '30784195'
+  doi: null

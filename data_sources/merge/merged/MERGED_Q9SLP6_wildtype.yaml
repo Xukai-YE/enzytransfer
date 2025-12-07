@@ -1,0 +1,403 @@
+version: '2.0'
+created: '2025-11-20T13:39:39.552620'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_18_1_2_Q9SLP6_p54547
+  name: NADPH---hemoprotein reductase
+  ecnumber: 1.18.1.2
+  organism: Zea mays
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9SLP6
+  wildtype_sequence: MATVMAAAVSSFPSSSAVVAKASPASPCAAPHFRPRAVRAAIRAQASAVEAPATAKAKKESKKQEEGVVTNLYKPKEPYVGRCLLNTKITGDDAPGETWHMVFSTEGKIPYREGQSIGVIADGVDKNGKPHKVRLYSIASSAIGDFGDSKTVSLCVKRLIYTNDAGEIVKGVCSNFLCDLQPGDNVQITGPVGKEMLMPKDPNATIIMLATGTGIAPFRSFLWKMFFEKHDDYKFNGLGWLFLGVPTSSSLLYKEEFGKMKERAPENFRVDYAVSREQTNAAGERMYIQTRMAEYKEELWELLKKDNTYVYMCGLKGMEKGIDDIMVSLAEKDGIDWFDYKKQLKRGDQWNVEVY
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_2
+  name: '2'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_6-Dichloroindophenol
+  name: 6-Dichloroindophenol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Reduced_2
+  name: Reduced 2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_6-dichlorophenolindophenol
+  name: 6-dichlorophenolindophenol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Oxidized_ferredoxin_I
+  name: Oxidized ferredoxin I
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Reduced_ferredoxin_I
+  name: Reduced ferredoxin I
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Oxidized_ferredoxin_III
+  name: Oxidized ferredoxin III
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Reduced_ferredoxin_III
+  name: Reduced ferredoxin III
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_11487_EC1_18_1_2_Zea_mays_Q9SLP6_NADPH
+  name: Reaction catalyzed by NADPH---hemoprotein reductase on NADPH
+  equation: H+ + NADPH + 2,6-Dichloroindophenol = NADP+ + Reduced 2,6-dichlorophenolindophenol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_2
+  - species_id: substrate_6-Dichloroindophenol
+  products:
+  - species_id: product_Reduced_2
+  - species_id: product_6-dichlorophenolindophenol
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_18_1_2_Q9SLP6_p54547
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:7424; CHEBI:44405; CHEBI:21903;
+    CHEBI:7425; CHEBI:29234; CHEBI:13357; CHEBI:25523; CHEBI:945; CHEBI:24636; CHEBI:29233;
+    CHEBI:5584; CHEBI:13399; CHEBI:16474; CHEBI:44286; CHEBI:21904; CHEBI:44409; CHEBI:15378;
+    CHEBI:18009; CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C05720; KEGG:C00005; KEGG:C00080; KEGG:C00102; KEGG:C00006; KEGG:C11037'
+- id: sabiork_13892_EC1_18_1_2_Zea_mays_Q9SLP6_Oxidized_ferredoxin_I
+  name: Reaction catalyzed by ferredoxin---NADP+ reductase on Oxidized ferredoxin
+    I
+  equation: H+ + NADPH + Oxidized ferredoxin I = NADP+ + Reduced ferredoxin I
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxidized_ferredoxin_I
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_Reduced_ferredoxin_I
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_18_1_2_Q9SLP6_p54549
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:7424; CHEBI:44405; CHEBI:21903;
+    CHEBI:7425; CHEBI:29234; CHEBI:13357; CHEBI:25523; CHEBI:24636; CHEBI:29233; CHEBI:5584;
+    CHEBI:13399; CHEBI:16474; CHEBI:44286; CHEBI:21904; CHEBI:44409; CHEBI:15378;
+    CHEBI:18009; CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C11037; KEGG:C19941'
+- id: sabiork_13893_EC1_18_1_2_Zea_mays_Q9SLP6_Oxidized_ferredoxin_III
+  name: Reaction catalyzed by ferredoxin---NADP+ reductase on Oxidized ferredoxin
+    III
+  equation: H+ + NADPH + Oxidized ferredoxin III = NADP+ + Reduced ferredoxin III
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxidized_ferredoxin_III
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_Reduced_ferredoxin_III
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_18_1_2_Q9SLP6_p54551
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:7424; CHEBI:44405; CHEBI:21903;
+    CHEBI:7425; CHEBI:29234; CHEBI:13357; CHEBI:25523; CHEBI:24636; CHEBI:29233; CHEBI:5584;
+    CHEBI:13399; CHEBI:16474; CHEBI:44286; CHEBI:21904; CHEBI:44409; CHEBI:15378;
+    CHEBI:18009; CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00006; KEGG:C00005; KEGG:C11037; KEGG:C00080'
+measurements:
+- id: measurement_1_18_1_2_Zea_mays_Q9SLP6_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_18_1_2_Zea_mays_Q9SLP6_Oxidized_ferredoxin_I
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_18_1_2_Zea_mays_Q9SLP6_Oxidized_ferredoxin_III
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_18_1_2_Zea_mays_Q9SLP6_NADPH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.4e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10889253'
+- id: 1_18_1_2_Zea_mays_Q9SLP6_NADPH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 44.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10889253'
+- id: 1_18_1_2_Zea_mays_Q9SLP6_NADPH_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 9900000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10889253'
+- id: 1_18_1_2_Zea_mays_Q9SLP6_Oxidized_ferredoxin_I_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 37000000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_ferredoxin_I
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10889253'
+- id: 1_18_1_2_Zea_mays_Q9SLP6_Oxidized_ferredoxin_I_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.3e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_ferredoxin_I
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10889253'
+- id: 1_18_1_2_Zea_mays_Q9SLP6_Oxidized_ferredoxin_I_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 120.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_ferredoxin_I
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10889253'
+- id: 1_18_1_2_Zea_mays_Q9SLP6_Oxidized_ferredoxin_III_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 39000000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_ferredoxin_III
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10889253'
+- id: 1_18_1_2_Zea_mays_Q9SLP6_Oxidized_ferredoxin_III_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.4e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_ferredoxin_III
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10889253'
+- id: 1_18_1_2_Zea_mays_Q9SLP6_Oxidized_ferredoxin_III_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 130.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_ferredoxin_III
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10889253'
+buffer:
+  buffer: 50 mM Tris-Cl, 1 mM MgCl2, 3 mM sodium glucose 6-phosphate, 50 ¦Ìg/ml glucose
+    6-phosphate dehydrogenase; 50 mM Tris-Cl, 1 mM MgCl2, 100 mM NaCl, 200 ¦ÌM cyt
+    c
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 54547
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10889253/
+  pubmed_id: '10889253'
+  doi: null
+name: Merged entry for Q9SLP6 wildtype
+description: 'Merged from 3 files: SABIO_EC1.18.1.2_Zea_mays__Q9SLP6_s_NADPH.yaml,
+  SABIO_EC1.18.1.2_Zea_mays__Q9SLP6_s_Oxidized.yaml, SABIO_EC1.18.1.2_Zea_mays__Q9SLP6_s_Oxidized_2.yaml'

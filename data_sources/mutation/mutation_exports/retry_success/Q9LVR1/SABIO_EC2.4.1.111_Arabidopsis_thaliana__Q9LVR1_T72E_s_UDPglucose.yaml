@@ -1,0 +1,188 @@
+name: SABIO-RK Entry 26747
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 26747
+created: '2025-10-28T14:30:11.524608'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_4_1_111_Q9LVR1_p26747
+  name: coniferyl-alcohol glucosyltransferase
+  ecnumber: 2.4.1.111
+  organism: Arabidopsis thaliana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: T72E
+  uniprotid: Q9LVR1
+  wildtype_sequence: MHITKPHAAMFSSPGMGHVIPVIELGKRLSANNGFHVTVFVLETDAASAQSKFLNSTGVDIVKLPSPDIYGLVDPDDHVVTKIGVIMRAAVPALRSKIAAMHQKPTALIVDLFGTDALCLAKEFNMLSYVFIPTNARFLGVSIYYPNLDKDIKEEHTVQRNPLAIPGCEPVRFEDTLDAYLVPDEPVYRDFVRHGLAYPKADGILVNTWEEMEPKSLKSLLNPKLLGRVARVPVYPIGPLCRPIQSSETDHPVLDWLNEQPNESVLYISFGSGGCLSAKQLTELAWGLEQSQQRFVWVVRPPVDGSCCSEYVSANGGGTEDNTPEYLPEGFVSRTSDRGFVVPSWAPQAEILSHRAVGGFLTHCGWSSTLESVVGGVPMIAWPLFAEQNMNAALLSDELGIAVRLDDPKEDISRWKIEALVRKVMTEKEGEAMRRKVKKLRDSAEMSLSIDGGGLAHESLCRVTKECQRFLERVVDLSRGA
+  mutant_sequence: MHITKPHAAMFSSPGMGHVIPVIELGKRLSANNGFHVTVFVLETDAASAQSKFLNSTGVDIVKLPSPDIYGLVDPDDHVVEKIGVIMRAAVPALRSKIAAMHQKPTALIVDLFGTDALCLAKEFNMLSYVFIPTNARFLGVSIYYPNLDKDIKEEHTVQRNPLAIPGCEPVRFEDTLDAYLVPDEPVYRDFVRHGLAYPKADGILVNTWEEMEPKSLKSLLNPKLLGRVARVPVYPIGPLCRPIQSSETDHPVLDWLNEQPNESVLYISFGSGGCLSAKQLTELAWGLEQSQQRFVWVVRPPVDGSCCSEYVSANGGGTEDNTPEYLPEGFVSRTSDRGFVVPSWAPQAEILSHRAVGGFLTHCGWSSTLESVVGGVPMIAWPLFAEQNMNAALLSDELGIAVRLDDPKEDISRWKIEALVRKVMTEKEGEAMRRKVKKLRDSAEMSLSIDGGGLAHESLCRVTKECQRFLERVVDLSRGA
+  position_offset: 9
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_UDPglucose
+  name: UDPglucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Coniferaldehyde
+  name: Coniferaldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Coniferaldehyde-4-O-beta-D-glucopyranoside
+  name: Coniferaldehyde-4-O-beta-D-glucopyranoside
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_UDP
+  name: UDP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_10856_EC2_4_1_111_Arabidopsis_thaliana_Q9LVR1_UDPglucose
+  name: Reaction catalyzed by coniferyl-alcohol glucosyltransferase on UDPglucose
+  equation: Coniferaldehyde + UDPglucose = Coniferaldehyde-4-O-beta-D-glucopyranoside
+    + UDP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_UDPglucose
+  - species_id: substrate_Coniferaldehyde
+  products:
+  - species_id: product_Coniferaldehyde-4-O-beta-D-glucopyranoside
+  - species_id: product_UDP
+  modifiers:
+  - species_id: protein_2_4_1_111_Q9LVR1_p26747
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:27230; CHEBI:58223; CHEBI:14018; CHEBI:13445; CHEBI:3859;
+    CHEBI:23372; CHEBI:46402; CHEBI:18066; CHEBI:16547; CHEBI:17659; CHEBI:9802
+
+    KEGG IDs: KEGG:C00015; KEGG:C00029; KEGG:C02666'
+measurements:
+- id: measurement_2_4_1_111_Arabidopsis_thaliana_Q9LVR1_UDPglucose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 2_4_1_111_Arabidopsis_thaliana_Q9LVR1_UDPglucose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDPglucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15907484'
+- id: 2_4_1_111_Arabidopsis_thaliana_Q9LVR1_UDPglucose_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 68500.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDPglucose
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15907484'
+- id: 2_4_1_111_Arabidopsis_thaliana_Q9LVR1_UDPglucose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.37
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDPglucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15907484'
+buffer:
+  buffer: 100 mM Tris-HCl
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 26747
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15907484/
+  pubmed_id: '15907484'
+  doi: null

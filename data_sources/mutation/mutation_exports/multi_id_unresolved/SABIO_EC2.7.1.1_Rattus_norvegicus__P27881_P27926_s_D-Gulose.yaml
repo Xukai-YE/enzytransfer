@@ -1,0 +1,154 @@
+name: SABIO-RK Entry 12487
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 12487
+created: '2025-10-28T14:00:57.781905'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_1_P27881_P27926_p12487
+  name: hexokinase
+  sequence: null
+  ecnumber: 2.7.1.1
+  organism: Rattus norvegicus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P27881; P27926
+complexes: null
+small_molecules:
+- id: substrate_D-Gulose
+  name: D-Gulose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Gulose_6-phosphate
+  name: D-Gulose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_9559_EC2_7_1_1_Rattus_norvegicus_P27881_P27926_D-Gulose
+  name: Reaction catalyzed by hexokinase on D-Gulose
+  equation: ATP + D-Gulose = ADP + D-Gulose 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Gulose
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_D-Gulose_6-phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_1_P27881_P27926_p12487
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:40553; CHEBI:13236; CHEBI:10841; CHEBI:2359; CHEBI:4191; CHEBI:87518; CHEBI:37692;
+    CHEBI:40938; CHEBI:456216; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:27611;
+    CHEBI:13222; CHEBI:22244
+
+    KEGG IDs: KEGG:C00002; KEGG:C00008; KEGG:C06465'
+measurements:
+- id: measurement_2_7_1_1_Rattus_norvegicus_P27881_P27926_D-Gulose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 2_7_1_1_Rattus_norvegicus_P27881_P27926_D-Gulose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.01
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Gulose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '13758791'
+buffer:
+  buffer: 0.02 M MgCl2, 0.002 M EDTA, 0.02 M potassium fluoride
+  buffer_concentration: 0.02 M
+references:
+- title: Reference for SABIO-RK entry 12487
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/13758791/
+  pubmed_id: '13758791'
+  doi: null

@@ -1,0 +1,347 @@
+version: '2.0'
+created: '2025-11-20T13:39:34.223575'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_14_14_18_P14791_p46285
+  name: heme oxygenase
+  ecnumber: 1.14.14.18
+  organism: Gallus gallus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P14791
+  wildtype_sequence: METSQPHNAESMSQDLSELLKEATKEVHEQAENTPFMKNFQKGQVSLHEFKLVTASLYFIYSALEEEIERNKDNPVYAPVYFPMELHRKAALEKDLEYFYGSNWRAEIPCPEATQKYVERLHVVGKKHPELLVAHAYTRYLGDLSGGQVLKKIAQKALQLPSTGEGLAFFTFDGVSNATKFKQLYRSRMNALEMDHATKKRVLEEAKKAFLLNIQVFEALQKLVSKSQENGHAVQPKAELRTRSVNKSHENSPAAGKESERTSRMQADMLTTSPLVRWLLALGFIATTVAVGLFAM
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Heme
+  name: Heme
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Biliverdin
+  name: Biliverdin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Fe2_
+  name: Fe2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Carbon_monoxide
+  name: Carbon monoxide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_13063_EC1_14_14_18_Gallus_gallus_P14791_O2
+  name: Reaction catalyzed by heme oxygenase on O2
+  equation: NADPH + O2 + Heme = H2O + NADP+ + Fe2+ + Carbon monoxide + Biliverdin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_Heme
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_Biliverdin
+  - species_id: product_Fe2_
+  - species_id: product_NADP_
+  - species_id: product_Carbon_monoxide
+  modifiers:
+  - species_id: protein_1_14_14_18_P14791_p46285
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:17245;
+    CHEBI:13397; CHEBI:13398; CHEBI:29033; CHEBI:30413; CHEBI:34754; CHEBI:7424; CHEBI:26689;
+    CHEBI:23013; CHEBI:21129; CHEBI:44405; CHEBI:21903; CHEBI:42857; CHEBI:13901;
+    CHEBI:41979; CHEBI:7425; CHEBI:3102; CHEBI:25523; CHEBI:14957; CHEBI:23833; CHEBI:13416;
+    CHEBI:17033; CHEBI:42043; CHEBI:57991; CHEBI:33811; CHEBI:13399; CHEBI:33813;
+    CHEBI:17627; CHEBI:27313; CHEBI:15377; CHEBI:13319; CHEBI:13352; CHEBI:13902;
+    CHEBI:15379; CHEBI:16474; CHEBI:5651; CHEBI:44286; CHEBI:24876; CHEBI:43228; CHEBI:41526;
+    CHEBI:3282; CHEBI:44292; CHEBI:30491; CHEBI:21904; CHEBI:22875; CHEBI:33806; CHEBI:25366;
+    CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:44409; CHEBI:27638; CHEBI:29793;
+    CHEBI:18009; CHEBI:7860; CHEBI:26355; CHEBI:41124; CHEBI:10745; CHEBI:58349; CHEBI:13400;
+    CHEBI:57783; CHEBI:13321; CHEBI:60344; CHEBI:29373; CHEBI:44701; CHEBI:49599;
+    CHEBI:13281
+
+    KEGG IDs: KEGG:C14818; KEGG:C00005; KEGG:C00500; KEGG:C00001; KEGG:C00006; KEGG:C00704;
+    KEGG:C00237; KEGG:C00032; KEGG:C00007; KEGG:C11037'
+- id: sabiork_13063_EC1_14_14_18_bovine_P14791_NADPH
+  name: Reaction catalyzed by heme oxygenase on NADPH
+  equation: NADPH + O2 + Heme = H2O + NADP+ + Fe2+ + Carbon monoxide + Biliverdin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_Heme
+  - species_id: substrate_O2
+  products:
+  - species_id: product_Carbon_monoxide
+  - species_id: product_Biliverdin
+  - species_id: product_Fe2_
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_14_14_18_P14791_p46286
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:17245;
+    CHEBI:13397; CHEBI:13398; CHEBI:29033; CHEBI:30413; CHEBI:34754; CHEBI:7424; CHEBI:26689;
+    CHEBI:23013; CHEBI:21129; CHEBI:44405; CHEBI:21903; CHEBI:42857; CHEBI:13901;
+    CHEBI:41979; CHEBI:7425; CHEBI:3102; CHEBI:25523; CHEBI:14957; CHEBI:23833; CHEBI:13416;
+    CHEBI:17033; CHEBI:42043; CHEBI:57991; CHEBI:33811; CHEBI:13399; CHEBI:33813;
+    CHEBI:17627; CHEBI:27313; CHEBI:15377; CHEBI:13319; CHEBI:13352; CHEBI:13902;
+    CHEBI:15379; CHEBI:16474; CHEBI:44286; CHEBI:5651; CHEBI:24876; CHEBI:43228; CHEBI:41526;
+    CHEBI:3282; CHEBI:44292; CHEBI:30491; CHEBI:21904; CHEBI:22875; CHEBI:33806; CHEBI:25366;
+    CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:44409; CHEBI:27638; CHEBI:29793;
+    CHEBI:18009; CHEBI:7860; CHEBI:26355; CHEBI:41124; CHEBI:10745; CHEBI:58349; CHEBI:13400;
+    CHEBI:57783; CHEBI:13321; CHEBI:60344; CHEBI:29373; CHEBI:44701; CHEBI:49599;
+    CHEBI:13281
+
+    KEGG IDs: KEGG:C14818; KEGG:C00005; KEGG:C00500; KEGG:C00001; KEGG:C00006; KEGG:C00704;
+    KEGG:C00237; KEGG:C00032; KEGG:C00007; KEGG:C11037'
+- id: sabiork_13063_EC1_14_14_18_bovine_P14791_O2
+  name: Reaction catalyzed by heme oxygenase on O2
+  equation: NADPH + O2 + Heme = H2O + NADP+ + Fe2+ + Carbon monoxide + Biliverdin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_NADPH
+  - species_id: substrate_Heme
+  products:
+  - species_id: product_Carbon_monoxide
+  - species_id: product_NADP_
+  - species_id: product_Fe2_
+  - species_id: product_Biliverdin
+  modifiers:
+  - species_id: protein_1_14_14_18_P14791_p46287
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:17245;
+    CHEBI:13397; CHEBI:13398; CHEBI:29033; CHEBI:30413; CHEBI:34754; CHEBI:7424; CHEBI:26689;
+    CHEBI:23013; CHEBI:21129; CHEBI:44405; CHEBI:21903; CHEBI:42857; CHEBI:13901;
+    CHEBI:41979; CHEBI:7425; CHEBI:3102; CHEBI:25523; CHEBI:14957; CHEBI:23833; CHEBI:13416;
+    CHEBI:17033; CHEBI:42043; CHEBI:57991; CHEBI:33811; CHEBI:13399; CHEBI:33813;
+    CHEBI:17627; CHEBI:27313; CHEBI:15377; CHEBI:13319; CHEBI:13352; CHEBI:13902;
+    CHEBI:15379; CHEBI:16474; CHEBI:44286; CHEBI:5651; CHEBI:24876; CHEBI:43228; CHEBI:41526;
+    CHEBI:3282; CHEBI:44292; CHEBI:30491; CHEBI:21904; CHEBI:22875; CHEBI:33806; CHEBI:25366;
+    CHEBI:44742; CHEBI:44409; CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:27638; CHEBI:29793;
+    CHEBI:18009; CHEBI:7860; CHEBI:26355; CHEBI:41124; CHEBI:10745; CHEBI:58349; CHEBI:13400;
+    CHEBI:57783; CHEBI:13321; CHEBI:60344; CHEBI:29373; CHEBI:44701; CHEBI:49599;
+    CHEBI:13281
+
+    KEGG IDs: KEGG:C14818; KEGG:C00005; KEGG:C00500; KEGG:C00006; KEGG:C00001; KEGG:C00704;
+    KEGG:C00237; KEGG:C00032; KEGG:C00007; KEGG:C11037'
+measurements:
+- id: measurement_1_14_14_18_Gallus_gallus_P14791_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_14_14_18_bovine_P14791_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_14_14_18_bovine_P14791_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_14_14_18_Gallus_gallus_P14791_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.8e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2158889'
+- id: 1_14_14_18_Gallus_gallus_P14791_O2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.32
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2158889'
+- id: 1_14_14_18_Gallus_gallus_P14791_O2_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 9.666667e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2158889'
+- id: 1_14_14_18_bovine_P14791_NADPH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.0e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2158889'
+- id: 1_14_14_18_bovine_P14791_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.1e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2158889'
+buffer:
+  buffer: 70 mM Potassium phosphate, 5 mM Deferoxamine, 1.5 units/ml Biliverdin reductase,
+    0.6 units/ml NADPH-cytochrome reductase, 4000 U/ml Catalase, 0.5 mg/ml Emulgen,
+    1 mg/ml Egg phosphatidylcholine, 25 ¦ÌM Bovine serum albumin; 70 mM Potassium
+    phosphate, 5 mM Deferoxamine, 1.5 units/ml Biliverdin reductase, 0.6 units/ml
+    NADPH-cytochrome reductase, 4000 U/ml Catalase, 0.5 mg/ml Emulgen, 1 mg/ml Egg
+    phosphatidylcholine
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 46285
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/2158889/
+  pubmed_id: '2158889'
+  doi: null
+name: Merged entry for P14791 wildtype
+description: 'Merged from 3 files: SABIO_EC1.14.14.18_Gallus_gallus__P14791_s_O2.yaml,
+  SABIO_EC1.14.14.18_bovine__P14791_s_NADPH.yaml, SABIO_EC1.14.14.18_bovine__P14791_s_O2.yaml'

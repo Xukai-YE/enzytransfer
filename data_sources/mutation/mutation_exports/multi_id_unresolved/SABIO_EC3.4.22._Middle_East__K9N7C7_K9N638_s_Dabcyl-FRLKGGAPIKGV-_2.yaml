@@ -1,0 +1,160 @@
+name: SABIO-RK Entry 68597
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 68597
+created: '2025-10-28T17:09:09.912413'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_4_22__K9N7C7_K9N638_p68597
+  name: protein#68597
+  sequence: null
+  ecnumber: 3.4.22.
+  organism: Middle East respiratory syndrome-related coronavirus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: K9N7C7; K9N638
+complexes: null
+small_molecules:
+- id: substrate_Dabcyl-FRLKGGAPIKGV-Edans
+  name: Dabcyl-FRLKGGAPIKGV-Edans
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_APIKGV-Edans
+  name: APIKGV-Edans
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Dabcyl-FRLKGG
+  name: Dabcyl-FRLKGG
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_15701_EC3_4_22__Middle_East_K9N7C7_K9N638_Dabcyl-FRLKGGAPIKGV-Edans
+  name: Reaction catalyzed by enzyme on Dabcyl-FRLKGGAPIKGV-Edans
+  equation: H2O + Dabcyl-FRLKGGAPIKGV-Edans = APIKGV-Edans + Dabcyl-FRLKGG
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Dabcyl-FRLKGGAPIKGV-Edans
+  products:
+  - species_id: product_APIKGV-Edans
+  - species_id: product_Dabcyl-FRLKGG
+  modifiers:
+  - species_id: protein_3_4_22__K9N7C7_K9N638_p68597
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:41979;
+    CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352;
+    CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C00001'
+measurements:
+- id: measurement_3_4_22__Middle_East_K9N7C7_K9N638_Dabcyl-FRLKGGAPIKGV-Edans
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 3_4_22__Middle_East_K9N7C7_K9N638_Dabcyl-FRLKGGAPIKGV-Edans_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.01
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Dabcyl-FRLKGGAPIKGV-Edans
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29289665'
+- id: 3_4_22__Middle_East_K9N7C7_K9N638_Dabcyl-FRLKGGAPIKGV-Edans_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.88e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Dabcyl-FRLKGGAPIKGV-Edans
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29289665'
+buffer:
+  buffer: 20 mM phosphate
+  buffer_concentration: 20 mM
+references:
+- title: Reference for SABIO-RK entry 68597
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/29289665/
+  pubmed_id: '29289665'
+  doi: null

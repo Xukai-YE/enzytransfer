@@ -1,0 +1,179 @@
+name: SABIO-RK Entry 52116
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 52116
+created: '2025-10-28T15:59:25.215613'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_4_21_62_P04189_p52116
+  name: subtilisin
+  ecnumber: 3.4.21.62
+  organism: Bacillus subtilis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: G154A
+  uniprotid: P04189
+  wildtype_sequence: MRSKKLWISLLFALTLIFTMAFSNMSAQAAGKSSTEKKYIVGFKQTMSAMSSAKKKDVISEKGGKVQKQFKYVNAAAATLDEKAVKELKKDPSVAYVEEDHIAHEYAQSVPYGISQIKAPALHSQGYTGSNVKVAVIDSGIDSSHPDLNVRGGASFVPSETNPYQDGSSHGTHVAGTIAALNNSIGVLGVAPSASLYAVKVLDSTGSGQYSWIINGIEWAISNNMDVINMSLGGPTGSTALKTVVDKAVSSGIVVAAAAGNEGSSGSTSTVGYPAKYPSTIAVGAVNSSNQRASFSSAGSELDVMAPGVSIQSTLPGGTYGAYNGTSMATPHVAGAAALILSKHPTWTNAQVRDRLESTATYLGNSFYYGKGLINVQAAAQ
+  mutant_sequence: MRSKKLWISLLFALTLIFTMAFSNMSAQAAGKSSTEKKYIVGFKQTMSAMSSAKKKDVISEKGGKVQKQFKYVNAAAATLDEKAVKELKKDPSVAYVEEDHIAHEYAQSVPYGISQIKAPALHSQGYTGSNVKVAVIDSGIDSSHPDLNVRAGASFVPSETNPYQDGSSHGTHVAGTIAALNNSIGVLGVAPSASLYAVKVLDSTGSGQYSWIINGIEWAISNNMDVINMSLGGPTGSTALKTVVDKAVSSGIVVAAAAGNEGSSGSTSTVGYPAKYPSTIAVGAVNSSNQRASFSSAGSELDVMAPGVSIQSTLPGGTYGAYNGTSMATPHVAGAAALILSKHPTWTNAQVRDRLESTATYLGNSFYYGKGLINVQAAAQ
+  position_offset: -2
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Succinyl-Ala-Ala-Pro-Met-p-nitroanilide
+  name: Succinyl-Ala-Ala-Pro-Met-p-nitroanilide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Succinyl-Ala-Ala-Pro-Met
+  name: Succinyl-Ala-Ala-Pro-Met
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4-Nitroaniline
+  name: 4-Nitroaniline
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_13638_EC3_4_21_62_Bacillus_subtilis_P04189_Succinyl-Ala-Ala-Pro-Met-p-nitroanilide
+  name: Reaction catalyzed by subtilisin on Succinyl-Ala-Ala-Pro-Met-p-nitroanilide
+  equation: H2O + Succinyl-Ala-Ala-Pro-Met-p-nitroanilide = 4-Nitroaniline + Succinyl-Ala-Ala-Pro-Met
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Succinyl-Ala-Ala-Pro-Met-p-nitroanilide
+  products:
+  - species_id: product_Succinyl-Ala-Ala-Pro-Met
+  - species_id: product_4-Nitroaniline
+  modifiers:
+  - species_id: protein_3_4_21_62_P04189_p52116
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:44545; CHEBI:20455;
+    CHEBI:42857; CHEBI:41979; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:12032; CHEBI:15377; CHEBI:13352; CHEBI:43228; CHEBI:44292; CHEBI:33806;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:1910; CHEBI:17064; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00001; KEGG:C02126'
+measurements:
+- id: measurement_3_4_21_62_Bacillus_subtilis_P04189_Succinyl-Ala-Ala-Pro-Met-p-nitroanilide
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 3_4_21_62_Bacillus_subtilis_P04189_Succinyl-Ala-Ala-Pro-Met-p-nitroanilide_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.003
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Succinyl-Ala-Ala-Pro-Met-p-nitroanilide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9930669'
+- id: 3_4_21_62_Bacillus_subtilis_P04189_Succinyl-Ala-Ala-Pro-Met-p-nitroanilide_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 6600.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Succinyl-Ala-Ala-Pro-Met-p-nitroanilide
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9930669'
+- id: 3_4_21_62_Bacillus_subtilis_P04189_Succinyl-Ala-Ala-Pro-Met-p-nitroanilide_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 20.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Succinyl-Ala-Ala-Pro-Met-p-nitroanilide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9930669'
+buffer:
+  buffer: 50 mM Tris-HCl, 1 mM CaCl2
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 52116
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9930669/
+  pubmed_id: '9930669'
+  doi: null

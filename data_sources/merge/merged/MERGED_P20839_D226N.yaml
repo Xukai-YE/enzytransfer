@@ -1,0 +1,264 @@
+version: '2.0'
+created: '2025-11-20T13:41:59.784604'
+modified: null
+creators:
+- given_name: SKiD
+  family_name: Database
+  mail: skid@database.org
+vessels: null
+proteins:
+- id: protein_P20839
+  name: Homo sapiens
+  ecnumber: 1.1.1.205
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: D226N
+  uniprotid: P20839
+  wildtype_sequence: MADYLISGGTGYVPEDGLTAQQLFASADGLTYNDFLILPGFIDFIADEVDLTSALTRKITLKTPLISSPMDTVTEADMAIAMALMGGIGFIHHNCTPEFQANEVRKVKKFEQGFITDPVVLSPSHTVGDVLEAKMRHGFSGIPITETGTMGSKLVGIVTSRDIDFLAEKDHTTLLSEVMTPRIELVVAPAGVTLKEANEILQRSKKGKLPIVNDCDELVAIIARTDLKKNRDYPLASKDSQKQLLCGAAVGTREDDKYRLDLLTQAGVDVIVLDSSQGNSVYQIAMVHYIKQKYPHLQVIGGNVVTAAQAKNLIDAGVDGLRVGMGCGSICITQEVMACGRPQGTAVYKVAEYARRFGVPIIADGGIQTVGHVVKALALGASTVMMGSLLAATTEAPGEYFFSDGVRLKKYRGMGSLDAMEKSSSSQKRYFSEGDKVKIAQGVSGSIQDKGSIQKFVPYLIAGIQHGCQDIGARSLSVLRSMMYSGELKFEKRTMSAQIEGGVHGLHSYEKRLY
+  mutant_sequence: MADYLISGGTGYVPEDGLTAQQLFASADGLTYNDFLILPGFIDFIADEVDLTSALTRKITLKTPLISSPMDTVTEADMAIAMALMGGIGFIHHNCTPEFQANEVRKVKKFEQGFITDPVVLSPSHTVGDVLEAKMRHGFSGIPITETGTMGSKLVGIVTSRDIDFLAEKDHTTLLSEVMTPRIELVVAPAGVTLKEANEILQRSKKGKLPIVNDCDELVAIIARTNLKKNRDYPLASKDSQKQLLCGAAVGTREDDKYRLDLLTQAGVDVIVLDSSQGNSVYQIAMVHYIKQKYPHLQVIGGNVVTAAQAKNLIDAGVDGLRVGMGCGSICITQEVMACGRPQGTAVYKVAEYARRFGVPIIADGGIQTVGHVVKALALGASTVMMGSLLAATTEAPGEYFFSDGVRLKKYRGMGSLDAMEKSSSSQKRYFSEGDKVKIAQGVSGSIQDKGSIQKFVPYLIAGIQHGCQDIGARSLSVLRSMMYSGELKFEKRTMSAQIEGGVHGLHSYEKRLY
+complexes: null
+small_molecules:
+- id: substrate_inosine_5_-phosphate
+  name: inosine 5'-phosphate
+  canonical_smiles: P(=O)(O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N1C=NC=2C(O)=NC=NC12)O)O
+  inchi: InChI=1S/C10H13N4O8P/c15-6-4(1-21-23(18,19)20)22-10(7(6)16)14-3-13-5-8(14)11-2-12-9(5)17/h2-4,6-7,10,15-16H,1H2,(H,11,12,17)(H2,18,19,20)/t4-,6-,7-,10-/m1/s1
+  inchikey: GRSZFWQUAKGDAV-KQYNXXCUSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/135398640
+- id: product
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N
+  inchi: InChI=1S/C21H27N7O14P2/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(32)14(30)11(41-21)6-39-44(36,37)42-43(34,35)38-5-10-13(29)15(31)20(40-10)27-3-1-2-9(4-27)18(23)33/h1-4,7-8,10-11,13-16,20-21,29-32H,5-6H2,(H5-,22,23,24,25,33,34,35,36,37)
+  inchikey: BAWFJGJZGIEFAR-UHFFFAOYSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/5892
+reactions:
+- id: reaction_P20839_inosine_5_-phosphate
+  name: Reaction catalyzed by enzyme on inosine 5'-phosphate
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_inosine_5_-phosphate
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_P20839
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_P20839_NAD_
+  name: Reaction catalyzed by enzyme on NAD+
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_P20839
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+measurements:
+- id: measurement_0
+  name: Experimental conditions (pH=8.0, T=37.0°C)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1
+  name: Experimental conditions (pH=8.0, T=25.0°C)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=8.0, T=37.0°C)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: P20839_inosine_5_-phosphate_D226N_Km_22320
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.012
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_inosine_5_-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: 'Mutation: D226N; Source: Km'
+  pubmed_id: '15882147'
+- id: P20839_inosine_5_-phosphate_D226N_Km_22324
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.011
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_inosine_5_-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: 'Mutation: D226N; Source: Km'
+  pubmed_id: '15882147'
+- id: P20839_NAD__D226N_kcat_8471
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.7
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: 'Mutation: D226N; Source: kcat'
+  pubmed_id: '15882147'
+- id: P20839_NAD__D226N_Km_22319
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.05
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: 'Mutation: D226N; Source: Km'
+  pubmed_id: '15882147'
+buffer:
+  buffer: null
+  buffer_concentration: null
+references:
+- title: L.
+  authors: Mortimer, S.E., Hedstrom
+  year: '2005'
+  journal: Autosomal dominant retinitis pigmentosa mutations in inosine 5-monophosphate
+    dehydrogenase type I disrupt nucleic acid binding. Biochem
+  uri: null
+  pubmed_id: '15882147'
+  doi: null
+  id: '66'
+  pages: 41-47
+  volume: '390'
+  citation: 'Mortimer, S.E.,Hedstrom, L., Autosomal dominant retinitis pigmentosa
+    mutations in inosine 5-monophosphate dehydrogenase type I disrupt nucleic acid
+    binding. Biochem, J., 2005, 41-47, 390, PMID: 15882147'
+- title: L.
+  authors: Xu, D., Cobb, G., Spellicy, C.J., Bowne, S.J., Daiger, S.P., Hedstrom
+  year: '2008'
+  journal: Retinal isoforms of inosine 5-monophosphate dehydrogenase type 1 are poor
+    nucleic acid binding proteins. Arch. Biochem
+  uri: null
+  pubmed_id: '18295591'
+  doi: null
+  id: '86'
+  pages: 100-104
+  volume: '472'
+  citation: 'Xu, D.,Cobb, G.,Spellicy, C.J.,Bowne, S.J.,Daiger, S.P.,Hedstrom, L.,
+    Retinal isoforms of inosine 5-monophosphate dehydrogenase type 1 are poor nucleic
+    acid binding proteins. Arch. Biochem, Biophys., 2008, 100-104, 472, PMID: 18295591'
+- title: L.
+  authors: Yu, R., Kim, Y., Maltseva, N., Braunstein, P., Joachimiak, A., Hedstrom
+  year: '2019'
+  journal: Oxanosine monophosphate is a covalent inhibitor of inosine 5'-monophosphate
+    dehydrogenase. Chem. Res
+  uri: null
+  pubmed_id: '30746940'
+  doi: null
+  id: '160'
+  pages: 456-466
+  volume: '32'
+  citation: 'Yu, R.,Kim, Y.,Maltseva, N.,Braunstein, P.,Joachimiak, A.,Hedstrom, L.,
+    Oxanosine monophosphate is a covalent inhibitor of inosine 5''-monophosphate dehydrogenase.
+    Chem. Res, Toxicol., 2019, 456-466, 32, PMID: 30746940'
+name: Merged entry for P20839 D226N
+description: 'Merged from 2 files: SKID_EC1.1.1.205_Homo_P20839_D226N_inosine_5_-phos.yaml,
+  SKID_EC1.1.1.205_Homo_P20839_D226N_NAD_.yaml'

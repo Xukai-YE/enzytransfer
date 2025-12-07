@@ -1,0 +1,280 @@
+version: '2.0'
+created: '2025-11-20T13:42:01.661169'
+modified: null
+creators:
+- given_name: SKiD
+  family_name: Database
+  mail: skid@database.org
+vessels: null
+proteins:
+- id: protein_Q5SL04
+  name: Thermus thermophilus
+  ecnumber: 1.1.1.3
+  organism: Thermus thermophilus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: null
+  uniprotid: Q5SL04
+  wildtype_sequence: MEALKIALLGGGTVGSAFYNLVLERAEELSAFGVVPRFLGVLVRDPRKPRAIPQELLRAEPFDLLEADLVVEAMGGVEAPLRLVLPALEAGIPLITANKALLAEAWESLRPFAEEGLIYHEASVMAGTPALSFLETLRGSELLELHGILNGTTLYILQEMEKGRTYAEALLEAQRLGYAEADPTLDVEGIDAAHKLTLLARLLVDPGFPFAEVEAQGIARLTPEVLQKAEARGERVRLVASLFGEGGRWRAAVAPRRLPQDHPLARARGNALWVRARPLGEAFVTGPGAGGGATASGLFADLLRFLSGAPGHLPAPRARPPLEEGSPWPGVE
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NADP_
+  name: NADP+
+  canonical_smiles: C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)(O)O)O)O)O)C(=O)N
+  inchi: InChI=1S/C21H28N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1-4,7-8,10-11,13-16,20-21,29-31H,5-6H2,(H7-,22,23,24,25,32,33,34,35,36,37,38,39)/p+1
+  inchikey: XJLXINKUBYWONI-UHFFFAOYSA-O
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/5886
+- id: product
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_L-homoserine
+  name: L-homoserine
+  canonical_smiles: N[C@@H](CCO)C(=O)O
+  inchi: InChI=1S/C4H9NO3/c5-3(1-2-6)4(7)8/h3,6H,1-2,5H2,(H,7,8)/t3-/m0/s1
+  inchikey: UKAUYVFTDYCKQA-VKHMYHEASA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/12647
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N
+  inchi: InChI=1S/C21H27N7O14P2/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(32)14(30)11(41-21)6-39-44(36,37)42-43(34,35)38-5-10-13(29)15(31)20(40-10)27-3-1-2-9(4-27)18(23)33/h1-4,7-8,10-11,13-16,20-21,29-32H,5-6H2,(H5-,22,23,24,25,33,34,35,36,37)
+  inchikey: BAWFJGJZGIEFAR-UHFFFAOYSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/5892
+reactions:
+- id: reaction_Q5SL04_NADP_
+  name: Reaction catalyzed by enzyme on NADP+
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADP_
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_Q5SL04
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_Q5SL04_L-homoserine
+  name: Reaction catalyzed by enzyme on L-homoserine
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-homoserine
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_Q5SL04
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_Q5SL04_NAD_
+  name: Reaction catalyzed by enzyme on NAD+
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_Q5SL04
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+measurements:
+- id: measurement_0
+  name: Experimental conditions (pH=10.0, T=50.0°C)
+  species_data: null
+  ph_opt: 10.0
+  temperature_opt: 50.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=10.0, T=50.0°C)
+  species_data: null
+  ph_opt: 10.0
+  temperature_opt: 50.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=9.5, T=50.0°C)
+  species_data: null
+  ph_opt: 9.5
+  temperature_opt: 50.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: Q5SL04_NADP__kcat_307
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2.12
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 10.0
+  temperature: 50.0
+  temperature_unit: °C
+  notes: 'Source: kcat'
+  pubmed_id: '30423116'
+- id: Q5SL04_NADP__Km_11412
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.11
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 10.0
+  temperature: 50.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '30423116'
+- id: Q5SL04_L-homoserine_Km_11413
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.2
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_L-homoserine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 10.0
+  temperature: 50.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '30423116'
+- id: Q5SL04_NAD__kcat_308
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 6.66
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.5
+  temperature: 50.0
+  temperature_unit: °C
+  notes: 'Source: kcat'
+  pubmed_id: '30423116'
+- id: Q5SL04_NAD__Km_11414
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.74
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.5
+  temperature: 50.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '30423116'
+buffer:
+  buffer: null
+  buffer_concentration: null
+references:
+- title: I.
+  authors: Akai, S., Ikushiro, H., Sawai, T., Yano, T., Kamiya, N., Miyahara
+  year: '2019'
+  journal: The crystal structure of homoserine dehydrogenase complexed with L-homoserine
+    and NADPH in a closed form. J
+  uri: null
+  pubmed_id: '30423116'
+  doi: null
+  id: '47'
+  pages: 185-195
+  volume: '165'
+  citation: 'Akai, S.,Ikushiro, H.,Sawai, T.,Yano, T.,Kamiya, N.,Miyahara, I., The
+    crystal structure of homoserine dehydrogenase complexed with L-homoserine and
+    NADPH in a closed form. J, Biochem., 2019, 185-195, 165, PMID: 30423116'
+name: Merged entry for Q5SL04 wildtype
+description: 'Merged from 3 files: SKID_EC1.1.1.3_Thermus_Q5SL04_NADP_.yaml, SKID_EC1.1.1.3_Thermus_Q5SL04_L-homoserine.yaml,
+  SKID_EC1.1.1.3_Thermus_Q5SL04_NAD_.yaml'

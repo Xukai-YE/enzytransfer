@@ -1,0 +1,171 @@
+name: SABIO-RK Entry 2745
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 2745
+created: '2025-10-28T13:46:14.735384'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_5_2_3_P05020_p2745
+  name: dihydroorotase
+  ecnumber: 3.5.2.3
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: D250E
+  uniprotid: P05020
+  wildtype_sequence: MTAPSQVLKIRRPDDWHLHLRDGDMLKTVVPYTSEIYGRAIVMPNLAPPVTTVEAAVAYRQRILDAVPAGHDFTPLMTCYLTDSLDPNELERGFNEGVFTAAKLYPANATTNSSHGVTSIDAIMPVLERMEKIGMPLLVHGEVTHADIDIFDREARFIESVMEPLRQRLTALKVVFEHITTKDAADYVRDGNERLAATITPQHLMFNRNHMLVGGVRPHLYCLPILKRNIHQQALRELVASGFNRVFLGTDSAPHARHRKESSCGCAGCFNAPTALGSYATVFEEMNALQHFEAFCSVNGPQFYGLPVNDTFIELVREEQQVAESIALTDDTLVPFLAGETVRWSVKQ
+  mutant_sequence: MTAPSQVLKIRRPDDWHLHLRDGDMLKTVVPYTSEIYGRAIVMPNLAPPVTTVEAAVAYRQRILDAVPAGHDFTPLMTCYLTDSLDPNELERGFNEGVFTAAKLYPANATTNSSHGVTSIDAIMPVLERMEKIGMPLLVHGEVTHADIDIFDREARFIESVMEPLRQRLTALKVVFEHITTKDAADYVRDGNERLAATITPQHLMFNRNHMLVGGVRPHLYCLPILKRNIHQQALRELVASGFNRVFLGTESAPHARHRKESSCGCAGCFNAPTALGSYATVFEEMNALQHFEAFCSVNGPQFYGLPVNDTFIELVREEQQVAESIALTDDTLVPFLAGETVRWSVKQ
+  position_offset: 1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_N-Carbamoyl-L-aspartate
+  name: N-Carbamoyl-L-aspartate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Dihydroorotate
+  name: L-Dihydroorotate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_399_EC3_5_2_3_Escherichia_coli_P05020_N-Carbamoyl-L-aspartate
+  name: Reaction catalyzed by dihydroorotase on N-Carbamoyl-L-aspartate
+  equation: H2O + L-Dihydroorotate = N-Carbamoyl-L-aspartate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N-Carbamoyl-L-aspartate
+  products:
+  - species_id: product_L-Dihydroorotate
+  modifiers:
+  - species_id: protein_3_5_2_3_P05020_p2745
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 24296;24297;24298;24299
+  KEGGid: R01993
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:12496; CHEBI:42857;
+    CHEBI:41979; CHEBI:417; CHEBI:18777; CHEBI:21687; CHEBI:42043; CHEBI:12593; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:7257; CHEBI:15377; CHEBI:17025; CHEBI:21688; CHEBI:32814;
+    CHEBI:13352; CHEBI:42132; CHEBI:11063; CHEBI:43228; CHEBI:44316; CHEBI:44292;
+    CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:18778; CHEBI:15859; CHEBI:30864;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00337; KEGG:C00001; KEGG:C00438'
+measurements:
+- id: measurement_3_5_2_3_Escherichia_coli_P05020_N-Carbamoyl-L-aspartate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 5.8
+  temperature_opt: null
+  temperature_unit: null
+parameters:
+- id: 3_5_2_3_Escherichia_coli_P05020_N-Carbamoyl-L-aspartate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0019
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Carbamoyl-L-aspartate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.8
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15610022'
+- id: 3_5_2_3_Escherichia_coli_P05020_N-Carbamoyl-L-aspartate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 6300.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Carbamoyl-L-aspartate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.8
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15610022'
+- id: 3_5_2_3_Escherichia_coli_P05020_N-Carbamoyl-L-aspartate_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 12.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Carbamoyl-L-aspartate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.8
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15610022'
+buffer:
+  buffer: 50 mM MES
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 2745
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15610022/
+  pubmed_id: '15610022'
+  doi: null

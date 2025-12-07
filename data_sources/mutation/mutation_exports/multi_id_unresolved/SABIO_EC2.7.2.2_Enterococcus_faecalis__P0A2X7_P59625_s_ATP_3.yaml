@@ -1,0 +1,155 @@
+name: SABIO-RK Entry 22602
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 22602
+created: '2025-10-28T14:20:28.465287'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_2_2_P0A2X7_P59625_p22602
+  name: acetate kinase
+  sequence: null
+  ecnumber: 2.7.2.2
+  organism: Enterococcus faecalis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P0A2X7; P59625
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Acetate
+  name: Acetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Acetyl_phosphate
+  name: Acetyl phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_71_EC2_7_2_2_Enterococcus_faecalis_P0A2X7_P59625_ATP
+  name: Reaction catalyzed by acetate kinase on ATP
+  equation: ATP + Acetate = ADP + Acetyl phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Acetate
+  products:
+  - species_id: product_Acetyl_phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_2_2_P0A2X7_P59625_p22602
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 11352;11353;11354;11355
+  KEGGid: R00315
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:40480; CHEBI:16761; CHEBI:10789;
+    CHEBI:57299; CHEBI:40553; CHEBI:13704; CHEBI:15366; CHEBI:40486; CHEBI:22169;
+    CHEBI:13236; CHEBI:2387; CHEBI:10841; CHEBI:30089; CHEBI:2359; CHEBI:87518; CHEBI:40938;
+    CHEBI:13711; CHEBI:22165; CHEBI:456216; CHEBI:2407; CHEBI:15350; CHEBI:22249;
+    CHEBI:2342; CHEBI:15422; CHEBI:22191; CHEBI:46262; CHEBI:13222; CHEBI:22244
+
+    KEGG IDs: KEGG:C00002; KEGG:C00008; KEGG:C00227; KEGG:C00033'
+measurements:
+- id: measurement_2_7_2_2_Enterococcus_faecalis_P0A2X7_P59625_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 29.0
+  temperature_unit: °C
+parameters:
+- id: 2_7_2_2_Enterococcus_faecalis_P0A2X7_P59625_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.7
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 29.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14081915'
+buffer:
+  buffer: 35.7 mM Tris, 7.1 mM MgCl2, 0.08 mM CoA, 19.3 U/ml transacetylase
+  buffer_concentration: 35.7 mM
+references:
+- title: Reference for SABIO-RK entry 22602
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/14081915/
+  pubmed_id: '14081915'
+  doi: null

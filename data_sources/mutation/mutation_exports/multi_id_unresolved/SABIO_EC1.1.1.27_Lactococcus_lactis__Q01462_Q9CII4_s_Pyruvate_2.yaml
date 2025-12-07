@@ -1,0 +1,192 @@
+name: SABIO-RK Entry 33694
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 33694
+created: '2025-10-28T14:49:58.472265'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_27_Q01462_Q9CII4_p33694
+  name: With NAD(+) or NADP(+) as acceptor
+  sequence: null
+  ecnumber: 1.1.1.27
+  organism: Lactococcus lactis subsp. lactis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q01462; Q9CII4
+complexes: null
+small_molecules:
+- id: substrate_Pyruvate
+  name: Pyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Lactate
+  name: L-Lactate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Phosphate
+  name: Phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_61_EC1_1_1_27_Lactococcus_lactis_Q01462_Q9CII4_Pyruvate
+  name: Reaction catalyzed by With NAD(+) or NADP(+) as acceptor on Pyruvate
+  equation: L-Lactate + NAD+ = NADH + H+ + Pyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Pyruvate
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_L-Lactate
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_1_1_27_Q01462_Q9CII4_p33694
+    role: BIOCATALYST
+  - species_id: activator_Phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 23444;23445;23446;23447
+  KEGGid: R00703
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:29137; CHEBI:43470; CHEBI:18367; CHEBI:35780;
+    CHEBI:26020; CHEBI:18783; CHEBI:14987; CHEBI:422; CHEBI:12411; CHEBI:26078; CHEBI:44281;
+    CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:13357; CHEBI:29139; CHEBI:21902;
+    CHEBI:15361; CHEBI:13396; CHEBI:21901; CHEBI:39739; CHEBI:24636; CHEBI:44214;
+    CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:39745; CHEBI:26466; CHEBI:57945; CHEBI:44216;
+    CHEBI:11065; CHEBI:7793; CHEBI:26462; CHEBI:57540; CHEBI:7423; CHEBI:16651; CHEBI:8685;
+    CHEBI:45024; CHEBI:13389; CHEBI:13395; CHEBI:15378; CHEBI:32816; CHEBI:43474;
+    CHEBI:10744; CHEBI:44215; CHEBI:45253; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00186; KEGG:C00080; KEGG:C00022; KEGG:C00009; KEGG:C00003; KEGG:C00004'
+measurements:
+- id: measurement_1_1_1_27_Lactococcus_lactis_Q01462_Q9CII4_Pyruvate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1_27_Lactococcus_lactis_Q01462_Q9CII4_Pyruvate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0041
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Pyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15006814'
+- id: 1_1_1_27_Lactococcus_lactis_Q01462_Q9CII4_Pyruvate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.000193337
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Pyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15006814'
+- id: 1_1_1_27_Lactococcus_lactis_Q01462_Q9CII4_Pyruvate_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00014
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Pyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15006814'
+buffer:
+  buffer: 50 mM Triethanolamine
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 33694
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15006814/
+  pubmed_id: '15006814'
+  doi: null

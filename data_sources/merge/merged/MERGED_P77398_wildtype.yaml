@@ -1,0 +1,617 @@
+version: '2.0'
+created: '2025-11-20T13:39:20.087844'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+- given_name: SKiD
+  family_name: Database
+  mail: skid@database.org
+vessels: null
+proteins:
+- id: protein_1_1_1_305_P77398_p47600
+  name: UDP-glucuronic acid dehydrogenase (UDP-4-keto-hexauronic acid decarboxylating)
+  ecnumber: 1.1.1.305
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P77398
+  wildtype_sequence: MKTVVFAYHDMGCLGIEALLAAGYEISAIFTHTDNPGEKAFYGSVARLAAERGIPVYAPDNVNHPLWVERIAQLSPDVIFSFYYRHLIYDEILQLAPAGAFNLHGSLLPKYRGRAPLNWVLVNGETETGVTLHRMVKRADAGAIVAQLRIAIAPDDIAITLHHKLCHAARQLLEQTLPAIKHGNILEIAQRENEATCFGRRTPDDSFLEWHKPASVLHNMVRAVADPWPGAFSYVGNQKFTVWSSRVHPHASKAQPGSVISVAPLLIACGDGALEIVTGQAGDGITMQGSQLAQTLGLVQGSRLNSQPACTARRRTRVLILGVNGFIGNHLTERLLREDHYEVYGLDIGSDAISRFLNHPHFHFVEGDISIHSEWIEYHVKKCDVVLPLVAIATPIEYTRNPLRVFELDFEENLRIIRYCVKYRKRIIFPSTSEVYGMCSDKYFDEDHSNLIVGPVNKPRWIYSVSKQLLDRVIWAYGEKEGLQFTLFRPFNWMGPRLDNLNAARIGSSRAITQLILNLVEGSPIKLIDGGKQKRCFTDIRDGIEALYRIIENAGNRCDGEIINIGNPENEASIEELGEMLLASFEKHPLRHHFPPFAGFRVVESSSYYGKGYQDVEHRKPSIRNAHRCLDWEPKIDMQETIDETLDFFLRTVDLTDKPS
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_UDPglucuronate
+  name: UDPglucuronate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_UDP-beta-L-threo-pentapyranos-4-ulose
+  name: UDP-beta-L-threo-pentapyranos-4-ulose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_UDP-glucuronate
+  name: UDP-glucuronate
+  canonical_smiles: C1=CN(C(=O)NC1=O)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OC3C(C(C(C(O3)C(=O)O)O)O)O)O)O
+  inchi: InChI=1S/C15H22N2O18P2/c18-5-1-2-17(15(26)16-5)12-9(22)6(19)4(32-12)3-31-36(27,28)35-37(29,30)34-14-10(23)7(20)8(21)11(33-14)13(24)25/h1-2,4,6-12,14,19-23H,3H2,(H,24,25)(H,27,28)(H,29,30)(H,16,18,26)
+  inchikey: HDYANYHVCAPMJV-UHFFFAOYSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/17473
+reactions:
+- id: sabiork_12883_EC1_1_1_305_Escherichia_coli_P77398_NAD_
+  name: Reaction catalyzed by UDP-glucuronic acid dehydrogenase (UDP-4-keto-hexauronic
+    acid decarboxylating) on NAD+
+  equation: NAD+ + UDPglucuronate = NADH + H+ + CO2 + UDP-beta-L-threo-pentapyranos-4-ulose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_UDPglucuronate
+  products:
+  - species_id: product_CO2
+  - species_id: product_NADH
+  - species_id: product_UDP-beta-L-threo-pentapyranos-4-ulose
+  modifiers:
+  - species_id: protein_1_1_1_305_P77398_p47600
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 24702;24703;24704;24705
+  KEGGid: R07658
+  notes: 'ChEBI IDs: CHEBI:13506; CHEBI:139538; CHEBI:44281; CHEBI:22104; CHEBI:13489;
+    CHEBI:46309; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:3283; CHEBI:13357; CHEBI:21902;
+    CHEBI:17200; CHEBI:13396; CHEBI:21901; CHEBI:9846; CHEBI:24636; CHEBI:58052; CHEBI:44214;
+    CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:23011; CHEBI:58710; CHEBI:57945; CHEBI:44216;
+    CHEBI:13285; CHEBI:13282; CHEBI:57540; CHEBI:7423; CHEBI:13283; CHEBI:13389; CHEBI:47028;
+    CHEBI:15378; CHEBI:13284; CHEBI:13395; CHEBI:16526; CHEBI:48829; CHEBI:44215;
+    CHEBI:10744; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C16155; KEGG:C00167; KEGG:C00080; KEGG:C00011; KEGG:C00003; KEGG:C00004'
+- id: sabiork_12883_EC1_1_1_305_Escherichia_coli_P77398_NAD_
+  name: Reaction catalyzed by UDP-glucuronic acid dehydrogenase (UDP-4-keto-hexauronic
+    acid decarboxylating) on NAD+
+  equation: NAD+ + UDPglucuronate = NADH + H+ + CO2 + UDP-beta-L-threo-pentapyranos-4-ulose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_UDPglucuronate
+  products:
+  - species_id: product_UDP-beta-L-threo-pentapyranos-4-ulose
+  - species_id: product_CO2
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_1_1_305_P77398_p47598
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 24702;24703;24704;24705
+  KEGGid: R07658
+  notes: 'ChEBI IDs: CHEBI:13506; CHEBI:139538; CHEBI:44281; CHEBI:22104; CHEBI:13489;
+    CHEBI:46309; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:3283; CHEBI:13357; CHEBI:21902;
+    CHEBI:17200; CHEBI:13396; CHEBI:21901; CHEBI:9846; CHEBI:24636; CHEBI:58052; CHEBI:44214;
+    CHEBI:29233; CHEBI:13394; CHEBI:5584; CHEBI:23011; CHEBI:58710; CHEBI:57945; CHEBI:44216;
+    CHEBI:13285; CHEBI:13282; CHEBI:57540; CHEBI:7423; CHEBI:13283; CHEBI:13389; CHEBI:47028;
+    CHEBI:15378; CHEBI:13284; CHEBI:13395; CHEBI:16526; CHEBI:48829; CHEBI:44215;
+    CHEBI:10744; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C16155; KEGG:C00167; KEGG:C00080; KEGG:C00011; KEGG:C00003; KEGG:C00004'
+- id: sabiork_12883_EC1_1_1_305_Escherichia_coli_P77398_NAD_
+  name: Reaction catalyzed by UDP-glucuronic acid dehydrogenase (UDP-4-keto-hexauronic
+    acid decarboxylating) on NAD+
+  equation: NAD+ + UDPglucuronate = NADH + H+ + CO2 + UDP-beta-L-threo-pentapyranos-4-ulose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_UDPglucuronate
+  products:
+  - species_id: product_NADH
+  - species_id: product_CO2
+  - species_id: product_UDP-beta-L-threo-pentapyranos-4-ulose
+  modifiers:
+  - species_id: protein_1_1_1_305_P77398_p47599
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 24702;24703;24704;24705
+  KEGGid: R07658
+  notes: 'ChEBI IDs: CHEBI:13506; CHEBI:139538; CHEBI:44281; CHEBI:22104; CHEBI:13489;
+    CHEBI:46309; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:3283; CHEBI:13357; CHEBI:21902;
+    CHEBI:17200; CHEBI:13396; CHEBI:21901; CHEBI:9846; CHEBI:24636; CHEBI:58052; CHEBI:44214;
+    CHEBI:29233; CHEBI:13394; CHEBI:23011; CHEBI:5584; CHEBI:58710; CHEBI:57945; CHEBI:44216;
+    CHEBI:13285; CHEBI:13282; CHEBI:57540; CHEBI:7423; CHEBI:13283; CHEBI:13389; CHEBI:47028;
+    CHEBI:13395; CHEBI:13284; CHEBI:15378; CHEBI:16526; CHEBI:48829; CHEBI:44215;
+    CHEBI:10744; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C16155; KEGG:C00167; KEGG:C00080; KEGG:C00011; KEGG:C00003; KEGG:C00004'
+- id: sabiork_12883_EC1_1_1_305_Escherichia_coli_P77398_UDPglucuronate
+  name: Reaction catalyzed by UDP-glucuronic acid dehydrogenase (UDP-4-keto-hexauronic
+    acid decarboxylating) on UDPglucuronate
+  equation: NAD+ + UDPglucuronate = NADH + H+ + CO2 + UDP-beta-L-threo-pentapyranos-4-ulose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_UDPglucuronate
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_CO2
+  - species_id: product_NADH
+  - species_id: product_UDP-beta-L-threo-pentapyranos-4-ulose
+  modifiers:
+  - species_id: protein_1_1_1_305_P77398_p47597
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 24702;24703;24704;24705
+  KEGGid: R07658
+  notes: 'ChEBI IDs: CHEBI:13506; CHEBI:139538; CHEBI:44281; CHEBI:22104; CHEBI:13489;
+    CHEBI:46309; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:3283; CHEBI:13357; CHEBI:21902;
+    CHEBI:17200; CHEBI:13396; CHEBI:21901; CHEBI:9846; CHEBI:24636; CHEBI:58052; CHEBI:44214;
+    CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:23011; CHEBI:58710; CHEBI:57945; CHEBI:44216;
+    CHEBI:13285; CHEBI:13282; CHEBI:57540; CHEBI:7423; CHEBI:13283; CHEBI:13389; CHEBI:47028;
+    CHEBI:15378; CHEBI:13284; CHEBI:13395; CHEBI:16526; CHEBI:48829; CHEBI:44215;
+    CHEBI:10744; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C16155; KEGG:C00167; KEGG:C00080; KEGG:C00011; KEGG:C00003; KEGG:C00004'
+- id: sabiork_12883_EC1_1_1_305_bovine_P77398_UDPglucuronate
+  name: Reaction catalyzed by UDP-glucuronic acid dehydrogenase (UDP-4-keto-hexauronic
+    acid decarboxylating) on UDPglucuronate
+  equation: NAD+ + UDPglucuronate = NADH + H+ + CO2 + UDP-beta-L-threo-pentapyranos-4-ulose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_UDPglucuronate
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_NADH
+  - species_id: product_CO2
+  - species_id: product_UDP-beta-L-threo-pentapyranos-4-ulose
+  modifiers:
+  - species_id: protein_1_1_1_305_P77398_p44256
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 24702;24703;24704;24705
+  KEGGid: R07658
+  notes: 'ChEBI IDs: CHEBI:13506; CHEBI:139538; CHEBI:44281; CHEBI:22104; CHEBI:13489;
+    CHEBI:46309; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:3283; CHEBI:13357; CHEBI:21902;
+    CHEBI:17200; CHEBI:13396; CHEBI:21901; CHEBI:9846; CHEBI:24636; CHEBI:58052; CHEBI:44214;
+    CHEBI:29233; CHEBI:13394; CHEBI:23011; CHEBI:5584; CHEBI:58710; CHEBI:57945; CHEBI:44216;
+    CHEBI:13285; CHEBI:13282; CHEBI:57540; CHEBI:7423; CHEBI:13283; CHEBI:13389; CHEBI:47028;
+    CHEBI:13395; CHEBI:13284; CHEBI:15378; CHEBI:16526; CHEBI:48829; CHEBI:44215;
+    CHEBI:10744; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C16155; KEGG:C00167; KEGG:C00080; KEGG:C00011; KEGG:C00003; KEGG:C00004'
+- id: sabiork_12883_EC1_1_1_305_bovine_P77398_UDPglucuronate
+  name: Reaction catalyzed by UDP-glucuronic acid dehydrogenase (UDP-4-keto-hexauronic
+    acid decarboxylating) on UDPglucuronate
+  equation: NAD+ + UDPglucuronate = NADH + H+ + CO2 + UDP-beta-L-threo-pentapyranos-4-ulose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_UDPglucuronate
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_CO2
+  - species_id: product_NADH
+  - species_id: product_UDP-beta-L-threo-pentapyranos-4-ulose
+  modifiers:
+  - species_id: protein_1_1_1_305_P77398_p44259
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 24702;24703;24704;24705
+  KEGGid: R07658
+  notes: 'ChEBI IDs: CHEBI:13506; CHEBI:139538; CHEBI:44281; CHEBI:22104; CHEBI:13489;
+    CHEBI:46309; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:3283; CHEBI:13357; CHEBI:21902;
+    CHEBI:17200; CHEBI:13396; CHEBI:21901; CHEBI:9846; CHEBI:24636; CHEBI:58052; CHEBI:44214;
+    CHEBI:29233; CHEBI:13394; CHEBI:23011; CHEBI:5584; CHEBI:58710; CHEBI:57945; CHEBI:44216;
+    CHEBI:13285; CHEBI:13282; CHEBI:57540; CHEBI:7423; CHEBI:13283; CHEBI:13389; CHEBI:47028;
+    CHEBI:15378; CHEBI:13284; CHEBI:13395; CHEBI:16526; CHEBI:48829; CHEBI:44215;
+    CHEBI:10744; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C16155; KEGG:C00167; KEGG:C00080; KEGG:C00011; KEGG:C00003; KEGG:C00004'
+- id: reaction_P77398_NAD_
+  name: Reaction catalyzed by enzyme on NAD+
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_P77398
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_P77398_UDP-glucuronate
+  name: Reaction catalyzed by enzyme on UDP-glucuronate
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_UDP-glucuronate
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_P77398
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+measurements:
+- id: measurement_1_1_1_305_Escherichia_coli_P77398_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_1_1_305_Escherichia_coli_P77398_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_1_1_305_Escherichia_coli_P77398_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_1_1_305_Escherichia_coli_P77398_UDPglucuronate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_1_1_305_bovine_P77398_UDPglucuronate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_305_bovine_P77398_UDPglucuronate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=7.5, T=30.0°C)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1
+  name: Experimental conditions (pH=8.0, T=37.0°C)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=8.0, T=37.0°C)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1
+  name: Experimental conditions (pH=7.5, T=30.0°C)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1_305_Escherichia_coli_P77398_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.4e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15491143'
+- id: 1_1_1_305_Escherichia_coli_P77398_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00057
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15491143'
+- id: 1_1_1_305_Escherichia_coli_P77398_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 8.6e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15491143'
+- id: 1_1_1_305_Escherichia_coli_P77398_UDPglucuronate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00076
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDPglucuronate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15491143'
+- id: 1_1_1_305_bovine_P77398_UDPglucuronate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1
+  initial_value: 1.083333e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDPglucuronate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15809294'
+- id: 1_1_1_305_bovine_P77398_UDPglucuronate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0007
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDPglucuronate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15809294'
+- id: 1_1_1_305_bovine_P77398_UDPglucuronate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0013
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDPglucuronate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15809294'
+- id: 1_1_1_305_bovine_P77398_UDPglucuronate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1
+  initial_value: 1.133333e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDPglucuronate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15809294'
+- id: P77398_NAD__Km_11424
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 1.3
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '15809294'
+- id: P77398_NAD__Km_11427
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.658179306876173
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '15491143'
+- id: P77398_UDP-glucuronate_Km_11425
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.0681469001496032
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_UDP-glucuronate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '15491143'
+- id: P77398_UDP-glucuronate_Km_11426
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.7
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_UDP-glucuronate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '15809294'
+buffer:
+  buffer: 25 mM Tris, 5 mM 2-mercaptoethanol, 0.2 mg/ml BSA, 10% glycerol, 100 mM
+    KCl; 50 mM HEPES, 300 mM NaCl, 2 mM Dithiothreitol, 0.2 mg/ml Bovine serum albumin
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 47600
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15491143/
+  pubmed_id: '15491143'
+  doi: null
+- title: Reference for SABIO-RK entry 44256
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15809294/
+  pubmed_id: '15809294'
+  doi: null
+name: Merged entry for P77398 wildtype
+description: 'Merged from 8 files: SABIO_EC1.1.1.305_Escherichia_coli__P77398_s_NAD__3.yaml,
+  SABIO_EC1.1.1.305_Escherichia_coli__P77398_s_NAD_.yaml, SABIO_EC1.1.1.305_Escherichia_coli__P77398_s_NAD__2.yaml,
+  SABIO_EC1.1.1.305_Escherichia_coli__P77398_s_UDPglucuronate.yaml, SABIO_EC1.1.1.305_bovine__P77398_s_UDPglucuronate.yaml,
+  SABIO_EC1.1.1.305_bovine__P77398_s_UDPglucuronate_2.yaml, SKID_EC1.1.1.305_Escherichi_P77398_NAD_.yaml,
+  SKID_EC1.1.1.305_Escherichi_P77398_UDP-glucuronate.yaml'

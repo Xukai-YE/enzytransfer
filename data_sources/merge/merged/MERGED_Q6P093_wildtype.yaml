@@ -1,0 +1,331 @@
+version: '2.0'
+created: '2025-11-20T13:40:55.865263'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_1_1__Q6P093_p52384
+  name: triacylglycerol lipase
+  ecnumber: 3.1.1.
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q6P093
+  wildtype_sequence: MGLKALCLGLLCVLFVSHFYTPMPDNIEESWKIMALDAIAKTCTFTAMCFENMRIMRYEEFISMIFRLDYTQPLSDEYITVTDTTFVDIPVRLYLPKRKSETRRRAVIYFHGGGFCFGSSKQRAFDFLNRWTANTLDAVVVGVDYRLAPQHHFPAQFEDGLAAVKFFLLEKILTKYGVDPTRICIAGDSSGGNLATAVTQQVQNDAEIKHKIKMQVLLYPGLQITDSYLPSHRENEHGIVLTRDVAIKLVSLYFTKDEALPWAMRRNQHMPLESRHLFKFVNWSILLPEKYRKDYVYTEPILGGLSYSLPGLTDSRALPLLANDSQLQNLPLTYILTCQHDLLRDDGLMYVTRLRNVGVQVVHEHIEDGIHGALSFMTSPFYLRLGLRIRDMYVSWLDKNL
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Flutamide
+  name: Flutamide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4-Nitro-3-trifluoromethyl-phenylamine
+  name: 4-Nitro-3-trifluoromethyl-phenylamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Isobutanoate
+  name: Isobutanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Rifampicin
+  name: Rifampicin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_25-Deacetylrifampicin
+  name: 25-Deacetylrifampicin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Acetate
+  name: Acetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Phenacetin
+  name: Phenacetin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_p-Phenetidine
+  name: p-Phenetidine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_12773_EC3_1_1__Homo_sapiens_Q6P093_Flutamide
+  name: Reaction catalyzed by triacylglycerol lipase on Flutamide
+  equation: H2O + Flutamide = Isobutanoate + 4-Nitro-3-trifluoromethyl-phenylamine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Flutamide
+  products:
+  - species_id: product_4-Nitro-3-trifluoromethyl-phenylamine
+  - species_id: product_Isobutanoate
+  modifiers:
+  - species_id: protein_3_1_1__Q6P093_p52384
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:19710; CHEBI:25337;
+    CHEBI:40653; CHEBI:16135; CHEBI:42857; CHEBI:41979; CHEBI:25334; CHEBI:5132; CHEBI:42043;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:48944;
+    CHEBI:43397; CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:1212; CHEBI:11627; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C02632; KEGG:C00001; KEGG:C07653'
+- id: sabiork_13452_EC3_1_1__Homo_sapiens_Q6P093_Rifampicin
+  name: Reaction catalyzed by triacylglycerol lipase on Rifampicin
+  equation: H2O + Rifampicin = Acetate + 25-Deacetylrifampicin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Rifampicin
+  products:
+  - species_id: product_25-Deacetylrifampicin
+  - species_id: product_Acetate
+  modifiers:
+  - species_id: protein_3_1_1__Q6P093_p52390
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:40480; CHEBI:44819; CHEBI:41981; CHEBI:13704;
+    CHEBI:28077; CHEBI:15366; CHEBI:42857; CHEBI:41979; CHEBI:40486; CHEBI:22169;
+    CHEBI:2387; CHEBI:42043; CHEBI:30089; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377;
+    CHEBI:13352; CHEBI:22165; CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743;
+    CHEBI:29374; CHEBI:5585; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C06688; KEGG:C00033; KEGG:C00001'
+- id: sabiork_13451_EC3_1_1__Homo_sapiens_Q6P093_Phenacetin
+  name: Reaction catalyzed by triacylglycerol lipase on Phenacetin
+  equation: H2O + Phenacetin = Acetate + p-Phenetidine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Phenacetin
+  products:
+  - species_id: product_Acetate
+  - species_id: product_p-Phenetidine
+  modifiers:
+  - species_id: protein_3_1_1__Q6P093_p52387
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:40480; CHEBI:44819; CHEBI:41981; CHEBI:13704;
+    CHEBI:15366; CHEBI:42857; CHEBI:41979; CHEBI:40486; CHEBI:22169; CHEBI:2387; CHEBI:42043;
+    CHEBI:30089; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352;
+    CHEBI:22165; CHEBI:43228; CHEBI:44292; CHEBI:8050; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:85505; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00033; KEGG:C00001; KEGG:C07591'
+measurements:
+- id: measurement_3_1_1__Homo_sapiens_Q6P093_Flutamide
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_3_1_1__Homo_sapiens_Q6P093_Rifampicin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_3_1_1__Homo_sapiens_Q6P093_Phenacetin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_1_1__Homo_sapiens_Q6P093_Flutamide_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000348
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Flutamide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22415931'
+- id: 3_1_1__Homo_sapiens_Q6P093_Flutamide_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: moldivs
+  initial_value: 5.516667e-12
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Flutamide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22415931'
+- id: 3_1_1__Homo_sapiens_Q6P093_Rifampicin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000129
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Rifampicin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22415931'
+- id: 3_1_1__Homo_sapiens_Q6P093_Rifampicin_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: moldivs
+  initial_value: 1.1e-12
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Rifampicin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22415931'
+- id: 3_1_1__Homo_sapiens_Q6P093_Phenacetin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00152
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Phenacetin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22415931'
+- id: 3_1_1__Homo_sapiens_Q6P093_Phenacetin_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: moldivs
+  initial_value: 1.535e-11
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Phenacetin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22415931'
+buffer:
+  buffer: 100 mM Potassium phosphate, 1.0% DMSO; 100 mM Potassium phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 52384
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/22415931/
+  pubmed_id: '22415931'
+  doi: null
+name: Merged entry for Q6P093 wildtype
+description: 'Merged from 3 files: SABIO_EC3.1.1._Homo_sapiens__Q6P093_s_Flutamide.yaml,
+  SABIO_EC3.1.1._Homo_sapiens__Q6P093_s_Rifampicin.yaml, SABIO_EC3.1.1._Homo_sapiens__Q6P093_s_Phenacetin.yaml'

@@ -1,0 +1,248 @@
+version: '2.0'
+created: '2025-11-20T13:41:20.310691'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_5_4_6_Q54DD0_p60264
+  name: AMP deaminase
+  ecnumber: 3.5.4.6
+  organism: Dictyostelium discoideum
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q54DD0
+  wildtype_sequence: MSTPLRGSSPQVSFYESELDQEGGSDASHFTYRNYMEDDKINSFTFNMARKDQTQLFQRIILTNESESEIEEYAEVAEQLLDAINLREKYVFHPKIWKADAPVGEKPPYSPFESDESTNCATEHMFKEVNGVYFVYSNETDMKSNKALFSVPHTLASYYKDINNLMMLSSYGPAKTFTFKRLQLLESKFNMHTLLNDSLELFQQKTAPHRDFYNVRKVDTHVHHSSSMNQKHLLKFIKRKLKENPNEIVIFRDDKYLTLAEVFKSLNLDVDELSVDTLDVHADNNTFHRFDKFNLKYNPCGQSRLREIFLKTDNLIKGKYLAEISKEVFTDLESSKYQCAEYRLSIYGRKMSEWDTLASWIVDNDLFSTKVRWLIQVPRLYDVYRETSTTTFQDFLNNVFHPLFEVTKDPSSHPKLHLFLQQVVGIDCVDDESKFEKKFTEKFPVPGEWSSEHNPPYTYYLYYLYANLYTLNQFREEKGLNILTLRPHSGEAGEVDHMGAAFYLAHGINHGINLRKTPVLQYLYYLTQIGIAMSPLSNNSLFLTYNRNPFPAFFARGLNVSISTDDPLQFHYTKEPLMEEYSIATQVWRLSVCDICEIARNSVLQSGFEHNVKSHWLGPDYANSGGNDIKKTNISDIRVCFRNETLIEELHLILKSLQTLPNFKNLNINFLLDKLPSEITTGNDYKLKKAQLKLNGANKLRNSSVGSTPNNGTPSSSGTPSLSSPGAIVHLMKTKPYIPPPLSLNIKQENNNNNNNNNNNNNNNNNNNTNTNTNSNSTTTNQDDNSKSDK
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_AMP
+  name: AMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NH3
+  name: NH3
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_IMP
+  name: IMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_135_EC3_5_4_6_Dictyostelium_discoideum_Q54DD0_AMP
+  name: Reaction catalyzed by AMP deaminase on AMP
+  equation: H2O + AMP = IMP + NH3
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_AMP
+  products:
+  - species_id: product_NH3
+  - species_id: product_IMP
+  modifiers:
+  - species_id: protein_3_5_4_6_Q54DD0_p60264
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 14777;14778;14779;14780
+  KEGGid: R00181
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44284; CHEBI:43418; CHEBI:44819; CHEBI:40726;
+    CHEBI:41981; CHEBI:22245; CHEBI:16134; CHEBI:13405; CHEBI:12057; CHEBI:7434; CHEBI:19271;
+    CHEBI:40510; CHEBI:22242; CHEBI:13736; CHEBI:42857; CHEBI:47222; CHEBI:41979;
+    CHEBI:43524; CHEBI:43475; CHEBI:13407; CHEBI:456215; CHEBI:40786; CHEBI:40826;
+    CHEBI:16027; CHEBI:2356; CHEBI:58053; CHEBI:42043; CHEBI:13373; CHEBI:14457; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:22534; CHEBI:135980; CHEBI:15377; CHEBI:7435;
+    CHEBI:49783; CHEBI:43563; CHEBI:22533; CHEBI:13352; CHEBI:5849; CHEBI:12063; CHEBI:44404;
+    CHEBI:13771; CHEBI:47501; CHEBI:43228; CHEBI:44269; CHEBI:44292; CHEBI:13406;
+    CHEBI:33806; CHEBI:13740; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:13372; CHEBI:28938;
+    CHEBI:13234; CHEBI:40721; CHEBI:43611; CHEBI:17202; CHEBI:13235; CHEBI:12056;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00014; KEGG:C01342; KEGG:C00001; KEGG:C00130; KEGG:C00020'
+- id: sabiork_135_EC3_5_4_6_Dictyostelium_discoideum_Q54DD0_AMP
+  name: Reaction catalyzed by AMP deaminase on AMP
+  equation: H2O + AMP = IMP + NH3
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_AMP
+  - species_id: cofactor_ATP
+  products:
+  - species_id: product_IMP
+  - species_id: product_NH3
+  modifiers:
+  - species_id: protein_3_5_4_6_Q54DD0_p60265
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 14777;14778;14779;14780
+  KEGGid: R00181
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:29375; CHEBI:44284; CHEBI:43418;
+    CHEBI:44819; CHEBI:40726; CHEBI:41981; CHEBI:22245; CHEBI:16134; CHEBI:57299;
+    CHEBI:13405; CHEBI:12057; CHEBI:19271; CHEBI:7434; CHEBI:10789; CHEBI:40510; CHEBI:22242;
+    CHEBI:13736; CHEBI:42857; CHEBI:47222; CHEBI:41979; CHEBI:43524; CHEBI:43475;
+    CHEBI:13407; CHEBI:456215; CHEBI:13236; CHEBI:40786; CHEBI:40826; CHEBI:16027;
+    CHEBI:2356; CHEBI:58053; CHEBI:42043; CHEBI:13373; CHEBI:10841; CHEBI:2359; CHEBI:14457;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:22534; CHEBI:135980; CHEBI:15377;
+    CHEBI:7435; CHEBI:43563; CHEBI:49783; CHEBI:5849; CHEBI:13352; CHEBI:12063; CHEBI:22533;
+    CHEBI:44404; CHEBI:40938; CHEBI:13771; CHEBI:47501; CHEBI:43228; CHEBI:44269;
+    CHEBI:22249; CHEBI:44292; CHEBI:15422; CHEBI:13406; CHEBI:33806; CHEBI:13740;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:13372; CHEBI:28938; CHEBI:13234; CHEBI:40721;
+    CHEBI:43611; CHEBI:17202; CHEBI:13235; CHEBI:12056; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00014; KEGG:C00002; KEGG:C01342; KEGG:C00001; KEGG:C00130; KEGG:C00020'
+measurements:
+- id: measurement_3_5_4_6_Dictyostelium_discoideum_Q54DD0_AMP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_3_5_4_6_Dictyostelium_discoideum_Q54DD0_AMP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: 22.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_5_4_6_Dictyostelium_discoideum_Q54DD0_AMP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.66667e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_AMP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1916064'
+- id: 3_5_4_6_Dictyostelium_discoideum_Q54DD0_AMP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0016
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_AMP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1916064'
+- id: 3_5_4_6_Dictyostelium_discoideum_Q54DD0_AMP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000151
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_AMP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1916064'
+- id: 3_5_4_6_Dictyostelium_discoideum_Q54DD0_AMP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.66667e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_AMP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1916064'
+buffer:
+  buffer: 0.1 mM imidazole-HCl, 0.1 M KCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 60264
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/1916064/
+  pubmed_id: '1916064'
+  doi: null
+name: Merged entry for Q54DD0 wildtype
+description: 'Merged from 2 files: SABIO_EC3.5.4.6_Dictyostelium_discoideum__Q54DD0_s_AMP.yaml,
+  SABIO_EC3.5.4.6_Dictyostelium_discoideum__Q54DD0_s_AMP_2.yaml'

@@ -1,0 +1,178 @@
+name: SABIO-RK Entry 5930
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 5930
+created: '2025-10-28T13:49:57.441372'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_2_98_1_P00326_p5930
+  name: formaldehyde dismutase
+  sequence: null
+  ecnumber: 1.2.98.1
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: a2g
+  uniprotid: P00326
+  mutant_sequence: MSTGGKVIKCKAAVLWELKKPFSIEEVEVAPPKAHEVRIKMVAAGICRSDEHVVSGNLVTPLPVILGHEAAGIVESVGEGVTTVKPGDKVIPLFTPQCGKCRICKNPESNYCLKNDLGNPRGTLQDGTRRFTCSGKPIHHFVGVSTFSQYTVVDENAVAKIDAASPLEKVCLIGCGFSTGYGSAVKVAKVTPGSTCAVFGLGGVGLSVVMGCKAAGAARIIAVDINKDKFAKAKELGATECINPQDYKKPIQEVLKEMTDGGVDFSFEVIGRLDTMMASLLCCHEACGTSVIVGVPPDSQNLSINPMLLLTGRTWKGAIFGGFKSKESVPKLVADFMAKKFSLDALITNILPFEKINEGFDLLRSGKSIRTVLTF
+  position_offset: 2
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Butanal
+  name: Butanal
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_1-Butanol
+  name: 1-Butanol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Butanoate
+  name: Butanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7325_EC1_2_98_1_Homo_sapiens_P00326_Butanal
+  name: Reaction catalyzed by formaldehyde dismutase on Butanal
+  equation: Butanal = Butanoate + 1-Butanol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Butanal
+  products:
+  - species_id: product_1-Butanol
+  - species_id: product_Butanoate
+  modifiers:
+  - species_id: protein_1_2_98_1_P00326_p5930
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:15743; CHEBI:39632; CHEBI:41208; CHEBI:3233; CHEBI:612;
+    CHEBI:22946; CHEBI:30772; CHEBI:113450; CHEBI:13924; CHEBI:28885; CHEBI:22938;
+    CHEBI:3234; CHEBI:22936; CHEBI:17968; CHEBI:13923; CHEBI:22948
+
+    KEGG IDs: KEGG:C06142; KEGG:C00246; KEGG:C01412'
+measurements:
+- id: measurement_1_2_98_1_Homo_sapiens_P00326_Butanal
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 1_2_98_1_Homo_sapiens_P00326_Butanal_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 21.66667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Butanal
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8843167'
+- id: 1_2_98_1_Homo_sapiens_P00326_Butanal_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0012
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Butanal
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8843167'
+- id: 1_2_98_1_Homo_sapiens_P00326_Butanal_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 18333.33
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Butanal
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8843167'
+buffer:
+  buffer: 0.1 M sodium phosphate, 10.8 mM NAD+
+  buffer_concentration: 0.1 M
+references:
+- title: Reference for SABIO-RK entry 5930
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/8843167/
+  pubmed_id: '8843167'
+  doi: null

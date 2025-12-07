@@ -1,0 +1,251 @@
+version: '2.0'
+created: '2025-11-20T13:39:58.864463'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_1_1_45_P0A886_p59694
+  name: thymidylate synthase
+  ecnumber: 2.1.1.45
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: E86K
+  uniprotid: P0A886
+  wildtype_sequence: MKQYLELMQKVLDEGTQKNDRTGTGTLSIFGHQMRFNLQDGFPLVTTKRCHLRSIIHELLWFLQGDTNIAYLHENNVTIWDEWADENGDLGPVYGKQWRAWPTPDGRHIDQITTVLNQLKNDPDSRRIIVSAWNVGELDKMALAPCHAFFQFYVADGKLSCQLYQRSCDVFLGLPFNIASYALLVHMMAQQCDLEVGDFVWTGGDTHLYSNHMDQTHLQLSREPRPLPKLIIKRKPESIFDYRFEDFEIEGYDPHPGIKAPVAI
+  mutant_sequence: MKQYLELMQKVLDEGTQKNDRTGTGTLSIFGHQMRFNLQDGFPLVTTKRCHLRSIIHELLWFLQGDTNIAYLHENNVTIWDEWADKNGDLGPVYGKQWRAWPTPDGRHIDQITTVLNQLKNDPDSRRIIVSAWNVGELDKMALAPCHAFFQFYVADGKLSCQLYQRSCDVFLGLPFNIASYALLVHMMAQQCDLEVGDFVWTGGDTHLYSNHMDQTHLQLSREPRPLPKLIIKRKPESIFDYRFEDFEIEGYDPHPGIKAPVAI
+complexes: null
+small_molecules:
+- id: substrate_5
+  name: '5'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_10-Methylenetetrahydrofolate
+  name: 10-Methylenetetrahydrofolate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_dUMP
+  name: dUMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Dihydrofolate
+  name: Dihydrofolate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_dTMP
+  name: dTMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_88_EC2_1_1_45_Escherichia_coli_P0A886_5
+  name: Reaction catalyzed by thymidylate synthase on 5
+  equation: dUMP + 5,10-Methylenetetrahydrofolate = dTMP + Dihydrofolate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_5
+  - species_id: substrate_10-Methylenetetrahydrofolate
+  - species_id: substrate_dUMP
+  products:
+  - species_id: product_Dihydrofolate
+  - species_id: product_dTMP
+  modifiers:
+  - species_id: protein_2_1_1_45_P0A886_p59694
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 12104;12105;12106;12107
+  KEGGid: R02101
+  notes: 'ChEBI IDs: CHEBI:50300; CHEBI:46013; CHEBI:19263; CHEBI:15246; CHEBI:10529;
+    CHEBI:10925; CHEBI:14092; CHEBI:15636; CHEBI:46286; CHEBI:42000; CHEBI:47711;
+    CHEBI:63549; CHEBI:42245; CHEBI:12071; CHEBI:47722; CHEBI:26999; CHEBI:15245;
+    CHEBI:17622; CHEBI:14094; CHEBI:14150; CHEBI:46036; CHEBI:18602; CHEBI:12245;
+    CHEBI:45926; CHEBI:20768; CHEBI:1989; CHEBI:46288; CHEBI:45759; CHEBI:246422;
+    CHEBI:10532; CHEBI:45772; CHEBI:17013; CHEBI:15633; CHEBI:46960; CHEBI:57451;
+    CHEBI:4564; CHEBI:63528
+
+    KEGG IDs: KEGG:C00364; KEGG:C00415; KEGG:C00143; KEGG:C00365'
+- id: sabiork_88_EC2_1_1_45_Escherichia_coli_P0A886_dUMP
+  name: Reaction catalyzed by thymidylate synthase on dUMP
+  equation: dUMP + 5,10-Methylenetetrahydrofolate = dTMP + Dihydrofolate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_dUMP
+  - species_id: substrate_5
+  - species_id: substrate_10-Methylenetetrahydrofolate
+  products:
+  - species_id: product_dTMP
+  - species_id: product_Dihydrofolate
+  modifiers:
+  - species_id: protein_2_1_1_45_P0A886_p59693
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 12104;12105;12106;12107
+  KEGGid: R02101
+  notes: 'ChEBI IDs: CHEBI:50300; CHEBI:46013; CHEBI:19263; CHEBI:15246; CHEBI:10529;
+    CHEBI:10925; CHEBI:14092; CHEBI:15636; CHEBI:46286; CHEBI:42000; CHEBI:47711;
+    CHEBI:63549; CHEBI:42245; CHEBI:12071; CHEBI:47722; CHEBI:26999; CHEBI:15245;
+    CHEBI:17622; CHEBI:14094; CHEBI:14150; CHEBI:46036; CHEBI:18602; CHEBI:12245;
+    CHEBI:45926; CHEBI:20768; CHEBI:1989; CHEBI:46288; CHEBI:45759; CHEBI:246422;
+    CHEBI:10532; CHEBI:45772; CHEBI:17013; CHEBI:15633; CHEBI:46960; CHEBI:57451;
+    CHEBI:4564; CHEBI:63528
+
+    KEGG IDs: KEGG:C00364; KEGG:C00415; KEGG:C00143; KEGG:C00365'
+measurements:
+- id: measurement_2_1_1_45_Escherichia_coli_P0A886_5
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_1_1_45_Escherichia_coli_P0A886_dUMP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_1_1_45_Escherichia_coli_P0A886_5_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00015
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_5
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26612036'
+- id: 2_1_1_45_Escherichia_coli_P0A886_5_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.8
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_5
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26612036'
+- id: 2_1_1_45_Escherichia_coli_P0A886_dUMP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.3
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_dUMP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26612036'
+- id: 2_1_1_45_Escherichia_coli_P0A886_dUMP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00014
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_dUMP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '26612036'
+buffer:
+  buffer: 50 mM TES, 25 mM MgCl2, 6.5 mM HCHO, 1 mM EDTA, 75 mM beta-mercaptoethanol
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 59694
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/26612036/
+  pubmed_id: '26612036'
+  doi: null
+name: Merged entry for P0A886 E86K
+description: 'Merged from 2 files: SABIO_EC2.1.1.45_Escherichia_coli__P0A886_E86K_s_5.yaml,
+  SABIO_EC2.1.1.45_Escherichia_coli__P0A886_E86K_s_dUMP.yaml'

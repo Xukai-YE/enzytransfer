@@ -1,0 +1,172 @@
+name: SABIO-RK Entry 44106
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 44106
+created: '2025-10-28T15:29:48.810921'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1__P30863_p44106
+  name: pyridoxine 4-dehydrogenase
+  ecnumber: 1.1.1.
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: R3F
+  uniprotid: P30863
+  wildtype_sequence: MAIPAFGLGTFRLKDDVVISSVITALELGYRAIDTAQIYDNEAAVGQAIAESGVPRHELYITTKIWIENLSKDKLIPSLKESLQKLRTDYVDLTLIHWPSPNDEVSVEEFMQALLEAKKQGLTREIGISNFTIPLMEKAIAAVGAENIATNQIELSPYLQNRKVVAWAKQHGIHITSYMTLAYGKALKDEVIARIAAKHNATPAQVILAWAMGEGYSVIPSSTKRKNLESNLKAQNLQLDAEDKKAIAALDCNDRLVSPEGLAPEWD
+  mutant_sequence: MAIPAFGLGTFFLKDDVVISSVITALELGYRAIDTAQIYDNEAAVGQAIAESGVPRHELYITTKIWIENLSKDKLIPSLKESLQKLRTDYVDLTLIHWPSPNDEVSVEEFMQALLEAKKQGLTREIGISNFTIPLMEKAIAAVGAENIATNQIELSPYLQNRKVVAWAKQHGIHITSYMTLAYGKALKDEVIARIAAKHNATPAQVILAWAMGEGYSVIPSSTKRKNLESNLKAQNLQLDAEDKKAIAALDCNDRLVSPEGLAPEWD
+  position_offset: 9
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_p-Nitrobenzaldehyde
+  name: p-Nitrobenzaldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_p-Nitrobenzyl_alcohol
+  name: p-Nitrobenzyl alcohol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_6758_EC1_1_1__Escherichia_coli_P30863_p-Nitrobenzaldehyde
+  name: Reaction catalyzed by pyridoxine 4-dehydrogenase on p-Nitrobenzaldehyde
+  equation: NADPH + p-Nitrobenzaldehyde + H+ = NADP+ + p-Nitrobenzyl alcohol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_p-Nitrobenzaldehyde
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_NADP_
+  - species_id: product_p-Nitrobenzyl_alcohol
+  modifiers:
+  - species_id: protein_1_1_1__P30863_p44106
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 63496;63497;63498;63499
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:44409; CHEBI:7425; CHEBI:21903; CHEBI:25523; CHEBI:18009;
+    CHEBI:13397; CHEBI:16474; CHEBI:66926; CHEBI:13398; CHEBI:44286; CHEBI:58349;
+    CHEBI:41214; CHEBI:13400; CHEBI:57783; CHEBI:44405; CHEBI:7424; CHEBI:13399; CHEBI:21904
+
+    KEGG IDs: KEGG:C00006; KEGG:C00005; KEGG:C11037'
+measurements:
+- id: measurement_1_1_1__Escherichia_coli_P30863_p-Nitrobenzaldehyde
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1__Escherichia_coli_P30863_p-Nitrobenzaldehyde_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 74.9
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_p-Nitrobenzaldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16813561'
+- id: 1_1_1__Escherichia_coli_P30863_p-Nitrobenzaldehyde_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00178
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_p-Nitrobenzaldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16813561'
+buffer:
+  buffer: 50 mM K2HPO4, 10 mM KCl, 0.5 mM EDTA
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 44106
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16813561/
+  pubmed_id: '16813561'
+  doi: null

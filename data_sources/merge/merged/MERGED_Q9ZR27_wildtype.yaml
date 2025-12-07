@@ -1,0 +1,202 @@
+version: '2.0'
+created: '2025-11-20T13:40:11.187386'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_4_1_298_Q9ZR27_p58635
+  name: anthocyanidin 3-O-glucoside 5-O-glucosyltransferase
+  ecnumber: 2.4.1.298
+  organism: Perilla frutescens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9ZR27
+  wildtype_sequence: MVRRRVLLATFPAQGHINPALQFAKRLLKAGTDVTFFTSVYAWRRMANTASAAAGNPPGLDFVAFSDGYDDGLKPCGDGKRYMSEMKARGSEALRNLLLNNHDVTFVVYSHLFAWAAEVARESQVPSALLWVEPATVLCIYYFYFNGYADEIDAGSDEIQLPRLPPLEQRSLPTFLLPETPERFRLMMKEKLETLDGEEKAKVLVNTFDALEPDALTAIDRYELIGIGPLIPSAFLDGGDPSETSYGGDLFEKSEENNCVEWLDTKPKSSVVYVSFGSVLRFPKAQMEEIGKGLLACGRPFLWMIREQKNDDGEEEEEELSCIGELKKMGKIVSWCSQLEVLAHPALGCFVTHCGWNSAVESLSCGVPVVAVPQWFDQTTNAKLIEDAWGTGVRVRMNEGGGVDGSEIERCVEMVMDGGEKSKLVRENAIKWKTLAREAMGEDGSSLKNLNAFLHQVARA
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_UDPglucose
+  name: UDPglucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Cyanidin_3-O-glucoside
+  name: Cyanidin 3-O-glucoside
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Cyanin
+  name: Cyanin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_UDP
+  name: UDP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_14342_EC2_4_1_298_Perilla_frutescens_Q9ZR27_UDPglucose
+  name: Reaction catalyzed by anthocyanidin 3-O-glucoside 5-O-glucosyltransferase
+    on UDPglucose
+  equation: UDPglucose + Cyanidin 3-O-glucoside = UDP + Cyanin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_UDPglucose
+  - species_id: substrate_Cyanidin_3-O-glucoside
+  products:
+  - species_id: product_Cyanin
+  - species_id: product_UDP
+  modifiers:
+  - species_id: protein_2_4_1_298_Q9ZR27_p58635
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:61318; CHEBI:23429; CHEBI:28426; CHEBI:58223; CHEBI:27230;
+    CHEBI:71511; CHEBI:13445; CHEBI:77857; CHEBI:3978; CHEBI:46402; CHEBI:18066; CHEBI:17659;
+    CHEBI:3974; CHEBI:9802
+
+    KEGG IDs: KEGG:C00015; KEGG:C00029; KEGG:C08604; KEGG:C08639'
+- id: sabiork_14342_EC2_4_1_298_Perilla_frutescens_Q9ZR27_Cyanidin_3-O-glucoside
+  name: Reaction catalyzed by anthocyanidin 3-O-glucoside 5-O-glucosyltransferase
+    on Cyanidin 3-O-glucoside
+  equation: UDPglucose + Cyanidin 3-O-glucoside = UDP + Cyanin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Cyanidin_3-O-glucoside
+  - species_id: substrate_UDPglucose
+  products:
+  - species_id: product_UDP
+  - species_id: product_Cyanin
+  modifiers:
+  - species_id: protein_2_4_1_298_Q9ZR27_p58636
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:61318; CHEBI:28426; CHEBI:58223; CHEBI:27230; CHEBI:13445;
+    CHEBI:71511; CHEBI:77857; CHEBI:3978; CHEBI:46402; CHEBI:18066; CHEBI:3974; CHEBI:17659;
+    CHEBI:23429; CHEBI:9802
+
+    KEGG IDs: KEGG:C00015; KEGG:C00029; KEGG:C08604; KEGG:C08639'
+measurements:
+- id: measurement_2_4_1_298_Perilla_frutescens_Q9ZR27_UDPglucose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_2_4_1_298_Perilla_frutescens_Q9ZR27_Cyanidin_3-O-glucoside
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_4_1_298_Perilla_frutescens_Q9ZR27_UDPglucose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.14e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDPglucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10066805'
+- id: 2_4_1_298_Perilla_frutescens_Q9ZR27_Cyanidin_3-O-glucoside_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00094
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cyanidin_3-O-glucoside
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10066805'
+buffer:
+  buffer: 100 mM phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 58635
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10066805/
+  pubmed_id: '10066805'
+  doi: null
+name: Merged entry for Q9ZR27 wildtype
+description: 'Merged from 2 files: SABIO_EC2.4.1.298_Perilla_frutescens__Q9ZR27_s_UDPglucose.yaml,
+  SABIO_EC2.4.1.298_Perilla_frutescens__Q9ZR27_s_Cyanidin.yaml'

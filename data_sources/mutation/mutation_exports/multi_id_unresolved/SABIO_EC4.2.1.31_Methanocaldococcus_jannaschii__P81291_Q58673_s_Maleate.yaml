@@ -1,0 +1,184 @@
+name: SABIO-RK Entry 40867
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 40867
+created: '2025-10-28T15:18:46.802173'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_2_1_31_P81291_Q58673_p40867
+  name: homoaconitate hydratase
+  sequence: null
+  ecnumber: 4.2.1.31
+  organism: Methanocaldococcus jannaschii
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P81291; Q58673
+complexes: null
+small_molecules:
+- id: substrate_Maleate
+  name: Maleate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Malate
+  name: D-Malate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2357_EC4_2_1_31_Methanocaldococcus_jannaschii_P81291_Q58673_Maleate
+  name: Reaction catalyzed by homoaconitate hydratase on Maleate
+  equation: D-Malate = Maleate + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Maleate
+  products:
+  - species_id: product_D-Malate
+  modifiers:
+  - species_id: protein_4_2_1_31_P81291_Q58673_p40867
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 23692;23693;23694;23695
+  KEGGid: R02419
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:43836; CHEBI:41981; CHEBI:37156;
+    CHEBI:25119; CHEBI:42857; CHEBI:342; CHEBI:41979; CHEBI:30796; CHEBI:6653; CHEBI:15588;
+    CHEBI:132951; CHEBI:42060; CHEBI:18685; CHEBI:14559; CHEBI:42043; CHEBI:18686;
+    CHEBI:25118; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:30780; CHEBI:15377;
+    CHEBI:18300; CHEBI:13352; CHEBI:11002; CHEBI:44073; CHEBI:43228; CHEBI:44292;
+    CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00497; KEGG:C01384; KEGG:C00001'
+measurements:
+- id: measurement_4_2_1_31_Methanocaldococcus_jannaschii_P81291_Q58673_Maleate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 60.0
+  temperature_unit: °C
+parameters:
+- id: 4_2_1_31_Methanocaldococcus_jannaschii_P81291_Q58673_Maleate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 90000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Maleate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17449626'
+- id: 4_2_1_31_Methanocaldococcus_jannaschii_P81291_Q58673_Maleate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0004
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Maleate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17449626'
+- id: 4_2_1_31_Methanocaldococcus_jannaschii_P81291_Q58673_Maleate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 36.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Maleate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17449626'
+- id: 4_2_1_31_Methanocaldococcus_jannaschii_P81291_Q58673_Maleate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000566667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Maleate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17449626'
+buffer:
+  buffer: 50 mM TES-KOH, 300 mM KCl, 10 mM MgCl2
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 40867
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/17449626/
+  pubmed_id: '17449626'
+  doi: null

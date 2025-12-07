@@ -1,0 +1,193 @@
+name: SABIO-RK Entry 3405
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 3405
+created: '2025-10-28T13:46:54.683310'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_5_1_18_P09210_p3405
+  name: glutathione transferase
+  ecnumber: 2.5.1.18
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: S9F
+  uniprotid: P09210
+  wildtype_sequence: MAEKPKLHYSNIRGRMESIRWLLAAAGVEFEEKFIKSAEDLDKLRNDGYLMFQQVPMVEIDGMKLVQTRAILNYIASKYNLYGKDIKEKALIDMYIEGIADLGEMILLLPFSQPEEQDAKLALIQEKTKNRYFPAFEKVLKSHGQDYLVGNKLSRADIHLVELLYYVEELDSSLISSFPLLKALKTRISNLPTVKKFLQPGSPRKPPMDEKSLEESRKIFRF
+  mutant_sequence: MAEKPKLHYFNIRGRMESIRWLLAAAGVEFEEKFIKSAEDLDKLRNDGYLMFQQVPMVEIDGMKLVQTRAILNYIASKYNLYGKDIKEKALIDMYIEGIADLGEMILLLPFSQPEEQDAKLALIQEKTKNRYFPAFEKVLKSHGQDYLVGNKLSRADIHLVELLYYVEELDSSLISSFPLLKALKTRISNLPTVKKFLQPGSPRKPPMDEKSLEESRKIFRF
+  position_offset: 1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Reduced_glutathione
+  name: Reduced glutathione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate__-anti-BPDE
+  name: (+)-anti-BPDE
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Glutathione_conjugate_of_-anti-BPDE
+  name: Glutathione conjugate of (+)-anti-BPDE
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7061_EC2_5_1_18_Homo_sapiens_P09210_Reduced_glutathione
+  name: Reaction catalyzed by glutathione transferase on Reduced glutathione
+  equation: (+)-anti-BPDE + Reduced glutathione = Glutathione conjugate of (+)-anti-BPDE
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Reduced_glutathione
+  - species_id: substrate__-anti-BPDE
+  products:
+  - species_id: product_Glutathione_conjugate_of_-anti-BPDE
+  modifiers:
+  - species_id: protein_2_5_1_18_P09210_p3405
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:12402; CHEBI:42873; CHEBI:24334; CHEBI:14327; CHEBI:57925;
+    CHEBI:16856; CHEBI:5437; CHEBI:43049
+
+    KEGG IDs: KEGG:C00051'
+measurements:
+- id: measurement_2_5_1_18_Homo_sapiens_P09210_Reduced_glutathione
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 2_5_1_18_Homo_sapiens_P09210_Reduced_glutathione_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.9e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Reduced_glutathione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15274625'
+- id: 2_5_1_18_Homo_sapiens_P09210_Reduced_glutathione_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 200.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Reduced_glutathione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15274625'
+- id: 2_5_1_18_Homo_sapiens_P09210_Reduced_glutathione_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.0e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Reduced_glutathione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15274625'
+- id: 2_5_1_18_Homo_sapiens_P09210_Reduced_glutathione_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.01
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Reduced_glutathione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15274625'
+buffer:
+  buffer: 50 mM Tris/HCl , 2.5 mM KCl, 0.5 mM EDTA
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 3405
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15274625/
+  pubmed_id: '15274625'
+  doi: null

@@ -1,0 +1,602 @@
+version: '2.0'
+created: '2025-11-20T13:41:16.244637'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_5_1_18_P44514_p52530
+  name: succinyl-diaminopimelate desuccinylase
+  ecnumber: 3.5.1.18
+  organism: Haemophilus influenzae
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P44514
+  wildtype_sequence: MKEKVVSLAQDLIRRPSISPNDEGCQQIIAERLEKLGFQIEWMPFNDTLNLWAKHGTSEPVIAFAGHTDVVPTGDENQWSSPPFSAEIIDGMLYGRGAADMKGSLAAMIVAAEEYVKANPNHKGTIALLITSDEEATAKDGTIHVVETLMARDEKITYCMVGEPSSAKNLGDVVKNGRRGSITGNLYIQGIQGHVAYPHLAENPIHKAALFLQELTTYQWDKGNEFFPPTSLQIANIHAGTGSNNVIPAELYIQFNLRYCTEVTDEIIKQKVAEMLEKHNLKYRIEWNLSGKPFLTKPGKLLDSITSAIEETIGITPKAETGGGTSDGRFIALMGAEVVEFGPLNSTIHKVNECVSVEDLGKCGEIYHKMLVNLLDS
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_N-Succinyl-2
+  name: N-Succinyl-2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_6-diaminoheptanedioate
+  name: 6-diaminoheptanedioate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Succinate
+  name: Succinate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2
+  name: '2'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_6-Diaminoheptanedioate
+  name: 6-Diaminoheptanedioate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Co2_
+  name: Co2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Zn2_
+  name: Zn2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_N-Succinyl-LL-2
+  name: N-Succinyl-LL-2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_LL-2
+  name: LL-2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_DD-2_6-Diaminoheptanedioate
+  name: DD-2,6-Diaminoheptanedioate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_meso-2_6-Diaminoheptanedioate
+  name: meso-2,6-Diaminoheptanedioate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_13668_EC3_5_1_18_Haemophilus_influenzae_P44514_N-Succinyl-2
+  name: Reaction catalyzed by succinyl-diaminopimelate desuccinylase on N-Succinyl-2
+  equation: H2O + N-Succinyl-2,6-diaminoheptanedioate = Succinate + 2,6-Diaminoheptanedioate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N-Succinyl-2
+  - species_id: substrate_6-diaminoheptanedioate
+  products:
+  - species_id: product_Succinate
+  - species_id: product_2
+  - species_id: product_6-Diaminoheptanedioate
+  modifiers:
+  - species_id: protein_3_5_1_18_P44514_p52530
+    role: BIOCATALYST
+  - species_id: activator_Co2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:26807; CHEBI:29375; CHEBI:44819; CHEBI:23671; CHEBI:41981;
+    CHEBI:48827; CHEBI:15125; CHEBI:42857; CHEBI:41979; CHEBI:26803; CHEBI:48828;
+    CHEBI:22943; CHEBI:42043; CHEBI:45639; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:9304; CHEBI:15377; CHEBI:132287; CHEBI:90372; CHEBI:13352; CHEBI:43228;
+    CHEBI:44292; CHEBI:30031; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:22941;
+    CHEBI:30779; CHEBI:15741; CHEBI:23673; CHEBI:23337; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00001; KEGG:C00042; KEGG:C00175'
+- id: sabiork_13668_EC3_5_1_18_Haemophilus_influenzae_P44514_N-Succinyl-2
+  name: Reaction catalyzed by succinyl-diaminopimelate desuccinylase on N-Succinyl-2
+  equation: H2O + N-Succinyl-2,6-diaminoheptanedioate = Succinate + 2,6-Diaminoheptanedioate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N-Succinyl-2
+  - species_id: substrate_6-diaminoheptanedioate
+  - species_id: cofactor_Zn2_
+  products:
+  - species_id: product_Succinate
+  - species_id: product_2
+  - species_id: product_6-Diaminoheptanedioate
+  modifiers:
+  - species_id: protein_3_5_1_18_P44514_p52528
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:26807; CHEBI:29105; CHEBI:29375; CHEBI:44819; CHEBI:23671;
+    CHEBI:41981; CHEBI:10113; CHEBI:15125; CHEBI:42857; CHEBI:41979; CHEBI:26803;
+    CHEBI:22943; CHEBI:42043; CHEBI:45639; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:9304; CHEBI:15377; CHEBI:132287; CHEBI:90372; CHEBI:13352; CHEBI:43228;
+    CHEBI:49972; CHEBI:44292; CHEBI:30031; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:49982; CHEBI:27368; CHEBI:22941; CHEBI:30779; CHEBI:15741; CHEBI:23673;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00038; KEGG:C00001; KEGG:C00042'
+- id: sabiork_2621_EC3_5_1_18_Haemophilus_influenzae_P44514_N-Succinyl-LL-2
+  name: Reaction catalyzed by succinyl-diaminopimelate desuccinylase on N-Succinyl-LL-2
+  equation: H2O + N-Succinyl-LL-2,6-diaminoheptanedioate = Succinate + LL-2,6-Diaminoheptanedioate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N-Succinyl-LL-2
+  - species_id: substrate_6-diaminoheptanedioate
+  - species_id: cofactor_Zn2_
+  products:
+  - species_id: product_Succinate
+  - species_id: product_LL-2
+  - species_id: product_6-Diaminoheptanedioate
+  modifiers:
+  - species_id: protein_3_5_1_18_P44514_p52529
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 22608;22609;22610;22611
+  KEGGid: R02734
+  notes: 'ChEBI IDs: CHEBI:26807; CHEBI:29105; CHEBI:29375; CHEBI:44819; CHEBI:41981;
+    CHEBI:10113; CHEBI:57609; CHEBI:15125; CHEBI:58087; CHEBI:21791; CHEBI:7342; CHEBI:42857;
+    CHEBI:41979; CHEBI:26803; CHEBI:12618; CHEBI:21792; CHEBI:22943; CHEBI:42043;
+    CHEBI:16026; CHEBI:45639; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:9304; CHEBI:15377;
+    CHEBI:132287; CHEBI:13192; CHEBI:90372; CHEBI:13352; CHEBI:21428; CHEBI:17279;
+    CHEBI:21429; CHEBI:6341; CHEBI:43228; CHEBI:49972; CHEBI:44292; CHEBI:30031; CHEBI:33806;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:49982; CHEBI:27368; CHEBI:22941; CHEBI:30779;
+    CHEBI:15741; CHEBI:12617; CHEBI:29373; CHEBI:44701; CHEBI:47031
+
+    KEGG IDs: KEGG:C00038; KEGG:C00666; KEGG:C04421; KEGG:C00001; KEGG:C00042'
+- id: sabiork_2621_EC3_5_1_18_Haemophilus_influenzae_P44514_N-Succinyl-LL-2
+  name: Reaction catalyzed by succinyl-diaminopimelate desuccinylase on N-Succinyl-LL-2
+  equation: H2O + N-Succinyl-LL-2,6-diaminoheptanedioate = Succinate + LL-2,6-Diaminoheptanedioate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N-Succinyl-LL-2
+  - species_id: substrate_6-diaminoheptanedioate
+  - species_id: cofactor_Zn2_
+  products:
+  - species_id: product_Succinate
+  - species_id: product_LL-2
+  - species_id: product_6-Diaminoheptanedioate
+  modifiers:
+  - species_id: protein_3_5_1_18_P44514_p52533
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 22608;22609;22610;22611
+  KEGGid: R02734
+  notes: 'ChEBI IDs: CHEBI:26807; CHEBI:29105; CHEBI:29375; CHEBI:44819; CHEBI:41981;
+    CHEBI:10113; CHEBI:57609; CHEBI:15125; CHEBI:58087; CHEBI:21791; CHEBI:7342; CHEBI:42857;
+    CHEBI:41979; CHEBI:26803; CHEBI:12618; CHEBI:21792; CHEBI:22943; CHEBI:42043;
+    CHEBI:16026; CHEBI:45639; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:9304; CHEBI:15377;
+    CHEBI:132287; CHEBI:13192; CHEBI:90372; CHEBI:13352; CHEBI:21428; CHEBI:17279;
+    CHEBI:21429; CHEBI:6341; CHEBI:43228; CHEBI:49972; CHEBI:44292; CHEBI:30031; CHEBI:33806;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:49982; CHEBI:27368; CHEBI:22941; CHEBI:30779;
+    CHEBI:15741; CHEBI:12617; CHEBI:29373; CHEBI:44701; CHEBI:47031
+
+    KEGG IDs: KEGG:C00038; KEGG:C00666; KEGG:C04421; KEGG:C00001; KEGG:C00042'
+- id: sabiork_2621_EC3_5_1_18_Haemophilus_influenzae_P44514_N-Succinyl-LL-2
+  name: Reaction catalyzed by succinyl-diaminopimelate desuccinylase on N-Succinyl-LL-2
+  equation: H2O + N-Succinyl-LL-2,6-diaminoheptanedioate = Succinate + LL-2,6-Diaminoheptanedioate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N-Succinyl-LL-2
+  - species_id: substrate_6-diaminoheptanedioate
+  - species_id: cofactor_Zn2_
+  products:
+  - species_id: product_Succinate
+  - species_id: product_LL-2
+  - species_id: product_6-Diaminoheptanedioate
+  modifiers:
+  - species_id: protein_3_5_1_18_P44514_p52532
+    role: BIOCATALYST
+  - species_id: activator_DD-2_6-Diaminoheptanedioate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 22608;22609;22610;22611
+  KEGGid: R02734
+  notes: 'ChEBI IDs: CHEBI:26807; CHEBI:29105; CHEBI:29375; CHEBI:44819; CHEBI:41981;
+    CHEBI:10113; CHEBI:57609; CHEBI:15125; CHEBI:58087; CHEBI:21791; CHEBI:7342; CHEBI:42857;
+    CHEBI:41979; CHEBI:26803; CHEBI:12618; CHEBI:21792; CHEBI:22943; CHEBI:42043;
+    CHEBI:16026; CHEBI:45639; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:9304; CHEBI:15377;
+    CHEBI:132287; CHEBI:13192; CHEBI:90372; CHEBI:13352; CHEBI:21428; CHEBI:17279;
+    CHEBI:21429; CHEBI:6341; CHEBI:43228; CHEBI:49972; CHEBI:44292; CHEBI:30031; CHEBI:33806;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:49982; CHEBI:27368; CHEBI:22941; CHEBI:30779;
+    CHEBI:15741; CHEBI:12617; CHEBI:29373; CHEBI:44701; CHEBI:47031
+
+    KEGG IDs: KEGG:C00038; KEGG:C00666; KEGG:C04421; KEGG:C00001; KEGG:C00042'
+- id: sabiork_2621_EC3_5_1_18_Haemophilus_influenzae_P44514_N-Succinyl-LL-2
+  name: Reaction catalyzed by succinyl-diaminopimelate desuccinylase on N-Succinyl-LL-2
+  equation: H2O + N-Succinyl-LL-2,6-diaminoheptanedioate = Succinate + LL-2,6-Diaminoheptanedioate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N-Succinyl-LL-2
+  - species_id: substrate_6-diaminoheptanedioate
+  products:
+  - species_id: product_Succinate
+  - species_id: product_LL-2
+  - species_id: product_6-Diaminoheptanedioate
+  modifiers:
+  - species_id: protein_3_5_1_18_P44514_p52531
+    role: BIOCATALYST
+  - species_id: activator_Co2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 22608;22609;22610;22611
+  KEGGid: R02734
+  notes: 'ChEBI IDs: CHEBI:26807; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:48827;
+    CHEBI:57609; CHEBI:15125; CHEBI:58087; CHEBI:21791; CHEBI:7342; CHEBI:42857; CHEBI:41979;
+    CHEBI:26803; CHEBI:48828; CHEBI:12618; CHEBI:21792; CHEBI:22943; CHEBI:42043;
+    CHEBI:16026; CHEBI:45639; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:9304; CHEBI:15377;
+    CHEBI:132287; CHEBI:13192; CHEBI:90372; CHEBI:13352; CHEBI:21428; CHEBI:17279;
+    CHEBI:21429; CHEBI:6341; CHEBI:43228; CHEBI:44292; CHEBI:30031; CHEBI:33806; CHEBI:10743;
+    CHEBI:29374; CHEBI:5585; CHEBI:22941; CHEBI:30779; CHEBI:15741; CHEBI:23337; CHEBI:12617;
+    CHEBI:29373; CHEBI:44701; CHEBI:47031
+
+    KEGG IDs: KEGG:C00175; KEGG:C00666; KEGG:C04421; KEGG:C00001; KEGG:C00042'
+- id: sabiork_2621_EC3_5_1_18_Haemophilus_influenzae_P44514_N-Succinyl-LL-2
+  name: Reaction catalyzed by succinyl-diaminopimelate desuccinylase on N-Succinyl-LL-2
+  equation: H2O + N-Succinyl-LL-2,6-diaminoheptanedioate = Succinate + LL-2,6-Diaminoheptanedioate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N-Succinyl-LL-2
+  - species_id: substrate_6-diaminoheptanedioate
+  - species_id: cofactor_Zn2_
+  products:
+  - species_id: product_Succinate
+  - species_id: product_LL-2
+  - species_id: product_6-Diaminoheptanedioate
+  modifiers:
+  - species_id: protein_3_5_1_18_P44514_p52534
+    role: BIOCATALYST
+  - species_id: activator_meso-2_6-Diaminoheptanedioate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 22608;22609;22610;22611
+  KEGGid: R02734
+  notes: 'ChEBI IDs: CHEBI:26807; CHEBI:29105; CHEBI:29375; CHEBI:44819; CHEBI:41981;
+    CHEBI:10113; CHEBI:30308; CHEBI:57609; CHEBI:15125; CHEBI:58087; CHEBI:16488;
+    CHEBI:21791; CHEBI:7342; CHEBI:42857; CHEBI:41979; CHEBI:26803; CHEBI:12618; CHEBI:21792;
+    CHEBI:22943; CHEBI:42043; CHEBI:16026; CHEBI:45639; CHEBI:33811; CHEBI:33813;
+    CHEBI:27313; CHEBI:9304; CHEBI:15377; CHEBI:132287; CHEBI:13192; CHEBI:90372;
+    CHEBI:13352; CHEBI:21428; CHEBI:17279; CHEBI:21429; CHEBI:6341; CHEBI:43228; CHEBI:49972;
+    CHEBI:44292; CHEBI:30031; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:49982;
+    CHEBI:27368; CHEBI:22941; CHEBI:30779; CHEBI:15741; CHEBI:12617; CHEBI:29373;
+    CHEBI:44701; CHEBI:47031
+
+    KEGG IDs: KEGG:C00038; KEGG:C00666; KEGG:C04421; KEGG:C00680; KEGG:C00001; KEGG:C00042'
+measurements:
+- id: measurement_3_5_1_18_Haemophilus_influenzae_P44514_N-Succinyl-2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_3_5_1_18_Haemophilus_influenzae_P44514_N-Succinyl-2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_3_5_1_18_Haemophilus_influenzae_P44514_N-Succinyl-LL-2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_3_5_1_18_Haemophilus_influenzae_P44514_N-Succinyl-LL-2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_3_5_1_18_Haemophilus_influenzae_P44514_N-Succinyl-LL-2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_3_5_1_18_Haemophilus_influenzae_P44514_N-Succinyl-LL-2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_3_5_1_18_Haemophilus_influenzae_P44514_N-Succinyl-LL-2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_5_1_18_Haemophilus_influenzae_P44514_N-Succinyl-2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 470.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Succinyl-2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9671518'
+- id: 3_5_1_18_Haemophilus_influenzae_P44514_N-Succinyl-2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0047
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Succinyl-2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9671518'
+- id: 3_5_1_18_Haemophilus_influenzae_P44514_N-Succinyl-2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0032
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Succinyl-2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9671518'
+- id: 3_5_1_18_Haemophilus_influenzae_P44514_N-Succinyl-2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 230.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Succinyl-2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9671518'
+- id: 3_5_1_18_Haemophilus_influenzae_P44514_N-Succinyl-LL-2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 200.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Succinyl-LL-2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9671518'
+- id: 3_5_1_18_Haemophilus_influenzae_P44514_N-Succinyl-LL-2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0013
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Succinyl-LL-2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9671518'
+- id: 3_5_1_18_Haemophilus_influenzae_P44514_N-Succinyl-LL-2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 200.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Succinyl-LL-2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9671518'
+- id: 3_5_1_18_Haemophilus_influenzae_P44514_N-Succinyl-LL-2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 200.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Succinyl-LL-2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9671518'
+- id: 3_5_1_18_Haemophilus_influenzae_P44514_N-Succinyl-LL-2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0016
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Succinyl-LL-2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9671518'
+- id: 3_5_1_18_Haemophilus_influenzae_P44514_N-Succinyl-LL-2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 370.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Succinyl-LL-2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9671518'
+- id: 3_5_1_18_Haemophilus_influenzae_P44514_N-Succinyl-LL-2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 200.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Succinyl-LL-2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9671518'
+buffer:
+  buffer: 50 mM K2HPO4
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 52530
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9671518/
+  pubmed_id: '9671518'
+  doi: null
+name: Merged entry for P44514 wildtype
+description: 'Merged from 7 files: SABIO_EC3.5.1.18_Haemophilus_influenzae__P44514_s_N-Succinyl-2_2.yaml,
+  SABIO_EC3.5.1.18_Haemophilus_influenzae__P44514_s_N-Succinyl-2.yaml, SABIO_EC3.5.1.18_Haemophilus_influenzae__P44514_s_N-Succinyl-LL-2.yaml,
+  SABIO_EC3.5.1.18_Haemophilus_influenzae__P44514_s_N-Succinyl-LL-2_4.yaml, SABIO_EC3.5.1.18_Haemophilus_influenzae__P44514_s_N-Succinyl-LL-2_3.yaml,
+  SABIO_EC3.5.1.18_Haemophilus_influenzae__P44514_s_N-Succinyl-LL-2_2.yaml, SABIO_EC3.5.1.18_Haemophilus_influenzae__P44514_s_N-Succinyl-LL-2_5.yaml'

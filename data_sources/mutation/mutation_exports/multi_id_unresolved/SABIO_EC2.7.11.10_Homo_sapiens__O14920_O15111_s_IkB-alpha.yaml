@@ -1,0 +1,140 @@
+name: SABIO-RK Entry 47939
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 47939
+created: '2025-10-28T15:42:53.006958'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_11_10_O14920_O15111_p47939
+  name: IkappaB kinase
+  sequence: null
+  ecnumber: 2.7.11.10
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: O14920; O15111
+complexes: null
+small_molecules:
+- id: substrate_IkB-alpha
+  name: IkB-alpha
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_IkB-alpha_phosphorylated
+  name: IkB-alpha phosphorylated
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_SC-514
+  name: SC-514
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_13248_EC2_7_11_10_Homo_sapiens_O14920_O15111_IkB-alpha
+  name: Reaction catalyzed by IkappaB kinase on IkB-alpha
+  equation: ATP + IkB-alpha = ADP + IkB-alpha phosphorylated
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_IkB-alpha
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_IkB-alpha_phosphorylated
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_11_10_O14920_O15111_p47939
+    role: BIOCATALYST
+  - species_id: activator_SC-514
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:40938; CHEBI:16761; CHEBI:2359;
+    CHEBI:10789; CHEBI:57299; CHEBI:13236; CHEBI:456216; CHEBI:40553; CHEBI:13222;
+    CHEBI:10841; CHEBI:22249; CHEBI:2342; CHEBI:22244; CHEBI:15422; CHEBI:87518
+
+    KEGG IDs: KEGG:C00002; KEGG:C00008'
+measurements:
+- id: measurement_2_7_11_10_Homo_sapiens_O14920_O15111_IkB-alpha
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 25 mM HEPES, 2 mM MgCl2, 2 mM MnCl2, 10 mM NaF, 5 mM DTT, 1 mM phenylmethylsulfonyl
+    fluoride
+  buffer_concentration: 25 mM
+references:
+- title: Reference for SABIO-RK entry 47939
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12813046/
+  pubmed_id: '12813046'
+  doi: null

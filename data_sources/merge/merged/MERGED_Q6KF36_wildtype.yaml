@@ -1,0 +1,364 @@
+version: '2.0'
+created: '2025-11-20T13:40:57.284845'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_1_2_6_Q6KF36_p24307
+  name: hydroxyacylglutathione hydrolase
+  ecnumber: 3.1.2.6
+  organism: Trypanosoma brucei
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q6KF36
+  wildtype_sequence: MEVVVKSIGTAFTVAVIPVLKDNYSYVIHDKATNTLAAVDVSVDIDPVIDYVRRLGGVDRTTDLRTILSTHKHHDHSGGNISLQKKLNAMGAFRIIGGANEPIPGVTEKVREGDHFSIGELKVDVLDAPCHTSGHVLYKVYHPQKAENGIALFTGDTMFVGGIGAFFEGDAVLMCSALRKVYNLNGACESSACDATDVQKRDNHTYIFPGHEYTVNFLRFSRDALPASHPDVSFVEAQLRRYTESVAGNVPTVPSTLAEEKRQNLFLRTCDEAFVRVMNKGETAVKLMDFLYNTCP
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Bis-_lactoyl_trypanothione
+  name: Bis-(lactoyl)trypanothione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Reduced_trypanothione
+  name: Reduced trypanothione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Lactate
+  name: D-Lactate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Lactoylglutathione
+  name: Lactoylglutathione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Reduced_glutathione
+  name: Reduced glutathione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Mono-_lactoyl_trypanothione
+  name: Mono-(lactoyl)trypanothione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_10517_EC3_1_2_6_Trypanosoma_brucei_Q6KF36_Bis-_lactoyl_trypanothione
+  name: Reaction catalyzed by hydroxyacylglutathione hydrolase on Bis-(lactoyl)trypanothione
+  equation: Bis-(lactoyl)trypanothione + H2O = Reduced trypanothione + D-Lactate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Bis-_lactoyl_trypanothione
+  products:
+  - species_id: product_Reduced_trypanothione
+  - species_id: product_D-Lactate
+  modifiers:
+  - species_id: protein_3_1_2_6_Q6KF36_p24307
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:12621; CHEBI:41981; CHEBI:9764;
+    CHEBI:18684; CHEBI:17842; CHEBI:11001; CHEBI:58290; CHEBI:26528; CHEBI:42105;
+    CHEBI:42857; CHEBI:41979; CHEBI:15034; CHEBI:12620; CHEBI:16004; CHEBI:42043;
+    CHEBI:15272; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352;
+    CHEBI:43701; CHEBI:27160; CHEBI:42644; CHEBI:43228; CHEBI:44292; CHEBI:33806;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:42111; CHEBI:341; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00256; KEGG:C00001; KEGG:C02090; KEGG:C18182'
+- id: sabiork_10510_EC3_1_2_6_Trypanosoma_brucei_Q6KF36_Lactoylglutathione
+  name: Reaction catalyzed by hydroxyacylglutathione hydrolase on Lactoylglutathione
+  equation: Lactoylglutathione + H2O = Reduced glutathione + D-Lactate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Lactoylglutathione
+  products:
+  - species_id: product_Reduced_glutathione
+  - species_id: product_D-Lactate
+  modifiers:
+  - species_id: protein_3_1_2_6_Q6KF36_p24305
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:12402; CHEBI:44819; CHEBI:41981; CHEBI:18684;
+    CHEBI:11001; CHEBI:16856; CHEBI:5437; CHEBI:42105; CHEBI:42857; CHEBI:41979; CHEBI:24334;
+    CHEBI:14327; CHEBI:16004; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:13352; CHEBI:43701; CHEBI:43228; CHEBI:44292; CHEBI:43049;
+    CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:42111; CHEBI:42873; CHEBI:341;
+    CHEBI:57925; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00051; KEGG:C00001; KEGG:C00256'
+- id: sabiork_10533_EC3_1_2_6_Trypanosoma_brucei_Q6KF36_Mono-_lactoyl_trypanothione
+  name: Reaction catalyzed by hydroxyacylglutathione hydrolase on Mono-(lactoyl)trypanothione
+  equation: Mono-(lactoyl)trypanothione + H2O = Reduced trypanothione + D-Lactate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Mono-_lactoyl_trypanothione
+  products:
+  - species_id: product_Reduced_trypanothione
+  - species_id: product_D-Lactate
+  modifiers:
+  - species_id: protein_3_1_2_6_Q6KF36_p24306
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:12621; CHEBI:41981; CHEBI:9764;
+    CHEBI:18684; CHEBI:17842; CHEBI:11001; CHEBI:58290; CHEBI:26528; CHEBI:42105;
+    CHEBI:42857; CHEBI:41979; CHEBI:15034; CHEBI:12620; CHEBI:16004; CHEBI:42043;
+    CHEBI:15272; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352;
+    CHEBI:43701; CHEBI:27160; CHEBI:42644; CHEBI:43228; CHEBI:44292; CHEBI:33806;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:42111; CHEBI:341; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00256; KEGG:C00001; KEGG:C02090; KEGG:C18182'
+measurements:
+- id: measurement_3_1_2_6_Trypanosoma_brucei_Q6KF36_Bis-_lactoyl_trypanothione
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_3_1_2_6_Trypanosoma_brucei_Q6KF36_Lactoylglutathione
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_3_1_2_6_Trypanosoma_brucei_Q6KF36_Mono-_lactoyl_trypanothione
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_1_2_6_Trypanosoma_brucei_Q6KF36_Bis-_lactoyl_trypanothione_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.001716701
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Bis-_lactoyl_trypanothione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14976196'
+- id: 3_1_2_6_Trypanosoma_brucei_Q6KF36_Bis-_lactoyl_trypanothione_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 8.6e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Bis-_lactoyl_trypanothione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14976196'
+- id: 3_1_2_6_Trypanosoma_brucei_Q6KF36_Bis-_lactoyl_trypanothione_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 690000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Bis-_lactoyl_trypanothione
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.2
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14976196'
+- id: 3_1_2_6_Trypanosoma_brucei_Q6KF36_Lactoylglutathione_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1500.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Lactoylglutathione
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.2
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14976196'
+- id: 3_1_2_6_Trypanosoma_brucei_Q6KF36_Lactoylglutathione_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0015
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Lactoylglutathione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14976196'
+- id: 3_1_2_6_Trypanosoma_brucei_Q6KF36_Lactoylglutathione_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.000133336
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Lactoylglutathione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14976196'
+- id: 3_1_2_6_Trypanosoma_brucei_Q6KF36_Mono-_lactoyl_trypanothione_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.001650033
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Mono-_lactoyl_trypanothione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14976196'
+- id: 3_1_2_6_Trypanosoma_brucei_Q6KF36_Mono-_lactoyl_trypanothione_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000108
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Mono-_lactoyl_trypanothione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14976196'
+- id: 3_1_2_6_Trypanosoma_brucei_Q6KF36_Mono-_lactoyl_trypanothione_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 580000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Mono-_lactoyl_trypanothione
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.2
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14976196'
+buffer:
+  buffer: 100 mM MOPS, DTNB
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 24307
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/14976196/
+  pubmed_id: '14976196'
+  doi: null
+name: Merged entry for Q6KF36 wildtype
+description: 'Merged from 3 files: SABIO_EC3.1.2.6_Trypanosoma_brucei__Q6KF36_s_Bis-_lactoyl_trypano.yaml,
+  SABIO_EC3.1.2.6_Trypanosoma_brucei__Q6KF36_s_Lactoylglutathione.yaml, SABIO_EC3.1.2.6_Trypanosoma_brucei__Q6KF36_s_Mono-_lactoyl_trypan.yaml'

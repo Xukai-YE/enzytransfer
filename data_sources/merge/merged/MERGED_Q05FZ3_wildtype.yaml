@@ -1,0 +1,710 @@
+version: '2.0'
+created: '2025-11-20T13:41:55.340301'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_6_4_1_1_Q05FZ3_p76
+  name: pyruvate carboxylase
+  ecnumber: 6.4.1.1
+  organism: Bacillus thermodenitrificans
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q05FZ3
+  wildtype_sequence: METRRIRKVLVANRGEIAIRVFRACTELGIRTVAIYSKEDVGSYHRYKADEAYLVGEGKKPIEAYLDIEGIIEIAKAHDVDAIHPGYGFLSENIQFAKRCREEGIIFIGPNENHLDMFGDKVKARHAAVNAGIPVIPGSDGPVDGLEDVVAFAEAHGYPIIIKAALGGGGRGMRIVRSKSEVKEAFERAKSEAKAAFGSDEVYVEKLIENPKHIEVQILGDYEGNIVHLYERDCSVQRRHQKVVEVAPSVSLSDELRQRICEAAVQLMRSVGYVNAGTVEFLVSGDEFYFIEVNPRIQVEHTITEMITGIDIVQSQILIADGCSLHSHEVGIPKQEDIRINGYAIQSRVTTEDPLNNFMPDTGKIMAYRSGGGFGVRLDAGNGFQGAVITPYYDSLLVKLSTWALTFEQAARKMLRNLREFRIRGIKTNIPFLENVVQHPKFLSGEYDTSFIDTTPELFVF
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Pyruvate
+  name: Pyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Hydrogencarbonate
+  name: Hydrogencarbonate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Phosphate
+  name: Phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Oxaloacetate
+  name: Oxaloacetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Holo-_carboxylase_
+  name: Holo-[carboxylase]
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Carboxybiotin-carboxyl-carrier_protein
+  name: Carboxybiotin-carboxyl-carrier protein
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Biotin
+  name: Biotin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_105_EC6_4_1_1_Bacillus_thermodenitrificans_Q05FZ3_ATP
+  name: Reaction catalyzed by pyruvate carboxylase on ATP
+  equation: Pyruvate + Hydrogencarbonate + ATP = ADP + Phosphate + Oxaloacetate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Pyruvate
+  - species_id: substrate_Hydrogencarbonate
+  products:
+  - species_id: product_Phosphate
+  - species_id: product_ADP
+  - species_id: product_Oxaloacetate
+  modifiers:
+  - species_id: protein_6_4_1_1_Q05FZ3_p76
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 20844;20845;20846;20847
+  KEGGid: R00344
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:14791; CHEBI:24959; CHEBI:43470;
+    CHEBI:18367; CHEBI:16761; CHEBI:10789; CHEBI:57299; CHEBI:35780; CHEBI:40961;
+    CHEBI:26020; CHEBI:40553; CHEBI:14987; CHEBI:26078; CHEBI:17544; CHEBI:23017;
+    CHEBI:16452; CHEBI:5589; CHEBI:13236; CHEBI:29139; CHEBI:41605; CHEBI:15361; CHEBI:12820;
+    CHEBI:39739; CHEBI:10841; CHEBI:3401; CHEBI:2359; CHEBI:14703; CHEBI:87518; CHEBI:29201;
+    CHEBI:41609; CHEBI:40938; CHEBI:13351; CHEBI:26466; CHEBI:39745; CHEBI:25734;
+    CHEBI:7793; CHEBI:456216; CHEBI:26462; CHEBI:25731; CHEBI:13363; CHEBI:22249;
+    CHEBI:2342; CHEBI:22863; CHEBI:15422; CHEBI:30744; CHEBI:23744; CHEBI:8685; CHEBI:45024;
+    CHEBI:32816; CHEBI:7812; CHEBI:43474; CHEBI:24958; CHEBI:13222; CHEBI:22244; CHEBI:29137;
+    CHEBI:28976; CHEBI:45253
+
+    KEGG IDs: KEGG:C00002; KEGG:C00022; KEGG:C00009; KEGG:C00036; KEGG:C00008; KEGG:C00288;
+    KEGG:C01353'
+- id: sabiork_4080_EC6_4_1_1_Bacillus_thermodenitrificans_Q05FZ3_ATP
+  name: Reaction catalyzed by biotin carboxylase on ATP
+  equation: ATP + Holo-[carboxylase] + Hydrogencarbonate = ADP + Phosphate + Carboxybiotin-carboxyl-carrier
+    protein
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Holo-_carboxylase_
+  - species_id: substrate_Hydrogencarbonate
+  products:
+  - species_id: product_Carboxybiotin-carboxyl-carrier_protein
+  - species_id: product_ADP
+  - species_id: product_Phosphate
+  modifiers:
+  - species_id: protein_6_4_1_1_Q05FZ3_p79
+    role: BIOCATALYST
+  - species_id: activator_Biotin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R04385
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:14791; CHEBI:43470; CHEBI:16761;
+    CHEBI:18367; CHEBI:10789; CHEBI:57299; CHEBI:35780; CHEBI:40961; CHEBI:40553;
+    CHEBI:26020; CHEBI:26078; CHEBI:3108; CHEBI:17544; CHEBI:23017; CHEBI:5589; CHEBI:22884;
+    CHEBI:13236; CHEBI:29139; CHEBI:41605; CHEBI:13905; CHEBI:39739; CHEBI:10841;
+    CHEBI:3401; CHEBI:22882; CHEBI:2359; CHEBI:15956; CHEBI:87518; CHEBI:29201; CHEBI:41236;
+    CHEBI:41609; CHEBI:40938; CHEBI:13351; CHEBI:39745; CHEBI:7793; CHEBI:456216;
+    CHEBI:57586; CHEBI:13363; CHEBI:22249; CHEBI:2342; CHEBI:22863; CHEBI:15422; CHEBI:23744;
+    CHEBI:45024; CHEBI:43474; CHEBI:13222; CHEBI:22244; CHEBI:29137; CHEBI:28976
+
+    KEGG IDs: KEGG:C00120; KEGG:C00002; KEGG:C00009; KEGG:C06250; KEGG:C00008; KEGG:C00288;
+    KEGG:C01353; KEGG:C04419'
+- id: sabiork_4080_EC6_4_1_1_Bacillus_thermodenitrificans_Q05FZ3_Holo-_carboxylase_
+  name: Reaction catalyzed by biotin carboxylase on Holo-[carboxylase]
+  equation: ATP + Holo-[carboxylase] + Hydrogencarbonate = ADP + Phosphate + Carboxybiotin-carboxyl-carrier
+    protein
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Holo-_carboxylase_
+  - species_id: substrate_ATP
+  - species_id: substrate_Hydrogencarbonate
+  products:
+  - species_id: product_Phosphate
+  - species_id: product_Carboxybiotin-carboxyl-carrier_protein
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_6_4_1_1_Q05FZ3_p78
+    role: BIOCATALYST
+  - species_id: activator_Biotin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R04385
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:14791; CHEBI:43470; CHEBI:18367;
+    CHEBI:16761; CHEBI:10789; CHEBI:57299; CHEBI:35780; CHEBI:40961; CHEBI:26020;
+    CHEBI:40553; CHEBI:26078; CHEBI:3108; CHEBI:17544; CHEBI:23017; CHEBI:5589; CHEBI:22884;
+    CHEBI:13236; CHEBI:29139; CHEBI:41605; CHEBI:13905; CHEBI:39739; CHEBI:10841;
+    CHEBI:3401; CHEBI:22882; CHEBI:2359; CHEBI:15956; CHEBI:87518; CHEBI:29201; CHEBI:41236;
+    CHEBI:41609; CHEBI:40938; CHEBI:13351; CHEBI:39745; CHEBI:7793; CHEBI:456216;
+    CHEBI:57586; CHEBI:13363; CHEBI:22249; CHEBI:2342; CHEBI:22863; CHEBI:15422; CHEBI:23744;
+    CHEBI:45024; CHEBI:43474; CHEBI:13222; CHEBI:22244; CHEBI:29137; CHEBI:28976
+
+    KEGG IDs: KEGG:C00120; KEGG:C00002; KEGG:C00009; KEGG:C06250; KEGG:C00008; KEGG:C00288;
+    KEGG:C01353; KEGG:C04419'
+- id: sabiork_105_EC6_4_1_1_Bacillus_thermodenitrificans_Q05FZ3_Pyruvate
+  name: Reaction catalyzed by pyruvate carboxylase on Pyruvate
+  equation: Pyruvate + Hydrogencarbonate + ATP = ADP + Phosphate + Oxaloacetate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Pyruvate
+  - species_id: substrate_Hydrogencarbonate
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_ADP
+  - species_id: product_Oxaloacetate
+  - species_id: product_Phosphate
+  modifiers:
+  - species_id: protein_6_4_1_1_Q05FZ3_p73
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 20844;20845;20846;20847
+  KEGGid: R00344
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:24959; CHEBI:14791; CHEBI:43470;
+    CHEBI:16761; CHEBI:18367; CHEBI:10789; CHEBI:57299; CHEBI:35780; CHEBI:40961;
+    CHEBI:40553; CHEBI:26020; CHEBI:14987; CHEBI:26078; CHEBI:17544; CHEBI:23017;
+    CHEBI:16452; CHEBI:5589; CHEBI:13236; CHEBI:29139; CHEBI:41605; CHEBI:15361; CHEBI:12820;
+    CHEBI:39739; CHEBI:3401; CHEBI:10841; CHEBI:2359; CHEBI:14703; CHEBI:87518; CHEBI:29201;
+    CHEBI:41609; CHEBI:13351; CHEBI:40938; CHEBI:26466; CHEBI:25734; CHEBI:39745;
+    CHEBI:7793; CHEBI:456216; CHEBI:26462; CHEBI:25731; CHEBI:13363; CHEBI:22249;
+    CHEBI:2342; CHEBI:22863; CHEBI:15422; CHEBI:30744; CHEBI:23744; CHEBI:8685; CHEBI:45024;
+    CHEBI:32816; CHEBI:7812; CHEBI:43474; CHEBI:24958; CHEBI:13222; CHEBI:22244; CHEBI:29137;
+    CHEBI:28976; CHEBI:45253
+
+    KEGG IDs: KEGG:C00002; KEGG:C00022; KEGG:C00009; KEGG:C00036; KEGG:C00008; KEGG:C00288;
+    KEGG:C01353'
+- id: sabiork_105_EC6_4_1_1_Bacillus_thermodenitrificans_Q05FZ3_Pyruvate
+  name: Reaction catalyzed by pyruvate carboxylase on Pyruvate
+  equation: Pyruvate + Hydrogencarbonate + ATP = ADP + Phosphate + Oxaloacetate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Pyruvate
+  - species_id: substrate_Hydrogencarbonate
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_Phosphate
+  - species_id: product_Oxaloacetate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_6_4_1_1_Q05FZ3_p74
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 20844;20845;20846;20847
+  KEGGid: R00344
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:14791; CHEBI:24959; CHEBI:43470;
+    CHEBI:18367; CHEBI:16761; CHEBI:10789; CHEBI:57299; CHEBI:35780; CHEBI:40961;
+    CHEBI:26020; CHEBI:40553; CHEBI:14987; CHEBI:26078; CHEBI:17544; CHEBI:23017;
+    CHEBI:16452; CHEBI:5589; CHEBI:13236; CHEBI:29139; CHEBI:41605; CHEBI:15361; CHEBI:12820;
+    CHEBI:39739; CHEBI:3401; CHEBI:10841; CHEBI:2359; CHEBI:14703; CHEBI:87518; CHEBI:29201;
+    CHEBI:41609; CHEBI:13351; CHEBI:40938; CHEBI:26466; CHEBI:39745; CHEBI:25734;
+    CHEBI:7793; CHEBI:456216; CHEBI:26462; CHEBI:25731; CHEBI:13363; CHEBI:22249;
+    CHEBI:2342; CHEBI:22863; CHEBI:15422; CHEBI:30744; CHEBI:23744; CHEBI:8685; CHEBI:45024;
+    CHEBI:32816; CHEBI:7812; CHEBI:43474; CHEBI:24958; CHEBI:13222; CHEBI:22244; CHEBI:29137;
+    CHEBI:28976; CHEBI:45253
+
+    KEGG IDs: KEGG:C00002; KEGG:C00022; KEGG:C00009; KEGG:C00036; KEGG:C00008; KEGG:C00288;
+    KEGG:C01353'
+- id: sabiork_4080_EC6_4_1_1_Bacillus_thermodenitrificans_Q05FZ3_Hydrogencarbonate
+  name: Reaction catalyzed by biotin carboxylase on Hydrogencarbonate
+  equation: ATP + Holo-[carboxylase] + Hydrogencarbonate = ADP + Phosphate + Carboxybiotin-carboxyl-carrier
+    protein
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Hydrogencarbonate
+  - species_id: substrate_ATP
+  - species_id: substrate_Holo-_carboxylase_
+  products:
+  - species_id: product_ADP
+  - species_id: product_Phosphate
+  - species_id: product_Carboxybiotin-carboxyl-carrier_protein
+  modifiers:
+  - species_id: protein_6_4_1_1_Q05FZ3_p77
+    role: BIOCATALYST
+  - species_id: activator_Biotin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R04385
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:14791; CHEBI:43470; CHEBI:16761;
+    CHEBI:18367; CHEBI:10789; CHEBI:57299; CHEBI:35780; CHEBI:40961; CHEBI:40553;
+    CHEBI:26020; CHEBI:26078; CHEBI:3108; CHEBI:17544; CHEBI:23017; CHEBI:5589; CHEBI:22884;
+    CHEBI:13236; CHEBI:29139; CHEBI:41605; CHEBI:13905; CHEBI:39739; CHEBI:3401; CHEBI:10841;
+    CHEBI:22882; CHEBI:2359; CHEBI:15956; CHEBI:87518; CHEBI:29201; CHEBI:41236; CHEBI:41609;
+    CHEBI:13351; CHEBI:40938; CHEBI:39745; CHEBI:7793; CHEBI:456216; CHEBI:57586;
+    CHEBI:13363; CHEBI:22249; CHEBI:2342; CHEBI:22863; CHEBI:15422; CHEBI:23744; CHEBI:45024;
+    CHEBI:43474; CHEBI:13222; CHEBI:22244; CHEBI:29137; CHEBI:28976
+
+    KEGG IDs: KEGG:C00120; KEGG:C00002; KEGG:C00009; KEGG:C06250; KEGG:C00008; KEGG:C00288;
+    KEGG:C01353; KEGG:C04419'
+- id: sabiork_105_EC6_4_1_1_Bacillus_thermodenitrificans_Q05FZ3_Pyruvate
+  name: Reaction catalyzed by pyruvate carboxylase on Pyruvate
+  equation: Pyruvate + Hydrogencarbonate + ATP = ADP + Phosphate + Oxaloacetate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Pyruvate
+  - species_id: substrate_ATP
+  - species_id: substrate_Hydrogencarbonate
+  products:
+  - species_id: product_Oxaloacetate
+  - species_id: product_Phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_6_4_1_1_Q05FZ3_p75
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 20844;20845;20846;20847
+  KEGGid: R00344
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:24959; CHEBI:14791; CHEBI:43470;
+    CHEBI:18367; CHEBI:16761; CHEBI:10789; CHEBI:57299; CHEBI:35780; CHEBI:40961;
+    CHEBI:26020; CHEBI:40553; CHEBI:14987; CHEBI:26078; CHEBI:17544; CHEBI:23017;
+    CHEBI:16452; CHEBI:5589; CHEBI:13236; CHEBI:29139; CHEBI:41605; CHEBI:15361; CHEBI:12820;
+    CHEBI:39739; CHEBI:10841; CHEBI:3401; CHEBI:2359; CHEBI:14703; CHEBI:87518; CHEBI:29201;
+    CHEBI:41609; CHEBI:40938; CHEBI:13351; CHEBI:26466; CHEBI:25734; CHEBI:39745;
+    CHEBI:7793; CHEBI:456216; CHEBI:26462; CHEBI:25731; CHEBI:13363; CHEBI:22249;
+    CHEBI:2342; CHEBI:22863; CHEBI:15422; CHEBI:30744; CHEBI:23744; CHEBI:8685; CHEBI:45024;
+    CHEBI:32816; CHEBI:7812; CHEBI:43474; CHEBI:24958; CHEBI:13222; CHEBI:22244; CHEBI:29137;
+    CHEBI:28976; CHEBI:45253
+
+    KEGG IDs: KEGG:C00002; KEGG:C00022; KEGG:C00009; KEGG:C00036; KEGG:C00008; KEGG:C00288;
+    KEGG:C01353'
+- id: sabiork_4080_EC6_4_1_1_Bacillus_thermodenitrificans_Q05FZ3_Hydrogencarbonate
+  name: Reaction catalyzed by biotin carboxylase on Hydrogencarbonate
+  equation: ATP + Holo-[carboxylase] + Hydrogencarbonate = ADP + Phosphate + Carboxybiotin-carboxyl-carrier
+    protein
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Hydrogencarbonate
+  - species_id: substrate_ATP
+  - species_id: substrate_Holo-_carboxylase_
+  products:
+  - species_id: product_Carboxybiotin-carboxyl-carrier_protein
+  - species_id: product_ADP
+  - species_id: product_Phosphate
+  modifiers:
+  - species_id: protein_6_4_1_1_Q05FZ3_p80
+    role: BIOCATALYST
+  - species_id: activator_Biotin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R04385
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:14791; CHEBI:43470; CHEBI:16761;
+    CHEBI:18367; CHEBI:10789; CHEBI:57299; CHEBI:35780; CHEBI:40961; CHEBI:40553;
+    CHEBI:26020; CHEBI:26078; CHEBI:3108; CHEBI:17544; CHEBI:23017; CHEBI:5589; CHEBI:22884;
+    CHEBI:13236; CHEBI:29139; CHEBI:41605; CHEBI:13905; CHEBI:39739; CHEBI:3401; CHEBI:10841;
+    CHEBI:22882; CHEBI:2359; CHEBI:15956; CHEBI:87518; CHEBI:29201; CHEBI:41236; CHEBI:41609;
+    CHEBI:13351; CHEBI:40938; CHEBI:39745; CHEBI:7793; CHEBI:456216; CHEBI:57586;
+    CHEBI:13363; CHEBI:22249; CHEBI:2342; CHEBI:22863; CHEBI:15422; CHEBI:23744; CHEBI:45024;
+    CHEBI:43474; CHEBI:13222; CHEBI:22244; CHEBI:29137; CHEBI:28976
+
+    KEGG IDs: KEGG:C00120; KEGG:C00002; KEGG:C00009; KEGG:C06250; KEGG:C00008; KEGG:C00288;
+    KEGG:C01353; KEGG:C04419'
+measurements:
+- id: measurement_6_4_1_1_Bacillus_thermodenitrificans_Q05FZ3_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_6_4_1_1_Bacillus_thermodenitrificans_Q05FZ3_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_6_4_1_1_Bacillus_thermodenitrificans_Q05FZ3_Holo-_carboxylase_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_6_4_1_1_Bacillus_thermodenitrificans_Q05FZ3_Pyruvate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_6_4_1_1_Bacillus_thermodenitrificans_Q05FZ3_Pyruvate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_6_4_1_1_Bacillus_thermodenitrificans_Q05FZ3_Hydrogencarbonate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_6_4_1_1_Bacillus_thermodenitrificans_Q05FZ3_Pyruvate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_6_4_1_1_Bacillus_thermodenitrificans_Q05FZ3_Hydrogencarbonate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 6_4_1_1_Bacillus_thermodenitrificans_Q05FZ3_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00087
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15030490'
+- id: 6_4_1_1_Bacillus_thermodenitrificans_Q05FZ3_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katmol-1
+  initial_value: 0.04300086
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15030490'
+- id: 6_4_1_1_Bacillus_thermodenitrificans_Q05FZ3_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0622
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15030490'
+- id: 6_4_1_1_Bacillus_thermodenitrificans_Q05FZ3_Holo-_carboxylase__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00103
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Holo-_carboxylase_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15030490'
+- id: 6_4_1_1_Bacillus_thermodenitrificans_Q05FZ3_Holo-_carboxylase__Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katmol-1
+  initial_value: 0.06516797
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Holo-_carboxylase_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15030490'
+- id: 6_4_1_1_Bacillus_thermodenitrificans_Q05FZ3_Pyruvate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katmol-1
+  initial_value: 20.33374
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Pyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15030490'
+- id: 6_4_1_1_Bacillus_thermodenitrificans_Q05FZ3_Pyruvate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00031
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Pyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15030490'
+- id: 6_4_1_1_Bacillus_thermodenitrificans_Q05FZ3_Pyruvate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0299
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Pyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15030490'
+- id: 6_4_1_1_Bacillus_thermodenitrificans_Q05FZ3_Pyruvate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katmol-1
+  initial_value: 20.33374
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Pyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15030490'
+- id: 6_4_1_1_Bacillus_thermodenitrificans_Q05FZ3_Hydrogencarbonate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00054
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Hydrogencarbonate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15030490'
+- id: 6_4_1_1_Bacillus_thermodenitrificans_Q05FZ3_Hydrogencarbonate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katmol-1
+  initial_value: 0.03983413
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Hydrogencarbonate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15030490'
+- id: 6_4_1_1_Bacillus_thermodenitrificans_Q05FZ3_Pyruvate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00046
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Pyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15030490'
+- id: 6_4_1_1_Bacillus_thermodenitrificans_Q05FZ3_Pyruvate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katmol-1
+  initial_value: 20.33374
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Pyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15030490'
+- id: 6_4_1_1_Bacillus_thermodenitrificans_Q05FZ3_Hydrogencarbonate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katmol-1
+  initial_value: 0.03983413
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Hydrogencarbonate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15030490'
+- id: 6_4_1_1_Bacillus_thermodenitrificans_Q05FZ3_Hydrogencarbonate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0509
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Hydrogencarbonate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15030490'
+buffer:
+  buffer: 100 mM Tris/HCl, 5 mM MgCl2, 100 mM KCl, 0.1 mM acetyl-CoA, 0.5 mM phosphoenol
+    pyruvate, 0.15 mM NADH; 100 mM Tris/HCl, 5 mM MgCl2, 100 mM KCl, 0.1 mM acetyl-CoA,
+    0.15 mM NADH
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 76
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15030490/
+  pubmed_id: '15030490'
+  doi: null
+name: Merged entry for Q05FZ3 wildtype
+description: 'Merged from 8 files: SABIO_EC6.4.1.1_Bacillus_thermodenitrificans__Q05FZ3_s_ATP.yaml,
+  SABIO_EC6.4.1.1_Bacillus_thermodenitrificans__Q05FZ3_s_ATP_2.yaml, SABIO_EC6.4.1.1_Bacillus_thermodenitrificans__Q05FZ3_s_Holo-_carboxylase_.yaml,
+  SABIO_EC6.4.1.1_Bacillus_thermodenitrificans__Q05FZ3_s_Pyruvate.yaml, SABIO_EC6.4.1.1_Bacillus_thermodenitrificans__Q05FZ3_s_Pyruvate_2.yaml,
+  SABIO_EC6.4.1.1_Bacillus_thermodenitrificans__Q05FZ3_s_Hydrogencarbonate.yaml, SABIO_EC6.4.1.1_Bacillus_thermodenitrificans__Q05FZ3_s_Pyruvate_3.yaml,
+  SABIO_EC6.4.1.1_Bacillus_thermodenitrificans__Q05FZ3_s_Hydrogencarbonate_2.yaml'

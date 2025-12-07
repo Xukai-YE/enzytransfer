@@ -1,0 +1,577 @@
+version: '2.0'
+created: '2025-11-20T13:39:39.347622'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_16_3_1_P00450_p2593
+  name: ferroxidase
+  ecnumber: 1.16.3.1
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P00450
+  wildtype_sequence: MKILILGIFLFLCSTPAWAKEKHYYIGIIETTWDYASDHGEKKLISVDTEHSNIYLQNGPDRIGRLYKKALYLQYTDETFRTTIEKPVWLGFLGPIIKAETGDKVYVHLKNLASRPYTFHSHGITYYKEHEGAIYPDNTTDFQRADDKVYPGEQYTYMLLATEEQSPGEGDGNCVTRIYHSHIDAPKDIASGLIGPLIICKKDSLDKEKEKHIDREFVVMFSVVDENFSWYLEDNIKTYCSEPEKVDKDNEDFQESNRMYSVNGYTFGSLPGLSMCAEDRVKWYLFGMGNEVDVHAAFFHGQALTNKNYRIDTINLFPATLFDAYMVAQNPGEWMLSCQNLNHLKAGLQAFFQVQECNKSSSKDNIRGKHVRHYYIAAEEIIWNYAPSGIDIFTKENLTAPGSDSAVFFEQGTTRIGGSYKKLVYREYTDASFTNRKERGPEEEHLGILGPVIWAEVGDTIRVTFHNKGAYPLSIEPIGVRFNKNNEGTYYSPNYNPQSRSVPPSASHVAPTETFTYEWTVPKEVGPTNADPVCLAKMYYSAVEPTKDIFTGLIGPMKICKKGSLHANGRQKDVDKEFYLFPTVFDENESLLLEDNIRMFTTAPDQVDKEDEDFQESNKMHSMNGFMYGNQPGLTMCKGDSVVWYLFSAGNEADVHGIYFSGNTYLWRGERRDTANLFPQTSLTLHMWPDTEGTFNVECLTTDHYTGGMKQKYTVNQCRRQSEDSTFYLGERTYYIAAVEVEWDYSPQREWEKELHHLQEQNVSNAFLDKGEFYIGSKYKKVVYRQYTDSTFRVPVERKAEEEHLGILGPQLHADVGDKVKIIFKNMATRPYSIHAHGVQTESSTVTPTLPGETLTYVWKIPERSGAGTEDSACIPWAYYSTVDQVKDLYSGLIGPLIVCRRPYLKVFNPRRKLEFALLFLVFDENESWYLDDNIKTYSDHPEKVNKDDEEFIESNKMHAINGRMFGNLQGLTMHVGDEVNWYLMGMGNEIDLHTVHFHGHSFQYKHRGVYSSDVFDIFPGTYQTLEMFPRTPGIWLLHCHVTDHIHAGMETTYTVLQNEDTKSG
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Fe2_
+  name: Fe2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Fe3_
+  name: Fe3+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Cu_
+  name: Cu+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Cu_
+  name: Cu+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Fe2_
+  name: Fe2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Cu2_
+  name: Cu2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_665_EC1_16_3_1_Homo_sapiens_P00450_Fe2_
+  name: Reaction catalyzed by ferroxidase on Fe2+
+  equation: Fe2+ + H+ + O2 = Fe3+ + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Fe2_
+  - species_id: substrate_O2
+  products:
+  - species_id: product_Fe3_
+  modifiers:
+  - species_id: protein_1_16_3_1_P00450_p2593
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 11148;11149;11150;11151;11436;11437;11438;11439
+  KEGGid: R00078
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:34755;
+    CHEBI:29033; CHEBI:49595; CHEBI:34754; CHEBI:26689; CHEBI:21129; CHEBI:42857;
+    CHEBI:21130; CHEBI:41979; CHEBI:29234; CHEBI:13357; CHEBI:23833; CHEBI:13416;
+    CHEBI:42043; CHEBI:24636; CHEBI:29233; CHEBI:33811; CHEBI:5584; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:13319; CHEBI:13352; CHEBI:13320; CHEBI:15379; CHEBI:24877;
+    CHEBI:24876; CHEBI:43228; CHEBI:44292; CHEBI:30491; CHEBI:33806; CHEBI:25366;
+    CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:15378; CHEBI:10743; CHEBI:29793; CHEBI:7860;
+    CHEBI:10745; CHEBI:13321; CHEBI:29034; CHEBI:10744; CHEBI:29373; CHEBI:44701;
+    CHEBI:49599
+
+    KEGG IDs: KEGG:C14819; KEGG:C14818; KEGG:C00080; KEGG:C00001; KEGG:C00704; KEGG:C00007'
+- id: sabiork_665_EC1_16_3_1_Homo_sapiens_P00450_Fe2_
+  name: Reaction catalyzed by ferroxidase on Fe2+
+  equation: Fe2+ + H+ + O2 = Fe3+ + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Fe2_
+  - species_id: substrate_O2
+  products:
+  - species_id: product_Fe3_
+  modifiers:
+  - species_id: protein_1_16_3_1_P00450_p2596
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 11148;11149;11150;11151;11436;11437;11438;11439
+  KEGGid: R00078
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:34755;
+    CHEBI:29033; CHEBI:49595; CHEBI:34754; CHEBI:26689; CHEBI:21129; CHEBI:42857;
+    CHEBI:21130; CHEBI:41979; CHEBI:29234; CHEBI:13357; CHEBI:23833; CHEBI:13416;
+    CHEBI:42043; CHEBI:24636; CHEBI:29233; CHEBI:33811; CHEBI:5584; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:13319; CHEBI:13352; CHEBI:13320; CHEBI:15379; CHEBI:24877;
+    CHEBI:24876; CHEBI:43228; CHEBI:44292; CHEBI:30491; CHEBI:33806; CHEBI:25366;
+    CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:15378; CHEBI:10743; CHEBI:29793; CHEBI:7860;
+    CHEBI:10745; CHEBI:13321; CHEBI:29034; CHEBI:10744; CHEBI:29373; CHEBI:44701;
+    CHEBI:49599
+
+    KEGG IDs: KEGG:C14819; KEGG:C14818; KEGG:C00080; KEGG:C00001; KEGG:C00704; KEGG:C00007'
+- id: sabiork_665_EC1_16_3_1_Homo_sapiens_P00450_O2
+  name: Reaction catalyzed by ferroxidase on O2
+  equation: Fe2+ + H+ + O2 = Fe3+ + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_Fe2_
+  products:
+  - species_id: product_Fe3_
+  modifiers:
+  - species_id: protein_1_16_3_1_P00450_p2592
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 11148;11149;11150;11151;11436;11437;11438;11439
+  KEGGid: R00078
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:34755;
+    CHEBI:29033; CHEBI:49595; CHEBI:34754; CHEBI:26689; CHEBI:21129; CHEBI:42857;
+    CHEBI:21130; CHEBI:41979; CHEBI:29234; CHEBI:13357; CHEBI:23833; CHEBI:13416;
+    CHEBI:42043; CHEBI:24636; CHEBI:29233; CHEBI:33811; CHEBI:5584; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:13319; CHEBI:13320; CHEBI:13352; CHEBI:15379; CHEBI:24877;
+    CHEBI:24876; CHEBI:43228; CHEBI:44292; CHEBI:30491; CHEBI:33806; CHEBI:25366;
+    CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:15378; CHEBI:10743; CHEBI:29793; CHEBI:7860;
+    CHEBI:10745; CHEBI:13321; CHEBI:29034; CHEBI:10744; CHEBI:29373; CHEBI:44701;
+    CHEBI:49599
+
+    KEGG IDs: KEGG:C14819; KEGG:C14818; KEGG:C00080; KEGG:C00001; KEGG:C00704; KEGG:C00007'
+- id: sabiork_665_EC1_16_3_1_Homo_sapiens_P00450_O2
+  name: Reaction catalyzed by ferroxidase on O2
+  equation: Fe2+ + H+ + O2 = Fe3+ + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_Fe2_
+  products:
+  - species_id: product_Fe3_
+  modifiers:
+  - species_id: protein_1_16_3_1_P00450_p2594
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 11148;11149;11150;11151;11436;11437;11438;11439
+  KEGGid: R00078
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:34755;
+    CHEBI:29033; CHEBI:49595; CHEBI:34754; CHEBI:26689; CHEBI:21129; CHEBI:42857;
+    CHEBI:21130; CHEBI:41979; CHEBI:29234; CHEBI:13357; CHEBI:23833; CHEBI:13416;
+    CHEBI:42043; CHEBI:24636; CHEBI:29233; CHEBI:33811; CHEBI:5584; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:13319; CHEBI:13320; CHEBI:13352; CHEBI:15379; CHEBI:24877;
+    CHEBI:24876; CHEBI:43228; CHEBI:44292; CHEBI:30491; CHEBI:33806; CHEBI:25366;
+    CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:15378; CHEBI:10743; CHEBI:29793; CHEBI:7860;
+    CHEBI:10745; CHEBI:13321; CHEBI:29034; CHEBI:10744; CHEBI:29373; CHEBI:44701;
+    CHEBI:49599
+
+    KEGG IDs: KEGG:C14819; KEGG:C14818; KEGG:C00080; KEGG:C00001; KEGG:C00704; KEGG:C00007'
+- id: sabiork_665_EC1_16_3_1_Homo_sapiens_P00450_O2
+  name: Reaction catalyzed by ferroxidase on O2
+  equation: Fe2+ + H+ + O2 = Fe3+ + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_Fe2_
+  products:
+  - species_id: product_Fe3_
+  modifiers:
+  - species_id: protein_1_16_3_1_P00450_p2597
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 11148;11149;11150;11151;11436;11437;11438;11439
+  KEGGid: R00078
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:34755;
+    CHEBI:29033; CHEBI:49595; CHEBI:34754; CHEBI:26689; CHEBI:21129; CHEBI:42857;
+    CHEBI:21130; CHEBI:41979; CHEBI:29234; CHEBI:13357; CHEBI:23833; CHEBI:13416;
+    CHEBI:42043; CHEBI:24636; CHEBI:29233; CHEBI:33811; CHEBI:5584; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:13319; CHEBI:13352; CHEBI:13320; CHEBI:15379; CHEBI:24877;
+    CHEBI:24876; CHEBI:43228; CHEBI:44292; CHEBI:30491; CHEBI:33806; CHEBI:25366;
+    CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:15378; CHEBI:10743; CHEBI:29793; CHEBI:7860;
+    CHEBI:10745; CHEBI:13321; CHEBI:29034; CHEBI:10744; CHEBI:29373; CHEBI:44701;
+    CHEBI:49599
+
+    KEGG IDs: KEGG:C14819; KEGG:C14818; KEGG:C00080; KEGG:C00001; KEGG:C00704; KEGG:C00007'
+- id: sabiork_665_EC1_16_3_1_Homo_sapiens_P00450_O2
+  name: Reaction catalyzed by ferroxidase on O2
+  equation: Fe2+ + H+ + O2 = Fe3+ + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_Fe2_
+  products:
+  - species_id: product_Fe3_
+  modifiers:
+  - species_id: protein_1_16_3_1_P00450_p2595
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 11148;11149;11150;11151;11436;11437;11438;11439
+  KEGGid: R00078
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:34755;
+    CHEBI:29033; CHEBI:49595; CHEBI:34754; CHEBI:26689; CHEBI:21129; CHEBI:42857;
+    CHEBI:21130; CHEBI:41979; CHEBI:29234; CHEBI:13357; CHEBI:23833; CHEBI:13416;
+    CHEBI:42043; CHEBI:24636; CHEBI:29233; CHEBI:33811; CHEBI:5584; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:13319; CHEBI:13320; CHEBI:13352; CHEBI:15379; CHEBI:24877;
+    CHEBI:24876; CHEBI:43228; CHEBI:44292; CHEBI:30491; CHEBI:33806; CHEBI:25366;
+    CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:15378; CHEBI:10743; CHEBI:29793; CHEBI:7860;
+    CHEBI:10745; CHEBI:13321; CHEBI:29034; CHEBI:10744; CHEBI:29373; CHEBI:44701;
+    CHEBI:49599
+
+    KEGG IDs: KEGG:C14819; KEGG:C14818; KEGG:C00080; KEGG:C00001; KEGG:C00704; KEGG:C00007'
+- id: sabiork_665_EC1_16_3_1_Homo_sapiens_P00450_O2
+  name: Reaction catalyzed by ferroxidase on O2
+  equation: Fe2+ + H+ + O2 = Fe3+ + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_Fe2_
+  products:
+  - species_id: product_Fe3_
+  modifiers:
+  - species_id: protein_1_16_3_1_P00450_p3401
+    role: BIOCATALYST
+  - species_id: activator_Cu_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 11148;11149;11150;11151;11436;11437;11438;11439
+  KEGGid: R00078
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:34755;
+    CHEBI:29033; CHEBI:49595; CHEBI:34754; CHEBI:26689; CHEBI:21129; CHEBI:42857;
+    CHEBI:21130; CHEBI:41979; CHEBI:29234; CHEBI:13357; CHEBI:23833; CHEBI:13416;
+    CHEBI:42043; CHEBI:24636; CHEBI:29233; CHEBI:33811; CHEBI:5584; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:13319; CHEBI:13352; CHEBI:13320; CHEBI:15379; CHEBI:24877;
+    CHEBI:23379; CHEBI:24876; CHEBI:43228; CHEBI:49551; CHEBI:44292; CHEBI:30491;
+    CHEBI:33806; CHEBI:25366; CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:15378; CHEBI:10743;
+    CHEBI:29793; CHEBI:7860; CHEBI:10745; CHEBI:49552; CHEBI:13321; CHEBI:29034; CHEBI:10744;
+    CHEBI:29373; CHEBI:44701; CHEBI:49599
+
+    KEGG IDs: KEGG:C14819; KEGG:C14818; KEGG:C00070; KEGG:C00080; KEGG:C00001; KEGG:C00704;
+    KEGG:C00007'
+- id: sabiork_7055_EC1_16_3_1_Homo_sapiens_P00450_O2
+  name: Reaction catalyzed by laccase on O2
+  equation: O2 + Cu+ + H+ = Cu2+ + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_Cu_
+  - species_id: cofactor_Fe2_
+  products:
+  - species_id: product_Cu2_
+  modifiers:
+  - species_id: protein_1_16_3_1_P00450_p3400
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 30083;30084;30085;30086
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:29033;
+    CHEBI:34754; CHEBI:49550; CHEBI:26689; CHEBI:21129; CHEBI:42857; CHEBI:41979;
+    CHEBI:29234; CHEBI:13357; CHEBI:23833; CHEBI:13416; CHEBI:42043; CHEBI:24636;
+    CHEBI:29233; CHEBI:33811; CHEBI:5584; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13319;
+    CHEBI:13352; CHEBI:15379; CHEBI:23379; CHEBI:24876; CHEBI:43228; CHEBI:49551;
+    CHEBI:44292; CHEBI:30491; CHEBI:33806; CHEBI:20882; CHEBI:25366; CHEBI:44742;
+    CHEBI:5585; CHEBI:29374; CHEBI:15378; CHEBI:10743; CHEBI:29793; CHEBI:7860; CHEBI:29036;
+    CHEBI:10745; CHEBI:49552; CHEBI:13321; CHEBI:10744; CHEBI:29373; CHEBI:44701;
+    CHEBI:49599; CHEBI:23380
+
+    KEGG IDs: KEGG:C14818; KEGG:C00070; KEGG:C00080; KEGG:C00001; KEGG:C00704; KEGG:C00007'
+measurements:
+- id: measurement_1_16_3_1_Homo_sapiens_P00450_Fe2_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.3
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_16_3_1_Homo_sapiens_P00450_Fe2_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_16_3_1_Homo_sapiens_P00450_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 5.2
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_16_3_1_Homo_sapiens_P00450_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_16_3_1_Homo_sapiens_P00450_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_16_3_1_Homo_sapiens_P00450_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 5.4
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_16_3_1_Homo_sapiens_P00450_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 5.0
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_1_16_3_1_Homo_sapiens_P00450_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 5.0
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 1_16_3_1_Homo_sapiens_P00450_Fe2__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.54e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Fe2_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.3
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '5925868'
+- id: 1_16_3_1_Homo_sapiens_P00450_Fe2__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.32e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Fe2_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '5925868'
+- id: 1_16_3_1_Homo_sapiens_P00450_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.76e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.2
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '5925868'
+- id: 1_16_3_1_Homo_sapiens_P00450_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.4e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '5925868'
+- id: 1_16_3_1_Homo_sapiens_P00450_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.82e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '5925868'
+- id: 1_16_3_1_Homo_sapiens_P00450_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.86e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '5925868'
+- id: 1_16_3_1_Homo_sapiens_P00450_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 8.3e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '14623105'
+- id: 1_16_3_1_Homo_sapiens_P00450_O2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.505
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '14623105'
+- id: 1_16_3_1_Homo_sapiens_P00450_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.68e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '14623105'
+- id: 1_16_3_1_Homo_sapiens_P00450_O2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.375
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '14623105'
+buffer:
+  buffer: 0.2 M Acetate; 0.1 M MES, 5 % Acetonitrile; 0.0133 M Phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 2593
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/5925868/
+  pubmed_id: '5925868'
+  doi: null
+- title: Reference for SABIO-RK entry 3401
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/14623105/
+  pubmed_id: '14623105'
+  doi: null
+name: Merged entry for P00450 wildtype
+description: 'Merged from 8 files: SABIO_EC1.16.3.1_Homo_sapiens__P00450_s_Fe2_.yaml,
+  SABIO_EC1.16.3.1_Homo_sapiens__P00450_s_Fe2__2.yaml, SABIO_EC1.16.3.1_Homo_sapiens__P00450_s_O2.yaml,
+  SABIO_EC1.16.3.1_Homo_sapiens__P00450_s_O2_2.yaml, SABIO_EC1.16.3.1_Homo_sapiens__P00450_s_O2_4.yaml,
+  SABIO_EC1.16.3.1_Homo_sapiens__P00450_s_O2_3.yaml, SABIO_EC1.16.3.1_Homo_sapiens__P00450_s_O2_6.yaml,
+  SABIO_EC1.16.3.1_Homo_sapiens__P00450_s_O2_5.yaml'

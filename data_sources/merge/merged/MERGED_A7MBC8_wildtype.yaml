@@ -1,0 +1,246 @@
+version: '2.0'
+created: '2025-11-20T13:39:43.383478'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_21_1_1_A7MBC8_p78059
+  name: iodotyrosine deiodinase
+  ecnumber: 1.21.1.1
+  organism: Bos taurus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: A7MBC8
+  wildtype_sequence: MFLLTPVLVAAICILMVWIFKNADGSTERRKGEPGAEARPWVDEDLKDSTDVHQEEAEADEWQESEEEVEHIPFSHSRYPEKEMVKRSQEFYELLNKRRSVRFISNEQVPMEVIYNVIKAAGTAPSGAHTEPWTFVVVKDPDVKHKIREIIEEEEEINYLKRMGPRWVTDLKKFRTNWIKEYLDTAPVLILIFKQVHGFSANGKKKIHYYNEISVSISCGILLAALQNAGLVTVTTTPLNCGPRLRVLLNRPTNEKLLMLLPVGYPSEDAMVPNLTRKTLDQIMVTV
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_3
+  name: '3'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_5-Diiodo-L-tyrosine
+  name: 5-Diiodo-L-tyrosine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_FAD
+  name: FAD
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Tyrosine
+  name: L-Tyrosine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_I-
+  name: I-
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_3-Iodo-L-tyrosine
+  name: 3-Iodo-L-tyrosine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_16634_EC1_21_1_1_Bos_taurus_A7MBC8_NADPH
+  name: Reaction catalyzed by iodotyrosine deiodinase on NADPH
+  equation: H+ + NADPH + 3,5-Diiodo-L-tyrosine = I- + L-Tyrosine + NADP+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_3
+  - species_id: substrate_5-Diiodo-L-tyrosine
+  - species_id: cofactor_FAD
+  products:
+  - species_id: product_L-Tyrosine
+  - species_id: product_I-
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_21_1_1_A7MBC8_p78059
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R10059
+  notes: 'ChEBI IDs: CHEBI:16238; CHEBI:13181; CHEBI:6313; CHEBI:13397; CHEBI:32785;
+    CHEBI:13398; CHEBI:27176; CHEBI:17895; CHEBI:7424; CHEBI:16382; CHEBI:44405; CHEBI:21903;
+    CHEBI:32760; CHEBI:7425; CHEBI:29234; CHEBI:32784; CHEBI:13357; CHEBI:25523; CHEBI:24040;
+    CHEBI:18186; CHEBI:9800; CHEBI:15768; CHEBI:32762; CHEBI:24636; CHEBI:46161; CHEBI:43451;
+    CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:14460; CHEBI:21125; CHEBI:32786; CHEBI:13315;
+    CHEBI:16474; CHEBI:46070; CHEBI:44286; CHEBI:42388; CHEBI:46858; CHEBI:21904;
+    CHEBI:44409; CHEBI:5591; CHEBI:21411; CHEBI:15378; CHEBI:32761; CHEBI:15277; CHEBI:18009;
+    CHEBI:5946; CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:4956; CHEBI:10744; CHEBI:58315;
+    CHEBI:49698
+
+    KEGG IDs: KEGG:C01060; KEGG:C01536; KEGG:C00005; KEGG:C05590; KEGG:C00080; KEGG:C00082;
+    KEGG:C00006; KEGG:C00016; KEGG:C11037; KEGG:C00708'
+- id: sabiork_16635_EC1_21_1_1_Bos_taurus_A7MBC8_NADPH
+  name: Reaction catalyzed by iodotyrosine deiodinase on NADPH
+  equation: H+ + NADPH + 3-Iodo-L-tyrosine = I- + L-Tyrosine + NADP+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_3-Iodo-L-tyrosine
+  - species_id: cofactor_FAD
+  products:
+  - species_id: product_I-
+  - species_id: product_L-Tyrosine
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_21_1_1_A7MBC8_p78060
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R09521
+  notes: 'ChEBI IDs: CHEBI:16238; CHEBI:13181; CHEBI:6313; CHEBI:13397; CHEBI:32785;
+    CHEBI:13398; CHEBI:27176; CHEBI:17895; CHEBI:7424; CHEBI:16382; CHEBI:44405; CHEBI:21903;
+    CHEBI:32760; CHEBI:7425; CHEBI:29234; CHEBI:32784; CHEBI:13357; CHEBI:25523; CHEBI:24040;
+    CHEBI:18186; CHEBI:9800; CHEBI:32762; CHEBI:24636; CHEBI:27847; CHEBI:43451; CHEBI:46161;
+    CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:14460; CHEBI:21125; CHEBI:32786; CHEBI:13315;
+    CHEBI:16474; CHEBI:46070; CHEBI:44286; CHEBI:42388; CHEBI:21904; CHEBI:46858;
+    CHEBI:44409; CHEBI:5591; CHEBI:21411; CHEBI:15378; CHEBI:32761; CHEBI:15277; CHEBI:18009;
+    CHEBI:5946; CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:4956; CHEBI:10744; CHEBI:58315;
+    CHEBI:49698
+
+    KEGG IDs: KEGG:C02515; KEGG:C01536; KEGG:C00005; KEGG:C05590; KEGG:C00080; KEGG:C00082;
+    KEGG:C00006; KEGG:C00016; KEGG:C11037; KEGG:C00708'
+measurements:
+- id: measurement_1_21_1_1_Bos_taurus_A7MBC8_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 38.0
+  temperature_unit: °C
+- id: measurement_1_21_1_1_Bos_taurus_A7MBC8_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 38.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_21_1_1_Bos_taurus_A7MBC8_NADPH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.5e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 38.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '500717'
+- id: 1_21_1_1_Bos_taurus_A7MBC8_NADPH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 38.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '500717'
+buffer:
+  buffer: 100 mM potassium phosphate, 50 mM 2-mercaptoethanol, 200 mM KCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 78059
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/500717/
+  pubmed_id: '500717'
+  doi: null
+name: Merged entry for A7MBC8 wildtype
+description: 'Merged from 2 files: SABIO_EC1.21.1.1_Bos_taurus__A7MBC8_s_NADPH.yaml,
+  SABIO_EC1.21.1.1_Bos_taurus__A7MBC8_s_NADPH_2.yaml'

@@ -1,0 +1,187 @@
+name: SABIO-RK Entry 12001
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 12001
+created: '2025-10-28T14:00:05.567110'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_5_1_24_P15244_P15244_p12001
+  name: N5-(carboxyethyl)ornithine synthase
+  sequence: null
+  ecnumber: 1.5.1.24
+  organism: Lactococcus lactis subsp. lactis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P15244; P15244
+complexes: null
+small_molecules:
+- id: substrate_Pyruvate
+  name: Pyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_L-Ornithine
+  name: L-Ornithine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N5-_L-1-Carboxyethyl_-L-ornithine
+  name: N5-(L-1-Carboxyethyl)-L-ornithine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1046_EC1_5_1_24_Lactococcus_lactis_P15244_P15244_Pyruvate
+  name: Reaction catalyzed by N5-(carboxyethyl)ornithine synthase on Pyruvate
+  equation: H2O + NADP+ + N5-(L-1-Carboxyethyl)-L-ornithine = L-Ornithine + NADPH
+    + H+ + Pyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Pyruvate
+  - species_id: substrate_L-Ornithine
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_NADP_
+  - species_id: product_N5-_L-1-Carboxyethyl_-L-ornithine
+  modifiers:
+  - species_id: protein_1_5_1_24_P15244_P15244_p12001
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 18661;18662;18663;18664
+  KEGGid: R00666
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:21367; CHEBI:13397;
+    CHEBI:13398; CHEBI:14987; CHEBI:7424; CHEBI:44405; CHEBI:21903; CHEBI:42857; CHEBI:41979;
+    CHEBI:44667; CHEBI:7425; CHEBI:25523; CHEBI:12654; CHEBI:15361; CHEBI:46914; CHEBI:42043;
+    CHEBI:33811; CHEBI:13399; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:26466;
+    CHEBI:13352; CHEBI:6280; CHEBI:16474; CHEBI:26462; CHEBI:44286; CHEBI:15729; CHEBI:43228;
+    CHEBI:57889; CHEBI:44292; CHEBI:21904; CHEBI:8685; CHEBI:33806; CHEBI:44409; CHEBI:29374;
+    CHEBI:5585; CHEBI:7392; CHEBI:10743; CHEBI:32816; CHEBI:18009; CHEBI:13148; CHEBI:16770;
+    CHEBI:58349; CHEBI:21841; CHEBI:13400; CHEBI:57783; CHEBI:46911; CHEBI:45253;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00077; KEGG:C00005; KEGG:C00022; KEGG:C00006; KEGG:C00001; KEGG:C04210;
+    KEGG:C11037'
+measurements:
+- id: measurement_1_5_1_24_Lactococcus_lactis_P15244_P15244_Pyruvate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 22.0
+  temperature_unit: °C
+parameters:
+- id: 1_5_1_24_Lactococcus_lactis_P15244_P15244_Pyruvate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.6e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Pyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2498334'
+- id: 1_5_1_24_Lactococcus_lactis_P15244_P15244_Pyruvate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000131667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Pyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2498334'
+buffer:
+  buffer: 0.1 M potassium phosphate
+  buffer_concentration: 0.1 M
+references:
+- title: Reference for SABIO-RK entry 12001
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/2498334/
+  pubmed_id: '2498334'
+  doi: null

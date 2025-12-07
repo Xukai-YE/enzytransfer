@@ -1,0 +1,133 @@
+name: SABIO-RK Entry 26622
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 26622
+created: '2025-10-28T14:29:53.809705'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_4_1_5_Q04760_p26622
+  name: lactoylglutathione lyase
+  ecnumber: 4.4.1.5
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: M157H
+  uniprotid: Q04760
+  wildtype_sequence: MAEPQPPSGGLTDEAALSCCSDADPSTKDFLLQQTMLRVKDPKKSLDFYTRVLGMTLIQKCDFPIMKFSLYFLAYEDKNDIPKEKDEKIAWALSRKATLELTHNWGTEDDETQSYHNGNSDPRGFGHIGIAVPDVYSACKRFEELGVKFVKKPDDGKMKGLAFIQDPDGYWIEILNPNKMATLM
+  mutant_sequence: MAEPQPPSGGLTDEAALSCCSDADPSTKDFLLQQTMLRVKDPKKSLDFYTRVLGMTLIQKCDFPIMKFSLYFLAYEDKNDIPKEKDEKIAWALSRKATLELTHNWGTEDDETQSYHNGNSDPRGFGHIGIAVPDVYSACKRFEELGVKFVKKPDDGKHKGLAFIQDPDGYWIEILNPNKMATLM
+  position_offset: 1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Glutathione-phenylglyoxal_hemithioacetal
+  name: Glutathione-phenylglyoxal hemithioacetal
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product__R_-S-Mandeloylglutathione
+  name: (R)-S-Mandeloylglutathione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_10840_EC4_4_1_5_Homo_sapiens_Q04760_Glutathione-phenylglyoxal_hemithioacetal
+  name: Reaction catalyzed by lactoylglutathione lyase on Glutathione-phenylglyoxal
+    hemithioacetal
+  equation: Glutathione-phenylglyoxal hemithioacetal = (R)-S-Mandeloylglutathione
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Glutathione-phenylglyoxal_hemithioacetal
+  products:
+  - species_id: product__R_-S-Mandeloylglutathione
+  modifiers:
+  - species_id: protein_4_4_1_5_Q04760_p26622
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+measurements:
+- id: measurement_4_4_1_5_Homo_sapiens_Q04760_Glutathione-phenylglyoxal_hemithioacetal
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 4_4_1_5_Homo_sapiens_Q04760_Glutathione-phenylglyoxal_hemithioacetal_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 10000000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glutathione-phenylglyoxal_hemithioacetal
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9359858'
+buffer:
+  buffer: 0.1 M Sodium phosphate
+  buffer_concentration: 0.1 M
+references:
+- title: Reference for SABIO-RK entry 26622
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9359858/
+  pubmed_id: '9359858'
+  doi: null

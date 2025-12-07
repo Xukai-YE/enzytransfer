@@ -1,0 +1,187 @@
+name: SABIO-RK Entry 23283
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 23283
+created: '2025-10-28T14:21:56.500338'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_5_5_1_1_P08310_p23283
+  name: muconate cycloisomerase
+  ecnumber: 5.5.1.1
+  organism: Pseudomonas putida
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: F329I
+  uniprotid: P08310
+  wildtype_sequence: MTSVLIERIEAIIVHDLPTIRPPHKLAMHTMQTQTLVLIRVRCSDGVEGIGEATTIGGLAYGYESPEGIKANIDAHLAPALVGLPADNINAAMLKLDKLAKGNTFAKSGIESALLDAQGKRLGLPVSELLGGRVRDSLEVAWTLASGDTARDIAEAQHMLEIRRHRVFKLKIGANPLAQDLKHVVAIKRELGDSASVRVDVNQYWDESQAIRACQVLGDNGIDLIEQPISRINRSGQVRLNQRSPAPIMADESIESVEDAFSLAADGAASIFALKIAKNGGPRAVLRTAQIAEAAGIALYGGTMLEGSIGTLASAHAFLTLRQLTWGTELFGPLLLTEEIVNEPPQYRDFQLHIPRTPGLGLTLDEQRLARFARR
+  mutant_sequence: MTSVLIERIEAIIVHDLPTIRPPHKLAMHTMQTQTLVLIRVRCSDGVEGIGEATTIGGLAYGYESPEGIKANIDAHLAPALVGLPADNINAAMLKLDKLAKGNTFAKSGIESALLDAQGKRLGLPVSELLGGRVRDSLEVAWTLASGDTARDIAEAQHMLEIRRHRVFKLKIGANPLAQDLKHVVAIKRELGDSASVRVDVNQYWDESQAIRACQVLGDNGIDLIEQPISRINRSGQVRLNQRSPAPIMADESIESVEDAFSLAADGAASIFALKIAKNGGPRAVLRTAQIAEAAGIALYGGTMLEGSIGTLASAHAFLTLRQLTWGTELIGPLLLTEEIVNEPPQYRDFQLHIPRTPGLGLTLDEQRLARFARR
+  position_offset: 2
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_cis
+  name: cis
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_cis-Muconate
+  name: cis-Muconate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2
+  name: '2'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_5-Dihydro-5-oxofuran-2-acetate
+  name: 5-Dihydro-5-oxofuran-2-acetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_3697_EC5_5_1_1_Pseudomonas_putida_P08310_cis
+  name: Reaction catalyzed by muconate cycloisomerase on cis
+  equation: 2,5-Dihydro-5-oxofuran-2-acetate = cis,cis-Muconate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_cis
+  - species_id: substrate_cis-Muconate
+  products:
+  - species_id: product_2
+  - species_id: product_5-Dihydro-5-oxofuran-2-acetate
+  modifiers:
+  - species_id: protein_5_5_1_1_P08310_p23283
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 10640;10641;10642;10643
+  KEGGid: R03959
+  notes: 'ChEBI IDs: CHEBI:58736; CHEBI:19379; CHEBI:48068; CHEBI:11450; CHEBI:32379;
+    CHEBI:39431; CHEBI:934; CHEBI:18080; CHEBI:16508; CHEBI:34016; CHEBI:58372; CHEBI:12150
+
+    KEGG IDs: KEGG:C04105; KEGG:C14610; KEGG:C02480'
+measurements:
+- id: measurement_5_5_1_1_Pseudomonas_putida_P08310_cis
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 5_5_1_1_Pseudomonas_putida_P08310_cis_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.7e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_cis
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9726873'
+- id: 5_5_1_1_Pseudomonas_putida_P08310_cis_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 900000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_cis
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9726873'
+- id: 5_5_1_1_Pseudomonas_putida_P08310_cis_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 43.33333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_cis
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9726873'
+buffer:
+  buffer: 30 mM Tris-HCl, 1 mM MnSO4
+  buffer_concentration: 30 mM
+references:
+- title: Reference for SABIO-RK entry 23283
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9726873/
+  pubmed_id: '9726873'
+  doi: null

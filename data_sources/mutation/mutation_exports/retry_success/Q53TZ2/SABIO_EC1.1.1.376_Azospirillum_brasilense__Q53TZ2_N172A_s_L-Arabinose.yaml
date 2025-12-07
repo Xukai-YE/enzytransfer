@@ -1,0 +1,217 @@
+name: SABIO-RK Entry 62281
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 62281
+created: '2025-10-28T16:37:30.983332'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_376_Q53TZ2_p62281
+  name: L-arabinose 1-dehydrogenase [NAD(P)+]
+  ecnumber: 1.1.1.376
+  organism: Azospirillum brasilense
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: N172A
+  uniprotid: Q53TZ2
+  wildtype_sequence: MSDQVSLGVVGIGKIARDQHLPAIDAEPGFKLTACASRHAEVTGVRNYRDLRALLAAERELDAVSLCAPPQVRYAQARAALEAGKHVMLEKPPGATLGEVAVLEALARERGLTLFATWHSRCASAVEPAREWLATRAIRAVQVRWKEDVRRWHPGQQWIWEPGGLGVFDPGINALSIVTRILPRELVLREATLIVPSDVQTPIAAELDCADTDGVPVRAEFDWRHGPVEQWEIAVDTADGVLAISRGGAQLSIAGEPVELGPEREYPALYAHFHALIARGESDVDVRPLRLVADAFLFGRRVQTDAFGR
+  mutant_sequence: MSDQVSLGVVGIGKIARDQHLPAIDAEPGFKLTACASRHAEVTGVRNYRDLRALLAAERELDAVSLCAPPQVRYAQARAALEAGKHVMLEKPPGATLGEVAVLEALARERGLTLFATWHSRCASAVEPAREWLATRAIRAVQVRWKEDVRRWHPGQQWIWEPGGLGVFDPGIAALSIVTRILPRELVLREATLIVPSDVQTPIAAELDCADTDGVPVRAEFDWRHGPVEQWEIAVDTADGVLAISRGGAQLSIAGEPVELGPEREYPALYAHFHALIARGESDVDVRPLRLVADAFLFGRRVQTDAFGR
+  position_offset: 1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_L-Arabinose
+  name: L-Arabinose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Arabinono-1
+  name: L-Arabinono-1
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4-lactone
+  name: 4-lactone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_14861_EC1_1_1_376_Azospirillum_brasilense_Q53TZ2_L-Arabinose
+  name: Reaction catalyzed by L-arabinose 1-dehydrogenase [NAD(P)+] on L-Arabinose
+  equation: NADP+ + L-Arabinose = H+ + NADPH + L-Arabinono-1,4-lactone
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Arabinose
+  - species_id: substrate_NADP_
+  products:
+  - species_id: product_L-Arabinono-1
+  - species_id: product_4-lactone
+  - species_id: product_NADPH
+  modifiers:
+  - species_id: protein_1_1_1_376_Q53TZ2_p62281
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:17100; CHEBI:13397; CHEBI:13398; CHEBI:7424; CHEBI:21903;
+    CHEBI:44405; CHEBI:7425; CHEBI:29234; CHEBI:25523; CHEBI:13357; CHEBI:6180; CHEBI:24636;
+    CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:30849; CHEBI:16474; CHEBI:44286; CHEBI:6182;
+    CHEBI:21231; CHEBI:21904; CHEBI:44409; CHEBI:15378; CHEBI:18009; CHEBI:17535;
+    CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:10744; CHEBI:13075
+
+    KEGG IDs: KEGG:C00005; KEGG:C01114; KEGG:C00080; KEGG:C00006; KEGG:C11476; KEGG:C11037;
+    KEGG:C00259'
+measurements:
+- id: measurement_1_1_1_376_Azospirillum_brasilense_Q53TZ2_L-Arabinose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1_376_Azospirillum_brasilense_Q53TZ2_L-Arabinose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0289
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Arabinose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16326697'
+- id: 1_1_1_376_Azospirillum_brasilense_Q53TZ2_L-Arabinose_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 2.466716e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Arabinose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16326697'
+- id: 1_1_1_376_Azospirillum_brasilense_Q53TZ2_L-Arabinose_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 11.5
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Arabinose
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 9.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16326697'
+- id: 1_1_1_376_Azospirillum_brasilense_Q53TZ2_L-Arabinose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.3283333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Arabinose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16326697'
+buffer:
+  buffer: 100 mM Tris-HCl
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 62281
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16326697/
+  pubmed_id: '16326697'
+  doi: null

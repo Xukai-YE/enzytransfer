@@ -1,0 +1,319 @@
+version: '2.0'
+created: '2025-11-20T13:39:15.635294'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_195_Q6ZHS4_p43531
+  name: alcohol dehydrogenase (NADP+)
+  ecnumber: 1.1.1.195
+  organism: Oryza sativa
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q6ZHS4
+  wildtype_sequence: MGSLAAEKTVTGWAARDASGHLTPYNYTLRKTGPEDVVVKVLYCGICHTDIHQAKNHLGASKYPMVPGHEVVGEVVEVGPEVTKYSAGDVVGVGVIVGCCRECHPCKANVEQYCNKRIWSYNDVYTDGRPTQGGFASAMVVDQKFVVKIPAGLAPEQAAPLLCAGLTVYSPLKHFGLMSPGLRGGVLGLGGVGHMGVKVAKSMGHHVTVISSSARKRGEAMDDLGADAYLVSSDAAAMAAAGDSLDYIIDTVPVHHPLEPYLALLKLDGKLILMGVINQPLSFISPMVMLGRKAITGSFIGSMAETEEVLNFCVDKGLTSQIEVVKMDYVNQALERLERNDVRYRFVVDVAGSNIDDADAPPA
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Coniferaldehyde
+  name: Coniferaldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Coniferyl_alcohol
+  name: Coniferyl alcohol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Sinapoyl_aldehyde
+  name: Sinapoyl aldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Sinapyl_alcohol
+  name: Sinapyl alcohol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2499_EC1_1_1_195_Oryza_sativa_Q6ZHS4_NADPH
+  name: Reaction catalyzed by alcohol dehydrogenase (NADP+) on NADPH
+  equation: NADP+ + Coniferyl alcohol = NADPH + Coniferaldehyde + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_Coniferaldehyde
+  products:
+  - species_id: product_NADP_
+  - species_id: product_Coniferyl_alcohol
+  modifiers:
+  - species_id: protein_1_1_1_195_Q6ZHS4_p43531
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 22444;22445;22446;22447
+  KEGGid: R02593
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:14017; CHEBI:7424; CHEBI:44405;
+    CHEBI:21903; CHEBI:4730; CHEBI:14016; CHEBI:7425; CHEBI:29234; CHEBI:13357; CHEBI:25523;
+    CHEBI:17745; CHEBI:24636; CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:23371; CHEBI:14018;
+    CHEBI:3859; CHEBI:23372; CHEBI:16474; CHEBI:3858; CHEBI:44286; CHEBI:21904; CHEBI:44409;
+    CHEBI:15378; CHEBI:18009; CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:16547;
+    CHEBI:10744
+
+    KEGG IDs: KEGG:C00590; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C02666; KEGG:C11037'
+- id: sabiork_3663_EC1_1_1_195_Oryza_sativa_Q6ZHS4_NADPH
+  name: Reaction catalyzed by cinnamyl-alcohol dehydrogenase on NADPH
+  equation: NADP+ + Sinapyl alcohol = NADPH + H+ + Sinapoyl aldehyde
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_Sinapoyl_aldehyde
+  products:
+  - species_id: product_NADP_
+  - species_id: product_Sinapyl_alcohol
+  modifiers:
+  - species_id: protein_1_1_1_195_Q6ZHS4_p43532
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 45704;45705;45706;45707
+  KEGGid: R03918
+  notes: 'ChEBI IDs: CHEBI:28813; CHEBI:13397; CHEBI:13398; CHEBI:27949; CHEBI:26684;
+    CHEBI:26683; CHEBI:7424; CHEBI:9158; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234;
+    CHEBI:13357; CHEBI:25523; CHEBI:24636; CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:16474;
+    CHEBI:44286; CHEBI:21904; CHEBI:44409; CHEBI:15378; CHEBI:18009; CHEBI:58349;
+    CHEBI:13400; CHEBI:57783; CHEBI:64557; CHEBI:10744; CHEBI:9153
+
+    KEGG IDs: KEGG:C02325; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C11037; KEGG:C05610'
+measurements:
+- id: measurement_1_1_1_195_Oryza_sativa_Q6ZHS4_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.8
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_195_Oryza_sativa_Q6ZHS4_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.8
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1_195_Oryza_sativa_Q6ZHS4_NADPH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.3
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.8
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16443696'
+- id: 1_1_1_195_Oryza_sativa_Q6ZHS4_NADPH_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 288640.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.8
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16443696'
+- id: 1_1_1_195_Oryza_sativa_Q6ZHS4_NADPH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.4e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.8
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16443696'
+- id: 1_1_1_195_Oryza_sativa_Q6ZHS4_NADPH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 3.29e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.8
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16443696'
+- id: 1_1_1_195_Oryza_sativa_Q6ZHS4_NADPH_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 161540.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.8
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16443696'
+- id: 1_1_1_195_Oryza_sativa_Q6ZHS4_NADPH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 3.4
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.8
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16443696'
+- id: 1_1_1_195_Oryza_sativa_Q6ZHS4_NADPH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 8.7e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.8
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16443696'
+- id: 1_1_1_195_Oryza_sativa_Q6ZHS4_NADPH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.08e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.8
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16443696'
+buffer:
+  buffer: 100 mM Tris-HCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 43531
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16443696/
+  pubmed_id: '16443696'
+  doi: null
+name: Merged entry for Q6ZHS4 wildtype
+description: 'Merged from 2 files: SABIO_EC1.1.1.195_Oryza_sativa__Q6ZHS4_s_NADPH.yaml,
+  SABIO_EC1.1.1.195_Oryza_sativa__Q6ZHS4_s_NADPH_2.yaml'

@@ -1,0 +1,181 @@
+version: '2.0'
+created: '2025-11-20T13:40:08.893998'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_4_1_207_Q38911_p60818
+  name: xyloglucan:xyloglucosyl transferase
+  ecnumber: 2.4.1.207
+  organism: Arabidopsis thaliana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q38911
+  wildtype_sequence: MGPSSSLTTIVATVLLVTLFGSAYASNFFDEFDLTWGDHRGKIFNGGNMLSLSLDQVSGSGFKSKKEYLFGRIDMQLKLVAGNSAGTVTAYYLSSQGATHDEIDFEFLGNETGKPYVLHTNVFAQGKGDREQQFYLWFDPTKNFHTYSIVWRPQHIIFLVDNLPIRVFNNAEKLGVPFPKSQPMRIYSSLWNADDWATRGGLVKTDWSKAPFTAYYRGFNAAACTASSGCDPKFKSSFGDGKLQVATELNAYGRRRLRWVQKYFMIYNYCSDLKRFPRGFPPECKKSRV
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_XXXGol
+  name: XXXGol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Xyloglucan
+  name: Xyloglucan
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Xyloglucan
+  name: Xyloglucan
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_14713_EC2_4_1_207_Arabidopsis_thaliana_Q38911_XXXGol
+  name: Reaction catalyzed by xyloglucan:xyloglucosyl transferase on XXXGol
+  equation: Xyloglucan + XXXGol = Xyloglucan
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_XXXGol
+  - species_id: product_Xyloglucan
+  products:
+  - species_id: product_Xyloglucan
+  modifiers:
+  - species_id: protein_2_4_1_207_Q38911_p60818
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'KEGG IDs: KEGG:C00807'
+- id: sabiork_14713_EC2_4_1_207_Arabidopsis_thaliana_Q38911_Xyloglucan
+  name: Reaction catalyzed by xyloglucan:xyloglucosyl transferase on Xyloglucan
+  equation: Xyloglucan + XXXGol = Xyloglucan
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: product_Xyloglucan
+  - species_id: substrate_XXXGol
+  products:
+  - species_id: product_Xyloglucan
+  modifiers:
+  - species_id: protein_2_4_1_207_Q38911_p60819
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'KEGG IDs: KEGG:C00807'
+measurements:
+- id: measurement_2_4_1_207_Arabidopsis_thaliana_Q38911_XXXGol
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 5.5
+  temperature_opt: 20.0
+  temperature_unit: °C
+- id: measurement_2_4_1_207_Arabidopsis_thaliana_Q38911_Xyloglucan
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 5.5
+  temperature_opt: 20.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_4_1_207_Arabidopsis_thaliana_Q38911_XXXGol_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.1e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_XXXGol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.5
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '25446234'
+- id: 2_4_1_207_Arabidopsis_thaliana_Q38911_Xyloglucan_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.87
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_Xyloglucan
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.5
+  temperature: 20.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '25446234'
+buffer:
+  buffer: 100 mM succinate,0.5% chlorobutanol
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 60818
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/25446234/
+  pubmed_id: '25446234'
+  doi: null
+name: Merged entry for Q38911 wildtype
+description: 'Merged from 2 files: SABIO_EC2.4.1.207_Arabidopsis_thaliana__Q38911_s_XXXGol.yaml,
+  SABIO_EC2.4.1.207_Arabidopsis_thaliana__Q38911_s_Xyloglucan.yaml'

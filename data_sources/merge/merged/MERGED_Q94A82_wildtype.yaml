@@ -1,0 +1,323 @@
+version: '2.0'
+created: '2025-11-20T13:41:21.671615'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_6_1_22_Q94A82_p62531
+  name: NAD+ diphosphatase
+  ecnumber: 3.6.1.22
+  organism: Arabidopsis thaliana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q94A82
+  wildtype_sequence: MLALFLSSSSYPTLSFLSRSVTLNLARTTTLSALTMSMNLKTHAFAGNPLKSKTPKSTDPFSPTSAFESLKTLIPVIPNHSTPSPDFKVLPFSKGRPLVFSSGGDANTTPIWHLGWVSLADCKVLLASCGVDLNEDSLVYLGPKLEEDLVYWAVDLAEDGFVSELGGRKLCFVELRTLMVAADWADQRAMDELAIAGNARALLEWHNVSQFCGSCGSKTFPKEAGRRKQCSDETCRKRVYPRVDPVVIMLVIDRENDRALLSRQSRYVPRMWSCLAGFIEPGESLEEAVRRETWEETGIEVGDVVYHSSQPWPVGPSSMPCQLMLGFFAFAKTLDINVDKEELEDAQWHSREEVKKALAVAEYRKAQRTAAAKVEQICKGVERSQSLSTDFNLESGELAPMFIPGPFAIAHHLISAWVNQAPDDVHSKQQAGVSLSSL
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mg2_
+  name: Mg2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Reduced_nicotinamide_nucleotide
+  name: Reduced nicotinamide nucleotide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_AMP
+  name: AMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Adenosine_2_
+  name: Adenosine 2'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_5_-bisphosphate
+  name: 5'-bisphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_10186_EC3_6_1_22_Arabidopsis_thaliana_Q94A82_NADH
+  name: Reaction catalyzed by NAD+ diphosphatase on NADH
+  equation: H2O + NADH = AMP + Reduced nicotinamide nucleotide
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Reduced_nicotinamide_nucleotide
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_3_6_1_22_Q94A82_p62531
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 48868;48869;48870;48871
+  KEGGid: R11104
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:40726; CHEBI:41981; CHEBI:22245;
+    CHEBI:13379; CHEBI:40510; CHEBI:6635; CHEBI:22242; CHEBI:13736; CHEBI:42857; CHEBI:47222;
+    CHEBI:41979; CHEBI:39127; CHEBI:456215; CHEBI:90832; CHEBI:74452; CHEBI:21902;
+    CHEBI:13396; CHEBI:40786; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:42043; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:49736; CHEBI:13352; CHEBI:57945;
+    CHEBI:44216; CHEBI:43228; CHEBI:7423; CHEBI:44292; CHEBI:33806; CHEBI:13740; CHEBI:10743;
+    CHEBI:29374; CHEBI:5585; CHEBI:18420; CHEBI:13395; CHEBI:13234; CHEBI:25112; CHEBI:40721;
+    CHEBI:13235; CHEBI:12056; CHEBI:29373; CHEBI:44701; CHEBI:16908
+
+    KEGG IDs: KEGG:C00305; KEGG:C21113; KEGG:C00001; KEGG:C00020; KEGG:C00004'
+- id: sabiork_14920_EC3_6_1_22_Arabidopsis_thaliana_Q94A82_NADPH
+  name: Reaction catalyzed by NAD+ diphosphatase on NADPH
+  equation: H2O + NADPH = Adenosine 2',5'-bisphosphate + Reduced nicotinamide nucleotide
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Adenosine_2_
+  - species_id: product_5_-bisphosphate
+  - species_id: product_Reduced_nicotinamide_nucleotide
+  modifiers:
+  - species_id: protein_3_6_1_22_Q94A82_p62532
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:13379; CHEBI:22238;
+    CHEBI:6635; CHEBI:39127; CHEBI:42857; CHEBI:41979; CHEBI:7425; CHEBI:90832; CHEBI:74452;
+    CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:13399; CHEBI:15377;
+    CHEBI:49736; CHEBI:13352; CHEBI:16474; CHEBI:44286; CHEBI:43228; CHEBI:2473; CHEBI:44292;
+    CHEBI:21904; CHEBI:33806; CHEBI:18420; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:28355;
+    CHEBI:25112; CHEBI:13400; CHEBI:57783; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00305; KEGG:C00005; KEGG:C21113; KEGG:C00001; KEGG:C03850'
+measurements:
+- id: measurement_3_6_1_22_Arabidopsis_thaliana_Q94A82_NADH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_3_6_1_22_Arabidopsis_thaliana_Q94A82_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_6_1_22_Arabidopsis_thaliana_Q94A82_NADH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0003353
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18815383'
+- id: 3_6_1_22_Arabidopsis_thaliana_Q94A82_NADH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.56
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18815383'
+- id: 3_6_1_22_Arabidopsis_thaliana_Q94A82_NADH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.23333e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18815383'
+- id: 3_6_1_22_Arabidopsis_thaliana_Q94A82_NADH_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1600.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18815383'
+- id: 3_6_1_22_Arabidopsis_thaliana_Q94A82_NADPH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.59
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18815383'
+- id: 3_6_1_22_Arabidopsis_thaliana_Q94A82_NADPH_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 16000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18815383'
+- id: 3_6_1_22_Arabidopsis_thaliana_Q94A82_NADPH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.69e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18815383'
+- id: 3_6_1_22_Arabidopsis_thaliana_Q94A82_NADPH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.3e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18815383'
+buffer:
+  buffer: 50 mM Tris-HCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 62531
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/18815383/
+  pubmed_id: '18815383'
+  doi: null
+name: Merged entry for Q94A82 wildtype
+description: 'Merged from 2 files: SABIO_EC3.6.1.22_Arabidopsis_thaliana__Q94A82_s_NADH.yaml,
+  SABIO_EC3.6.1.22_Arabidopsis_thaliana__Q94A82_s_NADPH.yaml'

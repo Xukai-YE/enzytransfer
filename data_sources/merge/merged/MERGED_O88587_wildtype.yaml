@@ -1,0 +1,240 @@
+version: '2.0'
+created: '2025-11-20T13:39:59.894736'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_1_1_6_O88587_p49246
+  name: catechol O-methyltransferase
+  ecnumber: 2.1.1.6
+  organism: Mus musculus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: O88587
+  wildtype_sequence: MLLAAVSLGLLLLAFLLLLRHLGWGLVAIGWFEFVQQPVHNLLMGGTKEQRILRHVQQHAKPGDPQSVLEAIDTYCSEKEWAMNVGDAKGQIMDAVIREYRPSLVLELGAYCGYSAVRMARLLPPGARLLTMEINPDYAAITQQMLDFAGLQDKVSILIGASQDLIPQLKKKYDVDTLDMVFLDHWKDRYLPDTLLLEECGLLRKGTVLLADNVIVPGTPDFLAYVRGSSSFECTHYSSYLEYMKVVDGLEKAVYQGPGSSPVKS
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_L-Adrenaline
+  name: L-Adrenaline
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_S-Adenosyl-L-methionine
+  name: S-Adenosyl-L-methionine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mg2_
+  name: Mg2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_S-Adenosyl-L-homocysteine
+  name: S-Adenosyl-L-homocysteine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Metanephrine
+  name: L-Metanephrine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2779_EC2_1_1_6_Mus_musculus_O88587_L-Adrenaline
+  name: Reaction catalyzed by catechol O-methyltransferase on L-Adrenaline
+  equation: S-Adenosyl-L-methionine + L-Adrenaline = S-Adenosyl-L-homocysteine + L-Metanephrine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Adrenaline
+  - species_id: substrate_S-Adenosyl-L-methionine
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_S-Adenosyl-L-homocysteine
+  - species_id: product_L-Metanephrine
+  modifiers:
+  - species_id: protein_2_1_1_6_O88587_p49246
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02920
+  notes: 'ChEBI IDs: CHEBI:22036; CHEBI:12760; CHEBI:12742; CHEBI:13379; CHEBI:59789;
+    CHEBI:67009; CHEBI:45495; CHEBI:23928; CHEBI:6635; CHEBI:1942; CHEBI:142094; CHEBI:8945;
+    CHEBI:67040; CHEBI:45607; CHEBI:33442; CHEBI:15414; CHEBI:10833; CHEBI:12761;
+    CHEBI:12741; CHEBI:49736; CHEBI:57856; CHEBI:28918; CHEBI:16680; CHEBI:12759;
+    CHEBI:8946; CHEBI:18420; CHEBI:22034; CHEBI:6270; CHEBI:527887; CHEBI:25112; CHEBI:10786;
+    CHEBI:71406; CHEBI:39127; CHEBI:12757
+
+    KEGG IDs: KEGG:C05588; KEGG:C00305; KEGG:C00021; KEGG:C00019; KEGG:C00788'
+- id: sabiork_2779_EC2_1_1_6_Mus_musculus_O88587_S-Adenosyl-L-methionine
+  name: Reaction catalyzed by catechol O-methyltransferase on S-Adenosyl-L-methionine
+  equation: S-Adenosyl-L-methionine + L-Adrenaline = S-Adenosyl-L-homocysteine + L-Metanephrine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_S-Adenosyl-L-methionine
+  - species_id: substrate_L-Adrenaline
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_L-Metanephrine
+  - species_id: product_S-Adenosyl-L-homocysteine
+  modifiers:
+  - species_id: protein_2_1_1_6_O88587_p49240
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02920
+  notes: 'ChEBI IDs: CHEBI:22036; CHEBI:12760; CHEBI:12742; CHEBI:13379; CHEBI:59789;
+    CHEBI:67009; CHEBI:45495; CHEBI:23928; CHEBI:6635; CHEBI:1942; CHEBI:142094; CHEBI:8945;
+    CHEBI:67040; CHEBI:45607; CHEBI:33442; CHEBI:15414; CHEBI:10833; CHEBI:12761;
+    CHEBI:12741; CHEBI:49736; CHEBI:57856; CHEBI:28918; CHEBI:16680; CHEBI:12759;
+    CHEBI:8946; CHEBI:18420; CHEBI:22034; CHEBI:6270; CHEBI:527887; CHEBI:25112; CHEBI:10786;
+    CHEBI:71406; CHEBI:39127; CHEBI:12757
+
+    KEGG IDs: KEGG:C05588; KEGG:C00305; KEGG:C00021; KEGG:C00019; KEGG:C00788'
+measurements:
+- id: measurement_2_1_1_6_Mus_musculus_O88587_L-Adrenaline
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_2_1_1_6_Mus_musculus_O88587_S-Adenosyl-L-methionine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 2_1_1_6_Mus_musculus_O88587_L-Adrenaline_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.52e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Adrenaline
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '12237326'
+- id: 2_1_1_6_Mus_musculus_O88587_L-Adrenaline_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.283333e-08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Adrenaline
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '12237326'
+- id: 2_1_1_6_Mus_musculus_O88587_S-Adenosyl-L-methionine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 6.916667e-09
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '12237326'
+- id: 2_1_1_6_Mus_musculus_O88587_S-Adenosyl-L-methionine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.1e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '12237326'
+buffer:
+  buffer: 10 mM Sodium phosphate, 1 mM EGTA
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 49246
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12237326/
+  pubmed_id: '12237326'
+  doi: null
+name: Merged entry for O88587 wildtype
+description: 'Merged from 2 files: SABIO_EC2.1.1.6_Mus_musculus__O88587_s_L-Adrenaline.yaml,
+  SABIO_EC2.1.1.6_Mus_musculus__O88587_s_S-Adenosyl-L-methion.yaml'

@@ -1,0 +1,379 @@
+version: '2.0'
+created: '2025-11-20T13:41:42.923157'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_5_1_3_4_P08203_p4693
+  name: L-ribulose-5-phosphate 4-epimerase
+  ecnumber: 5.1.3.4
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: Y229F
+  uniprotid: P08203
+  wildtype_sequence: MLEDLKRQVLEANLALPKHNLVTLTWGNVSAVDRERGVFVIKPSGVDYSVMTADDMVVVSIETGEVVEGTKKPSSDTPTHRLLYQAFPSIGGIVHTHSRHATIWAQAGQSIPATGTTHADYFYGTIPCTRKMTDAEINGEYEWETGNVIVETFEKQGIDAAQMPGVLVHSHGPFAWGKNAEDAVHNAIVLEEVAYMGIFCRQLAPQLPDMQQTLLDKHYLRKHGAKAYYGQ
+  mutant_sequence: MLEDLKRQVLEANLALPKHNLVTLTWGNVSAVDRERGVFVIKPSGVDYSVMTADDMVVVSIETGEVVEGTKKPSSDTPTHRLLYQAFPSIGGIVHTHSRHATIWAQAGQSIPATGTTHADYFYGTIPCTRKMTDAEINGEYEWETGNVIVETFEKQGIDAAQMPGVLVHSHGPFAWGKNAEDAVHNAIVLEEVAYMGIFCRQLAPQLPDMQQTLLDKHYLRKHGAKAYFGQ
+complexes: null
+small_molecules:
+- id: substrate_L-Ribulose_5-phosphate
+  name: L-Ribulose 5-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Xylulose_5-phosphate
+  name: D-Xylulose 5-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Co2_
+  name: Co2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Zn2_
+  name: Zn2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mn2_
+  name: Mn2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mg2_
+  name: Mg2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_67_EC5_1_3_4_Escherichia_coli_P08203_L-Ribulose_5-phosphate
+  name: Reaction catalyzed by L-ribulose-5-phosphate 4-epimerase on L-Ribulose 5-phosphate
+  equation: L-Ribulose 5-phosphate = D-Xylulose 5-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Ribulose_5-phosphate
+  products:
+  - species_id: product_D-Xylulose_5-phosphate
+  modifiers:
+  - species_id: protein_5_1_3_4_P08203_p4693
+    role: BIOCATALYST
+  - species_id: activator_Co2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 22368;22369;22370;22371
+  KEGGid: R05850
+  notes: 'ChEBI IDs: CHEBI:58226; CHEBI:48827; CHEBI:48828; CHEBI:21121; CHEBI:17666;
+    CHEBI:57737; CHEBI:27354; CHEBI:23337; CHEBI:6296; CHEBI:4269; CHEBI:13036; CHEBI:13164;
+    CHEBI:16332; CHEBI:21383
+
+    KEGG IDs: KEGG:C01101; KEGG:C00175; KEGG:C00231'
+- id: sabiork_67_EC5_1_3_4_Escherichia_coli_P08203_L-Ribulose_5-phosphate
+  name: Reaction catalyzed by L-ribulose-5-phosphate 4-epimerase on L-Ribulose 5-phosphate
+  equation: L-Ribulose 5-phosphate = D-Xylulose 5-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Ribulose_5-phosphate
+  - species_id: cofactor_Zn2_
+  products:
+  - species_id: product_D-Xylulose_5-phosphate
+  modifiers:
+  - species_id: protein_5_1_3_4_P08203_p4692
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 22368;22369;22370;22371
+  KEGGid: R05850
+  notes: 'ChEBI IDs: CHEBI:29105; CHEBI:49982; CHEBI:58226; CHEBI:27368; CHEBI:10113;
+    CHEBI:21121; CHEBI:17666; CHEBI:57737; CHEBI:27354; CHEBI:49972; CHEBI:6296; CHEBI:4269;
+    CHEBI:13036; CHEBI:13164; CHEBI:16332; CHEBI:21383
+
+    KEGG IDs: KEGG:C01101; KEGG:C00038; KEGG:C00231'
+- id: sabiork_67_EC5_1_3_4_Escherichia_coli_P08203_L-Ribulose_5-phosphate
+  name: Reaction catalyzed by L-ribulose-5-phosphate 4-epimerase on L-Ribulose 5-phosphate
+  equation: L-Ribulose 5-phosphate = D-Xylulose 5-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Ribulose_5-phosphate
+  - species_id: cofactor_Mn2_
+  products:
+  - species_id: product_D-Xylulose_5-phosphate
+  modifiers:
+  - species_id: protein_5_1_3_4_P08203_p4694
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 22368;22369;22370;22371
+  KEGGid: R05850
+  notes: 'ChEBI IDs: CHEBI:29035; CHEBI:58226; CHEBI:21121; CHEBI:17666; CHEBI:21435;
+    CHEBI:57737; CHEBI:27354; CHEBI:25156; CHEBI:6296; CHEBI:4269; CHEBI:13036; CHEBI:13164;
+    CHEBI:49749; CHEBI:16332; CHEBI:21383
+
+    KEGG IDs: KEGG:C01101; KEGG:C00034; KEGG:C19610; KEGG:C00231'
+- id: sabiork_67_EC5_1_3_4_Escherichia_coli_P08203_L-Ribulose_5-phosphate
+  name: Reaction catalyzed by L-ribulose-5-phosphate 4-epimerase on L-Ribulose 5-phosphate
+  equation: L-Ribulose 5-phosphate = D-Xylulose 5-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Ribulose_5-phosphate
+  - species_id: cofactor_Zn2_
+  products:
+  - species_id: product_D-Xylulose_5-phosphate
+  modifiers:
+  - species_id: protein_5_1_3_4_P08203_p4708
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 22368;22369;22370;22371
+  KEGGid: R05850
+  notes: 'ChEBI IDs: CHEBI:29105; CHEBI:49982; CHEBI:58226; CHEBI:27368; CHEBI:10113;
+    CHEBI:21121; CHEBI:17666; CHEBI:57737; CHEBI:27354; CHEBI:49972; CHEBI:6296; CHEBI:4269;
+    CHEBI:13036; CHEBI:13164; CHEBI:16332; CHEBI:21383
+
+    KEGG IDs: KEGG:C01101; KEGG:C00038; KEGG:C00231'
+- id: sabiork_67_EC5_1_3_4_Escherichia_coli_P08203_L-Ribulose_5-phosphate
+  name: Reaction catalyzed by L-ribulose-5-phosphate 4-epimerase on L-Ribulose 5-phosphate
+  equation: L-Ribulose 5-phosphate = D-Xylulose 5-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Ribulose_5-phosphate
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_D-Xylulose_5-phosphate
+  modifiers:
+  - species_id: protein_5_1_3_4_P08203_p4695
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 22368;22369;22370;22371
+  KEGGid: R05850
+  notes: 'ChEBI IDs: CHEBI:49736; CHEBI:58226; CHEBI:18420; CHEBI:39127; CHEBI:13379;
+    CHEBI:21121; CHEBI:25112; CHEBI:17666; CHEBI:57737; CHEBI:27354; CHEBI:6635; CHEBI:6296;
+    CHEBI:4269; CHEBI:13036; CHEBI:13164; CHEBI:16332; CHEBI:21383
+
+    KEGG IDs: KEGG:C01101; KEGG:C00305; KEGG:C00231'
+measurements:
+- id: measurement_5_1_3_4_Escherichia_coli_P08203_L-Ribulose_5-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_5_1_3_4_Escherichia_coli_P08203_L-Ribulose_5-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_5_1_3_4_Escherichia_coli_P08203_L-Ribulose_5-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_5_1_3_4_Escherichia_coli_P08203_L-Ribulose_5-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_5_1_3_4_Escherichia_coli_P08203_L-Ribulose_5-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 22.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 5_1_3_4_Escherichia_coli_P08203_L-Ribulose_5-phosphate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.307
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Ribulose_5-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10769139'
+- id: 5_1_3_4_Escherichia_coli_P08203_L-Ribulose_5-phosphate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.0111
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Ribulose_5-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10769139'
+- id: 5_1_3_4_Escherichia_coli_P08203_L-Ribulose_5-phosphate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.0557
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Ribulose_5-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10769139'
+- id: 5_1_3_4_Escherichia_coli_P08203_L-Ribulose_5-phosphate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 91.5
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Ribulose_5-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10769139'
+- id: 5_1_3_4_Escherichia_coli_P08203_L-Ribulose_5-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000129
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Ribulose_5-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10769139'
+- id: 5_1_3_4_Escherichia_coli_P08203_L-Ribulose_5-phosphate_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.0118
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Ribulose_5-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10769139'
+- id: 5_1_3_4_Escherichia_coli_P08203_L-Ribulose_5-phosphate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.0041
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Ribulose_5-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10769139'
+buffer:
+  buffer: 50 mM KHEPES, 1 mM MgCl2; 50 mM KHEPES
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 4693
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10769139/
+  pubmed_id: '10769139'
+  doi: null
+name: Merged entry for P08203 Y229F
+description: 'Merged from 5 files: SABIO_EC5.1.3.4_Escherichia_coli__P08203_Y229F_s_L-Ribulose_2.yaml,
+  SABIO_EC5.1.3.4_Escherichia_coli__P08203_Y229F_s_L-Ribulose.yaml, SABIO_EC5.1.3.4_Escherichia_coli__P08203_Y229F_s_L-Ribulose_3.yaml,
+  SABIO_EC5.1.3.4_Escherichia_coli__P08203_Y229F_s_L-Ribulose_5.yaml, SABIO_EC5.1.3.4_Escherichia_coli__P08203_Y229F_s_L-Ribulose_4.yaml'

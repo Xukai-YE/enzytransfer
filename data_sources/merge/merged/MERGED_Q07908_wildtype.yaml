@@ -1,0 +1,301 @@
+version: '2.0'
+created: '2025-11-20T13:40:03.490974'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_3_1_1_Q07908_p60865
+  name: amino-acid N-acetyltransferase
+  ecnumber: 2.3.1.1
+  organism: Geobacillus stearothermophilus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q07908
+  wildtype_sequence: MTITKQTGQVTAVADGTVVTPEGFQAAGVNAGLRYSKNDLGVILCDVPASAAAVYTQSHFQAAPLKVTQASLAVEQKLQAVIVNRPCANACTGAQGLKDAYEMRELCAKQFGLALHHVAVASTGVIGEYLPMEKIRAGIKQLVPGVTMADAEAFQTAILTTDTVMKRACYQTTIDGKTVTVGGAAKGSGMIHPNMATMLAFITTDANVSSPVLHAALRSITDVSFNQITVDGDTSTNDMVVVMASGLAGNDELTPDHPDWENFYEALRKTCEDLAKQIAKDGEGATKLIEVRVRGAKTDEEAKKIAKQIVGSNLVKTAVYGADANWGRIIGAIGYSDAEVNPDNVDVAIGPMVMLKGSEPQPFSEEEAAAYLQQETVVIEVDLHIGDGVGVAWGCDLTYDYVKINASYRT
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Acetyl-CoA
+  name: Acetyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_L-Glutamate
+  name: L-Glutamate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N-Acetyl-L-glutamate
+  name: N-Acetyl-L-glutamate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_N2-Acetyl-L-ornithine
+  name: N2-Acetyl-L-ornithine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Ornithine
+  name: L-Ornithine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_764_EC2_3_1_1_Geobacillus_stearothermophilus_Q07908_Acetyl-CoA
+  name: Reaction catalyzed by amino-acid N-acetyltransferase on Acetyl-CoA
+  equation: Acetyl-CoA + L-Glutamate = Coenzyme A + N-Acetyl-L-glutamate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Acetyl-CoA
+  - species_id: substrate_L-Glutamate
+  products:
+  - species_id: product_N-Acetyl-L-glutamate
+  - species_id: product_Coenzyme_A
+  modifiers:
+  - species_id: protein_2_3_1_1_Q07908_p60865
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 24292;24293;24294;24295
+  KEGGid: R00259
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:15346; CHEBI:23355; CHEBI:42825; CHEBI:57288;
+    CHEBI:41631; CHEBI:13712; CHEBI:13295; CHEBI:29972; CHEBI:41597; CHEBI:21301;
+    CHEBI:12575; CHEBI:21552; CHEBI:6224; CHEBI:57287; CHEBI:64040; CHEBI:17533; CHEBI:13294;
+    CHEBI:13107; CHEBI:40470; CHEBI:16015; CHEBI:44335; CHEBI:21304; CHEBI:87274;
+    CHEBI:2408; CHEBI:3771; CHEBI:21549; CHEBI:741566; CHEBI:29985; CHEBI:29988; CHEBI:44337;
+    CHEBI:7150; CHEBI:13298; CHEBI:15351
+
+    KEGG IDs: KEGG:C00025; KEGG:C00010; KEGG:C00624; KEGG:C00024'
+- id: sabiork_2247_EC2_3_1_35_Geobacillus_stearothermophilus_Q07908_L-Glutamate
+  name: Reaction catalyzed by glutamate N-acetyltransferase on L-Glutamate
+  equation: L-Glutamate + N2-Acetyl-L-ornithine = L-Ornithine + N-Acetyl-L-glutamate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Glutamate
+  - species_id: substrate_N2-Acetyl-L-ornithine
+  products:
+  - species_id: product_L-Ornithine
+  - species_id: product_N-Acetyl-L-glutamate
+  modifiers:
+  - species_id: protein_2_3_1_35_Q07908_p60860
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 15349;15350;15351;15352
+  KEGGid: R02282
+  notes: 'ChEBI IDs: CHEBI:42825; CHEBI:21367; CHEBI:57805; CHEBI:44667; CHEBI:46914;
+    CHEBI:29972; CHEBI:40771; CHEBI:21301; CHEBI:12575; CHEBI:21552; CHEBI:6224; CHEBI:64040;
+    CHEBI:6280; CHEBI:17533; CHEBI:12634; CHEBI:13107; CHEBI:7368; CHEBI:15729; CHEBI:16015;
+    CHEBI:44335; CHEBI:21304; CHEBI:87274; CHEBI:21814; CHEBI:21549; CHEBI:13148;
+    CHEBI:29985; CHEBI:29988; CHEBI:16543; CHEBI:46911; CHEBI:44337; CHEBI:7150
+
+    KEGG IDs: KEGG:C00025; KEGG:C00077; KEGG:C00437; KEGG:C00624'
+- id: sabiork_2247_EC2_3_1_35_Geobacillus_stearothermophilus_Q07908_N2-Acetyl-L-ornithine
+  name: Reaction catalyzed by glutamate N-acetyltransferase on N2-Acetyl-L-ornithine
+  equation: L-Glutamate + N2-Acetyl-L-ornithine = L-Ornithine + N-Acetyl-L-glutamate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N2-Acetyl-L-ornithine
+  - species_id: substrate_L-Glutamate
+  products:
+  - species_id: product_N-Acetyl-L-glutamate
+  - species_id: product_L-Ornithine
+  modifiers:
+  - species_id: protein_2_3_1_35_Q07908_p60861
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 15349;15350;15351;15352
+  KEGGid: R02282
+  notes: 'ChEBI IDs: CHEBI:42825; CHEBI:21367; CHEBI:57805; CHEBI:44667; CHEBI:46914;
+    CHEBI:29972; CHEBI:40771; CHEBI:21301; CHEBI:12575; CHEBI:21552; CHEBI:6224; CHEBI:64040;
+    CHEBI:6280; CHEBI:17533; CHEBI:12634; CHEBI:13107; CHEBI:7368; CHEBI:15729; CHEBI:16015;
+    CHEBI:44335; CHEBI:21304; CHEBI:87274; CHEBI:21814; CHEBI:21549; CHEBI:13148;
+    CHEBI:16543; CHEBI:29988; CHEBI:29985; CHEBI:44337; CHEBI:7150; CHEBI:46911
+
+    KEGG IDs: KEGG:C00025; KEGG:C00077; KEGG:C00437; KEGG:C00624'
+measurements:
+- id: measurement_2_3_1_1_Geobacillus_stearothermophilus_Q07908_Acetyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 75.0
+  temperature_unit: °C
+- id: measurement_2_3_1_35_Geobacillus_stearothermophilus_Q07908_L-Glutamate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 75.0
+  temperature_unit: °C
+- id: measurement_2_3_1_35_Geobacillus_stearothermophilus_Q07908_N2-Acetyl-L-ornithine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 75.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_3_1_1_Geobacillus_stearothermophilus_Q07908_Acetyl-CoA_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 4.16667e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 75.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10931207'
+- id: 2_3_1_1_Geobacillus_stearothermophilus_Q07908_Acetyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0009
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 75.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10931207'
+- id: 2_3_1_35_Geobacillus_stearothermophilus_Q07908_L-Glutamate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0192
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Glutamate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 75.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10931207'
+- id: 2_3_1_35_Geobacillus_stearothermophilus_Q07908_L-Glutamate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.00045
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Glutamate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 75.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10931207'
+- id: 2_3_1_35_Geobacillus_stearothermophilus_Q07908_N2-Acetyl-L-ornithine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000221667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N2-Acetyl-L-ornithine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 75.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10931207'
+buffer:
+  buffer: 0.1 M MES, 0.1 M Pipes, 0.1 M Tris, 0.1 M glycine, 0.1 M K2HPO4
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 60865
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10931207/
+  pubmed_id: '10931207'
+  doi: null
+name: Merged entry for Q07908 wildtype
+description: 'Merged from 3 files: SABIO_EC2.3.1.1_Geobacillus_stearothermophilus__Q07908_s_Acetyl-CoA.yaml,
+  SABIO_EC2.3.1.35_Geobacillus_stearothermophilus__Q07908_s_L-Glutamate.yaml, SABIO_EC2.3.1.35_Geobacillus_stearothermophilus__Q07908_s_N2-Acetyl-L-ornithin.yaml'

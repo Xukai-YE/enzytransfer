@@ -1,0 +1,123 @@
+name: SABIO-RK Entry 67118
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 67118
+created: '2025-10-28T17:01:32.928849'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_3_2_6_P24527_p67118
+  name: leukotriene-A4 hydrolase
+  ecnumber: 3.3.2.6
+  organism: Mus musculus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: Y383Q
+  uniprotid: P24527
+  wildtype_sequence: MPEVADTCSLASPASVCRTQHLHLRCSVDFARRTLTGTAALTVQSQEENLRSLTLDTKDLTIEKVVINGQEVKYTLGESQGYKGSPMEISLPIALSKNQEIVIEISFETSPKSSALQWLTPEQTSGKQHPYLFSQCQAIHCRAILPCQDTPSVKLTYTAEVSVPKELVALMSAIRDGEAPDPEDPSRKIYRFNQRVPIPCYLIALVVGALESRQIGPRTLVWSEKEQVEKSANEFSETESMLKIAEDLGGPYVWGQYDLLVLPPSFPYGGMENPCLTFVTPTLLAGDKSLSNVIAHEISHSWTGNLVTNKTWDHFWLNEGHTVYLERHICGRLFGEKFRHFHALGGWGELQNTIKTFGESHPFTKLVVDLKDVDPDVAYSSIPYEKGFALLFYLEQLLGGPEVFLGFLKAYVKKFSYQSVTTDDWKSFLYSHFKDKVDLLNQVDWNTWLYAPGLPPVKPNYDVTLTNACIALSQRWVTAKEEDLSSFSIADLKDLSSHQLNEFLAQVLQKAPLPLGHIKRMQEVYNFNAINNSEIRFRWLRLCIQSKWEEAIPLALKMATEQGRMKFTRPLFKDLAAFDKSHDQAVHTYQEHKASMHPVTAMLVGRDLKVD
+  mutant_sequence: MPEVADTCSLASPASVCRTQHLHLRCSVDFARRTLTGTAALTVQSQEENLRSLTLDTKDLTIEKVVINGQEVKYTLGESQGYKGSPMEISLPIALSKNQEIVIEISFETSPKSSALQWLTPEQTSGKQHPYLFSQCQAIHCRAILPCQDTPSVKLTYTAEVSVPKELVALMSAIRDGEAPDPEDPSRKIYRFNQRVPIPCYLIALVVGALESRQIGPRTLVWSEKEQVEKSANEFSETESMLKIAEDLGGPYVWGQYDLLVLPPSFPYGGMENPCLTFVTPTLLAGDKSLSNVIAHEISHSWTGNLVTNKTWDHFWLNEGHTVYLERHICGRLFGEKFRHFHALGGWGELQNTIKTFGESHPFTKLVVDLKDVDPDVAQSSIPYEKGFALLFYLEQLLGGPEVFLGFLKAYVKKFSYQSVTTDDWKSFLYSHFKDKVDLLNQVDWNTWLYAPGLPPVKPNYDVTLTNACIALSQRWVTAKEEDLSSFSIADLKDLSSHQLNEFLAQVLQKAPLPLGHIKRMQEVYNFNAINNSEIRFRWLRLCIQSKWEEAIPLALKMATEQGRMKFTRPLFKDLAAFDKSHDQAVHTYQEHKASMHPVTAMLVGRDLKVD
+  position_offset: -4
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Leukotriene_A4
+  name: Leukotriene A4
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Leukotriene_B4
+  name: Leukotriene B4
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Bestatin
+  name: Bestatin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2902_EC3_3_2_6_Mus_musculus_P24527_Leukotriene_A4
+  name: Reaction catalyzed by leukotriene-A4 hydrolase on Leukotriene A4
+  equation: H2O + Leukotriene A4 = Leukotriene B4
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Leukotriene_A4
+  products:
+  - species_id: product_Leukotriene_B4
+  modifiers:
+  - species_id: protein_3_3_2_6_P24527_p67118
+    role: BIOCATALYST
+  - species_id: activator_Bestatin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03057
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:15651; CHEBI:42857;
+    CHEBI:41979; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377;
+    CHEBI:13352; CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:15647; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00909; KEGG:C00001; KEGG:C02165'
+measurements:
+- id: measurement_3_3_2_6_Mus_musculus_P24527_Leukotriene_A4
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: null
+  temperature_unit: null
+parameters: null
+buffer:
+  buffer: 50 mM HEPES
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 67118
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9287304/
+  pubmed_id: '9287304'
+  doi: null

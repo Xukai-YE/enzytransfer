@@ -1,0 +1,140 @@
+name: SABIO-RK Entry 37587
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 37587
+created: '2025-10-28T15:03:37.652541'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_3_1_107_Q9ZTK5_Q9ZTK5_p37587
+  name: deacetylvindoline O-acetyltransferase
+  sequence: null
+  ecnumber: 2.3.1.107
+  organism: Catharanthus roseus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9ZTK5; Q9ZTK5
+complexes: null
+small_molecules:
+- id: substrate_Acetyl-CoA
+  name: Acetyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Deacetylvindoline
+  name: Deacetylvindoline
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Vindoline
+  name: Vindoline
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Tabersonine
+  name: Tabersonine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_3056_EC2_3_1_107_Catharanthus_roseus_Q9ZTK5_Q9ZTK5_Acetyl-CoA
+  name: Reaction catalyzed by deacetylvindoline O-acetyltransferase on Acetyl-CoA
+  equation: Acetyl-CoA + Deacetylvindoline = Coenzyme A + Vindoline
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Acetyl-CoA
+  - species_id: substrate_Deacetylvindoline
+  products:
+  - species_id: product_Coenzyme_A
+  - species_id: product_Vindoline
+  modifiers:
+  - species_id: protein_2_3_1_107_Q9ZTK5_Q9ZTK5_p37587
+    role: BIOCATALYST
+  - species_id: activator_Tabersonine
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 24496;24497;24498;24499
+  KEGGid: R03230
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:15346; CHEBI:23355; CHEBI:57288; CHEBI:41631;
+    CHEBI:13712; CHEBI:13295; CHEBI:41597; CHEBI:18362; CHEBI:16380; CHEBI:57287;
+    CHEBI:13294; CHEBI:40470; CHEBI:16776; CHEBI:2408; CHEBI:3771; CHEBI:741566; CHEBI:13298;
+    CHEBI:15351
+
+    KEGG IDs: KEGG:C01626; KEGG:C00010; KEGG:C01091; KEGG:C09244; KEGG:C00024'
+measurements:
+- id: measurement_2_3_1_107_Catharanthus_roseus_Q9ZTK5_Q9ZTK5_Acetyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 100 mM Hepes, 10 mM Ascorbate
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 37587
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/2350183/
+  pubmed_id: '2350183'
+  doi: null

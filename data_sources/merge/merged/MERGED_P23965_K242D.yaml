@@ -1,0 +1,260 @@
+version: '2.0'
+created: '2025-11-20T13:41:31.456748'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_2_1_17_P23965_p31358
+  name: short-chain-enoyl-CoA hydratase
+  ecnumber: 4.2.1.17
+  organism: Rattus norvegicus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: K242D
+  uniprotid: P23965
+  wildtype_sequence: MALAAARRVLLQAGSRLGRRGAVDGARRFSNKRVLVEKEGEAGIAVMKFKNPPVNSLSLEFLTEFVISLEKLENDKSIRGVILTSERPGIFSAGLDLMEMYGRNPAHYAEYWKAVQELWLRLYLSNLTLISAINGASPAGGCLMALTCDYRIMADNSKYTIGLNESLLGIVAPFWLKDNYVNTIGHRAAERALQLGTLFPPAEALKVGLVDEVVPEDQVHSKARSVMAKWFTIPDHSRQLTKSMMRKATADNLIKQREADIQNFTSFISRDSIQKSLHVYLEKLKQKKG
+  mutant_sequence: MALAAARRVLLQAGSRLGRRGAVDGARRFSNKRVLVEKEGEAGIAVMKFKNPPVNSLSLEFLTEFVISLEKLENDKSIRGVILTSERPGIFSAGLDLMEMYGRNPAHYAEYWKAVQELWLRLYLSNLTLISAINGASPAGGCLMALTCDYRIMADNSKYTIGLNESLLGIVAPFWLKDNYVNTIGHRAAERALQLGTLFPPAEALKVGLVDEVVPEDQVHSKARSVMAKWFTIPDHSRQLTDSMMRKATADNLIKQREADIQNFTSFISRDSIQKSLHVYLEKLKQKKG
+complexes: null
+small_molecules:
+- id: substrate_trans-Hex-2-enoyl-CoA
+  name: trans-Hex-2-enoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product__S_-3-Hydroxyhexanoyl-CoA
+  name: (S)-3-Hydroxyhexanoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_trans-3-Hexenoyl-CoA
+  name: trans-3-Hexenoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_trans-Hex-2-enoyl-CoA
+  name: trans-Hex-2-enoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_4405_EC4_2_1_17_Rattus_norvegicus_P23965_trans-Hex-2-enoyl-CoA
+  name: Reaction catalyzed by short-chain-enoyl-CoA hydratase on trans-Hex-2-enoyl-CoA
+  equation: (S)-3-Hydroxyhexanoyl-CoA = H2O + trans-Hex-2-enoyl-CoA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_trans-Hex-2-enoyl-CoA
+  products:
+  - species_id: product__S_-3-Hydroxyhexanoyl-CoA
+  modifiers:
+  - species_id: protein_4_2_1_17_P23965_p31358
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 30547;30548;30549;30550
+  KEGGid: R04749
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:62075; CHEBI:44819; CHEBI:41981; CHEBI:419;
+    CHEBI:42857; CHEBI:41979; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:13352; CHEBI:28706; CHEBI:43228; CHEBI:44292; CHEBI:33806;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:28276; CHEBI:29373; CHEBI:44701; CHEBI:18780
+
+    KEGG IDs: KEGG:C00001; KEGG:C05271; KEGG:C05268'
+- id: sabiork_9714_EC5_3_3_8_Rattus_norvegicus_P23965_trans-3-Hexenoyl-CoA
+  name: Reaction catalyzed by dodecenoyl-CoA isomerase on trans-3-Hexenoyl-CoA
+  equation: trans-3-Hexenoyl-CoA = trans-Hex-2-enoyl-CoA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_trans-3-Hexenoyl-CoA
+  products:
+  - species_id: product_trans-Hex-2-enoyl-CoA
+  modifiers:
+  - species_id: protein_5_3_3_8_P23965_p31354
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 45736;45737;45738;45739
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:85442; CHEBI:28706; CHEBI:84790; CHEBI:85889; CHEBI:85415
+
+    KEGG IDs: KEGG:C05271'
+measurements:
+- id: measurement_4_2_1_17_Rattus_norvegicus_P23965_trans-Hex-2-enoyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_5_3_3_8_Rattus_norvegicus_P23965_trans-3-Hexenoyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 4_2_1_17_Rattus_norvegicus_P23965_trans-Hex-2-enoyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.6e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_trans-Hex-2-enoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16952422'
+- id: 4_2_1_17_Rattus_norvegicus_P23965_trans-Hex-2-enoyl-CoA_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 4.333333e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_trans-Hex-2-enoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16952422'
+- id: 4_2_1_17_Rattus_norvegicus_P23965_trans-Hex-2-enoyl-CoA_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.013
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_trans-Hex-2-enoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16952422'
+- id: 5_3_3_8_Rattus_norvegicus_P23965_trans-3-Hexenoyl-CoA_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.0e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_trans-3-Hexenoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16952422'
+- id: 5_3_3_8_Rattus_norvegicus_P23965_trans-3-Hexenoyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_trans-3-Hexenoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16952422'
+- id: 5_3_3_8_Rattus_norvegicus_P23965_trans-3-Hexenoyl-CoA_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_trans-3-Hexenoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16952422'
+buffer:
+  buffer: 200 mM Potassium phosphate, 0.2 mg/ml BSA; 50 mM Potassium phosphate, 100
+    ¦ÌM EDTA
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 31358
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16952422/
+  pubmed_id: '16952422'
+  doi: null
+name: Merged entry for P23965 K242D
+description: 'Merged from 2 files: SABIO_EC4.2.1.17_Rattus_norvegicus__P23965_K242D_s_trans-Hex-2-enoyl-Co.yaml,
+  SABIO_EC5.3.3.8_Rattus_norvegicus__P23965_K242D_s_trans-3-Hexenoyl-CoA.yaml'

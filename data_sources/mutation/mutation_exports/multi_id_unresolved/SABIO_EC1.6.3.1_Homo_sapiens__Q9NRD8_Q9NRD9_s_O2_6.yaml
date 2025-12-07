@@ -1,0 +1,141 @@
+name: SABIO-RK Entry 6877
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 6877
+created: '2025-10-28T13:51:06.987776'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_6_3_1_Q9NRD8_Q9NRD9_p6877
+  name: NAD(P)H oxidase
+  sequence: null
+  ecnumber: 1.6.3.1
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9NRD8; Q9NRD9
+complexes: null
+small_molecules:
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Linoleate
+  name: Linoleate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7702_EC1_6_3_1_Homo_sapiens_Q9NRD8_Q9NRD9_O2
+  name: Reaction catalyzed by NAD(P)H oxidase on O2
+  equation: O2 + H+ + NADPH = NADP+ + H2O2
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_6_3_1_Q9NRD8_Q9NRD9_p6877
+    role: BIOCATALYST
+  - species_id: activator_Linoleate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 11260;11261;11262;11263
+  KEGGid: R07172
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:13354; CHEBI:13397; CHEBI:13398; CHEBI:29192;
+    CHEBI:24637; CHEBI:30245; CHEBI:7424; CHEBI:26689; CHEBI:44405; CHEBI:21903; CHEBI:7425;
+    CHEBI:25523; CHEBI:16240; CHEBI:23833; CHEBI:13416; CHEBI:13355; CHEBI:13399;
+    CHEBI:75108; CHEBI:15379; CHEBI:16474; CHEBI:44286; CHEBI:17351; CHEBI:30491;
+    CHEBI:21904; CHEBI:25366; CHEBI:44742; CHEBI:44409; CHEBI:44812; CHEBI:29793;
+    CHEBI:18009; CHEBI:7860; CHEBI:10745; CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:5586
+
+    KEGG IDs: KEGG:C00005; KEGG:C00006; KEGG:C00027; KEGG:C00704; KEGG:C01595; KEGG:C00007;
+    KEGG:C11037'
+measurements: null
+parameters:
+- id: 1_6_3_1_Homo_sapiens_Q9NRD8_Q9NRD9_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.7e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '7680903'
+buffer: null
+references:
+- title: Reference for SABIO-RK entry 6877
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/7680903/
+  pubmed_id: '7680903'
+  doi: null

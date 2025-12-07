@@ -1,0 +1,542 @@
+version: '2.0'
+created: '2025-11-20T13:39:56.166987'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_8_4_2_P35754_p47543
+  name: protein-disulfide reductase (glutathione)
+  ecnumber: 1.8.4.2
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P35754
+  wildtype_sequence: MAQEFVNCKIQPGKVVVFIKPTCPYCRRAQEILSQLPIKQGLLEFVDITATNHTNEIQDYLQQLTGARTVPRVFIGKDCIGGCSDLVSLQQSGELLTRLKQIGALQ
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Glutathionylated_RNase_A
+  name: Glutathionylated RNase A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Reduced_glutathione
+  name: Reduced glutathione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_RNase_A
+  name: RNase A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Oxidized_glutathione
+  name: Oxidized glutathione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Hydroxyethyl_disulfide
+  name: Hydroxyethyl disulfide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Mercaptoethanol
+  name: 2-Mercaptoethanol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Glutathionylated_2-mercaptoethanol
+  name: Glutathionylated 2-mercaptoethanol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Glutathionylated_bovine_serum_albumin
+  name: Glutathionylated bovine serum albumin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Bovine_serum_albumin
+  name: Bovine serum albumin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_13197_EC1_8_4_2_Homo_sapiens_P35754_Glutathionylated_RNase_A
+  name: Reaction catalyzed by protein-disulfide reductase (glutathione) on Glutathionylated
+    RNase A
+  equation: Reduced glutathione + Glutathionylated RNase A = Oxidized glutathione
+    + RNase A
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Glutathionylated_RNase_A
+  - species_id: substrate_Reduced_glutathione
+  products:
+  - species_id: product_RNase_A
+  - species_id: product_Oxidized_glutathione
+  modifiers:
+  - species_id: protein_1_8_4_2_P35754_p47543
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:42832; CHEBI:12402; CHEBI:7840; CHEBI:42873; CHEBI:24334;
+    CHEBI:14327; CHEBI:24336; CHEBI:14328; CHEBI:57925; CHEBI:16856; CHEBI:5437; CHEBI:17858;
+    CHEBI:14720; CHEBI:58297; CHEBI:43049
+
+    KEGG IDs: KEGG:C00051; KEGG:C00127'
+- id: sabiork_10291_EC1_8_4_2_Homo_sapiens_P35754_Hydroxyethyl_disulfide
+  name: Reaction catalyzed by glutathione transferase on Hydroxyethyl disulfide
+  equation: Hydroxyethyl disulfide + Reduced glutathione = Oxidized glutathione +
+    2-Mercaptoethanol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Hydroxyethyl_disulfide
+  - species_id: substrate_Reduced_glutathione
+  products:
+  - species_id: product_2-Mercaptoethanol
+  - species_id: product_Oxidized_glutathione
+  modifiers:
+  - species_id: protein_1_8_4_2_P35754_p47549
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:12402; CHEBI:7840; CHEBI:14328; CHEBI:16856; CHEBI:5437;
+    CHEBI:6766; CHEBI:24334; CHEBI:32887; CHEBI:14327; CHEBI:24336; CHEBI:41215; CHEBI:41218;
+    CHEBI:58297; CHEBI:43132; CHEBI:14720; CHEBI:17858; CHEBI:43049; CHEBI:42832;
+    CHEBI:42873; CHEBI:43136; CHEBI:57925
+
+    KEGG IDs: KEGG:C00051; KEGG:C00928; KEGG:C00127'
+- id: sabiork_13199_EC1_8_4_2_Homo_sapiens_P35754_Reduced_glutathione
+  name: Reaction catalyzed by protein-disulfide reductase (glutathione) on Reduced
+    glutathione
+  equation: Reduced glutathione + Glutathionylated 2-mercaptoethanol = Oxidized glutathione
+    + 2-Mercaptoethanol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Reduced_glutathione
+  - species_id: substrate_Glutathionylated_2-mercaptoethanol
+  products:
+  - species_id: product_Oxidized_glutathione
+  - species_id: product_2-Mercaptoethanol
+  modifiers:
+  - species_id: protein_1_8_4_2_P35754_p47547
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:42832; CHEBI:12402; CHEBI:7840; CHEBI:42873; CHEBI:24334;
+    CHEBI:14327; CHEBI:24336; CHEBI:14328; CHEBI:57925; CHEBI:16856; CHEBI:5437; CHEBI:17858;
+    CHEBI:14720; CHEBI:41218; CHEBI:41215; CHEBI:58297; CHEBI:6766; CHEBI:43049
+
+    KEGG IDs: KEGG:C00051; KEGG:C00127; KEGG:C00928'
+- id: sabiork_13198_EC1_8_4_2_Homo_sapiens_P35754_Glutathionylated_bovine_serum_albumin
+  name: Reaction catalyzed by protein-disulfide reductase (glutathione) on Glutathionylated
+    bovine serum albumin
+  equation: Reduced glutathione + Glutathionylated bovine serum albumin = Oxidized
+    glutathione + Bovine serum albumin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Glutathionylated_bovine_serum_albumin
+  - species_id: substrate_Reduced_glutathione
+  products:
+  - species_id: product_Oxidized_glutathione
+  - species_id: product_Bovine_serum_albumin
+  modifiers:
+  - species_id: protein_1_8_4_2_P35754_p47545
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:42832; CHEBI:12402; CHEBI:7840; CHEBI:42873; CHEBI:24334;
+    CHEBI:14327; CHEBI:24336; CHEBI:14328; CHEBI:57925; CHEBI:16856; CHEBI:5437; CHEBI:17858;
+    CHEBI:14720; CHEBI:58297; CHEBI:43049
+
+    KEGG IDs: KEGG:C00051; KEGG:C00127'
+- id: sabiork_10291_EC1_8_4__Homo_sapiens_P35754_Hydroxyethyl_disulfide
+  name: Reaction catalyzed by glutathione transferase on Hydroxyethyl disulfide
+  equation: Hydroxyethyl disulfide + Reduced glutathione = Oxidized glutathione +
+    2-Mercaptoethanol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Hydroxyethyl_disulfide
+  - species_id: substrate_Reduced_glutathione
+  products:
+  - species_id: product_Oxidized_glutathione
+  - species_id: product_2-Mercaptoethanol
+  modifiers:
+  - species_id: protein_1_8_4__P35754_p21576
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:12402; CHEBI:7840; CHEBI:14328; CHEBI:16856; CHEBI:5437;
+    CHEBI:6766; CHEBI:24334; CHEBI:32887; CHEBI:14327; CHEBI:24336; CHEBI:41215; CHEBI:41218;
+    CHEBI:58297; CHEBI:43132; CHEBI:14720; CHEBI:17858; CHEBI:43049; CHEBI:42832;
+    CHEBI:42873; CHEBI:43136; CHEBI:57925
+
+    KEGG IDs: KEGG:C00051; KEGG:C00127; KEGG:C00928'
+measurements:
+- id: measurement_1_8_4_2_Homo_sapiens_P35754_Glutathionylated_RNase_A
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_1_8_4_2_Homo_sapiens_P35754_Hydroxyethyl_disulfide
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_1_8_4_2_Homo_sapiens_P35754_Reduced_glutathione
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_1_8_4_2_Homo_sapiens_P35754_Glutathionylated_bovine_serum_albumin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_1_8_4__Homo_sapiens_P35754_Hydroxyethyl_disulfide
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_8_4_2_Homo_sapiens_P35754_Glutathionylated_RNase_A_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.1e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glutathionylated_RNase_A
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '14676218'
+- id: 1_8_4_2_Homo_sapiens_P35754_Glutathionylated_RNase_A_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1660000000000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glutathionylated_RNase_A
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '14676218'
+- id: 1_8_4_2_Homo_sapiens_P35754_Glutathionylated_RNase_A_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 6.79
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glutathionylated_RNase_A
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '14676218'
+- id: 1_8_4_2_Homo_sapiens_P35754_Hydroxyethyl_disulfide_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00216
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Hydroxyethyl_disulfide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '14676218'
+- id: 1_8_4_2_Homo_sapiens_P35754_Hydroxyethyl_disulfide_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 136000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Hydroxyethyl_disulfide
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '14676218'
+- id: 1_8_4_2_Homo_sapiens_P35754_Hydroxyethyl_disulfide_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 293.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Hydroxyethyl_disulfide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '14676218'
+- id: 1_8_4_2_Homo_sapiens_P35754_Reduced_glutathione_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 7630000000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Reduced_glutathione
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '14676218'
+- id: 1_8_4_2_Homo_sapiens_P35754_Reduced_glutathione_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 8.16
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Reduced_glutathione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '14676218'
+- id: 1_8_4_2_Homo_sapiens_P35754_Reduced_glutathione_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00107
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Reduced_glutathione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '14676218'
+- id: 1_8_4_2_Homo_sapiens_P35754_Glutathionylated_bovine_serum_albumin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.77e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glutathionylated_bovine_serum_albumin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '14676218'
+- id: 1_8_4_2_Homo_sapiens_P35754_Glutathionylated_bovine_serum_albumin_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 168000000000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glutathionylated_bovine_serum_albumin
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '14676218'
+- id: 1_8_4_2_Homo_sapiens_P35754_Glutathionylated_bovine_serum_albumin_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 4.66
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glutathionylated_bovine_serum_albumin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '14676218'
+- id: 1_8_4__Homo_sapiens_P35754_Hydroxyethyl_disulfide_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 320.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Hydroxyethyl_disulfide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9111025'
+- id: 1_8_4__Homo_sapiens_P35754_Hydroxyethyl_disulfide_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0019
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Hydroxyethyl_disulfide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9111025'
+buffer:
+  buffer: 100 mM potassium phosphate, 1 mM EDTA, 0.1 mg/ml BSA, 240 ¦ÌM NADPH, 6 ¦Ìg/ml
+    yeast glutathione reductase; 100 mM Tris-Cl, 2 mM EDTA, 0.1 mg/ml BSA, 0.2 mM
+    NADPH, 6 ¦Ìg/ml yeast glutathione reductase; 100 mM Tris-HCl, 2 mM EDTA, 0.1 mg/ml
+    BSA, 200 ¦ÌM NADPH, 6 ¦Ìg/ml Glutathione reductase
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 47543
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/14676218/
+  pubmed_id: '14676218'
+  doi: null
+- title: Reference for SABIO-RK entry 21576
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9111025/
+  pubmed_id: '9111025'
+  doi: null
+name: Merged entry for P35754 wildtype
+description: 'Merged from 5 files: SABIO_EC1.8.4.2_Homo_sapiens__P35754_s_Glutathionylated.yaml,
+  SABIO_EC1.8.4.2_Homo_sapiens__P35754_s_Hydroxyethyl.yaml, SABIO_EC1.8.4.2_Homo_sapiens__P35754_s_Reduced.yaml,
+  SABIO_EC1.8.4.2_Homo_sapiens__P35754_s_Glutathionylated_2.yaml, SABIO_EC1.8.4._Homo_sapiens__P35754_s_Hydroxyethyl.yaml'

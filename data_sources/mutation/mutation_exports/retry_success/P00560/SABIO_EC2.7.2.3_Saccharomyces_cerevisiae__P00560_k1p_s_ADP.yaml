@@ -1,0 +1,160 @@
+name: SABIO-RK Entry 56552
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 56552
+created: '2025-10-28T16:16:32.130522'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_2_3_P00560_p56552
+  name: phosphoglycerate kinase
+  sequence: null
+  ecnumber: 2.7.2.3
+  organism: Saccharomyces cerevisiae
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: k1p
+  uniprotid: P00560
+  mutant_sequence: MSLSSPLSVQDLDLKDKRVFIRVDFNVPLDGKKITSNQRIVAALPTIKYVLEHHPRYVVLASHLGRPNGERNEKYSLAPVAKELQSLLGKDVTFLNDCVGPEVEAAVKASAPGSVILLENLRYHIEEEGSRKVDGQKVKASKEDVQKFRHELSSLADVYINDAFGTAHRAHSSMVGFDLPQRAAGFLLEKELKYFGKALENPTRPFLAILGGAKVADKIQLIDNLLDKVDSIIIGGGMAFTFKKVLENTEIGDSIFDKAGAEIVPKLMEKAKAKGVEVVLPVDFIIADAFSADANTKTVTDKEGIPAGWQGLDNGPESRKLFAATVAKAKTIVWNGPPGVFEFEKFAAGTKALLDEVVKSSAAGNTVIIGGGDTATVAKKYGVTDKISHVSTGGGASLELLEGKELPGVAFLSEKK
+  position_offset: 5
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_3-Phospho-D-glyceroyl_phosphate
+  name: 3-Phospho-D-glyceroyl phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3-Phospho-D-glycerate
+  name: 3-Phospho-D-glycerate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7644_EC2_7_2_3_Saccharomyces_cerevisiae_P00560_ADP
+  name: Reaction catalyzed by phosphoglycerate kinase on ADP
+  equation: ATP + 3-Phospho-D-glycerate = ADP + 3-Phospho-D-glyceroyl phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ADP
+  - species_id: substrate_3-Phospho-D-glyceroyl_phosphate
+  products:
+  - species_id: product_3-Phospho-D-glycerate
+  - species_id: product_ATP
+  modifiers:
+  - species_id: protein_2_7_2_3_P00560_p56552
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 14801;14802;14803;14804
+  KEGGid: R01512
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:1657; CHEBI:16761; CHEBI:10789;
+    CHEBI:57299; CHEBI:40553; CHEBI:11882; CHEBI:12987; CHEBI:11880; CHEBI:88352;
+    CHEBI:1658; CHEBI:13236; CHEBI:11881; CHEBI:57998; CHEBI:10841; CHEBI:16001; CHEBI:2359;
+    CHEBI:58272; CHEBI:87518; CHEBI:40938; CHEBI:456216; CHEBI:88005; CHEBI:2342;
+    CHEBI:22249; CHEBI:57604; CHEBI:24345; CHEBI:17050; CHEBI:15422; CHEBI:17794;
+    CHEBI:1659; CHEBI:13222; CHEBI:21029; CHEBI:22244; CHEBI:11879; CHEBI:40016; CHEBI:20189
+
+    KEGG IDs: KEGG:C00236; KEGG:C00597; KEGG:C00002; KEGG:C00008; KEGG:C00197'
+measurements:
+- id: measurement_2_7_2_3_Saccharomyces_cerevisiae_P00560_ADP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 2_7_2_3_Saccharomyces_cerevisiae_P00560_ADP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 58.6
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ADP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23831062'
+buffer:
+  buffer: 100 mM MES, 100 mM KCl, 50 mM K2HPO4 , 5 mM NH4Cl, 1 mM DTT, 80 g/ml glyceraldehyde-3-P-dehydrogenase,
+    5 mM NAD, 10 mM D-Glyceraldehyde 3-phosphate, 5 mM Mg2+
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 56552
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/23831062/
+  pubmed_id: '23831062'
+  doi: null

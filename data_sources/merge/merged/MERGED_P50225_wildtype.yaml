@@ -1,0 +1,312 @@
+version: '2.0'
+created: '2025-11-20T13:40:51.059373'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_8_2_1_P50225_p46404
+  name: aryl sulfotransferase
+  ecnumber: 2.8.2.1
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P50225
+  wildtype_sequence: MELIQDTSRPPLEYVKGVPLIKYFAEALGPLQSFQARPDDLLISTYPKSGTTWVSQILDMIYQGGDLEKCHRAPIFMRVPFLEFKAPGIPSGMETLKDTPAPRLLKTHLPLALLPQTLLDQKVKVVYVARNAKDVAVSYYHFYHMAKVHPEPGTWDSFLEKFMVGEVSYGSWYQHVQEWWELSRTHPVLYLFYEDMKENPKREIQKILEFVGRSLPEETVDFVVQHTSFKEMKKNPMTNYTTVPQEFMDHSISPFMRKGMAGDWKTTFTVAQNERFDADYAEKMAGCSLSFRSEL
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_3_-Phosphoadenylyl_sulfate
+  name: 3'-Phosphoadenylyl sulfate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_p-Nitrophenol
+  name: p-Nitrophenol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Adenosine_3_
+  name: Adenosine 3'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_5_-bisphosphate
+  name: 5'-bisphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4-Nitrophenyl_sulfate
+  name: 4-Nitrophenyl sulfate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Dopamine
+  name: Dopamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Dopamine_sulfate
+  name: Dopamine sulfate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7824_EC2_8_2_1_Homo_sapiens_P50225_3_-Phosphoadenylyl_sulfate
+  name: Reaction catalyzed by aryl sulfotransferase on 3'-Phosphoadenylyl sulfate
+  equation: p-Nitrophenol + 3'-Phosphoadenylyl sulfate = Adenosine 3',5'-bisphosphate
+    + 4-Nitrophenyl sulfate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3_-Phosphoadenylyl_sulfate
+  - species_id: substrate_p-Nitrophenol
+  products:
+  - species_id: product_Adenosine_3_
+  - species_id: product_5_-bisphosphate
+  - species_id: product_4-Nitrophenyl_sulfate
+  modifiers:
+  - species_id: protein_2_8_2_1_P50225_p46404
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:1353; CHEBI:20457; CHEBI:44390; CHEBI:140994; CHEBI:13735;
+    CHEBI:35422; CHEBI:11680; CHEBI:17980; CHEBI:16836; CHEBI:2475; CHEBI:58339; CHEBI:12034;
+    CHEBI:11679; CHEBI:19857; CHEBI:22240; CHEBI:17985; CHEBI:58343; CHEBI:57917;
+    CHEBI:1913
+
+    KEGG IDs: KEGG:C00870; KEGG:C00054; KEGG:C00053'
+- id: sabiork_7083_EC2_8_2_1_Homo_sapiens_P50225_Dopamine
+  name: Reaction catalyzed by aryl sulfotransferase on Dopamine
+  equation: 3'-Phosphoadenylyl sulfate + Dopamine = Adenosine 3',5'-bisphosphate +
+    Dopamine sulfate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Dopamine
+  - species_id: substrate_3_-Phosphoadenylyl_sulfate
+  products:
+  - species_id: product_Dopamine_sulfate
+  - species_id: product_Adenosine_3_
+  - species_id: product_5_-bisphosphate
+  modifiers:
+  - species_id: protein_2_8_2_1_P50225_p46406
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:1353; CHEBI:23886; CHEBI:13735; CHEBI:11680; CHEBI:17980;
+    CHEBI:11930; CHEBI:2475; CHEBI:11695; CHEBI:1764; CHEBI:58339; CHEBI:11679; CHEBI:19857;
+    CHEBI:22240; CHEBI:17985; CHEBI:58343; CHEBI:18243; CHEBI:59905; CHEBI:14203;
+    CHEBI:43686
+
+    KEGG IDs: KEGG:C03758; KEGG:C00054; KEGG:C00053'
+- id: sabiork_7824_EC2_8_2_1_Homo_sapiens_P50225_3_-Phosphoadenylyl_sulfate
+  name: Reaction catalyzed by aryl sulfotransferase on 3'-Phosphoadenylyl sulfate
+  equation: p-Nitrophenol + 3'-Phosphoadenylyl sulfate = Adenosine 3',5'-bisphosphate
+    + 4-Nitrophenyl sulfate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3_-Phosphoadenylyl_sulfate
+  - species_id: substrate_p-Nitrophenol
+  products:
+  - species_id: product_4-Nitrophenyl_sulfate
+  - species_id: product_Adenosine_3_
+  - species_id: product_5_-bisphosphate
+  modifiers:
+  - species_id: protein_2_8_2_1_P50225_p46408
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:1353; CHEBI:20457; CHEBI:44390; CHEBI:140994; CHEBI:35422;
+    CHEBI:13735; CHEBI:11680; CHEBI:17980; CHEBI:16836; CHEBI:2475; CHEBI:58339; CHEBI:12034;
+    CHEBI:11679; CHEBI:19857; CHEBI:22240; CHEBI:17985; CHEBI:58343; CHEBI:57917;
+    CHEBI:1913
+
+    KEGG IDs: KEGG:C00870; KEGG:C00054; KEGG:C00053'
+measurements:
+- id: measurement_2_8_2_1_Homo_sapiens_P50225_3_-Phosphoadenylyl_sulfate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_8_2_1_Homo_sapiens_P50225_Dopamine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_8_2_1_Homo_sapiens_P50225_3_-Phosphoadenylyl_sulfate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_8_2_1_Homo_sapiens_P50225_3_-Phosphoadenylyl_sulfate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.25e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3_-Phosphoadenylyl_sulfate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8093002'
+- id: 2_8_2_1_Homo_sapiens_P50225_3_-Phosphoadenylyl_sulfate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.0e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3_-Phosphoadenylyl_sulfate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8093002'
+- id: 2_8_2_1_Homo_sapiens_P50225_Dopamine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000345
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Dopamine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8093002'
+- id: 2_8_2_1_Homo_sapiens_P50225_Dopamine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.666667e-09
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Dopamine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8093002'
+- id: 2_8_2_1_Homo_sapiens_P50225_3_-Phosphoadenylyl_sulfate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 9.8e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3_-Phosphoadenylyl_sulfate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8093002'
+buffer:
+  buffer: 10 mM Potassium phosphate, 1 mM Pargyline; 10 mM Potassium phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 46404
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/8093002/
+  pubmed_id: '8093002'
+  doi: null
+name: Merged entry for P50225 wildtype
+description: 'Merged from 3 files: SABIO_EC2.8.2.1_Homo_sapiens__P50225_s_3_-Phosphoadenylyl.yaml,
+  SABIO_EC2.8.2.1_Homo_sapiens__P50225_s_Dopamine.yaml, SABIO_EC2.8.2.1_Homo_sapiens__P50225_s_3_-Phosphoadenylyl_2.yaml'

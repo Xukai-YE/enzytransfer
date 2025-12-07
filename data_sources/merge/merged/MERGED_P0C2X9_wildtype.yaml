@@ -1,0 +1,668 @@
+version: '2.0'
+created: '2025-11-20T13:39:42.331412'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_2_1_88_P0C2X9_p30109
+  name: L-glutamate gamma-semialdehyde dehydrogenase
+  ecnumber: 1.2.1.88
+  organism: Rattus norvegicus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P0C2X9
+  wildtype_sequence: MLPPALLRRSLLSYAWRGSGLRWKHASSLKVANEPILAFTQGSPERDALQKALNDLKDQTEAIPCVVGDEEVWTSDVRYQLSPFNHGHKVAKFCYADKALLNKAIEAAVLARKEWDLKPVADRAQIFLKAADMLSGPRRAEILAKTMVGQGKTVIQAEIDAAAELIDFFRFNAKFAVELEGEQPISVPPSTNHVVYRGLEGFVAAISPFNFTAIGGNLAGAPALMGNVVLWKPSDTAMLASYAVYRILREAGLPPNVIQFVPADGPTFGDTVTSSEHLCGINFTGSVPTFKHLWKQVAQNLDRFRTFPRLAGECGGKNFHFVHSSADVDSVVSGTLRSAFEYGGQKCSACSRLYVPQSLWPQIKGRLLEEHSRIKVGNPAEDFGTFFSAVIDAKAFARIKKWLEHARSSPSLSILAGGQCNESVGYFVEPCIIESKDPQEPIMKEEIFGPVLTVYVYPDEKYRETLQLVDSTTSYGLTGAVFAQDKTIVQEATRMLRNAAGNFYINDKSTGSVVGQQPFGGARASGERDIPGQPRLVQLWTEPPFTPLAVSPPLGDWRYSYMQ
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_3-Oxopropanoate
+  name: 3-Oxopropanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Malonate
+  name: Malonate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_L-Glutamate_5-semialdehyde
+  name: L-Glutamate 5-semialdehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Glutamate
+  name: L-Glutamate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate__S_-1-Pyrroline-5-carboxylate
+  name: (S)-1-Pyrroline-5-carboxylate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_6-Oxohexanoate
+  name: 6-Oxohexanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Adipate
+  name: Adipate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Succinate_semialdehyde
+  name: Succinate semialdehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Succinate
+  name: Succinate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1751_EC1_2_1_88_Rattus_norvegicus_P0C2X9_3-Oxopropanoate
+  name: Reaction catalyzed by L-glutamate gamma-semialdehyde dehydrogenase on 3-Oxopropanoate
+  equation: H2O + NAD+ + 3-Oxopropanoate = H+ + NADH + Malonate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3-Oxopropanoate
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_NADH
+  - species_id: product_Malonate
+  modifiers:
+  - species_id: protein_1_2_1_88_P0C2X9_p30109
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 20045;20046;20047;20048
+  KEGGid: R01604
+  notes: 'ChEBI IDs: CHEBI:20180; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:44281;
+    CHEBI:42857; CHEBI:41979; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:13357;
+    CHEBI:21902; CHEBI:13396; CHEBI:15792; CHEBI:14563; CHEBI:21901; CHEBI:25132;
+    CHEBI:42043; CHEBI:24636; CHEBI:44060; CHEBI:44214; CHEBI:29233; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:13394; CHEBI:11877; CHEBI:15377; CHEBI:6660; CHEBI:5584;
+    CHEBI:13352; CHEBI:57945; CHEBI:16908; CHEBI:44216; CHEBI:17960; CHEBI:57540;
+    CHEBI:43228; CHEBI:7423; CHEBI:44292; CHEBI:33190; CHEBI:25130; CHEBI:33806; CHEBI:13389;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:30794; CHEBI:13395; CHEBI:44151; CHEBI:15378;
+    CHEBI:1651; CHEBI:30795; CHEBI:44215; CHEBI:10744; CHEBI:29373; CHEBI:44701; CHEBI:7422;
+    CHEBI:14564
+
+    KEGG IDs: KEGG:C00222; KEGG:C00383; KEGG:C00080; KEGG:C00001; KEGG:C00003; KEGG:C00004'
+- id: sabiork_756_EC1_2_1_88_Rattus_norvegicus_P0C2X9_L-Glutamate_5-semialdehyde
+  name: Reaction catalyzed by aldehyde dehydrogenase [NAD(P)+] on L-Glutamate 5-semialdehyde
+  equation: L-Glutamate 5-semialdehyde + NAD+ + H2O = H+ + NADH + L-Glutamate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Glutamate_5-semialdehyde
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_NADH
+  - species_id: product_L-Glutamate
+  modifiers:
+  - species_id: protein_1_2_1_88_P0C2X9_p30111
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 30235;30236;30237;30238
+  KEGGid: R00245
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42825; CHEBI:44281;
+    CHEBI:42857; CHEBI:13393; CHEBI:41979; CHEBI:29234; CHEBI:15846; CHEBI:13357;
+    CHEBI:21302; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:29972; CHEBI:42043;
+    CHEBI:24636; CHEBI:21301; CHEBI:44214; CHEBI:29233; CHEBI:33811; CHEBI:13394;
+    CHEBI:33813; CHEBI:27313; CHEBI:5584; CHEBI:15377; CHEBI:6224; CHEBI:17232; CHEBI:13352;
+    CHEBI:57945; CHEBI:44216; CHEBI:13107; CHEBI:6225; CHEBI:57540; CHEBI:43228; CHEBI:7423;
+    CHEBI:58066; CHEBI:16015; CHEBI:44292; CHEBI:21304; CHEBI:13389; CHEBI:33806;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:13395; CHEBI:15378; CHEBI:13109; CHEBI:29985;
+    CHEBI:29988; CHEBI:44215; CHEBI:10744; CHEBI:29373; CHEBI:44701; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C00001; KEGG:C01165; KEGG:C00025; KEGG:C00003; KEGG:C00004'
+- id: sabiork_1083_EC1_2_1_88_Rattus_norvegicus_P0C2X9_NAD_
+  name: Reaction catalyzed by L-glutamate gamma-semialdehyde dehydrogenase on NAD+
+  equation: H2O + (S)-1-Pyrroline-5-carboxylate + NAD+ = NADH + L-Glutamate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate__S_-1-Pyrroline-5-carboxylate
+  products:
+  - species_id: product_L-Glutamate
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_2_1_88_P0C2X9_p27981
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 16417;16418;16419;16420
+  KEGGid: R00707
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42825; CHEBI:26458;
+    CHEBI:11297; CHEBI:44281; CHEBI:42857; CHEBI:13393; CHEBI:41979; CHEBI:29234;
+    CHEBI:15846; CHEBI:19095; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901;
+    CHEBI:29972; CHEBI:18727; CHEBI:42043; CHEBI:15893; CHEBI:24636; CHEBI:21301;
+    CHEBI:44214; CHEBI:29233; CHEBI:33811; CHEBI:13394; CHEBI:33813; CHEBI:27313;
+    CHEBI:5584; CHEBI:15377; CHEBI:6224; CHEBI:13352; CHEBI:57945; CHEBI:16908; CHEBI:44216;
+    CHEBI:13107; CHEBI:19873; CHEBI:57540; CHEBI:43228; CHEBI:16015; CHEBI:7423; CHEBI:44292;
+    CHEBI:21304; CHEBI:13389; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:371;
+    CHEBI:1372; CHEBI:12409; CHEBI:15378; CHEBI:13395; CHEBI:17388; CHEBI:29985; CHEBI:29988;
+    CHEBI:44215; CHEBI:10744; CHEBI:29373; CHEBI:44701; CHEBI:7422; CHEBI:11689
+
+    KEGG IDs: KEGG:C03912; KEGG:C00080; KEGG:C00001; KEGG:C04322; KEGG:C00025; KEGG:C00003;
+    KEGG:C00004'
+- id: sabiork_11294_EC1_2_1_88_Rattus_norvegicus_P0C2X9_NAD_
+  name: Reaction catalyzed by L-glutamate gamma-semialdehyde dehydrogenase on NAD+
+  equation: NAD+ + H2O + 6-Oxohexanoate = NADH + H+ + Adipate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_6-Oxohexanoate
+  products:
+  - species_id: product_NADH
+  - species_id: product_Adipate
+  modifiers:
+  - species_id: protein_1_2_1_88_P0C2X9_p30112
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:12226; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:18322;
+    CHEBI:44281; CHEBI:42857; CHEBI:2490; CHEBI:41979; CHEBI:13393; CHEBI:20749; CHEBI:17128;
+    CHEBI:15846; CHEBI:29234; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901;
+    CHEBI:42043; CHEBI:24636; CHEBI:22264; CHEBI:13744; CHEBI:44214; CHEBI:29233;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:13394; CHEBI:5584; CHEBI:15377; CHEBI:13352;
+    CHEBI:57945; CHEBI:44216; CHEBI:30833; CHEBI:2489; CHEBI:57540; CHEBI:43228; CHEBI:7423;
+    CHEBI:22265; CHEBI:44292; CHEBI:33806; CHEBI:13389; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:13395; CHEBI:15378; CHEBI:30832; CHEBI:22268; CHEBI:44215; CHEBI:10744;
+    CHEBI:29373; CHEBI:44701; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C08278; KEGG:C06104; KEGG:C00080; KEGG:C00001; KEGG:C06102; KEGG:C00003;
+    KEGG:C00004'
+- id: sabiork_1083_EC1_2_1_88_Rattus_norvegicus_P0C2X9_NAD_
+  name: Reaction catalyzed by L-glutamate gamma-semialdehyde dehydrogenase on NAD+
+  equation: H2O + (S)-1-Pyrroline-5-carboxylate + NAD+ = NADH + L-Glutamate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate__S_-1-Pyrroline-5-carboxylate
+  products:
+  - species_id: product_NADH
+  - species_id: product_L-Glutamate
+  modifiers:
+  - species_id: protein_1_2_1_88_P0C2X9_p30108
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 16417;16418;16419;16420
+  KEGGid: R00707
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42825; CHEBI:26458;
+    CHEBI:11297; CHEBI:44281; CHEBI:42857; CHEBI:13393; CHEBI:41979; CHEBI:29234;
+    CHEBI:15846; CHEBI:19095; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901;
+    CHEBI:29972; CHEBI:18727; CHEBI:42043; CHEBI:15893; CHEBI:24636; CHEBI:21301;
+    CHEBI:44214; CHEBI:29233; CHEBI:33811; CHEBI:13394; CHEBI:33813; CHEBI:27313;
+    CHEBI:5584; CHEBI:15377; CHEBI:6224; CHEBI:13352; CHEBI:57945; CHEBI:16908; CHEBI:44216;
+    CHEBI:13107; CHEBI:19873; CHEBI:57540; CHEBI:43228; CHEBI:7423; CHEBI:16015; CHEBI:44292;
+    CHEBI:21304; CHEBI:1372; CHEBI:13389; CHEBI:371; CHEBI:12409; CHEBI:5585; CHEBI:33806;
+    CHEBI:29374; CHEBI:10743; CHEBI:15378; CHEBI:13395; CHEBI:17388; CHEBI:29985;
+    CHEBI:29988; CHEBI:44215; CHEBI:10744; CHEBI:29373; CHEBI:44701; CHEBI:7422; CHEBI:11689
+
+    KEGG IDs: KEGG:C03912; KEGG:C00080; KEGG:C00001; KEGG:C04322; KEGG:C00025; KEGG:C00003;
+    KEGG:C00004'
+- id: sabiork_1085_EC1_2_1_88_Rattus_norvegicus_P0C2X9_Succinate_semialdehyde
+  name: Reaction catalyzed by succinate-semialdehyde dehydrogenase (NAD+) on Succinate
+    semialdehyde
+  equation: H2O + Succinate semialdehyde + NAD+ = H+ + NADH + Succinate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Succinate_semialdehyde
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_Succinate
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_2_1_88_P0C2X9_p30110
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 13217;13218;13219;13220
+  KEGGid: R00713
+  notes: 'ChEBI IDs: CHEBI:26807; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:15125;
+    CHEBI:44281; CHEBI:42857; CHEBI:41979; CHEBI:13393; CHEBI:26803; CHEBI:29234;
+    CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:22943; CHEBI:21901;
+    CHEBI:42043; CHEBI:24636; CHEBI:44214; CHEBI:45639; CHEBI:29233; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:13394; CHEBI:9304; CHEBI:15377; CHEBI:132287;
+    CHEBI:5584; CHEBI:90372; CHEBI:13352; CHEBI:57945; CHEBI:44216; CHEBI:57540; CHEBI:43228;
+    CHEBI:26805; CHEBI:7423; CHEBI:44292; CHEBI:30031; CHEBI:33806; CHEBI:26804; CHEBI:10743;
+    CHEBI:29374; CHEBI:5585; CHEBI:13389; CHEBI:15378; CHEBI:22941; CHEBI:15126; CHEBI:30779;
+    CHEBI:13395; CHEBI:15741; CHEBI:9305; CHEBI:57706; CHEBI:44215; CHEBI:16265; CHEBI:10744;
+    CHEBI:29373; CHEBI:44701; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00232; KEGG:C00080; KEGG:C00001; KEGG:C00003; KEGG:C00042; KEGG:C00004'
+measurements:
+- id: measurement_1_2_1_88_Rattus_norvegicus_P0C2X9_3-Oxopropanoate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_1_2_1_88_Rattus_norvegicus_P0C2X9_L-Glutamate_5-semialdehyde
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_1_2_1_88_Rattus_norvegicus_P0C2X9_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_2_1_88_Rattus_norvegicus_P0C2X9_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_1_2_1_88_Rattus_norvegicus_P0C2X9_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_1_2_1_88_Rattus_norvegicus_P0C2X9_Succinate_semialdehyde
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 1_2_1_88_Rattus_norvegicus_P0C2X9_3-Oxopropanoate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0026
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Oxopropanoate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '2211729'
+- id: 1_2_1_88_Rattus_norvegicus_P0C2X9_3-Oxopropanoate_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.166667e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Oxopropanoate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '2211729'
+- id: 1_2_1_88_Rattus_norvegicus_P0C2X9_3-Oxopropanoate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1g-1
+  initial_value: 2.833333e-09
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Oxopropanoate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '2211729'
+- id: 1_2_1_88_Rattus_norvegicus_P0C2X9_L-Glutamate_5-semialdehyde_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00053
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Glutamate_5-semialdehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '2211729'
+- id: 1_2_1_88_Rattus_norvegicus_P0C2X9_L-Glutamate_5-semialdehyde_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.8e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Glutamate_5-semialdehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '2211729'
+- id: 1_2_1_88_Rattus_norvegicus_P0C2X9_L-Glutamate_5-semialdehyde_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1g-1
+  initial_value: 1.483333e-08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Glutamate_5-semialdehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '2211729'
+- id: 1_2_1_88_Rattus_norvegicus_P0C2X9_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00018
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '901423'
+- id: 1_2_1_88_Rattus_norvegicus_P0C2X9_NAD__Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0003
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '901423'
+- id: 1_2_1_88_Rattus_norvegicus_P0C2X9_NAD__Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1g-1
+  initial_value: 1.633333e-08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '2211729'
+- id: 1_2_1_88_Rattus_norvegicus_P0C2X9_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000233333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '2211729'
+- id: 1_2_1_88_Rattus_norvegicus_P0C2X9_NAD__Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '2211729'
+- id: 1_2_1_88_Rattus_norvegicus_P0C2X9_NAD__Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1g-1
+  initial_value: 1.55e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '2211729'
+- id: 1_2_1_88_Rattus_norvegicus_P0C2X9_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 9.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '2211729'
+- id: 1_2_1_88_Rattus_norvegicus_P0C2X9_NAD__Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.001716667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '2211729'
+- id: 1_2_1_88_Rattus_norvegicus_P0C2X9_Succinate_semialdehyde_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Succinate_semialdehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '2211729'
+- id: 1_2_1_88_Rattus_norvegicus_P0C2X9_Succinate_semialdehyde_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Succinate_semialdehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '2211729'
+- id: 1_2_1_88_Rattus_norvegicus_P0C2X9_Succinate_semialdehyde_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1g-1
+  initial_value: 1.333333e-09
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Succinate_semialdehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '2211729'
+buffer:
+  buffer: 50 mM Potassium phosphate; 90 mM Potassium phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 30109
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/2211729/
+  pubmed_id: '2211729'
+  doi: null
+- title: Reference for SABIO-RK entry 27981
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/901423/
+  pubmed_id: '901423'
+  doi: null
+name: Merged entry for P0C2X9 wildtype
+description: 'Merged from 6 files: SABIO_EC1.2.1.88_Rattus_norvegicus__P0C2X9_s_3-Oxopropanoate.yaml,
+  SABIO_EC1.2.1.88_Rattus_norvegicus__P0C2X9_s_L-Glutamate.yaml, SABIO_EC1.2.1.88_Rattus_norvegicus__P0C2X9_s_NAD_.yaml,
+  SABIO_EC1.2.1.88_Rattus_norvegicus__P0C2X9_s_NAD__3.yaml, SABIO_EC1.2.1.88_Rattus_norvegicus__P0C2X9_s_NAD__2.yaml,
+  SABIO_EC1.2.1.88_Rattus_norvegicus__P0C2X9_s_Succinate.yaml'

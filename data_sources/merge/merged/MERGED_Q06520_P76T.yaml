@@ -1,0 +1,245 @@
+version: '2.0'
+created: '2025-11-20T13:40:51.280375'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_8_2_2_Q06520_p74782
+  name: Sulfotransferases
+  ecnumber: 2.8.2.2
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: P76T
+  uniprotid: Q06520
+  wildtype_sequence: MSDDFLWFEGIAFPTMGFRSETLRKVRDEFVIRDEDVIILTYPKSGTNWLAEILCLMHSKGDAKWIQSVPIWERSPWVESEIGYTALSETESPRLFSSHLPIQLFPKSFFSSKAKVIYLMRNPRDVLVSGYFFWKNMKFIKKPKSWEEYFEWFCQGTVLYGSWFDHIHGWMPMREEKNFLLLSYEELKQDTGRTIEKICQFLGKTLEPEELNLILKNSSFQSMKENKMSNYSLLSVDYVVDKAQLLRKGVSGDWKNHFTVAQAEDFDKLFQEKMADLPRELFPWE
+  mutant_sequence: MSDDFLWFEGIAFPTMGFRSETLRKVRDEFVIRDEDVIILTYPKSGTNWLAEILCLMHSKGDAKWIQSVPIWERSTWVESEIGYTALSETESPRLFSSHLPIQLFPKSFFSSKAKVIYLMRNPRDVLVSGYFFWKNMKFIKKPKSWEEYFEWFCQGTVLYGSWFDHIHGWMPMREEKNFLLLSYEELKQDTGRTIEKICQFLGKTLEPEELNLILKNSSFQSMKENKMSNYSLLSVDYVVDKAQLLRKGVSGDWKNHFTVAQAEDFDKLFQEKMADLPRELFPWE
+complexes: null
+small_molecules:
+- id: substrate_3_-Phosphoadenylyl_sulfate
+  name: 3'-Phosphoadenylyl sulfate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_3beta-Hydroxyandrost-5-en-17-one
+  name: 3beta-Hydroxyandrost-5-en-17-one
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3beta-Hydroxyandrost-5-en-17-one_3-sulfate
+  name: 3beta-Hydroxyandrost-5-en-17-one 3-sulfate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Adenosine_3_
+  name: Adenosine 3'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_5_-bisphosphate
+  name: 5'-bisphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_9168_EC2_8_2_2_Homo_sapiens_Q06520_3_-Phosphoadenylyl_sulfate
+  name: Reaction catalyzed by Sulfotransferases on 3'-Phosphoadenylyl sulfate
+  equation: 3'-Phosphoadenylyl sulfate + 3beta-Hydroxyandrost-5-en-17-one = Adenosine
+    3',5'-bisphosphate + 3beta-Hydroxyandrost-5-en-17-one 3-sulfate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3_-Phosphoadenylyl_sulfate
+  - species_id: substrate_3beta-Hydroxyandrost-5-en-17-one
+  products:
+  - species_id: product_3beta-Hydroxyandrost-5-en-17-one_3-sulfate
+  - species_id: product_Adenosine_3_
+  - species_id: product_5_-bisphosphate
+  modifiers:
+  - species_id: protein_2_8_2_2_Q06520_p74782
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03405
+  notes: 'ChEBI IDs: CHEBI:28689; CHEBI:2475; CHEBI:19857; CHEBI:22240; CHEBI:58339;
+    CHEBI:1353; CHEBI:17985; CHEBI:16814; CHEBI:58343; CHEBI:13735; CHEBI:11680; CHEBI:11679;
+    CHEBI:17980
+
+    KEGG IDs: KEGG:C01227; KEGG:C00054; KEGG:C00053; KEGG:C04555'
+- id: sabiork_9168_EC2_8_2_2_Homo_sapiens_Q06520_3beta-Hydroxyandrost-5-en-17-one
+  name: Reaction catalyzed by Sulfotransferases on 3beta-Hydroxyandrost-5-en-17-one
+  equation: 3'-Phosphoadenylyl sulfate + 3beta-Hydroxyandrost-5-en-17-one = Adenosine
+    3',5'-bisphosphate + 3beta-Hydroxyandrost-5-en-17-one 3-sulfate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3beta-Hydroxyandrost-5-en-17-one
+  - species_id: substrate_3_-Phosphoadenylyl_sulfate
+  products:
+  - species_id: product_Adenosine_3_
+  - species_id: product_5_-bisphosphate
+  - species_id: product_3beta-Hydroxyandrost-5-en-17-one_3-sulfate
+  modifiers:
+  - species_id: protein_2_8_2_2_Q06520_p74781
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03405
+  notes: 'ChEBI IDs: CHEBI:28689; CHEBI:2475; CHEBI:19857; CHEBI:22240; CHEBI:58339;
+    CHEBI:1353; CHEBI:17985; CHEBI:16814; CHEBI:58343; CHEBI:13735; CHEBI:11680; CHEBI:11679;
+    CHEBI:17980
+
+    KEGG IDs: KEGG:C01227; KEGG:C00054; KEGG:C00053; KEGG:C04555'
+measurements:
+- id: measurement_2_8_2_2_Homo_sapiens_Q06520_3_-Phosphoadenylyl_sulfate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_8_2_2_Homo_sapiens_Q06520_3beta-Hydroxyandrost-5-en-17-one
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_8_2_2_Homo_sapiens_Q06520_3_-Phosphoadenylyl_sulfate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.55e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3_-Phosphoadenylyl_sulfate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29671343'
+- id: 2_8_2_2_Homo_sapiens_Q06520_3_-Phosphoadenylyl_sulfate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.966667e-08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3_-Phosphoadenylyl_sulfate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29671343'
+- id: 2_8_2_2_Homo_sapiens_Q06520_3_-Phosphoadenylyl_sulfate_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000333333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3_-Phosphoadenylyl_sulfate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29671343'
+- id: 2_8_2_2_Homo_sapiens_Q06520_3beta-Hydroxyandrost-5-en-17-one_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.493e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3beta-Hydroxyandrost-5-en-17-one
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29671343'
+buffer:
+  buffer: 50 mM HEPES, 1 mM DTT
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 74782
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/29671343/
+  pubmed_id: '29671343'
+  doi: null
+name: Merged entry for Q06520 P76T
+description: 'Merged from 2 files: SABIO_EC2.8.2.2_Homo_sapiens__Q06520_P76T_s_3_-Phosphoadenylyl.yaml,
+  SABIO_EC2.8.2.2_Homo_sapiens__Q06520_P76T_s_3beta-Hydroxyandrost.yaml'

@@ -1,0 +1,202 @@
+name: SABIO-RK Entry 437
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 437
+created: '2025-10-28T13:44:36.572644'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_184_O75828_P16152_p437
+  name: carbonyl reductase (NADPH)
+  sequence: null
+  ecnumber: 1.1.1.184
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: O75828; P16152
+complexes: null
+small_molecules:
+- id: substrate_Glutathione-4-oxonon-2-enal
+  name: Glutathione-4-oxonon-2-enal
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Glutathione-4-hydroxynon-2-enal
+  name: Glutathione-4-hydroxynon-2-enal
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_6511_EC1_1_1_184_Homo_sapiens_O75828_P16152_Glutathione-4-oxonon-2-enal
+  name: Reaction catalyzed by carbonyl reductase (NADPH) on Glutathione-4-oxonon-2-enal
+  equation: Glutathione-4-oxonon-2-enal + NADPH + H+ = Glutathione-4-hydroxynon-2-enal
+    + NADP+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Glutathione-4-oxonon-2-enal
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_Glutathione-4-hydroxynon-2-enal
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_1_1_184_O75828_P16152_p437
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:44409; CHEBI:7425; CHEBI:21903; CHEBI:25523; CHEBI:18009;
+    CHEBI:13397; CHEBI:16474; CHEBI:13398; CHEBI:44286; CHEBI:58349; CHEBI:13400;
+    CHEBI:57783; CHEBI:44405; CHEBI:7424; CHEBI:13399; CHEBI:21904
+
+    KEGG IDs: KEGG:C00006; KEGG:C00005; KEGG:C11037'
+measurements:
+- id: measurement_1_1_1_184_Homo_sapiens_O75828_P16152_Glutathione-4-oxonon-2-enal
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1_184_Homo_sapiens_O75828_P16152_Glutathione-4-oxonon-2-enal_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000329
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glutathione-4-oxonon-2-enal
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15476404'
+- id: 1_1_1_184_Homo_sapiens_O75828_P16152_Glutathione-4-oxonon-2-enal_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.1426667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glutathione-4-oxonon-2-enal
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15476404'
+- id: 1_1_1_184_Homo_sapiens_O75828_P16152_Glutathione-4-oxonon-2-enal_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 436.6667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glutathione-4-oxonon-2-enal
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15476404'
+- id: 1_1_1_184_Homo_sapiens_O75828_P16152_Glutathione-4-oxonon-2-enal_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 3.566667e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glutathione-4-oxonon-2-enal
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15476404'
+buffer:
+  buffer: 50 mM sodium phosphate
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 437
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15476404/
+  pubmed_id: '15476404'
+  doi: null

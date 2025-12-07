@@ -1,0 +1,252 @@
+version: '2.0'
+created: '2025-11-20T13:39:42.311420'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_2_1_70_P0A6X1_p48745
+  name: glutamyl-tRNA reductase
+  ecnumber: 1.2.1.70
+  organism: bovine
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P0A6X1
+  wildtype_sequence: MTLLALGINHKTAPVSLRERVSFSPDKLDQALDSLLAQPMVQGGVVLSTCNRTELYLSVEEQDNLQEALIRWLCDYHNLNEEDLRKSLYWHQDNDAVSHLMRVASGLDSLVLGEPQILGQVKKAFADSQKGHMKASELERMFQKSFSVAKRVRTETDIGASAVSVAFAACTLARQIFESLSTVTVLLVGAGETIELVARHLREHKVQKMIIANRTRERAQILADEVGAEVIALSDIDERLREADIIISSTASPLPIIGKGMVERALKSRRNQPMLLVDIAVPRDVEPEVGKLANAYLYSVDDLQSIISHNLAQRKAAAVEAETIVAQETSEFMAWLRAQSASETIREYRSQAEQVRDELTAKALAALEQGGDAQAIMQDLAWKLTNRLIHAPTKSLQQAARDGDNERLNILRDSLGLE
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_L-Glutamyl-tRNA_Glu_
+  name: L-Glutamyl-tRNA(Glu)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product__S_-4-Amino-5-oxopentanoate
+  name: (S)-4-Amino-5-oxopentanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_tRNA_Glu_
+  name: tRNA(Glu)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_9145_EC1_2_1_70_bovine_P0A6X1_L-Glutamyl-tRNA_Glu_
+  name: Reaction catalyzed by glutamyl-tRNA reductase on L-Glutamyl-tRNA(Glu)
+  equation: H+ + NADPH + L-Glutamyl-tRNA(Glu) = NADP+ + tRNA(Glu) + (S)-4-Amino-5-oxopentanoate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Glutamyl-tRNA_Glu_
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product__S_-4-Amino-5-oxopentanoate
+  - species_id: product_NADP_
+  - species_id: product_tRNA_Glu_
+  modifiers:
+  - species_id: protein_1_2_1_70_P0A6X1_p48745
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29175; CHEBI:13397; CHEBI:13398; CHEBI:15757; CHEBI:57501;
+    CHEBI:7424; CHEBI:44405; CHEBI:21903; CHEBI:10680; CHEBI:7425; CHEBI:29234; CHEBI:11022;
+    CHEBI:18756; CHEBI:13357; CHEBI:29157; CHEBI:25523; CHEBI:404; CHEBI:24636; CHEBI:42827;
+    CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:16474; CHEBI:24312; CHEBI:44286; CHEBI:42823;
+    CHEBI:21904; CHEBI:44409; CHEBI:15378; CHEBI:18009; CHEBI:58349; CHEBI:15175;
+    CHEBI:13400; CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C01641; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C03741; KEGG:C02987;
+    KEGG:C11037'
+- id: sabiork_9145_EC1_2_1_70_bovine_P0A6X1_NADPH
+  name: Reaction catalyzed by glutamyl-tRNA reductase on NADPH
+  equation: H+ + NADPH + L-Glutamyl-tRNA(Glu) = NADP+ + tRNA(Glu) + (S)-4-Amino-5-oxopentanoate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_L-Glutamyl-tRNA_Glu_
+  products:
+  - species_id: product__S_-4-Amino-5-oxopentanoate
+  - species_id: product_tRNA_Glu_
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_2_1_70_P0A6X1_p48746
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29175; CHEBI:13397; CHEBI:13398; CHEBI:15757; CHEBI:57501;
+    CHEBI:7424; CHEBI:44405; CHEBI:21903; CHEBI:10680; CHEBI:7425; CHEBI:29234; CHEBI:11022;
+    CHEBI:18756; CHEBI:13357; CHEBI:29157; CHEBI:25523; CHEBI:404; CHEBI:24636; CHEBI:42827;
+    CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:16474; CHEBI:24312; CHEBI:44286; CHEBI:42823;
+    CHEBI:21904; CHEBI:44409; CHEBI:15378; CHEBI:18009; CHEBI:15175; CHEBI:58349;
+    CHEBI:13400; CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C01641; KEGG:C00005; KEGG:C00080; KEGG:C03741; KEGG:C00006; KEGG:C02987;
+    KEGG:C11037'
+measurements:
+- id: measurement_1_2_1_70_bovine_P0A6X1_L-Glutamyl-tRNA_Glu_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.1
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_2_1_70_bovine_P0A6X1_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.1
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_2_1_70_bovine_P0A6X1_L-Glutamyl-tRNA_Glu__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.4e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Glutamyl-tRNA_Glu_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.1
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12370189'
+- id: 1_2_1_70_bovine_P0A6X1_L-Glutamyl-tRNA_Glu__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.13
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Glutamyl-tRNA_Glu_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.1
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12370189'
+- id: 1_2_1_70_bovine_P0A6X1_NADPH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.15
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.1
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12370189'
+- id: 1_2_1_70_bovine_P0A6X1_NADPH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.9e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.1
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12370189'
+buffer:
+  buffer: 30 mM Na-HEPES, 10 mM MgCl2, 15 mM KCl, 20% (v/v) Glycerol, 1 mM dithiothreitol,
+    1 mg/ml Bovine serum albumin
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 48745
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12370189/
+  pubmed_id: '12370189'
+  doi: null
+name: Merged entry for P0A6X1 wildtype
+description: 'Merged from 2 files: SABIO_EC1.2.1.70_bovine__P0A6X1_s_L-Glutamyl-tRNA_Glu_.yaml,
+  SABIO_EC1.2.1.70_bovine__P0A6X1_s_NADPH.yaml'

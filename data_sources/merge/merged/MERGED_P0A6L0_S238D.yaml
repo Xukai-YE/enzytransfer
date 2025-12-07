@@ -1,0 +1,315 @@
+version: '2.0'
+created: '2025-11-20T13:41:29.585995'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_1_2_4_P0A6L0_p45521
+  name: deoxyribose-phosphate aldolase
+  ecnumber: 4.1.2.4
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: S238D
+  uniprotid: P0A6L0
+  wildtype_sequence: MTDLKASSLRALKLMDLTTLNDDDTDEKVIALCHQAKTPVGNTAAICIYPRFIPIARKTLKEQGTPEIRIATVTNFPHGNDDIDIALAETRAAIAYGADEVDVVFPYRALMAGNEQVGFDLVKACKEACAAANVLLKVIIETGELKDEALIRKASEISIKAGADFIKTSTGKVAVNATPESARIMMEVIRDMGVEKTVGFKPAGGVRTAEDAQKYLAIADELFGADWADARHYRFGASSLLASLLKALGHGDGKSASSY
+  mutant_sequence: MTDLKASSLRALKLMDLTTLNDDDTDEKVIALCHQAKTPVGNTAAICIYPRFIPIARKTLKEQGTPEIRIATVTNFPHGNDDIDIALAETRAAIAYGADEVDVVFPYRALMAGNEQVGFDLVKACKEACAAANVLLKVIIETGELKDEALIRKASEISIKAGADFIKTSTGKVAVNATPESARIMMEVIRDMGVEKTVGFKPAGGVRTAEDAQKYLAIADELFGADWADARHYRFGADSLLASLLKALGHGDGKSASSY
+complexes: null
+small_molecules:
+- id: substrate_2-Deoxy-D-ribose
+  name: 2-Deoxy-D-ribose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Glyceraldehyde
+  name: D-Glyceraldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Acetaldehyde
+  name: Acetaldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_2-Deoxy-D-ribose_5-phosphate
+  name: 2-Deoxy-D-ribose 5-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Glyceraldehyde_3-phosphate
+  name: D-Glyceraldehyde 3-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_12969_EC4_1_2_4_Escherichia_coli_P0A6L0_2-Deoxy-D-ribose
+  name: Reaction catalyzed by deoxyribose-phosphate aldolase on 2-Deoxy-D-ribose
+  equation: 2-Deoxy-D-ribose = Acetaldehyde + D-Glyceraldehyde
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2-Deoxy-D-ribose
+  products:
+  - species_id: product_D-Glyceraldehyde
+  - species_id: product_Acetaldehyde
+  modifiers:
+  - species_id: protein_4_1_2_4_P0A6L0_p45521
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:4186; CHEBI:15343; CHEBI:13703; CHEBI:27806; CHEBI:39973;
+    CHEBI:2383; CHEBI:22158; CHEBI:21025; CHEBI:19563; CHEBI:40533; CHEBI:17378; CHEBI:28816;
+    CHEBI:12982; CHEBI:1086
+
+    KEGG IDs: KEGG:C00577; KEGG:C00084; KEGG:C08347; KEGG:C01801'
+- id: sabiork_64_EC4_1_2_4_Escherichia_coli_P0A6L0_2-Deoxy-D-ribose_5-phosphate
+  name: Reaction catalyzed by deoxyribose-phosphate aldolase on 2-Deoxy-D-ribose 5-phosphate
+  equation: 2-Deoxy-D-ribose 5-phosphate = Acetaldehyde + D-Glyceraldehyde 3-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2-Deoxy-D-ribose_5-phosphate
+  products:
+  - species_id: product_Acetaldehyde
+  - species_id: product_D-Glyceraldehyde_3-phosphate
+  modifiers:
+  - species_id: protein_4_1_2_4_P0A6L0_p45514
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 12821;12822;12823;12824
+  KEGGid: R01066
+  notes: 'ChEBI IDs: CHEBI:181; CHEBI:12984; CHEBI:13703; CHEBI:19559; CHEBI:57651;
+    CHEBI:11566; CHEBI:29052; CHEBI:18324; CHEBI:59776; CHEBI:42055; CHEBI:1082; CHEBI:40533;
+    CHEBI:2383; CHEBI:22158; CHEBI:12983; CHEBI:16132; CHEBI:21026; CHEBI:15343
+
+    KEGG IDs: KEGG:C00673; KEGG:C00118; KEGG:C00084'
+- id: sabiork_12969_EC4_1_2_4_Escherichia_coli_P0A6L0_2-Deoxy-D-ribose
+  name: Reaction catalyzed by deoxyribose-phosphate aldolase on 2-Deoxy-D-ribose
+  equation: 2-Deoxy-D-ribose = Acetaldehyde + D-Glyceraldehyde
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2-Deoxy-D-ribose
+  products:
+  - species_id: product_Acetaldehyde
+  - species_id: product_D-Glyceraldehyde
+  modifiers:
+  - species_id: protein_4_1_2_4_P0A6L0_p45515
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:4186; CHEBI:13703; CHEBI:27806; CHEBI:1086; CHEBI:39973;
+    CHEBI:2383; CHEBI:22158; CHEBI:40533; CHEBI:19563; CHEBI:21025; CHEBI:17378; CHEBI:28816;
+    CHEBI:12982; CHEBI:15343
+
+    KEGG IDs: KEGG:C00577; KEGG:C00084; KEGG:C08347; KEGG:C01801'
+measurements:
+- id: measurement_4_1_2_4_Escherichia_coli_P0A6L0_2-Deoxy-D-ribose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_4_1_2_4_Escherichia_coli_P0A6L0_2-Deoxy-D-ribose_5-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_4_1_2_4_Escherichia_coli_P0A6L0_2-Deoxy-D-ribose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 4_1_2_4_Escherichia_coli_P0A6L0_2-Deoxy-D-ribose_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 4.0e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Deoxy-D-ribose
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12467706'
+- id: 4_1_2_4_Escherichia_coli_P0A6L0_2-Deoxy-D-ribose_5-phosphate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.58
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Deoxy-D-ribose_5-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12467706'
+- id: 4_1_2_4_Escherichia_coli_P0A6L0_2-Deoxy-D-ribose_5-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.061
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Deoxy-D-ribose_5-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12467706'
+- id: 4_1_2_4_Escherichia_coli_P0A6L0_2-Deoxy-D-ribose_5-phosphate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 10.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Deoxy-D-ribose_5-phosphate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12467706'
+- id: 4_1_2_4_Escherichia_coli_P0A6L0_2-Deoxy-D-ribose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.21
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Deoxy-D-ribose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12467706'
+- id: 4_1_2_4_Escherichia_coli_P0A6L0_2-Deoxy-D-ribose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.039
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Deoxy-D-ribose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12467706'
+- id: 4_1_2_4_Escherichia_coli_P0A6L0_2-Deoxy-D-ribose_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 5.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Deoxy-D-ribose
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12467706'
+buffer:
+  buffer: 50 mM Triethanolamine hydrochloride, 1.6 U/ml alpha-Glycerophosphate dehydrogenase/Triosephosphate
+    isomerase, 0.3 mM NADH
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 45521
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12467706/
+  pubmed_id: '12467706'
+  doi: null
+name: Merged entry for P0A6L0 S238D
+description: 'Merged from 3 files: SABIO_EC4.1.2.4_Escherichia_coli__P0A6L0_S238D_s_2-Deoxy-D-ribose_3.yaml,
+  SABIO_EC4.1.2.4_Escherichia_coli__P0A6L0_S238D_s_2-Deoxy-D-ribose.yaml, SABIO_EC4.1.2.4_Escherichia_coli__P0A6L0_S238D_s_2-Deoxy-D-ribose_2.yaml'

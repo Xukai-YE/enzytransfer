@@ -1,0 +1,612 @@
+version: '2.0'
+created: '2025-11-20T13:39:51.477751'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_5_1_2_Q96C36_p46269
+  name: pyrroline-5-carboxylate reductase
+  ecnumber: 1.5.1.2
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q96C36
+  wildtype_sequence: MSVGFIGAGQLAYALARGFTAAGILSAHKIIASSPEMNLPTVSALRKMGVNLTRSNKETVKHSDVLFLAVKPHIIPFILDEIGADVQARHIVVSCAAGVTISSVEKKLMAFQPAPKVIRCMTNTPVVVQEGATVYATGTHALVEDGQLLEQLMSSVGFCTEVEEDLIDAVTGLSGSGPAYAFMALDALADGGVKMGLPRRLAIQLGAQALLGAAKMLLDSEQHPCQLKDNVCSPGGATIHALHFLESGGFRSLLINAVEASCIRTRELQSMADQEKISPAALKKTLLDRVKLESPTVSTLTPSSPGKLLTRSLALGGKKD
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate__S_-1-Pyrroline-5-carboxylate
+  name: (S)-1-Pyrroline-5-carboxylate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Proline
+  name: L-Proline
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1468_EC1_5_1_2_Homo_sapiens_Q96C36_NADH
+  name: Reaction catalyzed by pyrroline-5-carboxylate reductase on NADH
+  equation: NAD+ + L-Proline = H+ + NADH + (S)-1-Pyrroline-5-carboxylate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  - species_id: substrate__S_-1-Pyrroline-5-carboxylate
+  products:
+  - species_id: product_NAD_
+  - species_id: product_L-Proline
+  modifiers:
+  - species_id: protein_1_5_1_2_Q96C36_p46269
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 14105;14106;14107;14108
+  KEGGid: R01248
+  notes: 'ChEBI IDs: CHEBI:13154; CHEBI:42067; CHEBI:26458; CHEBI:11297; CHEBI:44281;
+    CHEBI:58054; CHEBI:45159; CHEBI:13393; CHEBI:32862; CHEBI:29234; CHEBI:15846;
+    CHEBI:19095; CHEBI:17203; CHEBI:13357; CHEBI:26271; CHEBI:21902; CHEBI:13396;
+    CHEBI:21901; CHEBI:18727; CHEBI:24636; CHEBI:15893; CHEBI:44214; CHEBI:29233;
+    CHEBI:5584; CHEBI:13394; CHEBI:6286; CHEBI:57945; CHEBI:32864; CHEBI:44216; CHEBI:45040;
+    CHEBI:19873; CHEBI:57540; CHEBI:7423; CHEBI:32871; CHEBI:1372; CHEBI:13389; CHEBI:371;
+    CHEBI:12409; CHEBI:60039; CHEBI:32872; CHEBI:15378; CHEBI:13395; CHEBI:21373;
+    CHEBI:184637; CHEBI:11689; CHEBI:17388; CHEBI:50342; CHEBI:45100; CHEBI:10744;
+    CHEBI:44215; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C16435; KEGG:C00148; KEGG:C03912; KEGG:C00080; KEGG:C04322; KEGG:C00003;
+    KEGG:C00004'
+- id: sabiork_1470_EC1_5_1_2_Homo_sapiens_Q96C36_NADPH
+  name: Reaction catalyzed by pyrroline-5-carboxylate reductase on NADPH
+  equation: NADP+ + L-Proline = H+ + NADPH + (S)-1-Pyrroline-5-carboxylate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate__S_-1-Pyrroline-5-carboxylate
+  products:
+  - species_id: product_NADP_
+  - species_id: product_L-Proline
+  modifiers:
+  - species_id: protein_1_5_1_2_Q96C36_p46272
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 14109;14110;14111;14112
+  KEGGid: R01251
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:13154; CHEBI:42067; CHEBI:7424;
+    CHEBI:26458; CHEBI:11297; CHEBI:58054; CHEBI:44405; CHEBI:21903; CHEBI:45159;
+    CHEBI:7425; CHEBI:29234; CHEBI:32862; CHEBI:17203; CHEBI:19095; CHEBI:13357; CHEBI:25523;
+    CHEBI:26271; CHEBI:18727; CHEBI:24636; CHEBI:15893; CHEBI:29233; CHEBI:5584; CHEBI:13399;
+    CHEBI:6286; CHEBI:32864; CHEBI:16474; CHEBI:45040; CHEBI:44286; CHEBI:19873; CHEBI:32871;
+    CHEBI:21904; CHEBI:1372; CHEBI:32872; CHEBI:371; CHEBI:12409; CHEBI:44409; CHEBI:60039;
+    CHEBI:15378; CHEBI:21373; CHEBI:184637; CHEBI:18009; CHEBI:17388; CHEBI:58349;
+    CHEBI:13400; CHEBI:57783; CHEBI:50342; CHEBI:45100; CHEBI:10744; CHEBI:11689
+
+    KEGG IDs: KEGG:C16435; KEGG:C00148; KEGG:C00005; KEGG:C03912; KEGG:C00080; KEGG:C00006;
+    KEGG:C04322; KEGG:C11037'
+- id: sabiork_1468_EC1_5_1_2_Homo_sapiens_Q96C36__S_-1-Pyrroline-5-carboxylate
+  name: Reaction catalyzed by pyrroline-5-carboxylate reductase on (S)-1-Pyrroline-5-carboxylate
+  equation: NAD+ + L-Proline = H+ + NADH + (S)-1-Pyrroline-5-carboxylate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate__S_-1-Pyrroline-5-carboxylate
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_NAD_
+  - species_id: product_L-Proline
+  modifiers:
+  - species_id: protein_1_5_1_2_Q96C36_p46265
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 14105;14106;14107;14108
+  KEGGid: R01248
+  notes: 'ChEBI IDs: CHEBI:13154; CHEBI:42067; CHEBI:11297; CHEBI:26458; CHEBI:44281;
+    CHEBI:58054; CHEBI:45159; CHEBI:13393; CHEBI:32862; CHEBI:29234; CHEBI:15846;
+    CHEBI:19095; CHEBI:17203; CHEBI:13357; CHEBI:26271; CHEBI:21902; CHEBI:13396;
+    CHEBI:21901; CHEBI:18727; CHEBI:24636; CHEBI:15893; CHEBI:44214; CHEBI:29233;
+    CHEBI:5584; CHEBI:13394; CHEBI:6286; CHEBI:57945; CHEBI:32864; CHEBI:44216; CHEBI:45040;
+    CHEBI:19873; CHEBI:57540; CHEBI:7423; CHEBI:32871; CHEBI:1372; CHEBI:13389; CHEBI:371;
+    CHEBI:12409; CHEBI:60039; CHEBI:32872; CHEBI:15378; CHEBI:13395; CHEBI:21373;
+    CHEBI:184637; CHEBI:11689; CHEBI:17388; CHEBI:50342; CHEBI:45100; CHEBI:10744;
+    CHEBI:44215; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C16435; KEGG:C00148; KEGG:C03912; KEGG:C00080; KEGG:C04322; KEGG:C00003;
+    KEGG:C00004'
+- id: sabiork_1470_EC1_5_1_2_Homo_sapiens_Q96C36_NADPH
+  name: Reaction catalyzed by pyrroline-5-carboxylate reductase on NADPH
+  equation: NADP+ + L-Proline = H+ + NADPH + (S)-1-Pyrroline-5-carboxylate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate__S_-1-Pyrroline-5-carboxylate
+  products:
+  - species_id: product_L-Proline
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_5_1_2_Q96C36_p46267
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 14109;14110;14111;14112
+  KEGGid: R01251
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:13154; CHEBI:42067; CHEBI:7424;
+    CHEBI:26458; CHEBI:11297; CHEBI:58054; CHEBI:44405; CHEBI:21903; CHEBI:45159;
+    CHEBI:7425; CHEBI:29234; CHEBI:32862; CHEBI:17203; CHEBI:19095; CHEBI:13357; CHEBI:26271;
+    CHEBI:25523; CHEBI:18727; CHEBI:24636; CHEBI:15893; CHEBI:29233; CHEBI:5584; CHEBI:13399;
+    CHEBI:6286; CHEBI:32864; CHEBI:16474; CHEBI:45040; CHEBI:44286; CHEBI:19873; CHEBI:32871;
+    CHEBI:21904; CHEBI:1372; CHEBI:32872; CHEBI:371; CHEBI:12409; CHEBI:60039; CHEBI:21373;
+    CHEBI:15378; CHEBI:184637; CHEBI:44409; CHEBI:18009; CHEBI:17388; CHEBI:58349;
+    CHEBI:13400; CHEBI:57783; CHEBI:50342; CHEBI:45100; CHEBI:10744; CHEBI:11689
+
+    KEGG IDs: KEGG:C16435; KEGG:C00148; KEGG:C00005; KEGG:C03912; KEGG:C00080; KEGG:C00006;
+    KEGG:C04322; KEGG:C11037'
+- id: sabiork_1468_EC1_5_1_2_Homo_sapiens_Q96C36__S_-1-Pyrroline-5-carboxylate
+  name: Reaction catalyzed by pyrroline-5-carboxylate reductase on (S)-1-Pyrroline-5-carboxylate
+  equation: NAD+ + L-Proline = H+ + NADH + (S)-1-Pyrroline-5-carboxylate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate__S_-1-Pyrroline-5-carboxylate
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_L-Proline
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_5_1_2_Q96C36_p46266
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 14105;14106;14107;14108
+  KEGGid: R01248
+  notes: 'ChEBI IDs: CHEBI:13154; CHEBI:42067; CHEBI:11297; CHEBI:26458; CHEBI:58054;
+    CHEBI:44281; CHEBI:45159; CHEBI:13393; CHEBI:32862; CHEBI:29234; CHEBI:17203;
+    CHEBI:19095; CHEBI:15846; CHEBI:13357; CHEBI:26271; CHEBI:21902; CHEBI:13396;
+    CHEBI:21901; CHEBI:18727; CHEBI:15893; CHEBI:24636; CHEBI:44214; CHEBI:29233;
+    CHEBI:5584; CHEBI:6286; CHEBI:13394; CHEBI:57945; CHEBI:32864; CHEBI:44216; CHEBI:45040;
+    CHEBI:19873; CHEBI:57540; CHEBI:7423; CHEBI:32871; CHEBI:1372; CHEBI:32872; CHEBI:371;
+    CHEBI:12409; CHEBI:60039; CHEBI:21373; CHEBI:15378; CHEBI:13395; CHEBI:184637;
+    CHEBI:13389; CHEBI:11689; CHEBI:17388; CHEBI:50342; CHEBI:45100; CHEBI:10744;
+    CHEBI:44215; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C16435; KEGG:C00148; KEGG:C03912; KEGG:C00080; KEGG:C04322; KEGG:C00003;
+    KEGG:C00004'
+- id: sabiork_1470_EC1_5_1_2_Homo_sapiens_Q96C36__S_-1-Pyrroline-5-carboxylate
+  name: Reaction catalyzed by pyrroline-5-carboxylate reductase on (S)-1-Pyrroline-5-carboxylate
+  equation: NADP+ + L-Proline = H+ + NADPH + (S)-1-Pyrroline-5-carboxylate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate__S_-1-Pyrroline-5-carboxylate
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_NADP_
+  - species_id: product_L-Proline
+  modifiers:
+  - species_id: protein_1_5_1_2_Q96C36_p46268
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 14109;14110;14111;14112
+  KEGGid: R01251
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:13154; CHEBI:42067; CHEBI:7424;
+    CHEBI:11297; CHEBI:26458; CHEBI:58054; CHEBI:44405; CHEBI:21903; CHEBI:45159;
+    CHEBI:7425; CHEBI:29234; CHEBI:32862; CHEBI:17203; CHEBI:19095; CHEBI:13357; CHEBI:25523;
+    CHEBI:26271; CHEBI:18727; CHEBI:15893; CHEBI:24636; CHEBI:29233; CHEBI:5584; CHEBI:13399;
+    CHEBI:6286; CHEBI:32864; CHEBI:16474; CHEBI:45040; CHEBI:44286; CHEBI:19873; CHEBI:32871;
+    CHEBI:21904; CHEBI:1372; CHEBI:32872; CHEBI:371; CHEBI:12409; CHEBI:44409; CHEBI:60039;
+    CHEBI:15378; CHEBI:21373; CHEBI:184637; CHEBI:18009; CHEBI:17388; CHEBI:58349;
+    CHEBI:13400; CHEBI:57783; CHEBI:50342; CHEBI:45100; CHEBI:10744; CHEBI:11689
+
+    KEGG IDs: KEGG:C16435; KEGG:C00148; KEGG:C00005; KEGG:C03912; KEGG:C00080; KEGG:C00006;
+    KEGG:C04322; KEGG:C11037'
+- id: sabiork_1470_EC1_5_1_2_Homo_sapiens_Q96C36__S_-1-Pyrroline-5-carboxylate
+  name: Reaction catalyzed by pyrroline-5-carboxylate reductase on (S)-1-Pyrroline-5-carboxylate
+  equation: NADP+ + L-Proline = H+ + NADPH + (S)-1-Pyrroline-5-carboxylate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate__S_-1-Pyrroline-5-carboxylate
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_L-Proline
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_5_1_2_Q96C36_p46271
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 14109;14110;14111;14112
+  KEGGid: R01251
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:13154; CHEBI:42067; CHEBI:7424;
+    CHEBI:11297; CHEBI:26458; CHEBI:58054; CHEBI:44405; CHEBI:21903; CHEBI:45159;
+    CHEBI:7425; CHEBI:29234; CHEBI:32862; CHEBI:17203; CHEBI:19095; CHEBI:13357; CHEBI:26271;
+    CHEBI:25523; CHEBI:18727; CHEBI:24636; CHEBI:15893; CHEBI:29233; CHEBI:5584; CHEBI:13399;
+    CHEBI:6286; CHEBI:32864; CHEBI:16474; CHEBI:45040; CHEBI:44286; CHEBI:19873; CHEBI:32871;
+    CHEBI:21904; CHEBI:1372; CHEBI:32872; CHEBI:371; CHEBI:12409; CHEBI:60039; CHEBI:21373;
+    CHEBI:15378; CHEBI:184637; CHEBI:44409; CHEBI:18009; CHEBI:17388; CHEBI:58349;
+    CHEBI:13400; CHEBI:57783; CHEBI:50342; CHEBI:45100; CHEBI:10744; CHEBI:11689
+
+    KEGG IDs: KEGG:C16435; KEGG:C00148; KEGG:C00005; KEGG:C03912; KEGG:C00080; KEGG:C00006;
+    KEGG:C04322; KEGG:C11037'
+- id: sabiork_1468_EC1_5_1_2_Homo_sapiens_Q96C36__S_-1-Pyrroline-5-carboxylate
+  name: Reaction catalyzed by pyrroline-5-carboxylate reductase on (S)-1-Pyrroline-5-carboxylate
+  equation: NAD+ + L-Proline = H+ + NADH + (S)-1-Pyrroline-5-carboxylate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate__S_-1-Pyrroline-5-carboxylate
+  - species_id: substrate_NADH
+  - species_id: cofactor_NADP_
+  products:
+  - species_id: product_NAD_
+  - species_id: product_L-Proline
+  modifiers:
+  - species_id: protein_1_5_1_2_Q96C36_p46270
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 14105;14106;14107;14108
+  KEGGid: R01248
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:13154; CHEBI:42067; CHEBI:7424;
+    CHEBI:11297; CHEBI:26458; CHEBI:44281; CHEBI:58054; CHEBI:44405; CHEBI:21903;
+    CHEBI:45159; CHEBI:13393; CHEBI:32862; CHEBI:29234; CHEBI:15846; CHEBI:19095;
+    CHEBI:17203; CHEBI:13357; CHEBI:26271; CHEBI:25523; CHEBI:21902; CHEBI:13396;
+    CHEBI:21901; CHEBI:18727; CHEBI:24636; CHEBI:15893; CHEBI:44214; CHEBI:29233;
+    CHEBI:5584; CHEBI:13394; CHEBI:6286; CHEBI:57945; CHEBI:32864; CHEBI:44216; CHEBI:45040;
+    CHEBI:19873; CHEBI:57540; CHEBI:7423; CHEBI:32871; CHEBI:1372; CHEBI:13389; CHEBI:371;
+    CHEBI:12409; CHEBI:60039; CHEBI:32872; CHEBI:15378; CHEBI:13395; CHEBI:21373;
+    CHEBI:184637; CHEBI:44409; CHEBI:18009; CHEBI:11689; CHEBI:17388; CHEBI:58349;
+    CHEBI:50342; CHEBI:45100; CHEBI:10744; CHEBI:44215; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C16435; KEGG:C00148; KEGG:C03912; KEGG:C00080; KEGG:C00006; KEGG:C04322;
+    KEGG:C00003; KEGG:C11037; KEGG:C00004'
+measurements:
+- id: measurement_1_5_1_2_Homo_sapiens_Q96C36_NADH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.8
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_5_1_2_Homo_sapiens_Q96C36_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.8
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_5_1_2_Homo_sapiens_Q96C36__S_-1-Pyrroline-5-carboxylate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.8
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_5_1_2_Homo_sapiens_Q96C36_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.8
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_5_1_2_Homo_sapiens_Q96C36__S_-1-Pyrroline-5-carboxylate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.8
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_5_1_2_Homo_sapiens_Q96C36__S_-1-Pyrroline-5-carboxylate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.8
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_5_1_2_Homo_sapiens_Q96C36__S_-1-Pyrroline-5-carboxylate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.8
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_5_1_2_Homo_sapiens_Q96C36__S_-1-Pyrroline-5-carboxylate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.8
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_5_1_2_Homo_sapiens_Q96C36_NADH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00086
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2722838'
+- id: 1_5_1_2_Homo_sapiens_Q96C36_NADPH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0003
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2722838'
+- id: 1_5_1_2_Homo_sapiens_Q96C36__S_-1-Pyrroline-5-carboxylate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00149
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__S_-1-Pyrroline-5-carboxylate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2722838'
+- id: 1_5_1_2_Homo_sapiens_Q96C36__S_-1-Pyrroline-5-carboxylate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.475
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__S_-1-Pyrroline-5-carboxylate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2722838'
+- id: 1_5_1_2_Homo_sapiens_Q96C36_NADPH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00023
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2722838'
+- id: 1_5_1_2_Homo_sapiens_Q96C36_NADPH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.06166667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2722838'
+- id: 1_5_1_2_Homo_sapiens_Q96C36__S_-1-Pyrroline-5-carboxylate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00064
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__S_-1-Pyrroline-5-carboxylate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2722838'
+- id: 1_5_1_2_Homo_sapiens_Q96C36__S_-1-Pyrroline-5-carboxylate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.475
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__S_-1-Pyrroline-5-carboxylate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2722838'
+- id: 1_5_1_2_Homo_sapiens_Q96C36__S_-1-Pyrroline-5-carboxylate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__S_-1-Pyrroline-5-carboxylate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2722838'
+- id: 1_5_1_2_Homo_sapiens_Q96C36__S_-1-Pyrroline-5-carboxylate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.06166667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__S_-1-Pyrroline-5-carboxylate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2722838'
+- id: 1_5_1_2_Homo_sapiens_Q96C36__S_-1-Pyrroline-5-carboxylate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.3e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__S_-1-Pyrroline-5-carboxylate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2722838'
+- id: 1_5_1_2_Homo_sapiens_Q96C36__S_-1-Pyrroline-5-carboxylate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0181
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__S_-1-Pyrroline-5-carboxylate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2722838'
+buffer:
+  buffer: 100 mM Potassium phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 46269
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/2722838/
+  pubmed_id: '2722838'
+  doi: null
+name: Merged entry for Q96C36 wildtype
+description: 'Merged from 8 files: SABIO_EC1.5.1.2_Homo_sapiens__Q96C36_s_NADH.yaml,
+  SABIO_EC1.5.1.2_Homo_sapiens__Q96C36_s_NADPH_2.yaml, SABIO_EC1.5.1.2_Homo_sapiens__Q96C36_s__S_-1-Pyrroline-5-ca.yaml,
+  SABIO_EC1.5.1.2_Homo_sapiens__Q96C36_s_NADPH.yaml, SABIO_EC1.5.1.2_Homo_sapiens__Q96C36_s__S_-1-Pyrroline-5-ca_2.yaml,
+  SABIO_EC1.5.1.2_Homo_sapiens__Q96C36_s__S_-1-Pyrroline-5-ca_3.yaml, SABIO_EC1.5.1.2_Homo_sapiens__Q96C36_s__S_-1-Pyrroline-5-ca_5.yaml,
+  SABIO_EC1.5.1.2_Homo_sapiens__Q96C36_s__S_-1-Pyrroline-5-ca_4.yaml'

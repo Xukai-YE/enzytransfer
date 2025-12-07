@@ -1,0 +1,170 @@
+name: SABIO-RK Entry 9615
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 9615
+created: '2025-10-28T13:56:01.978049'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_11_1_5_P00431_p9615
+  name: cytochrome-c peroxidase
+  sequence: null
+  ecnumber: 1.11.1.5
+  organism: Saccharomyces cerevisiae
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: s175C
+  uniprotid: P00431
+  mutant_sequence: MTTAVRLLPSLGRTAHKRSLYLFSAAAAAAAAATFAYSQSQKRSSSSPGGGSNHGWNNWGKAAALASTTPLVHVASVEKGRSYEDFQKVYNAIALKLREDDEYDNYIGYGPVLVRLAWHTSGTWDKHDNTGGSYGGTYRFKKEFNDPSNAGLQNGFKFLEPIHKEFPWICSGDLFSLGGVTAVQEMQGPKIPWRCGRVDTPEDTTPDNGRLPDADKDADYVRTFFQRLNMNDREVVALMGAHALGKTHLKNSGYEGPWGAANNVFTNEFYLNLLNEDWKLEKNDANNEQWDSKSGYMMLPTDYSLIQDPKYLSIVKEYANDQDKFFKDFSKAFEKLLENGITFPKDAPSPFIFKTLEEQGL
+  position_offset: -5
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Ferrocytochrome_c
+  name: Ferrocytochrome c
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Ferricytochrome_c
+  name: Ferricytochrome c
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_372_EC1_11_1_5_Saccharomyces_cerevisiae_P00431_Ferrocytochrome_c
+  name: Reaction catalyzed by cytochrome-c peroxidase on Ferrocytochrome c
+  equation: Ferrocytochrome c + H2O2 = Ferricytochrome c + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Ferrocytochrome_c
+  products:
+  - species_id: product_Ferricytochrome_c
+  modifiers:
+  - species_id: protein_1_11_1_5_P00431_p9615
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00017
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:13354; CHEBI:44819; CHEBI:41981; CHEBI:29192;
+    CHEBI:16928; CHEBI:24637; CHEBI:42857; CHEBI:41979; CHEBI:16240; CHEBI:15991;
+    CHEBI:13355; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377;
+    CHEBI:13352; CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:44812;
+    CHEBI:5585; CHEBI:29374; CHEBI:5586; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00001; KEGG:C00125; KEGG:C00027; KEGG:C00126'
+measurements:
+- id: measurement_1_11_1_5_Saccharomyces_cerevisiae_P00431_Ferrocytochrome_c
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 5.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_11_1_5_Saccharomyces_cerevisiae_P00431_Ferrocytochrome_c_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 96.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Ferrocytochrome_c
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8051115'
+- id: 1_11_1_5_Saccharomyces_cerevisiae_P00431_Ferrocytochrome_c_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1800000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Ferrocytochrome_c
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 5.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8051115'
+- id: 1_11_1_5_Saccharomyces_cerevisiae_P00431_Ferrocytochrome_c_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.39e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Ferrocytochrome_c
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8051115'
+buffer:
+  buffer: 0.1 M Tris acetate/Mes
+  buffer_concentration: 0.1 M
+references:
+- title: Reference for SABIO-RK entry 9615
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/8051115/
+  pubmed_id: '8051115'
+  doi: null

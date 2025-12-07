@@ -1,0 +1,161 @@
+name: SABIO-RK Entry 29006
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 29006
+created: '2025-10-28T14:36:27.435200'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_2_1_23_P06864_P0AC73_p29006
+  name: beta-galactosidase
+  sequence: null
+  ecnumber: 3.2.1.23
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P06864; P0AC73
+complexes: null
+small_molecules:
+- id: substrate_4-Bromoisoquinyl-beta-D-galactopyranoside
+  name: 4-Bromoisoquinyl-beta-D-galactopyranoside
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_beta-D-Galactose
+  name: beta-D-Galactose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4-Bromoisoquinoline
+  name: 4-Bromoisoquinoline
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_10457_EC3_2_1_23_Escherichia_coli_P06864_P0AC73_4-Bromoisoquinyl-beta-D-galactopyranoside
+  name: Reaction catalyzed by beta-galactosidase on 4-Bromoisoquinyl-beta-D-galactopyranoside
+  equation: 4-Bromoisoquinyl-beta-D-galactopyranoside + H2O = 4-Bromoisoquinoline
+    + beta-D-Galactose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_4-Bromoisoquinyl-beta-D-galactopyranoside
+  products:
+  - species_id: product_beta-D-Galactose
+  - species_id: product_4-Bromoisoquinoline
+  modifiers:
+  - species_id: protein_3_2_1_23_P06864_P0AC73_p29006
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:41979;
+    CHEBI:42889; CHEBI:10383; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:27667; CHEBI:15377; CHEBI:22774; CHEBI:13352; CHEBI:43228; CHEBI:44292;
+    CHEBI:42776; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00001; KEGG:C00962'
+measurements:
+- id: measurement_3_2_1_23_Escherichia_coli_P06864_P0AC73_4-Bromoisoquinyl-beta-D-galactopyranoside
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 3_2_1_23_Escherichia_coli_P06864_P0AC73_4-Bromoisoquinyl-beta-D-galactopyranoside_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 8.3
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_4-Bromoisoquinyl-beta-D-galactopyranoside
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2505746'
+- id: 3_2_1_23_Escherichia_coli_P06864_P0AC73_4-Bromoisoquinyl-beta-D-galactopyranoside_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00048
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_4-Bromoisoquinyl-beta-D-galactopyranoside
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2505746'
+buffer:
+  buffer: 0.125 M potassium phosphate, 5 mM MgCl2, 25 ¦ÌM 2,2&apos;-bipyridyl
+  buffer_concentration: 0.125 M
+references:
+- title: Reference for SABIO-RK entry 29006
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/2505746/
+  pubmed_id: '2505746'
+  doi: null

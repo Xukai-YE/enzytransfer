@@ -1,0 +1,172 @@
+name: SABIO-RK Entry 74868
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 74868
+created: '2025-10-28T17:42:19.366187'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_2_4_1; 2_3_1_12; 1_8_1_4_P29804_P09623_p74868
+  name: dihydrolipoyl dehydrogenase
+  sequence: null
+  ecnumber: 1.2.4.1; 2.3.1.12; 1.8.1.4
+  organism: Sus scrofa
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P29804; P09623
+complexes: null
+small_molecules:
+- id: substrate_4-Methyl-2-oxopentanoate
+  name: 4-Methyl-2-oxopentanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Ca2_
+  name: Ca2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3-Methylbutanoyl-CoA
+  name: 3-Methylbutanoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_3-Methyl-2-oxopentanoate_Thiamine_diphosphate
+  name: 3-Methyl-2-oxopentanoate; Thiamine diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1788_EC1_2_4_1; 2_3_1_12; 1_8_1_4_Sus_scrofa_P29804_P09623_4-Methyl-2-oxopentanoate
+  name: Reaction catalyzed by dihydrolipoyl dehydrogenase on 4-Methyl-2-oxopentanoate
+  equation: Coenzyme A + NAD+ + 4-Methyl-2-oxopentanoate = CO2 + NADH + 3-Methylbutanoyl-CoA
+    + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_4-Methyl-2-oxopentanoate
+  - species_id: substrate_NAD_
+  - species_id: substrate_Coenzyme_A
+  - species_id: cofactor_Ca2_
+  products:
+  - species_id: product_CO2
+  - species_id: product_3-Methylbutanoyl-CoA
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_2_4_1; 2_3_1_12; 1_8_1_4_P29804_P09623_p74868
+    role: BIOCATALYST
+  - species_id: activator_3-Methyl-2-oxopentanoate_Thiamine_diphosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 25177;25178;25179;25180
+  KEGGid: R01651
+  notes: 'ChEBI IDs: CHEBI:15614; CHEBI:15346; CHEBI:401; CHEBI:48430; CHEBI:10888;
+    CHEBI:13396; CHEBI:21901; CHEBI:41597; CHEBI:3308; CHEBI:5584; CHEBI:28654; CHEBI:13285;
+    CHEBI:15487; CHEBI:12020; CHEBI:45930; CHEBI:15378; CHEBI:13284; CHEBI:20116;
+    CHEBI:15229; CHEBI:23355; CHEBI:1598; CHEBI:48760; CHEBI:1585; CHEBI:13393; CHEBI:29234;
+    CHEBI:3283; CHEBI:13357; CHEBI:20438; CHEBI:9532; CHEBI:57287; CHEBI:35146; CHEBI:57540;
+    CHEBI:20126; CHEBI:13283; CHEBI:13395; CHEBI:48829; CHEBI:57345; CHEBI:41631;
+    CHEBI:35932; CHEBI:44281; CHEBI:39123; CHEBI:44214; CHEBI:29233; CHEBI:13394;
+    CHEBI:49939; CHEBI:13294; CHEBI:13282; CHEBI:11856; CHEBI:18755; CHEBI:17865;
+    CHEBI:41619; CHEBI:29108; CHEBI:3771; CHEBI:58937; CHEBI:44215; CHEBI:10744; CHEBI:11049;
+    CHEBI:7422; CHEBI:13298; CHEBI:16908; CHEBI:14481; CHEBI:139538; CHEBI:15846;
+    CHEBI:21902; CHEBI:13295; CHEBI:24636; CHEBI:213; CHEBI:23011; CHEBI:57945; CHEBI:44216;
+    CHEBI:18568; CHEBI:7423; CHEBI:18567; CHEBI:13389; CHEBI:1891; CHEBI:45931; CHEBI:16526;
+    CHEBI:741566; CHEBI:22988
+
+    KEGG IDs: KEGG:C00068; KEGG:C02939; KEGG:C00010; KEGG:C00080; KEGG:C00076; KEGG:C00011;
+    KEGG:C00233; KEGG:C00671; KEGG:C00003; KEGG:C03465; KEGG:C00004'
+measurements:
+- id: measurement_1_2_4_1; 2_3_1_12; 1_8_1_4_Sus_scrofa_P29804_P09623_4-Methyl-2-oxopentanoate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 75 mM potassium phosphate, 2.5 mM L-cysteine
+  buffer_concentration: 75 mM
+references:
+- title: Reference for SABIO-RK entry 74868
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/5812959/
+  pubmed_id: '5812959'
+  doi: null

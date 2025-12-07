@@ -1,0 +1,170 @@
+name: SABIO-RK Entry 56330
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 56330
+created: '2025-10-28T16:15:41.849364'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_18_1_2_P00455_P00221_p56330
+  name: glutamate synthase (NADPH)
+  sequence: null
+  ecnumber: 1.18.1.2
+  organism: Spinacia oleracea
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P00455; P00221
+complexes: null
+small_molecules:
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Iodonitrotetrazolium
+  name: Iodonitrotetrazolium
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Reduced_iodonitrotetrazolium
+  name: Reduced iodonitrotetrazolium
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_13648_EC1_18_1_2_Spinacia_oleracea_P00455_P00221_NADPH
+  name: Reaction catalyzed by glutamate synthase (NADPH) on NADPH
+  equation: NADPH + Iodonitrotetrazolium + H+ = NADP+ + Reduced iodonitrotetrazolium
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_Iodonitrotetrazolium
+  products:
+  - species_id: product_Reduced_iodonitrotetrazolium
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_18_1_2_P00455_P00221_p56330
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:7424; CHEBI:44405; CHEBI:21903;
+    CHEBI:7425; CHEBI:29234; CHEBI:13357; CHEBI:25523; CHEBI:75422; CHEBI:24636; CHEBI:29233;
+    CHEBI:5584; CHEBI:13399; CHEBI:16474; CHEBI:44286; CHEBI:21904; CHEBI:44409; CHEBI:15378;
+    CHEBI:18009; CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00006; KEGG:C00005; KEGG:C11037; KEGG:C00080'
+measurements:
+- id: measurement_1_18_1_2_Spinacia_oleracea_P00455_P00221_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: null
+  temperature_unit: null
+parameters:
+- id: 1_18_1_2_Spinacia_oleracea_P00455_P00221_NADPH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.8e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '6725248'
+- id: 1_18_1_2_Spinacia_oleracea_P00455_P00221_NADPH_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000123
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '6725248'
+buffer:
+  buffer: 0.2 M Tris-HCl, 5 mM glucose 6-phosphate, 2 ¦Ìg/ml glucose-6-phosphate dehydrogenase
+  buffer_concentration: 0.2 M
+references:
+- title: Reference for SABIO-RK entry 56330
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/6725248/
+  pubmed_id: '6725248'
+  doi: null

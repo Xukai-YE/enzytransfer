@@ -1,0 +1,151 @@
+name: SABIO-RK Entry 5805
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 5805
+created: '2025-10-28T13:49:49.497325'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_5_4_99_5_Q51507_p5805
+  name: chorismate mutase
+  ecnumber: 5.4.99.5
+  organism: Pseudomonas aeruginosa
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: E90K
+  uniprotid: Q51507
+  wildtype_sequence: MKTPEDCTGLADIREAIDRIDLDIVQALGRRMDYVKAASRFKASEAAIPAPERVAAMLPERARWAEENGLDAPFVEGLFAQIIHWYIAEQIKYWRQTRGAA
+  mutant_sequence: MKTPEDCTGLADIREAIDRIDLDIVQALGRRMDYVKAASRFKASEAAIPAPERVAAMLPERARWAEENGLDAPFVEGLFAQIIHWYIAKQIKYWRQTRGAA
+  position_offset: -1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Chorismate
+  name: Chorismate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Prephenate
+  name: Prephenate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1827_EC5_4_99_5_Pseudomonas_aeruginosa_Q51507_Chorismate
+  name: Reaction catalyzed by chorismate mutase on Chorismate
+  equation: Chorismate = Prephenate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Chorismate
+  products:
+  - species_id: product_Prephenate
+  modifiers:
+  - species_id: protein_5_4_99_5_Q51507_p5805
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 13897;13898;13899;13900
+  KEGGid: R01715
+  notes: 'ChEBI IDs: CHEBI:23225; CHEBI:29934; CHEBI:16666; CHEBI:23227; CHEBI:3677;
+    CHEBI:13993; CHEBI:17333; CHEBI:29748
+
+    KEGG IDs: KEGG:C00251; KEGG:C00254'
+measurements:
+- id: measurement_5_4_99_5_Pseudomonas_aeruginosa_Q51507_Chorismate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 5_4_99_5_Pseudomonas_aeruginosa_Q51507_Chorismate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.023
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Chorismate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16036918'
+- id: 5_4_99_5_Pseudomonas_aeruginosa_Q51507_Chorismate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 360.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Chorismate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16036918'
+buffer:
+  buffer: 50 mM potassium phosphate
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 5805
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16036918/
+  pubmed_id: '16036918'
+  doi: null

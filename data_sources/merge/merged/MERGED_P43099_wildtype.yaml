@@ -1,0 +1,402 @@
+version: '2.0'
+created: '2025-11-20T13:41:25.899194'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_1_1_17_P43099_p40618
+  name: ornithine decarboxylase
+  ecnumber: 4.1.1.17
+  organism: Lactobacillus sp.
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P43099
+  wildtype_sequence: MSSSLKIASTQEARQYFDTDRVVVDAVGSDFTDVGAVIAMDYETDVIDAADATKFGIPVFAVTKDAQAISADELKKIFHIIDLENKFDATVNAREIETAVNNYEDSILPPFFKSLKEYVSRGLIQFDCPGHQGGQYYRKHPAGREFYDFFGETVFRADLCNADVALGDLLIHEGPAVAAEKHAARVYNADKTYFVLGGSSNANNTVTSALVSNGDLVLFDRNNHKSVYNSALAMAGGRPVYLQTNRNPYGFIGGIYDSDFDEKKIRELAAKVDPERAKWKRPFRLAVIQLGTYDGTIYNAHEVVKRIGHLCDYIEFDSAWVGYEQFIPMMRNSSPLLIDDLGPEDPGIIVVQSVHKQQAGFSQTSQIHKKDSHIKGQLRYCDHKHFNNSFNLFMSTSPFYPMYAALDVNAAMQEGEAGRKLWHDLLITTIEARKKLIKAGSMFRPFVPPVVNGKKWEDGDTEDMANNIDYWRFEKGAKWHAYEGYGDNQYYVDPNKFMLTTPGINPETGDYEDFGVPATIVANYLRDHGIIPEKSDLNSILFLMTPAETPAKMNNLITQLLQLQRLIEEDAPLKQVLPSIYAANEERYNGYTIRELCQELHDFYKNNNTFTYQKRLFLREFFPEQGMLPYEARQEFIRNHNKLVPLNKIEGEIALEGALPYPPGVFCVAPGEKWSETAVKYFTILQDGINNFPGFAPEIQGVYFKQEGDKVVAYGEVYDAEVAKNDDRYNN
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_L-Ornithine
+  name: L-Ornithine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Putrescine
+  name: Putrescine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_GTP_Pyridoxal_phosphate
+  name: GTP; Pyridoxal phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Pyridoxal_phosphate
+  name: Pyridoxal phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1050_EC4_1_1_17_Lactobacillus_sp._P43099_L-Ornithine
+  name: Reaction catalyzed by ornithine decarboxylase on L-Ornithine
+  equation: L-Ornithine = CO2 + Putrescine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Ornithine
+  products:
+  - species_id: product_CO2
+  - species_id: product_Putrescine
+  modifiers:
+  - species_id: protein_4_1_1_17_P43099_p40618
+    role: BIOCATALYST
+  - species_id: activator_GTP_Pyridoxal_phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 22964;22965;22966;22967
+  KEGGid: R00670
+  notes: 'ChEBI IDs: CHEBI:57600; CHEBI:21367; CHEBI:14972; CHEBI:139538; CHEBI:358848;
+    CHEBI:8650; CHEBI:44667; CHEBI:3283; CHEBI:26424; CHEBI:46914; CHEBI:8668; CHEBI:5234;
+    CHEBI:18405; CHEBI:23011; CHEBI:597326; CHEBI:6280; CHEBI:13285; CHEBI:45092;
+    CHEBI:13282; CHEBI:13342; CHEBI:15729; CHEBI:234571; CHEBI:13283; CHEBI:15996;
+    CHEBI:24451; CHEBI:37565; CHEBI:45145; CHEBI:326268; CHEBI:13284; CHEBI:16526;
+    CHEBI:13148; CHEBI:42934; CHEBI:14977; CHEBI:48829; CHEBI:26405; CHEBI:46911;
+    CHEBI:17148
+
+    KEGG IDs: KEGG:C00077; KEGG:C00134; KEGG:C00018; KEGG:C00044; KEGG:C00011'
+- id: sabiork_1050_EC4_1_1_17_Lactobacillus_sp._P43099_L-Ornithine
+  name: Reaction catalyzed by ornithine decarboxylase on L-Ornithine
+  equation: L-Ornithine = CO2 + Putrescine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Ornithine
+  products:
+  - species_id: product_CO2
+  - species_id: product_Putrescine
+  modifiers:
+  - species_id: protein_4_1_1_17_P43099_p40619
+    role: BIOCATALYST
+  - species_id: activator_GTP_Pyridoxal_phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 22964;22965;22966;22967
+  KEGGid: R00670
+  notes: 'ChEBI IDs: CHEBI:57600; CHEBI:21367; CHEBI:14972; CHEBI:139538; CHEBI:358848;
+    CHEBI:8650; CHEBI:44667; CHEBI:3283; CHEBI:26424; CHEBI:46914; CHEBI:8668; CHEBI:5234;
+    CHEBI:18405; CHEBI:23011; CHEBI:597326; CHEBI:6280; CHEBI:13285; CHEBI:45092;
+    CHEBI:13282; CHEBI:13342; CHEBI:15729; CHEBI:234571; CHEBI:13283; CHEBI:15996;
+    CHEBI:24451; CHEBI:37565; CHEBI:45145; CHEBI:326268; CHEBI:13284; CHEBI:16526;
+    CHEBI:13148; CHEBI:42934; CHEBI:14977; CHEBI:48829; CHEBI:26405; CHEBI:46911;
+    CHEBI:17148
+
+    KEGG IDs: KEGG:C00077; KEGG:C00134; KEGG:C00018; KEGG:C00044; KEGG:C00011'
+- id: sabiork_1050_EC4_1_1_17_Lactobacillus_sp._P43099_L-Ornithine
+  name: Reaction catalyzed by ornithine decarboxylase on L-Ornithine
+  equation: L-Ornithine = CO2 + Putrescine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Ornithine
+  products:
+  - species_id: product_CO2
+  - species_id: product_Putrescine
+  modifiers:
+  - species_id: protein_4_1_1_17_P43099_p40620
+    role: BIOCATALYST
+  - species_id: activator_GTP_Pyridoxal_phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 22964;22965;22966;22967
+  KEGGid: R00670
+  notes: 'ChEBI IDs: CHEBI:57600; CHEBI:21367; CHEBI:14972; CHEBI:139538; CHEBI:358848;
+    CHEBI:8650; CHEBI:44667; CHEBI:3283; CHEBI:26424; CHEBI:46914; CHEBI:8668; CHEBI:5234;
+    CHEBI:18405; CHEBI:23011; CHEBI:597326; CHEBI:6280; CHEBI:13285; CHEBI:45092;
+    CHEBI:13282; CHEBI:13342; CHEBI:15729; CHEBI:234571; CHEBI:13283; CHEBI:15996;
+    CHEBI:24451; CHEBI:37565; CHEBI:45145; CHEBI:326268; CHEBI:13284; CHEBI:16526;
+    CHEBI:13148; CHEBI:42934; CHEBI:14977; CHEBI:48829; CHEBI:26405; CHEBI:46911;
+    CHEBI:17148
+
+    KEGG IDs: KEGG:C00077; KEGG:C00134; KEGG:C00018; KEGG:C00044; KEGG:C00011'
+- id: sabiork_1050_EC4_1_1_17_Lactobacillus_sp._P43099_L-Ornithine
+  name: Reaction catalyzed by ornithine decarboxylase on L-Ornithine
+  equation: L-Ornithine = CO2 + Putrescine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Ornithine
+  products:
+  - species_id: product_Putrescine
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_4_1_1_17_P43099_p40621
+    role: BIOCATALYST
+  - species_id: activator_Pyridoxal_phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 22964;22965;22966;22967
+  KEGGid: R00670
+  notes: 'ChEBI IDs: CHEBI:21367; CHEBI:14972; CHEBI:139538; CHEBI:358848; CHEBI:8650;
+    CHEBI:44667; CHEBI:3283; CHEBI:26424; CHEBI:46914; CHEBI:8668; CHEBI:18405; CHEBI:23011;
+    CHEBI:597326; CHEBI:6280; CHEBI:45092; CHEBI:13285; CHEBI:13282; CHEBI:15729;
+    CHEBI:234571; CHEBI:13283; CHEBI:45145; CHEBI:326268; CHEBI:13284; CHEBI:16526;
+    CHEBI:13148; CHEBI:14977; CHEBI:48829; CHEBI:26405; CHEBI:46911; CHEBI:17148
+
+    KEGG IDs: KEGG:C00011; KEGG:C00077; KEGG:C00134; KEGG:C00018'
+- id: sabiork_1050_EC4_1_1_17_Lactobacillus_sp._P43099_L-Ornithine
+  name: Reaction catalyzed by ornithine decarboxylase on L-Ornithine
+  equation: L-Ornithine = CO2 + Putrescine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Ornithine
+  products:
+  - species_id: product_Putrescine
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_4_1_1_17_P43099_p40623
+    role: BIOCATALYST
+  - species_id: activator_Pyridoxal_phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 22964;22965;22966;22967
+  KEGGid: R00670
+  notes: 'ChEBI IDs: CHEBI:21367; CHEBI:14972; CHEBI:139538; CHEBI:358848; CHEBI:8650;
+    CHEBI:44667; CHEBI:3283; CHEBI:26424; CHEBI:46914; CHEBI:8668; CHEBI:18405; CHEBI:23011;
+    CHEBI:597326; CHEBI:6280; CHEBI:45092; CHEBI:13285; CHEBI:13282; CHEBI:15729;
+    CHEBI:234571; CHEBI:13283; CHEBI:45145; CHEBI:326268; CHEBI:13284; CHEBI:16526;
+    CHEBI:13148; CHEBI:14977; CHEBI:48829; CHEBI:26405; CHEBI:46911; CHEBI:17148
+
+    KEGG IDs: KEGG:C00011; KEGG:C00077; KEGG:C00134; KEGG:C00018'
+- id: sabiork_1050_EC4_1_1_17_Lactobacillus_sp._P43099_L-Ornithine
+  name: Reaction catalyzed by ornithine decarboxylase on L-Ornithine
+  equation: L-Ornithine = CO2 + Putrescine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Ornithine
+  products:
+  - species_id: product_Putrescine
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_4_1_1_17_P43099_p40622
+    role: BIOCATALYST
+  - species_id: activator_Pyridoxal_phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 22964;22965;22966;22967
+  KEGGid: R00670
+  notes: 'ChEBI IDs: CHEBI:21367; CHEBI:14972; CHEBI:139538; CHEBI:358848; CHEBI:8650;
+    CHEBI:44667; CHEBI:3283; CHEBI:26424; CHEBI:46914; CHEBI:8668; CHEBI:18405; CHEBI:23011;
+    CHEBI:597326; CHEBI:6280; CHEBI:45092; CHEBI:13285; CHEBI:13282; CHEBI:15729;
+    CHEBI:234571; CHEBI:13283; CHEBI:45145; CHEBI:326268; CHEBI:13284; CHEBI:16526;
+    CHEBI:13148; CHEBI:14977; CHEBI:48829; CHEBI:26405; CHEBI:46911; CHEBI:17148
+
+    KEGG IDs: KEGG:C00011; KEGG:C00077; KEGG:C00134; KEGG:C00018'
+measurements:
+- id: measurement_4_1_1_17_Lactobacillus_sp._P43099_L-Ornithine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 5.8
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_4_1_1_17_Lactobacillus_sp._P43099_L-Ornithine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_4_1_1_17_Lactobacillus_sp._P43099_L-Ornithine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_4_1_1_17_Lactobacillus_sp._P43099_L-Ornithine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 5.8
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_4_1_1_17_Lactobacillus_sp._P43099_L-Ornithine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_4_1_1_17_Lactobacillus_sp._P43099_L-Ornithine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 4_1_1_17_Lactobacillus_sp._P43099_L-Ornithine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.001
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Ornithine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.8
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '9405048'
+- id: 4_1_1_17_Lactobacillus_sp._P43099_L-Ornithine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.001
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Ornithine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '9405048'
+- id: 4_1_1_17_Lactobacillus_sp._P43099_L-Ornithine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.001
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Ornithine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '9405048'
+- id: 4_1_1_17_Lactobacillus_sp._P43099_L-Ornithine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0012
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Ornithine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.8
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '9405048'
+- id: 4_1_1_17_Lactobacillus_sp._P43099_L-Ornithine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.5
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Ornithine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '9405048'
+- id: 4_1_1_17_Lactobacillus_sp._P43099_L-Ornithine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.005
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Ornithine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '9405048'
+buffer:
+  buffer: 50 mM potassium phosphate, 0.5 mM EDTA, 0.5 mM dithiotreitol
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 40618
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9405048/
+  pubmed_id: '9405048'
+  doi: null
+name: Merged entry for P43099 wildtype
+description: 'Merged from 6 files: SABIO_EC4.1.1.17_Lactobacillus_sp.__P43099_s_L-Ornithine.yaml,
+  SABIO_EC4.1.1.17_Lactobacillus_sp.__P43099_s_L-Ornithine_2.yaml, SABIO_EC4.1.1.17_Lactobacillus_sp.__P43099_s_L-Ornithine_3.yaml,
+  SABIO_EC4.1.1.17_Lactobacillus_sp.__P43099_s_L-Ornithine_4.yaml, SABIO_EC4.1.1.17_Lactobacillus_sp.__P43099_s_L-Ornithine_6.yaml,
+  SABIO_EC4.1.1.17_Lactobacillus_sp.__P43099_s_L-Ornithine_5.yaml'

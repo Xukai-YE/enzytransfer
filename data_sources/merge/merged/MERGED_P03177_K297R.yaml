@@ -1,0 +1,388 @@
+version: '2.0'
+created: '2025-11-20T13:40:29.431137'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_21_P03177_p18167
+  name: thymidine kinase
+  ecnumber: 2.7.1.21
+  organism: Epstein-Barr virus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: K297R
+  uniprotid: P03177
+  wildtype_sequence: MAGFPGKEAGPPGGWRKCQEDESPENERHENFYAEIDDFAPSVLTPTGSDSGAGEEDDDGLYQVPTHWPPLMAPTGLSGERVPCRTQAAVTSNTGNSPGSRHTSCPFTLPRGAQPPAPAHQKPTAPTPKPRSRECGPSKTPDPFSWFRKTSCTEGGADSTSRSFMYQKGFEEGLAGLGLDDKSDCESEDESNFRRPSSHSALKQKNGGKGKPSGLFEHLAAHGREFSKLSKHAAQLKRLSGSVMNVLNLDDAQDTRQAKAQRKESMRVPIVTHLTNHVPVIKPACSLFLEGAPGVGKTTMLNHLKAVFGDLTIVVPEPMRYWTHVYENAIKAMHKNVTRARHGREDTSAEVLACQMKFTTPFRVLASRKRSLLVTESGARSVAPLDCWILHDRHLLSASVVFPLMLLRSQLLSYSDFIQVLATFTADPGDTIVWMKLNVEENMRRLKKRGRKHESGLDAGYLKSVNDAYHAVYCAWLLTQYFAPEDIVKVCAGLTTITTVCHQSHTPIIRSGVAEKLYKNSIFSVLKEVIQPFRADAVLLEVCLAFTRTLAYLQFVLVDLSEFQDDLPGCWTEIYMQALKNPAIRSQFFDWAGLSKVISDFERGNRD
+  mutant_sequence: MAGFPGKEAGPPGGWRKCQEDESPENERHENFYAEIDDFAPSVLTPTGSDSGAGEEDDDGLYQVPTHWPPLMAPTGLSGERVPCRTQAAVTSNTGNSPGSRHTSCPFTLPRGAQPPAPAHQKPTAPTPKPRSRECGPSKTPDPFSWFRKTSCTEGGADSTSRSFMYQKGFEEGLAGLGLDDKSDCESEDESNFRRPSSHSALKQKNGGKGKPSGLFEHLAAHGREFSKLSKHAAQLKRLSGSVMNVLNLDDAQDTRQAKAQRKESMRVPIVTHLTNHVPVIKPACSLFLEGAPGVGRTTMLNHLKAVFGDLTIVVPEPMRYWTHVYENAIKAMHKNVTRARHGREDTSAEVLACQMKFTTPFRVLASRKRSLLVTESGARSVAPLDCWILHDRHLLSASVVFPLMLLRSQLLSYSDFIQVLATFTADPGDTIVWMKLNVEENMRRLKKRGRKHESGLDAGYLKSVNDAYHAVYCAWLLTQYFAPEDIVKVCAGLTTITTVCHQSHTPIIRSGVAEKLYKNSIFSVLKEVIQPFRADAVLLEVCLAFTRTLAYLQFVLVDLSEFQDDLPGCWTEIYMQALKNPAIRSQFFDWAGLSKVISDFERGNRD
+complexes: null
+small_molecules:
+- id: substrate_GTP
+  name: GTP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Thymidine
+  name: Thymidine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_dTMP
+  name: dTMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_GDP
+  name: GDP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_CTP
+  name: CTP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CDP
+  name: CDP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_9997_EC2_7_1_21_Epstein-Barr_virus_P03177_GTP
+  name: Reaction catalyzed by thymidine kinase on GTP
+  equation: Thymidine + GTP = GDP + dTMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_GTP
+  - species_id: substrate_Thymidine
+  products:
+  - species_id: product_dTMP
+  - species_id: product_GDP
+  modifiers:
+  - species_id: protein_2_7_1_21_P03177_p18167
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:50300; CHEBI:46013; CHEBI:15246; CHEBI:10529; CHEBI:19273;
+    CHEBI:57600; CHEBI:14092; CHEBI:13327; CHEBI:14379; CHEBI:17552; CHEBI:47711;
+    CHEBI:65180; CHEBI:63549; CHEBI:24448; CHEBI:5234; CHEBI:15244; CHEBI:45917; CHEBI:26999;
+    CHEBI:45782; CHEBI:15245; CHEBI:45834; CHEBI:46036; CHEBI:45926; CHEBI:17748;
+    CHEBI:45759; CHEBI:24451; CHEBI:15996; CHEBI:37565; CHEBI:5212; CHEBI:45772; CHEBI:17013;
+    CHEBI:46960; CHEBI:58189; CHEBI:42934; CHEBI:9579; CHEBI:53527; CHEBI:63528; CHEBI:13342;
+    CHEBI:42738
+
+    KEGG IDs: KEGG:C00364; KEGG:C00035; KEGG:C00214; KEGG:C00044'
+- id: sabiork_90_EC2_7_1_21_Epstein-Barr_virus_P03177_Thymidine
+  name: Reaction catalyzed by thymidine kinase on Thymidine
+  equation: ATP + Thymidine = dTMP + ADP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Thymidine
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_ADP
+  - species_id: product_dTMP
+  modifiers:
+  - species_id: protein_2_7_1_21_P03177_p18165
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 19129;19130;19131;19132
+  KEGGid: R01567
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:50300; CHEBI:46013; CHEBI:15246;
+    CHEBI:19273; CHEBI:16761; CHEBI:10789; CHEBI:57299; CHEBI:10529; CHEBI:14092;
+    CHEBI:40553; CHEBI:47711; CHEBI:63549; CHEBI:13236; CHEBI:15244; CHEBI:10841;
+    CHEBI:45917; CHEBI:45782; CHEBI:2359; CHEBI:26999; CHEBI:15245; CHEBI:87518; CHEBI:40938;
+    CHEBI:45834; CHEBI:46036; CHEBI:456216; CHEBI:45926; CHEBI:17748; CHEBI:22249;
+    CHEBI:2342; CHEBI:45759; CHEBI:15422; CHEBI:45772; CHEBI:17013; CHEBI:46960; CHEBI:9579;
+    CHEBI:13222; CHEBI:53527; CHEBI:22244; CHEBI:63528
+
+    KEGG IDs: KEGG:C00364; KEGG:C00002; KEGG:C00008; KEGG:C00214'
+- id: sabiork_9984_EC2_7_1_21_Epstein-Barr_virus_P03177_CTP
+  name: Reaction catalyzed by thymidine kinase on CTP
+  equation: Thymidine + CTP = CDP + dTMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_CTP
+  - species_id: substrate_Thymidine
+  products:
+  - species_id: product_dTMP
+  - species_id: product_CDP
+  modifiers:
+  - species_id: protein_2_7_1_21_P03177_p18166
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:50300; CHEBI:46013; CHEBI:17677; CHEBI:15246; CHEBI:58231;
+    CHEBI:19273; CHEBI:10529; CHEBI:14092; CHEBI:23522; CHEBI:47711; CHEBI:13286;
+    CHEBI:63549; CHEBI:3285; CHEBI:15244; CHEBI:45917; CHEBI:26999; CHEBI:45782; CHEBI:15245;
+    CHEBI:41675; CHEBI:45834; CHEBI:46036; CHEBI:45926; CHEBI:17748; CHEBI:45759;
+    CHEBI:3611; CHEBI:45772; CHEBI:17013; CHEBI:17239; CHEBI:46960; CHEBI:9579; CHEBI:37563;
+    CHEBI:53527; CHEBI:63528
+
+    KEGG IDs: KEGG:C00364; KEGG:C00063; KEGG:C00214; KEGG:C00112'
+measurements:
+- id: measurement_2_7_1_21_Epstein-Barr_virus_P03177_GTP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_7_1_21_Epstein-Barr_virus_P03177_Thymidine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_7_1_21_Epstein-Barr_virus_P03177_CTP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_1_21_Epstein-Barr_virus_P03177_GTP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.01849
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_GTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15779905'
+- id: 2_7_1_21_Epstein-Barr_virus_P03177_GTP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 429.9
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_GTP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15779905'
+- id: 2_7_1_21_Epstein-Barr_virus_P03177_GTP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.3e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_GTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15779905'
+- id: 2_7_1_21_Epstein-Barr_virus_P03177_Thymidine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.00723
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Thymidine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15779905'
+- id: 2_7_1_21_Epstein-Barr_virus_P03177_Thymidine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 8.76e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Thymidine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15779905'
+- id: 2_7_1_21_Epstein-Barr_virus_P03177_Thymidine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 82.5
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Thymidine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15779905'
+- id: 2_7_1_21_Epstein-Barr_virus_P03177_CTP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 132.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CTP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15779905'
+- id: 2_7_1_21_Epstein-Barr_virus_P03177_CTP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0001075
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15779905'
+- id: 2_7_1_21_Epstein-Barr_virus_P03177_CTP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.01419
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CTP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15779905'
+buffer:
+  buffer: 0.16 M Tris-HCl, 0.14 mM albumin, 12.6 mM creatine phosphate, 11.2 U/ml
+    creatine phosphokinase, 2.4 mM MgCl2, 9 mM NaF, 1.9 mM DTT
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 18167
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15779905/
+  pubmed_id: '15779905'
+  doi: null
+name: Merged entry for P03177 K297R
+description: 'Merged from 3 files: SABIO_EC2.7.1.21_Epstein-Barr_virus__P03177_K297R_s_GTP.yaml,
+  SABIO_EC2.7.1.21_Epstein-Barr_virus__P03177_K297R_s_Thymidine.yaml, SABIO_EC2.7.1.21_Epstein-Barr_virus__P03177_K297R_s_CTP.yaml'

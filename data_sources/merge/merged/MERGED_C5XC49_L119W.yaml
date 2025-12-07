@@ -1,0 +1,301 @@
+version: '2.0'
+created: '2025-11-20T13:41:59.091615'
+modified: null
+creators:
+- given_name: SKiD
+  family_name: Database
+  mail: skid@database.org
+vessels: null
+proteins:
+- id: protein_C5XC49
+  name: Sorghum bicolor
+  ecnumber: 1.1.1.195
+  organism: Sorghum bicolor
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: L119W
+  uniprotid: C5XC49
+  wildtype_sequence: MDMEQGCKTAHGWAARDASGHLSPYSFSARIQGDADVTIKVLFCGICHTDLHVIKNEWGNAMYPVVPGHEVVGVVTDVGHGVTKFKAGDTVGVGYFVDSCRTCESCSTGHENYCPDLVLTSNGVDHHHHGATTKGGFSDVLVVSQDFVVRVPESLPLDGAAPLLCAGVTVYSPMAQYALNEPGKHLGVVGLGGLGHMAVKFAKAFGMTVTVISSSPGKRDEALGRLGADAFLVSHDAAQMKAAAATLDGIIDTVSAGHQIVPLLALLKPMGQMVVVGAPSTPLELPAYAIITGGKRVAGNGVGSVADCQAMLDFAGEHGVTADIEVVQMDYVNTAIERLEKNDVRYRFVIDVAGSKMEETVA
+  mutant_sequence: MDMEQGCKTAHGWAARDASGHLSPYSFSARIQGDADVTIKVLFCGICHTDLHVIKNEWGNAMYPVVPGHEVVGVVTDVGHGVTKFKAGDTVGVGYFVDSCRTCESCSTGHENYCPDLVWTSNGVDHHHHGATTKGGFSDVLVVSQDFVVRVPESLPLDGAAPLLCAGVTVYSPMAQYALNEPGKHLGVVGLGGLGHMAVKFAKAFGMTVTVISSSPGKRDEALGRLGADAFLVSHDAAQMKAAAATLDGIIDTVSAGHQIVPLLALLKPMGQMVVVGAPSTPLELPAYAIITGGKRVAGNGVGSVADCQAMLDFAGEHGVTADIEVVQMDYVNTAIERLEKNDVRYRFVIDVAGSKMEETVA
+complexes: null
+small_molecules:
+- id: substrate_4-coumaryl_aldehyde
+  name: 4-coumaryl aldehyde
+  canonical_smiles: C(\C=C\C1=CC=C(C=C1)O)=O
+  inchi: InChI=1S/C9H8O2/c10-7-1-2-8-3-5-9(11)6-4-8/h1-7,11H/b2-1+
+  inchikey: CJXMVKYNVIGQBS-OWOJBTEDSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: OPSIN
+- id: product
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_coniferyl_aldehyde
+  name: coniferyl aldehyde
+  canonical_smiles: COC1=C(C=CC(=C1)C=CC=O)O
+  inchi: InChI=1S/C10H10O3/c1-13-10-7-8(3-2-6-11)4-5-9(10)12/h2-7,12H,1H3
+  inchikey: DKZBBWMURDFHNE-UHFFFAOYSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/5280536
+- id: substrate_sinapyl_aldehyde
+  name: sinapyl aldehyde
+  canonical_smiles: COC1=CC(=CC(=C1O)OC)C=CC=O
+  inchi: InChI=1S/C11H12O4/c1-14-9-6-8(4-3-5-12)7-10(15-2)11(9)13/h3-7,13H,1-2H3
+  inchikey: CDICDSOGTRCHMG-UHFFFAOYSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/5280802
+reactions:
+- id: reaction_C5XC49_4-coumaryl_aldehyde
+  name: Reaction catalyzed by enzyme on 4-coumaryl aldehyde
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_4-coumaryl_aldehyde
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_C5XC49
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_C5XC49_coniferyl_aldehyde
+  name: Reaction catalyzed by enzyme on coniferyl aldehyde
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_coniferyl_aldehyde
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_C5XC49
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_C5XC49_sinapyl_aldehyde
+  name: Reaction catalyzed by enzyme on sinapyl aldehyde
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_sinapyl_aldehyde
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_C5XC49
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+measurements:
+- id: measurement_0
+  name: Experimental conditions (pH=6.5, T=30.0°C)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=6.5, T=30.0°C)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=6.5, T=30.0°C)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: C5XC49_4-coumaryl_aldehyde_L119W_kcat_4937
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.08
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_4-coumaryl_aldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: 'Mutation: L119W; Source: kcat'
+  pubmed_id: '28606901'
+- id: C5XC49_4-coumaryl_aldehyde_L119W_Km_18336
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 2.12
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_4-coumaryl_aldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: 'Mutation: L119W; Source: Km'
+  pubmed_id: '28606901'
+- id: C5XC49_coniferyl_aldehyde_L119W_kcat_4936
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2.33
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_coniferyl_aldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: 'Mutation: L119W; Source: kcat'
+  pubmed_id: '28606901'
+- id: C5XC49_coniferyl_aldehyde_L119W_Km_18332
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.0104
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_coniferyl_aldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: 'Mutation: L119W; Source: Km'
+  pubmed_id: '28606901'
+- id: C5XC49_sinapyl_aldehyde_L119W_kcat_4943
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 3.32
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_sinapyl_aldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: 'Mutation: L119W; Source: kcat'
+  pubmed_id: '28606901'
+- id: C5XC49_sinapyl_aldehyde_L119W_Km_18344
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.0783
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_sinapyl_aldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: 'Mutation: L119W; Source: Km'
+  pubmed_id: '28606901'
+buffer:
+  buffer: null
+  buffer_concentration: null
+references:
+- title: The enzyme activity and substrate specificity of two major cinnamyl alcohol
+    dehydrogenases in sorghum (Sorghum bicolor)
+  authors: Jun, S.Y., Walker, A.M., Kim, H., Ralph, J., Vermerris, W., Sattler, S.E.,
+    Kang, C.
+  year: '2017'
+  journal: SbCAD2 and SbCAD4
+  uri: null
+  pubmed_id: '28606901'
+  doi: null
+  id: '96'
+  pages: 2128-2145
+  volume: '174'
+  citation: 'Jun, S.Y.,Walker, A.M.,Kim, H.,Ralph, J.,Vermerris, W.,Sattler, S.E.,Kang,
+    C., The enzyme activity and substrate specificity of two major cinnamyl alcohol
+    dehydrogenases in sorghum (Sorghum bicolor), SbCAD2 and SbCAD4, Plant Physiol.,
+    2017, 2128-2145, 174, PMID: 28606901'
+name: Merged entry for C5XC49 L119W
+description: 'Merged from 3 files: SKID_EC1.1.1.195_Sorghum_C5XC49_L119W_4-coumaryl_alde.yaml,
+  SKID_EC1.1.1.195_Sorghum_C5XC49_L119W_coniferyl_aldeh.yaml, SKID_EC1.1.1.195_Sorghum_C5XC49_L119W_sinapyl_aldehyd.yaml'

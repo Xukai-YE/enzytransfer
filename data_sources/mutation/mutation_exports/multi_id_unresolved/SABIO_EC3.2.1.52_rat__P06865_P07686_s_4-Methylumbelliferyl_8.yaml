@@ -1,0 +1,146 @@
+name: SABIO-RK Entry 58768
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 58768
+created: '2025-10-28T16:24:26.511865'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_2_1_52_P06865_P07686_p58768
+  name: beta-N-acetylhexosaminidase
+  sequence: null
+  ecnumber: 3.2.1.52
+  organism: rat
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P06865; P07686
+complexes: null
+small_molecules:
+- id: substrate_4-Methylumbelliferyl-beta-N-acetylglucosaminide
+  name: 4-Methylumbelliferyl-beta-N-acetylglucosaminide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N-Acetyl-beta-D-glucosamine
+  name: N-Acetyl-beta-D-glucosamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4-Methylumbelliferone
+  name: 4-Methylumbelliferone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7905_EC3_2_1_52_rat_P06865_P07686_4-Methylumbelliferyl-beta-N-acetylglucosaminide
+  name: Reaction catalyzed by beta-N-acetylhexosaminidase on 4-Methylumbelliferyl-beta-N-acetylglucosaminide
+  equation: H2O + 4-Methylumbelliferyl-beta-N-acetylglucosaminide = 4-Methylumbelliferone
+    + N-Acetyl-beta-D-glucosamine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_4-Methylumbelliferyl-beta-N-acetylglucosaminide
+  products:
+  - species_id: product_N-Acetyl-beta-D-glucosamine
+  - species_id: product_4-Methylumbelliferone
+  modifiers:
+  - species_id: protein_3_2_1_52_P06865_P07686_p58768
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:1903; CHEBI:44166;
+    CHEBI:17224; CHEBI:42857; CHEBI:41979; CHEBI:7140; CHEBI:42043; CHEBI:33811; CHEBI:33813;
+    CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:21579; CHEBI:43228; CHEBI:44292;
+    CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:20452; CHEBI:28009; CHEBI:7169;
+    CHEBI:12030; CHEBI:29373; CHEBI:44701; CHEBI:110550
+
+    KEGG IDs: KEGG:C03878; KEGG:C00001; KEGG:C03081'
+measurements:
+- id: measurement_3_2_1_52_rat_P06865_P07686_4-Methylumbelliferyl-beta-N-acetylglucosaminide
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 3.8
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 3_2_1_52_rat_P06865_P07686_4-Methylumbelliferyl-beta-N-acetylglucosaminide_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00083
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_4-Methylumbelliferyl-beta-N-acetylglucosaminide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 3.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '4346630'
+buffer:
+  buffer: 0.05 M Citrate-phosphate
+  buffer_concentration: 0.05 M
+references:
+- title: Reference for SABIO-RK entry 58768
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/4346630/
+  pubmed_id: '4346630'
+  doi: null

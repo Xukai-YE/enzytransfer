@@ -1,0 +1,201 @@
+name: SABIO-RK Entry 7194
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 7194
+created: '2025-10-28T13:51:34.723580'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_188_P52897_p7194
+  name: estradiol 17beta-dehydrogenase
+  ecnumber: 1.1.1.188
+  organism: Bos taurus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: N306Y
+  uniprotid: P52897
+  wildtype_sequence: MDPKSQRVKFNDGHFIPVLGFGTYAPEEVPKSEALEATKFAIEVGFRHVDSAHLYQNEEQVGQAIRSKIADGTVKREDIFYTSKLWCNSLQPELVRPALEKSLQNLQLDYVDLYIIHSPVSLKPGNKFVPKDESGKLIFDSVDLCHTWEALEKCKDAGLTKSIGVSNFNHKQLEKILNKPGLKYKPVCNQVECHPYLNQSKLLEFCKSHDIVLVAYAALGAQLLSEWVNSNNPVLLEDPVLCAIAKKHKQTPALVALRYQVQRGVVVLAKSFNKKRIKENMQVFDFELTPEDMKAIDGLNRNTRYYDFQQGIGHPEYPFSEEY
+  mutant_sequence: MDPKSQRVKFNDGHFIPVLGFGTYAPEEVPKSEALEATKFAIEVGFRHVDSAHLYQNEEQVGQAIRSKIADGTVKREDIFYTSKLWCNSLQPELVRPALEKSLQNLQLDYVDLYIIHSPVSLKPGNKFVPKDESGKLIFDSVDLCHTWEALEKCKDAGLTKSIGVSNFNHKQLEKILNKPGLKYKPVCNQVECHPYLNQSKLLEFCKSHDIVLVAYAALGAQLLSEWVNSNNPVLLEDPVLCAIAKKHKQTPALVALRYQVQRGVVVLAKSFNKKRIKENMQVFDFELTPEDMKAIDGLYRNTRYYDFQQGIGHPEYPFSEEY
+  position_offset: -6
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Prostaglandin_D2
+  name: Prostaglandin D2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_9alpha
+  name: 9alpha
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_11beta-Prostaglandin_F2
+  name: 11beta-Prostaglandin F2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7733_EC1_1_1_188_Bos_taurus_P52897_Prostaglandin_D2
+  name: Reaction catalyzed by estradiol 17beta-dehydrogenase on Prostaglandin D2
+  equation: Prostaglandin D2 + H+ + NADPH = NADP+ + 9alpha,11beta-Prostaglandin F2
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Prostaglandin_D2
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_9alpha
+  - species_id: product_11beta-Prostaglandin_F2
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_1_1_188_P52897_p7194
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 45316;45317;45318;45319
+  KEGGid: R02799
+  notes: 'ChEBI IDs: CHEBI:27595; CHEBI:13397; CHEBI:13398; CHEBI:7424; CHEBI:44405;
+    CHEBI:21903; CHEBI:26321; CHEBI:7425; CHEBI:45044; CHEBI:25523; CHEBI:730; CHEBI:13399;
+    CHEBI:57406; CHEBI:15555; CHEBI:246; CHEBI:16474; CHEBI:44286; CHEBI:10916; CHEBI:85173;
+    CHEBI:21904; CHEBI:44409; CHEBI:19125; CHEBI:18009; CHEBI:58349; CHEBI:13400;
+    CHEBI:57783
+
+    KEGG IDs: KEGG:C00696; KEGG:C00005; KEGG:C00006; KEGG:C05959; KEGG:C11037'
+measurements:
+- id: measurement_1_1_1_188_Bos_taurus_P52897_Prostaglandin_D2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1_188_Bos_taurus_P52897_Prostaglandin_D2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0001
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Prostaglandin_D2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9867836'
+- id: 1_1_1_188_Bos_taurus_P52897_Prostaglandin_D2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.0085
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Prostaglandin_D2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9867836'
+- id: 1_1_1_188_Bos_taurus_P52897_Prostaglandin_D2_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 83.33333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Prostaglandin_D2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9867836'
+buffer:
+  buffer: 0.1 M potassium phosphate, 5 mM glucose-6-phosphate, 20 U/ml glucose-6-phosphate
+    dehydrogenase
+  buffer_concentration: 0.1 M
+references:
+- title: Reference for SABIO-RK entry 7194
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9867836/
+  pubmed_id: '9867836'
+  doi: null

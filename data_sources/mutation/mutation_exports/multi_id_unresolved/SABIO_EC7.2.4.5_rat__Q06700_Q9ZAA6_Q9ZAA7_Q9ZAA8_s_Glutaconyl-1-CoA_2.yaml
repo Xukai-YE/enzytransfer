@@ -1,0 +1,150 @@
+name: SABIO-RK Entry 45374
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 45374
+created: '2025-10-28T15:33:56.748931'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_7_2_4_5_Q06700_Q9ZAA6_Q9ZAA7_Q9ZAA8_p45374
+  name: glutaconyl-CoA decarboxylase
+  sequence: null
+  ecnumber: 7.2.4.5
+  organism: rat
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q06700; Q9ZAA6; Q9ZAA7; Q9ZAA8
+complexes: null
+small_molecules:
+- id: substrate_Glutaconyl-1-CoA
+  name: Glutaconyl-1-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Crotonoyl-CoA
+  name: Crotonoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Li_
+  name: Li+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2878_EC7_2_4_5_rat_Q06700_Q9ZAA6_Q9ZAA7_Q9ZAA8_Glutaconyl-1-CoA
+  name: Reaction catalyzed by glutaconyl-CoA decarboxylase on Glutaconyl-1-CoA
+  equation: Glutaconyl-1-CoA = CO2 + Crotonoyl-CoA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Glutaconyl-1-CoA
+  products:
+  - species_id: product_Crotonoyl-CoA
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_7_2_4_5_Q06700_Q9ZAA6_Q9ZAA7_Q9ZAA8_p45374
+    role: BIOCATALYST
+  - species_id: activator_Li_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 23972;23973;23974;23975
+  KEGGid: R03028
+  notes: 'ChEBI IDs: CHEBI:139538; CHEBI:11531; CHEBI:57332; CHEBI:3283; CHEBI:15473;
+    CHEBI:23408; CHEBI:36926; CHEBI:23011; CHEBI:15497; CHEBI:24310; CHEBI:57353;
+    CHEBI:13285; CHEBI:13282; CHEBI:14032; CHEBI:14031; CHEBI:13283; CHEBI:49713;
+    CHEBI:13921; CHEBI:58669; CHEBI:13284; CHEBI:5430; CHEBI:16526; CHEBI:48829; CHEBI:11969;
+    CHEBI:14320; CHEBI:3928; CHEBI:41612
+
+    KEGG IDs: KEGG:C00877; KEGG:C00011; KEGG:C02411'
+measurements:
+- id: measurement_7_2_4_5_rat_Q06700_Q9ZAA6_Q9ZAA7_Q9ZAA8_Glutaconyl-1-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: null
+  temperature_unit: null
+parameters:
+- id: 7_2_4_5_rat_Q06700_Q9ZAA6_Q9ZAA7_Q9ZAA8_Glutaconyl-1-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.1
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glutaconyl-1-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '6293874'
+buffer:
+  buffer: 50 mM Potassium phosphate, 0.1% Triton X-100, 2 mM NAD, 2 mM DTE, 2 mM K-EDTA,
+    0.1 mM CoASH, 0.1 mM Acetyl-CoA, 1 mM K2-Glutaconate, 100 mM K+, 0.2 mg/ml auxiliary
+    enzymes (Glutaconate CoA-transferase, Enoyl-CoA hydratase, 3-Hydroxyacyl CoA dehydrogenase,
+    Thiolase, Phosphate acetyltransferase)
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 45374
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/6293874/
+  pubmed_id: '6293874'
+  doi: null

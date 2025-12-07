@@ -1,0 +1,148 @@
+name: SABIO-RK Entry 56823
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 56823
+created: '2025-10-28T16:17:26.306962'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_unknown_G2WFG8_G2WB81_p56823
+  name: protein#56823
+  sequence: null
+  ecnumber: null
+  organism: Saccharomyces cerevisiae
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: G2WFG8; G2WB81
+complexes: null
+small_molecules:
+- id: substrate_Glucose
+  name: Glucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Glucose
+  name: Glucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_601_ECunknown_Saccharomyces_cerevisiae_G2WFG8_G2WB81_Glucose
+  name: Reaction catalyzed by enzyme on Glucose
+  equation: Glucose = Glucose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: product_Glucose
+  products:
+  - species_id: product_Glucose
+  modifiers:
+  - species_id: protein_unknown_G2WFG8_G2WB81_p56823
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:42802; CHEBI:22386; CHEBI:10242; CHEBI:12318; CHEBI:17234;
+    CHEBI:40557; CHEBI:17925; CHEBI:88300
+
+    KEGG IDs: KEGG:C00267; KEGG:C00031; KEGG:C00293'
+measurements:
+- id: measurement_unknown_Saccharomyces_cerevisiae_G2WFG8_G2WB81_Glucose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: null
+  temperature_unit: null
+parameters:
+- id: unknown_Saccharomyces_cerevisiae_G2WFG8_G2WB81_Glucose_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.216667e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_Glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15345416'
+- id: unknown_Saccharomyces_cerevisiae_G2WFG8_G2WB81_Glucose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0046
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_Glucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15345416'
+buffer:
+  buffer: 0.1 M Potassium phosphate
+  buffer_concentration: 0.1 M
+references:
+- title: Reference for SABIO-RK entry 56823
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15345416/
+  pubmed_id: '15345416'
+  doi: null

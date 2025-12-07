@@ -1,0 +1,161 @@
+name: SABIO-RK Entry 18305
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 18305
+created: '2025-10-28T14:12:16.091818'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_1_1_39_P00880_P04716_p18305
+  name: ribulose-bisphosphate carboxylase
+  sequence: null
+  ecnumber: 4.1.1.39
+  organism: bovine
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: T14G
+  uniprotid: P04716
+  wildtype_sequence: MSMKTLPKERRFETFSYLPPLSDRQIAAQIEYMIEQGFHPLIEFNEHSNPEEFYWTMWKLPLFDCKSPQQVLDEVRECRSEYGDCYIRVAGFDNIKQCQTVSFIVHRPGRY
+  mutant_sequence: MSMKTLPKERRFEGFSYLPPLSDRQIAAQIEYMIEQGFHPLIEFNEHSNPEEFYWTMWKLPLFDCKSPQQVLDEVRECRSEYGDCYIRVAGFDNIKQCQTVSFIVHRPGRY
+  resolution_status: multi_id_resolved
+complexes: null
+small_molecules:
+- id: substrate_D-Ribulose_1
+  name: D-Ribulose 1
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_5-bisphosphate
+  name: 5-bisphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3-Phospho-D-glycerate
+  name: 3-Phospho-D-glycerate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_9130_EC4_1_1_39_bovine_P00880_P04716_D-Ribulose_1
+  name: Reaction catalyzed by ribulose-bisphosphate carboxylase on D-Ribulose 1
+  equation: H2O + CO2 + D-Ribulose 1,5-bisphosphate = 3-Phospho-D-glycerate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Ribulose_1
+  - species_id: substrate_5-bisphosphate
+  - species_id: substrate_CO2
+  products:
+  - species_id: product_3-Phospho-D-glycerate
+  modifiers:
+  - species_id: protein_4_1_1_39_P00880_P04716_p18305
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 23124;23125;23126;23127
+  KEGGid: R00024
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:1657; CHEBI:44819; CHEBI:41981; CHEBI:13017;
+    CHEBI:45480; CHEBI:139538; CHEBI:11882; CHEBI:12987; CHEBI:42857; CHEBI:57870;
+    CHEBI:41979; CHEBI:11880; CHEBI:88352; CHEBI:16710; CHEBI:3283; CHEBI:4242; CHEBI:42043;
+    CHEBI:57998; CHEBI:33811; CHEBI:33813; CHEBI:23011; CHEBI:27313; CHEBI:58272;
+    CHEBI:15377; CHEBI:21087; CHEBI:13352; CHEBI:13285; CHEBI:13282; CHEBI:88005;
+    CHEBI:43228; CHEBI:13283; CHEBI:44292; CHEBI:24345; CHEBI:17050; CHEBI:33806;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:13284; CHEBI:17794; CHEBI:1659; CHEBI:16526;
+    CHEBI:48829; CHEBI:21029; CHEBI:11879; CHEBI:40016; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00597; KEGG:C00001; KEGG:C00011; KEGG:C01182; KEGG:C00197'
+measurements:
+- id: measurement_4_1_1_39_bovine_P00880_P04716_D-Ribulose_1
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.8
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 4_1_1_39_bovine_P00880_P04716_D-Ribulose_1_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 6.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Ribulose_1
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.8
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1911767'
+buffer:
+  buffer: 100 mM Hepps-NaOH, 20 mM MgCl2, 1 mg/ml bovine serum albumine
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 18305
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/1911767/
+  pubmed_id: '1911767'
+  doi: null

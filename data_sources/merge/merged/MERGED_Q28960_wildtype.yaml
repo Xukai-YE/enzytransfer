@@ -1,0 +1,299 @@
+version: '2.0'
+created: '2025-11-20T13:41:58.968615'
+modified: null
+creators:
+- given_name: SKiD
+  family_name: Database
+  mail: skid@database.org
+vessels: null
+proteins:
+- id: protein_Q28960
+  name: Sus scrofa
+  ecnumber: 1.1.1.184
+  organism: Sus scrofa
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: null
+  uniprotid: Q28960
+  wildtype_sequence: MSSNTRVALVTGANKGIGFAIVRDLCRQFAGDVVLTARDVARGQAAVKQLQAEGLSPRFHQLDIIDLQSIRALCDFLRKEYGGLDVLVNNAAIAFQLDNPTPFHIQAELTMKTNFMGTRNVCTELLPLIKPQGRVVNVSSTEGVRALNECSPELQQKFKSETITEEELVGLMNKFVEDTKNGVHRKEGWSDSTYGVTKIGVSVLSRIYARKLREQRAGDKILLNACCPGWVRTDMGGPKAPKSPEVGAETPVYLALLPSDAEGPHGQFVTDKKVVEWGVPPESYPWVNA
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_1-_3-methyl-4-oxidoquinoxalin-2-yl_ethanone
+  name: 1-(3-methyl-4-oxidoquinoxalin-2-yl)ethanone
+  canonical_smiles: CC=1C(=NC2=CC=CC=C2[N+]1[O-])C(C)=O
+  inchi: InChI=1S/C11H10N2O2/c1-7-11(8(2)14)12-9-5-3-4-6-10(9)13(7)15/h3-6H,1-2H3
+  inchikey: KKJLJOBEYXZTCY-UHFFFAOYSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/12610106
+- id: product
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_menadione
+  name: menadione
+  canonical_smiles: CC1=CC(=O)C2=CC=CC=C2C1=O
+  inchi: InChI=1S/C11H8O2/c1-7-6-10(12)8-4-2-3-5-9(8)11(7)13/h2-6H,1H3
+  inchikey: MJVAVZPDRWSRRC-UHFFFAOYSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/4055
+- id: substrate_1-_3-methyl-1_4-dioxidoquinoxalin-2-yl_ethanone
+  name: 1-(3-methyl-1,4-dioxidoquinoxalin-2-yl)ethanone
+  canonical_smiles: CC=1C(=[N+](C2=CC=CC=C2[N+]1[O-])[O-])C(C)=O
+  inchi: InChI=1S/C11H10N2O3/c1-7-11(8(2)14)13(16)10-6-4-3-5-9(10)12(7)15/h3-6H,1-2H3
+  inchikey: CUJMCPPBTUATEJ-UHFFFAOYSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/404291
+reactions:
+- id: reaction_Q28960_1-_3-methyl-4-oxidoquinoxalin-2-yl_ethanone
+  name: Reaction catalyzed by enzyme on 1-(3-methyl-4-oxidoquinoxalin-2-yl)ethanone
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_1-_3-methyl-4-oxidoquinoxalin-2-yl_ethanone
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_Q28960
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_Q28960_menadione
+  name: Reaction catalyzed by enzyme on menadione
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_menadione
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_Q28960
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_Q28960_1-_3-methyl-1_4-dioxidoquinoxalin-2-yl_ethanone
+  name: Reaction catalyzed by enzyme on 1-(3-methyl-1,4-dioxidoquinoxalin-2-yl)ethanone
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_1-_3-methyl-1_4-dioxidoquinoxalin-2-yl_ethanone
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_Q28960
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+measurements:
+- id: measurement_0
+  name: Experimental conditions (pH=7.4, T=37.0°C)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=7.4, T=37.0°C)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=7.4, T=37.0°C)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: Q28960_1-_3-methyl-4-oxidoquinoxalin-2-yl_ethanone_kcat_129
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2.89
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_1-_3-methyl-4-oxidoquinoxalin-2-yl_ethanone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: 'Source: kcat'
+  pubmed_id: '22266778'
+- id: Q28960_1-_3-methyl-4-oxidoquinoxalin-2-yl_ethanone_Km_11144
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.116
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_1-_3-methyl-4-oxidoquinoxalin-2-yl_ethanone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '22266778'
+- id: Q28960_menadione_kcat_127
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.15
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_menadione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: 'Source: kcat'
+  pubmed_id: '22266778'
+- id: Q28960_menadione_Km_11145
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.0199
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_menadione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '22266778'
+- id: Q28960_1-_3-methyl-1_4-dioxidoquinoxalin-2-yl_ethanone_kcat_128
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.00027
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_1-_3-methyl-1_4-dioxidoquinoxalin-2-yl_ethanone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: 'Source: kcat'
+  pubmed_id: '22266778'
+- id: Q28960_1-_3-methyl-1_4-dioxidoquinoxalin-2-yl_ethanone_Km_11146
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.469
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_1-_3-methyl-1_4-dioxidoquinoxalin-2-yl_ethanone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '22266778'
+buffer:
+  buffer: null
+  buffer_concentration: null
+references:
+- title: Y.
+  authors: Tang, X., Mu, P., Wu, J., Jiang, J., Zhang, C., Zheng, M., Deng
+  year: '2012'
+  journal: Carbonyl reduction of mequindox by chicken and porcine cytosol and cloned
+    carbonyl reductase 1. Drug Metab
+  uri: null
+  pubmed_id: '22266778'
+  doi: null
+  id: '91'
+  pages: 788-795
+  volume: '40'
+  citation: 'Tang, X.,Mu, P.,Wu, J.,Jiang, J.,Zhang, C.,Zheng, M.,Deng, Y., Carbonyl
+    reduction of mequindox by chicken and porcine cytosol and cloned carbonyl reductase
+    1. Drug Metab, Dispos., 2012, 788-795, 40, PMID: 22266778'
+name: Merged entry for Q28960 wildtype
+description: 'Merged from 3 files: SKID_EC1.1.1.184_Sus_Q28960_1-_3-methyl-4-o.yaml,
+  SKID_EC1.1.1.184_Sus_Q28960_menadione.yaml, SKID_EC1.1.1.184_Sus_Q28960_1-_3-methyl-1_4.yaml'

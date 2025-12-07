@@ -1,0 +1,274 @@
+version: '2.0'
+created: '2025-11-20T13:39:42.321413'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_2_1_80_Q54765_p67929
+  name: long-chain acyl-[acyl-carrier-protein] reductase
+  ecnumber: 1.2.1.80
+  organism: Synechococcus elongatus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q54765
+  wildtype_sequence: MFGLIGHLTSLEQARDVSRRMGYDEYADQGLEFWSSAPPQIVDEITVTSATGKVIHGRYIESCFLPEMLAARRFKTATRKVLNAMSHAQKHGIDISALGGFTSIIFENFDLASLRQVRDTTLEFERFTTGNTHTAYVICRQVEAAAKTLGIDITQATVAVVGATGDIGSAVCRWLDLKLGVGDLILTARNQERLDNLQAELGRGKILPLEAALPEADFIVWVASMPQGVVIDPATLKQPCVLIDGGYPKNLGSKVQGEGIYVLNGGVVEHCFDIDWQIMSAAEMARPERQMFACFAEAMLLEFEGWHTNFSWGRNQITIEKMEAIGEASVRHGFQPLALAI
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Oleoyl-_acyl-carrier_protein_
+  name: Oleoyl-[acyl-carrier protein]
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mg2_
+  name: Mg2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Holo-_acyl-carrier_protein_
+  name: Holo-[acyl-carrier protein]
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_cis-9-Octadecenal
+  name: cis-9-Octadecenal
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Oleoyl-CoA
+  name: Oleoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_15641_EC1_2_1_80_Synechococcus_elongatus_Q54765_NADPH
+  name: Reaction catalyzed by long-chain acyl-[acyl-carrier-protein] reductase on
+    NADPH
+  equation: H+ + NADPH + Oleoyl-[acyl-carrier protein] = NADP+ + Holo-[acyl-carrier
+    protein] + cis-9-Octadecenal
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_Oleoyl-_acyl-carrier_protein_
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Holo-_acyl-carrier_protein_
+  - species_id: product_NADP_
+  - species_id: product_cis-9-Octadecenal
+  modifiers:
+  - species_id: protein_1_2_1_80_Q54765_p67929
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:13379; CHEBI:18359; CHEBI:13398; CHEBI:13397; CHEBI:7424;
+    CHEBI:6635; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357; CHEBI:25523;
+    CHEBI:24636; CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:49736; CHEBI:16474; CHEBI:44286;
+    CHEBI:36945; CHEBI:21904; CHEBI:18420; CHEBI:44409; CHEBI:15378; CHEBI:18009;
+    CHEBI:25112; CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:10744; CHEBI:39127
+
+    KEGG IDs: KEGG:C01203; KEGG:C00229; KEGG:C00305; KEGG:C00005; KEGG:C00080; KEGG:C00006;
+    KEGG:C11037'
+- id: sabiork_15642_EC1_2_1_80_Synechococcus_elongatus_Q54765_Oleoyl-CoA
+  name: Reaction catalyzed by long-chain acyl-[acyl-carrier-protein] reductase on
+    Oleoyl-CoA
+  equation: H+ + NADPH + Oleoyl-CoA = NADP+ + Coenzyme A + cis-9-Octadecenal
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oleoyl-CoA
+  - species_id: substrate_NADPH
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_cis-9-Octadecenal
+  - species_id: product_Coenzyme_A
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_2_1_80_Q54765_p67930
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:15346; CHEBI:23355; CHEBI:13379; CHEBI:13397; CHEBI:13398;
+    CHEBI:78146; CHEBI:41631; CHEBI:7424; CHEBI:6635; CHEBI:44405; CHEBI:21903; CHEBI:7425;
+    CHEBI:29234; CHEBI:13357; CHEBI:25523; CHEBI:13295; CHEBI:41597; CHEBI:24636;
+    CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:49736; CHEBI:57287; CHEBI:13294; CHEBI:77537;
+    CHEBI:16474; CHEBI:44286; CHEBI:21904; CHEBI:18420; CHEBI:44409; CHEBI:15378;
+    CHEBI:18009; CHEBI:3771; CHEBI:15534; CHEBI:741566; CHEBI:58349; CHEBI:13400;
+    CHEBI:57783; CHEBI:25112; CHEBI:10744; CHEBI:39127; CHEBI:13298
+
+    KEGG IDs: KEGG:C00010; KEGG:C00305; KEGG:C00005; KEGG:C00080; KEGG:C00510; KEGG:C00006;
+    KEGG:C11037'
+measurements:
+- id: measurement_1_2_1_80_Synechococcus_elongatus_Q54765_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_2_1_80_Synechococcus_elongatus_Q54765_Oleoyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_2_1_80_Synechococcus_elongatus_Q54765_NADPH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1
+  initial_value: 2.111111e-09
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20671186'
+- id: 1_2_1_80_Synechococcus_elongatus_Q54765_NADPH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.9e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20671186'
+- id: 1_2_1_80_Synechococcus_elongatus_Q54765_Oleoyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000126
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oleoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20671186'
+- id: 1_2_1_80_Synechococcus_elongatus_Q54765_Oleoyl-CoA_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1
+  initial_value: 5.5e-09
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oleoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20671186'
+buffer:
+  buffer: 0.05 MÂ Tris-HCl, Â 2Â mMÂ MgCl2
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 67929
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/20671186/
+  pubmed_id: '20671186'
+  doi: null
+name: Merged entry for Q54765 wildtype
+description: 'Merged from 2 files: SABIO_EC1.2.1.80_Synechococcus_elongatus__Q54765_s_NADPH.yaml,
+  SABIO_EC1.2.1.80_Synechococcus_elongatus__Q54765_s_Oleoyl-CoA.yaml'

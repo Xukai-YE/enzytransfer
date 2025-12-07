@@ -1,0 +1,2234 @@
+version: '2.0'
+created: '2025-11-20T13:41:49.320965'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_6_1_1_21_P60906_p12253
+  name: histidine---tRNA ligase
+  ecnumber: 6.1.1.21
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P60906
+  wildtype_sequence: MAKNIQAIRGMNDYLPGETAIWQRIEGTLKNVLGSYGYSEIRLPIVEQTPLFKRAIGEVTDVVEKEMYTFEDRNGDSLTLRPEGTAGCVRAGIEHGLLYNQEQRLWYIGPMFRHERPQKGRYRQFHQLGCEVFGLQGPDIDAELIMLTARWWRALGISEHVTLELNSIGSLEARANYRDALVAFLEQHKEKLDEDCKRRMYTNPLRVLDSKNPEVQALLNDAPALGDYLDEESREHFAGLCKLLESAGIAYTVNQRLVRGLDYYNRTVFEWVTNSLGSQGTVCAGGRYDGLVEQLGGRATPAVGFAMGLERLVLLVQAVNPEFKADPVVDIYLVASGADTQSAAMALAERLRDELPGVKLMTNHGGGNFKKQFARADKWGARVAVVLGESEVANGTAVVKDLRSGEQTAVAQDSVAAHLRTLLG
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_L-Histidine
+  name: L-Histidine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_tRNA_His_
+  name: tRNA(His)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Histidyl-tRNA_His_
+  name: L-Histidyl-tRNA(His)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_AMP
+  name: AMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_410_EC6_1_1_21_Escherichia_coli_P60906_ATP
+  name: Reaction catalyzed by histidine---tRNA ligase on ATP
+  equation: ATP + tRNA(His) + L-Histidine = Diphosphate + AMP + L-Histidyl-tRNA(His)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_L-Histidine
+  - species_id: substrate_tRNA_His_
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_L-Histidyl-tRNA_His_
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_6_1_1_21_P60906_p12253
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03655
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:6240; CHEBI:29178; CHEBI:10789;
+    CHEBI:57299; CHEBI:8683; CHEBI:40726; CHEBI:21324; CHEBI:22245; CHEBI:13117; CHEBI:40510;
+    CHEBI:43048; CHEBI:43114; CHEBI:32510; CHEBI:22242; CHEBI:13736; CHEBI:47222;
+    CHEBI:33019; CHEBI:57595; CHEBI:456215; CHEBI:15178; CHEBI:13236; CHEBI:45067;
+    CHEBI:40786; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841; CHEBI:32512; CHEBI:29888;
+    CHEBI:2359; CHEBI:35782; CHEBI:29979; CHEBI:40938; CHEBI:43239; CHEBI:13420; CHEBI:32513;
+    CHEBI:18361; CHEBI:33017; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740;
+    CHEBI:43190; CHEBI:13234; CHEBI:29155; CHEBI:40721; CHEBI:15971; CHEBI:10682;
+    CHEBI:45212; CHEBI:42009; CHEBI:13235; CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C02988; KEGG:C01643; KEGG:C00002; KEGG:C00135; KEGG:C00020'
+- id: sabiork_410_EC6_1_1_21_Escherichia_coli_P60906_ATP
+  name: Reaction catalyzed by histidine---tRNA ligase on ATP
+  equation: ATP + tRNA(His) + L-Histidine = Diphosphate + AMP + L-Histidyl-tRNA(His)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_tRNA_His_
+  - species_id: substrate_L-Histidine
+  products:
+  - species_id: product_AMP
+  - species_id: product_Diphosphate
+  - species_id: product_L-Histidyl-tRNA_His_
+  modifiers:
+  - species_id: protein_6_1_1_21_P60906_p12259
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03655
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:6240; CHEBI:29178; CHEBI:10789;
+    CHEBI:57299; CHEBI:40726; CHEBI:22245; CHEBI:21324; CHEBI:8683; CHEBI:13117; CHEBI:40510;
+    CHEBI:43048; CHEBI:43114; CHEBI:32510; CHEBI:22242; CHEBI:13736; CHEBI:47222;
+    CHEBI:33019; CHEBI:57595; CHEBI:456215; CHEBI:15178; CHEBI:13236; CHEBI:40786;
+    CHEBI:45067; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841; CHEBI:32512; CHEBI:29888;
+    CHEBI:2359; CHEBI:35782; CHEBI:29979; CHEBI:40938; CHEBI:43239; CHEBI:13420; CHEBI:32513;
+    CHEBI:18361; CHEBI:33017; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740;
+    CHEBI:43190; CHEBI:13234; CHEBI:40721; CHEBI:29155; CHEBI:10682; CHEBI:15971;
+    CHEBI:45212; CHEBI:42009; CHEBI:13235; CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C02988; KEGG:C01643; KEGG:C00002; KEGG:C00135; KEGG:C00020'
+- id: sabiork_410_EC6_1_1_21_Escherichia_coli_P60906_ATP
+  name: Reaction catalyzed by histidine---tRNA ligase on ATP
+  equation: ATP + tRNA(His) + L-Histidine = Diphosphate + AMP + L-Histidyl-tRNA(His)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_L-Histidine
+  - species_id: substrate_tRNA_His_
+  products:
+  - species_id: product_AMP
+  - species_id: product_L-Histidyl-tRNA_His_
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_6_1_1_21_P60906_p12255
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03655
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:6240; CHEBI:29178; CHEBI:10789;
+    CHEBI:57299; CHEBI:40726; CHEBI:22245; CHEBI:21324; CHEBI:8683; CHEBI:13117; CHEBI:40510;
+    CHEBI:43048; CHEBI:43114; CHEBI:32510; CHEBI:22242; CHEBI:13736; CHEBI:47222;
+    CHEBI:33019; CHEBI:57595; CHEBI:456215; CHEBI:15178; CHEBI:13236; CHEBI:40786;
+    CHEBI:45067; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841; CHEBI:32512; CHEBI:29888;
+    CHEBI:2359; CHEBI:35782; CHEBI:29979; CHEBI:40938; CHEBI:43239; CHEBI:13420; CHEBI:32513;
+    CHEBI:18361; CHEBI:33017; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740;
+    CHEBI:43190; CHEBI:13234; CHEBI:40721; CHEBI:29155; CHEBI:15971; CHEBI:10682;
+    CHEBI:45212; CHEBI:42009; CHEBI:13235; CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C02988; KEGG:C01643; KEGG:C00002; KEGG:C00135; KEGG:C00020'
+- id: sabiork_410_EC6_1_1_21_Escherichia_coli_P60906_ATP
+  name: Reaction catalyzed by histidine---tRNA ligase on ATP
+  equation: ATP + tRNA(His) + L-Histidine = Diphosphate + AMP + L-Histidyl-tRNA(His)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_L-Histidine
+  - species_id: substrate_tRNA_His_
+  products:
+  - species_id: product_L-Histidyl-tRNA_His_
+  - species_id: product_AMP
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_6_1_1_21_P60906_p24707
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03655
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:6240; CHEBI:29178; CHEBI:10789;
+    CHEBI:57299; CHEBI:40726; CHEBI:22245; CHEBI:21324; CHEBI:8683; CHEBI:13117; CHEBI:40510;
+    CHEBI:43048; CHEBI:43114; CHEBI:32510; CHEBI:22242; CHEBI:13736; CHEBI:47222;
+    CHEBI:33019; CHEBI:57595; CHEBI:456215; CHEBI:15178; CHEBI:13236; CHEBI:40786;
+    CHEBI:45067; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841; CHEBI:32512; CHEBI:29888;
+    CHEBI:2359; CHEBI:35782; CHEBI:29979; CHEBI:40938; CHEBI:43239; CHEBI:13420; CHEBI:32513;
+    CHEBI:18361; CHEBI:33017; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740;
+    CHEBI:43190; CHEBI:13234; CHEBI:29155; CHEBI:40721; CHEBI:15971; CHEBI:10682;
+    CHEBI:45212; CHEBI:42009; CHEBI:13235; CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C02988; KEGG:C01643; KEGG:C00002; KEGG:C00135; KEGG:C00020'
+- id: sabiork_410_EC6_1_1_21_Escherichia_coli_P60906_ATP
+  name: Reaction catalyzed by histidine---tRNA ligase on ATP
+  equation: ATP + tRNA(His) + L-Histidine = Diphosphate + AMP + L-Histidyl-tRNA(His)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_L-Histidine
+  - species_id: substrate_tRNA_His_
+  products:
+  - species_id: product_L-Histidyl-tRNA_His_
+  - species_id: product_Diphosphate
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_6_1_1_21_P60906_p12266
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03655
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:6240; CHEBI:29178; CHEBI:10789;
+    CHEBI:57299; CHEBI:8683; CHEBI:40726; CHEBI:21324; CHEBI:22245; CHEBI:13117; CHEBI:40510;
+    CHEBI:43048; CHEBI:43114; CHEBI:32510; CHEBI:22242; CHEBI:13736; CHEBI:47222;
+    CHEBI:33019; CHEBI:57595; CHEBI:456215; CHEBI:15178; CHEBI:13236; CHEBI:45067;
+    CHEBI:40786; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841; CHEBI:32512; CHEBI:29888;
+    CHEBI:2359; CHEBI:35782; CHEBI:29979; CHEBI:40938; CHEBI:43239; CHEBI:13420; CHEBI:32513;
+    CHEBI:18361; CHEBI:33017; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740;
+    CHEBI:43190; CHEBI:13234; CHEBI:29155; CHEBI:40721; CHEBI:15971; CHEBI:10682;
+    CHEBI:45212; CHEBI:42009; CHEBI:13235; CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C02988; KEGG:C01643; KEGG:C00002; KEGG:C00135; KEGG:C00020'
+- id: sabiork_410_EC6_1_1_21_Escherichia_coli_P60906_ATP
+  name: Reaction catalyzed by histidine---tRNA ligase on ATP
+  equation: ATP + tRNA(His) + L-Histidine = Diphosphate + AMP + L-Histidyl-tRNA(His)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_tRNA_His_
+  - species_id: substrate_L-Histidine
+  products:
+  - species_id: product_L-Histidyl-tRNA_His_
+  - species_id: product_AMP
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_6_1_1_21_P60906_p12265
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03655
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:6240; CHEBI:29178; CHEBI:10789;
+    CHEBI:57299; CHEBI:40726; CHEBI:22245; CHEBI:21324; CHEBI:8683; CHEBI:13117; CHEBI:40510;
+    CHEBI:43048; CHEBI:43114; CHEBI:32510; CHEBI:22242; CHEBI:13736; CHEBI:47222;
+    CHEBI:33019; CHEBI:57595; CHEBI:456215; CHEBI:15178; CHEBI:13236; CHEBI:40786;
+    CHEBI:45067; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841; CHEBI:32512; CHEBI:29888;
+    CHEBI:2359; CHEBI:35782; CHEBI:29979; CHEBI:40938; CHEBI:43239; CHEBI:13420; CHEBI:32513;
+    CHEBI:18361; CHEBI:33017; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740;
+    CHEBI:43190; CHEBI:13234; CHEBI:29155; CHEBI:40721; CHEBI:10682; CHEBI:15971;
+    CHEBI:45212; CHEBI:42009; CHEBI:13235; CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C02988; KEGG:C01643; KEGG:C00002; KEGG:C00135; KEGG:C00020'
+- id: sabiork_410_EC6_1_1_21_Escherichia_coli_P60906_ATP
+  name: Reaction catalyzed by histidine---tRNA ligase on ATP
+  equation: ATP + tRNA(His) + L-Histidine = Diphosphate + AMP + L-Histidyl-tRNA(His)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_tRNA_His_
+  - species_id: substrate_L-Histidine
+  products:
+  - species_id: product_L-Histidyl-tRNA_His_
+  - species_id: product_AMP
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_6_1_1_21_P60906_p12263
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03655
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:6240; CHEBI:29178; CHEBI:10789;
+    CHEBI:57299; CHEBI:40726; CHEBI:22245; CHEBI:21324; CHEBI:8683; CHEBI:13117; CHEBI:40510;
+    CHEBI:43048; CHEBI:43114; CHEBI:32510; CHEBI:22242; CHEBI:13736; CHEBI:47222;
+    CHEBI:33019; CHEBI:57595; CHEBI:456215; CHEBI:15178; CHEBI:13236; CHEBI:40786;
+    CHEBI:45067; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841; CHEBI:32512; CHEBI:29888;
+    CHEBI:2359; CHEBI:35782; CHEBI:29979; CHEBI:40938; CHEBI:43239; CHEBI:13420; CHEBI:32513;
+    CHEBI:18361; CHEBI:33017; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740;
+    CHEBI:43190; CHEBI:13234; CHEBI:29155; CHEBI:40721; CHEBI:10682; CHEBI:15971;
+    CHEBI:45212; CHEBI:42009; CHEBI:13235; CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C02988; KEGG:C01643; KEGG:C00002; KEGG:C00135; KEGG:C00020'
+- id: sabiork_410_EC6_1_1_21_Escherichia_coli_P60906_L-Histidine
+  name: Reaction catalyzed by histidine---tRNA ligase on L-Histidine
+  equation: ATP + tRNA(His) + L-Histidine = Diphosphate + AMP + L-Histidyl-tRNA(His)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Histidine
+  - species_id: substrate_ATP
+  - species_id: substrate_tRNA_His_
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_AMP
+  - species_id: product_L-Histidyl-tRNA_His_
+  modifiers:
+  - species_id: protein_6_1_1_21_P60906_p12267
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03655
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:6240; CHEBI:29178; CHEBI:10789;
+    CHEBI:57299; CHEBI:8683; CHEBI:40726; CHEBI:21324; CHEBI:22245; CHEBI:13117; CHEBI:40510;
+    CHEBI:43048; CHEBI:32510; CHEBI:43114; CHEBI:22242; CHEBI:13736; CHEBI:47222;
+    CHEBI:33019; CHEBI:57595; CHEBI:456215; CHEBI:15178; CHEBI:13236; CHEBI:45067;
+    CHEBI:40786; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:32512; CHEBI:10841; CHEBI:29888;
+    CHEBI:2359; CHEBI:35782; CHEBI:29979; CHEBI:43239; CHEBI:40938; CHEBI:13420; CHEBI:32513;
+    CHEBI:18361; CHEBI:33017; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740;
+    CHEBI:43190; CHEBI:13234; CHEBI:40721; CHEBI:29155; CHEBI:15971; CHEBI:10682;
+    CHEBI:45212; CHEBI:42009; CHEBI:13235; CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C02988; KEGG:C01643; KEGG:C00002; KEGG:C00135; KEGG:C00020'
+- id: sabiork_410_EC6_1_1_21_Escherichia_coli_P60906_L-Histidine
+  name: Reaction catalyzed by histidine---tRNA ligase on L-Histidine
+  equation: ATP + tRNA(His) + L-Histidine = Diphosphate + AMP + L-Histidyl-tRNA(His)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Histidine
+  - species_id: substrate_tRNA_His_
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_AMP
+  - species_id: product_Diphosphate
+  - species_id: product_L-Histidyl-tRNA_His_
+  modifiers:
+  - species_id: protein_6_1_1_21_P60906_p12256
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03655
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:6240; CHEBI:29178; CHEBI:10789;
+    CHEBI:57299; CHEBI:40726; CHEBI:22245; CHEBI:21324; CHEBI:8683; CHEBI:13117; CHEBI:40510;
+    CHEBI:43048; CHEBI:32510; CHEBI:43114; CHEBI:22242; CHEBI:13736; CHEBI:47222;
+    CHEBI:33019; CHEBI:57595; CHEBI:456215; CHEBI:15178; CHEBI:13236; CHEBI:40786;
+    CHEBI:45067; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:32512; CHEBI:10841; CHEBI:29888;
+    CHEBI:2359; CHEBI:35782; CHEBI:29979; CHEBI:43239; CHEBI:40938; CHEBI:13420; CHEBI:32513;
+    CHEBI:18361; CHEBI:33017; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740;
+    CHEBI:43190; CHEBI:13234; CHEBI:40721; CHEBI:29155; CHEBI:15971; CHEBI:10682;
+    CHEBI:45212; CHEBI:42009; CHEBI:13235; CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C02988; KEGG:C01643; KEGG:C00002; KEGG:C00135; KEGG:C00020'
+- id: sabiork_410_EC6_1_1_21_Escherichia_coli_P60906_L-Histidine
+  name: Reaction catalyzed by histidine---tRNA ligase on L-Histidine
+  equation: ATP + tRNA(His) + L-Histidine = Diphosphate + AMP + L-Histidyl-tRNA(His)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Histidine
+  - species_id: substrate_tRNA_His_
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_AMP
+  - species_id: product_L-Histidyl-tRNA_His_
+  modifiers:
+  - species_id: protein_6_1_1_21_P60906_p12262
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03655
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:6240; CHEBI:29178; CHEBI:10789;
+    CHEBI:57299; CHEBI:8683; CHEBI:40726; CHEBI:21324; CHEBI:22245; CHEBI:13117; CHEBI:40510;
+    CHEBI:43048; CHEBI:32510; CHEBI:43114; CHEBI:22242; CHEBI:13736; CHEBI:47222;
+    CHEBI:33019; CHEBI:57595; CHEBI:456215; CHEBI:15178; CHEBI:13236; CHEBI:45067;
+    CHEBI:40786; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:32512; CHEBI:10841; CHEBI:29888;
+    CHEBI:2359; CHEBI:35782; CHEBI:29979; CHEBI:43239; CHEBI:40938; CHEBI:13420; CHEBI:32513;
+    CHEBI:18361; CHEBI:33017; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740;
+    CHEBI:43190; CHEBI:13234; CHEBI:40721; CHEBI:29155; CHEBI:15971; CHEBI:10682;
+    CHEBI:45212; CHEBI:42009; CHEBI:13235; CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C02988; KEGG:C01643; KEGG:C00002; KEGG:C00135; KEGG:C00020'
+- id: sabiork_410_EC6_1_1_21_Escherichia_coli_P60906_L-Histidine
+  name: Reaction catalyzed by histidine---tRNA ligase on L-Histidine
+  equation: ATP + tRNA(His) + L-Histidine = Diphosphate + AMP + L-Histidyl-tRNA(His)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Histidine
+  - species_id: substrate_tRNA_His_
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_AMP
+  - species_id: product_Diphosphate
+  - species_id: product_L-Histidyl-tRNA_His_
+  modifiers:
+  - species_id: protein_6_1_1_21_P60906_p12257
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03655
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:6240; CHEBI:29178; CHEBI:10789;
+    CHEBI:57299; CHEBI:40726; CHEBI:22245; CHEBI:21324; CHEBI:8683; CHEBI:13117; CHEBI:40510;
+    CHEBI:43048; CHEBI:32510; CHEBI:43114; CHEBI:22242; CHEBI:13736; CHEBI:47222;
+    CHEBI:33019; CHEBI:57595; CHEBI:456215; CHEBI:15178; CHEBI:13236; CHEBI:40786;
+    CHEBI:45067; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:32512; CHEBI:10841; CHEBI:29888;
+    CHEBI:2359; CHEBI:35782; CHEBI:29979; CHEBI:43239; CHEBI:40938; CHEBI:13420; CHEBI:32513;
+    CHEBI:18361; CHEBI:33017; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740;
+    CHEBI:43190; CHEBI:13234; CHEBI:40721; CHEBI:29155; CHEBI:15971; CHEBI:10682;
+    CHEBI:45212; CHEBI:42009; CHEBI:13235; CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C02988; KEGG:C01643; KEGG:C00002; KEGG:C00135; KEGG:C00020'
+- id: sabiork_410_EC6_1_1_21_Escherichia_coli_P60906_L-Histidine
+  name: Reaction catalyzed by histidine---tRNA ligase on L-Histidine
+  equation: ATP + tRNA(His) + L-Histidine = Diphosphate + AMP + L-Histidyl-tRNA(His)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Histidine
+  - species_id: substrate_ATP
+  - species_id: substrate_tRNA_His_
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_L-Histidyl-tRNA_His_
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_6_1_1_21_P60906_p24715
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03655
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:6240; CHEBI:29178; CHEBI:10789;
+    CHEBI:57299; CHEBI:8683; CHEBI:40726; CHEBI:21324; CHEBI:22245; CHEBI:13117; CHEBI:40510;
+    CHEBI:43048; CHEBI:32510; CHEBI:43114; CHEBI:22242; CHEBI:13736; CHEBI:47222;
+    CHEBI:33019; CHEBI:57595; CHEBI:456215; CHEBI:15178; CHEBI:13236; CHEBI:45067;
+    CHEBI:40786; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:32512; CHEBI:10841; CHEBI:29888;
+    CHEBI:2359; CHEBI:35782; CHEBI:29979; CHEBI:43239; CHEBI:40938; CHEBI:13420; CHEBI:32513;
+    CHEBI:18361; CHEBI:33017; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740;
+    CHEBI:43190; CHEBI:13234; CHEBI:29155; CHEBI:40721; CHEBI:15971; CHEBI:10682;
+    CHEBI:45212; CHEBI:42009; CHEBI:13235; CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C02988; KEGG:C01643; KEGG:C00002; KEGG:C00135; KEGG:C00020'
+- id: sabiork_410_EC6_1_1_21_Escherichia_coli_P60906_tRNA_His_
+  name: Reaction catalyzed by histidine---tRNA ligase on tRNA(His)
+  equation: ATP + tRNA(His) + L-Histidine = Diphosphate + AMP + L-Histidyl-tRNA(His)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_tRNA_His_
+  - species_id: substrate_L-Histidine
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_L-Histidyl-tRNA_His_
+  - species_id: product_Diphosphate
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_6_1_1_21_P60906_p12254
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03655
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:6240; CHEBI:29178; CHEBI:10789;
+    CHEBI:57299; CHEBI:8683; CHEBI:40726; CHEBI:21324; CHEBI:22245; CHEBI:13117; CHEBI:40510;
+    CHEBI:43048; CHEBI:32510; CHEBI:43114; CHEBI:22242; CHEBI:13736; CHEBI:47222;
+    CHEBI:33019; CHEBI:57595; CHEBI:456215; CHEBI:15178; CHEBI:13236; CHEBI:45067;
+    CHEBI:40786; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:32512; CHEBI:10841; CHEBI:29888;
+    CHEBI:2359; CHEBI:35782; CHEBI:29979; CHEBI:43239; CHEBI:40938; CHEBI:13420; CHEBI:32513;
+    CHEBI:18361; CHEBI:33017; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740;
+    CHEBI:43190; CHEBI:13234; CHEBI:29155; CHEBI:40721; CHEBI:15971; CHEBI:10682;
+    CHEBI:45212; CHEBI:42009; CHEBI:13235; CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C02988; KEGG:C01643; KEGG:C00002; KEGG:C00135; KEGG:C00020'
+- id: sabiork_410_EC6_1_1_21_Escherichia_coli_P60906_L-Histidine
+  name: Reaction catalyzed by histidine---tRNA ligase on L-Histidine
+  equation: ATP + tRNA(His) + L-Histidine = Diphosphate + AMP + L-Histidyl-tRNA(His)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Histidine
+  - species_id: substrate_ATP
+  - species_id: substrate_tRNA_His_
+  products:
+  - species_id: product_L-Histidyl-tRNA_His_
+  - species_id: product_Diphosphate
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_6_1_1_21_P60906_p24714
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03655
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:6240; CHEBI:29178; CHEBI:10789;
+    CHEBI:57299; CHEBI:8683; CHEBI:40726; CHEBI:21324; CHEBI:22245; CHEBI:13117; CHEBI:40510;
+    CHEBI:43048; CHEBI:32510; CHEBI:43114; CHEBI:22242; CHEBI:13736; CHEBI:47222;
+    CHEBI:33019; CHEBI:57595; CHEBI:456215; CHEBI:15178; CHEBI:13236; CHEBI:45067;
+    CHEBI:40786; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:32512; CHEBI:10841; CHEBI:29888;
+    CHEBI:2359; CHEBI:35782; CHEBI:29979; CHEBI:43239; CHEBI:40938; CHEBI:13420; CHEBI:32513;
+    CHEBI:18361; CHEBI:33017; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740;
+    CHEBI:43190; CHEBI:13234; CHEBI:29155; CHEBI:40721; CHEBI:15971; CHEBI:10682;
+    CHEBI:45212; CHEBI:42009; CHEBI:13235; CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C02988; KEGG:C01643; KEGG:C00002; KEGG:C00135; KEGG:C00020'
+- id: sabiork_410_EC6_1_1_21_Escherichia_coli_P60906_L-Histidine
+  name: Reaction catalyzed by histidine---tRNA ligase on L-Histidine
+  equation: ATP + tRNA(His) + L-Histidine = Diphosphate + AMP + L-Histidyl-tRNA(His)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Histidine
+  - species_id: substrate_tRNA_His_
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_L-Histidyl-tRNA_His_
+  - species_id: product_Diphosphate
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_6_1_1_21_P60906_p24711
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03655
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:6240; CHEBI:29178; CHEBI:10789;
+    CHEBI:57299; CHEBI:8683; CHEBI:40726; CHEBI:21324; CHEBI:22245; CHEBI:13117; CHEBI:40510;
+    CHEBI:43048; CHEBI:32510; CHEBI:43114; CHEBI:22242; CHEBI:13736; CHEBI:47222;
+    CHEBI:33019; CHEBI:57595; CHEBI:456215; CHEBI:15178; CHEBI:13236; CHEBI:45067;
+    CHEBI:40786; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:32512; CHEBI:10841; CHEBI:29888;
+    CHEBI:2359; CHEBI:35782; CHEBI:29979; CHEBI:43239; CHEBI:40938; CHEBI:13420; CHEBI:32513;
+    CHEBI:18361; CHEBI:33017; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740;
+    CHEBI:43190; CHEBI:13234; CHEBI:29155; CHEBI:40721; CHEBI:15971; CHEBI:10682;
+    CHEBI:45212; CHEBI:42009; CHEBI:13235; CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C02988; KEGG:C01643; KEGG:C00002; KEGG:C00135; KEGG:C00020'
+- id: sabiork_410_EC6_1_1_21_Escherichia_coli_P60906_tRNA_His_
+  name: Reaction catalyzed by histidine---tRNA ligase on tRNA(His)
+  equation: ATP + tRNA(His) + L-Histidine = Diphosphate + AMP + L-Histidyl-tRNA(His)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_tRNA_His_
+  - species_id: substrate_L-Histidine
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_AMP
+  - species_id: product_L-Histidyl-tRNA_His_
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_6_1_1_21_P60906_p24716
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03655
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:6240; CHEBI:29178; CHEBI:10789;
+    CHEBI:57299; CHEBI:40726; CHEBI:22245; CHEBI:21324; CHEBI:8683; CHEBI:13117; CHEBI:40510;
+    CHEBI:43048; CHEBI:32510; CHEBI:43114; CHEBI:22242; CHEBI:13736; CHEBI:47222;
+    CHEBI:33019; CHEBI:57595; CHEBI:456215; CHEBI:15178; CHEBI:13236; CHEBI:40786;
+    CHEBI:45067; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:32512; CHEBI:10841; CHEBI:29888;
+    CHEBI:2359; CHEBI:35782; CHEBI:29979; CHEBI:43239; CHEBI:40938; CHEBI:13420; CHEBI:32513;
+    CHEBI:18361; CHEBI:33017; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740;
+    CHEBI:43190; CHEBI:13234; CHEBI:40721; CHEBI:29155; CHEBI:15971; CHEBI:10682;
+    CHEBI:45212; CHEBI:42009; CHEBI:13235; CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C02988; KEGG:C01643; KEGG:C00002; KEGG:C00135; KEGG:C00020'
+- id: sabiork_410_EC6_1_1_21_Escherichia_coli_P60906_tRNA_His_
+  name: Reaction catalyzed by histidine---tRNA ligase on tRNA(His)
+  equation: ATP + tRNA(His) + L-Histidine = Diphosphate + AMP + L-Histidyl-tRNA(His)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_tRNA_His_
+  - species_id: substrate_L-Histidine
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_AMP
+  - species_id: product_L-Histidyl-tRNA_His_
+  modifiers:
+  - species_id: protein_6_1_1_21_P60906_p24717
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03655
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:6240; CHEBI:29178; CHEBI:10789;
+    CHEBI:57299; CHEBI:8683; CHEBI:40726; CHEBI:21324; CHEBI:22245; CHEBI:13117; CHEBI:40510;
+    CHEBI:43048; CHEBI:32510; CHEBI:43114; CHEBI:22242; CHEBI:13736; CHEBI:47222;
+    CHEBI:33019; CHEBI:57595; CHEBI:456215; CHEBI:15178; CHEBI:13236; CHEBI:45067;
+    CHEBI:40786; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:32512; CHEBI:10841; CHEBI:29888;
+    CHEBI:2359; CHEBI:35782; CHEBI:29979; CHEBI:43239; CHEBI:40938; CHEBI:13420; CHEBI:32513;
+    CHEBI:18361; CHEBI:33017; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740;
+    CHEBI:43190; CHEBI:13234; CHEBI:40721; CHEBI:29155; CHEBI:15971; CHEBI:10682;
+    CHEBI:45212; CHEBI:42009; CHEBI:13235; CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C02988; KEGG:C01643; KEGG:C00002; KEGG:C00135; KEGG:C00020'
+- id: sabiork_410_EC6_1_1_21_Escherichia_coli_P60906_tRNA_His_
+  name: Reaction catalyzed by histidine---tRNA ligase on tRNA(His)
+  equation: ATP + tRNA(His) + L-Histidine = Diphosphate + AMP + L-Histidyl-tRNA(His)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_tRNA_His_
+  - species_id: substrate_L-Histidine
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_AMP
+  - species_id: product_L-Histidyl-tRNA_His_
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_6_1_1_21_P60906_p12258
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03655
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:6240; CHEBI:29178; CHEBI:10789;
+    CHEBI:57299; CHEBI:40726; CHEBI:22245; CHEBI:21324; CHEBI:8683; CHEBI:13117; CHEBI:40510;
+    CHEBI:43048; CHEBI:32510; CHEBI:43114; CHEBI:22242; CHEBI:13736; CHEBI:47222;
+    CHEBI:33019; CHEBI:57595; CHEBI:456215; CHEBI:15178; CHEBI:13236; CHEBI:40786;
+    CHEBI:45067; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:32512; CHEBI:10841; CHEBI:29888;
+    CHEBI:2359; CHEBI:35782; CHEBI:29979; CHEBI:43239; CHEBI:40938; CHEBI:13420; CHEBI:32513;
+    CHEBI:18361; CHEBI:33017; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740;
+    CHEBI:43190; CHEBI:13234; CHEBI:40721; CHEBI:29155; CHEBI:15971; CHEBI:10682;
+    CHEBI:45212; CHEBI:42009; CHEBI:13235; CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C02988; KEGG:C01643; KEGG:C00002; KEGG:C00135; KEGG:C00020'
+- id: sabiork_410_EC6_1_1_21_Escherichia_coli_P60906_tRNA_His_
+  name: Reaction catalyzed by histidine---tRNA ligase on tRNA(His)
+  equation: ATP + tRNA(His) + L-Histidine = Diphosphate + AMP + L-Histidyl-tRNA(His)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_tRNA_His_
+  - species_id: substrate_ATP
+  - species_id: substrate_L-Histidine
+  products:
+  - species_id: product_L-Histidyl-tRNA_His_
+  - species_id: product_Diphosphate
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_6_1_1_21_P60906_p12260
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03655
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:6240; CHEBI:29178; CHEBI:10789;
+    CHEBI:57299; CHEBI:8683; CHEBI:40726; CHEBI:21324; CHEBI:22245; CHEBI:13117; CHEBI:40510;
+    CHEBI:43048; CHEBI:43114; CHEBI:32510; CHEBI:22242; CHEBI:13736; CHEBI:47222;
+    CHEBI:33019; CHEBI:57595; CHEBI:456215; CHEBI:15178; CHEBI:13236; CHEBI:45067;
+    CHEBI:40786; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841; CHEBI:32512; CHEBI:29888;
+    CHEBI:2359; CHEBI:35782; CHEBI:29979; CHEBI:40938; CHEBI:43239; CHEBI:13420; CHEBI:32513;
+    CHEBI:18361; CHEBI:33017; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740;
+    CHEBI:43190; CHEBI:13234; CHEBI:29155; CHEBI:40721; CHEBI:10682; CHEBI:15971;
+    CHEBI:45212; CHEBI:42009; CHEBI:13235; CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C02988; KEGG:C01643; KEGG:C00002; KEGG:C00135; KEGG:C00020'
+- id: sabiork_410_EC6_1_1_21_Escherichia_coli_P60906_tRNA_His_
+  name: Reaction catalyzed by histidine---tRNA ligase on tRNA(His)
+  equation: ATP + tRNA(His) + L-Histidine = Diphosphate + AMP + L-Histidyl-tRNA(His)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_tRNA_His_
+  - species_id: substrate_L-Histidine
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_L-Histidyl-tRNA_His_
+  - species_id: product_Diphosphate
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_6_1_1_21_P60906_p24708
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03655
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:6240; CHEBI:29178; CHEBI:10789;
+    CHEBI:57299; CHEBI:8683; CHEBI:40726; CHEBI:21324; CHEBI:22245; CHEBI:13117; CHEBI:40510;
+    CHEBI:43048; CHEBI:32510; CHEBI:43114; CHEBI:22242; CHEBI:13736; CHEBI:47222;
+    CHEBI:33019; CHEBI:57595; CHEBI:456215; CHEBI:15178; CHEBI:13236; CHEBI:45067;
+    CHEBI:40786; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:32512; CHEBI:10841; CHEBI:29888;
+    CHEBI:2359; CHEBI:35782; CHEBI:29979; CHEBI:43239; CHEBI:40938; CHEBI:13420; CHEBI:32513;
+    CHEBI:18361; CHEBI:33017; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740;
+    CHEBI:43190; CHEBI:13234; CHEBI:29155; CHEBI:40721; CHEBI:15971; CHEBI:10682;
+    CHEBI:45212; CHEBI:42009; CHEBI:13235; CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C02988; KEGG:C01643; KEGG:C00002; KEGG:C00135; KEGG:C00020'
+- id: sabiork_410_EC6_1_1_21_Escherichia_coli_P60906_tRNA_His_
+  name: Reaction catalyzed by histidine---tRNA ligase on tRNA(His)
+  equation: ATP + tRNA(His) + L-Histidine = Diphosphate + AMP + L-Histidyl-tRNA(His)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_tRNA_His_
+  - species_id: substrate_L-Histidine
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_L-Histidyl-tRNA_His_
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_6_1_1_21_P60906_p12264
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03655
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:6240; CHEBI:29178; CHEBI:10789;
+    CHEBI:57299; CHEBI:8683; CHEBI:40726; CHEBI:21324; CHEBI:22245; CHEBI:13117; CHEBI:40510;
+    CHEBI:43048; CHEBI:32510; CHEBI:43114; CHEBI:22242; CHEBI:13736; CHEBI:47222;
+    CHEBI:33019; CHEBI:57595; CHEBI:456215; CHEBI:15178; CHEBI:13236; CHEBI:45067;
+    CHEBI:40786; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:32512; CHEBI:10841; CHEBI:29888;
+    CHEBI:2359; CHEBI:35782; CHEBI:29979; CHEBI:43239; CHEBI:40938; CHEBI:13420; CHEBI:32513;
+    CHEBI:18361; CHEBI:33017; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740;
+    CHEBI:43190; CHEBI:13234; CHEBI:29155; CHEBI:40721; CHEBI:15971; CHEBI:10682;
+    CHEBI:45212; CHEBI:42009; CHEBI:13235; CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C02988; KEGG:C01643; KEGG:C00002; KEGG:C00135; KEGG:C00020'
+- id: sabiork_410_EC6_1_1_21_Escherichia_coli_P60906_tRNA_His_
+  name: Reaction catalyzed by histidine---tRNA ligase on tRNA(His)
+  equation: ATP + tRNA(His) + L-Histidine = Diphosphate + AMP + L-Histidyl-tRNA(His)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_tRNA_His_
+  - species_id: substrate_ATP
+  - species_id: substrate_L-Histidine
+  products:
+  - species_id: product_L-Histidyl-tRNA_His_
+  - species_id: product_Diphosphate
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_6_1_1_21_P60906_p12261
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03655
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:6240; CHEBI:29178; CHEBI:10789;
+    CHEBI:57299; CHEBI:8683; CHEBI:40726; CHEBI:21324; CHEBI:22245; CHEBI:13117; CHEBI:40510;
+    CHEBI:43048; CHEBI:43114; CHEBI:32510; CHEBI:22242; CHEBI:13736; CHEBI:47222;
+    CHEBI:33019; CHEBI:57595; CHEBI:456215; CHEBI:15178; CHEBI:13236; CHEBI:45067;
+    CHEBI:40786; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841; CHEBI:32512; CHEBI:29888;
+    CHEBI:2359; CHEBI:35782; CHEBI:29979; CHEBI:40938; CHEBI:43239; CHEBI:13420; CHEBI:32513;
+    CHEBI:18361; CHEBI:33017; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740;
+    CHEBI:43190; CHEBI:13234; CHEBI:29155; CHEBI:40721; CHEBI:10682; CHEBI:15971;
+    CHEBI:45212; CHEBI:42009; CHEBI:13235; CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C02988; KEGG:C01643; KEGG:C00002; KEGG:C00135; KEGG:C00020'
+- id: sabiork_410_EC6_1_1_21_Escherichia_coli_P60906_tRNA_His_
+  name: Reaction catalyzed by histidine---tRNA ligase on tRNA(His)
+  equation: ATP + tRNA(His) + L-Histidine = Diphosphate + AMP + L-Histidyl-tRNA(His)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_tRNA_His_
+  - species_id: substrate_L-Histidine
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_AMP
+  - species_id: product_L-Histidyl-tRNA_His_
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_6_1_1_21_P60906_p24709
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03655
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:6240; CHEBI:29178; CHEBI:10789;
+    CHEBI:57299; CHEBI:40726; CHEBI:22245; CHEBI:21324; CHEBI:8683; CHEBI:13117; CHEBI:40510;
+    CHEBI:43048; CHEBI:32510; CHEBI:43114; CHEBI:22242; CHEBI:13736; CHEBI:47222;
+    CHEBI:33019; CHEBI:57595; CHEBI:456215; CHEBI:15178; CHEBI:13236; CHEBI:40786;
+    CHEBI:45067; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:32512; CHEBI:10841; CHEBI:29888;
+    CHEBI:2359; CHEBI:35782; CHEBI:29979; CHEBI:43239; CHEBI:40938; CHEBI:13420; CHEBI:32513;
+    CHEBI:18361; CHEBI:33017; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740;
+    CHEBI:43190; CHEBI:13234; CHEBI:40721; CHEBI:29155; CHEBI:15971; CHEBI:10682;
+    CHEBI:45212; CHEBI:42009; CHEBI:13235; CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C02988; KEGG:C01643; KEGG:C00002; KEGG:C00135; KEGG:C00020'
+- id: sabiork_410_EC6_1_1_21_Escherichia_coli_P60906_tRNA_His_
+  name: Reaction catalyzed by histidine---tRNA ligase on tRNA(His)
+  equation: ATP + tRNA(His) + L-Histidine = Diphosphate + AMP + L-Histidyl-tRNA(His)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_tRNA_His_
+  - species_id: substrate_L-Histidine
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_AMP
+  - species_id: product_L-Histidyl-tRNA_His_
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_6_1_1_21_P60906_p24713
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03655
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:6240; CHEBI:29178; CHEBI:10789;
+    CHEBI:57299; CHEBI:40726; CHEBI:22245; CHEBI:21324; CHEBI:8683; CHEBI:13117; CHEBI:40510;
+    CHEBI:43048; CHEBI:32510; CHEBI:43114; CHEBI:22242; CHEBI:13736; CHEBI:47222;
+    CHEBI:33019; CHEBI:57595; CHEBI:456215; CHEBI:15178; CHEBI:13236; CHEBI:40786;
+    CHEBI:45067; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:32512; CHEBI:10841; CHEBI:29888;
+    CHEBI:2359; CHEBI:35782; CHEBI:29979; CHEBI:43239; CHEBI:40938; CHEBI:13420; CHEBI:32513;
+    CHEBI:18361; CHEBI:33017; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740;
+    CHEBI:43190; CHEBI:13234; CHEBI:40721; CHEBI:29155; CHEBI:15971; CHEBI:10682;
+    CHEBI:45212; CHEBI:42009; CHEBI:13235; CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C02988; KEGG:C01643; KEGG:C00002; KEGG:C00135; KEGG:C00020'
+- id: sabiork_410_EC6_1_1_21_Escherichia_coli_P60906_tRNA_His_
+  name: Reaction catalyzed by histidine---tRNA ligase on tRNA(His)
+  equation: ATP + tRNA(His) + L-Histidine = Diphosphate + AMP + L-Histidyl-tRNA(His)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_tRNA_His_
+  - species_id: substrate_ATP
+  - species_id: substrate_L-Histidine
+  products:
+  - species_id: product_L-Histidyl-tRNA_His_
+  - species_id: product_Diphosphate
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_6_1_1_21_P60906_p24710
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03655
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:6240; CHEBI:29178; CHEBI:10789;
+    CHEBI:57299; CHEBI:8683; CHEBI:40726; CHEBI:21324; CHEBI:22245; CHEBI:13117; CHEBI:40510;
+    CHEBI:43048; CHEBI:43114; CHEBI:32510; CHEBI:22242; CHEBI:13736; CHEBI:47222;
+    CHEBI:33019; CHEBI:57595; CHEBI:456215; CHEBI:15178; CHEBI:13236; CHEBI:45067;
+    CHEBI:40786; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841; CHEBI:32512; CHEBI:29888;
+    CHEBI:2359; CHEBI:35782; CHEBI:29979; CHEBI:40938; CHEBI:43239; CHEBI:13420; CHEBI:32513;
+    CHEBI:18361; CHEBI:33017; CHEBI:45208; CHEBI:22249; CHEBI:15422; CHEBI:13740;
+    CHEBI:43190; CHEBI:13234; CHEBI:29155; CHEBI:40721; CHEBI:10682; CHEBI:15971;
+    CHEBI:45212; CHEBI:42009; CHEBI:13235; CHEBI:12056; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C02988; KEGG:C01643; KEGG:C00002; KEGG:C00135; KEGG:C00020'
+measurements:
+- id: measurement_6_1_1_21_Escherichia_coli_P60906_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_21_Escherichia_coli_P60906_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_21_Escherichia_coli_P60906_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_21_Escherichia_coli_P60906_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_21_Escherichia_coli_P60906_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_21_Escherichia_coli_P60906_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_21_Escherichia_coli_P60906_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_21_Escherichia_coli_P60906_L-Histidine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_21_Escherichia_coli_P60906_L-Histidine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_21_Escherichia_coli_P60906_L-Histidine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_21_Escherichia_coli_P60906_L-Histidine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_21_Escherichia_coli_P60906_L-Histidine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_21_Escherichia_coli_P60906_tRNA_His_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_21_Escherichia_coli_P60906_L-Histidine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_21_Escherichia_coli_P60906_L-Histidine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_21_Escherichia_coli_P60906_tRNA_His_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_21_Escherichia_coli_P60906_tRNA_His_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_21_Escherichia_coli_P60906_tRNA_His_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_21_Escherichia_coli_P60906_tRNA_His_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_21_Escherichia_coli_P60906_tRNA_His_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_21_Escherichia_coli_P60906_tRNA_His_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_21_Escherichia_coli_P60906_tRNA_His_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_21_Escherichia_coli_P60906_tRNA_His_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_21_Escherichia_coli_P60906_tRNA_His_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_21_Escherichia_coli_P60906_tRNA_His_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 6_1_1_21_Escherichia_coli_P60906_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.4e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2.6
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1800000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 530.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.00016
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.1e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.005
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.6e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 3100.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 7.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9266856'
+- id: 6_1_1_21_Escherichia_coli_P60906_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 8.0e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9266856'
+- id: 6_1_1_21_Escherichia_coli_P60906_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 815000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9266856'
+- id: 6_1_1_21_Escherichia_coli_P60906_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00074
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 230.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.17
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 180000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 110.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0006
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.6e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 4100.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.19
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_L-Histidine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.9e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Histidine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_L-Histidine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.004
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Histidine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_L-Histidine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.8e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Histidine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_L-Histidine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 6800.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Histidine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_L-Histidine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.026
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Histidine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_L-Histidine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 9900000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Histidine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_L-Histidine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 140.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Histidine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_L-Histidine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.4e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Histidine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_L-Histidine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.6e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Histidine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_L-Histidine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.0064
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Histidine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_L-Histidine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 11000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Histidine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_L-Histidine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 22000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Histidine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9266856'
+- id: 6_1_1_21_Escherichia_coli_P60906_L-Histidine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00035
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Histidine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9266856'
+- id: 6_1_1_21_Escherichia_coli_P60906_L-Histidine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 8.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Histidine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9266856'
+- id: 6_1_1_21_Escherichia_coli_P60906_tRNA_His__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 110000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_His_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_tRNA_His__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.5
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_His_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_tRNA_His__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.3e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_His_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_L-Histidine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 9.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Histidine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9266856'
+- id: 6_1_1_21_Escherichia_coli_P60906_L-Histidine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00039
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Histidine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9266856'
+- id: 6_1_1_21_Escherichia_coli_P60906_L-Histidine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 24000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Histidine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9266856'
+- id: 6_1_1_21_Escherichia_coli_P60906_L-Histidine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Histidine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9266856'
+- id: 6_1_1_21_Escherichia_coli_P60906_L-Histidine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 15000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Histidine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9266856'
+- id: 6_1_1_21_Escherichia_coli_P60906_L-Histidine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Histidine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9266856'
+- id: 6_1_1_21_Escherichia_coli_P60906_tRNA_His__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 30000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_His_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9266856'
+- id: 6_1_1_21_Escherichia_coli_P60906_tRNA_His__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00022
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_His_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9266856'
+- id: 6_1_1_21_Escherichia_coli_P60906_tRNA_His__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 8.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_His_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9266856'
+- id: 6_1_1_21_Escherichia_coli_P60906_tRNA_His__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 3000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_His_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9266856'
+- id: 6_1_1_21_Escherichia_coli_P60906_tRNA_His__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000655
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_His_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9266856'
+- id: 6_1_1_21_Escherichia_coli_P60906_tRNA_His__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.2
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_His_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9266856'
+- id: 6_1_1_21_Escherichia_coli_P60906_tRNA_His__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 480.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_His_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_tRNA_His__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.5e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_His_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_tRNA_His__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.0026
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_His_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_tRNA_His__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.4e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_His_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_tRNA_His__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 26.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_His_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_tRNA_His__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.00011
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_His_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_tRNA_His__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 6.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_His_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9266856'
+- id: 6_1_1_21_Escherichia_coli_P60906_tRNA_His__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.1e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_His_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9266856'
+- id: 6_1_1_21_Escherichia_coli_P60906_tRNA_His__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 550000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_His_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9266856'
+- id: 6_1_1_21_Escherichia_coli_P60906_tRNA_His__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00089
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_His_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_tRNA_His__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 120.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_His_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_tRNA_His__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 130000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_His_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_tRNA_His__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 142.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_His_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_tRNA_His__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_His_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_tRNA_His__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 4700000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_His_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9131996'
+- id: 6_1_1_21_Escherichia_coli_P60906_tRNA_His__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 6.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_His_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9266856'
+- id: 6_1_1_21_Escherichia_coli_P60906_tRNA_His__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 370000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_His_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9266856'
+- id: 6_1_1_21_Escherichia_coli_P60906_tRNA_His__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.7e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_His_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9266856'
+- id: 6_1_1_21_Escherichia_coli_P60906_tRNA_His__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 61000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_His_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9266856'
+- id: 6_1_1_21_Escherichia_coli_P60906_tRNA_His__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 34.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_His_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9266856'
+- id: 6_1_1_21_Escherichia_coli_P60906_tRNA_His__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00056
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_His_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9266856'
+- id: 6_1_1_21_Escherichia_coli_P60906_tRNA_His__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_His_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9266856'
+- id: 6_1_1_21_Escherichia_coli_P60906_tRNA_His__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 9.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_His_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9266856'
+- id: 6_1_1_21_Escherichia_coli_P60906_tRNA_His__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 450000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_His_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9266856'
+buffer:
+  buffer: 50 mM HEPES, 100 mM KCl, 8.3 mM DTT, 10 mM MgCl; 100 mM Tris, 10 mM beta-mercaptoethanol,
+    10 mM KF, 10 mM MgCl2, 2 mM [32P]NaPPi; 50 mM Tris-HCl, 10 mM MgCl2, 50 mM betaME,
+    2.6 mM [32P]-Na2P2O7
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 12253
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9131996/
+  pubmed_id: '9131996'
+  doi: null
+- title: Reference for SABIO-RK entry 24707
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9266856/
+  pubmed_id: '9266856'
+  doi: null
+name: Merged entry for P60906 wildtype
+description: 'Merged from 25 files: SABIO_EC6.1.1.21_Escherichia_coli__P60906_s_ATP.yaml,
+  SABIO_EC6.1.1.21_Escherichia_coli__P60906_s_ATP_3.yaml, SABIO_EC6.1.1.21_Escherichia_coli__P60906_s_ATP_2.yaml,
+  SABIO_EC6.1.1.21_Escherichia_coli__P60906_s_ATP_7.yaml, SABIO_EC6.1.1.21_Escherichia_coli__P60906_s_ATP_6.yaml,
+  SABIO_EC6.1.1.21_Escherichia_coli__P60906_s_ATP_5.yaml, SABIO_EC6.1.1.21_Escherichia_coli__P60906_s_ATP_4.yaml,
+  SABIO_EC6.1.1.21_Escherichia_coli__P60906_s_L-Histidine_4.yaml, SABIO_EC6.1.1.21_Escherichia_coli__P60906_s_L-Histidine.yaml,
+  SABIO_EC6.1.1.21_Escherichia_coli__P60906_s_L-Histidine_3.yaml, SABIO_EC6.1.1.21_Escherichia_coli__P60906_s_L-Histidine_2.yaml,
+  SABIO_EC6.1.1.21_Escherichia_coli__P60906_s_L-Histidine_7.yaml, SABIO_EC6.1.1.21_Escherichia_coli__P60906_s_tRNA_His_.yaml,
+  SABIO_EC6.1.1.21_Escherichia_coli__P60906_s_L-Histidine_6.yaml, SABIO_EC6.1.1.21_Escherichia_coli__P60906_s_L-Histidine_5.yaml,
+  SABIO_EC6.1.1.21_Escherichia_coli__P60906_s_tRNA_His__10.yaml, SABIO_EC6.1.1.21_Escherichia_coli__P60906_s_tRNA_His__11.yaml,
+  SABIO_EC6.1.1.21_Escherichia_coli__P60906_s_tRNA_His__2.yaml, SABIO_EC6.1.1.21_Escherichia_coli__P60906_s_tRNA_His__3.yaml,
+  SABIO_EC6.1.1.21_Escherichia_coli__P60906_s_tRNA_His__6.yaml, SABIO_EC6.1.1.21_Escherichia_coli__P60906_s_tRNA_His__5.yaml,
+  SABIO_EC6.1.1.21_Escherichia_coli__P60906_s_tRNA_His__4.yaml, SABIO_EC6.1.1.21_Escherichia_coli__P60906_s_tRNA_His__7.yaml,
+  SABIO_EC6.1.1.21_Escherichia_coli__P60906_s_tRNA_His__9.yaml, SABIO_EC6.1.1.21_Escherichia_coli__P60906_s_tRNA_His__8.yaml'

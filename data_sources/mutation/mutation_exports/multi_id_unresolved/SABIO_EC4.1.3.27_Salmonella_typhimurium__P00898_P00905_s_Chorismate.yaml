@@ -1,0 +1,193 @@
+name: SABIO-RK Entry 61080
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 61080
+created: '2025-10-28T16:32:02.976728'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_1_3_27_P00898_P00905_p61080
+  name: anthranilate synthase
+  sequence: null
+  ecnumber: 4.1.3.27
+  organism: Salmonella typhimurium
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P00898; P00905
+complexes: null
+small_molecules:
+- id: substrate_Chorismate
+  name: Chorismate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_L-Glutamine
+  name: L-Glutamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Anthranilate
+  name: Anthranilate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Glutamate
+  name: L-Glutamate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Pyruvate
+  name: Pyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1280_EC4_1_3_27_Salmonella_typhimurium_P00898_P00905_Chorismate
+  name: Reaction catalyzed by anthranilate synthase on Chorismate
+  equation: L-Glutamine + Chorismate = L-Glutamate + Anthranilate + Pyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Chorismate
+  - species_id: substrate_L-Glutamine
+  products:
+  - species_id: product_Anthranilate
+  - species_id: product_L-Glutamate
+  - species_id: product_Pyruvate
+  modifiers:
+  - species_id: protein_4_1_3_27_P00898_P00905_p61080
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 21732;21733;21734;21735
+  KEGGid: R00986
+  notes: 'ChEBI IDs: CHEBI:42943; CHEBI:42825; CHEBI:32678; CHEBI:32666; CHEBI:22578;
+    CHEBI:14987; CHEBI:42899; CHEBI:17333; CHEBI:15361; CHEBI:23227; CHEBI:16567;
+    CHEBI:3677; CHEBI:29972; CHEBI:24316; CHEBI:21301; CHEBI:32679; CHEBI:40980; CHEBI:28300;
+    CHEBI:22577; CHEBI:22575; CHEBI:21308; CHEBI:23225; CHEBI:32665; CHEBI:6224; CHEBI:5432;
+    CHEBI:26466; CHEBI:2757; CHEBI:42814; CHEBI:26462; CHEBI:13107; CHEBI:13110; CHEBI:30754;
+    CHEBI:16015; CHEBI:13841; CHEBI:13993; CHEBI:21304; CHEBI:18050; CHEBI:8685; CHEBI:6227;
+    CHEBI:32816; CHEBI:42812; CHEBI:29985; CHEBI:29988; CHEBI:58359; CHEBI:30011;
+    CHEBI:45253; CHEBI:29748
+
+    KEGG IDs: KEGG:C00108; KEGG:C00064; KEGG:C00303; KEGG:C00251; KEGG:C00022; KEGG:C00025'
+measurements:
+- id: measurement_4_1_3_27_Salmonella_typhimurium_P00898_P00905_Chorismate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 4_1_3_27_Salmonella_typhimurium_P00898_P00905_Chorismate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 3.7
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Chorismate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: null
+- id: 4_1_3_27_Salmonella_typhimurium_P00898_P00905_Chorismate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 350000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Chorismate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: null
+- id: 4_1_3_27_Salmonella_typhimurium_P00898_P00905_Chorismate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.13e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Chorismate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: null
+buffer:
+  buffer: 100 mM potassium phosphate, 5 mM MgCl2, 1 mM DTT
+  buffer_concentration: 100 mM
+references: null

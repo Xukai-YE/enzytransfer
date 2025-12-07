@@ -1,0 +1,433 @@
+version: '2.0'
+created: '2025-11-20T13:39:18.269148'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_25_Q9SQT8_p52645
+  name: shikimate dehydrogenase
+  ecnumber: 1.1.1.25
+  organism: Arabidopsis thaliana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: K385N
+  uniprotid: Q9SQT8
+  wildtype_sequence: MAASSTNARLTNPPRLLSKPRLSPTSVANLRFPAADFSTRFFADSSSPRLRSVPFPVVFSDQRRRRSMEPSNVYVASNSTEMEIGSHDIVKNPSLICAPVMADSIDKMVIETSKAHELGADLVEIRLDWLKDFNPLEDLKTIIKKSPLPTLFTYRPKWEGGQYEGDENERRDVLRLAMELGADYIDVELQVASEFIKSIDGKKPGKFKVIVSSHNYQNTPSVEDLDGLVARIQQTGADIVKIATTAVDIADVARMFHITSKAQVPTIGLVMGERGLMSRILCSKFGGYLTFGTLDSSKVSAPGQPTIKDLLDLYNFRRIGPDTKVYGIIGKPVSHSKSPIVHNQAFKSVDFNGVYVHLLVDNLVSFLQAYSSSDFAGFSCTIPHKEAALQCCDEVDPLAKSIGAVNTILRRKSDGKLLGYNTDCIGSISAIEDGLRSSGDPSSVPSSSSPLASKTVVVIGAGGAGKALAYGAKEKGAKVVIANRTYERALELAEAIGGKALSLTDLDNYHPEDGMVLANTTSMGMQPNVEETPISKDALKHYALVFDAVYTPRITRLLREAEESGAITVSGSEMFVRQAYEQFEIFTGLPAPKELYWQIMSKY
+  mutant_sequence: MAASSTNARLTNPPRLLSKPRLSPTSVANLRFPAADFSTRFFADSSSPRLRSVPFPVVFSDQRRRRSMEPSNVYVASNSTEMEIGSHDIVKNPSLICAPVMADSIDKMVIETSKAHELGADLVEIRLDWLKDFNPLEDLKTIIKKSPLPTLFTYRPKWEGGQYEGDENERRDVLRLAMELGADYIDVELQVASEFIKSIDGKKPGKFKVIVSSHNYQNTPSVEDLDGLVARIQQTGADIVKIATTAVDIADVARMFHITSKAQVPTIGLVMGERGLMSRILCSKFGGYLTFGTLDSSKVSAPGQPTIKDLLDLYNFRRIGPDTKVYGIIGKPVSHSKSPIVHNQAFKSVDFNGVYVHLLVDNLVSFLQAYSSSDFAGFSCTIPHNEAALQCCDEVDPLAKSIGAVNTILRRKSDGKLLGYNTDCIGSISAIEDGLRSSGDPSSVPSSSSPLASKTVVVIGAGGAGKALAYGAKEKGAKVVIANRTYERALELAEAIGGKALSLTDLDNYHPEDGMVLANTTSMGMQPNVEETPISKDALKHYALVFDAVYTPRITRLLREAEESGAITVSGSEMFVRQAYEQFEIFTGLPAPKELYWQIMSKY
+complexes: null
+small_molecules:
+- id: substrate_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Shikimate
+  name: Shikimate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3-Dehydroshikimate
+  name: 3-Dehydroshikimate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2351_EC1_1_1_25_Arabidopsis_thaliana_Q9SQT8_NADP_
+  name: Reaction catalyzed by shikimate dehydrogenase on NADP+
+  equation: NADP+ + Shikimate = NADPH + 3-Dehydroshikimate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADP_
+  - species_id: substrate_Shikimate
+  products:
+  - species_id: product_NADPH
+  - species_id: product_3-Dehydroshikimate
+  modifiers:
+  - species_id: protein_1_1_1_25_Q9SQT8_p52645
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17737;17738;17739;17740
+  KEGGid: R02413
+  notes: 'ChEBI IDs: CHEBI:2052; CHEBI:15083; CHEBI:30918; CHEBI:13397; CHEBI:13398;
+    CHEBI:9133; CHEBI:132329; CHEBI:36208; CHEBI:7424; CHEBI:21903; CHEBI:44405; CHEBI:12123;
+    CHEBI:7425; CHEBI:29234; CHEBI:25523; CHEBI:13357; CHEBI:11782; CHEBI:19999; CHEBI:20566;
+    CHEBI:24636; CHEBI:29233; CHEBI:26663; CHEBI:5584; CHEBI:13399; CHEBI:45740; CHEBI:16119;
+    CHEBI:1488; CHEBI:16474; CHEBI:44286; CHEBI:26664; CHEBI:16630; CHEBI:42005; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:18009; CHEBI:26662; CHEBI:19998; CHEBI:58349;
+    CHEBI:13400; CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C02637; KEGG:C00493; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C11037'
+- id: sabiork_2351_EC1_1_1_25_Arabidopsis_thaliana_Q9SQT8_NADP_
+  name: Reaction catalyzed by shikimate dehydrogenase on NADP+
+  equation: NADP+ + Shikimate = NADPH + 3-Dehydroshikimate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADP_
+  - species_id: substrate_Shikimate
+  products:
+  - species_id: product_3-Dehydroshikimate
+  - species_id: product_NADPH
+  modifiers:
+  - species_id: protein_1_1_1_25_Q9SQT8_p52646
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17737;17738;17739;17740
+  KEGGid: R02413
+  notes: 'ChEBI IDs: CHEBI:2052; CHEBI:15083; CHEBI:30918; CHEBI:13397; CHEBI:13398;
+    CHEBI:9133; CHEBI:132329; CHEBI:36208; CHEBI:7424; CHEBI:21903; CHEBI:44405; CHEBI:12123;
+    CHEBI:7425; CHEBI:29234; CHEBI:25523; CHEBI:13357; CHEBI:11782; CHEBI:19999; CHEBI:20566;
+    CHEBI:24636; CHEBI:29233; CHEBI:26663; CHEBI:13399; CHEBI:5584; CHEBI:45740; CHEBI:16119;
+    CHEBI:1488; CHEBI:16474; CHEBI:44286; CHEBI:26664; CHEBI:16630; CHEBI:42005; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:18009; CHEBI:26662; CHEBI:19998; CHEBI:58349;
+    CHEBI:13400; CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C02637; KEGG:C00493; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C11037'
+- id: sabiork_2351_EC1_1_1_25_Arabidopsis_thaliana_Q9SQT8_NADP_
+  name: Reaction catalyzed by shikimate dehydrogenase on NADP+
+  equation: NADP+ + Shikimate = NADPH + 3-Dehydroshikimate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADP_
+  - species_id: substrate_Shikimate
+  products:
+  - species_id: product_NADPH
+  - species_id: product_3-Dehydroshikimate
+  modifiers:
+  - species_id: protein_1_1_1_25_Q9SQT8_p52652
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17737;17738;17739;17740
+  KEGGid: R02413
+  notes: 'ChEBI IDs: CHEBI:2052; CHEBI:15083; CHEBI:30918; CHEBI:13397; CHEBI:13398;
+    CHEBI:9133; CHEBI:132329; CHEBI:36208; CHEBI:7424; CHEBI:21903; CHEBI:44405; CHEBI:12123;
+    CHEBI:7425; CHEBI:29234; CHEBI:25523; CHEBI:13357; CHEBI:11782; CHEBI:19999; CHEBI:20566;
+    CHEBI:24636; CHEBI:29233; CHEBI:26663; CHEBI:5584; CHEBI:13399; CHEBI:45740; CHEBI:16119;
+    CHEBI:1488; CHEBI:16474; CHEBI:44286; CHEBI:26664; CHEBI:16630; CHEBI:42005; CHEBI:21904;
+    CHEBI:44409; CHEBI:15378; CHEBI:18009; CHEBI:26662; CHEBI:19998; CHEBI:58349;
+    CHEBI:13400; CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C02637; KEGG:C00493; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C11037'
+- id: sabiork_2351_EC1_1_1_25_Arabidopsis_thaliana_Q9SQT8_Shikimate
+  name: Reaction catalyzed by shikimate dehydrogenase on Shikimate
+  equation: NADP+ + Shikimate = NADPH + 3-Dehydroshikimate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Shikimate
+  - species_id: substrate_NADP_
+  products:
+  - species_id: product_3-Dehydroshikimate
+  - species_id: product_NADPH
+  modifiers:
+  - species_id: protein_1_1_1_25_Q9SQT8_p52651
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17737;17738;17739;17740
+  KEGGid: R02413
+  notes: 'ChEBI IDs: CHEBI:2052; CHEBI:15083; CHEBI:30918; CHEBI:9133; CHEBI:13398;
+    CHEBI:13397; CHEBI:132329; CHEBI:36208; CHEBI:7424; CHEBI:21903; CHEBI:44405;
+    CHEBI:12123; CHEBI:7425; CHEBI:29234; CHEBI:25523; CHEBI:13357; CHEBI:11782; CHEBI:19999;
+    CHEBI:20566; CHEBI:24636; CHEBI:29233; CHEBI:26663; CHEBI:5584; CHEBI:13399; CHEBI:45740;
+    CHEBI:16119; CHEBI:1488; CHEBI:16474; CHEBI:44286; CHEBI:26664; CHEBI:16630; CHEBI:42005;
+    CHEBI:21904; CHEBI:44409; CHEBI:15378; CHEBI:18009; CHEBI:26662; CHEBI:19998;
+    CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C02637; KEGG:C00493; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C11037'
+measurements:
+- id: measurement_1_1_1_25_Arabidopsis_thaliana_Q9SQT8_NADP_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.8
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_1_1_1_25_Arabidopsis_thaliana_Q9SQT8_NADP_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.8
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_1_1_1_25_Arabidopsis_thaliana_Q9SQT8_NADP_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.8
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_1_1_1_25_Arabidopsis_thaliana_Q9SQT8_Shikimate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.8
+  temperature_opt: 22.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1_25_Arabidopsis_thaliana_Q9SQT8_NADP__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.3e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.8
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16784230'
+- id: 1_1_1_25_Arabidopsis_thaliana_Q9SQT8_NADP__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.066
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.8
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16784230'
+- id: 1_1_1_25_Arabidopsis_thaliana_Q9SQT8_NADP__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1250.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.8
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16784230'
+- id: 1_1_1_25_Arabidopsis_thaliana_Q9SQT8_NADP__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 133.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.8
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16784230'
+- id: 1_1_1_25_Arabidopsis_thaliana_Q9SQT8_NADP__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.063
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.8
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16784230'
+- id: 1_1_1_25_Arabidopsis_thaliana_Q9SQT8_NADP__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00047
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.8
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16784230'
+- id: 1_1_1_25_Arabidopsis_thaliana_Q9SQT8_NADP__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.036
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.8
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16784230'
+- id: 1_1_1_25_Arabidopsis_thaliana_Q9SQT8_NADP__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.2e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.8
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16784230'
+- id: 1_1_1_25_Arabidopsis_thaliana_Q9SQT8_NADP__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1620.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.8
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16784230'
+- id: 1_1_1_25_Arabidopsis_thaliana_Q9SQT8_Shikimate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 324.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Shikimate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.8
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16784230'
+- id: 1_1_1_25_Arabidopsis_thaliana_Q9SQT8_Shikimate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000131
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Shikimate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.8
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16784230'
+- id: 1_1_1_25_Arabidopsis_thaliana_Q9SQT8_Shikimate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.043
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Shikimate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.8
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16784230'
+buffer:
+  buffer: null
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 52645
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16784230/
+  pubmed_id: '16784230'
+  doi: null
+name: Merged entry for Q9SQT8 K385N
+description: 'Merged from 4 files: SABIO_EC1.1.1.25_Arabidopsis_thaliana__Q9SQT8_K385N_s_NADP_.yaml,
+  SABIO_EC1.1.1.25_Arabidopsis_thaliana__Q9SQT8_K385N_s_NADP__2.yaml, SABIO_EC1.1.1.25_Arabidopsis_thaliana__Q9SQT8_K385N_s_NADP__3.yaml,
+  SABIO_EC1.1.1.25_Arabidopsis_thaliana__Q9SQT8_K385N_s_Shikimate.yaml'

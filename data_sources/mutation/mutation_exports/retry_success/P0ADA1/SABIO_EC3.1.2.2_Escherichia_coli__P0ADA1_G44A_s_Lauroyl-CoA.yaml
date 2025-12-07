@@ -1,0 +1,183 @@
+name: SABIO-RK Entry 20049
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 20049
+created: '2025-10-28T14:15:29.501691'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_1_2_2_P0ADA1_p20049
+  name: palmitoyl-CoA hydrolase
+  ecnumber: 3.1.2.2
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: G44A
+  uniprotid: P0ADA1
+  wildtype_sequence: MMNFNNVFRWHLPFLFLVLLTFRAAAADTLLILGDSLSAGYRMSASAAWPALLNDKWQSKTSVVNASISGDTSQQGLARLPALLKQHQPRWVLVELGGNDGLRGFQPQQTEQTLRQILQDVKAANAEPLLMQIRLPANYGRRYNEAFSAIYPKLAKEFDVPLLPFFMEEVYLKPQWMQDDGIHPNRDAQPFIADWMAKQLQPLVNHDS
+  mutant_sequence: MMNFNNVFRWHLPFLFLVLLTFRAAAADTLLILADSLSAGYRMSASAAWPALLNDKWQSKTSVVNASISGDTSQQGLARLPALLKQHQPRWVLVELGGNDGLRGFQPQQTEQTLRQILQDVKAANAEPLLMQIRLPANYGRRYNEAFSAIYPKLAKEFDVPLLPFFMEEVYLKPQWMQDDGIHPNRDAQPFIADWMAKQLQPLVNHDS
+  position_offset: -10
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Lauroyl-CoA
+  name: Lauroyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Dodecanoate
+  name: Dodecanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_6746_EC3_1_2_2_Escherichia_coli_P0ADA1_Lauroyl-CoA
+  name: Reaction catalyzed by palmitoyl-CoA hydrolase on Lauroyl-CoA
+  equation: H2O + Lauroyl-CoA = Coenzyme A + Dodecanoate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Lauroyl-CoA
+  products:
+  - species_id: product_Dodecanoate
+  - species_id: product_Coenzyme_A
+  modifiers:
+  - species_id: protein_3_1_2_2_P0ADA1_p20049
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 30135;30136;30137;30138
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:57375; CHEBI:44819; CHEBI:15346; CHEBI:23355;
+    CHEBI:41981; CHEBI:30805; CHEBI:23865; CHEBI:41631; CHEBI:42857; CHEBI:41979;
+    CHEBI:14501; CHEBI:41882; CHEBI:13295; CHEBI:41597; CHEBI:15521; CHEBI:42043;
+    CHEBI:25014; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:57287;
+    CHEBI:13352; CHEBI:14188; CHEBI:14187; CHEBI:13294; CHEBI:4680; CHEBI:23863; CHEBI:43228;
+    CHEBI:18262; CHEBI:23864; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:41874; CHEBI:3771; CHEBI:741566; CHEBI:6392; CHEBI:29373; CHEBI:44701;
+    CHEBI:13298
+
+    KEGG IDs: KEGG:C02679; KEGG:C01832; KEGG:C00001; KEGG:C00010'
+measurements:
+- id: measurement_3_1_2_2_Escherichia_coli_P0ADA1_Lauroyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 3_1_2_2_Escherichia_coli_P0ADA1_Lauroyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Lauroyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16515533'
+- id: 3_1_2_2_Escherichia_coli_P0ADA1_Lauroyl-CoA_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 10190.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Lauroyl-CoA
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16515533'
+- id: 3_1_2_2_Escherichia_coli_P0ADA1_Lauroyl-CoA_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.77
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Lauroyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16515533'
+buffer:
+  buffer: 0.1 mM DTNB, 80 ¦Ìg/ml BSA, 50 mM potassium phosphate
+  buffer_concentration: 0.1 mM
+references:
+- title: Reference for SABIO-RK entry 20049
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16515533/
+  pubmed_id: '16515533'
+  doi: null

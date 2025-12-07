@@ -1,0 +1,268 @@
+version: '2.0'
+created: '2025-11-20T13:41:22.763613'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_6_1_5_P97687_p67737
+  name: apyrase
+  ecnumber: 3.6.1.5
+  organism: Rattus norvegicus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P97687
+  wildtype_sequence: MEDIKDSKVKRFCSKNILIILGFSSVLAVIALIAVGLTHNKPLPENVKYGIVLDAGSSHTNLYIYKWPAEKENDTGVVQLLEECQVKGPGISKYAQKTDEIAAYLAECMKMSTERIPASKQHQTPVYLGATAGMRLLRMESKQSADEVLAAVSRSLKSYPFDFQGAKIITGQEEGAYGWITINYLLGRFTQEQSWLNFISDSQKQATFGALDLGGSSTQVTFVPLNQTLEAPETSLQFRLYGTDYTVYTHSFLCYGKDQALWQKLAQDIQVSSGGILKDPCFYPGYKKVVNVSELYGTPCTKRFEKKLPFNQFQVQGTGDYEQCHQSILKFFNNSHCPYSQCAFNGVFLPPLQGSFGAFSAFYFVMDFFKKMANDSVSSQEKMTEITKNFCSKPWEEVKASYPTVKEKYLSEYCFSGTYILSLLLQGYNFTGTSWDQIHFMGKIKDSNAGWTLGYMLNLTNMIPAEQPLSPPLPHSTYISLMVLFSLVLVAMVITGLFIFSKPSYFWKEAV
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Ca2_
+  name: Ca2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Phosphate
+  name: Phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_AMP
+  name: AMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_PSB-170621A
+  name: PSB-170621A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_PSB-170621B
+  name: PSB-170621B
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_670_EC3_6_1_5_Rattus_norvegicus_P97687_ATP
+  name: Reaction catalyzed by apyrase on ATP
+  equation: ATP + H2O = Phosphate + AMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: cofactor_Ca2_
+  products:
+  - species_id: product_Phosphate
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_3_6_1_5_P97687_p67737
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 20988;20989;20990;20991
+  KEGGid: R00085
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:29375; CHEBI:14791; CHEBI:43470;
+    CHEBI:44819; CHEBI:18367; CHEBI:10789; CHEBI:57299; CHEBI:41981; CHEBI:35780;
+    CHEBI:40726; CHEBI:22245; CHEBI:26020; CHEBI:26078; CHEBI:40510; CHEBI:48760;
+    CHEBI:22242; CHEBI:13736; CHEBI:42857; CHEBI:47222; CHEBI:41979; CHEBI:39123;
+    CHEBI:456215; CHEBI:13236; CHEBI:29139; CHEBI:40786; CHEBI:39739; CHEBI:16027;
+    CHEBI:40826; CHEBI:2356; CHEBI:42043; CHEBI:10841; CHEBI:3308; CHEBI:2359; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:39745; CHEBI:40938; CHEBI:13352;
+    CHEBI:7793; CHEBI:43228; CHEBI:22249; CHEBI:44292; CHEBI:15422; CHEBI:45024; CHEBI:33806;
+    CHEBI:13740; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:29108; CHEBI:13234; CHEBI:43474;
+    CHEBI:40721; CHEBI:29137; CHEBI:13235; CHEBI:22988; CHEBI:12056; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C00002; KEGG:C00001; KEGG:C00009; KEGG:C00020; KEGG:C00076'
+- id: sabiork_15294_EC3_6_1_5_Rattus_norvegicus_P97687_PSB-170621A
+  name: Reaction catalyzed by apyrase on PSB-170621A
+  equation: H2O + PSB-170621A = Phosphate + PSB-170621B
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_PSB-170621A
+  products:
+  - species_id: product_PSB-170621B
+  - species_id: product_Phosphate
+  modifiers:
+  - species_id: protein_3_6_1_5_P97687_p65878
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:29375; CHEBI:43470; CHEBI:44819; CHEBI:18367;
+    CHEBI:41981; CHEBI:35780; CHEBI:26020; CHEBI:26078; CHEBI:42857; CHEBI:41979;
+    CHEBI:29139; CHEBI:39739; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:39745; CHEBI:13352; CHEBI:7793; CHEBI:43228; CHEBI:44292; CHEBI:45024;
+    CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:43474; CHEBI:29137; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C00001; KEGG:C00009'
+measurements:
+- id: measurement_3_6_1_5_Rattus_norvegicus_P97687_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_3_6_1_5_Rattus_norvegicus_P97687_PSB-170621A
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_6_1_5_Rattus_norvegicus_P97687_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9733785'
+- id: 3_6_1_5_Rattus_norvegicus_P97687_PSB-170621A_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.104
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_PSB-170621A
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '30303204'
+- id: 3_6_1_5_Rattus_norvegicus_P97687_PSB-170621A_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 5620.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_PSB-170621A
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '30303204'
+- id: 3_6_1_5_Rattus_norvegicus_P97687_PSB-170621A_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.85e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_PSB-170621A
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '30303204'
+buffer:
+  buffer: 20 mM HEPES, 120 mM NaCl, 5 mM KCl, 1 mM EGTA; 10 mM HEPES, 1 mM MgCl2,
+    2 mM CaCl2
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 67737
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9733785/
+  pubmed_id: '9733785'
+  doi: null
+- title: Reference for SABIO-RK entry 65878
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/30303204/
+  pubmed_id: '30303204'
+  doi: null
+name: Merged entry for P97687 wildtype
+description: 'Merged from 2 files: SABIO_EC3.6.1.5_Rattus_norvegicus__P97687_s_ATP.yaml,
+  SABIO_EC3.6.1.5_Rattus_norvegicus__P97687_s_PSB-170621A.yaml'

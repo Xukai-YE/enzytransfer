@@ -1,0 +1,189 @@
+name: SABIO-RK Entry 30054
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 30054
+created: '2025-10-28T14:39:28.468053'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_1_2_40_P0AB71_p30054
+  name: tagatose-bisphosphate aldolase
+  ecnumber: 4.1.2.40
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: Q59A
+  uniprotid: P0AB71
+  wildtype_sequence: MSKIFDFVKPGVITGDDVQKVFQVAKENNFALPAVNCVGTDSINAVLETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYGVPVILHTDHCAKKLLPWIDGLLDAGEKHFAATGKPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGCTGGEEDGVDNSHMDASALYTQPEDVDYAYTELSKISPRFTIAASFGNVHGVYKPGNVVLTPTILRDSQEYVSKKHNLPHNSLNFVFHGGSGSTAQEIKDSVSYGVVKMNIDTDTQWATWEGVLNYYKANEAYLQGQLGNPKGEDQPNKKYYDPRVWLRAGQTSMIARLEKAFQELNAIDVL
+  mutant_sequence: MSKIFDFVKPGVITGDDVQKVFQVAKENNFALPAVNCVGTDSINAVLETAAKVKAPVIVAFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYGVPVILHTDHCAKKLLPWIDGLLDAGEKHFAATGKPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGCTGGEEDGVDNSHMDASALYTQPEDVDYAYTELSKISPRFTIAASFGNVHGVYKPGNVVLTPTILRDSQEYVSKKHNLPHNSLNFVFHGGSGSTAQEIKDSVSYGVVKMNIDTDTQWATWEGVLNYYKANEAYLQGQLGNPKGEDQPNKKYYDPRVWLRAGQTSMIARLEKAFQELNAIDVL
+  position_offset: 1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_D-Tagatose_1
+  name: D-Tagatose 1
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_6-bisphosphate
+  name: 6-bisphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Glycerone_phosphate
+  name: Glycerone phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Glyceraldehyde_3-phosphate
+  name: D-Glyceraldehyde 3-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1339_EC4_1_2_40_Escherichia_coli_P0AB71_D-Tagatose_1
+  name: Reaction catalyzed by tagatose-bisphosphate aldolase on D-Tagatose 1
+  equation: D-Tagatose 1,6-bisphosphate = D-Glyceraldehyde 3-phosphate + Glycerone
+    phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Tagatose_1
+  - species_id: substrate_6-bisphosphate
+  products:
+  - species_id: product_Glycerone_phosphate
+  - species_id: product_D-Glyceraldehyde_3-phosphate
+  modifiers:
+  - species_id: protein_4_1_2_40_P0AB71_p30054
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 22948;22949;22950;22951
+  KEGGid: R01069
+  notes: 'ChEBI IDs: CHEBI:16743; CHEBI:181; CHEBI:12984; CHEBI:18324; CHEBI:59776;
+    CHEBI:58694; CHEBI:12983; CHEBI:29052; CHEBI:4250; CHEBI:21026; CHEBI:16108
+
+    KEGG IDs: KEGG:C00111; KEGG:C00118; KEGG:C03785'
+measurements:
+- id: measurement_4_1_2_40_Escherichia_coli_P0AB71_D-Tagatose_1
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 4_1_2_40_Escherichia_coli_P0AB71_D-Tagatose_1_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00023
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Tagatose_1
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10712619'
+- id: 4_1_2_40_Escherichia_coli_P0AB71_D-Tagatose_1_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 40.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Tagatose_1
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10712619'
+- id: 4_1_2_40_Escherichia_coli_P0AB71_D-Tagatose_1_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.009166667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Tagatose_1
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10712619'
+buffer:
+  buffer: 50 mM Tris-HCl, 20 mM NADH, Glycerol phosphate dehydrogenase, Triosephosphate
+    isomerase
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 30054
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10712619/
+  pubmed_id: '10712619'
+  doi: null

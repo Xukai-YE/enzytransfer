@@ -1,0 +1,386 @@
+version: '2.0'
+created: '2025-11-20T13:40:43.838725'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_4_25_P0A6I0_p70759
+  name: UMP/CMP kinase
+  ecnumber: 2.7.4.25
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: D132H
+  uniprotid: P0A6I0
+  wildtype_sequence: MTAIAPVITIDGPSGAGKGTLCKAMAEALQWHLLDSGAIYRVLALAALHHHVDVASEDALVPLASHLDVRFVSTNGNLEVILEGEDVSGEIRTQEVANAASQVAAFPRVREALLRRQRAFRELPGLIADGRDMGTVVFPDAPVKIFLDASSEERAHRRMLQLQEKGFSVNFERLLAEIKERDDRDRNRAVAPLVPAADALVLDSTTLSIEQVIEKALQYARQKLALA
+  mutant_sequence: MTAIAPVITIDGPSGAGKGTLCKAMAEALQWHLLDSGAIYRVLALAALHHHVDVASEDALVPLASHLDVRFVSTNGNLEVILEGEDVSGEIRTQEVANAASQVAAFPRVREALLRRQRAFRELPGLIADGRHMGTVVFPDAPVKIFLDASSEERAHRRMLQLQEKGFSVNFERLLAEIKERDDRDRNRAVAPLVPAADALVLDSTTLSIEQVIEKALQYARQKLALA
+complexes: null
+small_molecules:
+- id: substrate_UMP
+  name: UMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_UDP
+  name: UDP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_dCMP
+  name: dCMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_dCDP
+  name: dCDP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_CMP
+  name: CMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CDP
+  name: CDP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_201_EC2_7_4_25_Escherichia_coli_P0A6I0_UMP
+  name: Reaction catalyzed by UMP/CMP kinase on UMP
+  equation: ATP + UMP = UDP + ADP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_UMP
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_UDP
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_4_25_P0A6I0_p70759
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 24400;24401;24402;24403
+  KEGGid: R00158
+  notes: 'ChEBI IDs: CHEBI:13508; CHEBI:30616; CHEBI:237958; CHEBI:16761; CHEBI:10789;
+    CHEBI:57299; CHEBI:40553; CHEBI:46402; CHEBI:16695; CHEBI:27231; CHEBI:46381;
+    CHEBI:13445; CHEBI:13236; CHEBI:46362; CHEBI:10841; CHEBI:2359; CHEBI:87518; CHEBI:57865;
+    CHEBI:40938; CHEBI:47721; CHEBI:58223; CHEBI:27230; CHEBI:456216; CHEBI:22249;
+    CHEBI:2342; CHEBI:17659; CHEBI:15422; CHEBI:13509; CHEBI:46382; CHEBI:9849; CHEBI:13222;
+    CHEBI:22244; CHEBI:9802
+
+    KEGG IDs: KEGG:C00015; KEGG:C00002; KEGG:C00008; KEGG:C00105'
+- id: sabiork_84_EC2_7_4_25_Escherichia_coli_P0A6I0_ATP
+  name: Reaction catalyzed by (d)CMP kinase on ATP
+  equation: dCMP + ATP = ADP + dCDP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_dCMP
+  products:
+  - species_id: product_ADP
+  - species_id: product_dCDP
+  modifiers:
+  - species_id: protein_2_7_4_25_P0A6I0_p70748
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 25094;25095;25096;25097
+  KEGGid: R01665
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:19242; CHEBI:40553; CHEBI:28846; CHEBI:49966; CHEBI:14115; CHEBI:41875;
+    CHEBI:13236; CHEBI:10841; CHEBI:2359; CHEBI:15918; CHEBI:87518; CHEBI:40938; CHEBI:57566;
+    CHEBI:456216; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:41838; CHEBI:19241;
+    CHEBI:10492; CHEBI:58593; CHEBI:14071; CHEBI:13222; CHEBI:22244; CHEBI:10493;
+    CHEBI:14070
+
+    KEGG IDs: KEGG:C00705; KEGG:C00002; KEGG:C00008; KEGG:C00239'
+- id: sabiork_83_EC2_7_4_25_Escherichia_coli_P0A6I0_ATP
+  name: Reaction catalyzed by UMP/CMP kinase on ATP
+  equation: CMP + ATP = CDP + ADP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_CMP
+  products:
+  - species_id: product_ADP
+  - species_id: product_CDP
+  modifiers:
+  - species_id: protein_2_7_4_25_P0A6I0_p70743
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 11600;11601;11602;11603
+  KEGGid: R00512
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:40553; CHEBI:17361; CHEBI:41319; CHEBI:13236; CHEBI:47362; CHEBI:41691;
+    CHEBI:10841; CHEBI:2359; CHEBI:50308; CHEBI:87518; CHEBI:40938; CHEBI:13274; CHEBI:456216;
+    CHEBI:41312; CHEBI:60377; CHEBI:22249; CHEBI:23520; CHEBI:2342; CHEBI:15422; CHEBI:3611;
+    CHEBI:3275; CHEBI:17239; CHEBI:58120; CHEBI:41666; CHEBI:13222; CHEBI:22244; CHEBI:48799
+
+    KEGG IDs: KEGG:C00002; KEGG:C00008; KEGG:C00112; KEGG:C00055'
+measurements:
+- id: measurement_2_7_4_25_Escherichia_coli_P0A6I0_UMP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_2_7_4_25_Escherichia_coli_P0A6I0_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_2_7_4_25_Escherichia_coli_P0A6I0_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_4_25_Escherichia_coli_P0A6I0_UMP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0039
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UMP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17542990'
+- id: 2_7_4_25_Escherichia_coli_P0A6I0_UMP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 3.3
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UMP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17542990'
+- id: 2_7_4_25_Escherichia_coli_P0A6I0_UMP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.013
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UMP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17542990'
+- id: 2_7_4_25_Escherichia_coli_P0A6I0_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1100.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17542990'
+- id: 2_7_4_25_Escherichia_coli_P0A6I0_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17542990'
+- id: 2_7_4_25_Escherichia_coli_P0A6I0_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17542990'
+- id: 2_7_4_25_Escherichia_coli_P0A6I0_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 53.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17542990'
+- id: 2_7_4_25_Escherichia_coli_P0A6I0_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.069
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17542990'
+- id: 2_7_4_25_Escherichia_coli_P0A6I0_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0013
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17542990'
+buffer:
+  buffer: "50 mM Tris â\x81\x84HCl, 50 mM KCl, 2 mM MgCl2, 1 mM phosphoenolpyruvate,
+    0.2 mM NADH, 4 U/ml pyruvate kinase, 4 U/ml lactate dehydrogenase, 4 U/ml NDP
+    kinase"
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 70759
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/17542990/
+  pubmed_id: '17542990'
+  doi: null
+name: Merged entry for P0A6I0 D132H
+description: 'Merged from 3 files: SABIO_EC2.7.4.25_Escherichia_coli__P0A6I0_D132H_s_UMP.yaml,
+  SABIO_EC2.7.4.25_Escherichia_coli__P0A6I0_D132H_s_ATP_2.yaml, SABIO_EC2.7.4.25_Escherichia_coli__P0A6I0_D132H_s_ATP.yaml'

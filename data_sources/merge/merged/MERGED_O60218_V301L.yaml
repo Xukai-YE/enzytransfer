@@ -1,0 +1,386 @@
+version: '2.0'
+created: '2025-11-20T13:39:17.688367'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_21_O60218_p39811
+  name: retinol dehydrogenase
+  ecnumber: 1.1.1.21
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: V301L
+  uniprotid: O60218
+  wildtype_sequence: MATFVELSTKAKMPIVGLGTWKSPLGKVKEAVKVAIDAGYRHIDCAYVYQNEHEVGEAIQEKIQEKAVKREDLFIVSKLWPTFFERPLVRKAFEKTLKDLKLSYLDVYLIHWPQGFKSGDDLFPKDDKGNAIGGKATFLDAWEAMEELVDEGLVKALGVSNFSHFQIEKLLNKPGLKYKPVTNQVECHPYLTQEKLIQYCHSKGITVTAYSPLGSPDRPWAKPEDPSLLEDPKIKEIAAKHKKTAAQVLIRFHIQRNVIVIPKSVTPARIVENIQVFDFKLSDEEMATILSFNRNWRACNVLQSSHLEDYPFNAEY
+  mutant_sequence: MATFVELSTKAKMPIVGLGTWKSPLGKVKEAVKVAIDAGYRHIDCAYVYQNEHEVGEAIQEKIQEKAVKREDLFIVSKLWPTFFERPLVRKAFEKTLKDLKLSYLDVYLIHWPQGFKSGDDLFPKDDKGNAIGGKATFLDAWEAMEELVDEGLVKALGVSNFSHFQIEKLLNKPGLKYKPVTNQVECHPYLTQEKLIQYCHSKGITVTAYSPLGSPDRPWAKPEDPSLLEDPKIKEIAAKHKKTAAQVLIRFHIQRNVIVIPKSVTPARIVENIQVFDFKLSDEEMATILSFNRNWRACNLLQSSHLEDYPFNAEY
+complexes: null
+small_molecules:
+- id: substrate_9-cis-Retinal
+  name: 9-cis-Retinal
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_9-cis-Retinol
+  name: 9-cis-Retinol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Glyceraldehyde
+  name: Glyceraldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Glycerol
+  name: Glycerol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_all-trans-Retinal
+  name: all-trans-Retinal
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Retinol
+  name: Retinol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_10183_EC1_1_1_21_Homo_sapiens_O60218_9-cis-Retinal
+  name: Reaction catalyzed by retinol dehydrogenase on 9-cis-Retinal
+  equation: 9-cis-Retinal + NADPH + H+ = NADP+ + 9-cis-Retinol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_9-cis-Retinal
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_9-cis-Retinol
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_1_1_21_O60218_p39811
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 25033;25034;25035;25036
+  KEGGid: R08383
+  notes: 'ChEBI IDs: CHEBI:12776; CHEBI:13397; CHEBI:13398; CHEBI:78273; CHEBI:7424;
+    CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357; CHEBI:25523; CHEBI:17898;
+    CHEBI:24636; CHEBI:22349; CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:8816; CHEBI:16474;
+    CHEBI:22348; CHEBI:44286; CHEBI:12783; CHEBI:21904; CHEBI:17336; CHEBI:44409;
+    CHEBI:15378; CHEBI:18009; CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:78272;
+    CHEBI:10744; CHEBI:8814
+
+    KEGG IDs: KEGG:C16681; KEGG:C00473; KEGG:C00005; KEGG:C00080; KEGG:C16682; KEGG:C00006;
+    KEGG:C00376; KEGG:C11037; KEGG:C17276'
+- id: sabiork_6749_EC1_1_1_21_Homo_sapiens_O60218_Glyceraldehyde
+  name: Reaction catalyzed by L-xylulose reductase on Glyceraldehyde
+  equation: Glyceraldehyde + H+ + NADPH = NADP+ + Glycerol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Glyceraldehyde
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_Glycerol
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_1_1_21_O60218_p39803
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:24351; CHEBI:17754; CHEBI:13397; CHEBI:13398; CHEBI:24343;
+    CHEBI:7424; CHEBI:17378; CHEBI:387614; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234;
+    CHEBI:131422; CHEBI:14334; CHEBI:13357; CHEBI:25523; CHEBI:5445; CHEBI:24636;
+    CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:42998; CHEBI:16474; CHEBI:5448; CHEBI:44286;
+    CHEBI:21904; CHEBI:44409; CHEBI:15378; CHEBI:18009; CHEBI:58349; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00116; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C02154; KEGG:C11037'
+- id: sabiork_9941_EC1_1_1_21_Homo_sapiens_O60218_all-trans-Retinal
+  name: Reaction catalyzed by retinol dehydrogenase on all-trans-Retinal
+  equation: H+ + all-trans-Retinal + NADPH = Retinol + NADP+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_all-trans-Retinal
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_NADP_
+  - species_id: product_Retinol
+  modifiers:
+  - species_id: protein_1_1_1_21_O60218_p39806
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 25033;25034;25035;25036
+  KEGGid: R08379
+  notes: 'ChEBI IDs: CHEBI:50211; CHEBI:13397; CHEBI:13398; CHEBI:7424; CHEBI:45479;
+    CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357; CHEBI:25523; CHEBI:17898;
+    CHEBI:24636; CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:26538; CHEBI:16474; CHEBI:44286;
+    CHEBI:21904; CHEBI:44409; CHEBI:17336; CHEBI:15378; CHEBI:15035; CHEBI:18009;
+    CHEBI:15037; CHEBI:58349; CHEBI:45487; CHEBI:57783; CHEBI:13400; CHEBI:10744
+
+    KEGG IDs: KEGG:C00473; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00376; KEGG:C11037'
+measurements:
+- id: measurement_1_1_1_21_Homo_sapiens_O60218_9-cis-Retinal
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_1_1_21_Homo_sapiens_O60218_Glyceraldehyde
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_1_1_1_21_Homo_sapiens_O60218_all-trans-Retinal
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1_21_Homo_sapiens_O60218_9-cis-Retinal_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 30000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_9-cis-Retinal
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18087047'
+- id: 1_1_1_21_Homo_sapiens_O60218_9-cis-Retinal_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0003
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_9-cis-Retinal
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18087047'
+- id: 1_1_1_21_Homo_sapiens_O60218_9-cis-Retinal_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.01
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_9-cis-Retinal
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18087047'
+- id: 1_1_1_21_Homo_sapiens_O60218_Glyceraldehyde_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.006
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glyceraldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18087047'
+- id: 1_1_1_21_Homo_sapiens_O60218_Glyceraldehyde_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.6833333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glyceraldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18087047'
+- id: 1_1_1_21_Homo_sapiens_O60218_Glyceraldehyde_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 116.6667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Glyceraldehyde
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18087047'
+- id: 1_1_1_21_Homo_sapiens_O60218_all-trans-Retinal_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.1283333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_all-trans-Retinal
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18087047'
+- id: 1_1_1_21_Homo_sapiens_O60218_all-trans-Retinal_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 211666.7
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_all-trans-Retinal
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18087047'
+- id: 1_1_1_21_Homo_sapiens_O60218_all-trans-Retinal_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0006
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_all-trans-Retinal
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18087047'
+buffer:
+  buffer: 90 mM potassium phosphate, 40 mM KCl, delipidated BSA in equimolar amounts
+    to retinoids; 90 mM potassium phosphate, 40 mM KCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 39811
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/18087047/
+  pubmed_id: '18087047'
+  doi: null
+name: Merged entry for O60218 V301L
+description: 'Merged from 3 files: SABIO_EC1.1.1.21_Homo_sapiens__O60218_V301L_s_9-cis-Retinal.yaml,
+  SABIO_EC1.1.1.21_Homo_sapiens__O60218_V301L_s_Glyceraldehyde.yaml, SABIO_EC1.1.1.21_Homo_sapiens__O60218_V301L_s_all-trans-Retinal.yaml'

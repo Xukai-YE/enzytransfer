@@ -1,0 +1,230 @@
+version: '2.0'
+created: '2025-11-20T13:42:01.389291'
+modified: null
+creators:
+- given_name: SKiD
+  family_name: Database
+  mail: skid@database.org
+vessels: null
+proteins:
+- id: protein_Q53TZ2
+  name: Azospirillum brasilense
+  ecnumber: 1.1.1.376
+  organism: Azospirillum brasilense
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: S37D
+  uniprotid: Q53TZ2
+  wildtype_sequence: MSDQVSLGVVGIGKIARDQHLPAIDAEPGFKLTACASRHAEVTGVRNYRDLRALLAAERELDAVSLCAPPQVRYAQARAALEAGKHVMLEKPPGATLGEVAVLEALARERGLTLFATWHSRCASAVEPAREWLATRAIRAVQVRWKEDVRRWHPGQQWIWEPGGLGVFDPGINALSIVTRILPRELVLREATLIVPSDVQTPIAAELDCADTDGVPVRAEFDWRHGPVEQWEIAVDTADGVLAISRGGAQLSIAGEPVELGPEREYPALYAHFHALIARGESDVDVRPLRLVADAFLFGRRVQTDAFGR
+  mutant_sequence: MSDQVSLGVVGIGKIARDQHLPAIDAEPGFKLTACADRHAEVTGVRNYRDLRALLAAERELDAVSLCAPPQVRYAQARAALEAGKHVMLEKPPGATLGEVAVLEALARERGLTLFATWHSRCASAVEPAREWLATRAIRAVQVRWKEDVRRWHPGQQWIWEPGGLGVFDPGINALSIVTRILPRELVLREATLIVPSDVQTPIAAELDCADTDGVPVRAEFDWRHGPVEQWEIAVDTADGVLAISRGGAQLSIAGEPVELGPEREYPALYAHFHALIARGESDVDVRPLRLVADAFLFGRRVQTDAFGR
+complexes: null
+small_molecules:
+- id: substrate_NADP_
+  name: NADP+
+  canonical_smiles: C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)(O)O)O)O)O)C(=O)N
+  inchi: InChI=1S/C21H28N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1-4,7-8,10-11,13-16,20-21,29-31H,5-6H2,(H7-,22,23,24,25,32,33,34,35,36,37,38,39)/p+1
+  inchikey: XJLXINKUBYWONI-UHFFFAOYSA-O
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/5886
+- id: product
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N
+  inchi: InChI=1S/C21H27N7O14P2/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(32)14(30)11(41-21)6-39-44(36,37)42-43(34,35)38-5-10-13(29)15(31)20(40-10)27-3-1-2-9(4-27)18(23)33/h1-4,7-8,10-11,13-16,20-21,29-32H,5-6H2,(H5-,22,23,24,25,33,34,35,36,37)
+  inchikey: BAWFJGJZGIEFAR-UHFFFAOYSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/5892
+reactions:
+- id: reaction_Q53TZ2_NADP_
+  name: Reaction catalyzed by enzyme on NADP+
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADP_
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_Q53TZ2
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_Q53TZ2_NAD_
+  name: Reaction catalyzed by enzyme on NAD+
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_Q53TZ2
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+measurements:
+- id: measurement_0
+  name: Experimental conditions (pH=9.0, T=30.0°C)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=9.0, T=30.0°C)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: Q53TZ2_NADP__S37D_kcat_5096
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 66.5
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: 'Mutation: S37D; Source: kcat'
+  pubmed_id: '32828286'
+- id: Q53TZ2_NADP__S37D_Km_18489
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.602
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: 'Mutation: S37D; Source: Km'
+  pubmed_id: '32828286'
+- id: Q53TZ2_NAD__S37D_kcat_5095
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 72.2
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: 'Mutation: S37D; Source: kcat'
+  pubmed_id: '32828286'
+- id: Q53TZ2_NAD__S37D_Km_18493
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.539
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: 'Mutation: S37D; Source: Km'
+  pubmed_id: '32828286'
+buffer:
+  buffer: null
+  buffer_concentration: null
+references:
+- title: Y.
+  authors: Yoshiwara, K., Watanabe, S., Watanabe
+  year: '2020'
+  journal: Crystal structure of bacterial L-arabinose 1-dehydrogenase in complex with
+    L-arabinose and NADP. Biochem. Biophys. Res
+  uri: null
+  pubmed_id: '32828286'
+  doi: null
+  id: '6'
+  pages: 203-208
+  volume: '530'
+  citation: 'Yoshiwara, K.,Watanabe, S.,Watanabe, Y., Crystal structure of bacterial
+    L-arabinose 1-dehydrogenase in complex with L-arabinose and NADP. Biochem. Biophys.
+    Res, Commun., 2020, 203-208, 530, PMID: 32828286'
+name: Merged entry for Q53TZ2 S37D
+description: 'Merged from 2 files: SKID_EC1.1.1.376_Azospirill_Q53TZ2_S37D_NADP_.yaml,
+  SKID_EC1.1.1.376_Azospirill_Q53TZ2_S37D_NAD_.yaml'

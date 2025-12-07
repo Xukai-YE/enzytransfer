@@ -1,0 +1,231 @@
+version: '2.0'
+created: '2025-11-20T13:41:21.194615'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_6_1_13_Q5SKW5_p10151
+  name: ADP-ribose diphosphatase
+  ecnumber: 3.6.1.13
+  organism: Thermus thermophilus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: R54Q
+  uniprotid: Q5SKW5
+  wildtype_sequence: MGRVYYGGVERTYLYRGRILNLALEGRYEIVEHKPAVAVIALREGRMLFVRQMRPAVGLAPLEIPAGLIEPGEDPLEAARRELAEETGLSGDLTYLFSYFVSPGFTDEKTHVFLAENLKEVEAHPDEDEAIEVVWMRPEEALERHQRGEVEFSATGLVGVLYYHAFLRGR
+  mutant_sequence: MGRVYYGGVERTYLYRGRILNLALEGRYEIVEHKPAVAVIALREGRMLFVRQMQPAVGLAPLEIPAGLIEPGEDPLEAARRELAEETGLSGDLTYLFSYFVSPGFTDEKTHVFLAENLKEVEAHPDEDEAIEVVWMRPEEALERHQRGEVEFSATGLVGVLYYHAFLRGR
+complexes: null
+small_molecules:
+- id: substrate_ADPribose
+  name: ADPribose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Ribose_5-phosphate
+  name: D-Ribose 5-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_AMP
+  name: AMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_233_EC3_6_1_13_Thermus_thermophilus_Q5SKW5_ADPribose
+  name: Reaction catalyzed by ADP-ribose diphosphatase on ADPribose
+  equation: H2O + ADPribose = AMP + D-Ribose 5-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ADPribose
+  products:
+  - species_id: product_D-Ribose_5-phosphate
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_3_6_1_13_Q5SKW5_p10151
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01054
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:40726; CHEBI:41981; CHEBI:22245;
+    CHEBI:58273; CHEBI:40510; CHEBI:16960; CHEBI:4238; CHEBI:22242; CHEBI:13736; CHEBI:42857;
+    CHEBI:15048; CHEBI:41979; CHEBI:47222; CHEBI:456215; CHEBI:21083; CHEBI:40786;
+    CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:13352; CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:17797;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:13740; CHEBI:13234; CHEBI:40721; CHEBI:13013;
+    CHEBI:13235; CHEBI:12056; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00301; KEGG:C00020; KEGG:C00001; KEGG:C00117'
+- id: sabiork_233_EC3_6_1_13_Thermus_thermophilus_Q5SKW5_ADPribose
+  name: Reaction catalyzed by ADP-ribose diphosphatase on ADPribose
+  equation: H2O + ADPribose = AMP + D-Ribose 5-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ADPribose
+  products:
+  - species_id: product_AMP
+  - species_id: product_D-Ribose_5-phosphate
+  modifiers:
+  - species_id: protein_3_6_1_13_Q5SKW5_p10131
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01054
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:40726; CHEBI:41981; CHEBI:22245;
+    CHEBI:58273; CHEBI:40510; CHEBI:16960; CHEBI:4238; CHEBI:22242; CHEBI:13736; CHEBI:42857;
+    CHEBI:47222; CHEBI:41979; CHEBI:15048; CHEBI:456215; CHEBI:21083; CHEBI:40786;
+    CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:13352; CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:13740;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:17797; CHEBI:13234; CHEBI:40721; CHEBI:13013;
+    CHEBI:13235; CHEBI:12056; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00301; KEGG:C00020; KEGG:C00001; KEGG:C00117'
+measurements:
+- id: measurement_3_6_1_13_Thermus_thermophilus_Q5SKW5_ADPribose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 4.87
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_3_6_1_13_Thermus_thermophilus_Q5SKW5_ADPribose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.63
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_6_1_13_Thermus_thermophilus_Q5SKW5_ADPribose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2.32
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ADPribose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 4.87
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15981998'
+- id: 3_6_1_13_Thermus_thermophilus_Q5SKW5_ADPribose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.0411
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ADPribose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.63
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15981998'
+- id: 3_6_1_13_Thermus_thermophilus_Q5SKW5_ADPribose_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 62.6
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ADPribose
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.63
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15981998'
+- id: 3_6_1_13_Thermus_thermophilus_Q5SKW5_ADPribose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00065
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ADPribose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.63
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15981998'
+buffer:
+  buffer: 50 mM Tris-HCl, 100 mM KCl, 5 mM MgCl2, 20 U/ml calf intestine alkaline
+    phosphatase; 50 mM MES-HCl (pH 4.87 - 6.98) / Tris-HCl (pH 7.03 - 9.10) / glycine-NaOH
+    (pH 9.01 - 10.72), 100 mM KCl, 20 mM MgCl2, 50 U/ml calf intestine alkaline phosphatase
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 10151
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15981998/
+  pubmed_id: '15981998'
+  doi: null
+name: Merged entry for Q5SKW5 R54Q
+description: 'Merged from 2 files: SABIO_EC3.6.1.13_Thermus_thermophilus__Q5SKW5_R54Q_s_ADPribose_2.yaml,
+  SABIO_EC3.6.1.13_Thermus_thermophilus__Q5SKW5_R54Q_s_ADPribose.yaml'

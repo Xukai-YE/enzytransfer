@@ -1,0 +1,168 @@
+name: SABIO-RK Entry 66654
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 66654
+created: '2025-10-28T16:59:46.335781'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_2_4_1; 2_3_1_12; 1_8_1_4_P0AFG8_P06959_P0A9P0_p66654
+  name: dihydrolipoyllysine-residue (2-methylpropanoyl)transferase
+  sequence: null
+  ecnumber: 1.2.4.1; 2.3.1.12; 1.8.1.4
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P0AFG8; P06959; P0A9P0
+complexes: null
+small_molecules:
+- id: substrate_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Pyruvate
+  name: Pyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Acetyl-CoA
+  name: Acetyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Thiamine_diphosphate
+  name: Thiamine diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_523_EC1_2_4_1; 2_3_1_12; 1_8_1_4_Escherichia_coli_P0AFG8_P06959_P0A9P0_Coenzyme_A
+  name: Reaction catalyzed by dihydrolipoyllysine-residue (2-methylpropanoyl)transferase
+    on Coenzyme A
+  equation: NAD+ + Pyruvate + Coenzyme A = CO2 + Acetyl-CoA + H+ + NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Coenzyme_A
+  - species_id: substrate_NAD_
+  - species_id: substrate_Pyruvate
+  products:
+  - species_id: product_CO2
+  - species_id: product_NADH
+  - species_id: product_Acetyl-CoA
+  modifiers:
+  - species_id: protein_1_2_4_1; 2_3_1_12; 1_8_1_4_P0AFG8_P06959_P0A9P0_p66654
+    role: BIOCATALYST
+  - species_id: activator_Thiamine_diphosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 28042;28043;28044;28045
+  KEGGid: R00209
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:15346; CHEBI:23355; CHEBI:14987; CHEBI:139538;
+    CHEBI:41631; CHEBI:57288; CHEBI:15229; CHEBI:44281; CHEBI:13712; CHEBI:13393;
+    CHEBI:29234; CHEBI:15846; CHEBI:3283; CHEBI:13357; CHEBI:21902; CHEBI:13295; CHEBI:15361;
+    CHEBI:13396; CHEBI:21901; CHEBI:41597; CHEBI:24636; CHEBI:44214; CHEBI:29233;
+    CHEBI:13394; CHEBI:5584; CHEBI:23011; CHEBI:9532; CHEBI:57287; CHEBI:26466; CHEBI:57945;
+    CHEBI:44216; CHEBI:49939; CHEBI:13285; CHEBI:13294; CHEBI:13282; CHEBI:26462;
+    CHEBI:40470; CHEBI:57540; CHEBI:7423; CHEBI:45930; CHEBI:13283; CHEBI:8685; CHEBI:13389;
+    CHEBI:2408; CHEBI:15378; CHEBI:13284; CHEBI:13395; CHEBI:15351; CHEBI:32816; CHEBI:45931;
+    CHEBI:3771; CHEBI:16526; CHEBI:58937; CHEBI:741566; CHEBI:48829; CHEBI:44215;
+    CHEBI:10744; CHEBI:45253; CHEBI:7422; CHEBI:13298; CHEBI:16908
+
+    KEGG IDs: KEGG:C00068; KEGG:C00010; KEGG:C00080; KEGG:C00022; KEGG:C00011; KEGG:C00003;
+    KEGG:C00004; KEGG:C00024'
+measurements:
+- id: measurement_1_2_4_1; 2_3_1_12; 1_8_1_4_Escherichia_coli_P0AFG8_P06959_P0A9P0_Coenzyme_A
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 27.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 0.1 M Tris-HCl, 2.0 mM MgCl2, 2.6 mM DTT
+  buffer_concentration: 0.1 M
+references:
+- title: Reference for SABIO-RK entry 66654
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/8969175/
+  pubmed_id: '8969175'
+  doi: null

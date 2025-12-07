@@ -1,0 +1,321 @@
+version: '2.0'
+created: '2025-11-20T13:40:30.339545'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_23_Q4G0N4_p67161
+  name: NAD+ kinase
+  ecnumber: 2.7.1.23
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q4G0N4
+  wildtype_sequence: MTCYRGFLLGSCCRVAGGRAAALRGPGAGGPAARPRLGGDGGGRRHLGQGQPRELAGCGSRADGGFRPSRVVVVAKTTRYEFEQQRYRYAELSEEDLKQLLALKGSSYSGLLERHHIHTKNVEHIIDSLRNEGIEVRLVKRREYDEETVRWADAVIAAGGDGTMLLAASKVLDRLKPVIGVNTDPERSEGHLCLPVRYTHSFPEALQKFYRGEFRWLWRQRIRLYLEGTGINPVPVDLHEQQLSLNQHNRALNIERAHDERSEASGPQLLPVRALNEVFIGESLSSRASYYEISVDDGPWEKQKSSGLNLCTGTGSKAWSFNINRVATQAVEDVLNIAKRQGNLSLPLNRELVEKVTNEYNESLLYSPEEPKILFSIREPIANRVFSSSRQRCFSSKVCVRSRCWDACMVVDGGTSFEFNDGAIASMMINKEDELRTVLLEQ
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Tetrapolyphosphate
+  name: Tetrapolyphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Triphosphate
+  name: Triphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_47_EC2_7_1_23_Homo_sapiens_Q4G0N4_ATP
+  name: Reaction catalyzed by NAD+ kinase on ATP
+  equation: ATP + NAD+ = ADP + NADP+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_ADP
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_2_7_1_23_Q4G0N4_p67161
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 18629;18630;18631;18632
+  KEGGid: R00104
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:13397; CHEBI:13398; CHEBI:40553; CHEBI:7424; CHEBI:44281; CHEBI:44405; CHEBI:21903;
+    CHEBI:13393; CHEBI:15846; CHEBI:25523; CHEBI:13236; CHEBI:21901; CHEBI:10841;
+    CHEBI:44214; CHEBI:2359; CHEBI:13394; CHEBI:87518; CHEBI:40938; CHEBI:456216;
+    CHEBI:57540; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:13389; CHEBI:44409; CHEBI:18009;
+    CHEBI:58349; CHEBI:13222; CHEBI:22244; CHEBI:44215; CHEBI:7422
+
+    KEGG IDs: KEGG:C00003; KEGG:C00002; KEGG:C00006; KEGG:C00008; KEGG:C11037'
+- id: sabiork_47_EC2_7_1_23_Homo_sapiens_Q4G0N4_NAD_
+  name: Reaction catalyzed by NAD+ kinase on NAD+
+  equation: ATP + NAD+ = ADP + NADP+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_NADP_
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_23_Q4G0N4_p67160
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 18629;18630;18631;18632
+  KEGGid: R00104
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:13397; CHEBI:13398; CHEBI:40553; CHEBI:7424; CHEBI:44281; CHEBI:44405; CHEBI:21903;
+    CHEBI:13393; CHEBI:15846; CHEBI:25523; CHEBI:13236; CHEBI:21901; CHEBI:10841;
+    CHEBI:44214; CHEBI:2359; CHEBI:13394; CHEBI:87518; CHEBI:40938; CHEBI:456216;
+    CHEBI:57540; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:13389; CHEBI:44409; CHEBI:18009;
+    CHEBI:58349; CHEBI:13222; CHEBI:22244; CHEBI:44215; CHEBI:7422
+
+    KEGG IDs: KEGG:C00008; KEGG:C00002; KEGG:C00006; KEGG:C00003; KEGG:C11037'
+- id: sabiork_15521_EC2_7_1_23_Homo_sapiens_Q4G0N4_NAD_
+  name: Reaction catalyzed by NAD+ kinase on NAD+
+  equation: NAD+ + Tetrapolyphosphate = NADP+ + Triphosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_Tetrapolyphosphate
+  products:
+  - species_id: product_NADP_
+  - species_id: product_Triphosphate
+  modifiers:
+  - species_id: protein_2_7_1_23_Q4G0N4_p67162
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:48316; CHEBI:29203; CHEBI:7424;
+    CHEBI:44281; CHEBI:48314; CHEBI:21903; CHEBI:44405; CHEBI:13393; CHEBI:15846;
+    CHEBI:39942; CHEBI:25523; CHEBI:21901; CHEBI:48313; CHEBI:44214; CHEBI:13394;
+    CHEBI:57540; CHEBI:9744; CHEBI:18036; CHEBI:15266; CHEBI:13389; CHEBI:44409; CHEBI:18009;
+    CHEBI:5926; CHEBI:48315; CHEBI:58349; CHEBI:44215; CHEBI:7422; CHEBI:39949
+
+    KEGG IDs: KEGG:C00536; KEGG:C00003; KEGG:C00006; KEGG:C11037'
+measurements:
+- id: measurement_2_7_1_23_Homo_sapiens_Q4G0N4_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_7_1_23_Homo_sapiens_Q4G0N4_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_7_1_23_Homo_sapiens_Q4G0N4_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_1_23_Homo_sapiens_Q4G0N4_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.466667e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23212377'
+- id: 2_7_1_23_Homo_sapiens_Q4G0N4_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0017
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23212377'
+- id: 2_7_1_23_Homo_sapiens_Q4G0N4_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.2e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23212377'
+- id: 2_7_1_23_Homo_sapiens_Q4G0N4_NAD__Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.516667e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23212377'
+- id: 2_7_1_23_Homo_sapiens_Q4G0N4_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0012
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23212377'
+- id: 2_7_1_23_Homo_sapiens_Q4G0N4_NAD__Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.583333e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23212377'
+buffer:
+  buffer: 100 mM Tris-HCl, 5 mM glucose 6-phosphate, 0.5 U/ml glucose 6-phosphate
+    dehydrogenase, 20 mM MgCl2; 100 mM Tris-HCl, 5 mM glucose 6-phosphate, 0.5 U/ml
+    glucose 6-phosphate dehydrogenase, 5 mM MgCl2; 100 mM Tris-HCl, 5 mM glucose 6-phosphate,
+    0.5 U/ml glucose 6-phosphate dehydrogenase, 40 mM MgCl2
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 67161
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/23212377/
+  pubmed_id: '23212377'
+  doi: null
+name: Merged entry for Q4G0N4 wildtype
+description: 'Merged from 3 files: SABIO_EC2.7.1.23_Homo_sapiens__Q4G0N4_s_ATP.yaml,
+  SABIO_EC2.7.1.23_Homo_sapiens__Q4G0N4_s_NAD_.yaml, SABIO_EC2.7.1.23_Homo_sapiens__Q4G0N4_s_NAD__2.yaml'

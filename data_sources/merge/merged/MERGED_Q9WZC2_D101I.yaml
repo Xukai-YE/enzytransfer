@@ -1,0 +1,238 @@
+version: '2.0'
+created: '2025-11-20T13:40:16.150691'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_5_1_16_Q9WZC2_p64290
+  name: spermidine synthase
+  ecnumber: 2.5.1.16
+  organism: Thermotoga maritima
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: D101I
+  uniprotid: Q9WZC2
+  wildtype_sequence: MRTLKELERELQPRQHLWYFEYYTGNNVGLFMKMNRVIYSGQSDIQRIDIFENPDLGVVFALDGITMTTEKDEFMYHEMLAHVPMFLHPNPKKVLIIGGGDGGTLREVLKHDSVEKAILCEVDGLVIEAARKYLKQTSCGFDDPRAEIVIANGAEYVRKFKNEFDVIIIDSTDPTAGQGGHLFTEEFYQACYDALKEDGVFSAETEDPFYDIGWFKLAYRRISKVFPITRVYLGFMTTYPSGMWSYTFASKGIDPIKDFDPEKVRKFNKELKYYNEEVHVASFALPNFVKKELGLM
+  mutant_sequence: MRTLKELERELQPRQHLWYFEYYTGNNVGLFMKMNRVIYSGQSDIQRIDIFENPDLGVVFALDGITMTTEKDEFMYHEMLAHVPMFLHPNPKKVLIIGGGIGGTLREVLKHDSVEKAILCEVDGLVIEAARKYLKQTSCGFDDPRAEIVIANGAEYVRKFKNEFDVIIIDSTDPTAGQGGHLFTEEFYQACYDALKEDGVFSAETEDPFYDIGWFKLAYRRISKVFPITRVYLGFMTTYPSGMWSYTFASKGIDPIKDFDPEKVRKFNKELKYYNEEVHVASFALPNFVKKELGLM
+complexes: null
+small_molecules:
+- id: substrate_S-Adenosylmethioninamine
+  name: S-Adenosylmethioninamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Putrescine
+  name: Putrescine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Spermidine
+  name: Spermidine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_5_-Deoxy-5_-_methylthio_adenosine
+  name: 5'-Deoxy-5'-(methylthio)adenosine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1974_EC2_5_1_16_Thermotoga_maritima_Q9WZC2_S-Adenosylmethioninamine
+  name: Reaction catalyzed by spermidine synthase on S-Adenosylmethioninamine
+  equation: Putrescine + S-Adenosylmethioninamine = 5'-Deoxy-5'-(methylthio)adenosine
+    + Spermidine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_S-Adenosylmethioninamine
+  - species_id: substrate_Putrescine
+  products:
+  - species_id: product_Spermidine
+  - species_id: product_5_-Deoxy-5_-_methylthio_adenosine
+  modifiers:
+  - species_id: protein_2_5_1_16_Q9WZC2_p64290
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 12721;12722;12723;12724
+  KEGGid: R01920
+  notes: 'ChEBI IDs: CHEBI:20494; CHEBI:22035; CHEBI:14972; CHEBI:8947; CHEBI:17509;
+    CHEBI:12771; CHEBI:16610; CHEBI:15095; CHEBI:12762; CHEBI:8650; CHEBI:1966; CHEBI:9218;
+    CHEBI:10906; CHEBI:15625; CHEBI:1986; CHEBI:45092; CHEBI:14605; CHEBI:12064; CHEBI:26732;
+    CHEBI:20491; CHEBI:57834; CHEBI:45647; CHEBI:44181; CHEBI:326268; CHEBI:57443;
+    CHEBI:12743; CHEBI:15097; CHEBI:12055; CHEBI:26405; CHEBI:26733; CHEBI:17148
+
+    KEGG IDs: KEGG:C01137; KEGG:C00134; KEGG:C00315; KEGG:C00170'
+- id: sabiork_1974_EC2_5_1_16_Thermotoga_maritima_Q9WZC2_Putrescine
+  name: Reaction catalyzed by spermidine synthase on Putrescine
+  equation: Putrescine + S-Adenosylmethioninamine = 5'-Deoxy-5'-(methylthio)adenosine
+    + Spermidine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Putrescine
+  - species_id: substrate_S-Adenosylmethioninamine
+  products:
+  - species_id: product_5_-Deoxy-5_-_methylthio_adenosine
+  - species_id: product_Spermidine
+  modifiers:
+  - species_id: protein_2_5_1_16_Q9WZC2_p64286
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 12721;12722;12723;12724
+  KEGGid: R01920
+  notes: 'ChEBI IDs: CHEBI:20494; CHEBI:22035; CHEBI:14972; CHEBI:8947; CHEBI:17509;
+    CHEBI:12771; CHEBI:16610; CHEBI:15095; CHEBI:12762; CHEBI:8650; CHEBI:1966; CHEBI:26733;
+    CHEBI:9218; CHEBI:10906; CHEBI:15625; CHEBI:1986; CHEBI:45092; CHEBI:14605; CHEBI:12064;
+    CHEBI:26732; CHEBI:20491; CHEBI:57834; CHEBI:44181; CHEBI:326268; CHEBI:57443;
+    CHEBI:12743; CHEBI:15097; CHEBI:12055; CHEBI:26405; CHEBI:45647; CHEBI:17148
+
+    KEGG IDs: KEGG:C01137; KEGG:C00134; KEGG:C00315; KEGG:C00170'
+measurements:
+- id: measurement_2_5_1_16_Thermotoga_maritima_Q9WZC2_S-Adenosylmethioninamine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 80.0
+  temperature_unit: °C
+- id: measurement_2_5_1_16_Thermotoga_maritima_Q9WZC2_Putrescine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_5_1_16_Thermotoga_maritima_Q9WZC2_S-Adenosylmethioninamine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.012
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosylmethioninamine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 80.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17585781'
+- id: 2_5_1_16_Thermotoga_maritima_Q9WZC2_Putrescine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 20.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Putrescine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17585781'
+- id: 2_5_1_16_Thermotoga_maritima_Q9WZC2_Putrescine_kcat_Km_2
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 2.7
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Putrescine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17585781'
+- id: 2_5_1_16_Thermotoga_maritima_Q9WZC2_Putrescine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.0004
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Putrescine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17585781'
+buffer:
+  buffer: 100 mM sodium phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 64290
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/17585781/
+  pubmed_id: '17585781'
+  doi: null
+name: Merged entry for Q9WZC2 D101I
+description: 'Merged from 2 files: SABIO_EC2.5.1.16_Thermotoga_maritima__Q9WZC2_D101I_s_S-Adenosylmethionina.yaml,
+  SABIO_EC2.5.1.16_Thermotoga_maritima__Q9WZC2_D101I_s_Putrescine.yaml'

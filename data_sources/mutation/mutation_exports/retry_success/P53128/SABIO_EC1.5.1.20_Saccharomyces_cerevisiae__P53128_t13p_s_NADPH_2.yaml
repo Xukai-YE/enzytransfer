@@ -1,0 +1,171 @@
+name: SABIO-RK Entry 53629
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 53629
+created: '2025-10-28T16:05:04.692474'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_5_1_20_P53128_p53629
+  name: methylenetetrahydrofolate reductase [NAD(P)H]
+  sequence: null
+  ecnumber: 1.5.1.20
+  organism: Saccharomyces cerevisiae
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: t13p
+  uniprotid: P53128
+  mutant_sequence: MKITEKLEQHRQPSGKPTYSFEYFVPKTTQGVQNLYDRMDRMYEASLPQFIDITWNAGGGRLSHLSTDLVATAQSVLGLETCMHLTCTNMPISMIDDALENAYHSGCQNILALRGDPPRDAENWTPVEGGFQYAKDLIKYIKSKYGDHFAIGVAGYPECHPELPNKDVKLDLEYLKQKIDAGGDFIITQMFYDVDNFINWCSQVRAAGMDVPIIPGIMPITTYAAFLRRAQWGQISIPQHFSSRLDPIKDDDELVRDIGTNLIVEMCQKLLDSGYVSHLHIYTMNLEKAPLMILERLNILPTESEFNAHPLAVLPWRKSLNPKRKNEEVRPIFWKRRPYSYVARTSQWAVDEFPNGRFGDSSSPAFGDLDLCGSDLIRQSANKCLELWSTPTSINDVAFLVINYLNGNLKCLPWSDIPINDEINPIKAHLIELNQHSIITINSQPQVNGIRSNDKIHGWGPKDGYVYQKQYLEFMLPKTKLPKLIDTLKNNEFLTYFAIDSQGDLLSNHPDNSKSNAVTWGIFPGREILQPTIVEKISFLAWKEEFYHILNEWKLNMNKYDKPHSAQFIQSLIDDYCLVNIVDNDYISPDDQIHSILLSL
+  position_offset: 0
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_5
+  name: '5'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_10-Methylenetetrahydrofolate
+  name: 10-Methylenetetrahydrofolate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_5-Methyltetrahydrofolate
+  name: 5-Methyltetrahydrofolate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1453_EC1_5_1_20_Saccharomyces_cerevisiae_P53128_NADPH
+  name: Reaction catalyzed by methylenetetrahydrofolate reductase [NAD(P)H] on NADPH
+  equation: NADP+ + 5-Methyltetrahydrofolate = H+ + 5,10-Methylenetetrahydrofolate
+    + NADPH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_5
+  - species_id: substrate_10-Methylenetetrahydrofolate
+  products:
+  - species_id: product_NADP_
+  - species_id: product_5-Methyltetrahydrofolate
+  modifiers:
+  - species_id: protein_1_5_1_20_P53128_p53629
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 19817;19818;19819;19820
+  KEGGid: R01224
+  notes: 'ChEBI IDs: CHEBI:18608; CHEBI:10925; CHEBI:13397; CHEBI:13398; CHEBI:15636;
+    CHEBI:7424; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:13357; CHEBI:25523;
+    CHEBI:136009; CHEBI:12071; CHEBI:24636; CHEBI:29233; CHEBI:5584; CHEBI:13399;
+    CHEBI:12146; CHEBI:18602; CHEBI:16474; CHEBI:44286; CHEBI:2097; CHEBI:1989; CHEBI:15641;
+    CHEBI:21904; CHEBI:44409; CHEBI:15378; CHEBI:18009; CHEBI:58349; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00440; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C11037; KEGG:C00143'
+measurements:
+- id: measurement_1_5_1_20_Saccharomyces_cerevisiae_P53128_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 1_5_1_20_Saccharomyces_cerevisiae_P53128_NADPH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.1e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11729203'
+buffer:
+  buffer: 100 mM Potassium Phosphate, 2 mM EDTA, 1.8 mM sodium ascorbate, 2 mM formaldehyde,
+    25 ¦ÌM FAD, 0.25 mM Menadione
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 53629
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11729203/
+  pubmed_id: '11729203'
+  doi: null

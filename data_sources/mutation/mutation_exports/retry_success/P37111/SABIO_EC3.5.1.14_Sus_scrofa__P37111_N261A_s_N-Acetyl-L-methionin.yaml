@@ -1,0 +1,166 @@
+name: SABIO-RK Entry 6592
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 6592
+created: '2025-10-28T13:50:44.747812'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_5_1_14_P37111_p6592
+  name: aminoacylase
+  ecnumber: 3.5.1.14
+  organism: Sus scrofa
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: N261A
+  uniprotid: P37111
+  wildtype_sequence: MASKGREGEHPSVTLFRQYLRIRTVQPEPDYGAAVAFLEERARQLGLGCQKVEVVPGHVVTVLTWPGTNPTLSSILLNSHTDVVPVFKEHWSHDPFEGFKDADGYIYGRGAQDMKCVSIQYLEAVRRLKVEGHHFPRTIHMTFVPDEEVGGHQGMELFVKRPEFQALRAGFALDEGLASPTDAFTVFYSERSPWWLRVTSTGKPGHGSRFIEDTAAEKLHKVINSILAFREKEKQRLQSNQLKPGAVTSVNLTMLEGGVAYNVVPATMSACFDFRVAPDVDLKAFEEQLQSWCQAAGEGVTFEFVQKWMETQVTSTDDSDPWWAAFSGVFKDMKLALELEICPASTDARYIRAAGVPALGFSPMNHTPVLLHDHDERLHEAVFLRGVDIYTQLLSALASVPALPSES
+  mutant_sequence: MASKGREGEHPSVTLFRQYLRIRTVQPEPDYGAAVAFLEERARQLGLGCQKVEVVPGHVVTVLTWPGTNPTLSSILLNSHTDVVPVFKEHWSHDPFEGFKDADGYIYGRGAQDMKCVSIQYLEAVRRLKVEGHHFPRTIHMTFVPDEEVGGHQGMELFVKRPEFQALRAGFALDEGLASPTDAFTVFYSERSPWWLRVTSTGKPGHGSRFIEDTAAEKLHKVINSILAFREKEKQRLQSNQLKPGAVTSVALTMLEGGVAYNVVPATMSACFDFRVAPDVDLKAFEEQLQSWCQAAGEGVTFEFVQKWMETQVTSTDDSDPWWAAFSGVFKDMKLALELEICPASTDARYIRAAGVPALGFSPMNHTPVLLHDHDERLHEAVFLRGVDIYTQLLSALASVPALPSES
+  position_offset: -10
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_N-Acetyl-L-methionine
+  name: N-Acetyl-L-methionine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Methionine
+  name: L-Methionine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Acetate
+  name: Acetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7681_EC3_5_1_14_Sus_scrofa_P37111_N-Acetyl-L-methionine
+  name: Reaction catalyzed by aminoacylase on N-Acetyl-L-methionine
+  equation: H2O + N-Acetyl-L-methionine = Acetate + L-Methionine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N-Acetyl-L-methionine
+  products:
+  - species_id: product_L-Methionine
+  - species_id: product_Acetate
+  modifiers:
+  - species_id: protein_3_5_1_14_P37111_p6592
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:40767; CHEBI:29375; CHEBI:40480; CHEBI:21557; CHEBI:44819;
+    CHEBI:13141; CHEBI:41981; CHEBI:71670; CHEBI:21360; CHEBI:32632; CHEBI:13704;
+    CHEBI:15366; CHEBI:49038; CHEBI:132957; CHEBI:42857; CHEBI:41979; CHEBI:40486;
+    CHEBI:22169; CHEBI:2387; CHEBI:42043; CHEBI:16044; CHEBI:30089; CHEBI:33811; CHEBI:33813;
+    CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:22165; CHEBI:16643; CHEBI:43228;
+    CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:49037; CHEBI:32631;
+    CHEBI:6271; CHEBI:57844; CHEBI:43990; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00033; KEGG:C00001; KEGG:C00073; KEGG:C02712'
+measurements:
+- id: measurement_3_5_1_14_Sus_scrofa_P37111_N-Acetyl-L-methionine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: null
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 3_5_1_14_Sus_scrofa_P37111_N-Acetyl-L-methionine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00457
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Acetyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16567407'
+- id: 3_5_1_14_Sus_scrofa_P37111_N-Acetyl-L-methionine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.000153336
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Acetyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16567407'
+buffer:
+  buffer: '-'
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 6592
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16567407/
+  pubmed_id: '16567407'
+  doi: null

@@ -1,0 +1,206 @@
+version: '2.0'
+created: '2025-11-20T13:40:00.041737'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_1_1_8_Q91VF2_p74419
+  name: histamine N-methyltransferase
+  ecnumber: 2.1.1.8
+  organism: Mus musculus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q91VF2
+  wildtype_sequence: MASCMRSLFSDQGRYVESFRRFLNNSTEHQCMQEFMDKKLPGIIARIGEAKAEIKILSVGGGAGEVDLQILSKVQAQYPGICINNEVVEPSAEQIVKYKELVAKTSNMENIKFSWHKETSSEYQKRMLEEEEEPPKWDFIHMIQMLYYVKDIPATLKFFHGLLAASAKILIILVSGTSGWEKLWKKYGSRLPRDDLCQYVTSSDLAQILDDLGIKYECYDLVSTMDITDCFIDGNENGDLLWDFLTETCNFSKTAPLDLKAEIMKDLQEPEFSVKKEGKVLFNNNLSFIVVEANV
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_S-Adenosyl-L-methionine
+  name: S-Adenosyl-L-methionine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Histamine
+  name: Histamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_S-Adenosyl-L-homocysteine
+  name: S-Adenosyl-L-homocysteine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N-Methylhistamine
+  name: N-Methylhistamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2134_EC2_1_1_8_Mus_musculus_Q91VF2_S-Adenosyl-L-methionine
+  name: Reaction catalyzed by histamine N-methyltransferase on S-Adenosyl-L-methionine
+  equation: S-Adenosyl-L-methionine + Histamine = S-Adenosyl-L-homocysteine + N-Methylhistamine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_S-Adenosyl-L-methionine
+  - species_id: substrate_Histamine
+  products:
+  - species_id: product_S-Adenosyl-L-homocysteine
+  - species_id: product_N-Methylhistamine
+  modifiers:
+  - species_id: protein_2_1_1_8_Q91VF2_p74419
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 19301;19302;19303;19304
+  KEGGid: R02155
+  notes: 'ChEBI IDs: CHEBI:14401; CHEBI:22036; CHEBI:12760; CHEBI:12742; CHEBI:59789;
+    CHEBI:67009; CHEBI:45495; CHEBI:43187; CHEBI:29009; CHEBI:12679; CHEBI:142094;
+    CHEBI:8945; CHEBI:67040; CHEBI:58600; CHEBI:45607; CHEBI:33442; CHEBI:15414; CHEBI:817;
+    CHEBI:10833; CHEBI:21768; CHEBI:12761; CHEBI:7317; CHEBI:12741; CHEBI:57856; CHEBI:16680;
+    CHEBI:12759; CHEBI:8946; CHEBI:22034; CHEBI:58432; CHEBI:527887; CHEBI:18295;
+    CHEBI:10786; CHEBI:24596; CHEBI:12757
+
+    KEGG IDs: KEGG:C00021; KEGG:C00388; KEGG:C05127; KEGG:C00019'
+- id: sabiork_2134_EC2_1_1_8_Mus_musculus_Q91VF2_Histamine
+  name: Reaction catalyzed by histamine N-methyltransferase on Histamine
+  equation: S-Adenosyl-L-methionine + Histamine = S-Adenosyl-L-homocysteine + N-Methylhistamine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Histamine
+  - species_id: substrate_S-Adenosyl-L-methionine
+  products:
+  - species_id: product_S-Adenosyl-L-homocysteine
+  - species_id: product_N-Methylhistamine
+  modifiers:
+  - species_id: protein_2_1_1_8_Q91VF2_p74420
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 19301;19302;19303;19304
+  KEGGid: R02155
+  notes: 'ChEBI IDs: CHEBI:14401; CHEBI:22036; CHEBI:12760; CHEBI:12742; CHEBI:59789;
+    CHEBI:67009; CHEBI:45495; CHEBI:43187; CHEBI:29009; CHEBI:12679; CHEBI:142094;
+    CHEBI:8945; CHEBI:67040; CHEBI:58600; CHEBI:45607; CHEBI:33442; CHEBI:15414; CHEBI:817;
+    CHEBI:10833; CHEBI:21768; CHEBI:12761; CHEBI:7317; CHEBI:12741; CHEBI:57856; CHEBI:16680;
+    CHEBI:12759; CHEBI:8946; CHEBI:22034; CHEBI:58432; CHEBI:527887; CHEBI:18295;
+    CHEBI:10786; CHEBI:24596; CHEBI:12757
+
+    KEGG IDs: KEGG:C00021; KEGG:C00388; KEGG:C05127; KEGG:C00019'
+measurements:
+- id: measurement_2_1_1_8_Mus_musculus_Q91VF2_S-Adenosyl-L-methionine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_1_1_8_Mus_musculus_Q91VF2_Histamine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_1_1_8_Mus_musculus_Q91VF2_S-Adenosyl-L-methionine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.8e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11475331'
+- id: 2_1_1_8_Mus_musculus_Q91VF2_Histamine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.3e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Histamine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11475331'
+buffer:
+  buffer: 167 mM potassium phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 74419
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11475331/
+  pubmed_id: '11475331'
+  doi: null
+name: Merged entry for Q91VF2 wildtype
+description: 'Merged from 2 files: SABIO_EC2.1.1.8_Mus_musculus__Q91VF2_s_S-Adenosyl-L-methion.yaml,
+  SABIO_EC2.1.1.8_Mus_musculus__Q91VF2_s_Histamine.yaml'

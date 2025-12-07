@@ -1,0 +1,188 @@
+name: SABIO-RK Entry 74816
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 74816
+created: '2025-10-28T17:42:06.114355'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_1_99__Q0S7P9_Q0S7Q0_p74816
+  name: Other carbon-carbon lyases
+  sequence: null
+  ecnumber: 4.1.99.
+  organism: Rhodococcus jostii
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q0S7P9; Q0S7Q0
+complexes: null
+small_molecules:
+- id: substrate_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate__R_-2-_2-Carboxyethyl_-3-methyl-6-oxocyclohex-1-ene-1-carboxyl-CoA
+  name: (R)-2-(2-Carboxyethyl)-3-methyl-6-oxocyclohex-1-ene-1-carboxyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mg2_
+  name: Mg2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4-Methyl-5-oxo-octanedioyl-CoA
+  name: 4-Methyl-5-oxo-octanedioyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Acetyl-CoA
+  name: Acetyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_16269_EC4_1_99__Rhodococcus_jostii_Q0S7P9_Q0S7Q0_Coenzyme_A
+  name: Reaction catalyzed by Other carbon-carbon lyases on Coenzyme A
+  equation: Coenzyme A + (R)-2-(2-Carboxyethyl)-3-methyl-6-oxocyclohex-1-ene-1-carboxyl-CoA
+    = Acetyl-CoA + 4-Methyl-5-oxo-octanedioyl-CoA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Coenzyme_A
+  - species_id: substrate__R_-2-_2-Carboxyethyl_-3-methyl-6-oxocyclohex-1-ene-1-carboxyl-CoA
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_4-Methyl-5-oxo-octanedioyl-CoA
+  - species_id: product_Acetyl-CoA
+  modifiers:
+  - species_id: protein_4_1_99__Q0S7P9_Q0S7Q0_p74816
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:15346; CHEBI:23355; CHEBI:13379; CHEBI:57288;
+    CHEBI:41631; CHEBI:6635; CHEBI:13712; CHEBI:13295; CHEBI:41597; CHEBI:49736; CHEBI:57287;
+    CHEBI:13294; CHEBI:40470; CHEBI:18420; CHEBI:2408; CHEBI:3771; CHEBI:25112; CHEBI:741566;
+    CHEBI:39127; CHEBI:13298; CHEBI:15351
+
+    KEGG IDs: KEGG:C00305; KEGG:C00024; KEGG:C00010'
+measurements:
+- id: measurement_4_1_99__Rhodococcus_jostii_Q0S7P9_Q0S7Q0_Coenzyme_A
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 4_1_99__Rhodococcus_jostii_Q0S7P9_Q0S7Q0_Coenzyme_A_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 5.8
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Coenzyme_A
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29581275'
+- id: 4_1_99__Rhodococcus_jostii_Q0S7P9_Q0S7Q0_Coenzyme_A_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00012
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Coenzyme_A
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29581275'
+- id: 4_1_99__Rhodococcus_jostii_Q0S7P9_Q0S7Q0_Coenzyme_A_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 5.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Coenzyme_A
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29581275'
+buffer:
+  buffer: 25 mM HEPES, 5 ¦ÌM FadA6
+  buffer_concentration: 25 mM
+references:
+- title: Reference for SABIO-RK entry 74816
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/29581275/
+  pubmed_id: '29581275'
+  doi: null

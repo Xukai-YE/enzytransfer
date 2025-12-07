@@ -1,0 +1,532 @@
+version: '2.0'
+created: '2025-11-20T13:40:55.009749'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_1_1_6_O25080_p58114
+  name: acetylcholinesterase
+  ecnumber: 3.1.1.6
+  organism: Helicobacter pylori
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: O25080
+  wildtype_sequence: MAKEILVAYGVDIDAVAGWLGSYGGEDSPDDISRGLFAGEVGIPRLLKLFKKYHLPATWFSPGHSIETFSEQMKMIVDAGHEVGAHGYSHENPIAMTAKQEEDVLLKSVELIKDLTGKAPTGYVAPWWEFSNITNELLLKHGFKYDHSLMHNDFTPYYVRVGDSWSKIDYSLEAKDWMKPLIRGVETDLVEIPANWYLDDLPPMMFIKKSPNSFGFVSPHDIGQMWIDQFDWVYREMDYAVFSMTIHPDVSARPQVLLMHEKIIEHINKHEGVRWVTFNEIADDFLKRNPRKK
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_p-Nitrophenyl_acetate
+  name: p-Nitrophenyl acetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Acetate
+  name: Acetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_p-Nitrophenol
+  name: p-Nitrophenol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_acetylated_Xylan
+  name: acetylated Xylan
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Xylan
+  name: Xylan
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Chitin
+  name: Chitin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_n_Acetate
+  name: n Acetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Chitosan
+  name: Chitosan
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_acetylated_Chitosan
+  name: acetylated Chitosan
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_8104_EC3_1_1_6_Helicobacter_pylori_O25080_p-Nitrophenyl_acetate
+  name: Reaction catalyzed by acetylcholinesterase on p-Nitrophenyl acetate
+  equation: H2O + p-Nitrophenyl acetate = Acetate + p-Nitrophenol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_p-Nitrophenyl_acetate
+  products:
+  - species_id: product_Acetate
+  - species_id: product_p-Nitrophenol
+  modifiers:
+  - species_id: protein_3_1_1_6_O25080_p58114
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:40480; CHEBI:44819; CHEBI:41981; CHEBI:20457;
+    CHEBI:44390; CHEBI:13704; CHEBI:15366; CHEBI:42857; CHEBI:16836; CHEBI:41979;
+    CHEBI:40486; CHEBI:22169; CHEBI:2387; CHEBI:12034; CHEBI:42043; CHEBI:30089; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:78348; CHEBI:22165;
+    CHEBI:43228; CHEBI:44292; CHEBI:57917; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:1913; CHEBI:29373; CHEBI:44701; CHEBI:82635
+
+    KEGG IDs: KEGG:C00870; KEGG:C00033; KEGG:C00001'
+- id: sabiork_14215_EC3_1_1_72_Helicobacter_pylori_O25080_acetylated_Xylan
+  name: Reaction catalyzed by acetylxylan esterase on acetylated Xylan
+  equation: H2O + acetylated Xylan = Acetate + Xylan
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_acetylated_Xylan
+  products:
+  - species_id: product_Xylan
+  - species_id: product_Acetate
+  modifiers:
+  - species_id: protein_3_1_1_72_O25080_p58113
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:40480; CHEBI:44819; CHEBI:41981; CHEBI:13704;
+    CHEBI:15366; CHEBI:42857; CHEBI:41979; CHEBI:40486; CHEBI:22169; CHEBI:2387; CHEBI:42043;
+    CHEBI:30089; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352;
+    CHEBI:22165; CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:29373; CHEBI:44701; CHEBI:37166
+
+    KEGG IDs: KEGG:C00033; KEGG:C00001; KEGG:C00707'
+- id: sabiork_2283_EC3_5_1_104_Helicobacter_pylori_O25080_Chitin
+  name: Reaction catalyzed by peptidoglycan-N-acetylglucosamine deacetylase on Chitin
+  equation: Chitin + H2O = Acetate + Chitosan
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Chitin
+  products:
+  - species_id: product_n_Acetate
+  - species_id: product_Chitosan
+  modifiers:
+  - species_id: protein_3_5_1_104_O25080_p58111
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02333
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:40480; CHEBI:44819; CHEBI:41981; CHEBI:13704;
+    CHEBI:15366; CHEBI:42857; CHEBI:41979; CHEBI:40486; CHEBI:22169; CHEBI:2387; CHEBI:42043;
+    CHEBI:17029; CHEBI:30089; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377;
+    CHEBI:13352; CHEBI:22165; CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743;
+    CHEBI:29374; CHEBI:5585; CHEBI:16261; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00033; KEGG:C00001; KEGG:C00734; KEGG:C00461'
+- id: sabiork_14214_EC3_5_1_104_Helicobacter_pylori_O25080_acetylated_Chitosan
+  name: Reaction catalyzed by peptidoglycan-N-acetylglucosamine deacetylase on acetylated
+    Chitosan
+  equation: H2O + acetylated Chitosan = Acetate + Chitosan
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_acetylated_Chitosan
+  products:
+  - species_id: product_Chitosan
+  - species_id: product_Acetate
+  modifiers:
+  - species_id: protein_3_5_1_104_O25080_p58112
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:40480; CHEBI:44819; CHEBI:41981; CHEBI:13704;
+    CHEBI:15366; CHEBI:42857; CHEBI:41979; CHEBI:40486; CHEBI:22169; CHEBI:2387; CHEBI:42043;
+    CHEBI:30089; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352;
+    CHEBI:22165; CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:16261; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00033; KEGG:C00001; KEGG:C00734'
+measurements:
+- id: measurement_3_1_1_6_Helicobacter_pylori_O25080_p-Nitrophenyl_acetate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_3_1_1_72_Helicobacter_pylori_O25080_acetylated_Xylan
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_3_5_1_104_Helicobacter_pylori_O25080_Chitin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_3_5_1_104_Helicobacter_pylori_O25080_acetylated_Chitosan
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_1_1_6_Helicobacter_pylori_O25080_p-Nitrophenyl_acetate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00018
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_p-Nitrophenyl_acetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23825549'
+- id: 3_1_1_6_Helicobacter_pylori_O25080_p-Nitrophenyl_acetate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 112000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_p-Nitrophenyl_acetate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 6.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23825549'
+- id: 3_1_1_6_Helicobacter_pylori_O25080_p-Nitrophenyl_acetate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 20.15
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_p-Nitrophenyl_acetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23825549'
+- id: 3_1_1_6_Helicobacter_pylori_O25080_p-Nitrophenyl_acetate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1
+  initial_value: 0.000623333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_p-Nitrophenyl_acetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23825549'
+- id: 3_1_1_72_Helicobacter_pylori_O25080_acetylated_Xylan_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1
+  initial_value: 0.001228333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_acetylated_Xylan
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23825549'
+- id: 3_1_1_72_Helicobacter_pylori_O25080_acetylated_Xylan_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00041
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_acetylated_Xylan
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23825549'
+- id: 3_1_1_72_Helicobacter_pylori_O25080_acetylated_Xylan_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 42.48333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_acetylated_Xylan
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23825549'
+- id: 3_1_1_72_Helicobacter_pylori_O25080_acetylated_Xylan_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 103000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_acetylated_Xylan
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23825549'
+- id: 3_5_1_104_Helicobacter_pylori_O25080_Chitin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00085
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Chitin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23825549'
+- id: 3_5_1_104_Helicobacter_pylori_O25080_Chitin_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 12.91667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Chitin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23825549'
+- id: 3_5_1_104_Helicobacter_pylori_O25080_Chitin_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 15200.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Chitin
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23825549'
+- id: 3_5_1_104_Helicobacter_pylori_O25080_Chitin_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1
+  initial_value: 0.000115
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Chitin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23825549'
+- id: 3_5_1_104_Helicobacter_pylori_O25080_acetylated_Chitosan_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00085
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_acetylated_Chitosan
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23825549'
+- id: 3_5_1_104_Helicobacter_pylori_O25080_acetylated_Chitosan_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 18900.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_acetylated_Chitosan
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23825549'
+- id: 3_5_1_104_Helicobacter_pylori_O25080_acetylated_Chitosan_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1
+  initial_value: 8.35e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_acetylated_Chitosan
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23825549'
+- id: 3_5_1_104_Helicobacter_pylori_O25080_acetylated_Chitosan_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 16.13333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_acetylated_Chitosan
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23825549'
+buffer:
+  buffer: 100 mM sodium acetate; 5 mM EPPS, 0.911 mM phenol red
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 58114
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/23825549/
+  pubmed_id: '23825549'
+  doi: null
+name: Merged entry for O25080 wildtype
+description: 'Merged from 4 files: SABIO_EC3.1.1.6_Helicobacter_pylori__O25080_s_p-Nitrophenyl.yaml,
+  SABIO_EC3.1.1.72_Helicobacter_pylori__O25080_s_acetylated.yaml, SABIO_EC3.5.1.104_Helicobacter_pylori__O25080_s_Chitin.yaml,
+  SABIO_EC3.5.1.104_Helicobacter_pylori__O25080_s_acetylated.yaml'

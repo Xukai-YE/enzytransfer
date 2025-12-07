@@ -1,0 +1,200 @@
+name: SABIO-RK Entry 58974
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 58974
+created: '2025-10-28T16:25:09.644156'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_2_1_87_Q79AF6_P51015_p58974
+  name: butanal dehydrogenase
+  sequence: null
+  ecnumber: 1.2.1.87
+  organism: Burkholderia xenovorans
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q79AF6; P51015
+complexes: null
+small_molecules:
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Propanal
+  name: Propanal
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Propanoyl-CoA
+  name: Propanoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_10853_EC1_2_1_87_Burkholderia_xenovorans_Q79AF6_P51015_NAD_
+  name: Reaction catalyzed by butanal dehydrogenase on NAD+
+  equation: NAD+ + Coenzyme A + Propanal = NADH + H+ + Propanoyl-CoA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_Coenzyme_A
+  - species_id: substrate_Propanal
+  products:
+  - species_id: product_NADH
+  - species_id: product_Propanoyl-CoA
+  modifiers:
+  - species_id: protein_1_2_1_87_Q79AF6_P51015_p58974
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 36027;36028;36029;36030
+  KEGGid: R09097
+  notes: 'ChEBI IDs: CHEBI:15346; CHEBI:23355; CHEBI:41631; CHEBI:44281; CHEBI:17153;
+    CHEBI:13393; CHEBI:14898; CHEBI:29234; CHEBI:8468; CHEBI:15846; CHEBI:13357; CHEBI:45052;
+    CHEBI:21902; CHEBI:13295; CHEBI:13396; CHEBI:21901; CHEBI:41597; CHEBI:24636;
+    CHEBI:14904; CHEBI:44214; CHEBI:29233; CHEBI:13394; CHEBI:5584; CHEBI:57287; CHEBI:57945;
+    CHEBI:44216; CHEBI:57392; CHEBI:13294; CHEBI:26281; CHEBI:41359; CHEBI:57540;
+    CHEBI:14907; CHEBI:7423; CHEBI:13389; CHEBI:26295; CHEBI:15378; CHEBI:13395; CHEBI:8479;
+    CHEBI:3771; CHEBI:741566; CHEBI:44215; CHEBI:10744; CHEBI:15539; CHEBI:7422; CHEBI:13298;
+    CHEBI:16908
+
+    KEGG IDs: KEGG:C00479; KEGG:C00010; KEGG:C00080; KEGG:C00100; KEGG:C00003; KEGG:C00004'
+measurements:
+- id: measurement_1_2_1_87_Burkholderia_xenovorans_Q79AF6_P51015_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_2_1_87_Burkholderia_xenovorans_Q79AF6_P51015_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0231
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22316175'
+- id: 1_2_1_87_Burkholderia_xenovorans_Q79AF6_P51015_NAD__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 16.3
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22316175'
+- id: 1_2_1_87_Burkholderia_xenovorans_Q79AF6_P51015_NAD__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 700.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22316175'
+buffer:
+  buffer: 100 mM HEPES
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 58974
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/22316175/
+  pubmed_id: '22316175'
+  doi: null

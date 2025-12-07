@@ -1,0 +1,201 @@
+name: SABIO-RK Entry 71278
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 71278
+created: '2025-10-28T17:21:52.767765'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_42_P08200_O29610_p71278
+  name: isocitrate dehydrogenase (NADP+)
+  sequence: null
+  ecnumber: 1.1.1.42
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P08200; O29610
+complexes: null
+small_molecules:
+- id: substrate_Isocitrate
+  name: Isocitrate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Oxoglutarate
+  name: 2-Oxoglutarate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_269_EC1_1_1_42_Escherichia_coli_P08200_O29610_Isocitrate
+  name: Reaction catalyzed by isocitrate dehydrogenase (NADP+) on Isocitrate
+  equation: NADP+ + Isocitrate = CO2 + NADPH + 2-Oxoglutarate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Isocitrate
+  - species_id: substrate_NADP_
+  products:
+  - species_id: product_NADPH
+  - species_id: product_CO2
+  - species_id: product_2-Oxoglutarate
+  modifiers:
+  - species_id: protein_1_1_1_42_P08200_O29610_p71278
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 19629;19630;19631;19632
+  KEGGid: R00267
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:11638; CHEBI:139538; CHEBI:7424;
+    CHEBI:1253; CHEBI:14465; CHEBI:21903; CHEBI:44405; CHEBI:24886; CHEBI:19748; CHEBI:7425;
+    CHEBI:29234; CHEBI:3283; CHEBI:25523; CHEBI:13357; CHEBI:24636; CHEBI:36454; CHEBI:16810;
+    CHEBI:40661; CHEBI:29233; CHEBI:13399; CHEBI:5584; CHEBI:23011; CHEBI:30916; CHEBI:13285;
+    CHEBI:13282; CHEBI:16474; CHEBI:44286; CHEBI:16087; CHEBI:5998; CHEBI:19749; CHEBI:13283;
+    CHEBI:21904; CHEBI:44409; CHEBI:15378; CHEBI:13284; CHEBI:151; CHEBI:36453; CHEBI:18009;
+    CHEBI:16526; CHEBI:30915; CHEBI:58349; CHEBI:48829; CHEBI:30887; CHEBI:57783;
+    CHEBI:13400; CHEBI:10744; CHEBI:24884
+
+    KEGG IDs: KEGG:C00005; KEGG:C00080; KEGG:C00026; KEGG:C00006; KEGG:C00011; KEGG:C00311;
+    KEGG:C11037'
+measurements:
+- id: measurement_1_1_1_42_Escherichia_coli_P08200_O29610_Isocitrate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 40.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1_42_Escherichia_coli_P08200_O29610_Isocitrate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 71.7
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Isocitrate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 40.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17401542'
+- id: 1_1_1_42_Escherichia_coli_P08200_O29610_Isocitrate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.61e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Isocitrate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 40.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17401542'
+- id: 1_1_1_42_Escherichia_coli_P08200_O29610_Isocitrate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 2700000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Isocitrate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 40.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17401542'
+buffer:
+  buffer: 50 mM Tricine-KOH, 10 mM MgCl2
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 71278
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/17401542/
+  pubmed_id: '17401542'
+  doi: null

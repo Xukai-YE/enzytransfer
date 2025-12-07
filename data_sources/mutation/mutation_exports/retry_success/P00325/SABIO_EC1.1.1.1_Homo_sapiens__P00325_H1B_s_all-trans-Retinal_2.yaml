@@ -1,0 +1,192 @@
+name: SABIO-RK Entry 39796
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 39796
+created: '2025-10-28T15:14:20.156672'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_1_P00325_p39796
+  name: alcohol dehydrogenase
+  ecnumber: 1.1.1.1
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: H1B
+  uniprotid: P00325
+  wildtype_sequence: MSTAGKVIKCKAAVLWEVKKPFSIEDVEVAPPKAYEVRIKMVAVGICHTDDHVVSGNLVTPLPVILGHEAAGIVESVGEGVTTVKPGDKVIPLFTPQCGKCRVCKNPESNYCLKNDLGNPRGTLQDGTRRFTCRGKPIHHFLGTSTFSQYTVVDENAVAKIDAASPLEKVCLIGCGFSTGYGSAVNVAKVTPGSTCAVFGLGGVGLSAVMGCKAAGAARIIAVDINKDKFAKAKELGATECINPQDYKKPIQEVLKEMTDGGVDFSFEVIGRLDTMMASLLCCHEACGTSVIVGVPPASQNLSINPMLLLTGRTWKGAVYGGFKSKEGIPKLVADFMAKKFSLDALITHVLPFEKINEGFDLLHSGKSIRTVLTF
+  mutant_sequence: MVAVGICBTDDHVVSGNLVTPLPVILGHEAAGIVESVGEGVTTVKPGDKVIPLFTPQCGKCRVCKNPESNYCLKNDLGNPRGTLQDGTRRFTCRGKPIHHFLGTSTFSQYTVVDENAVAKIDAASPLEKVCLIGCGFSTGYGSAVNVAKVTPGSTCAVFGLGGVGLSAVMGCKAAGAARIIAVDINKDKFAKAKELGATECINPQDYKKPIQEVLKEMTDGGVDFSFEVIGRLDTMMASLLCCHEACGTSVIVGVPPASQNLSINPMLLLTGRTWKGAVYGGFKSKEGIPKLVADFMAKKFSLDALITHVLPFEKINEGFDLLHSGKSIRTVLTF
+  position_offset: 7
+  retry_status: isoform_2_matched
+  isoform_used: 2
+complexes: null
+small_molecules:
+- id: substrate_all-trans-Retinal
+  name: all-trans-Retinal
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Retinol
+  name: Retinol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2114_EC1_1_1_1_Homo_sapiens_P00325_all-trans-Retinal
+  name: Reaction catalyzed by alcohol dehydrogenase on all-trans-Retinal
+  equation: NAD+ + Retinol = all-trans-Retinal + H+ + NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_all-trans-Retinal
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_Retinol
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_1_1_1_P00325_p39796
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 21284;21285;21286;21287;48488;48489;48490;48491
+  KEGGid: R02124
+  notes: 'ChEBI IDs: CHEBI:50211; CHEBI:45479; CHEBI:44281; CHEBI:13393; CHEBI:29234;
+    CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:17898; CHEBI:13396; CHEBI:21901;
+    CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:57945; CHEBI:26538;
+    CHEBI:44216; CHEBI:57540; CHEBI:7423; CHEBI:13389; CHEBI:17336; CHEBI:13395; CHEBI:15378;
+    CHEBI:15035; CHEBI:15037; CHEBI:45487; CHEBI:10744; CHEBI:44215; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00473; KEGG:C00080; KEGG:C00376; KEGG:C00003; KEGG:C00004'
+measurements:
+- id: measurement_1_1_1_1_Homo_sapiens_P00325_all-trans-Retinal
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1_1_Homo_sapiens_P00325_all-trans-Retinal_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.08333333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_all-trans-Retinal
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16787387'
+- id: 1_1_1_1_Homo_sapiens_P00325_all-trans-Retinal_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.0e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_all-trans-Retinal
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16787387'
+- id: 1_1_1_1_Homo_sapiens_P00325_all-trans-Retinal_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 216666.7
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_all-trans-Retinal
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16787387'
+buffer:
+  buffer: 90 mM potassium dihydrogen phosphate, 40 mM KCl, delipidated BSA in equimolar
+    amounts to retinoids
+  buffer_concentration: 90 mM
+references:
+- title: Reference for SABIO-RK entry 39796
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16787387/
+  pubmed_id: '16787387'
+  doi: null

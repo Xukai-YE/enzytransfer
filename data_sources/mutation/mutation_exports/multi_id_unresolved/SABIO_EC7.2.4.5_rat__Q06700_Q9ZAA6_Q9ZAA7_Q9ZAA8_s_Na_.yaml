@@ -1,0 +1,120 @@
+name: SABIO-RK Entry 45376
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 45376
+created: '2025-10-28T15:33:57.102007'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_7_2_4_5_Q06700_Q9ZAA6_Q9ZAA7_Q9ZAA8_p45376
+  name: protein#45376
+  sequence: null
+  ecnumber: 7.2.4.5
+  organism: rat
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q06700; Q9ZAA6; Q9ZAA7; Q9ZAA8
+complexes: null
+small_molecules:
+- id: substrate_Na_
+  name: Na+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Na_
+  name: Na+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Monensin
+  name: Monensin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_12962_EC7_2_4_5_rat_Q06700_Q9ZAA6_Q9ZAA7_Q9ZAA8_Na_
+  name: Reaction catalyzed by enzyme on Na+
+  equation: Na+ = Na+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: product_Na_
+  products:
+  - species_id: product_Na_
+  modifiers:
+  - species_id: protein_7_2_4_5_Q06700_Q9ZAA6_Q9ZAA7_Q9ZAA8_p45376
+    role: BIOCATALYST
+  - species_id: activator_Monensin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 34963;34964;34965;34966
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:49766; CHEBI:29101; CHEBI:9175; CHEBI:26717
+
+    KEGG IDs: KEGG:C06693; KEGG:C01330'
+measurements:
+- id: measurement_7_2_4_5_rat_Q06700_Q9ZAA6_Q9ZAA7_Q9ZAA8_Na_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 75 mM Potassium phosphate, 1.5 mM DTE, 1.5 mM K-EDTA, 0.12 mM Acetyl-CoA,
+    0.1 mM CoASH, 1.2 mM NAD, 1.2 mM K2-Glutaconate, 0.15 mg/ml auxiliary enzymes
+    (Glutaconate CoA-transferase, Enoyl-CoA hydratase, 3-Hydroxyacyl CoA dehydrogenase,
+    Thiolase, Phosphate acetyltransferase)
+  buffer_concentration: 75 mM
+references:
+- title: Reference for SABIO-RK entry 45376
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/6293874/
+  pubmed_id: '6293874'
+  doi: null

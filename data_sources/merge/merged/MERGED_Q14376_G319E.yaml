@@ -1,0 +1,242 @@
+version: '2.0'
+created: '2025-11-20T13:41:42.622156'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_5_1_3_2_Q14376_p45401
+  name: UDP-glucose 4-epimerase
+  ecnumber: 5.1.3.2
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: G319E
+  uniprotid: Q14376
+  wildtype_sequence: MAEKVLVTGGAGYIGSHTVLELLEAGYLPVVIDNFHNAFRGGGSLPESLRRVQELTGRSVEFEEMDILDQGALQRLFKKYSFMAVIHFAGLKAVGESVQKPLDYYRVNLTGTIQLLEIMKAHGVKNLVFSSSATVYGNPQYLPLDEAHPTGGCTNPYGKSKFFIEEMIRDLCQADKTWNAVLLRYFNPTGAHASGCIGEDPQGIPNNLMPYVSQVAIGRREALNVFGNDYDTEDGTGVRDYIHVVDLAKGHIAALRKLKEQCGCRIYNLGTGTGYSVLQMVQAMEKASGKKIPYKVVARREGDVAACYANPSLAQEELGWTAALGLDRMCEDLWRWQKQNPSGFGTQA
+  mutant_sequence: MAEKVLVTGGAGYIGSHTVLELLEAGYLPVVIDNFHNAFRGGGSLPESLRRVQELTGRSVEFEEMDILDQGALQRLFKKYSFMAVIHFAGLKAVGESVQKPLDYYRVNLTGTIQLLEIMKAHGVKNLVFSSSATVYGNPQYLPLDEAHPTGGCTNPYGKSKFFIEEMIRDLCQADKTWNAVLLRYFNPTGAHASGCIGEDPQGIPNNLMPYVSQVAIGRREALNVFGNDYDTEDGTGVRDYIHVVDLAKGHIAALRKLKEQCGCRIYNLGTGTGYSVLQMVQAMEKASGKKIPYKVVARREGDVAACYANPSLAQEELEWTAALGLDRMCEDLWRWQKQNPSGFGTQA
+complexes: null
+small_molecules:
+- id: substrate_UDPgalactose
+  name: UDPgalactose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_UDPglucose
+  name: UDPglucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_UDP-D-galactose
+  name: UDP-D-galactose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_UDP-D-glucose
+  name: UDP-D-glucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_70_EC5_1_3_2_Homo_sapiens_Q14376_UDPgalactose
+  name: Reaction catalyzed by UDP-glucose 4-epimerase on UDPgalactose
+  equation: UDPglucose = UDPgalactose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_UDPgalactose
+  products:
+  - species_id: product_UDPglucose
+  modifiers:
+  - species_id: protein_5_1_3_2_Q14376_p45401
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00291
+  notes: 'ChEBI IDs: CHEBI:18066; CHEBI:18307
+
+    KEGG IDs: KEGG:C00029; KEGG:C00052'
+- id: sabiork_8974_EC5_1_3_2_Homo_sapiens_Q14376_UDP-D-galactose
+  name: Reaction catalyzed by UDP-glucose 4-epimerase on UDP-D-galactose
+  equation: UDP-D-glucose = UDP-D-galactose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_UDP-D-galactose
+  - species_id: cofactor_NAD_
+  products:
+  - species_id: product_UDP-D-glucose
+  modifiers:
+  - species_id: protein_5_1_3_2_Q14376_p46262
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00291
+  notes: 'ChEBI IDs: CHEBI:13393; CHEBI:15846; CHEBI:21901; CHEBI:18066; CHEBI:57540;
+    CHEBI:44215; CHEBI:44214; CHEBI:44281; CHEBI:13394; CHEBI:18307; CHEBI:7422; CHEBI:13389
+
+    KEGG IDs: KEGG:C00003; KEGG:C00029; KEGG:C00052'
+measurements:
+- id: measurement_5_1_3_2_Homo_sapiens_Q14376_UDPgalactose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.8
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_5_1_3_2_Homo_sapiens_Q14376_UDP-D-galactose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.7
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 5_1_3_2_Homo_sapiens_Q14376_UDPgalactose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.8e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDPgalactose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16302980'
+- id: 5_1_3_2_Homo_sapiens_Q14376_UDPgalactose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 30.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDPgalactose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16302980'
+- id: 5_1_3_2_Homo_sapiens_Q14376_UDPgalactose_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 390000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDPgalactose
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.8
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16302980'
+- id: 5_1_3_2_Homo_sapiens_Q14376_UDP-D-galactose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00036
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDP-D-galactose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.7
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15639193'
+buffer:
+  buffer: 0.04 M Glycine; 50 mM Tris/HCl, 4 mM NAD+, 0.02 units/ml UDP-glucose dehydrogenase
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 45401
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16302980/
+  pubmed_id: '16302980'
+  doi: null
+- title: Reference for SABIO-RK entry 46262
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15639193/
+  pubmed_id: '15639193'
+  doi: null
+name: Merged entry for Q14376 G319E
+description: 'Merged from 2 files: SABIO_EC5.1.3.2_Homo_sapiens__Q14376_G319E_s_UDPgalactose.yaml,
+  SABIO_EC5.1.3.2_Homo_sapiens__Q14376_G319E_s_UDP-D-galactose.yaml'

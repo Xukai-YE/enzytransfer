@@ -1,0 +1,1528 @@
+version: '2.0'
+created: '2025-11-20T13:40:37.187942'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_10_2_P06213_p3523
+  name: receptor protein-tyrosine kinase
+  ecnumber: 2.7.10.2
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P06213
+  wildtype_sequence: MATGGRRGAAAAPLLVAVAALLLGAAGHLYPGEVCPGMDIRNNLTRLHELENCSVIEGHLQILLMFKTRPEDFRDLSFPKLIMITDYLLLFRVYGLESLKDLFPNLTVIRGSRLFFNYALVIFEMVHLKELGLYNLMNITRGSVRIEKNNELCYLATIDWSRILDSVEDNYIVLNKDDNEECGDICPGTAKGKTNCPATVINGQFVERCWTHSHCQKVCPTICKSHGCTAEGLCCHSECLGNCSQPDDPTKCVACRNFYLDGRCVETCPPPYYHFQDWRCVNFSFCQDLHHKCKNSRRQGCHQYVIHNNKCIPECPSGYTMNSSNLLCTPCLGPCPKVCHLLEGEKTIDSVTSAQELRGCTVINGSLIINIRGGNNLAAELEANLGLIEEISGYLKIRRSYALVSLSFFRKLRLIRGETLEIGNYSFYALDNQNLRQLWDWSKHNLTITQGKLFFHYNPKLCLSEIHKMEEVSGTKGRQERNDIALKTNGDQASCENELLKFSYIRTSFDKILLRWEPYWPPDFRDLLGFMLFYKEAPYQNVTEFDGQDACGSNSWTVVDIDPPLRSNDPKSQNHPGWLMRGLKPWTQYAIFVKTLVTFSDERRTYGAKSDIIYVQTDATNPSVPLDPISVSNSSSQIILKWKPPSDPNGNITHYLVFWERQAEDSELFELDYCLKGLKLPSRTWSPPFESEDSQKHNQSEYEDSAGECCSCPKTDSQILKELEESSFRKTFEDYLHNVVFVPRKTSSGTGAEDPRPSRKRRSLGDVGNVTVAVPTVAAFPNTSSTSVPTSPEEHRPFEKVVNKESLVISGLRHFTGYRIELQACNQDTPEERCSVAAYVSARTMPEAKADDIVGPVTHEIFENNVVHLMWQEPKEPNGLIVLYEVSYRRYGDEELHLCVSRKHFALERGCRLRGLSPGNYSVRIRATSLAGNGSWTEPTYFYVTDYLDVPSNIAKIIIGPLIFVFLFSVVIGSIYLFLRKRQPDGPLGPLYASSNPEYLSASDVFPCSVYVPDEWEVSREKITLLRELGQGSFGMVYEGNARDIIKGEAETRVAVKTVNESASLRERIEFLNEASVMKGFTCHHVVRLLGVVSKGQPTLVVMELMAHGDLKSYLRSLRPEAENNPGRPPPTLQEMIQMAAEIADGMAYLNAKKFVHRDLAARNCMVAHDFTVKIGDFGMTRDIYETDYYRKGGKGLLPVRWMAPESLKDGVFTTSSDMWSFGVVLWEITSLAEQPYQGLSNEQVLKFVMDGGYLDQPDNCPERVTDLMRMCWQFNPKMRPTFLEIVNLLKDDLHPSFPEVSFFHSEENKAPESEELEMEFEDMENVPLDRSSHCQREEAGGRDGGSSLGFKRSYEEHIPYTHMNGGKKNGRILTLPRSNPS
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Protein_tyrosine
+  name: Protein tyrosine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Protein_tyrosine_phosphate
+  name: Protein tyrosine phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Insulin
+  name: Insulin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2490_EC2_7_10_2_Homo_sapiens_P06213_ATP
+  name: Reaction catalyzed by receptor protein-tyrosine kinase on ATP
+  equation: ATP + Protein tyrosine = ADP + Protein tyrosine phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Protein_tyrosine
+  products:
+  - species_id: product_Protein_tyrosine_phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_10_2_P06213_p3523
+    role: BIOCATALYST
+  - species_id: activator_Insulin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02584
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:40938; CHEBI:5931; CHEBI:16761;
+    CHEBI:2359; CHEBI:10789; CHEBI:57299; CHEBI:13236; CHEBI:456216; CHEBI:40553;
+    CHEBI:13222; CHEBI:10841; CHEBI:22249; CHEBI:2342; CHEBI:22244; CHEBI:15422; CHEBI:87518
+
+    KEGG IDs: KEGG:C01167; KEGG:C00723; KEGG:C00585; KEGG:C00002; KEGG:C00008'
+- id: sabiork_2490_EC2_7_10_2_Homo_sapiens_P06213_ATP
+  name: Reaction catalyzed by receptor protein-tyrosine kinase on ATP
+  equation: ATP + Protein tyrosine = ADP + Protein tyrosine phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Protein_tyrosine
+  products:
+  - species_id: product_Protein_tyrosine_phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_10_2_P06213_p3530
+    role: BIOCATALYST
+  - species_id: activator_Insulin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02584
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:40938; CHEBI:5931; CHEBI:16761;
+    CHEBI:2359; CHEBI:10789; CHEBI:57299; CHEBI:13236; CHEBI:456216; CHEBI:40553;
+    CHEBI:13222; CHEBI:10841; CHEBI:22249; CHEBI:2342; CHEBI:22244; CHEBI:15422; CHEBI:87518
+
+    KEGG IDs: KEGG:C01167; KEGG:C00723; KEGG:C00585; KEGG:C00002; KEGG:C00008'
+- id: sabiork_2490_EC2_7_10_2_Homo_sapiens_P06213_ATP
+  name: Reaction catalyzed by receptor protein-tyrosine kinase on ATP
+  equation: ATP + Protein tyrosine = ADP + Protein tyrosine phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Protein_tyrosine
+  products:
+  - species_id: product_ADP
+  - species_id: product_Protein_tyrosine_phosphate
+  modifiers:
+  - species_id: protein_2_7_10_2_P06213_p3528
+    role: BIOCATALYST
+  - species_id: activator_Insulin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02584
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:40938; CHEBI:5931; CHEBI:16761;
+    CHEBI:2359; CHEBI:10789; CHEBI:57299; CHEBI:13236; CHEBI:456216; CHEBI:40553;
+    CHEBI:13222; CHEBI:10841; CHEBI:22249; CHEBI:2342; CHEBI:22244; CHEBI:15422; CHEBI:87518
+
+    KEGG IDs: KEGG:C01167; KEGG:C00723; KEGG:C00585; KEGG:C00002; KEGG:C00008'
+- id: sabiork_2490_EC2_7_10_2_Homo_sapiens_P06213_ATP
+  name: Reaction catalyzed by receptor protein-tyrosine kinase on ATP
+  equation: ATP + Protein tyrosine = ADP + Protein tyrosine phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Protein_tyrosine
+  products:
+  - species_id: product_Protein_tyrosine_phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_10_2_P06213_p3531
+    role: BIOCATALYST
+  - species_id: activator_Insulin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02584
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:40938; CHEBI:5931; CHEBI:16761;
+    CHEBI:2359; CHEBI:10789; CHEBI:57299; CHEBI:13236; CHEBI:456216; CHEBI:40553;
+    CHEBI:13222; CHEBI:10841; CHEBI:22249; CHEBI:2342; CHEBI:22244; CHEBI:15422; CHEBI:87518
+
+    KEGG IDs: KEGG:C01167; KEGG:C00723; KEGG:C00585; KEGG:C00002; KEGG:C00008'
+- id: sabiork_2490_EC2_7_10_2_Homo_sapiens_P06213_ATP
+  name: Reaction catalyzed by receptor protein-tyrosine kinase on ATP
+  equation: ATP + Protein tyrosine = ADP + Protein tyrosine phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Protein_tyrosine
+  products:
+  - species_id: product_ADP
+  - species_id: product_Protein_tyrosine_phosphate
+  modifiers:
+  - species_id: protein_2_7_10_2_P06213_p3532
+    role: BIOCATALYST
+  - species_id: activator_Insulin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02584
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:40938; CHEBI:5931; CHEBI:16761;
+    CHEBI:2359; CHEBI:10789; CHEBI:57299; CHEBI:13236; CHEBI:456216; CHEBI:40553;
+    CHEBI:13222; CHEBI:10841; CHEBI:22249; CHEBI:2342; CHEBI:22244; CHEBI:15422; CHEBI:87518
+
+    KEGG IDs: KEGG:C01167; KEGG:C00723; KEGG:C00585; KEGG:C00002; KEGG:C00008'
+- id: sabiork_2490_EC2_7_10_2_Homo_sapiens_P06213_ATP
+  name: Reaction catalyzed by receptor protein-tyrosine kinase on ATP
+  equation: ATP + Protein tyrosine = ADP + Protein tyrosine phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Protein_tyrosine
+  products:
+  - species_id: product_Protein_tyrosine_phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_10_2_P06213_p3533
+    role: BIOCATALYST
+  - species_id: activator_Insulin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02584
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:40938; CHEBI:5931; CHEBI:16761;
+    CHEBI:2359; CHEBI:10789; CHEBI:57299; CHEBI:13236; CHEBI:456216; CHEBI:40553;
+    CHEBI:13222; CHEBI:10841; CHEBI:22249; CHEBI:2342; CHEBI:22244; CHEBI:15422; CHEBI:87518
+
+    KEGG IDs: KEGG:C01167; KEGG:C00723; KEGG:C00585; KEGG:C00002; KEGG:C00008'
+- id: sabiork_2490_EC2_7_10_2_Homo_sapiens_P06213_ATP
+  name: Reaction catalyzed by receptor protein-tyrosine kinase on ATP
+  equation: ATP + Protein tyrosine = ADP + Protein tyrosine phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Protein_tyrosine
+  products:
+  - species_id: product_ADP
+  - species_id: product_Protein_tyrosine_phosphate
+  modifiers:
+  - species_id: protein_2_7_10_2_P06213_p3535
+    role: BIOCATALYST
+  - species_id: activator_Insulin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02584
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:40938; CHEBI:5931; CHEBI:16761;
+    CHEBI:2359; CHEBI:10789; CHEBI:57299; CHEBI:13236; CHEBI:456216; CHEBI:40553;
+    CHEBI:13222; CHEBI:10841; CHEBI:22249; CHEBI:2342; CHEBI:22244; CHEBI:15422; CHEBI:87518
+
+    KEGG IDs: KEGG:C01167; KEGG:C00723; KEGG:C00585; KEGG:C00002; KEGG:C00008'
+- id: sabiork_2490_EC2_7_10_2_Homo_sapiens_P06213_ATP
+  name: Reaction catalyzed by receptor protein-tyrosine kinase on ATP
+  equation: ATP + Protein tyrosine = ADP + Protein tyrosine phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Protein_tyrosine
+  products:
+  - species_id: product_ADP
+  - species_id: product_Protein_tyrosine_phosphate
+  modifiers:
+  - species_id: protein_2_7_10_2_P06213_p3534
+    role: BIOCATALYST
+  - species_id: activator_Insulin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02584
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:40938; CHEBI:5931; CHEBI:16761;
+    CHEBI:2359; CHEBI:10789; CHEBI:57299; CHEBI:13236; CHEBI:456216; CHEBI:40553;
+    CHEBI:13222; CHEBI:10841; CHEBI:22249; CHEBI:2342; CHEBI:22244; CHEBI:15422; CHEBI:87518
+
+    KEGG IDs: KEGG:C01167; KEGG:C00723; KEGG:C00585; KEGG:C00002; KEGG:C00008'
+- id: sabiork_2490_EC2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine
+  name: Reaction catalyzed by receptor protein-tyrosine kinase on Protein tyrosine
+  equation: ATP + Protein tyrosine = ADP + Protein tyrosine phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Protein_tyrosine
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_Protein_tyrosine_phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_10_2_P06213_p3521
+    role: BIOCATALYST
+  - species_id: activator_Insulin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02584
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:40938; CHEBI:5931; CHEBI:16761;
+    CHEBI:2359; CHEBI:10789; CHEBI:57299; CHEBI:13236; CHEBI:456216; CHEBI:40553;
+    CHEBI:13222; CHEBI:10841; CHEBI:22249; CHEBI:2342; CHEBI:22244; CHEBI:15422; CHEBI:87518
+
+    KEGG IDs: KEGG:C01167; KEGG:C00723; KEGG:C00585; KEGG:C00002; KEGG:C00008'
+- id: sabiork_2490_EC2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine
+  name: Reaction catalyzed by receptor protein-tyrosine kinase on Protein tyrosine
+  equation: ATP + Protein tyrosine = ADP + Protein tyrosine phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Protein_tyrosine
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_ADP
+  - species_id: product_Protein_tyrosine_phosphate
+  modifiers:
+  - species_id: protein_2_7_10_2_P06213_p3524
+    role: BIOCATALYST
+  - species_id: activator_Insulin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02584
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:40938; CHEBI:5931; CHEBI:16761;
+    CHEBI:2359; CHEBI:10789; CHEBI:57299; CHEBI:13236; CHEBI:456216; CHEBI:40553;
+    CHEBI:13222; CHEBI:10841; CHEBI:22249; CHEBI:2342; CHEBI:22244; CHEBI:15422; CHEBI:87518
+
+    KEGG IDs: KEGG:C01167; KEGG:C00723; KEGG:C00585; KEGG:C00002; KEGG:C00008'
+- id: sabiork_2490_EC2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine
+  name: Reaction catalyzed by receptor protein-tyrosine kinase on Protein tyrosine
+  equation: ATP + Protein tyrosine = ADP + Protein tyrosine phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Protein_tyrosine
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_Protein_tyrosine_phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_10_2_P06213_p3522
+    role: BIOCATALYST
+  - species_id: activator_Insulin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02584
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:40938; CHEBI:5931; CHEBI:16761;
+    CHEBI:2359; CHEBI:10789; CHEBI:57299; CHEBI:13236; CHEBI:456216; CHEBI:40553;
+    CHEBI:13222; CHEBI:10841; CHEBI:22249; CHEBI:2342; CHEBI:22244; CHEBI:15422; CHEBI:87518
+
+    KEGG IDs: KEGG:C01167; KEGG:C00723; KEGG:C00585; KEGG:C00002; KEGG:C00008'
+- id: sabiork_2490_EC2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine
+  name: Reaction catalyzed by receptor protein-tyrosine kinase on Protein tyrosine
+  equation: ATP + Protein tyrosine = ADP + Protein tyrosine phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Protein_tyrosine
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_ADP
+  - species_id: product_Protein_tyrosine_phosphate
+  modifiers:
+  - species_id: protein_2_7_10_2_P06213_p3526
+    role: BIOCATALYST
+  - species_id: activator_Insulin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02584
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:40938; CHEBI:5931; CHEBI:16761;
+    CHEBI:2359; CHEBI:10789; CHEBI:57299; CHEBI:13236; CHEBI:456216; CHEBI:40553;
+    CHEBI:13222; CHEBI:10841; CHEBI:22249; CHEBI:2342; CHEBI:22244; CHEBI:15422; CHEBI:87518
+
+    KEGG IDs: KEGG:C01167; KEGG:C00723; KEGG:C00585; KEGG:C00002; KEGG:C00008'
+- id: sabiork_2490_EC2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine
+  name: Reaction catalyzed by receptor protein-tyrosine kinase on Protein tyrosine
+  equation: ATP + Protein tyrosine = ADP + Protein tyrosine phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Protein_tyrosine
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_Protein_tyrosine_phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_10_2_P06213_p3525
+    role: BIOCATALYST
+  - species_id: activator_Insulin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02584
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:40938; CHEBI:5931; CHEBI:16761;
+    CHEBI:2359; CHEBI:10789; CHEBI:57299; CHEBI:13236; CHEBI:456216; CHEBI:40553;
+    CHEBI:13222; CHEBI:10841; CHEBI:22249; CHEBI:2342; CHEBI:22244; CHEBI:15422; CHEBI:87518
+
+    KEGG IDs: KEGG:C01167; KEGG:C00723; KEGG:C00585; KEGG:C00002; KEGG:C00008'
+- id: sabiork_2490_EC2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine
+  name: Reaction catalyzed by receptor protein-tyrosine kinase on Protein tyrosine
+  equation: ATP + Protein tyrosine = ADP + Protein tyrosine phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Protein_tyrosine
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_ADP
+  - species_id: product_Protein_tyrosine_phosphate
+  modifiers:
+  - species_id: protein_2_7_10_2_P06213_p3527
+    role: BIOCATALYST
+  - species_id: activator_Insulin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02584
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:40938; CHEBI:5931; CHEBI:16761;
+    CHEBI:2359; CHEBI:10789; CHEBI:57299; CHEBI:13236; CHEBI:456216; CHEBI:40553;
+    CHEBI:13222; CHEBI:10841; CHEBI:22249; CHEBI:2342; CHEBI:22244; CHEBI:15422; CHEBI:87518
+
+    KEGG IDs: KEGG:C01167; KEGG:C00723; KEGG:C00585; KEGG:C00002; KEGG:C00008'
+- id: sabiork_2490_EC2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine
+  name: Reaction catalyzed by receptor protein-tyrosine kinase on Protein tyrosine
+  equation: ATP + Protein tyrosine = ADP + Protein tyrosine phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Protein_tyrosine
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_Protein_tyrosine_phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_10_2_P06213_p3529
+    role: BIOCATALYST
+  - species_id: activator_Insulin
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R02584
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:40938; CHEBI:5931; CHEBI:16761;
+    CHEBI:2359; CHEBI:10789; CHEBI:57299; CHEBI:13236; CHEBI:456216; CHEBI:40553;
+    CHEBI:13222; CHEBI:10841; CHEBI:22249; CHEBI:2342; CHEBI:22244; CHEBI:15422; CHEBI:87518
+
+    KEGG IDs: KEGG:C01167; KEGG:C00723; KEGG:C00585; KEGG:C00002; KEGG:C00008'
+measurements:
+- id: measurement_2_7_10_2_Homo_sapiens_P06213_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: null
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_2_7_10_2_Homo_sapiens_P06213_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: null
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_2_7_10_2_Homo_sapiens_P06213_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: null
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_2_7_10_2_Homo_sapiens_P06213_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: null
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_2_7_10_2_Homo_sapiens_P06213_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: null
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_2_7_10_2_Homo_sapiens_P06213_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: null
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_2_7_10_2_Homo_sapiens_P06213_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: null
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_2_7_10_2_Homo_sapiens_P06213_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: null
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: null
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: null
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: null
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: null
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: null
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: null
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: null
+  temperature_opt: 22.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_10_2_Homo_sapiens_P06213_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.73
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_ATP_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2400.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: moldivs
+  initial_value: 2.333333e-14
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0003
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: moldivs
+  initial_value: 6.666667e-15
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 65.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_ATP_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.21
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0032
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.1e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: moldivs
+  initial_value: 2.833333e-14
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 15000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_ATP_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.89
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00025
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: moldivs
+  initial_value: 6.5e-14
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_ATP_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 8100.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.47
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_ATP_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 5900.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: moldivs
+  initial_value: 1.5e-14
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 8.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: moldivs
+  initial_value: 4.5e-14
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 5600.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00025
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_ATP_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.4
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00037
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.63
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_ATP_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1700.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: moldivs
+  initial_value: 2.0e-14
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: moldivs
+  initial_value: 2.166667e-14
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.4e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.68
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_ATP_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 28000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Protein_tyrosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: moldivs
+  initial_value: 5.0e-15
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Protein_tyrosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.14
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Protein_tyrosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00014
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Protein_tyrosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 6200.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Protein_tyrosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 9.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Protein_tyrosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.57
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Protein_tyrosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: moldivs
+  initial_value: 1.833333e-14
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Protein_tyrosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: moldivs
+  initial_value: 5.0e-15
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Protein_tyrosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2100.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Protein_tyrosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.3e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Protein_tyrosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.16
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Protein_tyrosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.83
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Protein_tyrosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 9700.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Protein_tyrosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 8.6e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Protein_tyrosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: moldivs
+  initial_value: 2.666667e-14
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Protein_tyrosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.63
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Protein_tyrosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Protein_tyrosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 10000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Protein_tyrosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: moldivs
+  initial_value: 2.0e-14
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Protein_tyrosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: moldivs
+  initial_value: 1.5e-14
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Protein_tyrosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.4e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Protein_tyrosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 20000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Protein_tyrosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.47
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Protein_tyrosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.4e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Protein_tyrosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.73
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Protein_tyrosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: moldivs
+  initial_value: 2.333333e-14
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Protein_tyrosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+- id: 2_7_10_2_Homo_sapiens_P06213_Protein_tyrosine_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 21000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Protein_tyrosine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1312712'
+buffer:
+  buffer: 50 mM Hepes, 5 mM MnCl2, 0.1 % Triton X-100
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 3523
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/1312712/
+  pubmed_id: '1312712'
+  doi: null
+name: Merged entry for P06213 wildtype
+description: 'Merged from 15 files: SABIO_EC2.7.10.2_Homo_sapiens__P06213_s_ATP.yaml,
+  SABIO_EC2.7.10.2_Homo_sapiens__P06213_s_ATP_3.yaml, SABIO_EC2.7.10.2_Homo_sapiens__P06213_s_ATP_2.yaml,
+  SABIO_EC2.7.10.2_Homo_sapiens__P06213_s_ATP_4.yaml, SABIO_EC2.7.10.2_Homo_sapiens__P06213_s_ATP_5.yaml,
+  SABIO_EC2.7.10.2_Homo_sapiens__P06213_s_ATP_6.yaml, SABIO_EC2.7.10.2_Homo_sapiens__P06213_s_ATP_8.yaml,
+  SABIO_EC2.7.10.2_Homo_sapiens__P06213_s_ATP_7.yaml, SABIO_EC2.7.10.2_Homo_sapiens__P06213_s_Protein.yaml,
+  SABIO_EC2.7.10.2_Homo_sapiens__P06213_s_Protein_3.yaml, SABIO_EC2.7.10.2_Homo_sapiens__P06213_s_Protein_2.yaml,
+  SABIO_EC2.7.10.2_Homo_sapiens__P06213_s_Protein_5.yaml, SABIO_EC2.7.10.2_Homo_sapiens__P06213_s_Protein_4.yaml,
+  SABIO_EC2.7.10.2_Homo_sapiens__P06213_s_Protein_6.yaml, SABIO_EC2.7.10.2_Homo_sapiens__P06213_s_Protein_7.yaml'

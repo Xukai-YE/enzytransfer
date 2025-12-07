@@ -1,0 +1,280 @@
+version: '2.0'
+created: '2025-11-20T13:40:14.457557'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_4_2_29_P0A847_p8139
+  name: tRNA-guanine transglycosylase
+  ecnumber: 2.4.2.29
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P0A847
+  wildtype_sequence: MKFELDTTDGRARRGRLVFDRGVVETPCFMPVGTYGTVKGMTPEEVEATGAQIILGNTFHLWLRPGQEIMKLHGDLHDFMQWKGPILTDSGGFQVFSLGDIRKITEQGVHFRNPINGDPIFLDPEKSMEIQYDLGSDIVMIFDECTPYPADWDYAKRSMEMSLRWAKRSRERFDSLGNKNALFGIIQGSVYEDLRDISVKGLVDIGFDGYAVGGLAVGEPKADMHRILEHVCPQIPADKPRYLMGVGKPEDLVEGVRRGIDMFDCVMPTRNARNGHLFVTDGVVKIRNAKYKSDTGPLDPECDCYTCRNYSRAYLHHLDRCNEILGARLNTIHNLRYYQRLMAGLRKAIEEGKLESFVTDFYQRQGREVPPLNVD
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_tRNA_guanine
+  name: tRNA guanine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Hypoxanthine
+  name: Hypoxanthine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Guanine
+  name: Guanine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_tRNA_hypoxanthine
+  name: tRNA hypoxanthine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Xanthine
+  name: Xanthine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_tRNA_xanthine
+  name: tRNA xanthine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7812_EC2_4_2_29_Escherichia_coli_P0A847_tRNA_guanine
+  name: Reaction catalyzed by tRNA-guanine transglycosylase on tRNA guanine
+  equation: Hypoxanthine + tRNA guanine = Guanine + tRNA hypoxanthine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_tRNA_guanine
+  - species_id: substrate_Hypoxanthine
+  products:
+  - species_id: product_Guanine
+  - species_id: product_tRNA_hypoxanthine
+  modifiers:
+  - species_id: protein_2_4_2_29_P0A847_p8139
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:14431; CHEBI:24762; CHEBI:43237; CHEBI:14372; CHEBI:16235;
+    CHEBI:24443; CHEBI:5563; CHEBI:14371; CHEBI:17368; CHEBI:5841; CHEBI:42948
+
+    KEGG IDs: KEGG:C20451; KEGG:C00262; KEGG:C01977; KEGG:C00242'
+- id: sabiork_7776_EC2_4_2_29_Escherichia_coli_P0A847_tRNA_guanine
+  name: Reaction catalyzed by tRNA-guanine transglycosylase on tRNA guanine
+  equation: Xanthine + tRNA guanine = Guanine + tRNA xanthine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_tRNA_guanine
+  - species_id: substrate_Xanthine
+  products:
+  - species_id: product_tRNA_xanthine
+  - species_id: product_Guanine
+  modifiers:
+  - species_id: protein_2_4_2_29_P0A847_p8144
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:10059; CHEBI:27317; CHEBI:17712; CHEBI:15318; CHEBI:16235;
+    CHEBI:46377; CHEBI:24443; CHEBI:5563; CHEBI:14371; CHEBI:48517; CHEBI:14372; CHEBI:42948
+
+    KEGG IDs: KEGG:C00385; KEGG:C01977; KEGG:C00242'
+measurements:
+- id: measurement_2_4_2_29_Escherichia_coli_P0A847_tRNA_guanine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.3
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_4_2_29_Escherichia_coli_P0A847_tRNA_guanine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.3
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_4_2_29_Escherichia_coli_P0A847_tRNA_guanine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000811
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_guanine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.3
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16401090'
+- id: 2_4_2_29_Escherichia_coli_P0A847_tRNA_guanine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.00297
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_guanine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.3
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16401090'
+- id: 2_4_2_29_Escherichia_coli_P0A847_tRNA_guanine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 3.7
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_guanine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.3
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16401090'
+- id: 2_4_2_29_Escherichia_coli_P0A847_tRNA_guanine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000224
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_guanine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.3
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16401090'
+- id: 2_4_2_29_Escherichia_coli_P0A847_tRNA_guanine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 6.9e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_guanine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.3
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16401090'
+- id: 2_4_2_29_Escherichia_coli_P0A847_tRNA_guanine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 0.31
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_guanine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.3
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16401090'
+buffer:
+  buffer: 20 mM MgCl2, 5 mM dithiothreitol, 100 mM HEPES
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 8139
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16401090/
+  pubmed_id: '16401090'
+  doi: null
+name: Merged entry for P0A847 wildtype
+description: 'Merged from 2 files: SABIO_EC2.4.2.29_Escherichia_coli__P0A847_s_tRNA.yaml,
+  SABIO_EC2.4.2.29_Escherichia_coli__P0A847_s_tRNA_2.yaml'

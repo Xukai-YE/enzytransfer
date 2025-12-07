@@ -1,0 +1,347 @@
+version: '2.0'
+created: '2025-11-20T13:39:18.009141'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+- given_name: SKiD
+  family_name: Database
+  mail: skid@database.org
+vessels: null
+proteins:
+- id: protein_1_1_1_236_P50163_p8853
+  name: tropinone reductase II
+  ecnumber: 1.1.1.236
+  organism: Datura stramonium
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P50163
+  wildtype_sequence: MAGRWNLEGCTALVTGGSRGIGYGIVEELASLGASVYTCSRNQKELNDCLTQWRSKGFKVEASVCDLSSRSERQELMNTVANHFHGKLNILVNNAGIVIYKEAKDYTVEDYSLIMSINFEAAYHLSVLAHPFLKASERGNVVFISSVSGALAVPYEAVYGATKGAMDQLTRCLAFEWAKDNIRVNGVGPGVIATSLVEMTIQDPEQKENLNKLIDRCALRRMGEPKELAAMVAFLCFPAASYVTGQIIYVDGGLMANCGF
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Tropinone
+  name: Tropinone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Pseudotropine
+  name: Pseudotropine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_tropinone
+  name: tropinone
+  canonical_smiles: CN1C2CCC1CC(=O)C2
+  inchi: InChI=1S/C8H13NO/c1-9-6-2-3-7(9)5-8(10)4-6/h6-7H,2-5H2,1H3
+  inchikey: QQXLDOJGLXJCSE-UHFFFAOYSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/79038
+- id: product
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2773_EC1_1_1_236_Datura_stramonium_P50163_Tropinone
+  name: Reaction catalyzed by tropinone reductase II on Tropinone
+  equation: NADP+ + Pseudotropine = NADPH + Tropinone + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Tropinone
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_NADP_
+  - species_id: product_Pseudotropine
+  modifiers:
+  - species_id: protein_1_1_1_236_P50163_p8853
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 18357;18358;18359;18360;24244;24245;24246;24247
+  KEGGid: R06734
+  notes: 'ChEBI IDs: CHEBI:45199; CHEBI:57851; CHEBI:13398; CHEBI:13397; CHEBI:7424;
+    CHEBI:14963; CHEBI:44405; CHEBI:21903; CHEBI:8609; CHEBI:7425; CHEBI:29234; CHEBI:16656;
+    CHEBI:13357; CHEBI:25523; CHEBI:26363; CHEBI:24636; CHEBI:15270; CHEBI:29233;
+    CHEBI:5584; CHEBI:13399; CHEBI:15742; CHEBI:16474; CHEBI:44286; CHEBI:27159; CHEBI:46048;
+    CHEBI:21904; CHEBI:44409; CHEBI:15378; CHEBI:18009; CHEBI:9760; CHEBI:58349; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744; CHEBI:57493
+
+    KEGG IDs: KEGG:C02066; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00783; KEGG:C11037'
+- id: reaction_P50163_tropinone
+  name: Reaction catalyzed by enzyme on tropinone
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_tropinone
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_P50163
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_P50163_NADPH
+  name: Reaction catalyzed by enzyme on NADPH
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_P50163
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+measurements:
+- id: measurement_1_1_1_236_Datura_stramonium_P50163_Tropinone
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 28.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=7.5, T=15.0°C)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 15.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=7.5, T=15.0°C)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 15.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1_236_Datura_stramonium_P50163_Tropinone_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.87e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Tropinone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 28.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10347221'
+- id: 1_1_1_236_Datura_stramonium_P50163_Tropinone_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2.73
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Tropinone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 28.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10347221'
+- id: 1_1_1_236_Datura_stramonium_P50163_Tropinone_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.76e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Tropinone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 28.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10347221'
+- id: P50163_tropinone_kcat_242
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 71.4
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_tropinone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 15.0
+  temperature_unit: °C
+  notes: 'Source: kcat'
+  pubmed_id: '12741812'
+- id: P50163_tropinone_Km_11298
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.0949
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_tropinone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 15.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '12741812'
+- id: P50163_NADPH_kcat_241
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 71.4
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 15.0
+  temperature_unit: °C
+  notes: 'Source: kcat'
+  pubmed_id: '12741812'
+- id: P50163_NADPH_Km_11297
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.0171
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 15.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '12741812'
+buffer:
+  buffer: 100 mM potassium phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 8853
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10347221/
+  pubmed_id: '10347221'
+  doi: null
+- title: H.
+  authors: Yamashita, A., Endo, M., Higashi, T., Nakatsu, T., Yamada, Y., Oda, J.,
+    Kato
+  year: '2003'
+  journal: 'Capturing enzyme structure prior to reaction initiation: tropinone reductase-II-substrate
+    complexes'
+  uri: null
+  pubmed_id: '12741812'
+  doi: null
+  id: '14'
+  pages: 5566-5573
+  volume: '42'
+  citation: 'Yamashita, A.,Endo, M.,Higashi, T.,Nakatsu, T.,Yamada, Y.,Oda, J.,Kato,
+    H., Capturing enzyme structure prior to reaction initiation: tropinone reductase-II-substrate
+    complexes, Biochemistry, 2003, 5566-5573, 42, PMID: 12741812'
+name: Merged entry for P50163 wildtype
+description: 'Merged from 3 files: SABIO_EC1.1.1.236_Datura_stramonium__P50163_s_Tropinone.yaml,
+  SKID_EC1.1.1.236_Datura_P50163_tropinone.yaml, SKID_EC1.1.1.236_Datura_P50163_NADPH.yaml'

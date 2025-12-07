@@ -1,0 +1,193 @@
+name: SABIO-RK Entry 3230
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 3230
+created: '2025-10-28T13:46:42.560176'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_7_4_P21156_P23845_p3230
+  name: sulfate adenylyltransferase
+  sequence: null
+  ecnumber: 2.7.7.4
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: S35A
+  uniprotid: P21156
+  wildtype_sequence: MDQIRLTHLRQLEAESIHIIREVAAEFSNPVMLYSIGKDSSVMLHLARKAFYPGTLPFPLLHVDTGWKFREMYEFRDRTAKAYGCELLVHKNPEGVAMGINPFVHGSAKHTDIMKTEGLKQALNKYGFDAAFGGARRDEEKSRAKERIYSFRDRFHRWDPKNQRPELWHNYNGQINKGESIRVFPLSNWTEQDIWQYIWLENIDIVPLYLAAERPVLERDGMLMMIDDNRIDLQPGEVIKKRMVRFRTLGCWPLTGAVESNAQTLPEIIEEMLVSTTSERQGRVIDRDQAGSMELKKRQGYF
+  mutant_sequence: MDQIRLTHLRQLEAESIHIIREVAAEFSNPVMLYAIGKDSSVMLHLARKAFYPGTLPFPLLHVDTGWKFREMYEFRDRTAKAYGCELLVHKNPEGVAMGINPFVHGSAKHTDIMKTEGLKQALNKYGFDAAFGGARRDEEKSRAKERIYSFRDRFHRWDPKNQRPELWHNYNGQINKGESIRVFPLSNWTEQDIWQYIWLENIDIVPLYLAAERPVLERDGMLMMIDDNRIDLQPGEVIKKRMVRFRTLGCWPLTGAVESNAQTLPEIIEEMLVSTTSERQGRVIDRDQAGSMELKKRQGYF
+  resolution_status: multi_id_resolved
+complexes: null
+small_molecules:
+- id: substrate_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Adenylylsulfate
+  name: Adenylylsulfate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Sulfate
+  name: Sulfate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_947_EC2_7_7_4_Escherichia_coli_P21156_P23845_Diphosphate
+  name: Reaction catalyzed by sulfate adenylyltransferase on Diphosphate
+  equation: ATP + Sulfate = Diphosphate + Adenylylsulfate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Diphosphate
+  - species_id: substrate_Adenylylsulfate
+  products:
+  - species_id: product_ATP
+  - species_id: product_Sulfate
+  modifiers:
+  - species_id: protein_2_7_7_4_P21156_P23845_p3230
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 18133;18134;18135;18136
+  KEGGid: R00529
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:8683; CHEBI:57299; CHEBI:40562;
+    CHEBI:10789; CHEBI:45687; CHEBI:22247; CHEBI:12059; CHEBI:58243; CHEBI:13741;
+    CHEBI:17709; CHEBI:33019; CHEBI:13743; CHEBI:13236; CHEBI:45067; CHEBI:26836;
+    CHEBI:29199; CHEBI:29888; CHEBI:10841; CHEBI:2359; CHEBI:35782; CHEBI:9335; CHEBI:45693;
+    CHEBI:40938; CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:2486; CHEBI:45208; CHEBI:22249;
+    CHEBI:15422; CHEBI:15135; CHEBI:45696; CHEBI:16189; CHEBI:45212; CHEBI:42009;
+    CHEBI:33018
+
+    KEGG IDs: KEGG:C00002; KEGG:C00059; KEGG:C00013; KEGG:C00224'
+measurements:
+- id: measurement_2_7_7_4_Escherichia_coli_P21156_P23845_Diphosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 2_7_7_4_Escherichia_coli_P21156_P23845_Diphosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00016
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Diphosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14506286'
+- id: 2_7_7_4_Escherichia_coli_P21156_P23845_Diphosphate_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00013
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Diphosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14506286'
+- id: 2_7_7_4_Escherichia_coli_P21156_P23845_Diphosphate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.85
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Diphosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14506286'
+buffer:
+  buffer: 9.2 units/ml Hexokinase, 0.50 units/ml Glucose-6-phosphate dehydrogenase,
+    10 mM Glucose, 0.20 mM NADP+, 10 mM KCl, 1.0 mM MgCl2, 50 mM Hepes/K+
+  buffer_concentration: 10 mM
+references:
+- title: Reference for SABIO-RK entry 3230
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/14506286/
+  pubmed_id: '14506286'
+  doi: null

@@ -1,0 +1,1072 @@
+version: '2.0'
+created: '2025-11-20T13:39:22.270145'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_39_P23368_p7262
+  name: malate dehydrogenase (oxaloacetate-decarboxylating) (NADP+)
+  ecnumber: 1.1.1.39
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: D102E
+  uniprotid: P23368
+  wildtype_sequence: MLSRLRVVSTTCTLACRHLHIKEKGKPLMLNPRTNKGMAFTLQERQMLGLQGLLPPKIETQDIQALRFHRNLKKMTSPLEKYIYIMGIQERNEKLFYRILQDDIESLMPIVYTPTVGLACSQYGHIFRRPKGLFISISDRGHVRSIVDNWPENHVKAVVVTDGERILGLGDLGVYGMGIPVGKLCLYTACAGIRPDRCLPVCIDVGTDNIALLKDPFYMGLYQKRDRTQQYDDLIDEFMKAITDRYGRNTLIQFEDFGNHNAFRFLRKYREKYCTFNDDIQGTAAVALAGLLAAQKVISKPISEHKILFLGAGEAALGIANLIVMSMVENGLSEQEAQKKIWMFDKYGLLVKGRKAKIDSYQEPFTHSAPESIPDTFEDAVNILKPSTIIGVAGAGRLFTPDVIRAMASINERPVIFALSNPTAQAECTAEEAYTLTEGRCLFASGSPFGPVKLTDGRVFTPGQGNNVYIFPGVALAVILCNTRHISDSVFLEAAKALTSQLTDEELAQGRLYPPLANIQEVSINIAIKVTEYLYANKMAFRYPEPEDKAKYVKERTWRSEYDSLLPDVYEWPESASSPPVITE
+  mutant_sequence: MLSRLRVVSTTCTLACRHLHIKEKGKPLMLNPRTNKGMAFTLQERQMLGLQGLLPPKIETQDIQALRFHRNLKKMTSPLEKYIYIMGIQERNEKLFYRILQEDIESLMPIVYTPTVGLACSQYGHIFRRPKGLFISISDRGHVRSIVDNWPENHVKAVVVTDGERILGLGDLGVYGMGIPVGKLCLYTACAGIRPDRCLPVCIDVGTDNIALLKDPFYMGLYQKRDRTQQYDDLIDEFMKAITDRYGRNTLIQFEDFGNHNAFRFLRKYREKYCTFNDDIQGTAAVALAGLLAAQKVISKPISEHKILFLGAGEAALGIANLIVMSMVENGLSEQEAQKKIWMFDKYGLLVKGRKAKIDSYQEPFTHSAPESIPDTFEDAVNILKPSTIIGVAGAGRLFTPDVIRAMASINERPVIFALSNPTAQAECTAEEAYTLTEGRCLFASGSPFGPVKLTDGRVFTPGQGNNVYIFPGVALAVILCNTRHISDSVFLEAAKALTSQLTDEELAQGRLYPPLANIQEVSINIAIKVTEYLYANKMAFRYPEPEDKAKYVKERTWRSEYDSLLPDVYEWPESASSPPVITE
+complexes: null
+small_molecules:
+- id: substrate_L-Malate
+  name: L-Malate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mg2_
+  name: Mg2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Pyruvate
+  name: Pyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Fumarate
+  name: Fumarate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_141_EC1_1_1_39_Homo_sapiens_P23368_L-Malate
+  name: Reaction catalyzed by malate dehydrogenase (oxaloacetate-decarboxylating)
+    (NADP+) on L-Malate
+  equation: NAD+ + L-Malate = CO2 + Pyruvate + H+ + NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Malate
+  - species_id: substrate_NAD_
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_CO2
+  - species_id: product_NADH
+  - species_id: product_Pyruvate
+  modifiers:
+  - species_id: protein_1_1_1_39_P23368_p7262
+    role: BIOCATALYST
+  - species_id: activator_Fumarate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 12653;12654;12655;12656
+  KEGGid: R00214
+  notes: 'ChEBI IDs: CHEBI:42743; CHEBI:13379; CHEBI:42511; CHEBI:14987; CHEBI:15589;
+    CHEBI:139538; CHEBI:44281; CHEBI:6635; CHEBI:13393; CHEBI:15846; CHEBI:24124;
+    CHEBI:3283; CHEBI:21902; CHEBI:15361; CHEBI:13396; CHEBI:30797; CHEBI:21901; CHEBI:423;
+    CHEBI:29806; CHEBI:44214; CHEBI:13394; CHEBI:11066; CHEBI:23011; CHEBI:49736;
+    CHEBI:26466; CHEBI:57945; CHEBI:44216; CHEBI:13285; CHEBI:18784; CHEBI:13282;
+    CHEBI:26462; CHEBI:13140; CHEBI:57540; CHEBI:7423; CHEBI:24122; CHEBI:18785; CHEBI:13283;
+    CHEBI:8685; CHEBI:18012; CHEBI:13389; CHEBI:18420; CHEBI:13395; CHEBI:13284; CHEBI:14284;
+    CHEBI:32816; CHEBI:16526; CHEBI:5190; CHEBI:25112; CHEBI:48829; CHEBI:44215; CHEBI:37154;
+    CHEBI:45253; CHEBI:39127; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00122; KEGG:C00305; KEGG:C00003; KEGG:C00022; KEGG:C00011; KEGG:C00149;
+    KEGG:C00004'
+- id: sabiork_141_EC1_1_1_39_Homo_sapiens_P23368_L-Malate
+  name: Reaction catalyzed by malate dehydrogenase (oxaloacetate-decarboxylating)
+    (NADP+) on L-Malate
+  equation: NAD+ + L-Malate = CO2 + Pyruvate + H+ + NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Malate
+  - species_id: substrate_NAD_
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Pyruvate
+  - species_id: product_CO2
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_1_1_39_P23368_p7255
+    role: BIOCATALYST
+  - species_id: activator_Fumarate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 12653;12654;12655;12656
+  KEGGid: R00214
+  notes: 'ChEBI IDs: CHEBI:42743; CHEBI:13379; CHEBI:42511; CHEBI:14987; CHEBI:15589;
+    CHEBI:139538; CHEBI:44281; CHEBI:6635; CHEBI:13393; CHEBI:15846; CHEBI:24124;
+    CHEBI:3283; CHEBI:21902; CHEBI:15361; CHEBI:13396; CHEBI:30797; CHEBI:21901; CHEBI:423;
+    CHEBI:29806; CHEBI:44214; CHEBI:13394; CHEBI:11066; CHEBI:23011; CHEBI:49736;
+    CHEBI:26466; CHEBI:57945; CHEBI:44216; CHEBI:13285; CHEBI:18784; CHEBI:13282;
+    CHEBI:26462; CHEBI:13140; CHEBI:57540; CHEBI:7423; CHEBI:24122; CHEBI:18785; CHEBI:13283;
+    CHEBI:8685; CHEBI:18012; CHEBI:13389; CHEBI:18420; CHEBI:13395; CHEBI:13284; CHEBI:14284;
+    CHEBI:32816; CHEBI:16526; CHEBI:5190; CHEBI:25112; CHEBI:48829; CHEBI:44215; CHEBI:37154;
+    CHEBI:45253; CHEBI:39127; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00122; KEGG:C00305; KEGG:C00003; KEGG:C00022; KEGG:C00011; KEGG:C00149;
+    KEGG:C00004'
+- id: sabiork_141_EC1_1_1_39_Homo_sapiens_P23368_L-Malate
+  name: Reaction catalyzed by malate dehydrogenase (oxaloacetate-decarboxylating)
+    (NADP+) on L-Malate
+  equation: NAD+ + L-Malate = CO2 + Pyruvate + H+ + NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Malate
+  - species_id: substrate_NAD_
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Pyruvate
+  - species_id: product_NADH
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_1_1_1_39_P23368_p7267
+    role: BIOCATALYST
+  - species_id: activator_Fumarate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 12653;12654;12655;12656
+  KEGGid: R00214
+  notes: 'ChEBI IDs: CHEBI:42743; CHEBI:13379; CHEBI:42511; CHEBI:14987; CHEBI:15589;
+    CHEBI:139538; CHEBI:44281; CHEBI:6635; CHEBI:13393; CHEBI:15846; CHEBI:24124;
+    CHEBI:3283; CHEBI:21902; CHEBI:15361; CHEBI:13396; CHEBI:30797; CHEBI:21901; CHEBI:423;
+    CHEBI:29806; CHEBI:44214; CHEBI:13394; CHEBI:11066; CHEBI:23011; CHEBI:49736;
+    CHEBI:26466; CHEBI:57945; CHEBI:44216; CHEBI:13285; CHEBI:18784; CHEBI:13282;
+    CHEBI:26462; CHEBI:13140; CHEBI:57540; CHEBI:7423; CHEBI:24122; CHEBI:18785; CHEBI:13283;
+    CHEBI:8685; CHEBI:18012; CHEBI:13389; CHEBI:18420; CHEBI:13395; CHEBI:13284; CHEBI:14284;
+    CHEBI:32816; CHEBI:16526; CHEBI:5190; CHEBI:25112; CHEBI:48829; CHEBI:44215; CHEBI:37154;
+    CHEBI:45253; CHEBI:39127; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00122; KEGG:C00305; KEGG:C00003; KEGG:C00022; KEGG:C00011; KEGG:C00149;
+    KEGG:C00004'
+- id: sabiork_141_EC1_1_1_39_Homo_sapiens_P23368_L-Malate
+  name: Reaction catalyzed by malate dehydrogenase (oxaloacetate-decarboxylating)
+    (NADP+) on L-Malate
+  equation: NAD+ + L-Malate = CO2 + Pyruvate + H+ + NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Malate
+  - species_id: substrate_NAD_
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Pyruvate
+  - species_id: product_NADH
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_1_1_1_39_P23368_p7247
+    role: BIOCATALYST
+  - species_id: activator_Fumarate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 12653;12654;12655;12656
+  KEGGid: R00214
+  notes: 'ChEBI IDs: CHEBI:42743; CHEBI:13379; CHEBI:42511; CHEBI:14987; CHEBI:15589;
+    CHEBI:139538; CHEBI:44281; CHEBI:6635; CHEBI:13393; CHEBI:15846; CHEBI:24124;
+    CHEBI:3283; CHEBI:21902; CHEBI:15361; CHEBI:13396; CHEBI:30797; CHEBI:21901; CHEBI:423;
+    CHEBI:29806; CHEBI:44214; CHEBI:13394; CHEBI:11066; CHEBI:23011; CHEBI:49736;
+    CHEBI:26466; CHEBI:57945; CHEBI:44216; CHEBI:13285; CHEBI:18784; CHEBI:13282;
+    CHEBI:26462; CHEBI:13140; CHEBI:57540; CHEBI:7423; CHEBI:24122; CHEBI:18785; CHEBI:13283;
+    CHEBI:8685; CHEBI:18012; CHEBI:13389; CHEBI:18420; CHEBI:13395; CHEBI:13284; CHEBI:14284;
+    CHEBI:32816; CHEBI:16526; CHEBI:5190; CHEBI:25112; CHEBI:48829; CHEBI:44215; CHEBI:37154;
+    CHEBI:45253; CHEBI:39127; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00122; KEGG:C00305; KEGG:C00003; KEGG:C00022; KEGG:C00011; KEGG:C00149;
+    KEGG:C00004'
+- id: sabiork_141_EC1_1_1_39_Homo_sapiens_P23368_L-Malate
+  name: Reaction catalyzed by malate dehydrogenase (oxaloacetate-decarboxylating)
+    (NADP+) on L-Malate
+  equation: NAD+ + L-Malate = CO2 + Pyruvate + H+ + NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Malate
+  - species_id: substrate_NAD_
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_CO2
+  - species_id: product_Pyruvate
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_1_1_39_P23368_p7239
+    role: BIOCATALYST
+  - species_id: activator_Fumarate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 12653;12654;12655;12656
+  KEGGid: R00214
+  notes: 'ChEBI IDs: CHEBI:42743; CHEBI:13379; CHEBI:42511; CHEBI:14987; CHEBI:15589;
+    CHEBI:139538; CHEBI:44281; CHEBI:6635; CHEBI:13393; CHEBI:15846; CHEBI:24124;
+    CHEBI:3283; CHEBI:21902; CHEBI:15361; CHEBI:13396; CHEBI:30797; CHEBI:21901; CHEBI:423;
+    CHEBI:29806; CHEBI:44214; CHEBI:13394; CHEBI:11066; CHEBI:23011; CHEBI:49736;
+    CHEBI:26466; CHEBI:57945; CHEBI:44216; CHEBI:13285; CHEBI:18784; CHEBI:13282;
+    CHEBI:26462; CHEBI:13140; CHEBI:57540; CHEBI:7423; CHEBI:24122; CHEBI:18785; CHEBI:13283;
+    CHEBI:8685; CHEBI:18012; CHEBI:13389; CHEBI:18420; CHEBI:13395; CHEBI:13284; CHEBI:14284;
+    CHEBI:32816; CHEBI:16526; CHEBI:5190; CHEBI:25112; CHEBI:48829; CHEBI:44215; CHEBI:37154;
+    CHEBI:45253; CHEBI:39127; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00122; KEGG:C00305; KEGG:C00003; KEGG:C00022; KEGG:C00011; KEGG:C00149;
+    KEGG:C00004'
+- id: sabiork_141_EC1_1_1_39_Homo_sapiens_P23368_L-Malate
+  name: Reaction catalyzed by malate dehydrogenase (oxaloacetate-decarboxylating)
+    (NADP+) on L-Malate
+  equation: NAD+ + L-Malate = CO2 + Pyruvate + H+ + NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Malate
+  - species_id: substrate_NAD_
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_CO2
+  - species_id: product_Pyruvate
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_1_1_39_P23368_p7254
+    role: BIOCATALYST
+  - species_id: activator_Fumarate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 12653;12654;12655;12656
+  KEGGid: R00214
+  notes: 'ChEBI IDs: CHEBI:42743; CHEBI:13379; CHEBI:42511; CHEBI:14987; CHEBI:15589;
+    CHEBI:139538; CHEBI:44281; CHEBI:6635; CHEBI:13393; CHEBI:15846; CHEBI:24124;
+    CHEBI:3283; CHEBI:21902; CHEBI:15361; CHEBI:13396; CHEBI:30797; CHEBI:21901; CHEBI:423;
+    CHEBI:29806; CHEBI:44214; CHEBI:13394; CHEBI:11066; CHEBI:23011; CHEBI:49736;
+    CHEBI:26466; CHEBI:57945; CHEBI:44216; CHEBI:13285; CHEBI:18784; CHEBI:13282;
+    CHEBI:26462; CHEBI:13140; CHEBI:57540; CHEBI:7423; CHEBI:24122; CHEBI:18785; CHEBI:13283;
+    CHEBI:8685; CHEBI:18012; CHEBI:13389; CHEBI:18420; CHEBI:13395; CHEBI:13284; CHEBI:14284;
+    CHEBI:32816; CHEBI:16526; CHEBI:5190; CHEBI:25112; CHEBI:48829; CHEBI:44215; CHEBI:37154;
+    CHEBI:45253; CHEBI:39127; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00122; KEGG:C00305; KEGG:C00003; KEGG:C00022; KEGG:C00011; KEGG:C00149;
+    KEGG:C00004'
+- id: sabiork_141_EC1_1_1_39_Homo_sapiens_P23368_NAD_
+  name: Reaction catalyzed by malate dehydrogenase (oxaloacetate-decarboxylating)
+    (NADP+) on NAD+
+  equation: NAD+ + L-Malate = CO2 + Pyruvate + H+ + NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_L-Malate
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Pyruvate
+  - species_id: product_NADH
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_1_1_1_39_P23368_p7230
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 12653;12654;12655;12656
+  KEGGid: R00214
+  notes: 'ChEBI IDs: CHEBI:13379; CHEBI:14987; CHEBI:15589; CHEBI:139538; CHEBI:44281;
+    CHEBI:6635; CHEBI:13393; CHEBI:15846; CHEBI:3283; CHEBI:21902; CHEBI:15361; CHEBI:13396;
+    CHEBI:30797; CHEBI:21901; CHEBI:423; CHEBI:44214; CHEBI:11066; CHEBI:13394; CHEBI:23011;
+    CHEBI:49736; CHEBI:26466; CHEBI:57945; CHEBI:44216; CHEBI:13285; CHEBI:18784;
+    CHEBI:13282; CHEBI:26462; CHEBI:13140; CHEBI:57540; CHEBI:7423; CHEBI:18785; CHEBI:13283;
+    CHEBI:8685; CHEBI:13389; CHEBI:18420; CHEBI:13395; CHEBI:13284; CHEBI:32816; CHEBI:16526;
+    CHEBI:25112; CHEBI:48829; CHEBI:44215; CHEBI:45253; CHEBI:39127; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00305; KEGG:C00149; KEGG:C00011; KEGG:C00022; KEGG:C00003; KEGG:C00004'
+- id: sabiork_141_EC1_1_1_39_Homo_sapiens_P23368_NAD_
+  name: Reaction catalyzed by malate dehydrogenase (oxaloacetate-decarboxylating)
+    (NADP+) on NAD+
+  equation: NAD+ + L-Malate = CO2 + Pyruvate + H+ + NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_L-Malate
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_CO2
+  - species_id: product_NADH
+  - species_id: product_Pyruvate
+  modifiers:
+  - species_id: protein_1_1_1_39_P23368_p7231
+    role: BIOCATALYST
+  - species_id: activator_Fumarate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 12653;12654;12655;12656
+  KEGGid: R00214
+  notes: 'ChEBI IDs: CHEBI:42743; CHEBI:13379; CHEBI:42511; CHEBI:14987; CHEBI:15589;
+    CHEBI:139538; CHEBI:44281; CHEBI:6635; CHEBI:13393; CHEBI:15846; CHEBI:24124;
+    CHEBI:3283; CHEBI:21902; CHEBI:15361; CHEBI:13396; CHEBI:30797; CHEBI:21901; CHEBI:423;
+    CHEBI:29806; CHEBI:44214; CHEBI:11066; CHEBI:13394; CHEBI:23011; CHEBI:49736;
+    CHEBI:26466; CHEBI:57945; CHEBI:44216; CHEBI:13285; CHEBI:18784; CHEBI:13282;
+    CHEBI:26462; CHEBI:13140; CHEBI:57540; CHEBI:7423; CHEBI:24122; CHEBI:18785; CHEBI:13283;
+    CHEBI:8685; CHEBI:18012; CHEBI:13389; CHEBI:18420; CHEBI:13395; CHEBI:13284; CHEBI:14284;
+    CHEBI:32816; CHEBI:16526; CHEBI:5190; CHEBI:25112; CHEBI:48829; CHEBI:44215; CHEBI:37154;
+    CHEBI:45253; CHEBI:39127; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00122; KEGG:C00305; KEGG:C00149; KEGG:C00011; KEGG:C00022; KEGG:C00003;
+    KEGG:C00004'
+- id: sabiork_141_EC1_1_1_39_Homo_sapiens_P23368_NAD_
+  name: Reaction catalyzed by malate dehydrogenase (oxaloacetate-decarboxylating)
+    (NADP+) on NAD+
+  equation: NAD+ + L-Malate = CO2 + Pyruvate + H+ + NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_L-Malate
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Pyruvate
+  - species_id: product_NADH
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_1_1_1_39_P23368_p7238
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 12653;12654;12655;12656
+  KEGGid: R00214
+  notes: 'ChEBI IDs: CHEBI:13379; CHEBI:14987; CHEBI:15589; CHEBI:139538; CHEBI:44281;
+    CHEBI:6635; CHEBI:13393; CHEBI:15846; CHEBI:3283; CHEBI:21902; CHEBI:15361; CHEBI:13396;
+    CHEBI:30797; CHEBI:21901; CHEBI:423; CHEBI:44214; CHEBI:11066; CHEBI:13394; CHEBI:23011;
+    CHEBI:49736; CHEBI:26466; CHEBI:57945; CHEBI:44216; CHEBI:13285; CHEBI:18784;
+    CHEBI:13282; CHEBI:26462; CHEBI:13140; CHEBI:57540; CHEBI:7423; CHEBI:18785; CHEBI:13283;
+    CHEBI:8685; CHEBI:13389; CHEBI:18420; CHEBI:13395; CHEBI:13284; CHEBI:32816; CHEBI:16526;
+    CHEBI:25112; CHEBI:48829; CHEBI:44215; CHEBI:45253; CHEBI:39127; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00305; KEGG:C00149; KEGG:C00011; KEGG:C00022; KEGG:C00003; KEGG:C00004'
+- id: sabiork_141_EC1_1_1_39_Homo_sapiens_P23368_NAD_
+  name: Reaction catalyzed by malate dehydrogenase (oxaloacetate-decarboxylating)
+    (NADP+) on NAD+
+  equation: NAD+ + L-Malate = CO2 + Pyruvate + H+ + NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_L-Malate
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Pyruvate
+  - species_id: product_CO2
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_1_1_39_P23368_p7263
+    role: BIOCATALYST
+  - species_id: activator_Fumarate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 12653;12654;12655;12656
+  KEGGid: R00214
+  notes: 'ChEBI IDs: CHEBI:42743; CHEBI:13379; CHEBI:42511; CHEBI:14987; CHEBI:15589;
+    CHEBI:139538; CHEBI:44281; CHEBI:6635; CHEBI:13393; CHEBI:15846; CHEBI:24124;
+    CHEBI:3283; CHEBI:21902; CHEBI:15361; CHEBI:13396; CHEBI:30797; CHEBI:21901; CHEBI:423;
+    CHEBI:29806; CHEBI:44214; CHEBI:11066; CHEBI:13394; CHEBI:23011; CHEBI:49736;
+    CHEBI:26466; CHEBI:57945; CHEBI:44216; CHEBI:13285; CHEBI:18784; CHEBI:13282;
+    CHEBI:26462; CHEBI:13140; CHEBI:57540; CHEBI:7423; CHEBI:24122; CHEBI:18785; CHEBI:13283;
+    CHEBI:8685; CHEBI:18012; CHEBI:13389; CHEBI:18420; CHEBI:13395; CHEBI:13284; CHEBI:14284;
+    CHEBI:32816; CHEBI:16526; CHEBI:5190; CHEBI:25112; CHEBI:48829; CHEBI:44215; CHEBI:37154;
+    CHEBI:45253; CHEBI:39127; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00122; KEGG:C00305; KEGG:C00149; KEGG:C00011; KEGG:C00022; KEGG:C00003;
+    KEGG:C00004'
+- id: sabiork_141_EC1_1_1_39_Homo_sapiens_P23368_NAD_
+  name: Reaction catalyzed by malate dehydrogenase (oxaloacetate-decarboxylating)
+    (NADP+) on NAD+
+  equation: NAD+ + L-Malate = CO2 + Pyruvate + H+ + NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_L-Malate
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_CO2
+  - species_id: product_NADH
+  - species_id: product_Pyruvate
+  modifiers:
+  - species_id: protein_1_1_1_39_P23368_p7266
+    role: BIOCATALYST
+  - species_id: activator_Fumarate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 12653;12654;12655;12656
+  KEGGid: R00214
+  notes: 'ChEBI IDs: CHEBI:42743; CHEBI:13379; CHEBI:42511; CHEBI:14987; CHEBI:15589;
+    CHEBI:139538; CHEBI:44281; CHEBI:6635; CHEBI:13393; CHEBI:15846; CHEBI:24124;
+    CHEBI:3283; CHEBI:21902; CHEBI:15361; CHEBI:13396; CHEBI:30797; CHEBI:21901; CHEBI:423;
+    CHEBI:29806; CHEBI:44214; CHEBI:11066; CHEBI:13394; CHEBI:23011; CHEBI:49736;
+    CHEBI:26466; CHEBI:57945; CHEBI:44216; CHEBI:13285; CHEBI:18784; CHEBI:13282;
+    CHEBI:26462; CHEBI:13140; CHEBI:57540; CHEBI:7423; CHEBI:24122; CHEBI:18785; CHEBI:13283;
+    CHEBI:8685; CHEBI:18012; CHEBI:13389; CHEBI:18420; CHEBI:13395; CHEBI:13284; CHEBI:14284;
+    CHEBI:32816; CHEBI:16526; CHEBI:5190; CHEBI:25112; CHEBI:48829; CHEBI:44215; CHEBI:37154;
+    CHEBI:45253; CHEBI:39127; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00122; KEGG:C00305; KEGG:C00149; KEGG:C00011; KEGG:C00022; KEGG:C00003;
+    KEGG:C00004'
+- id: sabiork_141_EC1_1_1_39_Homo_sapiens_P23368_NAD_
+  name: Reaction catalyzed by malate dehydrogenase (oxaloacetate-decarboxylating)
+    (NADP+) on NAD+
+  equation: NAD+ + L-Malate = CO2 + Pyruvate + H+ + NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_L-Malate
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_CO2
+  - species_id: product_Pyruvate
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_1_1_39_P23368_p7269
+    role: BIOCATALYST
+  - species_id: activator_Fumarate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 12653;12654;12655;12656
+  KEGGid: R00214
+  notes: 'ChEBI IDs: CHEBI:42743; CHEBI:13379; CHEBI:42511; CHEBI:14987; CHEBI:15589;
+    CHEBI:139538; CHEBI:44281; CHEBI:6635; CHEBI:13393; CHEBI:15846; CHEBI:24124;
+    CHEBI:3283; CHEBI:21902; CHEBI:15361; CHEBI:13396; CHEBI:30797; CHEBI:21901; CHEBI:423;
+    CHEBI:29806; CHEBI:44214; CHEBI:11066; CHEBI:13394; CHEBI:23011; CHEBI:49736;
+    CHEBI:26466; CHEBI:57945; CHEBI:44216; CHEBI:13285; CHEBI:18784; CHEBI:13282;
+    CHEBI:26462; CHEBI:13140; CHEBI:57540; CHEBI:7423; CHEBI:24122; CHEBI:18785; CHEBI:13283;
+    CHEBI:8685; CHEBI:18012; CHEBI:13389; CHEBI:18420; CHEBI:13395; CHEBI:13284; CHEBI:14284;
+    CHEBI:32816; CHEBI:16526; CHEBI:5190; CHEBI:25112; CHEBI:48829; CHEBI:44215; CHEBI:37154;
+    CHEBI:45253; CHEBI:39127; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00122; KEGG:C00305; KEGG:C00149; KEGG:C00011; KEGG:C00022; KEGG:C00003;
+    KEGG:C00004'
+- id: sabiork_141_EC1_1_1_39_Homo_sapiens_P23368_NAD_
+  name: Reaction catalyzed by malate dehydrogenase (oxaloacetate-decarboxylating)
+    (NADP+) on NAD+
+  equation: NAD+ + L-Malate = CO2 + Pyruvate + H+ + NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_L-Malate
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Pyruvate
+  - species_id: product_NADH
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_1_1_1_39_P23368_p7246
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 12653;12654;12655;12656
+  KEGGid: R00214
+  notes: 'ChEBI IDs: CHEBI:13379; CHEBI:14987; CHEBI:15589; CHEBI:139538; CHEBI:44281;
+    CHEBI:6635; CHEBI:13393; CHEBI:15846; CHEBI:3283; CHEBI:21902; CHEBI:15361; CHEBI:13396;
+    CHEBI:30797; CHEBI:21901; CHEBI:423; CHEBI:44214; CHEBI:11066; CHEBI:13394; CHEBI:23011;
+    CHEBI:49736; CHEBI:26466; CHEBI:57945; CHEBI:44216; CHEBI:13285; CHEBI:18784;
+    CHEBI:13282; CHEBI:26462; CHEBI:13140; CHEBI:57540; CHEBI:7423; CHEBI:18785; CHEBI:13283;
+    CHEBI:8685; CHEBI:13389; CHEBI:18420; CHEBI:13395; CHEBI:13284; CHEBI:32816; CHEBI:16526;
+    CHEBI:25112; CHEBI:48829; CHEBI:44215; CHEBI:45253; CHEBI:39127; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00305; KEGG:C00149; KEGG:C00011; KEGG:C00022; KEGG:C00003; KEGG:C00004'
+measurements:
+- id: measurement_1_1_1_39_Homo_sapiens_P23368_L-Malate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_39_Homo_sapiens_P23368_L-Malate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_39_Homo_sapiens_P23368_L-Malate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_39_Homo_sapiens_P23368_L-Malate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_39_Homo_sapiens_P23368_L-Malate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_39_Homo_sapiens_P23368_L-Malate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_39_Homo_sapiens_P23368_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_39_Homo_sapiens_P23368_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_39_Homo_sapiens_P23368_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_39_Homo_sapiens_P23368_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_39_Homo_sapiens_P23368_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_39_Homo_sapiens_P23368_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_1_1_39_Homo_sapiens_P23368_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1_39_Homo_sapiens_P23368_L-Malate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 44.14
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Malate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15989682'
+- id: 1_1_1_39_Homo_sapiens_P23368_L-Malate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00255
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Malate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15989682'
+- id: 1_1_1_39_Homo_sapiens_P23368_L-Malate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.01301
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Malate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15989682'
+- id: 1_1_1_39_Homo_sapiens_P23368_L-Malate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 44.14
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Malate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15989682'
+- id: 1_1_1_39_Homo_sapiens_P23368_L-Malate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 44.14
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Malate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15989682'
+- id: 1_1_1_39_Homo_sapiens_P23368_L-Malate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0008
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Malate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15989682'
+- id: 1_1_1_39_Homo_sapiens_P23368_L-Malate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00033
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Malate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15989682'
+- id: 1_1_1_39_Homo_sapiens_P23368_L-Malate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 60.61
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Malate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15989682'
+- id: 1_1_1_39_Homo_sapiens_P23368_L-Malate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 60.61
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Malate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15989682'
+- id: 1_1_1_39_Homo_sapiens_P23368_L-Malate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00091
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Malate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15989682'
+- id: 1_1_1_39_Homo_sapiens_P23368_L-Malate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 44.14
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Malate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15989682'
+- id: 1_1_1_39_Homo_sapiens_P23368_L-Malate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.01301
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Malate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15989682'
+- id: 1_1_1_39_Homo_sapiens_P23368_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.01301
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15989682'
+- id: 1_1_1_39_Homo_sapiens_P23368_NAD__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 44.14
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15989682'
+- id: 1_1_1_39_Homo_sapiens_P23368_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00453
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15989682'
+- id: 1_1_1_39_Homo_sapiens_P23368_NAD__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 60.61
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15989682'
+- id: 1_1_1_39_Homo_sapiens_P23368_NAD__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 44.14
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15989682'
+- id: 1_1_1_39_Homo_sapiens_P23368_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00255
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15989682'
+- id: 1_1_1_39_Homo_sapiens_P23368_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00255
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15989682'
+- id: 1_1_1_39_Homo_sapiens_P23368_NAD__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 44.14
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15989682'
+- id: 1_1_1_39_Homo_sapiens_P23368_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0008
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15989682'
+- id: 1_1_1_39_Homo_sapiens_P23368_NAD__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 44.14
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15989682'
+- id: 1_1_1_39_Homo_sapiens_P23368_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00045
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15989682'
+- id: 1_1_1_39_Homo_sapiens_P23368_NAD__Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00059
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15989682'
+- id: 1_1_1_39_Homo_sapiens_P23368_NAD__Km_3
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0056
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15989682'
+- id: 1_1_1_39_Homo_sapiens_P23368_NAD__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 44.14
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15989682'
+- id: 1_1_1_39_Homo_sapiens_P23368_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0008
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15989682'
+buffer:
+  buffer: 50 mM Tris/HCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 7262
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15989682/
+  pubmed_id: '15989682'
+  doi: null
+name: Merged entry for P23368 D102E
+description: 'Merged from 13 files: SABIO_EC1.1.1.39_Homo_sapiens__P23368_D102E_s_L-Malate_5.yaml,
+  SABIO_EC1.1.1.39_Homo_sapiens__P23368_D102E_s_L-Malate_4.yaml, SABIO_EC1.1.1.39_Homo_sapiens__P23368_D102E_s_L-Malate_6.yaml,
+  SABIO_EC1.1.1.39_Homo_sapiens__P23368_D102E_s_L-Malate_2.yaml, SABIO_EC1.1.1.39_Homo_sapiens__P23368_D102E_s_L-Malate.yaml,
+  SABIO_EC1.1.1.39_Homo_sapiens__P23368_D102E_s_L-Malate_3.yaml, SABIO_EC1.1.1.39_Homo_sapiens__P23368_D102E_s_NAD_.yaml,
+  SABIO_EC1.1.1.39_Homo_sapiens__P23368_D102E_s_NAD__2.yaml, SABIO_EC1.1.1.39_Homo_sapiens__P23368_D102E_s_NAD__3.yaml,
+  SABIO_EC1.1.1.39_Homo_sapiens__P23368_D102E_s_NAD__5.yaml, SABIO_EC1.1.1.39_Homo_sapiens__P23368_D102E_s_NAD__6.yaml,
+  SABIO_EC1.1.1.39_Homo_sapiens__P23368_D102E_s_NAD__7.yaml, SABIO_EC1.1.1.39_Homo_sapiens__P23368_D102E_s_NAD__4.yaml'

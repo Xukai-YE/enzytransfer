@@ -1,0 +1,149 @@
+name: SABIO-RK Entry 54144
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 54144
+created: '2025-10-28T16:07:16.733511'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_4_21_22_P00740_P00451_p54144
+  name: coagulation factor IXa
+  sequence: null
+  ecnumber: 3.4.21.22
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P00740; P00451
+complexes: null
+small_molecules:
+- id: substrate_Factor_X
+  name: Factor X
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Ca2_
+  name: Ca2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Factor_Xa
+  name: Factor Xa
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Phospholipid
+  name: Phospholipid
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_6645_EC3_4_21_22_Homo_sapiens_P00740_P00451_Factor_X
+  name: Reaction catalyzed by coagulation factor IXa on Factor X
+  equation: Factor X + H2O = Factor Xa
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Factor_X
+  - species_id: cofactor_Ca2_
+  products:
+  - species_id: product_Factor_Xa
+  modifiers:
+  - species_id: protein_3_4_21_22_P00740_P00451_p54144
+    role: BIOCATALYST
+  - species_id: activator_Phospholipid
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:39123; CHEBI:29108; CHEBI:16247; CHEBI:3308; CHEBI:22988;
+    CHEBI:48760; CHEBI:4964
+
+    KEGG IDs: KEGG:C00865; KEGG:C01577; KEGG:C01492; KEGG:C00076'
+measurements:
+- id: measurement_3_4_21_22_Homo_sapiens_P00740_P00451_Factor_X
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: null
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 3_4_21_22_Homo_sapiens_P00740_P00451_Factor_X_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.13e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Factor_X
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8428982'
+- id: 3_4_21_22_Homo_sapiens_P00740_P00451_Factor_X_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.716667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Factor_X
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8428982'
+buffer: null
+references:
+- title: Reference for SABIO-RK entry 54144
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/8428982/
+  pubmed_id: '8428982'
+  doi: null

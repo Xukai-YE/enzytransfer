@@ -1,0 +1,280 @@
+version: '2.0'
+created: '2025-11-20T13:41:58.630956'
+modified: null
+creators:
+- given_name: SKiD
+  family_name: Database
+  mail: skid@database.org
+vessels: null
+proteins:
+- id: protein_G9FRD7
+  name: Clostridium sardiniense
+  ecnumber: 1.1.1.159
+  organism: Clostridium sardiniense
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: null
+  uniprotid: G9FRD7
+  wildtype_sequence: MKRLEGKVAIVTSSTRGIGRASAEALAKEGALVYLAARSEELANEVIADIKKQGGVAKFVYFNAREEETYTSMVEKVAEAEGRIDILVNNYGGTNVNLDKNLTAGDTDEFFRILKDNVQSVYLPAKAAIPHMEKVGGGSIVNISTIGSVVPDISRIAYCVSKSAINSLTQNIALQYARKNIRCNAVLPGLIGTRAALENMTDEFRDSFLGHVPLNRVGRPEDIANAVLYYASDDSGYVTGMIHEVAGGFALGTPQYSEYCPR
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NADP_
+  name: NADP+
+  canonical_smiles: C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)(O)O)O)O)O)C(=O)N
+  inchi: InChI=1S/C21H28N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1-4,7-8,10-11,13-16,20-21,29-31H,5-6H2,(H7-,22,23,24,25,32,33,34,35,36,37,38,39)/p+1
+  inchikey: XJLXINKUBYWONI-UHFFFAOYSA-O
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/5886
+- id: product
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_chenodeoxycholic_acid
+  name: chenodeoxycholic acid
+  canonical_smiles: CC(CCC(=O)O)C1CCC2C1(CCC3C2C(CC4C3(CCC(C4)O)C)O)C
+  inchi: InChI=1S/C24H40O4/c1-14(4-7-21(27)28)17-5-6-18-22-19(9-11-24(17,18)3)23(2)10-8-16(25)12-15(23)13-20(22)26/h14-20,22,25-26H,4-13H2,1-3H3,(H,27,28)
+  inchikey: RUDATBOHQWOJDD-UHFFFAOYSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/10133
+reactions:
+- id: reaction_G9FRD7_NADP_
+  name: Reaction catalyzed by enzyme on NADP+
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADP_
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_G9FRD7
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_G9FRD7_chenodeoxycholic_acid
+  name: Reaction catalyzed by enzyme on chenodeoxycholic acid
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_chenodeoxycholic_acid
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_G9FRD7
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+measurements:
+- id: measurement_0
+  name: Experimental conditions (pH=8.0, T=25.0°C)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=8.0, T=25.0°C)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: G9FRD7_NADP__kcat_76
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 3.66
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: 'Source: kcat'
+  pubmed_id: '30734123'
+- id: G9FRD7_NADP__kcat_77
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 4.89
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: null
+  temperature_unit: null
+  notes: 'Source: kcat'
+  pubmed_id: '25131646'
+- id: G9FRD7_NADP__Km_11095
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.34
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: null
+  temperature_unit: null
+  notes: 'Source: Km'
+  pubmed_id: '25131646'
+- id: G9FRD7_NADP__Km_11097
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.3116
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '30734123'
+- id: G9FRD7_chenodeoxycholic_acid_kcat_75
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2.34
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_chenodeoxycholic_acid
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: 'Source: kcat'
+  pubmed_id: '30734123'
+- id: G9FRD7_chenodeoxycholic_acid_Km_11096
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.0661
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_chenodeoxycholic_acid
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '30734123'
+buffer:
+  buffer: null
+  buffer_concentration: null
+references:
+- title: G.
+  authors: Huang, B., Zhao, Q., Zhou, J.H., Xu
+  year: '2019'
+  journal: Enhanced activity and substrate tolerance of 7alpha-hydroxysteroid dehydrogenase
+    by directed evolution for 7-ketolithocholic acid production. Appl. Microbiol
+  uri: null
+  pubmed_id: '30734123'
+  doi: null
+  id: '25'
+  pages: 2665-2674
+  volume: '103'
+  citation: 'Huang, B.,Zhao, Q.,Zhou, J.H.,Xu, G., Enhanced activity and substrate
+    tolerance of 7alpha-hydroxysteroid dehydrogenase by directed evolution for 7-ketolithocholic
+    acid production. Appl. Microbiol, Biotechnol., 2019, 2665-2674, 103, PMID: 30734123'
+- title: W.
+  authors: Eggert, T., Bakonyi, D., Hummel
+  year: '2014'
+  journal: Enzymatic routes for the synthesis of ursodeoxycholic acid. J
+  uri: null
+  pubmed_id: '25131646'
+  doi: null
+  id: '21'
+  pages: 11-21
+  volume: '191'
+  citation: 'Eggert, T.,Bakonyi, D.,Hummel, W., Enzymatic routes for the synthesis
+    of ursodeoxycholic acid. J, Biotechnol., 2014, 11-21, 191, PMID: 25131646'
+name: Merged entry for G9FRD7 wildtype
+description: 'Merged from 2 files: SKID_EC1.1.1.159_Clostridiu_G9FRD7_NADP_.yaml,
+  SKID_EC1.1.1.159_Clostridiu_G9FRD7_chenodeoxycholi.yaml'

@@ -1,0 +1,245 @@
+version: '2.0'
+created: '2025-11-20T13:41:15.510641'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_4__Q936S7_p61766
+  name: Acting on peptide bonds (peptide hydrolases)
+  ecnumber: 3.4.
+  organism: Pseudomonas sp.
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q936S7
+  wildtype_sequence: MEKLRILICDGNTEADRASFKKFVGCAPSKQFESLLKNYNSQIRTEIAFPADPGPLMTLPLGAYDGILITGSNSHIYEAQPGNLRQIEFAQKAFASGTPMFGVCWGMQLAVVAAGGEVLPSRVADCSCETPFATGVELTSYGSGHPMHHSRTSGFDVFSFHSDEVTRLPGGAVVTARNRNFIQAVEIKHGRSTFWGVQYHPELSGWDQAGFLRESARSLVEDGSYETLNHVEHAAQAISMFKAGAQISEENLVHFEGVDTNSFEFRPLEILNWLDHLVIPTAKRKFGWGGGWLQK
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_gamma-Glutamyl-isopropylamide
+  name: gamma-Glutamyl-isopropylamide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Glutamate
+  name: L-Glutamate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Aminopropane
+  name: 2-Aminopropane
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_N-_gamma-L-Glutamyl_-L-alaninol
+  name: N-(gamma-L-Glutamyl)-L-alaninol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Alaninol
+  name: L-Alaninol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_14834_EC3_4__Pseudomonas_sp._Q936S7_gamma-Glutamyl-isopropylamide
+  name: Reaction catalyzed by Acting on peptide bonds (peptide hydrolases) on gamma-Glutamyl-isopropylamide
+  equation: H2O + gamma-Glutamyl-isopropylamide = L-Glutamate + 2-Aminopropane
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_gamma-Glutamyl-isopropylamide
+  products:
+  - species_id: product_L-Glutamate
+  - species_id: product_2-Aminopropane
+  modifiers:
+  - species_id: protein_3_4__Q936S7_p61766
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42825; CHEBI:15739;
+    CHEBI:14476; CHEBI:42857; CHEBI:41979; CHEBI:29972; CHEBI:42043; CHEBI:21301;
+    CHEBI:24914; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:6045; CHEBI:6224;
+    CHEBI:13352; CHEBI:13107; CHEBI:43228; CHEBI:16015; CHEBI:44292; CHEBI:85420;
+    CHEBI:21304; CHEBI:57492; CHEBI:85891; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:29985; CHEBI:29988; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00025; KEGG:C00001; KEGG:C06748'
+- id: sabiork_14835_EC3_4__Pseudomonas_sp._Q936S7_N-_gamma-L-Glutamyl_-L-alaninol
+  name: Reaction catalyzed by Acting on peptide bonds (peptide hydrolases) on N-(gamma-L-Glutamyl)-L-alaninol
+  equation: H2O + N-(gamma-L-Glutamyl)-L-alaninol = L-Glutamate + L-Alaninol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N-_gamma-L-Glutamyl_-L-alaninol
+  products:
+  - species_id: product_L-Alaninol
+  - species_id: product_L-Glutamate
+  modifiers:
+  - species_id: protein_3_4__Q936S7_p61767
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 45768;45769;45770;45771
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42825; CHEBI:42857;
+    CHEBI:85421; CHEBI:41979; CHEBI:29972; CHEBI:42043; CHEBI:85422; CHEBI:85894;
+    CHEBI:21301; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:6224; CHEBI:13352;
+    CHEBI:13107; CHEBI:43228; CHEBI:16015; CHEBI:44292; CHEBI:21304; CHEBI:33806;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:29985; CHEBI:29988; CHEBI:78502; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C00025; KEGG:C00001'
+measurements:
+- id: measurement_3_4__Pseudomonas_sp._Q936S7_gamma-Glutamyl-isopropylamide
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_3_4__Pseudomonas_sp._Q936S7_N-_gamma-L-Glutamyl_-L-alaninol
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_4__Pseudomonas_sp._Q936S7_gamma-Glutamyl-isopropylamide_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.065
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_gamma-Glutamyl-isopropylamide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11976110'
+- id: 3_4__Pseudomonas_sp._Q936S7_gamma-Glutamyl-isopropylamide_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000223333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_gamma-Glutamyl-isopropylamide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11976110'
+- id: 3_4__Pseudomonas_sp._Q936S7_N-_gamma-L-Glutamyl_-L-alaninol_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.065
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-_gamma-L-Glutamyl_-L-alaninol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11976110'
+- id: 3_4__Pseudomonas_sp._Q936S7_N-_gamma-L-Glutamyl_-L-alaninol_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-_gamma-L-Glutamyl_-L-alaninol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11976110'
+buffer:
+  buffer: 200 mM Tris/HCl, 100 mM MgCl2, 17% (v/v) glycerol
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 61766
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11976110/
+  pubmed_id: '11976110'
+  doi: null
+name: Merged entry for Q936S7 wildtype
+description: 'Merged from 2 files: SABIO_EC3.4._Pseudomonas_sp.__Q936S7_s_gamma-Glutamyl-isopr.yaml,
+  SABIO_EC3.4._Pseudomonas_sp.__Q936S7_s_N-_gamma-L-Glutamyl_.yaml'

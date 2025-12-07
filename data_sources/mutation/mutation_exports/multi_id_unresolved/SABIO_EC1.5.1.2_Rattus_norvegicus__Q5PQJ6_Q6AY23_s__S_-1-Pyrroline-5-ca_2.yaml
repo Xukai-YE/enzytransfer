@@ -1,0 +1,176 @@
+name: SABIO-RK Entry 23809
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 23809
+created: '2025-10-28T14:23:08.073888'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_5_1_2_Q5PQJ6_Q6AY23_p23809
+  name: pyrroline-5-carboxylate reductase
+  sequence: null
+  ecnumber: 1.5.1.2
+  organism: Rattus norvegicus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q5PQJ6; Q6AY23
+complexes: null
+small_molecules:
+- id: substrate__S_-1-Pyrroline-5-carboxylate
+  name: (S)-1-Pyrroline-5-carboxylate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Proline
+  name: L-Proline
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1468_EC1_5_1_2_Rattus_norvegicus_Q5PQJ6_Q6AY23__S_-1-Pyrroline-5-carboxylate
+  name: Reaction catalyzed by pyrroline-5-carboxylate reductase on (S)-1-Pyrroline-5-carboxylate
+  equation: NAD+ + L-Proline = H+ + NADH + (S)-1-Pyrroline-5-carboxylate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate__S_-1-Pyrroline-5-carboxylate
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_NAD_
+  - species_id: product_L-Proline
+  modifiers:
+  - species_id: protein_1_5_1_2_Q5PQJ6_Q6AY23_p23809
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 14105;14106;14107;14108
+  KEGGid: R01248
+  notes: 'ChEBI IDs: CHEBI:13154; CHEBI:42067; CHEBI:11297; CHEBI:26458; CHEBI:44281;
+    CHEBI:58054; CHEBI:45159; CHEBI:13393; CHEBI:32862; CHEBI:29234; CHEBI:15846;
+    CHEBI:19095; CHEBI:17203; CHEBI:13357; CHEBI:26271; CHEBI:21902; CHEBI:13396;
+    CHEBI:21901; CHEBI:18727; CHEBI:15893; CHEBI:24636; CHEBI:44214; CHEBI:29233;
+    CHEBI:5584; CHEBI:13394; CHEBI:6286; CHEBI:57945; CHEBI:32864; CHEBI:44216; CHEBI:45040;
+    CHEBI:19873; CHEBI:57540; CHEBI:7423; CHEBI:32871; CHEBI:1372; CHEBI:13389; CHEBI:371;
+    CHEBI:12409; CHEBI:60039; CHEBI:32872; CHEBI:15378; CHEBI:13395; CHEBI:21373;
+    CHEBI:184637; CHEBI:11689; CHEBI:17388; CHEBI:50342; CHEBI:45100; CHEBI:10744;
+    CHEBI:44215; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C16435; KEGG:C00148; KEGG:C03912; KEGG:C00080; KEGG:C04322; KEGG:C00003;
+    KEGG:C00004'
+measurements:
+- id: measurement_1_5_1_2_Rattus_norvegicus_Q5PQJ6_Q6AY23__S_-1-Pyrroline-5-carboxylate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.8
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_5_1_2_Rattus_norvegicus_Q5PQJ6_Q6AY23__S_-1-Pyrroline-5-carboxylate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.965e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__S_-1-Pyrroline-5-carboxylate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.8
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '3768405'
+- id: 1_5_1_2_Rattus_norvegicus_Q5PQJ6_Q6AY23__S_-1-Pyrroline-5-carboxylate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0018
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__S_-1-Pyrroline-5-carboxylate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.8
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '3768405'
+buffer:
+  buffer: 0.1 M Potassium phosphate
+  buffer_concentration: 0.1 M
+references:
+- title: Reference for SABIO-RK entry 23809
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/3768405/
+  pubmed_id: '3768405'
+  doi: null

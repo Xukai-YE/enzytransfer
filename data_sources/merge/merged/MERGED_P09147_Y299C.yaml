@@ -1,0 +1,195 @@
+version: '2.0'
+created: '2025-11-20T13:41:42.823158'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_5_1_3_2_P09147_p16226
+  name: UDP-glucose 4-epimerase
+  ecnumber: 5.1.3.2
+  organism: bovine
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: Y299C
+  uniprotid: P09147
+  wildtype_sequence: MRVLVTGGSGYIGSHTCVQLLQNGHDVIILDNLCNSKRSVLPVIERLGGKHPTFVEGDIRNEALMTEILHDHAIDTVIHFAGLKAVGESVQKPLEYYDNNVNGTLRLISAMRAANVKNFIFSSSATVYGDQPKIPYVESFPTGTPQSPYGKSKLMVEQILTDLQKAQPDWSIALLRYFNPVGAHPSGDMGEDPQGIPNNLMPYIAQVAVGRRDSLAIFGNDYPTEDGTGVRDYIHVMDLADGHVVAMEKLANKPGVHIYNLGAGVGNSVLDVVNAFSKACGKPVNYHFAPRREGDLPAYWADASKADRELNWRVTRTLDEMAQDTWHWQSRHPQGYPD
+  mutant_sequence: MRVLVTGGSGYIGSHTCVQLLQNGHDVIILDNLCNSKRSVLPVIERLGGKHPTFVEGDIRNEALMTEILHDHAIDTVIHFAGLKAVGESVQKPLEYYDNNVNGTLRLISAMRAANVKNFIFSSSATVYGDQPKIPYVESFPTGTPQSPYGKSKLMVEQILTDLQKAQPDWSIALLRYFNPVGAHPSGDMGEDPQGIPNNLMPYIAQVAVGRRDSLAIFGNDYPTEDGTGVRDYIHVMDLADGHVVAMEKLANKPGVHIYNLGAGVGNSVLDVVNAFSKACGKPVNYHFAPRREGDLPACWADASKADRELNWRVTRTLDEMAQDTWHWQSRHPQGYPD
+complexes: null
+small_molecules:
+- id: substrate_UDP-N-acetylgalactosamine
+  name: UDP-N-acetylgalactosamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_UDP-N-acetyl-D-glucosamine
+  name: UDP-N-acetyl-D-glucosamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_UDPgalactose
+  name: UDPgalactose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_UDPglucose
+  name: UDPglucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_9890_EC5_1_3_2_bovine_P09147_UDP-N-acetylgalactosamine
+  name: Reaction catalyzed by UDP-glucose 4-epimerase on UDP-N-acetylgalactosamine
+  equation: UDP-N-acetylgalactosamine = UDP-N-acetyl-D-glucosamine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_UDP-N-acetylgalactosamine
+  products:
+  - species_id: product_UDP-N-acetyl-D-glucosamine
+  modifiers:
+  - species_id: protein_5_1_3_2_P09147_p16226
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:16264; CHEBI:13475; CHEBI:13456; CHEBI:22115; CHEBI:57705;
+    CHEBI:46243; CHEBI:13476; CHEBI:9823; CHEBI:13473
+
+    KEGG IDs: KEGG:C00043'
+- id: sabiork_70_EC5_1_3_2_bovine_P09147_UDPgalactose
+  name: Reaction catalyzed by UDP-glucose 4-epimerase on UDPgalactose
+  equation: UDPglucose = UDPgalactose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_UDPgalactose
+  products:
+  - species_id: product_UDPglucose
+  modifiers:
+  - species_id: protein_5_1_3_2_P09147_p16223
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00291
+  notes: 'ChEBI IDs: CHEBI:18066; CHEBI:18307
+
+    KEGG IDs: KEGG:C00029; KEGG:C00052'
+measurements:
+- id: measurement_5_1_3_2_bovine_P09147_UDP-N-acetylgalactosamine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.7
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_5_1_3_2_bovine_P09147_UDPgalactose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.7
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 5_1_3_2_bovine_P09147_UDP-N-acetylgalactosamine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.69
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDP-N-acetylgalactosamine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.7
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12019271'
+- id: 5_1_3_2_bovine_P09147_UDPgalactose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 5.1
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDPgalactose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.7
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12019271'
+buffer:
+  buffer: 0.04 M glycine, 4 mM NAD++, 12 mM HEPES/KOH pH 7.5, 0.6 mM dithiothreitol,
+    0.18 mg/ml bovine serum albumin; 100 mM glycine, 10 mM pyruvate, 4 mM NAD+, 9
+    mM HEPES/KOH pH 7.5, 0.45 mM dithiothreitol, 0.135 mg/ml bovine serum albumin
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 16226
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12019271/
+  pubmed_id: '12019271'
+  doi: null
+name: Merged entry for P09147 Y299C
+description: 'Merged from 2 files: SABIO_EC5.1.3.2_bovine__P09147_Y299C_s_UDP-N-acetylgalactos.yaml,
+  SABIO_EC5.1.3.2_bovine__P09147_Y299C_s_UDPgalactose.yaml'

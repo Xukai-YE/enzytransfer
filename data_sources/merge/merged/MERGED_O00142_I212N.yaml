@@ -1,0 +1,385 @@
+version: '2.0'
+created: '2025-11-20T13:40:29.510136'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_21_O00142_p18073
+  name: thymidine kinase
+  ecnumber: 2.7.1.21
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: I212N
+  uniprotid: O00142
+  wildtype_sequence: MLLWPLRGWAARALRCFGPGSRGSPASGPGPRRVQRRAWPPDKEQEKEKKSVICVEGNIASGKTTCLEFFSNATDVEVLTEPVSKWRNVRGHNPLGLMYHDASRWGLTLQTYVQLTMLDRHTRPQVSSVRLMERSIHSARYIFVENLYRSGKMPEVDYVVLSEWFDWILRNMDVSVDLIVYLRTNPETCYQRLKKRCREEEKVIPLEYLEAIHHLHEEWLIKGSLFPMAAPVLVIEADHHMERMLELFEQNRDRILTPENRKHCP
+  mutant_sequence: MLLWPLRGWAARALRCFGPGSRGSPASGPGPRRVQRRAWPPDKEQEKEKKSVICVEGNIASGKTTCLEFFSNATDVEVLTEPVSKWRNVRGHNPLGLMYHDASRWGLTLQTYVQLTMLDRHTRPQVSSVRLMERSIHSARYIFVENLYRSGKMPEVDYVVLSEWFDWILRNMDVSVDLIVYLRTNPETCYQRLKKRCREEEKVIPLEYLEANHHLHEEWLIKGSLFPMAAPVLVIEADHHMERMLELFEQNRDRILTPENRKHCP
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Thymidine
+  name: Thymidine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_dTMP
+  name: dTMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_2_-Deoxycytidine
+  name: 2'-Deoxycytidine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_dCMP
+  name: dCMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_90_EC2_7_1_21_Homo_sapiens_O00142_ATP
+  name: Reaction catalyzed by thymidine kinase on ATP
+  equation: ATP + Thymidine = dTMP + ADP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Thymidine
+  products:
+  - species_id: product_ADP
+  - species_id: product_dTMP
+  modifiers:
+  - species_id: protein_2_7_1_21_O00142_p18073
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 19129;19130;19131;19132
+  KEGGid: R01567
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:50300; CHEBI:46013; CHEBI:15246;
+    CHEBI:19273; CHEBI:16761; CHEBI:10789; CHEBI:57299; CHEBI:10529; CHEBI:14092;
+    CHEBI:40553; CHEBI:47711; CHEBI:63549; CHEBI:13236; CHEBI:15244; CHEBI:10841;
+    CHEBI:45917; CHEBI:45782; CHEBI:2359; CHEBI:26999; CHEBI:15245; CHEBI:87518; CHEBI:40938;
+    CHEBI:45834; CHEBI:46036; CHEBI:456216; CHEBI:45926; CHEBI:17748; CHEBI:22249;
+    CHEBI:2342; CHEBI:45759; CHEBI:15422; CHEBI:45772; CHEBI:17013; CHEBI:46960; CHEBI:9579;
+    CHEBI:13222; CHEBI:53527; CHEBI:22244; CHEBI:63528
+
+    KEGG IDs: KEGG:C00364; KEGG:C00002; KEGG:C00008; KEGG:C00214'
+- id: sabiork_90_EC2_7_1_21_Homo_sapiens_O00142_ATP
+  name: Reaction catalyzed by thymidine kinase on ATP
+  equation: ATP + Thymidine = dTMP + ADP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Thymidine
+  products:
+  - species_id: product_ADP
+  - species_id: product_dTMP
+  modifiers:
+  - species_id: protein_2_7_1_21_O00142_p18067
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 19129;19130;19131;19132
+  KEGGid: R01567
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:50300; CHEBI:46013; CHEBI:15246;
+    CHEBI:19273; CHEBI:16761; CHEBI:10789; CHEBI:57299; CHEBI:10529; CHEBI:14092;
+    CHEBI:40553; CHEBI:47711; CHEBI:63549; CHEBI:13236; CHEBI:15244; CHEBI:10841;
+    CHEBI:45917; CHEBI:45782; CHEBI:2359; CHEBI:26999; CHEBI:15245; CHEBI:87518; CHEBI:40938;
+    CHEBI:45834; CHEBI:46036; CHEBI:456216; CHEBI:45926; CHEBI:17748; CHEBI:22249;
+    CHEBI:2342; CHEBI:45759; CHEBI:15422; CHEBI:45772; CHEBI:17013; CHEBI:46960; CHEBI:9579;
+    CHEBI:13222; CHEBI:53527; CHEBI:22244; CHEBI:63528
+
+    KEGG IDs: KEGG:C00364; KEGG:C00002; KEGG:C00008; KEGG:C00214'
+- id: sabiork_481_EC2_7_1_21_Homo_sapiens_O00142_ATP
+  name: Reaction catalyzed by adenosine kinase on ATP
+  equation: ATP + 2'-Deoxycytidine = dCMP + ADP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_2_-Deoxycytidine
+  products:
+  - species_id: product_dCMP
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_21_O00142_p18070
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 46040;46041;46042;46043
+  KEGGid: R01666
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:19242; CHEBI:40553; CHEBI:41430; CHEBI:14115; CHEBI:41875; CHEBI:13236;
+    CHEBI:10841; CHEBI:2359; CHEBI:15918; CHEBI:87518; CHEBI:40938; CHEBI:57566; CHEBI:41806;
+    CHEBI:456216; CHEBI:4407; CHEBI:41417; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:41838;
+    CHEBI:14071; CHEBI:13222; CHEBI:19240; CHEBI:22244; CHEBI:10493; CHEBI:15698;
+    CHEBI:14070
+
+    KEGG IDs: KEGG:C00002; KEGG:C00881; KEGG:C00239; KEGG:C00008'
+- id: sabiork_481_EC2_7_1_21_Homo_sapiens_O00142_ATP
+  name: Reaction catalyzed by adenosine kinase on ATP
+  equation: ATP + 2'-Deoxycytidine = dCMP + ADP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_2_-Deoxycytidine
+  products:
+  - species_id: product_dCMP
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_21_O00142_p18076
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 46040;46041;46042;46043
+  KEGGid: R01666
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:19242; CHEBI:40553; CHEBI:41430; CHEBI:14115; CHEBI:41875; CHEBI:13236;
+    CHEBI:10841; CHEBI:2359; CHEBI:15918; CHEBI:87518; CHEBI:40938; CHEBI:57566; CHEBI:41806;
+    CHEBI:456216; CHEBI:4407; CHEBI:41417; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:41838;
+    CHEBI:14071; CHEBI:13222; CHEBI:19240; CHEBI:22244; CHEBI:10493; CHEBI:15698;
+    CHEBI:14070
+
+    KEGG IDs: KEGG:C00002; KEGG:C00881; KEGG:C00239; KEGG:C00008'
+measurements:
+- id: measurement_2_7_1_21_Homo_sapiens_O00142_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_2_7_1_21_Homo_sapiens_O00142_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_2_7_1_21_Homo_sapiens_O00142_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_2_7_1_21_Homo_sapiens_O00142_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 2_7_1_21_Homo_sapiens_O00142_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 9.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '12493767'
+- id: 2_7_1_21_Homo_sapiens_O00142_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.666667e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '12493767'
+- id: 2_7_1_21_Homo_sapiens_O00142_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.8e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '12493767'
+- id: 2_7_1_21_Homo_sapiens_O00142_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.0e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '12493767'
+- id: 2_7_1_21_Homo_sapiens_O00142_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.333333e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '12493767'
+- id: 2_7_1_21_Homo_sapiens_O00142_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000568
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '12493767'
+- id: 2_7_1_21_Homo_sapiens_O00142_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 3.333333e-08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '12493767'
+- id: 2_7_1_21_Homo_sapiens_O00142_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.9e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '12493767'
+buffer:
+  buffer: 50 mM Tris-HCl, 2 mM MgCl2, 0.5 mg/ml BSA, 5 mM DTT
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 18073
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12493767/
+  pubmed_id: '12493767'
+  doi: null
+name: Merged entry for O00142 I212N
+description: 'Merged from 4 files: SABIO_EC2.7.1.21_Homo_sapiens__O00142_I212N_s_ATP_3.yaml,
+  SABIO_EC2.7.1.21_Homo_sapiens__O00142_I212N_s_ATP.yaml, SABIO_EC2.7.1.21_Homo_sapiens__O00142_I212N_s_ATP_2.yaml,
+  SABIO_EC2.7.1.21_Homo_sapiens__O00142_I212N_s_ATP_4.yaml'

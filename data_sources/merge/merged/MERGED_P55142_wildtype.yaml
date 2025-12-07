@@ -1,0 +1,450 @@
+version: '2.0'
+created: '2025-11-20T13:41:57.476755'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_unknown_P55142_p49022
+  name: glutathione transferase
+  ecnumber: null
+  organism: Oryza sativa
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P55142
+  wildtype_sequence: MALAKAKETVASAPVVVYSKSYCPFCVRVKKLFEQLGATFKAIELDGESDGSELQSALAEWTGQRTVPNVFINGKHIGGCDDTLALNNEGKLVPLLTEAGAIASSAKTTITA
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Cumene_hydroperoxide
+  name: Cumene hydroperoxide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Reduced_glutathione
+  name: Reduced glutathione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Oxidized_glutathione
+  name: Oxidized glutathione
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Phenyl-2-propanol
+  name: 2-Phenyl-2-propanol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Hydroxyethyl_disulfide
+  name: Hydroxyethyl disulfide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Mercaptoethanol
+  name: 2-Mercaptoethanol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_t-Butylhydroperoxide
+  name: t-Butylhydroperoxide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_t-Butanol
+  name: t-Butanol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_10575_ECunknown_Oryza_sativa_P55142_Cumene_hydroperoxide
+  name: Reaction catalyzed by glutathione transferase on Cumene hydroperoxide
+  equation: Cumene hydroperoxide + Reduced glutathione = Oxidized glutathione + 2-Phenyl-2-propanol
+    + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Cumene_hydroperoxide
+  - species_id: substrate_Reduced_glutathione
+  products:
+  - species_id: product_Oxidized_glutathione
+  - species_id: product_2-Phenyl-2-propanol
+  modifiers:
+  - species_id: protein_unknown_P55142_p49022
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:12402; CHEBI:7840; CHEBI:44819; CHEBI:41981;
+    CHEBI:14328; CHEBI:16856; CHEBI:5437; CHEBI:42857; CHEBI:41979; CHEBI:24334; CHEBI:14327;
+    CHEBI:24336; CHEBI:42043; CHEBI:58297; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:13352; CHEBI:78673; CHEBI:14720; CHEBI:17858; CHEBI:43228;
+    CHEBI:44292; CHEBI:43049; CHEBI:131607; CHEBI:33806; CHEBI:10743; CHEBI:42832;
+    CHEBI:5585; CHEBI:29374; CHEBI:42873; CHEBI:57925; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00051; KEGG:C00001; KEGG:C00127'
+- id: sabiork_10291_ECunknown_Oryza_sativa_P55142_Reduced_glutathione
+  name: Reaction catalyzed by glutathione transferase on Reduced glutathione
+  equation: Hydroxyethyl disulfide + Reduced glutathione = Oxidized glutathione +
+    2-Mercaptoethanol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Reduced_glutathione
+  - species_id: substrate_Hydroxyethyl_disulfide
+  products:
+  - species_id: product_2-Mercaptoethanol
+  - species_id: product_Oxidized_glutathione
+  modifiers:
+  - species_id: protein_unknown_P55142_p49020
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:12402; CHEBI:7840; CHEBI:14328; CHEBI:16856; CHEBI:5437;
+    CHEBI:6766; CHEBI:24334; CHEBI:14327; CHEBI:32887; CHEBI:24336; CHEBI:41215; CHEBI:41218;
+    CHEBI:58297; CHEBI:43132; CHEBI:14720; CHEBI:17858; CHEBI:43049; CHEBI:42832;
+    CHEBI:42873; CHEBI:43136; CHEBI:57925
+
+    KEGG IDs: KEGG:C00051; KEGG:C00928; KEGG:C00127'
+- id: sabiork_376_ECunknown_Oryza_sativa_P55142_Reduced_glutathione
+  name: Reaction catalyzed by glutathione peroxidase on Reduced glutathione
+  equation: Reduced glutathione + H2O2 = Oxidized glutathione + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Reduced_glutathione
+  products:
+  - species_id: product_Oxidized_glutathione
+  modifiers:
+  - species_id: protein_unknown_P55142_p49021
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 16833;16834;16835;16836
+  KEGGid: R00274
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:12402; CHEBI:13354; CHEBI:44819; CHEBI:7840;
+    CHEBI:41981; CHEBI:29192; CHEBI:24637; CHEBI:14328; CHEBI:16856; CHEBI:5437; CHEBI:42857;
+    CHEBI:41979; CHEBI:24334; CHEBI:14327; CHEBI:16240; CHEBI:24336; CHEBI:13355;
+    CHEBI:42043; CHEBI:58297; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377;
+    CHEBI:13352; CHEBI:14720; CHEBI:43228; CHEBI:17858; CHEBI:44292; CHEBI:43049;
+    CHEBI:33806; CHEBI:10743; CHEBI:44812; CHEBI:5585; CHEBI:29374; CHEBI:42832; CHEBI:42873;
+    CHEBI:57925; CHEBI:5586; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00051; KEGG:C00001; KEGG:C00127; KEGG:C00027'
+- id: sabiork_10590_ECunknown_Oryza_sativa_P55142_Reduced_glutathione
+  name: Reaction catalyzed by glutathione peroxidase on Reduced glutathione
+  equation: Reduced glutathione + t-Butylhydroperoxide = Oxidized glutathione + t-Butanol
+    + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Reduced_glutathione
+  - species_id: substrate_t-Butylhydroperoxide
+  products:
+  - species_id: product_Oxidized_glutathione
+  - species_id: product_t-Butanol
+  modifiers:
+  - species_id: protein_unknown_P55142_p49023
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:12402; CHEBI:7840; CHEBI:26877; CHEBI:44819;
+    CHEBI:41981; CHEBI:14328; CHEBI:16856; CHEBI:5437; CHEBI:42857; CHEBI:41979; CHEBI:24334;
+    CHEBI:14327; CHEBI:24336; CHEBI:42043; CHEBI:64090; CHEBI:58297; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:14720; CHEBI:17858;
+    CHEBI:45895; CHEBI:43228; CHEBI:44292; CHEBI:43049; CHEBI:33806; CHEBI:10743;
+    CHEBI:42832; CHEBI:5585; CHEBI:45893; CHEBI:29374; CHEBI:42873; CHEBI:57925; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C00051; KEGG:C21389; KEGG:C00001; KEGG:C00127'
+measurements:
+- id: measurement_unknown_Oryza_sativa_P55142_Cumene_hydroperoxide
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_unknown_Oryza_sativa_P55142_Reduced_glutathione
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.8
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_unknown_Oryza_sativa_P55142_Reduced_glutathione
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_unknown_Oryza_sativa_P55142_Reduced_glutathione
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: unknown_Oryza_sativa_P55142_Cumene_hydroperoxide_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00029
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cumene_hydroperoxide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '12207894'
+- id: unknown_Oryza_sativa_P55142_Cumene_hydroperoxide_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000641667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cumene_hydroperoxide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '12207894'
+- id: unknown_Oryza_sativa_P55142_Cumene_hydroperoxide_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.166667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cumene_hydroperoxide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '12207894'
+- id: unknown_Oryza_sativa_P55142_Reduced_glutathione_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00267
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Reduced_glutathione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.8
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '12207894'
+- id: unknown_Oryza_sativa_P55142_Reduced_glutathione_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.0555
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Reduced_glutathione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.8
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '12207894'
+- id: unknown_Oryza_sativa_P55142_Reduced_glutathione_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.833333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Reduced_glutathione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '12207894'
+- id: unknown_Oryza_sativa_P55142_Reduced_glutathione_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00058
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Reduced_glutathione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '12207894'
+- id: unknown_Oryza_sativa_P55142_Reduced_glutathione_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.001041667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Reduced_glutathione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '12207894'
+- id: unknown_Oryza_sativa_P55142_Reduced_glutathione_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00031
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Reduced_glutathione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '12207894'
+- id: unknown_Oryza_sativa_P55142_Reduced_glutathione_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.8333333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Reduced_glutathione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '12207894'
+- id: unknown_Oryza_sativa_P55142_Reduced_glutathione_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.00028
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Reduced_glutathione
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '12207894'
+buffer:
+  buffer: 45 mM Tris-HCl, 1.8 mM EDTA, 4.5 ¦ÌM BSA, 270 ¦ÌM NADPH, 0.9 ¦ÌM Glutathione
+    reductase; 50 mM Hepes, 1 ¦ÌM Glutathione reductase, 0.3 mM NADPH
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 49022
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12207894/
+  pubmed_id: '12207894'
+  doi: null
+name: Merged entry for P55142 wildtype
+description: 'Merged from 4 files: SABIO_Oryza_sativa__P55142_s_Cumene.yaml, SABIO_Oryza_sativa__P55142_s_Reduced.yaml,
+  SABIO_Oryza_sativa__P55142_s_Reduced_2.yaml, SABIO_Oryza_sativa__P55142_s_Reduced_3.yaml'

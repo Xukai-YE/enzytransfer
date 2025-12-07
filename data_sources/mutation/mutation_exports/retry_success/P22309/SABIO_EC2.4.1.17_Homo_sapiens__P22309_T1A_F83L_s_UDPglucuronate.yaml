@@ -1,0 +1,157 @@
+name: SABIO-RK Entry 56085
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 56085
+created: '2025-10-28T16:14:45.261900'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_4_1_17_P22309_p56085
+  name: glucuronosyltransferase
+  ecnumber: 2.4.1.17
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: T1A; F83L
+  uniprotid: P22309
+  wildtype_sequence: MAVESQGGRPLVLGLLLCVLGPVVSHAGKILLIPVDGSHWLSMLGAIQQLQQRGHEIVVLAPDASLYIRDGAFYTLKTYPVPFQREDVKESFVSLGHNVFENDSFLQRVIKTYKKIKKDSAMLLSGCSHLLHNKELMASLAESSFDVMLTDPFLPCSPIVAQYLSLPTVFFLHALPCSLEFEATQCPNPFSYVPRPLSSHSDHMTFLQRVKNMLIAFSQNFLCDVVYSPYATLASEFLQREVTVQDLLSSASVWLFRSDFVKDYPRPIMPNMVFVGGINCLHQNPLSQEFEAYINASGEHGIVVFSLGSMVSEIPEKKAMAIADALGKIPQTVLWRYTGTRPSNLANNTILVKWLPQNDLLGHPMTRAFITHAGSHGVYESICNGVPMVMMPLFGDQMDNAKRMETKGAGVTLNVLEMTSEDLENALKAVINDKSYKENIMRLSSLHKDRPVEPLDLAVFWVEFVMRHKGAPHLRPAAHDLTWYQYHSLDVIGFLLAVVLTVAFITFKCCAYGYRKCLGKKGRVKKAHKSKTH
+  mutant_sequence: MAVESQGGRPLVLGLLLCVLGPVVSHAGKILLIPVDGSHWLSMLGAIQQLQQRGHEIVVLAPDASLYIRDGAFYTLKTYPVPFQREDVKESFVSLGHNVFENDSFLQRVIKTYKKIKKDSAMLLSGCSHLLHNKELMASLAESSFDVMLTDPFLPCSPIVAQYLSLPTVFFLHALPCSLEFEATQCPNPFSYVPRPLSSHSDHMTFLQRVKNMLIAFSQNFLCDVVYSPYATLASEFLQREVTVQDLLSSASVWLFRSDFVKDYPRPIMPNMVFVGGINCLHQNPLSQEFEAYINASGEHGIVVFSLGSMVSEIPEKKAMAIADALGKIPQTVLWRYTGTRPSNLANNTILVKWLPQNDLLGHPMTRAFITHAGSHGVYESICNGVPMVMMPLFGDQMDNAKRMETKGAGVALNVLEMTSEDLENALKAVINDKSYKENIMRLSSLHKDRPVEPLDLAVFWVEFVMRHKGAPHLRPAAHDLTWYQYHSLDVIGLLLAVVLTVAFITFKCCAYGYRKCLGKKGRVKKAHKSKTH
+  position_offset: 411
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_UDPglucuronate
+  name: UDPglucuronate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_4-Methylumbelliferone
+  name: 4-Methylumbelliferone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4-Methylumbelliferone_glucuronide
+  name: 4-Methylumbelliferone glucuronide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_UDP
+  name: UDP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_10078_EC2_4_1_17_Homo_sapiens_P22309_UDPglucuronate
+  name: Reaction catalyzed by glucuronosyltransferase on UDPglucuronate
+  equation: UDPglucuronate + 4-Methylumbelliferone = UDP + 4-Methylumbelliferone glucuronide
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_UDPglucuronate
+  - species_id: substrate_4-Methylumbelliferone
+  products:
+  - species_id: product_4-Methylumbelliferone_glucuronide
+  - species_id: product_UDP
+  modifiers:
+  - species_id: protein_2_4_1_17_P22309_p56085
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:1903; CHEBI:46402; CHEBI:13506; CHEBI:17224; CHEBI:22104;
+    CHEBI:13489; CHEBI:46309; CHEBI:13445; CHEBI:17200; CHEBI:9846; CHEBI:58052; CHEBI:27230;
+    CHEBI:58223; CHEBI:17659; CHEBI:1904; CHEBI:144582; CHEBI:20452; CHEBI:12030;
+    CHEBI:9802; CHEBI:110550
+
+    KEGG IDs: KEGG:C00015; KEGG:C11584; KEGG:C00167; KEGG:C03081'
+measurements:
+- id: measurement_2_4_1_17_Homo_sapiens_P22309_UDPglucuronate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 2_4_1_17_Homo_sapiens_P22309_UDPglucuronate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 4.833333e-10
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDPglucuronate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18004206'
+buffer:
+  buffer: 0.1 M phosphate, 4 mM MgCl2
+  buffer_concentration: 0.1 M
+references:
+- title: Reference for SABIO-RK entry 56085
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/18004206/
+  pubmed_id: '18004206'
+  doi: null

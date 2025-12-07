@@ -1,0 +1,348 @@
+version: '2.0'
+created: '2025-11-20T13:39:29.051784'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_10_3_2_O68054_p69486
+  name: laccase
+  ecnumber: 1.10.3.2
+  organism: Rhodobacter capsulatus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: O68054
+  wildtype_sequence: MTQLSRRGFLAASAAFAALPLVPARARAAADSFSLTATTRVIEVNGRAATVMGLLDAQGRSGLRLDPGQRFRTDLTNALDIETIVHWHGQIPPNAQDGVPNTNPMLKPGQTRSFDFEARPGTFWMHSHIPDQEIGLLAAPLIVRRPEELAEDRQEVVMLLHDFAFATPQEVLETVSGGTAMDHGAMDHSATPMQGMDGMADMMSLPGMAEMHAAMEGGLSMDLNDYEFDAYLANDRTLADPEVVRVENGGRLRLRVIDGASMTAFWIDTGAAAARLVAVDGNPVVPLPGRRFAISPGQRLDIEIDLVEDGTAVPILALREGTRERTGLILAPKGAAVPKLADVSDEPHPAVSGDMAQEMALRAVTPLAPRPATAQPMVMLTGSMLPYQWTIDGRSWDNRRPIGAKSGERVEMMFHNMSMMAHPMHLHGHVFQVIAVNGTRIAGALRDTVSVPPMGSVTVALDAGEAAPWMLHCHHMGHLATGMMTEFVVSA
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_2
+  name: '2'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_3-Dihydroxybenzoate
+  name: 3-Dihydroxybenzoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Oxidized_donor
+  name: Oxidized donor
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Cu2_
+  name: Cu2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_6-Dimethoxyphenol
+  name: 6-Dimethoxyphenol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Syringic_acid
+  name: Syringic acid
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Fe2_
+  name: Fe2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Fe3_
+  name: Fe3+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_15774_EC1_10_3_2_Rhodobacter_capsulatus_O68054_2
+  name: Reaction catalyzed by laccase on 2
+  equation: O2 + 2,3-Dihydroxybenzoate = H2O + Oxidized donor
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2
+  - species_id: substrate_3-Dihydroxybenzoate
+  - species_id: substrate_O2
+  products:
+  - species_id: product_Oxidized_donor
+  modifiers:
+  - species_id: protein_1_10_3_2_O68054_p69486
+    role: BIOCATALYST
+  - species_id: activator_Cu2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:18026;
+    CHEBI:49550; CHEBI:26689; CHEBI:42857; CHEBI:41979; CHEBI:885; CHEBI:23833; CHEBI:13416;
+    CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352;
+    CHEBI:41901; CHEBI:36654; CHEBI:15379; CHEBI:19320; CHEBI:19319; CHEBI:43228;
+    CHEBI:44292; CHEBI:30491; CHEBI:33806; CHEBI:20882; CHEBI:25366; CHEBI:44742;
+    CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:29793; CHEBI:7860; CHEBI:11427; CHEBI:17654;
+    CHEBI:29036; CHEBI:10745; CHEBI:29373; CHEBI:44701; CHEBI:23380
+
+    KEGG IDs: KEGG:C00196; KEGG:C00070; KEGG:C00001; KEGG:C00704; KEGG:C00007; KEGG:C00028'
+- id: sabiork_12789_EC1_10_3_2_Rhodobacter_capsulatus_O68054_O2
+  name: Reaction catalyzed by laccase on O2
+  equation: O2 + 2,6-Dimethoxyphenol = Oxidized donor + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_2
+  - species_id: substrate_6-Dimethoxyphenol
+  products:
+  - species_id: product_Oxidized_donor
+  modifiers:
+  - species_id: protein_1_10_3_2_O68054_p69484
+    role: BIOCATALYST
+  - species_id: activator_Cu2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:49550;
+    CHEBI:26689; CHEBI:42857; CHEBI:41979; CHEBI:23833; CHEBI:13416; CHEBI:42043;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:15379;
+    CHEBI:955; CHEBI:43228; CHEBI:44292; CHEBI:30491; CHEBI:33806; CHEBI:20882; CHEBI:25366;
+    CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:29793; CHEBI:7860; CHEBI:17654;
+    CHEBI:29036; CHEBI:10745; CHEBI:29373; CHEBI:44701; CHEBI:23380
+
+    KEGG IDs: KEGG:C10787; KEGG:C00070; KEGG:C00001; KEGG:C00704; KEGG:C00007; KEGG:C00028'
+- id: sabiork_15773_EC1_10_3_2_Rhodobacter_capsulatus_O68054_O2
+  name: Reaction catalyzed by laccase on O2
+  equation: O2 + Syringic acid = H2O + Oxidized donor
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_Syringic_acid
+  products:
+  - species_id: product_Oxidized_donor
+  modifiers:
+  - species_id: protein_1_10_3_2_O68054_p69485
+    role: BIOCATALYST
+  - species_id: activator_Cu2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:68329;
+    CHEBI:49550; CHEBI:26689; CHEBI:42857; CHEBI:41979; CHEBI:132111; CHEBI:23833;
+    CHEBI:13416; CHEBI:9379; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377;
+    CHEBI:13352; CHEBI:15379; CHEBI:43228; CHEBI:44292; CHEBI:30491; CHEBI:33806;
+    CHEBI:20882; CHEBI:25366; CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:29793;
+    CHEBI:7860; CHEBI:17654; CHEBI:29036; CHEBI:10745; CHEBI:29373; CHEBI:44701; CHEBI:23380
+
+    KEGG IDs: KEGG:C00070; KEGG:C00001; KEGG:C10833; KEGG:C00704; KEGG:C00007; KEGG:C00028'
+- id: sabiork_665_EC1_16_3_1_Rhodobacter_capsulatus_O68054_O2
+  name: Reaction catalyzed by ferroxidase on O2
+  equation: Fe2+ + H+ + O2 = Fe3+ + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_Fe2_
+  products:
+  - species_id: product_Fe3_
+  modifiers:
+  - species_id: protein_1_16_3_1_O68054_p69487
+    role: BIOCATALYST
+  - species_id: activator_Cu2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 11148;11149;11150;11151;11436;11437;11438;11439
+  KEGGid: R00078
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:34755;
+    CHEBI:29033; CHEBI:49595; CHEBI:34754; CHEBI:49550; CHEBI:26689; CHEBI:21129;
+    CHEBI:42857; CHEBI:21130; CHEBI:41979; CHEBI:29234; CHEBI:13357; CHEBI:23833;
+    CHEBI:13416; CHEBI:42043; CHEBI:24636; CHEBI:29233; CHEBI:33811; CHEBI:5584; CHEBI:33813;
+    CHEBI:27313; CHEBI:15377; CHEBI:13319; CHEBI:13320; CHEBI:13352; CHEBI:15379;
+    CHEBI:24877; CHEBI:24876; CHEBI:43228; CHEBI:44292; CHEBI:30491; CHEBI:33806;
+    CHEBI:20882; CHEBI:25366; CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:15378; CHEBI:10743;
+    CHEBI:29793; CHEBI:7860; CHEBI:29036; CHEBI:10745; CHEBI:13321; CHEBI:29034; CHEBI:10744;
+    CHEBI:29373; CHEBI:44701; CHEBI:49599; CHEBI:23380
+
+    KEGG IDs: KEGG:C14819; KEGG:C14818; KEGG:C00070; KEGG:C00080; KEGG:C00001; KEGG:C00704;
+    KEGG:C00007'
+measurements:
+- id: measurement_1_10_3_2_Rhodobacter_capsulatus_O68054_2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.7
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_10_3_2_Rhodobacter_capsulatus_O68054_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.7
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_10_3_2_Rhodobacter_capsulatus_O68054_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.7
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_16_3_1_Rhodobacter_capsulatus_O68054_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.7
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_10_3_2_Rhodobacter_capsulatus_O68054_2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00015
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.7
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16487321'
+- id: 1_10_3_2_Rhodobacter_capsulatus_O68054_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00102
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.7
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16487321'
+- id: 1_10_3_2_Rhodobacter_capsulatus_O68054_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00059
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.7
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16487321'
+- id: 1_16_3_1_Rhodobacter_capsulatus_O68054_O2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.2833333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.7
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16487321'
+buffer:
+  buffer: 0.1 M Tris-HCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 69486
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16487321/
+  pubmed_id: '16487321'
+  doi: null
+name: Merged entry for O68054 wildtype
+description: 'Merged from 4 files: SABIO_EC1.10.3.2_Rhodobacter_capsulatus__O68054_s_2.yaml,
+  SABIO_EC1.10.3.2_Rhodobacter_capsulatus__O68054_s_O2.yaml, SABIO_EC1.10.3.2_Rhodobacter_capsulatus__O68054_s_O2_2.yaml,
+  SABIO_EC1.16.3.1_Rhodobacter_capsulatus__O68054_s_O2.yaml'

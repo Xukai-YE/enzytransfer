@@ -1,0 +1,705 @@
+version: '2.0'
+created: '2025-11-20T13:40:11.481386'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_4_1_326_Q9L4U6_p58330
+  name: aklavinone 7-L-rhodosaminyltransferase
+  ecnumber: 2.4.1.326
+  organism: Streptomyces galilaeus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9L4U6
+  wildtype_sequence: MRVLLTSFALDAHFNGSVPLAWALRAAGHEVRVASQPALTASITAAGLTAVPVGADPRLDEMVKGVGDAVLSHHADQSLDADTPGQLTPAFLQGWDTMMTATFYTLINDDPMVDDLVAFARGWEPDLILWEPFTFAGAVAAKVTGAAHARLLSFPDLFMSMRRAYLAQLGAAPAGPAGGNGTTHPDDSLGQWLEWTLGRYGVPFDEEAVTGQWSVDQVPRSFRPPSDRPVVGMRYVPYNGPGPAVVPDWLRVPPTRPRVCVTLGMTARTSEFPNAVPVDLVLKAVEGLDIEVVATLDAEERALLTHVPDNVRLVDHVPLHALLPTCAAIVHHGGAGTWSTALVEGVPQIAMGWIWDAIDRAQRQQALGAGLHLPSHEVTVEGLRGRLVRLLDEPSFTAAAARLRAEAESEPTPAQVVPVLERLTAQHRAREPRRPGGTSPCVS
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Aklavinone
+  name: Aklavinone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_dTDP-2-deoxyfucose
+  name: dTDP-2-deoxyfucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_dTDP
+  name: dTDP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Deoxyfucosyl-aklavinone
+  name: 2-Deoxyfucosyl-aklavinone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_AknT
+  name: AknT
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_dTDP-4-amino-2-deoxyrhamnose
+  name: dTDP-4-amino-2-deoxyrhamnose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4-Amino-2-deoxyrhamnosyl-aklavinone
+  name: 4-Amino-2-deoxyrhamnosyl-aklavinone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_epsilon-Rhodomycinone
+  name: epsilon-Rhodomycinone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Deoxyfucosyl-epsilon-rhodomycinone
+  name: 2-Deoxyfucosyl-epsilon-rhodomycinone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_14313_EC2_4_1_326_Streptomyces_galilaeus_Q9L4U6_Aklavinone
+  name: Reaction catalyzed by aklavinone 7-L-rhodosaminyltransferase on Aklavinone
+  equation: Aklavinone + dTDP-2-deoxyfucose = dTDP + 2-Deoxyfucosyl-aklavinone
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Aklavinone
+  - species_id: substrate_dTDP-2-deoxyfucose
+  products:
+  - species_id: product_dTDP
+  - species_id: product_2-Deoxyfucosyl-aklavinone
+  modifiers:
+  - species_id: protein_2_4_1_326_Q9L4U6_p58330
+    role: BIOCATALYST
+  - species_id: activator_AknT
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:31181; CHEBI:10500; CHEBI:14077; CHEBI:26998; CHEBI:46061;
+    CHEBI:58369; CHEBI:18075
+
+    KEGG IDs: KEGG:C12424; KEGG:C00363'
+- id: sabiork_14313_EC2_4_1_326_Streptomyces_galilaeus_Q9L4U6_Aklavinone
+  name: Reaction catalyzed by aklavinone 7-L-rhodosaminyltransferase on Aklavinone
+  equation: Aklavinone + dTDP-2-deoxyfucose = dTDP + 2-Deoxyfucosyl-aklavinone
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Aklavinone
+  - species_id: substrate_dTDP-2-deoxyfucose
+  products:
+  - species_id: product_dTDP
+  - species_id: product_2-Deoxyfucosyl-aklavinone
+  modifiers:
+  - species_id: protein_2_4_1_326_Q9L4U6_p58337
+    role: BIOCATALYST
+  - species_id: activator_AknT
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:31181; CHEBI:10500; CHEBI:14077; CHEBI:26998; CHEBI:46061;
+    CHEBI:58369; CHEBI:18075
+
+    KEGG IDs: KEGG:C12424; KEGG:C00363'
+- id: sabiork_14313_EC2_4_1_326_Streptomyces_galilaeus_Q9L4U6_Aklavinone
+  name: Reaction catalyzed by aklavinone 7-L-rhodosaminyltransferase on Aklavinone
+  equation: Aklavinone + dTDP-2-deoxyfucose = dTDP + 2-Deoxyfucosyl-aklavinone
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Aklavinone
+  - species_id: substrate_dTDP-2-deoxyfucose
+  products:
+  - species_id: product_2-Deoxyfucosyl-aklavinone
+  - species_id: product_dTDP
+  modifiers:
+  - species_id: protein_2_4_1_326_Q9L4U6_p58335
+    role: BIOCATALYST
+  - species_id: activator_AknT
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:31181; CHEBI:10500; CHEBI:14077; CHEBI:26998; CHEBI:46061;
+    CHEBI:58369; CHEBI:18075
+
+    KEGG IDs: KEGG:C12424; KEGG:C00363'
+- id: sabiork_14314_EC2_4_1_326_Streptomyces_galilaeus_Q9L4U6_Aklavinone
+  name: Reaction catalyzed by aklavinone 7-L-rhodosaminyltransferase on Aklavinone
+  equation: Aklavinone + dTDP-4-amino-2-deoxyrhamnose = dTDP + 4-Amino-2-deoxyrhamnosyl-aklavinone
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Aklavinone
+  - species_id: substrate_dTDP-4-amino-2-deoxyrhamnose
+  products:
+  - species_id: product_dTDP
+  - species_id: product_4-Amino-2-deoxyrhamnosyl-aklavinone
+  modifiers:
+  - species_id: protein_2_4_1_326_Q9L4U6_p58331
+    role: BIOCATALYST
+  - species_id: activator_AknT
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:31181; CHEBI:10500; CHEBI:14077; CHEBI:26998; CHEBI:46061;
+    CHEBI:58369; CHEBI:18075
+
+    KEGG IDs: KEGG:C12424; KEGG:C00363'
+- id: sabiork_14313_EC2_4_1_326_Streptomyces_galilaeus_Q9L4U6_Aklavinone
+  name: Reaction catalyzed by aklavinone 7-L-rhodosaminyltransferase on Aklavinone
+  equation: Aklavinone + dTDP-2-deoxyfucose = dTDP + 2-Deoxyfucosyl-aklavinone
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Aklavinone
+  - species_id: substrate_dTDP-2-deoxyfucose
+  products:
+  - species_id: product_dTDP
+  - species_id: product_2-Deoxyfucosyl-aklavinone
+  modifiers:
+  - species_id: protein_2_4_1_326_Q9L4U6_p58338
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:31181; CHEBI:10500; CHEBI:14077; CHEBI:26998; CHEBI:46061;
+    CHEBI:58369; CHEBI:18075
+
+    KEGG IDs: KEGG:C12424; KEGG:C00363'
+- id: sabiork_14313_EC2_4_1_326_Streptomyces_galilaeus_Q9L4U6_dTDP-2-deoxyfucose
+  name: Reaction catalyzed by aklavinone 7-L-rhodosaminyltransferase on dTDP-2-deoxyfucose
+  equation: Aklavinone + dTDP-2-deoxyfucose = dTDP + 2-Deoxyfucosyl-aklavinone
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_dTDP-2-deoxyfucose
+  - species_id: substrate_Aklavinone
+  products:
+  - species_id: product_2-Deoxyfucosyl-aklavinone
+  - species_id: product_dTDP
+  modifiers:
+  - species_id: protein_2_4_1_326_Q9L4U6_p58329
+    role: BIOCATALYST
+  - species_id: activator_AknT
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:31181; CHEBI:10500; CHEBI:14077; CHEBI:26998; CHEBI:46061;
+    CHEBI:58369; CHEBI:18075
+
+    KEGG IDs: KEGG:C12424; KEGG:C00363'
+- id: sabiork_14313_EC2_4_1_326_Streptomyces_galilaeus_Q9L4U6_dTDP-2-deoxyfucose
+  name: Reaction catalyzed by aklavinone 7-L-rhodosaminyltransferase on dTDP-2-deoxyfucose
+  equation: Aklavinone + dTDP-2-deoxyfucose = dTDP + 2-Deoxyfucosyl-aklavinone
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_dTDP-2-deoxyfucose
+  - species_id: substrate_Aklavinone
+  products:
+  - species_id: product_2-Deoxyfucosyl-aklavinone
+  - species_id: product_dTDP
+  modifiers:
+  - species_id: protein_2_4_1_326_Q9L4U6_p58336
+    role: BIOCATALYST
+  - species_id: activator_AknT
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:31181; CHEBI:10500; CHEBI:14077; CHEBI:26998; CHEBI:46061;
+    CHEBI:58369; CHEBI:18075
+
+    KEGG IDs: KEGG:C12424; KEGG:C00363'
+- id: sabiork_14315_EC2_4_1_326_Streptomyces_galilaeus_Q9L4U6_dTDP-2-deoxyfucose
+  name: Reaction catalyzed by aklavinone 7-L-rhodosaminyltransferase on dTDP-2-deoxyfucose
+  equation: epsilon-Rhodomycinone + dTDP-2-deoxyfucose = dTDP + 2-Deoxyfucosyl-epsilon-rhodomycinone
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_dTDP-2-deoxyfucose
+  - species_id: substrate_epsilon-Rhodomycinone
+  products:
+  - species_id: product_2-Deoxyfucosyl-epsilon-rhodomycinone
+  - species_id: product_dTDP
+  modifiers:
+  - species_id: protein_2_4_1_326_Q9L4U6_p58334
+    role: BIOCATALYST
+  - species_id: activator_AknT
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:10500; CHEBI:14077; CHEBI:26998; CHEBI:46061; CHEBI:58369;
+    CHEBI:18075
+
+    KEGG IDs: KEGG:C00363; KEGG:C12425'
+- id: sabiork_14314_EC2_4_1_326_Streptomyces_galilaeus_Q9L4U6_dTDP-4-amino-2-deoxyrhamnose
+  name: Reaction catalyzed by aklavinone 7-L-rhodosaminyltransferase on dTDP-4-amino-2-deoxyrhamnose
+  equation: Aklavinone + dTDP-4-amino-2-deoxyrhamnose = dTDP + 4-Amino-2-deoxyrhamnosyl-aklavinone
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_dTDP-4-amino-2-deoxyrhamnose
+  - species_id: substrate_Aklavinone
+  products:
+  - species_id: product_dTDP
+  - species_id: product_4-Amino-2-deoxyrhamnosyl-aklavinone
+  modifiers:
+  - species_id: protein_2_4_1_326_Q9L4U6_p58332
+    role: BIOCATALYST
+  - species_id: activator_AknT
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:31181; CHEBI:10500; CHEBI:14077; CHEBI:26998; CHEBI:46061;
+    CHEBI:58369; CHEBI:18075
+
+    KEGG IDs: KEGG:C12424; KEGG:C00363'
+- id: sabiork_14315_EC2_4_1_326_Streptomyces_galilaeus_Q9L4U6_epsilon-Rhodomycinone
+  name: Reaction catalyzed by aklavinone 7-L-rhodosaminyltransferase on epsilon-Rhodomycinone
+  equation: epsilon-Rhodomycinone + dTDP-2-deoxyfucose = dTDP + 2-Deoxyfucosyl-epsilon-rhodomycinone
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_epsilon-Rhodomycinone
+  - species_id: substrate_dTDP-2-deoxyfucose
+  products:
+  - species_id: product_dTDP
+  - species_id: product_2-Deoxyfucosyl-epsilon-rhodomycinone
+  modifiers:
+  - species_id: protein_2_4_1_326_Q9L4U6_p58333
+    role: BIOCATALYST
+  - species_id: activator_AknT
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:10500; CHEBI:14077; CHEBI:26998; CHEBI:46061; CHEBI:58369;
+    CHEBI:18075
+
+    KEGG IDs: KEGG:C00363; KEGG:C12425'
+measurements:
+- id: measurement_2_4_1_326_Streptomyces_galilaeus_Q9L4U6_Aklavinone
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_4_1_326_Streptomyces_galilaeus_Q9L4U6_Aklavinone
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_4_1_326_Streptomyces_galilaeus_Q9L4U6_Aklavinone
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_4_1_326_Streptomyces_galilaeus_Q9L4U6_Aklavinone
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_4_1_326_Streptomyces_galilaeus_Q9L4U6_Aklavinone
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_4_1_326_Streptomyces_galilaeus_Q9L4U6_dTDP-2-deoxyfucose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_4_1_326_Streptomyces_galilaeus_Q9L4U6_dTDP-2-deoxyfucose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_4_1_326_Streptomyces_galilaeus_Q9L4U6_dTDP-2-deoxyfucose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_4_1_326_Streptomyces_galilaeus_Q9L4U6_dTDP-4-amino-2-deoxyrhamnose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_4_1_326_Streptomyces_galilaeus_Q9L4U6_epsilon-Rhodomycinone
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_4_1_326_Streptomyces_galilaeus_Q9L4U6_Aklavinone_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0002878
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Aklavinone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15911373'
+- id: 2_4_1_326_Streptomyces_galilaeus_Q9L4U6_Aklavinone_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.003666667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Aklavinone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15911373'
+- id: 2_4_1_326_Streptomyces_galilaeus_Q9L4U6_Aklavinone_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.12e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Aklavinone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15911373'
+- id: 2_4_1_326_Streptomyces_galilaeus_Q9L4U6_Aklavinone_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.2e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Aklavinone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15911373'
+- id: 2_4_1_326_Streptomyces_galilaeus_Q9L4U6_Aklavinone_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.002833333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Aklavinone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15911373'
+- id: 2_4_1_326_Streptomyces_galilaeus_Q9L4U6_Aklavinone_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0004072
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Aklavinone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15911373'
+- id: 2_4_1_326_Streptomyces_galilaeus_Q9L4U6_Aklavinone_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 8.33333e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Aklavinone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15911373'
+- id: 2_4_1_326_Streptomyces_galilaeus_Q9L4U6_dTDP-2-deoxyfucose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.003666667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_dTDP-2-deoxyfucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15911373'
+- id: 2_4_1_326_Streptomyces_galilaeus_Q9L4U6_dTDP-2-deoxyfucose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.5e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_dTDP-2-deoxyfucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15911373'
+- id: 2_4_1_326_Streptomyces_galilaeus_Q9L4U6_dTDP-2-deoxyfucose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.72e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_dTDP-2-deoxyfucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15911373'
+- id: 2_4_1_326_Streptomyces_galilaeus_Q9L4U6_dTDP-2-deoxyfucose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000156
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_dTDP-2-deoxyfucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15911373'
+- id: 2_4_1_326_Streptomyces_galilaeus_Q9L4U6_dTDP-2-deoxyfucose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.001366667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_dTDP-2-deoxyfucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15911373'
+- id: 2_4_1_326_Streptomyces_galilaeus_Q9L4U6_dTDP-4-amino-2-deoxyrhamnose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.1e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_dTDP-4-amino-2-deoxyrhamnose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15911373'
+- id: 2_4_1_326_Streptomyces_galilaeus_Q9L4U6_dTDP-4-amino-2-deoxyrhamnose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.002833333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_dTDP-4-amino-2-deoxyrhamnose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15911373'
+- id: 2_4_1_326_Streptomyces_galilaeus_Q9L4U6_epsilon-Rhodomycinone_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.001366667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_epsilon-Rhodomycinone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15911373'
+- id: 2_4_1_326_Streptomyces_galilaeus_Q9L4U6_epsilon-Rhodomycinone_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.6e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_epsilon-Rhodomycinone
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15911373'
+buffer:
+  buffer: 75 mM Tris, 10 mM MgCl2, 10% [v/v] DMSO
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 58330
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15911373/
+  pubmed_id: '15911373'
+  doi: null
+name: Merged entry for Q9L4U6 wildtype
+description: 'Merged from 10 files: SABIO_EC2.4.1.326_Streptomyces_galilaeus__Q9L4U6_s_Aklavinone.yaml,
+  SABIO_EC2.4.1.326_Streptomyces_galilaeus__Q9L4U6_s_Aklavinone_4.yaml, SABIO_EC2.4.1.326_Streptomyces_galilaeus__Q9L4U6_s_Aklavinone_3.yaml,
+  SABIO_EC2.4.1.326_Streptomyces_galilaeus__Q9L4U6_s_Aklavinone_2.yaml, SABIO_EC2.4.1.326_Streptomyces_galilaeus__Q9L4U6_s_Aklavinone_5.yaml,
+  SABIO_EC2.4.1.326_Streptomyces_galilaeus__Q9L4U6_s_dTDP-2-deoxyfucose.yaml, SABIO_EC2.4.1.326_Streptomyces_galilaeus__Q9L4U6_s_dTDP-2-deoxyfucose_3.yaml,
+  SABIO_EC2.4.1.326_Streptomyces_galilaeus__Q9L4U6_s_dTDP-2-deoxyfucose_2.yaml, SABIO_EC2.4.1.326_Streptomyces_galilaeus__Q9L4U6_s_dTDP-4-amino-2-deoxy.yaml,
+  SABIO_EC2.4.1.326_Streptomyces_galilaeus__Q9L4U6_s_epsilon-Rhodomycinon.yaml'

@@ -1,0 +1,156 @@
+name: SABIO-RK Entry 56539
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 56539
+created: '2025-10-28T16:16:30.176194'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_5_4_2_11_P00950_p56539
+  name: phosphoglycerate mutase (2,3-diphosphoglycerate-independent)
+  sequence: null
+  ecnumber: 5.4.2.11
+  organism: Saccharomyces cerevisiae
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: m1p
+  uniprotid: P00950
+  mutant_sequence: PPKLVLVRHGQSEWNEKNLFTGWVDVKLSAKGQQEAARAGELLKEKKVYPDVLYTSKLSRAIQTANIALEKADRLWIPVNRSWRLNERHYGDLQGKDKAETLKKFGEEKFNTYRRSFDVPPPPIDASSPFSQKGDERYKYVDPNVLPETESLALVIDRLLPYWQDVIAKDLLSGKTVMIAAHGNSLRGLVKHLEGISDADIAKLNIPTGIPLVFELDENLKPSKPSYYLDPEAAAAGAAAVANQGKK
+  position_offset: 0
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_2-Phospho-D-glycerate
+  name: 2-Phospho-D-glycerate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3-Phospho-D-glycerate
+  name: 3-Phospho-D-glycerate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7641_EC5_4_2_11_Saccharomyces_cerevisiae_P00950_2-Phospho-D-glycerate
+  name: Reaction catalyzed by phosphoglycerate mutase (2,3-diphosphoglycerate-independent)
+    on 2-Phospho-D-glycerate
+  equation: 3-Phospho-D-glycerate = 2-Phospho-D-glycerate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2-Phospho-D-glycerate
+  products:
+  - species_id: product_3-Phospho-D-glycerate
+  modifiers:
+  - species_id: protein_5_4_2_11_P00950_p56539
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 15901;15902;15903;15904
+  KEGGid: R01518
+  notes: 'ChEBI IDs: CHEBI:1657; CHEBI:24344; CHEBI:11882; CHEBI:12987; CHEBI:11880;
+    CHEBI:88352; CHEBI:17835; CHEBI:21028; CHEBI:1267; CHEBI:11651; CHEBI:57998; CHEBI:58272;
+    CHEBI:58289; CHEBI:88005; CHEBI:39868; CHEBI:12986; CHEBI:24345; CHEBI:17050;
+    CHEBI:17794; CHEBI:1659; CHEBI:21029; CHEBI:11879; CHEBI:40016; CHEBI:88350
+
+    KEGG IDs: KEGG:C00197; KEGG:C00631; KEGG:C00597'
+measurements:
+- id: measurement_5_4_2_11_Saccharomyces_cerevisiae_P00950_2-Phospho-D-glycerate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 5_4_2_11_Saccharomyces_cerevisiae_P00950_2-Phospho-D-glycerate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00141
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Phospho-D-glycerate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23831062'
+- id: 5_4_2_11_Saccharomyces_cerevisiae_P00950_2-Phospho-D-glycerate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 400.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Phospho-D-glycerate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '23831062'
+buffer:
+  buffer: 100 mM MES, 100 mM KCl, 0.15 mM NADH, 2 mM mercaptoethanol, 1 mM ATP, 6
+    U glyceraldehyde-3-phosphate dehydrogenase, 9 U triose phosphate isomerase, 2
+    U of phosphoglyceric phosphokinase, 5 mM free Mg2+
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 56539
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/23831062/
+  pubmed_id: '23831062'
+  doi: null

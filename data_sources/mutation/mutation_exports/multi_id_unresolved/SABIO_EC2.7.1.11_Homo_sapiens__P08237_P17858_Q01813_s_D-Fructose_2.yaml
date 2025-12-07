@@ -1,0 +1,165 @@
+name: SABIO-RK Entry 4548
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 4548
+created: '2025-10-28T13:48:13.781096'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_11_P08237_P17858_Q01813_p4548
+  name: 6-phosphofructokinase
+  sequence: null
+  ecnumber: 2.7.1.11
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P08237; P17858; Q01813
+complexes: null
+small_molecules:
+- id: substrate_D-Fructose_6-phosphate
+  name: D-Fructose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Fructose_1
+  name: D-Fructose 1
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_6-bisphosphate
+  name: 6-bisphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1113_EC2_7_1_11_Homo_sapiens_P08237_P17858_Q01813_D-Fructose_6-phosphate
+  name: Reaction catalyzed by 6-phosphofructokinase on D-Fructose 6-phosphate
+  equation: ATP + D-Fructose 6-phosphate = ADP + D-Fructose 1,6-bisphosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Fructose_6-phosphate
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_D-Fructose_1
+  - species_id: product_6-bisphosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_11_P08237_P17858_Q01813_p4548
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00756
+  notes: 'ChEBI IDs: CHEBI:15946; CHEBI:30616; CHEBI:237958; CHEBI:16761; CHEBI:10789;
+    CHEBI:57299; CHEBI:12926; CHEBI:40553; CHEBI:32966; CHEBI:20935; CHEBI:28013;
+    CHEBI:37736; CHEBI:13236; CHEBI:10374; CHEBI:10841; CHEBI:41014; CHEBI:2359; CHEBI:87518;
+    CHEBI:40938; CHEBI:42406; CHEBI:456216; CHEBI:22767; CHEBI:22249; CHEBI:2342;
+    CHEBI:15422; CHEBI:42553; CHEBI:57579; CHEBI:16905; CHEBI:4124; CHEBI:13222; CHEBI:22244
+
+    KEGG IDs: KEGG:C00002; KEGG:C05378; KEGG:C00085; KEGG:C00008; KEGG:C00354'
+measurements:
+- id: measurement_2_7_1_11_Homo_sapiens_P08237_P17858_Q01813_D-Fructose_6-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 2_7_1_11_Homo_sapiens_P08237_P17858_Q01813_D-Fructose_6-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.004
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Fructose_6-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2970843'
+buffer:
+  buffer: 50 mM TES, 0.1 mM NADH
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 4548
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/2970843/
+  pubmed_id: '2970843'
+  doi: null

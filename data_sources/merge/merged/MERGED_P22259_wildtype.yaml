@@ -1,0 +1,1001 @@
+version: '2.0'
+created: '2025-11-20T13:41:27.532009'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_1_1_49_P22259_p68040
+  name: phosphoenolpyruvate carboxykinase (ATP)
+  ecnumber: 4.1.1.49
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P22259
+  wildtype_sequence: MRVNNGLTPQELEAYGISDVHDIVYNPSYDLLYQEELDPSLTGYERGVLTNLGAVAVDTGIFTGRSPKDKYIVRDDTTRDTFWWADKGKGKNDNKPLSPETWQHLKGLVTRQLSGKRLFVVDAFCGANPDTRLSVRFITEVAWQAHFVKNMFIRPSDEELAGFKPDFIVMNGAKCTNPQWKEQGLNSENFVAFNLTERMQLIGGTWYGGEMKKGMFSMMNYLLPLKGIASMHCSANVGEKGDVAVFFGLSGTGKTTLSTDPKRRLIGDDEHGWDDDGVFNFEGGCYAKTIKLSKEAEPEIYNAIRRDALLENVTVREDGTIDFDDGSKTENTRVSYPIYHIDNIVKPVSKAGHATKVIFLTADAFGVLPPVSRLTADQTQYHFLSGFTAKLAGTERGITEPTPTFSACFGAAFLSLHPTQYAEVLVKRMQAAGAQAYLVNTGWNGTGKRISIKDTRAIIDAILNGSLDNAETFTLPMFNLAIPTELPGVDTKILDPRNTYASPEQWQEKAETLAKLFIDNFDKYTDTPAGAALVAAGPKL
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Oxaloacetate
+  name: Oxaloacetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mg2_
+  name: Mg2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Phosphoenolpyruvate
+  name: Phosphoenolpyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Ca2_
+  name: Ca2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mn2_
+  name: Mn2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_151_EC4_1_1_49_Escherichia_coli_P22259_ATP
+  name: Reaction catalyzed by phosphoenolpyruvate carboxykinase (ATP) on ATP
+  equation: Oxaloacetate + ATP = CO2 + ADP + Phosphoenolpyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Oxaloacetate
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_ADP
+  - species_id: product_CO2
+  - species_id: product_Phosphoenolpyruvate
+  modifiers:
+  - species_id: protein_4_1_1_49_P22259_p68040
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 18617;18618;18619;18620
+  KEGGid: R00341
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:24959; CHEBI:16761; CHEBI:10789;
+    CHEBI:57299; CHEBI:13379; CHEBI:40553; CHEBI:139538; CHEBI:44894; CHEBI:58702;
+    CHEBI:26055; CHEBI:16452; CHEBI:6635; CHEBI:18021; CHEBI:8147; CHEBI:3283; CHEBI:13236;
+    CHEBI:12820; CHEBI:10841; CHEBI:2359; CHEBI:14703; CHEBI:23011; CHEBI:87518; CHEBI:49736;
+    CHEBI:40938; CHEBI:25734; CHEBI:26054; CHEBI:13285; CHEBI:13282; CHEBI:456216;
+    CHEBI:25731; CHEBI:22249; CHEBI:2342; CHEBI:30744; CHEBI:15422; CHEBI:13283; CHEBI:18420;
+    CHEBI:44897; CHEBI:13284; CHEBI:7812; CHEBI:16526; CHEBI:25112; CHEBI:48829; CHEBI:24958;
+    CHEBI:13222; CHEBI:22244; CHEBI:14812; CHEBI:39127
+
+    KEGG IDs: KEGG:C00305; KEGG:C00002; KEGG:C00011; KEGG:C00036; KEGG:C00008; KEGG:C00074'
+- id: sabiork_151_EC4_1_1_49_Escherichia_coli_P22259_ATP
+  name: Reaction catalyzed by phosphoenolpyruvate carboxykinase (ATP) on ATP
+  equation: Oxaloacetate + ATP = CO2 + ADP + Phosphoenolpyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Oxaloacetate
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_ADP
+  - species_id: product_CO2
+  - species_id: product_Phosphoenolpyruvate
+  modifiers:
+  - species_id: protein_4_1_1_49_P22259_p68043
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 18617;18618;18619;18620
+  KEGGid: R00341
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:24959; CHEBI:16761; CHEBI:10789;
+    CHEBI:57299; CHEBI:13379; CHEBI:40553; CHEBI:139538; CHEBI:44894; CHEBI:58702;
+    CHEBI:26055; CHEBI:16452; CHEBI:6635; CHEBI:18021; CHEBI:8147; CHEBI:3283; CHEBI:13236;
+    CHEBI:12820; CHEBI:10841; CHEBI:2359; CHEBI:14703; CHEBI:23011; CHEBI:87518; CHEBI:49736;
+    CHEBI:40938; CHEBI:25734; CHEBI:26054; CHEBI:13285; CHEBI:13282; CHEBI:456216;
+    CHEBI:25731; CHEBI:22249; CHEBI:2342; CHEBI:30744; CHEBI:15422; CHEBI:13283; CHEBI:18420;
+    CHEBI:44897; CHEBI:13284; CHEBI:7812; CHEBI:16526; CHEBI:25112; CHEBI:48829; CHEBI:24958;
+    CHEBI:13222; CHEBI:22244; CHEBI:14812; CHEBI:39127
+
+    KEGG IDs: KEGG:C00305; KEGG:C00002; KEGG:C00011; KEGG:C00036; KEGG:C00008; KEGG:C00074'
+- id: sabiork_151_EC4_1_1_49_Escherichia_coli_P22259_ATP
+  name: Reaction catalyzed by phosphoenolpyruvate carboxykinase (ATP) on ATP
+  equation: Oxaloacetate + ATP = CO2 + ADP + Phosphoenolpyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Oxaloacetate
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_CO2
+  - species_id: product_ADP
+  - species_id: product_Phosphoenolpyruvate
+  modifiers:
+  - species_id: protein_4_1_1_49_P22259_p68039
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 18617;18618;18619;18620
+  KEGGid: R00341
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:24959; CHEBI:16761; CHEBI:10789;
+    CHEBI:57299; CHEBI:13379; CHEBI:40553; CHEBI:139538; CHEBI:44894; CHEBI:58702;
+    CHEBI:26055; CHEBI:16452; CHEBI:6635; CHEBI:18021; CHEBI:8147; CHEBI:3283; CHEBI:13236;
+    CHEBI:12820; CHEBI:10841; CHEBI:2359; CHEBI:14703; CHEBI:23011; CHEBI:87518; CHEBI:49736;
+    CHEBI:40938; CHEBI:25734; CHEBI:26054; CHEBI:13285; CHEBI:13282; CHEBI:456216;
+    CHEBI:25731; CHEBI:22249; CHEBI:2342; CHEBI:30744; CHEBI:15422; CHEBI:13283; CHEBI:18420;
+    CHEBI:44897; CHEBI:13284; CHEBI:7812; CHEBI:16526; CHEBI:25112; CHEBI:48829; CHEBI:24958;
+    CHEBI:13222; CHEBI:22244; CHEBI:14812; CHEBI:39127
+
+    KEGG IDs: KEGG:C00305; KEGG:C00002; KEGG:C00011; KEGG:C00036; KEGG:C00008; KEGG:C00074'
+- id: sabiork_151_EC4_1_1_49_Escherichia_coli_P22259_ATP
+  name: Reaction catalyzed by phosphoenolpyruvate carboxykinase (ATP) on ATP
+  equation: Oxaloacetate + ATP = CO2 + ADP + Phosphoenolpyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Oxaloacetate
+  - species_id: cofactor_Ca2_
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_CO2
+  - species_id: product_ADP
+  - species_id: product_Phosphoenolpyruvate
+  modifiers:
+  - species_id: protein_4_1_1_49_P22259_p68045
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 18617;18618;18619;18620
+  KEGGid: R00341
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:24959; CHEBI:16761; CHEBI:10789;
+    CHEBI:57299; CHEBI:13379; CHEBI:40553; CHEBI:139538; CHEBI:44894; CHEBI:58702;
+    CHEBI:26055; CHEBI:16452; CHEBI:48760; CHEBI:6635; CHEBI:18021; CHEBI:39123; CHEBI:8147;
+    CHEBI:3283; CHEBI:13236; CHEBI:12820; CHEBI:3308; CHEBI:10841; CHEBI:2359; CHEBI:14703;
+    CHEBI:23011; CHEBI:87518; CHEBI:49736; CHEBI:40938; CHEBI:25734; CHEBI:26054;
+    CHEBI:13285; CHEBI:13282; CHEBI:456216; CHEBI:25731; CHEBI:22249; CHEBI:2342;
+    CHEBI:30744; CHEBI:15422; CHEBI:13283; CHEBI:18420; CHEBI:44897; CHEBI:13284;
+    CHEBI:29108; CHEBI:7812; CHEBI:16526; CHEBI:25112; CHEBI:48829; CHEBI:24958; CHEBI:13222;
+    CHEBI:22244; CHEBI:14812; CHEBI:22988; CHEBI:39127
+
+    KEGG IDs: KEGG:C00305; KEGG:C00002; KEGG:C00011; KEGG:C00036; KEGG:C00008; KEGG:C00076;
+    KEGG:C00074'
+- id: sabiork_151_EC4_1_1_49_Escherichia_coli_P22259_ATP
+  name: Reaction catalyzed by phosphoenolpyruvate carboxykinase (ATP) on ATP
+  equation: Oxaloacetate + ATP = CO2 + ADP + Phosphoenolpyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Oxaloacetate
+  - species_id: cofactor_Mn2_
+  products:
+  - species_id: product_Phosphoenolpyruvate
+  - species_id: product_CO2
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_4_1_1_49_P22259_p68048
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 18617;18618;18619;18620
+  KEGGid: R00341
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:24959; CHEBI:29035; CHEBI:16761;
+    CHEBI:10789; CHEBI:57299; CHEBI:40553; CHEBI:139538; CHEBI:44894; CHEBI:58702;
+    CHEBI:26055; CHEBI:16452; CHEBI:49749; CHEBI:18021; CHEBI:8147; CHEBI:3283; CHEBI:13236;
+    CHEBI:12820; CHEBI:10841; CHEBI:2359; CHEBI:25156; CHEBI:14703; CHEBI:23011; CHEBI:87518;
+    CHEBI:40938; CHEBI:25734; CHEBI:26054; CHEBI:13285; CHEBI:13282; CHEBI:456216;
+    CHEBI:25731; CHEBI:22249; CHEBI:2342; CHEBI:30744; CHEBI:15422; CHEBI:13283; CHEBI:44897;
+    CHEBI:13284; CHEBI:7812; CHEBI:16526; CHEBI:48829; CHEBI:24958; CHEBI:13222; CHEBI:22244;
+    CHEBI:14812; CHEBI:21435
+
+    KEGG IDs: KEGG:C00034; KEGG:C00002; KEGG:C00011; KEGG:C19610; KEGG:C00036; KEGG:C00008;
+    KEGG:C00074'
+- id: sabiork_151_EC4_1_1_49_Escherichia_coli_P22259_ATP
+  name: Reaction catalyzed by phosphoenolpyruvate carboxykinase (ATP) on ATP
+  equation: Oxaloacetate + ATP = CO2 + ADP + Phosphoenolpyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Oxaloacetate
+  - species_id: cofactor_Ca2_
+  products:
+  - species_id: product_Phosphoenolpyruvate
+  - species_id: product_ADP
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_4_1_1_49_P22259_p68055
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 18617;18618;18619;18620
+  KEGGid: R00341
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:24959; CHEBI:16761; CHEBI:10789;
+    CHEBI:57299; CHEBI:40553; CHEBI:139538; CHEBI:44894; CHEBI:58702; CHEBI:26055;
+    CHEBI:16452; CHEBI:48760; CHEBI:18021; CHEBI:39123; CHEBI:8147; CHEBI:3283; CHEBI:13236;
+    CHEBI:12820; CHEBI:3308; CHEBI:10841; CHEBI:2359; CHEBI:14703; CHEBI:23011; CHEBI:87518;
+    CHEBI:40938; CHEBI:25734; CHEBI:26054; CHEBI:13285; CHEBI:13282; CHEBI:456216;
+    CHEBI:25731; CHEBI:22249; CHEBI:2342; CHEBI:30744; CHEBI:15422; CHEBI:13283; CHEBI:44897;
+    CHEBI:13284; CHEBI:29108; CHEBI:7812; CHEBI:16526; CHEBI:48829; CHEBI:24958; CHEBI:13222;
+    CHEBI:22244; CHEBI:14812; CHEBI:22988
+
+    KEGG IDs: KEGG:C00002; KEGG:C00011; KEGG:C00036; KEGG:C00008; KEGG:C00076; KEGG:C00074'
+- id: sabiork_151_EC4_1_1_49_Escherichia_coli_P22259_Oxaloacetate
+  name: Reaction catalyzed by phosphoenolpyruvate carboxykinase (ATP) on Oxaloacetate
+  equation: Oxaloacetate + ATP = CO2 + ADP + Phosphoenolpyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxaloacetate
+  - species_id: substrate_ATP
+  - species_id: cofactor_Ca2_
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_ADP
+  - species_id: product_Phosphoenolpyruvate
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_4_1_1_49_P22259_p68041
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 18617;18618;18619;18620
+  KEGGid: R00341
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:24959; CHEBI:30616; CHEBI:16761; CHEBI:10789;
+    CHEBI:57299; CHEBI:13379; CHEBI:40553; CHEBI:139538; CHEBI:44894; CHEBI:58702;
+    CHEBI:26055; CHEBI:16452; CHEBI:48760; CHEBI:6635; CHEBI:18021; CHEBI:39123; CHEBI:8147;
+    CHEBI:3283; CHEBI:13236; CHEBI:12820; CHEBI:3308; CHEBI:10841; CHEBI:2359; CHEBI:14703;
+    CHEBI:23011; CHEBI:87518; CHEBI:49736; CHEBI:40938; CHEBI:25734; CHEBI:26054;
+    CHEBI:13285; CHEBI:13282; CHEBI:456216; CHEBI:25731; CHEBI:22249; CHEBI:2342;
+    CHEBI:30744; CHEBI:15422; CHEBI:13283; CHEBI:18420; CHEBI:44897; CHEBI:13284;
+    CHEBI:29108; CHEBI:7812; CHEBI:16526; CHEBI:25112; CHEBI:48829; CHEBI:24958; CHEBI:13222;
+    CHEBI:22244; CHEBI:14812; CHEBI:22988; CHEBI:39127
+
+    KEGG IDs: KEGG:C00305; KEGG:C00002; KEGG:C00011; KEGG:C00036; KEGG:C00008; KEGG:C00076;
+    KEGG:C00074'
+- id: sabiork_151_EC4_1_1_49_Escherichia_coli_P22259_Oxaloacetate
+  name: Reaction catalyzed by phosphoenolpyruvate carboxykinase (ATP) on Oxaloacetate
+  equation: Oxaloacetate + ATP = CO2 + ADP + Phosphoenolpyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxaloacetate
+  - species_id: substrate_ATP
+  - species_id: cofactor_Ca2_
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_ADP
+  - species_id: product_CO2
+  - species_id: product_Phosphoenolpyruvate
+  modifiers:
+  - species_id: protein_4_1_1_49_P22259_p68053
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 18617;18618;18619;18620
+  KEGGid: R00341
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:24959; CHEBI:30616; CHEBI:16761; CHEBI:10789;
+    CHEBI:57299; CHEBI:13379; CHEBI:40553; CHEBI:139538; CHEBI:44894; CHEBI:58702;
+    CHEBI:26055; CHEBI:16452; CHEBI:48760; CHEBI:6635; CHEBI:18021; CHEBI:39123; CHEBI:8147;
+    CHEBI:3283; CHEBI:13236; CHEBI:12820; CHEBI:3308; CHEBI:10841; CHEBI:2359; CHEBI:14703;
+    CHEBI:23011; CHEBI:87518; CHEBI:49736; CHEBI:40938; CHEBI:25734; CHEBI:26054;
+    CHEBI:13285; CHEBI:13282; CHEBI:456216; CHEBI:25731; CHEBI:22249; CHEBI:2342;
+    CHEBI:30744; CHEBI:15422; CHEBI:13283; CHEBI:18420; CHEBI:44897; CHEBI:13284;
+    CHEBI:29108; CHEBI:7812; CHEBI:16526; CHEBI:25112; CHEBI:48829; CHEBI:24958; CHEBI:13222;
+    CHEBI:22244; CHEBI:14812; CHEBI:22988; CHEBI:39127
+
+    KEGG IDs: KEGG:C00305; KEGG:C00002; KEGG:C00011; KEGG:C00036; KEGG:C00008; KEGG:C00076;
+    KEGG:C00074'
+- id: sabiork_151_EC4_1_1_49_Escherichia_coli_P22259_Oxaloacetate
+  name: Reaction catalyzed by phosphoenolpyruvate carboxykinase (ATP) on Oxaloacetate
+  equation: Oxaloacetate + ATP = CO2 + ADP + Phosphoenolpyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxaloacetate
+  - species_id: substrate_ATP
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_CO2
+  - species_id: product_Phosphoenolpyruvate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_4_1_1_49_P22259_p68044
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 18617;18618;18619;18620
+  KEGGid: R00341
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:24959; CHEBI:30616; CHEBI:16761; CHEBI:10789;
+    CHEBI:57299; CHEBI:13379; CHEBI:40553; CHEBI:139538; CHEBI:44894; CHEBI:58702;
+    CHEBI:26055; CHEBI:16452; CHEBI:6635; CHEBI:18021; CHEBI:8147; CHEBI:3283; CHEBI:13236;
+    CHEBI:12820; CHEBI:10841; CHEBI:2359; CHEBI:14703; CHEBI:23011; CHEBI:87518; CHEBI:49736;
+    CHEBI:40938; CHEBI:25734; CHEBI:26054; CHEBI:13285; CHEBI:13282; CHEBI:456216;
+    CHEBI:25731; CHEBI:22249; CHEBI:2342; CHEBI:30744; CHEBI:15422; CHEBI:13283; CHEBI:18420;
+    CHEBI:44897; CHEBI:13284; CHEBI:7812; CHEBI:16526; CHEBI:25112; CHEBI:48829; CHEBI:24958;
+    CHEBI:13222; CHEBI:22244; CHEBI:14812; CHEBI:39127
+
+    KEGG IDs: KEGG:C00305; KEGG:C00002; KEGG:C00011; KEGG:C00036; KEGG:C00008; KEGG:C00074'
+- id: sabiork_151_EC4_1_1_49_Escherichia_coli_P22259_Oxaloacetate
+  name: Reaction catalyzed by phosphoenolpyruvate carboxykinase (ATP) on Oxaloacetate
+  equation: Oxaloacetate + ATP = CO2 + ADP + Phosphoenolpyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxaloacetate
+  - species_id: substrate_ATP
+  - species_id: cofactor_Ca2_
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_CO2
+  - species_id: product_ADP
+  - species_id: product_Phosphoenolpyruvate
+  modifiers:
+  - species_id: protein_4_1_1_49_P22259_p68042
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 18617;18618;18619;18620
+  KEGGid: R00341
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:24959; CHEBI:30616; CHEBI:16761; CHEBI:10789;
+    CHEBI:57299; CHEBI:13379; CHEBI:40553; CHEBI:139538; CHEBI:44894; CHEBI:58702;
+    CHEBI:26055; CHEBI:16452; CHEBI:48760; CHEBI:6635; CHEBI:18021; CHEBI:39123; CHEBI:8147;
+    CHEBI:3283; CHEBI:13236; CHEBI:12820; CHEBI:3308; CHEBI:10841; CHEBI:2359; CHEBI:14703;
+    CHEBI:23011; CHEBI:87518; CHEBI:49736; CHEBI:40938; CHEBI:25734; CHEBI:26054;
+    CHEBI:13285; CHEBI:13282; CHEBI:456216; CHEBI:25731; CHEBI:22249; CHEBI:2342;
+    CHEBI:30744; CHEBI:15422; CHEBI:13283; CHEBI:18420; CHEBI:44897; CHEBI:13284;
+    CHEBI:29108; CHEBI:7812; CHEBI:16526; CHEBI:25112; CHEBI:48829; CHEBI:24958; CHEBI:13222;
+    CHEBI:22244; CHEBI:14812; CHEBI:22988; CHEBI:39127
+
+    KEGG IDs: KEGG:C00305; KEGG:C00002; KEGG:C00011; KEGG:C00036; KEGG:C00008; KEGG:C00076;
+    KEGG:C00074'
+- id: sabiork_151_EC4_1_1_49_Escherichia_coli_P22259_Oxaloacetate
+  name: Reaction catalyzed by phosphoenolpyruvate carboxykinase (ATP) on Oxaloacetate
+  equation: Oxaloacetate + ATP = CO2 + ADP + Phosphoenolpyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxaloacetate
+  - species_id: substrate_ATP
+  - species_id: cofactor_Ca2_
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_CO2
+  - species_id: product_Phosphoenolpyruvate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_4_1_1_49_P22259_p68046
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 18617;18618;18619;18620
+  KEGGid: R00341
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:24959; CHEBI:30616; CHEBI:16761; CHEBI:10789;
+    CHEBI:57299; CHEBI:13379; CHEBI:40553; CHEBI:139538; CHEBI:44894; CHEBI:58702;
+    CHEBI:26055; CHEBI:16452; CHEBI:48760; CHEBI:6635; CHEBI:18021; CHEBI:39123; CHEBI:8147;
+    CHEBI:3283; CHEBI:13236; CHEBI:12820; CHEBI:3308; CHEBI:10841; CHEBI:2359; CHEBI:14703;
+    CHEBI:23011; CHEBI:87518; CHEBI:49736; CHEBI:40938; CHEBI:25734; CHEBI:26054;
+    CHEBI:13285; CHEBI:13282; CHEBI:456216; CHEBI:25731; CHEBI:22249; CHEBI:2342;
+    CHEBI:30744; CHEBI:15422; CHEBI:13283; CHEBI:18420; CHEBI:44897; CHEBI:13284;
+    CHEBI:29108; CHEBI:7812; CHEBI:16526; CHEBI:25112; CHEBI:48829; CHEBI:24958; CHEBI:13222;
+    CHEBI:22244; CHEBI:14812; CHEBI:22988; CHEBI:39127
+
+    KEGG IDs: KEGG:C00305; KEGG:C00002; KEGG:C00011; KEGG:C00036; KEGG:C00008; KEGG:C00076;
+    KEGG:C00074'
+- id: sabiork_151_EC4_1_1_49_Escherichia_coli_P22259_Oxaloacetate
+  name: Reaction catalyzed by phosphoenolpyruvate carboxykinase (ATP) on Oxaloacetate
+  equation: Oxaloacetate + ATP = CO2 + ADP + Phosphoenolpyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxaloacetate
+  - species_id: substrate_ATP
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_Phosphoenolpyruvate
+  - species_id: product_CO2
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_4_1_1_49_P22259_p68047
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 18617;18618;18619;18620
+  KEGGid: R00341
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:24959; CHEBI:30616; CHEBI:16761; CHEBI:10789;
+    CHEBI:57299; CHEBI:13379; CHEBI:40553; CHEBI:139538; CHEBI:44894; CHEBI:58702;
+    CHEBI:26055; CHEBI:16452; CHEBI:6635; CHEBI:18021; CHEBI:8147; CHEBI:3283; CHEBI:13236;
+    CHEBI:12820; CHEBI:10841; CHEBI:2359; CHEBI:14703; CHEBI:23011; CHEBI:87518; CHEBI:49736;
+    CHEBI:40938; CHEBI:25734; CHEBI:26054; CHEBI:13285; CHEBI:13282; CHEBI:456216;
+    CHEBI:25731; CHEBI:22249; CHEBI:2342; CHEBI:30744; CHEBI:15422; CHEBI:13283; CHEBI:18420;
+    CHEBI:44897; CHEBI:13284; CHEBI:7812; CHEBI:16526; CHEBI:25112; CHEBI:48829; CHEBI:24958;
+    CHEBI:13222; CHEBI:22244; CHEBI:14812; CHEBI:39127
+
+    KEGG IDs: KEGG:C00305; KEGG:C00002; KEGG:C00011; KEGG:C00036; KEGG:C00008; KEGG:C00074'
+- id: sabiork_151_EC4_1_1_49_Escherichia_coli_P22259_Oxaloacetate
+  name: Reaction catalyzed by phosphoenolpyruvate carboxykinase (ATP) on Oxaloacetate
+  equation: Oxaloacetate + ATP = CO2 + ADP + Phosphoenolpyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxaloacetate
+  - species_id: substrate_ATP
+  - species_id: cofactor_Ca2_
+  products:
+  - species_id: product_Phosphoenolpyruvate
+  - species_id: product_CO2
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_4_1_1_49_P22259_p68049
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 18617;18618;18619;18620
+  KEGGid: R00341
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:24959; CHEBI:30616; CHEBI:16761; CHEBI:10789;
+    CHEBI:57299; CHEBI:40553; CHEBI:139538; CHEBI:44894; CHEBI:58702; CHEBI:26055;
+    CHEBI:16452; CHEBI:48760; CHEBI:18021; CHEBI:39123; CHEBI:8147; CHEBI:3283; CHEBI:13236;
+    CHEBI:12820; CHEBI:3308; CHEBI:10841; CHEBI:2359; CHEBI:14703; CHEBI:23011; CHEBI:87518;
+    CHEBI:40938; CHEBI:25734; CHEBI:26054; CHEBI:13285; CHEBI:13282; CHEBI:456216;
+    CHEBI:25731; CHEBI:22249; CHEBI:2342; CHEBI:30744; CHEBI:15422; CHEBI:13283; CHEBI:44897;
+    CHEBI:13284; CHEBI:29108; CHEBI:7812; CHEBI:16526; CHEBI:48829; CHEBI:24958; CHEBI:13222;
+    CHEBI:22244; CHEBI:14812; CHEBI:22988
+
+    KEGG IDs: KEGG:C00002; KEGG:C00011; KEGG:C00036; KEGG:C00008; KEGG:C00076; KEGG:C00074'
+- id: sabiork_151_EC4_1_1_49_Escherichia_coli_P22259_Oxaloacetate
+  name: Reaction catalyzed by phosphoenolpyruvate carboxykinase (ATP) on Oxaloacetate
+  equation: Oxaloacetate + ATP = CO2 + ADP + Phosphoenolpyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxaloacetate
+  - species_id: substrate_ATP
+  - species_id: cofactor_Mn2_
+  products:
+  - species_id: product_CO2
+  - species_id: product_ADP
+  - species_id: product_Phosphoenolpyruvate
+  modifiers:
+  - species_id: protein_4_1_1_49_P22259_p68050
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 18617;18618;18619;18620
+  KEGGid: R00341
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:24959; CHEBI:30616; CHEBI:29035; CHEBI:16761;
+    CHEBI:10789; CHEBI:57299; CHEBI:40553; CHEBI:139538; CHEBI:44894; CHEBI:58702;
+    CHEBI:26055; CHEBI:16452; CHEBI:49749; CHEBI:18021; CHEBI:8147; CHEBI:3283; CHEBI:13236;
+    CHEBI:12820; CHEBI:10841; CHEBI:2359; CHEBI:25156; CHEBI:14703; CHEBI:23011; CHEBI:87518;
+    CHEBI:40938; CHEBI:25734; CHEBI:26054; CHEBI:13285; CHEBI:13282; CHEBI:456216;
+    CHEBI:25731; CHEBI:22249; CHEBI:2342; CHEBI:30744; CHEBI:15422; CHEBI:13283; CHEBI:44897;
+    CHEBI:13284; CHEBI:7812; CHEBI:16526; CHEBI:48829; CHEBI:24958; CHEBI:13222; CHEBI:22244;
+    CHEBI:14812; CHEBI:21435
+
+    KEGG IDs: KEGG:C00034; KEGG:C00002; KEGG:C00011; KEGG:C19610; KEGG:C00036; KEGG:C00008;
+    KEGG:C00074'
+- id: sabiork_151_EC4_1_1_49_Escherichia_coli_P22259_Oxaloacetate
+  name: Reaction catalyzed by phosphoenolpyruvate carboxykinase (ATP) on Oxaloacetate
+  equation: Oxaloacetate + ATP = CO2 + ADP + Phosphoenolpyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxaloacetate
+  - species_id: substrate_ATP
+  - species_id: cofactor_Ca2_
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_CO2
+  - species_id: product_ADP
+  - species_id: product_Phosphoenolpyruvate
+  modifiers:
+  - species_id: protein_4_1_1_49_P22259_p68051
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 18617;18618;18619;18620
+  KEGGid: R00341
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:24959; CHEBI:30616; CHEBI:16761; CHEBI:10789;
+    CHEBI:57299; CHEBI:13379; CHEBI:40553; CHEBI:139538; CHEBI:44894; CHEBI:58702;
+    CHEBI:26055; CHEBI:16452; CHEBI:48760; CHEBI:6635; CHEBI:18021; CHEBI:39123; CHEBI:8147;
+    CHEBI:3283; CHEBI:13236; CHEBI:12820; CHEBI:3308; CHEBI:10841; CHEBI:2359; CHEBI:14703;
+    CHEBI:23011; CHEBI:87518; CHEBI:49736; CHEBI:40938; CHEBI:25734; CHEBI:26054;
+    CHEBI:13285; CHEBI:13282; CHEBI:456216; CHEBI:25731; CHEBI:22249; CHEBI:2342;
+    CHEBI:30744; CHEBI:15422; CHEBI:13283; CHEBI:18420; CHEBI:44897; CHEBI:13284;
+    CHEBI:29108; CHEBI:7812; CHEBI:16526; CHEBI:25112; CHEBI:48829; CHEBI:24958; CHEBI:13222;
+    CHEBI:22244; CHEBI:14812; CHEBI:22988; CHEBI:39127
+
+    KEGG IDs: KEGG:C00305; KEGG:C00002; KEGG:C00011; KEGG:C00036; KEGG:C00008; KEGG:C00076;
+    KEGG:C00074'
+- id: sabiork_151_EC4_1_1_49_Escherichia_coli_P22259_Oxaloacetate
+  name: Reaction catalyzed by phosphoenolpyruvate carboxykinase (ATP) on Oxaloacetate
+  equation: Oxaloacetate + ATP = CO2 + ADP + Phosphoenolpyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxaloacetate
+  - species_id: substrate_ATP
+  - species_id: cofactor_Ca2_
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_ADP
+  - species_id: product_Phosphoenolpyruvate
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_4_1_1_49_P22259_p68052
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 18617;18618;18619;18620
+  KEGGid: R00341
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:24959; CHEBI:30616; CHEBI:16761; CHEBI:10789;
+    CHEBI:57299; CHEBI:13379; CHEBI:40553; CHEBI:139538; CHEBI:44894; CHEBI:58702;
+    CHEBI:26055; CHEBI:16452; CHEBI:48760; CHEBI:6635; CHEBI:18021; CHEBI:39123; CHEBI:8147;
+    CHEBI:3283; CHEBI:13236; CHEBI:12820; CHEBI:3308; CHEBI:10841; CHEBI:2359; CHEBI:14703;
+    CHEBI:23011; CHEBI:87518; CHEBI:49736; CHEBI:40938; CHEBI:25734; CHEBI:26054;
+    CHEBI:13285; CHEBI:13282; CHEBI:456216; CHEBI:25731; CHEBI:22249; CHEBI:2342;
+    CHEBI:30744; CHEBI:15422; CHEBI:13283; CHEBI:18420; CHEBI:44897; CHEBI:13284;
+    CHEBI:29108; CHEBI:7812; CHEBI:16526; CHEBI:25112; CHEBI:48829; CHEBI:24958; CHEBI:13222;
+    CHEBI:22244; CHEBI:14812; CHEBI:22988; CHEBI:39127
+
+    KEGG IDs: KEGG:C00305; KEGG:C00002; KEGG:C00011; KEGG:C00036; KEGG:C00008; KEGG:C00076;
+    KEGG:C00074'
+measurements:
+- id: measurement_4_1_1_49_Escherichia_coli_P22259_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 31.0
+  temperature_unit: °C
+- id: measurement_4_1_1_49_Escherichia_coli_P22259_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 31.0
+  temperature_unit: °C
+- id: measurement_4_1_1_49_Escherichia_coli_P22259_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 31.0
+  temperature_unit: °C
+- id: measurement_4_1_1_49_Escherichia_coli_P22259_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 31.0
+  temperature_unit: °C
+- id: measurement_4_1_1_49_Escherichia_coli_P22259_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 31.0
+  temperature_unit: °C
+- id: measurement_4_1_1_49_Escherichia_coli_P22259_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 31.0
+  temperature_unit: °C
+- id: measurement_4_1_1_49_Escherichia_coli_P22259_Oxaloacetate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 31.0
+  temperature_unit: °C
+- id: measurement_4_1_1_49_Escherichia_coli_P22259_Oxaloacetate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 31.0
+  temperature_unit: °C
+- id: measurement_4_1_1_49_Escherichia_coli_P22259_Oxaloacetate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 31.0
+  temperature_unit: °C
+- id: measurement_4_1_1_49_Escherichia_coli_P22259_Oxaloacetate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 31.0
+  temperature_unit: °C
+- id: measurement_4_1_1_49_Escherichia_coli_P22259_Oxaloacetate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 31.0
+  temperature_unit: °C
+- id: measurement_4_1_1_49_Escherichia_coli_P22259_Oxaloacetate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 31.0
+  temperature_unit: °C
+- id: measurement_4_1_1_49_Escherichia_coli_P22259_Oxaloacetate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 31.0
+  temperature_unit: °C
+- id: measurement_4_1_1_49_Escherichia_coli_P22259_Oxaloacetate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 31.0
+  temperature_unit: °C
+- id: measurement_4_1_1_49_Escherichia_coli_P22259_Oxaloacetate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 31.0
+  temperature_unit: °C
+- id: measurement_4_1_1_49_Escherichia_coli_P22259_Oxaloacetate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 31.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 4_1_1_49_Escherichia_coli_P22259_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00074
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 31.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '6986370'
+- id: 4_1_1_49_Escherichia_coli_P22259_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00031
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 31.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '6986370'
+- id: 4_1_1_49_Escherichia_coli_P22259_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00031
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 31.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '6986370'
+- id: 4_1_1_49_Escherichia_coli_P22259_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00023
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 31.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '6986370'
+- id: 4_1_1_49_Escherichia_coli_P22259_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.8e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 31.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '6986370'
+- id: 4_1_1_49_Escherichia_coli_P22259_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 31.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '6986370'
+- id: 4_1_1_49_Escherichia_coli_P22259_Oxaloacetate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00023
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxaloacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 31.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '6986370'
+- id: 4_1_1_49_Escherichia_coli_P22259_Oxaloacetate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000124
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxaloacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 31.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '6986370'
+- id: 4_1_1_49_Escherichia_coli_P22259_Oxaloacetate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00074
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxaloacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 31.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '6986370'
+- id: 4_1_1_49_Escherichia_coli_P22259_Oxaloacetate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00041
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxaloacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 31.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '6986370'
+- id: 4_1_1_49_Escherichia_coli_P22259_Oxaloacetate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00041
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxaloacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 31.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '6986370'
+- id: 4_1_1_49_Escherichia_coli_P22259_Oxaloacetate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0014
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxaloacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 31.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '6986370'
+- id: 4_1_1_49_Escherichia_coli_P22259_Oxaloacetate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00011
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxaloacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 31.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '6986370'
+- id: 4_1_1_49_Escherichia_coli_P22259_Oxaloacetate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 3.33333e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxaloacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 31.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '6986370'
+- id: 4_1_1_49_Escherichia_coli_P22259_Oxaloacetate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 9.0e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxaloacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 31.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '6986370'
+- id: 4_1_1_49_Escherichia_coli_P22259_Oxaloacetate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.6e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxaloacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 31.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '6986370'
+- id: 4_1_1_49_Escherichia_coli_P22259_Oxaloacetate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 8.1e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxaloacetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 31.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '6986370'
+buffer:
+  buffer: 0.1 M Tris
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 68040
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/6986370/
+  pubmed_id: '6986370'
+  doi: null
+name: Merged entry for P22259 wildtype
+description: 'Merged from 16 files: SABIO_EC4.1.1.49_Escherichia_coli__P22259_s_ATP_2.yaml,
+  SABIO_EC4.1.1.49_Escherichia_coli__P22259_s_ATP_3.yaml, SABIO_EC4.1.1.49_Escherichia_coli__P22259_s_ATP.yaml,
+  SABIO_EC4.1.1.49_Escherichia_coli__P22259_s_ATP_4.yaml, SABIO_EC4.1.1.49_Escherichia_coli__P22259_s_ATP_5.yaml,
+  SABIO_EC4.1.1.49_Escherichia_coli__P22259_s_ATP_6.yaml, SABIO_EC4.1.1.49_Escherichia_coli__P22259_s_Oxaloacetate.yaml,
+  SABIO_EC4.1.1.49_Escherichia_coli__P22259_s_Oxaloacetate_10.yaml, SABIO_EC4.1.1.49_Escherichia_coli__P22259_s_Oxaloacetate_3.yaml,
+  SABIO_EC4.1.1.49_Escherichia_coli__P22259_s_Oxaloacetate_2.yaml, SABIO_EC4.1.1.49_Escherichia_coli__P22259_s_Oxaloacetate_4.yaml,
+  SABIO_EC4.1.1.49_Escherichia_coli__P22259_s_Oxaloacetate_5.yaml, SABIO_EC4.1.1.49_Escherichia_coli__P22259_s_Oxaloacetate_6.yaml,
+  SABIO_EC4.1.1.49_Escherichia_coli__P22259_s_Oxaloacetate_7.yaml, SABIO_EC4.1.1.49_Escherichia_coli__P22259_s_Oxaloacetate_8.yaml,
+  SABIO_EC4.1.1.49_Escherichia_coli__P22259_s_Oxaloacetate_9.yaml'

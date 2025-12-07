@@ -1,0 +1,311 @@
+version: '2.0'
+created: '2025-11-20T13:41:47.075240'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_5_5_1_1_Q4KPK2_p10046
+  name: muconate cycloisomerase
+  ecnumber: 5.5.1.1
+  organism: Pseudomonas reinekei
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q4KPK2
+  wildtype_sequence: MTQAKIESIETILVDLPTVRPHKLAMHTISQQTLVIIRLRCSDGIEGLGESTTVGGLSYANESPESIKTNIDVHLAPALIGMDASNFNAAMQRLDRIAKGNTFAKSGLESALLDAQGKRQGVAVSQLLGGRVRDSLEVGWVLASGNTARDIAEAEHFLDVRRHRIFKVKIGANPLEQDLKHVVAIKQALGDRASVRVDVNQYWDEAQAIRGCQVLGDNGIDLIEQPISRINRAGQVRLNQRSLAPIMADESIESVEDAFSLAADGAASVFALKIAKNGGPRAVLRTAQIAESAGIALYGATMLEGAIGTLASAHAFLTLKKLAWGTELFGPLLLTEEIVNEAPVYRDFELHVPNTPGLGVSLDEERLALFRRR
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_2
+  name: '2'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_5-Dihydro-5-oxofuran-2-acetate
+  name: 5-Dihydro-5-oxofuran-2-acetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_cis
+  name: cis
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_cis-Muconate
+  name: cis-Muconate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_3-Chloro-cis
+  name: 3-Chloro-cis
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_cis-muconate
+  name: cis-muconate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Protoanemonin
+  name: Protoanemonin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_HCl
+  name: HCl
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_3697_EC5_5_1_1_Pseudomonas_reinekei_Q4KPK2_2
+  name: Reaction catalyzed by muconate cycloisomerase on 2
+  equation: 2,5-Dihydro-5-oxofuran-2-acetate = cis,cis-Muconate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2
+  - species_id: substrate_5-Dihydro-5-oxofuran-2-acetate
+  products:
+  - species_id: product_cis
+  - species_id: product_cis-Muconate
+  modifiers:
+  - species_id: protein_5_5_1_1_Q4KPK2_p10046
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 10640;10641;10642;10643
+  KEGGid: R03959
+  notes: 'ChEBI IDs: CHEBI:58736; CHEBI:16508; CHEBI:48068; CHEBI:11450; CHEBI:32379;
+    CHEBI:39431; CHEBI:934; CHEBI:18080; CHEBI:34016; CHEBI:19379; CHEBI:58372; CHEBI:12150
+
+    KEGG IDs: KEGG:C04105; KEGG:C14610; KEGG:C02480'
+- id: sabiork_4996_EC5_5_1_1_Pseudomonas_reinekei_Q4KPK2_3-Chloro-cis
+  name: Reaction catalyzed by muconate cycloisomerase on 3-Chloro-cis
+  equation: 3-Chloro-cis,cis-muconate = CO2 + Protoanemonin + HCl
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3-Chloro-cis
+  - species_id: substrate_cis-muconate
+  products:
+  - species_id: product_CO2
+  - species_id: product_Protoanemonin
+  - species_id: product_HCl
+  modifiers:
+  - species_id: protein_5_5_1_1_Q4KPK2_p10047
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R05390
+  notes: 'ChEBI IDs: CHEBI:20447; CHEBI:3616; CHEBI:17996; CHEBI:1472; CHEBI:5590;
+    CHEBI:139538; CHEBI:19980; CHEBI:3731; CHEBI:28906; CHEBI:3283; CHEBI:8585; CHEBI:13364;
+    CHEBI:17883; CHEBI:17589; CHEBI:23011; CHEBI:13291; CHEBI:13285; CHEBI:13282;
+    CHEBI:13970; CHEBI:11768; CHEBI:13283; CHEBI:24635; CHEBI:13284; CHEBI:48804;
+    CHEBI:16526; CHEBI:48829
+
+    KEGG IDs: KEGG:C07090; KEGG:C03585; KEGG:C00698; KEGG:C01327; KEGG:C00011'
+measurements:
+- id: measurement_5_5_1_1_Pseudomonas_reinekei_Q4KPK2_2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_5_5_1_1_Pseudomonas_reinekei_Q4KPK2_3-Chloro-cis
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 5_5_1_1_Pseudomonas_reinekei_Q4KPK2_2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 125.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14617643'
+- id: 5_5_1_1_Pseudomonas_reinekei_Q4KPK2_2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00173
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14617643'
+- id: 5_5_1_1_Pseudomonas_reinekei_Q4KPK2_2_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 71666.67
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14617643'
+- id: 5_5_1_1_Pseudomonas_reinekei_Q4KPK2_3-Chloro-cis_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 120.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Chloro-cis
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14617643'
+- id: 5_5_1_1_Pseudomonas_reinekei_Q4KPK2_3-Chloro-cis_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 293333.3
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Chloro-cis
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14617643'
+- id: 5_5_1_1_Pseudomonas_reinekei_Q4KPK2_3-Chloro-cis_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00041
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Chloro-cis
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14617643'
+buffer:
+  buffer: 50 mM Tris-HCl, 2 mM MnCl2
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 10046
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/14617643/
+  pubmed_id: '14617643'
+  doi: null
+name: Merged entry for Q4KPK2 wildtype
+description: 'Merged from 2 files: SABIO_EC5.5.1.1_Pseudomonas_reinekei__Q4KPK2_s_2.yaml,
+  SABIO_EC5.5.1.1_Pseudomonas_reinekei__Q4KPK2_s_3-Chloro-cis.yaml'

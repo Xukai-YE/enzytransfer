@@ -1,0 +1,217 @@
+version: '2.0'
+created: '2025-11-20T13:40:48.624192'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_7_6_O31945_p76502
+  name: RNA-directed RNA polymerase
+  ecnumber: 2.7.7.6
+  organism: Bacillus subtilis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: O31945
+  wildtype_sequence: MKGKKDGLNKQVHIYSIDTSAFYNDQENKLHNKILKSYRYRDHLRKLEHVDKKHKKYITQRIISLKEKLYNAFNDHNQIRTLRTDSLKDNNVISLFDSVLTRTLGIKENSLSEEIMVVQTYHFQILRDIIDKGFIHNNEKYVYFTSSAGQIRTKKSCFIKQSTLDKYQNALTCGLSVEHINAQGGSSINKWNSYMALSNSASSSWEIDIDKAIVVNDLETNVSSLVDYIDRDTYEITRKIMDIPIEHTDGCGMMLPSLSQKSFMVRLPWVKGLLVPFDFRKFAEKHSSFIVKDVYGKEWDIIKDDIQIIFTKSQFKMWKYYDSWDDYRYKFKKYGCLGAKLNEEDPSVEGKLTYQMLQTLTDITDEELKQISSKTVSEITQLGTDKETMMKVLGATEKNKHKTSLQEALLIYPELLNDDHTKEIIKNKKKSMIKDAKSGKLLVSDARYTYLCPDLYAFCERLFLGIESPKGLLSGSDVHCSLYDEGYIDILRSPHLFREHGVRWNKKNEEYEKWFITPGVYTSIHDPISKLLQFDNDGDKALIISDELIVNIAKRNMADIVPLYYEMSVAQKQEINSRNIYEALTLAYGINIGEYSNNITKIWNSDNINLDVIKWLCMENNFTIDFAKTLFMPTRPDHVDEKIKDYIKNKVPHFFINAKDKEEHSVESINESTVNKLDSIIPSDRINFAAVAGKFDYRFLLKNKEIKLNEAVINEYKRLDRNKKWLMNDEEAKPGQKLYVYKIIKQKLLEIHNDDGFITDVLVKHLYKKKSKYKSTLWECFGDIVLENIKHNLKTFKGCCICGKAFKPTSNKAKYCQSCGKKKERDKYKKYNKKRINHR
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_RNA
+  name: RNA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_RNA
+  name: RNA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_DNA
+  name: DNA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_GTP
+  name: GTP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_137_EC2_7_7_6_Bacillus_subtilis_O31945_RNA
+  name: Reaction catalyzed by RNA-directed RNA polymerase on RNA
+  equation: ATP + RNA = Diphosphate + RNA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: product_RNA
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_RNA
+  modifiers:
+  - species_id: protein_2_7_7_6_O31945_p76502
+    role: BIOCATALYST
+  - species_id: activator_DNA
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00435
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:21123; CHEBI:10789; CHEBI:57299;
+    CHEBI:8683; CHEBI:13302; CHEBI:11126; CHEBI:33019; CHEBI:13236; CHEBI:4291; CHEBI:33698;
+    CHEBI:45067; CHEBI:10841; CHEBI:29888; CHEBI:2359; CHEBI:35782; CHEBI:8755; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:16991; CHEBI:45208; CHEBI:33697;
+    CHEBI:22249; CHEBI:15422; CHEBI:18273; CHEBI:45212; CHEBI:42009; CHEBI:33018
+
+    KEGG IDs: KEGG:C00002; KEGG:C00046; KEGG:C00039; KEGG:C00013'
+- id: sabiork_139_EC2_7_7_6_Bacillus_subtilis_O31945_RNA
+  name: Reaction catalyzed by DNA-directed RNA polymerase on RNA
+  equation: RNA + GTP = Diphosphate + RNA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: product_RNA
+  - species_id: substrate_GTP
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_RNA
+  modifiers:
+  - species_id: protein_2_7_7_6_O31945_p76504
+    role: BIOCATALYST
+  - species_id: activator_DNA
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00441
+  notes: 'ChEBI IDs: CHEBI:21123; CHEBI:57600; CHEBI:8683; CHEBI:13302; CHEBI:11126;
+    CHEBI:33019; CHEBI:4291; CHEBI:33698; CHEBI:45067; CHEBI:5234; CHEBI:29888; CHEBI:35782;
+    CHEBI:8755; CHEBI:13420; CHEBI:18361; CHEBI:33017; CHEBI:16991; CHEBI:45208; CHEBI:33697;
+    CHEBI:24451; CHEBI:15996; CHEBI:37565; CHEBI:18273; CHEBI:42934; CHEBI:45212;
+    CHEBI:42009; CHEBI:13342; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00046; KEGG:C00039; KEGG:C00044'
+measurements:
+- id: measurement_2_7_7_6_Bacillus_subtilis_O31945_RNA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 10.0
+  temperature_unit: °C
+- id: measurement_2_7_7_6_Bacillus_subtilis_O31945_RNA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 10.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_7_6_Bacillus_subtilis_O31945_RNA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.8e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_RNA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 10.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '28585540'
+- id: 2_7_7_6_Bacillus_subtilis_O31945_RNA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000126
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_RNA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 10.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '28585540'
+buffer:
+  buffer: 20 mM Tris-HCl, 40 mM KCl, 10 mM MgCl2
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 76502
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/28585540/
+  pubmed_id: '28585540'
+  doi: null
+name: Merged entry for O31945 wildtype
+description: 'Merged from 2 files: SABIO_EC2.7.7.6_Bacillus_subtilis__O31945_s_RNA.yaml,
+  SABIO_EC2.7.7.6_Bacillus_subtilis__O31945_s_RNA_2.yaml'

@@ -1,0 +1,215 @@
+name: SABIO-RK Entry 7810
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 7810
+created: '2025-10-28T13:52:26.586459'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_2_1_25_P12694_P21953_p7810
+  name: 2-oxoisovalerate dehydrogenase (acylating)
+  sequence: null
+  ecnumber: 1.2.1.25
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: R301A
+  uniprotid: P12694; P21953
+complexes: null
+small_molecules:
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_alpha-Ketovaline
+  name: alpha-Ketovaline
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Methylpropanoyl-CoA
+  name: 2-Methylpropanoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Thiamine_diphosphate
+  name: Thiamine diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1443_EC1_2_1_25_Homo_sapiens_P12694_P21953_NAD_
+  name: Reaction catalyzed by 2-oxoisovalerate dehydrogenase (acylating) on NAD+
+  equation: Coenzyme A + NAD+ + alpha-Ketovaline = NADH + CO2 + 2-Methylpropanoyl-CoA
+    + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_alpha-Ketovaline
+  - species_id: substrate_Coenzyme_A
+  products:
+  - species_id: product_CO2
+  - species_id: product_NADH
+  - species_id: product_2-Methylpropanoyl-CoA
+  modifiers:
+  - species_id: protein_1_2_1_25_P12694_P21953_p7810
+    role: BIOCATALYST
+  - species_id: activator_Thiamine_diphosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 13997;13998;13999;14000
+  KEGGid: R01210
+  notes: 'ChEBI IDs: CHEBI:1214; CHEBI:15346; CHEBI:23355; CHEBI:57338; CHEBI:41634;
+    CHEBI:139538; CHEBI:41631; CHEBI:15229; CHEBI:44281; CHEBI:1584; CHEBI:13393;
+    CHEBI:12754; CHEBI:15846; CHEBI:3283; CHEBI:21902; CHEBI:13295; CHEBI:13396; CHEBI:11629;
+    CHEBI:21901; CHEBI:41597; CHEBI:19712; CHEBI:11851; CHEBI:44214; CHEBI:13394;
+    CHEBI:23011; CHEBI:9532; CHEBI:57287; CHEBI:57945; CHEBI:44216; CHEBI:49939; CHEBI:13285;
+    CHEBI:16530; CHEBI:13294; CHEBI:13282; CHEBI:57540; CHEBI:7423; CHEBI:45930; CHEBI:13283;
+    CHEBI:13389; CHEBI:20115; CHEBI:13395; CHEBI:13284; CHEBI:45931; CHEBI:3771; CHEBI:43714;
+    CHEBI:16526; CHEBI:58937; CHEBI:741566; CHEBI:48829; CHEBI:15479; CHEBI:44215;
+    CHEBI:7422; CHEBI:13298; CHEBI:16908
+
+    KEGG IDs: KEGG:C00141; KEGG:C00068; KEGG:C00010; KEGG:C00011; KEGG:C00003; KEGG:C00004;
+    KEGG:C00630'
+measurements:
+- id: measurement_1_2_1_25_Homo_sapiens_P12694_P21953_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 1_2_1_25_Homo_sapiens_P12694_P21953_NAD__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 31666.67
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15166214'
+- id: 1_2_1_25_Homo_sapiens_P12694_P21953_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.62e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15166214'
+- id: 1_2_1_25_Homo_sapiens_P12694_P21953_NAD__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.845
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15166214'
+buffer:
+  buffer: 100 mM potassium phosphate, 2 mM MgCl2, 100 mM NaCI, 2 mM DTT
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 7810
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15166214/
+  pubmed_id: '15166214'
+  doi: null

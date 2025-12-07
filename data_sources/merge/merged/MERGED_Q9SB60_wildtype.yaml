@@ -1,0 +1,246 @@
+version: '2.0'
+created: '2025-11-20T13:40:16.089691'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_5_1_112_Q9SB60_p78189
+  name: adenylate dimethylallyltransferase (ADP/ATP-dependent)
+  ecnumber: 2.5.1.112
+  organism: Arabidopsis thaliana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9SB60
+  wildtype_sequence: MKCNDKMVVIMGATGSGKSSLSVDLALHFKAEIINSDKMQFYDGLKITTNQSTIEDRRGVPHHLLGELNPEAGEVTAAEFRVMAAEAISEITQRKKLPILAGGSNSYIHALLAKSYDPENYPFSDHKGSICSELKYDCCFIWIDVDQSVLFEYLSLRLDLMMKSGMFEEIAEFHRSKKAPKEPLGIWKAIGVQEFDDYLKMYKWDNDMDKWDPMRKEAYEKAVRAIKENTFQLTKDQITKINKLRNAGWDIKKVDATASFREAIRAAKEGEGVAEMQRKIWNKEVLEPCVKIVRSHLDQPINYYYYYFYLLKRFLSLN
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Dimethylallyl_diphosphate
+  name: Dimethylallyl diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mg2_
+  name: Mg2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N6-_delta2-Isopentenyl_-adenosine_5_-triphosphate
+  name: N6-(delta2-Isopentenyl)-adenosine 5'-triphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7652_EC2_5_1_112_Arabidopsis_thaliana_Q9SB60_ATP
+  name: Reaction catalyzed by adenylate dimethylallyltransferase (ADP/ATP-dependent)
+    on ATP
+  equation: ATP + Dimethylallyl diphosphate = Diphosphate + N6-(delta2-Isopentenyl)-adenosine
+    5'-triphosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Dimethylallyl_diphosphate
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_N6-_delta2-Isopentenyl_-adenosine_5_-triphosphate
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_2_5_1_112_Q9SB60_p78189
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 36331;36332;36333;36334
+  KEGGid: R08051
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16057; CHEBI:23803; CHEBI:10789;
+    CHEBI:57299; CHEBI:8683; CHEBI:13379; CHEBI:73532; CHEBI:71679; CHEBI:6635; CHEBI:12280;
+    CHEBI:8394; CHEBI:33019; CHEBI:13236; CHEBI:45067; CHEBI:10841; CHEBI:29888; CHEBI:2359;
+    CHEBI:35782; CHEBI:49736; CHEBI:40938; CHEBI:13420; CHEBI:18361; CHEBI:33017;
+    CHEBI:14883; CHEBI:45208; CHEBI:22249; CHEBI:341937; CHEBI:15422; CHEBI:57623;
+    CHEBI:18420; CHEBI:14169; CHEBI:42074; CHEBI:25112; CHEBI:26245; CHEBI:45212;
+    CHEBI:42009; CHEBI:4616; CHEBI:39127; CHEBI:33018
+
+    KEGG IDs: KEGG:C17627; KEGG:C00013; KEGG:C00305; KEGG:C00002; KEGG:C16424; KEGG:C00235'
+- id: sabiork_7652_EC2_5_1_112_Arabidopsis_thaliana_Q9SB60_Dimethylallyl_diphosphate
+  name: Reaction catalyzed by adenylate dimethylallyltransferase (ADP/ATP-dependent)
+    on Dimethylallyl diphosphate
+  equation: ATP + Dimethylallyl diphosphate = Diphosphate + N6-(delta2-Isopentenyl)-adenosine
+    5'-triphosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Dimethylallyl_diphosphate
+  - species_id: substrate_ATP
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_N6-_delta2-Isopentenyl_-adenosine_5_-triphosphate
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_2_5_1_112_Q9SB60_p78188
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 36331;36332;36333;36334
+  KEGGid: R08051
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16057; CHEBI:23803; CHEBI:10789;
+    CHEBI:57299; CHEBI:8683; CHEBI:13379; CHEBI:73532; CHEBI:71679; CHEBI:6635; CHEBI:12280;
+    CHEBI:8394; CHEBI:33019; CHEBI:13236; CHEBI:45067; CHEBI:10841; CHEBI:29888; CHEBI:2359;
+    CHEBI:35782; CHEBI:49736; CHEBI:40938; CHEBI:13420; CHEBI:18361; CHEBI:33017;
+    CHEBI:14883; CHEBI:45208; CHEBI:22249; CHEBI:341937; CHEBI:15422; CHEBI:57623;
+    CHEBI:18420; CHEBI:14169; CHEBI:42074; CHEBI:25112; CHEBI:26245; CHEBI:45212;
+    CHEBI:42009; CHEBI:4616; CHEBI:39127; CHEBI:33018
+
+    KEGG IDs: KEGG:C17627; KEGG:C00013; KEGG:C00305; KEGG:C00002; KEGG:C16424; KEGG:C00235'
+measurements:
+- id: measurement_2_5_1_112_Arabidopsis_thaliana_Q9SB60_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 24.0
+  temperature_unit: °C
+- id: measurement_2_5_1_112_Arabidopsis_thaliana_Q9SB60_Dimethylallyl_diphosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 24.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_5_1_112_Arabidopsis_thaliana_Q9SB60_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.5e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 24.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11479373'
+- id: 2_5_1_112_Arabidopsis_thaliana_Q9SB60_ATP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 3.666667e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 24.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11479373'
+- id: 2_5_1_112_Arabidopsis_thaliana_Q9SB60_Dimethylallyl_diphosphate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 3.666667e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Dimethylallyl_diphosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 24.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11479373'
+- id: 2_5_1_112_Arabidopsis_thaliana_Q9SB60_Dimethylallyl_diphosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.8e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Dimethylallyl_diphosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 24.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11479373'
+buffer:
+  buffer: 25 mM Tris-HCl, 5 mM 2-mercaptoethanol
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 78189
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11479373/
+  pubmed_id: '11479373'
+  doi: null
+name: Merged entry for Q9SB60 wildtype
+description: 'Merged from 2 files: SABIO_EC2.5.1.112_Arabidopsis_thaliana__Q9SB60_s_ATP.yaml,
+  SABIO_EC2.5.1.112_Arabidopsis_thaliana__Q9SB60_s_Dimethylallyl.yaml'

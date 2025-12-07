@@ -1,0 +1,381 @@
+version: '2.0'
+created: '2025-11-20T13:40:36.230180'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_74_P27707_p68187
+  name: adenosine kinase
+  ecnumber: 2.7.1.74
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: A100V
+  uniprotid: P27707
+  wildtype_sequence: MATPPKRSCPSFSASSEGTRIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQSTQDEFEELTMSQKNGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL
+  mutant_sequence: MATPPKRSCPSFSASSEGTRIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQSTQDEFEELTMSQKNGGNVLQMMYEKPERWSFTFQTYVCLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_2_-Deoxycytidine
+  name: 2'-Deoxycytidine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_dCMP
+  name: dCMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Cytarabine
+  name: Cytarabine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_1-beta-D-Arabinofuranosylcytosine_5_-monophosphate
+  name: 1-beta-D-Arabinofuranosylcytosine 5'-monophosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Gemcitabine
+  name: Gemcitabine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Gemcitabine_monophosphate
+  name: Gemcitabine monophosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_481_EC2_7_1_74_Homo_sapiens_P27707_ATP
+  name: Reaction catalyzed by adenosine kinase on ATP
+  equation: ATP + 2'-Deoxycytidine = dCMP + ADP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_2_-Deoxycytidine
+  products:
+  - species_id: product_ADP
+  - species_id: product_dCMP
+  modifiers:
+  - species_id: protein_2_7_1_74_P27707_p68187
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 46040;46041;46042;46043
+  KEGGid: R01666
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:19242; CHEBI:40553; CHEBI:41430; CHEBI:14115; CHEBI:41875; CHEBI:13236;
+    CHEBI:10841; CHEBI:2359; CHEBI:15918; CHEBI:87518; CHEBI:40938; CHEBI:57566; CHEBI:41806;
+    CHEBI:456216; CHEBI:4407; CHEBI:41417; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:41838;
+    CHEBI:14071; CHEBI:13222; CHEBI:19240; CHEBI:22244; CHEBI:10493; CHEBI:15698;
+    CHEBI:14070
+
+    KEGG IDs: KEGG:C00002; KEGG:C00881; KEGG:C00008; KEGG:C00239'
+- id: sabiork_10168_EC2_7_1_74_Homo_sapiens_P27707_ATP
+  name: Reaction catalyzed by deoxynucleoside kinase on ATP
+  equation: ATP + Cytarabine = ADP + 1-beta-D-Arabinofuranosylcytosine 5'-monophosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Cytarabine
+  products:
+  - species_id: product_1-beta-D-Arabinofuranosylcytosine_5_-monophosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_74_P27707_p68188
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:40553; CHEBI:4074; CHEBI:13236; CHEBI:10841; CHEBI:2359; CHEBI:87518; CHEBI:40824;
+    CHEBI:40938; CHEBI:456216; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:28680;
+    CHEBI:13222; CHEBI:23532; CHEBI:22244
+
+    KEGG IDs: KEGG:C00002; KEGG:C02961; KEGG:C00008'
+- id: sabiork_11222_EC2_7_1_74_Homo_sapiens_P27707_ATP
+  name: Reaction catalyzed by deoxyadenosine kinase on ATP
+  equation: ATP + Gemcitabine = ADP + Gemcitabine monophosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Gemcitabine
+  products:
+  - species_id: product_ADP
+  - species_id: product_Gemcitabine_monophosphate
+  modifiers:
+  - species_id: protein_2_7_1_74_P27707_p68189
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:5295; CHEBI:40553; CHEBI:13236; CHEBI:175901; CHEBI:10841; CHEBI:2359; CHEBI:87518;
+    CHEBI:40938; CHEBI:456216; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:42752;
+    CHEBI:13222; CHEBI:22244
+
+    KEGG IDs: KEGG:C00002; KEGG:C00008; KEGG:C07650'
+measurements:
+- id: measurement_2_7_1_74_Homo_sapiens_P27707_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_7_1_74_Homo_sapiens_P27707_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_7_1_74_Homo_sapiens_P27707_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_1_74_Homo_sapiens_P27707_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.93
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12808445'
+- id: 2_7_1_74_Homo_sapiens_P27707_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 232500.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12808445'
+- id: 2_7_1_74_Homo_sapiens_P27707_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.0e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12808445'
+- id: 2_7_1_74_Homo_sapiens_P27707_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000102
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12808445'
+- id: 2_7_1_74_Homo_sapiens_P27707_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 17000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12808445'
+- id: 2_7_1_74_Homo_sapiens_P27707_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.73
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12808445'
+- id: 2_7_1_74_Homo_sapiens_P27707_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 3.52
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12808445'
+- id: 2_7_1_74_Homo_sapiens_P27707_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12808445'
+- id: 2_7_1_74_Homo_sapiens_P27707_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 70400.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12808445'
+buffer:
+  buffer: 50 mM Tris-HCl, 100 mM KCl, 5 mM MgCl2
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 68187
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12808445/
+  pubmed_id: '12808445'
+  doi: null
+name: Merged entry for P27707 A100V
+description: 'Merged from 3 files: SABIO_EC2.7.1.74_Homo_sapiens__P27707_A100V_s_ATP.yaml,
+  SABIO_EC2.7.1.74_Homo_sapiens__P27707_A100V_s_ATP_2.yaml, SABIO_EC2.7.1.74_Homo_sapiens__P27707_A100V_s_ATP_3.yaml'

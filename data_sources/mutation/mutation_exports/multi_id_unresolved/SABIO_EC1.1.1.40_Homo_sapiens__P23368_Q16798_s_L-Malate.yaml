@@ -1,0 +1,153 @@
+name: SABIO-RK Entry 20370
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 20370
+created: '2025-10-28T14:16:03.904505'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_40_P23368_Q16798_p20370
+  name: malate dehydrogenase (decarboxylating)
+  sequence: null
+  ecnumber: 1.1.1.40
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P23368; Q16798
+complexes: null
+small_molecules:
+- id: substrate_L-Malate
+  name: L-Malate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Pyruvate
+  name: Pyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_142_EC1_1_1_40_Homo_sapiens_P23368_Q16798_L-Malate
+  name: Reaction catalyzed by malate dehydrogenase (decarboxylating) on L-Malate
+  equation: NADP+ + L-Malate = NADPH + CO2 + Pyruvate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Malate
+  - species_id: substrate_NADP_
+  products:
+  - species_id: product_NADPH
+  - species_id: product_CO2
+  - species_id: product_Pyruvate
+  modifiers:
+  - species_id: protein_1_1_1_40_P23368_Q16798_p20370
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 18253;18254;18255;18256
+  KEGGid: R00216
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:14987; CHEBI:15589; CHEBI:139538;
+    CHEBI:7424; CHEBI:21903; CHEBI:44405; CHEBI:7425; CHEBI:29234; CHEBI:3283; CHEBI:25523;
+    CHEBI:13357; CHEBI:15361; CHEBI:30797; CHEBI:423; CHEBI:24636; CHEBI:29233; CHEBI:11066;
+    CHEBI:13399; CHEBI:23011; CHEBI:5584; CHEBI:26466; CHEBI:13285; CHEBI:18784; CHEBI:13282;
+    CHEBI:16474; CHEBI:44286; CHEBI:26462; CHEBI:13140; CHEBI:18785; CHEBI:13283;
+    CHEBI:21904; CHEBI:8685; CHEBI:44409; CHEBI:15378; CHEBI:13284; CHEBI:32816; CHEBI:18009;
+    CHEBI:16526; CHEBI:58349; CHEBI:48829; CHEBI:13400; CHEBI:57783; CHEBI:10744;
+    CHEBI:45253
+
+    KEGG IDs: KEGG:C00005; KEGG:C00080; KEGG:C00022; KEGG:C00011; KEGG:C00006; KEGG:C00149;
+    KEGG:C11037'
+measurements:
+- id: measurement_1_1_1_40_Homo_sapiens_P23368_Q16798_L-Malate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.8
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 50 mM Tris-HCl, 1 mM MnCl2
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 20370
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/1935931/
+  pubmed_id: '1935931'
+  doi: null

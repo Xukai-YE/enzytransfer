@@ -1,0 +1,223 @@
+version: '2.0'
+created: '2025-11-20T13:40:35.733845'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_59_P81799_p25760
+  name: hexokinase
+  ecnumber: 2.7.1.59
+  organism: Rattus norvegicus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P81799
+  wildtype_sequence: MAALYGGVEGGGTRSKVLLLSEDGQILAEADGLSTNHWLIGTGTCVERINEMVDRAKRKAGVDPLVPLRSLGLSLSGGEQEDAVRLLMEELRDRFPYLSESYFITTDAAGSIATATPDGGIVLISGTGSNCRLINPDGSESGCGGWGHMMGDEGSAYWIAHQAVKIVFDSIDNLEAAPHDIGHVKQAMFNYFQVPDRLGILTHLYRDFDKSKFAGFCQKIAEGAQQGDPLSRFIFRKAGEMLGRHVVAVLPEIDPVLFQGELGLPILCVGSVWKSWELLKEGFLLALTQGREQQAQNSFSSFTLMKLRHSSALGGASLGARHIGHHLPMDYSVNAIAFYSYTF
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_N-Acetyl-D-glucosamine
+  name: N-Acetyl-D-glucosamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N-Acetyl-D-glucosamine_6-phosphate
+  name: N-Acetyl-D-glucosamine 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_N-Acetyl-D-mannosamine
+  name: N-Acetyl-D-mannosamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N-Acetyl-D-mannosamine_6-phosphate
+  name: N-Acetyl-D-mannosamine 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1435_EC2_7_1_59_Rattus_norvegicus_P81799_N-Acetyl-D-glucosamine
+  name: Reaction catalyzed by hexokinase on N-Acetyl-D-glucosamine
+  equation: N-Acetyl-D-glucosamine + ATP = ADP + N-Acetyl-D-glucosamine 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N-Acetyl-D-glucosamine
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_N-Acetyl-D-glucosamine_6-phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_59_P81799_p25760
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17417;17418;17419;17420
+  KEGGid: R01201
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:40553; CHEBI:12563; CHEBI:17411; CHEBI:21517; CHEBI:12455; CHEBI:57513;
+    CHEBI:13236; CHEBI:7127; CHEBI:10841; CHEBI:2359; CHEBI:87518; CHEBI:12564; CHEBI:40938;
+    CHEBI:12456; CHEBI:456216; CHEBI:7123; CHEBI:22249; CHEBI:21521; CHEBI:15422;
+    CHEBI:2342; CHEBI:58134; CHEBI:13222; CHEBI:22244; CHEBI:15784
+
+    KEGG IDs: KEGG:C00002; KEGG:C00357; KEGG:C00140; KEGG:C00008'
+- id: sabiork_2597_EC2_7_1_59_Rattus_norvegicus_P81799_N-Acetyl-D-mannosamine
+  name: Reaction catalyzed by glucokinase on N-Acetyl-D-mannosamine
+  equation: ATP + N-Acetyl-D-mannosamine = ADP + N-Acetyl-D-mannosamine 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N-Acetyl-D-mannosamine
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_ADP
+  - species_id: product_N-Acetyl-D-mannosamine_6-phosphate
+  modifiers:
+  - species_id: protein_2_7_1_59_P81799_p25761
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 25253;25254;25255;25256
+  KEGGid: R02705
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:40553; CHEBI:7142; CHEBI:13236; CHEBI:58557; CHEBI:10841; CHEBI:2359; CHEBI:28273;
+    CHEBI:87518; CHEBI:40938; CHEBI:456216; CHEBI:22249; CHEBI:2342; CHEBI:21539;
+    CHEBI:15422; CHEBI:17122; CHEBI:13222; CHEBI:22244
+
+    KEGG IDs: KEGG:C00002; KEGG:C00008; KEGG:C00645; KEGG:C04257'
+measurements:
+- id: measurement_2_7_1_59_Rattus_norvegicus_P81799_N-Acetyl-D-glucosamine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_7_1_59_Rattus_norvegicus_P81799_N-Acetyl-D-mannosamine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 2_7_1_59_Rattus_norvegicus_P81799_N-Acetyl-D-glucosamine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Acetyl-D-glucosamine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9523722'
+- id: 2_7_1_59_Rattus_norvegicus_P81799_N-Acetyl-D-mannosamine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.001
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Acetyl-D-mannosamine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '9523722'
+buffer:
+  buffer: 60 mM Tris/HCl, 20 mM MgCl2, 20 mM phosphoenolpyruvate, 2.5 U pyruvate kinase;
+    60 mM Tris/HCl, 20 mM MgCl2, 0.2 mM NADH, 2 mM phosphoenolpyruvate, 2 units pyruvate
+    kinase, 2 units lactate dehydrogenase
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 25760
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9523722/
+  pubmed_id: '9523722'
+  doi: null
+name: Merged entry for P81799 wildtype
+description: 'Merged from 2 files: SABIO_EC2.7.1.59_Rattus_norvegicus__P81799_s_N-Acetyl-D-glucosami.yaml,
+  SABIO_EC2.7.1.59_Rattus_norvegicus__P81799_s_N-Acetyl-D-mannosami.yaml'

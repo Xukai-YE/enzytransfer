@@ -1,0 +1,169 @@
+name: SABIO-RK Entry 49871
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 49871
+created: '2025-10-28T15:49:26.184978'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_2_1_78_Q5PSP8_p49871
+  name: mannan endo-1,4-beta-mannosidase
+  ecnumber: 3.2.1.78
+  organism: bovine
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: E167A
+  uniprotid: Q5PSP8
+  wildtype_sequence: MFKKHTISLLILFLLASAVLAKPIEAHTVSPVNPNAQQTTKTVMNWLAHLPNRTENRVLSGAFGGYSHDTFSMAEADRIRSATGQSPAIYGCDYARGWLETANIEDSIDVSCNSDLMSYWKNGGIPQISLHLANPAFQSGHFKTPITNDQYKKILDSSTAEGKRLNAMLSKIADGLQELENQGVPVLFRPLHEMNGEWFWWGLTSYNQKDNERISLYKQLYKKIYHYMTDTRGLDHLIWVYSPDANRDFKTDFYPGASYVDIVGLDAYFQDAYSINGYDQLTALNKPFAFTEVGPQTANGSFDYSLFINAIKQRYPKTIYFLAWNDEWSPAVNKGASALYHDSWTLNKGEIWNGDSLTPIVE
+  mutant_sequence: MFKKHTISLLILFLLASAVLAKPIEAHTVSPVNPNAQQTTKTVMNWLAHLPNRTENRVLSGAFGGYSHDTFSMAEADRIRSATGQSPAIYGCDYARGWLETANIEDSIDVSCNSDLMSYWKNGGIPQISLHLANPAFQSGHFKTPITNDQYKKILDSSTAAGKRLNAMLSKIADGLQELENQGVPVLFRPLHEMNGEWFWWGLTSYNQKDNERISLYKQLYKKIYHYMTDTRGLDHLIWVYSPDANRDFKTDFYPGASYVDIVGLDAYFQDAYSINGYDQLTALNKPFAFTEVGPQTANGSFDYSLFINAIKQRYPKTIYFLAWNDEWSPAVNKGASALYHDSWTLNKGEIWNGDSLTPIVE
+  position_offset: -6
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Galactomannan
+  name: Galactomannan
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_hydrolyzed_Galactomannan
+  name: hydrolyzed Galactomannan
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7166_EC3_2_1_78_bovine_Q5PSP8_Galactomannan
+  name: Reaction catalyzed by mannan endo-1,4-beta-mannosidase on Galactomannan
+  equation: H2O + Galactomannan = hydrolyzed Galactomannan
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Galactomannan
+  products:
+  - species_id: product_hydrolyzed_Galactomannan
+  modifiers:
+  - species_id: protein_3_2_1_78_Q5PSP8_p49871
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:41979;
+    CHEBI:24146; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377;
+    CHEBI:13352; CHEBI:5255; CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:29373; CHEBI:44701; CHEBI:27680
+
+    KEGG IDs: KEGG:C00883; KEGG:C00001'
+measurements:
+- id: measurement_3_2_1_78_bovine_Q5PSP8_Galactomannan
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 3_2_1_78_bovine_Q5PSP8_Galactomannan_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 0.055
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Galactomannan
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18455734'
+- id: 3_2_1_78_bovine_Q5PSP8_Galactomannan_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 35.7
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Galactomannan
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18455734'
+- id: 3_2_1_78_bovine_Q5PSP8_Galactomannan_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.975
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Galactomannan
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18455734'
+buffer:
+  buffer: 50 mM sodium phosphate, 10 mM citric acid, 1 mg/ml bovine serum albumin
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 49871
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/18455734/
+  pubmed_id: '18455734'
+  doi: null

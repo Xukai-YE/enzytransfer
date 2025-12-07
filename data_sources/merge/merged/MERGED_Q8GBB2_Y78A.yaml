@@ -1,0 +1,238 @@
+version: '2.0'
+created: '2025-11-20T13:39:57.732307'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_1_1_220_Q8GBB2_p73287
+  name: tRNA (adenine58-N1)-methyltransferase
+  ecnumber: 2.1.1.220
+  organism: Thermus thermophilus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: Y78A
+  uniprotid: Q8GBB2
+  wildtype_sequence: MAWPGPLLLKDRKGRAYLVFPKEGGVFHHHKGSVPHEALLEAGPGGVVRTHLGEELSVHRPTLEEYLLHMKRSATPTYPKDASAMVTLLDLAPGMRVLEAGTGSGGLTLFLARAVGEKGLVESYEARPHHLAQAERNVRAFWQVENVRFHLGKLEEAELEEAAYDGVALDLMEPWKVLEKAALALKPDRFLVAYLPNITQVLELVRAAEAHPFRLERVLEVGWREWEVRLPVAHPRFQQVGHTAFLVALRRWKAS
+  mutant_sequence: MAWPGPLLLKDRKGRAYLVFPKEGGVFHHHKGSVPHEALLEAGPGGVVRTHLGEELSVHRPTLEEYLLHMKRSATPTAPKDASAMVTLLDLAPGMRVLEAGTGSGGLTLFLARAVGEKGLVESYEARPHHLAQAERNVRAFWQVENVRFHLGKLEEAELEEAAYDGVALDLMEPWKVLEKAALALKPDRFLVAYLPNITQVLELVRAAEAHPFRLERVLEVGWREWEVRLPVAHPRFQQVGHTAFLVALRRWKAS
+complexes: null
+small_molecules:
+- id: substrate_tRNA
+  name: tRNA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_S-Adenosyl-L-methionine
+  name: S-Adenosyl-L-methionine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_S-Adenosyl-L-homocysteine
+  name: S-Adenosyl-L-homocysteine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_tRNA_containing_N1-methyladenine
+  name: tRNA containing N1-methyladenine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_992_EC2_1_1_220_Thermus_thermophilus_Q8GBB2_tRNA
+  name: Reaction catalyzed by tRNA (adenine58-N1)-methyltransferase on tRNA
+  equation: S-Adenosyl-L-methionine + tRNA = S-Adenosyl-L-homocysteine + tRNA containing
+    N1-methyladenine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_tRNA
+  - species_id: substrate_S-Adenosyl-L-methionine
+  products:
+  - species_id: product_S-Adenosyl-L-homocysteine
+  - species_id: product_tRNA_containing_N1-methyladenine
+  modifiers:
+  - species_id: protein_2_1_1_220_Q8GBB2_p73287
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:22036; CHEBI:12760; CHEBI:12742; CHEBI:59789; CHEBI:67009;
+    CHEBI:45495; CHEBI:142094; CHEBI:8945; CHEBI:67040; CHEBI:45607; CHEBI:33442;
+    CHEBI:10652; CHEBI:15414; CHEBI:10833; CHEBI:12761; CHEBI:17843; CHEBI:12741;
+    CHEBI:57856; CHEBI:16680; CHEBI:12759; CHEBI:8946; CHEBI:15145; CHEBI:15163; CHEBI:22034;
+    CHEBI:15164; CHEBI:527887; CHEBI:10786; CHEBI:15165; CHEBI:12757
+
+    KEGG IDs: KEGG:C00021; KEGG:C04156; KEGG:C00019; KEGG:C00066'
+- id: sabiork_992_EC2_1_1_220_Thermus_thermophilus_Q8GBB2_S-Adenosyl-L-methionine
+  name: Reaction catalyzed by tRNA (adenine58-N1)-methyltransferase on S-Adenosyl-L-methionine
+  equation: S-Adenosyl-L-methionine + tRNA = S-Adenosyl-L-homocysteine + tRNA containing
+    N1-methyladenine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_S-Adenosyl-L-methionine
+  - species_id: substrate_tRNA
+  products:
+  - species_id: product_tRNA_containing_N1-methyladenine
+  - species_id: product_S-Adenosyl-L-homocysteine
+  modifiers:
+  - species_id: protein_2_1_1_220_Q8GBB2_p73291
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:22036; CHEBI:12760; CHEBI:12742; CHEBI:59789; CHEBI:67009;
+    CHEBI:45495; CHEBI:142094; CHEBI:8945; CHEBI:67040; CHEBI:45607; CHEBI:33442;
+    CHEBI:15414; CHEBI:10652; CHEBI:10833; CHEBI:12761; CHEBI:17843; CHEBI:12741;
+    CHEBI:57856; CHEBI:16680; CHEBI:12759; CHEBI:8946; CHEBI:15145; CHEBI:15163; CHEBI:22034;
+    CHEBI:15164; CHEBI:527887; CHEBI:10786; CHEBI:15165; CHEBI:12757
+
+    KEGG IDs: KEGG:C00021; KEGG:C04156; KEGG:C00019; KEGG:C00066'
+measurements:
+- id: measurement_2_1_1_220_Thermus_thermophilus_Q8GBB2_tRNA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 60.0
+  temperature_unit: °C
+- id: measurement_2_1_1_220_Thermus_thermophilus_Q8GBB2_S-Adenosyl-L-methionine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 60.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_1_1_220_Thermus_thermophilus_Q8GBB2_tRNA_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.0014
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18262540'
+- id: 2_1_1_220_Thermus_thermophilus_Q8GBB2_tRNA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.9e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18262540'
+- id: 2_1_1_220_Thermus_thermophilus_Q8GBB2_S-Adenosyl-L-methionine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.6e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18262540'
+- id: 2_1_1_220_Thermus_thermophilus_Q8GBB2_S-Adenosyl-L-methionine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.0016
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_S-Adenosyl-L-methionine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 60.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '18262540'
+buffer:
+  buffer: 50 mM Tris-HCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 73287
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/18262540/
+  pubmed_id: '18262540'
+  doi: null
+name: Merged entry for Q8GBB2 Y78A
+description: 'Merged from 2 files: SABIO_EC2.1.1.220_Thermus_thermophilus__Q8GBB2_Y78A_s_tRNA.yaml,
+  SABIO_EC2.1.1.220_Thermus_thermophilus__Q8GBB2_Y78A_s_S-Adenosyl-L-methion.yaml'

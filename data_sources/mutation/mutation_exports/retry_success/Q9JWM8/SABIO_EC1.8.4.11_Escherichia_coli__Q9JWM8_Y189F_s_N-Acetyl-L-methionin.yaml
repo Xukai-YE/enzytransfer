@@ -1,0 +1,185 @@
+name: SABIO-RK Entry 20094
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 20094
+created: '2025-10-28T14:15:33.501507'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_8_4_11_Q9JWM8_p20094
+  name: peptide-methionine (S)-S-oxide reductase
+  ecnumber: 1.8.4.11
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: Y189F
+  uniprotid: Q9JWM8
+  wildtype_sequence: MKHRTFFSLCAKFGCLLALGACSPKIVDAGAATVPHTLSTLKTADNRPASVYLKKDKPTLIKFWASWCPLCLSELGQTEKWAQDAKFSSANLITVASPGFLHEKKDGDFQKWYAGLNYPKLPVVTDNGGTIAQSLNISVYPSWALIGKDGDVQRIVKGSINEAQALALIRDPNADLGSLKHSFYKPDTQKKDSKIMNTRTIYLAGGCFWGLEAYFQRIDGVVDAVSGYANGNTKNPSYEDVSYRHTGHAETVKVTYDADKLSLDDILQYFFRVVDPTSLNKQGNDTGTQYRSGVYYTDPAEKAVIAAALKREQQKYQLPLVVENEPLKNFYDAEEYHQDYLIKNPNGYCHIDIRKADEPLPGKTKTAPQGKGFDAATYKKPSDAELKRTLTEEQYQVTQNSATEYAFSHEYDHLFKPGIYVDVVSGEPLFSSADKYDSGCGWPSFTRPIDAKSVTEHDDFSYNMRRTEVRSHAADSHLGHVFPDGPRDKGGLRYCINGASLKFIPLEQMDAAGYGALKSKVK
+  mutant_sequence: MKHRTFFSLCAKFGCLLALGACSPKIVDAGAATVPHTLSTLKTADNRPASVYLKKDKPTLIKFWASWCPLCLSELGQTEKWAQDAKFSSANLITVASPGFLHEKKDGDFQKWYAGLNYPKLPVVTDNGGTIAQSLNISVYPSWALIGKDGDVQRIVKGSINEAQALALIRDPNADLGSLKHSFFKPDTQKKDSKIMNTRTIYLAGGCFWGLEAYFQRIDGVVDAVSGYANGNTKNPSYEDVSYRHTGHAETVKVTYDADKLSLDDILQYFFRVVDPTSLNKQGNDTGTQYRSGVYYTDPAEKAVIAAALKREQQKYQLPLVVENEPLKNFYDAEEYHQDYLIKNPNGYCHIDIRKADEPLPGKTKTAPQGKGFDAATYKKPSDAELKRTLTEEQYQVTQNSATEYAFSHEYDHLFKPGIYVDVVSGEPLFSSADKYDSGCGWPSFTRPIDAKSVTEHDDFSYNMRRTEVRSHAADSHLGHVFPDGPRDKGGLRYCINGASLKFIPLEQMDAAGYGALKSKVK
+  position_offset: -5
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_N-Acetyl-L-methionine-R
+  name: N-Acetyl-L-methionine-R
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_S-sulfoxide-N-methylamide
+  name: S-sulfoxide-N-methylamide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Reduced_thioredoxin
+  name: Reduced thioredoxin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N-Acetyl-L-methionine-N-methylamide
+  name: N-Acetyl-L-methionine-N-methylamide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Oxidized_thioredoxin
+  name: Oxidized thioredoxin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_10197_EC1_8_4_11_Escherichia_coli_Q9JWM8_N-Acetyl-L-methionine-R
+  name: Reaction catalyzed by peptide-methionine (S)-S-oxide reductase on N-Acetyl-L-methionine-R
+  equation: N-Acetyl-L-methionine-R,S-sulfoxide-N-methylamide + Reduced thioredoxin
+    = Oxidized thioredoxin + H2O + N-Acetyl-L-methionine-N-methylamide
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_N-Acetyl-L-methionine-R
+  - species_id: substrate_S-sulfoxide-N-methylamide
+  - species_id: substrate_Reduced_thioredoxin
+  products:
+  - species_id: product_N-Acetyl-L-methionine-N-methylamide
+  - species_id: product_Oxidized_thioredoxin
+  modifiers:
+  - species_id: protein_1_8_4_11_Q9JWM8_p20094
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:15033; CHEBI:42857;
+    CHEBI:41979; CHEBI:15967; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:13352; CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743;
+    CHEBI:29374; CHEBI:5585; CHEBI:18191; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00343; KEGG:C00342; KEGG:C00001'
+measurements:
+- id: measurement_1_8_4_11_Escherichia_coli_Q9JWM8_N-Acetyl-L-methionine-R
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_8_4_11_Escherichia_coli_Q9JWM8_N-Acetyl-L-methionine-R_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.8
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Acetyl-L-methionine-R
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17500063'
+- id: 1_8_4_11_Escherichia_coli_Q9JWM8_N-Acetyl-L-methionine-R_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0003
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_N-Acetyl-L-methionine-R
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17500063'
+buffer:
+  buffer: 50 mM Tris-HCl, 2 mM EDTA, 0.3 mM NADPH, 1.2 ¦ÌM Thioredoxin reductase from
+    Escherichia coli
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 20094
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/17500063/
+  pubmed_id: '17500063'
+  doi: null

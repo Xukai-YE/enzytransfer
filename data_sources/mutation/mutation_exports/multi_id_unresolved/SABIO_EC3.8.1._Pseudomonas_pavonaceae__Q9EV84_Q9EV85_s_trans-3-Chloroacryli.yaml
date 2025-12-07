@@ -1,0 +1,178 @@
+name: SABIO-RK Entry 3952
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 3952
+created: '2025-10-28T13:47:31.465605'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_8_1__Q9EV84_Q9EV85_p3952
+  name: In C-halide compounds
+  sequence: null
+  ecnumber: 3.8.1.
+  organism: Pseudomonas pavonaceae
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9EV84; Q9EV85
+complexes: null
+small_molecules:
+- id: substrate_trans-3-Chloroacrylic_acid
+  name: trans-3-Chloroacrylic acid
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_HCl
+  name: HCl
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3-Oxopropanoate
+  name: 3-Oxopropanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_4977_EC3_8_1__Pseudomonas_pavonaceae_Q9EV84_Q9EV85_trans-3-Chloroacrylic_acid
+  name: Reaction catalyzed by In C-halide compounds on trans-3-Chloroacrylic acid
+  equation: H2O + trans-3-Chloroacrylic acid = HCl + 3-Oxopropanoate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_trans-3-Chloroacrylic_acid
+  products:
+  - species_id: product_HCl
+  - species_id: product_3-Oxopropanoate
+  modifiers:
+  - species_id: protein_3_8_1__Q9EV84_Q9EV85_p3952
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R05371
+  notes: 'ChEBI IDs: CHEBI:20180; CHEBI:29375; CHEBI:3616; CHEBI:44819; CHEBI:17996;
+    CHEBI:41981; CHEBI:5590; CHEBI:42857; CHEBI:41979; CHEBI:3731; CHEBI:13364; CHEBI:42043;
+    CHEBI:17883; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:13291; CHEBI:15377;
+    CHEBI:11877; CHEBI:13352; CHEBI:17960; CHEBI:13970; CHEBI:43228; CHEBI:44292;
+    CHEBI:33190; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:24635; CHEBI:48804;
+    CHEBI:1651; CHEBI:29373; CHEBI:44701; CHEBI:14564
+
+    KEGG IDs: KEGG:C00222; KEGG:C00698; KEGG:C01327; KEGG:C00001; KEGG:C06614'
+measurements:
+- id: measurement_3_8_1__Pseudomonas_pavonaceae_Q9EV84_Q9EV85_trans-3-Chloroacrylic_acid
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 23.0
+  temperature_unit: °C
+parameters:
+- id: 3_8_1__Pseudomonas_pavonaceae_Q9EV84_Q9EV85_trans-3-Chloroacrylic_acid_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.1e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_trans-3-Chloroacrylic_acid
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12873137'
+- id: 3_8_1__Pseudomonas_pavonaceae_Q9EV84_Q9EV85_trans-3-Chloroacrylic_acid_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 120000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_trans-3-Chloroacrylic_acid
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12873137'
+- id: 3_8_1__Pseudomonas_pavonaceae_Q9EV84_Q9EV85_trans-3-Chloroacrylic_acid_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 3.8
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_trans-3-Chloroacrylic_acid
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12873137'
+buffer:
+  buffer: 20 mM Na2HPO4
+  buffer_concentration: 20 mM
+references:
+- title: Reference for SABIO-RK entry 3952
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12873137/
+  pubmed_id: '12873137'
+  doi: null

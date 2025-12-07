@@ -1,0 +1,245 @@
+version: '2.0'
+created: '2025-11-20T13:40:53.295264'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_1_1_1_Q6DV85_p29493
+  name: acetylcholinesterase
+  ecnumber: 3.1.1.1
+  organism: Bacillus sp.
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q6DV85
+  wildtype_sequence: MGSNNDNMGKRGGNLMITIPTVHKVSLPNGEVMGYRKRDGGEKTILLVHGNMTSSKHWDLFFETFPASYTLVAIDMRGFGESSYNKRVEGIEDFAQDLKFFVDQLGLNDFTMIGWSTGGAVCMQFEAQYPGYCDKIVLISSASTRGYPFFGTHSDGTPDLNQRLKTVDDIEKDPMRTIPIQQAYDTGNRALLKTIWNSLIYTHNQPEEKRYEAYVDDMMTQRNLADVYHALNTFNISSVTNGLTEGTNQANLIRIPVLVLRGERDLVISKEMTEEIVEDLGTNSTYKELSASGHSPFIDDCDQLTNIITDFLEK
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_p-Nitrophenyl_acetate
+  name: p-Nitrophenyl acetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Acetate
+  name: Acetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_p-Nitrophenol
+  name: p-Nitrophenol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_p-Nitrophenyl_butyrate
+  name: p-Nitrophenyl butyrate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Butanoate
+  name: Butanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_8104_EC3_1_1_1_Bacillus_sp._Q6DV85_p-Nitrophenyl_acetate
+  name: Reaction catalyzed by acetylcholinesterase on p-Nitrophenyl acetate
+  equation: H2O + p-Nitrophenyl acetate = Acetate + p-Nitrophenol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_p-Nitrophenyl_acetate
+  products:
+  - species_id: product_Acetate
+  - species_id: product_p-Nitrophenol
+  modifiers:
+  - species_id: protein_3_1_1_1_Q6DV85_p29493
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:40480; CHEBI:44819; CHEBI:41981; CHEBI:20457;
+    CHEBI:44390; CHEBI:13704; CHEBI:15366; CHEBI:42857; CHEBI:16836; CHEBI:41979;
+    CHEBI:40486; CHEBI:22169; CHEBI:2387; CHEBI:12034; CHEBI:42043; CHEBI:30089; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:78348; CHEBI:22165;
+    CHEBI:43228; CHEBI:44292; CHEBI:57917; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:1913; CHEBI:29373; CHEBI:44701; CHEBI:82635
+
+    KEGG IDs: KEGG:C00870; KEGG:C00033; KEGG:C00001'
+- id: sabiork_9766_EC3_1_1_1_Bacillus_sp._Q6DV85_p-Nitrophenyl_butyrate
+  name: Reaction catalyzed by Carboxylic ester hydrolases on p-Nitrophenyl butyrate
+  equation: H2O + p-Nitrophenyl butyrate = Butanoate + p-Nitrophenol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_p-Nitrophenyl_butyrate
+  products:
+  - species_id: product_Butanoate
+  - species_id: product_p-Nitrophenol
+  modifiers:
+  - species_id: protein_3_1_1_1_Q6DV85_p29495
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:20457; CHEBI:44390;
+    CHEBI:22946; CHEBI:30772; CHEBI:3234; CHEBI:42857; CHEBI:16836; CHEBI:41979; CHEBI:12034;
+    CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352;
+    CHEBI:43228; CHEBI:13924; CHEBI:44292; CHEBI:57917; CHEBI:33806; CHEBI:22948;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:41208; CHEBI:85867; CHEBI:113450;
+    CHEBI:1913; CHEBI:29373; CHEBI:44701; CHEBI:17968
+
+    KEGG IDs: KEGG:C00870; KEGG:C00001; KEGG:C00246'
+measurements:
+- id: measurement_3_1_1_1_Bacillus_sp._Q6DV85_p-Nitrophenyl_acetate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_3_1_1_1_Bacillus_sp._Q6DV85_p-Nitrophenyl_butyrate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 3_1_1_1_Bacillus_sp._Q6DV85_p-Nitrophenyl_acetate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.004
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_p-Nitrophenyl_acetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15614567'
+- id: 3_1_1_1_Bacillus_sp._Q6DV85_p-Nitrophenyl_acetate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1g-1
+  initial_value: 0.001333333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_p-Nitrophenyl_acetate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15614567'
+- id: 3_1_1_1_Bacillus_sp._Q6DV85_p-Nitrophenyl_butyrate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0002
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_p-Nitrophenyl_butyrate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15614567'
+- id: 3_1_1_1_Bacillus_sp._Q6DV85_p-Nitrophenyl_butyrate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1g-1
+  initial_value: 0.0005
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_p-Nitrophenyl_butyrate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15614567'
+buffer:
+  buffer: 50 mM Sodium phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 29493
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15614567/
+  pubmed_id: '15614567'
+  doi: null
+name: Merged entry for Q6DV85 wildtype
+description: 'Merged from 2 files: SABIO_EC3.1.1.1_Bacillus_sp.__Q6DV85_s_p-Nitrophenyl.yaml,
+  SABIO_EC3.1.1.1_Bacillus_sp.__Q6DV85_s_p-Nitrophenyl_2.yaml'

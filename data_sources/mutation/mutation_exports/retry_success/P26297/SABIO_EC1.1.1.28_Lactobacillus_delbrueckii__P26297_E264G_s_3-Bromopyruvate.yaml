@@ -1,0 +1,206 @@
+name: SABIO-RK Entry 44061
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 44061
+created: '2025-10-28T15:29:39.912613'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_28_P26297_p44061
+  name: D-lactate dehydrogenase
+  ecnumber: 1.1.1.28
+  organism: Lactobacillus delbrueckii subsp. bulgaricus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: E264G
+  uniprotid: P26297
+  wildtype_sequence: MTKIFAYAIREDEKPFLKEWEDAHKDVEVEYTDKLLTPETVALAKGADGVVVYQQLDYTAETLQALADNGITKMSLRNVGVDNIDMAKAKELGFQITNVPVYSPNAIAEHAAIQAARILRQDKAMDEKVARHDLRWAPTIGREVRDQVVGVIGTGHIGQVFMQIMEGFGAKVIAYDIFRNPELEKKGYYVDSLDDLYKQADVISLHVPDVPANVHMINDESIAKMKQDVVIVNVSRGPLVDTDAVIRGLDSGKIFGYAMDVYEGEVGIFNEDWEGKEFPDARLADLIARPNVLVTPHTAFYTTHAVRNMVVKAFDNNLELVEGKEAETPVKVG
+  mutant_sequence: MTKIFAYAIREDEKPFLKEWEDAHKDVEVEYTDKLLTPETVALAKGADGVVVYQQLDYTAETLQALADNGITKMSLRNVGVDNIDMAKAKELGFQITNVPVYSPNAIAEHAAIQAARILRQDKAMDEKVARHDLRWAPTIGREVRDQVVGVIGTGHIGQVFMQIMEGFGAKVIAYDIFRNPELEKKGYYVDSLDDLYKQADVISLHVPDVPANVHMINDESIAKMKQDVVIVNVSRGPLVDTDAVIRGLDSGKIFGYAMDVYGGEVGIFNEDWEGKEFPDARLADLIARPNVLVTPHTAFYTTHAVRNMVVKAFDNNLELVEGKEAETPVKVG
+  position_offset: -1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_3-Bromopyruvate
+  name: 3-Bromopyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3-Bromolactate
+  name: 3-Bromolactate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_12862_EC1_1_1_28_Lactobacillus_delbrueckii_P26297_3-Bromopyruvate
+  name: Reaction catalyzed by D-lactate dehydrogenase on 3-Bromopyruvate
+  equation: NADH + H+ + 3-Bromopyruvate = NAD+ + 3-Bromolactate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3-Bromopyruvate
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_NAD_
+  - species_id: product_3-Bromolactate
+  modifiers:
+  - species_id: protein_1_1_1_28_P26297_p44061
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:95046; CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846;
+    CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636; CHEBI:44214;
+    CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:57945; CHEBI:44216; CHEBI:57540; CHEBI:7423;
+    CHEBI:13389; CHEBI:15378; CHEBI:13395; CHEBI:131461; CHEBI:10744; CHEBI:131592;
+    CHEBI:44215; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00003; KEGG:C00004; KEGG:C00080'
+measurements:
+- id: measurement_1_1_1_28_Lactobacillus_delbrueckii_P26297_3-Bromopyruvate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 5.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1_28_Lactobacillus_delbrueckii_P26297_3-Bromopyruvate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.012
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Bromopyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1356978'
+- id: 1_1_1_28_Lactobacillus_delbrueckii_P26297_3-Bromopyruvate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 50000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Bromopyruvate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 5.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1356978'
+- id: 1_1_1_28_Lactobacillus_delbrueckii_P26297_3-Bromopyruvate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 477.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Bromopyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1356978'
+- id: 1_1_1_28_Lactobacillus_delbrueckii_P26297_3-Bromopyruvate_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 604.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Bromopyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1356978'
+buffer:
+  buffer: 50 mM MES
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 44061
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/1356978/
+  pubmed_id: '1356978'
+  doi: null

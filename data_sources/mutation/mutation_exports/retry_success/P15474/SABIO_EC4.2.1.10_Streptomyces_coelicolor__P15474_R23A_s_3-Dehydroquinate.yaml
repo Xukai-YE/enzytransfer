@@ -1,0 +1,170 @@
+name: SABIO-RK Entry 39043
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 39043
+created: '2025-10-28T15:10:47.372408'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_2_1_10_P15474_p39043
+  name: 3-dehydroquinate dehydratase
+  ecnumber: 4.2.1.10
+  organism: Streptomyces coelicolor
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: R23A
+  uniprotid: P15474
+  wildtype_sequence: MPRSLANAPIMILNGPNLNLLGQRQPEIYGSDTLADVEALCVKAAAAHGGTVDFRQSNHEGELVDWIHEARLNHCGIVINPAAYSHTSVAILDALNTCDGLPVVEVHISNIHQREPFRHHSYVSQRADGVVAGCGVQGYVFGVERIAALAGAGSARA
+  mutant_sequence: MPRSLANAPIMILNGPNLNLLGQAQPEIYGSDTLADVEALCVKAAAAHGGTVDFRQSNHEGELVDWIHEARLNHCGIVINPAAYSHTSVAILDALNTCDGLPVVEVHISNIHQREPFRHHSYVSQRADGVVAGCGVQGYVFGVERIAALAGAGSARA
+  position_offset: 1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_3-Dehydroquinate
+  name: 3-Dehydroquinate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3-Dehydroshikimate
+  name: 3-Dehydroshikimate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2924_EC4_2_1_10_Streptomyces_coelicolor_P15474_3-Dehydroquinate
+  name: Reaction catalyzed by 3-dehydroquinate dehydratase on 3-Dehydroquinate
+  equation: 3-Dehydroquinate = H2O + 3-Dehydroshikimate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3-Dehydroquinate
+  products:
+  - species_id: product_3-Dehydroshikimate
+  modifiers:
+  - species_id: protein_4_2_1_10_P15474_p39043
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 21096;21097;21098;21099
+  KEGGid: R03084
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:2052; CHEBI:30918; CHEBI:44819; CHEBI:41981;
+    CHEBI:42857; CHEBI:12123; CHEBI:41979; CHEBI:11782; CHEBI:19999; CHEBI:20566;
+    CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352;
+    CHEBI:1488; CHEBI:43228; CHEBI:16630; CHEBI:44292; CHEBI:42005; CHEBI:33806; CHEBI:10743;
+    CHEBI:29374; CHEBI:5585; CHEBI:19998; CHEBI:32364; CHEBI:17947; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00001; KEGG:C02637; KEGG:C00944'
+measurements:
+- id: measurement_4_2_1_10_Streptomyces_coelicolor_P15474_3-Dehydroquinate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 4_2_1_10_Streptomyces_coelicolor_P15474_3-Dehydroquinate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00017
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Dehydroquinate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8798709'
+- id: 4_2_1_10_Streptomyces_coelicolor_P15474_3-Dehydroquinate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 188.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Dehydroquinate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8798709'
+- id: 4_2_1_10_Streptomyces_coelicolor_P15474_3-Dehydroquinate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.032
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Dehydroquinate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8798709'
+buffer:
+  buffer: 50 mM Tris acetate
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 39043
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/8798709/
+  pubmed_id: '8798709'
+  doi: null

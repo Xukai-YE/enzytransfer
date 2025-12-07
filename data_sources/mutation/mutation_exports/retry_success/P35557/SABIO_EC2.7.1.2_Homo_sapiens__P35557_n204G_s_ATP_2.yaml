@@ -1,0 +1,176 @@
+name: SABIO-RK Entry 8784
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 8784
+created: '2025-10-28T13:54:38.511722'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_2_P35557_p8784
+  name: hexokinase
+  sequence: null
+  ecnumber: 2.7.1.2
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: n204G
+  uniprotid: P35557
+  mutant_sequence: MLDDRARMEAAKKEKVEQILAEFQLQEEDLKKVMRRMQKEMDRGLRLETHEEASVKMLPTYVRSTPEGSEVGDFLSLDLGGTNFRVMLVKVGEGEEGQWSVKTKHQMYSIPEDAMTGTAEMLFDYISECISDFLDKHQMKHKKLPLGFTFSFPVRHEDIDKGILLNWTKGFKASGAEGNNVVGLLRDAIKRRGDFEMDVVAMVGDTVATMISCYYEDHQCEVGMIVGTGCNACYMEEMQNVELVEGDEGRMCVNTEWGAFGDSGELDEFLLEYDRLVDESSANPGQQLYEKLIGGKYMGELVRLVLLRLVDENLLFHGEASEQLRTRGAFETRFVSQVESDTGDRKQIYNILSTLGLRPSTTDCDIVRRACESVSTRAAHMCSAGLAGVINRMRESRSEDVMRITVGVDGSVYKLHPSFKERFHASVRRLTPSCEITFIESEEGSGRGAALVSAVACKKACMLGQ
+  position_offset: 0
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Glucosamine
+  name: D-Glucosamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Glucosamine_6-phosphate
+  name: D-Glucosamine 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2008_EC2_7_1_2_Homo_sapiens_P35557_ATP
+  name: Reaction catalyzed by hexokinase on ATP
+  equation: ATP + D-Glucosamine = ADP + D-Glucosamine 6-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_D-Glucosamine
+  products:
+  - species_id: product_D-Glucosamine_6-phosphate
+  - species_id: product_ADP
+  modifiers:
+  - species_id: protein_2_7_1_2_P35557_p8784
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 10948;10949;10950;10951
+  KEGGid: R01961
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:16761; CHEBI:10789; CHEBI:57299;
+    CHEBI:40553; CHEBI:75989; CHEBI:13236; CHEBI:44674; CHEBI:10841; CHEBI:12962;
+    CHEBI:2359; CHEBI:87518; CHEBI:40938; CHEBI:20993; CHEBI:58725; CHEBI:35185; CHEBI:44678;
+    CHEBI:456216; CHEBI:47987; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:28393;
+    CHEBI:47977; CHEBI:42901; CHEBI:12317; CHEBI:13222; CHEBI:4164; CHEBI:22244; CHEBI:17315;
+    CHEBI:15873
+
+    KEGG IDs: KEGG:C00002; KEGG:C00329; KEGG:C00008; KEGG:C00352'
+measurements:
+- id: measurement_2_7_1_2_Homo_sapiens_P35557_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 2_7_1_2_Homo_sapiens_P35557_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.022
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7961659'
+- id: 2_7_1_2_Homo_sapiens_P35557_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.1
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7961659'
+buffer:
+  buffer: 100 mM Tris HCl, 100 mM KCl, 20 mM MgCl2, 0.6 mM phosphoenolpyruvate, 0.6
+    mM NADH, 1.76 units/ml lactate dehydrogenase, 1.4 units/ml pyruvate kinase
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 8784
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/7961659/
+  pubmed_id: '7961659'
+  doi: null

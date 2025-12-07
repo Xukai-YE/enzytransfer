@@ -1,0 +1,167 @@
+name: SABIO-RK Entry 9289
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 9289
+created: '2025-10-28T13:55:23.311909'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_2_1_11_P00924_P00925_p9289
+  name: phosphopyruvate hydratase
+  sequence: null
+  ecnumber: 4.2.1.11
+  organism: Saccharomyces cerevisiae
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P00924; P00925
+complexes: null
+small_molecules:
+- id: substrate__Z_-3-Fluoro-phosphoenolpyruvate
+  name: (Z)-3-Fluoro-phosphoenolpyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mn2_
+  name: Mn2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3-Fluoro-2-phospho-D-glycerate
+  name: 3-Fluoro-2-phospho-D-glycerate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7847_EC4_2_1_11_Saccharomyces_cerevisiae_P00924_P00925__Z_-3-Fluoro-phosphoenolpyruvate
+  name: Reaction catalyzed by phosphopyruvate hydratase on (Z)-3-Fluoro-phosphoenolpyruvate
+  equation: H2O + (Z)-3-Fluoro-phosphoenolpyruvate = 3-Fluoro-2-phospho-D-glycerate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate__Z_-3-Fluoro-phosphoenolpyruvate
+  - species_id: cofactor_Mn2_
+  products:
+  - species_id: product_3-Fluoro-2-phospho-D-glycerate
+  modifiers:
+  - species_id: protein_4_2_1_11_P00924_P00925_p9289
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:29035; CHEBI:44819; CHEBI:41981; CHEBI:21435;
+    CHEBI:49749; CHEBI:42857; CHEBI:41979; CHEBI:42043; CHEBI:25156; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:43228; CHEBI:44292;
+    CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00034; KEGG:C00001; KEGG:C19610'
+measurements:
+- id: measurement_4_2_1_11_Saccharomyces_cerevisiae_P00924_P00925__Z_-3-Fluoro-phosphoenolpyruvate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 4_2_1_11_Saccharomyces_cerevisiae_P00924_P00925__Z_-3-Fluoro-phosphoenolpyruvate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 1.10002e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__Z_-3-Fluoro-phosphoenolpyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '6712918'
+- id: 4_2_1_11_Saccharomyces_cerevisiae_P00924_P00925__Z_-3-Fluoro-phosphoenolpyruvate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.6e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__Z_-3-Fluoro-phosphoenolpyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '6712918'
+- id: 4_2_1_11_Saccharomyces_cerevisiae_P00924_P00925__Z_-3-Fluoro-phosphoenolpyruvate_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 423.3333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__Z_-3-Fluoro-phosphoenolpyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '6712918'
+buffer:
+  buffer: 65 mM Tris-HCl, 50 mM KCl
+  buffer_concentration: 65 mM
+references:
+- title: Reference for SABIO-RK entry 9289
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/6712918/
+  pubmed_id: '6712918'
+  doi: null

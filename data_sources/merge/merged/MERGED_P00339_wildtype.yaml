@@ -1,0 +1,282 @@
+version: '2.0'
+created: '2025-11-20T13:42:00.811823'
+modified: null
+creators:
+- given_name: SKiD
+  family_name: Database
+  mail: skid@database.org
+vessels: null
+proteins:
+- id: protein_P00339
+  name: Sus scrofa
+  ecnumber: 1.1.1.27
+  organism: Sus scrofa
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: null
+  uniprotid: P00339
+  wildtype_sequence: MATLKDQLIHNLLKEEHVPHNKITVVGVGAVGMACAISILMKELADEIALVDVMEDKLKGEMMDLQHGSLFLRTPKIVSGKDYNVTANSRLVVITAGARQQEGESRLNLVQRNVNIFKFIIPNIVKYSPNCKLLVVSNPVDILTYVAWKISGFPKNRVIGSGCNLDSARFRYLMGERLGVHPLSCHGWILGEHGDSSVPVWSGVNVAGVSLKNLHPELGTDADKEHWKAVHKQVVDSAYEVIKLKGYTSWAIGLSVADLAESIMKNLRRVHPISTMIKGLYGIKEDVFLSVPCILGQNGISDVVKVTLTPEEEAHLKKSADTLWGIQKELQF
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_pyruvate
+  name: pyruvate
+  canonical_smiles: C(C(=O)C)(=O)[O-]
+  inchi: InChI=1S/C3H4O3/c1-2(4)3(5)6/h1H3,(H,5,6)/p-1
+  inchikey: LCTONWCANYUPML-UHFFFAOYSA-M
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/107735
+- id: product
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate__S_-lactate
+  name: (S)-lactate
+  canonical_smiles: C([C@@H](O)C)(=O)[O-]
+  inchi: InChI=1S/C3H6O3/c1-2(4)3(5)6/h2,4H,1H3,(H,5,6)/p-1/t2-/m0/s1
+  inchikey: JVTAAEKCZFNVCJ-REOHCLBHSA-M
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/107689
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O
+  inchi: InChI=1S/C21H29N7O14P2/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(32)14(30)11(41-21)6-39-44(36,37)42-43(34,35)38-5-10-13(29)15(31)20(40-10)27-3-1-2-9(4-27)18(23)33/h1,3-4,7-8,10-11,13-16,20-21,29-32H,2,5-6H2,(H2,23,33)(H,34,35)(H,36,37)(H2,22,24,25)
+  inchikey: BOPGDPNILDQYTO-UHFFFAOYSA-N
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: https://pubchem.ncbi.nlm.nih.gov/compound/439153
+reactions:
+- id: reaction_P00339_pyruvate
+  name: Reaction catalyzed by enzyme on pyruvate
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_pyruvate
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_P00339
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_P00339__S_-lactate
+  name: Reaction catalyzed by enzyme on (S)-lactate
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate__S_-lactate
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_P00339
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+- id: reaction_P00339_NADH
+  name: Reaction catalyzed by enzyme on NADH
+  equation: null
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  products:
+  - species_id: product
+  modifiers:
+  - species_id: protein_P00339
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: null
+measurements:
+- id: measurement_0
+  name: Experimental conditions (pH=8.5, T=25.0°C)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=8.5, T=25.0°C)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_0
+  name: Experimental conditions (pH=8.5, T=25.0°C)
+  species_data: null
+  ph_opt: 8.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: P00339_pyruvate_Km_11361
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.13
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_pyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '11007175'
+- id: P00339__S_-lactate_Km_11351
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.0142
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate__S_-lactate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '27671200'
+- id: P00339_NADH_Km_11350
+  name: Km
+  symbol: null
+  value: null
+  unit: mM
+  initial_value: 0.0156
+  upper_bound: null
+  lower_bound: null
+  fit: null
+  stderr: null
+  constant: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: 'Source: Km'
+  pubmed_id: '27671200'
+buffer:
+  buffer: null
+  buffer_concentration: null
+references:
+- title: Properties of lactate dehydrogenase from the isopod
+  authors: Mulkiewicz, E., Zietara, M.S., Stachowiak, K., Skorkowski, E.F.
+  year: '2000'
+  journal: Saduria entomon. Comp. Biochem. Physiol
+  uri: null
+  pubmed_id: '11007175'
+  doi: null
+  id: '32'
+  pages: 337-346
+  volume: '126'
+  citation: 'Mulkiewicz, E.,Zietara, M.S.,Stachowiak, K.,Skorkowski, E.F., Properties
+    of lactate dehydrogenase from the isopod, Saduria entomon. Comp. Biochem. Physiol,
+    B, 2000, 337-346, 126, PMID: 11007175'
+- title: C.H.
+  authors: Hare, K.M., Miller, J.H., Clark, A.G., Daugherty
+  year: '2005'
+  journal: Total lactate dehydrogenase activity of tail muscle is not cold-adapted
+    in nocturnal lizards from cool-temperate habitats. Comp. Biochem. Physiol
+  uri: null
+  pubmed_id: null
+  doi: null
+  id: '59'
+  pages: 438-444
+  volume: 142B
+  citation: Hare, K.M.,Miller, J.H.,Clark, A.G.,Daugherty, C.H., Total lactate dehydrogenase
+    activity of tail muscle is not cold-adapted in nocturnal lizards from cool-temperate
+    habitats. Comp. Biochem. Physiol, B, 2005, 438-444, 142B
+- title: W.
+  authors: Goto, T., Sugawara, K., Nakamura, S., Kidokoro, S.I., Wakui, H., Nunomura
+  year: '2016'
+  journal: Enzymatic and thermodynamic profiles of a heterotetramer lactate dehydrogenase
+    isozyme in swine. Biochem. Biophys. Res
+  uri: null
+  pubmed_id: '27671200'
+  doi: null
+  id: '121'
+  pages: 860-867
+  volume: '479'
+  citation: 'Goto, T.,Sugawara, K.,Nakamura, S.,Kidokoro, S.I.,Wakui, H.,Nunomura,
+    W., Enzymatic and thermodynamic profiles of a heterotetramer lactate dehydrogenase
+    isozyme in swine. Biochem. Biophys. Res, Commun., 2016, 860-867, 479, PMID: 27671200'
+- title: L.
+  authors: Jackson, E., Lopez-Gallego, F., Guisan, J., Betancor
+  year: '2016'
+  journal: Enhanced stability of L-lactate dehydrogenase through immobilization engineering
+  uri: null
+  pubmed_id: null
+  doi: null
+  id: '132'
+  pages: 1248-1255
+  volume: '51'
+  citation: Jackson, E.,Lopez-Gallego, F.,Guisan, J.,Betancor, L., Enhanced stability
+    of L-lactate dehydrogenase through immobilization engineering, Process Biochem.,
+    2016, 1248-1255, 51
+name: Merged entry for P00339 wildtype
+description: 'Merged from 3 files: SKID_EC1.1.1.27_Sus_P00339_pyruvate.yaml, SKID_EC1.1.1.27_Sus_P00339__S_-lactate.yaml,
+  SKID_EC1.1.1.27_Sus_P00339_NADH.yaml'

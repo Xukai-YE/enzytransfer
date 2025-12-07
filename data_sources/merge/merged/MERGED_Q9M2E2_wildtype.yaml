@@ -1,0 +1,285 @@
+version: '2.0'
+created: '2025-11-20T13:39:26.473691'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1__Q9M2E2_p66203
+  name: With NAD(+) or NADP(+) as acceptor
+  ecnumber: 1.1.1.
+  organism: Arabidopsis thaliana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9M2E2
+  wildtype_sequence: MAEETPRYAVVTGANRGIGFEICRQLASEGIRVVLTSRDENRGLEAVETLKKELEISDQSLLFHQLDVADPASITSLAEFVKTQFGKLDILVNNAGIGGIITDAEALRAGAGKEGFKWDEIITETYELTEECIKINYYGPKRMCEAFIPLLKLSDSPRIVNVSSSMGQLKNVLNEWAKGILSDAENLTEERIDQVINQLLNDFKEGTVKEKNWAKFMSAYVVSKASLNGYTRVLAKKHPEFRVNAVCPGFVKTDMNFKTGVLSVEEGASSPVRLALLPHQETPSGCFFSRKQVSEF
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate__E_-2-Pentenal
+  name: (E)-2-Pentenal
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product__E_-2-Penten-1-ol
+  name: (E)-2-Penten-1-ol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_trans-2-Hexenal
+  name: trans-2-Hexenal
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_trans-2-Hexenol
+  name: trans-2-Hexenol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_15384_EC1_1_1__Arabidopsis_thaliana_Q9M2E2__E_-2-Pentenal
+  name: Reaction catalyzed by With NAD(+) or NADP(+) as acceptor on (E)-2-Pentenal
+  equation: H+ + NADPH + (E)-2-Pentenal = NADP+ + (E)-2-Penten-1-ol
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate__E_-2-Pentenal
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_NADP_
+  - species_id: product__E_-2-Penten-1-ol
+  modifiers:
+  - species_id: protein_1_1_1__Q9M2E2_p66203
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:7424; CHEBI:44405; CHEBI:21903;
+    CHEBI:7425; CHEBI:29234; CHEBI:13357; CHEBI:25523; CHEBI:24636; CHEBI:89943; CHEBI:29233;
+    CHEBI:5584; CHEBI:13399; CHEBI:16474; CHEBI:44286; CHEBI:21904; CHEBI:44409; CHEBI:15378;
+    CHEBI:18009; CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00006; KEGG:C00005; KEGG:C11037; KEGG:C00080'
+- id: sabiork_10103_EC1_1_1__Arabidopsis_thaliana_Q9M2E2_NADPH
+  name: Reaction catalyzed by With NAD(+) or NADP(+) as acceptor on NADPH
+  equation: trans-2-Hexenol + NADP+ = NADPH + trans-2-Hexenal + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_trans-2-Hexenal
+  products:
+  - species_id: product_trans-2-Hexenol
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_1_1__Q9M2E2_p66204
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:18539; CHEBI:13397; CHEBI:13398; CHEBI:7424; CHEBI:44405;
+    CHEBI:21903; CHEBI:6399; CHEBI:7425; CHEBI:29234; CHEBI:13357; CHEBI:25523; CHEBI:24636;
+    CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:19591; CHEBI:28913; CHEBI:16474; CHEBI:44286;
+    CHEBI:21904; CHEBI:44409; CHEBI:15378; CHEBI:18009; CHEBI:58349; CHEBI:13400;
+    CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C08497; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C11037'
+measurements:
+- id: measurement_1_1_1__Arabidopsis_thaliana_Q9M2E2__E_-2-Pentenal
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_1_1_1__Arabidopsis_thaliana_Q9M2E2_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 1_1_1__Arabidopsis_thaliana_Q9M2E2__E_-2-Pentenal_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__E_-2-Pentenal
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '21169366'
+- id: 1_1_1__Arabidopsis_thaliana_Q9M2E2__E_-2-Pentenal_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.27
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__E_-2-Pentenal
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '21169366'
+- id: 1_1_1__Arabidopsis_thaliana_Q9M2E2__E_-2-Pentenal_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 3900.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__E_-2-Pentenal
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '21169366'
+- id: 1_1_1__Arabidopsis_thaliana_Q9M2E2_NADPH_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 750.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '21169366'
+- id: 1_1_1__Arabidopsis_thaliana_Q9M2E2_NADPH_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.4
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '21169366'
+- id: 1_1_1__Arabidopsis_thaliana_Q9M2E2_NADPH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00053
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '21169366'
+buffer:
+  buffer: 50 mM HEPES-NaOH
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 66203
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/21169366/
+  pubmed_id: '21169366'
+  doi: null
+name: Merged entry for Q9M2E2 wildtype
+description: 'Merged from 2 files: SABIO_EC1.1.1._Arabidopsis_thaliana__Q9M2E2_s__E_-2-Pentenal.yaml,
+  SABIO_EC1.1.1._Arabidopsis_thaliana__Q9M2E2_s_NADPH.yaml'

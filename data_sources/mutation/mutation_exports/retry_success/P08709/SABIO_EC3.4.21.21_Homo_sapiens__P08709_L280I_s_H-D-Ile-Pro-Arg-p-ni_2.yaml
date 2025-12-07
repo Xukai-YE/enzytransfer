@@ -1,0 +1,149 @@
+name: SABIO-RK Entry 35925
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 35925
+created: '2025-10-28T14:57:32.267904'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_4_21_21_P08709_p35925
+  name: trypsin
+  ecnumber: 3.4.21.21
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: L280I
+  uniprotid: P08709
+  wildtype_sequence: MVSQALRLLCLLLGLQGCLAAGGVAKASGGETRDMPWKPGPHRVFVTQEEAHGVLHRRRRANAFLEELRPGSLERECKEEQCSFEEAREIFKDAERTKLFWISYSDGDQCASSPCQNGGSCKDQLQSYICFCLPAFEGRNCETHKDDQLICVNENGGCEQYCSDHTGTKRSCRCHEGYSLLADGVSCTPTVEYPCGKIPILEKRNASKPQGRIVGGKVCPKGECPWQVLLLVNGAQLCGGTLINTIWVVSAAHCFDKIKNWRNLIAVLGEHDLSEHDGDEQSRRVAQVIIPSTYVPGTTNHDIALLRLHQPVVLTDHVVPLCLPERTFSERTLAFVRFSLVSGWGQLLDRGATALELMVLNVPRLMTQDCLQQSRKVGDSPNITEYMFCAGYSDGSKDSCKGDSGGPHATHYRGTWYLTGIVSWGQGCATVGHFGVYTRVSQYIEWLQKLMRSEPRPGVLLRAPFP
+  mutant_sequence: MVSQALRLLCLLLGLQGCLAAGGVAKASGGETRDMPWKPGPHRVFVTQEEAHGVLHRRRRANAFLEELRPGSLERECKEEQCSFEEAREIFKDAERTKLFWISYSDGDQCASSPCQNGGSCKDQLQSYICFCLPAFEGRNCETHKDDQLICVNENGGCEQYCSDHTGTKRSCRCHEGYSLLADGVSCTPTVEYPCGKIPILEKRNASKPQGRIVGGKVCPKGECPWQVLLLVNGAQLCGGTLINTIWVVSAAHCFDKIKNWRNLIAVLGEHDISEHDGDEQSRRVAQVIIPSTYVPGTTNHDIALLRLHQPVVLTDHVVPLCLPERTFSERTLAFVRFSLVSGWGQLLDRGATALELMVLNVPRLMTQDCLQQSRKVGDSPNITEYMFCAGYSDGSKDSCKGDSGGPHATHYRGTWYLTGIVSWGQGCATVGHFGVYTRVSQYIEWLQKLMRSEPRPGVLLRAPFP
+  position_offset: -7
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_H-D-Ile-Pro-Arg-p-nitroanilide
+  name: H-D-Ile-Pro-Arg-p-nitroanilide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_H-D-Ile-Pro-Arg
+  name: H-D-Ile-Pro-Arg
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4-Nitroaniline
+  name: 4-Nitroaniline
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_sTF
+  name: sTF
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_11846_EC3_4_21_21_Homo_sapiens_P08709_H-D-Ile-Pro-Arg-p-nitroanilide
+  name: Reaction catalyzed by trypsin on H-D-Ile-Pro-Arg-p-nitroanilide
+  equation: H2O + H-D-Ile-Pro-Arg-p-nitroanilide = 4-Nitroaniline + H-D-Ile-Pro-Arg
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_H-D-Ile-Pro-Arg-p-nitroanilide
+  products:
+  - species_id: product_H-D-Ile-Pro-Arg
+  - species_id: product_4-Nitroaniline
+  modifiers:
+  - species_id: protein_3_4_21_21_P08709_p35925
+    role: BIOCATALYST
+  - species_id: activator_sTF
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:44545; CHEBI:20455;
+    CHEBI:42857; CHEBI:41979; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:12032; CHEBI:15377; CHEBI:13352; CHEBI:43228; CHEBI:44292; CHEBI:33806;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:1910; CHEBI:17064; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00001; KEGG:C02126'
+measurements:
+- id: measurement_3_4_21_21_Homo_sapiens_P08709_H-D-Ile-Pro-Arg-p-nitroanilide
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: null
+  temperature_unit: null
+parameters:
+- id: 3_4_21_21_Homo_sapiens_P08709_H-D-Ile-Pro-Arg-p-nitroanilide_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.002
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_H-D-Ile-Pro-Arg-p-nitroanilide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15518559'
+buffer:
+  buffer: 50 mM Hepes, 0.1 M NaCl, 5 mM CaCl2, 1 mg/ml BSA
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 35925
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15518559/
+  pubmed_id: '15518559'
+  doi: null

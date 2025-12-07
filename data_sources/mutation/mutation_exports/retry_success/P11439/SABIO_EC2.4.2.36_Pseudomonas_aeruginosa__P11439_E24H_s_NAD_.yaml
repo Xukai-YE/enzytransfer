@@ -1,0 +1,142 @@
+name: SABIO-RK Entry 31775
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 31775
+created: '2025-10-28T14:44:01.820779'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_4_2_36_P11439_p31775
+  name: NAD+---diphthamide ADP-ribosyltransferase
+  ecnumber: 2.4.2.36
+  organism: Pseudomonas aeruginosa
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: E24H
+  uniprotid: P11439
+  wildtype_sequence: MHLTPHWIPLVASLGLLAGGSFASAAEEAFDLWNECAKACVLDLKDGVRSSRMSVDPAIADTNGQGVLHYSMVLEGGNDALKLAIDNALSITSDGLTIRLEGGVEPNKPVRYSYTRQARGSWSLNWLVPIGHEKPSNIKVFIHELNAGNQLSHMSPIYTIEMGDELLAKLARDATFFVRAHESNEMQPTLAISHAGVSVVMAQAQPRREKRWSEWASGKVLCLLDPLDGVYNYLAQQRCNLDDTWEGKIYRVLAGNPAKHDLDIKPTVISHRLHFPEGGSLAALTAHQACHLPLETFTRHRQPRGWEQLEQCGYPVQRLVALYLAARLSWNQVDQVIRNALASPGSGGDLGEAIREQPEQARLALTLAAAESERFVRQGTGNDEAGAASADVVSLTCPVAAGECAGPADSGDALLERNYPTGAEFLGDGGDISFSTRGTQNWTVERLLQAHRQLEERGYVFVGYHGTFLEAAQSIVFGGVRARSQDLDAIWRGFYIAGDPALAYGYAQDQEPDARGRIRNGALLRVYVPRSSLPGFYRTGLTLAAPEAAGEVERLIGHPLPLRLDAITGPEEEGGRLETILGWPLAERTVVIPSAIPTDPRNVGGDLDPSSIPDKEQAISALPDYASQPGKPPREDLK
+  mutant_sequence: MHLTPHWIPLVASLGLLAGGSFASAAHEAFDLWNECAKACVLDLKDGVRSSRMSVDPAIADTNGQGVLHYSMVLEGGNDALKLAIDNALSITSDGLTIRLEGGVEPNKPVRYSYTRQARGSWSLNWLVPIGHEKPSNIKVFIHELNAGNQLSHMSPIYTIEMGDELLAKLARDATFFVRAHESNEMQPTLAISHAGVSVVMAQAQPRREKRWSEWASGKVLCLLDPLDGVYNYLAQQRCNLDDTWEGKIYRVLAGNPAKHDLDIKPTVISHRLHFPEGGSLAALTAHQACHLPLETFTRHRQPRGWEQLEQCGYPVQRLVALYLAARLSWNQVDQVIRNALASPGSGGDLGEAIREQPEQARLALTLAAAESERFVRQGTGNDEAGAASADVVSLTCPVAAGECAGPADSGDALLERNYPTGAEFLGDGGDISFSTRGTQNWTVERLLQAHRQLEERGYVFVGYHGTFLEAAQSIVFGGVRARSQDLDAIWRGFYIAGDPALAYGYAQDQEPDARGRIRNGALLRVYVPRSSLPGFYRTGLTLAAPEAAGEVERLIGHPLPLRLDAITGPEEEGGRLETILGWPLAERTVVIPSAIPTDPRNVGGDLDPSSIPDKEQAISALPDYASQPGKPPREDLK
+  position_offset: 3
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Peptide_diphthamide
+  name: Peptide diphthamide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Nicotinamide
+  name: Nicotinamide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Peptide_N-_ADP-D-ribosyl_diphthamide
+  name: Peptide N-(ADP-D-ribosyl)diphthamide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_1_8-Naphthalimide
+  name: 1,8-Naphthalimide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_3807_EC2_4_2_36_Pseudomonas_aeruginosa_P11439_NAD_
+  name: Reaction catalyzed by NAD+---diphthamide ADP-ribosyltransferase on NAD+
+  equation: NAD+ + Peptide diphthamide = Nicotinamide + Peptide N-(ADP-D-ribosyl)diphthamide
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_Peptide_diphthamide
+  products:
+  - species_id: product_Nicotinamide
+  - species_id: product_Peptide_N-_ADP-D-ribosyl_diphthamide
+  modifiers:
+  - species_id: protein_2_4_2_36_P11439_p31775
+    role: BIOCATALYST
+  - species_id: activator_1_8-Naphthalimide
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R04074
+  notes: 'ChEBI IDs: CHEBI:13393; CHEBI:44258; CHEBI:14645; CHEBI:16692; CHEBI:15846;
+    CHEBI:21901; CHEBI:25521; CHEBI:57540; CHEBI:7556; CHEBI:44215; CHEBI:44214; CHEBI:17154;
+    CHEBI:44281; CHEBI:13394; CHEBI:7422; CHEBI:13389
+
+    KEGG IDs: KEGG:C02872; KEGG:C00003; KEGG:C04339; KEGG:C00153'
+measurements:
+- id: measurement_2_4_2_36_Pseudomonas_aeruginosa_P11439_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.9
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 20 mM Tris-HCl, 100 mM KCl
+  buffer_concentration: 20 mM
+references:
+- title: Reference for SABIO-RK entry 31775
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/14705944/
+  pubmed_id: '14705944'
+  doi: null

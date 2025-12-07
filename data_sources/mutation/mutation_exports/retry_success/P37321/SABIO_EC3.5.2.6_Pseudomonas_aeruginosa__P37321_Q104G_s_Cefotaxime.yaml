@@ -1,0 +1,170 @@
+name: SABIO-RK Entry 21075
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 21075
+created: '2025-10-28T14:17:24.664107'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_5_2_6_P37321_p21075
+  name: beta-lactamase
+  ecnumber: 3.5.2.6
+  organism: Pseudomonas aeruginosa
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: Q104G
+  uniprotid: P37321
+  wildtype_sequence: MNVIIKAVVTASTLLMVSFSSFETSAQSPLLKEQIESIVIGKKATVGVAVWGPDDLEPLLINPFEKFPMQSVFKLHLAMLVLHQVDQGKLDLNQTVIVNRAKVLQNTWAPIMKAYQGDEFSVPVQQLLQYSVSHSDNVACDLLFELVGGPAALHDYIQSMGIKETAVVANEAQMHADDQVQYQNWTSMKGAAEILKKFEQKTQLSETSQALLWKWMVETTTGPERLKGLLPAGTVVAHKTGTSGIKAGKTAATNDLGIILLPDGRPLLVAVFVKDSAESSRTNEAIIAQVAQTAYQFELKKLSALSPN
+  mutant_sequence: MNVIIKAVVTASTLLMVSFSSFETSAQSPLLKEQIESIVIGKKATVGVAVWGPDDLEPLLINPFEKFPMQSVFKLHLAMLVLHQVDQGKLDLNGTVIVNRAKVLQNTWAPIMKAYQGDEFSVPVQQLLQYSVSHSDNVACDLLFELVGGPAALHDYIQSMGIKETAVVANEAQMHADDQVQYQNWTSMKGAAEILKKFEQKTQLSETSQALLWKWMVETTTGPERLKGLLPAGTVVAHKTGTSGIKAGKTAATNDLGIILLPDGRPLLVAVFVKDSAESSRTNEAIIAQVAQTAYQFELKKLSALSPN
+  position_offset: -10
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Cefotaxime
+  name: Cefotaxime
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Substituted_beta-amino_acid
+  name: Substituted beta-amino acid
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_6697_EC3_5_2_6_Pseudomonas_aeruginosa_P37321_Cefotaxime
+  name: Reaction catalyzed by beta-lactamase on Cefotaxime
+  equation: H2O + Cefotaxime = Substituted beta-amino acid
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Cefotaxime
+  products:
+  - species_id: product_Substituted_beta-amino_acid
+  modifiers:
+  - species_id: protein_3_5_2_6_P37321_p21075
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:3498; CHEBI:41475;
+    CHEBI:42857; CHEBI:41979; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:53670; CHEBI:15377; CHEBI:204928; CHEBI:13352; CHEBI:13690; CHEBI:43228;
+    CHEBI:3497; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:112504;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00001; KEGG:C06885; KEGG:C03806'
+measurements:
+- id: measurement_3_5_2_6_Pseudomonas_aeruginosa_P37321_Cefotaxime
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 3_5_2_6_Pseudomonas_aeruginosa_P37321_Cefotaxime_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00122
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cefotaxime
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9494118'
+- id: 3_5_2_6_Pseudomonas_aeruginosa_P37321_Cefotaxime_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 57400.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cefotaxime
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9494118'
+- id: 3_5_2_6_Pseudomonas_aeruginosa_P37321_Cefotaxime_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 70.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Cefotaxime
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9494118'
+buffer:
+  buffer: 0.1 M phosphate
+  buffer_concentration: 0.1 M
+references:
+- title: Reference for SABIO-RK entry 21075
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9494118/
+  pubmed_id: '9494118'
+  doi: null

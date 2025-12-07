@@ -1,0 +1,219 @@
+version: '2.0'
+created: '2025-11-20T13:41:47.017239'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_5_4_99_5_A0A0D1DWQ2_p73770
+  name: chorismate mutase
+  ecnumber: 5.4.99.5
+  organism: Ustilago maydis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: A0A0D1DWQ2
+  wildtype_sequence: MKLSVSIFVLLAVSAFGGGSAAAVSGKSEAAEIEAGDRLDALRDQLQRYETPIIQTILARSALGGRAPSEQDEVRAALSRNAFEPSEVISEWLQTESGARFRSTRPLPPAVEFITPVVLSRDTVLDKPVVGKGIFPIGRRPQDPTNMDEFLDTSLLSLNQSSTVDLASAVSLDVSLLHLVSARVLLGYPIALAKFDWLHDNFCHILTNTTLSKSQKLANIIQQLTDHKQEVNVLSRVEQKSKSLSHLFRNDIPYPPHTQDRILRLFQAYLIPITTQIEAAAILDHANKCT
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Chorismate
+  name: Chorismate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Prephenate
+  name: Prephenate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_ZmKWL1
+  name: ZmKWL1
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1827_EC5_4_99_5_Ustilago_maydis_A0A0D1DWQ2_Chorismate
+  name: Reaction catalyzed by chorismate mutase on Chorismate
+  equation: Chorismate = Prephenate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Chorismate
+  products:
+  - species_id: product_Prephenate
+  modifiers:
+  - species_id: protein_5_4_99_5_A0A0D1DWQ2_p73770
+    role: BIOCATALYST
+  - species_id: activator_ZmKWL1
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 13897;13898;13899;13900
+  KEGGid: R01715
+  notes: 'ChEBI IDs: CHEBI:23225; CHEBI:29934; CHEBI:16666; CHEBI:23227; CHEBI:3677;
+    CHEBI:13993; CHEBI:17333; CHEBI:29748
+
+    KEGG IDs: KEGG:C00251; KEGG:C00254'
+- id: sabiork_1827_EC5_4_99_5_Ustilago_maydis_A0A0D1DWQ2_Chorismate
+  name: Reaction catalyzed by chorismate mutase on Chorismate
+  equation: Chorismate = Prephenate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Chorismate
+  products:
+  - species_id: product_Prephenate
+  modifiers:
+  - species_id: protein_5_4_99_5_A0A0D1DWQ2_p73771
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 13897;13898;13899;13900
+  KEGGid: R01715
+  notes: 'ChEBI IDs: CHEBI:23225; CHEBI:29934; CHEBI:16666; CHEBI:23227; CHEBI:3677;
+    CHEBI:13993; CHEBI:17333; CHEBI:29748
+
+    KEGG IDs: KEGG:C00251; KEGG:C00254'
+measurements:
+- id: measurement_5_4_99_5_Ustilago_maydis_A0A0D1DWQ2_Chorismate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_5_4_99_5_Ustilago_maydis_A0A0D1DWQ2_Chorismate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 5_4_99_5_Ustilago_maydis_A0A0D1DWQ2_Chorismate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000353333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Chorismate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '30651637'
+- id: 5_4_99_5_Ustilago_maydis_A0A0D1DWQ2_Chorismate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00083
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Chorismate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '30651637'
+- id: 5_4_99_5_Ustilago_maydis_A0A0D1DWQ2_Chorismate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0008
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Chorismate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '30651637'
+- id: 5_4_99_5_Ustilago_maydis_A0A0D1DWQ2_Chorismate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.00068
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Chorismate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '30651637'
+buffer:
+  buffer: 40 mM Tris-HCl, 100 mM NaCl
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 73770
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/30651637/
+  pubmed_id: '30651637'
+  doi: null
+name: Merged entry for A0A0D1DWQ2 wildtype
+description: 'Merged from 2 files: SABIO_EC5.4.99.5_Ustilago_maydis__A0A0D1DWQ2_s_Chorismate.yaml,
+  SABIO_EC5.4.99.5_Ustilago_maydis__A0A0D1DWQ2_s_Chorismate_2.yaml'

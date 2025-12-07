@@ -1,0 +1,269 @@
+version: '2.0'
+created: '2025-11-20T13:40:31.520653'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_24_Q8MIR4_p20961
+  name: dephospho-CoA kinase
+  ecnumber: 2.7.1.24
+  organism: Sus scrofa
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q8MIR4
+  wildtype_sequence: MAVFRSGLLVLTTPLASLVPRLAPILTSAARLVNHTLYVHLQPGMNLGGPAQPQSSPVQATFEVIDFITHLYAGADLHRHLDVRILLTNIRTKSFLPPLPSSVQNLAHPPEVVLTDFQTLDGSQYNPVKQQLERYATSCYSCCPQLSSVLLYPDYGPGMLPVQPLDVPLPSTIRPASPVARSAKQPVRGHQRGAVGGTFDRLHNAHKVLLSVACILAQEQLVVGVADKDLLKSKLLPELLQPYTERVEHLSEFLVDIKPSLSFDLIPLLDPYGPAGSDPSLEFLVVSEETYRGGMAVNRFRLENGLEELTLYQIQLLKDLNPKENEEDKVSSSSFRQQMLGNLLRPPHKRPELPPGCYVIGLTGISGSGKSSVAQRLKGLGAYVIDSDQLGHRSYAPGGPAYQPVVEAFGTDILHKDGTINRKVLGSRVFGNKKQLKILTDIVWPVIAKLAREEVDQAVAEGKRVCVIDAAVLLEAGWQNMVHEVWTVVIPETEAVRRIVERDGLSEAAAQSRLQSQMSGQQLVDQSHVVLSTLWEPHVTQRQVEKAWALLQKRISEAPSDP
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Dephospho-CoA
+  name: Dephospho-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4_-Phosphopantetheine
+  name: 4'-Phosphopantetheine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_48_EC2_7_1_24_Sus_scrofa_Q8MIR4_ATP
+  name: Reaction catalyzed by dephospho-CoA kinase on ATP
+  equation: ATP + Dephospho-CoA = Coenzyme A + ADP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Dephospho-CoA
+  products:
+  - species_id: product_ADP
+  - species_id: product_Coenzyme_A
+  modifiers:
+  - species_id: protein_2_7_1_24_Q8MIR4_p20961
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 18245;18246;18247;18248
+  KEGGid: R00130
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:4436; CHEBI:15346; CHEBI:16761;
+    CHEBI:23355; CHEBI:10789; CHEBI:57299; CHEBI:40553; CHEBI:11793; CHEBI:41631;
+    CHEBI:13236; CHEBI:13295; CHEBI:41597; CHEBI:23642; CHEBI:10841; CHEBI:57328;
+    CHEBI:2359; CHEBI:87518; CHEBI:40938; CHEBI:57287; CHEBI:13294; CHEBI:456216;
+    CHEBI:14124; CHEBI:22249; CHEBI:2342; CHEBI:15422; CHEBI:15468; CHEBI:41614; CHEBI:3771;
+    CHEBI:741566; CHEBI:13222; CHEBI:22244; CHEBI:13298
+
+    KEGG IDs: KEGG:C00002; KEGG:C00882; KEGG:C00008; KEGG:C00010'
+- id: sabiork_2884_EC2_7_7_3_Sus_scrofa_Q8MIR4_Dephospho-CoA
+  name: Reaction catalyzed by pantetheine-phosphate adenylyltransferase on Dephospho-CoA
+  equation: ATP + 4'-Phosphopantetheine = Diphosphate + Dephospho-CoA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Dephospho-CoA
+  - species_id: substrate_Diphosphate
+  products:
+  - species_id: product_ATP
+  - species_id: product_4_-Phosphopantetheine
+  modifiers:
+  - species_id: protein_2_7_7_3_Q8MIR4_p20959
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 19801;19802;19803;19804
+  KEGGid: R03035
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:4436; CHEBI:7914; CHEBI:8683;
+    CHEBI:57299; CHEBI:10789; CHEBI:16858; CHEBI:25844; CHEBI:11793; CHEBI:47942;
+    CHEBI:14735; CHEBI:33019; CHEBI:4222; CHEBI:13236; CHEBI:61723; CHEBI:45067; CHEBI:23642;
+    CHEBI:29888; CHEBI:10841; CHEBI:57328; CHEBI:2359; CHEBI:35782; CHEBI:40938; CHEBI:13420;
+    CHEBI:18361; CHEBI:33017; CHEBI:14736; CHEBI:45208; CHEBI:14124; CHEBI:22249;
+    CHEBI:15422; CHEBI:15468; CHEBI:41614; CHEBI:14825; CHEBI:11916; CHEBI:45012;
+    CHEBI:45212; CHEBI:42009; CHEBI:14738; CHEBI:33018
+
+    KEGG IDs: KEGG:C00002; KEGG:C00882; KEGG:C00013; KEGG:C01134'
+measurements:
+- id: measurement_2_7_1_24_Sus_scrofa_Q8MIR4_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_7_7_3_Sus_scrofa_Q8MIR4_Dephospho-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_7_1_24_Sus_scrofa_Q8MIR4_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.1e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11994049'
+- id: 2_7_1_24_Sus_scrofa_Q8MIR4_ATP_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00033
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11994049'
+- id: 2_7_7_3_Sus_scrofa_Q8MIR4_Dephospho-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.11e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Dephospho-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11994049'
+- id: 2_7_7_3_Sus_scrofa_Q8MIR4_Dephospho-CoA_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00019
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Dephospho-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11994049'
+buffer:
+  buffer: 50 mM Tris/HCl, 0.5 mM Dithiothreitol, 2 mM MgCl2, 2.5 mM phosphoenolpyruvate,
+    0.2 mM NADH, 7 units of pyruvate kinase, 5 unit of lactate dehydrogenase; 50 mM
+    Tris/HCl, 0.5 mM Dithiothreitol, 2 mM MgCl2, 1 mM NAD+, 5 mM glucose, 5 units
+    of hexokinase, 1 unit of glucose-6-phosphate dehydrogenase
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 20961
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11994049/
+  pubmed_id: '11994049'
+  doi: null
+name: Merged entry for Q8MIR4 wildtype
+description: 'Merged from 2 files: SABIO_EC2.7.1.24_Sus_scrofa__Q8MIR4_s_ATP.yaml,
+  SABIO_EC2.7.7.3_Sus_scrofa__Q8MIR4_s_Dephospho-CoA.yaml'

@@ -1,0 +1,172 @@
+name: SABIO-RK Entry 19767
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 19767
+created: '2025-10-28T14:14:56.496018'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_4_21_62_P29599_p19767
+  name: subtilisin
+  ecnumber: 3.4.21.62
+  organism: Bacillus lentus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: N62C
+  uniprotid: P29599
+  wildtype_sequence: AQSVPWGISRVQAPAAHNRGLTGSGVKVAVLDTGISTHPDLNIRGGASFVPGEPSTQDGNGHGTHVAGTIAALNNSIGVLGVAPSAELYAVKVLGADGRGAISSIAQGLEWAGNNGMHVANLSLGSPSPSATLEQAVNSATSRGVLVVAASGNSGASSISYPARYANAMAVGATDQNNNRASFSQYGAGLDIVAPGVNVQSTYPGSTYASLNGTSMATPHVAGAAALVKQKNPSWSNVQIRNHLKNTATSLGSTNLYGSGLVNAEAATR
+  mutant_sequence: AQSVPWGISRVQAPAAHNRGLTGSGVKVAVLDTGISTHPDLNIRGGASFVPGEPSTQDGCGHGTHVAGTIAALNNSIGVLGVAPSAELYAVKVLGADGRGAISSIAQGLEWAGNNGMHVANLSLGSPSPSATLEQAVNSATSRGVLVVAASGNSGASSISYPARYANAMAVGATDQNNNRASFSQYGAGLDIVAPGVNVQSTYPGSTYASLNGTSMATPHVAGAAALVKQKNPSWSNVQIRNHLKNTATSLGSTNLYGSGLVNAEAATR
+  position_offset: -2
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Peptide-thiobenzyl_ester
+  name: Peptide-thiobenzyl ester
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Peptide
+  name: Peptide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Benzylthiol
+  name: Benzylthiol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_10157_EC3_4_21_62_Bacillus_lentus_P29599_Peptide-thiobenzyl_ester
+  name: Reaction catalyzed by subtilisin on Peptide-thiobenzyl ester
+  equation: H2O + Peptide-thiobenzyl ester = Benzylthiol + Peptide
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Peptide-thiobenzyl_ester
+  products:
+  - species_id: product_Peptide
+  - species_id: product_Benzylthiol
+  modifiers:
+  - species_id: protein_3_4_21_62_P29599_p19767
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:16670; CHEBI:42857;
+    CHEBI:41979; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377;
+    CHEBI:13352; CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:137674; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00001; KEGG:C00012'
+measurements:
+- id: measurement_3_4_21_62_Bacillus_lentus_P29599_Peptide-thiobenzyl_ester
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.6
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 3_4_21_62_Bacillus_lentus_P29599_Peptide-thiobenzyl_ester_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00029
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Peptide-thiobenzyl_ester
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: null
+- id: 3_4_21_62_Bacillus_lentus_P29599_Peptide-thiobenzyl_ester_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 6330000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Peptide-thiobenzyl_ester
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: null
+- id: 3_4_21_62_Bacillus_lentus_P29599_Peptide-thiobenzyl_ester_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1840.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Peptide-thiobenzyl_ester
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.6
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: null
+buffer:
+  buffer: 0.1 M Tris, 0.005% Tween, 0.0375 M DTNB
+  buffer_concentration: 0.1 M
+references: null

@@ -1,0 +1,379 @@
+version: '2.0'
+created: '2025-11-20T13:39:55.194313'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_8_1_4_Q04829_p61941
+  name: dihydrolipoyl dehydrogenase
+  ecnumber: 1.8.1.4
+  organism: Halobacterium volcanii
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: E423A
+  uniprotid: Q04829
+  wildtype_sequence: MVVGDIATGTELLVIGAGPGGYVAAIRAAQNGIDTTLVEKDAYGGTCLNYGCIPSKALITGANLAHEAGNAEEMGIHADPVVDMSQLRDWKSGVVDQLTGGVEKLCKANGVNLVEGTARFKDENAVRIAHGGEGQGSETIEFEHCIIATGSRVIQIPGFDFGDEPVWSSRDALEADTVPERLVVVGGGYIGMELSTTFAKLGADVTVVEMLDDILPGYESDVARVVRKRAEELGIDMHLGEGASGWREEDDGIMVTTETEDGEENEYRADKVLVAVGRSPVTDTMDIENAGLEADDRGFLSVDDRRRTDVEHIYAVGDVVEDTPMLAHVASKEGIVAAEHVAGEPVAFDSQAVPAAVFTDPEIGTVGMTEADAEEAGFTPVVGQMPFRASGRALTTNHADGFVRVVADEESGFVLGAQIVGPEASELIAELAFAIEMGATLEDVASTIHTHPTLAEAVMEAAENALGQAIHTLNR
+  mutant_sequence: MVVGDIATGTELLVIGAGPGGYVAAIRAAQNGIDTTLVEKDAYGGTCLNYGCIPSKALITGANLAHEAGNAEEMGIHADPVVDMSQLRDWKSGVVDQLTGGVEKLCKANGVNLVEGTARFKDENAVRIAHGGEGQGSETIEFEHCIIATGSRVIQIPGFDFGDEPVWSSRDALEADTVPERLVVVGGGYIGMELSTTFAKLGADVTVVEMLDDILPGYESDVARVVRKRAEELGIDMHLGEGASGWREEDDGIMVTTETEDGEENEYRADKVLVAVGRSPVTDTMDIENAGLEADDRGFLSVDDRRRTDVEHIYAVGDVVEDTPMLAHVASKEGIVAAEHVAGEPVAFDSQAVPAAVFTDPEIGTVGMTEADAEEAGFTPVVGQMPFRASGRALTTNHADGFVRVVADEESGFVLGAQIVGPAASELIAELAFAIEMGATLEDVASTIHTHPTLAEAVMEAAENALGQAIHTLNR
+complexes: null
+small_molecules:
+- id: substrate_Dihydrolipoamide
+  name: Dihydrolipoamide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Lipoamide
+  name: Lipoamide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_K_
+  name: K+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_60_EC1_8_1_4_Halobacterium_volcanii_Q04829_Dihydrolipoamide
+  name: Reaction catalyzed by dihydrolipoyl dehydrogenase on Dihydrolipoamide
+  equation: Dihydrolipoamide + NAD+ = NADH + Lipoamide + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Dihydrolipoamide
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_Lipoamide
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_8_1_4_Q04829_p61941
+    role: BIOCATALYST
+  - species_id: activator_K_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 33059;33060;33061;33062
+  KEGGid: R01698
+  notes: 'ChEBI IDs: CHEBI:25055; CHEBI:44281; CHEBI:43711; CHEBI:83094; CHEBI:13393;
+    CHEBI:29234; CHEBI:15846; CHEBI:26219; CHEBI:13357; CHEBI:21902; CHEBI:13396;
+    CHEBI:8345; CHEBI:21901; CHEBI:14153; CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:5584;
+    CHEBI:13394; CHEBI:29103; CHEBI:57945; CHEBI:44216; CHEBI:4568; CHEBI:57540; CHEBI:14518;
+    CHEBI:7423; CHEBI:17460; CHEBI:13389; CHEBI:23749; CHEBI:15378; CHEBI:13395; CHEBI:17694;
+    CHEBI:44215; CHEBI:10744; CHEBI:49685; CHEBI:7422; CHEBI:6491; CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C00248; KEGG:C00579; KEGG:C00003; KEGG:C00238; KEGG:C00004'
+- id: sabiork_60_EC1_8_1_4_Halobacterium_volcanii_Q04829_Dihydrolipoamide
+  name: Reaction catalyzed by dihydrolipoyl dehydrogenase on Dihydrolipoamide
+  equation: Dihydrolipoamide + NAD+ = NADH + Lipoamide + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Dihydrolipoamide
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_NADH
+  - species_id: product_Lipoamide
+  modifiers:
+  - species_id: protein_1_8_1_4_Q04829_p61951
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 33059;33060;33061;33062
+  KEGGid: R01698
+  notes: 'ChEBI IDs: CHEBI:25055; CHEBI:44281; CHEBI:43711; CHEBI:83094; CHEBI:13393;
+    CHEBI:29234; CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901;
+    CHEBI:14153; CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:13394; CHEBI:5584; CHEBI:57945;
+    CHEBI:44216; CHEBI:4568; CHEBI:57540; CHEBI:14518; CHEBI:7423; CHEBI:17460; CHEBI:13389;
+    CHEBI:23749; CHEBI:13395; CHEBI:15378; CHEBI:17694; CHEBI:44215; CHEBI:10744;
+    CHEBI:7422; CHEBI:6491; CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C00248; KEGG:C00579; KEGG:C00003; KEGG:C00004'
+- id: sabiork_60_EC1_8_1_4_Halobacterium_volcanii_Q04829_Dihydrolipoamide
+  name: Reaction catalyzed by dihydrolipoyl dehydrogenase on Dihydrolipoamide
+  equation: Dihydrolipoamide + NAD+ = NADH + Lipoamide + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Dihydrolipoamide
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_NADH
+  - species_id: product_Lipoamide
+  modifiers:
+  - species_id: protein_1_8_1_4_Q04829_p61956
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 33059;33060;33061;33062
+  KEGGid: R01698
+  notes: 'ChEBI IDs: CHEBI:25055; CHEBI:44281; CHEBI:43711; CHEBI:83094; CHEBI:13393;
+    CHEBI:29234; CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901;
+    CHEBI:14153; CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:13394; CHEBI:5584; CHEBI:57945;
+    CHEBI:44216; CHEBI:4568; CHEBI:57540; CHEBI:14518; CHEBI:7423; CHEBI:17460; CHEBI:13389;
+    CHEBI:23749; CHEBI:13395; CHEBI:15378; CHEBI:17694; CHEBI:44215; CHEBI:10744;
+    CHEBI:7422; CHEBI:6491; CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C00248; KEGG:C00579; KEGG:C00003; KEGG:C00004'
+- id: sabiork_60_EC1_8_1_4_Halobacterium_volcanii_Q04829_NAD_
+  name: Reaction catalyzed by dihydrolipoyl dehydrogenase on NAD+
+  equation: Dihydrolipoamide + NAD+ = NADH + Lipoamide + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_Dihydrolipoamide
+  products:
+  - species_id: product_NADH
+  - species_id: product_Lipoamide
+  modifiers:
+  - species_id: protein_1_8_1_4_Q04829_p61946
+    role: BIOCATALYST
+  - species_id: activator_K_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 33059;33060;33061;33062
+  KEGGid: R01698
+  notes: 'ChEBI IDs: CHEBI:25055; CHEBI:44281; CHEBI:43711; CHEBI:83094; CHEBI:13393;
+    CHEBI:29234; CHEBI:15846; CHEBI:26219; CHEBI:13357; CHEBI:21902; CHEBI:13396;
+    CHEBI:8345; CHEBI:21901; CHEBI:14153; CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:13394;
+    CHEBI:5584; CHEBI:29103; CHEBI:57945; CHEBI:44216; CHEBI:4568; CHEBI:57540; CHEBI:14518;
+    CHEBI:7423; CHEBI:17460; CHEBI:13389; CHEBI:23749; CHEBI:13395; CHEBI:15378; CHEBI:17694;
+    CHEBI:44215; CHEBI:10744; CHEBI:49685; CHEBI:7422; CHEBI:6491; CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C00248; KEGG:C00579; KEGG:C00003; KEGG:C00238; KEGG:C00004'
+measurements:
+- id: measurement_1_8_1_4_Halobacterium_volcanii_Q04829_Dihydrolipoamide
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_8_1_4_Halobacterium_volcanii_Q04829_Dihydrolipoamide
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_8_1_4_Halobacterium_volcanii_Q04829_Dihydrolipoamide
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_1_8_1_4_Halobacterium_volcanii_Q04829_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_8_1_4_Halobacterium_volcanii_Q04829_Dihydrolipoamide_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.07e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Dihydrolipoamide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9346289'
+- id: 1_8_1_4_Halobacterium_volcanii_Q04829_Dihydrolipoamide_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.000103335
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Dihydrolipoamide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9346289'
+- id: 1_8_1_4_Halobacterium_volcanii_Q04829_Dihydrolipoamide_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 7.66682e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Dihydrolipoamide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9346289'
+- id: 1_8_1_4_Halobacterium_volcanii_Q04829_Dihydrolipoamide_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.43e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Dihydrolipoamide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9346289'
+- id: 1_8_1_4_Halobacterium_volcanii_Q04829_Dihydrolipoamide_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 7.66682e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Dihydrolipoamide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9346289'
+- id: 1_8_1_4_Halobacterium_volcanii_Q04829_Dihydrolipoamide_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000182
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Dihydrolipoamide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9346289'
+- id: 1_8_1_4_Halobacterium_volcanii_Q04829_NAD__Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 0.000103335
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9346289'
+- id: 1_8_1_4_Halobacterium_volcanii_Q04829_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000215
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '9346289'
+buffer:
+  buffer: 50 mM potassium phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 61941
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/9346289/
+  pubmed_id: '9346289'
+  doi: null
+name: Merged entry for Q04829 E423A
+description: 'Merged from 4 files: SABIO_EC1.8.1.4_Halobacterium_volcanii__Q04829_E423A_s_Dihydrolipoamide.yaml,
+  SABIO_EC1.8.1.4_Halobacterium_volcanii__Q04829_E423A_s_Dihydrolipoamide_2.yaml,
+  SABIO_EC1.8.1.4_Halobacterium_volcanii__Q04829_E423A_s_Dihydrolipoamide_3.yaml,
+  SABIO_EC1.8.1.4_Halobacterium_volcanii__Q04829_E423A_s_NAD_.yaml'

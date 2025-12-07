@@ -1,0 +1,276 @@
+version: '2.0'
+created: '2025-11-20T13:39:56.879305'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_1_1_13_Q9MYZ4_p19308
+  name: methionine synthase
+  ecnumber: 2.1.1.13
+  organism: Sus scrofa
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9MYZ4
+  wildtype_sequence: KCSAGVARKAAEEISLQTGIKRFVAGALGPTNKTLSVSPSVEKPDYRNITFDELVEAYKEQAKGLLDGGVDILLIETIFDTANAKAALFAVQKLFEEEYAPRPIFISGTIVDKSGRTLSGQTGEAFVISVSHADPLCIGLNCALGAAEMRPFIEIIGKCTTAY
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_L-Homocysteine
+  name: L-Homocysteine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_5-Methyltetrahydrofolate
+  name: 5-Methyltetrahydrofolate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_5
+  name: '5'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_6
+  name: '6'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_7
+  name: '7'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_8-Tetrahydrofolate
+  name: 8-Tetrahydrofolate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Methionine
+  name: L-Methionine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1260_EC2_1_1_13_Sus_scrofa_Q9MYZ4_L-Homocysteine
+  name: Reaction catalyzed by methionine synthase on L-Homocysteine
+  equation: L-Homocysteine + 5-Methyltetrahydrofolate = 5,6,7,8-Tetrahydrofolate +
+    L-Methionine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Homocysteine
+  - species_id: substrate_5-Methyltetrahydrofolate
+  products:
+  - species_id: product_5
+  - species_id: product_6
+  - species_id: product_7
+  - species_id: product_8-Tetrahydrofolate
+  - species_id: product_L-Methionine
+  modifiers:
+  - species_id: protein_2_1_1_13_Q9MYZ4_p19308
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 11172;11173;11174;11175
+  KEGGid: R00946
+  notes: 'ChEBI IDs: CHEBI:18608; CHEBI:26911; CHEBI:13141; CHEBI:66952; CHEBI:21360;
+    CHEBI:32632; CHEBI:58199; CHEBI:10931; CHEBI:14408; CHEBI:17230; CHEBI:15220;
+    CHEBI:58065; CHEBI:136009; CHEBI:16044; CHEBI:12146; CHEBI:9482; CHEBI:16643;
+    CHEBI:20506; CHEBI:12075; CHEBI:2097; CHEBI:43117; CHEBI:68437; CHEBI:21329; CHEBI:18606;
+    CHEBI:15641; CHEBI:46069; CHEBI:57453; CHEBI:49037; CHEBI:32631; CHEBI:5751; CHEBI:15635;
+    CHEBI:6245; CHEBI:6271; CHEBI:17588; CHEBI:63072; CHEBI:57844; CHEBI:43990; CHEBI:49038;
+    CHEBI:13122
+
+    KEGG IDs: KEGG:C00440; KEGG:C00073; KEGG:C00101; KEGG:C05330; KEGG:C00155'
+- id: sabiork_1260_EC2_1_1_13_Sus_scrofa_Q9MYZ4_5-Methyltetrahydrofolate
+  name: Reaction catalyzed by methionine synthase on 5-Methyltetrahydrofolate
+  equation: L-Homocysteine + 5-Methyltetrahydrofolate = 5,6,7,8-Tetrahydrofolate +
+    L-Methionine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_5-Methyltetrahydrofolate
+  - species_id: substrate_L-Homocysteine
+  products:
+  - species_id: product_5
+  - species_id: product_6
+  - species_id: product_7
+  - species_id: product_8-Tetrahydrofolate
+  - species_id: product_L-Methionine
+  modifiers:
+  - species_id: protein_2_1_1_13_Q9MYZ4_p19309
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 11172;11173;11174;11175
+  KEGGid: R00946
+  notes: 'ChEBI IDs: CHEBI:18608; CHEBI:26911; CHEBI:13141; CHEBI:66952; CHEBI:21360;
+    CHEBI:32632; CHEBI:58199; CHEBI:10931; CHEBI:14408; CHEBI:17230; CHEBI:15220;
+    CHEBI:58065; CHEBI:136009; CHEBI:16044; CHEBI:12146; CHEBI:9482; CHEBI:16643;
+    CHEBI:20506; CHEBI:12075; CHEBI:2097; CHEBI:43117; CHEBI:68437; CHEBI:21329; CHEBI:18606;
+    CHEBI:15641; CHEBI:46069; CHEBI:57453; CHEBI:49037; CHEBI:32631; CHEBI:5751; CHEBI:15635;
+    CHEBI:6245; CHEBI:6271; CHEBI:17588; CHEBI:63072; CHEBI:57844; CHEBI:43990; CHEBI:49038;
+    CHEBI:13122
+
+    KEGG IDs: KEGG:C00440; KEGG:C00073; KEGG:C00101; KEGG:C05330; KEGG:C00155'
+measurements:
+- id: measurement_2_1_1_13_Sus_scrofa_Q9MYZ4_L-Homocysteine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_1_1_13_Sus_scrofa_Q9MYZ4_5-Methyltetrahydrofolate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_1_1_13_Sus_scrofa_Q9MYZ4_L-Homocysteine_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 9.0e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Homocysteine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7961628'
+- id: 2_1_1_13_Sus_scrofa_Q9MYZ4_L-Homocysteine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 5.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Homocysteine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7961628'
+- id: 2_1_1_13_Sus_scrofa_Q9MYZ4_5-Methyltetrahydrofolate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.68e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_5-Methyltetrahydrofolate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7961628'
+- id: 2_1_1_13_Sus_scrofa_Q9MYZ4_5-Methyltetrahydrofolate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 5.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_5-Methyltetrahydrofolate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.2
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7961628'
+buffer:
+  buffer: 100 mM potassium phosphate, 19 ¦ÌM S-adenosylmethionine (iodide salt), 50
+    ¦ÌM aquocobalamin, 25 mM dithiothreitol
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 19308
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/7961628/
+  pubmed_id: '7961628'
+  doi: null
+name: Merged entry for Q9MYZ4 wildtype
+description: 'Merged from 2 files: SABIO_EC2.1.1.13_Sus_scrofa__Q9MYZ4_s_L-Homocysteine.yaml,
+  SABIO_EC2.1.1.13_Sus_scrofa__Q9MYZ4_s_5-Methyltetrahydrofo.yaml'

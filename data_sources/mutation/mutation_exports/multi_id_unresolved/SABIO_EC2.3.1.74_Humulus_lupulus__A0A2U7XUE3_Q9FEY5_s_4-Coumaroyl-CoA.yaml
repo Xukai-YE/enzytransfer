@@ -1,0 +1,199 @@
+name: SABIO-RK Entry 75420
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 75420
+created: '2025-10-28T17:44:50.250032'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_3_1_74_A0A2U7XUE3_Q9FEY5_p75420
+  name: naringenin-chalcone synthase
+  sequence: null
+  ecnumber: 2.3.1.74
+  organism: Humulus lupulus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: A0A2U7XUE3; Q9FEY5
+complexes: null
+small_molecules:
+- id: substrate_4-Coumaroyl-CoA
+  name: 4-Coumaroyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Malonyl-CoA
+  name: Malonyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Naringenin_chalcone
+  name: Naringenin chalcone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1758_EC2_3_1_74_Humulus_lupulus_A0A2U7XUE3_Q9FEY5_4-Coumaroyl-CoA
+  name: Reaction catalyzed by naringenin-chalcone synthase on 4-Coumaroyl-CoA
+  equation: 4-Coumaroyl-CoA + Malonyl-CoA = CO2 + Coenzyme A + Naringenin chalcone
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_4-Coumaroyl-CoA
+  - species_id: substrate_Malonyl-CoA
+  products:
+  - species_id: product_Coenzyme_A
+  - species_id: product_Naringenin_chalcone
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_2_3_1_74_A0A2U7XUE3_Q9FEY5_p75420
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 11128;11129;11130;11131
+  KEGGid: R01613
+  notes: 'ChEBI IDs: CHEBI:25135; CHEBI:15346; CHEBI:23355; CHEBI:43979; CHEBI:139538;
+    CHEBI:41631; CHEBI:85008; CHEBI:20349; CHEBI:11979; CHEBI:85531; CHEBI:1813; CHEBI:15531;
+    CHEBI:57384; CHEBI:3283; CHEBI:6661; CHEBI:13295; CHEBI:6055; CHEBI:41597; CHEBI:14641;
+    CHEBI:15499; CHEBI:23011; CHEBI:15413; CHEBI:57287; CHEBI:13285; CHEBI:13294;
+    CHEBI:13282; CHEBI:77645; CHEBI:57355; CHEBI:13283; CHEBI:10785; CHEBI:14565;
+    CHEBI:13284; CHEBI:3771; CHEBI:16526; CHEBI:741566; CHEBI:48829; CHEBI:19219;
+    CHEBI:13298
+
+    KEGG IDs: KEGG:C00010; KEGG:C00083; KEGG:C06561; KEGG:C00011; KEGG:C00223'
+measurements:
+- id: measurement_2_3_1_74_Humulus_lupulus_A0A2U7XUE3_Q9FEY5_4-Coumaroyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 2_3_1_74_Humulus_lupulus_A0A2U7XUE3_Q9FEY5_4-Coumaroyl-CoA_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.0012
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_4-Coumaroyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29760092'
+- id: 2_3_1_74_Humulus_lupulus_A0A2U7XUE3_Q9FEY5_4-Coumaroyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.657e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_4-Coumaroyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29760092'
+- id: 2_3_1_74_Humulus_lupulus_A0A2U7XUE3_Q9FEY5_4-Coumaroyl-CoA_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 45.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_4-Coumaroyl-CoA
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29760092'
+buffer:
+  buffer: 50 mM Tris-HCl, 0.1 mg/ml BSA
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 75420
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/29760092/
+  pubmed_id: '29760092'
+  doi: null

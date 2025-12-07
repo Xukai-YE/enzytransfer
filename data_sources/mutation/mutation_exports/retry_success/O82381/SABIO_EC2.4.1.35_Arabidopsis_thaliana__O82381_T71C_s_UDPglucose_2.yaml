@@ -1,0 +1,174 @@
+name: SABIO-RK Entry 46281
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 46281
+created: '2025-10-28T15:37:08.903113'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_4_1_35_O82381_p46281
+  name: phenol beta-glucosyltransferase
+  ecnumber: 2.4.1.35
+  organism: Arabidopsis thaliana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: T71C
+  uniprotid: O82381
+  wildtype_sequence: MGKQEDAELVIIPFPFSGHILATIELAKRLISQDNPRIHTITILYWGLPFIPQADTIAFLRSLVKNEPRIRLVTLPEVQDPPPMELFVEFAESYILEYVKKMVPIIREALSTLLSSRDESGSVRVAGLVLDFFCVPMIDVGNEFNLPSYIFLTCSAGFLGMMKYLPERHREIKSEFNRSFNEELNLIPGYVNSVPTKVLPSGLFMKETYEPWVELAERFPEAKGILVNSYTALEPNGFKYFDRCPDNYPTIYPIGPILCSNDRPNLDSSERDRIITWLDDQPESSVVFLCFGSLKNLSATQINEIAQALEIVDCKFIWSFRTNPKEYASPYEALPHGFMDRVMDQGIVCGWAPQVEILAHKAVGGFVSHCGWNSILESLGFGVPIATWPMYAEQQLNAFTMVKELGLALEMRLDYVSEDGDIVKADEIAGTVRSLMDGVDVPKSKVKEIAEAGKEAVDGGSSFLAVKRFIGDLIDGVSISK
+  mutant_sequence: MGKQEDAELVIIPFPFSGHILATIELAKRLISQDNPRIHTITILYWGLPFIPQADTIAFLRSLVKNEPRIRLVCLPEVQDPPPMELFVEFAESYILEYVKKMVPIIREALSTLLSSRDESGSVRVAGLVLDFFCVPMIDVGNEFNLPSYIFLTCSAGFLGMMKYLPERHREIKSEFNRSFNEELNLIPGYVNSVPTKVLPSGLFMKETYEPWVELAERFPEAKGILVNSYTALEPNGFKYFDRCPDNYPTIYPIGPILCSNDRPNLDSSERDRIITWLDDQPESSVVFLCFGSLKNLSATQINEIAQALEIVDCKFIWSFRTNPKEYASPYEALPHGFMDRVMDQGIVCGWAPQVEILAHKAVGGFVSHCGWNSILESLGFGVPIATWPMYAEQQLNAFTMVKELGLALEMRLDYVSEDGDIVKADEIAGTVRSLMDGVDVPKSKVKEIAEAGKEAVDGGSSFLAVKRFIGDLIDGVSISK
+  position_offset: 3
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_UDPglucose
+  name: UDPglucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_2-Coumarate
+  name: 2-Coumarate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_trans-beta-D-Glucosyl-2-hydroxycinnamate
+  name: trans-beta-D-Glucosyl-2-hydroxycinnamate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_UDP
+  name: UDP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_3473_EC2_4_1_35_Arabidopsis_thaliana_O82381_UDPglucose
+  name: Reaction catalyzed by phenol beta-glucosyltransferase on UDPglucose
+  equation: UDPglucose + 2-Coumarate = trans-beta-D-Glucosyl-2-hydroxycinnamate +
+    UDP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_UDPglucose
+  - species_id: substrate_2-Coumarate
+  products:
+  - species_id: product_trans-beta-D-Glucosyl-2-hydroxycinnamate
+  - species_id: product_UDP
+  modifiers:
+  - species_id: protein_2_4_1_35_O82381_p46281
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03710
+  notes: 'ChEBI IDs: CHEBI:46402; CHEBI:19517; CHEBI:11594; CHEBI:18125; CHEBI:10736;
+    CHEBI:13445; CHEBI:12875; CHEBI:19516; CHEBI:27048; CHEBI:58181; CHEBI:18176;
+    CHEBI:19633; CHEBI:18066; CHEBI:1047; CHEBI:17531; CHEBI:27230; CHEBI:1151; CHEBI:58223;
+    CHEBI:27071; CHEBI:39811; CHEBI:17659; CHEBI:11541; CHEBI:12877; CHEBI:9802
+
+    KEGG IDs: KEGG:C00015; KEGG:C00029; KEGG:C01772; KEGG:C05158'
+measurements:
+- id: measurement_2_4_1_35_Arabidopsis_thaliana_O82381_UDPglucose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 2_4_1_35_Arabidopsis_thaliana_O82381_UDPglucose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0008
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDPglucose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12741958'
+- id: 2_4_1_35_Arabidopsis_thaliana_O82381_UDPglucose_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 240.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_UDPglucose
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '12741958'
+buffer:
+  buffer: 50 mM Tris/HCl, 14 mM 2-Mercaptoethanol
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 46281
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12741958/
+  pubmed_id: '12741958'
+  doi: null

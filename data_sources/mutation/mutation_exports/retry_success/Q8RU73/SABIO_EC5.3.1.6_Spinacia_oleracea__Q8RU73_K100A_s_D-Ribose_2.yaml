@@ -1,0 +1,140 @@
+name: SABIO-RK Entry 54900
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 54900
+created: '2025-10-28T16:10:16.050938'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_5_3_1_6_Q8RU73_p54900
+  name: ribose-5-phosphate isomerase
+  ecnumber: 5.3.1.6
+  organism: Spinacia oleracea
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: K100A
+  uniprotid: Q8RU73
+  wildtype_sequence: MASAAFSLLPSTSSTTFNRHATTKLLNLKFLHNHRNKPFFTTTIKSLSSPSPTPVLTQDDLKKLAAEKAVDSVKSGMVLGLGTGSTAAFAVSRIGELLSAGKLTNIVGIPTSKRTAEQAASLGIPLSVLDDHPRIDLAIDGADEVDPDLNLVKGRGGALLREKMVEAASDKFIVVVDDTKLVDGLGGSRLAMPVEVVQFCWKYNLKRLQEIFKELGCEAKLRMEGDSSPYVTDNSNYIVDLYFPTSIKDAEAAGREISALEGVVEHGLFLGMASEVIIAGKTGVSVKTK
+  mutant_sequence: MASAAFSLLPSTSSTTFNRHATTKLLNLKFLHNHRNKPFFTTTIKSLSSPSPTPVLTQDDLKKLAAEKAVDSVKSGMVLGLGTGSTAAFAVSRIGELLSAGALTNIVGIPTSKRTAEQAASLGIPLSVLDDHPRIDLAIDGADEVDPDLNLVKGRGGALLREKMVEAASDKFIVVVDDTKLVDGLGGSRLAMPVEVVQFCWKYNLKRLQEIFKELGCEAKLRMEGDSSPYVTDNSNYIVDLYFPTSIKDAEAAGREISALEGVVEHGLFLGMASEVIIAGKTGVSVKTK
+  position_offset: 2
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_D-Ribose_5-phosphate
+  name: D-Ribose 5-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Ribulose_5-phosphate
+  name: D-Ribulose 5-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Ethylamine
+  name: Ethylamine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_65_EC5_3_1_6_Spinacia_oleracea_Q8RU73_D-Ribose_5-phosphate
+  name: Reaction catalyzed by ribose-5-phosphate isomerase on D-Ribose 5-phosphate
+  equation: D-Ribose 5-phosphate = D-Ribulose 5-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Ribose_5-phosphate
+  products:
+  - species_id: product_D-Ribulose_5-phosphate
+  modifiers:
+  - species_id: protein_5_3_1_6_Q8RU73_p54900
+    role: BIOCATALYST
+  - species_id: activator_Ethylamine
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 14657;14658;14659;14660
+  KEGGid: R01056
+  notes: 'ChEBI IDs: CHEBI:26572; CHEBI:58273; CHEBI:4243; CHEBI:4238; CHEBI:15048;
+    CHEBI:21088; CHEBI:21083; CHEBI:40192; CHEBI:13018; CHEBI:14228; CHEBI:13040;
+    CHEBI:37455; CHEBI:15862; CHEBI:566789; CHEBI:44361; CHEBI:4897; CHEBI:17797;
+    CHEBI:23998; CHEBI:13013; CHEBI:17363; CHEBI:58121
+
+    KEGG IDs: KEGG:C00199; KEGG:C00117; KEGG:C00797'
+measurements:
+- id: measurement_5_3_1_6_Spinacia_oleracea_Q8RU73_D-Ribose_5-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 5_3_1_6_Spinacia_oleracea_Q8RU73_D-Ribose_5-phosphate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 10.7
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_D-Ribose_5-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '1'
+buffer:
+  buffer: 50 mM Bicine, 40 mM KCl, 10 mM MgCl2, 1 mM ATP, 3 mM PEP, 0.24 mM NADH,
+    2 U/ml phosphoribulose kinase, 4 U/ml pyruvate kinase, 5 U/ml lactate dehydrogenase
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 54900
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/1/
+  pubmed_id: '1'
+  doi: null

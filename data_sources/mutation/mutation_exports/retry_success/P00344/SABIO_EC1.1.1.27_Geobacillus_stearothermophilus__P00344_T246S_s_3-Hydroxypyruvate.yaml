@@ -1,0 +1,192 @@
+name: SABIO-RK Entry 15995
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 15995
+created: '2025-10-28T14:08:26.830530'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_27_P00344_p15995
+  name: L-lactate dehydrogenase
+  ecnumber: 1.1.1.27
+  organism: Geobacillus stearothermophilus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: T246S
+  uniprotid: P00344
+  wildtype_sequence: MKNNGGARVVVIGAGFVGASYVFALMNQGIADEIVLIDANESKAIGDAMDFNHGKVFAPKPVDIWHGDYDDCRDADLVVICAGANQKPGETRLDLVDKNIAIFRSIVESVMASGFQGLFLVATNPVDILTYATWKFSGLPHERVIGSGTILDTARFRFLLGEYFSVAPQNVHAYIIGEHGDTELPVWSQAYIGVMPIRKLVESKGEEAQKDLERIFVNVRDAAYQIIEKKGATYYGIAMGLARVTRAILHNENAILTVSAYLDGLYGERDVYIGVPAVINRNGIREVIEIELNDDEKNRFHHSAATLKSVLARAFTR
+  mutant_sequence: MKNNGGARVVVIGAGFVGASYVFALMNQGIADEIVLIDANESKAIGDAMDFNHGKVFAPKPVDIWHGDYDDCRDADLVVICAGANQKPGETRLDLVDKNIAIFRSIVESVMASGFQGLFLVATNPVDILTYATWKFSGLPHERVIGSGTILDTARFRFLLGEYFSVAPQNVHAYIIGEHGDTELPVWSQAYIGVMPIRKLVESKGEEAQKDLERIFVNVRDAAYQIIEKKGATYYGIAMGLARVSRAILHNENAILTVSAYLDGLYGERDVYIGVPAVINRNGIREVIEIELNDDEKNRFHHSAATLKSVLARAFTR
+  position_offset: -1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_3-Hydroxypyruvate
+  name: 3-Hydroxypyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Glycerate
+  name: D-Glycerate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_426_EC1_1_1_27_Geobacillus_stearothermophilus_P00344_3-Hydroxypyruvate
+  name: Reaction catalyzed by L-lactate dehydrogenase on 3-Hydroxypyruvate
+  equation: NAD+ + D-Glycerate = NADH + H+ + 3-Hydroxypyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3-Hydroxypyruvate
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_NAD_
+  - species_id: product_D-Glycerate
+  modifiers:
+  - species_id: protein_1_1_1_27_P00344_p15995
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 17905;17906;17907;17908
+  KEGGid: R01388
+  notes: 'ChEBI IDs: CHEBI:21027; CHEBI:30841; CHEBI:44281; CHEBI:39999; CHEBI:14425;
+    CHEBI:29234; CHEBI:13393; CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:13396;
+    CHEBI:10999; CHEBI:21901; CHEBI:41990; CHEBI:5813; CHEBI:24636; CHEBI:44214; CHEBI:29233;
+    CHEBI:20083; CHEBI:5584; CHEBI:13394; CHEBI:21030; CHEBI:12985; CHEBI:57945; CHEBI:44216;
+    CHEBI:16659; CHEBI:57540; CHEBI:7423; CHEBI:11837; CHEBI:13389; CHEBI:13395; CHEBI:15378;
+    CHEBI:17180; CHEBI:32398; CHEBI:4187; CHEBI:10744; CHEBI:44215; CHEBI:7422; CHEBI:20082;
+    CHEBI:16908
+
+    KEGG IDs: KEGG:C00168; KEGG:C00080; KEGG:C00003; KEGG:C00004; KEGG:C00258'
+measurements:
+- id: measurement_1_1_1_27_Geobacillus_stearothermophilus_P00344_3-Hydroxypyruvate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1_27_Geobacillus_stearothermophilus_P00344_3-Hydroxypyruvate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 140000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Hydroxypyruvate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 6.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8251493'
+- id: 1_1_1_27_Geobacillus_stearothermophilus_P00344_3-Hydroxypyruvate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00054
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Hydroxypyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8251493'
+- id: 1_1_1_27_Geobacillus_stearothermophilus_P00344_3-Hydroxypyruvate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 74.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-Hydroxypyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8251493'
+buffer:
+  buffer: 20 mM piperazine, 5 mM fructose 1,6-bisphosphate
+  buffer_concentration: 20 mM
+references:
+- title: Reference for SABIO-RK entry 15995
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/8251493/
+  pubmed_id: '8251493'
+  doi: null

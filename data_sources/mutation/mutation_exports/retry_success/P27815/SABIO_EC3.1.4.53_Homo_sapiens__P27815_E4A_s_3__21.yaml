@@ -1,0 +1,138 @@
+name: SABIO-RK Entry 67905
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 67905
+created: '2025-10-28T17:04:37.219192'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_1_4_53_P27815_p67905
+  name: 3',5'-cyclic-nucleotide phosphodiesterase
+  ecnumber: 3.1.4.53
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: E4A
+  uniprotid: P27815
+  wildtype_sequence: MEPPTVPSERSLSLSLPGPREGQATLKPPPQHLWRQPRTPIRIQQRGYSDSAERAERERQPHRPIERADAMDTSDRPGLRTTRMSWPSSFHGTGTGSGGAGGGSSRRFEAENGPTPSPGRSPLDSQASPGLVLHAGAATSQRRESFLYRSDSDYDMSPKTMSRNSSVTSEAHAEDLIVTPFAQVLASLRSVRSNFSLLTNVPVPSNKRSPLGGPTPVCKATLSEETCQQLARETLEELDWCLEQLETMQTYRSVSEMASHKFKRMLNRELTHLSEMSRSGNQVSEYISTTFLDKQNEVEIPSPTMKEREKQQAPRPRPSQPPPPPVPHLQPMSQITGLKKLMHSNSLNNSNIPRFGVKTDQEELLAQELENLNKWGLNIFCVSDYAGGRSLTCIMYMIFQERDLLKKFRIPVDTMVTYMLTLEDHYHADVAYHNSLHAADVLQSTHVLLATPALDAVFTDLEILAALFAAAIHDVDHPGVSNQFLINTNSELALMYNDESVLENHHLAVGFKLLQEDNCDIFQNLSKRQRQSLRKMVIDMVLATDMSKHMTLLADLKTMVETKKVTSSGVLLLDNYSDRIQVLRNMVHCADLSNPTKPLELYRQWTDRIMAEFFQQGDRERERGMEISPMCDKHTASVEKSQVGFIDYIVHPLWETWADLVHPDAQEILDTLEDNRDWYYSAIRQSPSPPPEEESRGPGHPPLPDKFQFELTLEEEEEEEISMAQIPCTAQEALTAQGLSGVEEALDATIAWEASPAQESLEVMAQEASLEAELEAVYLTQQAQSTGSAPVAPDEFSSREEFVVAVSHSSPSALALQSPLLPAWRTLSVSEHAPGLPGLPSTAAEVEAQREHQAAKRACSACAGTFGEDTSALPAPGGGGSGGDPT
+  mutant_sequence: MAPPTVPSERSLSLSLPGPREGQATLKPPPQHLWRQPRTPIRIQQRGYSDSAERAERERQPHRPIERADAMDTSDRPGLRTTRMSWPSSFHGTGTGSGGAGGGSSRRFEAENGPTPSPGRSPLDSQASPGLVLHAGAATSQRRESFLYRSDSDYDMSPKTMSRNSSVTSEAHAEDLIVTPFAQVLASLRSVRSNFSLLTNVPVPSNKRSPLGGPTPVCKATLSEETCQQLARETLEELDWCLEQLETMQTYRSVSEMASHKFKRMLNRELTHLSEMSRSGNQVSEYISTTFLDKQNEVEIPSPTMKEREKQQAPRPRPSQPPPPPVPHLQPMSQITGLKKLMHSNSLNNSNIPRFGVKTDQEELLAQELENLNKWGLNIFCVSDYAGGRSLTCIMYMIFQERDLLKKFRIPVDTMVTYMLTLEDHYHADVAYHNSLHAADVLQSTHVLLATPALDAVFTDLEILAALFAAAIHDVDHPGVSNQFLINTNSELALMYNDESVLENHHLAVGFKLLQEDNCDIFQNLSKRQRQSLRKMVIDMVLATDMSKHMTLLADLKTMVETKKVTSSGVLLLDNYSDRIQVLRNMVHCADLSNPTKPLELYRQWTDRIMAEFFQQGDRERERGMEISPMCDKHTASVEKSQVGFIDYIVHPLWETWADLVHPDAQEILDTLEDNRDWYYSAIRQSPSPPPEEESRGPGHPPLPDKFQFELTLEEEEEEEISMAQIPCTAQEALTAQGLSGVEEALDATIAWEASPAQESLEVMAQEASLEAELEAVYLTQQAQSTGSAPVAPDEFSSREEFVVAVSHSSPSALALQSPLLPAWRTLSVSEHAPGLPGLPSTAAEVEAQREHQAAKRACSACAGTFGEDTSALPAPGGGGSGGDPT
+  position_offset: -2
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_3_
+  name: 3'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_5_-Cyclic_AMP
+  name: 5'-Cyclic AMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_AMP
+  name: AMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Denbufylline
+  name: Denbufylline
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_292_EC3_1_4_53_Homo_sapiens_P27815_3_
+  name: Reaction catalyzed by 3',5'-cyclic-nucleotide phosphodiesterase on 3'
+  equation: H2O + 3',5'-Cyclic AMP = AMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3_
+  - species_id: substrate_5_-Cyclic_AMP
+  products:
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_3_1_4_53_P27815_p67905
+    role: BIOCATALYST
+  - species_id: activator_Denbufylline
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 25277;25278;25279;25280
+  KEGGid: R00191
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:40726; CHEBI:41981; CHEBI:22245;
+    CHEBI:17489; CHEBI:40510; CHEBI:22242; CHEBI:13736; CHEBI:42857; CHEBI:19827;
+    CHEBI:41979; CHEBI:11673; CHEBI:47222; CHEBI:456215; CHEBI:40786; CHEBI:40826;
+    CHEBI:16027; CHEBI:2356; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377;
+    CHEBI:13352; CHEBI:43228; CHEBI:44292; CHEBI:58165; CHEBI:33806; CHEBI:13740;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:1325; CHEBI:13234; CHEBI:40721; CHEBI:41588;
+    CHEBI:13235; CHEBI:12056; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00575; KEGG:C00001; KEGG:C00020'
+measurements:
+- id: measurement_3_1_4_53_Homo_sapiens_P27815_3_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.2
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 50 mM HEPES, 50 mM KCl, 10 mM EGTA, 1.92 mM MgCl2, 1 mM dithiothreitol,
+    40 ¦Ìg/ml phenylmethylsulfonyl fluoride, 156 ¦Ìg/ml benzamine, 1 ¦Ìg/ml aprotonin,
+    1 ¦Ìg/ml leupeptin, 1 ¦Ìg/ml pepstatin A, 1 ¦Ìg/ml antipain
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 67905
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15738310/
+  pubmed_id: '15738310'
+  doi: null

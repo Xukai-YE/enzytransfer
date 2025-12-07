@@ -1,0 +1,370 @@
+version: '2.0'
+created: '2025-11-20T13:41:06.408612'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_2_1_2_Q9Z4N9_p53770
+  name: beta-amylase
+  ecnumber: 3.2.1.2
+  organism: Bacillus cereus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9Z4N9
+  wildtype_sequence: MKNQFQYCCIVILSVVMLFVSLLIPQASSAAVNGKGMNPDYKAYLMAPLKKIPEVTNWETFENDLRWAKQNGFYAITVDFWWGDMEKNGDQQFDFSYAQRFAQSVKNAGMKMIPIISTHQCGGNVGDDCNVPIPSWVWNQKSDDSLYFKSETGTVNKETLNPLASDVIRKEYGELYTAFAAAMKPYKDVIAKIYLSGGPAGELRYPSYTTSDGTGYPSRGKFQAYTEFAKSKFRLWVLNKYGSLNEVNKAWGTKLISELAILPPSDGEQFLMNGYLSMYGKDYLEWYQGILENHTKLIGELAHNAFDTTFQVPIGAKIAGVHWQYNNPTIPHGAEKPAGYNDYSHLLDAFKSAKLDVTFTCLEMTDKGSYPEYSMPKTLVQNIATLANEKGIVLNGENALSIGNEEEYKRVAEMAFNYNFAGFTLLRYQDVMYNNSLMGKFKDLLGVTPVMQTIVVKNVPTTIGDTVYITGNRAELGSWDTKQYPIQLYYDSHSNDWRGNVVLPAERNIEFKAFIKSKDGTVKSWQTIQQSWNPVPLKTTSHTSSW
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Maltoheptaose
+  name: Maltoheptaose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_beta-Maltose
+  name: beta-Maltose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Maltopentaose
+  name: Maltopentaose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Maltopentaose
+  name: Maltopentaose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Maltotriose
+  name: Maltotriose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Maltohexaose
+  name: Maltohexaose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Maltotetraose
+  name: Maltotetraose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_13798_EC3_2_1_2_Bacillus_cereus_Q9Z4N9_Maltoheptaose
+  name: Reaction catalyzed by beta-amylase on Maltoheptaose
+  equation: H2O + Maltoheptaose = beta-Maltose + Maltopentaose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Maltoheptaose
+  products:
+  - species_id: product_beta-Maltose
+  - species_id: product_Maltopentaose
+  modifiers:
+  - species_id: protein_3_2_1_2_Q9Z4N9_p53770
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:62010; CHEBI:29375; CHEBI:44819; CHEBI:62006; CHEBI:41981;
+    CHEBI:42857; CHEBI:22848; CHEBI:41979; CHEBI:10431; CHEBI:42043; CHEBI:18147;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:12396;
+    CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:29373;
+    CHEBI:44701
+
+    KEGG IDs: KEGG:C00001; KEGG:C01971'
+- id: sabiork_13796_EC3_2_1_2_Bacillus_cereus_Q9Z4N9_Maltopentaose
+  name: Reaction catalyzed by beta-amylase on Maltopentaose
+  equation: H2O + Maltopentaose = beta-Maltose + Maltotriose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Maltopentaose
+  products:
+  - species_id: product_beta-Maltose
+  - species_id: product_Maltotriose
+  modifiers:
+  - species_id: protein_3_2_1_2_Q9Z4N9_p53768
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:140999; CHEBI:29375; CHEBI:62006; CHEBI:44819; CHEBI:41981;
+    CHEBI:6672; CHEBI:42857; CHEBI:22848; CHEBI:41979; CHEBI:10431; CHEBI:27931; CHEBI:42043;
+    CHEBI:18147; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352;
+    CHEBI:25146; CHEBI:12396; CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743;
+    CHEBI:29374; CHEBI:5585; CHEBI:43937; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00001; KEGG:C01835; KEGG:C01971'
+- id: sabiork_13797_EC3_2_1_2_Bacillus_cereus_Q9Z4N9_Maltohexaose
+  name: Reaction catalyzed by beta-amylase on Maltohexaose
+  equation: H2O + Maltohexaose = beta-Maltose + Maltotetraose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Maltohexaose
+  products:
+  - species_id: product_Maltotetraose
+  - species_id: product_beta-Maltose
+  modifiers:
+  - species_id: protein_3_2_1_2_Q9Z4N9_p53769
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:27445; CHEBI:41981; CHEBI:42857;
+    CHEBI:143180; CHEBI:41979; CHEBI:28460; CHEBI:22848; CHEBI:10431; CHEBI:25141;
+    CHEBI:61988; CHEBI:42043; CHEBI:18147; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:13352; CHEBI:12396; CHEBI:43228; CHEBI:44292; CHEBI:33806;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:6667; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C02052; KEGG:C01936; KEGG:C00001; KEGG:C01971'
+measurements:
+- id: measurement_3_2_1_2_Bacillus_cereus_Q9Z4N9_Maltoheptaose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_3_2_1_2_Bacillus_cereus_Q9Z4N9_Maltopentaose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_3_2_1_2_Bacillus_cereus_Q9Z4N9_Maltohexaose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_2_1_2_Bacillus_cereus_Q9Z4N9_Maltoheptaose_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1200000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Maltoheptaose
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8987540'
+- id: 3_2_1_2_Bacillus_cereus_Q9Z4N9_Maltoheptaose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0009
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Maltoheptaose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8987540'
+- id: 3_2_1_2_Bacillus_cereus_Q9Z4N9_Maltoheptaose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1080.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Maltoheptaose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8987540'
+- id: 3_2_1_2_Bacillus_cereus_Q9Z4N9_Maltopentaose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 930.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Maltopentaose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8987540'
+- id: 3_2_1_2_Bacillus_cereus_Q9Z4N9_Maltopentaose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00102
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Maltopentaose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8987540'
+- id: 3_2_1_2_Bacillus_cereus_Q9Z4N9_Maltopentaose_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 912000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Maltopentaose
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8987540'
+- id: 3_2_1_2_Bacillus_cereus_Q9Z4N9_Maltohexaose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00089
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Maltohexaose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8987540'
+- id: 3_2_1_2_Bacillus_cereus_Q9Z4N9_Maltohexaose_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 1350000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Maltohexaose
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8987540'
+- id: 3_2_1_2_Bacillus_cereus_Q9Z4N9_Maltohexaose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1200.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Maltohexaose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '8987540'
+buffer:
+  buffer: 25 mM Phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 53770
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/8987540/
+  pubmed_id: '8987540'
+  doi: null
+name: Merged entry for Q9Z4N9 wildtype
+description: 'Merged from 3 files: SABIO_EC3.2.1.2_Bacillus_cereus__Q9Z4N9_s_Maltoheptaose.yaml,
+  SABIO_EC3.2.1.2_Bacillus_cereus__Q9Z4N9_s_Maltopentaose.yaml, SABIO_EC3.2.1.2_Bacillus_cereus__Q9Z4N9_s_Maltohexaose.yaml'

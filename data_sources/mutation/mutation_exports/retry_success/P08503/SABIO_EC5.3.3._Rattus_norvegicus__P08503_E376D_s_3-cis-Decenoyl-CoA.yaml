@@ -1,0 +1,182 @@
+name: SABIO-RK Entry 30569
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 30569
+created: '2025-10-28T14:40:35.321064'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_5_3_3__P08503_p30569
+  name: Transposing C=C Bonds
+  ecnumber: 5.3.3.
+  organism: Rattus norvegicus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: E376D
+  uniprotid: P08503
+  wildtype_sequence: MAAALRRGYKVLRSVSHFECRAQHTKPSLKQEPGLGFSFELTEQQKEFQTIARKFAREEIIPVAPDYDKSGEYPFPLIKRAWELGLINTHIPESCGGLGLGTFDACLITEELAYGCTGVQTAIEANSLGQMPVIIAGNDQQKKKYLGRMTEQPMMCAYCVTEPSAGSDVAGIKTKAEKKGDEYVINGQKMWITNGGKANWYFVLTRSNPDPKVPASKAFTGFIVEADTPGIHIGKKELNMGQRCSDTRGITFEDVRVPKENVLIGEGAGFKIAMGAFDRTRPTVAAGAVGLAQRALDEATKYALDRKTFGKLLVEHQGVSFLLAEMAMKVELARLSYQRAAWEVDSGRRNTYFASIAKAFAGDIANQLATDAVQIFGGYGFNTEYPVEKLMRDAKIYQIYEGTAQIQRLIIAREHIEKYKN
+  mutant_sequence: MAAALRRGYKVLRSVSHFECRAQHTKPSLKQEPGLGFSFELTEQQKEFQTIARKFAREEIIPVAPDYDKSGEYPFPLIKRAWELGLINTHIPESCGGLGLGTFDACLITEELAYGCTGVQTAIEANSLGQMPVIIAGNDQQKKKYLGRMTEQPMMCAYCVTEPSAGSDVAGIKTKAEKKGDEYVINGQKMWITNGGKANWYFVLTRSNPDPKVPASKAFTGFIVEADTPGIHIGKKELNMGQRCSDTRGITFEDVRVPKENVLIGEGAGFKIAMGAFDRTRPTVAAGAVGLAQRALDEATKYALDRKTFGKLLVEHQGVSFLLAEMAMKVELARLSYQRAAWEVDSGRRNTYFASIAKAFAGDIANQLATDAVQIFGGYGFNTDYPVEKLMRDAKIYQIYEGTAQIQRLIIAREHIEKYKN
+  position_offset: 8
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_3-cis-Decenoyl-CoA
+  name: 3-cis-Decenoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_trans-Dec-2-enoyl-CoA
+  name: trans-Dec-2-enoyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_11322_EC5_3_3__Rattus_norvegicus_P08503_3-cis-Decenoyl-CoA
+  name: Reaction catalyzed by Transposing C=C Bonds on 3-cis-Decenoyl-CoA
+  equation: 3-cis-Decenoyl-CoA = trans-Dec-2-enoyl-CoA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_3-cis-Decenoyl-CoA
+  products:
+  - species_id: product_trans-Dec-2-enoyl-CoA
+  modifiers:
+  - species_id: protein_5_3_3__P08503_p30569
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:10723
+
+    KEGG IDs: KEGG:C05275'
+measurements:
+- id: measurement_5_3_3__Rattus_norvegicus_P08503_3-cis-Decenoyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 5_3_3__Rattus_norvegicus_P08503_3-cis-Decenoyl-CoA_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 3900.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-cis-Decenoyl-CoA
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15850406'
+- id: 5_3_3__Rattus_norvegicus_P08503_3-cis-Decenoyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.3e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-cis-Decenoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15850406'
+- id: 5_3_3__Rattus_norvegicus_P08503_3-cis-Decenoyl-CoA_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.002083333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-cis-Decenoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15850406'
+- id: 5_3_3__Rattus_norvegicus_P08503_3-cis-Decenoyl-CoA_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.09
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_3-cis-Decenoyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15850406'
+buffer:
+  buffer: 50 mM potassium phosphate, 100 ¦ÌM EDTA
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 30569
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15850406/
+  pubmed_id: '15850406'
+  doi: null

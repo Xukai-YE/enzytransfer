@@ -1,0 +1,172 @@
+name: SABIO-RK Entry 42813
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 42813
+created: '2025-10-28T15:25:22.924255'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_4_3_4_P21397_P27338_p42813
+  name: monoamine oxidase
+  sequence: null
+  ecnumber: 1.4.3.4
+  organism: null
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P21397; P27338
+complexes: null
+small_molecules:
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Tyramine
+  name: Tyramine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_FAD
+  name: FAD
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NH3
+  name: NH3
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4-Hydroxyphenylacetaldehyde
+  name: 4-Hydroxyphenylacetaldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2326_EC1_4_3_4_P21397_P27338_O2
+  name: Reaction catalyzed by monoamine oxidase on O2
+  equation: O2 + Tyramine + H2O = NH3 + 4-Hydroxyphenylacetaldehyde + H2O2
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_Tyramine
+  - species_id: cofactor_FAD
+  products:
+  - species_id: product_NH3
+  - species_id: product_4-Hydroxyphenylacetaldehyde
+  modifiers:
+  - species_id: protein_1_4_3_4_P21397_P27338_p42813
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 30591;30592;30593;30594
+  KEGGid: R02382
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44284; CHEBI:16238; CHEBI:44819;
+    CHEBI:13354; CHEBI:16134; CHEBI:41981; CHEBI:20417; CHEBI:27174; CHEBI:29192;
+    CHEBI:13405; CHEBI:24637; CHEBI:7434; CHEBI:15276; CHEBI:26689; CHEBI:42857; CHEBI:41979;
+    CHEBI:13407; CHEBI:16240; CHEBI:15760; CHEBI:327995; CHEBI:24040; CHEBI:23833;
+    CHEBI:13416; CHEBI:13355; CHEBI:42043; CHEBI:9799; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:22534; CHEBI:135980; CHEBI:15377; CHEBI:7435; CHEBI:49783; CHEBI:10899;
+    CHEBI:22533; CHEBI:13352; CHEBI:1872; CHEBI:21125; CHEBI:44404; CHEBI:15379; CHEBI:13771;
+    CHEBI:13315; CHEBI:42388; CHEBI:43228; CHEBI:44269; CHEBI:12012; CHEBI:44292;
+    CHEBI:15621; CHEBI:13406; CHEBI:30491; CHEBI:33806; CHEBI:25366; CHEBI:44742;
+    CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:44812; CHEBI:29793; CHEBI:28938; CHEBI:7860;
+    CHEBI:10745; CHEBI:5586; CHEBI:4956; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00483; KEGG:C03765; KEGG:C00014; KEGG:C00001; KEGG:C01342; KEGG:C00027;
+    KEGG:C00704; KEGG:C00016; KEGG:C00007'
+measurements:
+- id: measurement_1_4_3_4_P21397_P27338_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.4
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 1_4_3_4_P21397_P27338_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 8.1e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: null
+- id: 1_4_3_4_P21397_P27338_O2_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.166667e-08
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.4
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: null
+buffer:
+  buffer: 200 mM phosphate
+  buffer_concentration: 200 mM
+references: null

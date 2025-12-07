@@ -1,0 +1,180 @@
+name: SABIO-RK Entry 76180
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 76180
+created: '2025-10-28T17:48:57.784644'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_8_1_7_Q9VKD3_O46098_Q9VHK6_p76180
+  name: cysteine desulfurase
+  sequence: null
+  ecnumber: 2.8.1.7
+  organism: Drosophila melanogaster
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9VKD3; O46098; Q9VHK6
+complexes: null
+small_molecules:
+- id: substrate_L-Cysteine
+  name: L-Cysteine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Sulfide
+  name: Sulfide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Alanine
+  name: L-Alanine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Frataxin_Pyridoxal_phosphate
+  name: Frataxin; Pyridoxal phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_16135_EC2_8_1_7_Drosophila_melanogaster_Q9VKD3_O46098_Q9VHK6_L-Cysteine
+  name: Reaction catalyzed by cysteine desulfurase on L-Cysteine
+  equation: L-Cysteine = L-Alanine + Sulfide
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Cysteine
+  products:
+  - species_id: product_Sulfide
+  - species_id: product_L-Alanine
+  modifiers:
+  - species_id: protein_2_8_1_7_Q9VKD3_O46098_Q9VHK6_p76180
+    role: BIOCATALYST
+  - species_id: activator_Frataxin_Pyridoxal_phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:46217; CHEBI:32432; CHEBI:13069; CHEBI:41781; CHEBI:13095;
+    CHEBI:32442; CHEBI:358848; CHEBI:76050; CHEBI:21261; CHEBI:41700; CHEBI:26424;
+    CHEBI:41811; CHEBI:8668; CHEBI:18405; CHEBI:32443; CHEBI:32431; CHEBI:41768; CHEBI:29950;
+    CHEBI:597326; CHEBI:15138; CHEBI:16977; CHEBI:21216; CHEBI:16385; CHEBI:40734;
+    CHEBI:234571; CHEBI:6207; CHEBI:35235; CHEBI:6171; CHEBI:45145; CHEBI:32445; CHEBI:14977;
+    CHEBI:46308; CHEBI:17561; CHEBI:57972; CHEBI:41227; CHEBI:40735
+
+    KEGG IDs: KEGG:C00041; KEGG:C00018; KEGG:C00297; KEGG:C00097; KEGG:C00283'
+measurements:
+- id: measurement_2_8_1_7_Drosophila_melanogaster_Q9VKD3_O46098_Q9VHK6_L-Cysteine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 23.0
+  temperature_unit: °C
+parameters:
+- id: 2_8_1_7_Drosophila_melanogaster_Q9VKD3_O46098_Q9VHK6_L-Cysteine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00029
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Cysteine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29491838'
+- id: 2_8_1_7_Drosophila_melanogaster_Q9VKD3_O46098_Q9VHK6_L-Cysteine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.04333333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Cysteine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29491838'
+- id: 2_8_1_7_Drosophila_melanogaster_Q9VKD3_O46098_Q9VHK6_L-Cysteine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 149.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Cysteine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 8.0
+  temperature: 23.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29491838'
+buffer:
+  buffer: 50 mM Tris, 10 mM MgCl2
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 76180
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/29491838/
+  pubmed_id: '29491838'
+  doi: null

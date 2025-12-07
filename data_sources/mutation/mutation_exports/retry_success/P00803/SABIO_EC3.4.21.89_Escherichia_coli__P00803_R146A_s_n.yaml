@@ -1,0 +1,179 @@
+name: SABIO-RK Entry 59
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 59
+created: '2025-10-28T13:44:21.312583'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_4_21_89_P00803_p59
+  name: subtilisin
+  ecnumber: 3.4.21.89
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: R146A
+  uniprotid: P00803
+  wildtype_sequence: MANMFALILVIATLVTGILWCVDKFFFAPKRRERQAAAQAAAGDSLDKATLKKVAPKPGWLETGASVFPVLAIVLIVRSFIYEPFQIPSGSMMPTLLIGDFILVEKFAYGIKDPIYQKTLIETGHPKRGDIVVFKYPEDPKLDYIKRAVGLPGDKVTYDPVSKELTIQPGCSSGQACENALPVTYSNVEPSDFVQTFSRRNGGEATSGFFEVPKNETKENGIRLSERKETLGDVTHRILTVPIAQDQVGMYYQQPGQQLATWIVPPGQYFMMGDNRDNSADSRYWGFVPEANLVGRATAIWMSFDKQEGEWPTGLRLSRIGGIH
+  mutant_sequence: MANMFALILVIATLVTGILWCVDKFFFAPKRRERQAAAQAAAGDSLDKATLKKVAPKPGWLETGASVFPVLAIVLIVRSFIYEPFQIPSGSMMPTLLIGDFILVEKFAYGIKDPIYQKTLIETGHPKRGDIVVFKYPEDPKLDYIKAAVGLPGDKVTYDPVSKELTIQPGCSSGQACENALPVTYSNVEPSDFVQTFSRRNGGEATSGFFEVPKNETKENGIRLSERKETLGDVTHRILTVPIAQDQVGMYYQQPGQQLATWIVPPGQYFMMGDNRDNSADSRYWGFVPEANLVGRATAIWMSFDKQEGEWPTGLRLSRIGGIH
+  position_offset: 1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_n_m_n_m_Peptide
+  name: n m n+m Peptide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_n_m_n_m_Peptide
+  name: n m n+m Peptide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_n_m_n_m_Peptide
+  name: n m n+m Peptide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_6570_EC3_4_21_89_Escherichia_coli_P00803_n_m_n_m_Peptide
+  name: Reaction catalyzed by subtilisin on n m n+m Peptide
+  equation: H2O + Peptide = Peptide + Peptide
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: product_n_m_n_m_Peptide
+  products:
+  - species_id: product_n_m_n_m_Peptide
+  - species_id: product_n_m_n_m_Peptide
+  modifiers:
+  - species_id: protein_3_4_21_89_P00803_p59
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:16670; CHEBI:42857;
+    CHEBI:41979; CHEBI:42043; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377;
+    CHEBI:13352; CHEBI:43228; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00001; KEGG:C00012'
+measurements:
+- id: measurement_3_4_21_89_Escherichia_coli_P00803_n_m_n_m_Peptide
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.7
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 3_4_21_89_Escherichia_coli_P00803_n_m_n_m_Peptide_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 46.16667
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_n_m_n_m_Peptide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.7
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15195997'
+- id: 3_4_21_89_Escherichia_coli_P00803_n_m_n_m_Peptide_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.024
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_n_m_n_m_Peptide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.7
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15195997'
+- id: 3_4_21_89_Escherichia_coli_P00803_n_m_n_m_Peptide_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00052
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_n_m_n_m_Peptide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.7
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15195997'
+buffer:
+  buffer: 25 mM sodium phosphate
+  buffer_concentration: 25 mM
+references:
+- title: Reference for SABIO-RK entry 59
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15195997/
+  pubmed_id: '15195997'
+  doi: null

@@ -1,0 +1,1168 @@
+version: '2.0'
+created: '2025-11-20T13:41:50.092695'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_6_1_1_4_Q9P2J5_p63038
+  name: leucine---tRNA ligase
+  ecnumber: 6.1.1.4
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9P2J5
+  wildtype_sequence: MAERKGTAKVDFLKKIEKEIQQKWDTERVFEVNASNLEKQTSKGKYFVTFPYPYMNGRLHLGHTFSLSKCEFAVGYQRLKGKCCLFPFGLHCTGMPIKACADKLKREIELYGCPPDFPDEEEEEEETSVKTEDIIIKDKAKGKKSKAAAKAGSSKYQWGIMKSLGLSDEEIVKFSEAEHWLDYFPPLAIQDLKRMGLKVDWRRSFITTDVNPYYDSFVRWQFLTLRERNKIKFGKRYTIYSPKDGQPCMDHDRQTGEGVGPQEYTLLKLKVLEPYPSKLSGLKGKNIFLVAATLRPETMFGQTNCWVRPDMKYIGFETVNGDIFICTQKAARNMSYQGFTKDNGVVPVVKELMGEEILGASLSAPLTSYKVIYVLPMLTIKEDKGTGVVTSVPSDSPDDIAALRDLKKKQALRAKYGIRDDMVLPFEPVPVIEIPGFGNLSAVTICDELKIQSQNDREKLAEAKEKIYLKGFYEGIMLVDGFKGQKVQDVKKTIQKKMIDAGDALIYMEPEKQVMSRSSDECVVALCDQWYLDYGEENWKKQTSQCLKNLETFCEETRRNFEATLGWLQEHACSRTYGLGTHLPWDEQWLIESLSDSTIYMAFYTVAHLLQGGNLHGQAESPLGIRPQQMTKEVWDYVFFKEAPFPKTQIAKEKLDQLKQEFEFWYPVDLRVSGKDLVPNHLSYYLYNHVAMWPEQSDKWPTAVRANGHLLLNSEKMSKSTGNFLTLTQAIDKFSADGMRLALADAGDTVEDANFVEAMADAGILRLYTWVEWVKEMVANWDSLRSGPASTFNDRVFASELNAGIIKTDQNYEKMMFKEALKTGFFEFQAAKDKYRELAVEGMHRELVFRFIEVQTLLLAPFCPHLCEHIWTLLGKPDSIMNASWPVAGPVNEVLIHSSQYLMEVTHDLRLRLKNYMMPAKGKKTDKQPLQKPSHCTIYVAKNYPPWQHTTLSVLRKHFEANNGKLPDNKVIASELGSMPELKKYMKKVMPFVAMIKENLEKMGPRILDLQLEFDEKAVLMENIVYLTNSLELEHIEVKFASEAEDKIREDCCPGKPLNVFRIEPGVSVSLVNPQPSNGHFSTKIEIRQGDNCDSIIRRLMKMNRGIKDLSKVKLMRFDDPLLGPRRVPVLGKEYTEKTPISEHAVFNVDLMSKKIHLTENGIRVDIGDTIIYLVH
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_L-Leucine
+  name: L-Leucine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_tRNA_Leu_
+  name: tRNA(Leu)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_AMP
+  name: AMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Leucyl-tRNA_Leu_
+  name: L-Leucyl-tRNA(Leu)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_412_EC6_1_1_4_Homo_sapiens_Q9P2J5_ATP
+  name: Reaction catalyzed by leucine---tRNA ligase on ATP
+  equation: ATP + tRNA(Leu) + L-Leucine = Diphosphate + AMP + L-Leucyl-tRNA(Leu)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_L-Leucine
+  - species_id: substrate_tRNA_Leu_
+  products:
+  - species_id: product_AMP
+  - species_id: product_Diphosphate
+  - species_id: product_L-Leucyl-tRNA_Leu_
+  modifiers:
+  - species_id: protein_6_1_1_4_Q9P2J5_p63038
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03657
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:21348; CHEBI:10789; CHEBI:57299;
+    CHEBI:40726; CHEBI:22245; CHEBI:8683; CHEBI:32619; CHEBI:40510; CHEBI:43814; CHEBI:22242;
+    CHEBI:13736; CHEBI:47222; CHEBI:33019; CHEBI:456215; CHEBI:13236; CHEBI:16624;
+    CHEBI:40786; CHEBI:32620; CHEBI:45067; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841;
+    CHEBI:25017; CHEBI:29888; CHEBI:2359; CHEBI:35782; CHEBI:10684; CHEBI:43733; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:13131; CHEBI:33017; CHEBI:29169; CHEBI:45208;
+    CHEBI:22249; CHEBI:43646; CHEBI:15422; CHEBI:57427; CHEBI:13740; CHEBI:32628;
+    CHEBI:10866; CHEBI:43695; CHEBI:15180; CHEBI:30006; CHEBI:6260; CHEBI:40721; CHEBI:13234;
+    CHEBI:45212; CHEBI:12056; CHEBI:42009; CHEBI:13235; CHEBI:15603; CHEBI:32627;
+    CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C16439; KEGG:C00123; KEGG:C02047; KEGG:C00002; KEGG:C01645;
+    KEGG:C00020'
+- id: sabiork_412_EC6_1_1_4_Homo_sapiens_Q9P2J5_ATP
+  name: Reaction catalyzed by leucine---tRNA ligase on ATP
+  equation: ATP + tRNA(Leu) + L-Leucine = Diphosphate + AMP + L-Leucyl-tRNA(Leu)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_tRNA_Leu_
+  - species_id: substrate_L-Leucine
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_L-Leucyl-tRNA_Leu_
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_6_1_1_4_Q9P2J5_p63035
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03657
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:21348; CHEBI:10789; CHEBI:57299;
+    CHEBI:8683; CHEBI:40726; CHEBI:22245; CHEBI:32619; CHEBI:40510; CHEBI:43814; CHEBI:22242;
+    CHEBI:13736; CHEBI:47222; CHEBI:33019; CHEBI:456215; CHEBI:13236; CHEBI:16624;
+    CHEBI:45067; CHEBI:32620; CHEBI:40786; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841;
+    CHEBI:25017; CHEBI:29888; CHEBI:2359; CHEBI:35782; CHEBI:10684; CHEBI:43733; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:13131; CHEBI:33017; CHEBI:29169; CHEBI:45208;
+    CHEBI:22249; CHEBI:43646; CHEBI:15422; CHEBI:57427; CHEBI:13740; CHEBI:32628;
+    CHEBI:10866; CHEBI:43695; CHEBI:15180; CHEBI:30006; CHEBI:6260; CHEBI:40721; CHEBI:13234;
+    CHEBI:45212; CHEBI:12056; CHEBI:42009; CHEBI:13235; CHEBI:15603; CHEBI:32627;
+    CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C16439; KEGG:C00123; KEGG:C00002; KEGG:C00020; KEGG:C01645;
+    KEGG:C02047'
+- id: sabiork_412_EC6_1_1_4_Homo_sapiens_Q9P2J5_ATP
+  name: Reaction catalyzed by leucine---tRNA ligase on ATP
+  equation: ATP + tRNA(Leu) + L-Leucine = Diphosphate + AMP + L-Leucyl-tRNA(Leu)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_tRNA_Leu_
+  - species_id: substrate_L-Leucine
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_AMP
+  - species_id: product_L-Leucyl-tRNA_Leu_
+  modifiers:
+  - species_id: protein_6_1_1_4_Q9P2J5_p63039
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03657
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:21348; CHEBI:10789; CHEBI:57299;
+    CHEBI:8683; CHEBI:40726; CHEBI:22245; CHEBI:32619; CHEBI:40510; CHEBI:43814; CHEBI:22242;
+    CHEBI:13736; CHEBI:47222; CHEBI:33019; CHEBI:456215; CHEBI:13236; CHEBI:16624;
+    CHEBI:45067; CHEBI:32620; CHEBI:40786; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841;
+    CHEBI:25017; CHEBI:29888; CHEBI:2359; CHEBI:35782; CHEBI:10684; CHEBI:43733; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:13131; CHEBI:33017; CHEBI:29169; CHEBI:45208;
+    CHEBI:22249; CHEBI:43646; CHEBI:15422; CHEBI:57427; CHEBI:13740; CHEBI:32628;
+    CHEBI:10866; CHEBI:43695; CHEBI:15180; CHEBI:30006; CHEBI:6260; CHEBI:40721; CHEBI:13234;
+    CHEBI:45212; CHEBI:12056; CHEBI:42009; CHEBI:13235; CHEBI:15603; CHEBI:32627;
+    CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C16439; KEGG:C00123; KEGG:C02047; KEGG:C00002; KEGG:C01645;
+    KEGG:C00020'
+- id: sabiork_412_EC6_1_1_4_Homo_sapiens_Q9P2J5_ATP
+  name: Reaction catalyzed by leucine---tRNA ligase on ATP
+  equation: ATP + tRNA(Leu) + L-Leucine = Diphosphate + AMP + L-Leucyl-tRNA(Leu)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_L-Leucine
+  - species_id: substrate_tRNA_Leu_
+  products:
+  - species_id: product_AMP
+  - species_id: product_Diphosphate
+  - species_id: product_L-Leucyl-tRNA_Leu_
+  modifiers:
+  - species_id: protein_6_1_1_4_Q9P2J5_p63041
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03657
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:21348; CHEBI:10789; CHEBI:57299;
+    CHEBI:40726; CHEBI:22245; CHEBI:8683; CHEBI:32619; CHEBI:40510; CHEBI:43814; CHEBI:22242;
+    CHEBI:13736; CHEBI:47222; CHEBI:33019; CHEBI:456215; CHEBI:13236; CHEBI:16624;
+    CHEBI:40786; CHEBI:32620; CHEBI:45067; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841;
+    CHEBI:25017; CHEBI:29888; CHEBI:2359; CHEBI:35782; CHEBI:10684; CHEBI:43733; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:13131; CHEBI:33017; CHEBI:29169; CHEBI:45208;
+    CHEBI:22249; CHEBI:43646; CHEBI:15422; CHEBI:57427; CHEBI:13740; CHEBI:32628;
+    CHEBI:10866; CHEBI:43695; CHEBI:15180; CHEBI:30006; CHEBI:6260; CHEBI:40721; CHEBI:13234;
+    CHEBI:45212; CHEBI:12056; CHEBI:42009; CHEBI:13235; CHEBI:15603; CHEBI:32627;
+    CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C16439; KEGG:C00123; KEGG:C02047; KEGG:C00002; KEGG:C01645;
+    KEGG:C00020'
+- id: sabiork_412_EC6_1_1_4_Homo_sapiens_Q9P2J5_ATP
+  name: Reaction catalyzed by leucine---tRNA ligase on ATP
+  equation: ATP + tRNA(Leu) + L-Leucine = Diphosphate + AMP + L-Leucyl-tRNA(Leu)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_tRNA_Leu_
+  - species_id: substrate_L-Leucine
+  products:
+  - species_id: product_AMP
+  - species_id: product_Diphosphate
+  - species_id: product_L-Leucyl-tRNA_Leu_
+  modifiers:
+  - species_id: protein_6_1_1_4_Q9P2J5_p63040
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03657
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:21348; CHEBI:10789; CHEBI:57299;
+    CHEBI:40726; CHEBI:22245; CHEBI:8683; CHEBI:32619; CHEBI:40510; CHEBI:43814; CHEBI:22242;
+    CHEBI:13736; CHEBI:47222; CHEBI:33019; CHEBI:456215; CHEBI:13236; CHEBI:16624;
+    CHEBI:40786; CHEBI:32620; CHEBI:45067; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841;
+    CHEBI:25017; CHEBI:29888; CHEBI:2359; CHEBI:35782; CHEBI:10684; CHEBI:43733; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:13131; CHEBI:33017; CHEBI:29169; CHEBI:45208;
+    CHEBI:22249; CHEBI:43646; CHEBI:15422; CHEBI:57427; CHEBI:13740; CHEBI:32628;
+    CHEBI:10866; CHEBI:43695; CHEBI:15180; CHEBI:30006; CHEBI:6260; CHEBI:40721; CHEBI:13234;
+    CHEBI:45212; CHEBI:12056; CHEBI:42009; CHEBI:13235; CHEBI:15603; CHEBI:32627;
+    CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C16439; KEGG:C00123; KEGG:C02047; KEGG:C00002; KEGG:C01645;
+    KEGG:C00020'
+- id: sabiork_412_EC6_1_1_4_Homo_sapiens_Q9P2J5_ATP
+  name: Reaction catalyzed by leucine---tRNA ligase on ATP
+  equation: ATP + tRNA(Leu) + L-Leucine = Diphosphate + AMP + L-Leucyl-tRNA(Leu)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_tRNA_Leu_
+  - species_id: substrate_L-Leucine
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_AMP
+  - species_id: product_L-Leucyl-tRNA_Leu_
+  modifiers:
+  - species_id: protein_6_1_1_4_Q9P2J5_p63042
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03657
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:21348; CHEBI:10789; CHEBI:57299;
+    CHEBI:8683; CHEBI:40726; CHEBI:22245; CHEBI:32619; CHEBI:40510; CHEBI:43814; CHEBI:22242;
+    CHEBI:13736; CHEBI:47222; CHEBI:33019; CHEBI:456215; CHEBI:13236; CHEBI:16624;
+    CHEBI:45067; CHEBI:32620; CHEBI:40786; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841;
+    CHEBI:25017; CHEBI:29888; CHEBI:2359; CHEBI:35782; CHEBI:10684; CHEBI:43733; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:13131; CHEBI:33017; CHEBI:29169; CHEBI:45208;
+    CHEBI:22249; CHEBI:43646; CHEBI:15422; CHEBI:57427; CHEBI:13740; CHEBI:32628;
+    CHEBI:10866; CHEBI:43695; CHEBI:15180; CHEBI:30006; CHEBI:6260; CHEBI:40721; CHEBI:13234;
+    CHEBI:45212; CHEBI:12056; CHEBI:42009; CHEBI:13235; CHEBI:15603; CHEBI:32627;
+    CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C16439; KEGG:C00123; KEGG:C02047; KEGG:C00002; KEGG:C01645;
+    KEGG:C00020'
+- id: sabiork_412_EC6_1_1_4_Homo_sapiens_Q9P2J5_L-Leucine
+  name: Reaction catalyzed by leucine---tRNA ligase on L-Leucine
+  equation: ATP + tRNA(Leu) + L-Leucine = Diphosphate + AMP + L-Leucyl-tRNA(Leu)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Leucine
+  - species_id: substrate_ATP
+  - species_id: substrate_tRNA_Leu_
+  products:
+  - species_id: product_L-Leucyl-tRNA_Leu_
+  - species_id: product_Diphosphate
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_6_1_1_4_Q9P2J5_p63031
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03657
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:21348; CHEBI:10789; CHEBI:57299;
+    CHEBI:8683; CHEBI:40726; CHEBI:22245; CHEBI:32619; CHEBI:40510; CHEBI:43814; CHEBI:22242;
+    CHEBI:13736; CHEBI:47222; CHEBI:33019; CHEBI:456215; CHEBI:13236; CHEBI:16624;
+    CHEBI:45067; CHEBI:32620; CHEBI:40786; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841;
+    CHEBI:25017; CHEBI:29888; CHEBI:2359; CHEBI:35782; CHEBI:10684; CHEBI:43733; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:13131; CHEBI:33017; CHEBI:29169; CHEBI:45208;
+    CHEBI:43646; CHEBI:22249; CHEBI:15422; CHEBI:57427; CHEBI:13740; CHEBI:32628;
+    CHEBI:10866; CHEBI:43695; CHEBI:15180; CHEBI:6260; CHEBI:30006; CHEBI:40721; CHEBI:13234;
+    CHEBI:45212; CHEBI:12056; CHEBI:42009; CHEBI:13235; CHEBI:15603; CHEBI:32627;
+    CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C16439; KEGG:C00123; KEGG:C00002; KEGG:C00020; KEGG:C01645;
+    KEGG:C02047'
+- id: sabiork_412_EC6_1_1_4_Homo_sapiens_Q9P2J5_L-Leucine
+  name: Reaction catalyzed by leucine---tRNA ligase on L-Leucine
+  equation: ATP + tRNA(Leu) + L-Leucine = Diphosphate + AMP + L-Leucyl-tRNA(Leu)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Leucine
+  - species_id: substrate_tRNA_Leu_
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_AMP
+  - species_id: product_L-Leucyl-tRNA_Leu_
+  modifiers:
+  - species_id: protein_6_1_1_4_Q9P2J5_p63036
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03657
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:21348; CHEBI:10789; CHEBI:57299;
+    CHEBI:8683; CHEBI:40726; CHEBI:22245; CHEBI:32619; CHEBI:40510; CHEBI:43814; CHEBI:22242;
+    CHEBI:13736; CHEBI:47222; CHEBI:33019; CHEBI:456215; CHEBI:13236; CHEBI:16624;
+    CHEBI:45067; CHEBI:32620; CHEBI:40786; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841;
+    CHEBI:25017; CHEBI:29888; CHEBI:2359; CHEBI:35782; CHEBI:10684; CHEBI:43733; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:13131; CHEBI:33017; CHEBI:29169; CHEBI:45208;
+    CHEBI:43646; CHEBI:22249; CHEBI:15422; CHEBI:57427; CHEBI:13740; CHEBI:32628;
+    CHEBI:10866; CHEBI:43695; CHEBI:15180; CHEBI:6260; CHEBI:30006; CHEBI:40721; CHEBI:13234;
+    CHEBI:45212; CHEBI:12056; CHEBI:42009; CHEBI:13235; CHEBI:15603; CHEBI:32627;
+    CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C16439; KEGG:C00123; KEGG:C02047; KEGG:C00002; KEGG:C01645;
+    KEGG:C00020'
+- id: sabiork_412_EC6_1_1_4_Homo_sapiens_Q9P2J5_L-Leucine
+  name: Reaction catalyzed by leucine---tRNA ligase on L-Leucine
+  equation: ATP + tRNA(Leu) + L-Leucine = Diphosphate + AMP + L-Leucyl-tRNA(Leu)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Leucine
+  - species_id: substrate_tRNA_Leu_
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_AMP
+  - species_id: product_L-Leucyl-tRNA_Leu_
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_6_1_1_4_Q9P2J5_p63032
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03657
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:21348; CHEBI:10789; CHEBI:57299;
+    CHEBI:40726; CHEBI:22245; CHEBI:8683; CHEBI:32619; CHEBI:40510; CHEBI:43814; CHEBI:22242;
+    CHEBI:13736; CHEBI:47222; CHEBI:33019; CHEBI:456215; CHEBI:13236; CHEBI:16624;
+    CHEBI:40786; CHEBI:32620; CHEBI:45067; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841;
+    CHEBI:25017; CHEBI:29888; CHEBI:2359; CHEBI:35782; CHEBI:10684; CHEBI:43733; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:13131; CHEBI:33017; CHEBI:29169; CHEBI:45208;
+    CHEBI:43646; CHEBI:22249; CHEBI:15422; CHEBI:57427; CHEBI:13740; CHEBI:32628;
+    CHEBI:10866; CHEBI:43695; CHEBI:15180; CHEBI:6260; CHEBI:30006; CHEBI:40721; CHEBI:13234;
+    CHEBI:45212; CHEBI:12056; CHEBI:42009; CHEBI:13235; CHEBI:15603; CHEBI:32627;
+    CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C16439; KEGG:C00123; KEGG:C02047; KEGG:C00002; KEGG:C01645;
+    KEGG:C00020'
+- id: sabiork_412_EC6_1_1_4_Homo_sapiens_Q9P2J5_tRNA_Leu_
+  name: Reaction catalyzed by leucine---tRNA ligase on tRNA(Leu)
+  equation: ATP + tRNA(Leu) + L-Leucine = Diphosphate + AMP + L-Leucyl-tRNA(Leu)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_tRNA_Leu_
+  - species_id: substrate_L-Leucine
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_L-Leucyl-tRNA_Leu_
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_6_1_1_4_Q9P2J5_p63033
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03657
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:21348; CHEBI:10789; CHEBI:57299;
+    CHEBI:8683; CHEBI:40726; CHEBI:22245; CHEBI:32619; CHEBI:40510; CHEBI:43814; CHEBI:22242;
+    CHEBI:13736; CHEBI:47222; CHEBI:33019; CHEBI:456215; CHEBI:13236; CHEBI:16624;
+    CHEBI:45067; CHEBI:32620; CHEBI:40786; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841;
+    CHEBI:25017; CHEBI:29888; CHEBI:2359; CHEBI:35782; CHEBI:10684; CHEBI:43733; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:13131; CHEBI:33017; CHEBI:29169; CHEBI:45208;
+    CHEBI:43646; CHEBI:22249; CHEBI:15422; CHEBI:57427; CHEBI:13740; CHEBI:32628;
+    CHEBI:10866; CHEBI:43695; CHEBI:15180; CHEBI:30006; CHEBI:6260; CHEBI:40721; CHEBI:13234;
+    CHEBI:45212; CHEBI:12056; CHEBI:42009; CHEBI:13235; CHEBI:15603; CHEBI:32627;
+    CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C16439; KEGG:C00123; KEGG:C00002; KEGG:C00020; KEGG:C01645;
+    KEGG:C02047'
+- id: sabiork_412_EC6_1_1_4_Homo_sapiens_Q9P2J5_L-Leucine
+  name: Reaction catalyzed by leucine---tRNA ligase on L-Leucine
+  equation: ATP + tRNA(Leu) + L-Leucine = Diphosphate + AMP + L-Leucyl-tRNA(Leu)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Leucine
+  - species_id: substrate_ATP
+  - species_id: substrate_tRNA_Leu_
+  products:
+  - species_id: product_L-Leucyl-tRNA_Leu_
+  - species_id: product_AMP
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_6_1_1_4_Q9P2J5_p63034
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03657
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:21348; CHEBI:10789; CHEBI:57299;
+    CHEBI:40726; CHEBI:22245; CHEBI:8683; CHEBI:32619; CHEBI:40510; CHEBI:43814; CHEBI:22242;
+    CHEBI:13736; CHEBI:47222; CHEBI:33019; CHEBI:456215; CHEBI:13236; CHEBI:16624;
+    CHEBI:40786; CHEBI:32620; CHEBI:45067; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841;
+    CHEBI:25017; CHEBI:29888; CHEBI:2359; CHEBI:35782; CHEBI:10684; CHEBI:43733; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:13131; CHEBI:33017; CHEBI:29169; CHEBI:45208;
+    CHEBI:43646; CHEBI:22249; CHEBI:15422; CHEBI:57427; CHEBI:13740; CHEBI:32628;
+    CHEBI:10866; CHEBI:43695; CHEBI:15180; CHEBI:6260; CHEBI:30006; CHEBI:40721; CHEBI:13234;
+    CHEBI:45212; CHEBI:12056; CHEBI:42009; CHEBI:13235; CHEBI:15603; CHEBI:32627;
+    CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C16439; KEGG:C00123; KEGG:C00002; KEGG:C00020; KEGG:C01645;
+    KEGG:C02047'
+- id: sabiork_412_EC6_1_1_4_Homo_sapiens_Q9P2J5_tRNA_Leu_
+  name: Reaction catalyzed by leucine---tRNA ligase on tRNA(Leu)
+  equation: ATP + tRNA(Leu) + L-Leucine = Diphosphate + AMP + L-Leucyl-tRNA(Leu)
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_tRNA_Leu_
+  - species_id: substrate_ATP
+  - species_id: substrate_L-Leucine
+  products:
+  - species_id: product_L-Leucyl-tRNA_Leu_
+  - species_id: product_Diphosphate
+  - species_id: product_AMP
+  modifiers:
+  - species_id: protein_6_1_1_4_Q9P2J5_p63037
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R03657
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:21348; CHEBI:10789; CHEBI:57299;
+    CHEBI:8683; CHEBI:40726; CHEBI:22245; CHEBI:32619; CHEBI:40510; CHEBI:43814; CHEBI:22242;
+    CHEBI:13736; CHEBI:47222; CHEBI:33019; CHEBI:456215; CHEBI:13236; CHEBI:16624;
+    CHEBI:45067; CHEBI:32620; CHEBI:40786; CHEBI:40826; CHEBI:16027; CHEBI:2356; CHEBI:10841;
+    CHEBI:25017; CHEBI:29888; CHEBI:2359; CHEBI:35782; CHEBI:10684; CHEBI:43733; CHEBI:40938;
+    CHEBI:13420; CHEBI:18361; CHEBI:13131; CHEBI:33017; CHEBI:29169; CHEBI:45208;
+    CHEBI:22249; CHEBI:43646; CHEBI:15422; CHEBI:57427; CHEBI:13740; CHEBI:32628;
+    CHEBI:10866; CHEBI:43695; CHEBI:15180; CHEBI:30006; CHEBI:6260; CHEBI:40721; CHEBI:13234;
+    CHEBI:45212; CHEBI:12056; CHEBI:42009; CHEBI:13235; CHEBI:15603; CHEBI:32627;
+    CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C16439; KEGG:C00123; KEGG:C00002; KEGG:C00020; KEGG:C01645;
+    KEGG:C02047'
+measurements:
+- id: measurement_6_1_1_4_Homo_sapiens_Q9P2J5_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_4_Homo_sapiens_Q9P2J5_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_4_Homo_sapiens_Q9P2J5_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_4_Homo_sapiens_Q9P2J5_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_4_Homo_sapiens_Q9P2J5_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_4_Homo_sapiens_Q9P2J5_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_4_Homo_sapiens_Q9P2J5_L-Leucine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_4_Homo_sapiens_Q9P2J5_L-Leucine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_4_Homo_sapiens_Q9P2J5_L-Leucine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_4_Homo_sapiens_Q9P2J5_tRNA_Leu_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_4_Homo_sapiens_Q9P2J5_L-Leucine
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_6_1_1_4_Homo_sapiens_Q9P2J5_tRNA_Leu_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.6
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 6_1_1_4_Homo_sapiens_Q9P2J5_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 350.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055448'
+- id: 6_1_1_4_Homo_sapiens_Q9P2J5_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000773
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055448'
+- id: 6_1_1_4_Homo_sapiens_Q9P2J5_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.27
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055448'
+- id: 6_1_1_4_Homo_sapiens_Q9P2J5_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 40000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055448'
+- id: 6_1_1_4_Homo_sapiens_Q9P2J5_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.3
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055448'
+- id: 6_1_1_4_Homo_sapiens_Q9P2J5_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.5e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055448'
+- id: 6_1_1_4_Homo_sapiens_Q9P2J5_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.28
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055448'
+- id: 6_1_1_4_Homo_sapiens_Q9P2J5_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 147000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055448'
+- id: 6_1_1_4_Homo_sapiens_Q9P2J5_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.9e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055448'
+- id: 6_1_1_4_Homo_sapiens_Q9P2J5_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 9.4e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055448'
+- id: 6_1_1_4_Homo_sapiens_Q9P2J5_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.5
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055448'
+- id: 6_1_1_4_Homo_sapiens_Q9P2J5_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 532000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055448'
+- id: 6_1_1_4_Homo_sapiens_Q9P2J5_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.25
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055448'
+- id: 6_1_1_4_Homo_sapiens_Q9P2J5_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.0e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055448'
+- id: 6_1_1_4_Homo_sapiens_Q9P2J5_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 250000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055448'
+- id: 6_1_1_4_Homo_sapiens_Q9P2J5_ATP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.4e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055448'
+- id: 6_1_1_4_Homo_sapiens_Q9P2J5_ATP_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.59
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055448'
+- id: 6_1_1_4_Homo_sapiens_Q9P2J5_ATP_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 421000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_ATP
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055448'
+- id: 6_1_1_4_Homo_sapiens_Q9P2J5_L-Leucine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.82
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Leucine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055448'
+- id: 6_1_1_4_Homo_sapiens_Q9P2J5_L-Leucine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 11000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Leucine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055448'
+- id: 6_1_1_4_Homo_sapiens_Q9P2J5_L-Leucine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Leucine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055448'
+- id: 6_1_1_4_Homo_sapiens_Q9P2J5_L-Leucine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.8e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Leucine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055448'
+- id: 6_1_1_4_Homo_sapiens_Q9P2J5_L-Leucine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 97000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Leucine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055448'
+- id: 6_1_1_4_Homo_sapiens_Q9P2J5_L-Leucine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.56
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Leucine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055448'
+- id: 6_1_1_4_Homo_sapiens_Q9P2J5_L-Leucine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 13000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Leucine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055448'
+- id: 6_1_1_4_Homo_sapiens_Q9P2J5_L-Leucine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.81
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Leucine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055448'
+- id: 6_1_1_4_Homo_sapiens_Q9P2J5_L-Leucine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.4e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Leucine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055448'
+- id: 6_1_1_4_Homo_sapiens_Q9P2J5_tRNA_Leu__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.001349
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Leu_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055448'
+- id: 6_1_1_4_Homo_sapiens_Q9P2J5_tRNA_Leu__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.74
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Leu_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055448'
+- id: 6_1_1_4_Homo_sapiens_Q9P2J5_tRNA_Leu__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 550.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Leu_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055448'
+- id: 6_1_1_4_Homo_sapiens_Q9P2J5_L-Leucine_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 600.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Leucine
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055448'
+- id: 6_1_1_4_Homo_sapiens_Q9P2J5_L-Leucine_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.79
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Leucine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055448'
+- id: 6_1_1_4_Homo_sapiens_Q9P2J5_L-Leucine_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.001308
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Leucine
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055448'
+- id: 6_1_1_4_Homo_sapiens_Q9P2J5_tRNA_Leu__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000725
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Leu_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055448'
+- id: 6_1_1_4_Homo_sapiens_Q9P2J5_tRNA_Leu__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.55
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Leu_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055448'
+- id: 6_1_1_4_Homo_sapiens_Q9P2J5_tRNA_Leu__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 760.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_tRNA_Leu_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.6
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16055448'
+buffer:
+  buffer: 50 mM HEPES-KOH, 25 mM KCl, 2 mM MgCl2, 1 mM spermine; 50 mM HEPES-KOH,
+    25 mM KCl, 2 mM MgCl2 ,8 mM KF; 50 mM HEPES-KOH, 25 mM KCl, 2 mM MgCl2, 8 mM KF
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 63038
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16055448/
+  pubmed_id: '16055448'
+  doi: null
+name: Merged entry for Q9P2J5 wildtype
+description: 'Merged from 12 files: SABIO_EC6.1.1.4_Homo_sapiens__Q9P2J5_s_ATP_2.yaml,
+  SABIO_EC6.1.1.4_Homo_sapiens__Q9P2J5_s_ATP.yaml, SABIO_EC6.1.1.4_Homo_sapiens__Q9P2J5_s_ATP_3.yaml,
+  SABIO_EC6.1.1.4_Homo_sapiens__Q9P2J5_s_ATP_5.yaml, SABIO_EC6.1.1.4_Homo_sapiens__Q9P2J5_s_ATP_4.yaml,
+  SABIO_EC6.1.1.4_Homo_sapiens__Q9P2J5_s_ATP_6.yaml, SABIO_EC6.1.1.4_Homo_sapiens__Q9P2J5_s_L-Leucine.yaml,
+  SABIO_EC6.1.1.4_Homo_sapiens__Q9P2J5_s_L-Leucine_4.yaml, SABIO_EC6.1.1.4_Homo_sapiens__Q9P2J5_s_L-Leucine_2.yaml,
+  SABIO_EC6.1.1.4_Homo_sapiens__Q9P2J5_s_tRNA_Leu_.yaml, SABIO_EC6.1.1.4_Homo_sapiens__Q9P2J5_s_L-Leucine_3.yaml,
+  SABIO_EC6.1.1.4_Homo_sapiens__Q9P2J5_s_tRNA_Leu__2.yaml'

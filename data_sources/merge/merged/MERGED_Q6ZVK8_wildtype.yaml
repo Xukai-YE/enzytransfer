@@ -1,0 +1,277 @@
+version: '2.0'
+created: '2025-11-20T13:41:22.367616'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_6_1_58_Q6ZVK8_p51406
+  name: 8-oxo-dGDP phosphatase
+  ecnumber: 3.6.1.58
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q6ZVK8
+  wildtype_sequence: MASEGLAGALASVLAGQGSSVHSCDSAPAGEPPAPVRLRKNVCYVVLAVFLSEQDEVLLIQEAKRECRGSWYLPAGRMEPGETIVEALQREVKEEAGLHCEPETLLSVEERGPSWVRFVFLARPTGGILKTSKEADAESLQAAWYPRTSLPTPLRAHDILHLVELAAQYRQQARHPLILPQELPCDLVCQRLVATFTSAQTVWVLVGTVGMPHLPVTACGLDPMEQRGGMKMAVLRLLQECLTLHHLVVEIKGLLGLQHLGRDHSDGICLNVLVTVAFRSPGIQDEPPKVRGENFSWWKVMEEDLQSQLLQRLQGSSVVPVNR
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_8-oxo-GDP
+  name: 8-oxo-GDP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Phosphate
+  name: Phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_8-oxo-GMP
+  name: 8-oxo-GMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_8-oxo-dGDP
+  name: 8-oxo-dGDP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_8-oxo-dGMP
+  name: 8-oxo-dGMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_13593_EC3_6_1_58_Homo_sapiens_Q6ZVK8_8-oxo-GDP
+  name: Reaction catalyzed by 8-oxo-dGDP phosphatase on 8-oxo-GDP
+  equation: H2O + 8-oxo-GDP = Phosphate + 8-oxo-GMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_8-oxo-GDP
+  products:
+  - species_id: product_Phosphate
+  - species_id: product_8-oxo-GMP
+  modifiers:
+  - species_id: protein_3_6_1_58_Q6ZVK8_p51406
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 62356;62357;62358;62359
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:29375; CHEBI:43470; CHEBI:44819; CHEBI:18367;
+    CHEBI:41981; CHEBI:35780; CHEBI:26020; CHEBI:26078; CHEBI:65134; CHEBI:42857;
+    CHEBI:41979; CHEBI:29139; CHEBI:39739; CHEBI:42043; CHEBI:33811; CHEBI:33813;
+    CHEBI:27313; CHEBI:65135; CHEBI:15377; CHEBI:143554; CHEBI:39745; CHEBI:13352;
+    CHEBI:7793; CHEBI:145694; CHEBI:43228; CHEBI:44292; CHEBI:45024; CHEBI:33806;
+    CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:43474; CHEBI:29137; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C22235; KEGG:C00001; KEGG:C00009'
+- id: sabiork_13592_EC3_6_1_58_Homo_sapiens_Q6ZVK8_8-oxo-dGDP
+  name: Reaction catalyzed by 8-oxo-dGDP phosphatase on 8-oxo-dGDP
+  equation: H2O + 8-oxo-dGDP = Phosphate + 8-oxo-dGMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_8-oxo-dGDP
+  products:
+  - species_id: product_Phosphate
+  - species_id: product_8-oxo-dGMP
+  modifiers:
+  - species_id: protein_3_6_1_58_Q6ZVK8_p51405
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 32063;32064;32065;32066
+  KEGGid: R09877
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:29375; CHEBI:43470; CHEBI:44819; CHEBI:18367;
+    CHEBI:41981; CHEBI:35780; CHEBI:26020; CHEBI:26078; CHEBI:42857; CHEBI:41979;
+    CHEBI:29139; CHEBI:39739; CHEBI:42043; CHEBI:33811; CHEBI:63728; CHEBI:27313;
+    CHEBI:33813; CHEBI:15377; CHEBI:63224; CHEBI:39745; CHEBI:13352; CHEBI:7793; CHEBI:43228;
+    CHEBI:63715; CHEBI:44292; CHEBI:45024; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:63223; CHEBI:43474; CHEBI:29137; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C20176; KEGG:C19968; KEGG:C00001; KEGG:C00009'
+measurements:
+- id: measurement_3_6_1_58_Homo_sapiens_Q6ZVK8_8-oxo-GDP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_3_6_1_58_Homo_sapiens_Q6ZVK8_8-oxo-dGDP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_6_1_58_Homo_sapiens_Q6ZVK8_8-oxo-GDP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 4.1e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_8-oxo-GDP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22556419'
+- id: 3_6_1_58_Homo_sapiens_Q6ZVK8_8-oxo-GDP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.3733333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_8-oxo-GDP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22556419'
+- id: 3_6_1_58_Homo_sapiens_Q6ZVK8_8-oxo-GDP_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.17e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_8-oxo-GDP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22556419'
+- id: 3_6_1_58_Homo_sapiens_Q6ZVK8_8-oxo-dGDP_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 3.533333e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_8-oxo-dGDP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22556419'
+- id: 3_6_1_58_Homo_sapiens_Q6ZVK8_8-oxo-dGDP_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.33
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_8-oxo-dGDP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22556419'
+- id: 3_6_1_58_Homo_sapiens_Q6ZVK8_8-oxo-dGDP_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.07e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_8-oxo-dGDP
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '22556419'
+buffer:
+  buffer: 20 mM Tris-HCl, 80 ¦Ìg/ml BSA, 8 mM MgCl2, 40 mM NaCl, 5 mM DTT, 2% glycerol
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 51406
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/22556419/
+  pubmed_id: '22556419'
+  doi: null
+name: Merged entry for Q6ZVK8 wildtype
+description: 'Merged from 2 files: SABIO_EC3.6.1.58_Homo_sapiens__Q6ZVK8_s_8-oxo-GDP.yaml,
+  SABIO_EC3.6.1.58_Homo_sapiens__Q6ZVK8_s_8-oxo-dGDP.yaml'

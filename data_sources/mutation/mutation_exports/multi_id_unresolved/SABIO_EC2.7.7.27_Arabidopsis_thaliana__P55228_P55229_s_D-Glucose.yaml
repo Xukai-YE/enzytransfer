@@ -1,0 +1,148 @@
+name: SABIO-RK Entry 53540
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 53540
+created: '2025-10-28T16:04:34.238229'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_7_27_P55228_P55229_p53540
+  name: glucose-1-phosphate adenylyltransferase
+  sequence: null
+  ecnumber: 2.7.7.27
+  organism: Arabidopsis thaliana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P55228; P55229
+complexes: null
+small_molecules:
+- id: substrate_D-Glucose_1-phosphate
+  name: D-Glucose 1-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP_alpha-D-glucoside
+  name: ADP alpha-D-glucoside
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Glycerate_3-phosphate
+  name: Glycerate 3-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1262_EC2_7_7_27_Arabidopsis_thaliana_P55228_P55229_D-Glucose_1-phosphate
+  name: Reaction catalyzed by glucose-1-phosphate adenylyltransferase on D-Glucose
+    1-phosphate
+  equation: ATP + D-Glucose 1-phosphate = Diphosphate + ADP alpha-D-glucoside
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_D-Glucose_1-phosphate
+  - species_id: substrate_ATP
+  products:
+  - species_id: product_ADP_alpha-D-glucoside
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_2_7_7_27_P55228_P55229_p53540
+    role: BIOCATALYST
+  - species_id: activator_Glycerate_3-phosphate
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00948
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:1657; CHEBI:26049; CHEBI:57299;
+    CHEBI:10789; CHEBI:8683; CHEBI:2349; CHEBI:20846; CHEBI:57684; CHEBI:16218; CHEBI:11882;
+    CHEBI:12987; CHEBI:16077; CHEBI:11880; CHEBI:8142; CHEBI:33019; CHEBI:57498; CHEBI:88352;
+    CHEBI:28149; CHEBI:13236; CHEBI:45067; CHEBI:10841; CHEBI:29888; CHEBI:57998;
+    CHEBI:40615; CHEBI:2359; CHEBI:35782; CHEBI:58272; CHEBI:40938; CHEBI:13420; CHEBI:13230;
+    CHEBI:18361; CHEBI:33017; CHEBI:12374; CHEBI:88005; CHEBI:45208; CHEBI:22249;
+    CHEBI:15422; CHEBI:24345; CHEBI:40016; CHEBI:17794; CHEBI:1659; CHEBI:10398; CHEBI:15751;
+    CHEBI:22796; CHEBI:21029; CHEBI:45212; CHEBI:11879; CHEBI:42009; CHEBI:17050;
+    CHEBI:33018
+
+    KEGG IDs: KEGG:C00197; KEGG:C00013; KEGG:C00597; KEGG:C00498; KEGG:C00103; KEGG:C00002;
+    KEGG:C00663'
+measurements:
+- id: measurement_2_7_7_27_Arabidopsis_thaliana_P55228_P55229_D-Glucose_1-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.9
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 50 mM HEPES, 7 mM MgCl2, 2 mM dithiothreitol, 0.0015 U/¦Ìl pyrophosphatase,
+    0.2 mg/ml BSA
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 53540
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/12748181/
+  pubmed_id: '12748181'
+  doi: null

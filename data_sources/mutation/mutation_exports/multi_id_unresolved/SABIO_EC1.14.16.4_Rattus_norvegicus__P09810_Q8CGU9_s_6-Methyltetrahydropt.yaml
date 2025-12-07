@@ -1,0 +1,172 @@
+name: SABIO-RK Entry 10909
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 10909
+created: '2025-10-28T13:58:13.498473'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_14_16_4_P09810_Q8CGU9_p10909
+  name: phenylalanine 4-monooxygenase
+  sequence: null
+  ecnumber: 1.14.16.4
+  organism: Rattus norvegicus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P09810; Q8CGU9
+complexes: null
+small_molecules:
+- id: substrate_6-Methyltetrahydropterin
+  name: 6-Methyltetrahydropterin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_L-Phenylalanine
+  name: L-Phenylalanine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_6-Methyldihydropterin
+  name: 6-Methyldihydropterin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_L-Tyrosine
+  name: L-Tyrosine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_8067_EC1_14_16_4_Rattus_norvegicus_P09810_Q8CGU9_6-Methyltetrahydropterin
+  name: Reaction catalyzed by phenylalanine 4-monooxygenase on 6-Methyltetrahydropterin
+  equation: O2 + 6-Methyltetrahydropterin + L-Phenylalanine = 6-Methyldihydropterin
+    + L-Tyrosine + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_6-Methyltetrahydropterin
+  - species_id: substrate_L-Phenylalanine
+  - species_id: substrate_O2
+  products:
+  - species_id: product_6-Methyldihydropterin
+  - species_id: product_L-Tyrosine
+  modifiers:
+  - species_id: protein_1_14_16_4_P09810_Q8CGU9_p10909
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:45079; CHEBI:25805; CHEBI:29375; CHEBI:13181; CHEBI:44819;
+    CHEBI:29997; CHEBI:41981; CHEBI:6313; CHEBI:6282; CHEBI:32785; CHEBI:27176; CHEBI:17895;
+    CHEBI:26689; CHEBI:32487; CHEBI:21370; CHEBI:42857; CHEBI:41979; CHEBI:32784;
+    CHEBI:32760; CHEBI:23833; CHEBI:18186; CHEBI:13416; CHEBI:9800; CHEBI:32762; CHEBI:42043;
+    CHEBI:46161; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:17295;
+    CHEBI:13352; CHEBI:13151; CHEBI:58315; CHEBI:32786; CHEBI:15379; CHEBI:46070;
+    CHEBI:43228; CHEBI:58095; CHEBI:44292; CHEBI:30491; CHEBI:44885; CHEBI:46858;
+    CHEBI:33806; CHEBI:25366; CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:21411;
+    CHEBI:44851; CHEBI:29793; CHEBI:32761; CHEBI:15277; CHEBI:7860; CHEBI:10745; CHEBI:32486;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C01536; KEGG:C00079; KEGG:C00082; KEGG:C00001; KEGG:C00704; KEGG:C00007'
+measurements:
+- id: measurement_1_14_16_4_Rattus_norvegicus_P09810_Q8CGU9_6-Methyltetrahydropterin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_14_16_4_Rattus_norvegicus_P09810_Q8CGU9_6-Methyltetrahydropterin_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2.183333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_6-Methyltetrahydropterin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '16953590'
+buffer:
+  buffer: 80 mM Hepes/NaOH, 15 ¦ÌM ferrous ammonium sulfate, 60 ¦Ìg/ml catalase, 200-250
+    ¦ÌM NADH, 0.2-0.5 U/ml dihydropteridine reductase
+  buffer_concentration: 80 mM
+references:
+- title: Reference for SABIO-RK entry 10909
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/16953590/
+  pubmed_id: '16953590'
+  doi: null

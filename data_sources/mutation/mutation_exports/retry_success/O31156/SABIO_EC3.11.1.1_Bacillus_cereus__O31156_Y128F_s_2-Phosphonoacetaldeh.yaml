@@ -1,0 +1,182 @@
+name: SABIO-RK Entry 1873
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 1873
+created: '2025-10-28T13:45:27.074961'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_11_1_1_O31156_p1873
+  name: phosphonoacetaldehyde hydrolase
+  ecnumber: 3.11.1.1
+  organism: Bacillus cereus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: Y128F
+  uniprotid: O31156
+  wildtype_sequence: MKIEAVIFDWAGTTVDYGCFAPLEVFMEIFHKRGVAITAEEARKPMGLLKIDHVRALTEMPRIASEWNRVFRQLPTEADIQEMYEEFEEILFAILPRYASPINGVKEVIASLRERGIKIGSTTGYTREMMDIVAKEAALQGYKPDFLVTPDDVPAGRPYPWMCYKNAMELGVYPMNHMIKVGDTVSDMKEGRNAGMWTVGVILGSSELGLTEEEVENMDSVELREKIEVVRNRFVENGAHFTIETMQELESVMEHIEKQELIIS
+  mutant_sequence: MKIEAVIFDWAGTTVDYGCFAPLEVFMEIFHKRGVAITAEEARKPMGLLKIDHVRALTEMPRIASEWNRVFRQLPTEADIQEMYEEFEEILFAILPRYASPINGVKEVIASLRERGIKIGSTTGFTREMMDIVAKEAALQGYKPDFLVTPDDVPAGRPYPWMCYKNAMELGVYPMNHMIKVGDTVSDMKEGRNAGMWTVGVILGSSELGLTEEEVENMDSVELREKIEVVRNRFVENGAHFTIETMQELESVMEHIEKQELIIS
+  position_offset: -3
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_2-Phosphonoacetaldehyde
+  name: 2-Phosphonoacetaldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Phosphate
+  name: Phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Acetaldehyde
+  name: Acetaldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1106_EC3_11_1_1_Bacillus_cereus_O31156_2-Phosphonoacetaldehyde
+  name: Reaction catalyzed by phosphonoacetaldehyde hydrolase on 2-Phosphonoacetaldehyde
+  equation: H2O + 2-Phosphonoacetaldehyde = Acetaldehyde + Phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2-Phosphonoacetaldehyde
+  products:
+  - species_id: product_Phosphate
+  - species_id: product_Acetaldehyde
+  modifiers:
+  - species_id: protein_3_11_1_1_O31156_p1873
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 18905;18906;18907;18908
+  KEGGid: R00747
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:29375; CHEBI:43470; CHEBI:44819; CHEBI:18367;
+    CHEBI:8155; CHEBI:41981; CHEBI:35780; CHEBI:26020; CHEBI:26078; CHEBI:42857; CHEBI:41979;
+    CHEBI:18124; CHEBI:29139; CHEBI:39739; CHEBI:42043; CHEBI:2383; CHEBI:40533; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:26070; CHEBI:15377; CHEBI:58383; CHEBI:11653;
+    CHEBI:39745; CHEBI:15343; CHEBI:13352; CHEBI:13703; CHEBI:7793; CHEBI:14823; CHEBI:43228;
+    CHEBI:22158; CHEBI:44292; CHEBI:45024; CHEBI:33806; CHEBI:10743; CHEBI:29374;
+    CHEBI:5585; CHEBI:45088; CHEBI:43474; CHEBI:29137; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00084; KEGG:C00001; KEGG:C03167; KEGG:C00009'
+measurements:
+- id: measurement_3_11_1_1_Bacillus_cereus_O31156_2-Phosphonoacetaldehyde
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 3_11_1_1_Bacillus_cereus_O31156_2-Phosphonoacetaldehyde_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2.21
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Phosphonoacetaldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14670958'
+- id: 3_11_1_1_Bacillus_cereus_O31156_2-Phosphonoacetaldehyde_kcat_2
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 49000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Phosphonoacetaldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14670958'
+- id: 3_11_1_1_Bacillus_cereus_O31156_2-Phosphonoacetaldehyde_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Phosphonoacetaldehyde
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '14670958'
+buffer:
+  buffer: 50 mM K+ Hepes, 10 mM MgCl2, 0.15 mM NADH, 5 units/ml alcohol dehydrogenase
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 1873
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/14670958/
+  pubmed_id: '14670958'
+  doi: null

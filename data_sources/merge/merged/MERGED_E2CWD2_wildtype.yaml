@@ -1,0 +1,470 @@
+version: '2.0'
+created: '2025-11-20T13:39:22.304147'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_39_E2CWD2_p64082
+  name: malate dehydrogenase (oxaloacetate-decarboxylating) (NADP+)
+  ecnumber: 1.1.1.39
+  organism: Lipomyces starkeyi
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: E2CWD2
+  wildtype_sequence: MAPKSSTRVPLSVKGPIDCPYEGKEMLNLPQFNRGTAFTAEERDLFNLVGNLPAALQTLQNQVDRAYDQYSSISTALGKNTFLMSLKVQNEVLYFKLLQDHLKEMFSIIYTPTESEAIEHYSRLFRRPEGCFLNINHPEYIERSLAAWGTEEDIDYIIVSDGEEILGIGDQGVGAIGISSAKAVLMTLCAGVHPSRCIPVALDVGTDNEQLLEDELYLGNRHNRVRGGRYDKFVDDFVQCVKKLYPRAVLHFEDFGLPNARRLLDTYRPRLACFNDDVQGTGAVTLAALSSAVRVAGIDFRDLRTVIFGAGTAGTGIADQLRDFLNTQGISKQQVIDHIWLVDKPGLLLKSMHDKLTSAQRPYAASDDRWKEIDTKSLSEIVKKVKPHVLIGCSTKPKAFNEAVLREMAKHVERPIVFPLSNPTRLHEATPAEIFKYTDGKALVATGSPFDPVDGKEIAENNNCFVYPGIGMGSILSRADRVTETMIAAVVKELASLAPSEKDPTGALLPDVADIRDISAKIATAVVLQALEEGTARVEEIEGIKVPRDRDHCLEWVKEQMWQPEYRPLRKV
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_L-Malate
+  name: L-Malate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Pyruvate
+  name: Pyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CO2
+  name: CO2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_141_EC1_1_1_39_Lipomyces_starkeyi_E2CWD2_L-Malate
+  name: Reaction catalyzed by malate dehydrogenase (oxaloacetate-decarboxylating)
+    (NADP+) on L-Malate
+  equation: NAD+ + L-Malate = CO2 + Pyruvate + H+ + NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Malate
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_NADH
+  - species_id: product_Pyruvate
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_1_1_1_39_E2CWD2_p64082
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 12653;12654;12655;12656
+  KEGGid: R00214
+  notes: 'ChEBI IDs: CHEBI:14987; CHEBI:15589; CHEBI:139538; CHEBI:44281; CHEBI:13393;
+    CHEBI:29234; CHEBI:15846; CHEBI:3283; CHEBI:13357; CHEBI:21902; CHEBI:15361; CHEBI:13396;
+    CHEBI:30797; CHEBI:21901; CHEBI:423; CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:13394;
+    CHEBI:11066; CHEBI:23011; CHEBI:5584; CHEBI:26466; CHEBI:57945; CHEBI:44216; CHEBI:13285;
+    CHEBI:18784; CHEBI:13282; CHEBI:26462; CHEBI:13140; CHEBI:57540; CHEBI:7423; CHEBI:18785;
+    CHEBI:13283; CHEBI:8685; CHEBI:13389; CHEBI:13395; CHEBI:13284; CHEBI:15378; CHEBI:32816;
+    CHEBI:16526; CHEBI:48829; CHEBI:44215; CHEBI:10744; CHEBI:45253; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00003; KEGG:C00080; KEGG:C00022; KEGG:C00011; KEGG:C00149; KEGG:C00004'
+- id: sabiork_142_EC1_1_1_39_Lipomyces_starkeyi_E2CWD2_L-Malate
+  name: Reaction catalyzed by malate dehydrogenase (decarboxylating) on L-Malate
+  equation: NADP+ + L-Malate = NADPH + CO2 + Pyruvate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Malate
+  - species_id: substrate_NADP_
+  products:
+  - species_id: product_CO2
+  - species_id: product_NADPH
+  - species_id: product_Pyruvate
+  modifiers:
+  - species_id: protein_1_1_1_39_E2CWD2_p64084
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 18253;18254;18255;18256
+  KEGGid: R00216
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:14987; CHEBI:15589; CHEBI:139538;
+    CHEBI:7424; CHEBI:21903; CHEBI:44405; CHEBI:7425; CHEBI:29234; CHEBI:3283; CHEBI:25523;
+    CHEBI:13357; CHEBI:15361; CHEBI:30797; CHEBI:423; CHEBI:24636; CHEBI:29233; CHEBI:11066;
+    CHEBI:23011; CHEBI:5584; CHEBI:13399; CHEBI:26466; CHEBI:13285; CHEBI:18784; CHEBI:13282;
+    CHEBI:16474; CHEBI:44286; CHEBI:26462; CHEBI:13140; CHEBI:18785; CHEBI:13283;
+    CHEBI:21904; CHEBI:8685; CHEBI:44409; CHEBI:15378; CHEBI:13284; CHEBI:32816; CHEBI:18009;
+    CHEBI:16526; CHEBI:58349; CHEBI:48829; CHEBI:13400; CHEBI:57783; CHEBI:10744;
+    CHEBI:45253
+
+    KEGG IDs: KEGG:C00005; KEGG:C00080; KEGG:C00022; KEGG:C00011; KEGG:C00006; KEGG:C00149;
+    KEGG:C11037'
+- id: sabiork_142_EC1_1_1_39_Lipomyces_starkeyi_E2CWD2_L-Malate
+  name: Reaction catalyzed by malate dehydrogenase (decarboxylating) on L-Malate
+  equation: NADP+ + L-Malate = NADPH + CO2 + Pyruvate + H+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Malate
+  - species_id: substrate_NADP_
+  products:
+  - species_id: product_Pyruvate
+  - species_id: product_NADPH
+  - species_id: product_CO2
+  modifiers:
+  - species_id: protein_1_1_1_39_E2CWD2_p64085
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 18253;18254;18255;18256
+  KEGGid: R00216
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:14987; CHEBI:15589; CHEBI:139538;
+    CHEBI:7424; CHEBI:21903; CHEBI:44405; CHEBI:7425; CHEBI:29234; CHEBI:3283; CHEBI:25523;
+    CHEBI:13357; CHEBI:15361; CHEBI:30797; CHEBI:423; CHEBI:24636; CHEBI:29233; CHEBI:11066;
+    CHEBI:13399; CHEBI:5584; CHEBI:23011; CHEBI:26466; CHEBI:13285; CHEBI:18784; CHEBI:13282;
+    CHEBI:16474; CHEBI:26462; CHEBI:44286; CHEBI:13140; CHEBI:18785; CHEBI:13283;
+    CHEBI:8685; CHEBI:21904; CHEBI:44409; CHEBI:15378; CHEBI:13284; CHEBI:32816; CHEBI:18009;
+    CHEBI:16526; CHEBI:58349; CHEBI:48829; CHEBI:13400; CHEBI:57783; CHEBI:10744;
+    CHEBI:45253
+
+    KEGG IDs: KEGG:C00005; KEGG:C00080; KEGG:C00022; KEGG:C00006; KEGG:C00011; KEGG:C00149;
+    KEGG:C11037'
+- id: sabiork_141_EC1_1_1_39_Lipomyces_starkeyi_E2CWD2_NAD_
+  name: Reaction catalyzed by malate dehydrogenase (oxaloacetate-decarboxylating)
+    (NADP+) on NAD+
+  equation: NAD+ + L-Malate = CO2 + Pyruvate + H+ + NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_L-Malate
+  products:
+  - species_id: product_Pyruvate
+  - species_id: product_CO2
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_1_1_39_E2CWD2_p64083
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 12653;12654;12655;12656
+  KEGGid: R00214
+  notes: 'ChEBI IDs: CHEBI:14987; CHEBI:15589; CHEBI:139538; CHEBI:44281; CHEBI:13393;
+    CHEBI:29234; CHEBI:15846; CHEBI:3283; CHEBI:13357; CHEBI:21902; CHEBI:15361; CHEBI:13396;
+    CHEBI:30797; CHEBI:21901; CHEBI:423; CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:11066;
+    CHEBI:13394; CHEBI:5584; CHEBI:23011; CHEBI:26466; CHEBI:57945; CHEBI:44216; CHEBI:13285;
+    CHEBI:18784; CHEBI:13282; CHEBI:26462; CHEBI:13140; CHEBI:57540; CHEBI:7423; CHEBI:18785;
+    CHEBI:13283; CHEBI:8685; CHEBI:13389; CHEBI:15378; CHEBI:13284; CHEBI:13395; CHEBI:32816;
+    CHEBI:16526; CHEBI:48829; CHEBI:44215; CHEBI:10744; CHEBI:45253; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C00149; KEGG:C00011; KEGG:C00022; KEGG:C00003; KEGG:C00004'
+measurements:
+- id: measurement_1_1_1_39_Lipomyces_starkeyi_E2CWD2_L-Malate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.3
+  temperature_opt: 28.0
+  temperature_unit: °C
+- id: measurement_1_1_1_39_Lipomyces_starkeyi_E2CWD2_L-Malate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.3
+  temperature_opt: 28.0
+  temperature_unit: °C
+- id: measurement_1_1_1_39_Lipomyces_starkeyi_E2CWD2_L-Malate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.3
+  temperature_opt: 28.0
+  temperature_unit: °C
+- id: measurement_1_1_1_39_Lipomyces_starkeyi_E2CWD2_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.3
+  temperature_opt: 28.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1_39_Lipomyces_starkeyi_E2CWD2_L-Malate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00034
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Malate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.3
+  temperature: 28.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20217282'
+- id: 1_1_1_39_Lipomyces_starkeyi_E2CWD2_L-Malate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000178333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Malate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.3
+  temperature: 28.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20217282'
+- id: 1_1_1_39_Lipomyces_starkeyi_E2CWD2_L-Malate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 11.4
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Malate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.3
+  temperature: 28.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20217282'
+- id: 1_1_1_39_Lipomyces_starkeyi_E2CWD2_L-Malate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00085
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Malate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.3
+  temperature: 28.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20217282'
+- id: 1_1_1_39_Lipomyces_starkeyi_E2CWD2_L-Malate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.88333e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Malate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.3
+  temperature: 28.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20217282'
+- id: 1_1_1_39_Lipomyces_starkeyi_E2CWD2_L-Malate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.2
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Malate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.3
+  temperature: 28.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20217282'
+- id: 1_1_1_39_Lipomyces_starkeyi_E2CWD2_L-Malate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0074
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Malate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.3
+  temperature: 28.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20217282'
+- id: 1_1_1_39_Lipomyces_starkeyi_E2CWD2_L-Malate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.88333e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Malate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.3
+  temperature: 28.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20217282'
+- id: 1_1_1_39_Lipomyces_starkeyi_E2CWD2_L-Malate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1.2
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Malate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.3
+  temperature: 28.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20217282'
+- id: 1_1_1_39_Lipomyces_starkeyi_E2CWD2_NAD__Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000178333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.3
+  temperature: 28.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20217282'
+- id: 1_1_1_39_Lipomyces_starkeyi_E2CWD2_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00085
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.3
+  temperature: 28.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20217282'
+- id: 1_1_1_39_Lipomyces_starkeyi_E2CWD2_NAD__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 11.4
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.3
+  temperature: 28.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '20217282'
+buffer:
+  buffer: 50 mM HEPES, 5 mM MnCl2
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 64082
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/20217282/
+  pubmed_id: '20217282'
+  doi: null
+name: Merged entry for E2CWD2 wildtype
+description: 'Merged from 4 files: SABIO_EC1.1.1.39_Lipomyces_starkeyi__E2CWD2_s_L-Malate.yaml,
+  SABIO_EC1.1.1.39_Lipomyces_starkeyi__E2CWD2_s_L-Malate_2.yaml, SABIO_EC1.1.1.39_Lipomyces_starkeyi__E2CWD2_s_L-Malate_3.yaml,
+  SABIO_EC1.1.1.39_Lipomyces_starkeyi__E2CWD2_s_NAD_.yaml'

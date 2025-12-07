@@ -1,0 +1,233 @@
+version: '2.0'
+created: '2025-11-20T13:39:31.503002'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_13_11_71_Q7XJM2_p46115
+  name: carotenoid-9',10'-cleaving dioxygenase
+  ecnumber: 1.13.11.71
+  organism: Arabidopsis thaliana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q7XJM2
+  wildtype_sequence: MSLPIPPKFLPPLKSPPIHHHQTPPPLAPPRAAISISIPDTGLGRTGTILDESTSSAFRDYQSLFVSQRSETIEPVVIKPIEGSIPVNFPSGTYYLAGPGLFTDDHGSTVHPLDGHGYLRAFHIDGNKRKATFTAKYVKTEAKKEEHDPVTDTWRFTHRGPFSVLKGGKRFGNTKVMKNVANTSVLKWAGRLLCLWEGGEPYEIESGSLDTVGRFNVENNGCESCDDDDSSDRDLSGHDIWDTAADLLKPILQGVFKMPPKRFLSHYKVDGRRKRLLTVTCNAEDMLLPRSNFTFCEYDSEFKLIQTKEFKIDDHMMIHDWAFTDTHYILFANRVKLNPIGSIAAMCGMSPMVSALSLNPSNESSPIYILPRFSDKYSRGGRDWRVPVEVSSQLWLIHSGNAYETREDNGDLKIQIQASACSYRWFDFQKMFGYDWQSNKLDPSVMNLNRGDDKLLPHLVKVSMTLDSTGNCNSCDVEPLNGWNKPSDFPVINSSWSGKKNKYMYSAASSGTRSELPHFPFDMVVKFDLDSNLVRTWSTGARRFVGEPMFVPKNSVEEGEEEDDGYIVVVEYAVSVERCYLVILDAKKIGESDAVVSRLEVPRNLTFPMGFHGLWASD
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_beta-Carotene
+  name: beta-Carotene
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_10_-apo-beta-Carotenal
+  name: 10'-apo-beta-Carotenal
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_beta-Ionone
+  name: beta-Ionone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_13048_EC1_13_11_71_Arabidopsis_thaliana_Q7XJM2_O2
+  name: Reaction catalyzed by carotenoid-9',10'-cleaving dioxygenase on O2
+  equation: O2 + beta-Carotene = beta-Ionone + 10'-apo-beta-Carotenal
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_beta-Carotene
+  products:
+  - species_id: product_10_-apo-beta-Carotenal
+  - species_id: product_beta-Ionone
+  modifiers:
+  - species_id: protein_1_13_11_71_Q7XJM2_p46115
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 26389;26390;26391;26392
+  KEGGid: R10559
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:44742; CHEBI:25366; CHEBI:29793; CHEBI:7860;
+    CHEBI:15379; CHEBI:53153; CHEBI:23833; CHEBI:32325; CHEBI:13416; CHEBI:10745;
+    CHEBI:17579; CHEBI:26689; CHEBI:30491
+
+    KEGG IDs: KEGG:C12287; KEGG:C02094; KEGG:C20695; KEGG:C00704; KEGG:C00007'
+- id: sabiork_13048_EC1_13_11_71_Arabidopsis_thaliana_Q7XJM2_beta-Carotene
+  name: Reaction catalyzed by carotenoid-9',10'-cleaving dioxygenase on beta-Carotene
+  equation: O2 + beta-Carotene = beta-Ionone + 10'-apo-beta-Carotenal
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_beta-Carotene
+  - species_id: substrate_O2
+  products:
+  - species_id: product_10_-apo-beta-Carotenal
+  - species_id: product_beta-Ionone
+  modifiers:
+  - species_id: protein_1_13_11_71_Q7XJM2_p46114
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 26389;26390;26391;26392
+  KEGGid: R10559
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:44742; CHEBI:25366; CHEBI:29793; CHEBI:7860;
+    CHEBI:15379; CHEBI:53153; CHEBI:23833; CHEBI:32325; CHEBI:13416; CHEBI:10745;
+    CHEBI:17579; CHEBI:26689; CHEBI:30491
+
+    KEGG IDs: KEGG:C12287; KEGG:C02094; KEGG:C20695; KEGG:C00704; KEGG:C00007'
+measurements:
+- id: measurement_1_13_11_71_Arabidopsis_thaliana_Q7XJM2_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: null
+  temperature_unit: null
+- id: measurement_1_13_11_71_Arabidopsis_thaliana_Q7XJM2_beta-Carotene
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: null
+  temperature_unit: null
+equations: null
+parameters:
+- id: 1_13_11_71_Arabidopsis_thaliana_Q7XJM2_O2_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.683333e-10
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15342640'
+- id: 1_13_11_71_Arabidopsis_thaliana_Q7XJM2_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15342640'
+- id: 1_13_11_71_Arabidopsis_thaliana_Q7XJM2_beta-Carotene_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.52e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_beta-Carotene
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15342640'
+- id: 1_13_11_71_Arabidopsis_thaliana_Q7XJM2_beta-Carotene_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 7.5e-11
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_beta-Carotene
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: null
+  temperature_unit: null
+  notes: null
+  pubmed_id: '15342640'
+buffer:
+  buffer: 100 mM Tris, 0.1% Triton X-100, 0.5 mM FeSO4, 5 mM Ascorbate, 25% Methanol;
+    100 mM Tris, 0.1% Triton X-100, 0.5 mM FeSO4, 5 mM Ascorbate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 46115
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15342640/
+  pubmed_id: '15342640'
+  doi: null
+name: Merged entry for Q7XJM2 wildtype
+description: 'Merged from 2 files: SABIO_EC1.13.11.71_Arabidopsis_thaliana__Q7XJM2_s_O2.yaml,
+  SABIO_EC1.13.11.71_Arabidopsis_thaliana__Q7XJM2_s_beta-Carotene.yaml'

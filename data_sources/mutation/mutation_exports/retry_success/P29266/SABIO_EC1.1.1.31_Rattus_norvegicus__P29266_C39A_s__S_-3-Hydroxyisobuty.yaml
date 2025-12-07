@@ -1,0 +1,174 @@
+name: SABIO-RK Entry 17136
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 17136
+created: '2025-10-28T14:10:27.316741'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_31_P29266_p17136
+  name: 2-hydroxymethylglutarate dehydrogenase
+  ecnumber: 1.1.1.31
+  organism: Rattus norvegicus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: C39A
+  uniprotid: P29266
+  wildtype_sequence: MAASLGFRGAASGLRYWSGRRRPVGSLAAVCSRSMASKTPVGFIGLGNMGNPMAKNLIKHGYPLILYDVFPDVCKEFKEAGEQVASSPADVAEKADRIITMLPSSMNSIEVYSGANGILKKVKKGSLLIDSSTIDPSVSKELAKEVEKMGAVFMDAPVSGGVGAARSGNLTFMVGGVENEFAAAQELLGCMGSNVLYCGAVGSGQSAKICNNMLLAISMIGTAEAMNLGIRSGLDPKLLAKILNMSSGRCWSSDTYNPVPGVMDGVPSSNNYQGGFGTTLMAKDLGLAQDSATSTKTPILLGSVAHQIYRMMCSKGYSKKDFSSVFQYLREEETF
+  mutant_sequence: MAASLGFRGAASGLRYWSGRRRPVGSLAAVASRSMASKTPVGFIGLGNMGNPMAKNLIKHGYPLILYDVFPDVCKEFKEAGEQVASSPADVAEKADRIITMLPSSMNSIEVYSGANGILKKVKKGSLLIDSSTIDPSVSKELAKEVEKMGAVFMDAPVSGGVGAARSGNLTFMVGGVENEFAAAQELLGCMGSNVLYCGAVGSGQSAKICNNMLLAISMIGTAEAMNLGIRSGLDPKLLAKILNMSSGRCWSSDTYNPVPGVMDGVPSSNNYQGGFGTTLMAKDLGLAQDSATSTKTPILLGSVAHQIYRMMCSKGYSKKDFSSVFQYLREEETF
+  position_offset: -8
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate__S_-3-Hydroxyisobutyrate
+  name: (S)-3-Hydroxyisobutyrate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product__S_-Methylmalonate_semialdehyde
+  name: (S)-Methylmalonate semialdehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_4693_EC1_1_1_31_Rattus_norvegicus_P29266__S_-3-Hydroxyisobutyrate
+  name: Reaction catalyzed by 2-hydroxymethylglutarate dehydrogenase on (S)-3-Hydroxyisobutyrate
+  equation: NAD+ + (S)-3-Hydroxyisobutyrate = NADH + H+ + (S)-Methylmalonate semialdehyde
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate__S_-3-Hydroxyisobutyrate
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product__S_-Methylmalonate_semialdehyde
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_1_1_31_P29266_p17136
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 31275;31276;31277;31278
+  KEGGid: R05066
+  notes: 'ChEBI IDs: CHEBI:27821; CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846;
+    CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636; CHEBI:44214;
+    CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:57945; CHEBI:44216; CHEBI:57540; CHEBI:7423;
+    CHEBI:13389; CHEBI:15378; CHEBI:13395; CHEBI:62638; CHEBI:44215; CHEBI:10744;
+    CHEBI:37373; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C06002; KEGG:C06001; KEGG:C00003; KEGG:C00004'
+measurements:
+- id: measurement_1_1_1_31_Rattus_norvegicus_P29266__S_-3-Hydroxyisobutyrate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 10.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1_31_Rattus_norvegicus_P29266__S_-3-Hydroxyisobutyrate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.3e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__S_-3-Hydroxyisobutyrate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 10.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7703236'
+- id: 1_1_1_31_Rattus_norvegicus_P29266__S_-3-Hydroxyisobutyrate_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate__S_-3-Hydroxyisobutyrate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 10.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7703236'
+buffer:
+  buffer: 50 mM glycine, 1 mM 2-mercaptoethanol, 1 mM K-EDTA
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 17136
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/7703236/
+  pubmed_id: '7703236'
+  doi: null

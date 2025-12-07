@@ -1,0 +1,276 @@
+version: '2.0'
+created: '2025-11-20T13:41:06.307611'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_2_1_26_Q43866_p67509
+  name: amylosucrase
+  ecnumber: 3.2.1.26
+  organism: Arabidopsis thaliana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q43866
+  wildtype_sequence: MTKEVCSNIGLWLLLTLLIGNYVVNLEASHHVYKRLTQSTNTKSPSVNQPYRTGFHFQPPKNWMNDPNGPMIYKGIYHLFYQWNPKGAVWGNIVWAHSTSTDLINWDPHPPAIFPSAPFDINGCWSGSATILPNGKPVILYTGIDPKNQQVQNIAEPKNLSDPYLREWKKSPLNPLMAPDAVNGINASSFRDPTTAWLGQDKKWRVIIGSKIHRRGLAITYTSKDFLKWEKSPEPLHYDDGSGMWECPDFFPVTRFGSNGVETSSFGEPNEILKHVLKISLDDTKHDYYTIGTYDRVKDKFVPDNGFKMDGTAPRYDYGKYYASKTFFDSAKNRRILWGWTNESSSVEDDVEKGWSGIQTIPRKIWLDRSGKQLIQWPVREVERLRTKQVKNLRNKVLKSGSRLEVYGVTAAQADVEVLFKVRDLEKADVIEPSWTDPQLICSKMNVSVKSGLGPFGLMVLASKNLEEYTSVYFRIFKARQNSNKYVVLMCSDQSRSSLKEDNDKTTYGAFVDINPHQPLSLRALIDHSVVESFGGKGRACITSRVYPKLAIGKSSHLFAFNYGYQSVDVLNLNAWSMNSAQIS
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Sucrose
+  name: Sucrose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Fructose
+  name: D-Fructose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_D-Glucose
+  name: D-Glucose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_1-Kestose
+  name: 1-Kestose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Sucrose
+  name: Sucrose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1146_EC3_2_1_26_Arabidopsis_thaliana_Q43866_Sucrose
+  name: Reaction catalyzed by amylosucrase on Sucrose
+  equation: Sucrose + H2O = D-Glucose + D-Fructose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Sucrose
+  products:
+  - species_id: product_D-Fructose
+  - species_id: product_D-Glucose
+  modifiers:
+  - species_id: protein_3_2_1_26_Q43866_p67509
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R00801
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:88300; CHEBI:42857;
+    CHEBI:41979; CHEBI:42802; CHEBI:10242; CHEBI:4167; CHEBI:12318; CHEBI:42043; CHEBI:15824;
+    CHEBI:17634; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:22386;
+    CHEBI:13352; CHEBI:48095; CHEBI:47424; CHEBI:17992; CHEBI:43228; CHEBI:44292;
+    CHEBI:37721; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:4119; CHEBI:40557;
+    CHEBI:17925; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00267; KEGG:C00089; KEGG:C00001; KEGG:C10906; KEGG:C00095; KEGG:C00031'
+- id: sabiork_15552_EC3_2_1_26_Arabidopsis_thaliana_Q43866_1-Kestose
+  name: Reaction catalyzed by beta-fructofuranosidase on 1-Kestose
+  equation: H2O + 1-Kestose = Sucrose + D-Fructose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_1-Kestose
+  products:
+  - species_id: product_Sucrose
+  - species_id: product_D-Fructose
+  modifiers:
+  - species_id: protein_3_2_1_26_Q43866_p67519
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:41979;
+    CHEBI:16885; CHEBI:42043; CHEBI:15824; CHEBI:33811; CHEBI:33813; CHEBI:27313;
+    CHEBI:15377; CHEBI:13352; CHEBI:48095; CHEBI:47424; CHEBI:17992; CHEBI:43228;
+    CHEBI:44292; CHEBI:37721; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:4119;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00001; KEGG:C00089; KEGG:C00095; KEGG:C10906'
+measurements:
+- id: measurement_3_2_1_26_Arabidopsis_thaliana_Q43866_Sucrose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 5.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_3_2_1_26_Arabidopsis_thaliana_Q43866_1-Kestose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 5.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_2_1_26_Arabidopsis_thaliana_Q43866_Sucrose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00035
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Sucrose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17873089'
+- id: 3_2_1_26_Arabidopsis_thaliana_Q43866_Sucrose_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 168600.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Sucrose
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 5.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17873089'
+- id: 3_2_1_26_Arabidopsis_thaliana_Q43866_Sucrose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 59.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Sucrose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17873089'
+- id: 3_2_1_26_Arabidopsis_thaliana_Q43866_1-Kestose_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 21.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1-Kestose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17873089'
+- id: 3_2_1_26_Arabidopsis_thaliana_Q43866_1-Kestose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.001
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1-Kestose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 5.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17873089'
+- id: 3_2_1_26_Arabidopsis_thaliana_Q43866_1-Kestose_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 21000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_1-Kestose
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 5.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17873089'
+buffer:
+  buffer: 50 mM sodium acetate, 0.02% (v/v) sodium azide
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 67509
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/17873089/
+  pubmed_id: '17873089'
+  doi: null
+name: Merged entry for Q43866 wildtype
+description: 'Merged from 2 files: SABIO_EC3.2.1.26_Arabidopsis_thaliana__Q43866_s_Sucrose.yaml,
+  SABIO_EC3.2.1.26_Arabidopsis_thaliana__Q43866_s_1-Kestose.yaml'

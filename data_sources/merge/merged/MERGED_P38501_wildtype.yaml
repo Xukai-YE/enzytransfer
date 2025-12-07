@@ -1,0 +1,1004 @@
+version: '2.0'
+created: '2025-11-20T13:39:54.939314'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_7_2_1_P38501_p8947
+  name: nitrite reductase (NO-forming)
+  ecnumber: 1.7.2.1
+  organism: Alcaligenes faecalis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P38501
+  wildtype_sequence: MAEQMQISRRTILAGAALAGALAPVLATTSAWGQGAVRKATAAEIAALPRQKVELVDPPFVHAHSQVAEGGPKVVEFTMVIEEKKIVIDDAGTEVHAMAFNGTVPGPLMVVHQDDYLELTLINPETNTLMHNIDFHAATGALGGGGLTEINPGEKTILRFKATKPGVFVYHCAPPGMVPWHVVSGMNGAIMVLPREGLHDGKGKALTYDKIYYVGEQDFYVPRDENGKYKKYEAPGDAYEDTVKVMRTLTPTHVVFNGAVGALTGDKAMTAAVGEKVLIVHSQANRDTRPHLIGGHGDYVWATGKFNTPPDVDQETWFIPGGAAGAAFYTFQQPGIYAYVNHNLIEAFELGAAAHFKVTGEWNDDLMTSVLAPSGT
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Nitric_oxide
+  name: Nitric oxide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Oxidized_pseudoazurin
+  name: Oxidized pseudoazurin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Reduced_pseudoazurin
+  name: Reduced pseudoazurin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Nitrite
+  name: Nitrite
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Nitrite
+  name: Nitrite
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Reduced_pseudoazurin
+  name: Reduced pseudoazurin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Nitric_oxide
+  name: Nitric oxide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Oxidized_pseudoazurin
+  name: Oxidized pseudoazurin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_6562_EC1_7_2_1_Alcaligenes_faecalis_P38501_Nitric_oxide
+  name: Reaction catalyzed by nitrite reductase (NO-forming) on Nitric oxide
+  equation: Nitrite + Reduced pseudoazurin + H+ = H2O + Nitric oxide + Oxidized pseudoazurin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Nitric_oxide
+  - species_id: substrate_Oxidized_pseudoazurin
+  products:
+  - species_id: product_Reduced_pseudoazurin
+  - species_id: product_Nitrite
+  modifiers:
+  - species_id: protein_1_7_2_1_P38501_p8947
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:16301;
+    CHEBI:41979; CHEBI:29234; CHEBI:13357; CHEBI:42043; CHEBI:24636; CHEBI:29233;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:5584; CHEBI:15377; CHEBI:7585; CHEBI:13352;
+    CHEBI:43228; CHEBI:44292; CHEBI:16480; CHEBI:33806; CHEBI:33396; CHEBI:10743;
+    CHEBI:29374; CHEBI:5585; CHEBI:14658; CHEBI:15378; CHEBI:25567; CHEBI:44396; CHEBI:10744;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00088; KEGG:C00533; KEGG:C00001; KEGG:C00080'
+- id: sabiork_6562_EC1_7_2_1_Alcaligenes_faecalis_P38501_Nitrite
+  name: Reaction catalyzed by nitrite reductase (NO-forming) on Nitrite
+  equation: Nitrite + Reduced pseudoazurin + H+ = H2O + Nitric oxide + Oxidized pseudoazurin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Nitrite
+  - species_id: substrate_Reduced_pseudoazurin
+  products:
+  - species_id: product_Nitric_oxide
+  - species_id: product_Oxidized_pseudoazurin
+  modifiers:
+  - species_id: protein_1_7_2_1_P38501_p8940
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:16301; CHEBI:42857;
+    CHEBI:41979; CHEBI:29234; CHEBI:13357; CHEBI:42043; CHEBI:24636; CHEBI:29233;
+    CHEBI:33811; CHEBI:5584; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:7585; CHEBI:13352;
+    CHEBI:43228; CHEBI:44292; CHEBI:16480; CHEBI:33806; CHEBI:33396; CHEBI:10743;
+    CHEBI:14658; CHEBI:5585; CHEBI:29374; CHEBI:15378; CHEBI:25567; CHEBI:44396; CHEBI:10744;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00533; KEGG:C00088; KEGG:C00080; KEGG:C00001'
+- id: sabiork_6562_EC1_7_2_1_Alcaligenes_faecalis_P38501_Nitrite
+  name: Reaction catalyzed by nitrite reductase (NO-forming) on Nitrite
+  equation: Nitrite + Reduced pseudoazurin + H+ = H2O + Nitric oxide + Oxidized pseudoazurin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Nitrite
+  - species_id: substrate_Reduced_pseudoazurin
+  products:
+  - species_id: product_Oxidized_pseudoazurin
+  - species_id: product_Nitric_oxide
+  modifiers:
+  - species_id: protein_1_7_2_1_P38501_p8935
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:16301;
+    CHEBI:41979; CHEBI:29234; CHEBI:13357; CHEBI:42043; CHEBI:24636; CHEBI:29233;
+    CHEBI:33811; CHEBI:5584; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:7585; CHEBI:13352;
+    CHEBI:43228; CHEBI:44292; CHEBI:16480; CHEBI:33806; CHEBI:33396; CHEBI:10743;
+    CHEBI:14658; CHEBI:5585; CHEBI:29374; CHEBI:15378; CHEBI:25567; CHEBI:44396; CHEBI:10744;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00533; KEGG:C00001; KEGG:C00088; KEGG:C00080'
+- id: sabiork_6562_EC1_7_2_1_Alcaligenes_faecalis_P38501_Nitrite
+  name: Reaction catalyzed by nitrite reductase (NO-forming) on Nitrite
+  equation: Nitrite + Reduced pseudoazurin + H+ = H2O + Nitric oxide + Oxidized pseudoazurin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Nitrite
+  - species_id: substrate_Reduced_pseudoazurin
+  products:
+  - species_id: product_Nitric_oxide
+  - species_id: product_Oxidized_pseudoazurin
+  modifiers:
+  - species_id: protein_1_7_2_1_P38501_p8944
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:16301;
+    CHEBI:41979; CHEBI:29234; CHEBI:13357; CHEBI:42043; CHEBI:24636; CHEBI:29233;
+    CHEBI:33811; CHEBI:5584; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:7585; CHEBI:13352;
+    CHEBI:43228; CHEBI:44292; CHEBI:16480; CHEBI:33806; CHEBI:33396; CHEBI:10743;
+    CHEBI:14658; CHEBI:5585; CHEBI:29374; CHEBI:15378; CHEBI:25567; CHEBI:44396; CHEBI:10744;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00533; KEGG:C00001; KEGG:C00088; KEGG:C00080'
+- id: sabiork_6562_EC1_7_2_1_Alcaligenes_faecalis_P38501_Nitric_oxide
+  name: Reaction catalyzed by nitrite reductase (NO-forming) on Nitric oxide
+  equation: Nitrite + Reduced pseudoazurin + H+ = H2O + Nitric oxide + Oxidized pseudoazurin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Nitric_oxide
+  - species_id: substrate_Oxidized_pseudoazurin
+  products:
+  - species_id: product_Nitrite
+  - species_id: product_Reduced_pseudoazurin
+  modifiers:
+  - species_id: protein_1_7_2_1_P38501_p8948
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:16301;
+    CHEBI:41979; CHEBI:29234; CHEBI:13357; CHEBI:42043; CHEBI:24636; CHEBI:29233;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:5584; CHEBI:15377; CHEBI:7585; CHEBI:13352;
+    CHEBI:43228; CHEBI:44292; CHEBI:16480; CHEBI:33806; CHEBI:33396; CHEBI:10743;
+    CHEBI:29374; CHEBI:5585; CHEBI:14658; CHEBI:15378; CHEBI:25567; CHEBI:44396; CHEBI:10744;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00088; KEGG:C00533; KEGG:C00001; KEGG:C00080'
+- id: sabiork_6562_EC1_7_2_1_Alcaligenes_faecalis_P38501_Nitrite
+  name: Reaction catalyzed by nitrite reductase (NO-forming) on Nitrite
+  equation: Nitrite + Reduced pseudoazurin + H+ = H2O + Nitric oxide + Oxidized pseudoazurin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Nitrite
+  - species_id: substrate_Reduced_pseudoazurin
+  products:
+  - species_id: product_Nitric_oxide
+  - species_id: product_Oxidized_pseudoazurin
+  modifiers:
+  - species_id: protein_1_7_2_1_P38501_p8941
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:16301; CHEBI:42857;
+    CHEBI:41979; CHEBI:29234; CHEBI:13357; CHEBI:42043; CHEBI:24636; CHEBI:29233;
+    CHEBI:33811; CHEBI:5584; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:7585; CHEBI:13352;
+    CHEBI:43228; CHEBI:44292; CHEBI:16480; CHEBI:33806; CHEBI:33396; CHEBI:10743;
+    CHEBI:14658; CHEBI:5585; CHEBI:29374; CHEBI:15378; CHEBI:25567; CHEBI:44396; CHEBI:10744;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00533; KEGG:C00088; KEGG:C00080; KEGG:C00001'
+- id: sabiork_6562_EC1_7_2_1_Alcaligenes_faecalis_P38501_Oxidized_pseudoazurin
+  name: Reaction catalyzed by nitrite reductase (NO-forming) on Oxidized pseudoazurin
+  equation: Nitrite + Reduced pseudoazurin + H+ = H2O + Nitric oxide + Oxidized pseudoazurin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxidized_pseudoazurin
+  - species_id: substrate_Nitric_oxide
+  products:
+  - species_id: product_Nitrite
+  - species_id: product_Reduced_pseudoazurin
+  modifiers:
+  - species_id: protein_1_7_2_1_P38501_p8945
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:16301;
+    CHEBI:41979; CHEBI:29234; CHEBI:13357; CHEBI:42043; CHEBI:24636; CHEBI:29233;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:5584; CHEBI:15377; CHEBI:7585; CHEBI:13352;
+    CHEBI:43228; CHEBI:44292; CHEBI:16480; CHEBI:33806; CHEBI:33396; CHEBI:10743;
+    CHEBI:29374; CHEBI:5585; CHEBI:14658; CHEBI:15378; CHEBI:25567; CHEBI:44396; CHEBI:10744;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00088; KEGG:C00533; KEGG:C00001; KEGG:C00080'
+- id: sabiork_6562_EC1_7_2_1_Alcaligenes_faecalis_P38501_Oxidized_pseudoazurin
+  name: Reaction catalyzed by nitrite reductase (NO-forming) on Oxidized pseudoazurin
+  equation: Nitrite + Reduced pseudoazurin + H+ = H2O + Nitric oxide + Oxidized pseudoazurin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Oxidized_pseudoazurin
+  - species_id: substrate_Nitric_oxide
+  products:
+  - species_id: product_Reduced_pseudoazurin
+  - species_id: product_Nitrite
+  modifiers:
+  - species_id: protein_1_7_2_1_P38501_p8946
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:16301;
+    CHEBI:41979; CHEBI:29234; CHEBI:13357; CHEBI:42043; CHEBI:24636; CHEBI:29233;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:5584; CHEBI:15377; CHEBI:7585; CHEBI:13352;
+    CHEBI:43228; CHEBI:44292; CHEBI:16480; CHEBI:33806; CHEBI:33396; CHEBI:10743;
+    CHEBI:29374; CHEBI:5585; CHEBI:14658; CHEBI:15378; CHEBI:25567; CHEBI:44396; CHEBI:10744;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00088; KEGG:C00533; KEGG:C00001; KEGG:C00080'
+- id: sabiork_6562_EC1_7_2_1_Alcaligenes_faecalis_P38501_Reduced_pseudoazurin
+  name: Reaction catalyzed by nitrite reductase (NO-forming) on Reduced pseudoazurin
+  equation: Nitrite + Reduced pseudoazurin + H+ = H2O + Nitric oxide + Oxidized pseudoazurin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Reduced_pseudoazurin
+  - species_id: substrate_Nitrite
+  products:
+  - species_id: product_Nitric_oxide
+  - species_id: product_Oxidized_pseudoazurin
+  modifiers:
+  - species_id: protein_1_7_2_1_P38501_p8936
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:16301;
+    CHEBI:41979; CHEBI:29234; CHEBI:13357; CHEBI:42043; CHEBI:24636; CHEBI:29233;
+    CHEBI:33811; CHEBI:5584; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:7585; CHEBI:13352;
+    CHEBI:43228; CHEBI:44292; CHEBI:16480; CHEBI:33806; CHEBI:33396; CHEBI:10743;
+    CHEBI:14658; CHEBI:5585; CHEBI:29374; CHEBI:15378; CHEBI:25567; CHEBI:44396; CHEBI:10744;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00533; KEGG:C00001; KEGG:C00088; KEGG:C00080'
+- id: sabiork_6562_EC1_7_2_1_Alcaligenes_faecalis_P38501_Reduced_pseudoazurin
+  name: Reaction catalyzed by nitrite reductase (NO-forming) on Reduced pseudoazurin
+  equation: Nitrite + Reduced pseudoazurin + H+ = H2O + Nitric oxide + Oxidized pseudoazurin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Reduced_pseudoazurin
+  - species_id: substrate_Nitrite
+  products:
+  - species_id: product_Oxidized_pseudoazurin
+  - species_id: product_Nitric_oxide
+  modifiers:
+  - species_id: protein_1_7_2_1_P38501_p8938
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:16301;
+    CHEBI:41979; CHEBI:29234; CHEBI:13357; CHEBI:42043; CHEBI:24636; CHEBI:29233;
+    CHEBI:33811; CHEBI:5584; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:7585; CHEBI:13352;
+    CHEBI:43228; CHEBI:44292; CHEBI:16480; CHEBI:33806; CHEBI:33396; CHEBI:10743;
+    CHEBI:14658; CHEBI:5585; CHEBI:29374; CHEBI:15378; CHEBI:25567; CHEBI:44396; CHEBI:10744;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00533; KEGG:C00001; KEGG:C00088; KEGG:C00080'
+- id: sabiork_6562_EC1_7_2_1_Alcaligenes_faecalis_P38501_Reduced_pseudoazurin
+  name: Reaction catalyzed by nitrite reductase (NO-forming) on Reduced pseudoazurin
+  equation: Nitrite + Reduced pseudoazurin + H+ = H2O + Nitric oxide + Oxidized pseudoazurin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Reduced_pseudoazurin
+  - species_id: substrate_Nitrite
+  products:
+  - species_id: product_Oxidized_pseudoazurin
+  - species_id: product_Nitric_oxide
+  modifiers:
+  - species_id: protein_1_7_2_1_P38501_p8937
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:16301;
+    CHEBI:41979; CHEBI:29234; CHEBI:13357; CHEBI:42043; CHEBI:24636; CHEBI:29233;
+    CHEBI:33811; CHEBI:5584; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:7585; CHEBI:13352;
+    CHEBI:43228; CHEBI:44292; CHEBI:16480; CHEBI:33806; CHEBI:33396; CHEBI:10743;
+    CHEBI:14658; CHEBI:5585; CHEBI:29374; CHEBI:15378; CHEBI:25567; CHEBI:44396; CHEBI:10744;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00533; KEGG:C00001; KEGG:C00088; KEGG:C00080'
+- id: sabiork_6562_EC1_7_2_1_Alcaligenes_faecalis_P38501_Reduced_pseudoazurin
+  name: Reaction catalyzed by nitrite reductase (NO-forming) on Reduced pseudoazurin
+  equation: Nitrite + Reduced pseudoazurin + H+ = H2O + Nitric oxide + Oxidized pseudoazurin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Reduced_pseudoazurin
+  - species_id: substrate_Nitrite
+  products:
+  - species_id: product_Nitric_oxide
+  - species_id: product_Oxidized_pseudoazurin
+  modifiers:
+  - species_id: protein_1_7_2_1_P38501_p8939
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:16301; CHEBI:42857;
+    CHEBI:41979; CHEBI:29234; CHEBI:13357; CHEBI:42043; CHEBI:24636; CHEBI:29233;
+    CHEBI:33811; CHEBI:5584; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:7585; CHEBI:13352;
+    CHEBI:43228; CHEBI:44292; CHEBI:16480; CHEBI:33806; CHEBI:33396; CHEBI:10743;
+    CHEBI:14658; CHEBI:5585; CHEBI:29374; CHEBI:15378; CHEBI:25567; CHEBI:44396; CHEBI:10744;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00533; KEGG:C00088; KEGG:C00080; KEGG:C00001'
+- id: sabiork_6562_EC1_7_2_1_Alcaligenes_faecalis_P38501_Reduced_pseudoazurin
+  name: Reaction catalyzed by nitrite reductase (NO-forming) on Reduced pseudoazurin
+  equation: Nitrite + Reduced pseudoazurin + H+ = H2O + Nitric oxide + Oxidized pseudoazurin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Reduced_pseudoazurin
+  - species_id: substrate_Nitrite
+  products:
+  - species_id: product_Nitric_oxide
+  - species_id: product_Oxidized_pseudoazurin
+  modifiers:
+  - species_id: protein_1_7_2_1_P38501_p8942
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:16301; CHEBI:42857;
+    CHEBI:41979; CHEBI:29234; CHEBI:13357; CHEBI:42043; CHEBI:24636; CHEBI:29233;
+    CHEBI:33811; CHEBI:5584; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:7585; CHEBI:13352;
+    CHEBI:43228; CHEBI:44292; CHEBI:16480; CHEBI:33806; CHEBI:33396; CHEBI:10743;
+    CHEBI:14658; CHEBI:5585; CHEBI:29374; CHEBI:15378; CHEBI:25567; CHEBI:44396; CHEBI:10744;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00533; KEGG:C00088; KEGG:C00080; KEGG:C00001'
+- id: sabiork_6562_EC1_7_2_1_Alcaligenes_faecalis_P38501_Reduced_pseudoazurin
+  name: Reaction catalyzed by nitrite reductase (NO-forming) on Reduced pseudoazurin
+  equation: Nitrite + Reduced pseudoazurin + H+ = H2O + Nitric oxide + Oxidized pseudoazurin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Reduced_pseudoazurin
+  - species_id: substrate_Nitrite
+  products:
+  - species_id: product_Nitric_oxide
+  - species_id: product_Oxidized_pseudoazurin
+  modifiers:
+  - species_id: protein_1_7_2_1_P38501_p8943
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:42857; CHEBI:16301;
+    CHEBI:41979; CHEBI:29234; CHEBI:13357; CHEBI:42043; CHEBI:24636; CHEBI:29233;
+    CHEBI:33811; CHEBI:5584; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:7585; CHEBI:13352;
+    CHEBI:43228; CHEBI:44292; CHEBI:16480; CHEBI:33806; CHEBI:33396; CHEBI:10743;
+    CHEBI:14658; CHEBI:5585; CHEBI:29374; CHEBI:15378; CHEBI:25567; CHEBI:44396; CHEBI:10744;
+    CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00533; KEGG:C00001; KEGG:C00088; KEGG:C00080'
+measurements:
+- id: measurement_1_7_2_1_Alcaligenes_faecalis_P38501_Nitric_oxide
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_7_2_1_Alcaligenes_faecalis_P38501_Nitrite
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_7_2_1_Alcaligenes_faecalis_P38501_Nitrite
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_7_2_1_Alcaligenes_faecalis_P38501_Nitrite
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_7_2_1_Alcaligenes_faecalis_P38501_Nitric_oxide
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_7_2_1_Alcaligenes_faecalis_P38501_Nitrite
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_7_2_1_Alcaligenes_faecalis_P38501_Oxidized_pseudoazurin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_7_2_1_Alcaligenes_faecalis_P38501_Oxidized_pseudoazurin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_7_2_1_Alcaligenes_faecalis_P38501_Reduced_pseudoazurin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_7_2_1_Alcaligenes_faecalis_P38501_Reduced_pseudoazurin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_7_2_1_Alcaligenes_faecalis_P38501_Reduced_pseudoazurin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_7_2_1_Alcaligenes_faecalis_P38501_Reduced_pseudoazurin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_7_2_1_Alcaligenes_faecalis_P38501_Reduced_pseudoazurin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_7_2_1_Alcaligenes_faecalis_P38501_Reduced_pseudoazurin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_7_2_1_Alcaligenes_faecalis_P38501_Nitric_oxide_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.5e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Nitric_oxide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15301545'
+- id: 1_7_2_1_Alcaligenes_faecalis_P38501_Nitric_oxide_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 109.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Nitric_oxide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15301545'
+- id: 1_7_2_1_Alcaligenes_faecalis_P38501_Nitrite_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 392.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Nitrite
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15301545'
+- id: 1_7_2_1_Alcaligenes_faecalis_P38501_Nitrite_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.6e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Nitrite
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15301545'
+- id: 1_7_2_1_Alcaligenes_faecalis_P38501_Nitrite_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.7e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Nitrite
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15301545'
+- id: 1_7_2_1_Alcaligenes_faecalis_P38501_Nitrite_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1478.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Nitrite
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15301545'
+- id: 1_7_2_1_Alcaligenes_faecalis_P38501_Nitrite_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000221
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Nitrite
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15301545'
+- id: 1_7_2_1_Alcaligenes_faecalis_P38501_Nitrite_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 71.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Nitrite
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15301545'
+- id: 1_7_2_1_Alcaligenes_faecalis_P38501_Nitric_oxide_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 125.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Nitric_oxide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15301545'
+- id: 1_7_2_1_Alcaligenes_faecalis_P38501_Nitric_oxide_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.5e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Nitric_oxide
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15301545'
+- id: 1_7_2_1_Alcaligenes_faecalis_P38501_Nitrite_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 219.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Nitrite
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15301545'
+- id: 1_7_2_1_Alcaligenes_faecalis_P38501_Nitrite_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 6.8e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Nitrite
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15301545'
+- id: 1_7_2_1_Alcaligenes_faecalis_P38501_Oxidized_pseudoazurin_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 38.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_pseudoazurin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15301545'
+- id: 1_7_2_1_Alcaligenes_faecalis_P38501_Oxidized_pseudoazurin_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 64.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Oxidized_pseudoazurin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15301545'
+- id: 1_7_2_1_Alcaligenes_faecalis_P38501_Reduced_pseudoazurin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.9e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Reduced_pseudoazurin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15301545'
+- id: 1_7_2_1_Alcaligenes_faecalis_P38501_Reduced_pseudoazurin_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1478.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Reduced_pseudoazurin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15301545'
+- id: 1_7_2_1_Alcaligenes_faecalis_P38501_Reduced_pseudoazurin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 7.7e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Reduced_pseudoazurin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15301545'
+- id: 1_7_2_1_Alcaligenes_faecalis_P38501_Reduced_pseudoazurin_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1046.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Reduced_pseudoazurin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15301545'
+- id: 1_7_2_1_Alcaligenes_faecalis_P38501_Reduced_pseudoazurin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.3e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Reduced_pseudoazurin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15301545'
+- id: 1_7_2_1_Alcaligenes_faecalis_P38501_Reduced_pseudoazurin_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 1046.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Reduced_pseudoazurin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15301545'
+- id: 1_7_2_1_Alcaligenes_faecalis_P38501_Reduced_pseudoazurin_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 392.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Reduced_pseudoazurin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15301545'
+- id: 1_7_2_1_Alcaligenes_faecalis_P38501_Reduced_pseudoazurin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000102
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Reduced_pseudoazurin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15301545'
+- id: 1_7_2_1_Alcaligenes_faecalis_P38501_Reduced_pseudoazurin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000156
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Reduced_pseudoazurin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15301545'
+- id: 1_7_2_1_Alcaligenes_faecalis_P38501_Reduced_pseudoazurin_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 219.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Reduced_pseudoazurin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15301545'
+- id: 1_7_2_1_Alcaligenes_faecalis_P38501_Reduced_pseudoazurin_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 8.5e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Reduced_pseudoazurin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15301545'
+- id: 1_7_2_1_Alcaligenes_faecalis_P38501_Reduced_pseudoazurin_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 71.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Reduced_pseudoazurin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 8.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15301545'
+buffer:
+  buffer: 100 mM Mes/Hepes-NaOH
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 8947
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15301545/
+  pubmed_id: '15301545'
+  doi: null
+name: Merged entry for P38501 wildtype
+description: 'Merged from 14 files: SABIO_EC1.7.2.1_Alcaligenes_faecalis__P38501_s_Nitric.yaml,
+  SABIO_EC1.7.2.1_Alcaligenes_faecalis__P38501_s_Nitrite_2.yaml, SABIO_EC1.7.2.1_Alcaligenes_faecalis__P38501_s_Nitrite.yaml,
+  SABIO_EC1.7.2.1_Alcaligenes_faecalis__P38501_s_Nitrite_4.yaml, SABIO_EC1.7.2.1_Alcaligenes_faecalis__P38501_s_Nitric_2.yaml,
+  SABIO_EC1.7.2.1_Alcaligenes_faecalis__P38501_s_Nitrite_3.yaml, SABIO_EC1.7.2.1_Alcaligenes_faecalis__P38501_s_Oxidized.yaml,
+  SABIO_EC1.7.2.1_Alcaligenes_faecalis__P38501_s_Oxidized_2.yaml, SABIO_EC1.7.2.1_Alcaligenes_faecalis__P38501_s_Reduced.yaml,
+  SABIO_EC1.7.2.1_Alcaligenes_faecalis__P38501_s_Reduced_3.yaml, SABIO_EC1.7.2.1_Alcaligenes_faecalis__P38501_s_Reduced_2.yaml,
+  SABIO_EC1.7.2.1_Alcaligenes_faecalis__P38501_s_Reduced_4.yaml, SABIO_EC1.7.2.1_Alcaligenes_faecalis__P38501_s_Reduced_5.yaml,
+  SABIO_EC1.7.2.1_Alcaligenes_faecalis__P38501_s_Reduced_6.yaml'

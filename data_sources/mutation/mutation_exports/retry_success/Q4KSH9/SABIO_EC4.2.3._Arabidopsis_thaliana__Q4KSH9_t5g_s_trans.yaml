@@ -1,0 +1,171 @@
+name: SABIO-RK Entry 44161
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 44161
+created: '2025-10-28T15:29:56.706151'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_4_2_3__Q4KSH9_p44161
+  name: Acting on phosphates
+  sequence: null
+  ecnumber: 4.2.3.
+  organism: Arabidopsis thaliana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: t5g
+  uniprotid: Q4KSH9
+  mutant_sequence: MEALGNFDYESYGNFTKLPSSQWGDQFLKFSIADSDFDVLEREIEVLKPKVRENIFVSSSTDKDAMKKTILSIHFLDSLGLSYHFEKEIEESLKHAFEKIEDLIADENKLHTISTIFRVFRTYGYYMSSDVFKIFKGDDGKFKESLIEDVKGMLSFYEAVHFGTTTDHILDEALSFTLNHLESLATGRRASPPHISKLIQNALHIPQHRNIQALVAREYISFYEHEEDHDETLLKLAKLNFKFLQLHYFQELKTITMWWTKLDHTSNLPPNFRERTVETWFAALMMYFEPQFSLGRIMSAKLYLVITFLDDACDTYGSISEVESLADCLERWDPDYMENLQGHMKTAFKFVMYLFKEYEEILRSQGRSFVLEKMIEEFKIIARKNLELVKWARGGHVPSFDEYIESGGAEIGTYATIACSIMGLGEIGKKEAFEWLISRPKLVRILGAKTRLMDDIADFEEDMEKGYTANALNYYMNEHGVTKEEASRELEKMNGDMNKIVNEECLKITTMPRRILMQSVNYARSLDVLYTADDVYNHREGKLKEYMRLLLVDPILL
+  position_offset: 8
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_trans
+  name: trans
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_trans-Farnesyl_diphosphate
+  name: trans-Farnesyl diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mg2_
+  name: Mg2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mn2_
+  name: Mn2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Unknown
+  name: Unknown
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_12866_EC4_2_3__Arabidopsis_thaliana_Q4KSH9_trans
+  name: Reaction catalyzed by Acting on phosphates on trans
+  equation: trans,trans-Farnesyl diphosphate = Unknown + Diphosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_trans
+  - species_id: substrate_trans-Farnesyl_diphosphate
+  - species_id: cofactor_Mg2_
+  - species_id: cofactor_Mn2_
+  products:
+  - species_id: product_Unknown
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_4_2_3__Q4KSH9_p44161
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29035; CHEBI:8683; CHEBI:13379; CHEBI:19789; CHEBI:6635;
+    CHEBI:10700; CHEBI:49749; CHEBI:33019; CHEBI:45067; CHEBI:12854; CHEBI:29888;
+    CHEBI:35782; CHEBI:25156; CHEBI:49736; CHEBI:13420; CHEBI:18361; CHEBI:33017;
+    CHEBI:175763; CHEBI:11488; CHEBI:45208; CHEBI:50277; CHEBI:12874; CHEBI:18420;
+    CHEBI:42496; CHEBI:24016; CHEBI:11491; CHEBI:14231; CHEBI:25112; CHEBI:17407;
+    CHEBI:45212; CHEBI:42009; CHEBI:39127; CHEBI:21435; CHEBI:33018
+
+    KEGG IDs: KEGG:C00013; KEGG:C00448; KEGG:C00305; KEGG:C00034; KEGG:C19610'
+measurements:
+- id: measurement_4_2_3__Arabidopsis_thaliana_Q4KSH9_trans
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 4_2_3__Arabidopsis_thaliana_Q4KSH9_trans_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.2e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_trans
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15918888'
+buffer:
+  buffer: 10 mM 3-(N-Morpholino)-2-hydroxypropanesulfonic acid, 10% (v/v) Glycerol,
+    1 mM DTT, 0.2 mM NaWO4, 0.1 mM NaF
+  buffer_concentration: 10 mM
+references:
+- title: Reference for SABIO-RK entry 44161
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15918888/
+  pubmed_id: '15918888'
+  doi: null

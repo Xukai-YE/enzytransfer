@@ -1,0 +1,214 @@
+version: '2.0'
+created: '2025-11-20T13:39:56.077988'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_8_3_4_Q13228_p74414
+  name: methanethiol oxidase
+  ecnumber: 1.8.3.4
+  organism: Homo sapiens
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q13228
+  wildtype_sequence: MATKCGNCGPGYSTPLEAMKGPREEIVYLPCIYRNTGTEAPDYLATVDVDPKSPQYCQVIHRLPMPNLKDELHHSGWNTCSSCFGDSTKSRTKLVLPSLISSRIYVVDVGSEPRAPKLHKVIEPKDIHAKCELAFLHTSHCLASGEVMISSLGDVKGNGKGGFVLLDGETFEVKGTWERPGGAAPLGYDFWYQPRHNVMISTEWAAPNVLRDGFNPADVEAGLYGSHLYVWDWQRHEIVQTLSLKDGLIPLEIRFLHNPDAAQGFVGCALSSTIQRFYKNEGGTWSVEKVIQVPPKKVKGWLLPEMPGLITDILLSLDDRFLYFSNWLHGDLRQYDISDPQRPRLTGQLFLGGSIVKGGPVQVLEDEELKSQPEPLVVKGKRVAGGPQMIQLSLDGKRLYITTSLYSAWDKQFYPDLIREGSVMLQVDVDTVKGGLKLNPNFLVDFGKEPLGPALAHELRYPGGDCSSDIWI
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Methanethiol
+  name: Methanethiol
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Hydrogen_sulfide
+  name: Hydrogen sulfide
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Formaldehyde
+  name: Formaldehyde
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1926_EC1_8_3_4_Homo_sapiens_Q13228_Methanethiol
+  name: Reaction catalyzed by methanethiol oxidase on Methanethiol
+  equation: H2O + Methanethiol + O2 = H2O2 + Hydrogen sulfide + Formaldehyde
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Methanethiol
+  - species_id: substrate_O2
+  products:
+  - species_id: product_Hydrogen_sulfide
+  - species_id: product_Formaldehyde
+  modifiers:
+  - species_id: protein_1_8_3_4_Q13228_p74414
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01851
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:13354; CHEBI:41981;
+    CHEBI:29192; CHEBI:24637; CHEBI:43058; CHEBI:5142; CHEBI:25225; CHEBI:16842; CHEBI:26689;
+    CHEBI:30488; CHEBI:14586; CHEBI:16007; CHEBI:42857; CHEBI:41979; CHEBI:16240;
+    CHEBI:6814; CHEBI:23833; CHEBI:24077; CHEBI:13416; CHEBI:13355; CHEBI:42043; CHEBI:5787;
+    CHEBI:337763; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352;
+    CHEBI:15379; CHEBI:13356; CHEBI:24639; CHEBI:29919; CHEBI:14414; CHEBI:43228;
+    CHEBI:44292; CHEBI:30491; CHEBI:33806; CHEBI:14274; CHEBI:25366; CHEBI:44742;
+    CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:44812; CHEBI:29793; CHEBI:45489; CHEBI:7860;
+    CHEBI:16136; CHEBI:10745; CHEBI:5586; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00409; KEGG:C00001; KEGG:C00027; KEGG:C00704; KEGG:C00283; KEGG:C00007;
+    KEGG:C00067'
+- id: sabiork_1926_EC1_8_3_4_Homo_sapiens_Q13228_O2
+  name: Reaction catalyzed by methanethiol oxidase on O2
+  equation: H2O + Methanethiol + O2 = H2O2 + Hydrogen sulfide + Formaldehyde
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_Methanethiol
+  products:
+  - species_id: product_Formaldehyde
+  - species_id: product_Hydrogen_sulfide
+  modifiers:
+  - species_id: protein_1_8_3_4_Q13228_p74413
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01851
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:13354; CHEBI:41981;
+    CHEBI:5142; CHEBI:29192; CHEBI:43058; CHEBI:24637; CHEBI:25225; CHEBI:16842; CHEBI:26689;
+    CHEBI:30488; CHEBI:42857; CHEBI:16007; CHEBI:41979; CHEBI:14586; CHEBI:16240;
+    CHEBI:6814; CHEBI:23833; CHEBI:24077; CHEBI:13416; CHEBI:13355; CHEBI:42043; CHEBI:5787;
+    CHEBI:337763; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352;
+    CHEBI:15379; CHEBI:13356; CHEBI:24639; CHEBI:29919; CHEBI:14414; CHEBI:43228;
+    CHEBI:44292; CHEBI:30491; CHEBI:33806; CHEBI:14274; CHEBI:25366; CHEBI:44742;
+    CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:44812; CHEBI:29793; CHEBI:45489; CHEBI:7860;
+    CHEBI:16136; CHEBI:10745; CHEBI:5586; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00409; KEGG:C00001; KEGG:C00027; KEGG:C00704; KEGG:C00283; KEGG:C00007;
+    KEGG:C00067'
+measurements:
+- id: measurement_1_8_3_4_Homo_sapiens_Q13228_Methanethiol
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: null
+  temperature_opt: 35.0
+  temperature_unit: °C
+- id: measurement_1_8_3_4_Homo_sapiens_Q13228_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: null
+  temperature_opt: 35.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_8_3_4_Homo_sapiens_Q13228_Methanethiol_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.7e-09
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Methanethiol
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 35.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29255262'
+- id: 1_8_3_4_Homo_sapiens_Q13228_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.9e-09
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 35.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29255262'
+buffer:
+  buffer: PBS, 0.2 mM Zn, 0.3 mg/ml BSA
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 74414
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/29255262/
+  pubmed_id: '29255262'
+  doi: null
+name: Merged entry for Q13228 wildtype
+description: 'Merged from 2 files: SABIO_EC1.8.3.4_Homo_sapiens__Q13228_s_Methanethiol.yaml,
+  SABIO_EC1.8.3.4_Homo_sapiens__Q13228_s_O2.yaml'

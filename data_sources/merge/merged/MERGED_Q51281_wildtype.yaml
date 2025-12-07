@@ -1,0 +1,222 @@
+version: '2.0'
+created: '2025-11-20T13:40:15.639691'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_4_99_8_Q51281_p45765
+  name: alpha-N-acetylneuraminate alpha-2,8-sialyltransferase
+  ecnumber: 2.4.99.8
+  organism: Neisseria meningitidis
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q51281
+  wildtype_sequence: MLKKIKKALFQPKKFFQDSMWLTTSPFYLTPPRNNLFVISNLGQLNQVQSLIKIQKLTNNLLVILYTSKNLKMPKLVHQSANKNLFESIYLFELPRSPNNITPKKLLYIYRSYKKILNIIQPAHLYMLSFTGHYSYLISIAKKKNITTHLIDEGTGTYAPLLESFSYHPTKLERYLIGNNLNIKGYIDHFDILHVPFPEYAKKIFNAKKYNRFFAHAGGISINNNIANLQKKYQISKNDYIFVSQRYPISDDLYYKSIVEILNSISLQIKGKIFIKLHPKEMGNNYVMSLFLNMVEINPRLVVINEPPFLIEPLIYLTNPKGIIGLASSSLIYTPLLSPSTQCLSIGELIINLIQKYSMVENTEMIQEHLEIIKKFNFINILNDLNGVISNPLFKTEETFETLLKSAEFAYKSKNYFQAIFYWQLASKNNITLLGHKALWYYNALYNVKQIYKMEYSDIFYIDNISVDFHSKDKLTWEKIKHYYYSADNRIGRDR
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_CMP-N-acetylneuraminate
+  name: CMP-N-acetylneuraminate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Colominic_acid_non-reducing_N-_or_O-acylneuraminyl_residue_
+  name: Colominic acid(non-reducing N- or O-acylneuraminyl residue)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Unknown
+  name: Unknown
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_CMP
+  name: CMP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_13017_EC2_4_99_8_Neisseria_meningitidis_Q51281_CMP-N-acetylneuraminate
+  name: Reaction catalyzed by alpha-N-acetylneuraminate alpha-2,8-sialyltransferase
+    on CMP-N-acetylneuraminate
+  equation: CMP-N-acetylneuraminate + Colominic acid(non-reducing N- or O-acylneuraminyl
+    residue) = Unknown + CMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_CMP-N-acetylneuraminate
+  - species_id: substrate_Colominic_acid_non-reducing_N-_or_O-acylneuraminyl_residue_
+  products:
+  - species_id: product_Unknown
+  - species_id: product_CMP
+  modifiers:
+  - species_id: protein_2_4_99_8_Q51281_p45765
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:13274; CHEBI:58120; CHEBI:41666; CHEBI:41319; CHEBI:16556;
+    CHEBI:47362; CHEBI:41691; CHEBI:41312; CHEBI:17361; CHEBI:60377; CHEBI:23520;
+    CHEBI:50308; CHEBI:3275; CHEBI:48799
+
+    KEGG IDs: KEGG:C00128; KEGG:C04799; KEGG:C00055'
+- id: sabiork_13017_EC2_4_99_8_Neisseria_meningitidis_Q51281_Colominic_acid_non-reducing_N-_or_O-acylneuraminyl_residue_
+  name: Reaction catalyzed by alpha-N-acetylneuraminate alpha-2,8-sialyltransferase
+    on Colominic acid(non-reducing N- or O-acylneuraminyl residue)
+  equation: CMP-N-acetylneuraminate + Colominic acid(non-reducing N- or O-acylneuraminyl
+    residue) = Unknown + CMP
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Colominic_acid_non-reducing_N-_or_O-acylneuraminyl_residue_
+  - species_id: substrate_CMP-N-acetylneuraminate
+  products:
+  - species_id: product_Unknown
+  - species_id: product_CMP
+  modifiers:
+  - species_id: protein_2_4_99_8_Q51281_p45768
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:13274; CHEBI:58120; CHEBI:41666; CHEBI:41319; CHEBI:16556;
+    CHEBI:47362; CHEBI:41691; CHEBI:41312; CHEBI:17361; CHEBI:60377; CHEBI:23520;
+    CHEBI:50308; CHEBI:3275; CHEBI:48799
+
+    KEGG IDs: KEGG:C00128; KEGG:C04799; KEGG:C00055'
+measurements:
+- id: measurement_2_4_99_8_Neisseria_meningitidis_Q51281_CMP-N-acetylneuraminate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+- id: measurement_2_4_99_8_Neisseria_meningitidis_Q51281_Colominic_acid_non-reducing_N-_or_O-acylneuraminyl_residue_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_4_99_8_Neisseria_meningitidis_Q51281_CMP-N-acetylneuraminate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.00043
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CMP-N-acetylneuraminate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17662040'
+- id: 2_4_99_8_Neisseria_meningitidis_Q51281_CMP-N-acetylneuraminate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00042
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_CMP-N-acetylneuraminate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17662040'
+- id: 2_4_99_8_Neisseria_meningitidis_Q51281_Colominic_acid_non-reducing_N-_or_O-acylneuraminyl_residue__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00063
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Colominic_acid_non-reducing_N-_or_O-acylneuraminyl_residue_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '17662040'
+buffer:
+  buffer: 100 mM Tris, 56 mM KCl, 14 mM MgSO4, 0.13 mM NADH, 1 mM PEP, 1.5 mM ATP,
+    16.5 U/ml Pyruvate kinase, 23.5 U/ml Lactate dehydrogenase, 0.5 U/ml Nucleotide
+    monophosphate kinase
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 45765
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/17662040/
+  pubmed_id: '17662040'
+  doi: null
+name: Merged entry for Q51281 wildtype
+description: 'Merged from 2 files: SABIO_EC2.4.99.8_Neisseria_meningitidis__Q51281_s_CMP-N-acetylneuramin.yaml,
+  SABIO_EC2.4.99.8_Neisseria_meningitidis__Q51281_s_Colominic.yaml'

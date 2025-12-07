@@ -1,0 +1,348 @@
+version: '2.0'
+created: '2025-11-20T13:40:13.759002'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_4_2_18_P07285_p76307
+  name: anthranilate phosphoribosyltransferase
+  ecnumber: 2.4.2.18
+  organism: Saccharomyces cerevisiae
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P07285
+  wildtype_sequence: MSEATLLSYTKKLLASPPQLSSTDLHDALLVILSLLQKCDTNSDESLSIYTKVSSFLTALRVTKLDHKAEYIAEAAKAVLRHSDLVDLPLPKKDELHPEDGPVILDIVGTGGDGQNTFNVSTSAAIVASGIQGLKICKHGGKASTSNSGAGDLIGTLGCDMFKVNSSTVPKLWPDNTFMFLLAPFFHHGMGHVSKIRKFLGIPTVFNVLGPLLHPVSHVNKRILGVYSKELAPEYAKAAALVYPGSETFIVWGHVGLDEVSPIGKTTVWHIDPTSSELKLKTFQLEPSMFGLEEHELSKCASYGPKENARILKEEVLSGKYHLGDNNPIYDYILMNTAVLYCLSQGHQNWKEGIIKAEESIHSGNALRSLEHFIDSVSSL
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_5-Phospho-alpha-D-ribose_1-diphosphate
+  name: 5-Phospho-alpha-D-ribose 1-diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Anthranilate
+  name: Anthranilate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N-_5-Phospho-D-ribosyl_anthranilate
+  name: N-(5-Phospho-D-ribosyl)anthranilate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Diphosphate
+  name: Diphosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Mg2_
+  name: Mg2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1341_EC2_4_2_18_Saccharomyces_cerevisiae_P07285_5-Phospho-alpha-D-ribose_1-diphosphate
+  name: Reaction catalyzed by anthranilate phosphoribosyltransferase on 5-Phospho-alpha-D-ribose
+    1-diphosphate
+  equation: Diphosphate + N-(5-Phospho-D-ribosyl)anthranilate = 5-Phospho-alpha-D-ribose
+    1-diphosphate + Anthranilate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_5-Phospho-alpha-D-ribose_1-diphosphate
+  - species_id: substrate_Anthranilate
+  products:
+  - species_id: product_N-_5-Phospho-D-ribosyl_anthranilate
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_2_4_2_18_P07285_p76307
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 11768;11769;11770;11771
+  KEGGid: R01073
+  notes: 'ChEBI IDs: CHEBI:8683; CHEBI:12431; CHEBI:22578; CHEBI:21488; CHEBI:33019;
+    CHEBI:17111; CHEBI:16567; CHEBI:45067; CHEBI:12160; CHEBI:12159; CHEBI:29888;
+    CHEBI:18277; CHEBI:40980; CHEBI:45139; CHEBI:35782; CHEBI:22575; CHEBI:22577;
+    CHEBI:13420; CHEBI:12432; CHEBI:18361; CHEBI:2757; CHEBI:33017; CHEBI:2121; CHEBI:45208;
+    CHEBI:30754; CHEBI:20625; CHEBI:21472; CHEBI:58017; CHEBI:45212; CHEBI:42009;
+    CHEBI:13841; CHEBI:7091; CHEBI:33018
+
+    KEGG IDs: KEGG:C00119; KEGG:C00108; KEGG:C04302; KEGG:C00013'
+- id: sabiork_1341_EC2_4_2_18_Saccharomyces_cerevisiae_P07285_Anthranilate
+  name: Reaction catalyzed by anthranilate phosphoribosyltransferase on Anthranilate
+  equation: Diphosphate + N-(5-Phospho-D-ribosyl)anthranilate = 5-Phospho-alpha-D-ribose
+    1-diphosphate + Anthranilate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Anthranilate
+  - species_id: substrate_5-Phospho-alpha-D-ribose_1-diphosphate
+  - species_id: cofactor_Mg2_
+  products:
+  - species_id: product_N-_5-Phospho-D-ribosyl_anthranilate
+  - species_id: product_Diphosphate
+  modifiers:
+  - species_id: protein_2_4_2_18_P07285_p76305
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 11768;11769;11770;11771
+  KEGGid: R01073
+  notes: 'ChEBI IDs: CHEBI:8683; CHEBI:13379; CHEBI:12431; CHEBI:22578; CHEBI:21488;
+    CHEBI:6635; CHEBI:39127; CHEBI:33019; CHEBI:17111; CHEBI:16567; CHEBI:45067; CHEBI:12160;
+    CHEBI:12159; CHEBI:29888; CHEBI:18277; CHEBI:40980; CHEBI:45139; CHEBI:35782;
+    CHEBI:22575; CHEBI:22577; CHEBI:49736; CHEBI:13420; CHEBI:12432; CHEBI:18361;
+    CHEBI:2757; CHEBI:33017; CHEBI:2121; CHEBI:45208; CHEBI:30754; CHEBI:18420; CHEBI:20625;
+    CHEBI:21472; CHEBI:25112; CHEBI:58017; CHEBI:45212; CHEBI:42009; CHEBI:13841;
+    CHEBI:7091; CHEBI:33018
+
+    KEGG IDs: KEGG:C00108; KEGG:C00013; KEGG:C00305; KEGG:C00119; KEGG:C04302'
+- id: sabiork_1341_EC2_4_2_18_Saccharomyces_cerevisiae_P07285_Anthranilate
+  name: Reaction catalyzed by anthranilate phosphoribosyltransferase on Anthranilate
+  equation: Diphosphate + N-(5-Phospho-D-ribosyl)anthranilate = 5-Phospho-alpha-D-ribose
+    1-diphosphate + Anthranilate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Anthranilate
+  - species_id: substrate_5-Phospho-alpha-D-ribose_1-diphosphate
+  products:
+  - species_id: product_Diphosphate
+  - species_id: product_N-_5-Phospho-D-ribosyl_anthranilate
+  modifiers:
+  - species_id: protein_2_4_2_18_P07285_p76306
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 11768;11769;11770;11771
+  KEGGid: R01073
+  notes: 'ChEBI IDs: CHEBI:8683; CHEBI:12431; CHEBI:22578; CHEBI:21488; CHEBI:33019;
+    CHEBI:17111; CHEBI:16567; CHEBI:45067; CHEBI:12160; CHEBI:12159; CHEBI:29888;
+    CHEBI:18277; CHEBI:40980; CHEBI:45139; CHEBI:35782; CHEBI:22575; CHEBI:22577;
+    CHEBI:13420; CHEBI:18361; CHEBI:12432; CHEBI:2757; CHEBI:33017; CHEBI:2121; CHEBI:45208;
+    CHEBI:30754; CHEBI:20625; CHEBI:21472; CHEBI:58017; CHEBI:45212; CHEBI:42009;
+    CHEBI:13841; CHEBI:7091; CHEBI:33018
+
+    KEGG IDs: KEGG:C00119; KEGG:C00108; KEGG:C04302; KEGG:C00013'
+measurements:
+- id: measurement_2_4_2_18_Saccharomyces_cerevisiae_P07285_5-Phospho-alpha-D-ribose_1-diphosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_4_2_18_Saccharomyces_cerevisiae_P07285_Anthranilate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_2_4_2_18_Saccharomyces_cerevisiae_P07285_Anthranilate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_4_2_18_Saccharomyces_cerevisiae_P07285_5-Phospho-alpha-D-ribose_1-diphosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.24e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_5-Phospho-alpha-D-ribose_1-diphosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2651124'
+- id: 2_4_2_18_Saccharomyces_cerevisiae_P07285_5-Phospho-alpha-D-ribose_1-diphosphate_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.6e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_5-Phospho-alpha-D-ribose_1-diphosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2651124'
+- id: 2_4_2_18_Saccharomyces_cerevisiae_P07285_5-Phospho-alpha-D-ribose_1-diphosphate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2.9
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_5-Phospho-alpha-D-ribose_1-diphosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2651124'
+- id: 2_4_2_18_Saccharomyces_cerevisiae_P07285_Anthranilate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.56e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Anthranilate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2651124'
+- id: 2_4_2_18_Saccharomyces_cerevisiae_P07285_Anthranilate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: Ms-1
+  initial_value: 6.833333e-09
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Anthranilate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2651124'
+- id: 2_4_2_18_Saccharomyces_cerevisiae_P07285_Anthranilate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.24e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Anthranilate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2651124'
+- id: 2_4_2_18_Saccharomyces_cerevisiae_P07285_Anthranilate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 2.9
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Anthranilate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2651124'
+- id: 2_4_2_18_Saccharomyces_cerevisiae_P07285_Anthranilate_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.6e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Anthranilate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '2651124'
+buffer:
+  buffer: 50 mM Tris-HCl, 2 mM DTT, 4 mM K2MgEDTA; 50 mM Tris-HCl, 2 mM DTT
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 76307
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/2651124/
+  pubmed_id: '2651124'
+  doi: null
+name: Merged entry for P07285 wildtype
+description: 'Merged from 3 files: SABIO_EC2.4.2.18_Saccharomyces_cerevisiae__P07285_s_5-Phospho-alpha-D-ri.yaml,
+  SABIO_EC2.4.2.18_Saccharomyces_cerevisiae__P07285_s_Anthranilate.yaml, SABIO_EC2.4.2.18_Saccharomyces_cerevisiae__P07285_s_Anthranilate_2.yaml'

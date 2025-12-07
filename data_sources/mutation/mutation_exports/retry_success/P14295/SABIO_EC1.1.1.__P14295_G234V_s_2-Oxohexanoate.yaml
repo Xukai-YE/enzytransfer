@@ -1,0 +1,167 @@
+name: SABIO-RK Entry 43783
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 43783
+created: '2025-10-28T15:28:58.051660'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1__P14295_p43783
+  name: With NAD(+) or NADP(+) as acceptor
+  ecnumber: 1.1.1.
+  organism: null
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: G234V
+  uniprotid: P14295
+  wildtype_sequence: MARKIGIIGLGNVGAAVAHGLIAQGVADDYVFIDANEAKVKADQIDFQDAMANLEAHGNIVINDWAALADADVVISTLGNIKLQQDNPTGDRFAELKFTSSMVQSVGTNLKESGFHGVLVVISNPVDVITALFQHVTGFPAHKVIGTGTLLDTARMQRAVGEAFDLDPRSVSGYNLGEHGNSQFVAWSTVRVMGQPIVTLADAGDIDLAAIEEEARKGGFTVLNGKGYTSYGVATSAIRIAKAVMADAHAELVVSNRRDDMGMYLSYPAIIGRDGVLAETTLDLTTDEQEKLLQSRDYIQQRFDEIVDTL
+  mutant_sequence: MARKIGIIGLGNVGAAVAHGLIAQGVADDYVFIDANEAKVKADQIDFQDAMANLEAHGNIVINDWAALADADVVISTLGNIKLQQDNPTGDRFAELKFTSSMVQSVGTNLKESGFHGVLVVISNPVDVITALFQHVTGFPAHKVIGTGTLLDTARMQRAVGEAFDLDPRSVSGYNLGEHGNSQFVAWSTVRVMGQPIVTLADAGDIDLAAIEEEARKGGFTVLNVKGYTSYGVATSAIRIAKAVMADAHAELVVSNRRDDMGMYLSYPAIIGRDGVLAETTLDLTTDEQEKLLQSRDYIQQRFDEIVDTL
+  position_offset: -9
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_2-Oxohexanoate
+  name: 2-Oxohexanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2-Hydroxyhexanoate
+  name: 2-Hydroxyhexanoate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_10363_EC1_1_1__P14295_2-Oxohexanoate
+  name: Reaction catalyzed by With NAD(+) or NADP(+) as acceptor on 2-Oxohexanoate
+  equation: 2-Oxohexanoate + NADH + H+ = 2-Hydroxyhexanoate + NAD+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2-Oxohexanoate
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_NAD_
+  - species_id: product_2-Hydroxyhexanoate
+  modifiers:
+  - species_id: protein_1_1_1__P14295_p43783
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:11640; CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846;
+    CHEBI:13357; CHEBI:35177; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636;
+    CHEBI:44214; CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:57945; CHEBI:44216; CHEBI:19752;
+    CHEBI:57540; CHEBI:7423; CHEBI:86542; CHEBI:17308; CHEBI:13389; CHEBI:15378; CHEBI:13395;
+    CHEBI:1256; CHEBI:133738; CHEBI:10744; CHEBI:44215; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00003; KEGG:C00004; KEGG:C00080; KEGG:C00902'
+measurements:
+- id: measurement_1_1_1__P14295_2-Oxohexanoate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 1_1_1__P14295_2-Oxohexanoate_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 76000000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Oxohexanoate
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: null
+- id: 1_1_1__P14295_2-Oxohexanoate_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 7600.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2-Oxohexanoate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: null
+buffer:
+  buffer: 100 mM potassium phosphate
+  buffer_concentration: 100 mM
+references: null

@@ -1,0 +1,166 @@
+name: SABIO-RK Entry 24878
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 24878
+created: '2025-10-28T14:25:41.326836'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_6_4_1_2_P0ABD8_P24182_P0A9Q5_P0ABD5_p24878
+  name: acetyl-CoA carboxylase
+  sequence: null
+  ecnumber: 6.4.1.2
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P0ABD8; P24182; P0A9Q5; P0ABD5
+complexes: null
+small_molecules:
+- id: substrate_ATP
+  name: ATP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Hydrogencarbonate
+  name: Hydrogencarbonate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Acetyl-CoA
+  name: Acetyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_ADP
+  name: ADP
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Malonyl-CoA
+  name: Malonyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Phosphate
+  name: Phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Moiramide_B
+  name: Moiramide B
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_542_EC6_4_1_2_Escherichia_coli_P0ABD8_P24182_P0A9Q5_P0ABD5_ATP
+  name: Reaction catalyzed by acetyl-CoA carboxylase on ATP
+  equation: Acetyl-CoA + ATP + Hydrogencarbonate = ADP + Phosphate + Malonyl-CoA
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_ATP
+  - species_id: substrate_Hydrogencarbonate
+  - species_id: substrate_Acetyl-CoA
+  products:
+  - species_id: product_ADP
+  - species_id: product_Malonyl-CoA
+  - species_id: product_Phosphate
+  modifiers:
+  - species_id: protein_6_4_1_2_P0ABD8_P24182_P0A9Q5_P0ABD5_p24878
+    role: BIOCATALYST
+  - species_id: activator_Moiramide_B
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: 11308;11309;11310;11311
+  KEGGid: R00742
+  notes: 'ChEBI IDs: CHEBI:237958; CHEBI:30616; CHEBI:22192; CHEBI:25135; CHEBI:43470;
+    CHEBI:16761; CHEBI:18367; CHEBI:10789; CHEBI:57299; CHEBI:35780; CHEBI:14791;
+    CHEBI:43979; CHEBI:40961; CHEBI:40553; CHEBI:26020; CHEBI:26078; CHEBI:57288;
+    CHEBI:17544; CHEBI:23017; CHEBI:13712; CHEBI:5589; CHEBI:15531; CHEBI:57384; CHEBI:13236;
+    CHEBI:6661; CHEBI:41605; CHEBI:29139; CHEBI:39739; CHEBI:10841; CHEBI:3401; CHEBI:2359;
+    CHEBI:87518; CHEBI:29201; CHEBI:41609; CHEBI:40938; CHEBI:13351; CHEBI:39745;
+    CHEBI:7793; CHEBI:456216; CHEBI:13363; CHEBI:40470; CHEBI:22249; CHEBI:2342; CHEBI:22863;
+    CHEBI:15422; CHEBI:23744; CHEBI:45024; CHEBI:2408; CHEBI:14565; CHEBI:43474; CHEBI:13222;
+    CHEBI:22244; CHEBI:29137; CHEBI:28976; CHEBI:15351
+
+    KEGG IDs: KEGG:C00083; KEGG:C00002; KEGG:C00009; KEGG:C00008; KEGG:C00288; KEGG:C01353;
+    KEGG:C00024'
+measurements:
+- id: measurement_6_4_1_2_Escherichia_coli_P0ABD8_P24182_P0A9Q5_P0ABD5_ATP
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 8.0
+  temperature_opt: 22.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 0.1 M Tricine-KOH, 2.5 mM MgCl2, 100 mM KCl, 1 mM dithiothreitol
+  buffer_concentration: 0.1 M
+references:
+- title: Reference for SABIO-RK entry 24878
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15066985/
+  pubmed_id: '15066985'
+  doi: null

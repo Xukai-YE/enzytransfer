@@ -1,0 +1,205 @@
+name: SABIO-RK Entry 43582
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 43582
+created: '2025-10-28T15:28:26.286712'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_2_1_12_P00362_p43582
+  name: glyceraldehyde-3-phosphate dehydrogenase (phosphorylating)
+  ecnumber: 1.2.1.12
+  organism: Geobacillus stearothermophilus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: L187N
+  uniprotid: P00362
+  wildtype_sequence: MAVKVGINGFGRIGRNVFRAALKNPDIEVVAVNDLTDANTLAHLLKYDSVHGRLDAEVSVNGNNLVVNGKEIIVKAERDPENLAWGEIGVDIVVESTGRFTKREDAAKHLEAGAKKVIISAPAKNEDITIVMGVNQDKYDPKAHHVISNASCTTNCLAPFAKVLHEQFGIVRGMMTTVHSYTNDQRILDLPHKDLRRARAAAESIIPTTTGAAKAVALVLPELKGKLNGMAMRVPTPNVSVVDLVAELEKEVTVEEVNAALKAAAEGELKGILAYSEEPLVSRDYNGSTVSSTIDALSTMVIDGKMVKVVSWYDNETGYSHRVVDLAAYIASKGL
+  mutant_sequence: MAVKVGINGFGRIGRNVFRAALKNPDIEVVAVNDLTDANTLAHLLKYDSVHGRLDAEVSVNGNNLVVNGKEIIVKAERDPENLAWGEIGVDIVVESTGRFTKREDAAKHLEAGAKKVIISAPAKNEDITIVMGVNQDKYDPKAHHVISNASCTTNCLAPFAKVLHEQFGIVRGMMTTVHSYTNDQRINDLPHKDLRRARAAAESIIPTTTGAAKAVALVLPELKGKLNGMAMRVPTPNVSVVDLVAELEKEVTVEEVNAALKAAAEGELKGILAYSEEPLVSRDYNGSTVSSTIDALSTMVIDGKMVKVVSWYDNETGYSHRVVDLAAYIASKGL
+  position_offset: 1
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Phosphate
+  name: Phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_D-Glyceraldehyde_3-phosphate
+  name: D-Glyceraldehyde 3-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3-Phospho-D-glyceroyl_phosphate
+  name: 3-Phospho-D-glyceroyl phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7844_EC1_2_1_12_Geobacillus_stearothermophilus_P00362_NAD_
+  name: Reaction catalyzed by glyceraldehyde-3-phosphate dehydrogenase (phosphorylating)
+    on NAD+
+  equation: NAD+ + D-Glyceraldehyde 3-phosphate + Phosphate = NADH + H+ + 3-Phospho-D-glyceroyl
+    phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NAD_
+  - species_id: substrate_Phosphate
+  - species_id: substrate_D-Glyceraldehyde_3-phosphate
+  products:
+  - species_id: product_NADH
+  - species_id: product_3-Phospho-D-glyceroyl_phosphate
+  modifiers:
+  - species_id: protein_1_2_1_12_P00362_p43582
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 10300;10301;10302;10303
+  KEGGid: R01061
+  notes: 'ChEBI IDs: CHEBI:14791; CHEBI:43470; CHEBI:18367; CHEBI:35780; CHEBI:26020;
+    CHEBI:26078; CHEBI:29052; CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:12984;
+    CHEBI:15846; CHEBI:1658; CHEBI:29139; CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901;
+    CHEBI:39739; CHEBI:11881; CHEBI:24636; CHEBI:12983; CHEBI:44214; CHEBI:181; CHEBI:16001;
+    CHEBI:21026; CHEBI:13394; CHEBI:5584; CHEBI:29233; CHEBI:39745; CHEBI:57945; CHEBI:44216;
+    CHEBI:7793; CHEBI:59776; CHEBI:57540; CHEBI:7423; CHEBI:57604; CHEBI:45024; CHEBI:13389;
+    CHEBI:13395; CHEBI:15378; CHEBI:43474; CHEBI:18324; CHEBI:44215; CHEBI:29137;
+    CHEBI:10744; CHEBI:7422; CHEBI:20189; CHEBI:16908
+
+    KEGG IDs: KEGG:C00236; KEGG:C00118; KEGG:C00080; KEGG:C00009; KEGG:C00003; KEGG:C00004'
+measurements:
+- id: measurement_1_2_1_12_Geobacillus_stearothermophilus_P00362_NAD_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 9.2
+  temperature_opt: 25.0
+  temperature_unit: °C
+parameters:
+- id: 1_2_1_12_Geobacillus_stearothermophilus_P00362_NAD__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.001
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.2
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10799476'
+- id: 1_2_1_12_Geobacillus_stearothermophilus_P00362_NAD__kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 112000.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 9.2
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10799476'
+- id: 1_2_1_12_Geobacillus_stearothermophilus_P00362_NAD__kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 112.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NAD_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 9.2
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10799476'
+buffer:
+  buffer: 40 mM Triethanolamine
+  buffer_concentration: 40 mM
+references:
+- title: Reference for SABIO-RK entry 43582
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10799476/
+  pubmed_id: '10799476'
+  doi: null

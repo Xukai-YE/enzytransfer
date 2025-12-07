@@ -1,0 +1,159 @@
+name: SABIO-RK Entry 50844
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 50844
+created: '2025-10-28T15:53:18.873294'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_2_1_18_C5MU95_p50844
+  name: exo-alpha-sialidase
+  sequence: null
+  ecnumber: 3.2.1.18
+  organism: Influenza A virus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: R8x
+  uniprotid: C5MU95
+  mutant_sequence: MNPNQXIITIGSVSLTIATMCFLMQIAILVTTVTLHFKQYECNSPPNNQVIRCEPTIIERNITEIVYLTNTTIEKEICPKLAEYRNWSKPQCKITGFAPFSKDNSIRLSAGGDIWVTREPYVSCDPDKCYQFALGQGTTLNNRHSNDTVHDRTPYRTLLMNELGVPFHLGTKQVCIAWSSSSCHDGKAWLHVCVTGHDENATASLIYDGRLVDSIGSWSKKILRTQESECVCINGTCTVVMTDGSASGRADTKILFIEEGKIVHISPLLGSAQHVEECSCYPRYPGVRCICRDNWKGSNRPIIDINVKDYSIVSSYVCSGLVGDTPRKNDRSSSSNCLNPNNEEGGHGVKGWAFDDGNDVWMGRTISEKLRSGYETFKVIEGWSKPNSKLQINRQVIVDRGDRSGYSGIFSVEGKSCINRCFYVELIRGRKQETEVWWTSNSIVVFCGTSGTYGTGSWPDGADINLMPI
+  position_offset: -2
+  retry_status: pattern_matched
+complexes: null
+small_molecules:
+- id: substrate_Sialyl-alpha-_2
+  name: Sialyl-alpha-(2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_6_-lactose
+  name: 6)-lactose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_N-Acetylneuraminate
+  name: N-Acetylneuraminate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Lactose
+  name: Lactose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_13086_EC3_2_1_18_Influenza_A_C5MU95_Sialyl-alpha-_2
+  name: Reaction catalyzed by exo-alpha-sialidase on Sialyl-alpha-(2
+  equation: H2O + Sialyl-alpha-(2,6)-lactose = Lactose + N-Acetylneuraminate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Sialyl-alpha-_2
+  - species_id: substrate_6_-lactose
+  products:
+  - species_id: product_N-Acetylneuraminate
+  - species_id: product_Lactose
+  modifiers:
+  - species_id: protein_3_2_1_18_C5MU95_p50844
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:36218; CHEBI:42857;
+    CHEBI:41979; CHEBI:49025; CHEBI:35463; CHEBI:42043; CHEBI:22846; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:21619; CHEBI:13352; CHEBI:43665;
+    CHEBI:10428; CHEBI:17012; CHEBI:43228; CHEBI:44292; CHEBI:35418; CHEBI:45493;
+    CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:17716; CHEBI:36219; CHEBI:58770;
+    CHEBI:29373; CHEBI:44701; CHEBI:49026
+
+    KEGG IDs: KEGG:C00270; KEGG:C00243; KEGG:C01970; KEGG:C19909; KEGG:C00001'
+measurements:
+- id: measurement_3_2_1_18_Influenza_A_C5MU95_Sialyl-alpha-_2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.0
+  temperature_opt: 37.0
+  temperature_unit: °C
+parameters:
+- id: 3_2_1_18_Influenza_A_C5MU95_Sialyl-alpha-_2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.006112
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Sialyl-alpha-_2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '21825167'
+buffer:
+  buffer: 0.2 M Phosphate
+  buffer_concentration: 0.2 M
+references:
+- title: Reference for SABIO-RK entry 50844
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/21825167/
+  pubmed_id: '21825167'
+  doi: null

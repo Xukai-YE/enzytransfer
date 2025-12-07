@@ -1,0 +1,151 @@
+name: SABIO-RK Entry 5190
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 5190
+created: '2025-10-28T13:49:02.759098'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_49_Q8NQ62_Q8NQ63_p5190
+  name: glucose-6-phosphate dehydrogenase
+  sequence: null
+  ecnumber: 1.1.1.49
+  organism: Corynebacterium glutamicum
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q8NQ62; Q8NQ63
+complexes: null
+small_molecules:
+- id: substrate_Glucose_6-phosphate
+  name: Glucose 6-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_6-Phospho-D-glucono-1
+  name: 6-Phospho-D-glucono-1
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_5-lactone
+  name: 5-lactone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_6509_EC1_1_1_49_Corynebacterium_glutamicum_Q8NQ62_Q8NQ63_Glucose_6-phosphate
+  name: Reaction catalyzed by glucose-6-phosphate dehydrogenase on Glucose 6-phosphate
+  equation: Glucose 6-phosphate + NADP+ = H+ + 6-Phospho-D-glucono-1,5-lactone + NADPH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Glucose_6-phosphate
+  - species_id: substrate_NADP_
+  products:
+  - species_id: product_6-Phospho-D-glucono-1
+  - species_id: product_5-lactone
+  - species_id: product_NADPH
+  modifiers:
+  - species_id: protein_1_1_1_49_Q8NQ62_Q8NQ63_p5190
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 15841;15842;15843;15844
+  KEGGid: R00835
+  notes: 'ChEBI IDs: CHEBI:13397; CHEBI:13398; CHEBI:42748; CHEBI:12958; CHEBI:7424;
+    CHEBI:21903; CHEBI:44405; CHEBI:7425; CHEBI:29234; CHEBI:4160; CHEBI:25523; CHEBI:13357;
+    CHEBI:58225; CHEBI:4170; CHEBI:12321; CHEBI:24636; CHEBI:17665; CHEBI:29233; CHEBI:13399;
+    CHEBI:5584; CHEBI:10245; CHEBI:16474; CHEBI:44286; CHEBI:57955; CHEBI:12233; CHEBI:22389;
+    CHEBI:21904; CHEBI:44409; CHEBI:20989; CHEBI:15378; CHEBI:18009; CHEBI:58349;
+    CHEBI:16938; CHEBI:13400; CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00668; KEGG:C01236; KEGG:C00092; KEGG:C00005; KEGG:C00080; KEGG:C00006;
+    KEGG:C11037'
+measurements:
+- id: measurement_1_1_1_49_Corynebacterium_glutamicum_Q8NQ62_Q8NQ63_Glucose_6-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters: null
+buffer:
+  buffer: 50 mM Tes/KOH, 10 mM MgCl2, 200 mM potassium glutamate
+  buffer_concentration: 50 mM
+references:
+- title: Reference for SABIO-RK entry 5190
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10848959/
+  pubmed_id: '10848959'
+  doi: null

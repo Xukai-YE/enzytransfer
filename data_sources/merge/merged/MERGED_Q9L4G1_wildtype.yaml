@@ -1,0 +1,244 @@
+version: '2.0'
+created: '2025-11-20T13:41:10.579236'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_3_4_11_4_Q9L4G1_p27809
+  name: tripeptide aminopeptidase
+  ecnumber: 3.4.11.4
+  organism: Lactobacillus helveticus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q9L4G1
+  wildtype_sequence: MEYPNLLPRFLKYVKVNSRSDENSDRFPSTEREENFQKNVIMKDLEELGLSDIHYNQKAGSVIAEIPSNVDYDVPVMGFLAHSDTADFNSENVKPQIHKNYDGESKIQLGDSEFYLDPEVYPNLRKYKGQTIITASGDTLLGADDKCGISELMTFAEYLMNHPEVKHGKIRLAFTPDEEIGTGAEQFDVKDFGADFAFTVDGEAPGKLGDCTFSAAQFTLDIQGVNVHPAVAKGQMINAVQVGIDFHNQLPEHDRPEHTDGREGFFHLLSFDGTVDHAHLAYIIRDFERDGLEERKNLVKSIVKKMNDEFGTERIKLQMNDQYYNMADELKKHMDIVDLARDAYKAEGLEVNEDPVRGGTDGSQLTYMGLPCPNIFAGEENMHGRYEYTVLESMYKTVDVMIKMAELNAERAK
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Met-Gly-Gly
+  name: Met-Gly-Gly
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Gly-Gly
+  name: Gly-Gly
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Methionine
+  name: Methionine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Leu-Gly-Gly
+  name: Leu-Gly-Gly
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Leucine
+  name: Leucine
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_11024_EC3_4_11_4_Lactobacillus_helveticus_Q9L4G1_Met-Gly-Gly
+  name: Reaction catalyzed by tripeptide aminopeptidase on Met-Gly-Gly
+  equation: Met-Gly-Gly + H2O = Methionine + Gly-Gly
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Met-Gly-Gly
+  products:
+  - species_id: product_Gly-Gly
+  - species_id: product_Methionine
+  modifiers:
+  - species_id: protein_3_4_11_4_Q9L4G1_p27809
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:13141; CHEBI:41981; CHEBI:21360;
+    CHEBI:32632; CHEBI:42857; CHEBI:41979; CHEBI:42043; CHEBI:17201; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:16643; CHEBI:43228;
+    CHEBI:16811; CHEBI:44292; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:32631;
+    CHEBI:6271; CHEBI:57844; CHEBI:43990; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C01733; KEGG:C00001; KEGG:C00073'
+- id: sabiork_10617_EC3_4_11_4_Lactobacillus_helveticus_Q9L4G1_Leu-Gly-Gly
+  name: Reaction catalyzed by leucyl aminopeptidase on Leu-Gly-Gly
+  equation: H2O + Leu-Gly-Gly = Gly-Gly + Leucine
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Leu-Gly-Gly
+  products:
+  - species_id: product_Gly-Gly
+  - species_id: product_Leucine
+  modifiers:
+  - species_id: protein_3_4_11_4_Q9L4G1_p27810
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:29375; CHEBI:44819; CHEBI:21348; CHEBI:41981; CHEBI:32619;
+    CHEBI:43814; CHEBI:42857; CHEBI:41979; CHEBI:32620; CHEBI:42043; CHEBI:32627;
+    CHEBI:25017; CHEBI:17201; CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377;
+    CHEBI:43733; CHEBI:13352; CHEBI:13131; CHEBI:43228; CHEBI:43646; CHEBI:44292;
+    CHEBI:57427; CHEBI:33806; CHEBI:10743; CHEBI:29374; CHEBI:5585; CHEBI:32628; CHEBI:10866;
+    CHEBI:43695; CHEBI:6260; CHEBI:15603; CHEBI:29373; CHEBI:44701; CHEBI:74538
+
+    KEGG IDs: KEGG:C00123; KEGG:C00001; KEGG:C16439'
+measurements:
+- id: measurement_3_4_11_4_Lactobacillus_helveticus_Q9L4G1_Met-Gly-Gly
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: null
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_3_4_11_4_Lactobacillus_helveticus_Q9L4G1_Leu-Gly-Gly
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: null
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 3_4_11_4_Lactobacillus_helveticus_Q9L4G1_Met-Gly-Gly_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.336667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Met-Gly-Gly
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10653753'
+- id: 3_4_11_4_Lactobacillus_helveticus_Q9L4G1_Met-Gly-Gly_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0026
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Met-Gly-Gly
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10653753'
+- id: 3_4_11_4_Lactobacillus_helveticus_Q9L4G1_Leu-Gly-Gly_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.1133333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Leu-Gly-Gly
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10653753'
+- id: 3_4_11_4_Lactobacillus_helveticus_Q9L4G1_Leu-Gly-Gly_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0006
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Leu-Gly-Gly
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: null
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10653753'
+buffer:
+  buffer: coupled L-amino acid oxidase/peroxidase/o-dianisidine assay
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 27809
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10653753/
+  pubmed_id: '10653753'
+  doi: null
+name: Merged entry for Q9L4G1 wildtype
+description: 'Merged from 2 files: SABIO_EC3.4.11.4_Lactobacillus_helveticus__Q9L4G1_s_Met-Gly-Gly.yaml,
+  SABIO_EC3.4.11.4_Lactobacillus_helveticus__Q9L4G1_s_Leu-Gly-Gly.yaml'

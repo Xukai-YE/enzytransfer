@@ -1,0 +1,193 @@
+version: '2.0'
+created: '2025-11-20T13:39:12.476358'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_unknown_O80605_p65585
+  name: protein#65585
+  ecnumber: null
+  organism: Arabidopsis thaliana
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: O80605
+  wildtype_sequence: MSDSVSISVPYRNLRKEIELETVTKHRQNESGSSSFSESASPSNHSDSADGESVSKNCSLVTLVLSCTVAAGVQFGWALQLSLLTPYIQTLGISHAFSSFIWLCGPITGLVVQPFVGIWSDKCTSKYGRRRPFILVGSFMISIAVIIIGFSADIGYLLGDSKEHCSTFKGTRTRAAVVFIIGFWLLDLANNTVQGPARALLADLSGPDQRNTANAVFCLWMAIGNILGFSAGASGKWQEWFPFLTSRACCAACGNLKAAFLLAVVFLTICTLVTIYFAKEIPFTSNKPTRIQDSAPLLDDLQSKGLEHSKLNNGTANGIKYERVERDTDEQFGNSENEHQDETYVDGPGSVLVNLLTSLRHLPPAMHSVLIVMALTWLSWFPFFLFDTDWMGREVYHGDPTGDSLHMELYDQGVREGALGLLLNSVVLGISSFLIEPMCQRMGARVVWALSNFTVFACMAGTAVISLMSLSDDKNGIEYIMRGNETTRTAAVIVFALLGFPLAITYSVPFSVTAEVTADSGGGQGLAIGVLNLAIVIPQMIVSLGAGPWDQLFGGGNLPAFVLASVAAFAAGVIALQRLPTLSSSFKSTGFHIG
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Sucrose
+  name: Sucrose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Sucrose
+  name: Sucrose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Maltose
+  name: Maltose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Maltose
+  name: Maltose
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_13123_ECunknown_Arabidopsis_thaliana_O80605_Sucrose
+  name: Reaction catalyzed by enzyme on Sucrose
+  equation: Sucrose = Sucrose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: product_Sucrose
+  products:
+  - species_id: product_Sucrose
+  modifiers:
+  - species_id: protein_unknown_O80605_p65585
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:17992
+
+    KEGG IDs: KEGG:C00089'
+- id: sabiork_11211_ECunknown_Arabidopsis_thaliana_O80605_Maltose
+  name: Reaction catalyzed by enzyme on Maltose
+  equation: Maltose = Maltose
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: product_Maltose
+  products:
+  - species_id: product_Maltose
+  modifiers:
+  - species_id: protein_unknown_O80605_p65586
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 33171;33172;33173;33174
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:18167; CHEBI:43893; CHEBI:22463; CHEBI:12340; CHEBI:10300;
+    CHEBI:17306
+
+    KEGG IDs: KEGG:C00897; KEGG:C00208'
+measurements:
+- id: measurement_unknown_Arabidopsis_thaliana_O80605_Sucrose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.0
+  temperature_opt: 32.0
+  temperature_unit: °C
+- id: measurement_unknown_Arabidopsis_thaliana_O80605_Maltose
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.0
+  temperature_opt: 32.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: unknown_Arabidopsis_thaliana_O80605_Sucrose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0019
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_Sucrose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 32.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11135120'
+- id: unknown_Arabidopsis_thaliana_O80605_Maltose_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0016
+  upper_bound: null
+  lower_bound: null
+  associated_species: product_Maltose
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 32.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '11135120'
+buffer:
+  buffer: 25 mM NaPO4
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 65585
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/11135120/
+  pubmed_id: '11135120'
+  doi: null
+name: Merged entry for O80605 wildtype
+description: 'Merged from 2 files: SABIO_Arabidopsis_thaliana__O80605_s_Sucrose.yaml,
+  SABIO_Arabidopsis_thaliana__O80605_s_Maltose.yaml'

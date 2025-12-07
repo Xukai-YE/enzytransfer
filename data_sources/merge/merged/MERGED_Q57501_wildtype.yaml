@@ -1,0 +1,662 @@
+version: '2.0'
+created: '2025-11-20T13:39:52.835755'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_5_1__Q57501_p39422
+  name: FAD reductase (NADH)
+  ecnumber: 1.5.1.
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q57501
+  wildtype_sequence: MQLDEQRLRFRDAMASLSAAVNIITTEGDAGQCGITATAVCSVTDTPPSLMVCINANSAMNPVFQGNGKLCVNVLNHEQELMARHFAGMTGMAMEERFSLSCWQKGPLAQPVLKGSLASLEGEIRDVQAIGTHLVYLVEIKNIILSAEGHGLIYFKRRFHPVMLEMEAAI
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_FAD
+  name: FAD
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_FADH2
+  name: FADH2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Riboflavin
+  name: Riboflavin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Reduced_riboflavin
+  name: Reduced riboflavin
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Fe3_
+  name: Fe3+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Fe2_
+  name: Fe2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Riboflavin-5-phosphate
+  name: Riboflavin-5-phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Reduced_FMN
+  name: Reduced FMN
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Reduced_cytochrome_c
+  name: Reduced cytochrome c
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Cytochrome_c
+  name: Cytochrome c
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_7290_EC1_5_1__Escherichia_coli_Q57501_NADH
+  name: Reaction catalyzed by FAD reductase (NADH) on NADH
+  equation: H+ + NADH + FAD = NAD+ + FADH2
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  - species_id: substrate_FAD
+  products:
+  - species_id: product_NAD_
+  - species_id: product_FADH2
+  modifiers:
+  - species_id: protein_1_5_1__Q57501_p39422
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 30147;30148;30149;30150
+  KEGGid: R09748
+  notes: 'ChEBI IDs: CHEBI:16238; CHEBI:44281; CHEBI:13393; CHEBI:17877; CHEBI:29234;
+    CHEBI:15846; CHEBI:13357; CHEBI:24040; CHEBI:21902; CHEBI:13396; CHEBI:21901;
+    CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:21125; CHEBI:57945;
+    CHEBI:44216; CHEBI:13315; CHEBI:42427; CHEBI:42388; CHEBI:57540; CHEBI:7423; CHEBI:13389;
+    CHEBI:15378; CHEBI:13395; CHEBI:4957; CHEBI:21126; CHEBI:4956; CHEBI:58307; CHEBI:10744;
+    CHEBI:44215; CHEBI:13316; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C01352; KEGG:C00003; KEGG:C00080; KEGG:C00016; KEGG:C00004'
+- id: sabiork_7291_EC1_5_1__Escherichia_coli_Q57501_NADH
+  name: Reaction catalyzed by With NAD(+) or NADP(+) as acceptor on NADH
+  equation: H+ + NADH + Riboflavin = NAD+ + Reduced riboflavin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  - species_id: substrate_Riboflavin
+  products:
+  - species_id: product_NAD_
+  - species_id: product_Reduced_riboflavin
+  modifiers:
+  - species_id: protein_1_5_1__Q57501_p39421
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 31455;31456;31457;31458
+  KEGGid: R09750
+  notes: 'ChEBI IDs: CHEBI:45214; CHEBI:8843; CHEBI:15044; CHEBI:15031; CHEBI:17015;
+    CHEBI:57986; CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:13357;
+    CHEBI:21902; CHEBI:13396; CHEBI:27299; CHEBI:21901; CHEBI:8798; CHEBI:24636; CHEBI:44214;
+    CHEBI:29233; CHEBI:5584; CHEBI:13394; CHEBI:57945; CHEBI:44216; CHEBI:57540; CHEBI:7423;
+    CHEBI:13389; CHEBI:13395; CHEBI:15378; CHEBI:529204; CHEBI:10744; CHEBI:44215;
+    CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C00255; KEGG:C00003; KEGG:C01007; KEGG:C00004'
+- id: sabiork_7292_EC1_5_1__Escherichia_coli_Q57501_NADPH
+  name: Reaction catalyzed by phenol 2-monooxygenase on NADPH
+  equation: H+ + FAD + NADPH = NADP+ + FADH2
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_FAD
+  products:
+  - species_id: product_NADP_
+  - species_id: product_FADH2
+  modifiers:
+  - species_id: protein_1_5_1__Q57501_p39425
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 30151;30152;30153;30154
+  KEGGid: R09520
+  notes: 'ChEBI IDs: CHEBI:16238; CHEBI:13397; CHEBI:13398; CHEBI:7424; CHEBI:44405;
+    CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:17877; CHEBI:13357; CHEBI:25523; CHEBI:24040;
+    CHEBI:24636; CHEBI:29233; CHEBI:5584; CHEBI:13399; CHEBI:21125; CHEBI:13315; CHEBI:16474;
+    CHEBI:44286; CHEBI:42427; CHEBI:42388; CHEBI:21904; CHEBI:44409; CHEBI:15378;
+    CHEBI:4957; CHEBI:18009; CHEBI:58349; CHEBI:21126; CHEBI:13400; CHEBI:57783; CHEBI:4956;
+    CHEBI:58307; CHEBI:10744; CHEBI:13316
+
+    KEGG IDs: KEGG:C01352; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00016; KEGG:C11037'
+- id: sabiork_674_EC1_5_1__Escherichia_coli_Q57501_NADH
+  name: Reaction catalyzed by ferric-chelate reductase (NADH) on NADH
+  equation: Fe2+ + NAD+ = Fe3+ + H+ + NADH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADH
+  - species_id: substrate_Fe3_
+  products:
+  - species_id: product_Fe2_
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_5_1__Q57501_p39427
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 15061;15062;15063;15064;18597;18598;18599;18600;42960;42961;42962;42963;46680;46681;46682;46683
+  KEGGid: R00092
+  notes: 'ChEBI IDs: CHEBI:34755; CHEBI:29033; CHEBI:49595; CHEBI:34754; CHEBI:44281;
+    CHEBI:21129; CHEBI:21130; CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:13357;
+    CHEBI:21902; CHEBI:13396; CHEBI:7422; CHEBI:21901; CHEBI:24636; CHEBI:44214; CHEBI:29233;
+    CHEBI:5584; CHEBI:13394; CHEBI:13319; CHEBI:13320; CHEBI:57945; CHEBI:44216; CHEBI:24877;
+    CHEBI:24876; CHEBI:57540; CHEBI:7423; CHEBI:13389; CHEBI:15378; CHEBI:13395; CHEBI:29034;
+    CHEBI:13321; CHEBI:10744; CHEBI:44215; CHEBI:49599; CHEBI:16908
+
+    KEGG IDs: KEGG:C14819; KEGG:C14818; KEGG:C00080; KEGG:C00003; KEGG:C00004'
+- id: sabiork_5301_EC1_5_1__Escherichia_coli_Q57501_Riboflavin-5-phosphate
+  name: Reaction catalyzed by FMN reductase [NAD(P)H] on Riboflavin-5-phosphate
+  equation: NAD+ + Reduced FMN = NADH + H+ + Riboflavin-5-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Riboflavin-5-phosphate
+  - species_id: substrate_NADH
+  products:
+  - species_id: product_Reduced_FMN
+  - species_id: product_NAD_
+  modifiers:
+  - species_id: protein_1_5_1__Q57501_p39420
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R05705
+  notes: 'ChEBI IDs: CHEBI:17621; CHEBI:8782; CHEBI:21128; CHEBI:16048; CHEBI:44281;
+    CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:4960; CHEBI:13357; CHEBI:21902; CHEBI:13396;
+    CHEBI:15017; CHEBI:21901; CHEBI:24636; CHEBI:44214; CHEBI:29233; CHEBI:21127;
+    CHEBI:5584; CHEBI:13394; CHEBI:57945; CHEBI:13318; CHEBI:44216; CHEBI:42587; CHEBI:57618;
+    CHEBI:13317; CHEBI:57540; CHEBI:24041; CHEBI:7423; CHEBI:13389; CHEBI:13395; CHEBI:15378;
+    CHEBI:42517; CHEBI:10744; CHEBI:44215; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C00061; KEGG:C01847; KEGG:C00003; KEGG:C00004'
+- id: sabiork_5302_EC1_5_1__Escherichia_coli_Q57501_NADPH
+  name: Reaction catalyzed by FMN reductase (NADPH) on NADPH
+  equation: NADP+ + Reduced FMN = NADPH + H+ + Riboflavin-5-phosphate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADPH
+  - species_id: substrate_Riboflavin-5-phosphate
+  products:
+  - species_id: product_Reduced_FMN
+  - species_id: product_NADP_
+  modifiers:
+  - species_id: protein_1_5_1__Q57501_p39424
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R05706
+  notes: 'ChEBI IDs: CHEBI:17621; CHEBI:8782; CHEBI:13398; CHEBI:13397; CHEBI:21128;
+    CHEBI:7424; CHEBI:16048; CHEBI:44405; CHEBI:21903; CHEBI:7425; CHEBI:29234; CHEBI:4960;
+    CHEBI:13357; CHEBI:25523; CHEBI:15017; CHEBI:24636; CHEBI:21127; CHEBI:29233;
+    CHEBI:5584; CHEBI:13399; CHEBI:13318; CHEBI:42587; CHEBI:16474; CHEBI:57618; CHEBI:44286;
+    CHEBI:13317; CHEBI:24041; CHEBI:21904; CHEBI:44409; CHEBI:15378; CHEBI:18009;
+    CHEBI:42517; CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00005; KEGG:C00080; KEGG:C00061; KEGG:C00006; KEGG:C01847; KEGG:C11037'
+- id: sabiork_1843_EC1_5_1__Escherichia_coli_Q57501_Riboflavin
+  name: Reaction catalyzed by flavin reductase (NADPH) on Riboflavin
+  equation: NADPH + Riboflavin + H+ = NADP+ + Reduced riboflavin
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Riboflavin
+  - species_id: substrate_NADPH
+  products:
+  - species_id: product_NADP_
+  - species_id: product_Reduced_riboflavin
+  modifiers:
+  - species_id: protein_1_5_1__Q57501_p39423
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 19377;19378;19379;19380
+  KEGGid: R05707
+  notes: 'ChEBI IDs: CHEBI:45214; CHEBI:8843; CHEBI:15044; CHEBI:13397; CHEBI:13398;
+    CHEBI:15031; CHEBI:17015; CHEBI:7424; CHEBI:57986; CHEBI:44405; CHEBI:21903; CHEBI:7425;
+    CHEBI:29234; CHEBI:13357; CHEBI:25523; CHEBI:27299; CHEBI:8798; CHEBI:24636; CHEBI:29233;
+    CHEBI:5584; CHEBI:13399; CHEBI:16474; CHEBI:44286; CHEBI:21904; CHEBI:44409; CHEBI:15378;
+    CHEBI:18009; CHEBI:58349; CHEBI:13400; CHEBI:529204; CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00005; KEGG:C01007; KEGG:C00080; KEGG:C00255; KEGG:C00006; KEGG:C11037'
+- id: sabiork_6673_EC1_5_1__Escherichia_coli_Q57501_Reduced_cytochrome_c
+  name: Reaction catalyzed by NADH dehydrogenase on Reduced cytochrome c
+  equation: Cytochrome c + NADH + H+ = Reduced cytochrome c + NAD+
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Reduced_cytochrome_c
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_NADH
+  - species_id: product_Cytochrome_c
+  modifiers:
+  - species_id: protein_1_5_1__Q57501_p39426
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:16928; CHEBI:44281; CHEBI:13393; CHEBI:29234; CHEBI:15846;
+    CHEBI:13357; CHEBI:21902; CHEBI:13396; CHEBI:21901; CHEBI:24636; CHEBI:44214;
+    CHEBI:29233; CHEBI:13394; CHEBI:5584; CHEBI:18070; CHEBI:57945; CHEBI:44216; CHEBI:57540;
+    CHEBI:7423; CHEBI:13389; CHEBI:13395; CHEBI:15378; CHEBI:44215; CHEBI:10744; CHEBI:7422;
+    CHEBI:16908
+
+    KEGG IDs: KEGG:C00080; KEGG:C00126; KEGG:C00524; KEGG:C00003; KEGG:C00004'
+measurements:
+- id: measurement_1_5_1__Escherichia_coli_Q57501_NADH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.8
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_1_5_1__Escherichia_coli_Q57501_NADH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.8
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_1_5_1__Escherichia_coli_Q57501_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.8
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_1_5_1__Escherichia_coli_Q57501_NADH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.8
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_1_5_1__Escherichia_coli_Q57501_Riboflavin-5-phosphate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.8
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_1_5_1__Escherichia_coli_Q57501_NADPH
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.8
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_1_5_1__Escherichia_coli_Q57501_Riboflavin
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.8
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_1_5_1__Escherichia_coli_Q57501_Reduced_cytochrome_c
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.8
+  temperature_opt: 22.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_5_1__Escherichia_coli_Q57501_NADH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000633333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.8
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10633095'
+- id: 1_5_1__Escherichia_coli_Q57501_NADH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 3.1e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.8
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10633095'
+- id: 1_5_1__Escherichia_coli_Q57501_NADH_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.6e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.8
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10633095'
+- id: 1_5_1__Escherichia_coli_Q57501_NADH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000983333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.8
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10633095'
+- id: 1_5_1__Escherichia_coli_Q57501_NADPH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 1.666667e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.8
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10633095'
+- id: 1_5_1__Escherichia_coli_Q57501_NADH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.000206667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.8
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10633095'
+- id: 1_5_1__Escherichia_coli_Q57501_Riboflavin-5-phosphate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 4.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Riboflavin-5-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.8
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10633095'
+- id: 1_5_1__Escherichia_coli_Q57501_Riboflavin-5-phosphate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 0.001166667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Riboflavin-5-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.8
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10633095'
+- id: 1_5_1__Escherichia_coli_Q57501_Riboflavin-5-phosphate_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 2.1e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Riboflavin-5-phosphate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.8
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10633095'
+- id: 1_5_1__Escherichia_coli_Q57501_NADPH_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 8.333333e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADPH
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.8
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10633095'
+- id: 1_5_1__Escherichia_coli_Q57501_Riboflavin_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 6.666667e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Riboflavin
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.8
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10633095'
+- id: 1_5_1__Escherichia_coli_Q57501_Reduced_cytochrome_c_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 3.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Reduced_cytochrome_c
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.8
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '10633095'
+buffer:
+  buffer: 50 mM HEPES; 50 mM HEPES, 60 ¦ÌM FMN; 50 mM HEPES, 1 mM ferrozine, 60 ¦ÌM
+    FMN
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 39422
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/10633095/
+  pubmed_id: '10633095'
+  doi: null
+name: Merged entry for Q57501 wildtype
+description: 'Merged from 8 files: SABIO_EC1.5.1._Escherichia_coli__Q57501_s_NADH_2.yaml,
+  SABIO_EC1.5.1._Escherichia_coli__Q57501_s_NADH.yaml, SABIO_EC1.5.1._Escherichia_coli__Q57501_s_NADPH_2.yaml,
+  SABIO_EC1.5.1._Escherichia_coli__Q57501_s_NADH_3.yaml, SABIO_EC1.5.1._Escherichia_coli__Q57501_s_Riboflavin-5-phospha.yaml,
+  SABIO_EC1.5.1._Escherichia_coli__Q57501_s_NADPH.yaml, SABIO_EC1.5.1._Escherichia_coli__Q57501_s_Riboflavin.yaml,
+  SABIO_EC1.5.1._Escherichia_coli__Q57501_s_Reduced.yaml'

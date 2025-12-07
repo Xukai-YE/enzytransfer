@@ -1,0 +1,235 @@
+version: '2.0'
+created: '2025-11-20T13:40:03.517975'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_3_1_205_Q4WZ64_p67996
+  name: fumigaclavine B O-acetyltransferase
+  ecnumber: 2.3.1.205
+  organism: Aspergillus fumigatus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: Q4WZ64
+  wildtype_sequence: MKKQVTFKPFRLSPVDHSLPKVYIFKSLYFRGVDDTGSLSRLQDGIDRLISCLPFLSGEVVPCADIPDKVGVLQVQMPCPSLQEIPMLLVKSYPNHTWPAASTSERWRNTALLDQSYRPLPDFIPPSKPRPVLRFQANFLADGLMLCMGYNHSVFDGTGAGNILEMLADCCRANPNSILALPTNGDIESELRGLLSSPGVAVANASQEAYAINCAHTEVEPEPSSAMLYCWPFLLSSEKIECLQEACNSLLPHIVRLYSGTQSSLINQDTNWPHILSSNDVLTALLAVSIEKAREATGALGHMSRSLAMAVNLRERLKPMPRHYLGNLVTTVWVSHHRPAVKDLETMVLPVPACNRHEIDRDDLLWITHVAFRIRLGLNAINEEHIRGLIHYLHSQDDWEQIGIHFTDPIFISSWRHLKVYELDFGPTIGHAEHFEMDVGTTDGVCVVMPANTRAVGKTKKAPWDIRIVLNPEVLQALIASAIFGWAMVKDAST
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Fumigaclavine_B
+  name: Fumigaclavine B
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Acetyl-CoA
+  name: Acetyl-CoA
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Fumigaclavine_A
+  name: Fumigaclavine A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Coenzyme_A
+  name: Coenzyme A
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_15654_EC2_3_1_205_Aspergillus_fumigatus_Q4WZ64_Fumigaclavine_B
+  name: Reaction catalyzed by fumigaclavine B O-acetyltransferase on Fumigaclavine
+    B
+  equation: Acetyl-CoA + Fumigaclavine B = Coenzyme A + Fumigaclavine A
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Fumigaclavine_B
+  - species_id: substrate_Acetyl-CoA
+  products:
+  - species_id: product_Fumigaclavine_A
+  - species_id: product_Coenzyme_A
+  modifiers:
+  - species_id: protein_2_3_1_205_Q4WZ64_p67996
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R10200
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:57287; CHEBI:15346; CHEBI:23355; CHEBI:15351;
+    CHEBI:3771; CHEBI:13295; CHEBI:13294; CHEBI:741566; CHEBI:41597; CHEBI:40470;
+    CHEBI:57288; CHEBI:67156; CHEBI:67159; CHEBI:41631; CHEBI:13712; CHEBI:13298;
+    CHEBI:2408
+
+    KEGG IDs: KEGG:C00010; KEGG:C00024; KEGG:C20436; KEGG:C20437'
+- id: sabiork_15654_EC2_3_1_205_Aspergillus_fumigatus_Q4WZ64_Acetyl-CoA
+  name: Reaction catalyzed by fumigaclavine B O-acetyltransferase on Acetyl-CoA
+  equation: Acetyl-CoA + Fumigaclavine B = Coenzyme A + Fumigaclavine A
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Acetyl-CoA
+  - species_id: substrate_Fumigaclavine_B
+  products:
+  - species_id: product_Coenzyme_A
+  - species_id: product_Fumigaclavine_A
+  modifiers:
+  - species_id: protein_2_3_1_205_Q4WZ64_p67997
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: R10200
+  notes: 'ChEBI IDs: CHEBI:22192; CHEBI:57287; CHEBI:15346; CHEBI:23355; CHEBI:15351;
+    CHEBI:3771; CHEBI:13295; CHEBI:13294; CHEBI:741566; CHEBI:41597; CHEBI:40470;
+    CHEBI:57288; CHEBI:67156; CHEBI:41631; CHEBI:67159; CHEBI:13712; CHEBI:13298;
+    CHEBI:2408
+
+    KEGG IDs: KEGG:C20436; KEGG:C20437; KEGG:C00010; KEGG:C00024'
+measurements:
+- id: measurement_2_3_1_205_Aspergillus_fumigatus_Q4WZ64_Fumigaclavine_B
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+- id: measurement_2_3_1_205_Aspergillus_fumigatus_Q4WZ64_Acetyl-CoA
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 37.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 2_3_1_205_Aspergillus_fumigatus_Q4WZ64_Fumigaclavine_B_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000147
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Fumigaclavine_B
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19672909'
+- id: 2_3_1_205_Aspergillus_fumigatus_Q4WZ64_Fumigaclavine_B_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.6
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Fumigaclavine_B
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19672909'
+- id: 2_3_1_205_Aspergillus_fumigatus_Q4WZ64_Acetyl-CoA_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000122
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19672909'
+- id: 2_3_1_205_Aspergillus_fumigatus_Q4WZ64_Acetyl-CoA_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 0.6
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Acetyl-CoA
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 37.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '19672909'
+buffer:
+  buffer: 50 mM Tris-HCl, 1.2-3.8 % (v/v) glycerol
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 67996
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/19672909/
+  pubmed_id: '19672909'
+  doi: null
+name: Merged entry for Q4WZ64 wildtype
+description: 'Merged from 2 files: SABIO_EC2.3.1.205_Aspergillus_fumigatus__Q4WZ64_s_Fumigaclavine.yaml,
+  SABIO_EC2.3.1.205_Aspergillus_fumigatus__Q4WZ64_s_Acetyl-CoA.yaml'

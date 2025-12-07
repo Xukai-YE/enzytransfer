@@ -1,0 +1,159 @@
+name: SABIO-RK Entry 66889
+version: '2.0'
+description: EnzymeML for SABIO-RK entry 66889
+created: '2025-10-28T17:00:43.045871'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_2_7_1_121_P76015_P37349_p66889
+  name: phosphoenolpyruvate---glycerone phosphotransferase
+  sequence: null
+  ecnumber: 2.7.1.121
+  organism: Escherichia coli
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: P76015; P37349
+complexes: null
+small_molecules:
+- id: substrate_Phosphoenolpyruvate
+  name: Phosphoenolpyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_Dihydroxyacetone
+  name: Dihydroxyacetone
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Pyruvate
+  name: Pyruvate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Glycerone_phosphate
+  name: Glycerone phosphate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_DhaL
+  name: DhaL
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_1304_EC2_7_1_121_Escherichia_coli_P76015_P37349_Phosphoenolpyruvate
+  name: Reaction catalyzed by phosphoenolpyruvate---glycerone phosphotransferase on
+    Phosphoenolpyruvate
+  equation: Phosphoenolpyruvate + Dihydroxyacetone = Glycerone phosphate + Pyruvate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Phosphoenolpyruvate
+  - species_id: substrate_Dihydroxyacetone
+  products:
+  - species_id: product_Pyruvate
+  - species_id: product_Glycerone_phosphate
+  modifiers:
+  - species_id: protein_2_7_1_121_P76015_P37349_p66889
+    role: BIOCATALYST
+  - species_id: activator_DhaL
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: R01012
+  notes: 'ChEBI IDs: CHEBI:16016; CHEBI:14987; CHEBI:44894; CHEBI:39809; CHEBI:14340;
+    CHEBI:58702; CHEBI:26055; CHEBI:18021; CHEBI:8147; CHEBI:15361; CHEBI:5453; CHEBI:26466;
+    CHEBI:26054; CHEBI:26462; CHEBI:8685; CHEBI:44897; CHEBI:32816; CHEBI:14812; CHEBI:45253;
+    CHEBI:24354; CHEBI:16108
+
+    KEGG IDs: KEGG:C00184; KEGG:C00022; KEGG:C00074; KEGG:C00111'
+measurements:
+- id: measurement_2_7_1_121_Escherichia_coli_P76015_P37349_Phosphoenolpyruvate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.5
+  temperature_opt: 30.0
+  temperature_unit: °C
+parameters:
+- id: 2_7_1_121_Escherichia_coli_P76015_P37349_Phosphoenolpyruvate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.5e-07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Phosphoenolpyruvate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.5
+  temperature: 30.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15476397'
+buffer:
+  buffer: 100 mM Hepes, 5 mM DTT, 5 mM NaF, 5 mM MgCl2, 1 mg/ml BSA, 10 ¦ÌM EDTA,
+    7 units/ml lactate dehydrogenase, 0.4 mM NADH, 3 units/ml glycerol-3-phosphate
+    dehydrogenase, 0.7 ¦ÌM Enzyme 1 of PTS, 1 ¦ÌM HPr of PTS
+  buffer_concentration: 100 mM
+references:
+- title: Reference for SABIO-RK entry 66889
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15476397/
+  pubmed_id: '15476397'
+  doi: null

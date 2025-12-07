@@ -1,0 +1,227 @@
+version: '2.0'
+created: '2025-11-20T13:39:31.378003'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_13_11_5_O09173_p20136
+  name: homogentisate 1,2-dioxygenase
+  ecnumber: 1.13.11.5
+  organism: Mus musculus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: wildtype
+  variant_description: wildtype
+  uniprotid: O09173
+  wildtype_sequence: MAELKYISGFGNECASEDPRCPGSLPKGQNNPQVCPYNLYAEQLSGSAFTCPRNTNKRSWLYRILPSVSHKPFESIDQGHVTHNWDEVGPDPNQLRWKPFEIPKASEKKVDFVSGLYTLCGAGDIKSNNGLAVHIFLCNSSMENRCFYNSDGDFLIVPQKGKLLIYTEFGKMSLQPNEICVIQRGMRFSVDVFEETRGYILEVYGVHFELPDLGPIGANGLANPRDFLIPVAWYEDRRVPGGYTVINKFQGKLFACKQDVSPFNVVAWHGNYTPYKYNLENFMVINAVAFDHADPSIFTVLTAKSLRPGVAIADFVIFPPRWGVADKTFRPPYYHRNCMSEFMGLIKGHYEAKQGGFLPGGGSLHSAMTPHGPDADCFEKASKAKLEPERIADGTMAFMFESSLSLAVTKWGLKTCSCLDENYYKCWEPLRSHFTPNSRSPTEPK
+  mutant_sequence: null
+complexes: null
+small_molecules:
+- id: substrate_Homogentisate
+  name: Homogentisate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor_Fe2_
+  name: Fe2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_4-Maleylacetoacetate
+  name: 4-Maleylacetoacetate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2444_EC1_13_11_5_Mus_musculus_O09173_Homogentisate
+  name: Reaction catalyzed by homogentisate 1,2-dioxygenase on Homogentisate
+  equation: O2 + Homogentisate = 4-Maleylacetoacetate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_Homogentisate
+  - species_id: substrate_O2
+  - species_id: cofactor_Fe2_
+  products:
+  - species_id: product_4-Maleylacetoacetate
+  modifiers:
+  - species_id: protein_1_13_11_5_O09173_p20136
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 15449;15450;15451;15452
+  KEGGid: R02519
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29033; CHEBI:11452; CHEBI:34754; CHEBI:26689;
+    CHEBI:47904; CHEBI:5755; CHEBI:21129; CHEBI:24615; CHEBI:17105; CHEBI:12018; CHEBI:23833;
+    CHEBI:16169; CHEBI:13416; CHEBI:44744; CHEBI:13319; CHEBI:15379; CHEBI:14410;
+    CHEBI:24876; CHEBI:44747; CHEBI:30491; CHEBI:25366; CHEBI:44742; CHEBI:29793;
+    CHEBI:1888; CHEBI:7860; CHEBI:20433; CHEBI:10745; CHEBI:13321; CHEBI:20434; CHEBI:49599
+
+    KEGG IDs: KEGG:C01036; KEGG:C14818; KEGG:C00704; KEGG:C00544; KEGG:C00007'
+- id: sabiork_2444_EC1_13_11_5_Mus_musculus_O09173_O2
+  name: Reaction catalyzed by homogentisate 1,2-dioxygenase on O2
+  equation: O2 + Homogentisate = 4-Maleylacetoacetate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_Homogentisate
+  - species_id: cofactor_Fe2_
+  products:
+  - species_id: product_4-Maleylacetoacetate
+  modifiers:
+  - species_id: protein_1_13_11_5_O09173_p20135
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 15449;15450;15451;15452
+  KEGGid: R02519
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29033; CHEBI:11452; CHEBI:34754; CHEBI:26689;
+    CHEBI:47904; CHEBI:5755; CHEBI:21129; CHEBI:24615; CHEBI:17105; CHEBI:12018; CHEBI:23833;
+    CHEBI:13416; CHEBI:16169; CHEBI:44744; CHEBI:13319; CHEBI:15379; CHEBI:14410;
+    CHEBI:24876; CHEBI:44747; CHEBI:30491; CHEBI:25366; CHEBI:44742; CHEBI:29793;
+    CHEBI:1888; CHEBI:7860; CHEBI:20433; CHEBI:10745; CHEBI:13321; CHEBI:20434; CHEBI:49599
+
+    KEGG IDs: KEGG:C01036; KEGG:C14818; KEGG:C00704; KEGG:C00544; KEGG:C00007'
+measurements:
+- id: measurement_1_13_11_5_Mus_musculus_O09173_Homogentisate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.0
+  temperature_opt: 22.0
+  temperature_unit: °C
+- id: measurement_1_13_11_5_Mus_musculus_O09173_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 6.0
+  temperature_opt: 22.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_13_11_5_Mus_musculus_O09173_Homogentisate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 2.64705e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Homogentisate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7705358'
+- id: 1_13_11_5_Mus_musculus_O09173_Homogentisate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 1.9e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_Homogentisate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7705358'
+- id: 1_13_11_5_Mus_musculus_O09173_O2_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: katg-1
+  initial_value: 2.64705e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7705358'
+- id: 1_13_11_5_Mus_musculus_O09173_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000188
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 6.0
+  temperature: 22.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '7705358'
+buffer:
+  buffer: 125 mM Tris/maleate, 2.1 mM Ascorbate, 4.2 mM Reduced glutathione
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 20136
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/7705358/
+  pubmed_id: '7705358'
+  doi: null
+name: Merged entry for O09173 wildtype
+description: 'Merged from 2 files: SABIO_EC1.13.11.5_Mus_musculus__O09173_s_Homogentisate.yaml,
+  SABIO_EC1.13.11.5_Mus_musculus__O09173_s_O2.yaml'

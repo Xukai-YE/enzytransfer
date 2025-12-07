@@ -1,0 +1,1051 @@
+version: '2.0'
+created: '2025-11-20T13:39:29.478465'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_10_3_2_A0A0G2QNK1_p69298
+  name: laccase
+  ecnumber: 1.10.3.2
+  organism: rat
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: L386W
+  uniprotid: A0A0G2QNK1
+  wildtype_sequence: MNLEKFVDELPIPEVAEPVKKNPRQTYYEIAMEEVFLKVHSDLPPTKLWTYNGGLPGPTIKANRNEKVKVKWMNKLPLKHFLPVDHTIHAGHHDEPEVKTVVHLHGGVTPASSDGYPEAWFSRDFEATGPFFEREVYEYPNHQQACTLWYHDHAMALTRLNVYAGLAGFYLISDAFEKSLELPKDEYDIPLMIMDRTFQEDGALFYPSRPNNTPEDSDLPDPSIVPFFCGETILVNGKVWPYLEVEPRKYRFRILNASNTRTYELHLDNDATILQIGSDGGFLPRPVHHQSFSIAPAERFDVIIDFSAYENQTIVLKNKAGCGQEVNPETDANIMQFKVTRPLKGRAAKTLRPIFKPLPPLRPSRADNERTLTLTGTQDKYGRPILLLDNQFWNDPVTENPRLGSVEVWNIVNPTRGTHPIHLHLVQFRVIDRRPFDTDIYQSTGEIVYTGPNEAPPLHEQGYKDTIQAHAGEVIRIIARFVPYSGRYVWHCHILEHEDYDMMRPMDIIQ
+  mutant_sequence: MNLEKFVDELPIPEVAEPVKKNPRQTYYEIAMEEVFLKVHSDLPPTKLWTYNGGLPGPTIKANRNEKVKVKWMNKLPLKHFLPVDHTIHAGHHDEPEVKTVVHLHGGVTPASSDGYPEAWFSRDFEATGPFFEREVYEYPNHQQACTLWYHDHAMALTRLNVYAGLAGFYLISDAFEKSLELPKDEYDIPLMIMDRTFQEDGALFYPSRPNNTPEDSDLPDPSIVPFFCGETILVNGKVWPYLEVEPRKYRFRILNASNTRTYELHLDNDATILQIGSDGGFLPRPVHHQSFSIAPAERFDVIIDFSAYENQTIVLKNKAGCGQEVNPETDANIMQFKVTRPLKGRAAKTLRPIFKPLPPLRPSRADNERTLTLTGTQDKYGRPIWLLDNQFWNDPVTENPRLGSVEVWNIVNPTRGTHPIHLHLVQFRVIDRRPFDTDIYQSTGEIVYTGPNEAPPLHEQGYKDTIQAHAGEVIRIIARFVPYSGRYVWHCHILEHEDYDMMRPMDIIQ
+complexes: null
+small_molecules:
+- id: substrate_2
+  name: '2'
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_2_-Azino-bis_3-ethylbenzthiazoline-6-sulfonic_acid_
+  name: 2'-Azino-bis(3-ethylbenzthiazoline-6-sulfonic acid)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_O2
+  name: O2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_Oxidized_2
+  name: Oxidized 2
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_2_-azino-bis_3-ethylbenzthiazoline-6-sulfonic_acid_
+  name: 2'-azino-bis(3-ethylbenzthiazoline-6-sulfonic acid)
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator_Cu2_
+  name: Cu2+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_12786_EC1_10_3_2_rat_A0A0G2QNK1_2
+  name: Reaction catalyzed by laccase on 2
+  equation: O2 + 2,2'-Azino-bis(3-ethylbenzthiazoline-6-sulfonic acid) = Oxidized
+    2,2'-azino-bis(3-ethylbenzthiazoline-6-sulfonic acid) + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2
+  - species_id: substrate_2_-Azino-bis_3-ethylbenzthiazoline-6-sulfonic_acid_
+  - species_id: substrate_O2
+  products:
+  - species_id: product_Oxidized_2
+  - species_id: product_2_-azino-bis_3-ethylbenzthiazoline-6-sulfonic_acid_
+  modifiers:
+  - species_id: protein_1_10_3_2_A0A0G2QNK1_p69298
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:26689;
+    CHEBI:42857; CHEBI:41979; CHEBI:23833; CHEBI:13416; CHEBI:42043; CHEBI:33811;
+    CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:15379; CHEBI:43228;
+    CHEBI:44292; CHEBI:30491; CHEBI:33806; CHEBI:25366; CHEBI:44742; CHEBI:5585; CHEBI:29374;
+    CHEBI:10743; CHEBI:29793; CHEBI:7860; CHEBI:10745; CHEBI:29373; CHEBI:44701
+
+    KEGG IDs: KEGG:C00001; KEGG:C00007; KEGG:C00704'
+- id: sabiork_12786_EC1_10_3_2_rat_A0A0G2QNK1_2
+  name: Reaction catalyzed by laccase on 2
+  equation: O2 + 2,2'-Azino-bis(3-ethylbenzthiazoline-6-sulfonic acid) = Oxidized
+    2,2'-azino-bis(3-ethylbenzthiazoline-6-sulfonic acid) + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2
+  - species_id: substrate_2_-Azino-bis_3-ethylbenzthiazoline-6-sulfonic_acid_
+  - species_id: substrate_O2
+  products:
+  - species_id: product_Oxidized_2
+  - species_id: product_2_-azino-bis_3-ethylbenzthiazoline-6-sulfonic_acid_
+  modifiers:
+  - species_id: protein_1_10_3_2_A0A0G2QNK1_p69422
+    role: BIOCATALYST
+  - species_id: activator_Cu2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:49550;
+    CHEBI:26689; CHEBI:42857; CHEBI:41979; CHEBI:23833; CHEBI:13416; CHEBI:42043;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:15379;
+    CHEBI:43228; CHEBI:44292; CHEBI:30491; CHEBI:33806; CHEBI:20882; CHEBI:25366;
+    CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:29793; CHEBI:7860; CHEBI:29036;
+    CHEBI:10745; CHEBI:29373; CHEBI:44701; CHEBI:23380
+
+    KEGG IDs: KEGG:C00070; KEGG:C00001; KEGG:C00007; KEGG:C00704'
+- id: sabiork_12786_EC1_10_3_2_rat_A0A0G2QNK1_2
+  name: Reaction catalyzed by laccase on 2
+  equation: O2 + 2,2'-Azino-bis(3-ethylbenzthiazoline-6-sulfonic acid) = Oxidized
+    2,2'-azino-bis(3-ethylbenzthiazoline-6-sulfonic acid) + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2
+  - species_id: substrate_2_-Azino-bis_3-ethylbenzthiazoline-6-sulfonic_acid_
+  - species_id: substrate_O2
+  products:
+  - species_id: product_Oxidized_2
+  - species_id: product_2_-azino-bis_3-ethylbenzthiazoline-6-sulfonic_acid_
+  modifiers:
+  - species_id: protein_1_10_3_2_A0A0G2QNK1_p69427
+    role: BIOCATALYST
+  - species_id: activator_Cu2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:49550;
+    CHEBI:26689; CHEBI:42857; CHEBI:41979; CHEBI:23833; CHEBI:13416; CHEBI:42043;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:15379;
+    CHEBI:43228; CHEBI:44292; CHEBI:30491; CHEBI:33806; CHEBI:20882; CHEBI:25366;
+    CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:29793; CHEBI:7860; CHEBI:29036;
+    CHEBI:10745; CHEBI:29373; CHEBI:44701; CHEBI:23380
+
+    KEGG IDs: KEGG:C00070; KEGG:C00001; KEGG:C00007; KEGG:C00704'
+- id: sabiork_12786_EC1_10_3_2_rat_A0A0G2QNK1_2
+  name: Reaction catalyzed by laccase on 2
+  equation: O2 + 2,2'-Azino-bis(3-ethylbenzthiazoline-6-sulfonic acid) = Oxidized
+    2,2'-azino-bis(3-ethylbenzthiazoline-6-sulfonic acid) + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2
+  - species_id: substrate_2_-Azino-bis_3-ethylbenzthiazoline-6-sulfonic_acid_
+  - species_id: substrate_O2
+  products:
+  - species_id: product_Oxidized_2
+  - species_id: product_2_-azino-bis_3-ethylbenzthiazoline-6-sulfonic_acid_
+  modifiers:
+  - species_id: protein_1_10_3_2_A0A0G2QNK1_p69424
+    role: BIOCATALYST
+  - species_id: activator_Cu2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:49550;
+    CHEBI:26689; CHEBI:42857; CHEBI:41979; CHEBI:23833; CHEBI:13416; CHEBI:42043;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:15379;
+    CHEBI:43228; CHEBI:44292; CHEBI:30491; CHEBI:33806; CHEBI:20882; CHEBI:25366;
+    CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:29793; CHEBI:7860; CHEBI:29036;
+    CHEBI:10745; CHEBI:29373; CHEBI:44701; CHEBI:23380
+
+    KEGG IDs: KEGG:C00070; KEGG:C00001; KEGG:C00007; KEGG:C00704'
+- id: sabiork_12786_EC1_10_3_2_rat_A0A0G2QNK1_2
+  name: Reaction catalyzed by laccase on 2
+  equation: O2 + 2,2'-Azino-bis(3-ethylbenzthiazoline-6-sulfonic acid) = Oxidized
+    2,2'-azino-bis(3-ethylbenzthiazoline-6-sulfonic acid) + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2
+  - species_id: substrate_2_-Azino-bis_3-ethylbenzthiazoline-6-sulfonic_acid_
+  - species_id: substrate_O2
+  products:
+  - species_id: product_Oxidized_2
+  - species_id: product_2_-azino-bis_3-ethylbenzthiazoline-6-sulfonic_acid_
+  modifiers:
+  - species_id: protein_1_10_3_2_A0A0G2QNK1_p69425
+    role: BIOCATALYST
+  - species_id: activator_Cu2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:49550;
+    CHEBI:26689; CHEBI:42857; CHEBI:41979; CHEBI:23833; CHEBI:13416; CHEBI:42043;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:15379;
+    CHEBI:43228; CHEBI:44292; CHEBI:30491; CHEBI:33806; CHEBI:20882; CHEBI:25366;
+    CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:29793; CHEBI:7860; CHEBI:29036;
+    CHEBI:10745; CHEBI:29373; CHEBI:44701; CHEBI:23380
+
+    KEGG IDs: KEGG:C00070; KEGG:C00001; KEGG:C00007; KEGG:C00704'
+- id: sabiork_12786_EC1_10_3_2_rat_A0A0G2QNK1_2
+  name: Reaction catalyzed by laccase on 2
+  equation: O2 + 2,2'-Azino-bis(3-ethylbenzthiazoline-6-sulfonic acid) = Oxidized
+    2,2'-azino-bis(3-ethylbenzthiazoline-6-sulfonic acid) + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2
+  - species_id: substrate_2_-Azino-bis_3-ethylbenzthiazoline-6-sulfonic_acid_
+  - species_id: substrate_O2
+  products:
+  - species_id: product_Oxidized_2
+  - species_id: product_2_-azino-bis_3-ethylbenzthiazoline-6-sulfonic_acid_
+  modifiers:
+  - species_id: protein_1_10_3_2_A0A0G2QNK1_p69426
+    role: BIOCATALYST
+  - species_id: activator_Cu2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:49550;
+    CHEBI:26689; CHEBI:42857; CHEBI:41979; CHEBI:23833; CHEBI:13416; CHEBI:42043;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:15379;
+    CHEBI:43228; CHEBI:44292; CHEBI:30491; CHEBI:33806; CHEBI:20882; CHEBI:25366;
+    CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:29793; CHEBI:7860; CHEBI:29036;
+    CHEBI:10745; CHEBI:29373; CHEBI:44701; CHEBI:23380
+
+    KEGG IDs: KEGG:C00070; KEGG:C00001; KEGG:C00007; KEGG:C00704'
+- id: sabiork_12786_EC1_10_3_2_rat_A0A0G2QNK1_2
+  name: Reaction catalyzed by laccase on 2
+  equation: O2 + 2,2'-Azino-bis(3-ethylbenzthiazoline-6-sulfonic acid) = Oxidized
+    2,2'-azino-bis(3-ethylbenzthiazoline-6-sulfonic acid) + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2
+  - species_id: substrate_2_-Azino-bis_3-ethylbenzthiazoline-6-sulfonic_acid_
+  - species_id: substrate_O2
+  products:
+  - species_id: product_Oxidized_2
+  - species_id: product_2_-azino-bis_3-ethylbenzthiazoline-6-sulfonic_acid_
+  modifiers:
+  - species_id: protein_1_10_3_2_A0A0G2QNK1_p69428
+    role: BIOCATALYST
+  - species_id: activator_Cu2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:49550;
+    CHEBI:26689; CHEBI:42857; CHEBI:41979; CHEBI:23833; CHEBI:13416; CHEBI:42043;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:15379;
+    CHEBI:43228; CHEBI:44292; CHEBI:30491; CHEBI:33806; CHEBI:20882; CHEBI:25366;
+    CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:29793; CHEBI:7860; CHEBI:29036;
+    CHEBI:10745; CHEBI:29373; CHEBI:44701; CHEBI:23380
+
+    KEGG IDs: KEGG:C00070; KEGG:C00001; KEGG:C00007; KEGG:C00704'
+- id: sabiork_12786_EC1_10_3_2_rat_A0A0G2QNK1_2
+  name: Reaction catalyzed by laccase on 2
+  equation: O2 + 2,2'-Azino-bis(3-ethylbenzthiazoline-6-sulfonic acid) = Oxidized
+    2,2'-azino-bis(3-ethylbenzthiazoline-6-sulfonic acid) + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2
+  - species_id: substrate_2_-Azino-bis_3-ethylbenzthiazoline-6-sulfonic_acid_
+  - species_id: substrate_O2
+  products:
+  - species_id: product_Oxidized_2
+  - species_id: product_2_-azino-bis_3-ethylbenzthiazoline-6-sulfonic_acid_
+  modifiers:
+  - species_id: protein_1_10_3_2_A0A0G2QNK1_p69430
+    role: BIOCATALYST
+  - species_id: activator_Cu2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:49550;
+    CHEBI:26689; CHEBI:42857; CHEBI:41979; CHEBI:23833; CHEBI:13416; CHEBI:42043;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:15379;
+    CHEBI:43228; CHEBI:44292; CHEBI:30491; CHEBI:33806; CHEBI:20882; CHEBI:25366;
+    CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:29793; CHEBI:7860; CHEBI:29036;
+    CHEBI:10745; CHEBI:29373; CHEBI:44701; CHEBI:23380
+
+    KEGG IDs: KEGG:C00070; KEGG:C00001; KEGG:C00007; KEGG:C00704'
+- id: sabiork_12786_EC1_10_3_2_rat_A0A0G2QNK1_2
+  name: Reaction catalyzed by laccase on 2
+  equation: O2 + 2,2'-Azino-bis(3-ethylbenzthiazoline-6-sulfonic acid) = Oxidized
+    2,2'-azino-bis(3-ethylbenzthiazoline-6-sulfonic acid) + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_2
+  - species_id: substrate_2_-Azino-bis_3-ethylbenzthiazoline-6-sulfonic_acid_
+  - species_id: substrate_O2
+  products:
+  - species_id: product_Oxidized_2
+  - species_id: product_2_-azino-bis_3-ethylbenzthiazoline-6-sulfonic_acid_
+  modifiers:
+  - species_id: protein_1_10_3_2_A0A0G2QNK1_p69431
+    role: BIOCATALYST
+  - species_id: activator_Cu2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:49550;
+    CHEBI:26689; CHEBI:42857; CHEBI:41979; CHEBI:23833; CHEBI:13416; CHEBI:42043;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:15379;
+    CHEBI:43228; CHEBI:44292; CHEBI:30491; CHEBI:33806; CHEBI:20882; CHEBI:25366;
+    CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:29793; CHEBI:7860; CHEBI:29036;
+    CHEBI:10745; CHEBI:29373; CHEBI:44701; CHEBI:23380
+
+    KEGG IDs: KEGG:C00070; KEGG:C00001; KEGG:C00007; KEGG:C00704'
+- id: sabiork_12786_EC1_10_3_2_rat_A0A0G2QNK1_O2
+  name: Reaction catalyzed by laccase on O2
+  equation: O2 + 2,2'-Azino-bis(3-ethylbenzthiazoline-6-sulfonic acid) = Oxidized
+    2,2'-azino-bis(3-ethylbenzthiazoline-6-sulfonic acid) + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_2
+  - species_id: substrate_2_-Azino-bis_3-ethylbenzthiazoline-6-sulfonic_acid_
+  products:
+  - species_id: product_Oxidized_2
+  - species_id: product_2_-azino-bis_3-ethylbenzthiazoline-6-sulfonic_acid_
+  modifiers:
+  - species_id: protein_1_10_3_2_A0A0G2QNK1_p69429
+    role: BIOCATALYST
+  - species_id: activator_Cu2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:49550;
+    CHEBI:26689; CHEBI:42857; CHEBI:41979; CHEBI:23833; CHEBI:13416; CHEBI:42043;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:15379;
+    CHEBI:43228; CHEBI:44292; CHEBI:30491; CHEBI:33806; CHEBI:20882; CHEBI:25366;
+    CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:29793; CHEBI:7860; CHEBI:29036;
+    CHEBI:10745; CHEBI:29373; CHEBI:44701; CHEBI:23380
+
+    KEGG IDs: KEGG:C00070; KEGG:C00001; KEGG:C00007; KEGG:C00704'
+- id: sabiork_12786_EC1_10_3_2_rat_A0A0G2QNK1_O2
+  name: Reaction catalyzed by laccase on O2
+  equation: O2 + 2,2'-Azino-bis(3-ethylbenzthiazoline-6-sulfonic acid) = Oxidized
+    2,2'-azino-bis(3-ethylbenzthiazoline-6-sulfonic acid) + H2O
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_O2
+  - species_id: substrate_2
+  - species_id: substrate_2_-Azino-bis_3-ethylbenzthiazoline-6-sulfonic_acid_
+  products:
+  - species_id: product_Oxidized_2
+  - species_id: product_2_-azino-bis_3-ethylbenzthiazoline-6-sulfonic_acid_
+  modifiers:
+  - species_id: protein_1_10_3_2_A0A0G2QNK1_p69432
+    role: BIOCATALYST
+  - species_id: activator_Cu2_
+    role: ACTIVATOR
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:25805; CHEBI:29375; CHEBI:44819; CHEBI:41981; CHEBI:49550;
+    CHEBI:26689; CHEBI:42857; CHEBI:41979; CHEBI:23833; CHEBI:13416; CHEBI:42043;
+    CHEBI:33811; CHEBI:33813; CHEBI:27313; CHEBI:15377; CHEBI:13352; CHEBI:15379;
+    CHEBI:43228; CHEBI:44292; CHEBI:30491; CHEBI:33806; CHEBI:20882; CHEBI:25366;
+    CHEBI:44742; CHEBI:5585; CHEBI:29374; CHEBI:10743; CHEBI:29793; CHEBI:7860; CHEBI:29036;
+    CHEBI:10745; CHEBI:29373; CHEBI:44701; CHEBI:23380
+
+    KEGG IDs: KEGG:C00070; KEGG:C00001; KEGG:C00007; KEGG:C00704'
+measurements:
+- id: measurement_1_10_3_2_rat_A0A0G2QNK1_2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 3.6
+  temperature_opt: 50.0
+  temperature_unit: °C
+- id: measurement_1_10_3_2_rat_A0A0G2QNK1_2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 3.5
+  temperature_opt: 50.0
+  temperature_unit: °C
+- id: measurement_1_10_3_2_rat_A0A0G2QNK1_2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 3.5
+  temperature_opt: 50.0
+  temperature_unit: °C
+- id: measurement_1_10_3_2_rat_A0A0G2QNK1_2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 3.5
+  temperature_opt: 50.0
+  temperature_unit: °C
+- id: measurement_1_10_3_2_rat_A0A0G2QNK1_2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 3.5
+  temperature_opt: 50.0
+  temperature_unit: °C
+- id: measurement_1_10_3_2_rat_A0A0G2QNK1_2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 3.5
+  temperature_opt: 50.0
+  temperature_unit: °C
+- id: measurement_1_10_3_2_rat_A0A0G2QNK1_2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 3.5
+  temperature_opt: 50.0
+  temperature_unit: °C
+- id: measurement_1_10_3_2_rat_A0A0G2QNK1_2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 3.5
+  temperature_opt: 50.0
+  temperature_unit: °C
+- id: measurement_1_10_3_2_rat_A0A0G2QNK1_2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 3.5
+  temperature_opt: 50.0
+  temperature_unit: °C
+- id: measurement_1_10_3_2_rat_A0A0G2QNK1_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 3.5
+  temperature_opt: 50.0
+  temperature_unit: °C
+- id: measurement_1_10_3_2_rat_A0A0G2QNK1_O2
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 3.5
+  temperature_opt: 50.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_10_3_2_rat_A0A0G2QNK1_2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.00011551
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 3.6
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29224621'
+- id: 1_10_3_2_rat_A0A0G2QNK1_2_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 706260.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 3.6
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29224621'
+- id: 1_10_3_2_rat_A0A0G2QNK1_2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 81.58
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 3.6
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '29224621'
+- id: 1_10_3_2_rat_A0A0G2QNK1_2_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 228470.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 3.5
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27826721'
+- id: 1_10_3_2_rat_A0A0G2QNK1_2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000203
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 3.5
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27826721'
+- id: 1_10_3_2_rat_A0A0G2QNK1_2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 46.38
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 3.5
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27826721'
+- id: 1_10_3_2_rat_A0A0G2QNK1_2_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 146260.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 3.5
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27826721'
+- id: 1_10_3_2_rat_A0A0G2QNK1_2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 40.66
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 3.5
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27826721'
+- id: 1_10_3_2_rat_A0A0G2QNK1_2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000278
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 3.5
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27826721'
+- id: 1_10_3_2_rat_A0A0G2QNK1_2_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 663980.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 3.5
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27826721'
+- id: 1_10_3_2_rat_A0A0G2QNK1_2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 65.07
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 3.5
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27826721'
+- id: 1_10_3_2_rat_A0A0G2QNK1_2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 9.8e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 3.5
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27826721'
+- id: 1_10_3_2_rat_A0A0G2QNK1_2_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 428100.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 3.5
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27826721'
+- id: 1_10_3_2_rat_A0A0G2QNK1_2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000137
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 3.5
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27826721'
+- id: 1_10_3_2_rat_A0A0G2QNK1_2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 58.65
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 3.5
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27826721'
+- id: 1_10_3_2_rat_A0A0G2QNK1_2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000115
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 3.5
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27826721'
+- id: 1_10_3_2_rat_A0A0G2QNK1_2_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 724780.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 3.5
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27826721'
+- id: 1_10_3_2_rat_A0A0G2QNK1_2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 83.35
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 3.5
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27826721'
+- id: 1_10_3_2_rat_A0A0G2QNK1_2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 30.11
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 3.5
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27826721'
+- id: 1_10_3_2_rat_A0A0G2QNK1_2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000287
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 3.5
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27826721'
+- id: 1_10_3_2_rat_A0A0G2QNK1_2_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 104910.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 3.5
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27826721'
+- id: 1_10_3_2_rat_A0A0G2QNK1_2_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 216460.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 3.5
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27826721'
+- id: 1_10_3_2_rat_A0A0G2QNK1_2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000212
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 3.5
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27826721'
+- id: 1_10_3_2_rat_A0A0G2QNK1_2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 45.89
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 3.5
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27826721'
+- id: 1_10_3_2_rat_A0A0G2QNK1_2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 68.89
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 3.5
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27826721'
+- id: 1_10_3_2_rat_A0A0G2QNK1_2_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 240870.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 3.5
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27826721'
+- id: 1_10_3_2_rat_A0A0G2QNK1_2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000286
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 3.5
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27826721'
+- id: 1_10_3_2_rat_A0A0G2QNK1_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000223
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 3.5
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27826721'
+- id: 1_10_3_2_rat_A0A0G2QNK1_O2_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 374710.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 3.5
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27826721'
+- id: 1_10_3_2_rat_A0A0G2QNK1_O2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 83.56
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 3.5
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27826721'
+- id: 1_10_3_2_rat_A0A0G2QNK1_O2_kcat_Km_1
+  name: kcat/Km
+  symbol: null
+  value: null
+  unit: 1/(M*s)
+  initial_value: 165770.0
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: SPECIFICITY_CONSTANT
+  pH: 3.5
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27826721'
+- id: 1_10_3_2_rat_A0A0G2QNK1_O2_kcat_1
+  name: kcat
+  symbol: null
+  value: null
+  unit: 1/s
+  initial_value: 40.78
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 3.5
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27826721'
+- id: 1_10_3_2_rat_A0A0G2QNK1_O2_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.000246
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_O2
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 3.5
+  temperature: 50.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '27826721'
+buffer:
+  buffer: 100 mM sodium citrate/phosphate; 100 mM citrate-phosphate
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 69298
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/29224621/
+  pubmed_id: '29224621'
+  doi: null
+- title: Reference for SABIO-RK entry 69422
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/27826721/
+  pubmed_id: '27826721'
+  doi: null
+name: Merged entry for A0A0G2QNK1 L386W
+description: 'Merged from 11 files: SABIO_EC1.10.3.2_rat__A0A0G2QNK1_L386W_s_2.yaml,
+  SABIO_EC1.10.3.2_rat__A0A0G2QNK1_L386W_s_2_2.yaml, SABIO_EC1.10.3.2_rat__A0A0G2QNK1_L386W_s_2_6.yaml,
+  SABIO_EC1.10.3.2_rat__A0A0G2QNK1_L386W_s_2_3.yaml, SABIO_EC1.10.3.2_rat__A0A0G2QNK1_L386W_s_2_4.yaml,
+  SABIO_EC1.10.3.2_rat__A0A0G2QNK1_L386W_s_2_5.yaml, SABIO_EC1.10.3.2_rat__A0A0G2QNK1_L386W_s_2_7.yaml,
+  SABIO_EC1.10.3.2_rat__A0A0G2QNK1_L386W_s_2_8.yaml, SABIO_EC1.10.3.2_rat__A0A0G2QNK1_L386W_s_2_9.yaml,
+  SABIO_EC1.10.3.2_rat__A0A0G2QNK1_L386W_s_O2.yaml, SABIO_EC1.10.3.2_rat__A0A0G2QNK1_L386W_s_O2_2.yaml'

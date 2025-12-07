@@ -1,0 +1,575 @@
+version: '2.0'
+created: '2025-11-20T13:39:24.109312'
+modified: null
+creators:
+- given_name: SABIO-RK
+  family_name: Database
+  mail: sabiork@h-its.org
+vessels: null
+proteins:
+- id: protein_1_1_1_45_P14755_p22772
+  name: L-gulonate 3-dehydrogenase
+  ecnumber: 1.1.1.45
+  organism: Oryctolagus cuniculus
+  organism_tax_id: null
+  synonymous_names: null
+  variant_type: mutant
+  variant_description: D36R
+  uniprotid: P14755
+  wildtype_sequence: MASPAAGDVLIVGSGLVGRSWAMLFASGGFRVKLYDIEPRQITGALENIRKEMKSLQQSGSLKGSLSAEEQLSLISSCTNLAEAVEGVVHIQECVPENLDLKRKIFAQLDSIVDDRVVLSSSSSCLLPSKLFTGLAHVKQCIVAHPVNPPYYIPLVELVPHPETSPATVDRTHALMRKIGQSPVRVLKEIDGFVLNRLQYAIISEAWRLVEEGIVSPSDLDLVMSDGLGMRYAFIGPLETMHLNAEGMLSYCDRYSEGMKRVLKSFGSIPEFSGATVEKVNQAMCKKVPADPEHLAARREWRDECLKRLAKLKRQMQPQ
+  mutant_sequence: MASPAAGDVLIVGSGLVGRSWAMLFASGGFRVKLYRIEPRQITGALENIRKEMKSLQQSGSLKGSLSAEEQLSLISSCTNLAEAVEGVVHIQECVPENLDLKRKIFAQLDSIVDDRVVLSSSSSCLLPSKLFTGLAHVKQCIVAHPVNPPYYIPLVELVPHPETSPATVDRTHALMRKIGQSPVRVLKEIDGFVLNRLQYAIISEAWRLVEEGIVSPSDLDLVMSDGLGMRYAFIGPLETMHLNAEGMLSYCDRYSEGMKRVLKSFGSIPEFSGATVEKVNQAMCKKVPADPEHLAARREWRDECLKRLAKLKRQMQPQ
+complexes: null
+small_molecules:
+- id: substrate_L-Gulonate
+  name: L-Gulonate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NAD_
+  name: NAD+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_3-Dehydro-L-gulonate
+  name: 3-Dehydro-L-gulonate
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADH
+  name: NADH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: activator
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: inhibitor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: cofactor
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: metal
+  name: null
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: substrate_NADP_
+  name: NADP+
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+- id: product_NADPH
+  name: NADPH
+  canonical_smiles: null
+  inchi: null
+  inchikey: null
+  synonymous_names: null
+  KEGGid: null
+  CHEbIid: null
+  notes: null
+reactions:
+- id: sabiork_2539_EC1_1_1_45_Oryctolagus_cuniculus_P14755_L-Gulonate
+  name: Reaction catalyzed by L-gulonate 3-dehydrogenase on L-Gulonate
+  equation: NAD+ + L-Gulonate = NADH + H+ + 3-Dehydro-L-gulonate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Gulonate
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_3-Dehydro-L-gulonate
+  - species_id: product_NADH
+  modifiers:
+  - species_id: protein_1_1_1_45_P14755_p22772
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 12889;12890;12891;12892
+  KEGGid: R02640
+  notes: 'ChEBI IDs: CHEBI:21319; CHEBI:6235; CHEBI:1482; CHEBI:19992; CHEBI:44281;
+    CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:13396;
+    CHEBI:21901; CHEBI:24636; CHEBI:44214; CHEBI:24462; CHEBI:29233; CHEBI:13394;
+    CHEBI:21318; CHEBI:5584; CHEBI:16154; CHEBI:57945; CHEBI:44216; CHEBI:57655; CHEBI:57540;
+    CHEBI:13115; CHEBI:7423; CHEBI:11777; CHEBI:16142; CHEBI:13389; CHEBI:24461; CHEBI:15378;
+    CHEBI:13395; CHEBI:44215; CHEBI:10744; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00618; KEGG:C00080; KEGG:C00800; KEGG:C00003; KEGG:C00004'
+- id: sabiork_2539_EC1_1_1_45_Oryctolagus_cuniculus_P14755_L-Gulonate
+  name: Reaction catalyzed by L-gulonate 3-dehydrogenase on L-Gulonate
+  equation: NAD+ + L-Gulonate = NADH + H+ + 3-Dehydro-L-gulonate
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Gulonate
+  - species_id: substrate_NAD_
+  products:
+  - species_id: product_NADH
+  - species_id: product_3-Dehydro-L-gulonate
+  modifiers:
+  - species_id: protein_1_1_1_45_P14755_p22773
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: 12889;12890;12891;12892
+  KEGGid: R02640
+  notes: 'ChEBI IDs: CHEBI:21319; CHEBI:6235; CHEBI:1482; CHEBI:19992; CHEBI:44281;
+    CHEBI:13393; CHEBI:29234; CHEBI:15846; CHEBI:13357; CHEBI:21902; CHEBI:13396;
+    CHEBI:21901; CHEBI:24636; CHEBI:44214; CHEBI:24462; CHEBI:29233; CHEBI:13394;
+    CHEBI:21318; CHEBI:5584; CHEBI:16154; CHEBI:57945; CHEBI:44216; CHEBI:57655; CHEBI:57540;
+    CHEBI:13115; CHEBI:7423; CHEBI:11777; CHEBI:13389; CHEBI:16142; CHEBI:24461; CHEBI:13395;
+    CHEBI:15378; CHEBI:44215; CHEBI:10744; CHEBI:7422; CHEBI:16908
+
+    KEGG IDs: KEGG:C00618; KEGG:C00080; KEGG:C00800; KEGG:C00003; KEGG:C00004'
+- id: sabiork_10410_EC1_1_1_45_Oryctolagus_cuniculus_P14755_L-Gulonate
+  name: Reaction catalyzed by L-gulonate 3-dehydrogenase on L-Gulonate
+  equation: L-Gulonate + NADP+ = 3-Dehydro-L-gulonate + H+ + NADPH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_L-Gulonate
+  - species_id: substrate_NADP_
+  products:
+  - species_id: product_3-Dehydro-L-gulonate
+  - species_id: product_NADPH
+  modifiers:
+  - species_id: protein_1_1_1_45_P14755_p22779
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:21319; CHEBI:6235; CHEBI:13397; CHEBI:13398; CHEBI:1482;
+    CHEBI:19992; CHEBI:7424; CHEBI:21903; CHEBI:44405; CHEBI:7425; CHEBI:29234; CHEBI:25523;
+    CHEBI:13357; CHEBI:24636; CHEBI:24462; CHEBI:29233; CHEBI:21318; CHEBI:13399;
+    CHEBI:5584; CHEBI:16154; CHEBI:16474; CHEBI:44286; CHEBI:57655; CHEBI:13115; CHEBI:11777;
+    CHEBI:21904; CHEBI:16142; CHEBI:44409; CHEBI:24461; CHEBI:15378; CHEBI:18009;
+    CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00618; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00800; KEGG:C11037'
+- id: sabiork_10410_EC1_1_1_45_Oryctolagus_cuniculus_P14755_NADP_
+  name: Reaction catalyzed by L-gulonate 3-dehydrogenase on NADP+
+  equation: L-Gulonate + NADP+ = 3-Dehydro-L-gulonate + H+ + NADPH
+  smiles_equation: null
+  reversible: true
+  reactants:
+  - species_id: substrate_NADP_
+  - species_id: substrate_L-Gulonate
+  products:
+  - species_id: product_NADPH
+  - species_id: product_3-Dehydro-L-gulonate
+  modifiers:
+  - species_id: protein_1_1_1_45_P14755_p22778
+    role: BIOCATALYST
+  selectivity: null
+  Rheaid: null
+  KEGGid: null
+  notes: 'ChEBI IDs: CHEBI:21319; CHEBI:6235; CHEBI:13397; CHEBI:13398; CHEBI:1482;
+    CHEBI:19992; CHEBI:7424; CHEBI:21903; CHEBI:44405; CHEBI:7425; CHEBI:29234; CHEBI:25523;
+    CHEBI:13357; CHEBI:24636; CHEBI:24462; CHEBI:29233; CHEBI:21318; CHEBI:13399;
+    CHEBI:5584; CHEBI:16154; CHEBI:16474; CHEBI:44286; CHEBI:57655; CHEBI:13115; CHEBI:11777;
+    CHEBI:21904; CHEBI:16142; CHEBI:44409; CHEBI:24461; CHEBI:15378; CHEBI:18009;
+    CHEBI:58349; CHEBI:13400; CHEBI:57783; CHEBI:10744
+
+    KEGG IDs: KEGG:C00618; KEGG:C00005; KEGG:C00080; KEGG:C00006; KEGG:C00800; KEGG:C11037'
+measurements:
+- id: measurement_1_1_1_45_Oryctolagus_cuniculus_P14755_L-Gulonate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_1_1_45_Oryctolagus_cuniculus_P14755_L-Gulonate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_1_1_45_Oryctolagus_cuniculus_P14755_L-Gulonate
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+- id: measurement_1_1_1_45_Oryctolagus_cuniculus_P14755_NADP_
+  name: Experimental conditions (TN)
+  species_data: null
+  ph_opt: 7.0
+  temperature_opt: 25.0
+  temperature_unit: °C
+equations: null
+parameters:
+- id: 1_1_1_45_Oryctolagus_cuniculus_P14755_L-Gulonate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.014
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Gulonate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15809331'
+- id: 1_1_1_45_Oryctolagus_cuniculus_P14755_L-Gulonate_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0013
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Gulonate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15809331'
+- id: 1_1_1_45_Oryctolagus_cuniculus_P14755_L-Gulonate_Km_3
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.01666667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Gulonate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15809331'
+- id: 1_1_1_45_Oryctolagus_cuniculus_P14755_L-Gulonate_Km_4
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0015
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Gulonate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15809331'
+- id: 1_1_1_45_Oryctolagus_cuniculus_P14755_L-Gulonate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 2.23333e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Gulonate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15809331'
+- id: 1_1_1_45_Oryctolagus_cuniculus_P14755_L-Gulonate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 5.0e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Gulonate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15809331'
+- id: 1_1_1_45_Oryctolagus_cuniculus_P14755_L-Gulonate_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.078
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Gulonate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15809331'
+- id: 1_1_1_45_Oryctolagus_cuniculus_P14755_L-Gulonate_Km_3
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.144
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Gulonate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15809331'
+- id: 1_1_1_45_Oryctolagus_cuniculus_P14755_L-Gulonate_Km_4
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0001
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Gulonate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15809331'
+- id: 1_1_1_45_Oryctolagus_cuniculus_P14755_L-Gulonate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 6.666667e-06
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Gulonate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15809331'
+- id: 1_1_1_45_Oryctolagus_cuniculus_P14755_L-Gulonate_Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0003
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Gulonate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15809331'
+- id: 1_1_1_45_Oryctolagus_cuniculus_P14755_L-Gulonate_Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.008
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Gulonate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15809331'
+- id: 1_1_1_45_Oryctolagus_cuniculus_P14755_L-Gulonate_Km_3
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.01166667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Gulonate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15809331'
+- id: 1_1_1_45_Oryctolagus_cuniculus_P14755_L-Gulonate_Km_4
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.2833333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Gulonate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15809331'
+- id: 1_1_1_45_Oryctolagus_cuniculus_P14755_L-Gulonate_Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 8.33333e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_L-Gulonate
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15809331'
+- id: 1_1_1_45_Oryctolagus_cuniculus_P14755_NADP__Vmax_1
+  name: Vmax
+  symbol: null
+  value: null
+  unit: mols-1g-1
+  initial_value: 3.16667e-05
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15809331'
+- id: 1_1_1_45_Oryctolagus_cuniculus_P14755_NADP__Km_1
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0002
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15809331'
+- id: 1_1_1_45_Oryctolagus_cuniculus_P14755_NADP__Km_2
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.1583333
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15809331'
+- id: 1_1_1_45_Oryctolagus_cuniculus_P14755_NADP__Km_3
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.0185
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15809331'
+- id: 1_1_1_45_Oryctolagus_cuniculus_P14755_NADP__Km_4
+  name: Km
+  symbol: null
+  value: null
+  unit: M
+  initial_value: 0.001666667
+  upper_bound: null
+  lower_bound: null
+  associated_species: substrate_NADP_
+  original_name: null
+  parameter.type: KINETIC_CONSTANT
+  pH: 7.0
+  temperature: 25.0
+  temperature_unit: °C
+  notes: null
+  pubmed_id: '15809331'
+buffer:
+  buffer: 50 mM MOPS
+  buffer_concentration: null
+references:
+- title: Reference for SABIO-RK entry 22772
+  authors: null
+  year: null
+  journal: SABIO-RK Database
+  uri: https://pubmed.ncbi.nlm.nih.gov/15809331/
+  pubmed_id: '15809331'
+  doi: null
+name: Merged entry for P14755 D36R
+description: 'Merged from 4 files: SABIO_EC1.1.1.45_Oryctolagus_cuniculus__P14755_D36R_s_L-Gulonate.yaml,
+  SABIO_EC1.1.1.45_Oryctolagus_cuniculus__P14755_D36R_s_L-Gulonate_2.yaml, SABIO_EC1.1.1.45_Oryctolagus_cuniculus__P14755_D36R_s_L-Gulonate_3.yaml,
+  SABIO_EC1.1.1.45_Oryctolagus_cuniculus__P14755_D36R_s_NADP_.yaml'
