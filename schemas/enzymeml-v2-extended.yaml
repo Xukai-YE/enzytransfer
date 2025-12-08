@@ -1,0 +1,512 @@
+id: enzml
+name: EnzymeML_V2_Extended
+title: EnzymeML V2 Extended for SABIO-RK
+description: Extended EnzymeML v2 schema with additional fields for SABIO-RK data
+prefixes:
+  enzml: https://enzymeml.org/
+  OBO: http://purl.obolibrary.org/obo/
+  schema: https://schema.org/
+  linkml: https://w3id.org/linkml/
+  xsd: http://www.w3.org/2001/XMLSchema#
+default_prefix: enzml
+default_range: string
+
+types:
+  string:
+    uri: xsd:string
+    base: str
+  integer:
+    uri: xsd:integer
+    base: int
+  boolean:
+    uri: xsd:boolean
+    base: Bool
+  float:
+    uri: xsd:float
+    base: float
+  double:
+    uri: xsd:double
+    base: float
+
+classes:
+  EnzymeMLDocument:
+    description: The EnzymeMLDocument is the root object
+    tree_root: true
+    attributes:
+      name:
+        description: Title of the EnzymeML Document.
+        slot_uri: schema:title
+        required: true
+      version:
+        description: The version of the EnzymeML Document.
+        required: true
+      description:
+        description: Description of the EnzymeML Document.
+      created:
+        description: Date the EnzymeML Document was created.
+        slot_uri: schema:dateCreated
+      modified:
+        description: Date the EnzymeML Document was modified.
+        slot_uri: schema:dateModified
+      creators:
+        description: Contains descriptions of all authors.
+        slot_uri: schema:creator
+        required: true
+        range: Creator
+        multivalued: true
+      vessels:
+        description: Contains descriptions of all vessels.
+        required: true
+        range: Vessel
+        multivalued: true
+      proteins:
+        description: Contains descriptions of all proteins.
+        range: Protein
+        multivalued: true
+      complexes:
+        description: Contains descriptions of all complexes.
+        range: Complex
+        multivalued: true
+      small_molecules:
+        description: Contains descriptions of all reactants.
+        range: SmallMolecule
+        multivalued: true
+      reactions:
+        description: Contains descriptions of all reactions.
+        range: Reaction
+        multivalued: true
+      measurements:
+        description: Contains descriptions of all measurements.
+        range: Measurement
+        multivalued: true
+      equations:
+        description: Contains descriptions of all equations.
+        range: Equation
+        multivalued: true
+      parameters:
+        description: Contains descriptions of all parameters.
+        range: Parameter
+        multivalued: true
+      buffer:                           
+        description: Buffer information for the experiment.
+        range: string
+      references:
+        description: List of references for this document
+        range: Reference
+        multivalued: true
+
+  Creator:
+    description: Author or contributor information.
+    attributes:
+      given_name:
+        description: Given name of the author.
+        slot_uri: schema:givenName
+        required: true
+      family_name:
+        description: Family name of the author.
+        slot_uri: schema:familyName
+        required: true
+      mail:
+        description: Email address of the author.
+        slot_uri: schema:email
+        required: true
+
+  Vessel:
+    description: Reaction vessels used in experiments.
+    attributes:
+      id:
+        description: Unique identifier of the vessel.
+        slot_uri: schema:identifier
+        identifier: true
+        required: true
+      name:
+        description: Name of the vessel.
+        slot_uri: schema:name
+        required: true
+      volume:
+        description: Volumetric value of the vessel.
+        required: true
+        range: float
+      unit:
+        description: Volumetric unit of the vessel.
+        required: true
+        range: UnitDefinition
+
+
+  Protein:
+    description: Enzymes and proteins involved in the experiment.
+    attributes:
+      id:
+        description: Identifier of the protein.
+        slot_uri: schema:identifier
+        identifier: true
+        required: true
+      name:
+        description: Name of the protein.
+        slot_uri: schema:name
+        required: true
+      sequence:
+        description: Amino acid sequence of the protein.
+      ecnumber:
+        description: EC number of the protein.
+      organism:
+        description: Expression host organism.
+        slot_uri: OBO:OBI_0100026
+      organism_tax_id:
+        description: NCBI Taxonomy identifier.
+      synonymous_names:
+        description: Alternative names for the protein/enzyme.
+        multivalued: true
+      variant_type:
+        description: Type of variant (wildtype or mutant).
+        range: VariantType
+      variant_description:
+        description: Description of the variant.
+      uniprotid:
+        description: Uniprot accession.
+
+  SmallMolecule:
+    description: Small chemical compounds in the experiment.
+    attributes:
+      id:
+        description: Identifier of the small molecule.
+        slot_uri: schema:identifier
+        identifier: true
+        required: true
+      name:
+        description: Name of the small molecule.
+        slot_uri: schema:name
+        required: true
+      canonical_smiles:
+        description: SMILES encoding of the molecule.
+      inchi:
+        description: InChI encoding of the molecule.
+      inchikey:
+        description: InChIKey encoding of the molecule.
+      synonymous_names:
+        description: Synonymous names for the molecule.
+        multivalued: true
+      KEGGid:
+        description:  ID of KEGG.
+      CHEbIid:
+        description: ID of CHEbI.
+
+  Complex:
+    description: Multi-species complexes.
+    attributes:
+      id:
+        description: Unique identifier of the complex.
+        slot_uri: schema:identifier
+        identifier: true
+        required: true
+      name:
+        description: Name of the complex.
+        slot_uri: schema:name
+        required: true
+      constant:
+        description: Whether the concentration is constant.
+        required: true
+        range: boolean
+      vessel_id:
+        description: Identifier of the vessel.
+        slot_uri: schema:identifier
+      participants:
+        description: IDs of species in the complex.
+        multivalued: true
+
+  Reaction:
+    description: Chemical or enzymatic reaction.
+    attributes:
+      id:
+        description: Unique identifier of the reaction.
+        slot_uri: schema:identifier
+        identifier: true
+        required: true
+      name:
+        description: Name of the reaction.
+        required: true
+      equation:
+        description: Mathematical expression.
+        required: true
+      smiles_equation:
+        description: SMILES Mathematical expression
+      reversible:
+        description: Whether the reaction is reversible.
+        required: true
+        range: boolean
+      reactants:
+        description: List of reactants.
+        range: ReactionElement
+        multivalued: true
+      products:
+        description: List of products.
+        range: ReactionElement
+        multivalued: true
+      modifiers:
+        description: List of modifiers.
+        range: ModifierElement
+        multivalued: true
+      selectivity:
+        description: Selectivity of the Reactants.
+      Rheaid:
+        description: ID of RHEA.
+      KEGGid:
+        description: ID of KEGG Reaction.
+        
+
+  ReactionElement:
+    description: Species participating in the reaction.
+    attributes:
+      species_id:
+        description: Internal identifier to a species.
+        slot_uri: schema:identifier
+        identifier: true
+        required: true
+      # stoichiometry:
+      #   description: Stoichiometry coefficient.
+      #   required: true
+      #   range: float
+
+  Parameter:
+    description: Kinetic model parameters.
+    attributes:
+      id:
+        description: Identifier of the parameter.
+        slot_uri: schema:identifier
+        identifier: true
+        required: true
+      name:
+        description: Name of the parameter.
+        required: true
+      symbol:
+        description: Symbol of the parameter.
+        required: true
+      value:
+        description: Numerical value.
+        range: float
+      unit:
+        description: Unit of the parameter.
+        range: UnitDefinition
+      initial_value:
+        description: Initial value for estimation.
+        range: float
+      upper_bound:
+        description: Upper bound for estimation.
+        range: float
+      lower_bound:
+        description: Lower bound for estimation.
+        range: float
+      fit:
+        description: Whether to vary in optimization.
+        range: boolean
+      stderr:
+        description: Standard error.
+        range: float
+      constant:
+        description: Whether the parameter is constant.
+        range: boolean      
+      associated_species:
+        description: Species associated with this parameter.
+      original_name:
+        description: Original parameter name from source data.
+
+  Measurement:
+    description: Experimental measurement data.
+    attributes:
+      id:
+        description: Unique identifier.
+        slot_uri: schema:identifier
+        identifier: true
+        required: true
+      name:
+        description: Name of the measurement.
+        required: true
+      species_data:
+        description: Measurement data for species.
+        range: MeasurementData
+        multivalued: true
+      ph_opt:
+        description: pH value.
+        range: float
+        minimum_value: 0
+        maximum_value: 14
+      temperature_opt:
+        description: Temperature.
+        range: float
+      temperature_unit:
+        description: Unit of temperature.
+        range: UnitDefinition
+
+  MeasurementData:
+    description: Time course data for one species.
+    attributes:
+      species_id:
+        description: Identifier of the species.
+        identifier: true
+        required: true
+      prepared:
+        description: Prepared amount.
+        range: float
+      initial:
+        description: Initial amount.
+        range: float
+      data_unit:
+        description: Unit of measured data.
+        range: UnitDefinition
+      data:
+        description: Measured data points.
+        range: float
+        multivalued: true
+      time:
+        description: Time points.
+        range: float
+        multivalued: true
+      time_unit:
+        description: Unit of time.
+        range: UnitDefinition
+      data_type:
+        description: Type of data measured.
+        range: DataTypes
+      is_simulated:
+        description: Whether data is simulated.
+        range: boolean
+
+  Reference:
+    description: Reference to publications or databases.
+    attributes:
+      title:
+        description: Title of the referenced work.
+      authors:
+        description: Author list as a string; optional detailed Creator objects can
+          be linked elsewhere.
+      year:
+        description: Publication year.
+        range: integer
+      journal:
+        description: Journal or source name.
+      uri:
+        description: URIs pointing to the reference; include both PubMed and DOI links
+          when available.
+        range: uri
+        multivalued: true
+      pubmed_id:
+        description: PubMed identifier (PMID) if available.
+      doi:
+        description: Digital Object Identifier (DOI) if available.
+  BUFFER:
+    description: information about buffer.
+    attributes:
+        buffer:
+          description: buffer
+        buffer_concentration:
+          meaning: buffer_concentration
+          description: buffer_concentration
+
+UnitDefinition:
+    description: SI unit definition.
+    attributes:
+      id:
+        description: Unique identifier.
+      name:
+        description: Common name.
+      base_units:
+        description: Base units.
+        range: BaseUnit
+        multivalued: true
+
+BaseUnit:
+    description: Base unit in the definition.
+    attributes:
+      kind:
+        description: Kind of base unit.
+        required: true
+        range: UnitType
+      exponent:
+        description: Exponent.
+        required: true
+        range: integer
+      multiplier:
+        description: Multiplier.
+        range: float
+      scale:
+        description: Scale.
+        range: float
+
+        description: Scale of the base unit in the unit definition.
+        range: float
+enums:
+  ModifierRole:
+    permissible_values:
+      ACTIVATOR:
+        meaning: activator
+        description: activator
+      ADDITIVE:
+        meaning: additive
+        description: additive
+      BIOCATALYST:
+        meaning: biocatalyst
+        description: biocatalyst
+      BUFFER:
+        meaning: buffer
+        description: buffer
+      CATALYST:
+        meaning: catalyst
+        description: catalyst
+      INHIBITOR:
+        meaning: inhibitor
+        description: inhibitor
+      SOLVENT:
+        meaning: solvent
+        description: solvent
+  
+  EquationType:
+    permissible_values:
+      ASSIGNMENT:
+        meaning: assignment
+        description: assignment
+      INITIAL_ASSIGNMENT:
+        meaning: initialAssignment
+        description: initialAssignment
+      ODE:
+        meaning: ode
+        description: ode
+      RATE_LAW:
+        meaning: rateLaw
+        description: rateLaw
+  
+  DataTypes:
+    permissible_values:
+      ABSORBANCE:
+        meaning: absorbance
+        description: absorbance
+      AMOUNT:
+        meaning: amount
+        description: amount
+      CONCENTRATION:
+        meaning: concentration
+        description: concentration
+      CONVERSION:
+        meaning: conversion
+        description: conversion
+      FLUORESCENCE:
+        meaning: fluorescence
+        description: fluorescence
+      PEAK_AREA:
+        meaning: peakarea
+        description: peakarea
+      TRANSMITTANCE:
+        meaning: transmittance
+        description: transmittance
+      TURNOVER:
+        meaning: turnover
+        description: turnover
+      YIELD:
+        meaning: yield
+        description: yield
+  
+  VariantType:
+    permissible_values:
+      wildtype:
+        description: Wild-type protein
+      mutant:
+        description: Mutant protein with specific mutations
