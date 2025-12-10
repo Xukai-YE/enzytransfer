@@ -61,3 +61,24 @@ The core philosophy of EnzyTransfer is to decouple data sources from data struct
 ├── output/                        # Standardized EnzymeML YAML/JSON (local)
 ├── enzymeml_utils.py              # Shared helper module (Must be in PYTHONPATH)
 └── requirements.txt               # Python dependencies
+
+
+
+
+## Installation
+
+Clone the repository and set up a Python environment:
+
+```bash
+git clone https://github.com/Xukai-YE/enzytransfer.git
+cd enzytransfer
+
+# optional but recommended
+python -m venv .venv
+source .venv/bin/activate      # Windows: .venv\Scripts\activate
+
+# install core dependencies
+pip install pandas pyyaml openpyxl requests
+
+# optional: only if you use the LLM header standardizer
+pip install openai
